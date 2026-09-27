@@ -79,7 +79,7 @@ def source_files(root):
     root = Path(root)
     paths = set((root / "experiments").glob("*.py"))
     paths.update((root / "experiments/local_league").glob("*.py"))
-    for directory in ("submissions/first", "submissions/tuned"):
+    for directory in ("submissions/first", "submissions/tuned", "submissions/iterative-v3"):
         paths.update(p for p in (root / directory).glob("*") if p.suffix in {".cpp", ".hpp", ".json"})
     paths.add(root / "submissions/delineate-v1.zip")
     for directory in ("engine", "runner", "mapgen", "config", "bots/dist/starter/python"):

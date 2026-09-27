@@ -84,7 +84,7 @@ def prepare(output, population_spec=None):
     snapshot = output / "snapshot"
     inputs = {path.relative_to(ROOT) for path in (ROOT / 'experiments').glob('*.py')}
     inputs.update(path.relative_to(ROOT) for path in (ROOT / "experiments/local_league").glob("*.py"))
-    for folder in ("submissions/tuned", "submissions/first", "yk-development-tools/engine",
+    for folder in ("submissions/tuned", "submissions/first", "submissions/iterative-v3", "yk-development-tools/engine",
                    "yk-development-tools/runner", "yk-development-tools/mapgen", "yk-development-tools/config",
                    "yk-development-tools/bots/dist/starter/python"):
         inputs.update(path.relative_to(ROOT) for path in (ROOT / folder).rglob("*")
@@ -98,6 +98,14 @@ def prepare(output, population_spec=None):
     population = [{"id": "v2", "family": "baseline", "parameters": {},
                    "hypothesis": "현재 제출 기준선", "weakness": "공식 1차 경제·종반 패배", "source": source}]
     spec_config = population_spec or {}
+    for baseline in spec_config.get('extra_baselines', []):
+        relative = Path(baseline['source'])
+        if relative not in inputs:
+            raise ValueError(f'Baseline source is not frozen: {relative}')
+        population.append({'id': baseline['id'], 'family': 'baseline', 'parameters': {},
+                           'hypothesis': 'Frozen current submission baseline',
+                           'weakness': 'Known losses remain; compare on fresh maps',
+                           'source': (snapshot / relative).read_text()})
     if spec_config.get('include_parameters', True):
         population += parameter_variants(source)
     for module in spec_config.get('modules', ("repairs", "search_families", "challengers")):
@@ -106,11 +114,18 @@ def prepare(output, population_spec=None):
         spec = importlib.util.spec_from_file_location("league_" + module, path)
         loaded = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(loaded)
-        population += loaded.variants(source)
-        for revision in range(2, spec_config.get('revision', 1) + 1):
+        module_source = source
+        if module in spec_config.get('module_sources', {}):
+            relative = Path(spec_config['module_sources'][module])
+            if relative not in inputs:
+                raise ValueError(f'Module source is not frozen: {relative}')
+            module_source = (snapshot / relative).read_text()
+        population += loaded.variants(module_source)
+        module_revision = spec_config.get('module_revisions', {}).get(module, spec_config.get('revision', 1))
+        for revision in range(2, module_revision + 1):
             function = getattr(loaded, f'variants_iteration{revision}', None)
             if function is not None:
-                population += function(source)
+                population += function(module_source)
     population.append({"id": "v1", "family": "reference", "parameters": {},
                        "hypothesis": "과거 제출 회귀 검사", "weakness": "이전 후보", "source": (snapshot / "submissions/first/main.cpp").read_text()})
     population, aliases = filter_population(population, spec_config)
