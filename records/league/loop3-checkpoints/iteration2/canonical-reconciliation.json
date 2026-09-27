@@ -1,0 +1,80 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-09-27T18:58:17.559083+00:00",
+  "development_results_sha256": "1944c9e16600bf97b4c5f854a6d37bc1e600ab43db5e77f1dd253c492cad91bc",
+  "checks": [
+    {
+      "checkpoint": "development",
+      "path": "runs/development/summary.json",
+      "sha256": "40434169fae71c49ee158b44438ebc8ae6c6adee80b353883b6b365a50aeb552"
+    },
+    {
+      "checkpoint": "development",
+      "path": "development-selection.json",
+      "sha256": "84d895bfccb4348fba98db70fae2a30d259094679dbe15aa7cbcfb71a12bdd0a"
+    },
+    {
+      "checkpoint": "development",
+      "path": "campaign-policy.json",
+      "sha256": "a31ffd14eb508f255c2c3f6473f1564083d1d6fb6f0c8f92dab7f8cfa95bd50c"
+    },
+    {
+      "checkpoint": "selection",
+      "path": "runs/selection/summary.json",
+      "sha256": "a14f370f1a04f8e404a21019d986b0e7d4662f15b2f9afe249b9dd50fd088982"
+    },
+    {
+      "checkpoint": "selection",
+      "path": "locked-finalists.json",
+      "sha256": "dcc626f28ea72aa8af3ee05015049a99cd3a0067a98fbcdf760177fbb4204712"
+    },
+    {
+      "diagnostic": "warrior-reserve-development-audit",
+      "path": "records/league/loop3-iteration2/runs/development/replays/0b32535d23bdee575dc30345.json.gz",
+      "sha256": "0a29cac4f45be3221cdc77faa7b71a7b45ea2f4e1119f9bb1e70bdc23203da73"
+    },
+    {
+      "diagnostic": "warrior-reserve-development-audit",
+      "path": "records/league/loop3-iteration2/runs/development/replays/65a4ecf811203d4a8649d647.json.gz",
+      "sha256": "8e5d37129286d8fd032b91d3bff90f1ae86b547f88541f74ce6095d2e2f9b8fa"
+    },
+    {
+      "diagnostic": "warrior-reserve-development-audit",
+      "path": "records/league/loop3-iteration2/runs/development/replays/c6e5d47e619945441e4b7918.json.gz",
+      "sha256": "4ed831cc7e912a8a473383b5be60e9c94775f449d85883097045cea5bfd8c15c"
+    },
+    {
+      "diagnostic": "warrior-reserve-development-audit",
+      "path": "records/league/loop3-iteration2/runs/development/replays/46c4561666742abbff07ab7e.json.gz",
+      "sha256": "b563e1cdb6ce5ccb191e79210c275b8803f7e89d71c05e96fabca7db245bb4e1"
+    },
+    {
+      "diagnostic": "intact-base-development-audit",
+      "path": "records/league/loop3-iteration2/runs/development/replays/84dc2e2bc07e4339504af4e2.json.gz",
+      "sha256": "39e67088732b35dcbbe1039947cf988b33f4a65d1a9251337af7aa480ff040be"
+    },
+    {
+      "diagnostic": "intact-base-development-audit",
+      "path": "records/league/loop3-iteration2/runs/development/replays/784921a0be503a67a49f58f2.json.gz",
+      "sha256": "321e1303bb788e7e0be2384f2e3cb46fe8b47ab738b91bcedefde61ebff42f20"
+    },
+    {
+      "diagnostic": "intact-base-development-audit",
+      "path": "records/league/loop3-iteration2/runs/development/replays/779b4df5e67900e25cad8eca.json.gz",
+      "sha256": "03b142b5dceb41e98b999f3beca615b054ef94543fc325647a5323a237228ce4"
+    },
+    {
+      "diagnostic": "intact-base-development-audit",
+      "path": "records/league/loop3-iteration2/runs/development/replays/36bea50ffcfffd79ba73245d.json.gz",
+      "sha256": "8f0e3577194fc13865a196db724136eb3ccf3c69acba76b1d0b56336cffcdf2b"
+    }
+  ],
+  "checkpoint_progress_excluded": "progress is a historical stage-completion snapshot and intentionally differs from the final progress file",
+  "live_log_identical_to_canonical_transport": true,
+  "duplicate_live_log_removed": true,
+  "diagnostic_inputs_reconciled": 8,
+  "diagnostic_tmp_paths_absent": {
+    "/tmp/yk-warrior-audit-vhr8254l": true,
+    "/tmp/yk-intact-base-audit-6kkuxol6": true
+  }
+}
