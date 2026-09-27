@@ -1,0 +1,182 @@
+{
+  "run_id": "process-8-repeat-0",
+  "output_dir": "/home/dlwltkd/YonKo_hackathon_-/records/compute/code-search-pilot/executors/process-8-repeat-0",
+  "created_utc": "2026-09-27T14:36:14.814013+00:00",
+  "identity": {
+    "version": 1,
+    "config": {
+      "candidates": [
+        {
+          "id": "baseline",
+          "parameters": {
+            "eng_bonus": 110,
+            "income_bonus": 35,
+            "army_weight": 1.3,
+            "resource_weight": 0.35
+          }
+        },
+        {
+          "id": "eng140",
+          "parameters": {
+            "eng_bonus": 140,
+            "income_bonus": 35,
+            "army_weight": 1.3,
+            "resource_weight": 0.35
+          }
+        }
+      ],
+      "map_seeds": [
+        5000,
+        5001
+      ],
+      "teams": [
+        "Y",
+        "K"
+      ],
+      "opponents": [
+        "teammate"
+      ],
+      "save_replays": "none"
+    },
+    "source_inputs": {
+      "experiments/cpu_sweep.py": "bf0f0293499473b0295e2dac640e24362c332edc1edc8c01f5e09ef39f12172b",
+      "submissions/delineate-v1.zip": "571397e3c84998b27f8ce0468bc49333663c69b0b84162ad8dfc27e7a47f2365",
+      "submissions/tuned/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+      "submissions/tuned/main.cpp": "53bb019625fabbbd3aa8a5b65af971912bb4cbdad8a9fde3009fadad5ba6d4c5",
+      "submissions/tuned/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+      "yk-development-tools/bots/dist/starter/python/_generated.py": "8cf113fe574425e1f761911e59fe43394aad147946b07ed4a837e1da6b25fcfc",
+      "yk-development-tools/bots/dist/starter/python/campus_bot.py": "2568119d19d9def58dd824b06eac332f018f23c0dee24ba1ccddf3169a151e7b",
+      "yk-development-tools/bots/dist/starter/python/example_lv1.py": "15183b1c05b8daa12212cb2d64fe54dbc81deba69a7e9999b3fac4b3d5ccbc1d",
+      "yk-development-tools/bots/dist/starter/python/example_lv2.py": "91c174b0259ea2759d3ff390bb80ff0d6494fbea59003cb5b0a607bf1370bd4f",
+      "yk-development-tools/bots/dist/starter/python/main.py": "fc0b4fc2eccb0e497c8435d85412332e3628053a905f51687d654b8e2d35b068",
+      "yk-development-tools/bots/dist/starter/python/mybot_template.py": "6d6ee8564548c9bf81562d60c270b69968813045c900c94ce95b5c261456d43b",
+      "yk-development-tools/bots/dist/starter/python/protocol.py": "67a5d27ced038de39d7cd3b069bf01786bf4cc9e6c1d39269d1f7e67b185c194",
+      "yk-development-tools/bots/dist/starter/python/search.py": "34cc73421e056d857549d28523ada709c6531152e4a0e08b8f8eddbad5073e45",
+      "yk-development-tools/bots/dist/starter/python/submission.json": "ff5431b97ab8dc3d045d053fe1e3148eca20bfe900ec66cd9e7f7f5e542f3de5",
+      "yk-development-tools/config/balance.json": "a46886d91862244b6daf4990dcdf2371302433e7120c21dc2a29ecf95696b35f",
+      "yk-development-tools/engine/__init__.py": "5b9c498fcef25d4900bfe993415964ef9b803c37309acda004e6b553130ace86",
+      "yk-development-tools/engine/commands.py": "db00820b9f77cc1b6e71eaa37bb4eb0b4c31cccda7f4b388269a13db04a76798",
+      "yk-development-tools/engine/config.py": "964f20b9f914bbc0bc81c84d7fbee3b2ecbed4b54814ab51cbd20d54ef6f20b9",
+      "yk-development-tools/engine/pipeline.py": "f0bd96c484c8628b6a070b188adcc1a077e9f90017cc15f11ce366d974490fa6",
+      "yk-development-tools/engine/state.py": "dd227e26bcb36a5c412bbf7db19f4418a59627e8ea7e55a90dac5184dcc0737f",
+      "yk-development-tools/mapgen/__init__.py": "4e3cf8f63c58f32835898da672ecaacf87b1ee105da4628fb917b2f6070fc5f0",
+      "yk-development-tools/mapgen/generator.py": "645b53e2b2ce0049608873b1d01a983661dbdbfe63e358fbb152cbeeea13947e",
+      "yk-development-tools/mapgen/render.py": "5486e5f68e8de843fd36ded98716a05a0b399301b6d82651db3aacba6bc16029",
+      "yk-development-tools/mapgen/rng.py": "4b56383dd28a138c2ae0bd387a893b4129e108dddf369dd54d3927848f85cc4d",
+      "yk-development-tools/runner/__init__.py": "7f675ede62ac8590c279dd4f2f64f8aa526f8d41e60dcfd7dba930612db4fbe2",
+      "yk-development-tools/runner/__main__.py": "307299fda7b77d22c64cb51430ec75e5f59d78e9c948786afb3b2544fe45e4b7",
+      "yk-development-tools/runner/bots.py": "c09312d62eaa1a2a5af5576b24922a9fd209365e0f3e655894934585858aba43",
+      "yk-development-tools/runner/cli.py": "90b102ca9513f710deed37c68adbca6026f43b641a5c00758d2868ecd1a90b81",
+      "yk-development-tools/runner/match.py": "122d3fc0c31ade0b808795d15842949da8c32a26c79c779841e7364aa2f51578",
+      "yk-development-tools/runner/protocol.py": "5917df4bec20b963586b1ffeb7a45b9959f51e3437a227ee7e8d932b172a7d65",
+      "yk-development-tools/runner/replay.py": "fc2bf7405c405ac30da4d7c122b24e3c3275544bfbd1ec22779bbb217df6e8a6",
+      "yk-development-tools/runner/validation.py": "7c00c3eca69a8f115e51b3c47a570c1015795b41d16e9987b5679f84f4184345"
+    },
+    "policy_rng_seed": 20260927,
+    "python_version": "3.14.7"
+  },
+  "identity_sha256": "4ce267fb384b05046acf3316b4163051834ea543d8027f1f7eea248f0e2f107d",
+  "source_commit": "678289261cdcb237eee36e0291faf1bcd17a891a",
+  "source_hashes_authoritative": true,
+  "environment": {
+    "platform": "Linux-7.2.3-arch1-3-x86_64-with-glibc2.44",
+    "python": "3.14.7 (main, Aug 10 2026, 07:46:56) [GCC 16.1.1 20260728]",
+    "python_executable": "/usr/bin/python3",
+    "cpu_count": 20
+  },
+  "rules": {
+    "turn_timeout_ms": 300,
+    "engine": "frozen official development tools"
+  },
+  "replay_policy": "All losses/draws and first-map wins per candidate/team/opponent; all if requested.",
+  "resume_policy": "Worker count/executor may change; source/config/replay policy may not. Completed/error rows are terminal; malformed terminated rows fail; unfinished final line is archived.",
+  "timing_policy": "END receipt minus runner start, including process startup on first turn; successful responses only. P95 is nearest-rank. Deadlines are unchanged.",
+  "trace_policy": "SHA256 of canonical sorted JSON {turns, result}; bot command paths excluded.",
+  "commands": {
+    "candidate:baseline": "/home/dlwltkd/YonKo_hackathon_-/records/compute/code-search-pilot/executors/process-8-repeat-0/bin/candidate-baseline",
+    "candidate:eng140": "/home/dlwltkd/YonKo_hackathon_-/records/compute/code-search-pilot/executors/process-8-repeat-0/bin/candidate-eng140",
+    "opponent:teammate": "/usr/bin/python3 /home/dlwltkd/YonKo_hackathon_-/records/compute/code-search-pilot/executors/process-8-repeat-0/snapshot/opponents/teammate/main.py"
+  },
+  "builds": [
+    {
+      "command": [
+        "/usr/bin/g++",
+        "-std=c++20",
+        "-O2",
+        "-DNDEBUG",
+        "-I",
+        "/home/dlwltkd/YonKo_hackathon_-/records/compute/code-search-pilot/executors/process-8-repeat-0/snapshot/submissions/tuned",
+        "/home/dlwltkd/YonKo_hackathon_-/records/compute/code-search-pilot/executors/process-8-repeat-0/snapshot/candidates/baseline/main.cpp",
+        "-o",
+        "/home/dlwltkd/YonKo_hackathon_-/records/compute/code-search-pilot/executors/process-8-repeat-0/bin/candidate-baseline"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/usr/bin/g++",
+        "-std=c++20",
+        "-O2",
+        "-DNDEBUG",
+        "-I",
+        "/home/dlwltkd/YonKo_hackathon_-/records/compute/code-search-pilot/executors/process-8-repeat-0/snapshot/submissions/tuned",
+        "/home/dlwltkd/YonKo_hackathon_-/records/compute/code-search-pilot/executors/process-8-repeat-0/snapshot/candidates/eng140/main.cpp",
+        "-o",
+        "/home/dlwltkd/YonKo_hackathon_-/records/compute/code-search-pilot/executors/process-8-repeat-0/bin/candidate-eng140"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "candidate_source_sha256": {
+    "baseline": "53bb019625fabbbd3aa8a5b65af971912bb4cbdad8a9fde3009fadad5ba6d4c5",
+    "eng140": "4b0b4882926f054d8499b0676a769593c7d7f7d4642ddb37cd409e7ad31f13e3"
+  },
+  "frozen_files": {
+    "snapshot/candidates/baseline/main.cpp": "53bb019625fabbbd3aa8a5b65af971912bb4cbdad8a9fde3009fadad5ba6d4c5",
+    "snapshot/candidates/eng140/main.cpp": "4b0b4882926f054d8499b0676a769593c7d7f7d4642ddb37cd409e7ad31f13e3",
+    "snapshot/experiments/cpu_sweep.py": "bf0f0293499473b0295e2dac640e24362c332edc1edc8c01f5e09ef39f12172b",
+    "snapshot/opponents/teammate/_generated.py": "8cf113fe574425e1f761911e59fe43394aad147946b07ed4a837e1da6b25fcfc",
+    "snapshot/opponents/teammate/campus_bot.py": "2568119d19d9def58dd824b06eac332f018f23c0dee24ba1ccddf3169a151e7b",
+    "snapshot/opponents/teammate/main.py": "a114cc5a286ea21cc09ba11a018c65bf38e068c7f79d7a8b5420a05ff936b666",
+    "snapshot/opponents/teammate/protocol.py": "67a5d27ced038de39d7cd3b069bf01786bf4cc9e6c1d39269d1f7e67b185c194",
+    "snapshot/opponents/teammate/submission.json": "ff5431b97ab8dc3d045d053fe1e3148eca20bfe900ec66cd9e7f7f5e542f3de5",
+    "snapshot/submissions/delineate-v1.zip": "571397e3c84998b27f8ce0468bc49333663c69b0b84162ad8dfc27e7a47f2365",
+    "snapshot/submissions/tuned/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/submissions/tuned/main.cpp": "53bb019625fabbbd3aa8a5b65af971912bb4cbdad8a9fde3009fadad5ba6d4c5",
+    "snapshot/submissions/tuned/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/yk-development-tools/bots/dist/starter/python/_generated.py": "8cf113fe574425e1f761911e59fe43394aad147946b07ed4a837e1da6b25fcfc",
+    "snapshot/yk-development-tools/bots/dist/starter/python/campus_bot.py": "2568119d19d9def58dd824b06eac332f018f23c0dee24ba1ccddf3169a151e7b",
+    "snapshot/yk-development-tools/bots/dist/starter/python/example_lv1.py": "15183b1c05b8daa12212cb2d64fe54dbc81deba69a7e9999b3fac4b3d5ccbc1d",
+    "snapshot/yk-development-tools/bots/dist/starter/python/example_lv2.py": "91c174b0259ea2759d3ff390bb80ff0d6494fbea59003cb5b0a607bf1370bd4f",
+    "snapshot/yk-development-tools/bots/dist/starter/python/main.py": "fc0b4fc2eccb0e497c8435d85412332e3628053a905f51687d654b8e2d35b068",
+    "snapshot/yk-development-tools/bots/dist/starter/python/mybot_template.py": "6d6ee8564548c9bf81562d60c270b69968813045c900c94ce95b5c261456d43b",
+    "snapshot/yk-development-tools/bots/dist/starter/python/protocol.py": "67a5d27ced038de39d7cd3b069bf01786bf4cc9e6c1d39269d1f7e67b185c194",
+    "snapshot/yk-development-tools/bots/dist/starter/python/search.py": "34cc73421e056d857549d28523ada709c6531152e4a0e08b8f8eddbad5073e45",
+    "snapshot/yk-development-tools/bots/dist/starter/python/submission.json": "ff5431b97ab8dc3d045d053fe1e3148eca20bfe900ec66cd9e7f7f5e542f3de5",
+    "snapshot/yk-development-tools/config/balance.json": "a46886d91862244b6daf4990dcdf2371302433e7120c21dc2a29ecf95696b35f",
+    "snapshot/yk-development-tools/engine/__init__.py": "5b9c498fcef25d4900bfe993415964ef9b803c37309acda004e6b553130ace86",
+    "snapshot/yk-development-tools/engine/commands.py": "db00820b9f77cc1b6e71eaa37bb4eb0b4c31cccda7f4b388269a13db04a76798",
+    "snapshot/yk-development-tools/engine/config.py": "964f20b9f914bbc0bc81c84d7fbee3b2ecbed4b54814ab51cbd20d54ef6f20b9",
+    "snapshot/yk-development-tools/engine/pipeline.py": "f0bd96c484c8628b6a070b188adcc1a077e9f90017cc15f11ce366d974490fa6",
+    "snapshot/yk-development-tools/engine/state.py": "dd227e26bcb36a5c412bbf7db19f4418a59627e8ea7e55a90dac5184dcc0737f",
+    "snapshot/yk-development-tools/mapgen/__init__.py": "4e3cf8f63c58f32835898da672ecaacf87b1ee105da4628fb917b2f6070fc5f0",
+    "snapshot/yk-development-tools/mapgen/generator.py": "645b53e2b2ce0049608873b1d01a983661dbdbfe63e358fbb152cbeeea13947e",
+    "snapshot/yk-development-tools/mapgen/render.py": "5486e5f68e8de843fd36ded98716a05a0b399301b6d82651db3aacba6bc16029",
+    "snapshot/yk-development-tools/mapgen/rng.py": "4b56383dd28a138c2ae0bd387a893b4129e108dddf369dd54d3927848f85cc4d",
+    "snapshot/yk-development-tools/runner/__init__.py": "7f675ede62ac8590c279dd4f2f64f8aa526f8d41e60dcfd7dba930612db4fbe2",
+    "snapshot/yk-development-tools/runner/__main__.py": "307299fda7b77d22c64cb51430ec75e5f59d78e9c948786afb3b2544fe45e4b7",
+    "snapshot/yk-development-tools/runner/bots.py": "c09312d62eaa1a2a5af5576b24922a9fd209365e0f3e655894934585858aba43",
+    "snapshot/yk-development-tools/runner/cli.py": "90b102ca9513f710deed37c68adbca6026f43b641a5c00758d2868ecd1a90b81",
+    "snapshot/yk-development-tools/runner/match.py": "122d3fc0c31ade0b808795d15842949da8c32a26c79c779841e7364aa2f51578",
+    "snapshot/yk-development-tools/runner/protocol.py": "5917df4bec20b963586b1ffeb7a45b9959f51e3437a227ee7e8d932b172a7d65",
+    "snapshot/yk-development-tools/runner/replay.py": "fc2bf7405c405ac30da4d7c122b24e3c3275544bfbd1ec22779bbb217df6e8a6",
+    "snapshot/yk-development-tools/runner/validation.py": "7c00c3eca69a8f115e51b3c47a570c1015795b41d16e9987b5679f84f4184345",
+    "bin/candidate-baseline": "0e3f9b2691428173012294354bc0cbee316f8f8af19779f1e5c2a0511c4d0615",
+    "bin/candidate-eng140": "9cedb8490423f71baab978dc32f07b3f2f8ca7122174be51cb19358d223903c1"
+  },
+  "compiler": "g++ (GCC) 16.2.1 20260810"
+}

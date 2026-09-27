@@ -1,0 +1,241 @@
+{
+  "status": "complete",
+  "started_utc": "2026-09-27T14:32:44.342147+00:00",
+  "purpose": "Decision-stage profile on fixed legal observations; not a game replay or win-rate experiment",
+  "script_sha256": "8d3ad547e7cada268d7baf15428c28d0d768af7926dc45e0fbd905b4faf2d8da",
+  "source_commit": "dabfbc9dc349ff3fc46ceb4a94c308f77c9080eb",
+  "source_sha256": {
+    "generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "main.cpp": "53bb019625fabbbd3aa8a5b65af971912bb4cbdad8a9fde3009fadad5ba6d4c5",
+    "protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8"
+  },
+  "instrumented_sha256": "338cb7c91c131fcf94fc2ad32c9cb1e30b2e8bde37dc18d4c7d686d21d729536",
+  "host": {
+    "platform": "Linux-7.2.3-arch1-3-x86_64-with-glibc2.44",
+    "compiler": "g++ (GCC) 16.2.1 20260810"
+  },
+  "runs": [
+    {
+      "replay": "/home/dlwltkd/YonKo_hackathon_-/artifacts/firstround_results/replay (1).json",
+      "source_sha256": "82fb14ed2eca4e21316fc7720d0f60d0b5053cb4e6fa418889b064edd3d97881",
+      "protocol_input_sha256": "9256a29e28f92b0a9c2ff6adba924b22c654c694ac6c38f9980c2716b3a88864",
+      "decisions": 160,
+      "plain": {
+        "wall_seconds": 2.365918254999997,
+        "output_sha256": "433811746bcf22f8c63007c62d8de9109c9e14009516e53588c40084e5d3e445",
+        "response_blocks": 160
+      },
+      "profiled": {
+        "wall_seconds": 2.2463961589992323,
+        "output_sha256": "433811746bcf22f8c63007c62d8de9109c9e14009516e53588c40084e5d3e445",
+        "response_blocks": 160,
+        "profile": {
+          "fallback_count": 0,
+          "stages": {
+            "policy": {
+              "calls": 18322,
+              "seconds": 2.05466
+            },
+            "advance": {
+              "calls": 10121,
+              "seconds": 0.0859251
+            },
+            "evaluation": {
+              "calls": 12681,
+              "seconds": 0.0775113
+            },
+            "decide": {
+              "calls": 160,
+              "seconds": 2.23397
+            }
+          }
+        }
+      },
+      "instrumentation_preserved_commands": true
+    },
+    {
+      "replay": "/home/dlwltkd/YonKo_hackathon_-/artifacts/firstround_results/replay (2).json",
+      "source_sha256": "6ea68e55f67ef3fa120b790d752632c3556c3f1de9ed842ec6e66c026d5f647d",
+      "protocol_input_sha256": "eab30bc00848beb7dbc37c80e078c390fd65c2ceac5f8e59f9c62236128343a6",
+      "decisions": 65,
+      "plain": {
+        "wall_seconds": 1.0408240970000406,
+        "output_sha256": "f4a9f624ae1ad5ca5a457fda21636692ccf6503b31783ff96cca091543f1fb6c",
+        "response_blocks": 65
+      },
+      "profiled": {
+        "wall_seconds": 0.9218201500007126,
+        "output_sha256": "f4a9f624ae1ad5ca5a457fda21636692ccf6503b31783ff96cca091543f1fb6c",
+        "response_blocks": 65,
+        "profile": {
+          "fallback_count": 0,
+          "stages": {
+            "policy": {
+              "calls": 7382,
+              "seconds": 0.835366
+            },
+            "advance": {
+              "calls": 4081,
+              "seconds": 0.037009
+            },
+            "evaluation": {
+              "calls": 5121,
+              "seconds": 0.0343135
+            },
+            "decide": {
+              "calls": 65,
+              "seconds": 0.913419
+            }
+          }
+        }
+      },
+      "instrumentation_preserved_commands": true
+    },
+    {
+      "replay": "/home/dlwltkd/YonKo_hackathon_-/artifacts/firstround_results/replay (3).json",
+      "source_sha256": "e1a77ebc0dc871668ad7002674303b8b6066ff3436dca695bbef434a27335011",
+      "protocol_input_sha256": "8889600e0bc4e7851e8c2ddf7248a6238ff127867be4f38fa9aaeb43098946be",
+      "decisions": 160,
+      "plain": {
+        "wall_seconds": 2.3154820229992765,
+        "output_sha256": "f5b30f60b22a8116cae3f005befeb232b2a7060b9a354d43f6ce056715dd7637",
+        "response_blocks": 160
+      },
+      "profiled": {
+        "wall_seconds": 2.3639583249996576,
+        "output_sha256": "f5b30f60b22a8116cae3f005befeb232b2a7060b9a354d43f6ce056715dd7637",
+        "response_blocks": 160,
+        "profile": {
+          "fallback_count": 0,
+          "stages": {
+            "policy": {
+              "calls": 18368,
+              "seconds": 2.15123
+            },
+            "advance": {
+              "calls": 10144,
+              "seconds": 0.095832
+            },
+            "evaluation": {
+              "calls": 12704,
+              "seconds": 0.0888721
+            },
+            "decide": {
+              "calls": 160,
+              "seconds": 2.35064
+            }
+          }
+        }
+      },
+      "instrumentation_preserved_commands": true
+    },
+    {
+      "replay": "/home/dlwltkd/YonKo_hackathon_-/artifacts/firstround_results/replay (4).json",
+      "source_sha256": "bc4bc260ae659c5c2943393c851dc5fbf4a5de8246950bf548b8f569f4a454ff",
+      "protocol_input_sha256": "cfaaa1d392524b6646c7ad29dc7c3b9f8b176f239eaa1a1a599a0b08d2f02394",
+      "decisions": 66,
+      "plain": {
+        "wall_seconds": 0.8698454329996821,
+        "output_sha256": "67d67e76578ff44beb1ce02e88c1681607da1b06fdb141a2aa8788a639fad0fd",
+        "response_blocks": 66
+      },
+      "profiled": {
+        "wall_seconds": 0.867034601999876,
+        "output_sha256": "67d67e76578ff44beb1ce02e88c1681607da1b06fdb141a2aa8788a639fad0fd",
+        "response_blocks": 66,
+        "profile": {
+          "fallback_count": 0,
+          "stages": {
+            "policy": {
+              "calls": 7508,
+              "seconds": 0.786857
+            },
+            "advance": {
+              "calls": 4150,
+              "seconds": 0.0353144
+            },
+            "evaluation": {
+              "calls": 5206,
+              "seconds": 0.0316562
+            },
+            "decide": {
+              "calls": 66,
+              "seconds": 0.860182
+            }
+          }
+        }
+      },
+      "instrumentation_preserved_commands": true
+    },
+    {
+      "replay": "/home/dlwltkd/YonKo_hackathon_-/artifacts/firstround_results/replay (5).json",
+      "source_sha256": "52d8ce5c40a06f42b2cbdeace40882ab27f446d7ae0addb4f3828a8635277db2",
+      "protocol_input_sha256": "ffc0ff10c6b61d5df73c293d714ff81d0c62e0efcce64b9fb60d7950875454d7",
+      "decisions": 32,
+      "plain": {
+        "wall_seconds": 0.47205141500035097,
+        "output_sha256": "35a043ac74b09fec25dc686d8ca946026581e2da8bb82d65c30106c9d352a7a0",
+        "response_blocks": 32
+      },
+      "profiled": {
+        "wall_seconds": 0.5528134520000094,
+        "output_sha256": "35a043ac74b09fec25dc686d8ca946026581e2da8bb82d65c30106c9d352a7a0",
+        "response_blocks": 32,
+        "profile": {
+          "fallback_count": 0,
+          "stages": {
+            "policy": {
+              "calls": 3622,
+              "seconds": 0.500843
+            },
+            "advance": {
+              "calls": 2003,
+              "seconds": 0.0214918
+            },
+            "evaluation": {
+              "calls": 2515,
+              "seconds": 0.0209572
+            },
+            "decide": {
+              "calls": 32,
+              "seconds": 0.547829
+            }
+          }
+        }
+      },
+      "instrumentation_preserved_commands": true
+    }
+  ],
+  "limitations": [
+    "Instrumentation adds timing calls",
+    "Recorded observations remain fixed even when regenerated commands differ",
+    "Official replay commands are not used as action labels",
+    "Source internal 160ms fallback remains enabled",
+    "Single local shared host; no remote server inference"
+  ],
+  "build_wall_seconds": 11.679004435000024,
+  "totals": {
+    "policy": {
+      "calls": 55202,
+      "seconds": 6.328956
+    },
+    "advance": {
+      "calls": 30499,
+      "seconds": 0.2755723
+    },
+    "evaluation": {
+      "calls": 38227,
+      "seconds": 0.2533103
+    },
+    "decide": {
+      "calls": 483,
+      "seconds": 6.90604
+    }
+  },
+  "fallback_count": 0,
+  "all_commands_preserved": true,
+  "all_response_counts_correct": true,
+  "evaluation_fraction_of_decision_time": 0.036679529802897175,
+  "evaluation_only_infinite_speed_upper_bound": 1.038076144894328,
+  "finished_utc": "2026-09-27T14:33:10.157524+00:00"
+}

@@ -1,0 +1,12 @@
+{
+  "source": "https://mlopez-ibanez.github.io/irace/",
+  "title": "Iterated Racing for Automatic Algorithm Configuration • irace",
+  "retrieved_utc": "2026-09-27 14:30:28 UTC",
+  "section": "Introduction; Parallelize one tuning",
+  "verbatim_excerpt": "executing the calls to `targetRunner` (the runs of the algorithm being tuned) in parallel.",
+  "metadata": {
+    "statusCode": 200,
+    "scrapeId": "01a0e345-6058-75fd-a70d-fb69b6d2426a",
+    "sourceURL": "https://mlopez-ibanez.github.io/irace/"
+  }
+}

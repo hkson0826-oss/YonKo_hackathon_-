@@ -42,6 +42,8 @@ records/
 | [GPU 계획](docs/11-GPU실험계획.md) | RTX 3090 8개 활용, CPU 처리량, 학습·확대·중단 조건 |
 | [GPU 자원 배분 보완](docs/13-GPU자원배분보완.md) | 공용 작업 큐·다중 후보·배치 추론·성과에 따른 자원 재배분 |
 | [후속 개발 순서](docs/12-후속개발우선순위.md) | 제안 알고리즘, 자체 약점 검토, 구현·벤치마크 명세 |
+| [CPU·GPU 선택 근거](docs/14-CPU와GPU선택근거.md) | 코드·파라미터 경쟁, CPU 전체 대전과 GPU 배치 계산의 역할 |
+| [CPU·GPU 실측과 실행법](docs/15-CPU와GPU실측결과.md) | 판단 병목, 병렬 대전 비교, CUDA 실행 상태, 재개 가능한 탐색 도구 |
 
 v2를 빌드하고 팀원 봇과 대전하려면 프로젝트 루트에서 실행한다. 상세 리플레이는 패배·무승부만 저장한다. 다음 명령은 별도 결과 파일을 만들어 기존 검증 기록을 보존한다.
 
@@ -86,4 +88,4 @@ python3 tests/benchmark.py --seeds 10
 python3 yk-development-tools/bots/dist/starter/run_tests.py --zip artifacts/submission-v1.zip
 ```
 
-실제 제출 환경은 GCC 12.2.0/CPU/300ms이며 로컬 환경과 다르다. 정확한 제한은 [배포 제한](yk-development-tools/bots/dist/starter/limits.json)을 따른다. 임의 학습 가중치 제출 금지 때문에 GPU는 오프라인 연구용 활용으로만 제안했다.
+실제 제출 환경은 GCC 12.2.0/CPU/300ms이며 로컬 환경과 다르다. 정확한 제한은 [배포 제한](yk-development-tools/bots/dist/starter/limits.json)을 따른다. 개발에서는 AI·CPU·GPU를 활용해 코드 후보를 만들고 검증하며, 최종 실행 코드의 성능으로 선택한다.

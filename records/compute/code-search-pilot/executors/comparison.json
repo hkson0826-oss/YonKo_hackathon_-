@@ -1,0 +1,583 @@
+{
+  "status": "complete",
+  "command": [
+    "/usr/bin/python3",
+    "experiments/compare_cpu_executors.py",
+    "--config",
+    "experiments/cpu_sweep_example.json",
+    "--output-dir",
+    "records/compute/code-search-pilot/executors",
+    "--workers",
+    "1,2,4,8",
+    "--repeats",
+    "1"
+  ],
+  "scope": "Repeated identical jobs measure throughput, not additional independent strength evidence.",
+  "schedule": [
+    [
+      "thread",
+      2,
+      0
+    ],
+    [
+      "process",
+      8,
+      0
+    ],
+    [
+      "thread",
+      1,
+      0
+    ],
+    [
+      "thread",
+      8,
+      0
+    ],
+    [
+      "process",
+      2,
+      0
+    ],
+    [
+      "thread",
+      4,
+      0
+    ],
+    [
+      "process",
+      1,
+      0
+    ],
+    [
+      "process",
+      4,
+      0
+    ]
+  ],
+  "runs": [
+    {
+      "run": "thread-2-repeat-0",
+      "executor": "thread",
+      "workers": 2,
+      "repeat": 0,
+      "wall_seconds": 14.136351815000125,
+      "total_wall_seconds": 25.658532520000335,
+      "games_per_second": 0.5659168719549817,
+      "changed_trace_jobs_vs_first": [],
+      "summary": {
+        "jobs": 8,
+        "matches": 8,
+        "errors": 0,
+        "distinct_map_count": 2,
+        "wins": 8,
+        "draws": 0,
+        "losses": 0,
+        "point_rate": 1.0,
+        "forfeits": 0,
+        "max_turn_ms": 57.709811999302474,
+        "opponent_max_turn_ms": 94.85254199989868,
+        "p95_turn_ms": 34.81138400002237,
+        "opponent_p95_turn_ms": 9.532715000204917,
+        "mean_score_margin": 27.375
+      },
+      "by_candidate": {
+        "baseline": {
+          "jobs": 4,
+          "matches": 4,
+          "errors": 0,
+          "distinct_map_count": 2,
+          "wins": 4,
+          "draws": 0,
+          "losses": 0,
+          "point_rate": 1.0,
+          "forfeits": 0,
+          "max_turn_ms": 47.15306199977931,
+          "opponent_max_turn_ms": 94.85254199989868,
+          "p95_turn_ms": 35.704603000340285,
+          "opponent_p95_turn_ms": 10.276560999955109,
+          "mean_score_margin": 27.25
+        },
+        "eng140": {
+          "jobs": 4,
+          "matches": 4,
+          "errors": 0,
+          "distinct_map_count": 2,
+          "wins": 4,
+          "draws": 0,
+          "losses": 0,
+          "point_rate": 1.0,
+          "forfeits": 0,
+          "max_turn_ms": 57.709811999302474,
+          "opponent_max_turn_ms": 82.67155900011858,
+          "p95_turn_ms": 33.748494000064966,
+          "opponent_p95_turn_ms": 9.129322000262619,
+          "mean_score_margin": 27.5
+        }
+      }
+    },
+    {
+      "run": "process-8-repeat-0",
+      "executor": "process",
+      "workers": 8,
+      "repeat": 0,
+      "wall_seconds": 4.4489945360001,
+      "total_wall_seconds": 15.743131711999922,
+      "games_per_second": 1.7981590975817328,
+      "changed_trace_jobs_vs_first": [],
+      "summary": {
+        "jobs": 8,
+        "matches": 8,
+        "errors": 0,
+        "distinct_map_count": 2,
+        "wins": 8,
+        "draws": 0,
+        "losses": 0,
+        "point_rate": 1.0,
+        "forfeits": 0,
+        "max_turn_ms": 41.29128499971557,
+        "opponent_max_turn_ms": 73.07324399971549,
+        "p95_turn_ms": 32.536601000174414,
+        "opponent_p95_turn_ms": 8.299477000036859,
+        "mean_score_margin": 27.375
+      },
+      "by_candidate": {
+        "baseline": {
+          "jobs": 4,
+          "matches": 4,
+          "errors": 0,
+          "distinct_map_count": 2,
+          "wins": 4,
+          "draws": 0,
+          "losses": 0,
+          "point_rate": 1.0,
+          "forfeits": 0,
+          "max_turn_ms": 39.556306999656954,
+          "opponent_max_turn_ms": 73.07324399971549,
+          "p95_turn_ms": 31.942612000420922,
+          "opponent_p95_turn_ms": 8.080845999757003,
+          "mean_score_margin": 27.25
+        },
+        "eng140": {
+          "jobs": 4,
+          "matches": 4,
+          "errors": 0,
+          "distinct_map_count": 2,
+          "wins": 4,
+          "draws": 0,
+          "losses": 0,
+          "point_rate": 1.0,
+          "forfeits": 0,
+          "max_turn_ms": 41.29128499971557,
+          "opponent_max_turn_ms": 71.43865099988034,
+          "p95_turn_ms": 33.89333399991301,
+          "opponent_p95_turn_ms": 8.663528000397491,
+          "mean_score_margin": 27.5
+        }
+      }
+    },
+    {
+      "run": "thread-1-repeat-0",
+      "executor": "thread",
+      "workers": 1,
+      "repeat": 0,
+      "wall_seconds": 29.55139972500001,
+      "total_wall_seconds": 41.152540861999114,
+      "games_per_second": 0.2707147571501369,
+      "changed_trace_jobs_vs_first": [],
+      "summary": {
+        "jobs": 8,
+        "matches": 8,
+        "errors": 0,
+        "distinct_map_count": 2,
+        "wins": 8,
+        "draws": 0,
+        "losses": 0,
+        "point_rate": 1.0,
+        "forfeits": 0,
+        "max_turn_ms": 46.522497000296426,
+        "opponent_max_turn_ms": 96.79127500021423,
+        "p95_turn_ms": 36.59633300048881,
+        "opponent_p95_turn_ms": 9.204174999467796,
+        "mean_score_margin": 27.375
+      },
+      "by_candidate": {
+        "baseline": {
+          "jobs": 4,
+          "matches": 4,
+          "errors": 0,
+          "distinct_map_count": 2,
+          "wins": 4,
+          "draws": 0,
+          "losses": 0,
+          "point_rate": 1.0,
+          "forfeits": 0,
+          "max_turn_ms": 46.522497000296426,
+          "opponent_max_turn_ms": 96.79127500021423,
+          "p95_turn_ms": 36.027264000040304,
+          "opponent_p95_turn_ms": 8.745023000301444,
+          "mean_score_margin": 27.25
+        },
+        "eng140": {
+          "jobs": 4,
+          "matches": 4,
+          "errors": 0,
+          "distinct_map_count": 2,
+          "wins": 4,
+          "draws": 0,
+          "losses": 0,
+          "point_rate": 1.0,
+          "forfeits": 0,
+          "max_turn_ms": 40.07794999961334,
+          "opponent_max_turn_ms": 91.24560100008239,
+          "p95_turn_ms": 36.91255499961699,
+          "opponent_p95_turn_ms": 9.597183000551013,
+          "mean_score_margin": 27.5
+        }
+      }
+    },
+    {
+      "run": "thread-8-repeat-0",
+      "executor": "thread",
+      "workers": 8,
+      "repeat": 0,
+      "wall_seconds": 5.978890985999897,
+      "total_wall_seconds": 17.742910562999896,
+      "games_per_second": 1.338040786950742,
+      "changed_trace_jobs_vs_first": [],
+      "summary": {
+        "jobs": 8,
+        "matches": 8,
+        "errors": 0,
+        "distinct_map_count": 2,
+        "wins": 8,
+        "draws": 0,
+        "losses": 0,
+        "point_rate": 1.0,
+        "forfeits": 0,
+        "max_turn_ms": 120.04867399991781,
+        "opponent_max_turn_ms": 163.38600400013092,
+        "p95_turn_ms": 46.961259999989124,
+        "opponent_p95_turn_ms": 18.487571999685315,
+        "mean_score_margin": 27.375
+      },
+      "by_candidate": {
+        "baseline": {
+          "jobs": 4,
+          "matches": 4,
+          "errors": 0,
+          "distinct_map_count": 2,
+          "wins": 4,
+          "draws": 0,
+          "losses": 0,
+          "point_rate": 1.0,
+          "forfeits": 0,
+          "max_turn_ms": 96.96198199981154,
+          "opponent_max_turn_ms": 136.78630699996575,
+          "p95_turn_ms": 47.03213499942649,
+          "opponent_p95_turn_ms": 17.605095999897458,
+          "mean_score_margin": 27.25
+        },
+        "eng140": {
+          "jobs": 4,
+          "matches": 4,
+          "errors": 0,
+          "distinct_map_count": 2,
+          "wins": 4,
+          "draws": 0,
+          "losses": 0,
+          "point_rate": 1.0,
+          "forfeits": 0,
+          "max_turn_ms": 120.04867399991781,
+          "opponent_max_turn_ms": 163.38600400013092,
+          "p95_turn_ms": 46.961259999989124,
+          "opponent_p95_turn_ms": 20.009623000078136,
+          "mean_score_margin": 27.5
+        }
+      }
+    },
+    {
+      "run": "process-2-repeat-0",
+      "executor": "process",
+      "workers": 2,
+      "repeat": 0,
+      "wall_seconds": 14.168324258999746,
+      "total_wall_seconds": 25.777667318000567,
+      "games_per_second": 0.5646398158143779,
+      "changed_trace_jobs_vs_first": [],
+      "summary": {
+        "jobs": 8,
+        "matches": 8,
+        "errors": 0,
+        "distinct_map_count": 2,
+        "wins": 8,
+        "draws": 0,
+        "losses": 0,
+        "point_rate": 1.0,
+        "forfeits": 0,
+        "max_turn_ms": 41.20470299949375,
+        "opponent_max_turn_ms": 86.2979900002756,
+        "p95_turn_ms": 35.11957099999563,
+        "opponent_p95_turn_ms": 8.58398499985924,
+        "mean_score_margin": 27.375
+      },
+      "by_candidate": {
+        "baseline": {
+          "jobs": 4,
+          "matches": 4,
+          "errors": 0,
+          "distinct_map_count": 2,
+          "wins": 4,
+          "draws": 0,
+          "losses": 0,
+          "point_rate": 1.0,
+          "forfeits": 0,
+          "max_turn_ms": 40.46045300037804,
+          "opponent_max_turn_ms": 86.2979900002756,
+          "p95_turn_ms": 34.58112899988919,
+          "opponent_p95_turn_ms": 8.542628000213881,
+          "mean_score_margin": 27.25
+        },
+        "eng140": {
+          "jobs": 4,
+          "matches": 4,
+          "errors": 0,
+          "distinct_map_count": 2,
+          "wins": 4,
+          "draws": 0,
+          "losses": 0,
+          "point_rate": 1.0,
+          "forfeits": 0,
+          "max_turn_ms": 41.20470299949375,
+          "opponent_max_turn_ms": 68.63149299988436,
+          "p95_turn_ms": 35.86152800016862,
+          "opponent_p95_turn_ms": 8.85492600082216,
+          "mean_score_margin": 27.5
+        }
+      }
+    },
+    {
+      "run": "thread-4-repeat-0",
+      "executor": "thread",
+      "workers": 4,
+      "repeat": 0,
+      "wall_seconds": 8.977492402999815,
+      "total_wall_seconds": 21.31135523299963,
+      "games_per_second": 0.8911174346777295,
+      "changed_trace_jobs_vs_first": [],
+      "summary": {
+        "jobs": 8,
+        "matches": 8,
+        "errors": 0,
+        "distinct_map_count": 2,
+        "wins": 8,
+        "draws": 0,
+        "losses": 0,
+        "point_rate": 1.0,
+        "forfeits": 0,
+        "max_turn_ms": 73.76862999990408,
+        "opponent_max_turn_ms": 120.02335999932257,
+        "p95_turn_ms": 43.22334199969191,
+        "opponent_p95_turn_ms": 12.430398000105924,
+        "mean_score_margin": 27.375
+      },
+      "by_candidate": {
+        "baseline": {
+          "jobs": 4,
+          "matches": 4,
+          "errors": 0,
+          "distinct_map_count": 2,
+          "wins": 4,
+          "draws": 0,
+          "losses": 0,
+          "point_rate": 1.0,
+          "forfeits": 0,
+          "max_turn_ms": 73.76862999990408,
+          "opponent_max_turn_ms": 120.02335999932257,
+          "p95_turn_ms": 43.22334199969191,
+          "opponent_p95_turn_ms": 12.869826000496687,
+          "mean_score_margin": 27.25
+        },
+        "eng140": {
+          "jobs": 4,
+          "matches": 4,
+          "errors": 0,
+          "distinct_map_count": 2,
+          "wins": 4,
+          "draws": 0,
+          "losses": 0,
+          "point_rate": 1.0,
+          "forfeits": 0,
+          "max_turn_ms": 59.01316499966924,
+          "opponent_max_turn_ms": 114.92727800032299,
+          "p95_turn_ms": 43.522723999558366,
+          "opponent_p95_turn_ms": 11.710490000041318,
+          "mean_score_margin": 27.5
+        }
+      }
+    },
+    {
+      "run": "process-1-repeat-0",
+      "executor": "process",
+      "workers": 1,
+      "repeat": 0,
+      "wall_seconds": 28.092999718999636,
+      "total_wall_seconds": 39.40140805699957,
+      "games_per_second": 0.2847684505043975,
+      "changed_trace_jobs_vs_first": [],
+      "summary": {
+        "jobs": 8,
+        "matches": 8,
+        "errors": 0,
+        "distinct_map_count": 2,
+        "wins": 8,
+        "draws": 0,
+        "losses": 0,
+        "point_rate": 1.0,
+        "forfeits": 0,
+        "max_turn_ms": 49.05670999960421,
+        "opponent_max_turn_ms": 91.09249699940847,
+        "p95_turn_ms": 36.237965000509575,
+        "opponent_p95_turn_ms": 8.801572000265878,
+        "mean_score_margin": 27.375
+      },
+      "by_candidate": {
+        "baseline": {
+          "jobs": 4,
+          "matches": 4,
+          "errors": 0,
+          "distinct_map_count": 2,
+          "wins": 4,
+          "draws": 0,
+          "losses": 0,
+          "point_rate": 1.0,
+          "forfeits": 0,
+          "max_turn_ms": 39.88351699990744,
+          "opponent_max_turn_ms": 84.83064400024887,
+          "p95_turn_ms": 31.43061700029648,
+          "opponent_p95_turn_ms": 8.181541000340076,
+          "mean_score_margin": 27.25
+        },
+        "eng140": {
+          "jobs": 4,
+          "matches": 4,
+          "errors": 0,
+          "distinct_map_count": 2,
+          "wins": 4,
+          "draws": 0,
+          "losses": 0,
+          "point_rate": 1.0,
+          "forfeits": 0,
+          "max_turn_ms": 49.05670999960421,
+          "opponent_max_turn_ms": 91.09249699940847,
+          "p95_turn_ms": 38.72087499985355,
+          "opponent_p95_turn_ms": 9.068538000065018,
+          "mean_score_margin": 27.5
+        }
+      }
+    },
+    {
+      "run": "process-4-repeat-0",
+      "executor": "process",
+      "workers": 4,
+      "repeat": 0,
+      "wall_seconds": 8.407228933000624,
+      "total_wall_seconds": 20.326043321000725,
+      "games_per_second": 0.9515620502015663,
+      "changed_trace_jobs_vs_first": [],
+      "summary": {
+        "jobs": 8,
+        "matches": 8,
+        "errors": 0,
+        "distinct_map_count": 2,
+        "wins": 8,
+        "draws": 0,
+        "losses": 0,
+        "point_rate": 1.0,
+        "forfeits": 0,
+        "max_turn_ms": 50.89709399999265,
+        "opponent_max_turn_ms": 111.70038100044621,
+        "p95_turn_ms": 39.928036999299366,
+        "opponent_p95_turn_ms": 9.690517999842996,
+        "mean_score_margin": 27.375
+      },
+      "by_candidate": {
+        "baseline": {
+          "jobs": 4,
+          "matches": 4,
+          "errors": 0,
+          "distinct_map_count": 2,
+          "wins": 4,
+          "draws": 0,
+          "losses": 0,
+          "point_rate": 1.0,
+          "forfeits": 0,
+          "max_turn_ms": 50.89709399999265,
+          "opponent_max_turn_ms": 59.591784000076586,
+          "p95_turn_ms": 40.62451499976305,
+          "opponent_p95_turn_ms": 9.809948999645712,
+          "mean_score_margin": 27.25
+        },
+        "eng140": {
+          "jobs": 4,
+          "matches": 4,
+          "errors": 0,
+          "distinct_map_count": 2,
+          "wins": 4,
+          "draws": 0,
+          "losses": 0,
+          "point_rate": 1.0,
+          "forfeits": 0,
+          "max_turn_ms": 50.07000500063441,
+          "opponent_max_turn_ms": 111.70038100044621,
+          "p95_turn_ms": 38.615095999375626,
+          "opponent_p95_turn_ms": 9.656975999860151,
+          "mean_score_margin": 27.5
+        }
+      }
+    }
+  ],
+  "groups": [
+    {
+      "executor": "process",
+      "workers": 1,
+      "median_games_per_second": 0.2847684505043975
+    },
+    {
+      "executor": "process",
+      "workers": 2,
+      "median_games_per_second": 0.5646398158143779
+    },
+    {
+      "executor": "process",
+      "workers": 4,
+      "median_games_per_second": 0.9515620502015663
+    },
+    {
+      "executor": "process",
+      "workers": 8,
+      "median_games_per_second": 1.7981590975817328
+    },
+    {
+      "executor": "thread",
+      "workers": 1,
+      "median_games_per_second": 0.2707147571501369
+    },
+    {
+      "executor": "thread",
+      "workers": 2,
+      "median_games_per_second": 0.5659168719549817
+    },
+    {
+      "executor": "thread",
+      "workers": 4,
+      "median_games_per_second": 0.8911174346777295
+    },
+    {
+      "executor": "thread",
+      "workers": 8,
+      "median_games_per_second": 1.338040786950742
+    }
+  ],
+  "all_traces_preserved": true
+}

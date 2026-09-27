@@ -1,0 +1,26 @@
+{
+  "started_utc": "2026-09-27T14:36:26.100757+00:00",
+  "workers": 8,
+  "executor": "process",
+  "resumed_jobs": 0,
+  "scheduled_jobs": 8,
+  "command": [
+    "/usr/bin/python3",
+    "/home/dlwltkd/YonKo_hackathon_-/experiments/cpu_sweep.py",
+    "--config",
+    "/home/dlwltkd/YonKo_hackathon_-/experiments/cpu_sweep_example.json",
+    "--output-dir",
+    "/home/dlwltkd/YonKo_hackathon_-/records/compute/code-search-pilot/executors/process-8-repeat-0",
+    "--workers",
+    "8",
+    "--executor",
+    "process",
+    "--replays",
+    "none"
+  ],
+  "status": "complete",
+  "finished_utc": "2026-09-27T14:36:30.549885+00:00",
+  "wall_seconds": 4.4489945360001,
+  "total_wall_seconds": 15.743131711999922,
+  "finished_new_jobs": 8
+}

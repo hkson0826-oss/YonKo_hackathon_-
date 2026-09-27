@@ -1,0 +1,27 @@
+{
+  "started_utc": "2026-09-27T14:40:14.786106+00:00",
+  "workers": 8,
+  "executor": "process",
+  "resumed_jobs": 8,
+  "scheduled_jobs": 0,
+  "command": [
+    "/usr/bin/python3",
+    "experiments/cpu_sweep.py",
+    "--config",
+    "experiments/cpu_sweep_example.json",
+    "--output-dir",
+    "records/compute/code-search-pilot/executors/process-8-repeat-0",
+    "--workers",
+    "8",
+    "--executor",
+    "process",
+    "--replays",
+    "none",
+    "--resume"
+  ],
+  "status": "complete",
+  "finished_utc": "2026-09-27T14:40:14.791472+00:00",
+  "wall_seconds": 0.0051175090002288925,
+  "total_wall_seconds": 0.011918733000129578,
+  "finished_new_jobs": 0
+}

@@ -13,6 +13,8 @@
 | [research/gpu-allocation](research/gpu-allocation/) | Sample Factory·PBT·ASHA의 자원 배분 근거와 본문 확인 |
 | [teammates/round2](teammates/round2/) | 최신 팀원·main ZIP 비교와 고정 소스 스냅샷 |
 | [compute/round2](compute/round2/) | 로컬 환경과 CPU 작업자 1/2/4 처리량·로그·패배 리플레이 |
+| [compute/code-search-pilot](compute/code-search-pilot/) | 실제 v2 판단 병목, 동일 대전의 CPU 병렬도 비교, CPU/CUDA 평가함수 정합성·실행 상태 |
+| [research/compute-choice](research/compute-choice/) | CUDA·Python·irace·SMAC 공식 문서와 코드 탐색 적용 근거 |
 
 공식 원본은 [artifacts/firstround_results](../artifacts/firstround_results/)에 그대로 보존했다. [분석 도구](../experiments/analyze_official_round1.py)는 합법 관측으로 알 수 있는 점수와 사후 복원 점수를 구분한다. [처리량 측정 도구](../experiments/profile_throughput.py)는 고정한 봇 소스·새 임시 빌드로 같은 맵을 반복하며, 기존 출력 경로 덮어쓰기를 거부한다.
 

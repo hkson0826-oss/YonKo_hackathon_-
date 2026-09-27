@@ -1,0 +1,12 @@
+{
+  "source": "https://docs.python.org/3/library/concurrent.futures.html",
+  "title": "concurrent.futures — Launching parallel tasks — Python 3.14.7 documentation",
+  "retrieved_utc": "2026-09-27 14:30:28 UTC",
+  "section": "ProcessPoolExecutor",
+  "verbatim_excerpt": "only picklable objects can be executed and returned.",
+  "metadata": {
+    "statusCode": 200,
+    "scrapeId": "01a0e345-6731-77b3-91ee-8bea24b71ba3",
+    "sourceURL": "https://docs.python.org/3/library/concurrent.futures.html"
+  }
+}

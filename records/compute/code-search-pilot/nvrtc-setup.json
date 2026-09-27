@@ -1,0 +1,15 @@
+{
+  "package": "nvidia-cuda-nvrtc-cu12",
+  "version": "12.9.86",
+  "url": "https://files.pythonhosted.org/packages/b8/85/e4af82cc9202023862090bfca4ea827d533329e925c758f0cde964cb54b7/nvidia_cuda_nvrtc_cu12-12.9.86-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl",
+  "filename": "nvidia_cuda_nvrtc_cu12-12.9.86-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl",
+  "sha256": "210cf05005a447e29214e9ce50851e83fc5f4358df8b453155d5e1918094dcb4",
+  "size_bytes": 89568129,
+  "libraries": [
+    "/tmp/yk-cuda-probe-nvrtc-12.9.86/nvidia/cuda_nvrtc/lib/libnvrtc.so.12",
+    "/tmp/yk-cuda-probe-nvrtc-12.9.86/nvidia/cuda_nvrtc/lib/libnvrtc.alt.so.12",
+    "/tmp/yk-cuda-probe-nvrtc-12.9.86/nvidia/cuda_nvrtc/lib/libnvrtc-builtins.so.12.9",
+    "/tmp/yk-cuda-probe-nvrtc-12.9.86/nvidia/cuda_nvrtc/lib/libnvrtc-builtins.alt.so.12.9"
+  ],
+  "installation_scope": "Downloaded and hash-verified official PyPI wheel, extracted to /tmp only; no global Python or driver changes."
+}

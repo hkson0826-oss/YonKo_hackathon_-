@@ -1,0 +1,228 @@
+{
+  "status": "cpu_only_gpu_skipped",
+  "started_at": "2026-09-27T14:39:44.654809+00:00",
+  "scope": "v2 evaluation and building_value only; no game simulation, action generation, or win-rate measurement",
+  "source_sha256": {
+    "experiments/gpu_probe/run_probe.py": "c96501bce2ea16842900e7719e617064a39374e487d403579c14e7616f02cd72",
+    "experiments/gpu_probe/evaluation_shared.hpp": "bd5be513c4197510c8d9c55422bd558175a1583fb687e61cc47e9cccc753a456",
+    "experiments/gpu_probe/cpu_bridge.cpp": "fa9b7436e12a136bdac418d0c86c37ee5e4e18ed425c421a72ef8d6b44aaae4b",
+    "experiments/gpu_probe/evaluation_kernel.cu": "6790671f048e77a4525405bd1079e6bd0cd2f7313f921538ee1d12e59260c5d0",
+    "submissions/tuned/main.cpp": "53bb019625fabbbd3aa8a5b65af971912bb4cbdad8a9fde3009fadad5ba6d4c5",
+    "submissions/tuned/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "submissions/tuned/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa"
+  },
+  "source_commit": "add4860cf395d08f4ae82ab34ac966e1c22286d4",
+  "arguments": {
+    "output_dir": "records/compute/code-search-pilot/gpu-evaluation",
+    "replay_dir": "/home/dlwltkd/YonKo_hackathon_-/artifacts/firstround_results",
+    "device": 0,
+    "batch_sizes": [
+      1024,
+      16384,
+      65536
+    ],
+    "workers": [
+      1,
+      4
+    ],
+    "repeats": 3,
+    "warmup": 2,
+    "nvrtc_lib": "/tmp/yk-cuda-probe-nvrtc-12.9.86/nvidia/cuda_nvrtc/lib/libnvrtc.so.12",
+    "cpu_only": false,
+    "cuda_arch": 86,
+    "state_limit": null
+  },
+  "environment": {
+    "python": "3.14.7",
+    "platform": "Linux-7.2.3-arch1-3-x86_64-with-glibc2.44",
+    "logical_cpus": 20
+  },
+  "batches": [
+    {
+      "evaluations": 1024,
+      "unique_pairs": 1024,
+      "cpu": [
+        {
+          "workers": 1,
+          "samples_ms": [
+            5.028288000175962,
+            5.366055000195047,
+            5.252855000435375
+          ],
+          "median_ms": 5.252855000435375,
+          "min_ms": 5.028288000175962,
+          "max_abs_difference": 0.0,
+          "checksum_sha256": "366a8f32a444c261709fefc532b60303d6074871a1a20f2f7ae23f701bc21b6b"
+        },
+        {
+          "workers": 4,
+          "samples_ms": [
+            1.8064280002363375,
+            1.863795000645041,
+            2.3263209996002843
+          ],
+          "median_ms": 1.863795000645041,
+          "min_ms": 1.8064280002363375,
+          "max_abs_difference": 0.0,
+          "checksum_sha256": "366a8f32a444c261709fefc532b60303d6074871a1a20f2f7ae23f701bc21b6b"
+        }
+      ]
+    },
+    {
+      "evaluations": 16384,
+      "unique_pairs": 16384,
+      "cpu": [
+        {
+          "workers": 1,
+          "samples_ms": [
+            79.96958100011398,
+            80.62975100074254,
+            79.31658699999389
+          ],
+          "median_ms": 79.96958100011398,
+          "min_ms": 79.31658699999389,
+          "max_abs_difference": 0.0,
+          "checksum_sha256": "b42f612ec5f17214e32af78fd6650e5b52e12956943e4c88a54e5a71a44b89ae"
+        },
+        {
+          "workers": 4,
+          "samples_ms": [
+            25.341390999528812,
+            22.330415000396897,
+            21.32090099985362
+          ],
+          "median_ms": 22.330415000396897,
+          "min_ms": 21.32090099985362,
+          "max_abs_difference": 0.0,
+          "checksum_sha256": "b42f612ec5f17214e32af78fd6650e5b52e12956943e4c88a54e5a71a44b89ae"
+        }
+      ]
+    },
+    {
+      "evaluations": 65536,
+      "unique_pairs": 61000,
+      "cpu": [
+        {
+          "workers": 1,
+          "samples_ms": [
+            321.25315699977364,
+            318.3804919999602,
+            319.18451599995024
+          ],
+          "median_ms": 319.18451599995024,
+          "min_ms": 318.3804919999602,
+          "max_abs_difference": 0.0,
+          "checksum_sha256": "33876e2f2aad9bc7e42724bd4226d9ebd028035c4c0615b275f977aabd9d62e8"
+        },
+        {
+          "workers": 4,
+          "samples_ms": [
+            86.65447400017001,
+            82.73360200018942,
+            81.76162000017939
+          ],
+          "median_ms": 82.73360200018942,
+          "min_ms": 81.76162000017939,
+          "max_abs_difference": 0.0,
+          "checksum_sha256": "33876e2f2aad9bc7e42724bd4226d9ebd028035c4c0615b275f977aabd9d62e8"
+        }
+      ]
+    }
+  ],
+  "dataset": {
+    "states": 488,
+    "parameter_sets": 125,
+    "unique_state_parameter_pairs": 61000,
+    "fixture_shuffle_seed": 20260927,
+    "load_seconds": 0.16843154700018204,
+    "parameter_values": {
+      "engineering": [
+        55.0,
+        82.5,
+        110.0,
+        137.5,
+        165.0
+      ],
+      "hall_income": [
+        17.5,
+        26.25,
+        35.0,
+        43.75,
+        52.5
+      ],
+      "army": [
+        0.65,
+        0.975,
+        1.3,
+        1.625,
+        1.95
+      ]
+    },
+    "position_bytes": 18920,
+    "input_bytes": 9235960,
+    "sha256": "53d0fdd7213de84729dfe48f8886f0eb14ee33a7a6906358f720a34d8f018d7f",
+    "replays": [
+      {
+        "path": "artifacts/firstround_results/replay (1).json",
+        "sha256": "82fb14ed2eca4e21316fc7720d0f60d0b5053cb4e6fa418889b064edd3d97881"
+      },
+      {
+        "path": "artifacts/firstround_results/replay (2).json",
+        "sha256": "6ea68e55f67ef3fa120b790d752632c3556c3f1de9ed842ec6e66c026d5f647d"
+      },
+      {
+        "path": "artifacts/firstround_results/replay (3).json",
+        "sha256": "e1a77ebc0dc871668ad7002674303b8b6066ff3436dca695bbef434a27335011"
+      },
+      {
+        "path": "artifacts/firstround_results/replay (4).json",
+        "sha256": "bc4bc260ae659c5c2943393c851dc5fbf4a5de8246950bf548b8f569f4a454ff"
+      },
+      {
+        "path": "artifacts/firstround_results/replay (5).json",
+        "sha256": "52d8ce5c40a06f42b2cbdeace40882ab27f446d7ae0addb4f3828a8635277db2"
+      }
+    ],
+    "knowledge": "Current participant observation plus earlier observed ownership only; same ordered mirror/default estimates as v2; no retrospective hidden scores"
+  },
+  "cpu_build": {
+    "command": [
+      "g++",
+      "-std=c++20",
+      "-O3",
+      "-fopenmp",
+      "-ffp-contract=off",
+      "-fPIC",
+      "-shared",
+      "/home/dlwltkd/YonKo_hackathon_-/experiments/gpu_probe/cpu_bridge.cpp",
+      "-o",
+      "/home/dlwltkd/YonKo_hackathon_-/records/compute/code-search-pilot/gpu-evaluation/cpu_bridge.so"
+    ],
+    "seconds": 7.589152649000425,
+    "sha256": "8549de17522627fa3d39884858a6c06fabf1992b5e0e93fb90c71b1c0cb49791",
+    "compiler": "g++ (GCC) 16.2.1 20260810"
+  },
+  "v2_original_parity": {
+    "positions": 488,
+    "max_abs_difference": 0.0,
+    "tolerance": 1e-08,
+    "passed": true
+  },
+  "cuda_build": {
+    "nvrtc_library": "/tmp/yk-cuda-probe-nvrtc-12.9.86/nvidia/cuda_nvrtc/lib/libnvrtc.so.12",
+    "nvrtc_sha256": "7c67c6b51ea0e0279634cebd676ff7efda1674806444520c84430ad5c35fe625",
+    "compile_seconds": 0.11564491900026042,
+    "compile_options": [
+      "--std=c++17",
+      "--gpu-architecture=compute_86",
+      "--fmad=false"
+    ],
+    "ptx_sha256": "5285ddf5628b5a40f3a4e9d99106c7f9d9789a81e4d6a1ab63ff42ffa2d9980c"
+  },
+  "gpu": {
+    "status": "skipped",
+    "reason": "cuInit failed with CUDA driver code 100",
+    "kernel_compiled": true
+  },
+  "finished_at": "2026-09-27T14:39:55.423365+00:00"
+}
