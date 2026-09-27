@@ -1,0 +1,33 @@
+{
+  "ranking": [
+    "r3_lower_tail",
+    "s3_v2_screen_intact_base",
+    "r3_v2_y_tail",
+    "s3_v2_screen_paired_guard",
+    "f3_v2_warrior_reserve",
+    "r3_v2_pareto_local",
+    "s3_v2_screen_continuation",
+    "f3_matching",
+    "s3_screen_refine",
+    "f3_v2_movement_matching",
+    "s3_v2_screen_roundrobin",
+    "f3_econ_mission",
+    "s3_joint_origins",
+    "s3_selective_contact",
+    "f3_v2_safe_econ_mission",
+    "f3_v2_soft_matching",
+    "r3_v2_tail_recheck",
+    "v3",
+    "r3_v2_mean_control",
+    "r3_opponent_league"
+  ],
+  "selected": [
+    "v3",
+    "r3_lower_tail",
+    "s3_v2_screen_intact_base",
+    "r3_v2_y_tail",
+    "s3_v2_screen_paired_guard",
+    "f3_v2_warrior_reserve",
+    "r3_v2_pareto_local"
+  ]
+}

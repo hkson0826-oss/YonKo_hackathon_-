@@ -1,0 +1,12 @@
+{
+  "captured_utc": "2026-09-27T17:59:18.982024+00:00",
+  "source_commit": "ff8b2063bc86c5649741efa08f827a027ee954fd",
+  "remote_tmp": "/tmp/yk-league-xeo9l1o_",
+  "scope": "Completed development stage only; selection/holdout and full artifact recovery remain in progress",
+  "file_sha256": {
+    "runs/development/summary.json": "40434169fae71c49ee158b44438ebc8ae6c6adee80b353883b6b365a50aeb552",
+    "development-selection.json": "84d895bfccb4348fba98db70fae2a30d259094679dbe15aa7cbcfb71a12bdd0a",
+    "campaign-policy.json": "a31ffd14eb508f255c2c3f6473f1564083d1d6fb6f0c8f92dab7f8cfa95bd50c",
+    "progress.json": "784be3da159f36797393489453a272560692c800299349dc2348a8ee3f79c824"
+  }
+}
