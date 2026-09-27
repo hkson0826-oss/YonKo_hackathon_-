@@ -1,0 +1,15 @@
+{
+  "load": [
+    20.208984375,
+    14.86474609375,
+    9.255859375
+  ],
+  "memory": {
+    "MemTotal": 472827908096,
+    "MemAvailable": 467258228736
+  },
+  "own_process_count": 82,
+  "own_summed_RSS_bytes": 798777344,
+  "scope": "Summed RSS can double count shared pages; point-in-time observation only",
+  "captured_utc": "2026-09-27T16:59:44.297570+00:00"
+}
