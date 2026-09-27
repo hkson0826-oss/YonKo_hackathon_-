@@ -1,5 +1,7 @@
 # 실험 기록
 
+현재 제출은 [v4 검증 기록](submissions/v4/README.md)을 따른다. 상세 리그 원본과 분석 코드는 jisang에 보존한다.
+
 현재 추천 v3의 [제출 검사·해시](submissions/v3/README.md), [평가 요약 근거](submissions/v3/evidence/source-manifest.json), [팀 공유 요약](../docs/21-v3공유요약.md)을 먼저 참고한다. 전체 후보·리플레이는 `jisang`에 보존했다.
 
 | 폴더 | 내용 |

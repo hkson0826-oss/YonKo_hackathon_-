@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/tmp/yk-gcc12-zc1olgd7/gcc12-wrapper",
+    "-std=c++20",
+    "-O2",
+    "-I",
+    "/home/dlwltkd/YonKo_hackathon_-/records/league/loop3-s3-confirmation/snapshot/candidates/v3",
+    "/home/dlwltkd/YonKo_hackathon_-/records/league/loop3-s3-confirmation/snapshot/candidates/v3/main.cpp",
+    "-o",
+    "/tmp/yk-package-6qncuyg7/baseline"
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": ""
+}
