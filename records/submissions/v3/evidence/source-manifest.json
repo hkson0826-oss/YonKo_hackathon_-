@@ -1,0 +1,31 @@
+{
+  "source_commit": "fa20717dea009dc505242eea32440435ff48964b",
+  "scope": "Validated v3 submission, exact CPU validation records, aggregate evaluation evidence, and team summary only",
+  "files": {
+    "holdout-campaign-result.json": {
+      "source_path": "records/league/loop2-iteration2/campaign-result.json",
+      "sha256": "ea0fa5c8e5fd19e23ee013c394e18e5257b8452c3365a5b9de462b86edce2abf",
+      "bytes": 77306
+    },
+    "holdout-summary.json": {
+      "source_path": "records/league/loop2-iteration2/runs/holdout/summary.json",
+      "sha256": "b524bc9be1ef58c3a74d16dbabba44d2195707fbbc48cce04342f97addbb4fbf",
+      "bytes": 31439
+    },
+    "holdout-selection-lock.json": {
+      "source_path": "records/league/loop2-iteration2/locked-finalists.json",
+      "sha256": "e72dec59c378a7586d58b59aef686b2caad323a37a20d2248e5916bd5666ec0d",
+      "bytes": 315
+    },
+    "cross-family-result.json": {
+      "source_path": "records/league/loop2-cross-family/audit-result.json",
+      "sha256": "c21bb6a3a905128a37b26a221f32492b7dd9dc1b334f3967196729034c7576de",
+      "bytes": 20359
+    },
+    "cross-family-summary.json": {
+      "source_path": "records/league/loop2-cross-family/runs/audit/summary.json",
+      "sha256": "88f211a1ffc82a42292879cb53ee7f68f86d29b044f3ff02803b54bb12ddb4eb",
+      "bytes": 25876
+    }
+  }
+}

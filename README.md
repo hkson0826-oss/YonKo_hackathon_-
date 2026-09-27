@@ -1,6 +1,12 @@
 # 연고전 AI 해커톤 — 제출 봇과 전략 조사
 
-**현재 추천 제출 파일: [artifacts/submission-v2.zip](artifacts/submission-v2.zip)**
+**현재 추천 제출 파일: [artifacts/submission-v3.zip](artifacts/submission-v3.zip)**
+
+36개 신규 후보·7,718경기를 비교해 v3를 채택했다. 우리 진영 Y의 미사용 맵 검증은 v2 185/320승 → v3 269/320승, 별도 상대군은 71/192승 → 125/192승이었다. 실제 ZIP 재컴파일·SDK 기본 실행·CPU 4경기도 통과했다. **[팀 공유 요약·성능 한계](docs/21-v3공유요약.md)** · **[최종 소스](submissions/iterative-v3/)** · **[검사·해시](records/submissions/v3/README.md)**
+
+오늘(2026-09-28) 마감은 한국시간 오전 8시다. `main`은 검증된 제출·공유 자료를 제공하며, 진행 중인 개선 실험과 전체 리플레이는 `jisang`에 있다. 공식 GCC 12.2.0 환경의 사이트 빌드·검사는 업로드 후 확인해야 한다.
+
+아래 v2·v1 성적은 이전 버전의 이력이다.
 
 v2는 팀원 봇 상대 개발 맵 40전 38승, 별도 새 맵 40전 38승이었다. 기존 v1과 직접 대전에서는 20전 12승이며 제출 형식·컴파일·실행 검사를 통과했다. [튜닝 결과와 로그](docs/06-v2튜닝결과.md)
 
@@ -9,9 +15,10 @@ ZIP 자체를 업로드한다. 압축을 풀어 다시 감싸지 않는다. 업�
 폴더 구성:
 
 ```text
-artifacts/                 제출용 v1·v2 ZIP
+artifacts/                 제출용 v1·v2·v3 ZIP
 submissions/first/         v1 C++ 소스
 submissions/tuned/         v2 C++ 소스
+submissions/iterative-v3/  현재 추천 v3 C++ 소스
 submissions/delineate-v1.zip  팀원 봇 원본
 docs/                      규칙·조사·전략·검증 문서
 tests/                     공식 엔진 대조 검사와 대전 도구
@@ -27,6 +34,7 @@ records/
 
 | 문서 | 내용 |
 |---|---|
+| [현재 v3 공유 요약](docs/21-v3공유요약.md) | 지금 제출할 ZIP·소스·검증 성적·한계·원본 기록 |
 | [규칙과 제출](docs/01-대회규칙과제출.md) | 전체 규칙, 판정 순서, 자원·전투·점령, 제출 제약, 운영 정보 |
 | [Firecrawl 조사](docs/02-Firecrawl조사.md) | 실제 Lux 우승 회고, 동시 행동 탐색·정책 포트폴리오·상대 집단 연구와 원문 링크 |
 | [알고리즘과 약점](docs/03-알고리즘과약점분석.md) | 폐기한 접근, 실제 1차 알고리즘, 대전 결과, 패배 분석, 최종 우승 후보 설계 |
@@ -34,21 +42,26 @@ records/
 | [팀원 봇 대전](docs/05-팀원봇대전.md) | 손형권 v1 브랜치 수신, 양 진영 40경기 결과와 패배 리플레이 |
 | [v2 튜닝과 검증](docs/06-v2튜닝결과.md) | 채택한 개선, 개발·새 맵·직접 대전 결과, 로그와 제출 파일 추적 |
 
-v2를 빌드하고 팀원 봇과 대전하려면 프로젝트 루트에서 실행한다. 상세 리플레이는 패배·무승부만 저장한다. 다음 명령은 별도 결과 파일을 만들어 기존 검증 기록을 보존한다.
+v3를 빌드해 v2와 소규모로 비교하려면 프로젝트 루트에서 실행한다. 이 간단한 도구는 패배·무승부 리플레이만 저장하며, 위 최종 검증을 대체하지 않는다. 임시 파일은 종료 시 삭제하고 결과만 고유 경로에 보존한다. 전체 패키지 재검사는 [제출 기록](records/submissions/v3/README.md)의 명령을 따른다.
 
 ```bash
-g++ -std=c++20 -O2 submissions/tuned/main.cpp -o artifacts/tuned_bot
-python3 -m zipfile -e submissions/delineate-v1.zip artifacts/opponents/delineate-v1
-python3 tests/benchmark.py \
-  --candidate './artifacts/tuned_bot' \
-  --opponent 'python3 artifacts/opponents/delineate-v1/main.py' \
-  --start 3000 --seeds 20 \
-  --save-losses records/replays/reproduction/v2-team \
-  --output records/benchmarks/reproduction/v2-team.json
-python3 yk-development-tools/bots/dist/starter/run_tests.py --zip artifacts/submission-v2.zip
+(
+  set -eu
+  run_tmp=$(mktemp -d /tmp/yk-recheck-XXXXXXXX)
+  trap 'rm -rf -- "$run_tmp"' EXIT
+  export TMPDIR="$run_tmp" PYTHONDONTWRITEBYTECODE=1
+  run_id=${run_tmp##*/}
+  g++ -std=c++20 -O2 submissions/iterative-v3/main.cpp -o "$run_tmp/v3"
+  g++ -std=c++20 -O2 submissions/tuned/main.cpp -o "$run_tmp/v2"
+  python3 tests/benchmark.py \
+    --candidate "$run_tmp/v3" --opponent "$run_tmp/v2" \
+    --start 7600 --seeds 2 --workers 2 \
+    --save-losses "records/replays/reproduction/$run_id" \
+    --output "records/benchmarks/reproduction/$run_id.json"
+)
 ```
 
-`experiments/tune_presubmit*.py`도 위 명령으로 팀원 ZIP을 푼 뒤 실행할 수 있다. 실험 스크립트는 해당 후보의 소스·결과를 다시 생성하므로 보관된 기록을 재현할 때는 별도 checkout을 권장한다.
+과거 실험 스크립트는 후보 소스·결과를 다시 생성할 수 있다. 동결 기록을 직접 덮어쓰지 않고 별도 TMP checkout과 새 결과 경로로 실행한다.
 
 아래는 보존한 v1의 구성과 검증 이력이다. v1은 C++20으로 작성한 정책 3종, 최대 4턴의 동시 시뮬레이션, 3×3 후보 행렬의 혼합 선택을 사용한다. 신경망·학습 가중치·외부 패키지가 없다. [소스](submissions/first/main.cpp)
 
@@ -66,15 +79,4 @@ python3 yk-development-tools/bots/dist/starter/run_tests.py --zip artifacts/subm
 
 실제 대회 참가자 전반의 성능은 아직 확인하지 않았다. 내부 정책 상대는 코드 구조를 공유하므로 해당 승률을 실전 승률로 해석하지 않는다. 초기 검사에서 발견한 시드 0/Y의 패배는 중반 22:10 우세 후 최종 7:24로 역전된 경기이며 [리플레이](records/replays/v1-initial/v1-loss-seed0.json)를 보관했다.
 
-재빌드·테스트:
-
-```bash
-g++ -std=c++20 -O2 submissions/first/main.cpp -o artifacts/first_bot
-g++ -std=c++20 -O2 tests/simulator_bridge.cpp -o artifacts/simulator_bridge
-python3 tests/test_rules.py
-python3 tests/test_simulator.py
-python3 tests/benchmark.py --seeds 10
-python3 yk-development-tools/bots/dist/starter/run_tests.py --zip artifacts/submission-v1.zip
-```
-
-실제 제출 환경은 GCC 12.2.0/CPU/300ms이며 로컬 환경과 다르다. 정확한 제한은 [배포 제한](yk-development-tools/bots/dist/starter/limits.json)을 따른다. 임의 학습 가중치 제출 금지 때문에 GPU는 오프라인 연구용 활용으로만 제안했다.
+실제 제출 환경은 GCC 12.2.0/CPU/300ms이며 로컬 환경과 다르다. 정확한 제한은 [배포 제한](yk-development-tools/bots/dist/starter/limits.json)을 따른다. 개발 과정에서는 CPU·GPU를 활용할 수 있으며, 현재 v3는 신경망 가중치 없는 C++ 코드다.
