@@ -1,0 +1,189 @@
+{
+  "checked_utc": "2026-09-27T16:26:31.316952+00:00",
+  "verifier_sha256": "334d96a9844f2d69371c5fafbe8b0285318b50d8b6d52bffaa1d03f9ce01ff5c",
+  "status": "passed",
+  "source_commit": "c64d5831becfeef0c5468a77fbae5d25c77792f6",
+  "frozen_source_files_verified": 140,
+  "binaries_intentionally_omitted": 26,
+  "games": 4892,
+  "distinct_maps": 91,
+  "stages": {
+    "smoke": {
+      "games": 52,
+      "full_replays_verified": 52,
+      "distinct_maps": 1
+    },
+    "development": {
+      "games": 1760,
+      "full_replays_verified": 1760,
+      "distinct_maps": 8
+    },
+    "selection": {
+      "games": 1120,
+      "full_replays_verified": 1120,
+      "distinct_maps": 16
+    },
+    "holdout": {
+      "games": 1920,
+      "full_replays_verified": 1920,
+      "distinct_maps": 64
+    },
+    "crossplay": {
+      "games": 40,
+      "full_replays_verified": 40,
+      "distinct_maps": 2
+    }
+  },
+  "full_replays_trace_hash_verified": 4892,
+  "errors": 0,
+  "forfeits": 0,
+  "maximum_response_ms_both_bots": 176.41104850918055,
+  "official_originals_unchanged": 5,
+  "maximum_job_elapsed_seconds_including_analysis": 16.77328247576952,
+  "stdout_peak_by_bot_including_END": {
+    "v2": {
+      "turn_bytes": 3855,
+      "turn_lines": 243,
+      "line_bytes": 90
+    },
+    "a_progressive": {
+      "turn_bytes": 4216,
+      "turn_lines": 264,
+      "line_bytes": 90
+    },
+    "a_v2_terminal_local": {
+      "turn_bytes": 4054,
+      "turn_lines": 257,
+      "line_bytes": 90
+    },
+    "a_v2_tactical_fit": {
+      "turn_bytes": 4082,
+      "turn_lines": 259,
+      "line_bytes": 90
+    },
+    "j_v2_reclaim_relay": {
+      "turn_bytes": 2814,
+      "turn_lines": 180,
+      "line_bytes": 90
+    },
+    "q_v2_tactical_worst": {
+      "turn_bytes": 3845,
+      "turn_lines": 242,
+      "line_bytes": 90
+    },
+    "j_defensive_portfolio": {
+      "turn_bytes": 2838,
+      "turn_lines": 180,
+      "line_bytes": 90
+    },
+    "r_joint_escort": {
+      "turn_bytes": 4247,
+      "turn_lines": 269,
+      "line_bytes": 90
+    },
+    "a_v2_continuous_mix": {
+      "turn_bytes": 4233,
+      "turn_lines": 273,
+      "line_bytes": 90
+    },
+    "a_opponent_fit": {
+      "turn_bytes": 3307,
+      "turn_lines": 211,
+      "line_bytes": 90
+    },
+    "q_v2_tactical_mean": {
+      "turn_bytes": 3845,
+      "turn_lines": 242,
+      "line_bytes": 90
+    },
+    "q_threat_window": {
+      "turn_bytes": 3845,
+      "turn_lines": 242,
+      "line_bytes": 90
+    },
+    "r_combined": {
+      "turn_bytes": 3716,
+      "turn_lines": 241,
+      "line_bytes": 90
+    },
+    "j_reclaim_portfolio": {
+      "turn_bytes": 2795,
+      "turn_lines": 174,
+      "line_bytes": 90
+    },
+    "j_v2_defensive_delayed": {
+      "turn_bytes": 2349,
+      "turn_lines": 147,
+      "line_bytes": 90
+    },
+    "a_score_scenarios": {
+      "turn_bytes": 4130,
+      "turn_lines": 264,
+      "line_bytes": 90
+    },
+    "q_balanced_front": {
+      "turn_bytes": 4892,
+      "turn_lines": 311,
+      "line_bytes": 90
+    },
+    "j_v2_reclaim_flags7": {
+      "turn_bytes": 2691,
+      "turn_lines": 170,
+      "line_bytes": 90
+    },
+    "teammate": {
+      "turn_bytes": 2413,
+      "turn_lines": 157,
+      "line_bytes": 90
+    },
+    "a_v2_tactical_local": {
+      "turn_bytes": 4307,
+      "turn_lines": 276,
+      "line_bytes": 90
+    },
+    "j_balanced_portfolio": {
+      "turn_bytes": 2271,
+      "turn_lines": 142,
+      "line_bytes": 90
+    },
+    "a_local_unabstracted": {
+      "turn_bytes": 4054,
+      "turn_lines": 257,
+      "line_bytes": 90
+    },
+    "j_v2_reclaim_relay_delayed": {
+      "turn_bytes": 3386,
+      "turn_lines": 214,
+      "line_bytes": 90
+    },
+    "q_v2_window_guard": {
+      "turn_bytes": 3735,
+      "turn_lines": 234,
+      "line_bytes": 90
+    },
+    "q_v2_guard_tactical": {
+      "turn_bytes": 3455,
+      "turn_lines": 215,
+      "line_bytes": 90
+    },
+    "r_terminal_margin": {
+      "turn_bytes": 3971,
+      "turn_lines": 246,
+      "line_bytes": 90
+    }
+  },
+  "stdout_check_scope": "Replay-preserved commands plus LF and END; stderr was not captured by the league.",
+  "submission_v2_sha256": "f90eca7cac0024ab4cc7c00d79595f71e4eb9bab92ec57e0527c7b977098b64a",
+  "transport_cleanup": {
+    "event": "cleanup_complete",
+    "utc": "2026-09-27T16:21:05Z",
+    "path": "/tmp/yk-league-1c1csuif",
+    "exists": false,
+    "archive_accepted": true
+  },
+  "independent_cleanup_check": {
+    "path": "/tmp/yk-league-1c1csuif",
+    "path_exists": false,
+    "matching_process_ids": []
+  }
+}
