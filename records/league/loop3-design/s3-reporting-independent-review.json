@@ -1,0 +1,19 @@
+{
+  "reviewed_utc": "2026-09-27T19:23:33.022019+00:00",
+  "reviewer": "loop2_search_architecture",
+  "scope": "Independent read-only actual producer/consumer schema review; no new experiments or tests",
+  "result": "No blocking correctness defect found",
+  "checked": [
+    "session complete/complete_with_errors and finished_utc",
+    "actual aggregate and worker result fields",
+    "exact paired maps/sides/opponents/jobs and completed progress",
+    "stored final/audit gates recomputed from raw results",
+    "audit cannot rescue a failed final gate",
+    "full source/replay bytes remain a separate verifier requirement"
+  ],
+  "sha256": {
+    "experiments/analyze_v3_confirmation.py": "b5c2579016ba235579fb05966b110eb008aa7fab55ea42ed319df0f9bc48034e",
+    "experiments/v3_confirmation.py": "e069e532064446290c78b628cc829303bdfa64eb620277daae9059a5d99899ac",
+    "experiments/local_league.py": "0446721386cdbbfa9806527051d924efa6d96890aee9ad52bb3b154261226274"
+  }
+}
