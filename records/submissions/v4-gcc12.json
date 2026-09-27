@@ -1,0 +1,491 @@
+{
+  "status": "passed",
+  "started_utc": "2026-09-27T20:23:08.121706+00:00",
+  "helper_sha256": "6d4f2063f2c86b571e6544b733b23469a6a0bae18a06b8abd978d99ddea2fe23",
+  "paths": {
+    "arena": "/home/dlwltkd/YonKo_hackathon_-/records/league/loop3-s3-confirmation",
+    "audit": "/home/dlwltkd/YonKo_hackathon_-/records/league/loop3-s3-audit",
+    "source_output": "/home/dlwltkd/YonKo_hackathon_-/submissions/iterative-v4",
+    "zip_output": "/home/dlwltkd/YonKo_hackathon_-/artifacts/submission-v4.zip",
+    "record_output": "/home/dlwltkd/YonKo_hackathon_-/records/submissions/v4",
+    "compiler_record": "/home/dlwltkd/YonKo_hackathon_-/records/submissions/v4-gcc12.json"
+  },
+  "cpu_seed_start": 9450,
+  "toolchain": {
+    "temporary_directory": "/tmp/yk-gcc12-zc1olgd7",
+    "debian_index": {
+      "url": "https://deb.debian.org/debian/dists/bookworm/main/binary-amd64/Packages.xz",
+      "sha256": "9e0b5aabb2465b3d2e7a7fe27f9913846277833f7a2826e7767acccff5b588c5",
+      "bytes": 8790396
+    },
+    "metadata_verification": "Official Debian HTTPS index; package SHA256 verified against it; OpenPGP signature not independently verified",
+    "packages": [
+      {
+        "name": "g++-12",
+        "version": "12.2.0-14+deb12u1",
+        "url": "https://deb.debian.org/debian/pool/main/g/gcc-12/g++-12_12.2.0-14+deb12u1_amd64.deb",
+        "sha256": "68b182badae4ace7d472f1393c559d3532a95a2d70817498b10bb481d2627251",
+        "bytes": 10694076
+      },
+      {
+        "name": "gcc-12",
+        "version": "12.2.0-14+deb12u1",
+        "url": "https://deb.debian.org/debian/pool/main/g/gcc-12/gcc-12_12.2.0-14+deb12u1_amd64.deb",
+        "sha256": "b46f33cc2ec245e435e043807038cecf4b201ef004800e9dfc1455240360e49d",
+        "bytes": 19268852
+      },
+      {
+        "name": "cpp-12",
+        "version": "12.2.0-14+deb12u1",
+        "url": "https://deb.debian.org/debian/pool/main/g/gcc-12/cpp-12_12.2.0-14+deb12u1_amd64.deb",
+        "sha256": "fedbb98e877adde83c983c6071537ea25ac52b277ac6e4637d85025949ca1454",
+        "bytes": 9767788
+      },
+      {
+        "name": "gcc-12-base",
+        "version": "12.2.0-14+deb12u1",
+        "url": "https://deb.debian.org/debian/pool/main/g/gcc-12/gcc-12-base_12.2.0-14+deb12u1_amd64.deb",
+        "sha256": "1896a2aacf4ad681ff5eacc24a5b0ca4d5d9c9b9c9e4b6de5197bc1e116ea619",
+        "bytes": 37596
+      },
+      {
+        "name": "libstdc++-12-dev",
+        "version": "12.2.0-14+deb12u1",
+        "url": "https://deb.debian.org/debian/pool/main/g/gcc-12/libstdc++-12-dev_12.2.0-14+deb12u1_amd64.deb",
+        "sha256": "d28def6c23630432b57cb38a4c2fd67a79d4e0484027386ca6e8d6005c3d7a73",
+        "bytes": 2047292
+      },
+      {
+        "name": "libgcc-12-dev",
+        "version": "12.2.0-14+deb12u1",
+        "url": "https://deb.debian.org/debian/pool/main/g/gcc-12/libgcc-12-dev_12.2.0-14+deb12u1_amd64.deb",
+        "sha256": "d720259380a84f2ffc6fe516eff5cbe9c8a005138e8d6a5748747ba4b3404a82",
+        "bytes": 2437204
+      },
+      {
+        "name": "libstdc++6",
+        "version": "12.2.0-14+deb12u1",
+        "url": "https://deb.debian.org/debian/pool/main/g/gcc-12/libstdc++6_12.2.0-14+deb12u1_amd64.deb",
+        "sha256": "5cd3171216d4ab0fc911cfe9c35509bf2dd8f47761c43b7f6a4296701551a24d",
+        "bytes": 612604
+      },
+      {
+        "name": "libgcc-s1",
+        "version": "12.2.0-14+deb12u1",
+        "url": "https://deb.debian.org/debian/pool/main/g/gcc-12/libgcc-s1_12.2.0-14+deb12u1_amd64.deb",
+        "sha256": "3016e62cb4b7cd8038822870601f5ed131befe942774d0f745622cc77d8a88f7",
+        "bytes": 49856
+      },
+      {
+        "name": "libc6",
+        "version": "2.36-9+deb12u14",
+        "url": "https://deb.debian.org/debian/pool/main/g/glibc/libc6_2.36-9+deb12u14_amd64.deb",
+        "sha256": "ba4f88f73dbc3ae9055f3c20f4523bfdbaf1ad13ff95e258924f77d20b4fbedf",
+        "bytes": 2759320
+      },
+      {
+        "name": "libc6-dev",
+        "version": "2.36-9+deb12u14",
+        "url": "https://deb.debian.org/debian/pool/main/g/glibc/libc6-dev_2.36-9+deb12u14_amd64.deb",
+        "sha256": "0218fc2befcd784c1b0c6292c0a137ce89fad054efaa579ad083bee0f2c01aae",
+        "bytes": 1903668
+      },
+      {
+        "name": "linux-libc-dev",
+        "version": "6.1.176-1",
+        "url": "https://deb.debian.org/debian/pool/main/l/linux/linux-libc-dev_6.1.176-1_amd64.deb",
+        "sha256": "8bb258735b9dffbb111da778ebdd024750878e435ffd9dfcadcb6762ede6b4cf",
+        "bytes": 2303828
+      }
+    ],
+    "direct_compiler_wrapper": {
+      "path": "/tmp/yk-gcc12-zc1olgd7/gcc12-wrapper",
+      "sha256": "8abf891351c062760450244e3af3c708c8aa0eb228211bea41b41f6f204a3867",
+      "extra_link_options": [
+        "-Wl,--dynamic-linker,/tmp/yk-gcc12-zc1olgd7/sysroot/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+        "-Wl,--disable-new-dtags,-rpath,/tmp/yk-gcc12-zc1olgd7/sysroot/lib/x86_64-linux-gnu:/tmp/yk-gcc12-zc1olgd7/sysroot/usr/lib/x86_64-linux-gnu"
+      ],
+      "lifetime": "Build and direct execution must finish inside gcc12_toolchain context"
+    },
+    "compiler": {
+      "argv": [
+        "/tmp/yk-gcc12-zc1olgd7/sysroot/usr/bin/x86_64-linux-gnu-g++-12",
+        "--version"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 0.0018465210014255717,
+      "stdout": "x86_64-linux-gnu-g++-12 (Debian 12.2.0-14+deb12u1) 12.2.0\nCopyright (C) 2022 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+      "stderr": ""
+    },
+    "search_paths": {
+      "argv": [
+        "/tmp/yk-gcc12-zc1olgd7/sysroot/usr/bin/x86_64-linux-gnu-g++-12",
+        "-B/tmp/yk-gcc12-zc1olgd7/sysroot/usr/lib/gcc/x86_64-linux-gnu/12/",
+        "--sysroot=/tmp/yk-gcc12-zc1olgd7/sysroot",
+        "-print-search-dirs"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 0.0018148070012102835,
+      "stdout": "install: /tmp/yk-gcc12-zc1olgd7/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/12/\nprograms: =/tmp/yk-gcc12-zc1olgd7/sysroot/usr/lib/gcc/x86_64-linux-gnu/12/x86_64-linux-gnu/12/:/tmp/yk-gcc12-zc1olgd7/sysroot/usr/lib/gcc/x86_64-linux-gnu/12/x86_64-linux-gnu/:/tmp/yk-gcc12-zc1olgd7/sysroot/usr/lib/gcc/x86_64-linux-gnu/12/:/tmp/yk-gcc12-zc1olgd7/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/12/:/tmp/yk-gcc12-zc1olgd7/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/:/tmp/yk-gcc12-zc1olgd7/sysroot/usr/bin/../lib/gcc/:/tmp/yk-gcc12-zc1olgd7/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/12/:/tmp/yk-gcc12-zc1olgd7/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/tmp/yk-gcc12-zc1olgd7/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/bin/\nlibraries: =/tmp/yk-gcc12-zc1olgd7/sysroot/usr/lib/gcc/x86_64-linux-gnu/12/x86_64-linux-gnu/12/:/tmp/yk-gcc12-zc1olgd7/sysroot/usr/lib/gcc/x86_64-linux-gnu/12/x86_64-linux-gnu/:/tmp/yk-gcc12-zc1olgd7/sysroot/usr/lib/gcc/x86_64-linux-gnu/12/:/tmp/yk-gcc12-zc1olgd7/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/12/:/tmp/yk-gcc12-zc1olgd7/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/:/tmp/yk-gcc12-zc1olgd7/sysroot/usr/bin/../lib/gcc/:/tmp/yk-gcc12-zc1olgd7/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/12/:/tmp/yk-gcc12-zc1olgd7/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/tmp/yk-gcc12-zc1olgd7/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/lib/../lib/:/tmp/yk-gcc12-zc1olgd7/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/12/:/tmp/yk-gcc12-zc1olgd7/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/tmp/yk-gcc12-zc1olgd7/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/tmp/yk-gcc12-zc1olgd7/sysroot/lib/x86_64-linux-gnu/12/:/tmp/yk-gcc12-zc1olgd7/sysroot/lib/x86_64-linux-gnu/:/tmp/yk-gcc12-zc1olgd7/sysroot/lib/../lib/:/tmp/yk-gcc12-zc1olgd7/sysroot/usr/lib/x86_64-linux-gnu/12/:/tmp/yk-gcc12-zc1olgd7/sysroot/usr/lib/x86_64-linux-gnu/:/tmp/yk-gcc12-zc1olgd7/sysroot/usr/lib/../lib/:/tmp/yk-gcc12-zc1olgd7/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/lib/:/tmp/yk-gcc12-zc1olgd7/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../:/tmp/yk-gcc12-zc1olgd7/sysroot/lib/:/tmp/yk-gcc12-zc1olgd7/sysroot/usr/lib/\n",
+      "stderr": ""
+    },
+    "host_assembler": {
+      "argv": [
+        "as",
+        "--version"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 0.011140127997350646,
+      "stdout": "GNU assembler (GNU Binutils) 2.47\nCopyright (C) 2026 Free Software Foundation, Inc.\nThis program is free software; you may redistribute it under the terms of\nthe GNU General Public License version 3 or later.\nThis program has absolutely no warranty.\nThis assembler was configured for a target of `x86_64-pc-linux-gnu'.\n",
+      "stderr": ""
+    },
+    "host_linker": {
+      "argv": [
+        "ld",
+        "--version"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 0.003975750998506555,
+      "stdout": "GNU ld (GNU Binutils) 2.47\nCopyright (C) 2026 Free Software Foundation, Inc.\nThis program is free software; you may redistribute it under the terms of\nthe GNU General Public License version 3 or (at your option) a later version.\nThis program has absolutely no warranty.\n",
+      "stderr": ""
+    },
+    "temporary_directory_removed": true
+  },
+  "scope": "GCC12 packaging of the actual ZIP; SDK smoke plus four CPU matches under the existing packager limits",
+  "limits": [
+    "Toolchain setup budget does not impose an overall packaging deadline; compiler and match subprocess limits remain active.",
+    "Host binutils, CPU, kernel and isolation can differ from the official server."
+  ],
+  "candidate": "s3_v2_screen_paired_guard",
+  "initial_gates_passed": true,
+  "packaging": {
+    "status": "validated",
+    "started_utc": "2026-09-27T20:23:17.986647+00:00",
+    "helper_sha256": "5bd9526ad4d26bdc71348a1b5084f0745fbf5c1961b28264e8229457f472b196",
+    "arena": "/home/dlwltkd/YonKo_hackathon_-/records/league/loop3-s3-confirmation",
+    "audit": "/home/dlwltkd/YonKo_hackathon_-/records/league/loop3-s3-audit",
+    "outputs": [
+      "/home/dlwltkd/YonKo_hackathon_-/submissions/iterative-v4",
+      "/home/dlwltkd/YonKo_hackathon_-/artifacts/submission-v4.zip",
+      "/home/dlwltkd/YonKo_hackathon_-/records/submissions/v4"
+    ],
+    "validation_scope": "Packaging and CPU protocol/resource regression only; four games have no win-rate promotion gate",
+    "candidate": "s3_v2_screen_paired_guard",
+    "source_commit": "6e36cb5bfab7ff874fbb48a3c3b82308e41bdcf2",
+    "source_sha256": "1703701340ede10b652b0aa024e29c3fd411e2809ae34de1e3d0b39620d496df",
+    "baseline": "v3",
+    "baseline_source_sha256": "52268569e17d7fc40fd46f0996b2da684768902b4af27ec059c4b068911c4473",
+    "cpu_map_seeds": [
+      9450,
+      9451
+    ],
+    "artifact_verifications": {
+      "original": {
+        "checked_utc": "2026-09-27T20:06:21.463674+00:00",
+        "verifier_sha256": "eb1e5f331a04807b4fe9a5eecd9102984b0c9a369013146e5c279e3eab4efcd5",
+        "status": "passed",
+        "source_commit": "6e36cb5bfab7ff874fbb48a3c3b82308e41bdcf2",
+        "frozen_source_files_verified": 115,
+        "binaries_intentionally_omitted": 9,
+        "games": 4688,
+        "distinct_maps": 131,
+        "stages": {
+          "smoke": {
+            "games": 20,
+            "full_replays_verified": 20,
+            "distinct_maps": 1
+          },
+          "holdout": {
+            "games": 4608,
+            "full_replays_verified": 4608,
+            "distinct_maps": 128
+          },
+          "crossplay": {
+            "games": 60,
+            "full_replays_verified": 60,
+            "distinct_maps": 2
+          }
+        },
+        "full_replays_trace_hash_verified": 4688,
+        "errors": 0,
+        "forfeits": 0,
+        "maximum_response_ms_both_bots": 182.58011899888515,
+        "official_originals_unchanged": 5,
+        "maximum_job_elapsed_seconds_including_analysis": 20.924474908038974,
+        "stdout_peak_by_bot_including_END": {
+          "v3": {
+            "turn_bytes": 4251,
+            "turn_lines": 272,
+            "line_bytes": 90
+          },
+          "f3_v2_warrior_reserve": {
+            "turn_bytes": 3890,
+            "turn_lines": 244,
+            "line_bytes": 90
+          },
+          "s3_v2_screen_paired_guard": {
+            "turn_bytes": 4415,
+            "turn_lines": 281,
+            "line_bytes": 90
+          },
+          "j_balanced_portfolio": {
+            "turn_bytes": 3175,
+            "turn_lines": 203,
+            "line_bytes": 90
+          },
+          "teammate": {
+            "turn_bytes": 2218,
+            "turn_lines": 144,
+            "line_bytes": 90
+          },
+          "a_v2_tactical_local": {
+            "turn_bytes": 4615,
+            "turn_lines": 285,
+            "line_bytes": 90
+          },
+          "j_v2_reclaim_relay": {
+            "turn_bytes": 3415,
+            "turn_lines": 217,
+            "line_bytes": 90
+          },
+          "s3_selective_contact": {
+            "turn_bytes": 4321,
+            "turn_lines": 276,
+            "line_bytes": 90
+          },
+          "v2": {
+            "turn_bytes": 3866,
+            "turn_lines": 249,
+            "line_bytes": 90
+          },
+          "r3_opponent_league": {
+            "turn_bytes": 4129,
+            "turn_lines": 262,
+            "line_bytes": 90
+          }
+        },
+        "stdout_check_scope": "Replay-preserved commands plus LF and END; stderr was not captured by the league.",
+        "submission_v2_sha256": "f90eca7cac0024ab4cc7c00d79595f71e4eb9bab92ec57e0527c7b977098b64a",
+        "transport_cleanup": {
+          "event": "cleanup_complete",
+          "utc": "2026-09-27T20:02:09Z",
+          "path": "/tmp/yk-league-tw82mxuu",
+          "exists": false,
+          "archive_accepted": true
+        },
+        "submission_v3_sha256": "ce94e80a49d833be8b3c093a34319d8b9cdb5b7ec8d86b91a4b2831b18d799cb",
+        "independent_cleanup_check": {
+          "path": "/tmp/yk-league-tw82mxuu",
+          "path_exists": false,
+          "matching_process_ids": []
+        }
+      },
+      "audit": {
+        "checked_utc": "2026-09-27T20:22:05.011970+00:00",
+        "verifier_sha256": "eb1e5f331a04807b4fe9a5eecd9102984b0c9a369013146e5c279e3eab4efcd5",
+        "status": "passed",
+        "source_commit": "9e14d06b9e7eb803aa2c388c9710853c879c7db9",
+        "frozen_source_files_verified": 117,
+        "binaries_intentionally_omitted": 9,
+        "games": 1728,
+        "distinct_maps": 48,
+        "stages": {
+          "audit": {
+            "games": 1728,
+            "full_replays_verified": 1728,
+            "distinct_maps": 48
+          }
+        },
+        "full_replays_trace_hash_verified": 1728,
+        "errors": 0,
+        "forfeits": 0,
+        "maximum_response_ms_both_bots": 177.24026646465063,
+        "official_originals_unchanged": 5,
+        "maximum_job_elapsed_seconds_including_analysis": 21.11148741096258,
+        "stdout_peak_by_bot_including_END": {
+          "v2": {
+            "turn_bytes": 3595,
+            "turn_lines": 226,
+            "line_bytes": 89
+          },
+          "s3_v2_screen_paired_guard": {
+            "turn_bytes": 4261,
+            "turn_lines": 273,
+            "line_bytes": 89
+          },
+          "v3": {
+            "turn_bytes": 4258,
+            "turn_lines": 270,
+            "line_bytes": 89
+          },
+          "j_balanced_portfolio": {
+            "turn_bytes": 2941,
+            "turn_lines": 185,
+            "line_bytes": 89
+          },
+          "s3_selective_contact": {
+            "turn_bytes": 4123,
+            "turn_lines": 261,
+            "line_bytes": 89
+          },
+          "teammate": {
+            "turn_bytes": 2897,
+            "turn_lines": 186,
+            "line_bytes": 89
+          },
+          "j_v2_reclaim_relay": {
+            "turn_bytes": 2808,
+            "turn_lines": 178,
+            "line_bytes": 89
+          },
+          "f3_v2_warrior_reserve": {
+            "turn_bytes": 4076,
+            "turn_lines": 259,
+            "line_bytes": 89
+          },
+          "r3_opponent_league": {
+            "turn_bytes": 3364,
+            "turn_lines": 214,
+            "line_bytes": 89
+          },
+          "a_v2_tactical_local": {
+            "turn_bytes": 2821,
+            "turn_lines": 179,
+            "line_bytes": 89
+          }
+        },
+        "stdout_check_scope": "Replay-preserved commands plus LF and END; stderr was not captured by the league.",
+        "submission_v2_sha256": "f90eca7cac0024ab4cc7c00d79595f71e4eb9bab92ec57e0527c7b977098b64a",
+        "transport_cleanup": {
+          "event": "cleanup_complete",
+          "utc": "2026-09-27T20:20:23Z",
+          "path": "/tmp/yk-league-a4swh0bb",
+          "exists": false,
+          "archive_accepted": true
+        },
+        "submission_v3_sha256": "ce94e80a49d833be8b3c093a34319d8b9cdb5b7ec8d86b91a4b2831b18d799cb",
+        "independent_cleanup_check": {
+          "path": "/tmp/yk-league-a4swh0bb",
+          "path_exists": false,
+          "matching_process_ids": []
+        }
+      }
+    },
+    "sdk_frozen_files_checked": 27,
+    "evaluation_file_sha256": {
+      "original/manifest.json": "d568f6758682ed3124b4fa827955ed2b0d8e15547c21479389033bb8feadd456",
+      "original/campaign-result.json": "98be8b5a53922f35ac699278d2dce69f37620b9d46a0733fc2fcc8773b83e721",
+      "original/locked-finalists.json": "7aa64837ea4488a004845e688004e59fcaa543d37d0da8fb5995066957bf066e",
+      "original/artifact-verification.json": "6e3bdacbd624fde365cec6e299ebefc97052ec206054f6027a62c91345882fdc",
+      "audit/manifest.json": "f371476fbe72367c3960b146b90c9db08adfa50c25d68ddb4f955ae124462e93",
+      "audit/audit-result.json": "31b2e5bbb2f7d4d5dc852227994142e56209b08cd34544599b1d4cc1c79383ec",
+      "audit/audit-policy.json": "b944362eef50e4a7d199288c6ead94f783f7bf24ecb032c6848b51ce8facc24a",
+      "audit/artifact-verification.json": "cc88996401e9ba893c71d88b5ce3a170d9951a85e1866e241294ea40d6b851a3"
+    },
+    "environment": {
+      "compiler": "/tmp/yk-gcc12-zc1olgd7/gcc12-wrapper",
+      "compiler_version": "x86_64-linux-gnu-g++-12 (Debian 12.2.0-14+deb12u1) 12.2.0",
+      "platform": "Linux-7.2.3-arch1-3-x86_64-with-glibc2.44",
+      "python": "3.14.7 (main, Aug 10 2026, 07:46:56) [GCC 16.1.1 20260728]",
+      "cpu_affinity": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "required_platform_compiler": "GCC 12.2.0 / C++20",
+      "limitation": "Local CPU/OS/compiler are recorded; this does not certify the official platform container."
+    },
+    "runtime_limits": {
+      "RLIMIT_AS_bytes": 402653184,
+      "first_turn_ms": 3000,
+      "turn_ms": 300,
+      "process_wall_seconds": 180,
+      "scope": "Per-process virtual address space and timeout wrapper; not full server container isolation"
+    },
+    "sdk_tool_sha256": {
+      "yk-development-tools/bots/dist/starter/submission.py": "e3e163f2de9877218bc0079e6bfad94b1a78102e9d253d84abf97bf2e19b1130",
+      "yk-development-tools/bots/dist/starter/run_tests.py": "2b52ee38f5b148057535ebb382d9959f22117bdf1a0b84e8d994b6ebe9b8a692",
+      "yk-development-tools/bots/dist/starter/output_usage.py": "7a1398acbdbe7e67e8a4b52587ed90d5f674a937ac3519ebc94551c00f9ab642",
+      "yk-development-tools/bots/dist/starter/limits.json": "182499583a1da4f5add6c25fe900ad59488c230163b8064c6697014a9b9fec45"
+    },
+    "source_files": {
+      "generated.hpp": {
+        "arena_relative_path": "snapshot/candidates/s3_v2_screen_paired_guard/generated.hpp",
+        "sha256": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+        "bytes": 1043
+      },
+      "main.cpp": {
+        "arena_relative_path": "snapshot/candidates/s3_v2_screen_paired_guard/main.cpp",
+        "sha256": "1703701340ede10b652b0aa024e29c3fd411e2809ae34de1e3d0b39620d496df",
+        "bytes": 45922
+      },
+      "protocol.hpp": {
+        "arena_relative_path": "snapshot/candidates/s3_v2_screen_paired_guard/protocol.hpp",
+        "sha256": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+        "bytes": 5010
+      },
+      "submission.json": {
+        "arena_relative_path": "snapshot/submissions/iterative-v3/submission.json",
+        "sha256": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60",
+        "bytes": 46
+      }
+    },
+    "zip": {
+      "sha256": "b3f7fee0154ff08a7f563e8b0036dd7b649d136e949e641ebe69a8c0ba7cd3da",
+      "bytes": 14441,
+      "members": {
+        "generated.hpp": {
+          "sha256": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+          "bytes": 1043
+        },
+        "main.cpp": {
+          "sha256": "1703701340ede10b652b0aa024e29c3fd411e2809ae34de1e3d0b39620d496df",
+          "bytes": 45922
+        },
+        "protocol.hpp": {
+          "sha256": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+          "bytes": 5010
+        },
+        "submission.json": {
+          "sha256": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60",
+          "bytes": 46
+        }
+      },
+      "deterministic_metadata": true
+    },
+    "errors": 0,
+    "forfeits": 0,
+    "cpu_matches": 4,
+    "sdk_smoke_matches": 1,
+    "full_length_matches": 2,
+    "maximum_candidate_response_ms": 130.72559599822853,
+    "validated_utc": "2026-09-27T20:24:37.240446+00:00",
+    "tmp_cleanup": {
+      "path": "/tmp/yk-package-6qncuyg7",
+      "exists": false,
+      "checked_utc": "2026-09-27T20:24:37.242553+00:00"
+    },
+    "finished_utc": "2026-09-27T20:24:37.242566+00:00"
+  },
+  "environment_restored": true,
+  "signal_handlers_restored": true,
+  "toolchain_started": true,
+  "finished_utc": "2026-09-27T20:24:37.280795+00:00"
+}
