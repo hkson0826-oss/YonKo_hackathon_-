@@ -1,0 +1,40 @@
+{
+  "checked_utc": "2026-09-27T15:43:59.425476+00:00",
+  "verifier_sha256": "3c74deb03428bfcac45eb2e7c5783d4f76bc40b9b1d06c64df7b1821edbfb49b",
+  "status": "passed",
+  "source_commit": "c2bfcaf02745ad782481acc6677563ebda7548ae",
+  "frozen_source_files_verified": 148,
+  "binaries_intentionally_omitted": 29,
+  "games": 2058,
+  "distinct_maps": 9,
+  "stages": {
+    "smoke": {
+      "games": 58,
+      "full_replays_verified": 58,
+      "distinct_maps": 1
+    },
+    "development": {
+      "games": 2000,
+      "full_replays_verified": 2000,
+      "distinct_maps": 8
+    }
+  },
+  "full_replays_trace_hash_verified": 2058,
+  "errors": 0,
+  "forfeits": 0,
+  "maximum_response_ms_both_bots": 112.60582599788904,
+  "official_originals_unchanged": 5,
+  "submission_v2_sha256": "f90eca7cac0024ab4cc7c00d79595f71e4eb9bab92ec57e0527c7b977098b64a",
+  "transport_cleanup": {
+    "event": "cleanup_complete",
+    "utc": "2026-09-27T15:42:06Z",
+    "path": "/tmp/yk-league-rb525226",
+    "exists": false,
+    "archive_accepted": true
+  },
+  "independent_cleanup_check": {
+    "path": "/tmp/yk-league-rb525226",
+    "path_exists": false,
+    "matching_process_ids": []
+  }
+}

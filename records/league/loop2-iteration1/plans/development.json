@@ -1,0 +1,47 @@
+{
+  "candidates": [
+    "v2",
+    "q_guard_own",
+    "q_escort_own",
+    "q_capacity",
+    "q_threat_window",
+    "q_rendezvous",
+    "q_deadline",
+    "q_balanced_front",
+    "q_coordinated",
+    "j_balanced_direct",
+    "j_balanced_portfolio",
+    "j_pressure_direct",
+    "j_pressure_portfolio",
+    "j_defensive_direct",
+    "j_defensive_portfolio",
+    "j_reclaim_direct",
+    "j_reclaim_portfolio",
+    "a_asymmetric_mix",
+    "a_pgs_local",
+    "a_pgs_hybrid",
+    "a_opponent_fit",
+    "a_fit_pgs",
+    "a_progressive",
+    "a_score_scenarios",
+    "a_local_unabstracted"
+  ],
+  "opponents": [
+    "v2",
+    "teammate",
+    "r_combined",
+    "r_joint_escort",
+    "r_terminal_margin"
+  ],
+  "map_seeds": [
+    7000,
+    7001,
+    7002,
+    7003,
+    7004,
+    7005,
+    7006,
+    7007
+  ],
+  "replays": "all"
+}

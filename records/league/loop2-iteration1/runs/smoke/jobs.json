@@ -1,0 +1,408 @@
+[
+  {
+    "candidate": "r_joint_escort",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "Y",
+    "job_id": "14e03f4caf047176408f2a3f"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "K",
+    "job_id": "ae4675bf7c2e45381660ca2d"
+  },
+  {
+    "candidate": "j_pressure_portfolio",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "K",
+    "job_id": "1570cf9bc2a525c0dc2250ae"
+  },
+  {
+    "candidate": "q_balanced_front",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "Y",
+    "job_id": "a720e6efb16c01e1b2a9691c"
+  },
+  {
+    "candidate": "j_reclaim_direct",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "K",
+    "job_id": "770dfd48b30aeafbac5633c3"
+  },
+  {
+    "candidate": "q_capacity",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "Y",
+    "job_id": "42aa1d8c9e99defb9dba3266"
+  },
+  {
+    "candidate": "j_defensive_portfolio",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "K",
+    "job_id": "ef80bb1b5b66eeb146917b8f"
+  },
+  {
+    "candidate": "a_fit_pgs",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "K",
+    "job_id": "35bca8da7ebccea8509d6ab3"
+  },
+  {
+    "candidate": "a_opponent_fit",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "Y",
+    "job_id": "32808849d82fb6ceaab3cbb4"
+  },
+  {
+    "candidate": "j_reclaim_direct",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "Y",
+    "job_id": "407bbc8aa2725509ca9f2946"
+  },
+  {
+    "candidate": "r_terminal_margin",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "Y",
+    "job_id": "068d4e2602cc8c3538fddcad"
+  },
+  {
+    "candidate": "a_progressive",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "Y",
+    "job_id": "effd5b04b207e66f9db37e93"
+  },
+  {
+    "candidate": "q_rendezvous",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "Y",
+    "job_id": "9423cef3f2f7ddb296d31bad"
+  },
+  {
+    "candidate": "q_threat_window",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "K",
+    "job_id": "f1a276090b3b38d33153b342"
+  },
+  {
+    "candidate": "a_pgs_hybrid",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "Y",
+    "job_id": "f0938ded74afd743196f0aa0"
+  },
+  {
+    "candidate": "q_escort_own",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "K",
+    "job_id": "f30d23c4d2d5ccd970997e9d"
+  },
+  {
+    "candidate": "j_balanced_direct",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "Y",
+    "job_id": "8266d0ebb1392fa9f8e00768"
+  },
+  {
+    "candidate": "q_guard_own",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "Y",
+    "job_id": "9b59c3048e0e7e0ee776ab5d"
+  },
+  {
+    "candidate": "j_pressure_portfolio",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "Y",
+    "job_id": "ab707286d729bb5012baca91"
+  },
+  {
+    "candidate": "q_guard_own",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "K",
+    "job_id": "eebd00773d032eb4715f1415"
+  },
+  {
+    "candidate": "q_rendezvous",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "K",
+    "job_id": "cfd353c00db19548508840b5"
+  },
+  {
+    "candidate": "r_combined",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "K",
+    "job_id": "72ab147eab98af03cef2fb66"
+  },
+  {
+    "candidate": "j_balanced_portfolio",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "K",
+    "job_id": "e89670928f4edbd00f21ebcb"
+  },
+  {
+    "candidate": "r_combined",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "Y",
+    "job_id": "f52ea87e2e0594d9ebfd954a"
+  },
+  {
+    "candidate": "r_joint_escort",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "K",
+    "job_id": "87bb653f22dac474cb051b38"
+  },
+  {
+    "candidate": "q_deadline",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "K",
+    "job_id": "a82b4da068cfe937f2b7355f"
+  },
+  {
+    "candidate": "j_reclaim_portfolio",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "K",
+    "job_id": "0377b926a0923258d66b78e2"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "Y",
+    "job_id": "31d51f633271b45821162e33"
+  },
+  {
+    "candidate": "a_asymmetric_mix",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "Y",
+    "job_id": "0a0b9de865262c4556059479"
+  },
+  {
+    "candidate": "j_defensive_portfolio",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "Y",
+    "job_id": "f3105a21af5d772b829f7150"
+  },
+  {
+    "candidate": "q_coordinated",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "Y",
+    "job_id": "c4bd4ae2f9a54b4118b997d2"
+  },
+  {
+    "candidate": "j_reclaim_portfolio",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "Y",
+    "job_id": "d7d98ae1bbb50ce64f6de78b"
+  },
+  {
+    "candidate": "a_fit_pgs",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "Y",
+    "job_id": "1073acbc64ab70a856b0f091"
+  },
+  {
+    "candidate": "q_capacity",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "K",
+    "job_id": "a74111ad1afc482c929f2ad5"
+  },
+  {
+    "candidate": "j_balanced_direct",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "K",
+    "job_id": "9cbadfccd2d9e839db588823"
+  },
+  {
+    "candidate": "j_defensive_direct",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "Y",
+    "job_id": "1bd6aef5e86f82b19ac02c19"
+  },
+  {
+    "candidate": "a_pgs_hybrid",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "K",
+    "job_id": "2525ac73a4c5e08b400063f1"
+  },
+  {
+    "candidate": "r_terminal_margin",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "K",
+    "job_id": "2eebd003ddba154e485ea0ae"
+  },
+  {
+    "candidate": "q_threat_window",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "Y",
+    "job_id": "0a11bcd71e829b52cf3ee61b"
+  },
+  {
+    "candidate": "a_score_scenarios",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "K",
+    "job_id": "5ac20edeced0aa2cd033cd87"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "Y",
+    "job_id": "a83ff41c56e1ece14aae8151"
+  },
+  {
+    "candidate": "a_local_unabstracted",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "K",
+    "job_id": "4ade7dec529669c8d9e3a3fb"
+  },
+  {
+    "candidate": "a_pgs_local",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "Y",
+    "job_id": "5d9cdc4554e377810d444c54"
+  },
+  {
+    "candidate": "q_deadline",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "Y",
+    "job_id": "bd60a14c054dda18084f9051"
+  },
+  {
+    "candidate": "q_escort_own",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "Y",
+    "job_id": "11d7d794489c2d571e49c862"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "K",
+    "job_id": "2aef56e1811c599c9766f3bb"
+  },
+  {
+    "candidate": "j_balanced_portfolio",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "Y",
+    "job_id": "93d20e77a525a66c01b61c9d"
+  },
+  {
+    "candidate": "a_asymmetric_mix",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "K",
+    "job_id": "e4392ce56cd864270b53c662"
+  },
+  {
+    "candidate": "a_pgs_local",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "K",
+    "job_id": "70fa7a9dee05241d57d9c5c9"
+  },
+  {
+    "candidate": "j_pressure_direct",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "Y",
+    "job_id": "2a9cec5012067be721c2be4c"
+  },
+  {
+    "candidate": "a_progressive",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "K",
+    "job_id": "43f889a9357e47b100001190"
+  },
+  {
+    "candidate": "q_balanced_front",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "K",
+    "job_id": "29a626ba98f4fa0ded30061c"
+  },
+  {
+    "candidate": "j_defensive_direct",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "K",
+    "job_id": "3edc5e9d6fa54032cf6ff2b4"
+  },
+  {
+    "candidate": "q_coordinated",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "K",
+    "job_id": "5c1c330b8de227671703a629"
+  },
+  {
+    "candidate": "a_opponent_fit",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "K",
+    "job_id": "a9c2fe59b0b0fc88563ae4da"
+  },
+  {
+    "candidate": "j_pressure_direct",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "K",
+    "job_id": "2abb2df0c8dec8750822e2b5"
+  },
+  {
+    "candidate": "a_score_scenarios",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "Y",
+    "job_id": "2076527b645da169ac2c6e96"
+  },
+  {
+    "candidate": "a_local_unabstracted",
+    "opponent": "v2",
+    "map_seed": 6999,
+    "team": "Y",
+    "job_id": "904ef4585e641c73e6205824"
+  }
+]

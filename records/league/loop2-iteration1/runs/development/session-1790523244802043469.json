@@ -1,0 +1,27 @@
+{
+  "status": "complete",
+  "started_utc": "2026-09-27T15:34:04.801986+00:00",
+  "workers": 16,
+  "resumed_jobs": 0,
+  "scheduled_jobs": 2000,
+  "command": [
+    "/usr/bin/python3",
+    "experiments/iterative_campaign.py",
+    "--arena",
+    "output",
+    "--phase",
+    "explore",
+    "--seed-start",
+    "7000",
+    "--maps",
+    "8",
+    "--workers",
+    "16"
+  ],
+  "plan_sha256": "c8fc9f4c017e97e97ebc58d409915785ddeb8150b3033eaf64fdb522e7188786",
+  "python": "3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]",
+  "python_executable": "/usr/bin/python3",
+  "finished_utc": "2026-09-27T15:41:49.773298+00:00",
+  "wall_seconds": 464.97112793754786,
+  "finished_new_jobs": 2000
+}

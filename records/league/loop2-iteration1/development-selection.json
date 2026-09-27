@@ -1,0 +1,38 @@
+{
+  "ranking": [
+    "a_local_unabstracted",
+    "j_balanced_portfolio",
+    "j_defensive_portfolio",
+    "q_threat_window",
+    "a_progressive",
+    "a_score_scenarios",
+    "a_pgs_local",
+    "a_fit_pgs",
+    "q_balanced_front",
+    "q_coordinated",
+    "j_reclaim_portfolio",
+    "j_pressure_portfolio",
+    "a_pgs_hybrid",
+    "q_guard_own",
+    "q_capacity",
+    "a_asymmetric_mix",
+    "q_rendezvous",
+    "a_opponent_fit",
+    "j_reclaim_direct",
+    "j_balanced_direct",
+    "j_defensive_direct",
+    "q_escort_own",
+    "v2",
+    "q_deadline",
+    "j_pressure_direct"
+  ],
+  "selected": [
+    "v2",
+    "a_local_unabstracted",
+    "j_balanced_portfolio",
+    "j_defensive_portfolio",
+    "q_threat_window",
+    "a_progressive",
+    "a_score_scenarios"
+  ]
+}
