@@ -1,0 +1,451 @@
+{
+  "schema": 1,
+  "matched_success": [
+    {
+      "map_seed": 8101,
+      "candidate": "f3_matching",
+      "opponent": "v3",
+      "team": "Y",
+      "job_id": "d968dcf49e4c49e323aa072e",
+      "path": "records/league/loop3-iteration1/runs/development/replays/d968dcf49e4c49e323aa072e.json.gz",
+      "sha256": "37004c3dc2617bf6ac1f4dcf058f40686fd6a315fac83bf0e4c584c63ad36164",
+      "verified_frames": 160,
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 22,
+          "K": 6
+        },
+        "turns": 160,
+        "seed": 8101
+      },
+      "economy": {
+        "Y": {
+          "eng_discount_turns_at_spawn": 146,
+          "hall_count_sum_at_income": 127,
+          "effective_income": 1854,
+          "nominal_hall_income": 254,
+          "production": {
+            "F": 23,
+            "W": 759,
+            "S": 0
+          },
+          "production_spending": 1665,
+          "deaths": {
+            "F": 17,
+            "W": 684,
+            "S": 0
+          }
+        },
+        "K": {
+          "eng_discount_turns_at_spawn": 140,
+          "hall_count_sum_at_income": 138,
+          "effective_income": 1860,
+          "nominal_hall_income": 276,
+          "production": {
+            "F": 24,
+            "W": 729,
+            "S": 0
+          },
+          "production_spending": 1625,
+          "deaths": {
+            "F": 19,
+            "W": 684,
+            "S": 0
+          }
+        }
+      },
+      "timeline": [
+        {
+          "turn": 20,
+          "score": {
+            "Y": 16,
+            "K": 16
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 55,
+            "S": 0
+          }
+        },
+        {
+          "turn": 40,
+          "score": {
+            "Y": 21,
+            "K": 8
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 107,
+            "S": 0
+          }
+        },
+        {
+          "turn": 80,
+          "score": {
+            "Y": 9,
+            "K": 23
+          },
+          "Y_units": {
+            "F": 6,
+            "W": 88,
+            "S": 0
+          }
+        },
+        {
+          "turn": 120,
+          "score": {
+            "Y": 18,
+            "K": 12
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 112,
+            "S": 0
+          }
+        },
+        {
+          "turn": 140,
+          "score": {
+            "Y": 16,
+            "K": 14
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 79,
+            "S": 0
+          }
+        },
+        {
+          "turn": 160,
+          "score": {
+            "Y": 22,
+            "K": 6
+          },
+          "Y_units": {
+            "F": 6,
+            "W": 75,
+            "S": 0
+          }
+        }
+      ]
+    },
+    {
+      "map_seed": 8101,
+      "candidate": "v3",
+      "opponent": "v3",
+      "team": "Y",
+      "job_id": "da732223cb61ddf8aaecbd7e",
+      "path": "records/league/loop3-iteration1/runs/development/replays/da732223cb61ddf8aaecbd7e.json.gz",
+      "sha256": "e01e70df4e167c81d8cd489bb098812f186bea2a361ee1d3a8ff6463d7254181",
+      "verified_frames": 160,
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 6,
+          "K": 24
+        },
+        "turns": 160,
+        "seed": 8101
+      },
+      "economy": {
+        "Y": {
+          "eng_discount_turns_at_spawn": 155,
+          "hall_count_sum_at_income": 113,
+          "effective_income": 1826,
+          "nominal_hall_income": 226,
+          "production": {
+            "F": 26,
+            "W": 758,
+            "S": 0
+          },
+          "production_spending": 1651,
+          "deaths": {
+            "F": 20,
+            "W": 664,
+            "S": 0
+          }
+        },
+        "K": {
+          "eng_discount_turns_at_spawn": 155,
+          "hall_count_sum_at_income": 165,
+          "effective_income": 1930,
+          "nominal_hall_income": 330,
+          "production": {
+            "F": 17,
+            "W": 833,
+            "S": 0
+          },
+          "production_spending": 1756,
+          "deaths": {
+            "F": 10,
+            "W": 664,
+            "S": 0
+          }
+        }
+      },
+      "timeline": [
+        {
+          "turn": 20,
+          "score": {
+            "Y": 13,
+            "K": 22
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 74,
+            "S": 0
+          }
+        },
+        {
+          "turn": 40,
+          "score": {
+            "Y": 13,
+            "K": 16
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 87,
+            "S": 0
+          }
+        },
+        {
+          "turn": 80,
+          "score": {
+            "Y": 8,
+            "K": 19
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 89,
+            "S": 0
+          }
+        },
+        {
+          "turn": 120,
+          "score": {
+            "Y": 11,
+            "K": 19
+          },
+          "Y_units": {
+            "F": 6,
+            "W": 60,
+            "S": 0
+          }
+        },
+        {
+          "turn": 140,
+          "score": {
+            "Y": 6,
+            "K": 24
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 46,
+            "S": 0
+          }
+        },
+        {
+          "turn": 160,
+          "score": {
+            "Y": 6,
+            "K": 24
+          },
+          "Y_units": {
+            "F": 6,
+            "W": 94,
+            "S": 0
+          }
+        }
+      ]
+    }
+  ],
+  "success_first_state_divergence": {
+    "turn": 3,
+    "candidate_commands": [
+      "SPAWN F 1",
+      "SPAWN W 1",
+      "MOVE 2 5 F 1 R",
+      "MOVE 1 6 F 1 R",
+      "MOVE 0 7 F 1 D",
+      "MOVE 1 7 F 1 D",
+      "MOVE 1 6 W 1 U",
+      "MOVE 2 6 F 1 L",
+      "PRIORITY 4 5 10 9 0 10 14 4 6 8 8 6 0 14 14 0 6 4 8 10 7 7 7 8 7 6 0 9 14 5 3 13 11 1"
+    ],
+    "baseline_commands": [
+      "SPAWN F 1",
+      "SPAWN W 1",
+      "MOVE 2 5 F 1 R",
+      "MOVE 1 6 F 1 R",
+      "MOVE 2 6 F 1 D",
+      "MOVE 0 7 F 1 D",
+      "MOVE 1 7 F 1 D",
+      "MOVE 1 6 W 1 U",
+      "PRIORITY 4 5 10 9 0 10 14 4 6 8 8 6 0 14 14 0 6 4 8 10 7 7 7 8 7 6 0 9 14 5 3 13 11 1"
+    ],
+    "prior_equal": true,
+    "opponent_commands_equal": true
+  },
+  "scope": "Development-selected diagnostic success and failure cases, not independent validation",
+  "base_source_sha256": "52268569e17d7fc40fd46f0996b2da684768902b4af27ec059c4b068911c4473",
+  "observed_campaign": "records/league/loop3-iteration1",
+  "observed_campaign_source_commit": "c6c0b6d",
+  "retained_parents": [
+    "f3_econ_mission",
+    "f3_matching"
+  ],
+  "source_sha256": {
+    "generator": "3f97ea6d0319c1bc4081f74011dbdee2ba84eaa15fb9e4d6ffa1713282711a92",
+    "tests": "513f2183bd314125e093b6bed9018684da03445b8fe5d6d60bf9aa4266315908",
+    "economy_helper": "35f3683c930665e7cdb5150d6b92a87a95d8bf7d9f140e2dc3cb540c264a13d5"
+  },
+  "candidate_manifest": [
+    {
+      "id": "f3_v2_soft_matching",
+      "family": "v3_revised_repair",
+      "parameters": {
+        "mode": "soft",
+        "revision": 2
+      },
+      "hypothesis": "원래 접근 평가 60%·일대일 보정 40%로, 관측된 초기 계획 순위 편향을 줄이며 분산 효과를 남긴다.",
+      "weakness": "40%도 다른 상태의 생산 순위를 바꿀 수 있고, 좋은 이동 신호까지 약해질 수 있다.",
+      "source_sha256": "3a932ae19765ad86328ad217b3858342400ef29348784bcc3ed68f8c95767047"
+    },
+    {
+      "id": "f3_v2_movement_matching",
+      "family": "v3_revised_repair",
+      "parameters": {
+        "mode": "movement",
+        "revision": 2
+      },
+      "hypothesis": "생산·초기 스크립트는 원래 평가로 고르고 국소 이동만 일대일 평가로 비교한다. 경계에서 incumbent를 새 척도로 다시 평가한다.",
+      "weakness": "생산과 이동의 결합 개선을 놓칠 수 있고 재평가가 탐색 시간을 사용한다.",
+      "source_sha256": "2736977091f14749c0a42c388d4dab437932fb847494e3e963c8769e1ed62454"
+    },
+    {
+      "id": "f3_v2_safe_econ_mission",
+      "family": "v3_revised_repair",
+      "parameters": {
+        "mode": "safe_mission",
+        "revision": 2
+      },
+      "hypothesis": "경제 거점 공동 임무가 다른 보유 거점의 원래 안전한 F/W 방어를 새로 깨면 그 추가 임무를 제외한다.",
+      "weakness": "가치가 낮은 거점을 포기하는 유리한 교환도 막을 수 있으며, 원래 네 정책의 위험 행동은 제거하지 않는다.",
+      "source_sha256": "7809ae15f7b4b68164dc6873f75f814cafc97573169e581e9af914f003c796cd"
+    },
+    {
+      "id": "f3_v2_warrior_reserve",
+      "family": "v3_revised_repair",
+      "parameters": {
+        "mode": "warrior",
+        "revision": 2
+      },
+      "hypothesis": "적 F 진입이나 아군 F 사망이 가능한 보유 거점에서 필요한 W만 남기는 새 후보를 비교한다. F 이동·생산은 보존한다.",
+      "weakness": "인접 적의 최대 집중을 가정해 과도하게 묶일 수 있고, 원거리 호위나 다음 턴 재배치는 해결하지 못한다.",
+      "source_sha256": "20fa2eb5635cd9035c1f2c3f659943e7f98d03c4434bc84c5d5772c6a00e58cf"
+    }
+  ],
+  "preserved_previous_sources": {
+    "f3_matching": "2b5867fb91bc37d9178d0d5e15713c1784b781c339756a3edc79869ebc01322a",
+    "f3_supply_flow": "828f984fabde1b559eccbee2c36eda1ff057a8e574cdfb36129c84877c2dca4c",
+    "f3_econ_mission": "5159a2578645cea538fd3ab3e67bfdea6155b8cd727b65cde3ea7c74f5237165",
+    "f3_matching_mission": "f7175d5f71959103eca059c757f9920a186cc0f71f82e6823f0a943cf0bdf62a",
+    "f3_flow_mission": "0909179e1b0698670a6b3e729bb1aa858e4c07628fc1a28e68b100eaec7fc4a7",
+    "f3_econ_portfolio": "f521ce39c89c17c9cf0a92eaf681a9f11efa479cf883d17c1d01012549b40d7e"
+  },
+  "previous_six_unchanged": true,
+  "development_results": {
+    "maps": [
+      8100,
+      8101,
+      8102,
+      8103,
+      8104,
+      8105,
+      8106,
+      8107
+    ],
+    "opponent_count": 6,
+    "games_per_side": 48,
+    "wins_Y_K": {
+      "v3": [
+        27,
+        40
+      ],
+      "f3_matching": [
+        30,
+        35
+      ],
+      "f3_econ_mission": [
+        30,
+        38
+      ],
+      "f3_matching_mission": [
+        28,
+        38
+      ],
+      "f3_econ_portfolio": [
+        29,
+        29
+      ],
+      "f3_flow_mission": [
+        26,
+        26
+      ],
+      "f3_supply_flow": [
+        24,
+        26
+      ]
+    }
+  },
+  "opening_audit": {
+    "source": "records/league/loop3-design/f3-opening-audit.json",
+    "seed": 8100,
+    "turn": 3,
+    "baseline_W4_over_F1W2": 2.4,
+    "matching_ranking_shift": 4.738789682539526,
+    "soft_delta_weight": 0.4,
+    "observed_revision_soft_spawn": {
+      "F": 0,
+      "W": 4
+    },
+    "observed_revision_movement_spawn": {
+      "F": 0,
+      "W": 4
+    },
+    "scope": "Same legal observations, actual generated decisions; no counterfactual full match"
+  },
+  "success_movement_preservation": {
+    "seed": 8101,
+    "turn": 3,
+    "candidate": "f3_v2_movement_matching",
+    "command": "MOVE 2 6 F 1 L",
+    "observed": true,
+    "scope": "Matches parent movement at first physical divergence; does not prove subsequent win"
+  },
+  "revision_checks": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 python -m unittest tests.test_v3_repairs.V3RevisionTests -v",
+    "tests": 7,
+    "passed": 7,
+    "elapsed_seconds": 21.689,
+    "temporary_builds_cleaned": true,
+    "rules": [
+      "Both sides and turns 20/70/130/159: production equals original planning plus local search",
+      "8100 opening production differs from original matching and equals W4",
+      "8101 successful first flag step retained",
+      "Mission rejected iff the tested extra repair exposes protected source",
+      "Official one-turn reserve defense: own W1 survives, enemy F removed, owner retained",
+      "Threat absent, insufficient stock, and arrival-reuse negative cases",
+      "45 random legal-state trials per candidate on both sides and four scripts"
+    ]
+  },
+  "full_test_suite": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 python -m unittest tests.test_v3_repairs -v",
+    "tests": 14,
+    "passed": 14,
+    "elapsed_seconds": 54.249
+  }
+}

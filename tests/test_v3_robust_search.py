@@ -150,5 +150,92 @@ class V3RobustSearchTests(unittest.TestCase):
         self.assertEqual(after.buildings[0].owner,'N')
 
 
+REVISION_BOARD = r'''
+#undef main
+#include <cassert>
+void setup() {
+    p::Init in;in.width=in.height=15;in.terrain.assign(15,string(15,'.'));
+    in.bases={pair{0,7},pair{14,7}};
+    in.buildings={{0,7,7,"WATCH"},{1,5,7,"ENG"},{2,10,10,"HOSPITAL"}};board.init(in);
+}
+'''
+
+
+class V3RobustRevisionTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.source=(ROOT/'submissions/iterative-v3/main.cpp').read_text()
+        cls.rows=MODULE.variants_iteration2(cls.source)
+        cls.tmp=tempfile.TemporaryDirectory(prefix='yk-r3-revision-',dir='/tmp')
+        cls.folder=Path(cls.tmp.name)
+
+    @classmethod
+    def tearDownClass(cls):
+        cls.tmp.cleanup()
+
+    def bridge(self, candidate, body):
+        row=next(r for r in self.rows if r['id']==candidate)
+        source=self.folder/(candidate+'.cpp');binary=self.folder/candidate
+        source.write_text('#define main submitted_main\n'+row['source']+REVISION_BOARD+body)
+        build=subprocess.run(['g++','-std=c++20','-O2','-I',str(ROOT/'submissions/iterative-v3'),str(source),'-o',str(binary)],capture_output=True,text=True,timeout=90)
+        self.assertEqual(build.returncode,0,build.stderr)
+        run=subprocess.run([str(binary)],capture_output=True,text=True,timeout=30)
+        self.assertEqual(run.returncode,0,run.stderr)
+
+    def test_original_eight_hashes_unchanged_and_four_new_sources_unique(self):
+        import json
+        expected=json.loads((ROOT/'records/league/loop3-design/robust-search-validation.json').read_text())['candidate_sha256']
+        self.assertEqual({r['id']:hashlib.sha256(r['source'].encode()).hexdigest() for r in MODULE.variants(self.source)},expected)
+        self.assertEqual(len(self.rows),4)
+        self.assertEqual(len({r['source'] for r in self.rows}),4)
+        for row in self.rows:
+            self.assertTrue(row['id'].startswith('r3_v2_'))
+            self.assertEqual(row['source'].split('Action policy(',1)[1].split('double evaluation(',1)[0],self.source.split('Action policy(',1)[1].split('double evaluation(',1)[0])
+            self.assertEqual(row['source'].split('State advance(',1)[1].split('double building_value(',1)[0],self.source.split('State advance(',1)[1].split('double building_value(',1)[0])
+
+    def test_common_control_keeps_original_risk_function_and_depth(self):
+        self.bridge('r3_v2_mean_control',r'''
+int main(){setup();assert(abs(r3_aggregate({-100,10,10,10})-(-38.125))<1e-9);
+State s;s.turn=158;fill(s.owner,s.owner+BMAX,-1);for(int b=0;b<board.nb;++b)s.score[b]=2;
+s.res[0]=s.res[1]=10;double w[4]={.25,.25,.25,.25},value=0;Action first=policy(s,0,0);
+assert(a_evaluate(s,0,first,0,2,w,AClock::now(),1000,value));assert(isfinite(value));return 0;}
+''')
+
+    def test_K_dispatches_exact_original_v3_decision_and_expired_fallback(self):
+        rendered=next(r['source'] for r in self.rows if r['id']=='r3_v2_y_tail')
+        original=self.source[self.source.index('Action a_decide('):self.source.index('vector<string> decide(')]
+        self.assertIn(original.replace('Action a_decide(','Action r3v2_original_decide(',1).replace('a_evaluate(','r3v2_original_evaluate('),rendered)
+        self.bridge('r3_v2_y_tail',r'''
+int main(){setup();
+for(int turn:{0,40,159}) {State s;s.turn=turn;s.res[0]=s.res[1]=20;fill(s.owner,s.owner+BMAX,-1);for(int b=0;b<board.nb;++b)s.score[b]=2;
+s.u[1][F][119]=2;s.u[1][W][119]=3;s.u[0][F][105]=2;
+auto old=r3v2_original_decide(s,1,AClock::now());auto actual=r3_decide(s,1,AClock::now());assert(a_equal(old,actual));
+auto fallback=a_clean(s,1,policy(s,1,0));assert(a_equal(r3_decide(s,1,AClock::now()-chrono::seconds(1)),fallback));}
+return 0;}
+''')
+
+    def test_pareto_acceptance_and_initial_mean_parent(self):
+        self.bridge('r3_v2_pareto_local',r'''
+int main(){setup();assert(!r3v2_pareto_accept(10,5,9,8));assert(!r3v2_pareto_accept(10,5,12,4));assert(r3v2_pareto_accept(10,5,10,6));
+State s;s.res[0]=s.res[1]=20;fill(s.owner,s.owner+BMAX,-1);for(int b=0;b<board.nb;++b)s.score[b]=2;
+double weights[4]={.25,.25,.25,.25},best=-1e100;Action expected;
+for(int j=0;j<4;++j){Action a=a_clean(s,0,policy(s,0,j));double value;
+assert(a_evaluate(s,0,a,j,3,weights,AClock::now(),1000,value));if(r3v2_last_mean>best){best=r3v2_last_mean;expected=a;}}
+// No pre-existing groups: only the initial four-policy selection runs.
+assert(a_equal(a_decide(s,0,AClock::now(),1000),expected));return 0;}
+''')
+
+    def test_complete_recheck_rejects_grade_regression_and_preserves_outputs_on_timeout(self):
+        self.bridge('r3_v2_tail_recheck',r'''
+int main(){setup();double parent[4]={10,10,10,0},trial[4]={8,8,8,4};int pgrade[4]{},tgrade[4]{};
+assert(r3v2_accept(parent,trial,pgrade,tgrade));tgrade[2]=-1;assert(!r3v2_accept(parent,trial,pgrade,tgrade));tgrade[2]=0;pgrade[1]=1;assert(!r3v2_accept(parent,trial,pgrade,tgrade));
+State s;s.turn=159;s.res[0]=s.res[1]=10;fill(s.owner,s.owner+BMAX,-1);for(int b=0;b<board.nb;++b)s.score[b]=2;
+Action a=a_clean(s,0,policy(s,0,0));double values[4]={123,123,123,123};int grades[4]={7,7,7,7};
+assert(!r3v2_values(s,0,a,0,AClock::now(),-1,values,grades));for(int j=0;j<4;++j){assert(values[j]==123);assert(grades[j]==7);}
+assert(r3v2_values(s,0,a,0,AClock::now(),1000,values,grades));for(int j=0;j<4;++j){assert(isfinite(values[j]));assert(grades[j]>=-1&&grades[j]<=1);}
+auto fallback=a_clean(s,0,policy(s,0,0));assert(a_equal(r3_decide(s,0,AClock::now()-chrono::seconds(1)),fallback));return 0;}
+''')
+
+
 if __name__=='__main__':
     unittest.main()

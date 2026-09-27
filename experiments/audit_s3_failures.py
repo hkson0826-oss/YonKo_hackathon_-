@@ -137,8 +137,8 @@ def analyze(preview=None, arena=None, case_selection=None):
     sources = {c['id']: c['source'] for c in generator.variants(baseline)}
     sources.update(v3=baseline, v3_65=baseline.replace('double limit=135.0)', 'double limit=65.0)'))
     records = []
-    with tempfile.TemporaryDirectory(prefix='yk-s3-failure-audit-', dir='/tmp') as directory:
-        temp = Path(directory)
+    with tempfile.TemporaryDirectory(prefix='yk-s3-failure-audit-', dir='/tmp') as temporary:
+        temp = Path(temporary)
         binaries = {}
         for name in ['v3', 'v3_65', *[case['candidate'] for case in cases]]:
             source = temp / (name + '.cpp');source.write_text(instrument(sources[name]))

@@ -18,7 +18,7 @@ from engine.config import load_config
 from engine.pipeline import run_turn
 from engine.state import Building, new_game
 from mapgen import generate, to_state
-from runner.protocol import parse_commands
+from runner.protocol import parse_commands, serialize_init, serialize_turn
 from runner.replay import snapshot
 
 
@@ -202,6 +202,148 @@ class V3RepairTests(unittest.TestCase):
             self.assertEqual(trial.buildings[case["target_id"]].owner, case["alternate_owner"])
             self.assertEqual(audit.scores(trial), case["alternate_score"])
             self.assertEqual(trial.resources, case["alternate_resources"])
+
+
+REVISION_MAIN = r'''
+int main(int argc,char**argv) {
+    if(argc>1 && string(argv[1])=="protocol") return original_bot_main(1,argv);
+    p::Init in;in.width=in.height=15;in.terrain.assign(15,string(15,'.'));in.bases={pair{0,7},pair{14,7}};
+    in.buildings={{0,7,7,"ENG"},{1,6,7,"HALL"},{2,10,10,"HOSPITAL"},{3,3,3,"STATION"},{4,11,11,"STATION"}};
+    board.init(in);State s;fill(s.owner,s.owner+BMAX,-1);for(int b=0;b<board.nb;++b)s.score[b]=2;s.turn=50;
+    string mode=argc>1?argv[1]:"random";
+    if(mode=="safe_mission") {
+        s.owner[1]=0;s.u[0][F][111]=1;s.u[0][F][127]=1;s.u[0][W][111]=3;s.u[1][W][113]=3;s.u[1][W][110]=1;
+        Action a,out;a.moves={{F,127,142,1}};
+        assert(f3_mission(s,0,a,0,out));legal(s,0,out);
+        assert(!f3_v2_safe_mission(s,0,a,0,out));
+        s.u[1][W][110]=0;assert(f3_v2_safe_mission(s,0,a,0,out));legal(s,0,out);
+    } else if(mode=="reserve") {
+        s.owner[0]=0;s.u[0][W][112]=20;s.u[1][W][113]=9;s.u[1][F][113]=1;
+        Action a,out;a.moves={{W,112,97,20}};
+        assert(f3_v2_warrior_reserve(s,0,a,0,out));legal(s,0,out);
+        int moving=0;for(auto m:out.moves)if(m.kind==W&&m.from==112)moving+=m.count;
+        assert(moving==10);
+        for(auto m:out.moves)cout<<m.kind<<" "<<m.from<<" "<<m.to<<" "<<m.count<<"\n";
+        s.u[1][F][113]=0;assert(!f3_v2_warrior_reserve(s,0,a,0,out));
+        s.u[1][F][113]=1;s.u[0][W][112]=8;a.moves[0].count=8;
+        assert(!f3_v2_warrior_reserve(s,0,a,0,out));
+        s.u[0][W][112]=0;s.u[0][W][97]=20;s.u[1][W][113]=30;a.moves={{W,97,112,20}};
+        assert(!f3_v2_warrior_reserve(s,0,a,0,out));
+    } else if(mode=="production") {
+        for(int turn:{20,70,130,159}) for(int us=0;us<2;++us) {
+            State r;r.turn=turn;r.res[0]=r.res[1]=20;fill(r.owner,r.owner+BMAX,-1);
+            for(int b=0;b<board.nb;++b)r.score[b]=2;
+            r.owner[0]=0;r.owner[1]=1;
+            for(int t=0;t<2;++t) {r.u[t][F][board.base[t]]=2;r.u[t][W][board.base[t]]=8;r.u[t][F][97+t*30]=1;r.u[t][W][97+t*30]=4;}
+            f3_v2_local_phase=false;
+            assert(evaluation(r,us)==f3_base_evaluation(r,us));
+            Action old=original_plan_decide(r,us,AClock::now(),100000);
+            Action revised=a_decide(r,us,AClock::now(),100000);legal(r,us,revised);
+            assert(old.spawn.size()==revised.spawn.size());
+            for(int i=0;i<int(old.spawn.size());++i) {
+                auto a=old.spawn[i],b=revised.spawn[i];assert(a.kind==b.kind&&a.pos==b.pos&&a.count==b.count);
+            }
+        }
+    } else {
+        mt19937 random(81008103);
+        for(int rep=0;rep<45;++rep) {
+            State r;r.turn=random()%160;r.res[0]=random()%41;r.res[1]=random()%41;
+            for(int b=0;b<board.nb;++b){r.owner[b]=int(random()%3)-1;r.score[b]=1+random()%4;}
+            for(int t=0;t<2;++t)for(int i=0;i<12;++i){r.u[t][F][random()%N]+=random()%2;r.u[t][W][random()%N]+=1+random()%14;}
+            for(int t=0;t<2;++t)for(int j=0;j<4;++j) {
+                Action a=a_clean(r,t,policy(r,t,j));
+                for(int b=0;b<board.nb;++b){Action out;if(f3_v2_safe_mission(r,t,a,b,out))legal(r,t,out);if(f3_v2_warrior_reserve(r,t,a,b,out))legal(r,t,out);}
+            }
+        }
+    }
+}
+'''
+
+
+class V3RevisionTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.source=(ROOT/"submissions/iterative-v3/main.cpp").read_text()
+        cls.candidates=repairs.variants_iteration2(cls.source)
+        cls.temp=tempfile.TemporaryDirectory(prefix="yk-v3-revision-",dir="/tmp")
+        cls.addClassCleanup(cls.temp.cleanup)
+        cls.binaries={}
+        old=cls.source[cls.source.index("Action a_decide("):cls.source.index("vector<string> decide(")]
+        old=old.replace("Action a_decide(","Action original_plan_decide(",1)
+        harness=HARNESS[:HARNESS.index("int main(int argc")]+old+REVISION_MAIN
+        for candidate in cls.candidates:
+            path=Path(cls.temp.name)/(candidate["id"]+".cpp")
+            path.write_text("#define main original_bot_main\n"+candidate["source"]+harness)
+            binary=path.with_suffix("")
+            subprocess.run(["g++","-std=c++20","-O1","-I",str(ROOT/"submissions/iterative-v3"),str(path),"-o",str(binary)],capture_output=True,check=True)
+            cls.binaries[candidate["id"]]=binary
+
+    def run_case(self,name,mode):
+        return subprocess.run([str(self.binaries[name]),mode],capture_output=True,text=True,check=True).stdout
+
+    def test_previous_six_sources_unchanged_and_four_new_unique(self):
+        evidence=json.loads((ROOT/"records/league/loop3-design/v3-forensics-evidence.json").read_text())
+        expected={c["id"]:c["source_sha256"] for c in evidence["candidate_manifest"]}
+        for c in repairs.variants(self.source):
+            self.assertEqual(hashlib.sha256(c["source"].encode()).hexdigest(),expected[c["id"]])
+        self.assertEqual(len(self.candidates),4)
+        self.assertEqual(len({c["source"] for c in self.candidates}),4)
+        for c in self.candidates:
+            self.assertNotIn(c["id"],expected)
+            self.assertIn("double limit=135.0",c["source"])
+            self.assertIn("opp=policy(trial,1-us,j)",c["source"])
+        movement=next(c["source"] for c in self.candidates if c["id"]=="f3_v2_movement_matching")
+        self.assertIn("incumbent.value=local_value;",movement)
+        self.assertIn("limit,local_value)) goto finished;",movement)
+
+    def test_movement_matching_preserves_raw_policy_production_on_both_sides(self):
+        self.run_case("f3_v2_movement_matching","production")
+
+    def test_safe_mission_rejects_new_exposure_but_allows_safe_escort(self):
+        self.run_case("f3_v2_safe_econ_mission","safe_mission")
+
+    def test_warrior_reserve_kills_incoming_flag_without_inventing_units(self):
+        output=self.run_case("f3_v2_warrior_reserve","reserve")
+        commands=[]
+        for line in output.splitlines():
+            kind,src,dest,n=map(int,line.split())
+            commands.append(Move(src%15,src//15,"FWS"[kind],n,{1:"R",-1:"L",15:"D",-15:"U"}[dest-src]))
+        state=new_game(load_config(),buildings=[Building(0,7,7,"ENG",2,"Y",2)],resources={"Y":0,"K":0})
+        state.add_unit(7,7,"Y","W",20);state.add_unit(8,7,"K","W",9);state.add_unit(8,7,"K","F",1)
+        after,_=run_turn(state,commands,[Move(8,7,"W",9,"L"),Move(8,7,"F",1,"L")])
+        self.assertEqual(after.buildings[0].owner,"Y")
+        self.assertEqual(after.get_unit(7,7,"Y","W"),1)
+        self.assertEqual(after.get_unit(7,7,"K","F"),0)
+
+    def test_revision_guards_legal_on_random_states(self):
+        for c in self.candidates:
+            self.run_case(c["id"],"random")
+
+    def observed_opening(self,name,job):
+        path=ROOT/"records/league/loop3-iteration1/runs/development/replays"/(job+".json.gz")
+        replay=json.load(gzip.open(path,"rt"))
+        state=to_state(generate(replay["seed"],replay["config"]))
+        payload=serialize_init(state,"Y")
+        for i in range(3):
+            payload+=serialize_turn(state,"Y",i+1)
+            if i<2:
+                frame=replay["turns"][i]
+                state,_=run_turn(state,parse_commands(frame["commands"]["Y"]),parse_commands(frame["commands"]["K"]))
+                self.assertEqual(snapshot(state),frame["state"])
+        output=subprocess.run([str(self.binaries[name]),"protocol"],input=payload,text=True,capture_output=True,check=True,timeout=30).stdout
+        return output.split("END\n")[-2].strip().splitlines(),replay
+
+    def test_8100_opening_production_bias_repaired_by_both_evaluation_variants(self):
+        for name in ("f3_v2_soft_matching","f3_v2_movement_matching"):
+            output,_=self.observed_opening(name,"dc4c8be77789f922f7c6dbbe")
+            spawns=[line.split() for line in output if line.startswith("SPAWN ")]
+            self.assertEqual(sum(int(p[2]) for p in spawns if p[1]=="F"),0)
+            self.assertEqual(sum(int(p[2]) for p in spawns if p[1]=="W"),4)
+
+    def test_8101_successful_flag_step_retained_with_movement_only_matching(self):
+        output,replay=self.observed_opening("f3_v2_movement_matching","d968dcf49e4c49e323aa072e")
+        self.assertIn("MOVE 2 6 F 1 L",output)
+        self.assertIn("MOVE 2 6 F 1 L",replay["turns"][2]["commands"]["Y"])
 
 
 if __name__ == "__main__":

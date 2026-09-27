@@ -204,3 +204,127 @@ def variants(source: str) -> list[dict]:
     return [{'id': name, 'family': family, 'parameters': {'mode': mode, 'base_ms': 65, 'total_ms': 135},
              'hypothesis': hypothesis, 'weakness': weakness, 'source': _build(source, mode)}
             for name, family, mode, hypothesis, weakness in specs]
+
+
+REVISION_GUARD = r'''
+constexpr int S3V2_MODE=@REVISION@;
+bool s3v2_accept(double trial,double incumbent,double guarded_gain=0) {
+    return trial>incumbent && ((S3V2_MODE!=1 && S3V2_MODE!=3) || guarded_gain>=0);
+}
+double s3v2_minimum_gain(const double (&seed)[4],const double (&trial)[4]) {
+    double gain=1e100;
+    for(int j=0;j<4;++j) gain=min(gain,trial[j]-seed[j]);
+    return gain;
+}
+bool s3v2_values(const State& s,int us,const Action& first,int continuation,int depth,
+                const double (&weights)[4],AClock::time_point start,double limit,
+                double (&values)[4],double& result) {
+    double mean=0,worst=1e100;
+    for(int opponent=0;opponent<4;++opponent) {
+        State trial=s;
+        for(int d=0;d<depth;++d) {
+            if(chrono::duration<double,milli>(AClock::now()-start).count()>=limit) return false;
+            Action own=d?policy(trial,us,continuation):first,enemy=policy(trial,1-us,opponent);
+            trial=us==0?advance(trial,own,enemy):advance(trial,enemy,own);
+            if(abs(evaluation(trial,us))>=80000) break;
+        }
+        values[opponent]=evaluation(trial,us);
+        mean+=weights[opponent]*values[opponent];worst=min(worst,values[opponent]);
+    }
+    result=.75*mean+.25*worst;return true;
+}
+'''
+
+REVISION_SCREEN = r'''
+        vector<APlan> shortlist;
+        vector<vector<Action>> choices;
+        for(int src:groups) choices.push_back(s3_choices(s,us,seed,src,true));
+        bool exhausted=false;
+        if(S3V2_MODE==2) {
+            for(size_t round=0;;++round) {
+                bool any=false;
+                for(const auto& group:choices) if(round<group.size()) {
+                    any=true;double value;
+                    if(!a_evaluate(s,us,group[round],best.continuation,1,weights,start,min(limit,85.0),value)) {
+                        exhausted=true;break;
+                    }
+                    shortlist.push_back({group[round],best.continuation,value});
+                }
+                if(exhausted || !any) break;
+            }
+        } else {
+            for(const auto& group:choices) {
+                for(const Action& trial:group) {
+                    double value;
+                    if(!a_evaluate(s,us,trial,best.continuation,1,weights,start,min(limit,100.0),value)) {
+                        exhausted=true;break;
+                    }
+                    shortlist.push_back({trial,best.continuation,value});
+                }
+                if(exhausted) break;
+            }
+        }
+        stable_sort(shortlist.begin(),shortlist.end(),[](const APlan& a,const APlan& b){return a.value>b.value;});
+        int alternate=best.continuation==3?0:3;
+        double alternate_seed=s3_base_value;
+        double seed_values[4]{};
+        if(S3V2_MODE==1 && !shortlist.empty()) {
+            double checked_seed;
+            if(!s3v2_values(s,us,seed,best.continuation,depth,weights,start,limit,seed_values,checked_seed)) return seed;
+        }
+        if(S3V2_MODE==3 && depth>1 && !shortlist.empty())
+            if(!a_evaluate(s,us,seed,alternate,depth,weights,start,limit,alternate_seed)) return seed;
+        for(int i=0;i<min(8,int(shortlist.size()));++i) {
+            double value,values[4]{};
+            if(S3V2_MODE==1) {
+                if(!s3v2_values(s,us,shortlist[i].action,best.continuation,depth,weights,start,limit,values,value)) break;
+            } else if(!a_evaluate(s,us,shortlist[i].action,best.continuation,depth,weights,start,limit,value)) break;
+            if(value<=best.value) continue;
+            double alternate_gain=value-s3_base_value;
+            if(S3V2_MODE==1) alternate_gain=s3v2_minimum_gain(seed_values,values);
+            if(S3V2_MODE==3 && depth>1) {
+                double alternative;
+                if(!a_evaluate(s,us,shortlist[i].action,alternate,depth,weights,start,limit,alternative)) break;
+                alternate_gain=alternative-alternate_seed;
+            }
+            if(s3v2_accept(value,best.value,alternate_gain))
+                best={shortlist[i].action,best.continuation,value};
+        }
+'''
+
+
+def _build_iteration2(source: str, revision: int) -> str:
+    parent = _build(source, 5)
+    parent = _replace(parent, 'constexpr int S3_MODE=5;',
+                      'constexpr int S3_MODE=5;\n' + REVISION_GUARD.replace('@REVISION@', str(revision)))
+    if revision == 4:
+        return _replace(parent, 'Action seed=a_decide(s,us,start,min(limit,65.0));',
+                        'Action seed=a_decide(s,us,start,limit);')
+    start = '    } else if(S3_MODE==5) {\n'
+    end = '    } else {\n        for(int pass=0;pass<(S3_MODE==7?2:1);++pass) {'
+    old = parent.split(start, 1)[1].split(end, 1)[0]
+    return _replace(parent, start + old + end, start + REVISION_SCREEN + end)
+
+
+def variants_iteration2(source: str) -> list[dict]:
+    specs = [
+        ('s3_v2_screen_paired_guard', 'paired_opponent_improvement', 1,
+         '기본 행동과 같은 상대 script별 완결된 3턴 값을 비교해 어느 상대에서도 손해가 없는 확장 행동만 채택한다.',
+         '고정 네 상대에 대한 비회귀 조건이 유익한 위험 감수도 차단한다. 실제 상대의 강함이나 전체 경기 승리를 보장하지 않는다.'),
+        ('s3_v2_screen_roundrobin', 'fair_screening_budget', 2,
+         '출발지를 순환하며 1턴 후보를 선별하고 85ms에서 끊어, 뒤쪽 출발지도 비교하고 깊은 확인 시간을 확보한다.',
+         '기존 상위 출발지의 좋은 후보가 덜 평가될 수 있다. 순서와 선별 상한을 함께 바꿔 각각의 기여는 분리하지 못한다.'),
+        ('s3_v2_screen_continuation', 'paired_continuation_validation', 3,
+         '상속한 후속 정책의 이득뿐 아니라 다른 자기 후속 정책에서도 같은 기본 행동 대비 손해가 아닌지 완결된 쌍 평가로 확인한다.',
+         '고정 정책 두 개는 실제 다음 턴 재탐색을 대신하지 못한다. 추가 평가가 후보 수를 줄이고 정확한 정책 특화 행동도 기각할 수 있다.'),
+        ('s3_v2_screen_intact_base', 'untruncated_base_control', 4,
+         'v3 기본 탐색에 전체 135ms를 허용한 뒤 남는 시간에 부모와 같은 선별을 수행해 65ms 예산 분할 영향을 비교한다.',
+         '기본 탐색이 길면 확장 후보를 전혀 확인하지 못한다. 총 예산은 늘리지 않으므로 완전한 무제한 탐색 대조는 아니다.'),
+    ]
+    return [{'id': name, 'family': family,
+             'parameters': {'parent': 's3_screen_refine', 'revision_mode': revision,
+                            'base_ms': 135 if revision == 4 else 65, 'total_ms': 135,
+                            'screen_deadline_ms': 85 if revision == 2 else 100,
+                            'minimum_paired_opponent_gain': 0 if revision == 1 else None},
+             'hypothesis': hypothesis, 'weakness': weakness, 'source': _build_iteration2(source, revision)}
+            for name, family, revision, hypothesis, weakness in specs]

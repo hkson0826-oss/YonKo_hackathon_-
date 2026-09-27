@@ -236,3 +236,111 @@ def variants(source: str) -> list[dict]:
     return [{"id": name, "family": family, "parameters": {"mode": mode, "deadline_ms": 135, "base": "v3", "opponent_scope": "internal_only"},
              "hypothesis": hypothesis, "weakness": weakness, "source": _build(source, mode)}
             for name, family, mode, hypothesis, weakness in specs]
+
+
+# Revisions render separate copies; the original eight generated sources stay frozen.
+def _v2_original_functions(source: str, track_style=False) -> str:
+    evaluator = source[source.index(EVALUATE_START):source.index(EVALUATE_END)]
+    evaluator = evaluator.replace('bool a_evaluate(', 'bool r3v2_original_evaluate(', 1)
+    begin = source.index('Action a_decide(')
+    decision = source[begin:source.index('vector<string> decide(', begin)]
+    decision = decision.replace('Action a_decide(', 'Action r3v2_original_decide(', 1)
+    decision = decision.replace('a_evaluate(', 'r3v2_original_evaluate(')
+    if track_style:
+        decision = decision.replace('return incumbent.action;', 'r3v2_parent_style=incumbent.continuation;return incumbent.action;')
+    return ('int r3v2_parent_style=0;\n' if track_style else '') + evaluator + decision
+
+
+RECHECK = r'''
+int r3v2_tail_style=0;
+double r3v2_mean(const double (&v)[4]) {
+    return .75*accumulate(v,v+4,0.0)/4+.25*(*min_element(v,v+4));
+}
+double r3v2_tail(const double (&v)[4]) {
+    double sorted[4];copy(v,v+4,sorted);sort(sorted,sorted+4);
+    return .5*accumulate(v,v+4,0.0)/4+.25*(sorted[0]+sorted[1]);
+}
+bool r3v2_values(const State& s,int us,const Action& first,int style,
+                  AClock::time_point start,double limit,double (&values)[4],int (&grades)[4]) {
+    double complete_values[4];int complete_grades[4];
+    for(int j=0;j<4;++j) {
+        State trial=s;
+        for(int d=0;d<min(3,160-s.turn);++d) {
+            if(r3_expired(start,limit)) return false;
+            Action own=d?policy(trial,us,style):first;
+            trial=r3_step(trial,us,own,policy(trial,1-us,j));
+            if(abs(evaluation(trial,us))>=80000) break;
+        }
+        double score=evaluation(trial,us);complete_values[j]=score;
+        double ours=points(trial,us),enemy=points(trial,1-us),total=accumulate(trial.score,trial.score+board.nb,0.0);
+        bool terminal=trial.turn>=160 || (ours==0 && enemy*2>total) || (enemy==0 && ours*2>total);
+        complete_grades[j]=terminal?(score>0?1:score<0?-1:0):0;
+    }
+    if(r3_expired(start,limit)) return false;
+    copy(complete_values,complete_values+4,values);copy(complete_grades,complete_grades+4,grades);
+    return true;
+}
+bool r3v2_accept(const double (&parent)[4],const double (&trial)[4],
+                 const int (&parent_grade)[4],const int (&trial_grade)[4]) {
+    for(int j=0;j<4;++j) if(trial_grade[j]<parent_grade[j]) return false;
+    return r3v2_mean(trial)>=r3v2_mean(parent)-1e-9 && r3v2_tail(trial)>r3v2_tail(parent)+1e-9;
+}
+Action r3_decide(const State& s,int us,AClock::time_point start) {
+    Action parent=r3v2_original_decide(s,us,start,55);
+    int parent_style=r3v2_parent_style;
+    if(r3_expired(start,100)) return parent;
+    Action trial=a_decide(s,us,start,100);int trial_style=r3v2_tail_style;
+    if(a_equal(parent,trial) || r3_expired(start,135)) return parent;
+    double parent_values[4],trial_values[4];int parent_grades[4],trial_grades[4];
+    if(!r3v2_values(s,us,parent,parent_style,start,135,parent_values,parent_grades) ||
+       !r3v2_values(s,us,trial,trial_style,start,135,trial_values,trial_grades)) return parent;
+    return r3v2_accept(parent_values,trial_values,parent_grades,trial_grades)?trial:parent;
+}
+'''
+
+
+def variants_iteration2(source: str) -> list[dict]:
+    tail = _build(source, 0)
+    control = tail.replace('if(R3_MODE==0) return .5*mean+.25*(values[0]+values[1]);',
+                           'if(R3_MODE==0) return .75*mean+.25*values.front();', 1)
+    if control == tail:
+        raise ValueError('Tail aggregate anchor changed')
+    entry = 'Action r3_decide(const State& s,int us,AClock::time_point start) {'
+    own_y = tail.replace(entry, _v2_original_functions(source) + '\n' + entry +
+                         '\n    if(us==1) return r3v2_original_decide(s,us,start);', 1)
+    pareto = tail.replace(EVALUATE_START, 'double r3v2_last_mean=0;\nbool r3v2_pareto_accept(double old_mean,double old_tail,double new_mean,double new_tail) {return new_tail>old_tail && new_mean>=old_mean-1e-9;}\n' + EVALUATE_START, 1)
+    pareto = pareto.replace('result=R3_MODE==5?',
+                            'r3v2_last_mean=.75*accumulate(values.begin(),values.end(),0.0)/values.size()+.25*(*min_element(values.begin(),values.end()));\n    result=R3_MODE==5?', 1)
+    pareto = pareto.replace('struct APlan {Action action;int continuation;double value;};',
+                            'struct APlan {Action action;int continuation;double value;double mean_value;};', 1)
+    pareto = pareto.replace('plans[i].value=value;', 'plans[i].value=value;plans[i].mean_value=r3v2_last_mean;', 1)
+    pareto = pareto.replace('if(!any || value>plans[best].value)',
+                            'if(!any || plans[i].mean_value>plans[best].mean_value)', 1)
+    original_accept = 'if(value>incumbent.value) {incumbent.action=trial;incumbent.value=value;}'
+    if pareto.count(original_accept) != 2:
+        raise ValueError('v3 local accept anchors changed')
+    pareto = pareto.replace(original_accept,
+                            'if(r3v2_pareto_accept(incumbent.mean_value,incumbent.value,r3v2_last_mean,value)) {incumbent.action=trial;incumbent.value=value;incumbent.mean_value=r3v2_last_mean;}')
+    recheck = tail.replace('return incumbent.action;',
+                           'r3v2_tail_style=incumbent.continuation;return incumbent.action;', 1)
+    recheck = recheck.replace('struct APlan {', 'extern int r3v2_tail_style;\nstruct APlan {', 1)
+    start = recheck.index(entry)
+    end = recheck.index('vector<string> decide(', start)
+    recheck = recheck[:start] + _v2_original_functions(source, track_style=True) + RECHECK + '\n' + recheck[end:]
+    specs = [
+        ('r3_v2_mean_control', 'robust_common_control', control,
+         '동일 상대 정리·평가 종료 deadline 처리에서 원래 75/25 목적을 복원하여 꼬리 목적과 처리 변경의 효과를 분리한다.',
+         '새 전략의 강도를 기대하는 후보가 아니라 원인 분리 대조군이며 실제 v3와 clock·상대 cleanup이 다르다.', {'objective':'mean75_worst25','depth':3}),
+        ('r3_v2_y_tail', 'side_conditioned_objective', own_y,
+         '개발 Y 개선은 유지하면서 K는 원본 v3의 평가·선택 함수를 직접 실행해 관찰된 K 회귀를 피한다.',
+         '8개 개발 맵의 진영별 성과로 고른 특화 가설이다. 다른 맵·상대의 Y 개선과 K 성능은 새 검증이 필요하다.', {'objective':'tail_Y_original_v3_K','depth':3}),
+        ('r3_v2_pareto_local', 'dual_objective_local_acceptance', pareto,
+         '초기 정책은 원래 목적값으로 고르고 국소 교체는 꼬리 목적 개선과 원래 목적 비악화를 모두 요구한다.',
+         '상충하는 유익한 국소 이동을 막을 수 있다. 완성된 v3 전체 검색 결과를 보존하는 것이 아니라 초기 4정책과 단조 국소 교체를 보존한다.', {'objective':'tail_improves_mean_nonregresses','depth':3}),
+        ('r3_v2_tail_recheck', 'verified_tail_override', recheck,
+         'v3 부모와 꼬리 후보를 같은 4상대·3턴에서 완전히 재평가하고 원래 목적·상대별 종료등급이 나빠지지 않을 때만 교체한다.',
+         '부모 55ms·꼬리 100ms·재검사 135ms까지의 분할로 부모가 원래 v3보다 덜 탐색한다. 재검사 미완성이면 짧게 탐색한 부모로 복귀한다.', {'parent_ms':55,'tail_until_ms':100,'recheck_until_ms':135,'depth':3}),
+    ]
+    return [{'id':name,'family':family,'parameters':{'base':'v3','iteration':2,'deadline_ms':135,'opponent_scope':'internal_only',**params},
+             'hypothesis':hypothesis,'weakness':weakness,'source':rendered}
+            for name,family,rendered,hypothesis,weakness,params in specs]

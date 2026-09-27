@@ -1,5 +1,6 @@
 import hashlib
 import importlib.util
+import json
 from pathlib import Path
 import subprocess
 import tempfile
@@ -106,6 +107,67 @@ class V3ActionSearchTests(unittest.TestCase):
             for candidate in self.candidates:
                 src, binary = folder / 'check.cpp', folder / 'check'
                 src.write_text('#define main bot_main\n' + candidate['source'] + HARNESS)
+                build = subprocess.run(['g++', '-std=c++20', '-O2', '-I', str(ROOT / 'submissions/iterative-v3'),
+                                        str(src), '-o', str(binary)], capture_output=True, text=True, timeout=60)
+                self.assertEqual(build.returncode, 0, candidate['id'] + '\n' + build.stderr)
+                check = subprocess.run([str(binary)], capture_output=True, text=True, timeout=5)
+                self.assertEqual(check.returncode, 0, candidate['id'] + '\n' + check.stderr)
+
+
+REVISION_CHECKS = r'''
+    double base_values[4]{-46.3334821429,-46.3334821429,-46.3334821429,-51.7389583333};
+    double bad_values[4]{-12.3209821429,-12.3209821429,-12.3209821429,-82.565922619};
+    double good_base[4]{150.990613831,150.990613831,117.959101662,156.204304307};
+    double good_values[4]{152.411598679,151.361598679,119.716393329,156.575289155};
+    assert(s3v2_minimum_gain(base_values,bad_values)<-30);
+    assert(s3v2_minimum_gain(good_base,good_values)>0);
+    if(S3V2_MODE==1) {
+        assert(!s3v2_accept(-43.053143601,-48.698377976,s3v2_minimum_gain(base_values,bad_values)));
+        assert(s3v2_accept(138.691263303,137.516894221,s3v2_minimum_gain(good_base,good_values)));
+    }
+    if(S3V2_MODE==1 || S3V2_MODE==3) {
+        assert(!s3v2_accept(20,10,-.001));
+        assert(s3v2_accept(20,10,0));
+    }
+    assert(!s3v2_accept(10,10,100));
+    assert(!s3v2_accept(9,10,100));
+    double expected=0,actual=0,values[4]{};
+    assert(a_evaluate(s,0,fallback,0,3,weights,AClock::now(),1000,expected));
+    assert(s3v2_values(s,0,fallback,0,3,weights,AClock::now(),1000,values,actual));
+    assert(abs(expected-actual)<1e-9);
+    actual=12345;
+    assert(!s3v2_values(s,0,fallback,0,3,weights,AClock::now(),-1,values,actual));
+    assert(actual==12345);
+'''
+
+
+class V3ActionRevisionTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.source = (ROOT / 'submissions/iterative-v3/main.cpp').read_text()
+        cls.candidates = SEARCH.variants_iteration2(cls.source)
+
+    def test_original_hashes_and_revision_population(self):
+        original = json.loads((ROOT / 'records/league/loop3-design/action-search-validation.json').read_text())
+        expected = {c['id']: c['source_sha256'] for c in original['candidates']}
+        actual = {c['id']: hashlib.sha256(c['source'].encode()).hexdigest() for c in SEARCH.variants(self.source)}
+        self.assertEqual(expected, actual)
+        self.assertEqual(len(self.candidates), 4)
+        self.assertEqual(len({hashlib.sha256(c['source'].encode()).hexdigest() for c in self.candidates}), 4)
+        for candidate in self.candidates:
+            self.assertTrue(candidate['id'].startswith('s3_v2_'))
+            self.assertEqual(candidate['parameters']['parent'], 's3_screen_refine')
+            self.assertIn(self.source.split('State advance(', 1)[1].split('double building_value(', 1)[0], candidate['source'])
+            self.assertIn(self.source.split('double evaluation(', 1)[1].split('constexpr int A_MIX=', 1)[0], candidate['source'])
+            self.assertIn(self.source.split('    State s; s.turn=v.turn-1;', 1)[1].split('    Action a=forced_policy', 1)[0], candidate['source'])
+
+    def test_revisions_compile_counterexamples_legality_and_deadline(self):
+        with tempfile.TemporaryDirectory(prefix='yk-v3-action-revision-', dir='/tmp') as folder:
+            folder = Path(folder)
+            harness = HARNESS.replace('    return 0;\n}', REVISION_CHECKS + '\n    return 0;\n}')
+            for candidate in self.candidates:
+                src, binary = folder / 'check.cpp', folder / 'check'
+                src.write_text('#define main bot_main\n' + candidate['source'] + harness)
                 build = subprocess.run(['g++', '-std=c++20', '-O2', '-I', str(ROOT / 'submissions/iterative-v3'),
                                         str(src), '-o', str(binary)], capture_output=True, text=True, timeout=60)
                 self.assertEqual(build.returncode, 0, candidate['id'] + '\n' + build.stderr)

@@ -174,3 +174,112 @@ def variants(source: str) -> list[dict]:
     return [dict(id=name, family="v3_economic_repair", parameters=dict(matching=matching, supply_flow=flow, economic_mission=mission),
                  hypothesis=hypothesis, weakness=weakness, source=_render(source, matching, flow, mission))
             for name, matching, flow, mission, hypothesis, weakness in specs]
+
+
+_REVISION_GUARDS = r'''
+void f3_v2_landing(const State& s,int t,const Action& a,int (&land)[3][N]) {
+    for(int k=0;k<3;++k) copy(s.u[t][k],s.u[t][k]+N,land[k]);
+    for(auto p:a.spawn) land[p.kind][p.pos]+=p.count;
+    for(auto m:a.moves) {land[m.kind][m.from]-=m.count;land[m.kind][m.to]+=m.count;}
+}
+pair<int,bool> f3_v2_threat(const State& s,int t,int c) {
+    int enemy=1-t,w=s.u[enemy][W][c];bool flag=s.u[enemy][F][c]>0;
+    for(int q:board.adj[c]) {w+=s.u[enemy][W][q];flag|=s.u[enemy][F][q]>0;}
+    bool spawn=board.dist[board.base[enemy]][c]<=1;
+    for(int b=0;b<board.nb;++b) if(board.type[b]==HOSPITAL && s.owner[b]==enemy && board.dist[board.pos[b]][c]<=1) spawn=true;
+    if(spawn) {w+=s.res[enemy]/cost(s,enemy,W);flag|=s.res[enemy]>=cost(s,enemy,F);}
+    int here=board.at[c];
+    if(here>=0 && board.type[here]==STATION && s.owner[here]==enemy) {
+        int remote=0;
+        for(int b=0;b<board.nb;++b) if(b!=here && board.type[b]==STATION && s.owner[b]==enemy) {
+            remote=max(remote,min(5,s.u[enemy][W][board.pos[b]]));flag|=s.u[enemy][F][board.pos[b]]>0;
+        }
+        w+=remote;
+    }
+    return {w,flag};
+}
+bool f3_v2_safe_mission(const State& s,int t,const Action& input,int b,Action& out) {
+    if(!f3_mission(s,t,input,b,out)) return false;
+    int before[3][N]{},after[3][N]{};
+    f3_v2_landing(s,t,a_clean(s,t,input),before);f3_v2_landing(s,t,out,after);
+    for(int j=0;j<board.nb;++j) if(j!=b && s.owner[j]==t) {
+        int c=board.pos[j];auto [danger,flag]=f3_v2_threat(s,t,c);
+        if(!flag && !(danger && before[F][c])) continue;
+        int old_need=danger+int(flag && !before[F][c]),new_need=danger+int(flag && !after[F][c]);
+        if(before[W][c]>=old_need && after[W][c]<new_need) return false;
+    }
+    return true;
+}
+bool f3_v2_warrior_reserve(const State& s,int t,const Action& input,int b,Action& out) {
+    if(b<0 || b>=board.nb || s.owner[b]!=t) return false;
+    int c=board.pos[b],land[3][N]{};Action clean=a_clean(s,t,input);
+    f3_v2_landing(s,t,clean,land);auto [danger,flag]=f3_v2_threat(s,t,c);
+    if(!flag && !(danger && land[F][c])) return false;
+    int need=danger+int(flag && !land[F][c]);
+    int extra=need-land[W][c],outgoing=0;
+    for(auto m:clean.moves) if(m.kind==W && m.from==c) outgoing+=m.count;
+    if(extra<=0 || extra>outgoing) return false;
+    int allowed=outgoing-extra;out=clean;out.moves.clear();
+    for(auto m:clean.moves) {
+        if(m.kind==W && m.from==c) {m.count=min(m.count,allowed);allowed-=m.count;}
+        if(m.count>0) out.moves.push_back(m);
+    }
+    return true;
+}
+vector<int> f3_v2_owned_targets(const State& s,int t) {
+    vector<pair<double,int>> ranked;
+    for(int b=0;b<board.nb;++b) if(s.owner[b]==t) ranked.push_back({-building_value(s,t,b,1),b});
+    sort(ranked.begin(),ranked.end());vector<int> out;
+    for(auto [_,b]:ranked) out.push_back(b);
+    return out;
+}
+'''
+
+
+def _render_iteration2(source: str, mode: str) -> str:
+    result = _render(source, mode in ("soft", "movement"), False, mode == "safe_mission")
+    result = _replace(result, "double evaluation(const State& s,int t) {", "bool f3_v2_local_phase=false;\n\ndouble evaluation(const State& s,int t) {")
+    result = _replace(result, "struct APlan {Action action;int continuation;double value;};", _REVISION_GUARDS + "\nstruct APlan {Action action;int continuation;double value;};")
+    if mode == "soft":
+        old = "if(F3_MATCH) base+=f3_access(s,t,true)-f3_access(s,t,false)-f3_access(s,1-t,true)+f3_access(s,1-t,false);"
+        result = _replace(result, old, "if(F3_MATCH) base+=.4*(f3_access(s,t,true)-f3_access(s,t,false)-f3_access(s,1-t,true)+f3_access(s,1-t,false));")
+    elif mode == "movement":
+        result = _replace(result, "    if(F3_MATCH) base+=", "    if(!f3_v2_local_phase) return base;\n    if(F3_MATCH) base+=")
+        result = _replace(result, "    Action scripts[4];", "    f3_v2_local_phase=false;\n    Action scripts[4];")
+        result = _replace(result, "    if(A_LOCAL && any) {", r'''
+    if(any) {
+        f3_v2_local_phase=true;double local_value;
+        if(!a_evaluate(s,us,incumbent.action,incumbent.continuation,depth,weights,start,limit,local_value)) goto finished;
+        incumbent.value=local_value;
+    }
+    if(A_LOCAL && any) {''')
+    elif mode == "safe_mission":
+        result = _replace(result, "if(!f3_mission(s,us,scripts[i],b,repaired)) continue;", "if(!f3_v2_safe_mission(s,us,scripts[i],b,repaired)) continue;")
+    elif mode == "warrior":
+        anchor = "    for(int i=0;i<4;++i) plans.push_back({scripts[i],i,-1e100});"
+        result = _replace(result, anchor, anchor + r'''
+    for(int i=0;i<4;++i) {
+        int added=0;
+        for(int b:f3_v2_owned_targets(s,us)) {
+            Action protected_action;
+            if(!f3_v2_warrior_reserve(s,us,scripts[i],b,protected_action)) continue;
+            bool duplicate=false;
+            for(const auto& p:plans) if(a_equal(p.action,protected_action)) {duplicate=true;break;}
+            if(!duplicate) {plans.push_back({protected_action,i,-1e100});if(++added==2) break;}
+        }
+    }
+''')
+    else:
+        raise ValueError(f"Unknown revision-2 repair: {mode}")
+    return result
+
+
+def variants_iteration2(source: str) -> list[dict]:
+    specs = (
+        ("f3_v2_soft_matching", "soft", "원래 접근 평가 60%·일대일 보정 40%로, 관측된 초기 계획 순위 편향을 줄이며 분산 효과를 남긴다.", "40%도 다른 상태의 생산 순위를 바꿀 수 있고, 좋은 이동 신호까지 약해질 수 있다."),
+        ("f3_v2_movement_matching", "movement", "생산·초기 스크립트는 원래 평가로 고르고 국소 이동만 일대일 평가로 비교한다. 경계에서 incumbent를 새 척도로 다시 평가한다.", "생산과 이동의 결합 개선을 놓칠 수 있고 재평가가 탐색 시간을 사용한다."),
+        ("f3_v2_safe_econ_mission", "safe_mission", "경제 거점 공동 임무가 다른 보유 거점의 원래 안전한 F/W 방어를 새로 깨면 그 추가 임무를 제외한다.", "가치가 낮은 거점을 포기하는 유리한 교환도 막을 수 있으며, 원래 네 정책의 위험 행동은 제거하지 않는다."),
+        ("f3_v2_warrior_reserve", "warrior", "적 F 진입이나 아군 F 사망이 가능한 보유 거점에서 필요한 W만 남기는 새 후보를 비교한다. F 이동·생산은 보존한다.", "인접 적의 최대 집중을 가정해 과도하게 묶일 수 있고, 원거리 호위나 다음 턴 재배치는 해결하지 못한다."),
+    )
+    return [dict(id=name,family="v3_revised_repair",parameters=dict(mode=mode,revision=2),hypothesis=hypothesis,weakness=weakness,
+                 source=_render_iteration2(source,mode)) for name,mode,hypothesis,weakness in specs]
