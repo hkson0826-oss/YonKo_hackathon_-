@@ -18,6 +18,7 @@
 | [research/local-league-search](research/local-league-search/) | Firecrawl 논문 확인과 실제 탐색 후보의 적용 범위·약점 |
 | [league/campaign-001](league/campaign-001/README.md) | 43개 설정·2,674경기, 최종 비교·동결 소스·전체 결과·저장 리플레이·서버 복구 |
 | [league/checkpoints-001](league/checkpoints-001/) | 완료 단계별 중간 결과·수비 후보 리플레이 분석·서버 자원 관측 |
+| [league/loop2-design](league/loop2-design/) | v2 3패·432턴 재현과 F 경합 반례, 신규 24후보의 자체 비판·연구·검사 |
 
 공식 원본은 [artifacts/firstround_results](../artifacts/firstround_results/)에 그대로 보존했다. [분석 도구](../experiments/analyze_official_round1.py)는 합법 관측으로 알 수 있는 점수와 사후 복원 점수를 구분한다. [처리량 측정 도구](../experiments/profile_throughput.py)는 고정한 봇 소스·새 임시 빌드로 같은 맵을 반복하며, 기존 출력 경로 덮어쓰기를 거부한다.
 

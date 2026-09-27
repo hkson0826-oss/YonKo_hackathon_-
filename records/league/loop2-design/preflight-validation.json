@@ -42,5 +42,12 @@
     "total_gib": 440.4
   },
   "build_location": "automatically removed /tmp temporary directories",
-  "strength_claim": "Not yet measured; test success only establishes implementation readiness."
+  "strength_claim": "Not yet measured; test success only establishes implementation readiness.",
+  "frozen_source_commit": "c2bfcaf",
+  "script_roles": {
+    "q": "v2 own-policy causal interventions",
+    "j": "joint F/W task allocation",
+    "a": "action recombination and bounded local search"
+  },
+  "first_batch_expected_games": 2058
 }
