@@ -24,6 +24,8 @@
 | [league/loop2-cross-family](league/loop2-cross-family/README.md) | 새 상대 계열 6종·32맵·768경기, 384MiB 주소공간 제한과 추가 감사 |
 | [league/loop2-checkpoints](league/loop2-checkpoints/) | 각 반복의 완료 배치만 회수한 중간 기록·원인 분석 표본·주 후보 잠금 |
 | [submissions/v3](submissions/v3/README.md) | 추천 v3 ZIP·소스 해시·실제 ZIP 빌드·SDK 및 CPU 실행 검사 |
+| [league/loop3-design](league/loop3-design/) | v3 후속 21개 후보, 새 연구 원문·실패와 개선 사례·규칙 검사·동결 해시 |
+| [league/loop3-checkpoints](league/loop3-checkpoints/) | v3 후속 리그에서 완료된 단계만 회수한 중간 기록 |
 
 공식 원본은 [artifacts/firstround_results](../artifacts/firstround_results/)에 그대로 보존했다. [분석 도구](../experiments/analyze_official_round1.py)는 합법 관측으로 알 수 있는 점수와 사후 복원 점수를 구분한다. [처리량 측정 도구](../experiments/profile_throughput.py)는 고정한 봇 소스·새 임시 빌드로 같은 맵을 반복하며, 기존 출력 경로 덮어쓰기를 거부한다.
 
