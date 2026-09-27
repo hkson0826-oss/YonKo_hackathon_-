@@ -64,6 +64,8 @@ PYTHONDONTWRITEBYTECODE=1 python3 experiments/verify_gcc12_tmp.py \
   --output records/league/loop3-design/compiler-check-NEW.json
 ```
 
+실제 승격 후에는 [전용 CLI](../../../experiments/package_gcc12_candidate.py)를 사용한다. 기존 승격 게이트를 먼저 확인하고, 절대 경로·환경·SIGTERM/SIGINT 복원·실패 기록을 처리한다. `--compiler-record`는 패키징 출력 폴더 밖의 별도 신규 JSON이어야 한다. 이번 CPU 검사의 `--cpu-seed-start`는 8800이다. 중단·정상 종료·기록 보호·정리 실패를 다룬 mock 검사 4개를 통과했으며, 이 CLI의 실제 최종 패키징은 후보가 독립 검증을 통과한 뒤에만 실행한다.
+
 TMP 바이너리는 context 종료 후 interpreter와 라이브러리가 없어져 실행할 수 없다. 소스 ZIP에는 이 경로·바이너리가 들어가지 않는다. 재사용 API는 x86_64 Linux 전용이다.
 
 ## 남는 차이
