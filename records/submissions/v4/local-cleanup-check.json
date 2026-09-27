@@ -1,0 +1,11 @@
+{
+  "checked_utc": "2026-09-27T20:30:07.910621+00:00",
+  "paths": [
+    "/tmp/yk-package-6qncuyg7",
+    "/tmp/yk-gcc12-zc1olgd7"
+  ],
+  "all_paths_absent": true,
+  "matching_process_ids": [],
+  "scope": "Local compiler/package paths in process cwd/cmdline; check process and its ancestors excluded because heredoc text itself contains these paths",
+  "shared_main_worktree_removed": true
+}
