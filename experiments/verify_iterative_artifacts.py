@@ -77,6 +77,11 @@ def verify(arena, host=None):
         assert sha(root / original['path']) == original['sha256'], original['path']
     zip_hash = sha(root / 'artifacts/submission-v2.zip')
     assert zip_hash == 'f90eca7cac0024ab4cc7c00d79595f71e4eb9bab92ec57e0527c7b977098b64a'
+    v3_hash = None
+    if 'v3' in manifest['bots']:
+        v3_hash = sha(root / 'artifacts/submission-v3.zip')
+        assert v3_hash == 'ce94e80a49d833be8b3c093a34319d8b9cdb5b7ec8d86b91a4b2831b18d799cb'
+        assert manifest['bots']['v3']['source_sha256'] == sha(root / 'submissions/iterative-v3/main.cpp') == '52268569e17d7fc40fd46f0996b2da684768902b4af27ec059c4b068911c4473'
     receipt = json.loads((arena / 'transport_receipt.json').read_text())
     assert receipt['returncode'] == 0 and receipt['cleanup']['archive_accepted']
     assert receipt['cleanup']['exists'] is False
@@ -91,6 +96,8 @@ def verify(arena, host=None):
               'stdout_peak_by_bot_including_END': stdout,
               'stdout_check_scope': 'Replay-preserved commands plus LF and END; stderr was not captured by the league.',
               'submission_v2_sha256': zip_hash, 'transport_cleanup': receipt['cleanup']}
+    if v3_hash:
+        report['submission_v3_sha256'] = v3_hash
     if host:
         directory = receipt['cleanup']['path']
         if not directory.startswith('/tmp/yk-league-') or '/' in directory[len('/tmp/'):]:
