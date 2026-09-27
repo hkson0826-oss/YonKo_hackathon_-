@@ -10,6 +10,7 @@
 | [tuning](tuning/) | 후보 10개의 소스, 변경 설정, 개발 대전, 직접 대전 |
 | [official/round1](official/round1/) | 사용자 제공 공식 5경기의 원본 해시·턴별 분석·사이트 관찰 |
 | [research/round2](research/round2/) | Firecrawl 원응답, 논문·원 구현 출처와 확인 수준 |
+| [research/gpu-allocation](research/gpu-allocation/) | Sample Factory·PBT·ASHA의 자원 배분 근거와 본문 확인 |
 | [teammates/round2](teammates/round2/) | 최신 팀원·main ZIP 비교와 고정 소스 스냅샷 |
 | [compute/round2](compute/round2/) | 로컬 환경과 CPU 작업자 1/2/4 처리량·로그·패배 리플레이 |
 

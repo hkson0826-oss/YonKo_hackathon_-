@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "paperId": "2446387858502095326",
+      "primaryId": "arxiv:2006.11751",
+      "ids": {
+        "arxiv": [
+          "2006.11751"
+        ]
+      },
+      "title": "Sample Factory: Egocentric 3D Control from Pixels at 100000 FPS with Asynchronous Reinforcement Learning",
+      "abstract": "Increasing the scale of reinforcement learning experiments has allowed researchers to achieve unprecedented results in both training sophisticated agents for video games, and in sim-to-real transfer for robotics. Typically such experiments rely on large distributed systems and require expensive hardware setups, limiting wider access to this exciting area of research. In this work we aim to solve this problem by optimizing the efficiency and resource utilization of reinforcement learning algorithms instead of relying on distributed computation. We present the \"Sample Factory\", a high-throughput training system optimized for a single-machine setting. Our architecture combines a highly efficient, asynchronous, GPU-based sampler with off-policy correction techniques, allowing us to achieve throughput higher than 10⁵ environment frames/second on non-trivial control problems in 3D without sacrificing sample efficiency. We extend Sample Factory to support self-play and population-based training and apply these techniques to train highly capable agents for a multiplayer first-person shooter game. The source code is available at https://github.com/alex-petrenko/sample-factory",
+      "score": 0.032786883
+    },
+    {
+      "paperId": "8124694319478763440",
+      "primaryId": "arxiv:2103.07013",
+      "ids": {
+        "arxiv": [
+          "2103.07013"
+        ]
+      },
+      "title": "Large Batch Simulation for Deep Reinforcement Learning",
+      "abstract": "We accelerate deep reinforcement learning-based training in visually complex 3D environments by two orders of magnitude over prior work, realizing end-to-end training speeds of over 19,000 frames of experience per second on a single GPU and up to 72,000 frames per second on a single eight-GPU machine. The key idea of our approach is to design a 3D renderer and embodied navigation simulator around the principle of \"batch simulation\": accepting and executing large batches of requests simultaneously. Beyond exposing large amounts of work at once, batch simulation allows implementations to amortize in-memory storage of scene assets, rendering work, data loading, and synchronization costs across many simulation requests, dramatically improving the number of simulated agents per GPU and overall simulation throughput. To balance DNN inference and training costs with faster simulation, we also build a computationally efficient policy DNN that maintains high task performance, and modify training algorithms to maintain sample efficiency when training with large mini-batches. By combining batch simulation and DNN performance optimizations, we demonstrate that PointGoal navigation agents can be trained in complex 3D environments on a single GPU in 1.5 days to 97% of the accuracy of agents trained on a prior state-of-the-art system using a 64-GPU cluster over three days. We provide open-source reference implementations of our batch 3D renderer and simulator to facilitate incorporation of these ideas into RL systems.",
+      "score": 0.03053613
+    },
+    {
+      "paperId": "2086006257788174040",
+      "primaryId": "arxiv:2602.05765",
+      "ids": {
+        "arxiv": [
+          "2602.05765"
+        ]
+      },
+      "title": "RL-VLA³: A Flexible and Asynchronous Reinforcement Learning Framework for VLA Training",
+      "abstract": "Reinforcement learning (RL) has emerged as a critical paradigm for post-training Vision-Language-Action (VLA) models, enabling embodied agents to adapt and improve through environmental interaction. However, existing RL frameworks for VLAs inherit synchronous design principles from traditional LLM training, treating entire rollouts as indivisible units and alternating strictly between data collection and policy optimization. This fundamentally mismatches the unique characteristics of VLA training, as physical simulators introduce highly variable, resource-intensive latencies. To address this, we introduce RL-VLA³, a fully asynchronous distributed RL framework that enables fine-grained asynchronous interaction between simulation, inference, and training components through dynamic batching schedulers and flexible environment sharding strategies. Extensive experiments across diverse simulation backends, VLA architectures, and RL algorithms demonstrate that RL-VLA³ achieves throughput improvements of up to 85.2% over synchronous baselines while maintaining identical sample efficiency, with scalability validated from 8 to 256 GPUs. To our knowledge, RL-VLA³ is the first fully asynchronous RL training framework tailored specifically for the system-level challenges of VLA training.",
+      "score": 0.029411765
+    }
+  ]
+}

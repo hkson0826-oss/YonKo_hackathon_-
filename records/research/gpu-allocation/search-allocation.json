@@ -1,0 +1,52 @@
+{
+  "results": [
+    {
+      "paperId": "5035674071853087288",
+      "primaryId": "arxiv:2412.02729",
+      "ids": {
+        "arxiv": [
+          "2412.02729"
+        ]
+      },
+      "title": "Resource-Adaptive Successive Doubling for Hyperparameter Optimization with Large Datasets on High-Performance Computing Systems",
+      "abstract": "On High-Performance Computing (HPC) systems, several hyperparameter configurations can be evaluated in parallel to speed up the Hyperparameter Optimization (HPO) process. State-of-the-art HPO methods follow a bandit-based approach and build on top of successive halving, where the final performance of a combination is estimated based on a lower than fully trained fidelity performance metric and more promising combinations are assigned more resources over time. Frequently, the number of epochs is treated as a resource, letting more promising combinations train longer. Another option is to use the number of workers as a resource and directly allocate more workers to more promising configurations via data-parallel training. This article proposes a novel Resource-Adaptive Successive Doubling Algorithm (RASDA), which combines a resource-adaptive successive doubling scheme with the plain Asynchronous Successive Halving Algorithm (ASHA). Scalability of this approach is shown on up to 1,024 Graphics Processing Units (GPUs) on modern HPC systems. It is applied to different types of Neural Networks (NNs) and trained on large datasets from the Computer Vision (CV), Computational Fluid Dynamics (CFD), and Additive Manufacturing (AM) domains, where performing more than one full training run is usually infeasible. Empirical results show that RASDA outperforms ASHA by a factor of up to 1.9 with respect to the runtime. At the same time, the solution quality of final ASHA models is maintained or even surpassed by the implicit batch size scheduling of RASDA. With RASDA, systematic HPO is applied to a terabyte-scale scientific dataset for the first time in the literature, enabling efficient optimization of complex models on massive scientific data. The implementation of RASDA is available on https://github.com/olympiquemarcel/rasda",
+      "score": 0.9347772541971058
+    },
+    {
+      "paperId": "2797402601097404218",
+      "primaryId": "arxiv:1810.05934",
+      "ids": {
+        "arxiv": [
+          "1810.05934"
+        ]
+      },
+      "title": "A System for Massively Parallel Hyperparameter Tuning",
+      "abstract": "Modern learning models are characterized by large hyperparameter spaces and long training times. These properties, coupled with the rise of parallel computing and the growing demand to productionize machine learning workloads, motivate the need to develop mature hyperparameter optimization functionality in distributed computing settings. We address this challenge by first introducing a simple and robust hyperparameter optimization algorithm called ASHA, which exploits parallelism and aggressive early-stopping to tackle large-scale hyperparameter optimization problems. Our extensive empirical results show that ASHA outperforms existing state-of-the-art hyperparameter optimization methods; scales linearly with the number of workers in distributed settings; and is suitable for massive parallelism, as demonstrated on a task with 500 workers. We then describe several design decisions we encountered, along with our associated solutions, when integrating ASHA in Determined AI's end-to-end production-quality machine learning system that offers hyperparameter tuning as a service.",
+      "score": 0.9324533088603709
+    },
+    {
+      "paperId": "3028344476998171723",
+      "primaryId": "arxiv:1902.01894",
+      "ids": {
+        "arxiv": [
+          "1902.01894"
+        ]
+      },
+      "title": "A Generalized Framework for Population Based Training",
+      "abstract": "Population Based Training (PBT) is a recent approach that jointly optimizes neural network weights and hyperparameters which periodically copies weights of the best performers and mutates hyperparameters during training. Previous PBT implementations have been synchronized glass-box systems. We propose a general, black-box PBT framework that distributes many asynchronous \"trials\" (a small number of training steps with warm-starting) across a cluster, coordinated by the PBT controller. The black-box design does not make assumptions on model architectures, loss functions or training procedures. Our system supports dynamic hyperparameter schedules to optimize both differentiable and non-differentiable metrics. We apply our system to train a state-of-the-art WaveNet generative model for human voice synthesis. We show that our PBT system achieves better accuracy, less sensitivity and faster convergence compared to existing methods, given the same computational resource.",
+      "score": 0.9241418199787566
+    },
+    {
+      "paperId": "1157311756089313006",
+      "primaryId": "arxiv:1711.09846",
+      "ids": {
+        "arxiv": [
+          "1711.09846"
+        ]
+      },
+      "title": "Population Based Training of Neural Networks",
+      "abstract": "Neural networks dominate the modern machine learning landscape, but their training and success still suffer from sensitivity to empirical choices of hyperparameters such as model architecture, loss function, and optimisation algorithm. In this work we present Population Based Training (PBT), a simple asynchronous optimisation algorithm which effectively utilises a fixed computational budget to jointly optimise a population of models and their hyperparameters to maximise performance. Importantly, PBT discovers a schedule of hyperparameter settings rather than following the generally sub-optimal strategy of trying to find a single fixed set to use for the whole course of training. With just a small modification to a typical distributed hyperparameter training framework, our method allows robust and reliable training of models. We demonstrate the effectiveness of PBT on deep reinforcement learning problems, showing faster wall-clock convergence and higher final performance of agents by optimising over a suite of hyperparameters. In addition, we show the same method can be applied to supervised learning for machine translation, where PBT is used to maximise the BLEU score directly, and also to training of Generative Adversarial Networks to maximise the Inception score of generated images. In all cases PBT results in the automatic discovery of hyperparameter schedules and model selection which results in stable training and better final performance.",
+      "score": 0.918713920386427
+    }
+  ]
+}
