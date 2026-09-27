@@ -1,6 +1,7 @@
 import importlib.util
 import gzip
 import json
+import hashlib
 from pathlib import Path
 import subprocess
 import sys
@@ -169,6 +170,73 @@ class CausalRepairTests(unittest.TestCase):
         self.assertEqual(actual.buildings[11].owner, "N")
         self.assertEqual(alternative.buildings[11].owner, "Y")
         self.assertIn(11, state.revealed["Y"])
+
+
+class CausalRepairIteration2Tests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.source = (ROOT / "submissions/tuned/main.cpp").read_text()
+        cls.candidates = repairs.variants_iteration2(cls.source)
+        cls.temp = tempfile.TemporaryDirectory(prefix="yk-causal-iteration2-test-", dir="/tmp")
+        cls.folder = Path(cls.temp.name)
+        cls.binaries = {}
+        tactical = r'''
+    } else if(mode=="tactical") {
+        board.nb=1;s.owner[0]=0;s.u[0][F][112]=1;s.u[1][F][113]=1;
+        Action original;original.moves={{F,112,111,1}};
+        Action opponent;opponent.moves={{F,113,112,1}};
+        auto result=causal_tactical_with_predictions(s,0,original,{opponent,opponent,opponent,opponent});
+        legal(s,0,result);State held=advance(s,result,opponent),lost=advance(s,original,opponent);
+        assert(held.owner[0]==0&&lost.owner[0]==-1);
+        causal_iteration2_deadline=chrono::steady_clock::now()-chrono::milliseconds(1);
+        auto expired=causal_tactical_with_predictions(s,0,original,{opponent});
+        assert(expired.moves.size()==original.moves.size()&&expired.moves[0].to==111);
+        causal_iteration2_deadline=chrono::steady_clock::time_point::max();
+'''
+        for item in cls.candidates:
+            harness = HARNESS
+            if item["parameters"].get("tactical"):
+                harness = harness.replace("    } else {\n        mt19937", tactical + "    } else {\n        mt19937")
+                harness = harness.replace("legal(r,t,causal_policy(r,t,style));",
+                                          "legal(r,t,causal_tactical(r,t,causal_policy(r,t,style)));")
+            path = cls.folder / (item["id"] + ".cpp")
+            path.write_text("#define main original_bot_main\n" + item["source"] + harness)
+            binary = path.with_suffix("")
+            subprocess.run(["g++", "-std=c++20", "-O2", "-I", str(ROOT / "submissions/tuned"),
+                            str(path), "-o", str(binary)], check=True, capture_output=True)
+            cls.binaries[item["id"]] = binary
+
+    @classmethod
+    def tearDownClass(cls):
+        cls.temp.cleanup()
+
+    def test_old_eight_candidate_bytes_remain_frozen(self):
+        expected = {
+            "q_guard_own": "15d2b79bcf1ab9e6963c08368d3e26806da82dc0365c6fb685727bbabe1548f7",
+            "q_escort_own": "f27fe1d0158fc701e6b034ecacc8a2e9f0e50c11153225d61a7c88a191a4ef75",
+            "q_capacity": "b6b007aa5b8cf5605e363e0cbf4a955554e04304ea46a3f704e8d4211835ee2c",
+            "q_threat_window": "c943b16a28d19768705925b2d6aa9dc04547af342ca77747d96afdad96985d79",
+            "q_rendezvous": "cf4a119a50621d395b6be4eb472a0968accc733fc6216f75be2b86fded31b2e5",
+            "q_deadline": "14978aa2df0386dd25cbc8011ced8d47fce2712a8500fc1d69a962299aa9d160",
+            "q_balanced_front": "4f0c85395b5ebdcc3581e31f3d855343b1a2c5a7de5cb2606f3676285405fc12",
+            "q_coordinated": "392ef885d85128d86c28cbb6a766e8363828d233b6384f52a27ecf507e7240e2",
+        }
+        actual = {x["id"]: hashlib.sha256(x["source"].encode()).hexdigest() for x in repairs.variants(self.source)}
+        self.assertEqual(actual, expected)
+        self.assertEqual(len(self.candidates), 4)
+        original_policy = self.source[self.source.index("Action policy("):self.source.index("double evaluation(")]
+        for item in self.candidates:
+            self.assertIn(original_policy, item["source"])
+            self.assertIn("opp=policy(trial,1-us,j)", item["source"])
+
+    def test_revised_actions_are_legal_with_same_turn_production(self):
+        for item in self.candidates:
+            subprocess.run([str(self.binaries[item["id"]]), "random"], check=True, capture_output=True)
+
+    def test_tactical_revision_can_retain_flag_contested_ownership(self):
+        for item in self.candidates:
+            if item["parameters"].get("tactical"):
+                subprocess.run([str(self.binaries[item["id"]]), "tactical"], check=True, capture_output=True)
 
 
 if __name__ == "__main__":

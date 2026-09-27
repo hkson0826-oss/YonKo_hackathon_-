@@ -1,0 +1,743 @@
+{
+  "partial_input_rows": 832,
+  "planned_rows": 2000,
+  "cases": [
+    {
+      "candidate": "q_threat_window",
+      "opponent": "r_combined",
+      "role": "candidate",
+      "map_seed": 7002,
+      "job_id": "9461702911547cda1d5c088e",
+      "replay_sha256": "d1a3f565a5906d24ae1849da8e6daa9d480dcef8835f0871b8d28c78853f2a5e",
+      "validated_frames": 160,
+      "last21_one_flag_improvements": [
+        {
+          "turn": 140,
+          "origin": [
+            13,
+            10
+          ],
+          "direction": "U",
+          "original_commands": [],
+          "actual_score": {
+            "Y": 16,
+            "K": 22
+          },
+          "alternative_score": {
+            "Y": 16,
+            "K": 21
+          },
+          "changed_buildings": [
+            {
+              "id": 2,
+              "position": [
+                13,
+                9
+              ],
+              "score": 1,
+              "known_to_Y": false,
+              "original_owner": "K",
+              "alternative_owner": "N"
+            }
+          ]
+        },
+        {
+          "turn": 140,
+          "origin": [
+            5,
+            12
+          ],
+          "direction": "R",
+          "original_commands": [
+            "Move(x=5, y=12, kind='F', count=1, direction='U')"
+          ],
+          "actual_score": {
+            "Y": 16,
+            "K": 22
+          },
+          "alternative_score": {
+            "Y": 16,
+            "K": 19
+          },
+          "changed_buildings": [
+            {
+              "id": 12,
+              "position": [
+                6,
+                12
+              ],
+              "score": 3,
+              "known_to_Y": true,
+              "original_owner": "K",
+              "alternative_owner": "N"
+            }
+          ]
+        },
+        {
+          "turn": 142,
+          "origin": [
+            13,
+            10
+          ],
+          "direction": "U",
+          "original_commands": [
+            "Move(x=13, y=10, kind='F', count=1, direction='D')"
+          ],
+          "actual_score": {
+            "Y": 16,
+            "K": 22
+          },
+          "alternative_score": {
+            "Y": 16,
+            "K": 21
+          },
+          "changed_buildings": [
+            {
+              "id": 2,
+              "position": [
+                13,
+                9
+              ],
+              "score": 1,
+              "known_to_Y": false,
+              "original_owner": "K",
+              "alternative_owner": "N"
+            }
+          ]
+        },
+        {
+          "turn": 142,
+          "origin": [
+            5,
+            12
+          ],
+          "direction": "R",
+          "original_commands": [
+            "Move(x=5, y=12, kind='F', count=1, direction='D')"
+          ],
+          "actual_score": {
+            "Y": 16,
+            "K": 22
+          },
+          "alternative_score": {
+            "Y": 16,
+            "K": 19
+          },
+          "changed_buildings": [
+            {
+              "id": 12,
+              "position": [
+                6,
+                12
+              ],
+              "score": 3,
+              "known_to_Y": true,
+              "original_owner": "K",
+              "alternative_owner": "N"
+            }
+          ]
+        },
+        {
+          "turn": 144,
+          "origin": [
+            13,
+            10
+          ],
+          "direction": "U",
+          "original_commands": [
+            "Move(x=13, y=10, kind='F', count=1, direction='D')"
+          ],
+          "actual_score": {
+            "Y": 15,
+            "K": 23
+          },
+          "alternative_score": {
+            "Y": 15,
+            "K": 22
+          },
+          "changed_buildings": [
+            {
+              "id": 2,
+              "position": [
+                13,
+                9
+              ],
+              "score": 1,
+              "known_to_Y": false,
+              "original_owner": "K",
+              "alternative_owner": "N"
+            }
+          ]
+        },
+        {
+          "turn": 144,
+          "origin": [
+            6,
+            13
+          ],
+          "direction": "U",
+          "original_commands": [
+            "Move(x=6, y=13, kind='F', count=1, direction='R')"
+          ],
+          "actual_score": {
+            "Y": 15,
+            "K": 23
+          },
+          "alternative_score": {
+            "Y": 15,
+            "K": 20
+          },
+          "changed_buildings": [
+            {
+              "id": 12,
+              "position": [
+                6,
+                12
+              ],
+              "score": 3,
+              "known_to_Y": true,
+              "original_owner": "K",
+              "alternative_owner": "N"
+            }
+          ]
+        },
+        {
+          "turn": 147,
+          "origin": [
+            9,
+            5
+          ],
+          "direction": "D",
+          "original_commands": [],
+          "actual_score": {
+            "Y": 15,
+            "K": 26
+          },
+          "alternative_score": {
+            "Y": 15,
+            "K": 22
+          },
+          "changed_buildings": [
+            {
+              "id": 15,
+              "position": [
+                9,
+                6
+              ],
+              "score": 4,
+              "known_to_Y": true,
+              "original_owner": "K",
+              "alternative_owner": "N"
+            }
+          ]
+        },
+        {
+          "turn": 149,
+          "origin": [
+            9,
+            5
+          ],
+          "direction": "D",
+          "original_commands": [
+            "Move(x=9, y=5, kind='F', count=1, direction='R')"
+          ],
+          "actual_score": {
+            "Y": 15,
+            "K": 26
+          },
+          "alternative_score": {
+            "Y": 15,
+            "K": 22
+          },
+          "changed_buildings": [
+            {
+              "id": 15,
+              "position": [
+                9,
+                6
+              ],
+              "score": 4,
+              "known_to_Y": true,
+              "original_owner": "K",
+              "alternative_owner": "N"
+            }
+          ]
+        },
+        {
+          "turn": 151,
+          "origin": [
+            10,
+            6
+          ],
+          "direction": "L",
+          "original_commands": [],
+          "actual_score": {
+            "Y": 15,
+            "K": 23
+          },
+          "alternative_score": {
+            "Y": 15,
+            "K": 19
+          },
+          "changed_buildings": [
+            {
+              "id": 15,
+              "position": [
+                9,
+                6
+              ],
+              "score": 4,
+              "known_to_Y": true,
+              "original_owner": "K",
+              "alternative_owner": "N"
+            }
+          ]
+        },
+        {
+          "turn": 152,
+          "origin": [
+            10,
+            6
+          ],
+          "direction": "L",
+          "original_commands": [
+            "Move(x=10, y=6, kind='F', count=1, direction='U')"
+          ],
+          "actual_score": {
+            "Y": 18,
+            "K": 23
+          },
+          "alternative_score": {
+            "Y": 18,
+            "K": 19
+          },
+          "changed_buildings": [
+            {
+              "id": 15,
+              "position": [
+                9,
+                6
+              ],
+              "score": 4,
+              "known_to_Y": true,
+              "original_owner": "K",
+              "alternative_owner": "N"
+            }
+          ]
+        },
+        {
+          "turn": 154,
+          "origin": [
+            9,
+            5
+          ],
+          "direction": "D",
+          "original_commands": [
+            "Move(x=9, y=5, kind='F', count=1, direction='L')"
+          ],
+          "actual_score": {
+            "Y": 19,
+            "K": 22
+          },
+          "alternative_score": {
+            "Y": 19,
+            "K": 18
+          },
+          "changed_buildings": [
+            {
+              "id": 15,
+              "position": [
+                9,
+                6
+              ],
+              "score": 4,
+              "known_to_Y": true,
+              "original_owner": "K",
+              "alternative_owner": "N"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidate": "v2",
+      "opponent": "r_combined",
+      "role": "baseline",
+      "map_seed": 7002,
+      "job_id": "919dddf8fec9746f2a9138dc",
+      "replay_sha256": "019dd6c4d7f210fae1a6b5d0a8c2f3fd9eb512cf4abde6123d0005cd8f3810e2",
+      "validated_frames": 160,
+      "last21_one_flag_improvements": []
+    },
+    {
+      "candidate": "q_balanced_front",
+      "opponent": "v2",
+      "role": "candidate",
+      "map_seed": 7005,
+      "job_id": "15ecb09762165961ac23bbfb",
+      "replay_sha256": "663cf04bc2b502d2c5ddc3f7382e1bc9f95e5d79d5698e1ebb56c3002830d545",
+      "validated_frames": 160,
+      "last21_one_flag_improvements": [
+        {
+          "turn": 141,
+          "origin": [
+            10,
+            11
+          ],
+          "direction": "U",
+          "original_commands": [
+            "Move(x=10, y=11, kind='F', count=1, direction='L')"
+          ],
+          "actual_score": {
+            "Y": 12,
+            "K": 18
+          },
+          "alternative_score": {
+            "Y": 12,
+            "K": 17
+          },
+          "changed_buildings": [
+            {
+              "id": 4,
+              "position": [
+                10,
+                10
+              ],
+              "score": 1,
+              "known_to_Y": true,
+              "original_owner": "K",
+              "alternative_owner": "N"
+            }
+          ]
+        },
+        {
+          "turn": 142,
+          "origin": [
+            6,
+            4
+          ],
+          "direction": "D",
+          "original_commands": [
+            "Move(x=6, y=4, kind='F', count=1, direction='R')"
+          ],
+          "actual_score": {
+            "Y": 12,
+            "K": 19
+          },
+          "alternative_score": {
+            "Y": 12,
+            "K": 15
+          },
+          "changed_buildings": [
+            {
+              "id": 14,
+              "position": [
+                6,
+                5
+              ],
+              "score": 4,
+              "known_to_Y": true,
+              "original_owner": "K",
+              "alternative_owner": "N"
+            }
+          ]
+        },
+        {
+          "turn": 144,
+          "origin": [
+            6,
+            4
+          ],
+          "direction": "D",
+          "original_commands": [],
+          "actual_score": {
+            "Y": 10,
+            "K": 23
+          },
+          "alternative_score": {
+            "Y": 10,
+            "K": 19
+          },
+          "changed_buildings": [
+            {
+              "id": 14,
+              "position": [
+                6,
+                5
+              ],
+              "score": 4,
+              "known_to_Y": true,
+              "original_owner": "K",
+              "alternative_owner": "N"
+            }
+          ]
+        },
+        {
+          "turn": 145,
+          "origin": [
+            14,
+            3
+          ],
+          "direction": "hold",
+          "original_commands": [
+            "Move(x=14, y=3, kind='F', count=1, direction='D')"
+          ],
+          "actual_score": {
+            "Y": 8,
+            "K": 21
+          },
+          "alternative_score": {
+            "Y": 10,
+            "K": 21
+          },
+          "changed_buildings": [
+            {
+              "id": 6,
+              "position": [
+                14,
+                3
+              ],
+              "score": 2,
+              "known_to_Y": true,
+              "original_owner": "N",
+              "alternative_owner": "Y"
+            }
+          ]
+        },
+        {
+          "turn": 146,
+          "origin": [
+            14,
+            4
+          ],
+          "direction": "U",
+          "original_commands": [],
+          "actual_score": {
+            "Y": 8,
+            "K": 23
+          },
+          "alternative_score": {
+            "Y": 8,
+            "K": 21
+          },
+          "changed_buildings": [
+            {
+              "id": 6,
+              "position": [
+                14,
+                3
+              ],
+              "score": 2,
+              "known_to_Y": true,
+              "original_owner": "K",
+              "alternative_owner": "N"
+            }
+          ]
+        },
+        {
+          "turn": 149,
+          "origin": [
+            5,
+            11
+          ],
+          "direction": "R",
+          "original_commands": [
+            "Move(x=5, y=11, kind='F', count=1, direction='D')"
+          ],
+          "actual_score": {
+            "Y": 8,
+            "K": 25
+          },
+          "alternative_score": {
+            "Y": 8,
+            "K": 22
+          },
+          "changed_buildings": [
+            {
+              "id": 12,
+              "position": [
+                6,
+                11
+              ],
+              "score": 3,
+              "known_to_Y": true,
+              "original_owner": "K",
+              "alternative_owner": "N"
+            }
+          ]
+        },
+        {
+          "turn": 151,
+          "origin": [
+            14,
+            4
+          ],
+          "direction": "U",
+          "original_commands": [
+            "Move(x=14, y=4, kind='F', count=1, direction='D')"
+          ],
+          "actual_score": {
+            "Y": 5,
+            "K": 23
+          },
+          "alternative_score": {
+            "Y": 5,
+            "K": 21
+          },
+          "changed_buildings": [
+            {
+              "id": 6,
+              "position": [
+                14,
+                3
+              ],
+              "score": 2,
+              "known_to_Y": true,
+              "original_owner": "K",
+              "alternative_owner": "N"
+            }
+          ]
+        },
+        {
+          "turn": 151,
+          "origin": [
+            6,
+            12
+          ],
+          "direction": "U",
+          "original_commands": [
+            "Move(x=6, y=12, kind='F', count=1, direction='D')"
+          ],
+          "actual_score": {
+            "Y": 5,
+            "K": 23
+          },
+          "alternative_score": {
+            "Y": 5,
+            "K": 20
+          },
+          "changed_buildings": [
+            {
+              "id": 12,
+              "position": [
+                6,
+                11
+              ],
+              "score": 3,
+              "known_to_Y": true,
+              "original_owner": "K",
+              "alternative_owner": "N"
+            }
+          ]
+        },
+        {
+          "turn": 153,
+          "origin": [
+            6,
+            6
+          ],
+          "direction": "U",
+          "original_commands": [
+            "Move(x=6, y=6, kind='F', count=1, direction='D')"
+          ],
+          "actual_score": {
+            "Y": 5,
+            "K": 26
+          },
+          "alternative_score": {
+            "Y": 9,
+            "K": 26
+          },
+          "changed_buildings": [
+            {
+              "id": 14,
+              "position": [
+                6,
+                5
+              ],
+              "score": 4,
+              "known_to_Y": true,
+              "original_owner": "N",
+              "alternative_owner": "Y"
+            }
+          ]
+        },
+        {
+          "turn": 153,
+          "origin": [
+            14,
+            4
+          ],
+          "direction": "U",
+          "original_commands": [
+            "Move(x=14, y=4, kind='F', count=1, direction='D')"
+          ],
+          "actual_score": {
+            "Y": 5,
+            "K": 26
+          },
+          "alternative_score": {
+            "Y": 5,
+            "K": 24
+          },
+          "changed_buildings": [
+            {
+              "id": 6,
+              "position": [
+                14,
+                3
+              ],
+              "score": 2,
+              "known_to_Y": true,
+              "original_owner": "K",
+              "alternative_owner": "N"
+            }
+          ]
+        },
+        {
+          "turn": 154,
+          "origin": [
+            6,
+            7
+          ],
+          "direction": "R",
+          "original_commands": [
+            "Move(x=6, y=7, kind='F', count=1, direction='D')"
+          ],
+          "actual_score": {
+            "Y": 5,
+            "K": 26
+          },
+          "alternative_score": {
+            "Y": 5,
+            "K": 23
+          },
+          "changed_buildings": [
+            {
+              "id": 0,
+              "position": [
+                7,
+                7
+              ],
+              "score": 3,
+              "known_to_Y": true,
+              "original_owner": "K",
+              "alternative_owner": "N"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidate": "v2",
+      "opponent": "v2",
+      "role": "baseline",
+      "map_seed": 7005,
+      "job_id": "44b47df10fb58eba91ae9a27",
+      "replay_sha256": "6331a674550df6735f9e6bbebd31f663586666dfbea3634efb0be457ea6124a9",
+      "validated_frames": 160,
+      "last21_one_flag_improvements": []
+    }
+  ],
+  "scope": "Single-turn fixed recorded opponent counterfactuals; no full-match improvement claim."
+}

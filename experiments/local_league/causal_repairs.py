@@ -189,3 +189,98 @@ def variants(source: str) -> list[dict]:
     return [{"id": name, "family": family, "parameters": {**parameters, "opponent_model": "unchanged_v2"},
              "hypothesis": hypothesis, "weakness": weakness, "source": _render(source, parameters)}
             for name, family, parameters, hypothesis, weakness in specs]
+
+
+_TACTICAL = r'''
+double evaluation(const State& s,int t);
+chrono::steady_clock::time_point causal_iteration2_deadline=chrono::steady_clock::time_point::max();
+Action causal_tactical_with_predictions(const State& s,int t,Action a,
+                                       const vector<Action>& predictions) {
+    if(s.turn<120 || predictions.empty() || chrono::steady_clock::now()>=causal_iteration2_deadline)return a;
+    auto quality=[&](const Action& action,bool& complete) {
+        double worst=1e30,total=0;
+        for(const auto& opponent:predictions) {
+            if(chrono::steady_clock::now()>=causal_iteration2_deadline){complete=false;return 0.0;}
+            State next=t==0?advance(s,action,opponent):advance(s,opponent,action);
+            double value=evaluation(next,t);
+            if(next.turn>=160)value+=clamp(20*(points(next,t)-points(next,1-t)),-1000.0,1000.0);
+            else value+=6*accumulate(next.u[t][F],next.u[t][F]+N,0);
+            worst=min(worst,value);total+=value;
+        }
+        return TACTICAL_WORST?worst:.75*total/predictions.size()+.25*worst;
+    };
+    int flags[N];copy(s.u[t][F],s.u[t][F]+N,flags);
+    for(auto x:a.spawn)if(x.kind==F)flags[x.pos]+=x.count;
+    vector<pair<double,int>> origins;
+    for(int c=0;c<N;++c)if(flags[c]==1) {
+        double interest=-1;
+        for(int b=0;b<board.nb;++b)if(board.dist[c][board.pos[b]]<=1)
+            interest=max(interest,s.score[b]+(s.owner[b]==t?2.0:0.0));
+        if(interest>=0)origins.push_back({interest,c});
+    }
+    stable_sort(origins.rbegin(),origins.rend());
+    if(origins.size()>3)origins.resize(3);
+    bool complete=true;double best=quality(a,complete);Action chosen=a;
+    if(!complete)return a;
+    for(auto [interest,src]:origins) {
+        Action fixed=a;
+        fixed.moves.erase(remove_if(fixed.moves.begin(),fixed.moves.end(),[&](auto x){
+            return x.kind==F&&x.from==src;
+        }),fixed.moves.end());
+        vector<int> options{src};
+        options.insert(options.end(),board.adj[src].begin(),board.adj[src].end());
+        for(int dest:options) {
+            Action trial=fixed;
+            if(dest!=src)trial.moves.push_back({F,src,dest,1});
+            double value=quality(trial,complete);
+            if(!complete)return a;
+            if(value>best+.25){best=value;chosen=move(trial);}
+        }
+    }
+    return chosen;
+}
+Action causal_tactical(const State& s,int t,Action a) {
+    if(s.turn<120 || chrono::steady_clock::now()>=causal_iteration2_deadline)return a;
+    vector<Action> predictions;
+    for(int style=0;style<4;++style) {
+        if(chrono::steady_clock::now()>=causal_iteration2_deadline)return a;
+        predictions.push_back(policy(s,1-t,style));
+    }
+    return causal_tactical_with_predictions(s,t,move(a),predictions);
+}
+'''
+
+
+def _render_iteration2(source: str, parameters: dict) -> str:
+    result = _render(source, parameters)
+    if parameters.get("tactical"):
+        helper = _TACTICAL.replace("TACTICAL_WORST", "1" if parameters.get("worst") else "0")
+        anchor = "Action causal_policy(const State& s, int t, int style) {"
+        result = _replace(result, anchor, helper + "\n" + anchor)
+        result = _replace(result, "candidates[i]=causal_policy(s,us,i);",
+                          "candidates[i]=causal_tactical(s,us,causal_policy(s,us,i));")
+        result = _replace(result, "auto start = chrono::steady_clock::now();",
+                          "auto start = chrono::steady_clock::now();\n    causal_iteration2_deadline=start+chrono::milliseconds(210);")
+    return result
+
+
+def variants_iteration2(source: str) -> list[dict]:
+    specs = [
+        ("q_v2_window_guard", {"threat_window": True, "guard": 1},
+         "Pair the promising two-step defense window with one own-only F/W reservation to protect immediate ownership.",
+         "Worst-case reservation can still refuse feasible defense or take warriors from a better offensive task."),
+        ("q_v2_tactical_mean", {"threat_window": True, "tactical": True},
+         "After turn 120, reconsider one nearby flag move against the four unchanged opponent scripts; score both immediate ownership and survival.",
+         "One-step script predictions can be wrong, single-flag edits cannot coordinate larger attacks, and mean scoring may accept a bad tail."),
+        ("q_v2_tactical_worst", {"threat_window": True, "tactical": True, "worst": True},
+         "Use the worst predicted result when repairing a late nearby flag move, retaining guaranteed script-local ownership opportunities.",
+         "The four scripts do not span all adversaries; worst-case scoring can be too conservative and increase runtime."),
+        ("q_v2_guard_tactical", {"threat_window": True, "guard": 1, "tactical": True},
+         "Combine a legal same-turn defense pair with a final local flag alternative check in the late game.",
+         "The tactical edit can undo a conservative reservation; the score model and full-match validation must justify that tradeoff."),
+    ]
+    return [{"id": name, "family": "late_flag_action_repair",
+             "parameters": {**parameters, "revision": 2, "opponent_model": "unchanged_v2"},
+             "hypothesis": hypothesis, "weakness": weakness,
+             "source": _render_iteration2(source, parameters)}
+            for name, parameters, hypothesis, weakness in specs]

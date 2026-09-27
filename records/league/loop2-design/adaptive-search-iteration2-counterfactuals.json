@@ -1,0 +1,224 @@
+{
+  "seed": 7001,
+  "team": "Y",
+  "candidate": "a_local_unabstracted",
+  "opponent": "r_terminal_margin",
+  "replay": "../loop2-checkpoints/iteration1/provisional-losses2/runs/development/replays/aad791b4d5bdb14de5a8bd31.json.gz",
+  "all_160_observed_transitions_reproduced": true,
+  "scope": "Each case changes one own command for one turn while retaining the actual opponent commands. No full-game win counterfactual is claimed.",
+  "cases": [
+    {
+      "turn": 34,
+      "removed_own_command": "MOVE 8 4 F 1 L",
+      "observed_score": {
+        "Y": 15,
+        "K": 11
+      },
+      "counterfactual_score": {
+        "Y": 15,
+        "K": 14
+      },
+      "building": [
+        8,
+        4
+      ],
+      "counterfactual_owner": "K",
+      "counterfactual_result": null
+    },
+    {
+      "turn": 160,
+      "removed_own_command": "MOVE 7 7 F 1 D",
+      "observed_score": {
+        "Y": 8,
+        "K": 19
+      },
+      "counterfactual_score": {
+        "Y": 11,
+        "K": 19
+      },
+      "building": [
+        7,
+        7
+      ],
+      "counterfactual_owner": "Y",
+      "counterfactual_result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 11,
+          "K": 19
+        },
+        "turns": 160
+      }
+    }
+  ],
+  "generated_candidate_probes": [
+    {
+      "id": "a_v2_terminal_local",
+      "source_sha256": "52268569e17d7fc40fd46f0996b2da684768902b4af27ec059c4b068911c4473",
+      "observations": 160,
+      "max_response_ms": 77.20692299881193,
+      "scenes": [
+        {
+          "turn": 34,
+          "commands": [
+            "SPAWN W 1 3 4",
+            "SPAWN W 1 3 4",
+            "SPAWN W 1 3 4",
+            "SPAWN W 1 3 4",
+            "SPAWN W 1 3 4",
+            "SPAWN W 1 3 4",
+            "MOVE 12 0 F 1 D",
+            "MOVE 6 4 F 1 R",
+            "MOVE 2 13 F 1 R",
+            "MOVE 5 2 W 1 R",
+            "MOVE 6 2 W 1 R",
+            "MOVE 4 3 W 2 D",
+            "MOVE 3 4 W 5 D",
+            "MOVE 3 4 W 1 R",
+            "MOVE 4 4 W 1 U",
+            "MOVE 4 4 W 1 D",
+            "MOVE 4 4 W 1 R",
+            "MOVE 5 4 W 2 U",
+            "MOVE 5 4 W 8 R",
+            "MOVE 6 4 W 10 R",
+            "MOVE 3 5 W 3 R",
+            "MOVE 5 6 W 2 D",
+            "MOVE 7 6 W 2 D",
+            "MOVE 6 7 W 1 D",
+            "MOVE 5 8 W 4 D",
+            "MOVE 5 9 W 1 R",
+            "MOVE 6 10 W 1 D",
+            "MOVE 5 12 W 1 R",
+            "MOVE 8 4 F 1 L",
+            "MOVE 9 1 F 1 U",
+            "MOVE 9 1 W 1 U",
+            "PRIORITY 11 10 13 1 6 10 9 10 13 12 10 4 10 10"
+          ],
+          "score": {
+            "Y": 15,
+            "K": 11
+          },
+          "target_owner": "N",
+          "result": null
+        },
+        {
+          "turn": 160,
+          "commands": [
+            "SPAWN W 2 3 4",
+            "MOVE 3 2 W 10 R",
+            "MOVE 3 2 W 45 R",
+            "MOVE 7 3 W 21 D",
+            "MOVE 7 3 W 2 U",
+            "MOVE 8 4 W 8 L",
+            "MOVE 3 4 W 4 U",
+            "MOVE 3 3 W 2 U",
+            "MOVE 1 5 W 1 R",
+            "MOVE 3 5 W 1 L",
+            "MOVE 5 7 W 1 R",
+            "MOVE 7 7 F 1 D",
+            "PRIORITY 9 12 5 2 11 10 5 4 9 10 6 10 7 7 8 4 3 4 1 13 10 10 4 4 13 12 10 4 13 1 1 2 4 10"
+          ],
+          "score": {
+            "Y": 8,
+            "K": 19
+          },
+          "target_owner": "N",
+          "result": {
+            "winner": "K",
+            "reason": "score",
+            "score": {
+              "Y": 8,
+              "K": 19
+            },
+            "turns": 160
+          }
+        }
+      ]
+    },
+    {
+      "id": "a_v2_tactical_local",
+      "source_sha256": "9d9d6ecd763b84f88c0d5e48f65524798f998e9912f774c0dd22e27f3f78219a",
+      "observations": 160,
+      "max_response_ms": 136.02250900112267,
+      "scenes": [
+        {
+          "turn": 34,
+          "commands": [
+            "SPAWN W 1 3 4",
+            "SPAWN W 1 3 4",
+            "SPAWN W 1 3 4",
+            "SPAWN W 1 3 4",
+            "SPAWN W 1 3 4",
+            "SPAWN W 1 3 4",
+            "MOVE 6 4 F 1 R",
+            "MOVE 2 13 F 1 R",
+            "MOVE 9 1 W 1 R",
+            "MOVE 5 2 W 1 R",
+            "MOVE 6 2 W 1 R",
+            "MOVE 4 3 W 2 D",
+            "MOVE 3 4 W 5 D",
+            "MOVE 3 4 W 1 R",
+            "MOVE 4 4 W 1 U",
+            "MOVE 4 4 W 1 D",
+            "MOVE 4 4 W 1 R",
+            "MOVE 5 4 W 2 U",
+            "MOVE 5 4 W 8 R",
+            "MOVE 6 4 W 10 R",
+            "MOVE 3 5 W 3 R",
+            "MOVE 5 6 W 2 D",
+            "MOVE 7 6 W 2 D",
+            "MOVE 6 7 W 1 D",
+            "MOVE 5 8 W 4 D",
+            "MOVE 5 9 W 1 R",
+            "MOVE 6 10 W 1 D",
+            "MOVE 5 12 W 1 R",
+            "MOVE 8 4 F 1 L",
+            "MOVE 12 0 F 1 R",
+            "PRIORITY 11 10 13 1 6 10 9 10 13 12 10 4 10 10"
+          ],
+          "score": {
+            "Y": 15,
+            "K": 11
+          },
+          "target_owner": "N",
+          "result": null
+        },
+        {
+          "turn": 160,
+          "commands": [
+            "SPAWN W 2 3 4",
+            "MOVE 3 2 W 10 R",
+            "MOVE 3 2 W 45 R",
+            "MOVE 7 3 W 21 D",
+            "MOVE 7 3 W 2 U",
+            "MOVE 8 4 W 8 L",
+            "MOVE 3 4 W 4 U",
+            "MOVE 3 3 W 2 U",
+            "MOVE 1 5 W 1 R",
+            "MOVE 3 5 W 1 L",
+            "MOVE 5 7 W 1 R",
+            "MOVE 4 2 F 1 R",
+            "MOVE 4 2 W 3 R",
+            "PRIORITY 9 12 5 2 11 10 5 4 9 10 6 10 7 7 8 4 3 4 1 13 10 10 4 4 13 12 10 4 13 1 1 2 4 10"
+          ],
+          "score": {
+            "Y": 11,
+            "K": 19
+          },
+          "target_owner": "Y",
+          "result": {
+            "winner": "K",
+            "reason": "score",
+            "score": {
+              "Y": 11,
+              "K": 19
+            },
+            "turns": 160
+          }
+        }
+      ]
+    }
+  ],
+  "probe_scope": "Bots consume the full original legal observation sequence. Their alternative commands are tested only at turns 34 and 160 against the actual recorded enemy commands. This is not a newly played game."
+}

@@ -290,3 +290,63 @@ Action joint_own_policy(const State& s,int t,int style) {{
                                           "opponent_model": "unchanged_v2", "own_only": True},
                            "hypothesis": hypothesis, "weakness": weakness, "source": edited})
     return result
+
+
+def variants_iteration2(source: str) -> list[dict]:
+    """New IDs only: the first iteration renderer and its eight sources stay frozen."""
+    original = {row["id"]: row for row in variants(source)}
+    specifications = [
+        ("j_v2_defensive_delayed", "j_defensive_portfolio", {"start_turn": 30},
+         "7003 첫 턴부터 확장 경로가 갈라진 회귀에 대해 초반 30턴의 원래 정책을 보존하고 이후 공동 배정만 추가한다.",
+         "초반 공동 호위의 잠재 이득도 버리며 30턴의 정책 전환이 새로운 역할 진동을 만들 수 있다."),
+        ("j_v2_reclaim_flags7", "j_reclaim_portfolio", {"flag_cap": 7},
+         "7005의 10턴부터 F8명 유지·W3명 감소와 종반 중복 F를 근거로 기수 상한을 v2의 7명으로 제한한다.",
+         "F1명의 비용 절약은 작은 효과이며 실제 패배 원인은 목표 배정과 전투 경로일 수 있다."),
+        ("j_v2_reclaim_relay", "j_reclaim_portfolio", {"blocked_flag_relay": True},
+         "위험 때문에 진전하지 못한 F에는 최종 건물 대신 다음 진전 칸을 W 집결 임무로 만들어 유휴 F와 호위 단절을 줄인다.",
+         "막힌 F가 가치 낮은 전선에 있으면 큰 W 집단을 끌어들여 다른 전선을 약하게 만들 수 있다."),
+        ("j_v2_reclaim_relay_delayed", "j_reclaim_portfolio", {"blocked_flag_relay": True, "start_turn": 30},
+         "초반 v2 확장을 보존한 뒤 막힌 F의 경유점 호위만 추가해 첫 회귀의 초기 분기와 종반 유휴를 함께 대조한다.",
+         "두 요소 결합이므로 단일 요인의 인과 효과는 분리 후보와 비교해야 하며 상대별 회귀 가능성이 남는다."),
+    ]
+    results = []
+    for name, parent, parameters, hypothesis, weakness in specifications:
+        edited = original[parent]["source"]
+        if parameters.get("start_turn"):
+            anchor = "if (style==2) return joint_policy(s,t,"
+            if edited.count(anchor) != 1:
+                raise ValueError("joint own-policy wrapper changed")
+            edited = edited.replace(anchor, f"if (style==2 && s.turn>={parameters['start_turn']}) return joint_policy(s,t,", 1)
+        if parameters.get("flag_cap"):
+            anchor = "int desired=min(profile==1?5:8,max(2,targets));"
+            if edited.count(anchor) != 1:
+                raise ValueError("joint flag capacity changed")
+            edited = edited.replace(anchor, f"int desired=min(profile==1?5:{parameters['flag_cap']},max(2,targets));", 1)
+        if parameters.get("blocked_flag_relay"):
+            start = edited.index("    void distribute_warriors() {")
+            end = edited.index("    Action finish() {", start)
+            block = edited[start:end]
+            block = block.replace("int need[BMAX]{};", "int need[BMAX]{}, destination[BMAX];\n        copy(board.pos,board.pos+board.nb,destination);", 1)
+            anchor = "        vector<int> order;"
+            relay = r'''        for(const auto& m:missions) {
+            int target=board.pos[m.building],distance=board.dist[m.flag][target];
+            if(s.owner[m.building]==t || distance==0 || board.dist[m.next][target]<distance)continue;
+            int waypoint=m.flag;
+            for(int q:board.adj[m.flag]) if(board.dist[q][target]<board.dist[waypoint][target])waypoint=q;
+            if(waypoint==m.flag || threat[waypoint]<=landed[waypoint])continue;
+            destination[m.building]=waypoint;
+            need[m.building]=threat[waypoint]+1;
+            committed[m.building]=landed[waypoint];
+        }
+'''
+            if block.count(anchor) != 1:
+                raise ValueError("joint warrior assignment layout changed")
+            block = block.replace(anchor, relay + anchor, 1)
+            block = block.replace("int c=board.pos[b],remaining=need[b]-committed[b];", "int c=destination[b],remaining=need[b]-committed[b];", 1)
+            block = block.replace("int dest=warrior_step(src,board.pos[goal],n);", "int dest=warrior_step(src,surplus?board.pos[goal]:destination[goal],n);", 1)
+            edited = edited[:start] + block + edited[end:]
+        results.append({"id": name, "family": "joint_mission_revision2", "parameters": {
+            **parameters, "parent_candidate": parent, "iteration": 2, "own_only": True,
+            "opponent_model": "unchanged_v2", "mode": "portfolio", "replacement_style": 2},
+            "hypothesis": hypothesis, "weakness": weakness, "source": edited})
+    return results

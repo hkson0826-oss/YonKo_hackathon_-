@@ -119,5 +119,78 @@ int main() {
             self.assertEqual(proc.returncode, 0, proc.stderr)
 
 
+class AdaptiveRevisionTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.original = (ROOT / "submissions/tuned/main.cpp").read_text()
+        cls.revisions = adaptive.variants_iteration2(cls.original)
+
+    def test_revision_compile_and_old_population_unchanged(self):
+        self.assertEqual(len(adaptive.variants(self.original)), 8)
+        self.assertEqual(len(self.revisions), 4)
+        self.assertEqual(len({v["source"] for v in self.revisions}), 4)
+        with tempfile.TemporaryDirectory(prefix="yk-adaptive-revision-", dir="/tmp") as directory:
+            directory = pathlib.Path(directory)
+            for candidate in self.revisions:
+                source = directory / (candidate["id"] + ".cpp")
+                source.write_text(candidate["source"])
+                proc = subprocess.run(["g++", "-std=c++20", "-O2", "-I", str(ROOT / "submissions/tuned"),
+                                       str(source), "-o", str(directory / candidate["id"])],
+                                      capture_output=True, text=True, timeout=60)
+                self.assertEqual(proc.returncode, 0, candidate["id"] + "\n" + proc.stderr)
+
+    def test_terminal_order_and_independent_wait_moves(self):
+        candidate = next(x for x in self.revisions if x["id"] == "a_v2_tactical_local")
+        harness = r'''
+#define main bot_main
+''' + candidate["source"] + r'''
+#undef main
+#include <cassert>
+int main() {
+    fill(board.at,board.at+N,-1);board.nb=3;board.base[0]=0;board.base[1]=224;
+    board.pos[0]=112;board.pos[1]=16;board.pos[2]=208;
+    for(int b=0;b<3;++b) {board.at[board.pos[b]]=b;board.type[b]=b==0?PLAZA:ENG;}
+    for(int c=0;c<N;++c) {
+        board.pass[c]=true;
+        for(int q=0;q<N;++q) {
+            board.dist[c][q]=abs(c%15-q%15)+abs(c/15-q/15);
+            if(board.dist[c][q]==1) board.adj[c].push_back(q);
+        }
+    }
+    State s;s.turn=160;s.score[0]=3;s.score[1]=s.score[2]=2;
+    s.owner[0]=s.owner[1]=1;s.owner[2]=-1;
+    double loss0=evaluation(s,0);s.owner[2]=0;double loss2=evaluation(s,0);
+    assert(loss0<loss2 && loss2<-99000);
+    s.owner[0]=0;assert(evaluation(s,0)>99000);
+    State late=s;late.turn=159;late.owner[0]=-1;late.u[0][F][112]=1;
+    late.u[0][W][112]=10;late.u[0][F][0]=4;late.u[0][W][0]=80;
+    assert(a2_importance(late,0,112)>a2_importance(late,0,0));
+    Action current;current.moves={{F,112,127,1},{W,112,113,7}};
+    auto choices=a2_neighborhood(late,0,current,112);
+    bool flag_wait=false,warrior_wait=false,both_wait=false,separate=false;
+    for(const auto& a:choices) {
+        assert(a_equal(a,a_clean(late,0,a)));
+        int fm=0,wm=0;for(auto m:a.moves) {fm+=m.kind==F;wm+=m.kind==W;}
+        flag_wait|=!fm && wm;warrior_wait|=fm && !wm;both_wait|=!fm && !wm;
+        for(auto f:a.moves) for(auto w:a.moves) if(f.kind==F && w.kind==W) separate|=f.to!=w.to;
+    }
+    assert(flag_wait && warrior_wait && both_wait && separate);
+    Action empty;late.res[0]=20;late.res[1]=20;late.owner[0]=-1;
+    auto keep=advance(late,empty,empty);auto leave=advance(late,current,empty);
+    assert(keep.owner[0]==0 && leave.owner[0]==-1);
+    assert(evaluation(keep,0)>evaluation(leave,0));
+    return 0;
+}
+'''
+        with tempfile.TemporaryDirectory(prefix="yk-adaptive-revision-logic-", dir="/tmp") as directory:
+            source = pathlib.Path(directory) / "check.cpp"
+            binary = pathlib.Path(directory) / "check"
+            source.write_text(harness)
+            subprocess.run(["g++", "-std=c++20", "-O2", "-I", str(ROOT / "submissions/tuned"),
+                            str(source), "-o", str(binary)], check=True, capture_output=True, timeout=60)
+            proc = subprocess.run([str(binary)], capture_output=True, text=True, timeout=10)
+            self.assertEqual(proc.returncode, 0, proc.stderr)
+
+
 if __name__ == "__main__":
     unittest.main()

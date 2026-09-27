@@ -232,3 +232,114 @@ def variants(source: str) -> list[dict]:
     return [{"id": name, "family": family, "parameters": params,
              "hypothesis": hypothesis, "weakness": weakness, "source": _build(source, **params)}
             for name, family, params, hypothesis, weakness in specs]
+
+
+ITERATION2_HELPERS = r'''
+double a2_importance(const State& s,int us,int c) {
+    int enemy_w=s.u[1-us][W][c],enemy_f=s.u[1-us][F][c];
+    for(int q:board.adj[c]) {enemy_w+=s.u[1-us][W][q];enemy_f+=s.u[1-us][F][q];}
+    double importance=8*s.u[us][F][c]+sqrt(double(s.u[us][W][c]));
+    int b=board.at[c];
+    if(b>=0) {
+        importance+=3;
+        if(s.u[us][F][c] && (s.owner[b]!=us || enemy_f)) importance+=12+4*s.score[b];
+        if(s.turn>=155 && s.u[us][F][c] && s.owner[b]!=us) importance+=60;
+    }
+    if(s.u[us][F][c] && enemy_w) importance+=min(30,enemy_w)+10;
+    return importance;
+}
+
+vector<Action> a2_neighborhood(const State& s,int us,const Action& incumbent,int src) {
+    vector<Action> choices; vector<int> destinations{src};
+    destinations.insert(destinations.end(),board.adj[src].begin(),board.adj[src].end());
+    for(int dest:destinations) for(int mask=1;mask<=3;++mask) {
+        Action trial=incumbent;
+        trial.moves.erase(remove_if(trial.moves.begin(),trial.moves.end(),[&](auto m) {
+            return m.from==src && m.kind<2 && (mask&(1<<m.kind));
+        }),trial.moves.end());
+        if(dest!=src) for(int kind=0;kind<2;++kind) if(mask&(1<<kind)) {
+            int stock=s.u[us][kind][src];
+            for(auto p:incumbent.spawn) if(p.pos==src && p.kind==kind) stock+=p.count;
+            if(stock) trial.moves.push_back({kind,src,dest,stock});
+        }
+        trial=a_clean(s,us,trial);
+        if(a_equal(trial,incumbent)) continue;
+        if(none_of(choices.begin(),choices.end(),[&](const Action& old){return a_equal(old,trial);})) choices.push_back(trial);
+    }
+    return choices;
+}
+'''
+
+
+def _replace_required(source: str, old: str, new: str) -> str:
+    if source.count(old) != 1:
+        raise ValueError("Iteration-2 source anchor changed: " + old[:70])
+    return source.replace(old, new, 1)
+
+
+def _iteration2(source: str, *, tactical=False, memory=False, continuous=False) -> str:
+    if continuous:
+        out = _build(source, mix=True, memory=True)
+        helper = r'''
+Action a2_continuation(const State& s,int us,int code) {
+    if(code<4) return policy(s,us,code);
+    int flags=(code-4)/4,warriors=(code-4)%4;
+    return a_mix(s,us,policy(s,us,flags),policy(s,us,warriors));
+}
+'''
+        out = _replace_required(out, "bool a_evaluate(", helper + "\nbool a_evaluate(")
+        out = _replace_required(out, "Action own=d?policy(trial,us,continuation):first,opp=policy(trial,1-us,j);",
+                                "Action own=d?a2_continuation(trial,us,continuation):first,opp=policy(trial,1-us,j);")
+        out = _replace_required(out, "scripts[pair.second]),pair.first,-1e100});",
+                                "scripts[pair.second]),4+pair.first*4+pair.second,-1e100});")
+        return out
+    out = _build(source, local=True, free=True, memory=memory)
+    anchor = "double score[2] = {points(s,0),points(s,1)}, total = accumulate(s.score,s.score+board.nb,0.0);"
+    out = _replace_required(out, anchor, anchor + "\n    double a2_margin=s.turn>=160?clamp(20*(score[t]-score[1-t]),-1000.0,1000.0):0;")
+    out = _replace_required(out, "if (score[1-t] == 0 && score[t]*2 > total) return 100000;",
+                            "if (score[1-t] == 0 && score[t]*2 > total) return 100000+a2_margin;")
+    out = _replace_required(out, "if (score[t] == 0 && score[1-t]*2 > total) return -100000;",
+                            "if (score[t] == 0 && score[1-t]*2 > total) return -100000+a2_margin;")
+    out = _replace_required(out, "if (score[t] != score[1-t]) return score[t] > score[1-t] ? 100000 : -100000;",
+                            "if (score[t] != score[1-t]) return (score[t] > score[1-t] ? 100000 : -100000)+a2_margin;")
+    if tactical:
+        out = _replace_required(out, "struct APlan {", ITERATION2_HELPERS + "\nstruct APlan {")
+        out = _replace_required(out,
+                                "double importance=8*s.u[us][F][c]+sqrt(double(s.u[us][W][c]));\n            int b=board.at[c]; if(b>=0) importance+=3;",
+                                "double importance=a2_importance(s,us,c);")
+        old = """            if(A_FREE) for(int target:board.adj[src]) {
+                Action alternate;
+                for(int kind=0;kind<2;++kind) if(s.u[us][kind][src]) alternate.moves.push_back({kind,src,target,s.u[us][kind][src]});
+                Action trial=a_patch(s,us,incumbent.action,alternate,src); double value;
+                if(a_equal(trial,incumbent.action)) continue;
+                if(!a_evaluate(s,us,trial,incumbent.continuation,depth,weights,start,limit,value)) goto finished;
+                if(value>incumbent.value) {incumbent.action=trial;incumbent.value=value;}
+            }"""
+        new = """            if(A_FREE) for(const Action& trial:a2_neighborhood(s,us,incumbent.action,src)) {
+                double value;
+                if(!a_evaluate(s,us,trial,incumbent.continuation,depth,weights,start,limit,value)) goto finished;
+                if(value>incumbent.value) {incumbent.action=trial;incumbent.value=value;}
+            }"""
+        out = _replace_required(out, old, new)
+    return out
+
+
+def variants_iteration2(source: str) -> list[dict]:
+    specs = [
+        ("a_v2_terminal_local", "terminal_local_revision", {},
+         "7001 최종 턴에서 동가치 패배 때문에 재점령을 포기한 문제를 종반 점수차로 구분한다.",
+         "확인된 한 턴에서 3점을 회복해도 패배는 그대로다. 승패 단계 간 순서는 보존한다."),
+        ("a_v2_tactical_local", "tactical_neighborhood_revision", {"tactical": True},
+         "위협·점령 중인 F의 출발지를 우선하고 F/W별 이동·대기를 별도 후보로 공식 전이 평가한다.",
+         "대기를 강제하지 않는다. 7001 turn34처럼 F 대기는 오히려 적의 즉시 점령을 도울 수 있다."),
+        ("a_v2_tactical_fit", "tactical_neighborhood_revision", {"tactical": True, "memory": True},
+         "같은 전술 후보 집합에서 관측 기반 상대 적합도 사용 여부만 대조한다.",
+         "모델 후보 밖의 상대를 잘못 추정하면 국소 개선의 기준도 왜곡된다."),
+        ("a_v2_continuous_mix", "continuous_role_revision", {"continuous": True},
+         "혼합한 F/W 역할을 rollout 후속 턴에도 유지해 첫 행동과 평가 계획의 불일치를 줄인다.",
+         "7007 패배가 역할 단절 때문인지는 미확인이다. 실제 다음 턴에는 재계획하므로 영속 임무가 아니다."),
+    ]
+    return [{"id": name, "family": family, "parameters": params,
+             "hypothesis": hypothesis, "weakness": weakness,
+             "source": _iteration2(source, **params)}
+            for name, family, params, hypothesis, weakness in specs]
