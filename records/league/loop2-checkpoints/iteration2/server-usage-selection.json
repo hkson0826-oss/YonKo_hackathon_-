@@ -1,0 +1,488 @@
+{
+  "utc": "2026-09-27T16:03:54.834215+00:00",
+  "seconds": 5.172177931293845,
+  "processes_after": [
+    {
+      "pid": 2106790,
+      "cpu_ticks_with_reaped_children": 91670,
+      "rss_kib": 59796,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2106989,
+      "cpu_ticks_with_reaped_children": 2,
+      "rss_kib": 12636,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2643636,
+      "cpu_ticks_with_reaped_children": 2103,
+      "rss_kib": 34332,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2643639,
+      "cpu_ticks_with_reaped_children": 2179,
+      "rss_kib": 34220,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2643640,
+      "cpu_ticks_with_reaped_children": 2319,
+      "rss_kib": 34360,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2643641,
+      "cpu_ticks_with_reaped_children": 2372,
+      "rss_kib": 35556,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2643642,
+      "cpu_ticks_with_reaped_children": 1940,
+      "rss_kib": 34064,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2643643,
+      "cpu_ticks_with_reaped_children": 1772,
+      "rss_kib": 34376,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2643644,
+      "cpu_ticks_with_reaped_children": 2070,
+      "rss_kib": 34236,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2643645,
+      "cpu_ticks_with_reaped_children": 2003,
+      "rss_kib": 34024,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2643646,
+      "cpu_ticks_with_reaped_children": 2025,
+      "rss_kib": 34100,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2643647,
+      "cpu_ticks_with_reaped_children": 1992,
+      "rss_kib": 34348,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2643648,
+      "cpu_ticks_with_reaped_children": 1970,
+      "rss_kib": 34236,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2643649,
+      "cpu_ticks_with_reaped_children": 1920,
+      "rss_kib": 34276,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2643650,
+      "cpu_ticks_with_reaped_children": 2277,
+      "rss_kib": 35488,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2643651,
+      "cpu_ticks_with_reaped_children": 2278,
+      "rss_kib": 34168,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2643652,
+      "cpu_ticks_with_reaped_children": 2299,
+      "rss_kib": 34748,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2643653,
+      "cpu_ticks_with_reaped_children": 2010,
+      "rss_kib": 34236,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2887034,
+      "cpu_ticks_with_reaped_children": 0,
+      "rss_kib": 1168,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2887036,
+      "cpu_ticks_with_reaped_children": 0,
+      "rss_kib": 1096,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2887038,
+      "cpu_ticks_with_reaped_children": 922,
+      "rss_kib": 4148,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2887042,
+      "cpu_ticks_with_reaped_children": 154,
+      "rss_kib": 3988,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2887298,
+      "cpu_ticks_with_reaped_children": 0,
+      "rss_kib": 1196,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2887300,
+      "cpu_ticks_with_reaped_children": 0,
+      "rss_kib": 1120,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2887301,
+      "cpu_ticks_with_reaped_children": 875,
+      "rss_kib": 3956,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2887303,
+      "cpu_ticks_with_reaped_children": 202,
+      "rss_kib": 4012,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2887882,
+      "cpu_ticks_with_reaped_children": 0,
+      "rss_kib": 1064,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2887884,
+      "cpu_ticks_with_reaped_children": 0,
+      "rss_kib": 1100,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2887885,
+      "cpu_ticks_with_reaped_children": 790,
+      "rss_kib": 3968,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2887887,
+      "cpu_ticks_with_reaped_children": 178,
+      "rss_kib": 3984,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2888700,
+      "cpu_ticks_with_reaped_children": 0,
+      "rss_kib": 1128,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2888702,
+      "cpu_ticks_with_reaped_children": 0,
+      "rss_kib": 1088,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2888703,
+      "cpu_ticks_with_reaped_children": 663,
+      "rss_kib": 4424,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2888705,
+      "cpu_ticks_with_reaped_children": 106,
+      "rss_kib": 3876,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2889388,
+      "cpu_ticks_with_reaped_children": 0,
+      "rss_kib": 1172,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2889390,
+      "cpu_ticks_with_reaped_children": 0,
+      "rss_kib": 1072,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2889392,
+      "cpu_ticks_with_reaped_children": 547,
+      "rss_kib": 4072,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2889393,
+      "cpu_ticks_with_reaped_children": 87,
+      "rss_kib": 3972,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2889802,
+      "cpu_ticks_with_reaped_children": 0,
+      "rss_kib": 1100,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2889804,
+      "cpu_ticks_with_reaped_children": 0,
+      "rss_kib": 1060,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2889805,
+      "cpu_ticks_with_reaped_children": 458,
+      "rss_kib": 3716,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2889807,
+      "cpu_ticks_with_reaped_children": 120,
+      "rss_kib": 3964,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2890106,
+      "cpu_ticks_with_reaped_children": 0,
+      "rss_kib": 1064,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2890110,
+      "cpu_ticks_with_reaped_children": 0,
+      "rss_kib": 1168,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2890111,
+      "cpu_ticks_with_reaped_children": 407,
+      "rss_kib": 4048,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2890113,
+      "cpu_ticks_with_reaped_children": 71,
+      "rss_kib": 3884,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2890618,
+      "cpu_ticks_with_reaped_children": 0,
+      "rss_kib": 1096,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2890620,
+      "cpu_ticks_with_reaped_children": 0,
+      "rss_kib": 1116,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2890621,
+      "cpu_ticks_with_reaped_children": 322,
+      "rss_kib": 4176,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2890623,
+      "cpu_ticks_with_reaped_children": 46,
+      "rss_kib": 3888,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2891272,
+      "cpu_ticks_with_reaped_children": 0,
+      "rss_kib": 1168,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2891274,
+      "cpu_ticks_with_reaped_children": 0,
+      "rss_kib": 1128,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2891275,
+      "cpu_ticks_with_reaped_children": 231,
+      "rss_kib": 3968,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2891279,
+      "cpu_ticks_with_reaped_children": 52,
+      "rss_kib": 3868,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2891496,
+      "cpu_ticks_with_reaped_children": 0,
+      "rss_kib": 1080,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2891498,
+      "cpu_ticks_with_reaped_children": 0,
+      "rss_kib": 1092,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2891499,
+      "cpu_ticks_with_reaped_children": 200,
+      "rss_kib": 3720,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2891501,
+      "cpu_ticks_with_reaped_children": 34,
+      "rss_kib": 3864,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2891806,
+      "cpu_ticks_with_reaped_children": 0,
+      "rss_kib": 1176,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2891808,
+      "cpu_ticks_with_reaped_children": 0,
+      "rss_kib": 1056,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2891810,
+      "cpu_ticks_with_reaped_children": 125,
+      "rss_kib": 4108,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2891811,
+      "cpu_ticks_with_reaped_children": 136,
+      "rss_kib": 3940,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2892009,
+      "cpu_ticks_with_reaped_children": 0,
+      "rss_kib": 1088,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2892011,
+      "cpu_ticks_with_reaped_children": 0,
+      "rss_kib": 1088,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2892012,
+      "cpu_ticks_with_reaped_children": 123,
+      "rss_kib": 4212,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2892014,
+      "cpu_ticks_with_reaped_children": 20,
+      "rss_kib": 3964,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2892248,
+      "cpu_ticks_with_reaped_children": 0,
+      "rss_kib": 1088,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2892250,
+      "cpu_ticks_with_reaped_children": 0,
+      "rss_kib": 1168,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2892251,
+      "cpu_ticks_with_reaped_children": 87,
+      "rss_kib": 3728,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2892253,
+      "cpu_ticks_with_reaped_children": 23,
+      "rss_kib": 3780,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2892410,
+      "cpu_ticks_with_reaped_children": 0,
+      "rss_kib": 1064,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2892412,
+      "cpu_ticks_with_reaped_children": 0,
+      "rss_kib": 1128,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2892413,
+      "cpu_ticks_with_reaped_children": 52,
+      "rss_kib": 3776,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2892415,
+      "cpu_ticks_with_reaped_children": 51,
+      "rss_kib": 3704,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2892484,
+      "cpu_ticks_with_reaped_children": 0,
+      "rss_kib": 1084,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2892486,
+      "cpu_ticks_with_reaped_children": 0,
+      "rss_kib": 1120,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2892488,
+      "cpu_ticks_with_reaped_children": 44,
+      "rss_kib": 3752,
+      "cpus": "0-45"
+    },
+    {
+      "pid": 2892489,
+      "cpu_ticks_with_reaped_children": 12,
+      "rss_kib": 3708,
+      "cpus": "0-45"
+    }
+  ],
+  "rss_kib": 774704,
+  "note": "Short interval process-accounting estimate, not peak; child exit races may affect accuracy",
+  "loadavg": [
+    19.06640625,
+    18.5380859375,
+    14.6103515625
+  ],
+  "meminfo": {
+    "MemTotal": 461746004,
+    "MemAvailable": 456256908
+  },
+  "raw_cpu_core_estimate": -7.540343839300974,
+  "cpu_estimate_valid": false,
+  "cpu_estimate_rejection_reason": "Negative delta: short-lived bot children exit/reparent outside the observed cwd set. Do not interpret this as CPU utilization."
+}

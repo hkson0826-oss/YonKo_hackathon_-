@@ -15,3 +15,11 @@
 Y40경기에서 a_v2_tactical_fit 37승, a_v2_terminal_local·a_local_unabstracted 36승, j_defensive_portfolio 33승, q_v2_window_guard 32승, v2 24승이었다. 첫 배치에서 좋았던 q_threat_window는 이번 9승으로 떨어졌다. 수비 범위를 줄이는 단독 변경의 맵 의존성을 드러낸다. 같은 조건에서 즉시 수비를 함께 넣은 q_v2_window_guard가 32승인 점은 수정의 추가 검증 근거다.
 
 새 수정이 전부 좋아진 것은 아니다. a_v2_continuous_mix는 부모 25승에서 13승으로 악화됐고, j_v2_defensive_delayed는 부모 33승에서 29승이었다. a_v2_terminal_local은 부모와 Y/K 승패가 같아서 점수 차 평가만의 승률 이득은 확인되지 않았다. 국소 행동 확장과 상대 적합도를 함께 쓴 후보는 후속 선택에 남겼지만, 개발 순위만으로 최종 승격하지 않는다.
+
+## 선택 단계와 주 후보 잠금
+
+선택 1,120경기도 완료했다. v2 Y43/80·K40/80, a_v2_terminal_local과 a_local_unabstracted는 각각 Y63/80·K68/80이다. 사전에 정한 순위 규칙으로 **a_v2_terminal_local**을 주 후보로 고정했고 a_local_unabstracted는 보조 후보다. [잠금 기록](locked-finalists.json).
+
+새 종반 점수차 변경이 부모보다 승률을 올렸다고 볼 수는 없다. 두 후보의 개발·선택 승패는 같았다. 최종 검증은 이 비교를 보고 다시 선택하지 않으며, 최초 잠금 주 후보만 기존 승격 기준으로 판단한다. 개발 1위였던 a_v2_tactical_fit은 선택 Y58/80으로 순위가 바뀌었다.
+
+소스 변경 없이 7300–7363의64개 새 맵, 같은5상대,3후보,양진영1,920경기가 이어진다. 완료 전에는 결과를 확정하지 않는다.
