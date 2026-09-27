@@ -1,0 +1,31 @@
+{
+  "checked_date": "2026-09-28",
+  "provider": "configured mcp__firecrawl research index",
+  "skill": "firecrawl-research-index",
+  "scope": "Recheck two load-bearing implementation details from already collected literature",
+  "body_checks": [
+    {
+      "id": "arxiv:1711.08101",
+      "url": "https://arxiv.org/abs/1711.08101",
+      "question": "How does Portfolio Greedy Search improve a script assignment, and what differs in asymmetric action abstractions?",
+      "section": "Algorithm 1 Portfolio Greedy Search; Searching in Uniformly Abstracted Spaces",
+      "verified": "PGS changes a unit's assigned script action greedily while retaining the best evaluated action. Asymmetric abstractions permit finer moves for a selected subset of units.",
+      "application": "At most three origin-cell groups receive action replacements; one variant adds unscripted adjacent moves. This is a bounded adaptation, not a reproduction of original game results."
+    },
+    {
+      "id": "arxiv:2006.08659",
+      "url": "https://arxiv.org/abs/2006.08659",
+      "question": "What effect do accurate and inaccurate opponent models have in rolling horizon planning, and is horizon reduction sufficient?",
+      "section": "V-C RHEA Horizon Length; VI Conclusion",
+      "verified": "In the paper's RTS environment, RHEA was particularly sensitive to an inaccurate opponent model. Shortening the horizon did not fully resolve this sensitivity.",
+      "application": "Evaluate observation-fitted opponent weights separately, keep a nonzero floor on every script, and preserve unmodified opponent policies. The specific weights are hypotheses to test."
+    }
+  ],
+  "prior_body_check_reused": {
+    "id": "arxiv:2104.10429",
+    "url": "https://arxiv.org/abs/2104.10429",
+    "local_record": "../../research/local-league-search/sources.json",
+    "application": "Role-switching limitations are documented; no persistent role assignment or evolutionary search is claimed."
+  },
+  "status": "Implementation design evidence; competitive strength requires separately recorded actual matches"
+}

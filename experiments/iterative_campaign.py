@@ -31,10 +31,12 @@ def promotion(rows, summary, candidate):
 def campaign(args):
     started = time.perf_counter()
     arena = args.arena.resolve()
-    spec = {'modules': MODULES, 'include_parameters': False, 'deduplicate': True}
+    spec = {'modules': MODULES, 'include_parameters': False, 'deduplicate': True,
+            'include_ids': ['v2', 'v1', *OPPONENTS[2:]], 'include_prefixes': ['q_', 'j_', 'a_']}
     requested = args.candidates.split(',') if args.candidates else None
     if requested:
         spec['include_ids'] = list(dict.fromkeys(['v2', 'v1', *OPPONENTS[2:], *requested]))
+        spec['include_prefixes'] = []
     league.prepare(arena, spec)
     manifest = json.loads((arena / 'manifest.json').read_text())
     bots = manifest['bots']

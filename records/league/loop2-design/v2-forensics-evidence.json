@@ -1,0 +1,1802 @@
+{
+  "schema": 1,
+  "cases": [
+    {
+      "job_id": "3b795a184589921f9c21d623",
+      "path": "records/league/campaign-001/runs/holdout/replays/3b795a184589921f9c21d623.json.gz",
+      "sha256": "9d18ad4af27d46113b232136bab3d632c54df3dda9201c27805208cc1831032c",
+      "map_seed": 6201,
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 19,
+          "K": 20
+        },
+        "turns": 160,
+        "seed": 6201
+      },
+      "exact_replayed_frames": 160,
+      "counterfactual_scope": "Only one single F origin move changes; all other Y and all recorded K commands fixed for one turn. Actual map scores used only for retrospective outcome; legal_known_scores flags reveal availability. Not a full-match win claim.",
+      "one_turn_improvements": [
+        {
+          "turn": 157,
+          "source": [
+            5,
+            10
+          ],
+          "actual_flag_commands": [
+            {
+              "cmd": "Move",
+              "x": 5,
+              "y": 10,
+              "kind": "F",
+              "count": 1,
+              "direction": "D"
+            }
+          ],
+          "alternative_direction": "R",
+          "actual_score": {
+            "Y": 7,
+            "K": 22
+          },
+          "alternative_score": {
+            "Y": 11,
+            "K": 22
+          },
+          "gain": 4,
+          "ownership_changes": [
+            {
+              "id": 13,
+              "position": [
+                6,
+                10
+              ],
+              "score": 4,
+              "actual": "N",
+              "alternate": "Y"
+            }
+          ],
+          "alternative_result": null,
+          "legal_known_scores": true
+        },
+        {
+          "turn": 156,
+          "source": [
+            5,
+            11
+          ],
+          "actual_flag_commands": [
+            {
+              "cmd": "Move",
+              "x": 5,
+              "y": 11,
+              "kind": "F",
+              "count": 1,
+              "direction": "U"
+            }
+          ],
+          "alternative_direction": "D",
+          "actual_score": {
+            "Y": 15,
+            "K": 15
+          },
+          "alternative_score": {
+            "Y": 19,
+            "K": 15
+          },
+          "gain": 4,
+          "ownership_changes": [
+            {
+              "id": 11,
+              "position": [
+                5,
+                12
+              ],
+              "score": 4,
+              "actual": "N",
+              "alternate": "Y"
+            }
+          ],
+          "alternative_result": null,
+          "legal_known_scores": true
+        },
+        {
+          "turn": 152,
+          "source": [
+            6,
+            12
+          ],
+          "actual_flag_commands": [],
+          "alternative_direction": "L",
+          "actual_score": {
+            "Y": 19,
+            "K": 17
+          },
+          "alternative_score": {
+            "Y": 19,
+            "K": 13
+          },
+          "gain": 4,
+          "ownership_changes": [
+            {
+              "id": 11,
+              "position": [
+                5,
+                12
+              ],
+              "score": 4,
+              "actual": "K",
+              "alternate": "N"
+            }
+          ],
+          "alternative_result": null,
+          "legal_known_scores": true
+        },
+        {
+          "turn": 149,
+          "source": [
+            8,
+            4
+          ],
+          "actual_flag_commands": [
+            {
+              "cmd": "Move",
+              "x": 8,
+              "y": 4,
+              "kind": "F",
+              "count": 1,
+              "direction": "U"
+            }
+          ],
+          "alternative_direction": "hold",
+          "actual_score": {
+            "Y": 14,
+            "K": 12
+          },
+          "alternative_score": {
+            "Y": 18,
+            "K": 12
+          },
+          "gain": 4,
+          "ownership_changes": [
+            {
+              "id": 14,
+              "position": [
+                8,
+                4
+              ],
+              "score": 4,
+              "actual": "N",
+              "alternate": "Y"
+            }
+          ],
+          "alternative_result": null,
+          "legal_known_scores": true
+        },
+        {
+          "turn": 146,
+          "source": [
+            8,
+            3
+          ],
+          "actual_flag_commands": [
+            {
+              "cmd": "Move",
+              "x": 8,
+              "y": 3,
+              "kind": "F",
+              "count": 1,
+              "direction": "U"
+            }
+          ],
+          "alternative_direction": "D",
+          "actual_score": {
+            "Y": 19,
+            "K": 20
+          },
+          "alternative_score": {
+            "Y": 19,
+            "K": 16
+          },
+          "gain": 4,
+          "ownership_changes": [
+            {
+              "id": 14,
+              "position": [
+                8,
+                4
+              ],
+              "score": 4,
+              "actual": "K",
+              "alternate": "N"
+            }
+          ],
+          "alternative_result": null,
+          "legal_known_scores": true
+        },
+        {
+          "turn": 143,
+          "source": [
+            6,
+            9
+          ],
+          "actual_flag_commands": [
+            {
+              "cmd": "Move",
+              "x": 6,
+              "y": 9,
+              "kind": "F",
+              "count": 1,
+              "direction": "U"
+            }
+          ],
+          "alternative_direction": "D",
+          "actual_score": {
+            "Y": 20,
+            "K": 19
+          },
+          "alternative_score": {
+            "Y": 20,
+            "K": 15
+          },
+          "gain": 4,
+          "ownership_changes": [
+            {
+              "id": 13,
+              "position": [
+                6,
+                10
+              ],
+              "score": 4,
+              "actual": "K",
+              "alternate": "N"
+            }
+          ],
+          "alternative_result": null,
+          "legal_known_scores": true
+        },
+        {
+          "turn": 142,
+          "source": [
+            8,
+            3
+          ],
+          "actual_flag_commands": [
+            {
+              "cmd": "Move",
+              "x": 8,
+              "y": 3,
+              "kind": "F",
+              "count": 1,
+              "direction": "U"
+            }
+          ],
+          "alternative_direction": "D",
+          "actual_score": {
+            "Y": 20,
+            "K": 19
+          },
+          "alternative_score": {
+            "Y": 20,
+            "K": 15
+          },
+          "gain": 4,
+          "ownership_changes": [
+            {
+              "id": 14,
+              "position": [
+                8,
+                4
+              ],
+              "score": 4,
+              "actual": "K",
+              "alternate": "N"
+            }
+          ],
+          "alternative_result": null,
+          "legal_known_scores": true
+        },
+        {
+          "turn": 142,
+          "source": [
+            9,
+            4
+          ],
+          "actual_flag_commands": [
+            {
+              "cmd": "Move",
+              "x": 9,
+              "y": 4,
+              "kind": "F",
+              "count": 1,
+              "direction": "D"
+            }
+          ],
+          "alternative_direction": "L",
+          "actual_score": {
+            "Y": 20,
+            "K": 19
+          },
+          "alternative_score": {
+            "Y": 20,
+            "K": 15
+          },
+          "gain": 4,
+          "ownership_changes": [
+            {
+              "id": 14,
+              "position": [
+                8,
+                4
+              ],
+              "score": 4,
+              "actual": "K",
+              "alternate": "N"
+            }
+          ],
+          "alternative_result": null,
+          "legal_known_scores": true
+        },
+        {
+          "turn": 140,
+          "source": [
+            8,
+            3
+          ],
+          "actual_flag_commands": [
+            {
+              "cmd": "Move",
+              "x": 8,
+              "y": 3,
+              "kind": "F",
+              "count": 1,
+              "direction": "U"
+            }
+          ],
+          "alternative_direction": "D",
+          "actual_score": {
+            "Y": 20,
+            "K": 15
+          },
+          "alternative_score": {
+            "Y": 20,
+            "K": 11
+          },
+          "gain": 4,
+          "ownership_changes": [
+            {
+              "id": 14,
+              "position": [
+                8,
+                4
+              ],
+              "score": 4,
+              "actual": "K",
+              "alternate": "N"
+            }
+          ],
+          "alternative_result": null,
+          "legal_known_scores": true
+        },
+        {
+          "turn": 137,
+          "source": [
+            5,
+            12
+          ],
+          "actual_flag_commands": [
+            {
+              "cmd": "Move",
+              "x": 5,
+              "y": 12,
+              "kind": "F",
+              "count": 1,
+              "direction": "U"
+            }
+          ],
+          "alternative_direction": "hold",
+          "actual_score": {
+            "Y": 17,
+            "K": 14
+          },
+          "alternative_score": {
+            "Y": 21,
+            "K": 14
+          },
+          "gain": 4,
+          "ownership_changes": [
+            {
+              "id": 11,
+              "position": [
+                5,
+                12
+              ],
+              "score": 4,
+              "actual": "N",
+              "alternate": "Y"
+            }
+          ],
+          "alternative_result": null,
+          "legal_known_scores": true
+        },
+        {
+          "turn": 127,
+          "source": [
+            4,
+            12
+          ],
+          "actual_flag_commands": [
+            {
+              "cmd": "Move",
+              "x": 4,
+              "y": 12,
+              "kind": "F",
+              "count": 1,
+              "direction": "D"
+            }
+          ],
+          "alternative_direction": "R",
+          "actual_score": {
+            "Y": 19,
+            "K": 22
+          },
+          "alternative_score": {
+            "Y": 19,
+            "K": 18
+          },
+          "gain": 4,
+          "ownership_changes": [
+            {
+              "id": 11,
+              "position": [
+                5,
+                12
+              ],
+              "score": 4,
+              "actual": "K",
+              "alternate": "N"
+            }
+          ],
+          "alternative_result": null,
+          "legal_known_scores": true
+        },
+        {
+          "turn": 125,
+          "source": [
+            5,
+            11
+          ],
+          "actual_flag_commands": [
+            {
+              "cmd": "Move",
+              "x": 5,
+              "y": 11,
+              "kind": "F",
+              "count": 1,
+              "direction": "L"
+            }
+          ],
+          "alternative_direction": "D",
+          "actual_score": {
+            "Y": 19,
+            "K": 18
+          },
+          "alternative_score": {
+            "Y": 23,
+            "K": 18
+          },
+          "gain": 4,
+          "ownership_changes": [
+            {
+              "id": 11,
+              "position": [
+                5,
+                12
+              ],
+              "score": 4,
+              "actual": "N",
+              "alternate": "Y"
+            }
+          ],
+          "alternative_result": null,
+          "legal_known_scores": true
+        },
+        {
+          "turn": 156,
+          "source": [
+            7,
+            8
+          ],
+          "actual_flag_commands": [
+            {
+              "cmd": "Move",
+              "x": 7,
+              "y": 8,
+              "kind": "F",
+              "count": 1,
+              "direction": "D"
+            }
+          ],
+          "alternative_direction": "U",
+          "actual_score": {
+            "Y": 15,
+            "K": 15
+          },
+          "alternative_score": {
+            "Y": 18,
+            "K": 15
+          },
+          "gain": 3,
+          "ownership_changes": [
+            {
+              "id": 0,
+              "position": [
+                7,
+                7
+              ],
+              "score": 3,
+              "actual": "N",
+              "alternate": "Y"
+            }
+          ],
+          "alternative_result": null,
+          "legal_known_scores": true
+        },
+        {
+          "turn": 139,
+          "source": [
+            7,
+            7
+          ],
+          "actual_flag_commands": [
+            {
+              "cmd": "Move",
+              "x": 7,
+              "y": 7,
+              "kind": "F",
+              "count": 1,
+              "direction": "D"
+            }
+          ],
+          "alternative_direction": "hold",
+          "actual_score": {
+            "Y": 19,
+            "K": 11
+          },
+          "alternative_score": {
+            "Y": 22,
+            "K": 11
+          },
+          "gain": 3,
+          "ownership_changes": [
+            {
+              "id": 0,
+              "position": [
+                7,
+                7
+              ],
+              "score": 3,
+              "actual": "N",
+              "alternate": "Y"
+            }
+          ],
+          "alternative_result": null,
+          "legal_known_scores": true
+        },
+        {
+          "turn": 139,
+          "source": [
+            7,
+            8
+          ],
+          "actual_flag_commands": [
+            {
+              "cmd": "Move",
+              "x": 7,
+              "y": 8,
+              "kind": "F",
+              "count": 1,
+              "direction": "L"
+            }
+          ],
+          "alternative_direction": "U",
+          "actual_score": {
+            "Y": 19,
+            "K": 11
+          },
+          "alternative_score": {
+            "Y": 22,
+            "K": 11
+          },
+          "gain": 3,
+          "ownership_changes": [
+            {
+              "id": 0,
+              "position": [
+                7,
+                7
+              ],
+              "score": 3,
+              "actual": "N",
+              "alternate": "Y"
+            }
+          ],
+          "alternative_result": null,
+          "legal_known_scores": true
+        }
+      ],
+      "one_turn_improvement_count": 33,
+      "searched_turn_interval": [
+        125,
+        160
+      ],
+      "enumeration": "Every Y F origin holding exactly one F, excluding origins with an actual F move count other than 1; remove actual F movement at that origin, try hold and each passable cardinal neighbor. Keep all other actions."
+    },
+    {
+      "job_id": "b77fbec7b450780adb5b8386",
+      "path": "records/league/campaign-001/runs/holdout/replays/b77fbec7b450780adb5b8386.json.gz",
+      "sha256": "480cb888c58d15c7319394806c43286395188e5dafceed579698d2170e146f6c",
+      "map_seed": 6211,
+      "result": {
+        "winner": "K",
+        "reason": "instant",
+        "score": {
+          "Y": 0,
+          "K": 33
+        },
+        "turns": 112,
+        "seed": 6211
+      },
+      "exact_replayed_frames": 112,
+      "counterfactual_scope": "Only one single F origin move changes; all other Y and all recorded K commands fixed for one turn. Actual map scores used only for retrospective outcome; legal_known_scores flags reveal availability. Not a full-match win claim.",
+      "one_turn_improvements": [
+        {
+          "turn": 107,
+          "source": [
+            8,
+            4
+          ],
+          "actual_flag_commands": [],
+          "alternative_direction": "L",
+          "actual_score": {
+            "Y": 3,
+            "K": 29
+          },
+          "alternative_score": {
+            "Y": 3,
+            "K": 25
+          },
+          "gain": 4,
+          "ownership_changes": [
+            {
+              "id": 15,
+              "position": [
+                7,
+                4
+              ],
+              "score": 4,
+              "actual": "K",
+              "alternate": "N"
+            }
+          ],
+          "alternative_result": null,
+          "legal_known_scores": true
+        },
+        {
+          "turn": 108,
+          "source": [
+            7,
+            7
+          ],
+          "actual_flag_commands": [
+            {
+              "cmd": "Move",
+              "x": 7,
+              "y": 7,
+              "kind": "F",
+              "count": 1,
+              "direction": "U"
+            }
+          ],
+          "alternative_direction": "hold",
+          "actual_score": {
+            "Y": 3,
+            "K": 27
+          },
+          "alternative_score": {
+            "Y": 6,
+            "K": 27
+          },
+          "gain": 3,
+          "ownership_changes": [
+            {
+              "id": 0,
+              "position": [
+                7,
+                7
+              ],
+              "score": 3,
+              "actual": "N",
+              "alternate": "Y"
+            }
+          ],
+          "alternative_result": null,
+          "legal_known_scores": true
+        },
+        {
+          "turn": 106,
+          "source": [
+            7,
+            8
+          ],
+          "actual_flag_commands": [],
+          "alternative_direction": "U",
+          "actual_score": {
+            "Y": 5,
+            "K": 32
+          },
+          "alternative_score": {
+            "Y": 5,
+            "K": 29
+          },
+          "gain": 3,
+          "ownership_changes": [
+            {
+              "id": 0,
+              "position": [
+                7,
+                7
+              ],
+              "score": 3,
+              "actual": "K",
+              "alternate": "N"
+            }
+          ],
+          "alternative_result": null,
+          "legal_known_scores": true
+        },
+        {
+          "turn": 105,
+          "source": [
+            7,
+            8
+          ],
+          "actual_flag_commands": [],
+          "alternative_direction": "U",
+          "actual_score": {
+            "Y": 2,
+            "K": 32
+          },
+          "alternative_score": {
+            "Y": 2,
+            "K": 29
+          },
+          "gain": 3,
+          "ownership_changes": [
+            {
+              "id": 0,
+              "position": [
+                7,
+                7
+              ],
+              "score": 3,
+              "actual": "K",
+              "alternate": "N"
+            }
+          ],
+          "alternative_result": null,
+          "legal_known_scores": true
+        },
+        {
+          "turn": 104,
+          "source": [
+            7,
+            7
+          ],
+          "actual_flag_commands": [
+            {
+              "cmd": "Move",
+              "x": 7,
+              "y": 7,
+              "kind": "F",
+              "count": 1,
+              "direction": "D"
+            }
+          ],
+          "alternative_direction": "hold",
+          "actual_score": {
+            "Y": 2,
+            "K": 35
+          },
+          "alternative_score": {
+            "Y": 2,
+            "K": 32
+          },
+          "gain": 3,
+          "ownership_changes": [
+            {
+              "id": 0,
+              "position": [
+                7,
+                7
+              ],
+              "score": 3,
+              "actual": "K",
+              "alternate": "N"
+            }
+          ],
+          "alternative_result": null,
+          "legal_known_scores": true
+        },
+        {
+          "turn": 101,
+          "source": [
+            7,
+            6
+          ],
+          "actual_flag_commands": [
+            {
+              "cmd": "Move",
+              "x": 7,
+              "y": 6,
+              "kind": "F",
+              "count": 1,
+              "direction": "R"
+            }
+          ],
+          "alternative_direction": "D",
+          "actual_score": {
+            "Y": 4,
+            "K": 30
+          },
+          "alternative_score": {
+            "Y": 7,
+            "K": 30
+          },
+          "gain": 3,
+          "ownership_changes": [
+            {
+              "id": 0,
+              "position": [
+                7,
+                7
+              ],
+              "score": 3,
+              "actual": "N",
+              "alternate": "Y"
+            }
+          ],
+          "alternative_result": null,
+          "legal_known_scores": true
+        },
+        {
+          "turn": 100,
+          "source": [
+            8,
+            3
+          ],
+          "actual_flag_commands": [],
+          "alternative_direction": "D",
+          "actual_score": {
+            "Y": 2,
+            "K": 30
+          },
+          "alternative_score": {
+            "Y": 2,
+            "K": 27
+          },
+          "gain": 3,
+          "ownership_changes": [
+            {
+              "id": 14,
+              "position": [
+                8,
+                4
+              ],
+              "score": 3,
+              "actual": "K",
+              "alternate": "N"
+            }
+          ],
+          "alternative_result": null,
+          "legal_known_scores": true
+        },
+        {
+          "turn": 98,
+          "source": [
+            8,
+            4
+          ],
+          "actual_flag_commands": [
+            {
+              "cmd": "Move",
+              "x": 8,
+              "y": 4,
+              "kind": "F",
+              "count": 1,
+              "direction": "U"
+            }
+          ],
+          "alternative_direction": "hold",
+          "actual_score": {
+            "Y": 8,
+            "K": 29
+          },
+          "alternative_score": {
+            "Y": 8,
+            "K": 26
+          },
+          "gain": 3,
+          "ownership_changes": [
+            {
+              "id": 14,
+              "position": [
+                8,
+                4
+              ],
+              "score": 3,
+              "actual": "K",
+              "alternate": "N"
+            }
+          ],
+          "alternative_result": null,
+          "legal_known_scores": true
+        },
+        {
+          "turn": 93,
+          "source": [
+            8,
+            3
+          ],
+          "actual_flag_commands": [
+            {
+              "cmd": "Move",
+              "x": 8,
+              "y": 3,
+              "kind": "F",
+              "count": 1,
+              "direction": "U"
+            }
+          ],
+          "alternative_direction": "D",
+          "actual_score": {
+            "Y": 12,
+            "K": 22
+          },
+          "alternative_score": {
+            "Y": 15,
+            "K": 22
+          },
+          "gain": 3,
+          "ownership_changes": [
+            {
+              "id": 14,
+              "position": [
+                8,
+                4
+              ],
+              "score": 3,
+              "actual": "N",
+              "alternate": "Y"
+            }
+          ],
+          "alternative_result": null,
+          "legal_known_scores": true
+        },
+        {
+          "turn": 92,
+          "source": [
+            7,
+            7
+          ],
+          "actual_flag_commands": [
+            {
+              "cmd": "Move",
+              "x": 7,
+              "y": 7,
+              "kind": "F",
+              "count": 1,
+              "direction": "U"
+            }
+          ],
+          "alternative_direction": "hold",
+          "actual_score": {
+            "Y": 10,
+            "K": 22
+          },
+          "alternative_score": {
+            "Y": 13,
+            "K": 22
+          },
+          "gain": 3,
+          "ownership_changes": [
+            {
+              "id": 0,
+              "position": [
+                7,
+                7
+              ],
+              "score": 3,
+              "actual": "N",
+              "alternate": "Y"
+            }
+          ],
+          "alternative_result": null,
+          "legal_known_scores": true
+        },
+        {
+          "turn": 90,
+          "source": [
+            7,
+            8
+          ],
+          "actual_flag_commands": [],
+          "alternative_direction": "U",
+          "actual_score": {
+            "Y": 7,
+            "K": 25
+          },
+          "alternative_score": {
+            "Y": 7,
+            "K": 22
+          },
+          "gain": 3,
+          "ownership_changes": [
+            {
+              "id": 0,
+              "position": [
+                7,
+                7
+              ],
+              "score": 3,
+              "actual": "K",
+              "alternate": "N"
+            }
+          ],
+          "alternative_result": null,
+          "legal_known_scores": true
+        },
+        {
+          "turn": 89,
+          "source": [
+            7,
+            7
+          ],
+          "actual_flag_commands": [
+            {
+              "cmd": "Move",
+              "x": 7,
+              "y": 7,
+              "kind": "F",
+              "count": 1,
+              "direction": "D"
+            }
+          ],
+          "alternative_direction": "hold",
+          "actual_score": {
+            "Y": 5,
+            "K": 25
+          },
+          "alternative_score": {
+            "Y": 5,
+            "K": 22
+          },
+          "gain": 3,
+          "ownership_changes": [
+            {
+              "id": 0,
+              "position": [
+                7,
+                7
+              ],
+              "score": 3,
+              "actual": "K",
+              "alternate": "N"
+            }
+          ],
+          "alternative_result": null,
+          "legal_known_scores": true
+        },
+        {
+          "turn": 87,
+          "source": [
+            7,
+            7
+          ],
+          "actual_flag_commands": [
+            {
+              "cmd": "Move",
+              "x": 7,
+              "y": 7,
+              "kind": "F",
+              "count": 1,
+              "direction": "U"
+            }
+          ],
+          "alternative_direction": "hold",
+          "actual_score": {
+            "Y": 5,
+            "K": 27
+          },
+          "alternative_score": {
+            "Y": 8,
+            "K": 27
+          },
+          "gain": 3,
+          "ownership_changes": [
+            {
+              "id": 0,
+              "position": [
+                7,
+                7
+              ],
+              "score": 3,
+              "actual": "N",
+              "alternate": "Y"
+            }
+          ],
+          "alternative_result": null,
+          "legal_known_scores": true
+        },
+        {
+          "turn": 87,
+          "source": [
+            7,
+            6
+          ],
+          "actual_flag_commands": [
+            {
+              "cmd": "Move",
+              "x": 7,
+              "y": 6,
+              "kind": "F",
+              "count": 1,
+              "direction": "R"
+            }
+          ],
+          "alternative_direction": "D",
+          "actual_score": {
+            "Y": 5,
+            "K": 27
+          },
+          "alternative_score": {
+            "Y": 8,
+            "K": 27
+          },
+          "gain": 3,
+          "ownership_changes": [
+            {
+              "id": 0,
+              "position": [
+                7,
+                7
+              ],
+              "score": 3,
+              "actual": "N",
+              "alternate": "Y"
+            }
+          ],
+          "alternative_result": null,
+          "legal_known_scores": true
+        },
+        {
+          "turn": 101,
+          "source": [
+            8,
+            3
+          ],
+          "actual_flag_commands": [],
+          "alternative_direction": "L",
+          "actual_score": {
+            "Y": 4,
+            "K": 30
+          },
+          "alternative_score": {
+            "Y": 4,
+            "K": 28
+          },
+          "gain": 2,
+          "ownership_changes": [
+            {
+              "id": 11,
+              "position": [
+                7,
+                3
+              ],
+              "score": 2,
+              "actual": "K",
+              "alternate": "N"
+            }
+          ],
+          "alternative_result": null,
+          "legal_known_scores": true
+        }
+      ],
+      "one_turn_improvement_count": 23,
+      "searched_turn_interval": [
+        77,
+        112
+      ],
+      "enumeration": "Every Y F origin holding exactly one F, excluding origins with an actual F move count other than 1; remove actual F movement at that origin, try hold and each passable cardinal neighbor. Keep all other actions."
+    },
+    {
+      "job_id": "b1a96999aaddd0f19dd261ec",
+      "path": "records/league/campaign-001/runs/holdout/replays/b1a96999aaddd0f19dd261ec.json.gz",
+      "sha256": "279e0cab7034f39da1a690dca0962e7d65279c5681d0454624e7ee08018a42c5",
+      "map_seed": 6219,
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 4,
+          "K": 31
+        },
+        "turns": 160,
+        "seed": 6219
+      },
+      "exact_replayed_frames": 160,
+      "counterfactual_scope": "Only one single F origin move changes; all other Y and all recorded K commands fixed for one turn. Actual map scores used only for retrospective outcome; legal_known_scores flags reveal availability. Not a full-match win claim.",
+      "one_turn_improvements": [
+        {
+          "turn": 136,
+          "source": [
+            7,
+            4
+          ],
+          "actual_flag_commands": [
+            {
+              "cmd": "Move",
+              "x": 7,
+              "y": 4,
+              "kind": "F",
+              "count": 1,
+              "direction": "U"
+            }
+          ],
+          "alternative_direction": "R",
+          "actual_score": {
+            "Y": 8,
+            "K": 24
+          },
+          "alternative_score": {
+            "Y": 11,
+            "K": 24
+          },
+          "gain": 3,
+          "ownership_changes": [
+            {
+              "id": 16,
+              "position": [
+                8,
+                4
+              ],
+              "score": 3,
+              "actual": "N",
+              "alternate": "Y"
+            }
+          ],
+          "alternative_result": null,
+          "legal_known_scores": true
+        },
+        {
+          "turn": 136,
+          "source": [
+            8,
+            3
+          ],
+          "actual_flag_commands": [
+            {
+              "cmd": "Move",
+              "x": 8,
+              "y": 3,
+              "kind": "F",
+              "count": 1,
+              "direction": "U"
+            }
+          ],
+          "alternative_direction": "D",
+          "actual_score": {
+            "Y": 8,
+            "K": 24
+          },
+          "alternative_score": {
+            "Y": 11,
+            "K": 24
+          },
+          "gain": 3,
+          "ownership_changes": [
+            {
+              "id": 16,
+              "position": [
+                8,
+                4
+              ],
+              "score": 3,
+              "actual": "N",
+              "alternate": "Y"
+            }
+          ],
+          "alternative_result": null,
+          "legal_known_scores": true
+        },
+        {
+          "turn": 135,
+          "source": [
+            8,
+            4
+          ],
+          "actual_flag_commands": [
+            {
+              "cmd": "Move",
+              "x": 8,
+              "y": 4,
+              "kind": "F",
+              "count": 1,
+              "direction": "U"
+            }
+          ],
+          "alternative_direction": "D",
+          "actual_score": {
+            "Y": 6,
+            "K": 24
+          },
+          "alternative_score": {
+            "Y": 6,
+            "K": 21
+          },
+          "gain": 3,
+          "ownership_changes": [
+            {
+              "id": 12,
+              "position": [
+                8,
+                5
+              ],
+              "score": 3,
+              "actual": "K",
+              "alternate": "N"
+            }
+          ],
+          "alternative_result": null,
+          "legal_known_scores": true
+        },
+        {
+          "turn": 134,
+          "source": [
+            7,
+            5
+          ],
+          "actual_flag_commands": [
+            {
+              "cmd": "Move",
+              "x": 7,
+              "y": 5,
+              "kind": "F",
+              "count": 1,
+              "direction": "U"
+            }
+          ],
+          "alternative_direction": "R",
+          "actual_score": {
+            "Y": 9,
+            "K": 26
+          },
+          "alternative_score": {
+            "Y": 9,
+            "K": 23
+          },
+          "gain": 3,
+          "ownership_changes": [
+            {
+              "id": 12,
+              "position": [
+                8,
+                5
+              ],
+              "score": 3,
+              "actual": "K",
+              "alternate": "N"
+            }
+          ],
+          "alternative_result": null,
+          "legal_known_scores": true
+        },
+        {
+          "turn": 134,
+          "source": [
+            8,
+            4
+          ],
+          "actual_flag_commands": [],
+          "alternative_direction": "D",
+          "actual_score": {
+            "Y": 9,
+            "K": 26
+          },
+          "alternative_score": {
+            "Y": 9,
+            "K": 23
+          },
+          "gain": 3,
+          "ownership_changes": [
+            {
+              "id": 12,
+              "position": [
+                8,
+                5
+              ],
+              "score": 3,
+              "actual": "K",
+              "alternate": "N"
+            }
+          ],
+          "alternative_result": null,
+          "legal_known_scores": true
+        },
+        {
+          "turn": 133,
+          "source": [
+            7,
+            5
+          ],
+          "actual_flag_commands": [],
+          "alternative_direction": "R",
+          "actual_score": {
+            "Y": 9,
+            "K": 26
+          },
+          "alternative_score": {
+            "Y": 9,
+            "K": 23
+          },
+          "gain": 3,
+          "ownership_changes": [
+            {
+              "id": 12,
+              "position": [
+                8,
+                5
+              ],
+              "score": 3,
+              "actual": "K",
+              "alternate": "N"
+            }
+          ],
+          "alternative_result": null,
+          "legal_known_scores": true
+        },
+        {
+          "turn": 143,
+          "source": [
+            12,
+            3
+          ],
+          "actual_flag_commands": [
+            {
+              "cmd": "Move",
+              "x": 12,
+              "y": 3,
+              "kind": "F",
+              "count": 1,
+              "direction": "U"
+            }
+          ],
+          "alternative_direction": "R",
+          "actual_score": {
+            "Y": 4,
+            "K": 29
+          },
+          "alternative_score": {
+            "Y": 6,
+            "K": 29
+          },
+          "gain": 2,
+          "ownership_changes": [
+            {
+              "id": 10,
+              "position": [
+                13,
+                3
+              ],
+              "score": 2,
+              "actual": "N",
+              "alternate": "Y"
+            }
+          ],
+          "alternative_result": null,
+          "legal_known_scores": true
+        },
+        {
+          "turn": 133,
+          "source": [
+            14,
+            3
+          ],
+          "actual_flag_commands": [
+            {
+              "cmd": "Move",
+              "x": 14,
+              "y": 3,
+              "kind": "F",
+              "count": 1,
+              "direction": "U"
+            }
+          ],
+          "alternative_direction": "L",
+          "actual_score": {
+            "Y": 9,
+            "K": 26
+          },
+          "alternative_score": {
+            "Y": 9,
+            "K": 24
+          },
+          "gain": 2,
+          "ownership_changes": [
+            {
+              "id": 10,
+              "position": [
+                13,
+                3
+              ],
+              "score": 2,
+              "actual": "K",
+              "alternate": "N"
+            }
+          ],
+          "alternative_result": null,
+          "legal_known_scores": true
+        },
+        {
+          "turn": 131,
+          "source": [
+            14,
+            3
+          ],
+          "actual_flag_commands": [],
+          "alternative_direction": "L",
+          "actual_score": {
+            "Y": 6,
+            "K": 26
+          },
+          "alternative_score": {
+            "Y": 6,
+            "K": 24
+          },
+          "gain": 2,
+          "ownership_changes": [
+            {
+              "id": 10,
+              "position": [
+                13,
+                3
+              ],
+              "score": 2,
+              "actual": "K",
+              "alternate": "N"
+            }
+          ],
+          "alternative_result": null,
+          "legal_known_scores": true
+        },
+        {
+          "turn": 130,
+          "source": [
+            14,
+            3
+          ],
+          "actual_flag_commands": [],
+          "alternative_direction": "L",
+          "actual_score": {
+            "Y": 6,
+            "K": 29
+          },
+          "alternative_score": {
+            "Y": 6,
+            "K": 27
+          },
+          "gain": 2,
+          "ownership_changes": [
+            {
+              "id": 10,
+              "position": [
+                13,
+                3
+              ],
+              "score": 2,
+              "actual": "K",
+              "alternate": "N"
+            }
+          ],
+          "alternative_result": null,
+          "legal_known_scores": true
+        },
+        {
+          "turn": 129,
+          "source": [
+            7,
+            12
+          ],
+          "actual_flag_commands": [
+            {
+              "cmd": "Move",
+              "x": 7,
+              "y": 12,
+              "kind": "F",
+              "count": 1,
+              "direction": "D"
+            }
+          ],
+          "alternative_direction": "hold",
+          "actual_score": {
+            "Y": 6,
+            "K": 29
+          },
+          "alternative_score": {
+            "Y": 6,
+            "K": 27
+          },
+          "gain": 2,
+          "ownership_changes": [
+            {
+              "id": 13,
+              "position": [
+                7,
+                12
+              ],
+              "score": 2,
+              "actual": "K",
+              "alternate": "N"
+            }
+          ],
+          "alternative_result": null,
+          "legal_known_scores": true
+        },
+        {
+          "turn": 128,
+          "source": [
+            7,
+            2
+          ],
+          "actual_flag_commands": [
+            {
+              "cmd": "Move",
+              "x": 7,
+              "y": 2,
+              "kind": "F",
+              "count": 1,
+              "direction": "U"
+            }
+          ],
+          "alternative_direction": "hold",
+          "actual_score": {
+            "Y": 4,
+            "K": 27
+          },
+          "alternative_score": {
+            "Y": 6,
+            "K": 27
+          },
+          "gain": 2,
+          "ownership_changes": [
+            {
+              "id": 14,
+              "position": [
+                7,
+                2
+              ],
+              "score": 2,
+              "actual": "N",
+              "alternate": "Y"
+            }
+          ],
+          "alternative_result": null,
+          "legal_known_scores": true
+        },
+        {
+          "turn": 127,
+          "source": [
+            7,
+            13
+          ],
+          "actual_flag_commands": [],
+          "alternative_direction": "U",
+          "actual_score": {
+            "Y": 4,
+            "K": 29
+          },
+          "alternative_score": {
+            "Y": 4,
+            "K": 27
+          },
+          "gain": 2,
+          "ownership_changes": [
+            {
+              "id": 13,
+              "position": [
+                7,
+                12
+              ],
+              "score": 2,
+              "actual": "K",
+              "alternate": "N"
+            }
+          ],
+          "alternative_result": null,
+          "legal_known_scores": true
+        },
+        {
+          "turn": 126,
+          "source": [
+            7,
+            13
+          ],
+          "actual_flag_commands": [],
+          "alternative_direction": "U",
+          "actual_score": {
+            "Y": 4,
+            "K": 29
+          },
+          "alternative_score": {
+            "Y": 4,
+            "K": 27
+          },
+          "gain": 2,
+          "ownership_changes": [
+            {
+              "id": 13,
+              "position": [
+                7,
+                12
+              ],
+              "score": 2,
+              "actual": "K",
+              "alternate": "N"
+            }
+          ],
+          "alternative_result": null,
+          "legal_known_scores": true
+        },
+        {
+          "turn": 126,
+          "source": [
+            7,
+            3
+          ],
+          "actual_flag_commands": [],
+          "alternative_direction": "U",
+          "actual_score": {
+            "Y": 4,
+            "K": 29
+          },
+          "alternative_score": {
+            "Y": 6,
+            "K": 29
+          },
+          "gain": 2,
+          "ownership_changes": [
+            {
+              "id": 14,
+              "position": [
+                7,
+                2
+              ],
+              "score": 2,
+              "actual": "N",
+              "alternate": "Y"
+            }
+          ],
+          "alternative_result": null,
+          "legal_known_scores": true
+        }
+      ],
+      "one_turn_improvement_count": 17,
+      "searched_turn_interval": [
+        125,
+        160
+      ],
+      "enumeration": "Every Y F origin holding exactly one F, excluding origins with an actual F move count other than 1; remove actual F movement at that origin, try hold and each passable cardinal neighbor. Keep all other actions."
+    }
+  ]
+}

@@ -65,7 +65,8 @@ def filter_population(population, spec):
         unknown = set(requested) - set(ids)
         if unknown:
             raise ValueError(f'Unknown requested candidates: {sorted(unknown)}')
-        population = [item for item in population if item['id'] in requested]
+        prefixes = tuple(spec.get('include_prefixes', []))
+        population = [item for item in population if item['id'] in requested or item['id'].startswith(prefixes)]
     aliases, unique, hashes = {}, [], {}
     for item in population:
         digest = hashlib.sha256(item['source'].encode()).hexdigest()

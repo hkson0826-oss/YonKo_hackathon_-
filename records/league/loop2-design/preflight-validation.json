@@ -1,0 +1,46 @@
+{
+  "checked_utc": "2026-09-27T15:31:17.697007+00:00",
+  "new_unique_candidates": 24,
+  "tests": [
+    {
+      "file": "tests/test_iterative_campaign.py",
+      "passed": 4
+    },
+    {
+      "file": "tests/test_local_league.py",
+      "passed": 4
+    },
+    {
+      "file": "tests/test_league_causal_repairs.py",
+      "passed": 6,
+      "seconds": 42.604,
+      "candidate_compiles": 8
+    },
+    {
+      "file": "tests/test_league_joint_allocator.py",
+      "passed": 10,
+      "seconds": 19.791,
+      "candidate_compiles": 8
+    },
+    {
+      "file": "tests/test_league_adaptive_search.py",
+      "passed": 3,
+      "seconds": 54.399,
+      "candidate_compiles": 8
+    }
+  ],
+  "total_tests_passed": 27,
+  "cross_review": "Joint allocator author independently reviewed causal repair and adaptive search legality, observation scope, and unchanged opponent models; no blocking issue found. Root verified 24 distinct source hashes and document links.",
+  "remote_read_only_check": {
+    "allowed_cpus": 52,
+    "load": [
+      0.4150390625,
+      1.0166015625,
+      2.34326171875
+    ],
+    "available_gib": 435.6,
+    "total_gib": 440.4
+  },
+  "build_location": "automatically removed /tmp temporary directories",
+  "strength_claim": "Not yet measured; test success only establishes implementation readiness."
+}

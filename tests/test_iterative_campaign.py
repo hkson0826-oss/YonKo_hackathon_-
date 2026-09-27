@@ -21,6 +21,9 @@ class IterativeCampaignTests(unittest.TestCase):
         self.assertEqual([x['id'] for x in chosen], ['v2', 'one'])
         self.assertEqual(aliases, {'alias': 'one'})
         self.assertEqual(len(population), 4)
+        chosen, _ = league.filter_population(population, {
+            'include_ids': ['v2'], 'include_prefixes': ['one'], 'deduplicate': True})
+        self.assertEqual([x['id'] for x in chosen], ['v2', 'one'])
         with self.assertRaises(ValueError):
             league.filter_population(population, {'include_ids': ['typo']})
 
