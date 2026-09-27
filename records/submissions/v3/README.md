@@ -31,3 +31,7 @@ PYTHONDONTWRITEBYTECODE=1 python3 experiments/package_frozen_candidate.py \
   --record-output records/submissions/v3-recheck \
   --compiler g++
 ```
+
+## GCC 12.2 추가 호환성 검사
+
+같은 ZIP을 TMP의 Debian GCC 12.2로 C++20/O2 빌드하고 SDK 프로토콜 검사 17턴을 통과했다. ZIP·소스 SHA는 기존 기록과 같다. 컴파일러·라이브러리·실행 파일은 검사 후 삭제했다. [원본 검사 기록](gcc12-compatibility.json). 기존 GCC16.2 CPU4경기 검사를 덮어쓰는 기록이 아니며, 공식 서버 컨테이너와 동일한 환경을 인증하지 않는다.

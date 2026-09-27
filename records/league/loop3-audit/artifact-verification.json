@@ -1,0 +1,85 @@
+{
+  "checked_utc": "2026-09-27T19:09:14.899025+00:00",
+  "verifier_sha256": "eb1e5f331a04807b4fe9a5eecd9102984b0c9a369013146e5c279e3eab4efcd5",
+  "status": "passed",
+  "source_commit": "c661c6cdf3183526f7b61167825f64619af9e195",
+  "frozen_source_files_verified": 111,
+  "binaries_intentionally_omitted": 8,
+  "games": 1024,
+  "distinct_maps": 32,
+  "stages": {
+    "audit": {
+      "games": 1024,
+      "full_replays_verified": 1024,
+      "distinct_maps": 32
+    }
+  },
+  "full_replays_trace_hash_verified": 1024,
+  "errors": 0,
+  "forfeits": 0,
+  "maximum_response_ms_both_bots": 183.2223916426301,
+  "official_originals_unchanged": 5,
+  "maximum_job_elapsed_seconds_including_analysis": 19.798720800317824,
+  "stdout_peak_by_bot_including_END": {
+    "v3": {
+      "turn_bytes": 3371,
+      "turn_lines": 212,
+      "line_bytes": 89
+    },
+    "r3_opponent_league": {
+      "turn_bytes": 3225,
+      "turn_lines": 204,
+      "line_bytes": 89
+    },
+    "f3_v2_warrior_reserve": {
+      "turn_bytes": 3311,
+      "turn_lines": 209,
+      "line_bytes": 89
+    },
+    "v2": {
+      "turn_bytes": 2335,
+      "turn_lines": 147,
+      "line_bytes": 89
+    },
+    "s3_selective_contact": {
+      "turn_bytes": 2610,
+      "turn_lines": 166,
+      "line_bytes": 89
+    },
+    "a_v2_tactical_local": {
+      "turn_bytes": 2268,
+      "turn_lines": 144,
+      "line_bytes": 89
+    },
+    "j_v2_reclaim_relay": {
+      "turn_bytes": 3169,
+      "turn_lines": 200,
+      "line_bytes": 89
+    },
+    "teammate": {
+      "turn_bytes": 1618,
+      "turn_lines": 103,
+      "line_bytes": 89
+    },
+    "j_balanced_portfolio": {
+      "turn_bytes": 2663,
+      "turn_lines": 166,
+      "line_bytes": 89
+    }
+  },
+  "stdout_check_scope": "Replay-preserved commands plus LF and END; stderr was not captured by the league.",
+  "submission_v2_sha256": "f90eca7cac0024ab4cc7c00d79595f71e4eb9bab92ec57e0527c7b977098b64a",
+  "transport_cleanup": {
+    "event": "cleanup_complete",
+    "utc": "2026-09-27T19:07:51Z",
+    "path": "/tmp/yk-league-5sbrvos1",
+    "exists": false,
+    "archive_accepted": true
+  },
+  "submission_v3_sha256": "ce94e80a49d833be8b3c093a34319d8b9cdb5b7ec8d86b91a4b2831b18d799cb",
+  "independent_cleanup_check": {
+    "path": "/tmp/yk-league-5sbrvos1",
+    "path_exists": false,
+    "matching_process_ids": []
+  }
+}

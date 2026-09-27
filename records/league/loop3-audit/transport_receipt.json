@@ -1,0 +1,26 @@
+{
+  "transport": [
+    "ssh",
+    "-T"
+  ],
+  "command": [
+    "python3",
+    "experiments/v3_audit.py",
+    "--arena",
+    "output",
+    "--selection-lock-json",
+    "{\n  \"ranking\": [\n    \"f3_v2_warrior_reserve\",\n    \"s3_v2_screen_paired_guard\",\n    \"s3_v2_screen_intact_base\",\n    \"r3_v2_pareto_local\",\n    \"v3\",\n    \"r3_v2_y_tail\",\n    \"r3_lower_tail\"\n  ],\n  \"finalists\": [\n    \"f3_v2_warrior_reserve\",\n    \"s3_v2_screen_paired_guard\"\n  ],\n  \"primary_candidate\": \"f3_v2_warrior_reserve\",\n  \"baseline\": \"v3\",\n  \"opponents\": [\n    \"v3\",\n    \"v2\",\n    \"teammate\",\n    \"a_v2_tactical_local\",\n    \"j_balanced_portfolio\",\n    \"j_v2_reclaim_relay\",\n    \"s3_selective_contact\",\n    \"r3_opponent_league\"\n  ],\n  \"map_sets\": {\n    \"smoke\": [\n      8199\n    ],\n    \"development\": [\n      8200,\n      8201,\n      8202,\n      8203,\n      8204,\n      8205,\n      8206,\n      8207\n    ],\n    \"selection\": [\n      8300,\n      8301,\n      8302,\n      8303,\n      8304,\n      8305,\n      8306,\n      8307,\n      8308,\n      8309,\n      8310,\n      8311,\n      8312,\n      8313,\n      8314,\n      8315,\n      8316,\n      8317,\n      8318,\n      8319,\n      8320,\n      8321,\n      8322,\n      8323\n    ],\n    \"holdout\": [\n      8400,\n      8401,\n      8402,\n      8403,\n      8404,\n      8405,\n      8406,\n      8407,\n      8408,\n      8409,\n      8410,\n      8411,\n      8412,\n      8413,\n      8414,\n      8415,\n      8416,\n      8417,\n      8418,\n      8419,\n      8420,\n      8421,\n      8422,\n      8423,\n      8424,\n      8425,\n      8426,\n      8427,\n      8428,\n      8429,\n      8430,\n      8431,\n      8432,\n      8433,\n      8434,\n      8435,\n      8436,\n      8437,\n      8438,\n      8439,\n      8440,\n      8441,\n      8442,\n      8443,\n      8444,\n      8445,\n      8446,\n      8447,\n      8448,\n      8449,\n      8450,\n      8451,\n      8452,\n      8453,\n      8454,\n      8455,\n      8456,\n      8457,\n      8458,\n      8459,\n      8460,\n      8461,\n      8462,\n      8463,\n      8464,\n      8465,\n      8466,\n      8467,\n      8468,\n      8469,\n      8470,\n      8471,\n      8472,\n      8473,\n      8474,\n      8475,\n      8476,\n      8477,\n      8478,\n      8479\n    ],\n    \"crossplay\": [\n      8600,\n      8601\n    ]\n  },\n  \"source_sha256\": {\n    \"v3\": \"52268569e17d7fc40fd46f0996b2da684768902b4af27ec059c4b068911c4473\",\n    \"f3_v2_warrior_reserve\": \"20fa2eb5635cd9035c1f2c3f659943e7f98d03c4434bc84c5d5772c6a00e58cf\",\n    \"s3_v2_screen_paired_guard\": \"1703701340ede10b652b0aa024e29c3fd411e2809ae34de1e3d0b39620d496df\",\n    \"v2\": \"53bb019625fabbbd3aa8a5b65af971912bb4cbdad8a9fde3009fadad5ba6d4c5\",\n    \"teammate\": \"571397e3c84998b27f8ce0468bc49333663c69b0b84162ad8dfc27e7a47f2365\",\n    \"a_v2_tactical_local\": \"9d9d6ecd763b84f88c0d5e48f65524798f998e9912f774c0dd22e27f3f78219a\",\n    \"j_balanced_portfolio\": \"534f55f1d6641ed788ca637663456e43375297d8016ac9832c589b0a012c8422\",\n    \"j_v2_reclaim_relay\": \"0882dc3284c33db9f4687c085e0c570d156a439365aa229fa6cca6f81e909045\",\n    \"s3_selective_contact\": \"db83d9aa0e8809aaffd6b36ffc47972996d832d987947187af600d3a8419d96c\",\n    \"r3_opponent_league\": \"33020d61999456342ea39b3f99e53388914b0ccf98536e2b99ae5e60c31f66cf\"\n  }\n}\n",
+    "--workers",
+    "24"
+  ],
+  "returncode": 0,
+  "archive_sha256": "9dcb36d87d7180ac24b5b25fbc837953d117bc31001d68c498690b96b3f85047",
+  "archive_bytes": 93044481,
+  "cleanup": {
+    "event": "cleanup_complete",
+    "utc": "2026-09-27T19:07:51Z",
+    "path": "/tmp/yk-league-5sbrvos1",
+    "exists": false,
+    "archive_accepted": true
+  }
+}

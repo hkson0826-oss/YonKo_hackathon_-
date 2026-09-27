@@ -1,0 +1,14 @@
+{
+  "phase": "audit",
+  "status": "complete",
+  "baseline": "v3",
+  "primary_candidate": "f3_v2_warrior_reserve",
+  "stage_match_counts": {
+    "audit": 1024
+  },
+  "total_matches": 1024,
+  "errors": 0,
+  "forfeits": 0,
+  "recommended": "v3",
+  "elapsed_seconds": 495.5809177206829
+}
