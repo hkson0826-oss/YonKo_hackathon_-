@@ -1,0 +1,742 @@
+{
+  "schema": 1,
+  "script_sha256": "35f3683c930665e7cdb5150d6b92a87a95d8bf7d9f140e2dc3cb540c264a13d5",
+  "engine_file_sha256": {
+    "engine/pipeline.py": "f0bd96c484c8628b6a070b188adcc1a077e9f90017cc15f11ce366d974490fa6",
+    "engine/state.py": "dd227e26bcb36a5c412bbf7db19f4418a59627e8ea7e55a90dac5184dcc0737f",
+    "engine/commands.py": "db00820b9f77cc1b6e71eaa37bb4eb0b4c31cccda7f4b388269a13db04a76798",
+    "mapgen/generator.py": "645b53e2b2ce0049608873b1d01a983661dbdbfe63e358fbb152cbeeea13947e",
+    "runner/protocol.py": "5917df4bec20b963586b1ffeb7a45b9959f51e3437a227ee7e8d932b172a7d65",
+    "runner/replay.py": "fc2bf7405c405ac30da4d7c122b24e3c3275544bfbd1ec22779bbb217df6e8a6"
+  },
+  "verified_frames": 640,
+  "scope": "Retrospective fixed gain-case audit, not an unbiased evaluation or a new match. C++ instrumentation is not rerun.",
+  "income_definition": "Resource increase at step_income after resource-cap clipping; excludes depot bonuses and capture spending.",
+  "cases": [
+    {
+      "map_seed": 7001,
+      "candidate": "q_threat_window",
+      "opponent": "v2",
+      "team": "Y",
+      "job_id": "79215d6bf9cdda4968121d7e",
+      "path": "records/league/loop2-iteration1/runs/development/replays/79215d6bf9cdda4968121d7e.json.gz",
+      "sha256": "1bef5cfad7932de52f7a3dd25fc9467edd8340329ad74d42ad4a0c7a36c71794",
+      "verified_frames": 160,
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 32,
+          "K": 1
+        },
+        "turns": 160,
+        "seed": 7001
+      },
+      "economy": {
+        "Y": {
+          "eng_discount_turns_at_spawn": 153,
+          "hall_count_sum_at_income": 193,
+          "effective_income": 1986,
+          "nominal_hall_income": 386,
+          "production": {
+            "F": 8,
+            "W": 920,
+            "S": 0
+          },
+          "production_spending": 1892,
+          "deaths": {
+            "F": 1,
+            "W": 762,
+            "S": 0
+          }
+        },
+        "K": {
+          "eng_discount_turns_at_spawn": 143,
+          "hall_count_sum_at_income": 79,
+          "effective_income": 1758,
+          "nominal_hall_income": 158,
+          "production": {
+            "F": 14,
+            "W": 781,
+            "S": 0
+          },
+          "production_spending": 1673,
+          "deaths": {
+            "F": 7,
+            "W": 762,
+            "S": 0
+          }
+        }
+      },
+      "timeline": [
+        {
+          "turn": 20,
+          "score": {
+            "Y": 15,
+            "K": 14
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 59,
+            "S": 0
+          }
+        },
+        {
+          "turn": 40,
+          "score": {
+            "Y": 11,
+            "K": 22
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 76,
+            "S": 0
+          }
+        },
+        {
+          "turn": 80,
+          "score": {
+            "Y": 18,
+            "K": 14
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 151,
+            "S": 0
+          }
+        },
+        {
+          "turn": 120,
+          "score": {
+            "Y": 21,
+            "K": 11
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 170,
+            "S": 0
+          }
+        },
+        {
+          "turn": 140,
+          "score": {
+            "Y": 25,
+            "K": 4
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 239,
+            "S": 0
+          }
+        },
+        {
+          "turn": 160,
+          "score": {
+            "Y": 32,
+            "K": 1
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 158,
+            "S": 0
+          }
+        }
+      ]
+    },
+    {
+      "map_seed": 7001,
+      "candidate": "v2",
+      "opponent": "v2",
+      "team": "Y",
+      "job_id": "cfcbb116d2922a3b8f3fdfef",
+      "path": "records/league/loop2-iteration1/runs/development/replays/cfcbb116d2922a3b8f3fdfef.json.gz",
+      "sha256": "9a480f5db3015aa70460e771898590c5818f8e46c0358f1f3cb73f29ff23215b",
+      "verified_frames": 160,
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 11,
+          "K": 22
+        },
+        "turns": 160,
+        "seed": 7001
+      },
+      "economy": {
+        "Y": {
+          "eng_discount_turns_at_spawn": 153,
+          "hall_count_sum_at_income": 46,
+          "effective_income": 1692,
+          "nominal_hall_income": 92,
+          "production": {
+            "F": 8,
+            "W": 767,
+            "S": 0
+          },
+          "production_spending": 1586,
+          "deaths": {
+            "F": 2,
+            "W": 735,
+            "S": 0
+          }
+        },
+        "K": {
+          "eng_discount_turns_at_spawn": 153,
+          "hall_count_sum_at_income": 143,
+          "effective_income": 1886,
+          "nominal_hall_income": 286,
+          "production": {
+            "F": 13,
+            "W": 849,
+            "S": 0
+          },
+          "production_spending": 1775,
+          "deaths": {
+            "F": 6,
+            "W": 735,
+            "S": 0
+          }
+        }
+      },
+      "timeline": [
+        {
+          "turn": 20,
+          "score": {
+            "Y": 15,
+            "K": 14
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 69,
+            "S": 0
+          }
+        },
+        {
+          "turn": 40,
+          "score": {
+            "Y": 17,
+            "K": 15
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 96,
+            "S": 0
+          }
+        },
+        {
+          "turn": 80,
+          "score": {
+            "Y": 18,
+            "K": 15
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 145,
+            "S": 0
+          }
+        },
+        {
+          "turn": 120,
+          "score": {
+            "Y": 15,
+            "K": 18
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 53,
+            "S": 0
+          }
+        },
+        {
+          "turn": 140,
+          "score": {
+            "Y": 14,
+            "K": 14
+          },
+          "Y_units": {
+            "F": 6,
+            "W": 72,
+            "S": 0
+          }
+        },
+        {
+          "turn": 160,
+          "score": {
+            "Y": 11,
+            "K": 22
+          },
+          "Y_units": {
+            "F": 6,
+            "W": 32,
+            "S": 0
+          }
+        }
+      ]
+    },
+    {
+      "map_seed": 7000,
+      "candidate": "q_threat_window",
+      "opponent": "v2",
+      "team": "Y",
+      "job_id": "0d8be0871fafd2be313ef48d",
+      "path": "records/league/loop2-iteration1/runs/development/replays/0d8be0871fafd2be313ef48d.json.gz",
+      "sha256": "bb722a0245fe9a731e1a89b8869d5bbea89e25beb46a5c36490e437bfb92c5fe",
+      "verified_frames": 160,
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 18,
+          "K": 9
+        },
+        "turns": 160,
+        "seed": 7000
+      },
+      "economy": {
+        "Y": {
+          "eng_discount_turns_at_spawn": 157,
+          "hall_count_sum_at_income": 179,
+          "effective_income": 1958,
+          "nominal_hall_income": 358,
+          "production": {
+            "F": 11,
+            "W": 874,
+            "S": 0
+          },
+          "production_spending": 1806,
+          "deaths": {
+            "F": 5,
+            "W": 685,
+            "S": 0
+          }
+        },
+        "K": {
+          "eng_discount_turns_at_spawn": 157,
+          "hall_count_sum_at_income": 87,
+          "effective_income": 1774,
+          "nominal_hall_income": 174,
+          "production": {
+            "F": 14,
+            "W": 773,
+            "S": 0
+          },
+          "production_spending": 1617,
+          "deaths": {
+            "F": 8,
+            "W": 685,
+            "S": 0
+          }
+        }
+      },
+      "timeline": [
+        {
+          "turn": 20,
+          "score": {
+            "Y": 22,
+            "K": 12
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 76,
+            "S": 0
+          }
+        },
+        {
+          "turn": 40,
+          "score": {
+            "Y": 20,
+            "K": 6
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 131,
+            "S": 0
+          }
+        },
+        {
+          "turn": 80,
+          "score": {
+            "Y": 18,
+            "K": 12
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 107,
+            "S": 0
+          }
+        },
+        {
+          "turn": 120,
+          "score": {
+            "Y": 24,
+            "K": 7
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 207,
+            "S": 0
+          }
+        },
+        {
+          "turn": 140,
+          "score": {
+            "Y": 25,
+            "K": 10
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 160,
+            "S": 0
+          }
+        },
+        {
+          "turn": 160,
+          "score": {
+            "Y": 18,
+            "K": 9
+          },
+          "Y_units": {
+            "F": 6,
+            "W": 189,
+            "S": 0
+          }
+        }
+      ]
+    },
+    {
+      "map_seed": 7000,
+      "candidate": "v2",
+      "opponent": "v2",
+      "team": "Y",
+      "job_id": "8b43974e924bfb9b33edd4dc",
+      "path": "records/league/loop2-iteration1/runs/development/replays/8b43974e924bfb9b33edd4dc.json.gz",
+      "sha256": "bb9ab84658956c29c317070717e8f94f15449693fb0d82e6966eaa941a868afc",
+      "verified_frames": 160,
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 1,
+          "K": 34
+        },
+        "turns": 160,
+        "seed": 7000
+      },
+      "economy": {
+        "Y": {
+          "eng_discount_turns_at_spawn": 142,
+          "hall_count_sum_at_income": 63,
+          "effective_income": 1726,
+          "nominal_hall_income": 126,
+          "production": {
+            "F": 15,
+            "W": 735,
+            "S": 0
+          },
+          "production_spending": 1596,
+          "deaths": {
+            "F": 9,
+            "W": 708,
+            "S": 0
+          }
+        },
+        "K": {
+          "eng_discount_turns_at_spawn": 157,
+          "hall_count_sum_at_income": 205,
+          "effective_income": 2010,
+          "nominal_hall_income": 410,
+          "production": {
+            "F": 8,
+            "W": 923,
+            "S": 0
+          },
+          "production_spending": 1887,
+          "deaths": {
+            "F": 3,
+            "W": 708,
+            "S": 0
+          }
+        }
+      },
+      "timeline": [
+        {
+          "turn": 20,
+          "score": {
+            "Y": 17,
+            "K": 9
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 70,
+            "S": 0
+          }
+        },
+        {
+          "turn": 40,
+          "score": {
+            "Y": 10,
+            "K": 21
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 104,
+            "S": 0
+          }
+        },
+        {
+          "turn": 80,
+          "score": {
+            "Y": 8,
+            "K": 27
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 109,
+            "S": 0
+          }
+        },
+        {
+          "turn": 120,
+          "score": {
+            "Y": 4,
+            "K": 27
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 77,
+            "S": 0
+          }
+        },
+        {
+          "turn": 140,
+          "score": {
+            "Y": 7,
+            "K": 28
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 59,
+            "S": 0
+          }
+        },
+        {
+          "turn": 160,
+          "score": {
+            "Y": 1,
+            "K": 34
+          },
+          "Y_units": {
+            "F": 6,
+            "W": 27,
+            "S": 0
+          }
+        }
+      ]
+    }
+  ],
+  "pairs": [
+    {
+      "map_seed": 7001,
+      "first_own_command_difference": {
+        "turn": 12,
+        "preceding_snapshot_equal": true,
+        "opponent_commands_equal": true,
+        "candidate_commands": [
+          "SPAWN F 1 3 4",
+          "SPAWN W 9 3 4",
+          "MOVE 3 4 W 1 D",
+          "MOVE 3 4 W 1 U",
+          "MOVE 3 4 W 2 D",
+          "MOVE 3 4 W 6 D",
+          "MOVE 4 5 W 2 D",
+          "MOVE 4 5 W 3 D",
+          "MOVE 3 5 W 4 R",
+          "MOVE 4 6 W 3 D",
+          "MOVE 2 8 W 2 D",
+          "MOVE 4 2 W 2 D",
+          "MOVE 1 6 W 2 D",
+          "MOVE 2 5 W 2 R",
+          "MOVE 4 4 W 2 D",
+          "MOVE 6 4 W 1 R",
+          "MOVE 5 5 W 1 D",
+          "MOVE 2 6 W 1 D",
+          "MOVE 1 4 W 1 D",
+          "MOVE 2 7 W 1 R",
+          "MOVE 4 7 W 1 R",
+          "MOVE 5 7 W 1 D",
+          "MOVE 4 3 W 1 D",
+          "MOVE 1 10 F 1 D",
+          "MOVE 8 1 F 1 R",
+          "MOVE 5 7 F 1 D",
+          "MOVE 8 4 F 1 D",
+          "MOVE 2 7 F 1 R",
+          "MOVE 2 6 F 1 D",
+          "MOVE 3 4 F 1 D",
+          "PRIORITY 1 13 13 1 4 4 11 10 6 10 3 4 9 12 5 2 9 10 7 7 8 4 5 4 4 10 10 4 13 12 10 10 1 2"
+        ],
+        "baseline_commands": [
+          "SPAWN F 1 3 4",
+          "SPAWN W 9 3 4",
+          "MOVE 3 4 W 1 D",
+          "MOVE 3 4 W 1 U",
+          "MOVE 3 4 W 2 D",
+          "MOVE 3 4 W 1 R",
+          "MOVE 3 4 W 2 D",
+          "MOVE 3 4 W 3 D",
+          "MOVE 4 5 W 5 D",
+          "MOVE 3 5 W 4 R",
+          "MOVE 4 6 W 3 D",
+          "MOVE 2 8 W 2 D",
+          "MOVE 4 2 W 2 D",
+          "MOVE 1 6 W 2 D",
+          "MOVE 2 5 W 2 R",
+          "MOVE 4 4 W 2 D",
+          "MOVE 6 4 W 1 R",
+          "MOVE 5 5 W 1 D",
+          "MOVE 2 6 W 1 D",
+          "MOVE 1 4 W 1 D",
+          "MOVE 2 7 W 1 R",
+          "MOVE 4 7 W 1 R",
+          "MOVE 5 7 W 1 D",
+          "MOVE 4 3 W 1 D",
+          "MOVE 1 10 F 1 D",
+          "MOVE 8 1 F 1 R",
+          "MOVE 5 7 F 1 D",
+          "MOVE 8 4 F 1 D",
+          "MOVE 2 7 F 1 R",
+          "MOVE 2 6 F 1 D",
+          "MOVE 3 4 F 1 D",
+          "PRIORITY 1 13 13 1 4 4 11 10 6 10 3 4 9 12 5 2 9 10 7 7 8 4 5 4 4 10 10 4 13 12 10 10 1 2"
+        ]
+      },
+      "first_ownership_difference": {
+        "turn": 17,
+        "changes": [
+          {
+            "id": 0,
+            "position": [
+              7,
+              7
+            ],
+            "type": "PLAZA",
+            "score_retrospective": 3,
+            "candidate_owner": "N",
+            "baseline_owner": "Y"
+          },
+          {
+            "id": 2,
+            "position": [
+              13,
+              1
+            ],
+            "type": "HALL",
+            "score_retrospective": 1,
+            "candidate_owner": "K",
+            "baseline_owner": "N"
+          },
+          {
+            "id": 9,
+            "position": [
+              4,
+              10
+            ],
+            "type": "STATION",
+            "score_retrospective": 1,
+            "candidate_owner": "Y",
+            "baseline_owner": "N"
+          }
+        ]
+      }
+    },
+    {
+      "map_seed": 7000,
+      "first_own_command_difference": {
+        "turn": 9,
+        "preceding_snapshot_equal": true,
+        "opponent_commands_equal": true,
+        "candidate_commands": [
+          "SPAWN W 5",
+          "MOVE 1 5 W 1 D",
+          "MOVE 1 5 W 1 U",
+          "MOVE 1 5 W 1 U",
+          "MOVE 1 5 W 2 R",
+          "MOVE 1 5 W 1 R",
+          "MOVE 1 7 W 2 R",
+          "MOVE 1 7 W 1 R",
+          "MOVE 1 7 W 1 R",
+          "MOVE 3 6 W 1 D",
+          "MOVE 3 6 W 1 D",
+          "MOVE 3 6 W 1 D",
+          "MOVE 3 7 W 1 D",
+          "MOVE 3 7 W 1 U",
+          "MOVE 3 7 W 1 D",
+          "MOVE 3 1 W 1 R",
+          "MOVE 3 1 W 1 R",
+          "MOVE 2 4 W 1 D",
+          "MOVE 2 4 W 1 D",
+          "MOVE 3 4 W 1 D",
+          "MOVE 3 5 W 1 D",
+          "MOVE 4 5 W 1 R",
+          "MOVE 2 8 W 1 R",
+          "MOVE 3 10 W 1 D",
+          "MOVE 3 11 F 1 R",
+          "MOVE 5 2 F 1 R",
+          "MOVE 4 2 F 1 R",
+          "MOVE 5 7 F 1 R",
+          "MOVE 4 5 F 1 R",
+          "MOVE 3 1 F 1 R",
+          "PRIORITY 4 11 10 3 2 7 7 12 7 2 12 13 8 7 7 6 7 8 12 7 6 7 7 7 2 1 13 0 1 14 11 9 3 5"
+        ],
+        "baseline_commands": [
+          "SPAWN F 1",
+          "SPAWN W 3",
+          "MOVE 1 5 W 1 D",
+          "MOVE 1 5 W 1 U",
+          "MOVE 1 5 W 1 U",
+          "MOVE 1 5 W 1 D",
+          "MOVE 1 7 W 2 R",
+          "MOVE 1 7 W 2 R",
+          "MOVE 3 6 W 1 D",
+          "MOVE 3 6 W 1 D",
+          "MOVE 3 6 W 1 D",
+          "MOVE 3 7 W 1 R",
+          "MOVE 3 7 W 1 R",
+          "MOVE 3 7 W 1 R",
+          "MOVE 3 1 W 1 R",
+          "MOVE 3 1 W 1 R",
+          "MOVE 2 4 W 1 D",
+          "MOVE 2 4 W 1 D",
+          "MOVE 3 4 W 1 D",
+          "MOVE 3 5 W 1 D",
+          "MOVE 4 5 W 1 R",
+          "MOVE 2 8 W 1 R",
+          "MOVE 3 10 W 1 D",
+          "MOVE 3 11 F 1 R",
+          "MOVE 5 2 F 1 R",
+          "MOVE 4 2 F 1 R",
+          "MOVE 5 7 F 1 R",
+          "MOVE 4 5 F 1 R",
+          "MOVE 1 5 F 1 D",
+          "MOVE 3 1 F 1 R",
+          "PRIORITY 4 11 10 3 2 7 7 12 7 2 12 13 8 7 7 6 7 8 12 7 6 7 7 7 2 1 13 0 1 14 11 9 3 5"
+        ]
+      },
+      "first_ownership_difference": {
+        "turn": 12,
+        "changes": [
+          {
+            "id": 11,
+            "position": [
+              7,
+              6
+            ],
+            "type": "STATION",
+            "score_retrospective": 4,
+            "candidate_owner": "N",
+            "baseline_owner": "K"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -12,6 +12,13 @@ def sha(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
+def output_usage(lines):
+    # Replay commands preserve stdout lines except the terminating END/newlines.
+    encoded = [len(line.encode('utf-8')) + 1 for line in [*lines, 'END']]
+    return {'turn_bytes': sum(encoded), 'turn_lines': len(encoded),
+            'line_bytes': max(encoded)}
+
+
 def verify(arena, host=None):
     root = Path(__file__).resolve().parents[1]
     manifest = json.loads((arena / 'manifest.json').read_text())
@@ -26,6 +33,9 @@ def verify(arena, host=None):
             frozen += 1
     result = json.loads((arena / 'campaign-result.json').read_text())
     stages, seeds, games, errors, forfeits, replay_count, maximum = {}, set(), 0, 0, 0, 0, 0.0
+    stdout = {}
+    longest_game = 0.0
+    limits = json.loads((root / 'yk-development-tools/bots/dist/starter/limits.json').read_text())
     for stage, count in result['stage_match_counts'].items():
         run = arena / 'runs' / stage
         rows = [json.loads(line) for line in (run / 'results.jsonl').read_text().splitlines()]
@@ -40,6 +50,7 @@ def verify(arena, host=None):
         for row in completed:
             assert 'replay' in row and (run / row['replay']).is_file(), row['job_id']
             maximum = max(maximum, row['max_turn_ms'], row['opponent_max_turn_ms'])
+            longest_game = max(longest_game, row['elapsed_seconds'])
         saved = 0
         for path in sorted((run / 'replays').glob('*.json.gz')):
             replay = json.loads(gzip.decompress(path.read_bytes()))
@@ -48,6 +59,13 @@ def verify(arena, host=None):
             value = {'turns': replay['turns'], 'result': replay['result']}
             actual = hashlib.sha256(json.dumps(value, sort_keys=True, separators=(',', ':')).encode()).hexdigest()
             assert actual == row['logical_trace_sha256'], str(path)
+            for frame in replay['turns']:
+                for team, lines in frame['commands'].items():
+                    name = row['candidate'] if team == row['team'] else row['opponent']
+                    peak = stdout.setdefault(name, dict(turn_bytes=0, turn_lines=0, line_bytes=0))
+                    for key, value in output_usage(lines).items():
+                        peak[key] = max(peak[key], value)
+                        assert value <= limits['stdout_' + key], (str(path), frame['turn'], team, key, value)
             saved += 1
         assert saved == len(completed), stage
         replay_count += saved
@@ -69,6 +87,9 @@ def verify(arena, host=None):
               'games': games, 'distinct_maps': len(seeds), 'stages': stages,
               'full_replays_trace_hash_verified': replay_count, 'errors': errors, 'forfeits': forfeits,
               'maximum_response_ms_both_bots': maximum, 'official_originals_unchanged': len(originals),
+              'maximum_job_elapsed_seconds_including_analysis': longest_game,
+              'stdout_peak_by_bot_including_END': stdout,
+              'stdout_check_scope': 'Replay-preserved commands plus LF and END; stderr was not captured by the league.',
               'submission_v2_sha256': zip_hash, 'transport_cleanup': receipt['cleanup']}
     if host:
         directory = receipt['cleanup']['path']
