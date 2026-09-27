@@ -1,0 +1,12 @@
+{
+  "checked_utc": "2026-09-27T19:22:33.538603+00:00",
+  "command": "PYTHONDONTWRITEBYTECODE=1 python -m unittest discover -s tests -p test_analyze_v3_confirmation.py -v",
+  "tests_passed": 8,
+  "elapsed_seconds": 9.434,
+  "returncode": 0,
+  "scope": "Synthetic schedules with real gate/analysis functions; no actual game or compiler execution",
+  "sha256": {
+    "experiments/analyze_v3_confirmation.py": "b5c2579016ba235579fb05966b110eb008aa7fab55ea42ed319df0f9bc48034e",
+    "tests/test_analyze_v3_confirmation.py": "adcc2623cfbf1aed3cc06510a550dc873a670aebec57553da27e245342d0ba86"
+  }
+}

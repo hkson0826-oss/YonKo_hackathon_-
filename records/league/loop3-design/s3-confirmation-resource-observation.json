@@ -1,0 +1,610 @@
+{
+  "remote_tmp": "/tmp/yk-league-tw82mxuu",
+  "owned_processes": [
+    {
+      "pid": 3261310,
+      "rss_kib": 44604,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3261376,
+      "rss_kib": 12556,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3267434,
+      "rss_kib": 34404,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3267437,
+      "rss_kib": 35572,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3267438,
+      "rss_kib": 34132,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3267439,
+      "rss_kib": 33944,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3267440,
+      "rss_kib": 34184,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3267441,
+      "rss_kib": 35560,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3267442,
+      "rss_kib": 35448,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3267443,
+      "rss_kib": 34012,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3267444,
+      "rss_kib": 34308,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3267445,
+      "rss_kib": 35252,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3267446,
+      "rss_kib": 34216,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3267447,
+      "rss_kib": 34908,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3267448,
+      "rss_kib": 35076,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3267449,
+      "rss_kib": 34120,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3267450,
+      "rss_kib": 33992,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3267451,
+      "rss_kib": 34128,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3267452,
+      "rss_kib": 34028,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3267453,
+      "rss_kib": 34264,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3267454,
+      "rss_kib": 34000,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3267455,
+      "rss_kib": 33792,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3267456,
+      "rss_kib": 34264,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3267457,
+      "rss_kib": 35648,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3267458,
+      "rss_kib": 35484,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3267459,
+      "rss_kib": 34488,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3406594,
+      "rss_kib": 1176,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3406597,
+      "rss_kib": 1168,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3406599,
+      "rss_kib": 4544,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3406600,
+      "rss_kib": 4116,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3407325,
+      "rss_kib": 1172,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3407327,
+      "rss_kib": 1056,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3407328,
+      "rss_kib": 4216,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3407330,
+      "rss_kib": 4152,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3407563,
+      "rss_kib": 1092,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3407566,
+      "rss_kib": 1132,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3407568,
+      "rss_kib": 4716,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3407570,
+      "rss_kib": 3856,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3407673,
+      "rss_kib": 1092,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3407675,
+      "rss_kib": 1060,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3407677,
+      "rss_kib": 4276,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3407678,
+      "rss_kib": 4092,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3409159,
+      "rss_kib": 1096,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3409161,
+      "rss_kib": 1172,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3409162,
+      "rss_kib": 4192,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3409167,
+      "rss_kib": 4068,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3409651,
+      "rss_kib": 1124,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3409653,
+      "rss_kib": 1192,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3409655,
+      "rss_kib": 4320,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3409656,
+      "rss_kib": 3664,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3410283,
+      "rss_kib": 1168,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3410285,
+      "rss_kib": 1084,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3410287,
+      "rss_kib": 4332,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3410289,
+      "rss_kib": 4024,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3410611,
+      "rss_kib": 3704,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3410975,
+      "rss_kib": 1172,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3410979,
+      "rss_kib": 1168,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3410980,
+      "rss_kib": 4072,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3410982,
+      "rss_kib": 4056,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3411773,
+      "rss_kib": 1172,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3411775,
+      "rss_kib": 1080,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3411776,
+      "rss_kib": 3972,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3411778,
+      "rss_kib": 4004,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3412141,
+      "rss_kib": 1172,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3412143,
+      "rss_kib": 1192,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3412145,
+      "rss_kib": 3812,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3412146,
+      "rss_kib": 3904,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3412691,
+      "rss_kib": 1192,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3412693,
+      "rss_kib": 1172,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3412695,
+      "rss_kib": 4148,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3412696,
+      "rss_kib": 3964,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3412809,
+      "rss_kib": 1084,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3412811,
+      "rss_kib": 4404,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3412822,
+      "rss_kib": 1104,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3412824,
+      "rss_kib": 4008,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3413097,
+      "rss_kib": 1056,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3413099,
+      "rss_kib": 1104,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3413100,
+      "rss_kib": 4008,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3413102,
+      "rss_kib": 4212,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3414067,
+      "rss_kib": 1132,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3414069,
+      "rss_kib": 1092,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3414071,
+      "rss_kib": 4360,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3414072,
+      "rss_kib": 3908,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3414251,
+      "rss_kib": 1132,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3414255,
+      "rss_kib": 1116,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3414257,
+      "rss_kib": 4000,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3414258,
+      "rss_kib": 3976,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3414298,
+      "rss_kib": 1092,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3414312,
+      "rss_kib": 1064,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3414314,
+      "rss_kib": 4184,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3414316,
+      "rss_kib": 3780,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3414343,
+      "rss_kib": 1092,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3414345,
+      "rss_kib": 1064,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3414346,
+      "rss_kib": 4284,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3414348,
+      "rss_kib": 4000,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3414727,
+      "rss_kib": 1176,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3414731,
+      "rss_kib": 1132,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3414733,
+      "rss_kib": 4052,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3414734,
+      "rss_kib": 3892,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3414849,
+      "rss_kib": 1128,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3414851,
+      "rss_kib": 1064,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3414852,
+      "rss_kib": 3944,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3414856,
+      "rss_kib": 3916,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3414969,
+      "rss_kib": 1084,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3414971,
+      "rss_kib": 3992,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3414973,
+      "rss_kib": 1088,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3414976,
+      "rss_kib": 3952,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3414995,
+      "rss_kib": 1064,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3415001,
+      "rss_kib": 1096,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3415002,
+      "rss_kib": 4044,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3415006,
+      "rss_kib": 3884,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3415455,
+      "rss_kib": 1064,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3415457,
+      "rss_kib": 1128,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3415459,
+      "rss_kib": 3968,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3415460,
+      "rss_kib": 3808,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3415657,
+      "rss_kib": 1088,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3415659,
+      "rss_kib": 1092,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3415660,
+      "rss_kib": 3904,
+      "allowed_cpus": "0-45"
+    },
+    {
+      "pid": 3415662,
+      "rss_kib": 4028,
+      "allowed_cpus": "0-45"
+    }
+  ],
+  "rss_kib_sum": 1128536,
+  "mem_total_kib": 461746004,
+  "mem_available_kib": 456070508,
+  "load": [
+    33.96630859375,
+    22.56884765625,
+    20.0830078125
+  ],
+  "observed_utc": "2026-09-27T19:22:16.536631+00:00",
+  "scope": "Point-in-time own processes by cwd; RSS may double count shared pages; CPU affinity is eligible cores, not measured utilization."
+}
