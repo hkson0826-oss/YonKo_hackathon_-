@@ -1,0 +1,20 @@
+{
+  "reviewed_utc": "2026-09-27T20:28:24.129479+00:00",
+  "reviewer": "loop2_search_architecture",
+  "scope": "Independent read-only release review; no compilation, matches, Git changes or new remote connection",
+  "checks_passed": 37,
+  "blockers": [],
+  "zip_sha256": "b3f7fee0154ff08a7f563e8b0036dd7b649d136e949e641ebe69a8c0ba7cd3da",
+  "zip_bytes": 14441,
+  "checked": [
+    "ZIP CRC and exact four members; ZIP bytes equal final source and frozen candidate",
+    "All 11 final and 6 audit gates; evaluation input hashes and artifact verification records",
+    "Actual extracted ZIP GCC12.2 C++20/O2 builds and SDK smoke without issues/warnings",
+    "Four CPU games on maps9450/9451 both sides; raw result, gzip and logical trace hashes",
+    "No forfeits or output warnings; maximum candidate response130.72559599822853ms",
+    "Local compiler/package TMP paths absent; environment and signal restoration recorded",
+    "Existing v3 ZIP and source unchanged",
+    "docs24 and submission README facts match records"
+  ],
+  "remote_cleanup_scope": "Compared existing independent verifier receipts with absent TMP and empty process list; reviewer did not reconnect."
+}
