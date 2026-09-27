@@ -1,0 +1,90 @@
+{
+  "checked_utc": "2026-09-27T20:22:05.011970+00:00",
+  "verifier_sha256": "eb1e5f331a04807b4fe9a5eecd9102984b0c9a369013146e5c279e3eab4efcd5",
+  "status": "passed",
+  "source_commit": "9e14d06b9e7eb803aa2c388c9710853c879c7db9",
+  "frozen_source_files_verified": 117,
+  "binaries_intentionally_omitted": 9,
+  "games": 1728,
+  "distinct_maps": 48,
+  "stages": {
+    "audit": {
+      "games": 1728,
+      "full_replays_verified": 1728,
+      "distinct_maps": 48
+    }
+  },
+  "full_replays_trace_hash_verified": 1728,
+  "errors": 0,
+  "forfeits": 0,
+  "maximum_response_ms_both_bots": 177.24026646465063,
+  "official_originals_unchanged": 5,
+  "maximum_job_elapsed_seconds_including_analysis": 21.11148741096258,
+  "stdout_peak_by_bot_including_END": {
+    "v2": {
+      "turn_bytes": 3595,
+      "turn_lines": 226,
+      "line_bytes": 89
+    },
+    "s3_v2_screen_paired_guard": {
+      "turn_bytes": 4261,
+      "turn_lines": 273,
+      "line_bytes": 89
+    },
+    "v3": {
+      "turn_bytes": 4258,
+      "turn_lines": 270,
+      "line_bytes": 89
+    },
+    "j_balanced_portfolio": {
+      "turn_bytes": 2941,
+      "turn_lines": 185,
+      "line_bytes": 89
+    },
+    "s3_selective_contact": {
+      "turn_bytes": 4123,
+      "turn_lines": 261,
+      "line_bytes": 89
+    },
+    "teammate": {
+      "turn_bytes": 2897,
+      "turn_lines": 186,
+      "line_bytes": 89
+    },
+    "j_v2_reclaim_relay": {
+      "turn_bytes": 2808,
+      "turn_lines": 178,
+      "line_bytes": 89
+    },
+    "f3_v2_warrior_reserve": {
+      "turn_bytes": 4076,
+      "turn_lines": 259,
+      "line_bytes": 89
+    },
+    "r3_opponent_league": {
+      "turn_bytes": 3364,
+      "turn_lines": 214,
+      "line_bytes": 89
+    },
+    "a_v2_tactical_local": {
+      "turn_bytes": 2821,
+      "turn_lines": 179,
+      "line_bytes": 89
+    }
+  },
+  "stdout_check_scope": "Replay-preserved commands plus LF and END; stderr was not captured by the league.",
+  "submission_v2_sha256": "f90eca7cac0024ab4cc7c00d79595f71e4eb9bab92ec57e0527c7b977098b64a",
+  "transport_cleanup": {
+    "event": "cleanup_complete",
+    "utc": "2026-09-27T20:20:23Z",
+    "path": "/tmp/yk-league-a4swh0bb",
+    "exists": false,
+    "archive_accepted": true
+  },
+  "submission_v3_sha256": "ce94e80a49d833be8b3c093a34319d8b9cdb5b7ec8d86b91a4b2831b18d799cb",
+  "independent_cleanup_check": {
+    "path": "/tmp/yk-league-a4swh0bb",
+    "path_exists": false,
+    "matching_process_ids": []
+  }
+}

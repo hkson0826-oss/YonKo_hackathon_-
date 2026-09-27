@@ -1,0 +1,983 @@
+{
+  "status": "independent_audit_review_passed",
+  "reviewed_utc": "2026-09-27T20:22:09.183817+00:00",
+  "arena": "records/league/loop3-s3-audit",
+  "source_commit": "9e14d06b9e7eb803aa2c388c9710853c879c7db9",
+  "original_final_source_commit": "6e36cb5bfab7ff874fbb48a3c3b82308e41bdcf2",
+  "baseline": "v3",
+  "primary": "s3_v2_screen_paired_guard",
+  "method": "Standard-library-only aggregation from result.winner/score; no campaign analysis/promotion function imports. Predeclared six audit gates independently reimplemented; 5000 paired map-cluster bootstrap samples, seed927608; nearest-rank response quantiles from both bot roles.",
+  "checks": {
+    "original_lock_exact_match": true,
+    "single_primary_unchanged": true,
+    "completed_audit_and_original_failure_preserved": true,
+    "commit": true,
+    "opponents_and_reserved_maps": true,
+    "source_s3_v2_screen_paired_guard": true,
+    "source_v3": true,
+    "source_v2": true,
+    "source_teammate": true,
+    "source_a_v2_tactical_local": true,
+    "source_j_balanced_portfolio": true,
+    "source_j_v2_reclaim_relay": true,
+    "source_s3_selective_contact": true,
+    "source_r3_opponent_league": true,
+    "source_f3_v2_warrior_reserve": true,
+    "primary_expected_SHA": true,
+    "sdk_input_sha256_matches_original": true,
+    "sdk_input_sha256_actual_bytes": true,
+    "submission_input_sha256_matches_original": true,
+    "submission_input_sha256_actual_bytes": true,
+    "frozen_evaluation_code_unchanged": true,
+    "exact_schedule": true,
+    "session_closed": true,
+    "original_lock_precedes_execution": true,
+    "raw_outcomes_and_flags": true,
+    "overall_comparisons_match": true,
+    "pool_comparisons_match": true,
+    "opponent_comparisons_match": true,
+    "all_6_predeclared_gates_match": true,
+    "counts_health": true,
+    "recorded_response_maxima_match_arrays": true,
+    "no_observed_response_at_least_300ms": true,
+    "no_draws": true
+  },
+  "input_sha256": {
+    "campaign-result.json": "7f81a4e1a77c304a5e574c525fbcb08a7cd734638cb33cda70072ed17abba6b0",
+    "audit-result.json": "31b2e5bbb2f7d4d5dc852227994142e56209b08cd34544599b1d4cc1c79383ec",
+    "audit-policy.json": "b944362eef50e4a7d199288c6ead94f783f7bf24ecb032c6848b51ce8facc24a",
+    "campaign-policy.json": "43dd43a0622297d0b8b47fd949ec6af508e9f22cea04c04464168e1fea1ca8ec",
+    "manifest.json": "f371476fbe72367c3960b146b90c9db08adfa50c25d68ddb4f955ae124462e93",
+    "locked-finalists.json": "7aa64837ea4488a004845e688004e59fcaa543d37d0da8fb5995066957bf066e",
+    "selection-lock.json": "7aa64837ea4488a004845e688004e59fcaa543d37d0da8fb5995066957bf066e",
+    "runs/audit/results.jsonl": "156ee4d6918dfafbc750b1ab92b968f9d96534762fc07f28562cbf484a8f86c8",
+    "runs/audit/jobs.json": "8e0237f691a0a1838fe158798cde15a04f77cdcc7364e965f5fffc0b68c7fc38",
+    "plans/audit.json": "22a1d1c7649670b062d92ecd4cf4625bea6b5b93462becb37c2e02c016470345",
+    "runs/audit/summary.json": "9b6c61395f2a2345bb6c8ce629f875ea5a9cc8393365d93e3b466759393b3ac1",
+    "audit-resource-limit.json": "05c1f89f14989ef850735118835e23bcef6fe45dc5cba196ebbf5d5c9ea56edb",
+    "runs/audit/session-1790539423524322431.json": "3da93952db4f5b6af13e9a26792e693f4438844b8778e1643138564474f26464"
+  },
+  "original_selection_lock_sha256": "7aa64837ea4488a004845e688004e59fcaa543d37d0da8fb5995066957bf066e",
+  "source_checks": {
+    "s3_v2_screen_paired_guard": {
+      "path": "snapshot/candidates/s3_v2_screen_paired_guard/main.cpp",
+      "sha256": "1703701340ede10b652b0aa024e29c3fd411e2809ae34de1e3d0b39620d496df"
+    },
+    "v3": {
+      "path": "snapshot/candidates/v3/main.cpp",
+      "sha256": "52268569e17d7fc40fd46f0996b2da684768902b4af27ec059c4b068911c4473"
+    },
+    "v2": {
+      "path": "snapshot/candidates/v2/main.cpp",
+      "sha256": "53bb019625fabbbd3aa8a5b65af971912bb4cbdad8a9fde3009fadad5ba6d4c5"
+    },
+    "teammate": {
+      "path": "snapshot/submissions/delineate-v1.zip",
+      "sha256": "571397e3c84998b27f8ce0468bc49333663c69b0b84162ad8dfc27e7a47f2365"
+    },
+    "a_v2_tactical_local": {
+      "path": "snapshot/candidates/a_v2_tactical_local/main.cpp",
+      "sha256": "9d9d6ecd763b84f88c0d5e48f65524798f998e9912f774c0dd22e27f3f78219a"
+    },
+    "j_balanced_portfolio": {
+      "path": "snapshot/candidates/j_balanced_portfolio/main.cpp",
+      "sha256": "534f55f1d6641ed788ca637663456e43375297d8016ac9832c589b0a012c8422"
+    },
+    "j_v2_reclaim_relay": {
+      "path": "snapshot/candidates/j_v2_reclaim_relay/main.cpp",
+      "sha256": "0882dc3284c33db9f4687c085e0c570d156a439365aa229fa6cca6f81e909045"
+    },
+    "s3_selective_contact": {
+      "path": "snapshot/candidates/s3_selective_contact/main.cpp",
+      "sha256": "db83d9aa0e8809aaffd6b36ffc47972996d832d987947187af600d3a8419d96c"
+    },
+    "r3_opponent_league": {
+      "path": "snapshot/candidates/r3_opponent_league/main.cpp",
+      "sha256": "33020d61999456342ea39b3f99e53388914b0ccf98536e2b99ae5e60c31f66cf"
+    },
+    "f3_v2_warrior_reserve": {
+      "path": "snapshot/candidates/f3_v2_warrior_reserve/main.cpp",
+      "sha256": "20fa2eb5635cd9035c1f2c3f659943e7f98d03c4434bc84c5d5772c6a00e58cf"
+    }
+  },
+  "locked_inputs": {
+    "sdk_input_sha256": {
+      "files_checked": 27,
+      "matched": true
+    },
+    "submission_input_sha256": {
+      "files_checked": 13,
+      "matched": true
+    }
+  },
+  "games": 1728,
+  "maps": 48,
+  "pools": {
+    "overall": {
+      "Y": {
+        "v3": {
+          "games": 432,
+          "wins": 266,
+          "draws": 0,
+          "losses": 166,
+          "points": 266.0,
+          "point_rate": 0.6157407407407407
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 432,
+          "wins": 290,
+          "draws": 0,
+          "losses": 142,
+          "points": 290.0,
+          "point_rate": 0.6712962962962963
+        },
+        "paired": {
+          "point_rate_difference": 0.05555555555555555,
+          "map_cluster_bootstrap_95pct": [
+            0.0023148148148148147,
+            0.1111111111111111
+          ],
+          "maps": 48,
+          "paired_games": 432,
+          "resamples": 5000,
+          "seed": 927608
+        }
+      },
+      "K": {
+        "v3": {
+          "games": 432,
+          "wins": 256,
+          "draws": 0,
+          "losses": 176,
+          "points": 256.0,
+          "point_rate": 0.5925925925925926
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 432,
+          "wins": 278,
+          "draws": 0,
+          "losses": 154,
+          "points": 278.0,
+          "point_rate": 0.6435185185185185
+        },
+        "paired": {
+          "point_rate_difference": 0.05092592592592592,
+          "map_cluster_bootstrap_95pct": [
+            0.006944444444444444,
+            0.0949074074074074
+          ],
+          "maps": 48,
+          "paired_games": 432,
+          "resamples": 5000,
+          "seed": 927608
+        }
+      }
+    },
+    "fixed": {
+      "Y": {
+        "v3": {
+          "games": 288,
+          "wins": 192,
+          "draws": 0,
+          "losses": 96,
+          "points": 192.0,
+          "point_rate": 0.6666666666666666
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 288,
+          "wins": 211,
+          "draws": 0,
+          "losses": 77,
+          "points": 211.0,
+          "point_rate": 0.7326388888888888
+        },
+        "paired": {
+          "point_rate_difference": 0.06597222222222222,
+          "map_cluster_bootstrap_95pct": [
+            0.010416666666666666,
+            0.12152777777777778
+          ],
+          "maps": 48,
+          "paired_games": 288,
+          "resamples": 5000,
+          "seed": 927608
+        }
+      },
+      "K": {
+        "v3": {
+          "games": 288,
+          "wins": 190,
+          "draws": 0,
+          "losses": 98,
+          "points": 190.0,
+          "point_rate": 0.6597222222222222
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 288,
+          "wins": 198,
+          "draws": 0,
+          "losses": 90,
+          "points": 198.0,
+          "point_rate": 0.6875
+        },
+        "paired": {
+          "point_rate_difference": 0.027777777777777776,
+          "map_cluster_bootstrap_95pct": [
+            -0.01736111111111111,
+            0.07291666666666667
+          ],
+          "maps": 48,
+          "paired_games": 288,
+          "resamples": 5000,
+          "seed": 927608
+        }
+      }
+    },
+    "added": {
+      "Y": {
+        "v3": {
+          "games": 144,
+          "wins": 74,
+          "draws": 0,
+          "losses": 70,
+          "points": 74.0,
+          "point_rate": 0.5138888888888888
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 144,
+          "wins": 79,
+          "draws": 0,
+          "losses": 65,
+          "points": 79.0,
+          "point_rate": 0.5486111111111112
+        },
+        "paired": {
+          "point_rate_difference": 0.03472222222222222,
+          "map_cluster_bootstrap_95pct": [
+            -0.07638888888888888,
+            0.14583333333333334
+          ],
+          "maps": 48,
+          "paired_games": 144,
+          "resamples": 5000,
+          "seed": 927608
+        }
+      },
+      "K": {
+        "v3": {
+          "games": 144,
+          "wins": 66,
+          "draws": 0,
+          "losses": 78,
+          "points": 66.0,
+          "point_rate": 0.4583333333333333
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 144,
+          "wins": 80,
+          "draws": 0,
+          "losses": 64,
+          "points": 80.0,
+          "point_rate": 0.5555555555555556
+        },
+        "paired": {
+          "point_rate_difference": 0.09722222222222221,
+          "map_cluster_bootstrap_95pct": [
+            0.0,
+            0.1875
+          ],
+          "maps": 48,
+          "paired_games": 144,
+          "resamples": 5000,
+          "seed": 927608
+        }
+      }
+    }
+  },
+  "per_opponent": {
+    "v3": {
+      "Y": {
+        "v3": {
+          "games": 48,
+          "wins": 25,
+          "draws": 0,
+          "losses": 23,
+          "points": 25.0,
+          "point_rate": 0.5208333333333334
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 48,
+          "wins": 31,
+          "draws": 0,
+          "losses": 17,
+          "points": 31.0,
+          "point_rate": 0.6458333333333334
+        },
+        "paired": {
+          "point_rate_difference": 0.125,
+          "map_cluster_bootstrap_95pct": [
+            -0.0625,
+            0.3125
+          ],
+          "maps": 48,
+          "paired_games": 48,
+          "resamples": 5000,
+          "seed": 927608
+        }
+      },
+      "K": {
+        "v3": {
+          "games": 48,
+          "wins": 23,
+          "draws": 0,
+          "losses": 25,
+          "points": 23.0,
+          "point_rate": 0.4791666666666667
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 48,
+          "wins": 22,
+          "draws": 0,
+          "losses": 26,
+          "points": 22.0,
+          "point_rate": 0.4583333333333333
+        },
+        "paired": {
+          "point_rate_difference": -0.020833333333333332,
+          "map_cluster_bootstrap_95pct": [
+            -0.20833333333333334,
+            0.16666666666666666
+          ],
+          "maps": 48,
+          "paired_games": 48,
+          "resamples": 5000,
+          "seed": 927608
+        }
+      }
+    },
+    "v2": {
+      "Y": {
+        "v3": {
+          "games": 48,
+          "wins": 42,
+          "draws": 0,
+          "losses": 6,
+          "points": 42.0,
+          "point_rate": 0.875
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 48,
+          "wins": 44,
+          "draws": 0,
+          "losses": 4,
+          "points": 44.0,
+          "point_rate": 0.9166666666666666
+        },
+        "paired": {
+          "point_rate_difference": 0.041666666666666664,
+          "map_cluster_bootstrap_95pct": [
+            -0.08333333333333333,
+            0.16666666666666666
+          ],
+          "maps": 48,
+          "paired_games": 48,
+          "resamples": 5000,
+          "seed": 927608
+        }
+      },
+      "K": {
+        "v3": {
+          "games": 48,
+          "wins": 44,
+          "draws": 0,
+          "losses": 4,
+          "points": 44.0,
+          "point_rate": 0.9166666666666666
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 48,
+          "wins": 41,
+          "draws": 0,
+          "losses": 7,
+          "points": 41.0,
+          "point_rate": 0.8541666666666666
+        },
+        "paired": {
+          "point_rate_difference": -0.0625,
+          "map_cluster_bootstrap_95pct": [
+            -0.16666666666666666,
+            0.041666666666666664
+          ],
+          "maps": 48,
+          "paired_games": 48,
+          "resamples": 5000,
+          "seed": 927608
+        }
+      }
+    },
+    "teammate": {
+      "Y": {
+        "v3": {
+          "games": 48,
+          "wins": 44,
+          "draws": 0,
+          "losses": 4,
+          "points": 44.0,
+          "point_rate": 0.9166666666666666
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 48,
+          "wins": 45,
+          "draws": 0,
+          "losses": 3,
+          "points": 45.0,
+          "point_rate": 0.9375
+        },
+        "paired": {
+          "point_rate_difference": 0.020833333333333332,
+          "map_cluster_bootstrap_95pct": [
+            -0.041666666666666664,
+            0.10416666666666667
+          ],
+          "maps": 48,
+          "paired_games": 48,
+          "resamples": 5000,
+          "seed": 927608
+        }
+      },
+      "K": {
+        "v3": {
+          "games": 48,
+          "wins": 43,
+          "draws": 0,
+          "losses": 5,
+          "points": 43.0,
+          "point_rate": 0.8958333333333334
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 48,
+          "wins": 44,
+          "draws": 0,
+          "losses": 4,
+          "points": 44.0,
+          "point_rate": 0.9166666666666666
+        },
+        "paired": {
+          "point_rate_difference": 0.020833333333333332,
+          "map_cluster_bootstrap_95pct": [
+            -0.041666666666666664,
+            0.08333333333333333
+          ],
+          "maps": 48,
+          "paired_games": 48,
+          "resamples": 5000,
+          "seed": 927608
+        }
+      }
+    },
+    "a_v2_tactical_local": {
+      "Y": {
+        "v3": {
+          "games": 48,
+          "wins": 24,
+          "draws": 0,
+          "losses": 24,
+          "points": 24.0,
+          "point_rate": 0.5
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 48,
+          "wins": 29,
+          "draws": 0,
+          "losses": 19,
+          "points": 29.0,
+          "point_rate": 0.6041666666666666
+        },
+        "paired": {
+          "point_rate_difference": 0.10416666666666667,
+          "map_cluster_bootstrap_95pct": [
+            -0.0625,
+            0.2708333333333333
+          ],
+          "maps": 48,
+          "paired_games": 48,
+          "resamples": 5000,
+          "seed": 927608
+        }
+      },
+      "K": {
+        "v3": {
+          "games": 48,
+          "wins": 21,
+          "draws": 0,
+          "losses": 27,
+          "points": 21.0,
+          "point_rate": 0.4375
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 48,
+          "wins": 31,
+          "draws": 0,
+          "losses": 17,
+          "points": 31.0,
+          "point_rate": 0.6458333333333334
+        },
+        "paired": {
+          "point_rate_difference": 0.20833333333333334,
+          "map_cluster_bootstrap_95pct": [
+            0.0,
+            0.3958333333333333
+          ],
+          "maps": 48,
+          "paired_games": 48,
+          "resamples": 5000,
+          "seed": 927608
+        }
+      }
+    },
+    "j_balanced_portfolio": {
+      "Y": {
+        "v3": {
+          "games": 48,
+          "wins": 28,
+          "draws": 0,
+          "losses": 20,
+          "points": 28.0,
+          "point_rate": 0.5833333333333334
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 48,
+          "wins": 28,
+          "draws": 0,
+          "losses": 20,
+          "points": 28.0,
+          "point_rate": 0.5833333333333334
+        },
+        "paired": {
+          "point_rate_difference": 0.0,
+          "map_cluster_bootstrap_95pct": [
+            -0.14583333333333334,
+            0.14583333333333334
+          ],
+          "maps": 48,
+          "paired_games": 48,
+          "resamples": 5000,
+          "seed": 927608
+        }
+      },
+      "K": {
+        "v3": {
+          "games": 48,
+          "wins": 27,
+          "draws": 0,
+          "losses": 21,
+          "points": 27.0,
+          "point_rate": 0.5625
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 48,
+          "wins": 30,
+          "draws": 0,
+          "losses": 18,
+          "points": 30.0,
+          "point_rate": 0.625
+        },
+        "paired": {
+          "point_rate_difference": 0.0625,
+          "map_cluster_bootstrap_95pct": [
+            -0.08333333333333333,
+            0.22916666666666666
+          ],
+          "maps": 48,
+          "paired_games": 48,
+          "resamples": 5000,
+          "seed": 927608
+        }
+      }
+    },
+    "j_v2_reclaim_relay": {
+      "Y": {
+        "v3": {
+          "games": 48,
+          "wins": 29,
+          "draws": 0,
+          "losses": 19,
+          "points": 29.0,
+          "point_rate": 0.6041666666666666
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 48,
+          "wins": 34,
+          "draws": 0,
+          "losses": 14,
+          "points": 34.0,
+          "point_rate": 0.7083333333333334
+        },
+        "paired": {
+          "point_rate_difference": 0.10416666666666667,
+          "map_cluster_bootstrap_95pct": [
+            -0.08333333333333333,
+            0.2916666666666667
+          ],
+          "maps": 48,
+          "paired_games": 48,
+          "resamples": 5000,
+          "seed": 927608
+        }
+      },
+      "K": {
+        "v3": {
+          "games": 48,
+          "wins": 32,
+          "draws": 0,
+          "losses": 16,
+          "points": 32.0,
+          "point_rate": 0.6666666666666666
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 48,
+          "wins": 30,
+          "draws": 0,
+          "losses": 18,
+          "points": 30.0,
+          "point_rate": 0.625
+        },
+        "paired": {
+          "point_rate_difference": -0.041666666666666664,
+          "map_cluster_bootstrap_95pct": [
+            -0.20833333333333334,
+            0.125
+          ],
+          "maps": 48,
+          "paired_games": 48,
+          "resamples": 5000,
+          "seed": 927608
+        }
+      }
+    },
+    "s3_selective_contact": {
+      "Y": {
+        "v3": {
+          "games": 48,
+          "wins": 20,
+          "draws": 0,
+          "losses": 28,
+          "points": 20.0,
+          "point_rate": 0.4166666666666667
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 48,
+          "wins": 29,
+          "draws": 0,
+          "losses": 19,
+          "points": 29.0,
+          "point_rate": 0.6041666666666666
+        },
+        "paired": {
+          "point_rate_difference": 0.1875,
+          "map_cluster_bootstrap_95pct": [
+            -0.020833333333333332,
+            0.375
+          ],
+          "maps": 48,
+          "paired_games": 48,
+          "resamples": 5000,
+          "seed": 927608
+        }
+      },
+      "K": {
+        "v3": {
+          "games": 48,
+          "wins": 15,
+          "draws": 0,
+          "losses": 33,
+          "points": 15.0,
+          "point_rate": 0.3125
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 48,
+          "wins": 22,
+          "draws": 0,
+          "losses": 26,
+          "points": 22.0,
+          "point_rate": 0.4583333333333333
+        },
+        "paired": {
+          "point_rate_difference": 0.14583333333333334,
+          "map_cluster_bootstrap_95pct": [
+            -0.020833333333333332,
+            0.3125
+          ],
+          "maps": 48,
+          "paired_games": 48,
+          "resamples": 5000,
+          "seed": 927608
+        }
+      }
+    },
+    "r3_opponent_league": {
+      "Y": {
+        "v3": {
+          "games": 48,
+          "wins": 29,
+          "draws": 0,
+          "losses": 19,
+          "points": 29.0,
+          "point_rate": 0.6041666666666666
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 48,
+          "wins": 28,
+          "draws": 0,
+          "losses": 20,
+          "points": 28.0,
+          "point_rate": 0.5833333333333334
+        },
+        "paired": {
+          "point_rate_difference": -0.020833333333333332,
+          "map_cluster_bootstrap_95pct": [
+            -0.20833333333333334,
+            0.16666666666666666
+          ],
+          "maps": 48,
+          "paired_games": 48,
+          "resamples": 5000,
+          "seed": 927608
+        }
+      },
+      "K": {
+        "v3": {
+          "games": 48,
+          "wins": 32,
+          "draws": 0,
+          "losses": 16,
+          "points": 32.0,
+          "point_rate": 0.6666666666666666
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 48,
+          "wins": 31,
+          "draws": 0,
+          "losses": 17,
+          "points": 31.0,
+          "point_rate": 0.6458333333333334
+        },
+        "paired": {
+          "point_rate_difference": -0.020833333333333332,
+          "map_cluster_bootstrap_95pct": [
+            -0.20833333333333334,
+            0.14583333333333334
+          ],
+          "maps": 48,
+          "paired_games": 48,
+          "resamples": 5000,
+          "seed": 927608
+        }
+      }
+    },
+    "f3_v2_warrior_reserve": {
+      "Y": {
+        "v3": {
+          "games": 48,
+          "wins": 25,
+          "draws": 0,
+          "losses": 23,
+          "points": 25.0,
+          "point_rate": 0.5208333333333334
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 48,
+          "wins": 22,
+          "draws": 0,
+          "losses": 26,
+          "points": 22.0,
+          "point_rate": 0.4583333333333333
+        },
+        "paired": {
+          "point_rate_difference": -0.0625,
+          "map_cluster_bootstrap_95pct": [
+            -0.25,
+            0.125
+          ],
+          "maps": 48,
+          "paired_games": 48,
+          "resamples": 5000,
+          "seed": 927608
+        }
+      },
+      "K": {
+        "v3": {
+          "games": 48,
+          "wins": 19,
+          "draws": 0,
+          "losses": 29,
+          "points": 19.0,
+          "point_rate": 0.3958333333333333
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 48,
+          "wins": 27,
+          "draws": 0,
+          "losses": 21,
+          "points": 27.0,
+          "point_rate": 0.5625
+        },
+        "paired": {
+          "point_rate_difference": 0.16666666666666666,
+          "map_cluster_bootstrap_95pct": [
+            -0.020833333333333332,
+            0.3541666666666667
+          ],
+          "maps": 48,
+          "paired_games": 48,
+          "resamples": 5000,
+          "seed": 927608
+        }
+      }
+    }
+  },
+  "direct_vs_v3": {
+    "Y": {
+      "games": 48,
+      "wins": 31,
+      "draws": 0,
+      "losses": 17,
+      "points": 31.0,
+      "point_rate": 0.6458333333333334
+    },
+    "K": {
+      "games": 48,
+      "wins": 22,
+      "draws": 0,
+      "losses": 26,
+      "points": 22.0,
+      "point_rate": 0.4583333333333333
+    }
+  },
+  "health": {
+    "errors": 0,
+    "forfeits": 0
+  },
+  "recomputed_gates": {
+    "complete_schedule_without_duplicates": true,
+    "no_baseline_or_candidate_errors_or_forfeits": true,
+    "overall_Y_no_regression": true,
+    "fixed_pool_Y_no_regression": true,
+    "challenge_pool_Y_no_regression": true,
+    "no_opponent_Y_regression_over_12_5pp": true
+  },
+  "response_time": {
+    "s3_v2_screen_paired_guard": {
+      "responses": 126108,
+      "p50_ms": 107.92213398963213,
+      "p95_ms": 122.41078354418278,
+      "p99_ms": 123.37414547801018,
+      "maximum_ms": 170.95714900642633,
+      "at_least_300ms": 0
+    },
+    "v3": {
+      "responses": 155327,
+      "p50_ms": 57.39891342818737,
+      "p95_ms": 67.50574056059122,
+      "p99_ms": 70.14061510562897,
+      "maximum_ms": 128.14137525856495,
+      "at_least_300ms": 0
+    },
+    "v2": {
+      "responses": 26955,
+      "p50_ms": 13.679061084985733,
+      "p95_ms": 14.324872754514217,
+      "p99_ms": 20.04542388021946,
+      "maximum_ms": 80.11777233332396,
+      "at_least_300ms": 0
+    },
+    "teammate": {
+      "responses": 25807,
+      "p50_ms": 2.076416276395321,
+      "p95_ms": 3.2079434022307396,
+      "p99_ms": 19.018701277673244,
+      "maximum_ms": 69.20445803552866,
+      "at_least_300ms": 0
+    },
+    "a_v2_tactical_local": {
+      "responses": 28091,
+      "p50_ms": 88.87815196067095,
+      "p95_ms": 128.21068614721298,
+      "p99_ms": 135.4039330035448,
+      "maximum_ms": 177.24026646465063,
+      "at_least_300ms": 0
+    },
+    "j_balanced_portfolio": {
+      "responses": 27479,
+      "p50_ms": 14.098026789724827,
+      "p95_ms": 14.762814156711102,
+      "p99_ms": 19.81124095618725,
+      "maximum_ms": 70.54877001792192,
+      "at_least_300ms": 0
+    },
+    "j_v2_reclaim_relay": {
+      "responses": 28106,
+      "p50_ms": 14.073980040848255,
+      "p95_ms": 14.763188548386097,
+      "p99_ms": 20.47613449394703,
+      "maximum_ms": 72.46880605816841,
+      "at_least_300ms": 0
+    },
+    "s3_selective_contact": {
+      "responses": 28746,
+      "p50_ms": 118.57080832123756,
+      "p95_ms": 135.45091822743416,
+      "p99_ms": 135.78907120972872,
+      "maximum_ms": 177.2181335836649,
+      "at_least_300ms": 0
+    },
+    "r3_opponent_league": {
+      "responses": 29235,
+      "p50_ms": 58.278223499655724,
+      "p95_ms": 67.13849678635597,
+      "p99_ms": 70.12998405843973,
+      "maximum_ms": 110.38623563945293,
+      "at_least_300ms": 0
+    },
+    "f3_v2_warrior_reserve": {
+      "responses": 28786,
+      "p50_ms": 56.047274731099606,
+      "p95_ms": 67.86290556192398,
+      "p99_ms": 73.98628629744053,
+      "maximum_ms": 117.40032583475113,
+      "at_least_300ms": 0
+    },
+    "all_bot_processes": {
+      "responses": 504640,
+      "p50_ms": 60.011948458850384,
+      "p95_ms": 122.17683158814907,
+      "p99_ms": 135.34510135650635,
+      "maximum_ms": 177.24026646465063,
+      "at_least_300ms": 0
+    }
+  },
+  "resource_limit": {
+    "resource": "RLIMIT_AS",
+    "requested_soft_bytes": 402653184,
+    "effective_soft_bytes": 402653184,
+    "hard_bytes": 805306368,
+    "previous_soft_bytes": 805306368,
+    "inherited_by": "workers and bot processes",
+    "scope": "Per-process virtual address space; not total RSS or a replica of the submission container"
+  },
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "weaknesses": [
+    "Added-pool Y confidence interval crosses zero; its positive point estimate alone does not establish improvement.",
+    "Y regression versus r3_opponent_league is -1/48; versus f3_v2_warrior_reserve is -3/48. Both are within the predeclared -12.5pp per-opponent tolerance.",
+    "The audit does not require CI lower bounds above zero. Passing it is not a claim that every opponent or pool improved."
+  ],
+  "scope": "New candidate confirmation and audit pass; original f3 failed audit is preserved. Full replay/source artifact verification and actual GCC12 ZIP/CPU validation remain separate and are not certified by this review. No leaderboard or optimality claim.",
+  "execution": {
+    "new_games": 0,
+    "compiles": 0,
+    "server_operations": 0,
+    "raw_or_source_mutations": 0,
+    "temporary_files_created": 0,
+    "cleanup": "In-memory computation only; no temporary builds, scripts, replay copies or package installs."
+  }
+}
