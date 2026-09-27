@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "script_sha256": "40435a5a3468654db048534f6c9b261d14fee9e1173871ab1152f9799bcaac58",
+  "checks": [
+    "normal subprocess cleanup",
+    "timeout kills SDK/compiler process group descendants",
+    "context cleanup status recorded even when consuming packager raises"
+  ],
+  "temporary_directory_removed": true,
+  "direct_compile_and_smoke_record": "compiler-compatibility-v3-direct.json",
+  "note": "After the direct compile/smoke, only a context wrapper was added to record cleanup on consumer exceptions; compiler and runtime construction unchanged."
+}

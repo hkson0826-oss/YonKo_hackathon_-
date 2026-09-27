@@ -1,0 +1,313 @@
+{
+  "status": "passed",
+  "zip": "/home/dlwltkd/YonKo_hackathon_-/artifacts/submission-v3.zip",
+  "zip_sha256": "ce94e80a49d833be8b3c093a34319d8b9cdb5b7ec8d86b91a4b2831b18d799cb",
+  "started_utc": "2026-09-27T17:37:30Z",
+  "verification_script_sha256": "ee494c6c45506fe5196ca79606727ec209678587792c65f88c458559674b8dca",
+  "scope": "Debian GCC 12.2 C++20/O2 compatibility plus one SDK protocol smoke; not official container equivalence",
+  "limits": [
+    "Host assembler/linker and compiler runtime dependencies are used",
+    "Debian package revision, CPU, kernel, SDK runner, and isolation may differ from the official server",
+    "SDK smoke checks protocol at its 300ms/3000ms limits; it is not a 384MiB container or strength test"
+  ],
+  "temporary_directory": "/tmp/yk-gcc12-zfcg2m5v",
+  "debian_index": {
+    "url": "https://deb.debian.org/debian/dists/bookworm/main/binary-amd64/Packages.xz",
+    "sha256": "9e0b5aabb2465b3d2e7a7fe27f9913846277833f7a2826e7767acccff5b588c5",
+    "bytes": 8790396
+  },
+  "metadata_verification": "Official Debian HTTPS index; package SHA256 verified against it; OpenPGP signature not independently verified",
+  "packages": [
+    {
+      "name": "g++-12",
+      "version": "12.2.0-14+deb12u1",
+      "url": "https://deb.debian.org/debian/pool/main/g/gcc-12/g++-12_12.2.0-14+deb12u1_amd64.deb",
+      "sha256": "68b182badae4ace7d472f1393c559d3532a95a2d70817498b10bb481d2627251",
+      "bytes": 10694076
+    },
+    {
+      "name": "gcc-12",
+      "version": "12.2.0-14+deb12u1",
+      "url": "https://deb.debian.org/debian/pool/main/g/gcc-12/gcc-12_12.2.0-14+deb12u1_amd64.deb",
+      "sha256": "b46f33cc2ec245e435e043807038cecf4b201ef004800e9dfc1455240360e49d",
+      "bytes": 19268852
+    },
+    {
+      "name": "cpp-12",
+      "version": "12.2.0-14+deb12u1",
+      "url": "https://deb.debian.org/debian/pool/main/g/gcc-12/cpp-12_12.2.0-14+deb12u1_amd64.deb",
+      "sha256": "fedbb98e877adde83c983c6071537ea25ac52b277ac6e4637d85025949ca1454",
+      "bytes": 9767788
+    },
+    {
+      "name": "gcc-12-base",
+      "version": "12.2.0-14+deb12u1",
+      "url": "https://deb.debian.org/debian/pool/main/g/gcc-12/gcc-12-base_12.2.0-14+deb12u1_amd64.deb",
+      "sha256": "1896a2aacf4ad681ff5eacc24a5b0ca4d5d9c9b9c9e4b6de5197bc1e116ea619",
+      "bytes": 37596
+    },
+    {
+      "name": "libstdc++-12-dev",
+      "version": "12.2.0-14+deb12u1",
+      "url": "https://deb.debian.org/debian/pool/main/g/gcc-12/libstdc++-12-dev_12.2.0-14+deb12u1_amd64.deb",
+      "sha256": "d28def6c23630432b57cb38a4c2fd67a79d4e0484027386ca6e8d6005c3d7a73",
+      "bytes": 2047292
+    },
+    {
+      "name": "libgcc-12-dev",
+      "version": "12.2.0-14+deb12u1",
+      "url": "https://deb.debian.org/debian/pool/main/g/gcc-12/libgcc-12-dev_12.2.0-14+deb12u1_amd64.deb",
+      "sha256": "d720259380a84f2ffc6fe516eff5cbe9c8a005138e8d6a5748747ba4b3404a82",
+      "bytes": 2437204
+    },
+    {
+      "name": "libstdc++6",
+      "version": "12.2.0-14+deb12u1",
+      "url": "https://deb.debian.org/debian/pool/main/g/gcc-12/libstdc++6_12.2.0-14+deb12u1_amd64.deb",
+      "sha256": "5cd3171216d4ab0fc911cfe9c35509bf2dd8f47761c43b7f6a4296701551a24d",
+      "bytes": 612604
+    },
+    {
+      "name": "libgcc-s1",
+      "version": "12.2.0-14+deb12u1",
+      "url": "https://deb.debian.org/debian/pool/main/g/gcc-12/libgcc-s1_12.2.0-14+deb12u1_amd64.deb",
+      "sha256": "3016e62cb4b7cd8038822870601f5ed131befe942774d0f745622cc77d8a88f7",
+      "bytes": 49856
+    },
+    {
+      "name": "libc6",
+      "version": "2.36-9+deb12u14",
+      "url": "https://deb.debian.org/debian/pool/main/g/glibc/libc6_2.36-9+deb12u14_amd64.deb",
+      "sha256": "ba4f88f73dbc3ae9055f3c20f4523bfdbaf1ad13ff95e258924f77d20b4fbedf",
+      "bytes": 2759320
+    },
+    {
+      "name": "libc6-dev",
+      "version": "2.36-9+deb12u14",
+      "url": "https://deb.debian.org/debian/pool/main/g/glibc/libc6-dev_2.36-9+deb12u14_amd64.deb",
+      "sha256": "0218fc2befcd784c1b0c6292c0a137ce89fad054efaa579ad083bee0f2c01aae",
+      "bytes": 1903668
+    },
+    {
+      "name": "linux-libc-dev",
+      "version": "6.1.176-1",
+      "url": "https://deb.debian.org/debian/pool/main/l/linux/linux-libc-dev_6.1.176-1_amd64.deb",
+      "sha256": "8bb258735b9dffbb111da778ebdd024750878e435ffd9dfcadcb6762ede6b4cf",
+      "bytes": 2303828
+    }
+  ],
+  "compiler": {
+    "argv": [
+      "/tmp/yk-gcc12-zfcg2m5v/sysroot/usr/bin/x86_64-linux-gnu-g++-12",
+      "--version"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.002508482997654937,
+    "stdout": "x86_64-linux-gnu-g++-12 (Debian 12.2.0-14+deb12u1) 12.2.0\nCopyright (C) 2022 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+    "stderr": ""
+  },
+  "search_paths": {
+    "argv": [
+      "/tmp/yk-gcc12-zfcg2m5v/sysroot/usr/bin/x86_64-linux-gnu-g++-12",
+      "-B/tmp/yk-gcc12-zfcg2m5v/sysroot/usr/lib/gcc/x86_64-linux-gnu/12/",
+      "--sysroot=/tmp/yk-gcc12-zfcg2m5v/sysroot",
+      "-print-search-dirs"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.001927350000187289,
+    "stdout": "install: /tmp/yk-gcc12-zfcg2m5v/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/12/\nprograms: =/tmp/yk-gcc12-zfcg2m5v/sysroot/usr/lib/gcc/x86_64-linux-gnu/12/x86_64-linux-gnu/12/:/tmp/yk-gcc12-zfcg2m5v/sysroot/usr/lib/gcc/x86_64-linux-gnu/12/x86_64-linux-gnu/:/tmp/yk-gcc12-zfcg2m5v/sysroot/usr/lib/gcc/x86_64-linux-gnu/12/:/tmp/yk-gcc12-zfcg2m5v/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/12/:/tmp/yk-gcc12-zfcg2m5v/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/:/tmp/yk-gcc12-zfcg2m5v/sysroot/usr/bin/../lib/gcc/:/tmp/yk-gcc12-zfcg2m5v/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/12/:/tmp/yk-gcc12-zfcg2m5v/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/tmp/yk-gcc12-zfcg2m5v/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/bin/\nlibraries: =/tmp/yk-gcc12-zfcg2m5v/sysroot/usr/lib/gcc/x86_64-linux-gnu/12/x86_64-linux-gnu/12/:/tmp/yk-gcc12-zfcg2m5v/sysroot/usr/lib/gcc/x86_64-linux-gnu/12/x86_64-linux-gnu/:/tmp/yk-gcc12-zfcg2m5v/sysroot/usr/lib/gcc/x86_64-linux-gnu/12/:/tmp/yk-gcc12-zfcg2m5v/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/12/:/tmp/yk-gcc12-zfcg2m5v/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/:/tmp/yk-gcc12-zfcg2m5v/sysroot/usr/bin/../lib/gcc/:/tmp/yk-gcc12-zfcg2m5v/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/12/:/tmp/yk-gcc12-zfcg2m5v/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/tmp/yk-gcc12-zfcg2m5v/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/lib/../lib/:/tmp/yk-gcc12-zfcg2m5v/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/12/:/tmp/yk-gcc12-zfcg2m5v/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/tmp/yk-gcc12-zfcg2m5v/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/tmp/yk-gcc12-zfcg2m5v/sysroot/lib/x86_64-linux-gnu/12/:/tmp/yk-gcc12-zfcg2m5v/sysroot/lib/x86_64-linux-gnu/:/tmp/yk-gcc12-zfcg2m5v/sysroot/lib/../lib/:/tmp/yk-gcc12-zfcg2m5v/sysroot/usr/lib/x86_64-linux-gnu/12/:/tmp/yk-gcc12-zfcg2m5v/sysroot/usr/lib/x86_64-linux-gnu/:/tmp/yk-gcc12-zfcg2m5v/sysroot/usr/lib/../lib/:/tmp/yk-gcc12-zfcg2m5v/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/lib/:/tmp/yk-gcc12-zfcg2m5v/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../:/tmp/yk-gcc12-zfcg2m5v/sysroot/lib/:/tmp/yk-gcc12-zfcg2m5v/sysroot/usr/lib/\n",
+    "stderr": ""
+  },
+  "host_assembler": {
+    "argv": [
+      "as",
+      "--version"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.00208695499895839,
+    "stdout": "GNU assembler (GNU Binutils) 2.47\nCopyright (C) 2026 Free Software Foundation, Inc.\nThis program is free software; you may redistribute it under the terms of\nthe GNU General Public License version 3 or later.\nThis program has absolutely no warranty.\nThis assembler was configured for a target of `x86_64-pc-linux-gnu'.\n",
+    "stderr": ""
+  },
+  "host_linker": {
+    "argv": [
+      "ld",
+      "--version"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.0024228959991887677,
+    "stdout": "GNU ld (GNU Binutils) 2.47\nCopyright (C) 2026 Free Software Foundation, Inc.\nThis program is free software; you may redistribute it under the terms of\nthe GNU General Public License version 3 or (at your option) a later version.\nThis program has absolutely no warranty.\n",
+    "stderr": ""
+  },
+  "zip_inspection": {
+    "ok": true,
+    "language": "cpp",
+    "issues": []
+  },
+  "source_sha256": {
+    "generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "main.cpp": "52268569e17d7fc40fd46f0996b2da684768902b4af27ec059c4b068911c4473",
+    "protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60"
+  },
+  "build": {
+    "argv": [
+      "/tmp/yk-gcc12-zfcg2m5v/sysroot/usr/bin/x86_64-linux-gnu-g++-12",
+      "-B/tmp/yk-gcc12-zfcg2m5v/sysroot/usr/lib/gcc/x86_64-linux-gnu/12/",
+      "--sysroot=/tmp/yk-gcc12-zfcg2m5v/sysroot",
+      "-std=c++20",
+      "-O2",
+      "-I",
+      "/tmp/yk-gcc12-zfcg2m5v/source",
+      "/tmp/yk-gcc12-zfcg2m5v/source/main.cpp",
+      "-o",
+      "/tmp/yk-gcc12-zfcg2m5v/bot"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 4.858626591998473,
+    "stdout": "",
+    "stderr": ""
+  },
+  "binary_sha256": "89d76d9bae694e2e88d460a7e3fad0f80fb850003d7e6b00094ff79e3d12f429",
+  "runtime_dependencies": {
+    "argv": [
+      "/tmp/yk-gcc12-zfcg2m5v/sysroot/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "--library-path",
+      "/tmp/yk-gcc12-zfcg2m5v/sysroot/lib/x86_64-linux-gnu:/tmp/yk-gcc12-zfcg2m5v/sysroot/usr/lib/x86_64-linux-gnu",
+      "--list",
+      "/tmp/yk-gcc12-zfcg2m5v/bot"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.0015072269998199772,
+    "stdout": "\tlinux-vdso.so.1 (0x00007f5adbbc7000)\n\tlibstdc++.so.6 => /tmp/yk-gcc12-zfcg2m5v/sysroot/usr/lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007f5adb800000)\n\tlibm.so.6 => /tmp/yk-gcc12-zfcg2m5v/sysroot/lib/x86_64-linux-gnu/libm.so.6 (0x00007f5adba8c000)\n\tlibgcc_s.so.1 => /tmp/yk-gcc12-zfcg2m5v/sysroot/lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007f5adba6c000)\n\tlibc.so.6 => /tmp/yk-gcc12-zfcg2m5v/sysroot/lib/x86_64-linux-gnu/libc.so.6 (0x00007f5adb61e000)\n\t/lib64/ld-linux-x86-64.so.2 => /tmp/yk-gcc12-zfcg2m5v/sysroot/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 (0x00007f5adbbc9000)\n",
+    "stderr": ""
+  },
+  "sdk": {
+    "argv": [
+      "/usr/bin/python3",
+      "/home/dlwltkd/YonKo_hackathon_-/yk-development-tools/bots/dist/starter/run_tests.py",
+      "--bot",
+      "/tmp/yk-gcc12-zfcg2m5v/sysroot/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 --library-path /tmp/yk-gcc12-zfcg2m5v/sysroot/lib/x86_64-linux-gnu:/tmp/yk-gcc12-zfcg2m5v/sysroot/usr/lib/x86_64-linux-gnu /tmp/yk-gcc12-zfcg2m5v/bot",
+      "--seed",
+      "0"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 1.17598206600087,
+    "stdout": "{\n  \"ok\": true,\n  \"issues\": [],\n  \"result\": {\n    \"winner\": \"Y\",\n    \"reason\": \"instant\",\n    \"score\": {\n      \"Y\": 21,\n      \"K\": 0\n    },\n    \"turns\": 17,\n    \"seed\": 0\n  },\n  \"output_usage\": {\n    \"stdout_bytes\": 9293,\n    \"stderr_bytes\": 0,\n    \"max_line_bytes\": 87,\n    \"turns\": [\n      {\n        \"turn\": 1,\n        \"bytes\": 131,\n        \"lines\": 5\n      },\n      {\n        \"turn\": 2,\n        \"bytes\": 171,\n        \"lines\": 8\n      },\n      {\n        \"turn\": 3,\n        \"bytes\": 221,\n        \"lines\": 11\n      },\n      {\n        \"turn\": 4,\n        \"bytes\": 291,\n        \"lines\": 16\n      },\n      {\n        \"turn\": 5,\n        \"bytes\": 237,\n        \"lines\": 13\n      },\n      {\n        \"turn\": 6,\n        \"bytes\": 337,\n        \"lines\": 20\n      },\n      {\n        \"turn\": 7,\n        \"bytes\": 347,\n        \"lines\": 21\n      },\n      {\n        \"turn\": 8,\n        \"bytes\": 332,\n        \"lines\": 20\n      },\n      {\n        \"turn\": 9,\n        \"bytes\": 407,\n        \"lines\": 25\n      },\n      {\n        \"turn\": 10,\n        \"bytes\": 499,\n        \"lines\": 30\n      },\n      {\n        \"turn\": 11,\n        \"bytes\": 749,\n        \"lines\": 46\n      },\n      {\n        \"turn\": 12,\n        \"bytes\": 780,\n        \"lines\": 48\n      },\n      {\n        \"turn\": 13,\n        \"bytes\": 870,\n        \"lines\": 54\n      },\n      {\n        \"turn\": 14,\n        \"bytes\": 945,\n        \"lines\": 59\n      },\n      {\n        \"turn\": 15,\n        \"bytes\": 946,\n        \"lines\": 59\n      },\n      {\n        \"turn\": 16,\n        \"bytes\": 978,\n        \"lines\": 61\n      },\n      {\n        \"turn\": 17,\n        \"bytes\": 1052,\n        \"lines\": 66\n      }\n    ],\n    \"unfinished_turn\": {\n      \"turn\": 18,\n      \"bytes\": 0,\n      \"lines\": 0\n    },\n    \"warnings\": []\n  },\n  \"warnings\": []\n}\n",
+    "stderr": ""
+  },
+  "sdk_result": {
+    "ok": true,
+    "issues": [],
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 21,
+        "K": 0
+      },
+      "turns": 17,
+      "seed": 0
+    },
+    "output_usage": {
+      "stdout_bytes": 9293,
+      "stderr_bytes": 0,
+      "max_line_bytes": 87,
+      "turns": [
+        {
+          "turn": 1,
+          "bytes": 131,
+          "lines": 5
+        },
+        {
+          "turn": 2,
+          "bytes": 171,
+          "lines": 8
+        },
+        {
+          "turn": 3,
+          "bytes": 221,
+          "lines": 11
+        },
+        {
+          "turn": 4,
+          "bytes": 291,
+          "lines": 16
+        },
+        {
+          "turn": 5,
+          "bytes": 237,
+          "lines": 13
+        },
+        {
+          "turn": 6,
+          "bytes": 337,
+          "lines": 20
+        },
+        {
+          "turn": 7,
+          "bytes": 347,
+          "lines": 21
+        },
+        {
+          "turn": 8,
+          "bytes": 332,
+          "lines": 20
+        },
+        {
+          "turn": 9,
+          "bytes": 407,
+          "lines": 25
+        },
+        {
+          "turn": 10,
+          "bytes": 499,
+          "lines": 30
+        },
+        {
+          "turn": 11,
+          "bytes": 749,
+          "lines": 46
+        },
+        {
+          "turn": 12,
+          "bytes": 780,
+          "lines": 48
+        },
+        {
+          "turn": 13,
+          "bytes": 870,
+          "lines": 54
+        },
+        {
+          "turn": 14,
+          "bytes": 945,
+          "lines": 59
+        },
+        {
+          "turn": 15,
+          "bytes": 946,
+          "lines": 59
+        },
+        {
+          "turn": 16,
+          "bytes": 978,
+          "lines": 61
+        },
+        {
+          "turn": 17,
+          "bytes": 1052,
+          "lines": 66
+        }
+      ],
+      "unfinished_turn": {
+        "turn": 18,
+        "bytes": 0,
+        "lines": 0
+      },
+      "warnings": []
+    },
+    "warnings": []
+  },
+  "temporary_directory_removed": true,
+  "finished_utc": "2026-09-27T17:37:46Z"
+}
