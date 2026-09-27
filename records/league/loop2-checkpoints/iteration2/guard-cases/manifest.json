@@ -1,0 +1,471 @@
+{
+  "scope": "Read-only remote stream of six completed development replays, selected after completion. Selection stage is ongoing.",
+  "remote_directory": "/tmp/yk-league-1c1csuif/workspace/output/runs/development/replays",
+  "eventual_full_archive_directory": "records/league/loop2-iteration2/runs/development/replays",
+  "rows": [
+    {
+      "candidate": "v2",
+      "opponent": "r_combined",
+      "map_seed": 7102,
+      "team": "Y",
+      "job_id": "5adfad2b451d417ecfa98881",
+      "started_utc": "2026-09-27T15:49:15.485985+00:00",
+      "status": "complete",
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 9,
+          "K": 20
+        },
+        "turns": 160,
+        "seed": 7102
+      },
+      "win": false,
+      "draw": false,
+      "forfeit": false,
+      "score_margin": -11,
+      "max_turn_ms": 51.92094761878252,
+      "opponent_max_turn_ms": 52.99689620733261,
+      "p95_turn_ms": 14.384672045707703,
+      "diagnostics": {
+        "Y": {
+          "engineering_turns": 141,
+          "late_engineering_turns": 29,
+          "production": {
+            "F": 12,
+            "W": 822,
+            "S": 0
+          },
+          "deaths": {
+            "F": 6,
+            "W": 585,
+            "S": 0
+          },
+          "score_turn_120": 10,
+          "max_score_lead": 7,
+          "biggest_score_drop": 5,
+          "biggest_drop_turn": 83,
+          "flag_contest_turns": 29,
+          "late_frames": 40,
+          "late_w_concentration_mean": 0.5278392534358777,
+          "late_largest_w_stack": 176
+        },
+        "K": {
+          "engineering_turns": 152,
+          "late_engineering_turns": 40,
+          "production": {
+            "F": 8,
+            "W": 885,
+            "S": 0
+          },
+          "deaths": {
+            "F": 2,
+            "W": 585,
+            "S": 0
+          },
+          "score_turn_120": 21,
+          "max_score_lead": 19,
+          "biggest_score_drop": 4,
+          "biggest_drop_turn": 111,
+          "flag_contest_turns": 29,
+          "late_frames": 40,
+          "late_w_concentration_mean": 0.4738532729095001,
+          "late_largest_w_stack": 193
+        }
+      },
+      "logical_trace_sha256": "115927d11eedbd80ef5946d2b9557277523e5bb721c3e604ce084b96d228b8cf",
+      "replay": "replays/5adfad2b451d417ecfa98881.json.gz",
+      "finished_utc": "2026-09-27T15:49:18.666020+00:00",
+      "elapsed_seconds": 3.1800467325374484
+    },
+    {
+      "candidate": "v2",
+      "opponent": "v2",
+      "map_seed": 7100,
+      "team": "Y",
+      "job_id": "8e31064020efceb83a360d03",
+      "started_utc": "2026-09-27T15:50:27.375655+00:00",
+      "status": "complete",
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 12,
+          "K": 29
+        },
+        "turns": 160,
+        "seed": 7100
+      },
+      "win": false,
+      "draw": false,
+      "forfeit": false,
+      "score_margin": -17,
+      "max_turn_ms": 14.654657803475857,
+      "opponent_max_turn_ms": 14.516922645270824,
+      "p95_turn_ms": 14.367511495947838,
+      "diagnostics": {
+        "Y": {
+          "engineering_turns": 85,
+          "late_engineering_turns": 18,
+          "production": {
+            "F": 14,
+            "W": 714,
+            "S": 0
+          },
+          "deaths": {
+            "F": 9,
+            "W": 632,
+            "S": 0
+          },
+          "score_turn_120": 15,
+          "max_score_lead": 14,
+          "biggest_score_drop": 7,
+          "biggest_drop_turn": 63,
+          "flag_contest_turns": 8,
+          "late_frames": 40,
+          "late_w_concentration_mean": 0.19910336024105896,
+          "late_largest_w_stack": 25
+        },
+        "K": {
+          "engineering_turns": 126,
+          "late_engineering_turns": 37,
+          "production": {
+            "F": 12,
+            "W": 827,
+            "S": 0
+          },
+          "deaths": {
+            "F": 6,
+            "W": 632,
+            "S": 0
+          },
+          "score_turn_120": 26,
+          "max_score_lead": 25,
+          "biggest_score_drop": 6,
+          "biggest_drop_turn": 53,
+          "flag_contest_turns": 8,
+          "late_frames": 40,
+          "late_w_concentration_mean": 0.09714938744155385,
+          "late_largest_w_stack": 25
+        }
+      },
+      "logical_trace_sha256": "dfbaf764533355501d1383b10650cf843aa3f5d6d3dd5e1ff7c7f5651794b0aa",
+      "replay": "replays/8e31064020efceb83a360d03.json.gz",
+      "finished_utc": "2026-09-27T15:50:30.423799+00:00",
+      "elapsed_seconds": 3.0481568751856685
+    },
+    {
+      "candidate": "q_v2_window_guard",
+      "opponent": "r_combined",
+      "map_seed": 7102,
+      "team": "Y",
+      "job_id": "86d38f885e0cdd0ad0a6fae8",
+      "started_utc": "2026-09-27T15:50:34.194478+00:00",
+      "status": "complete",
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 16,
+          "K": 15
+        },
+        "turns": 160,
+        "seed": 7102
+      },
+      "win": true,
+      "draw": false,
+      "forfeit": false,
+      "score_margin": 1,
+      "max_turn_ms": 14.88497294485569,
+      "opponent_max_turn_ms": 15.381020493805408,
+      "p95_turn_ms": 14.679367654025555,
+      "diagnostics": {
+        "Y": {
+          "engineering_turns": 152,
+          "late_engineering_turns": 40,
+          "production": {
+            "F": 14,
+            "W": 875,
+            "S": 0
+          },
+          "deaths": {
+            "F": 7,
+            "W": 741,
+            "S": 0
+          },
+          "score_turn_120": 23,
+          "max_score_lead": 12,
+          "biggest_score_drop": 4,
+          "biggest_drop_turn": 129,
+          "flag_contest_turns": 52,
+          "late_frames": 40,
+          "late_w_concentration_mean": 0.522392172124609,
+          "late_largest_w_stack": 230
+        },
+        "K": {
+          "engineering_turns": 152,
+          "late_engineering_turns": 40,
+          "production": {
+            "F": 11,
+            "W": 884,
+            "S": 0
+          },
+          "deaths": {
+            "F": 4,
+            "W": 741,
+            "S": 0
+          },
+          "score_turn_120": 11,
+          "max_score_lead": 7,
+          "biggest_score_drop": 4,
+          "biggest_drop_turn": 159,
+          "flag_contest_turns": 52,
+          "late_frames": 40,
+          "late_w_concentration_mean": 0.5142867299988089,
+          "late_largest_w_stack": 211
+        }
+      },
+      "logical_trace_sha256": "c015298021e4f542bb0a75b3f3951c538bd8e4fea93784e3b0f0efb29515859f",
+      "replay": "replays/86d38f885e0cdd0ad0a6fae8.json.gz",
+      "finished_utc": "2026-09-27T15:50:37.288754+00:00",
+      "elapsed_seconds": 3.09429004881531
+    },
+    {
+      "candidate": "q_v2_window_guard",
+      "opponent": "v2",
+      "map_seed": 7100,
+      "team": "Y",
+      "job_id": "9973458b62347fbffcae0f1e",
+      "started_utc": "2026-09-27T15:52:22.653574+00:00",
+      "status": "complete",
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 27,
+          "K": 14
+        },
+        "turns": 160,
+        "seed": 7100
+      },
+      "win": true,
+      "draw": false,
+      "forfeit": false,
+      "score_margin": 13,
+      "max_turn_ms": 34.77041516453028,
+      "opponent_max_turn_ms": 14.954447746276855,
+      "p95_turn_ms": 14.926085248589516,
+      "diagnostics": {
+        "Y": {
+          "engineering_turns": 131,
+          "late_engineering_turns": 40,
+          "production": {
+            "F": 12,
+            "W": 836,
+            "S": 0
+          },
+          "deaths": {
+            "F": 5,
+            "W": 663,
+            "S": 0
+          },
+          "score_turn_120": 26,
+          "max_score_lead": 25,
+          "biggest_score_drop": 6,
+          "biggest_drop_turn": 92,
+          "flag_contest_turns": 18,
+          "late_frames": 40,
+          "late_w_concentration_mean": 0.10938286165295397,
+          "late_largest_w_stack": 40
+        },
+        "K": {
+          "engineering_turns": 101,
+          "late_engineering_turns": 30,
+          "production": {
+            "F": 14,
+            "W": 746,
+            "S": 0
+          },
+          "deaths": {
+            "F": 8,
+            "W": 663,
+            "S": 0
+          },
+          "score_turn_120": 14,
+          "max_score_lead": 18,
+          "biggest_score_drop": 7,
+          "biggest_drop_turn": 129,
+          "flag_contest_turns": 18,
+          "late_frames": 40,
+          "late_w_concentration_mean": 0.2303736171009137,
+          "late_largest_w_stack": 38
+        }
+      },
+      "logical_trace_sha256": "a69b2bf9a41a9b0fb7e91c6c723679c74b6bcf46a1df09c31ec2c87df61e0210",
+      "replay": "replays/9973458b62347fbffcae0f1e.json.gz",
+      "finished_utc": "2026-09-27T15:52:25.765004+00:00",
+      "elapsed_seconds": 3.1114422269165516
+    },
+    {
+      "candidate": "q_threat_window",
+      "opponent": "r_combined",
+      "map_seed": 7102,
+      "team": "Y",
+      "job_id": "dd826d81189102b02d83181e",
+      "started_utc": "2026-09-27T15:53:25.151130+00:00",
+      "status": "complete",
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 13,
+          "K": 22
+        },
+        "turns": 160,
+        "seed": 7102
+      },
+      "win": false,
+      "draw": false,
+      "forfeit": false,
+      "score_margin": -9,
+      "max_turn_ms": 44.006241485476494,
+      "opponent_max_turn_ms": 15.71111474186182,
+      "p95_turn_ms": 14.538923278450966,
+      "diagnostics": {
+        "Y": {
+          "engineering_turns": 147,
+          "late_engineering_turns": 40,
+          "production": {
+            "F": 10,
+            "W": 842,
+            "S": 0
+          },
+          "deaths": {
+            "F": 3,
+            "W": 543,
+            "S": 0
+          },
+          "score_turn_120": 16,
+          "max_score_lead": 11,
+          "biggest_score_drop": 5,
+          "biggest_drop_turn": 40,
+          "flag_contest_turns": 46,
+          "late_frames": 40,
+          "late_w_concentration_mean": 0.6420697397827896,
+          "late_largest_w_stack": 238
+        },
+        "K": {
+          "engineering_turns": 152,
+          "late_engineering_turns": 40,
+          "production": {
+            "F": 8,
+            "W": 891,
+            "S": 0
+          },
+          "deaths": {
+            "F": 1,
+            "W": 543,
+            "S": 0
+          },
+          "score_turn_120": 19,
+          "max_score_lead": 11,
+          "biggest_score_drop": 6,
+          "biggest_drop_turn": 23,
+          "flag_contest_turns": 46,
+          "late_frames": 40,
+          "late_w_concentration_mean": 0.5492506624751605,
+          "late_largest_w_stack": 233
+        }
+      },
+      "logical_trace_sha256": "12816c98183ef9e942bda0d12ef8f140ea88481c81b0eeed6bf284d075231984",
+      "replay": "replays/dd826d81189102b02d83181e.json.gz",
+      "finished_utc": "2026-09-27T15:53:28.303484+00:00",
+      "elapsed_seconds": 3.1523669408634305
+    },
+    {
+      "candidate": "q_threat_window",
+      "opponent": "v2",
+      "map_seed": 7100,
+      "team": "Y",
+      "job_id": "63ff8ebccb8a05964316c738",
+      "started_utc": "2026-09-27T15:54:24.668865+00:00",
+      "status": "complete",
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 10,
+          "K": 27
+        },
+        "turns": 160,
+        "seed": 7100
+      },
+      "win": false,
+      "draw": false,
+      "forfeit": false,
+      "score_margin": -17,
+      "max_turn_ms": 36.004938185214996,
+      "opponent_max_turn_ms": 14.558386988937855,
+      "p95_turn_ms": 14.669629745185375,
+      "diagnostics": {
+        "Y": {
+          "engineering_turns": 106,
+          "late_engineering_turns": 24,
+          "production": {
+            "F": 15,
+            "W": 735,
+            "S": 0
+          },
+          "deaths": {
+            "F": 10,
+            "W": 663,
+            "S": 0
+          },
+          "score_turn_120": 19,
+          "max_score_lead": 13,
+          "biggest_score_drop": 8,
+          "biggest_drop_turn": 59,
+          "flag_contest_turns": 8,
+          "late_frames": 40,
+          "late_w_concentration_mean": 0.16017743124554978,
+          "late_largest_w_stack": 24
+        },
+        "K": {
+          "engineering_turns": 109,
+          "late_engineering_turns": 33,
+          "production": {
+            "F": 8,
+            "W": 793,
+            "S": 0
+          },
+          "deaths": {
+            "F": 2,
+            "W": 663,
+            "S": 0
+          },
+          "score_turn_120": 18,
+          "max_score_lead": 18,
+          "biggest_score_drop": 7,
+          "biggest_drop_turn": 130,
+          "flag_contest_turns": 8,
+          "late_frames": 40,
+          "late_w_concentration_mean": 0.11824925734054863,
+          "late_largest_w_stack": 27
+        }
+      },
+      "logical_trace_sha256": "f871827f7744ad5b22d036b8c7bb4a1bf69e6c25b5875e957c5b9dffa6400304",
+      "replay": "replays/63ff8ebccb8a05964316c738.json.gz",
+      "finished_utc": "2026-09-27T15:54:27.757731+00:00",
+      "elapsed_seconds": 3.0888792173936963
+    }
+  ],
+  "sha256": {
+    "86d38f885e0cdd0ad0a6fae8": "394bab51a8025813788ec396cf017b3b1c6766fcde130c74bf3c1f7b68b94e0b",
+    "dd826d81189102b02d83181e": "f8bf6fdad83567e31eecf0b8114a976e369953f5905178df7413c3c9f54b27d3",
+    "5adfad2b451d417ecfa98881": "267240131a377c25378a969f31f4cf5e905298d7a9417be90019bccb08632a2a",
+    "9973458b62347fbffcae0f1e": "715bd5e1e05ac41533f89392485182827fa8b1f62052078fe0a1a02885a3349b",
+    "63ff8ebccb8a05964316c738": "d01bc008f4f447ca25893eda6293977dbcb383f8aee0c712e1b3a36fb65defa3",
+    "8e31064020efceb83a360d03": "6460377131e9fc46b8f2c7d6165c99dfc7ec03db8afa03200e1f056dd52e0d79"
+  }
+}

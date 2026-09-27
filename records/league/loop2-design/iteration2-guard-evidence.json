@@ -1,0 +1,1472 @@
+{
+  "schema": 1,
+  "source_manifest_sha256": "4fd732a94d0b0680964ae35153f141cf258a4385d80c02ed8e07a0bfd3efc0ab",
+  "script_sha256": "2a42a7ac8826f849cec7444e5ea008f45223d6f7f500707dec36efcee8fbd2f5",
+  "shared_audit_script_sha256": "35f3683c930665e7cdb5150d6b92a87a95d8bf7d9f140e2dc3cb540c264a13d5",
+  "verified_frames": 960,
+  "selection": "Two hand-selected development gains after completed results; no population inference from these cases.",
+  "cases": [
+    {
+      "map_seed": 7102,
+      "candidate": "v2",
+      "opponent": "r_combined",
+      "team": "Y",
+      "job_id": "5adfad2b451d417ecfa98881",
+      "path": "records/league/loop2-checkpoints/iteration2/guard-cases/5adfad2b451d417ecfa98881.json.gz",
+      "sha256": "267240131a377c25378a969f31f4cf5e905298d7a9417be90019bccb08632a2a",
+      "verified_frames": 160,
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 9,
+          "K": 20
+        },
+        "turns": 160,
+        "seed": 7102
+      },
+      "economy": {
+        "Y": {
+          "eng_discount_turns_at_spawn": 141,
+          "hall_count_sum_at_income": 114,
+          "effective_income": 1828,
+          "nominal_hall_income": 228,
+          "production": {
+            "F": 12,
+            "W": 822,
+            "S": 0
+          },
+          "production_spending": 1755,
+          "deaths": {
+            "F": 6,
+            "W": 585,
+            "S": 0
+          }
+        },
+        "K": {
+          "eng_discount_turns_at_spawn": 152,
+          "hall_count_sum_at_income": 150,
+          "effective_income": 1886,
+          "nominal_hall_income": 300,
+          "production": {
+            "F": 8,
+            "W": 885,
+            "S": 0
+          },
+          "production_spending": 1828,
+          "deaths": {
+            "F": 2,
+            "W": 585,
+            "S": 0
+          }
+        }
+      },
+      "timeline": [
+        {
+          "turn": 20,
+          "score": {
+            "Y": 16,
+            "K": 16
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 64,
+            "S": 0
+          }
+        },
+        {
+          "turn": 40,
+          "score": {
+            "Y": 19,
+            "K": 14
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 121,
+            "S": 0
+          }
+        },
+        {
+          "turn": 80,
+          "score": {
+            "Y": 13,
+            "K": 20
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 267,
+            "S": 0
+          }
+        },
+        {
+          "turn": 120,
+          "score": {
+            "Y": 10,
+            "K": 21
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 173,
+            "S": 0
+          }
+        },
+        {
+          "turn": 140,
+          "score": {
+            "Y": 10,
+            "K": 25
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 249,
+            "S": 0
+          }
+        },
+        {
+          "turn": 160,
+          "score": {
+            "Y": 9,
+            "K": 20
+          },
+          "Y_units": {
+            "F": 6,
+            "W": 237,
+            "S": 0
+          }
+        }
+      ]
+    },
+    {
+      "map_seed": 7100,
+      "candidate": "v2",
+      "opponent": "v2",
+      "team": "Y",
+      "job_id": "8e31064020efceb83a360d03",
+      "path": "records/league/loop2-checkpoints/iteration2/guard-cases/8e31064020efceb83a360d03.json.gz",
+      "sha256": "6460377131e9fc46b8f2c7d6165c99dfc7ec03db8afa03200e1f056dd52e0d79",
+      "verified_frames": 160,
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 12,
+          "K": 29
+        },
+        "turns": 160,
+        "seed": 7100
+      },
+      "economy": {
+        "Y": {
+          "eng_discount_turns_at_spawn": 85,
+          "hall_count_sum_at_income": 124,
+          "effective_income": 1848,
+          "nominal_hall_income": 248,
+          "production": {
+            "F": 14,
+            "W": 714,
+            "S": 0
+          },
+          "production_spending": 1756,
+          "deaths": {
+            "F": 9,
+            "W": 632,
+            "S": 0
+          }
+        },
+        "K": {
+          "eng_discount_turns_at_spawn": 126,
+          "hall_count_sum_at_income": 165,
+          "effective_income": 1930,
+          "nominal_hall_income": 330,
+          "production": {
+            "F": 12,
+            "W": 827,
+            "S": 0
+          },
+          "production_spending": 1831,
+          "deaths": {
+            "F": 6,
+            "W": 632,
+            "S": 0
+          }
+        }
+      },
+      "timeline": [
+        {
+          "turn": 20,
+          "score": {
+            "Y": 22,
+            "K": 19
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 73,
+            "S": 0
+          }
+        },
+        {
+          "turn": 40,
+          "score": {
+            "Y": 24,
+            "K": 17
+          },
+          "Y_units": {
+            "F": 6,
+            "W": 103,
+            "S": 0
+          }
+        },
+        {
+          "turn": 80,
+          "score": {
+            "Y": 16,
+            "K": 22
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 97,
+            "S": 0
+          }
+        },
+        {
+          "turn": 120,
+          "score": {
+            "Y": 15,
+            "K": 26
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 90,
+            "S": 0
+          }
+        },
+        {
+          "turn": 140,
+          "score": {
+            "Y": 9,
+            "K": 27
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 46,
+            "S": 0
+          }
+        },
+        {
+          "turn": 160,
+          "score": {
+            "Y": 12,
+            "K": 29
+          },
+          "Y_units": {
+            "F": 5,
+            "W": 82,
+            "S": 0
+          }
+        }
+      ]
+    },
+    {
+      "map_seed": 7102,
+      "candidate": "q_v2_window_guard",
+      "opponent": "r_combined",
+      "team": "Y",
+      "job_id": "86d38f885e0cdd0ad0a6fae8",
+      "path": "records/league/loop2-checkpoints/iteration2/guard-cases/86d38f885e0cdd0ad0a6fae8.json.gz",
+      "sha256": "394bab51a8025813788ec396cf017b3b1c6766fcde130c74bf3c1f7b68b94e0b",
+      "verified_frames": 160,
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 16,
+          "K": 15
+        },
+        "turns": 160,
+        "seed": 7102
+      },
+      "economy": {
+        "Y": {
+          "eng_discount_turns_at_spawn": 152,
+          "hall_count_sum_at_income": 137,
+          "effective_income": 1874,
+          "nominal_hall_income": 274,
+          "production": {
+            "F": 14,
+            "W": 875,
+            "S": 0
+          },
+          "production_spending": 1838,
+          "deaths": {
+            "F": 7,
+            "W": 741,
+            "S": 0
+          }
+        },
+        "K": {
+          "eng_discount_turns_at_spawn": 152,
+          "hall_count_sum_at_income": 138,
+          "effective_income": 1876,
+          "nominal_hall_income": 276,
+          "production": {
+            "F": 11,
+            "W": 884,
+            "S": 0
+          },
+          "production_spending": 1841,
+          "deaths": {
+            "F": 4,
+            "W": 741,
+            "S": 0
+          }
+        }
+      },
+      "timeline": [
+        {
+          "turn": 20,
+          "score": {
+            "Y": 16,
+            "K": 19
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 75,
+            "S": 0
+          }
+        },
+        {
+          "turn": 40,
+          "score": {
+            "Y": 16,
+            "K": 19
+          },
+          "Y_units": {
+            "F": 6,
+            "W": 175,
+            "S": 0
+          }
+        },
+        {
+          "turn": 80,
+          "score": {
+            "Y": 21,
+            "K": 14
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 251,
+            "S": 0
+          }
+        },
+        {
+          "turn": 120,
+          "score": {
+            "Y": 23,
+            "K": 11
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 214,
+            "S": 0
+          }
+        },
+        {
+          "turn": 140,
+          "score": {
+            "Y": 19,
+            "K": 16
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 239,
+            "S": 0
+          }
+        },
+        {
+          "turn": 160,
+          "score": {
+            "Y": 16,
+            "K": 15
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 134,
+            "S": 0
+          }
+        }
+      ]
+    },
+    {
+      "map_seed": 7100,
+      "candidate": "q_v2_window_guard",
+      "opponent": "v2",
+      "team": "Y",
+      "job_id": "9973458b62347fbffcae0f1e",
+      "path": "records/league/loop2-checkpoints/iteration2/guard-cases/9973458b62347fbffcae0f1e.json.gz",
+      "sha256": "715bd5e1e05ac41533f89392485182827fa8b1f62052078fe0a1a02885a3349b",
+      "verified_frames": 160,
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 27,
+          "K": 14
+        },
+        "turns": 160,
+        "seed": 7100
+      },
+      "economy": {
+        "Y": {
+          "eng_discount_turns_at_spawn": 131,
+          "hall_count_sum_at_income": 166,
+          "effective_income": 1932,
+          "nominal_hall_income": 332,
+          "production": {
+            "F": 12,
+            "W": 836,
+            "S": 0
+          },
+          "production_spending": 1826,
+          "deaths": {
+            "F": 5,
+            "W": 663,
+            "S": 0
+          }
+        },
+        "K": {
+          "eng_discount_turns_at_spawn": 101,
+          "hall_count_sum_at_income": 130,
+          "effective_income": 1860,
+          "nominal_hall_income": 260,
+          "production": {
+            "F": 14,
+            "W": 746,
+            "S": 0
+          },
+          "production_spending": 1761,
+          "deaths": {
+            "F": 8,
+            "W": 663,
+            "S": 0
+          }
+        }
+      },
+      "timeline": [
+        {
+          "turn": 20,
+          "score": {
+            "Y": 18,
+            "K": 19
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 71,
+            "S": 0
+          }
+        },
+        {
+          "turn": 40,
+          "score": {
+            "Y": 16,
+            "K": 18
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 108,
+            "S": 0
+          }
+        },
+        {
+          "turn": 80,
+          "score": {
+            "Y": 21,
+            "K": 18
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 184,
+            "S": 0
+          }
+        },
+        {
+          "turn": 120,
+          "score": {
+            "Y": 26,
+            "K": 14
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 134,
+            "S": 0
+          }
+        },
+        {
+          "turn": 140,
+          "score": {
+            "Y": 26,
+            "K": 12
+          },
+          "Y_units": {
+            "F": 6,
+            "W": 153,
+            "S": 0
+          }
+        },
+        {
+          "turn": 160,
+          "score": {
+            "Y": 27,
+            "K": 14
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 173,
+            "S": 0
+          }
+        }
+      ]
+    },
+    {
+      "map_seed": 7102,
+      "candidate": "q_threat_window",
+      "opponent": "r_combined",
+      "team": "Y",
+      "job_id": "dd826d81189102b02d83181e",
+      "path": "records/league/loop2-checkpoints/iteration2/guard-cases/dd826d81189102b02d83181e.json.gz",
+      "sha256": "f8bf6fdad83567e31eecf0b8114a976e369953f5905178df7413c3c9f54b27d3",
+      "verified_frames": 160,
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 13,
+          "K": 22
+        },
+        "turns": 160,
+        "seed": 7102
+      },
+      "economy": {
+        "Y": {
+          "eng_discount_turns_at_spawn": 147,
+          "hall_count_sum_at_income": 121,
+          "effective_income": 1842,
+          "nominal_hall_income": 242,
+          "production": {
+            "F": 10,
+            "W": 842,
+            "S": 0
+          },
+          "production_spending": 1770,
+          "deaths": {
+            "F": 3,
+            "W": 543,
+            "S": 0
+          }
+        },
+        "K": {
+          "eng_discount_turns_at_spawn": 152,
+          "hall_count_sum_at_income": 158,
+          "effective_income": 1916,
+          "nominal_hall_income": 316,
+          "production": {
+            "F": 8,
+            "W": 891,
+            "S": 0
+          },
+          "production_spending": 1840,
+          "deaths": {
+            "F": 1,
+            "W": 543,
+            "S": 0
+          }
+        }
+      },
+      "timeline": [
+        {
+          "turn": 20,
+          "score": {
+            "Y": 16,
+            "K": 19
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 63,
+            "S": 0
+          }
+        },
+        {
+          "turn": 40,
+          "score": {
+            "Y": 16,
+            "K": 10
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 130,
+            "S": 0
+          }
+        },
+        {
+          "turn": 80,
+          "score": {
+            "Y": 15,
+            "K": 20
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 174,
+            "S": 0
+          }
+        },
+        {
+          "turn": 120,
+          "score": {
+            "Y": 16,
+            "K": 19
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 124,
+            "S": 0
+          }
+        },
+        {
+          "turn": 140,
+          "score": {
+            "Y": 14,
+            "K": 21
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 199,
+            "S": 0
+          }
+        },
+        {
+          "turn": 160,
+          "score": {
+            "Y": 13,
+            "K": 22
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 299,
+            "S": 0
+          }
+        }
+      ]
+    },
+    {
+      "map_seed": 7100,
+      "candidate": "q_threat_window",
+      "opponent": "v2",
+      "team": "Y",
+      "job_id": "63ff8ebccb8a05964316c738",
+      "path": "records/league/loop2-checkpoints/iteration2/guard-cases/63ff8ebccb8a05964316c738.json.gz",
+      "sha256": "d01bc008f4f447ca25893eda6293977dbcb383f8aee0c712e1b3a36fb65defa3",
+      "verified_frames": 160,
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 10,
+          "K": 27
+        },
+        "turns": 160,
+        "seed": 7100
+      },
+      "economy": {
+        "Y": {
+          "eng_discount_turns_at_spawn": 106,
+          "hall_count_sum_at_income": 123,
+          "effective_income": 1846,
+          "nominal_hall_income": 246,
+          "production": {
+            "F": 15,
+            "W": 735,
+            "S": 0
+          },
+          "production_spending": 1734,
+          "deaths": {
+            "F": 10,
+            "W": 663,
+            "S": 0
+          }
+        },
+        "K": {
+          "eng_discount_turns_at_spawn": 109,
+          "hall_count_sum_at_income": 161,
+          "effective_income": 1922,
+          "nominal_hall_income": 322,
+          "production": {
+            "F": 8,
+            "W": 793,
+            "S": 0
+          },
+          "production_spending": 1805,
+          "deaths": {
+            "F": 2,
+            "W": 663,
+            "S": 0
+          }
+        }
+      },
+      "timeline": [
+        {
+          "turn": 20,
+          "score": {
+            "Y": 22,
+            "K": 19
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 71,
+            "S": 0
+          }
+        },
+        {
+          "turn": 40,
+          "score": {
+            "Y": 22,
+            "K": 19
+          },
+          "Y_units": {
+            "F": 6,
+            "W": 104,
+            "S": 0
+          }
+        },
+        {
+          "turn": 80,
+          "score": {
+            "Y": 15,
+            "K": 24
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 89,
+            "S": 0
+          }
+        },
+        {
+          "turn": 120,
+          "score": {
+            "Y": 19,
+            "K": 18
+          },
+          "Y_units": {
+            "F": 7,
+            "W": 71,
+            "S": 0
+          }
+        },
+        {
+          "turn": 140,
+          "score": {
+            "Y": 16,
+            "K": 21
+          },
+          "Y_units": {
+            "F": 6,
+            "W": 99,
+            "S": 0
+          }
+        },
+        {
+          "turn": 160,
+          "score": {
+            "Y": 10,
+            "K": 27
+          },
+          "Y_units": {
+            "F": 5,
+            "W": 72,
+            "S": 0
+          }
+        }
+      ]
+    }
+  ],
+  "pairs": [
+    {
+      "map_seed": 7102,
+      "first_own_command_difference": {
+        "turn": 14,
+        "preceding_snapshot_equal": true,
+        "opponent_commands_equal": true,
+        "candidate_commands": [
+          "SPAWN W 6",
+          "MOVE 2 14 W 2 U",
+          "MOVE 2 14 W 4 U",
+          "MOVE 2 13 W 1 R",
+          "MOVE 2 13 W 2 R",
+          "MOVE 2 13 W 1 R",
+          "MOVE 2 13 W 1 R",
+          "MOVE 2 9 W 2 R",
+          "MOVE 2 9 W 2 R",
+          "MOVE 4 9 W 4 U",
+          "MOVE 3 12 W 4 R",
+          "MOVE 4 12 W 4 U",
+          "MOVE 3 13 W 4 U",
+          "MOVE 6 7 W 2 U",
+          "MOVE 4 11 W 3 U",
+          "MOVE 3 7 W 2 R",
+          "MOVE 4 10 W 1 U",
+          "MOVE 4 10 W 1 U",
+          "MOVE 4 6 W 1 U",
+          "MOVE 1 7 W 1 U",
+          "MOVE 1 9 W 1 U",
+          "MOVE 8 9 F 1 R",
+          "MOVE 4 6 F 1 U",
+          "MOVE 5 7 F 1 U",
+          "MOVE 1 4 F 1 U",
+          "MOVE 4 7 F 1 U",
+          "TELE 4 8 F 1 6 7",
+          "MOVE 6 7 W 1 R",
+          "PRIORITY 13 9 1 5 3 10 14 0 9 5 8 2 5 9 10 6 8 7 10 5 11 4 7 7 4 8 6 7 4 9 6 12 0 14"
+        ],
+        "baseline_commands": [
+          "SPAWN W 6",
+          "MOVE 2 14 W 2 U",
+          "MOVE 2 14 W 4 U",
+          "MOVE 2 13 W 1 R",
+          "MOVE 2 13 W 2 R",
+          "MOVE 2 13 W 2 R",
+          "MOVE 2 9 W 1 R",
+          "MOVE 2 9 W 1 R",
+          "MOVE 2 9 W 2 R",
+          "MOVE 4 9 W 4 U",
+          "MOVE 3 12 W 4 R",
+          "MOVE 4 12 W 4 U",
+          "MOVE 3 13 W 4 U",
+          "MOVE 6 7 W 2 U",
+          "MOVE 6 7 W 1 U",
+          "MOVE 4 11 W 3 U",
+          "MOVE 3 7 W 2 R",
+          "MOVE 4 10 W 1 U",
+          "MOVE 4 10 W 1 U",
+          "MOVE 4 6 W 1 U",
+          "MOVE 1 7 W 1 U",
+          "MOVE 1 9 W 1 U",
+          "MOVE 8 9 F 1 R",
+          "MOVE 7 7 F 1 L",
+          "MOVE 4 6 F 1 U",
+          "MOVE 5 7 F 1 U",
+          "MOVE 1 4 F 1 U",
+          "MOVE 4 7 F 1 U",
+          "TELE 4 8 F 1 6 7",
+          "PRIORITY 13 9 1 5 3 10 14 0 9 5 8 2 5 9 10 6 8 7 10 5 11 4 7 7 4 8 6 7 4 9 6 12 0 14"
+        ]
+      },
+      "first_ownership_difference": {
+        "turn": 22,
+        "changes": [
+          {
+            "id": 0,
+            "position": [
+              7,
+              7
+            ],
+            "type": "PLAZA",
+            "score_retrospective": 3,
+            "candidate_owner": "K",
+            "baseline_owner": "N"
+          },
+          {
+            "id": 15,
+            "position": [
+              6,
+              12
+            ],
+            "type": "DEPOT",
+            "score_retrospective": 2,
+            "candidate_owner": "Y",
+            "baseline_owner": "N"
+          }
+        ]
+      },
+      "counterfactual_scope": "One turn from the identical observed state; all recorded K commands fixed. No claim about subsequent responses or full-match causality.",
+      "local_before": {
+        "building": {
+          "id": 0,
+          "position": [
+            7,
+            7
+          ],
+          "type": "PLAZA",
+          "owner": "Y",
+          "score": 3,
+          "known_to_Y": true
+        },
+        "units_within_one_manhattan_step": [
+          [
+            "Y",
+            "F",
+            7,
+            7,
+            1
+          ],
+          [
+            "Y",
+            "W",
+            6,
+            7,
+            3
+          ],
+          [
+            "K",
+            "F",
+            8,
+            7,
+            1
+          ],
+          [
+            "K",
+            "W",
+            8,
+            7,
+            1
+          ]
+        ]
+      },
+      "counterfactuals": {
+        "original_window": {
+          "score": {
+            "Y": 19,
+            "K": 16
+          },
+          "building_owner": "Y",
+          "local_units": [],
+          "matches_recorded_guard_snapshot": false,
+          "result": null
+        },
+        "recorded_guard": {
+          "score": {
+            "Y": 19,
+            "K": 16
+          },
+          "building_owner": "Y",
+          "local_units": [
+            [
+              "Y",
+              "F",
+              7,
+              7,
+              1
+            ],
+            [
+              "Y",
+              "W",
+              7,
+              7,
+              1
+            ]
+          ],
+          "matches_recorded_guard_snapshot": true,
+          "result": null
+        },
+        "F_hold_only": {
+          "score": {
+            "Y": 19,
+            "K": 16
+          },
+          "building_owner": "Y",
+          "local_units": [
+            [
+              "Y",
+              "F",
+              7,
+              7,
+              1
+            ]
+          ],
+          "matches_recorded_guard_snapshot": false,
+          "result": null
+        },
+        "W_arrival_only": {
+          "score": {
+            "Y": 19,
+            "K": 16
+          },
+          "building_owner": "Y",
+          "local_units": [
+            [
+              "Y",
+              "W",
+              7,
+              7,
+              1
+            ]
+          ],
+          "matches_recorded_guard_snapshot": false,
+          "result": null
+        },
+        "F_hold_and_W_arrival": {
+          "score": {
+            "Y": 19,
+            "K": 16
+          },
+          "building_owner": "Y",
+          "local_units": [
+            [
+              "Y",
+              "F",
+              7,
+              7,
+              1
+            ],
+            [
+              "Y",
+              "W",
+              7,
+              7,
+              1
+            ]
+          ],
+          "matches_recorded_guard_snapshot": true,
+          "result": null
+        }
+      },
+      "hypothetical_attack_scope": "A legal alternative K attack from existing adjacent units, NOT the recorded K action. It demonstrates protection against a possible attack, not a realized save.",
+      "hypothetical_K_commands": [
+        "SPAWN W 6",
+        "MOVE 12 0 W 1 D",
+        "MOVE 12 0 W 2 D",
+        "MOVE 12 0 W 1 D",
+        "MOVE 12 0 W 2 D",
+        "MOVE 10 5 W 1 D",
+        "MOVE 10 5 W 2 D",
+        "MOVE 10 5 W 1 D",
+        "MOVE 10 5 W 1 D",
+        "MOVE 11 1 W 5 D",
+        "MOVE 12 1 W 2 L",
+        "MOVE 12 1 W 3 L",
+        "MOVE 11 2 W 5 L",
+        "MOVE 10 3 W 5 D",
+        "MOVE 10 2 W 4 D",
+        "MOVE 10 4 W 2 D",
+        "MOVE 10 4 W 1 D",
+        "TELE 10 6 W 3 8 7",
+        "MOVE 10 7 W 1 L",
+        "MOVE 10 8 W 1 D",
+        "MOVE 13 8 W 1 D",
+        "MOVE 4 5 F 1 L",
+        "MOVE 10 8 F 1 D",
+        "MOVE 10 7 F 1 L",
+        "MOVE 11 9 F 1 D",
+        "MOVE 13 10 F 1 D",
+        "MOVE 10 6 F 1 D",
+        "PRIORITY 1 5 13 9 11 4 0 14 5 9 6 12 7 7 9 5 4 8 6 7 4 9 3 10 10 6 8 7 8 2 10 5 14 0",
+        "MOVE 8 7 W 1 L",
+        "MOVE 8 7 F 1 L"
+      ],
+      "hypothetical_attack_results": {
+        "original_window": {
+          "building_owner": "N",
+          "score": {
+            "Y": 16,
+            "K": 16
+          },
+          "local_units": [
+            [
+              "K",
+              "F",
+              7,
+              7,
+              1
+            ],
+            [
+              "K",
+              "W",
+              7,
+              7,
+              1
+            ]
+          ]
+        },
+        "recorded_guard": {
+          "building_owner": "Y",
+          "score": {
+            "Y": 19,
+            "K": 16
+          },
+          "local_units": [
+            [
+              "Y",
+              "F",
+              7,
+              7,
+              1
+            ],
+            [
+              "K",
+              "F",
+              7,
+              7,
+              1
+            ]
+          ]
+        },
+        "F_hold_only": {
+          "building_owner": "K",
+          "score": {
+            "Y": 16,
+            "K": 19
+          },
+          "local_units": [
+            [
+              "K",
+              "F",
+              7,
+              7,
+              1
+            ],
+            [
+              "K",
+              "W",
+              7,
+              7,
+              1
+            ]
+          ]
+        },
+        "W_arrival_only": {
+          "building_owner": "N",
+          "score": {
+            "Y": 16,
+            "K": 16
+          },
+          "local_units": [
+            [
+              "K",
+              "F",
+              7,
+              7,
+              1
+            ]
+          ]
+        },
+        "F_hold_and_W_arrival": {
+          "building_owner": "Y",
+          "score": {
+            "Y": 19,
+            "K": 16
+          },
+          "local_units": [
+            [
+              "Y",
+              "F",
+              7,
+              7,
+              1
+            ],
+            [
+              "K",
+              "F",
+              7,
+              7,
+              1
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "map_seed": 7100,
+      "first_own_command_difference": {
+        "turn": 16,
+        "preceding_snapshot_equal": true,
+        "opponent_commands_equal": true,
+        "candidate_commands": [
+          "SPAWN W 6 0 12",
+          "MOVE 0 12 W 1 U",
+          "MOVE 0 12 W 2 U",
+          "MOVE 0 12 W 2 R",
+          "MOVE 0 12 W 1 U",
+          "MOVE 1 10 W 1 R",
+          "MOVE 1 10 W 1 R",
+          "MOVE 1 10 W 3 R",
+          "MOVE 0 7 W 4 R",
+          "MOVE 0 10 W 4 U",
+          "MOVE 4 7 W 3 R",
+          "MOVE 0 8 W 3 U",
+          "MOVE 2 9 W 3 U",
+          "MOVE 3 5 W 2 R",
+          "MOVE 0 11 W 2 U",
+          "MOVE 3 7 W 1 R",
+          "MOVE 3 7 W 1 R",
+          "MOVE 5 7 W 2 R",
+          "MOVE 2 8 W 2 U",
+          "MOVE 3 8 W 2 U",
+          "MOVE 3 10 W 2 D",
+          "MOVE 2 10 W 2 U",
+          "MOVE 7 8 W 1 U",
+          "MOVE 7 9 W 1 U",
+          "MOVE 3 9 W 1 U",
+          "MOVE 0 9 W 1 U",
+          "MOVE 3 3 W 1 U",
+          "MOVE 0 6 W 1 U",
+          "MOVE 4 3 W 1 U",
+          "MOVE 4 4 F 1 U",
+          "MOVE 7 8 F 1 U",
+          "MOVE 7 8 F 1 U",
+          "MOVE 7 8 F 1 U",
+          "MOVE 0 11 F 1 U",
+          "PRIORITY 13 6 1 8 3 3 14 2 5 2 6 2 8 12 7 7 9 5 14 0 0 12 13 2 11 11 5 9 9 12 0 14 1 12"
+        ],
+        "baseline_commands": [
+          "SPAWN W 6 0 12",
+          "MOVE 0 12 W 1 U",
+          "MOVE 0 12 W 2 U",
+          "MOVE 0 12 W 2 R",
+          "MOVE 0 12 W 1 U",
+          "MOVE 1 10 W 1 R",
+          "MOVE 1 10 W 1 R",
+          "MOVE 1 10 W 3 R",
+          "MOVE 0 7 W 4 R",
+          "MOVE 0 10 W 4 U",
+          "MOVE 4 7 W 3 R",
+          "MOVE 0 8 W 3 U",
+          "MOVE 2 9 W 3 U",
+          "MOVE 3 5 W 2 R",
+          "MOVE 0 11 W 2 U",
+          "MOVE 3 7 W 1 R",
+          "MOVE 3 7 W 1 R",
+          "MOVE 5 7 W 2 R",
+          "MOVE 2 8 W 2 U",
+          "MOVE 3 8 W 2 U",
+          "MOVE 3 10 W 2 D",
+          "MOVE 2 10 W 2 U",
+          "MOVE 7 8 W 1 U",
+          "MOVE 7 9 W 1 U",
+          "MOVE 3 9 W 1 U",
+          "MOVE 0 9 W 1 U",
+          "MOVE 3 3 W 1 U",
+          "MOVE 0 6 W 1 U",
+          "MOVE 4 3 W 1 U",
+          "MOVE 3 3 F 1 U",
+          "MOVE 4 4 F 1 U",
+          "MOVE 7 8 F 1 U",
+          "MOVE 7 8 F 1 U",
+          "MOVE 7 8 F 1 U",
+          "MOVE 0 11 F 1 U",
+          "PRIORITY 13 6 1 8 3 3 14 2 5 2 6 2 8 12 7 7 9 5 14 0 0 12 13 2 11 11 5 9 9 12 0 14 1 12"
+        ]
+      },
+      "first_ownership_difference": {
+        "turn": 19,
+        "changes": [
+          {
+            "id": 11,
+            "position": [
+              6,
+              2
+            ],
+            "type": "STATION",
+            "score_retrospective": 4,
+            "candidate_owner": "K",
+            "baseline_owner": "N"
+          }
+        ]
+      },
+      "counterfactual_scope": "One turn from the identical observed state; all recorded K commands fixed. No claim about subsequent responses or full-match causality.",
+      "local_before": {
+        "building": {
+          "id": 5,
+          "position": [
+            3,
+            3
+          ],
+          "type": "ENG",
+          "owner": "Y",
+          "score": 2,
+          "known_to_Y": true
+        },
+        "units_within_one_manhattan_step": [
+          [
+            "Y",
+            "F",
+            3,
+            3,
+            1
+          ],
+          [
+            "Y",
+            "W",
+            3,
+            3,
+            1
+          ],
+          [
+            "Y",
+            "W",
+            4,
+            3,
+            1
+          ],
+          [
+            "K",
+            "F",
+            3,
+            2,
+            1
+          ]
+        ]
+      },
+      "counterfactuals": {
+        "original_window": {
+          "score": {
+            "Y": 19,
+            "K": 22
+          },
+          "building_owner": "Y",
+          "local_units": [],
+          "matches_recorded_guard_snapshot": false,
+          "result": null
+        },
+        "recorded_guard": {
+          "score": {
+            "Y": 19,
+            "K": 22
+          },
+          "building_owner": "Y",
+          "local_units": [
+            [
+              "Y",
+              "F",
+              3,
+              3,
+              1
+            ]
+          ],
+          "matches_recorded_guard_snapshot": true,
+          "result": null
+        },
+        "F_hold_only": {
+          "score": {
+            "Y": 19,
+            "K": 22
+          },
+          "building_owner": "Y",
+          "local_units": [
+            [
+              "Y",
+              "F",
+              3,
+              3,
+              1
+            ]
+          ],
+          "matches_recorded_guard_snapshot": true,
+          "result": null
+        }
+      },
+      "hypothetical_attack_scope": "A legal alternative K attack from existing adjacent units, NOT the recorded K action. It demonstrates protection against a possible attack, not a realized save.",
+      "hypothetical_K_commands": [
+        "SPAWN W 4 14 2",
+        "MOVE 14 5 W 1 D",
+        "MOVE 14 5 W 2 D",
+        "MOVE 14 5 W 3 D",
+        "MOVE 11 4 W 3 U",
+        "MOVE 11 4 W 1 D",
+        "MOVE 11 4 W 1 D",
+        "MOVE 11 4 W 1 D",
+        "MOVE 11 7 W 3 L",
+        "MOVE 11 7 W 1 L",
+        "MOVE 14 2 W 1 L",
+        "MOVE 14 2 W 3 L",
+        "MOVE 14 4 W 3 D",
+        "MOVE 11 8 W 3 U",
+        "MOVE 13 2 W 3 D",
+        "MOVE 12 4 W 2 D",
+        "MOVE 11 9 W 2 L",
+        "MOVE 14 6 W 2 D",
+        "MOVE 12 7 W 2 L",
+        "MOVE 10 10 W 1 D",
+        "MOVE 10 11 W 1 U",
+        "MOVE 12 10 W 1 U",
+        "MOVE 14 8 W 1 U",
+        "MOVE 12 2 W 1 L",
+        "MOVE 13 7 W 1 L",
+        "MOVE 9 7 W 1 D",
+        "MOVE 12 6 W 1 D",
+        "MOVE 11 6 W 1 D",
+        "MOVE 7 6 W 1 D",
+        "MOVE 12 5 W 1 L",
+        "MOVE 14 3 W 1 L",
+        "MOVE 13 3 W 1 D",
+        "MOVE 10 3 W 1 D",
+        "MOVE 10 10 F 1 D",
+        "MOVE 11 11 F 1 L",
+        "MOVE 7 6 F 1 D",
+        "MOVE 10 8 F 1 D",
+        "PRIORITY 1 8 13 6 11 11 0 12 9 12 8 12 6 2 5 9 0 14 14 2 3 3 1 12 9 5 5 2 7 7 14 0 13 2",
+        "MOVE 3 2 F 1 D"
+      ],
+      "hypothetical_attack_results": {
+        "original_window": {
+          "building_owner": "N",
+          "score": {
+            "Y": 17,
+            "K": 22
+          },
+          "local_units": [
+            [
+              "K",
+              "F",
+              3,
+              3,
+              1
+            ]
+          ]
+        },
+        "recorded_guard": {
+          "building_owner": "Y",
+          "score": {
+            "Y": 19,
+            "K": 22
+          },
+          "local_units": [
+            [
+              "Y",
+              "F",
+              3,
+              3,
+              1
+            ],
+            [
+              "K",
+              "F",
+              3,
+              3,
+              1
+            ]
+          ]
+        },
+        "F_hold_only": {
+          "building_owner": "Y",
+          "score": {
+            "Y": 19,
+            "K": 22
+          },
+          "local_units": [
+            [
+              "Y",
+              "F",
+              3,
+              3,
+              1
+            ],
+            [
+              "K",
+              "F",
+              3,
+              3,
+              1
+            ]
+          ]
+        }
+      }
+    }
+  ]
+}
