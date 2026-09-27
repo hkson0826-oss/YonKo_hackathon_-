@@ -7,3 +7,11 @@
 [자원 스냅샷](server-usage.json)은 2026-09-27T15:50:52.097599+00:00의 82개 프로세스 합계 RSS 817,836KiB다. 최대값은 아니며, 관측한 affinity는 모두 `0-45`로 전체 허용 52개 CPU의 88.46%였다.
 
 여기 `results.jsonl`의 replay 상대경로는 완료 후 회수할 `records/league/loop2-iteration2/runs/smoke/`를 기준으로 한다. 체크포인트에는 리플레이 중복 사본을 넣지 않는다. 전체 전송·해시 검증·TMP 삭제는 완료 후 본 실행 폴더에서 확인한다.
+
+## 개발 단계 완료
+
+개발 1,760경기까지 회수했다. 오류·몰수는 0이며 이 시점에는 선택·최종 검증이 진행 중이다. [선택 목록](development-selection.json), [전체 개발 요약](runs/development/summary.json), [수정 전후 대응 비교](revision-effects.md)를 보존했다.
+
+Y40경기에서 a_v2_tactical_fit 37승, a_v2_terminal_local·a_local_unabstracted 36승, j_defensive_portfolio 33승, q_v2_window_guard 32승, v2 24승이었다. 첫 배치에서 좋았던 q_threat_window는 이번 9승으로 떨어졌다. 수비 범위를 줄이는 단독 변경의 맵 의존성을 드러낸다. 같은 조건에서 즉시 수비를 함께 넣은 q_v2_window_guard가 32승인 점은 수정의 추가 검증 근거다.
+
+새 수정이 전부 좋아진 것은 아니다. a_v2_continuous_mix는 부모 25승에서 13승으로 악화됐고, j_v2_defensive_delayed는 부모 33승에서 29승이었다. a_v2_terminal_local은 부모와 Y/K 승패가 같아서 점수 차 평가만의 승률 이득은 확인되지 않았다. 국소 행동 확장과 상대 적합도를 함께 쓴 후보는 후속 선택에 남겼지만, 개발 순위만으로 최종 승격하지 않는다.

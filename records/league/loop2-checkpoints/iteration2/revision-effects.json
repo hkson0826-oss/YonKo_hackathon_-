@@ -1,0 +1,2035 @@
+{
+  "stage": "development",
+  "contrasts": [
+    {
+      "candidate": "q_v2_window_guard",
+      "parent": "q_threat_window",
+      "comparisons": {
+        "Y": {
+          "team": "Y",
+          "maps": 8,
+          "point_rate_difference": 0.5750000000000001,
+          "map_cluster_bootstrap_95pct": [
+            0.4,
+            0.75
+          ],
+          "resamples": 5000,
+          "seed": 927605,
+          "per_map": {
+            "7107": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ],
+            "7105": [
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "7106": [
+              1.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "7100": [
+              0.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "7102": [
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7103": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "7101": [
+              1.0,
+              1.0,
+              -1.0,
+              1.0,
+              0.0
+            ],
+            "7104": [
+              1.0,
+              1.0,
+              1.0,
+              0.0,
+              1.0
+            ]
+          },
+          "limitation": "Internal fixed opponent pool; map-cluster sampling uncertainty does not describe unknown real opponents."
+        },
+        "K": {
+          "team": "K",
+          "maps": 8,
+          "point_rate_difference": 0.125,
+          "map_cluster_bootstrap_95pct": [
+            -0.07500000000000001,
+            0.35000000000000003
+          ],
+          "resamples": 5000,
+          "seed": 927605,
+          "per_map": {
+            "7100": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "7101": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7104": [
+              0.0,
+              -1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7105": [
+              0.0,
+              0.0,
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "7106": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7107": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              0.0
+            ],
+            "7102": [
+              0.0,
+              0.0,
+              0.0,
+              -1.0,
+              1.0
+            ],
+            "7103": [
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "limitation": "Internal fixed opponent pool; map-cluster sampling uncertainty does not describe unknown real opponents."
+        }
+      },
+      "Y_counts": {
+        "q_v2_window_guard": {
+          "games": 40,
+          "points": 32.0
+        },
+        "q_threat_window": {
+          "games": 40,
+          "points": 9.0
+        }
+      }
+    },
+    {
+      "candidate": "q_v2_tactical_mean",
+      "parent": "q_threat_window",
+      "comparisons": {
+        "Y": {
+          "team": "Y",
+          "maps": 8,
+          "point_rate_difference": 0.075,
+          "map_cluster_bootstrap_95pct": [
+            0.0,
+            0.22499999999999998
+          ],
+          "resamples": 5000,
+          "seed": 927605,
+          "per_map": {
+            "7104": [
+              1.0,
+              0.0,
+              1.0,
+              1.0,
+              0.0
+            ],
+            "7105": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7103": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7101": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7102": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7106": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7100": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7107": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "limitation": "Internal fixed opponent pool; map-cluster sampling uncertainty does not describe unknown real opponents."
+        },
+        "K": {
+          "team": "K",
+          "maps": 8,
+          "point_rate_difference": 0.0,
+          "map_cluster_bootstrap_95pct": [
+            -0.07500000000000001,
+            0.07500000000000001
+          ],
+          "resamples": 5000,
+          "seed": 927605,
+          "per_map": {
+            "7100": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7103": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7101": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7106": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7104": [
+              0.0,
+              -1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7102": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7107": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7105": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "limitation": "Internal fixed opponent pool; map-cluster sampling uncertainty does not describe unknown real opponents."
+        }
+      },
+      "Y_counts": {
+        "q_v2_tactical_mean": {
+          "games": 40,
+          "points": 12.0
+        },
+        "q_threat_window": {
+          "games": 40,
+          "points": 9.0
+        }
+      }
+    },
+    {
+      "candidate": "q_v2_tactical_worst",
+      "parent": "q_threat_window",
+      "comparisons": {
+        "Y": {
+          "team": "Y",
+          "maps": 8,
+          "point_rate_difference": 0.25,
+          "map_cluster_bootstrap_95pct": [
+            0.07500000000000001,
+            0.42500000000000004
+          ],
+          "resamples": 5000,
+          "seed": 927605,
+          "per_map": {
+            "7100": [
+              0.0,
+              0.0,
+              1.0,
+              1.0,
+              0.0
+            ],
+            "7106": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7107": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "7101": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7103": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7104": [
+              1.0,
+              1.0,
+              1.0,
+              0.0,
+              1.0
+            ],
+            "7105": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "7102": [
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          "limitation": "Internal fixed opponent pool; map-cluster sampling uncertainty does not describe unknown real opponents."
+        },
+        "K": {
+          "team": "K",
+          "maps": 8,
+          "point_rate_difference": -0.025,
+          "map_cluster_bootstrap_95pct": [
+            -0.07500000000000001,
+            0.0
+          ],
+          "resamples": 5000,
+          "seed": 927605,
+          "per_map": {
+            "7100": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7107": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7105": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7104": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7102": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              -1.0
+            ],
+            "7101": [
+              0.0,
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            "7103": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7106": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "limitation": "Internal fixed opponent pool; map-cluster sampling uncertainty does not describe unknown real opponents."
+        }
+      },
+      "Y_counts": {
+        "q_v2_tactical_worst": {
+          "games": 40,
+          "points": 19.0
+        },
+        "q_threat_window": {
+          "games": 40,
+          "points": 9.0
+        }
+      }
+    },
+    {
+      "candidate": "q_v2_guard_tactical",
+      "parent": "q_v2_window_guard",
+      "comparisons": {
+        "Y": {
+          "team": "Y",
+          "maps": 8,
+          "point_rate_difference": -0.07500000000000001,
+          "map_cluster_bootstrap_95pct": [
+            -0.17500000000000002,
+            0.0
+          ],
+          "resamples": 5000,
+          "seed": 927605,
+          "per_map": {
+            "7106": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7102": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7100": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7107": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7104": [
+              0.0,
+              0.0,
+              0.0,
+              -1.0,
+              -1.0
+            ],
+            "7101": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7103": [
+              0.0,
+              0.0,
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "7105": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "limitation": "Internal fixed opponent pool; map-cluster sampling uncertainty does not describe unknown real opponents."
+        },
+        "K": {
+          "team": "K",
+          "maps": 8,
+          "point_rate_difference": 0.05,
+          "map_cluster_bootstrap_95pct": [
+            0.0,
+            0.15000000000000002
+          ],
+          "resamples": 5000,
+          "seed": 927605,
+          "per_map": {
+            "7103": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7105": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7101": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7107": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7100": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7106": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7102": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7104": [
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0
+            ]
+          },
+          "limitation": "Internal fixed opponent pool; map-cluster sampling uncertainty does not describe unknown real opponents."
+        }
+      },
+      "Y_counts": {
+        "q_v2_guard_tactical": {
+          "games": 40,
+          "points": 29.0
+        },
+        "q_v2_window_guard": {
+          "games": 40,
+          "points": 32.0
+        }
+      }
+    },
+    {
+      "candidate": "q_v2_guard_tactical",
+      "parent": "q_v2_tactical_mean",
+      "comparisons": {
+        "Y": {
+          "team": "Y",
+          "maps": 8,
+          "point_rate_difference": 0.42500000000000004,
+          "map_cluster_bootstrap_95pct": [
+            0.2,
+            0.625
+          ],
+          "resamples": 5000,
+          "seed": 927605,
+          "per_map": {
+            "7106": [
+              0.0,
+              1.0,
+              1.0,
+              0.0,
+              1.0
+            ],
+            "7102": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "7100": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              0.0
+            ],
+            "7107": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "7104": [
+              1.0,
+              0.0,
+              0.0,
+              -1.0,
+              -1.0
+            ],
+            "7101": [
+              1.0,
+              1.0,
+              -1.0,
+              1.0,
+              0.0
+            ],
+            "7103": [
+              1.0,
+              1.0,
+              1.0,
+              0.0,
+              1.0
+            ],
+            "7105": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "limitation": "Internal fixed opponent pool; map-cluster sampling uncertainty does not describe unknown real opponents."
+        },
+        "K": {
+          "team": "K",
+          "maps": 8,
+          "point_rate_difference": 0.17500000000000002,
+          "map_cluster_bootstrap_95pct": [
+            -0.025,
+            0.4
+          ],
+          "resamples": 5000,
+          "seed": 927605,
+          "per_map": {
+            "7103": [
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "7105": [
+              0.0,
+              -1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7101": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7107": [
+              0.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "7100": [
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "7106": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7102": [
+              0.0,
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            "7104": [
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0
+            ]
+          },
+          "limitation": "Internal fixed opponent pool; map-cluster sampling uncertainty does not describe unknown real opponents."
+        }
+      },
+      "Y_counts": {
+        "q_v2_guard_tactical": {
+          "games": 40,
+          "points": 29.0
+        },
+        "q_v2_tactical_mean": {
+          "games": 40,
+          "points": 12.0
+        }
+      }
+    },
+    {
+      "candidate": "j_v2_defensive_delayed",
+      "parent": "j_defensive_portfolio",
+      "comparisons": {
+        "Y": {
+          "team": "Y",
+          "maps": 8,
+          "point_rate_difference": -0.1,
+          "map_cluster_bootstrap_95pct": [
+            -0.325,
+            0.125
+          ],
+          "resamples": 5000,
+          "seed": 927605,
+          "per_map": {
+            "7103": [
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "7101": [
+              0.0,
+              -1.0,
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "7107": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "7105": [
+              0.0,
+              0.0,
+              -1.0,
+              -1.0,
+              -1.0
+            ],
+            "7100": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7102": [
+              -1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7104": [
+              0.0,
+              -1.0,
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "7106": [
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "limitation": "Internal fixed opponent pool; map-cluster sampling uncertainty does not describe unknown real opponents."
+        },
+        "K": {
+          "team": "K",
+          "maps": 8,
+          "point_rate_difference": -6.938893903907228e-18,
+          "map_cluster_bootstrap_95pct": [
+            -0.275,
+            0.25
+          ],
+          "resamples": 5000,
+          "seed": 927605,
+          "per_map": {
+            "7101": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7102": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7107": [
+              0.0,
+              0.0,
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "7104": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ],
+            "7100": [
+              -1.0,
+              -1.0,
+              0.0,
+              -1.0,
+              -1.0
+            ],
+            "7105": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "7103": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7106": [
+              1.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "limitation": "Internal fixed opponent pool; map-cluster sampling uncertainty does not describe unknown real opponents."
+        }
+      },
+      "Y_counts": {
+        "j_v2_defensive_delayed": {
+          "games": 40,
+          "points": 29.0
+        },
+        "j_defensive_portfolio": {
+          "games": 40,
+          "points": 33.0
+        }
+      }
+    },
+    {
+      "candidate": "j_v2_reclaim_flags7",
+      "parent": "j_reclaim_portfolio",
+      "comparisons": {
+        "Y": {
+          "team": "Y",
+          "maps": 8,
+          "point_rate_difference": -0.024999999999999994,
+          "map_cluster_bootstrap_95pct": [
+            -0.22499999999999998,
+            0.125
+          ],
+          "resamples": 5000,
+          "seed": 927605,
+          "per_map": {
+            "7107": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "7106": [
+              -1.0,
+              -1.0,
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "7105": [
+              0.0,
+              -1.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "7102": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7100": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7103": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "7101": [
+              0.0,
+              0.0,
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "7104": [
+              0.0,
+              0.0,
+              -1.0,
+              1.0,
+              0.0
+            ]
+          },
+          "limitation": "Internal fixed opponent pool; map-cluster sampling uncertainty does not describe unknown real opponents."
+        },
+        "K": {
+          "team": "K",
+          "maps": 8,
+          "point_rate_difference": 0.175,
+          "map_cluster_bootstrap_95pct": [
+            -0.1,
+            0.45
+          ],
+          "resamples": 5000,
+          "seed": 927605,
+          "per_map": {
+            "7102": [
+              -1.0,
+              0.0,
+              1.0,
+              1.0,
+              0.0
+            ],
+            "7105": [
+              0.0,
+              -1.0,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            "7101": [
+              0.0,
+              1.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "7106": [
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              1.0
+            ],
+            "7100": [
+              0.0,
+              0.0,
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "7107": [
+              -1.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0
+            ],
+            "7103": [
+              0.0,
+              -1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7104": [
+              1.0,
+              1.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          },
+          "limitation": "Internal fixed opponent pool; map-cluster sampling uncertainty does not describe unknown real opponents."
+        }
+      },
+      "Y_counts": {
+        "j_v2_reclaim_flags7": {
+          "games": 40,
+          "points": 27.0
+        },
+        "j_reclaim_portfolio": {
+          "games": 40,
+          "points": 28.0
+        }
+      }
+    },
+    {
+      "candidate": "j_v2_reclaim_relay",
+      "parent": "j_reclaim_portfolio",
+      "comparisons": {
+        "Y": {
+          "team": "Y",
+          "maps": 8,
+          "point_rate_difference": 0.02500000000000001,
+          "map_cluster_bootstrap_95pct": [
+            -0.19999999999999998,
+            0.2
+          ],
+          "resamples": 5000,
+          "seed": 927605,
+          "per_map": {
+            "7106": [
+              -1.0,
+              -1.0,
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "7101": [
+              1.0,
+              0.0,
+              1.0,
+              -1.0,
+              0.0
+            ],
+            "7102": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7104": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ],
+            "7103": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "7105": [
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "7100": [
+              0.0,
+              1.0,
+              -1.0,
+              -1.0,
+              0.0
+            ],
+            "7107": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "limitation": "Internal fixed opponent pool; map-cluster sampling uncertainty does not describe unknown real opponents."
+        },
+        "K": {
+          "team": "K",
+          "maps": 8,
+          "point_rate_difference": 0.1,
+          "map_cluster_bootstrap_95pct": [
+            -0.025,
+            0.225
+          ],
+          "resamples": 5000,
+          "seed": 927605,
+          "per_map": {
+            "7102": [
+              0.0,
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            "7100": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7101": [
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "7105": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7107": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "7104": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "7106": [
+              1.0,
+              1.0,
+              1.0,
+              -1.0,
+              -1.0
+            ],
+            "7103": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "limitation": "Internal fixed opponent pool; map-cluster sampling uncertainty does not describe unknown real opponents."
+        }
+      },
+      "Y_counts": {
+        "j_v2_reclaim_relay": {
+          "games": 40,
+          "points": 29.0
+        },
+        "j_reclaim_portfolio": {
+          "games": 40,
+          "points": 28.0
+        }
+      }
+    },
+    {
+      "candidate": "j_v2_reclaim_relay_delayed",
+      "parent": "j_v2_reclaim_relay",
+      "comparisons": {
+        "Y": {
+          "team": "Y",
+          "maps": 8,
+          "point_rate_difference": 6.938893903907228e-18,
+          "map_cluster_bootstrap_95pct": [
+            -0.325,
+            0.325
+          ],
+          "resamples": 5000,
+          "seed": 927605,
+          "per_map": {
+            "7103": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7104": [
+              -1.0,
+              0.0,
+              0.0,
+              -1.0,
+              -1.0
+            ],
+            "7102": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7105": [
+              -1.0,
+              -1.0,
+              0.0,
+              -1.0,
+              -1.0
+            ],
+            "7106": [
+              1.0,
+              1.0,
+              0.0,
+              1.0,
+              1.0
+            ],
+            "7101": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "7100": [
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "7107": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "limitation": "Internal fixed opponent pool; map-cluster sampling uncertainty does not describe unknown real opponents."
+        },
+        "K": {
+          "team": "K",
+          "maps": 8,
+          "point_rate_difference": -6.938893903907228e-18,
+          "map_cluster_bootstrap_95pct": [
+            -0.2,
+            0.22499999999999998
+          ],
+          "resamples": 5000,
+          "seed": 927605,
+          "per_map": {
+            "7103": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7105": [
+              0.0,
+              -1.0,
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "7101": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7100": [
+              0.0,
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            "7102": [
+              1.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "7107": [
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7106": [
+              -1.0,
+              0.0,
+              -1.0,
+              1.0,
+              -1.0
+            ],
+            "7104": [
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          "limitation": "Internal fixed opponent pool; map-cluster sampling uncertainty does not describe unknown real opponents."
+        }
+      },
+      "Y_counts": {
+        "j_v2_reclaim_relay_delayed": {
+          "games": 40,
+          "points": 29.0
+        },
+        "j_v2_reclaim_relay": {
+          "games": 40,
+          "points": 29.0
+        }
+      }
+    },
+    {
+      "candidate": "a_v2_terminal_local",
+      "parent": "a_local_unabstracted",
+      "comparisons": {
+        "Y": {
+          "team": "Y",
+          "maps": 8,
+          "point_rate_difference": 0.0,
+          "map_cluster_bootstrap_95pct": [
+            0.0,
+            0.0
+          ],
+          "resamples": 5000,
+          "seed": 927605,
+          "per_map": {
+            "7107": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7102": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7105": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7100": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7103": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7101": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7104": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7106": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "limitation": "Internal fixed opponent pool; map-cluster sampling uncertainty does not describe unknown real opponents."
+        },
+        "K": {
+          "team": "K",
+          "maps": 8,
+          "point_rate_difference": 0.0,
+          "map_cluster_bootstrap_95pct": [
+            0.0,
+            0.0
+          ],
+          "resamples": 5000,
+          "seed": 927605,
+          "per_map": {
+            "7103": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7105": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7107": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7101": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7100": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7104": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7106": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7102": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "limitation": "Internal fixed opponent pool; map-cluster sampling uncertainty does not describe unknown real opponents."
+        }
+      },
+      "Y_counts": {
+        "a_v2_terminal_local": {
+          "games": 40,
+          "points": 36.0
+        },
+        "a_local_unabstracted": {
+          "games": 40,
+          "points": 36.0
+        }
+      }
+    },
+    {
+      "candidate": "a_v2_tactical_local",
+      "parent": "a_v2_terminal_local",
+      "comparisons": {
+        "Y": {
+          "team": "Y",
+          "maps": 8,
+          "point_rate_difference": -0.1,
+          "map_cluster_bootstrap_95pct": [
+            -0.325,
+            0.07500000000000001
+          ],
+          "resamples": 5000,
+          "seed": 927605,
+          "per_map": {
+            "7103": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7106": [
+              0.0,
+              -1.0,
+              -1.0,
+              -1.0,
+              -1.0
+            ],
+            "7104": [
+              0.0,
+              0.0,
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "7107": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "7100": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7102": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "7101": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7105": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "limitation": "Internal fixed opponent pool; map-cluster sampling uncertainty does not describe unknown real opponents."
+        },
+        "K": {
+          "team": "K",
+          "maps": 8,
+          "point_rate_difference": -0.07500000000000001,
+          "map_cluster_bootstrap_95pct": [
+            -0.30000000000000004,
+            0.1
+          ],
+          "resamples": 5000,
+          "seed": 927605,
+          "per_map": {
+            "7107": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "7100": [
+              0.0,
+              -1.0,
+              -1.0,
+              -1.0,
+              -1.0
+            ],
+            "7102": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7105": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7101": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7104": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7106": [
+              1.0,
+              -1.0,
+              1.0,
+              1.0,
+              -1.0
+            ],
+            "7103": [
+              0.0,
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          },
+          "limitation": "Internal fixed opponent pool; map-cluster sampling uncertainty does not describe unknown real opponents."
+        }
+      },
+      "Y_counts": {
+        "a_v2_tactical_local": {
+          "games": 40,
+          "points": 32.0
+        },
+        "a_v2_terminal_local": {
+          "games": 40,
+          "points": 36.0
+        }
+      }
+    },
+    {
+      "candidate": "a_v2_tactical_fit",
+      "parent": "a_v2_tactical_local",
+      "comparisons": {
+        "Y": {
+          "team": "Y",
+          "maps": 8,
+          "point_rate_difference": 0.125,
+          "map_cluster_bootstrap_95pct": [
+            0.0,
+            0.325
+          ],
+          "resamples": 5000,
+          "seed": 927605,
+          "per_map": {
+            "7100": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7105": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7103": [
+              -1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "7104": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7107": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7106": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              0.0
+            ],
+            "7101": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7102": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "limitation": "Internal fixed opponent pool; map-cluster sampling uncertainty does not describe unknown real opponents."
+        },
+        "K": {
+          "team": "K",
+          "maps": 8,
+          "point_rate_difference": -0.025,
+          "map_cluster_bootstrap_95pct": [
+            -0.225,
+            0.225
+          ],
+          "resamples": 5000,
+          "seed": 927605,
+          "per_map": {
+            "7105": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7100": [
+              0.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "7107": [
+              0.0,
+              -1.0,
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "7101": [
+              -1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7104": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "7103": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7106": [
+              0.0,
+              0.0,
+              -1.0,
+              1.0,
+              0.0
+            ],
+            "7102": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              -1.0
+            ]
+          },
+          "limitation": "Internal fixed opponent pool; map-cluster sampling uncertainty does not describe unknown real opponents."
+        }
+      },
+      "Y_counts": {
+        "a_v2_tactical_fit": {
+          "games": 40,
+          "points": 37.0
+        },
+        "a_v2_tactical_local": {
+          "games": 40,
+          "points": 32.0
+        }
+      }
+    },
+    {
+      "candidate": "a_v2_continuous_mix",
+      "parent": "a_opponent_fit",
+      "comparisons": {
+        "Y": {
+          "team": "Y",
+          "maps": 8,
+          "point_rate_difference": -0.3,
+          "map_cluster_bootstrap_95pct": [
+            -0.575,
+            0.02499999999999998
+          ],
+          "resamples": 5000,
+          "seed": 927605,
+          "per_map": {
+            "7103": [
+              1.0,
+              1.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "7104": [
+              -1.0,
+              -1.0,
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "7101": [
+              -1.0,
+              0.0,
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "7107": [
+              -1.0,
+              -1.0,
+              -1.0,
+              0.0,
+              -1.0
+            ],
+            "7100": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7106": [
+              -1.0,
+              -1.0,
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "7102": [
+              -1.0,
+              0.0,
+              0.0,
+              -1.0,
+              -1.0
+            ],
+            "7105": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "limitation": "Internal fixed opponent pool; map-cluster sampling uncertainty does not describe unknown real opponents."
+        },
+        "K": {
+          "team": "K",
+          "maps": 8,
+          "point_rate_difference": -0.175,
+          "map_cluster_bootstrap_95pct": [
+            -0.325,
+            -0.05
+          ],
+          "resamples": 5000,
+          "seed": 927605,
+          "per_map": {
+            "7103": [
+              1.0,
+              0.0,
+              0.0,
+              -1.0,
+              -1.0
+            ],
+            "7101": [
+              1.0,
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            "7105": [
+              0.0,
+              -1.0,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            "7100": [
+              -1.0,
+              -1.0,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            "7106": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7102": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7104": [
+              0.0,
+              -1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "7107": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "limitation": "Internal fixed opponent pool; map-cluster sampling uncertainty does not describe unknown real opponents."
+        }
+      },
+      "Y_counts": {
+        "a_v2_continuous_mix": {
+          "games": 40,
+          "points": 13.0
+        },
+        "a_opponent_fit": {
+          "games": 40,
+          "points": 25.0
+        }
+      }
+    }
+  ],
+  "script_sha256": "cea2ee894b3f4a62a5f2f9b20c0d70e4b3bad8be15b8309de3e24225ee30d6a7",
+  "limitation": "Exploratory paired development comparisons, not corrected for multiple comparisons."
+}

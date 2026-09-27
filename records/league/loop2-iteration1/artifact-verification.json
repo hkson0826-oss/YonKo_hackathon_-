@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-09-27T15:43:59.425476+00:00",
-  "verifier_sha256": "3c74deb03428bfcac45eb2e7c5783d4f76bc40b9b1d06c64df7b1821edbfb49b",
+  "checked_utc": "2026-09-27T15:55:05.283646+00:00",
+  "verifier_sha256": "334d96a9844f2d69371c5fafbe8b0285318b50d8b6d52bffaa1d03f9ce01ff5c",
   "status": "passed",
   "source_commit": "c2bfcaf02745ad782481acc6677563ebda7548ae",
   "frozen_source_files_verified": 148,
@@ -24,6 +24,155 @@
   "forfeits": 0,
   "maximum_response_ms_both_bots": 112.60582599788904,
   "official_originals_unchanged": 5,
+  "maximum_job_elapsed_seconds_including_analysis": 10.485232101753354,
+  "stdout_peak_by_bot_including_END": {
+    "v2": {
+      "turn_bytes": 3862,
+      "turn_lines": 245,
+      "line_bytes": 90
+    },
+    "j_reclaim_portfolio": {
+      "turn_bytes": 2924,
+      "turn_lines": 180,
+      "line_bytes": 90
+    },
+    "r_terminal_margin": {
+      "turn_bytes": 2809,
+      "turn_lines": 180,
+      "line_bytes": 90
+    },
+    "a_asymmetric_mix": {
+      "turn_bytes": 3367,
+      "turn_lines": 214,
+      "line_bytes": 90
+    },
+    "q_threat_window": {
+      "turn_bytes": 3187,
+      "turn_lines": 204,
+      "line_bytes": 90
+    },
+    "a_fit_pgs": {
+      "turn_bytes": 2528,
+      "turn_lines": 160,
+      "line_bytes": 90
+    },
+    "q_escort_own": {
+      "turn_bytes": 3144,
+      "turn_lines": 201,
+      "line_bytes": 90
+    },
+    "r_joint_escort": {
+      "turn_bytes": 3127,
+      "turn_lines": 199,
+      "line_bytes": 90
+    },
+    "j_pressure_portfolio": {
+      "turn_bytes": 2616,
+      "turn_lines": 164,
+      "line_bytes": 90
+    },
+    "j_defensive_direct": {
+      "turn_bytes": 1765,
+      "turn_lines": 111,
+      "line_bytes": 90
+    },
+    "a_score_scenarios": {
+      "turn_bytes": 3373,
+      "turn_lines": 216,
+      "line_bytes": 90
+    },
+    "a_pgs_hybrid": {
+      "turn_bytes": 2973,
+      "turn_lines": 186,
+      "line_bytes": 90
+    },
+    "q_balanced_front": {
+      "turn_bytes": 3460,
+      "turn_lines": 221,
+      "line_bytes": 90
+    },
+    "j_pressure_direct": {
+      "turn_bytes": 1839,
+      "turn_lines": 116,
+      "line_bytes": 90
+    },
+    "teammate": {
+      "turn_bytes": 2037,
+      "turn_lines": 131,
+      "line_bytes": 90
+    },
+    "a_opponent_fit": {
+      "turn_bytes": 3535,
+      "turn_lines": 226,
+      "line_bytes": 90
+    },
+    "j_reclaim_direct": {
+      "turn_bytes": 1890,
+      "turn_lines": 118,
+      "line_bytes": 90
+    },
+    "q_capacity": {
+      "turn_bytes": 3607,
+      "turn_lines": 223,
+      "line_bytes": 90
+    },
+    "a_progressive": {
+      "turn_bytes": 3524,
+      "turn_lines": 223,
+      "line_bytes": 90
+    },
+    "a_local_unabstracted": {
+      "turn_bytes": 2923,
+      "turn_lines": 182,
+      "line_bytes": 90
+    },
+    "q_coordinated": {
+      "turn_bytes": 3155,
+      "turn_lines": 202,
+      "line_bytes": 90
+    },
+    "a_pgs_local": {
+      "turn_bytes": 2325,
+      "turn_lines": 147,
+      "line_bytes": 90
+    },
+    "r_combined": {
+      "turn_bytes": 3625,
+      "turn_lines": 232,
+      "line_bytes": 90
+    },
+    "j_balanced_direct": {
+      "turn_bytes": 1676,
+      "turn_lines": 103,
+      "line_bytes": 90
+    },
+    "j_balanced_portfolio": {
+      "turn_bytes": 2489,
+      "turn_lines": 155,
+      "line_bytes": 90
+    },
+    "q_rendezvous": {
+      "turn_bytes": 3189,
+      "turn_lines": 201,
+      "line_bytes": 90
+    },
+    "q_guard_own": {
+      "turn_bytes": 3243,
+      "turn_lines": 204,
+      "line_bytes": 90
+    },
+    "q_deadline": {
+      "turn_bytes": 3862,
+      "turn_lines": 245,
+      "line_bytes": 90
+    },
+    "j_defensive_portfolio": {
+      "turn_bytes": 2484,
+      "turn_lines": 153,
+      "line_bytes": 90
+    }
+  },
+  "stdout_check_scope": "Replay-preserved commands plus LF and END; stderr was not captured by the league.",
   "submission_v2_sha256": "f90eca7cac0024ab4cc7c00d79595f71e4eb9bab92ec57e0527c7b977098b64a",
   "transport_cleanup": {
     "event": "cleanup_complete",
