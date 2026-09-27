@@ -1,0 +1,15 @@
+{
+  "phase": "audit",
+  "status": "complete",
+  "candidate_count": 2,
+  "primary_candidate": "a_v2_terminal_local",
+  "stage_match_counts": {
+    "audit": 768
+  },
+  "total_matches": 768,
+  "errors": 0,
+  "forfeits": 0,
+  "elapsed_seconds": 408.6882750065997,
+  "recommended": "a_v2_terminal_local",
+  "recommendation_scope": "Additional cross-family gate only; this is not submission promotion and cannot replace the original holdout."
+}

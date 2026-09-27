@@ -1,0 +1,91 @@
+{
+  "declared_utc": "2026-09-27T16:22:08.929312+00:00",
+  "candidate": "a_v2_terminal_local",
+  "candidate_rule": "Only the first locked selection finalist; never reselect using audit or holdout outcomes",
+  "selection_lock": {
+    "ranking": [
+      "a_v2_terminal_local",
+      "a_local_unabstracted",
+      "a_v2_tactical_local",
+      "a_v2_tactical_fit",
+      "j_defensive_portfolio",
+      "q_v2_window_guard",
+      "v2"
+    ],
+    "finalists": [
+      "a_v2_terminal_local",
+      "a_local_unabstracted"
+    ],
+    "primary_candidate": "a_v2_terminal_local"
+  },
+  "selection_lock_verification": "inline JSON verified",
+  "opponents": [
+    "j_balanced_portfolio",
+    "a_local_unabstracted",
+    "q_threat_window",
+    "a_v2_tactical_local",
+    "j_v2_reclaim_relay",
+    "teammate"
+  ],
+  "map_seeds": [
+    7500,
+    7501,
+    7502,
+    7503,
+    7504,
+    7505,
+    7506,
+    7507,
+    7508,
+    7509,
+    7510,
+    7511,
+    7512,
+    7513,
+    7514,
+    7515,
+    7516,
+    7517,
+    7518,
+    7519,
+    7520,
+    7521,
+    7522,
+    7523,
+    7524,
+    7525,
+    7526,
+    7527,
+    7528,
+    7529,
+    7530,
+    7531
+  ],
+  "planned_matches": 768,
+  "primary_metric": "paired Y point-rate difference",
+  "gates": {
+    "candidate_and_baseline_errors": 0,
+    "candidate_and_baseline_forfeits": 0,
+    "minimum_overall_Y_difference": 0.0,
+    "minimum_opponent_Y_difference": -0.125
+  },
+  "self_play": "Keep candidate-versus-identical-opponent games on both sides and all maps",
+  "replays": "all",
+  "population_revision": 2,
+  "workers": 16,
+  "requested_RLIMIT_AS_soft_bytes": 402653184,
+  "address_space_policy": "Apply only after prepare/compilation and before workers/bots; lower preexisting caps remain lower",
+  "relationship_to_holdout": "Additional gate; cannot replace the original holdout or authorize another candidate",
+  "sampling_limit": "Opponents include new action/search families but remain largely v2-derived; unknown contestants are not represented",
+  "source_sha256": {
+    "v2": "53bb019625fabbbd3aa8a5b65af971912bb4cbdad8a9fde3009fadad5ba6d4c5",
+    "a_v2_terminal_local": "52268569e17d7fc40fd46f0996b2da684768902b4af27ec059c4b068911c4473",
+    "j_balanced_portfolio": "534f55f1d6641ed788ca637663456e43375297d8016ac9832c589b0a012c8422",
+    "a_local_unabstracted": "90fded547ea47130ebacdadb7a12735020c2095fccfdeeb5d51b5470a76fbad4",
+    "q_threat_window": "c943b16a28d19768705925b2d6aa9dc04547af342ca77747d96afdad96985d79",
+    "a_v2_tactical_local": "9d9d6ecd763b84f88c0d5e48f65524798f998e9912f774c0dd22e27f3f78219a",
+    "j_v2_reclaim_relay": "0882dc3284c33db9f4687c085e0c570d156a439365aa229fa6cca6f81e909045",
+    "teammate": "571397e3c84998b27f8ce0468bc49333663c69b0b84162ad8dfc27e7a47f2365"
+  },
+  "source_commit": "ba290011e86c37f684d4f6ba137f338ee2eb9e06"
+}

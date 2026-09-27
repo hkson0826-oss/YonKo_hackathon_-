@@ -1,0 +1,5378 @@
+[
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7516,
+    "team": "K",
+    "job_id": "ed3316ddaf6c7fd29d84d1ad"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7501,
+    "team": "Y",
+    "job_id": "258404c698dc0680afe6ddd1"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7500,
+    "team": "K",
+    "job_id": "39869439263df24e66e3c6d6"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7505,
+    "team": "K",
+    "job_id": "1935d49c154928ae64ecc4a7"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7507,
+    "team": "K",
+    "job_id": "306b1e7029dc3856ef4db158"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7507,
+    "team": "K",
+    "job_id": "1c6bb0dd4df2521c0bc7afe5"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7500,
+    "team": "Y",
+    "job_id": "75ecad0aae20b74be031addc"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7530,
+    "team": "K",
+    "job_id": "2c4012b63c7ee852d199d857"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7517,
+    "team": "K",
+    "job_id": "6c02750e108a11999d8be7a3"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7514,
+    "team": "Y",
+    "job_id": "9be4c159eecef4db838b44e9"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7502,
+    "team": "Y",
+    "job_id": "f598c443fb7de62f7d8c768a"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7510,
+    "team": "Y",
+    "job_id": "04916d76e299e3103ceaf9f7"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7522,
+    "team": "Y",
+    "job_id": "e7802151ec5b4b8bf85cbc63"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7522,
+    "team": "Y",
+    "job_id": "131020f5ab8f5d9150f69fa8"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7521,
+    "team": "K",
+    "job_id": "83db1ce3915594dfbb1f6344"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7524,
+    "team": "K",
+    "job_id": "c3a1b73dee8d53c7f63b6ad7"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7521,
+    "team": "Y",
+    "job_id": "3a173a9cb9fa7e7769530e54"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7516,
+    "team": "Y",
+    "job_id": "c10eb700fb7ab889ae55a763"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7531,
+    "team": "K",
+    "job_id": "6f500185edec1375ab8f609c"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7524,
+    "team": "K",
+    "job_id": "42a87df5e38f36b946412a24"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7515,
+    "team": "Y",
+    "job_id": "d1897fc77b85f8c607460ac6"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7512,
+    "team": "K",
+    "job_id": "35fad49cdac0b89d51a2539b"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7508,
+    "team": "K",
+    "job_id": "c45f6855dfd102e4c34ce3e2"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7527,
+    "team": "Y",
+    "job_id": "585817697fab81d15d836323"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7524,
+    "team": "K",
+    "job_id": "7218073bee8d4e39981d36b7"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7529,
+    "team": "K",
+    "job_id": "31dd95f972ab312f6c41c301"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7523,
+    "team": "K",
+    "job_id": "d8bfe715047dce52fb1c52a0"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7520,
+    "team": "Y",
+    "job_id": "f9d7aeaf60780bd5c2e29eb0"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7502,
+    "team": "Y",
+    "job_id": "e2d63b2d25eaf314352d6105"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7523,
+    "team": "Y",
+    "job_id": "ec241803154c1ab502379ac8"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7530,
+    "team": "Y",
+    "job_id": "3f552391a1d4fda066d2da4b"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7526,
+    "team": "K",
+    "job_id": "4edf2ff684a1670be5412b90"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7523,
+    "team": "Y",
+    "job_id": "a93438e60eedba9693acdf92"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7503,
+    "team": "Y",
+    "job_id": "b0ad71de82e6f20331f1672d"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7515,
+    "team": "Y",
+    "job_id": "6b72aa8a49da68106113468d"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7525,
+    "team": "K",
+    "job_id": "fdea099e1c2e69405a0a30aa"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7528,
+    "team": "Y",
+    "job_id": "3cf35e3d767cc869b5769c4e"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7500,
+    "team": "Y",
+    "job_id": "5249687e305c0499dffd9cee"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7526,
+    "team": "Y",
+    "job_id": "c530f76a1f18d64d21ad5c32"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7512,
+    "team": "Y",
+    "job_id": "7be6205947a7a6a02287537c"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7502,
+    "team": "Y",
+    "job_id": "6112a623a3c3137fe5d71322"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7526,
+    "team": "Y",
+    "job_id": "85f113a0848d4ee7478eb6d7"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7509,
+    "team": "K",
+    "job_id": "752872971cbf27cf9814e6ab"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7514,
+    "team": "Y",
+    "job_id": "bf23a975de8f125e0d989001"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7500,
+    "team": "Y",
+    "job_id": "9a1bad691674144c89283f54"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7514,
+    "team": "Y",
+    "job_id": "e90e8ece3c324e9109a700b7"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7523,
+    "team": "Y",
+    "job_id": "cd31fd1ab678e3d2e725c063"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7531,
+    "team": "Y",
+    "job_id": "d29a1115fc74113f89fe7951"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7502,
+    "team": "Y",
+    "job_id": "94848f9245a9711140b231b9"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7503,
+    "team": "Y",
+    "job_id": "8f86820f34f2d2943539fff5"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7530,
+    "team": "Y",
+    "job_id": "da99ff201494b862f8fd62bb"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7526,
+    "team": "Y",
+    "job_id": "d19c637afb525d52d232292c"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7526,
+    "team": "Y",
+    "job_id": "806e4cc1ac13736ad7592c08"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7508,
+    "team": "Y",
+    "job_id": "b700fcd80a8dd300a2862c57"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7509,
+    "team": "Y",
+    "job_id": "8fb2b4e4ba314b49048e2b1d"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7506,
+    "team": "K",
+    "job_id": "1aecd1307e865f2c4e10bd0c"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7515,
+    "team": "K",
+    "job_id": "d108fb9a1e48ca06881c5e7b"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7521,
+    "team": "K",
+    "job_id": "1a374023825b351e9fe1a721"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7511,
+    "team": "K",
+    "job_id": "af42090e67489dcda4a1db18"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7516,
+    "team": "Y",
+    "job_id": "935d4427b606d3d8cd48421d"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7521,
+    "team": "Y",
+    "job_id": "4eff0b87a28ca23e0856e6aa"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7511,
+    "team": "Y",
+    "job_id": "7dd67aed81c810d184c665e7"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7520,
+    "team": "K",
+    "job_id": "8d13a12fe609ec80b6a63e66"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7522,
+    "team": "K",
+    "job_id": "b37794ea757867f23b3fee51"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7518,
+    "team": "Y",
+    "job_id": "3f19788fde65376cb1dbe6c5"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7513,
+    "team": "K",
+    "job_id": "888d077d800e9e317dc4ca54"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7504,
+    "team": "Y",
+    "job_id": "1f40dfc48ca3aba37435efca"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7529,
+    "team": "Y",
+    "job_id": "6742790a321f4623ba217967"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7504,
+    "team": "K",
+    "job_id": "e0831f46d7a0752e5c48306e"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7514,
+    "team": "Y",
+    "job_id": "671504666d5bca4c439023e4"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7500,
+    "team": "K",
+    "job_id": "28cde16cefd166b0eca41534"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7502,
+    "team": "K",
+    "job_id": "95a336e5649de9796ef9a369"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7514,
+    "team": "K",
+    "job_id": "fe1daef4736bc6d30a4564b2"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7529,
+    "team": "Y",
+    "job_id": "45d1fc16564ad2ffc05c7bdb"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7500,
+    "team": "Y",
+    "job_id": "47bd80c1b6d6a0cea5676e1b"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7522,
+    "team": "Y",
+    "job_id": "dc4a1ca5e99dae66224f3fb8"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7507,
+    "team": "Y",
+    "job_id": "d89e7513db253396098d8dde"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7515,
+    "team": "K",
+    "job_id": "016d09d85f3411f808b359b9"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7516,
+    "team": "Y",
+    "job_id": "651abfa5c769c479f6b8b106"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7513,
+    "team": "Y",
+    "job_id": "dcc90731a4aef82d4ec8cb25"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7507,
+    "team": "Y",
+    "job_id": "53a3dfff6ecc3e88cbcc50be"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7501,
+    "team": "K",
+    "job_id": "55a7960dc6e51f6ce22ac004"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7517,
+    "team": "Y",
+    "job_id": "c89e41fc8fef510fe91501b0"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7509,
+    "team": "K",
+    "job_id": "f8bf0f54aad3851ba21b6432"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7513,
+    "team": "K",
+    "job_id": "2dec478d46d86e8867b58806"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7509,
+    "team": "Y",
+    "job_id": "f57fca502a4de2ea4f2a0ea9"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7520,
+    "team": "Y",
+    "job_id": "c8002e2f178365b67deb9db8"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7528,
+    "team": "Y",
+    "job_id": "7529f04b8400aec391172dc5"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7518,
+    "team": "K",
+    "job_id": "ad00c8e62715e2b271088839"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7509,
+    "team": "Y",
+    "job_id": "7ca7fc8d0e705a7f199d9a3a"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7520,
+    "team": "K",
+    "job_id": "975cfcc84d76c5a6cdbdcc5d"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7524,
+    "team": "K",
+    "job_id": "c8dcec310435cfcf95c07f2c"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7525,
+    "team": "K",
+    "job_id": "f2de5c1df964fca83c4c48b8"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7509,
+    "team": "K",
+    "job_id": "40593f24cd0c838f84b91232"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7530,
+    "team": "Y",
+    "job_id": "b961ad7d72481a0665a9de5b"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7501,
+    "team": "Y",
+    "job_id": "2609612a941efcc1f76f84bf"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7505,
+    "team": "Y",
+    "job_id": "09a273644f01fee9ff54e11a"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7522,
+    "team": "Y",
+    "job_id": "82d156e014fa9cd85c6619f6"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7513,
+    "team": "K",
+    "job_id": "df0de81c9a95faeae60788c1"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7505,
+    "team": "K",
+    "job_id": "7266382b00629c77f5119e7b"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7518,
+    "team": "Y",
+    "job_id": "c3a6644c963a427424a9e4b8"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7502,
+    "team": "Y",
+    "job_id": "202c12afeab31186a4d7e28d"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7511,
+    "team": "K",
+    "job_id": "dbc19db761dec293681a6aad"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7519,
+    "team": "K",
+    "job_id": "c36d94cf12a3d787e607fcde"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7506,
+    "team": "Y",
+    "job_id": "a155e0d0f5644523ca1be9f1"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7500,
+    "team": "K",
+    "job_id": "dbb44d40bf03c8c2b8efea9b"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7506,
+    "team": "K",
+    "job_id": "ba02201adc95df8199c44a0a"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7526,
+    "team": "K",
+    "job_id": "3d8db03eb8f226e22152376b"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7502,
+    "team": "Y",
+    "job_id": "6b80345ce352fb89b5e6dfec"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7524,
+    "team": "Y",
+    "job_id": "b5bc84bc7309b2e729b047d8"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7506,
+    "team": "Y",
+    "job_id": "4559ff34c2926f9a130be949"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7525,
+    "team": "Y",
+    "job_id": "e27e4fdea8aa00432e0b73e4"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7525,
+    "team": "K",
+    "job_id": "0a3c3269f382f0c8fbacebec"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7511,
+    "team": "K",
+    "job_id": "89f50ea014cb7a309e7b5b22"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7529,
+    "team": "K",
+    "job_id": "ea9c55a0d5fb693bf5bd6613"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7521,
+    "team": "K",
+    "job_id": "eff88cc5d3f3fa3765d9a0bc"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7507,
+    "team": "K",
+    "job_id": "5cc122de1d3e29ba227b7373"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7514,
+    "team": "K",
+    "job_id": "1311971611c3a01835f4c787"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7504,
+    "team": "Y",
+    "job_id": "a682907dbc943340073d6d8e"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7521,
+    "team": "K",
+    "job_id": "5c4e693e8eec2a5b47c94592"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7502,
+    "team": "K",
+    "job_id": "3c38182115f6625f8f68c989"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7517,
+    "team": "K",
+    "job_id": "0e0c7354c1cc833a3b9e6e05"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7522,
+    "team": "Y",
+    "job_id": "d57ef11428fd7cc92aad61c2"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7505,
+    "team": "Y",
+    "job_id": "b8df73c56256dbab38823d97"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7506,
+    "team": "K",
+    "job_id": "4d21bd97047beb4d2174cb96"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7510,
+    "team": "Y",
+    "job_id": "96439b69bd712e3a7b18f3d3"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7517,
+    "team": "K",
+    "job_id": "714bfc4e947be1b6bd0f9ca8"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7503,
+    "team": "K",
+    "job_id": "d0f5bcff0b1bb4b00728c496"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7514,
+    "team": "Y",
+    "job_id": "e99c20a779aaad8fac70463a"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7510,
+    "team": "K",
+    "job_id": "fca02356db601d8d3c791060"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7520,
+    "team": "K",
+    "job_id": "bc940cbbf2242e374d807036"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7529,
+    "team": "K",
+    "job_id": "5c33c8334fe0ae048f2e1db2"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7520,
+    "team": "Y",
+    "job_id": "5695dd917e7236d91025313f"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7514,
+    "team": "K",
+    "job_id": "b8d278b39e743e1000c3d38e"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7513,
+    "team": "K",
+    "job_id": "d84e306e2b6d9a66ac495e57"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7508,
+    "team": "K",
+    "job_id": "a523fee8204b6efeb52ac136"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7522,
+    "team": "K",
+    "job_id": "78239423d2ef71d510dfbfb6"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7531,
+    "team": "K",
+    "job_id": "cab283a8edb6b83834865d0f"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7523,
+    "team": "Y",
+    "job_id": "0cc62aa476019c7b8b198e6c"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7501,
+    "team": "K",
+    "job_id": "8ac9f9a3fd9c1e170649a364"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7515,
+    "team": "K",
+    "job_id": "18d2e27af9ba3a4dd0366c9c"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7502,
+    "team": "K",
+    "job_id": "708b0deed82505e1c81bd160"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7521,
+    "team": "Y",
+    "job_id": "f12b997edbd789e08c90afd7"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7527,
+    "team": "Y",
+    "job_id": "6dbbea45c4f42647f1b23606"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7520,
+    "team": "Y",
+    "job_id": "5e7bb645c184826150e77153"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7524,
+    "team": "Y",
+    "job_id": "16cfba08bb1e818a2ac16b4f"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7518,
+    "team": "Y",
+    "job_id": "b4a86db05322baa1390527a9"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7505,
+    "team": "K",
+    "job_id": "838e8125d4956e76ea2d6946"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7522,
+    "team": "Y",
+    "job_id": "f4127bcb08a1bceba891041d"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7500,
+    "team": "K",
+    "job_id": "1bcaa8f7ecfa89c6657531a0"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7512,
+    "team": "Y",
+    "job_id": "f7492190e5ff770b0d370dd8"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7523,
+    "team": "K",
+    "job_id": "1261910417e52cbdcb427138"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7519,
+    "team": "Y",
+    "job_id": "745f823acf87b03812bd9f3b"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7506,
+    "team": "K",
+    "job_id": "adb39bfbe89e265d1ca4a55e"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7522,
+    "team": "K",
+    "job_id": "6921206baf31dc49c968d31f"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7513,
+    "team": "K",
+    "job_id": "6c5dc2adb224e201cfa5e60e"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7530,
+    "team": "K",
+    "job_id": "c4a30427576bf12b45920f0a"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7500,
+    "team": "K",
+    "job_id": "8bc7f7c564c981f00b380fb8"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7508,
+    "team": "K",
+    "job_id": "06330e19d4035ec94e513144"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7514,
+    "team": "K",
+    "job_id": "ea433ff8da89acb952d3751e"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7518,
+    "team": "Y",
+    "job_id": "5cff75d8410869f972dce9ed"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7528,
+    "team": "K",
+    "job_id": "709d71dc7b95a37879dda782"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7505,
+    "team": "K",
+    "job_id": "21e33cb98b2b52e0e1fde957"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7502,
+    "team": "K",
+    "job_id": "d421f465e1abf105c689672a"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7524,
+    "team": "K",
+    "job_id": "6cd95e4132a10b37f9a3b8fe"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7518,
+    "team": "K",
+    "job_id": "25e8e2a429687a2697b315f2"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7513,
+    "team": "Y",
+    "job_id": "704d5850f162b2f4688e417c"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7521,
+    "team": "K",
+    "job_id": "b78616eda28c254ed58c6ea0"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7522,
+    "team": "Y",
+    "job_id": "ed0e65e090195b12bd36abca"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7514,
+    "team": "Y",
+    "job_id": "4228762db2e85ee03514257f"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7516,
+    "team": "Y",
+    "job_id": "30882ac5ef4cf57134771ddf"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7517,
+    "team": "Y",
+    "job_id": "00e0cd94a054316b6bde62a3"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7519,
+    "team": "K",
+    "job_id": "7717c44c47623b1022326d98"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7531,
+    "team": "Y",
+    "job_id": "a55bd01fac751c1ade820b8c"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7506,
+    "team": "Y",
+    "job_id": "4a19567d3eaa04f3a7d3949c"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7527,
+    "team": "K",
+    "job_id": "6d4a4576d47f63d163212a33"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7513,
+    "team": "K",
+    "job_id": "819ccf1ef35c325d89aebd54"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7512,
+    "team": "Y",
+    "job_id": "b6bc498b7ae773efda6944c2"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7522,
+    "team": "K",
+    "job_id": "b2c54aba7a50920aeb93c243"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7522,
+    "team": "K",
+    "job_id": "af64f34c10a95bea63e1b14c"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7512,
+    "team": "Y",
+    "job_id": "c3f9da7abe34ee89cb90cb7d"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7529,
+    "team": "Y",
+    "job_id": "630e6e423d6c6213f1c41927"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7519,
+    "team": "Y",
+    "job_id": "1609c65740f71c3c77201a51"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7531,
+    "team": "K",
+    "job_id": "7d105d057ab9bff3ed2b2e91"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7509,
+    "team": "Y",
+    "job_id": "90a7502a0aa970672254cc87"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7513,
+    "team": "Y",
+    "job_id": "8fb074b1bef78967ee46a2aa"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7528,
+    "team": "Y",
+    "job_id": "1020055a3cbbf2c534b2d6ff"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7503,
+    "team": "Y",
+    "job_id": "a078125a0390b0900d919d25"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7500,
+    "team": "Y",
+    "job_id": "5727fe79b5c9c16636720260"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7505,
+    "team": "K",
+    "job_id": "e0f3d519d3a6efee030f0c48"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7527,
+    "team": "K",
+    "job_id": "25ee26f53e5df72403f7def5"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7512,
+    "team": "Y",
+    "job_id": "34fe6344d8142f957c6a49b4"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7530,
+    "team": "K",
+    "job_id": "373b4cb328d171ddcbd7f491"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7510,
+    "team": "Y",
+    "job_id": "b1f81fb27b00ba7913d6f131"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7505,
+    "team": "Y",
+    "job_id": "774bd164bed27dbb879d2e86"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7506,
+    "team": "K",
+    "job_id": "26e1126267e38da3472a4290"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7523,
+    "team": "K",
+    "job_id": "6e94f716cdeecf45504c146a"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7527,
+    "team": "Y",
+    "job_id": "d9ce38c0d371369bd96554a3"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7526,
+    "team": "K",
+    "job_id": "c3e9baa0c136688f575df15f"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7507,
+    "team": "K",
+    "job_id": "48fb11b5ddac4bd68c78c929"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7514,
+    "team": "K",
+    "job_id": "1494af24f876904c439f52b7"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7515,
+    "team": "K",
+    "job_id": "d09d8c35c7c327a9fa02a6a2"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7508,
+    "team": "Y",
+    "job_id": "259f3ffd778454ee22257ab6"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7523,
+    "team": "K",
+    "job_id": "9d47827c08c04b23dcfdb29a"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7504,
+    "team": "K",
+    "job_id": "e1bab97635a4f13ba8b22622"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7528,
+    "team": "K",
+    "job_id": "c9f9b00e60be5c3b0ad04790"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7507,
+    "team": "Y",
+    "job_id": "6b1fb253860da5203d64206c"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7517,
+    "team": "Y",
+    "job_id": "a518b843c5209dd470653a91"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7510,
+    "team": "Y",
+    "job_id": "a58c0aff8371a541e434720a"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7500,
+    "team": "K",
+    "job_id": "98d085678d494c073230e854"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7530,
+    "team": "K",
+    "job_id": "f9d9e00b55d6b5093c0c9b2d"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7514,
+    "team": "Y",
+    "job_id": "42b157de30ec8a1114fee238"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7505,
+    "team": "Y",
+    "job_id": "5e166d7a4ab5e0f64cb169ef"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7524,
+    "team": "K",
+    "job_id": "218120c12ada0683f007d7fc"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7500,
+    "team": "Y",
+    "job_id": "a899850fb5277474040f2686"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7528,
+    "team": "K",
+    "job_id": "982696993f9c2a9563f1599d"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7524,
+    "team": "Y",
+    "job_id": "38460a175824289b44d084c9"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7522,
+    "team": "K",
+    "job_id": "8a7c76d24bafd74244a12470"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7500,
+    "team": "Y",
+    "job_id": "3b2f4a023748c98e75b6b951"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7531,
+    "team": "Y",
+    "job_id": "c0fe8fdc92ec10428cbf2511"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7509,
+    "team": "Y",
+    "job_id": "db406210e13955ada214cefe"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7522,
+    "team": "Y",
+    "job_id": "ed68519dac1169d708e4a768"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7524,
+    "team": "K",
+    "job_id": "cbec4928c44de7204ccce966"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7526,
+    "team": "K",
+    "job_id": "9e9cf364539f69b3d164cac2"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7520,
+    "team": "Y",
+    "job_id": "284e4766b6ac8569bd98daec"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7531,
+    "team": "Y",
+    "job_id": "56e56b2976e98c73b8ed4103"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7528,
+    "team": "K",
+    "job_id": "f91e57def8e6c923beb68d01"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7511,
+    "team": "Y",
+    "job_id": "6292f8e33a7f181f8fde5dd1"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7519,
+    "team": "Y",
+    "job_id": "787448e58b5553f5183e1f67"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7531,
+    "team": "Y",
+    "job_id": "18ff013b8272a29fd63a5f6c"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7510,
+    "team": "K",
+    "job_id": "bc718e3c73b08a3e923e806a"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7520,
+    "team": "Y",
+    "job_id": "68f25134b71ce894cc021cb2"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7516,
+    "team": "Y",
+    "job_id": "3e699b950ebb267093f6c55f"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7528,
+    "team": "K",
+    "job_id": "4d4868538c399524a6364d71"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7529,
+    "team": "K",
+    "job_id": "50239368ab0992a6f63b48a1"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7531,
+    "team": "Y",
+    "job_id": "42529449353559ece48929e0"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7516,
+    "team": "K",
+    "job_id": "e0707a346867c8d9620b34bd"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7506,
+    "team": "K",
+    "job_id": "acdae275b4ee2007ca9e8906"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7526,
+    "team": "Y",
+    "job_id": "a984744813e9cb56986bb21f"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7526,
+    "team": "K",
+    "job_id": "72379289267aa5b564b11d92"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7510,
+    "team": "K",
+    "job_id": "d385389784e302fb3a33705a"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7507,
+    "team": "K",
+    "job_id": "dbe9e77cf14c3b7c68eea326"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7517,
+    "team": "Y",
+    "job_id": "fc95d22f60faa95772934be6"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7511,
+    "team": "K",
+    "job_id": "507772bc2dcbf3692f64082a"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7520,
+    "team": "Y",
+    "job_id": "962c3143a80709483a6f6bc5"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7511,
+    "team": "Y",
+    "job_id": "daa70e8668591facd13e7744"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7525,
+    "team": "Y",
+    "job_id": "8933384bef8471697800388f"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7525,
+    "team": "Y",
+    "job_id": "1c12cc85584598e59e905310"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7507,
+    "team": "K",
+    "job_id": "6043e4037dc2e15f4d1bba66"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7508,
+    "team": "Y",
+    "job_id": "3b760cd8de8821215a05a2f3"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7524,
+    "team": "Y",
+    "job_id": "d9dd60f56d152bee32ba71b0"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7504,
+    "team": "Y",
+    "job_id": "ed2af6338b00a1b70e70f9a0"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7521,
+    "team": "K",
+    "job_id": "f9af01b4c2c6566c997f9502"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7507,
+    "team": "K",
+    "job_id": "8512c6a37dbfe44445fe267a"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7507,
+    "team": "K",
+    "job_id": "dfea3a4633dfbacf062735a9"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7506,
+    "team": "K",
+    "job_id": "1ef09e07683c76a034e5d4a0"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7529,
+    "team": "K",
+    "job_id": "fdf29e35410c3eedc8a0a675"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7510,
+    "team": "Y",
+    "job_id": "ebc2a70f4b69ebe19873f901"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7514,
+    "team": "K",
+    "job_id": "8f5775038b6ab502354b7608"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7521,
+    "team": "Y",
+    "job_id": "a9e3b99b0b640f0adf8b10fb"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7528,
+    "team": "K",
+    "job_id": "b6fd0284093e0f647c638cab"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7509,
+    "team": "K",
+    "job_id": "6f04d793b01fd606a07ca1c7"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7508,
+    "team": "Y",
+    "job_id": "2d1cb10889acd19d4bac7245"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7510,
+    "team": "K",
+    "job_id": "49a687debdadc6adc6545400"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7508,
+    "team": "Y",
+    "job_id": "8f7f361cc9d545bb5c1acc22"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7508,
+    "team": "Y",
+    "job_id": "d13e1a3cb7869818a6d82ad8"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7513,
+    "team": "Y",
+    "job_id": "ca7081939a074fcdb8784992"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7510,
+    "team": "Y",
+    "job_id": "635def547c273c3de46d73bc"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7516,
+    "team": "Y",
+    "job_id": "1c2a81ce0e2a3b46efe76624"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7512,
+    "team": "K",
+    "job_id": "7fbb01b666189010f4d07ed5"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7531,
+    "team": "K",
+    "job_id": "107da1acd6b4a9dbaaf40b92"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7503,
+    "team": "Y",
+    "job_id": "c5afda545ccad3f7a93675cf"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7520,
+    "team": "Y",
+    "job_id": "93c7f0bdb1837407442db7e8"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7518,
+    "team": "K",
+    "job_id": "b0c1ecb6ad0eb236cf6ca749"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7524,
+    "team": "Y",
+    "job_id": "0d9308fee26ca30ae4e0eb95"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7521,
+    "team": "Y",
+    "job_id": "345d9be2eedc6a9d9ff74758"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7517,
+    "team": "K",
+    "job_id": "f2fb44d4b1e6490115f28bae"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7505,
+    "team": "K",
+    "job_id": "d91d85516145359d8ed95857"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7501,
+    "team": "K",
+    "job_id": "236fb17ccd35b966d4211efd"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7507,
+    "team": "K",
+    "job_id": "ab2e68221da6c0e8aff65edf"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7528,
+    "team": "K",
+    "job_id": "dbc2dc7300dccd33d3e6dc3c"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7527,
+    "team": "K",
+    "job_id": "99bf4e68030646eee6ec4aad"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7517,
+    "team": "Y",
+    "job_id": "48b7efa31beeffbefbc3f56e"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7525,
+    "team": "K",
+    "job_id": "fa65248bf2e4393aaa1733f3"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7522,
+    "team": "K",
+    "job_id": "c2719e8891787ea40aa36299"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7517,
+    "team": "K",
+    "job_id": "2b142557f7f16932079048a3"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7510,
+    "team": "Y",
+    "job_id": "a489fa1710989967c53d5e33"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7519,
+    "team": "K",
+    "job_id": "e829c7dcbfeeef7c9106ee3d"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7531,
+    "team": "K",
+    "job_id": "8f678db9d5a2e86f76dc2b40"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7529,
+    "team": "Y",
+    "job_id": "cbcd73d6700a4155d7a50a89"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7516,
+    "team": "Y",
+    "job_id": "b2e6ca46775f812c818e5921"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7506,
+    "team": "Y",
+    "job_id": "d5f11f23908999527f24e533"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7518,
+    "team": "K",
+    "job_id": "26f40d006008ec1134b74c08"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7523,
+    "team": "K",
+    "job_id": "804466e494d54111aa0cf0d7"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7514,
+    "team": "K",
+    "job_id": "6db4c37795916d593aff6167"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7505,
+    "team": "K",
+    "job_id": "21ec56655740b4b97befb32c"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7529,
+    "team": "K",
+    "job_id": "dd62e774965212c9c8e2a268"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7518,
+    "team": "K",
+    "job_id": "b5167a0b8e1e348d9d10f580"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7503,
+    "team": "K",
+    "job_id": "76c960761ca448184554813e"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7520,
+    "team": "Y",
+    "job_id": "ba8a03d61f843910f7b3a2c7"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7527,
+    "team": "Y",
+    "job_id": "76b00af0c05c4f62f80c7650"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7519,
+    "team": "Y",
+    "job_id": "0ffab2ee8e6de08c7518ac17"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7506,
+    "team": "Y",
+    "job_id": "dc01675e12fe9ca902bd4f3c"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7514,
+    "team": "K",
+    "job_id": "51a3a383e334edfe24daedda"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7501,
+    "team": "Y",
+    "job_id": "3ae1de2bb7fbdc16e91bc44f"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7518,
+    "team": "K",
+    "job_id": "1fecbbeafc8e2e255cfa00ce"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7508,
+    "team": "K",
+    "job_id": "646056dba35f5e101ba28ab9"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7520,
+    "team": "K",
+    "job_id": "cd7f64b81bc30d495f04fecb"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7531,
+    "team": "K",
+    "job_id": "c8e0abebe5e9b9e2879b4763"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7511,
+    "team": "K",
+    "job_id": "9cf452dcd7d221e1c3842dad"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7509,
+    "team": "Y",
+    "job_id": "71ffa040d67d06e69d3ca4a1"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7517,
+    "team": "K",
+    "job_id": "c202e5caba322817b608783d"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7525,
+    "team": "Y",
+    "job_id": "d67752b3509a540aa1d3bf81"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7526,
+    "team": "K",
+    "job_id": "5ca60da5fbe0fa8043e5b688"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7517,
+    "team": "K",
+    "job_id": "ae4225dc2529f4994af93019"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7529,
+    "team": "K",
+    "job_id": "1af1b9c2af193d06b9998452"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7510,
+    "team": "K",
+    "job_id": "f74c6863baf4214c609973ca"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7528,
+    "team": "K",
+    "job_id": "51af188a756a63dde3cd19d3"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7501,
+    "team": "K",
+    "job_id": "c9c49b1742dc2161b2e7f9df"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7517,
+    "team": "Y",
+    "job_id": "fa5f0be18a7a2087ee9dd8bc"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7527,
+    "team": "K",
+    "job_id": "75d22035e5ffd4de1a5c2a38"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7506,
+    "team": "Y",
+    "job_id": "b231eb299d188eb7f4ac22a8"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7503,
+    "team": "K",
+    "job_id": "696e6da54c98166170b10df4"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7515,
+    "team": "K",
+    "job_id": "f59ebac975442eff149ac283"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7512,
+    "team": "Y",
+    "job_id": "3b6d8bd945aabe8611e77d45"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7503,
+    "team": "K",
+    "job_id": "cdf90407e72c6326618d8b05"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7522,
+    "team": "K",
+    "job_id": "fcbfda6481369e2c749ee627"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7516,
+    "team": "K",
+    "job_id": "45c579d3c58512d978022d25"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7504,
+    "team": "K",
+    "job_id": "a3c5f362fbe10e458e1eea3f"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7515,
+    "team": "Y",
+    "job_id": "b3ad763e37865e6adde0dbf7"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7518,
+    "team": "K",
+    "job_id": "a4e2c8eb146c02473f84b074"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7512,
+    "team": "Y",
+    "job_id": "5813d72b2f5e031887c7f458"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7528,
+    "team": "K",
+    "job_id": "9b8bbd2602804abd1a455ccb"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7516,
+    "team": "K",
+    "job_id": "10ce8b7002af74d0fd76aac4"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7504,
+    "team": "Y",
+    "job_id": "ace1c3404cc1976edffb3740"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7518,
+    "team": "Y",
+    "job_id": "49966fa7721ddff79f1eb10c"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7506,
+    "team": "K",
+    "job_id": "8a4179e6608dd2fa41aa2f98"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7509,
+    "team": "Y",
+    "job_id": "9ed1d4ca3f6c2f3d500b9aa0"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7525,
+    "team": "Y",
+    "job_id": "15a6874d0048506a65b2ba2b"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7515,
+    "team": "Y",
+    "job_id": "79296a60776f45e6fd1707dc"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7530,
+    "team": "Y",
+    "job_id": "57a32eb5b94622fd98da811f"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7523,
+    "team": "Y",
+    "job_id": "c26b8ffd1a25bb5abd7265f7"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7512,
+    "team": "K",
+    "job_id": "554f3ecaa3885ec0495e2b2a"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7527,
+    "team": "K",
+    "job_id": "35e3721df4b226732817b52a"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7522,
+    "team": "Y",
+    "job_id": "aebaa3af23234e846c04a7ad"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7531,
+    "team": "K",
+    "job_id": "281db5478433c7f33ea80431"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7511,
+    "team": "K",
+    "job_id": "18f203c487e1444e36064f79"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7518,
+    "team": "K",
+    "job_id": "1230bc26a6cb3d97b757915c"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7504,
+    "team": "Y",
+    "job_id": "ae2f257f68fe742df5de40b8"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7512,
+    "team": "K",
+    "job_id": "02b28e2bb4cd18e1caf1c8e3"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7503,
+    "team": "K",
+    "job_id": "5d00755791c32eaff94a49b0"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7517,
+    "team": "Y",
+    "job_id": "58e45ad0aa96331414e0e17d"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7517,
+    "team": "K",
+    "job_id": "ae4b2bb385d2529d2463c462"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7519,
+    "team": "Y",
+    "job_id": "517d0ae3e1a8413533beefdb"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7519,
+    "team": "K",
+    "job_id": "57ca72781808659c505bf078"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7513,
+    "team": "Y",
+    "job_id": "769c0a551c3fa30e784e4fb2"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7505,
+    "team": "Y",
+    "job_id": "a0ed81e1d64150c46f219ec5"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7501,
+    "team": "Y",
+    "job_id": "96b8b95ce2cc374e477200ed"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7516,
+    "team": "Y",
+    "job_id": "b28128129e3872d3c7d336b9"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7507,
+    "team": "Y",
+    "job_id": "eef58373ae3323f7cc2d0db8"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7512,
+    "team": "Y",
+    "job_id": "7391e7effbf7e9467661cb59"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7524,
+    "team": "Y",
+    "job_id": "7cf6888773000fa4adc73af7"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7509,
+    "team": "K",
+    "job_id": "7f919d2e34830102654900d8"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7511,
+    "team": "Y",
+    "job_id": "6c278b2e60d7e8041ad6411c"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7511,
+    "team": "K",
+    "job_id": "119ba04e218e7ad93b503043"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7513,
+    "team": "Y",
+    "job_id": "8837e7ed2cd6a5b8e0ca8eb6"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7510,
+    "team": "K",
+    "job_id": "ed3ccaa4509f856a8668d8b2"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7513,
+    "team": "K",
+    "job_id": "592d3a9b375d1d709d3489cb"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7513,
+    "team": "Y",
+    "job_id": "099e312011f460822dd959f7"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7518,
+    "team": "Y",
+    "job_id": "9a2b6324b2e8410acdec6133"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7527,
+    "team": "Y",
+    "job_id": "2175b10091146bdb7717faa7"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7509,
+    "team": "Y",
+    "job_id": "d6cb332afe1d48a4a9f18205"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7500,
+    "team": "K",
+    "job_id": "d5bf46f3b7865d0bb6f219f6"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7506,
+    "team": "Y",
+    "job_id": "883c8377b2a0e075498a2ac5"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7511,
+    "team": "Y",
+    "job_id": "e725f4fb028adba7ea5a7e6d"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7512,
+    "team": "Y",
+    "job_id": "de2c7eb31c5646b5e0b4d9ca"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7507,
+    "team": "K",
+    "job_id": "8916ed9280e98ce7fd2e70e3"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7506,
+    "team": "Y",
+    "job_id": "74d6fd383ee7f4b7866a7d6c"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7527,
+    "team": "K",
+    "job_id": "85371456335011a1f41c6ce2"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7523,
+    "team": "K",
+    "job_id": "f98f7cf2bdf30545f5c30a74"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7526,
+    "team": "K",
+    "job_id": "9d8b633533c63e1c9debdc64"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7504,
+    "team": "K",
+    "job_id": "fbe01865eabf1f7ee173bbc4"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7510,
+    "team": "Y",
+    "job_id": "f731374918dcdbf60a58156c"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7527,
+    "team": "K",
+    "job_id": "7ee5925813f25c798b0de647"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7530,
+    "team": "K",
+    "job_id": "d34fe6dd47327f9342be5781"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7515,
+    "team": "K",
+    "job_id": "4c8d220988bb21085cd93d90"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7531,
+    "team": "K",
+    "job_id": "9e3e04434437b77d98576709"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7515,
+    "team": "Y",
+    "job_id": "fd0cfd766b268ac0d7c26ff1"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7525,
+    "team": "K",
+    "job_id": "bb6bf01765b81d7b9e751a62"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7522,
+    "team": "Y",
+    "job_id": "f8b0e97a8f000ec51f4bcb9e"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7510,
+    "team": "Y",
+    "job_id": "14aa3a39283514523eff1452"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7531,
+    "team": "Y",
+    "job_id": "88eba5a7ff0806aa3e8522de"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7502,
+    "team": "K",
+    "job_id": "a7a8d1fdd5921849968beb24"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7530,
+    "team": "Y",
+    "job_id": "1f63cf9e19c9d05ef1848b75"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7530,
+    "team": "Y",
+    "job_id": "3fcb7acd021085a0aa4f023a"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7525,
+    "team": "K",
+    "job_id": "76645aac5180cda674947b70"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7525,
+    "team": "Y",
+    "job_id": "1e21d6a4c4aaec842c93f544"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7521,
+    "team": "K",
+    "job_id": "e208fda38636945406f75469"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7527,
+    "team": "Y",
+    "job_id": "dfbe349abf2d200af3a32c56"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7521,
+    "team": "K",
+    "job_id": "aaca22da31afd63ed1bb1436"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7512,
+    "team": "K",
+    "job_id": "5b2458d3e7c1f06dcb613293"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7527,
+    "team": "Y",
+    "job_id": "4e69bee5d7da59708968d373"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7510,
+    "team": "K",
+    "job_id": "706663c03114888757cab8e9"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7529,
+    "team": "K",
+    "job_id": "ca161d5f8759f428aa9e065c"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7528,
+    "team": "K",
+    "job_id": "52bb47293a826fb463ff4ce3"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7504,
+    "team": "K",
+    "job_id": "39f1e7dc11177a3f5d5be6c5"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7515,
+    "team": "K",
+    "job_id": "ae5d6bffbdd5667776d63a8f"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7519,
+    "team": "K",
+    "job_id": "37c3cb12cdee830e2453ae9c"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7511,
+    "team": "Y",
+    "job_id": "6aa9114e45813c7aa6edac28"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7517,
+    "team": "K",
+    "job_id": "74c81e895ec133265a23de11"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7515,
+    "team": "Y",
+    "job_id": "8f9bdc57bffcd31a4235ecfa"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7523,
+    "team": "K",
+    "job_id": "5231d20411366d093b222367"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7521,
+    "team": "Y",
+    "job_id": "6b1813463dcd4cab14eca157"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7502,
+    "team": "K",
+    "job_id": "d8a4ce8c2fa77b2614dfce9c"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7525,
+    "team": "Y",
+    "job_id": "a5ad8e17f7d01c7bc125df46"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7512,
+    "team": "K",
+    "job_id": "bf8263d41ebed0f317b9d160"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7500,
+    "team": "K",
+    "job_id": "1806ca06b4faadf4c66be883"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7503,
+    "team": "Y",
+    "job_id": "c850bab362c7b98147bce9dc"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7516,
+    "team": "Y",
+    "job_id": "00933a62b19d5b5dd3e4defd"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7504,
+    "team": "K",
+    "job_id": "2c0b36039dfb9be5f670857f"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7523,
+    "team": "K",
+    "job_id": "838a6f1ad372be1be28e86bb"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7503,
+    "team": "Y",
+    "job_id": "ebe13d78859c750f761e8d77"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7521,
+    "team": "K",
+    "job_id": "3e90d00a66550e3dd1748b16"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7523,
+    "team": "K",
+    "job_id": "1fb349593290b2dd786eedc4"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7530,
+    "team": "K",
+    "job_id": "4e4b020ba1631b75f3cfe737"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7531,
+    "team": "K",
+    "job_id": "d0de7bb7a32996a25d47b111"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7505,
+    "team": "Y",
+    "job_id": "5c0abc55ff8edbd1ac660334"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7524,
+    "team": "Y",
+    "job_id": "2e2f70439b853e3ceabf0a9f"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7501,
+    "team": "K",
+    "job_id": "89d8174b98a109b51b35e2af"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7512,
+    "team": "Y",
+    "job_id": "aaa916cf6c7c522798bb07b4"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7529,
+    "team": "Y",
+    "job_id": "8b475ae5a6419f3fb9e90f7e"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7506,
+    "team": "K",
+    "job_id": "8af5cb1f54a8b0d8464f695e"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7508,
+    "team": "K",
+    "job_id": "7a682be2698a3dcabe0de937"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7529,
+    "team": "K",
+    "job_id": "12b1d311e47851e70dd113fd"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7503,
+    "team": "K",
+    "job_id": "be2d5b5b5d434935e11e8866"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7502,
+    "team": "K",
+    "job_id": "6a6b42972b51fad59de3ca68"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7507,
+    "team": "Y",
+    "job_id": "5fb5f11376bc37f9e53f727d"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7509,
+    "team": "Y",
+    "job_id": "9f7fa1b3f226381cfe0b8194"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7502,
+    "team": "Y",
+    "job_id": "2daf82b092fd6e46601703cd"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7504,
+    "team": "K",
+    "job_id": "b5aaacc0c7cc3373ec425142"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7524,
+    "team": "K",
+    "job_id": "19dc8eaffe01a472bb7778f1"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7516,
+    "team": "K",
+    "job_id": "93ba06204fbeff290838079b"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7525,
+    "team": "K",
+    "job_id": "50f8ce193e77c3984e12fd10"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7518,
+    "team": "K",
+    "job_id": "0871d23b9467d6f2e7bb1c32"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7515,
+    "team": "Y",
+    "job_id": "1f13b971672554bd4f3193ca"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7513,
+    "team": "Y",
+    "job_id": "5efda182ad50ee77a6afa061"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7519,
+    "team": "Y",
+    "job_id": "af750b139e71288c57bc4c57"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7508,
+    "team": "Y",
+    "job_id": "e20f66ba21e6d5f33bc679be"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7530,
+    "team": "Y",
+    "job_id": "d5ec99e14d6f8e2572a29d09"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7514,
+    "team": "K",
+    "job_id": "c516841187d8894a8f48578d"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7518,
+    "team": "K",
+    "job_id": "855621b002faeb70cd232091"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7501,
+    "team": "K",
+    "job_id": "161c9215b929f33d9c12e20a"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7529,
+    "team": "K",
+    "job_id": "e6760d702c01f4a6ea34a3e2"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7515,
+    "team": "K",
+    "job_id": "6f173e21d66fb45a1170900d"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7508,
+    "team": "K",
+    "job_id": "b4ea050e474a2bd72e0a2ba8"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7501,
+    "team": "K",
+    "job_id": "5506fcc32ccf2e5c96acfde4"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7523,
+    "team": "K",
+    "job_id": "f40610b56d481033c6413026"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7505,
+    "team": "K",
+    "job_id": "bf2fdadb983987d8c747f592"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7522,
+    "team": "K",
+    "job_id": "e08b0fe849edc584dc381738"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7517,
+    "team": "K",
+    "job_id": "48292c514b07d65b97181d61"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7513,
+    "team": "K",
+    "job_id": "86648de1e11f6ed1ad142581"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7516,
+    "team": "K",
+    "job_id": "113b24ef58a8dcf338ce49ee"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7505,
+    "team": "Y",
+    "job_id": "5d46c5fadd3cdc1b251f8d88"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7526,
+    "team": "Y",
+    "job_id": "5359f892cfda99f59a66c1cc"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7527,
+    "team": "K",
+    "job_id": "c0d4dabf09559b16b05a1d4d"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7525,
+    "team": "K",
+    "job_id": "b83429245eb5e48928d67228"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7527,
+    "team": "Y",
+    "job_id": "854c38a09fd01323ae302c36"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7511,
+    "team": "K",
+    "job_id": "79c7d2131ab1a2e395dfdb4b"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7503,
+    "team": "K",
+    "job_id": "604749daf1636501f1bb2fd3"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7509,
+    "team": "K",
+    "job_id": "5e4c8c4c103640fe1e76934c"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7507,
+    "team": "K",
+    "job_id": "04e508e7fcb7960bb25a052a"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7504,
+    "team": "Y",
+    "job_id": "64fac68b6a6706bc97195147"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7500,
+    "team": "K",
+    "job_id": "ad21fdbe5faa48beec78fba7"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7519,
+    "team": "K",
+    "job_id": "92cba2ea0ce2da9b698bdbbe"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7510,
+    "team": "Y",
+    "job_id": "c9135a14dd504465e9af3119"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7516,
+    "team": "Y",
+    "job_id": "eca667d0de84a720be71f4af"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7520,
+    "team": "Y",
+    "job_id": "eeadb44ccc17a47eefcd5c6d"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7511,
+    "team": "K",
+    "job_id": "69aa98568fb99f1cee7ac044"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7523,
+    "team": "Y",
+    "job_id": "7877dbb7df27342e9b1301ae"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7524,
+    "team": "Y",
+    "job_id": "51a841d10b6645314e50d160"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7512,
+    "team": "K",
+    "job_id": "5aa4e15d063d00c5e85050da"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7504,
+    "team": "Y",
+    "job_id": "4c3b7976c0416d4f6c68a9c8"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7505,
+    "team": "K",
+    "job_id": "305ace91e764ef089530cf89"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7514,
+    "team": "Y",
+    "job_id": "504921cba8ea79d481d275cc"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7531,
+    "team": "K",
+    "job_id": "944e70053849ba4ce53a6510"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7525,
+    "team": "K",
+    "job_id": "dae7b9d2a5a4965ed3bf7541"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7514,
+    "team": "K",
+    "job_id": "5b8d6f9e69dbfcb4b9e67116"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7502,
+    "team": "K",
+    "job_id": "6d5156c011d4b69bd58ba8a7"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7505,
+    "team": "Y",
+    "job_id": "c1c8ce567616a9336df05daa"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7503,
+    "team": "Y",
+    "job_id": "22d6cbf4bac9f4cbe0d74fda"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7500,
+    "team": "Y",
+    "job_id": "4332680ad5fdcaa62ec826d1"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7530,
+    "team": "K",
+    "job_id": "e8dac8760618961700c9dd91"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7503,
+    "team": "Y",
+    "job_id": "20aa954e69db1bea6db5957c"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7530,
+    "team": "K",
+    "job_id": "2eb77dfcf3d6bd21cf27b22a"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7513,
+    "team": "Y",
+    "job_id": "293b725632936283cafd8e89"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7511,
+    "team": "K",
+    "job_id": "970ff6ef3ecae83e1fe2191a"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7520,
+    "team": "K",
+    "job_id": "fa70a25b9947e6658e75c5ee"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7505,
+    "team": "Y",
+    "job_id": "5b46f2c112d61d68e36f7196"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7529,
+    "team": "Y",
+    "job_id": "d25e950dcc4d652cb67c2bf5"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7527,
+    "team": "Y",
+    "job_id": "68d62fb6527cb0996464854f"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7519,
+    "team": "K",
+    "job_id": "bf374d343c643992b761911b"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7505,
+    "team": "K",
+    "job_id": "2720d6ad226fd46561c0174c"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7521,
+    "team": "Y",
+    "job_id": "25919aa15098ec665d86dd89"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7515,
+    "team": "Y",
+    "job_id": "4ab581cda45dcbfa80cfbcdc"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7523,
+    "team": "K",
+    "job_id": "e2c06e4b911c4bb806fd7116"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7510,
+    "team": "K",
+    "job_id": "cbdfecea7f144044970e2715"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7528,
+    "team": "Y",
+    "job_id": "eb40640a4b7ad72a78f88df1"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7501,
+    "team": "Y",
+    "job_id": "ddffab4896435b72623090de"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7528,
+    "team": "Y",
+    "job_id": "e0c8363289cef1779fac6b4e"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7501,
+    "team": "K",
+    "job_id": "e16b65c9e7abefc29dba1c41"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7519,
+    "team": "K",
+    "job_id": "86fb41e3c4dba59b097ad1b6"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7510,
+    "team": "Y",
+    "job_id": "22eabcbbf941d16d765f4dfe"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7500,
+    "team": "K",
+    "job_id": "9913e378b3d9fc6f28ad836d"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7501,
+    "team": "K",
+    "job_id": "534d7d08218a38eb2b3e38c0"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7512,
+    "team": "K",
+    "job_id": "76dcfeb6ec82aa94a42616e4"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7507,
+    "team": "Y",
+    "job_id": "fcc63ff4787f827ed3887052"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7507,
+    "team": "K",
+    "job_id": "431b034844059656f18b2dfe"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7503,
+    "team": "K",
+    "job_id": "a9fac053917c93377b8c9c12"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7523,
+    "team": "Y",
+    "job_id": "67ea2dab9b196088d46ae7f4"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7512,
+    "team": "K",
+    "job_id": "ccf56e5c7a3b1c3834ce3dbe"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7508,
+    "team": "Y",
+    "job_id": "37706370fa68940f00295aba"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7530,
+    "team": "Y",
+    "job_id": "f352b6b1d9cf1ede6cb4d02d"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7506,
+    "team": "K",
+    "job_id": "cef0b8ff9b39aade441949f4"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7510,
+    "team": "K",
+    "job_id": "d4c7e892989808c1ab26fabc"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7522,
+    "team": "K",
+    "job_id": "95f1f8a76dc19ec4e26582c4"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7501,
+    "team": "Y",
+    "job_id": "740e7b0247205da1eed5aae4"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7504,
+    "team": "K",
+    "job_id": "d68ce2fef5c2590c612647fb"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7524,
+    "team": "K",
+    "job_id": "98601468f4da1fb7920dbc8f"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7529,
+    "team": "Y",
+    "job_id": "1bb80e706ae1a88b7fd612b3"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7509,
+    "team": "K",
+    "job_id": "91bd43ad03d5efd3347c4a32"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7521,
+    "team": "K",
+    "job_id": "c36384a75b1085b0f36e6f03"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7512,
+    "team": "K",
+    "job_id": "1a204d75b6d407862a1b5ff0"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7527,
+    "team": "K",
+    "job_id": "4ea71e27edcd19614b10b3b9"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7527,
+    "team": "Y",
+    "job_id": "570733c9f2398cac1d0b8253"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7509,
+    "team": "K",
+    "job_id": "0c15c32fb79abb8b2a3d4141"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7513,
+    "team": "K",
+    "job_id": "3d5ab5b3eee9abee00063213"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7527,
+    "team": "K",
+    "job_id": "37a1d0d2a60ab289eb50a72c"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7513,
+    "team": "Y",
+    "job_id": "2ec527ffbc525f344421fef7"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7502,
+    "team": "K",
+    "job_id": "b14f4741b87a5a73842efa90"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7504,
+    "team": "Y",
+    "job_id": "658feb4ade6258a161b7d86a"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7513,
+    "team": "Y",
+    "job_id": "3d304d949c4e8b2a081d4f61"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7525,
+    "team": "K",
+    "job_id": "a19dcd3383b692102424af84"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7502,
+    "team": "K",
+    "job_id": "1818deadd568905e417bbd33"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7519,
+    "team": "K",
+    "job_id": "9460de3f88fbe4378b8b1a7f"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7520,
+    "team": "K",
+    "job_id": "22efa79deb9eddc7f08c26d7"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7504,
+    "team": "K",
+    "job_id": "6963a30a942bda266a738614"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7530,
+    "team": "K",
+    "job_id": "8fdc22aab5d7511b339c78de"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7522,
+    "team": "K",
+    "job_id": "1d381ad5ae0dd14f9adb2ad8"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7517,
+    "team": "Y",
+    "job_id": "c1cc0d54ad5766cfface0232"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7503,
+    "team": "K",
+    "job_id": "ab2a04d3f79e8ec3a1a5f5d4"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7512,
+    "team": "Y",
+    "job_id": "5195a8bafaf29874e561ae50"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7521,
+    "team": "Y",
+    "job_id": "d35f520ff0596a4158f220ce"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7531,
+    "team": "Y",
+    "job_id": "ef510aa934520fb74c8c25b2"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7529,
+    "team": "Y",
+    "job_id": "1c2b45e4829dd737bc6594a2"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7520,
+    "team": "Y",
+    "job_id": "d571f59e1acaeef88d3e58e0"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7508,
+    "team": "K",
+    "job_id": "49ef253f3a34a94a59fd3330"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7528,
+    "team": "K",
+    "job_id": "e8b13c9302cc363bc13fbd09"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7527,
+    "team": "K",
+    "job_id": "29a01724c4a8192a367c25f7"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7507,
+    "team": "Y",
+    "job_id": "7c4fe337a2696806d1f0f000"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7516,
+    "team": "K",
+    "job_id": "177877440be026f88ea340ac"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7512,
+    "team": "K",
+    "job_id": "611610ca258ac7a7443035d8"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7508,
+    "team": "Y",
+    "job_id": "577f70bbd2a33f0c611fc7eb"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7514,
+    "team": "Y",
+    "job_id": "6143610810f3092e837c1383"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7510,
+    "team": "K",
+    "job_id": "94be3854650b4aac45646691"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7501,
+    "team": "Y",
+    "job_id": "c530b20cd7d9efe2a34ccc09"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7519,
+    "team": "Y",
+    "job_id": "f0205b4a83f41e638875199e"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7502,
+    "team": "K",
+    "job_id": "02fb383b713ada386f5cc03b"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7501,
+    "team": "K",
+    "job_id": "c94871f1c95b5ce5af370cb6"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7502,
+    "team": "Y",
+    "job_id": "1e99f77aff742f500809f614"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7525,
+    "team": "Y",
+    "job_id": "b80e6e89b70659a22472d485"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7510,
+    "team": "K",
+    "job_id": "b00cf07331a76be89dd55504"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7502,
+    "team": "K",
+    "job_id": "58c21d3e8d18276292a27135"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7519,
+    "team": "K",
+    "job_id": "64fd024ea3ee0a4900e573de"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7504,
+    "team": "Y",
+    "job_id": "39d93ef4fbc2b49a84c2daa1"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7501,
+    "team": "Y",
+    "job_id": "9453bbc19348d2d0756eac2c"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7530,
+    "team": "Y",
+    "job_id": "7c31988cad602e5f446ccf94"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7520,
+    "team": "Y",
+    "job_id": "8d1db5fa2b418da3a177db20"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7508,
+    "team": "K",
+    "job_id": "65eb678348c8fa77a174a76b"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7514,
+    "team": "Y",
+    "job_id": "1619149d68070f6a59356d5f"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7504,
+    "team": "K",
+    "job_id": "5d8fc7ab1564df501cb2ac15"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7517,
+    "team": "K",
+    "job_id": "5092ad4691a3d925a6cbdfdc"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7530,
+    "team": "K",
+    "job_id": "fd3629170a8b0458642d88a9"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7517,
+    "team": "K",
+    "job_id": "c5d3ba57858628e7476fd3dd"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7510,
+    "team": "Y",
+    "job_id": "967fb227c5af5633d70d6e9c"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7515,
+    "team": "K",
+    "job_id": "9491340f8c99ff7fbb5533a2"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7516,
+    "team": "K",
+    "job_id": "4b014ce117428b0ca5e8622e"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7524,
+    "team": "K",
+    "job_id": "e4a37af5983e9bd675bfc337"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7529,
+    "team": "Y",
+    "job_id": "31e22a7e2cdad0412209a45b"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7513,
+    "team": "K",
+    "job_id": "95d070baafc98cf9224c06cc"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7516,
+    "team": "K",
+    "job_id": "4f996ebbf1d80cfc0776046b"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7505,
+    "team": "Y",
+    "job_id": "50123817232300339a00b8b9"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7507,
+    "team": "Y",
+    "job_id": "aa683ffec332360831bf2266"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7516,
+    "team": "K",
+    "job_id": "d8c3496fe48c56cef3a6cfeb"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7503,
+    "team": "K",
+    "job_id": "1f4eeccfd4a18b06d9310c74"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7524,
+    "team": "Y",
+    "job_id": "1ee74ee36d4b6484675b5d66"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7515,
+    "team": "K",
+    "job_id": "fe6eb41feccd7c302b5f1297"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7503,
+    "team": "K",
+    "job_id": "1a808cdc810146571478bb6d"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7508,
+    "team": "Y",
+    "job_id": "92cbaec52a751e8afaac361f"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7501,
+    "team": "Y",
+    "job_id": "f9aca840542fb31bec4ccec9"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7523,
+    "team": "Y",
+    "job_id": "30d303d0da8992de09ea116b"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7521,
+    "team": "K",
+    "job_id": "77ad6c2d3f059a994bb88520"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7502,
+    "team": "Y",
+    "job_id": "a6e0bff9bb0b4b7260b50a6b"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7520,
+    "team": "K",
+    "job_id": "c84a28179a6de9aa46014d5a"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7530,
+    "team": "Y",
+    "job_id": "f6b42edd60b27fdfea0749c0"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7502,
+    "team": "Y",
+    "job_id": "7978b16f65c8893d3388ee33"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7503,
+    "team": "Y",
+    "job_id": "abc32d6c52e280d0751ed82e"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7503,
+    "team": "Y",
+    "job_id": "c104390db25998bfb3256924"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7516,
+    "team": "K",
+    "job_id": "d50756ed9d839559d9f613b4"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7508,
+    "team": "Y",
+    "job_id": "8907d9389df9522427c3c57f"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7524,
+    "team": "Y",
+    "job_id": "f12cd64217f0bbb3e85d33d0"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7528,
+    "team": "Y",
+    "job_id": "6c38c5f055f583ab15fa8056"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7527,
+    "team": "Y",
+    "job_id": "b2824c6e0467c11fbf59b36e"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7516,
+    "team": "Y",
+    "job_id": "6302d8a03df21f0d3f051fa9"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7524,
+    "team": "Y",
+    "job_id": "820f5c58c0394c4dd8c2c9f8"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7526,
+    "team": "K",
+    "job_id": "329e58abba5cc9f356ffa012"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7511,
+    "team": "K",
+    "job_id": "f4c150ebb50b5d51b74be0c7"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7529,
+    "team": "Y",
+    "job_id": "db1319ed88ce49a209056baa"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7521,
+    "team": "Y",
+    "job_id": "4b442b1e289652dd4e7c0567"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7501,
+    "team": "K",
+    "job_id": "be00348a67f59fecf0d99d4f"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7517,
+    "team": "Y",
+    "job_id": "9e304556c09cf5f4f4c98e94"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7505,
+    "team": "K",
+    "job_id": "b1cad8087d80dc24dfe829e3"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7507,
+    "team": "Y",
+    "job_id": "ce4bf06e24f85040d818773f"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7505,
+    "team": "Y",
+    "job_id": "db8fea3f71d5b2418e84aeaa"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7520,
+    "team": "K",
+    "job_id": "cc4d5050cc2ed09d9e20181c"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7525,
+    "team": "Y",
+    "job_id": "edc38374b77ed59f5f05e0b3"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7503,
+    "team": "Y",
+    "job_id": "8d58a819ac18315cbd1395e0"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7519,
+    "team": "Y",
+    "job_id": "a0140cf7af38d3c0ee449820"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7525,
+    "team": "Y",
+    "job_id": "ab2aa51bb7b69564ab956045"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7529,
+    "team": "Y",
+    "job_id": "d0c82ab495b359816b235f58"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7526,
+    "team": "Y",
+    "job_id": "067da54eb922ca97d2af713a"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7518,
+    "team": "Y",
+    "job_id": "b2ba157a5bf321fa14727009"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7509,
+    "team": "K",
+    "job_id": "e3b9d5c375cf7afbda5867ad"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7526,
+    "team": "K",
+    "job_id": "7a2e8f11b1b72b587203eb2f"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7519,
+    "team": "K",
+    "job_id": "70c83dbb5c4c8fa8bd621937"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7519,
+    "team": "K",
+    "job_id": "7cbe8e93d0f35febdbcdd890"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7518,
+    "team": "Y",
+    "job_id": "6cb5712a3dad15fbf653aac5"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7523,
+    "team": "K",
+    "job_id": "707913a48a637438debf8882"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7508,
+    "team": "K",
+    "job_id": "6a6f5db253a2bce426d92d17"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7531,
+    "team": "Y",
+    "job_id": "de2f1a17fae7e116bef30bff"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7514,
+    "team": "Y",
+    "job_id": "37f4d2e6e7cdb6a784520a90"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7526,
+    "team": "Y",
+    "job_id": "f2a9c385279ca681515f9ae0"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7509,
+    "team": "K",
+    "job_id": "83de4cb7d6c683f2dd773ba6"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7500,
+    "team": "K",
+    "job_id": "c78aad47d9f288c450080ee1"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7526,
+    "team": "Y",
+    "job_id": "34625d23745b6005a58ffc49"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7506,
+    "team": "Y",
+    "job_id": "a9f859beedaf65e53959083f"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7514,
+    "team": "K",
+    "job_id": "765a7f8d2ae8b6fdc01b2535"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7524,
+    "team": "K",
+    "job_id": "cedaefc2ccf186afef175186"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7508,
+    "team": "K",
+    "job_id": "7ced640c6838319673393dfd"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7511,
+    "team": "Y",
+    "job_id": "503bb5fbd64201d1e0808237"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7519,
+    "team": "Y",
+    "job_id": "726c26c7c8feebe1c61a52f6"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7527,
+    "team": "K",
+    "job_id": "f69708217d787473454407e7"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7526,
+    "team": "Y",
+    "job_id": "b73605fe4f46bca860faf7de"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7505,
+    "team": "K",
+    "job_id": "8431cd0d0232cff353f99e5c"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7506,
+    "team": "Y",
+    "job_id": "dc3780c0956086dc86802062"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7515,
+    "team": "Y",
+    "job_id": "07b1cad3a564a25b5beaccd5"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7518,
+    "team": "K",
+    "job_id": "0cb91b365351969f3e354c4f"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7500,
+    "team": "K",
+    "job_id": "d8886de9691d61fde67cab5f"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7517,
+    "team": "Y",
+    "job_id": "da398f1c6b8c3753460e3601"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7526,
+    "team": "Y",
+    "job_id": "e0c355d0cd1f85d90b5b731e"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7530,
+    "team": "K",
+    "job_id": "f68668ffa32f4e199d0ba583"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7510,
+    "team": "K",
+    "job_id": "34054ebaa491a0c666bbb7e3"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7515,
+    "team": "Y",
+    "job_id": "868adebca75fc5d40c4bedbd"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7509,
+    "team": "Y",
+    "job_id": "974f63fc6f22ad6fb88c8afb"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7500,
+    "team": "Y",
+    "job_id": "a3e02ae4d974e266adc1f3e0"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7530,
+    "team": "K",
+    "job_id": "9e765b6900b80ede8bdaa3ed"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7522,
+    "team": "K",
+    "job_id": "27443cc2972c3fda08e18c05"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7511,
+    "team": "Y",
+    "job_id": "c500fc85c4c829f5b20691b2"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7515,
+    "team": "Y",
+    "job_id": "d74b456218a340994f6df21b"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7526,
+    "team": "K",
+    "job_id": "52bd93b7ae941e1eb738c14e"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7531,
+    "team": "Y",
+    "job_id": "649980c99576669d758f0281"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7524,
+    "team": "Y",
+    "job_id": "458f405fb212f07056e2a44d"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7509,
+    "team": "K",
+    "job_id": "bee9b6e6d834705dde88075d"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7528,
+    "team": "Y",
+    "job_id": "695c29348af8e08aad4e6e89"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7511,
+    "team": "Y",
+    "job_id": "57cdfcb51590f5a98788e0cb"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7512,
+    "team": "K",
+    "job_id": "ee422b875de7da85c1c5e216"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7503,
+    "team": "Y",
+    "job_id": "de1f04ec999c3d434e95e29f"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7530,
+    "team": "Y",
+    "job_id": "ed64b00a98470c9af5d746c1"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7511,
+    "team": "Y",
+    "job_id": "e7bffac48d93b49f845f4108"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7525,
+    "team": "K",
+    "job_id": "405c6a9e7e3301c72901aae4"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7523,
+    "team": "Y",
+    "job_id": "497b67f57296c0255879fc00"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7513,
+    "team": "K",
+    "job_id": "c07c384af273446ddee3b06c"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7513,
+    "team": "K",
+    "job_id": "376f8db8e584403709722561"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7526,
+    "team": "K",
+    "job_id": "d6ce76c58ea44e0aac881db3"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7506,
+    "team": "K",
+    "job_id": "bb9e3482c4cd82b895207fbd"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7517,
+    "team": "Y",
+    "job_id": "53be548f0139a7808d26cacc"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7511,
+    "team": "K",
+    "job_id": "5b0e2f8a020dc4adb7d39275"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7504,
+    "team": "K",
+    "job_id": "3918c28c43ab9f8cef546acb"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7504,
+    "team": "Y",
+    "job_id": "128d9a743e95c7176412e609"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7500,
+    "team": "Y",
+    "job_id": "d92ff7ffde7407b22f0f9160"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7521,
+    "team": "Y",
+    "job_id": "6ef39c9fcd551f3fe3cf13b3"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7528,
+    "team": "Y",
+    "job_id": "7d3b4f0dc4412f7e18139d87"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7519,
+    "team": "Y",
+    "job_id": "72b6d8117338bfc9fa15aa46"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7520,
+    "team": "K",
+    "job_id": "140db214a3457e2b4a87676e"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7514,
+    "team": "Y",
+    "job_id": "dc6a762cdb832b9463c675ee"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7501,
+    "team": "K",
+    "job_id": "8e3076f1907bce191eedc846"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7523,
+    "team": "Y",
+    "job_id": "63d95fbd9e1d6a075448baf7"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7528,
+    "team": "Y",
+    "job_id": "9525d2d4d4a31c971b990ae4"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7507,
+    "team": "Y",
+    "job_id": "692cbac0044f1d05d61e8a74"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7531,
+    "team": "K",
+    "job_id": "e94bff644d26abdcd114a44d"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7514,
+    "team": "K",
+    "job_id": "25e1de589805e7762ab54a39"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7521,
+    "team": "Y",
+    "job_id": "591fecb8821e76faf614f7a3"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7518,
+    "team": "K",
+    "job_id": "6b68d48a8a308c74f1a067a2"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7515,
+    "team": "K",
+    "job_id": "ca6f4a9a555ef010a50e00f0"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7501,
+    "team": "Y",
+    "job_id": "d557ca83a360f00f6c8001a3"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7506,
+    "team": "K",
+    "job_id": "fc11eedbe43b92e25c091af4"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7505,
+    "team": "Y",
+    "job_id": "b4ade2ab0172059f51a3bcbc"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7516,
+    "team": "K",
+    "job_id": "3f6aec9c80b1c68655765f54"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7506,
+    "team": "Y",
+    "job_id": "e6e36980380739d66ff432f2"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7518,
+    "team": "Y",
+    "job_id": "7f5b30d87bfcf572f4eafcf1"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7512,
+    "team": "Y",
+    "job_id": "69ebf8bc6504d6c3bbda3b16"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7519,
+    "team": "Y",
+    "job_id": "5824b25f3b9c257d24f8f42f"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7511,
+    "team": "Y",
+    "job_id": "ac34fa1e3b2e96ebf4f36b3d"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7504,
+    "team": "K",
+    "job_id": "f069371e0d6715567c08ebe7"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7526,
+    "team": "Y",
+    "job_id": "7a3f928a3f1dd5f6187d288a"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7531,
+    "team": "Y",
+    "job_id": "8f8f48904176b9767544d9d7"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7511,
+    "team": "Y",
+    "job_id": "cf1b06b8b384b423b56b7e6e"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7519,
+    "team": "Y",
+    "job_id": "c3e23f98cc3811e715996506"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7507,
+    "team": "Y",
+    "job_id": "47ef750bb722c867550c6901"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7528,
+    "team": "Y",
+    "job_id": "7cbbe3e86c9067c44c201184"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7521,
+    "team": "Y",
+    "job_id": "609c6a89279cb2dee5aec5ea"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7516,
+    "team": "Y",
+    "job_id": "4ce2349570b0e0327180c6e2"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7507,
+    "team": "Y",
+    "job_id": "753c3fc1727c6b1f2d33e7e9"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7508,
+    "team": "Y",
+    "job_id": "22e65acf2eafc6e97fd44941"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7522,
+    "team": "Y",
+    "job_id": "041a57ca9464e22ac6d2cee0"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 7509,
+    "team": "Y",
+    "job_id": "951152776d3f32e38e90090a"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7528,
+    "team": "Y",
+    "job_id": "ee769f9ea33ac4f096147d32"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7523,
+    "team": "Y",
+    "job_id": "4dddd4336632843bd46b41cf"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7520,
+    "team": "K",
+    "job_id": "65b792d5578867d6d8ef2a9b"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7515,
+    "team": "Y",
+    "job_id": "4c96ed314b0d24ccea3cffae"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7530,
+    "team": "Y",
+    "job_id": "111d1ac56fe0913ed521a50c"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7523,
+    "team": "Y",
+    "job_id": "cfc6f2df083043b873848eb5"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7531,
+    "team": "Y",
+    "job_id": "d5e150216f8eb7745f559899"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7520,
+    "team": "K",
+    "job_id": "916a63f15d5b5dd7f79f82e7"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7500,
+    "team": "Y",
+    "job_id": "4978688668dc2d6c40237d10"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7518,
+    "team": "Y",
+    "job_id": "7acf7ba76e748a3e0eadcb55"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7527,
+    "team": "Y",
+    "job_id": "3a48e19ecd87e8e921bb5c6d"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7503,
+    "team": "K",
+    "job_id": "6084669fa141a8dbd522f824"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7501,
+    "team": "Y",
+    "job_id": "b713d73c319e7b654535b8f0"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7521,
+    "team": "K",
+    "job_id": "25bb81cba33925087b277b57"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7524,
+    "team": "K",
+    "job_id": "269e6e35115092d149f7a91f"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7509,
+    "team": "Y",
+    "job_id": "15ab6cc4f91a995bf0a5ec2d"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7525,
+    "team": "Y",
+    "job_id": "fd1e37f549c6c7061067ea31"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7513,
+    "team": "Y",
+    "job_id": "119719b034df0a9a7ee707cb"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7517,
+    "team": "Y",
+    "job_id": "10e255a7ff4cbbe97f3ef877"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7502,
+    "team": "Y",
+    "job_id": "0e4db40f3889774a5d135de9"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7520,
+    "team": "K",
+    "job_id": "fc62014e954da6dfda16d67f"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7529,
+    "team": "Y",
+    "job_id": "90791d085ab1948fca6e3282"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7518,
+    "team": "Y",
+    "job_id": "58e6a3ef49b1ed9f6d2ebef7"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7531,
+    "team": "K",
+    "job_id": "71caa19d35b451a93359438f"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7529,
+    "team": "K",
+    "job_id": "9e2c76617e4f1e7bd4353991"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7526,
+    "team": "K",
+    "job_id": "6fb714412cae1ac9e5cc5a6f"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7508,
+    "team": "K",
+    "job_id": "c6725f6cde44dd7f7c03a42c"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7501,
+    "team": "Y",
+    "job_id": "7224d304d9a86e594f3ecc8f"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "q_threat_window",
+    "map_seed": 7504,
+    "team": "Y",
+    "job_id": "d205be5433854563883a609a"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7500,
+    "team": "Y",
+    "job_id": "9316dfe9344618b7c94b2202"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7525,
+    "team": "K",
+    "job_id": "3dc1d912466911fe6a2a0fd1"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7529,
+    "team": "K",
+    "job_id": "8a6dc1ee3d91df51c70af7b0"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_local_unabstracted",
+    "map_seed": 7504,
+    "team": "Y",
+    "job_id": "8beddc45286319260f05243a"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7506,
+    "team": "Y",
+    "job_id": "386e86aafe060e4b3846e002"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7508,
+    "team": "K",
+    "job_id": "d8bff62f91fb83a5f6c05666"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7528,
+    "team": "K",
+    "job_id": "61e0c373b394c739e36aaf61"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "a_v2_tactical_local",
+    "map_seed": 7515,
+    "team": "K",
+    "job_id": "926f3e257ce7ab26b5d33878"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 7528,
+    "team": "Y",
+    "job_id": "6a23675a7733d5c3a0f02da5"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7525,
+    "team": "Y",
+    "job_id": "ef28d7b380c123ec829107ca"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "teammate",
+    "map_seed": 7502,
+    "team": "Y",
+    "job_id": "62283b56f8d4b440a900c7f0"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7518,
+    "team": "Y",
+    "job_id": "e45ef2cc321b9d2a425b680c"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "q_threat_window",
+    "map_seed": 7522,
+    "team": "Y",
+    "job_id": "06ed84701fa1a697721ec520"
+  },
+  {
+    "candidate": "a_v2_terminal_local",
+    "opponent": "j_v2_reclaim_relay",
+    "map_seed": 7509,
+    "team": "K",
+    "job_id": "4a854e4b37a55e421d12fa4b"
+  }
+]

@@ -1,0 +1,79 @@
+{
+  "checked_utc": "2026-09-27T16:30:22.321920+00:00",
+  "verifier_sha256": "334d96a9844f2d69371c5fafbe8b0285318b50d8b6d52bffaa1d03f9ce01ff5c",
+  "status": "passed",
+  "source_commit": "ba290011e86c37f684d4f6ba137f338ee2eb9e06",
+  "frozen_source_files_verified": 88,
+  "binaries_intentionally_omitted": 7,
+  "games": 768,
+  "distinct_maps": 32,
+  "stages": {
+    "audit": {
+      "games": 768,
+      "full_replays_verified": 768,
+      "distinct_maps": 32
+    }
+  },
+  "full_replays_trace_hash_verified": 768,
+  "errors": 0,
+  "forfeits": 0,
+  "maximum_response_ms_both_bots": 168.09948720037937,
+  "official_originals_unchanged": 5,
+  "maximum_job_elapsed_seconds_including_analysis": 17.591478248126805,
+  "stdout_peak_by_bot_including_END": {
+    "v2": {
+      "turn_bytes": 3609,
+      "turn_lines": 232,
+      "line_bytes": 90
+    },
+    "j_balanced_portfolio": {
+      "turn_bytes": 2453,
+      "turn_lines": 156,
+      "line_bytes": 90
+    },
+    "a_v2_tactical_local": {
+      "turn_bytes": 3522,
+      "turn_lines": 223,
+      "line_bytes": 90
+    },
+    "j_v2_reclaim_relay": {
+      "turn_bytes": 2764,
+      "turn_lines": 175,
+      "line_bytes": 90
+    },
+    "a_v2_terminal_local": {
+      "turn_bytes": 3344,
+      "turn_lines": 210,
+      "line_bytes": 90
+    },
+    "q_threat_window": {
+      "turn_bytes": 2893,
+      "turn_lines": 182,
+      "line_bytes": 90
+    },
+    "a_local_unabstracted": {
+      "turn_bytes": 3167,
+      "turn_lines": 202,
+      "line_bytes": 90
+    },
+    "teammate": {
+      "turn_bytes": 2165,
+      "turn_lines": 141,
+      "line_bytes": 90
+    }
+  },
+  "stdout_check_scope": "Replay-preserved commands plus LF and END; stderr was not captured by the league.",
+  "submission_v2_sha256": "f90eca7cac0024ab4cc7c00d79595f71e4eb9bab92ec57e0527c7b977098b64a",
+  "transport_cleanup": {
+    "event": "cleanup_complete",
+    "utc": "2026-09-27T16:29:05Z",
+    "path": "/tmp/yk-league-2pqqd2qc",
+    "exists": false,
+    "archive_accepted": true
+  },
+  "independent_cleanup_check": {
+    "path": "/tmp/yk-league-2pqqd2qc",
+    "path_exists": false,
+    "matching_process_ids": []
+  }
+}

@@ -1,21 +1,24 @@
 # 연고전 AI 해커톤 — 제출 봇과 전략 조사
 
-**현재 추천 제출 파일: [artifacts/submission-v2.zip](artifacts/submission-v2.zip)**
+**현재 추천 제출 파일: [artifacts/submission-v3.zip](artifacts/submission-v3.zip)**
 
-v2는 팀원 봇 상대 개발 맵 40전 38승, 별도 새 맵 40전 38승이었다. 기존 v1과 직접 대전에서는 20전 12승이며 제출 형식·컴파일·실행 검사를 통과했다. [튜닝 결과와 로그](docs/06-v2튜닝결과.md)
+36개 신규 후보를 구현하고 실제 재수정을 거쳐 **132개 맵·7,718경기**를 완료했다. 최종 후보는 기존 정책이 만들지 않은 인접 이동까지 비교하는 국소 행동 탐색이다. 미사용 64맵·5상대에서 우리 진영 Y가 **v2 185/320승 → v3 269/320승**으로 개선됐다. 별도 32맵·6상대에서도 **71/192승 → 125/192승**이었다. 오류·몰수 0이며 모든 경기 리플레이와 소스 해시를 보존했다. [결과·수정 효과·남은 패배](docs/19-반복개선검증결과.md).
 
-공식 1차는 **4승 1패, 참고 12위·보정 61.0%**다(9/27 22:00 공개). 사이트 v3가 로컬 `submission-v2.zip`에 해당한다. [공식 경기 분석](docs/07-공식1차경기분석.md), [사이트 운영·최종 평가](docs/10-사이트운영과보정점수.md), [다음 전략과 검증 순서](docs/12-후속개발우선순위.md)를 함께 읽는다.
+실제 ZIP의 형식·재컴파일·SDK 실행 1경기·CPU 4경기 검사도 통과했다. CPU 검사 최대 응답은 136.58ms이며 로컬 GCC 16.2.1 기준이다. 공식 GCC 12.2.0 컨테이너 검증과 업로드는 아직 하지 않았다. [제출 검사·해시](records/submissions/v3/README.md).
 
-후속으로 **43개 설정·2,674경기**를 실행했다. 미사용 맵 Y 검증에서 v2 110/120승, 결합 개선 후보 109/120승, 공학관 계수 후보 105/120승으로 **v2 추천을 유지**한다. [실험 결과·패배 원인·다음 수정](docs/17-다양한후보리그결과.md). 공용 서버는 TMP로 실행하고 결과 회수 후 작업 폴더와 프로세스 정리를 확인했다.
+과거 공식 1차의 **4승 1패, 참고 12위·보정 61.0%**는 로컬 v2의 성적이다(9/27 22:00 공개). 당시 사이트 v3가 로컬 `submission-v2.zip`에 해당했으며 새 로컬 v3 ZIP과는 다르다. [공식 경기 분석](docs/07-공식1차경기분석.md), [사이트 운영·보정 점수](docs/10-사이트운영과보정점수.md).
+
+이전 43개 설정·2,674경기에서는 v2를 유지했고, 이번 반복에서 더 강한 후보를 찾았다. 이전 판단은 [후보 리그 결과](docs/17-다양한후보리그결과.md)에 보존했다. 내부 상대 승률을 전체 참가자 승률·리더보드 보정 점수로 해석하지 않는다.
 
 ZIP 자체를 업로드한다. 압축을 풀어 다시 감싸지 않는다. 업로드와 제출 코드 선택은 사용자가 직접 한다. 서버에서 빌드·검사가 통과하면 중·상 난도 연습 결과를 확인한다.
 
 폴더 구성:
 
 ```text
-artifacts/                 제출용 v1·v2 ZIP
+artifacts/                 제출용 v1·v2·v3 ZIP과 공식 경기 원본
 submissions/first/         v1 C++ 소스
 submissions/tuned/         v2 C++ 소스
+submissions/iterative-v3/  추천 v3 C++ 소스
 submissions/delineate-v1.zip  팀원 봇 원본
 docs/                      규칙·조사·전략·검증 문서
 tests/                     공식 엔진 대조 검사와 대전 도구
@@ -28,7 +31,7 @@ records/
   league/                  후보 리그·동결 소스·패배 분석·TMP 복구 기록
 ```
 
-[기록 폴더 안내](records/README.md). 제공된 `yk-*` SDK와 안내 자료는 원래 위치에 보존했다. 로컬에서 생성하는 실행 파일과 압축 해제 캐시는 Git에서 제외한다.
+[기록 폴더 안내](records/README.md). 제공된 `yk-*` SDK와 안내 자료는 원래 위치에 보존했다. 빌드·압축 해제·서버 실행은 TMP에서 하고 결과 회수 후 정리한다. 이번 세 원격 실행은 작업 폴더·관련 프로세스가 남지 않았음을 확인했다.
 
 | 문서 | 내용 |
 |---|---|
@@ -50,22 +53,28 @@ records/
 | [다양한 후보 리그](docs/16-다양한후보리그계획.md) | 43개 후보·최대 2,674경기, 미사용 맵 검증, 공용 서버 TMP 실행·복구 |
 | [후보 리그 결과](docs/17-다양한후보리그결과.md) | 2,674경기 완료, v2 유지, 경제·병력 정체·상성 회귀와 후속 방향 |
 | [근거 기반 반복 개선](docs/18-근거기반반복개선.md) | 정확한 패배 재검사, 세 접근의 사전 비판·반례·평가·실제 재수정 순서 |
+| [반복 개선 결과](docs/19-반복개선검증결과.md) | 36개 신규 후보·7,718경기, v3 채택, 기여도·회귀·제출 검사·서버 정리 |
 
-v2를 빌드하고 팀원 봇과 대전하려면 프로젝트 루트에서 실행한다. 상세 리플레이는 패배·무승부만 저장한다. 다음 명령은 별도 결과 파일을 만들어 기존 검증 기록을 보존한다.
+v3를 빌드해 v2와 소규모로 비교하려면 프로젝트 루트에서 실행한다. 이 간단한 도구는 패배·무승부 리플레이만 저장하며, 위 최종 검증을 대체하지 않는다. 임시 파일은 종료 시 삭제하고 결과만 고유 경로에 보존한다. 전체 패키지 재검사는 [제출 기록](records/submissions/v3/README.md)의 명령을 따른다.
 
 ```bash
-g++ -std=c++20 -O2 submissions/tuned/main.cpp -o artifacts/tuned_bot
-python3 -m zipfile -e submissions/delineate-v1.zip artifacts/opponents/delineate-v1
-python3 tests/benchmark.py \
-  --candidate './artifacts/tuned_bot' \
-  --opponent 'python3 artifacts/opponents/delineate-v1/main.py' \
-  --start 3000 --seeds 20 \
-  --save-losses records/replays/reproduction/v2-team \
-  --output records/benchmarks/reproduction/v2-team.json
-python3 yk-development-tools/bots/dist/starter/run_tests.py --zip artifacts/submission-v2.zip
+(
+  set -eu
+  run_tmp=$(mktemp -d /tmp/yk-recheck-XXXXXXXX)
+  trap 'rm -rf -- "$run_tmp"' EXIT
+  export TMPDIR="$run_tmp" PYTHONDONTWRITEBYTECODE=1
+  run_id=${run_tmp##*/}
+  g++ -std=c++20 -O2 submissions/iterative-v3/main.cpp -o "$run_tmp/v3"
+  g++ -std=c++20 -O2 submissions/tuned/main.cpp -o "$run_tmp/v2"
+  python3 tests/benchmark.py \
+    --candidate "$run_tmp/v3" --opponent "$run_tmp/v2" \
+    --start 7600 --seeds 2 --workers 2 \
+    --save-losses "records/replays/reproduction/$run_id" \
+    --output "records/benchmarks/reproduction/$run_id.json"
+)
 ```
 
-`experiments/tune_presubmit*.py`도 위 명령으로 팀원 ZIP을 푼 뒤 실행할 수 있다. 실험 스크립트는 해당 후보의 소스·결과를 다시 생성하므로 보관된 기록을 재현할 때는 별도 checkout을 권장한다.
+과거 실험 스크립트는 후보 소스·결과를 다시 생성할 수 있다. 동결 기록을 직접 덮어쓰지 않고 별도 TMP checkout과 새 결과 경로로 실행한다.
 
 아래는 보존한 v1의 구성과 검증 이력이다. v1은 C++20으로 작성한 정책 3종, 최대 4턴의 동시 시뮬레이션, 3×3 후보 행렬의 혼합 선택을 사용한다. 신경망·학습 가중치·외부 패키지가 없다. [소스](submissions/first/main.cpp)
 
@@ -82,16 +91,5 @@ python3 yk-development-tools/bots/dist/starter/run_tests.py --zip artifacts/subm
 팀원 `손형권_v1`의 별도 Python 봇과는 같은 20개 맵·양 진영 40전에서 **25승 15패**, 몰수 0회였다. [결과와 재실행 방법](docs/05-팀원봇대전.md)
 
 공식 1차의 참가자 5팀 상대 결과를 추가했지만 전체 참가자 상대 성능은 아직 알 수 없다. 내부 정책 상대는 코드 구조를 공유하므로 해당 승률을 실전 승률로 해석하지 않는다. 초기 검사에서 발견한 시드 0/Y의 패배는 중반 22:10 우세 후 최종 7:24로 역전된 경기이며 [리플레이](records/replays/v1-initial/v1-loss-seed0.json)를 보관했다.
-
-재빌드·테스트:
-
-```bash
-g++ -std=c++20 -O2 submissions/first/main.cpp -o artifacts/first_bot
-g++ -std=c++20 -O2 tests/simulator_bridge.cpp -o artifacts/simulator_bridge
-python3 tests/test_rules.py
-python3 tests/test_simulator.py
-python3 tests/benchmark.py --seeds 10
-python3 yk-development-tools/bots/dist/starter/run_tests.py --zip artifacts/submission-v1.zip
-```
 
 실제 제출 환경은 GCC 12.2.0/CPU/300ms이며 로컬 환경과 다르다. 정확한 제한은 [배포 제한](yk-development-tools/bots/dist/starter/limits.json)을 따른다. 개발에서는 AI·CPU·GPU를 활용해 코드 후보를 만들고 검증하며, 최종 실행 코드의 성능으로 선택한다.

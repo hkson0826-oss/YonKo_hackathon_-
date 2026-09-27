@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/usr/bin/g++",
+    "-std=c++20",
+    "-O2",
+    "-I",
+    "/tmp/yk-package-9_k0tdo_/extracted",
+    "/tmp/yk-package-9_k0tdo_/extracted/main.cpp",
+    "-o",
+    "/tmp/yk-package-9_k0tdo_/candidate"
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": ""
+}

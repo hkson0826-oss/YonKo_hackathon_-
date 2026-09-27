@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/usr/bin/g++",
+    "-std=c++20",
+    "-O2",
+    "-I",
+    "/home/dlwltkd/YonKo_hackathon_-/records/league/loop2-iteration2/snapshot/candidates/v2",
+    "/home/dlwltkd/YonKo_hackathon_-/records/league/loop2-iteration2/snapshot/candidates/v2/main.cpp",
+    "-o",
+    "/tmp/yk-package-9_k0tdo_/baseline"
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": ""
+}

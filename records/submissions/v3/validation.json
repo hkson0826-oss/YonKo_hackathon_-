@@ -1,0 +1,398 @@
+{
+  "status": "validated",
+  "started_utc": "2026-09-27T16:30:22.719859+00:00",
+  "helper_sha256": "6f3b059c72a3e22713bfff1a66f935804b658f5dc6837ffc1935113b9d47f476",
+  "arena": "/home/dlwltkd/YonKo_hackathon_-/records/league/loop2-iteration2",
+  "audit": "/home/dlwltkd/YonKo_hackathon_-/records/league/loop2-cross-family",
+  "outputs": [
+    "/home/dlwltkd/YonKo_hackathon_-/submissions/iterative-v3",
+    "/home/dlwltkd/YonKo_hackathon_-/artifacts/submission-v3.zip",
+    "/home/dlwltkd/YonKo_hackathon_-/records/submissions/v3"
+  ],
+  "validation_scope": "Packaging and CPU protocol/resource regression only; four games have no win-rate promotion gate",
+  "candidate": "a_v2_terminal_local",
+  "source_commit": "c64d5831becfeef0c5468a77fbae5d25c77792f6",
+  "source_sha256": "52268569e17d7fc40fd46f0996b2da684768902b4af27ec059c4b068911c4473",
+  "artifact_verifications": {
+    "original": {
+      "checked_utc": "2026-09-27T16:26:31.316952+00:00",
+      "verifier_sha256": "334d96a9844f2d69371c5fafbe8b0285318b50d8b6d52bffaa1d03f9ce01ff5c",
+      "status": "passed",
+      "source_commit": "c64d5831becfeef0c5468a77fbae5d25c77792f6",
+      "frozen_source_files_verified": 140,
+      "binaries_intentionally_omitted": 26,
+      "games": 4892,
+      "distinct_maps": 91,
+      "stages": {
+        "smoke": {
+          "games": 52,
+          "full_replays_verified": 52,
+          "distinct_maps": 1
+        },
+        "development": {
+          "games": 1760,
+          "full_replays_verified": 1760,
+          "distinct_maps": 8
+        },
+        "selection": {
+          "games": 1120,
+          "full_replays_verified": 1120,
+          "distinct_maps": 16
+        },
+        "holdout": {
+          "games": 1920,
+          "full_replays_verified": 1920,
+          "distinct_maps": 64
+        },
+        "crossplay": {
+          "games": 40,
+          "full_replays_verified": 40,
+          "distinct_maps": 2
+        }
+      },
+      "full_replays_trace_hash_verified": 4892,
+      "errors": 0,
+      "forfeits": 0,
+      "maximum_response_ms_both_bots": 176.41104850918055,
+      "official_originals_unchanged": 5,
+      "maximum_job_elapsed_seconds_including_analysis": 16.77328247576952,
+      "stdout_peak_by_bot_including_END": {
+        "v2": {
+          "turn_bytes": 3855,
+          "turn_lines": 243,
+          "line_bytes": 90
+        },
+        "a_progressive": {
+          "turn_bytes": 4216,
+          "turn_lines": 264,
+          "line_bytes": 90
+        },
+        "a_v2_terminal_local": {
+          "turn_bytes": 4054,
+          "turn_lines": 257,
+          "line_bytes": 90
+        },
+        "a_v2_tactical_fit": {
+          "turn_bytes": 4082,
+          "turn_lines": 259,
+          "line_bytes": 90
+        },
+        "j_v2_reclaim_relay": {
+          "turn_bytes": 2814,
+          "turn_lines": 180,
+          "line_bytes": 90
+        },
+        "q_v2_tactical_worst": {
+          "turn_bytes": 3845,
+          "turn_lines": 242,
+          "line_bytes": 90
+        },
+        "j_defensive_portfolio": {
+          "turn_bytes": 2838,
+          "turn_lines": 180,
+          "line_bytes": 90
+        },
+        "r_joint_escort": {
+          "turn_bytes": 4247,
+          "turn_lines": 269,
+          "line_bytes": 90
+        },
+        "a_v2_continuous_mix": {
+          "turn_bytes": 4233,
+          "turn_lines": 273,
+          "line_bytes": 90
+        },
+        "a_opponent_fit": {
+          "turn_bytes": 3307,
+          "turn_lines": 211,
+          "line_bytes": 90
+        },
+        "q_v2_tactical_mean": {
+          "turn_bytes": 3845,
+          "turn_lines": 242,
+          "line_bytes": 90
+        },
+        "q_threat_window": {
+          "turn_bytes": 3845,
+          "turn_lines": 242,
+          "line_bytes": 90
+        },
+        "r_combined": {
+          "turn_bytes": 3716,
+          "turn_lines": 241,
+          "line_bytes": 90
+        },
+        "j_reclaim_portfolio": {
+          "turn_bytes": 2795,
+          "turn_lines": 174,
+          "line_bytes": 90
+        },
+        "j_v2_defensive_delayed": {
+          "turn_bytes": 2349,
+          "turn_lines": 147,
+          "line_bytes": 90
+        },
+        "a_score_scenarios": {
+          "turn_bytes": 4130,
+          "turn_lines": 264,
+          "line_bytes": 90
+        },
+        "q_balanced_front": {
+          "turn_bytes": 4892,
+          "turn_lines": 311,
+          "line_bytes": 90
+        },
+        "j_v2_reclaim_flags7": {
+          "turn_bytes": 2691,
+          "turn_lines": 170,
+          "line_bytes": 90
+        },
+        "teammate": {
+          "turn_bytes": 2413,
+          "turn_lines": 157,
+          "line_bytes": 90
+        },
+        "a_v2_tactical_local": {
+          "turn_bytes": 4307,
+          "turn_lines": 276,
+          "line_bytes": 90
+        },
+        "j_balanced_portfolio": {
+          "turn_bytes": 2271,
+          "turn_lines": 142,
+          "line_bytes": 90
+        },
+        "a_local_unabstracted": {
+          "turn_bytes": 4054,
+          "turn_lines": 257,
+          "line_bytes": 90
+        },
+        "j_v2_reclaim_relay_delayed": {
+          "turn_bytes": 3386,
+          "turn_lines": 214,
+          "line_bytes": 90
+        },
+        "q_v2_window_guard": {
+          "turn_bytes": 3735,
+          "turn_lines": 234,
+          "line_bytes": 90
+        },
+        "q_v2_guard_tactical": {
+          "turn_bytes": 3455,
+          "turn_lines": 215,
+          "line_bytes": 90
+        },
+        "r_terminal_margin": {
+          "turn_bytes": 3971,
+          "turn_lines": 246,
+          "line_bytes": 90
+        }
+      },
+      "stdout_check_scope": "Replay-preserved commands plus LF and END; stderr was not captured by the league.",
+      "submission_v2_sha256": "f90eca7cac0024ab4cc7c00d79595f71e4eb9bab92ec57e0527c7b977098b64a",
+      "transport_cleanup": {
+        "event": "cleanup_complete",
+        "utc": "2026-09-27T16:21:05Z",
+        "path": "/tmp/yk-league-1c1csuif",
+        "exists": false,
+        "archive_accepted": true
+      },
+      "independent_cleanup_check": {
+        "path": "/tmp/yk-league-1c1csuif",
+        "path_exists": false,
+        "matching_process_ids": []
+      }
+    },
+    "audit": {
+      "checked_utc": "2026-09-27T16:30:22.321920+00:00",
+      "verifier_sha256": "334d96a9844f2d69371c5fafbe8b0285318b50d8b6d52bffaa1d03f9ce01ff5c",
+      "status": "passed",
+      "source_commit": "ba290011e86c37f684d4f6ba137f338ee2eb9e06",
+      "frozen_source_files_verified": 88,
+      "binaries_intentionally_omitted": 7,
+      "games": 768,
+      "distinct_maps": 32,
+      "stages": {
+        "audit": {
+          "games": 768,
+          "full_replays_verified": 768,
+          "distinct_maps": 32
+        }
+      },
+      "full_replays_trace_hash_verified": 768,
+      "errors": 0,
+      "forfeits": 0,
+      "maximum_response_ms_both_bots": 168.09948720037937,
+      "official_originals_unchanged": 5,
+      "maximum_job_elapsed_seconds_including_analysis": 17.591478248126805,
+      "stdout_peak_by_bot_including_END": {
+        "v2": {
+          "turn_bytes": 3609,
+          "turn_lines": 232,
+          "line_bytes": 90
+        },
+        "j_balanced_portfolio": {
+          "turn_bytes": 2453,
+          "turn_lines": 156,
+          "line_bytes": 90
+        },
+        "a_v2_tactical_local": {
+          "turn_bytes": 3522,
+          "turn_lines": 223,
+          "line_bytes": 90
+        },
+        "j_v2_reclaim_relay": {
+          "turn_bytes": 2764,
+          "turn_lines": 175,
+          "line_bytes": 90
+        },
+        "a_v2_terminal_local": {
+          "turn_bytes": 3344,
+          "turn_lines": 210,
+          "line_bytes": 90
+        },
+        "q_threat_window": {
+          "turn_bytes": 2893,
+          "turn_lines": 182,
+          "line_bytes": 90
+        },
+        "a_local_unabstracted": {
+          "turn_bytes": 3167,
+          "turn_lines": 202,
+          "line_bytes": 90
+        },
+        "teammate": {
+          "turn_bytes": 2165,
+          "turn_lines": 141,
+          "line_bytes": 90
+        }
+      },
+      "stdout_check_scope": "Replay-preserved commands plus LF and END; stderr was not captured by the league.",
+      "submission_v2_sha256": "f90eca7cac0024ab4cc7c00d79595f71e4eb9bab92ec57e0527c7b977098b64a",
+      "transport_cleanup": {
+        "event": "cleanup_complete",
+        "utc": "2026-09-27T16:29:05Z",
+        "path": "/tmp/yk-league-2pqqd2qc",
+        "exists": false,
+        "archive_accepted": true
+      },
+      "independent_cleanup_check": {
+        "path": "/tmp/yk-league-2pqqd2qc",
+        "path_exists": false,
+        "matching_process_ids": []
+      }
+    }
+  },
+  "sdk_frozen_files_checked": 27,
+  "evaluation_file_sha256": {
+    "original/manifest.json": "06861eb1ae274bda10f24318e1e33b1b3412a3c53aae3618ed8a11721870cbcd",
+    "original/campaign-result.json": "ea0fa5c8e5fd19e23ee013c394e18e5257b8452c3365a5b9de462b86edce2abf",
+    "original/locked-finalists.json": "e72dec59c378a7586d58b59aef686b2caad323a37a20d2248e5916bd5666ec0d",
+    "original/artifact-verification.json": "04535d1a6652d40cf5f77b8488ed4aa076eed0d4c13debf5abf260acb82299bd",
+    "audit/manifest.json": "9d5b623d47def946767d3d39f5f5cdd13cdf77cd552e4e07ca2c9183407dda8d",
+    "audit/audit-result.json": "c21bb6a3a905128a37b26a221f32492b7dd9dc1b334f3967196729034c7576de",
+    "audit/audit-policy.json": "7f43eade976d568de98d954154db4f394f191adfb7a5a9021bb8f7f6677dbb97",
+    "audit/artifact-verification.json": "e2a81d3cdbc5c4fbc08d04583592c5f2a9eed5f07f1f8fa6b06d766cea770286"
+  },
+  "environment": {
+    "compiler": "/usr/bin/g++",
+    "compiler_version": "g++ (GCC) 16.2.1 20260810",
+    "platform": "Linux-7.2.3-arch1-3-x86_64-with-glibc2.44",
+    "python": "3.14.7 (main, Aug 10 2026, 07:46:56) [GCC 16.1.1 20260728]",
+    "cpu_affinity": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "required_platform_compiler": "GCC 12.2.0 / C++20",
+    "limitation": "Local CPU/OS/compiler are recorded; this does not certify the official platform container."
+  },
+  "runtime_limits": {
+    "RLIMIT_AS_bytes": 402653184,
+    "first_turn_ms": 3000,
+    "turn_ms": 300,
+    "process_wall_seconds": 180,
+    "scope": "Per-process virtual address space and timeout wrapper; not full server container isolation"
+  },
+  "sdk_tool_sha256": {
+    "yk-development-tools/bots/dist/starter/submission.py": "e3e163f2de9877218bc0079e6bfad94b1a78102e9d253d84abf97bf2e19b1130",
+    "yk-development-tools/bots/dist/starter/run_tests.py": "2b52ee38f5b148057535ebb382d9959f22117bdf1a0b84e8d994b6ebe9b8a692",
+    "yk-development-tools/bots/dist/starter/output_usage.py": "7a1398acbdbe7e67e8a4b52587ed90d5f674a937ac3519ebc94551c00f9ab642",
+    "yk-development-tools/bots/dist/starter/limits.json": "182499583a1da4f5add6c25fe900ad59488c230163b8064c6697014a9b9fec45"
+  },
+  "source_files": {
+    "generated.hpp": {
+      "arena_relative_path": "snapshot/candidates/a_v2_terminal_local/generated.hpp",
+      "sha256": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+      "bytes": 1043
+    },
+    "main.cpp": {
+      "arena_relative_path": "snapshot/candidates/a_v2_terminal_local/main.cpp",
+      "sha256": "52268569e17d7fc40fd46f0996b2da684768902b4af27ec059c4b068911c4473",
+      "bytes": 35400
+    },
+    "protocol.hpp": {
+      "arena_relative_path": "snapshot/candidates/a_v2_terminal_local/protocol.hpp",
+      "sha256": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+      "bytes": 5010
+    },
+    "submission.json": {
+      "arena_relative_path": "snapshot/submissions/tuned/submission.json",
+      "sha256": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60",
+      "bytes": 46
+    }
+  },
+  "zip": {
+    "sha256": "ce94e80a49d833be8b3c093a34319d8b9cdb5b7ec8d86b91a4b2831b18d799cb",
+    "bytes": 12207,
+    "members": {
+      "generated.hpp": {
+        "sha256": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+        "bytes": 1043
+      },
+      "main.cpp": {
+        "sha256": "52268569e17d7fc40fd46f0996b2da684768902b4af27ec059c4b068911c4473",
+        "bytes": 35400
+      },
+      "protocol.hpp": {
+        "sha256": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+        "bytes": 5010
+      },
+      "submission.json": {
+        "sha256": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60",
+        "bytes": 46
+      }
+    },
+    "deterministic_metadata": true
+  },
+  "errors": 0,
+  "forfeits": 0,
+  "cpu_matches": 4,
+  "sdk_smoke_matches": 1,
+  "full_length_matches": 2,
+  "maximum_candidate_response_ms": 136.57583100030024,
+  "validated_utc": "2026-09-27T16:31:15.169767+00:00",
+  "tmp_cleanup": {
+    "path": "/tmp/yk-package-9_k0tdo_",
+    "exists": false,
+    "checked_utc": "2026-09-27T16:31:15.171793+00:00"
+  },
+  "finished_utc": "2026-09-27T16:31:15.171803+00:00"
+}

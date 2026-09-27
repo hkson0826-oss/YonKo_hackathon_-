@@ -1,0 +1,28 @@
+{
+  "transport": [
+    "ssh",
+    "-T"
+  ],
+  "command": [
+    "python3",
+    "experiments/cross_family_audit.py",
+    "--arena",
+    "output",
+    "--candidate",
+    "a_v2_terminal_local",
+    "--selection-lock-json",
+    "{\"ranking\":[\"a_v2_terminal_local\",\"a_local_unabstracted\",\"a_v2_tactical_local\",\"a_v2_tactical_fit\",\"j_defensive_portfolio\",\"q_v2_window_guard\",\"v2\"],\"finalists\":[\"a_v2_terminal_local\",\"a_local_unabstracted\"],\"primary_candidate\":\"a_v2_terminal_local\"}",
+    "--workers",
+    "16"
+  ],
+  "returncode": 0,
+  "archive_sha256": "d6db8834acc7f35315c43971d11e4206e3e06c6bd36cf9e848fa13d07d87524a",
+  "archive_bytes": 69807517,
+  "cleanup": {
+    "event": "cleanup_complete",
+    "utc": "2026-09-27T16:29:05Z",
+    "path": "/tmp/yk-league-2pqqd2qc",
+    "exists": false,
+    "archive_accepted": true
+  }
+}
