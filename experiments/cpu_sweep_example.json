@@ -1,0 +1,10 @@
+{
+  "candidates": [
+    {"id": "baseline", "parameters": {}},
+    {"id": "eng140", "parameters": {"eng_bonus": 140}}
+  ],
+  "map_seeds": [5000, 5001],
+  "teams": ["Y", "K"],
+  "opponents": ["teammate"],
+  "save_replays": "all"
+}
