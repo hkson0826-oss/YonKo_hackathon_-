@@ -1,0 +1,331 @@
+{
+  "unique_matches": 60,
+  "totals": {
+    "r3_opponent_league": {
+      "games": 20,
+      "points": 12.0,
+      "wins": 12,
+      "draws": 0,
+      "losses": 8,
+      "Y_games": 10,
+      "Y_points": 7.0
+    },
+    "teammate": {
+      "games": 20,
+      "points": 0.0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 20,
+      "Y_games": 10,
+      "Y_points": 0.0
+    },
+    "v3": {
+      "games": 20,
+      "points": 13.0,
+      "wins": 13,
+      "draws": 0,
+      "losses": 7,
+      "Y_games": 10,
+      "Y_points": 7.0
+    },
+    "s3_selective_contact": {
+      "games": 20,
+      "points": 14.0,
+      "wins": 14,
+      "draws": 0,
+      "losses": 6,
+      "Y_games": 10,
+      "Y_points": 6.0
+    },
+    "f3_v2_warrior_reserve": {
+      "games": 20,
+      "points": 8.0,
+      "wins": 8,
+      "draws": 0,
+      "losses": 12,
+      "Y_games": 10,
+      "Y_points": 3.0
+    },
+    "s3_v2_screen_paired_guard": {
+      "games": 20,
+      "points": 13.0,
+      "wins": 13,
+      "draws": 0,
+      "losses": 7,
+      "Y_games": 10,
+      "Y_points": 7.0
+    }
+  },
+  "directed_pairs": {
+    "r3_opponent_league vs teammate": {
+      "games": 4,
+      "points": 4.0,
+      "wins": 4,
+      "draws": 0,
+      "losses": 0,
+      "Y_games": 2,
+      "Y_points": 2.0
+    },
+    "teammate vs r3_opponent_league": {
+      "games": 4,
+      "points": 0.0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 4,
+      "Y_games": 2,
+      "Y_points": 0.0
+    },
+    "v3 vs teammate": {
+      "games": 4,
+      "points": 4.0,
+      "wins": 4,
+      "draws": 0,
+      "losses": 0,
+      "Y_games": 2,
+      "Y_points": 2.0
+    },
+    "teammate vs v3": {
+      "games": 4,
+      "points": 0.0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 4,
+      "Y_games": 2,
+      "Y_points": 0.0
+    },
+    "v3 vs s3_selective_contact": {
+      "games": 4,
+      "points": 2.0,
+      "wins": 2,
+      "draws": 0,
+      "losses": 2,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "s3_selective_contact vs v3": {
+      "games": 4,
+      "points": 2.0,
+      "wins": 2,
+      "draws": 0,
+      "losses": 2,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "v3 vs f3_v2_warrior_reserve": {
+      "games": 4,
+      "points": 4.0,
+      "wins": 4,
+      "draws": 0,
+      "losses": 0,
+      "Y_games": 2,
+      "Y_points": 2.0
+    },
+    "f3_v2_warrior_reserve vs v3": {
+      "games": 4,
+      "points": 0.0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 4,
+      "Y_games": 2,
+      "Y_points": 0.0
+    },
+    "v3 vs r3_opponent_league": {
+      "games": 4,
+      "points": 2.0,
+      "wins": 2,
+      "draws": 0,
+      "losses": 2,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "r3_opponent_league vs v3": {
+      "games": 4,
+      "points": 2.0,
+      "wins": 2,
+      "draws": 0,
+      "losses": 2,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "s3_selective_contact vs teammate": {
+      "games": 4,
+      "points": 4.0,
+      "wins": 4,
+      "draws": 0,
+      "losses": 0,
+      "Y_games": 2,
+      "Y_points": 2.0
+    },
+    "teammate vs s3_selective_contact": {
+      "games": 4,
+      "points": 0.0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 4,
+      "Y_games": 2,
+      "Y_points": 0.0
+    },
+    "s3_v2_screen_paired_guard vs teammate": {
+      "games": 4,
+      "points": 4.0,
+      "wins": 4,
+      "draws": 0,
+      "losses": 0,
+      "Y_games": 2,
+      "Y_points": 2.0
+    },
+    "teammate vs s3_v2_screen_paired_guard": {
+      "games": 4,
+      "points": 0.0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 4,
+      "Y_games": 2,
+      "Y_points": 0.0
+    },
+    "f3_v2_warrior_reserve vs r3_opponent_league": {
+      "games": 4,
+      "points": 2.0,
+      "wins": 2,
+      "draws": 0,
+      "losses": 2,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "r3_opponent_league vs f3_v2_warrior_reserve": {
+      "games": 4,
+      "points": 2.0,
+      "wins": 2,
+      "draws": 0,
+      "losses": 2,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "s3_v2_screen_paired_guard vs r3_opponent_league": {
+      "games": 4,
+      "points": 2.0,
+      "wins": 2,
+      "draws": 0,
+      "losses": 2,
+      "Y_games": 2,
+      "Y_points": 2.0
+    },
+    "r3_opponent_league vs s3_v2_screen_paired_guard": {
+      "games": 4,
+      "points": 2.0,
+      "wins": 2,
+      "draws": 0,
+      "losses": 2,
+      "Y_games": 2,
+      "Y_points": 2.0
+    },
+    "f3_v2_warrior_reserve vs s3_selective_contact": {
+      "games": 4,
+      "points": 1.0,
+      "wins": 1,
+      "draws": 0,
+      "losses": 3,
+      "Y_games": 2,
+      "Y_points": 0.0
+    },
+    "s3_selective_contact vs f3_v2_warrior_reserve": {
+      "games": 4,
+      "points": 3.0,
+      "wins": 3,
+      "draws": 0,
+      "losses": 1,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "v3 vs s3_v2_screen_paired_guard": {
+      "games": 4,
+      "points": 1.0,
+      "wins": 1,
+      "draws": 0,
+      "losses": 3,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "s3_v2_screen_paired_guard vs v3": {
+      "games": 4,
+      "points": 3.0,
+      "wins": 3,
+      "draws": 0,
+      "losses": 1,
+      "Y_games": 2,
+      "Y_points": 2.0
+    },
+    "s3_v2_screen_paired_guard vs s3_selective_contact": {
+      "games": 4,
+      "points": 1.0,
+      "wins": 1,
+      "draws": 0,
+      "losses": 3,
+      "Y_games": 2,
+      "Y_points": 0.0
+    },
+    "s3_selective_contact vs s3_v2_screen_paired_guard": {
+      "games": 4,
+      "points": 3.0,
+      "wins": 3,
+      "draws": 0,
+      "losses": 1,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "s3_v2_screen_paired_guard vs f3_v2_warrior_reserve": {
+      "games": 4,
+      "points": 3.0,
+      "wins": 3,
+      "draws": 0,
+      "losses": 1,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "f3_v2_warrior_reserve vs s3_v2_screen_paired_guard": {
+      "games": 4,
+      "points": 1.0,
+      "wins": 1,
+      "draws": 0,
+      "losses": 3,
+      "Y_games": 2,
+      "Y_points": 0.0
+    },
+    "f3_v2_warrior_reserve vs teammate": {
+      "games": 4,
+      "points": 4.0,
+      "wins": 4,
+      "draws": 0,
+      "losses": 0,
+      "Y_games": 2,
+      "Y_points": 2.0
+    },
+    "teammate vs f3_v2_warrior_reserve": {
+      "games": 4,
+      "points": 0.0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 4,
+      "Y_games": 2,
+      "Y_points": 0.0
+    },
+    "s3_selective_contact vs r3_opponent_league": {
+      "games": 4,
+      "points": 2.0,
+      "wins": 2,
+      "draws": 0,
+      "losses": 2,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "r3_opponent_league vs s3_selective_contact": {
+      "games": 4,
+      "points": 2.0,
+      "wins": 2,
+      "draws": 0,
+      "losses": 2,
+      "Y_games": 2,
+      "Y_points": 1.0
+    }
+  }
+}

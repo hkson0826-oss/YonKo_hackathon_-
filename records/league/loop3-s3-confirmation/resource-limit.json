@@ -1,0 +1,9 @@
+{
+  "resource": "RLIMIT_AS",
+  "requested_soft_bytes": 402653184,
+  "effective_soft_bytes": 402653184,
+  "hard_bytes": 805306368,
+  "previous_soft_bytes": 805306368,
+  "inherited_by": "workers and bot processes",
+  "scope": "Per-process virtual address space; not total RSS or a replica of the submission container"
+}

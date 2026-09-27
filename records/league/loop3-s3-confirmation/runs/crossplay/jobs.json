@@ -1,0 +1,422 @@
+[
+  {
+    "candidate": "s3_selective_contact",
+    "opponent": "teammate",
+    "map_seed": 9400,
+    "team": "Y",
+    "job_id": "1d1ab06f2dee2e410c24504c"
+  },
+  {
+    "candidate": "r3_opponent_league",
+    "opponent": "teammate",
+    "map_seed": 9400,
+    "team": "Y",
+    "job_id": "506c06d70ced9da5413c5040"
+  },
+  {
+    "candidate": "s3_v2_screen_paired_guard",
+    "opponent": "teammate",
+    "map_seed": 9400,
+    "team": "Y",
+    "job_id": "a704a0cc2fa44bd1e95d8f4a"
+  },
+  {
+    "candidate": "s3_v2_screen_paired_guard",
+    "opponent": "r3_opponent_league",
+    "map_seed": 9401,
+    "team": "K",
+    "job_id": "93edc523c2a6fb738c341608"
+  },
+  {
+    "candidate": "s3_v2_screen_paired_guard",
+    "opponent": "s3_selective_contact",
+    "map_seed": 9400,
+    "team": "Y",
+    "job_id": "90670eaa8094113c7e797b49"
+  },
+  {
+    "candidate": "v3",
+    "opponent": "s3_selective_contact",
+    "map_seed": 9401,
+    "team": "Y",
+    "job_id": "c732127caddd9cf30e593781"
+  },
+  {
+    "candidate": "s3_v2_screen_paired_guard",
+    "opponent": "r3_opponent_league",
+    "map_seed": 9400,
+    "team": "Y",
+    "job_id": "f163c1d334402f7650f5cf74"
+  },
+  {
+    "candidate": "v3",
+    "opponent": "f3_v2_warrior_reserve",
+    "map_seed": 9401,
+    "team": "Y",
+    "job_id": "f69fc3dea9fcbcb8a6333531"
+  },
+  {
+    "candidate": "s3_v2_screen_paired_guard",
+    "opponent": "r3_opponent_league",
+    "map_seed": 9401,
+    "team": "Y",
+    "job_id": "7e5b919f8d882b45ba27bdd8"
+  },
+  {
+    "candidate": "v3",
+    "opponent": "r3_opponent_league",
+    "map_seed": 9401,
+    "team": "Y",
+    "job_id": "c8ad63bf5f60254deff4982d"
+  },
+  {
+    "candidate": "v3",
+    "opponent": "s3_selective_contact",
+    "map_seed": 9400,
+    "team": "K",
+    "job_id": "e84b1ecb6b9952b83e35490d"
+  },
+  {
+    "candidate": "s3_v2_screen_paired_guard",
+    "opponent": "s3_selective_contact",
+    "map_seed": 9400,
+    "team": "K",
+    "job_id": "bcce10af4b512a4000bc8113"
+  },
+  {
+    "candidate": "v3",
+    "opponent": "teammate",
+    "map_seed": 9401,
+    "team": "Y",
+    "job_id": "31134af362019577044f7c82"
+  },
+  {
+    "candidate": "r3_opponent_league",
+    "opponent": "teammate",
+    "map_seed": 9401,
+    "team": "Y",
+    "job_id": "8248428720ad54d6578d2a0c"
+  },
+  {
+    "candidate": "s3_v2_screen_paired_guard",
+    "opponent": "r3_opponent_league",
+    "map_seed": 9400,
+    "team": "K",
+    "job_id": "d1deb5567e8250616edcc657"
+  },
+  {
+    "candidate": "f3_v2_warrior_reserve",
+    "opponent": "s3_selective_contact",
+    "map_seed": 9401,
+    "team": "K",
+    "job_id": "3aae1adeaa7b1718ee9fe7b6"
+  },
+  {
+    "candidate": "v3",
+    "opponent": "teammate",
+    "map_seed": 9400,
+    "team": "Y",
+    "job_id": "d5bd1a9bddc84796dc5a21f2"
+  },
+  {
+    "candidate": "v3",
+    "opponent": "f3_v2_warrior_reserve",
+    "map_seed": 9400,
+    "team": "K",
+    "job_id": "de93bd3b9fb9c27d4d8323f2"
+  },
+  {
+    "candidate": "r3_opponent_league",
+    "opponent": "teammate",
+    "map_seed": 9401,
+    "team": "K",
+    "job_id": "9bedb4d5d6130b0bcc515770"
+  },
+  {
+    "candidate": "v3",
+    "opponent": "s3_v2_screen_paired_guard",
+    "map_seed": 9401,
+    "team": "Y",
+    "job_id": "3bdd6c760652991d10fd4c4c"
+  },
+  {
+    "candidate": "s3_selective_contact",
+    "opponent": "teammate",
+    "map_seed": 9401,
+    "team": "Y",
+    "job_id": "14ae34982e31fb5d92aa58a0"
+  },
+  {
+    "candidate": "f3_v2_warrior_reserve",
+    "opponent": "s3_selective_contact",
+    "map_seed": 9401,
+    "team": "Y",
+    "job_id": "3014298fe0be6c81b5a65814"
+  },
+  {
+    "candidate": "v3",
+    "opponent": "s3_v2_screen_paired_guard",
+    "map_seed": 9401,
+    "team": "K",
+    "job_id": "9f232599ca446fcfbe1e2680"
+  },
+  {
+    "candidate": "v3",
+    "opponent": "s3_selective_contact",
+    "map_seed": 9401,
+    "team": "K",
+    "job_id": "1322f1664e7e6ee17712df96"
+  },
+  {
+    "candidate": "f3_v2_warrior_reserve",
+    "opponent": "r3_opponent_league",
+    "map_seed": 9401,
+    "team": "Y",
+    "job_id": "4e362bbee7b677569196b46e"
+  },
+  {
+    "candidate": "s3_selective_contact",
+    "opponent": "teammate",
+    "map_seed": 9401,
+    "team": "K",
+    "job_id": "1e0262951d2ce2af20a09a10"
+  },
+  {
+    "candidate": "s3_v2_screen_paired_guard",
+    "opponent": "f3_v2_warrior_reserve",
+    "map_seed": 9400,
+    "team": "K",
+    "job_id": "6f06947a475867b28dd90e75"
+  },
+  {
+    "candidate": "v3",
+    "opponent": "s3_v2_screen_paired_guard",
+    "map_seed": 9400,
+    "team": "Y",
+    "job_id": "f969881b70e663c1e2d6fdda"
+  },
+  {
+    "candidate": "r3_opponent_league",
+    "opponent": "teammate",
+    "map_seed": 9400,
+    "team": "K",
+    "job_id": "72d8cd202f8151304fe6e130"
+  },
+  {
+    "candidate": "v3",
+    "opponent": "r3_opponent_league",
+    "map_seed": 9400,
+    "team": "K",
+    "job_id": "e30c17df6caa3287001baa9c"
+  },
+  {
+    "candidate": "s3_v2_screen_paired_guard",
+    "opponent": "teammate",
+    "map_seed": 9401,
+    "team": "Y",
+    "job_id": "fe2c785491a92ee9168c23e3"
+  },
+  {
+    "candidate": "v3",
+    "opponent": "s3_v2_screen_paired_guard",
+    "map_seed": 9400,
+    "team": "K",
+    "job_id": "d807c7bf3fe86e0f7aed3c10"
+  },
+  {
+    "candidate": "s3_v2_screen_paired_guard",
+    "opponent": "teammate",
+    "map_seed": 9400,
+    "team": "K",
+    "job_id": "703dcfff190243df528edde9"
+  },
+  {
+    "candidate": "f3_v2_warrior_reserve",
+    "opponent": "r3_opponent_league",
+    "map_seed": 9401,
+    "team": "K",
+    "job_id": "8a8c8d01dc5192c1c00b9de5"
+  },
+  {
+    "candidate": "v3",
+    "opponent": "f3_v2_warrior_reserve",
+    "map_seed": 9401,
+    "team": "K",
+    "job_id": "f98915549ae35de6f15b5757"
+  },
+  {
+    "candidate": "v3",
+    "opponent": "teammate",
+    "map_seed": 9401,
+    "team": "K",
+    "job_id": "2efc546c6ae4bb47e793dbeb"
+  },
+  {
+    "candidate": "s3_v2_screen_paired_guard",
+    "opponent": "s3_selective_contact",
+    "map_seed": 9401,
+    "team": "Y",
+    "job_id": "729efbc5b3c05461ca45df74"
+  },
+  {
+    "candidate": "f3_v2_warrior_reserve",
+    "opponent": "r3_opponent_league",
+    "map_seed": 9400,
+    "team": "Y",
+    "job_id": "8e7067b519b563c21985980c"
+  },
+  {
+    "candidate": "s3_selective_contact",
+    "opponent": "r3_opponent_league",
+    "map_seed": 9401,
+    "team": "Y",
+    "job_id": "df09a5f6d76f742888325bb6"
+  },
+  {
+    "candidate": "v3",
+    "opponent": "s3_selective_contact",
+    "map_seed": 9400,
+    "team": "Y",
+    "job_id": "07770ef5fd3f75f6a3869216"
+  },
+  {
+    "candidate": "s3_selective_contact",
+    "opponent": "r3_opponent_league",
+    "map_seed": 9400,
+    "team": "K",
+    "job_id": "47f06f3e866d934636d4aebf"
+  },
+  {
+    "candidate": "f3_v2_warrior_reserve",
+    "opponent": "teammate",
+    "map_seed": 9401,
+    "team": "K",
+    "job_id": "9af80cf6cac613c6cb40a990"
+  },
+  {
+    "candidate": "s3_selective_contact",
+    "opponent": "r3_opponent_league",
+    "map_seed": 9401,
+    "team": "K",
+    "job_id": "a2d6fc4d82880684a8be6361"
+  },
+  {
+    "candidate": "f3_v2_warrior_reserve",
+    "opponent": "s3_selective_contact",
+    "map_seed": 9400,
+    "team": "Y",
+    "job_id": "d19f9f2b86ab304b1a9dd7cf"
+  },
+  {
+    "candidate": "v3",
+    "opponent": "r3_opponent_league",
+    "map_seed": 9400,
+    "team": "Y",
+    "job_id": "aeb114dd483636ba0943ae36"
+  },
+  {
+    "candidate": "f3_v2_warrior_reserve",
+    "opponent": "teammate",
+    "map_seed": 9400,
+    "team": "Y",
+    "job_id": "adb037c2d30c9cb2a007e89d"
+  },
+  {
+    "candidate": "v3",
+    "opponent": "f3_v2_warrior_reserve",
+    "map_seed": 9400,
+    "team": "Y",
+    "job_id": "b80329461b6b01236e5adc97"
+  },
+  {
+    "candidate": "s3_selective_contact",
+    "opponent": "teammate",
+    "map_seed": 9400,
+    "team": "K",
+    "job_id": "0512e9f4b06373d86710f75e"
+  },
+  {
+    "candidate": "s3_v2_screen_paired_guard",
+    "opponent": "f3_v2_warrior_reserve",
+    "map_seed": 9400,
+    "team": "Y",
+    "job_id": "43eca70f91fa375c74548073"
+  },
+  {
+    "candidate": "s3_v2_screen_paired_guard",
+    "opponent": "teammate",
+    "map_seed": 9401,
+    "team": "K",
+    "job_id": "c26a8638fd472372b030b72c"
+  },
+  {
+    "candidate": "f3_v2_warrior_reserve",
+    "opponent": "s3_selective_contact",
+    "map_seed": 9400,
+    "team": "K",
+    "job_id": "accf997a9d771a2765171938"
+  },
+  {
+    "candidate": "s3_v2_screen_paired_guard",
+    "opponent": "f3_v2_warrior_reserve",
+    "map_seed": 9401,
+    "team": "Y",
+    "job_id": "d01ceee40c671b8c5a158688"
+  },
+  {
+    "candidate": "f3_v2_warrior_reserve",
+    "opponent": "teammate",
+    "map_seed": 9400,
+    "team": "K",
+    "job_id": "b0341c249e155a82b7193b2e"
+  },
+  {
+    "candidate": "v3",
+    "opponent": "r3_opponent_league",
+    "map_seed": 9401,
+    "team": "K",
+    "job_id": "3f76b0f7b91e6031938f4287"
+  },
+  {
+    "candidate": "s3_v2_screen_paired_guard",
+    "opponent": "s3_selective_contact",
+    "map_seed": 9401,
+    "team": "K",
+    "job_id": "22165cbc06326bbb8d843ac8"
+  },
+  {
+    "candidate": "v3",
+    "opponent": "teammate",
+    "map_seed": 9400,
+    "team": "K",
+    "job_id": "8fd2afe57683f2ded655e171"
+  },
+  {
+    "candidate": "f3_v2_warrior_reserve",
+    "opponent": "r3_opponent_league",
+    "map_seed": 9400,
+    "team": "K",
+    "job_id": "45a323fe983edf5c1e859751"
+  },
+  {
+    "candidate": "s3_v2_screen_paired_guard",
+    "opponent": "f3_v2_warrior_reserve",
+    "map_seed": 9401,
+    "team": "K",
+    "job_id": "b20eb0711a7e734c8cd234eb"
+  },
+  {
+    "candidate": "f3_v2_warrior_reserve",
+    "opponent": "teammate",
+    "map_seed": 9401,
+    "team": "Y",
+    "job_id": "c2eb3a527c6d8c930e8fc8d0"
+  },
+  {
+    "candidate": "s3_selective_contact",
+    "opponent": "r3_opponent_league",
+    "map_seed": 9400,
+    "team": "Y",
+    "job_id": "4b765575bb119142f2c23458"
+  }
+]

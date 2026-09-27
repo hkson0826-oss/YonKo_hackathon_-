@@ -1,0 +1,23 @@
+{
+  "status": "complete",
+  "started_utc": "2026-09-27T19:17:44.092765+00:00",
+  "workers": 24,
+  "resumed_jobs": 0,
+  "scheduled_jobs": 4608,
+  "command": [
+    "/usr/bin/python3",
+    "experiments/v3_confirmation.py",
+    "--arena",
+    "output",
+    "--phase",
+    "final",
+    "--workers",
+    "24"
+  ],
+  "plan_sha256": "042fcb4501e2e9031b80b30c54c19cb8ae02662bbda134fa55db95eba502f68f",
+  "python": "3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]",
+  "python_executable": "/usr/bin/python3",
+  "finished_utc": "2026-09-27T20:00:44.636723+00:00",
+  "wall_seconds": 2580.5437818700448,
+  "finished_new_jobs": 4608
+}

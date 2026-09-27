@@ -1,0 +1,1056 @@
+{
+  "reviewed_utc": "2026-09-27T20:03:59.835656+00:00",
+  "status": "independent_final_review_passed",
+  "arena": "records/league/loop3-s3-confirmation",
+  "source_commit": "6e36cb5bfab7ff874fbb48a3c3b82308e41bdcf2",
+  "baseline": "v3",
+  "primary": "s3_v2_screen_paired_guard",
+  "method": "Standard-library-only independent aggregation directly from result.winner and result.score; no league aggregation, promotion, or analysis functions imported. Reimplemented predeclared gates and 5000 paired map-cluster bootstrap draws with seed927608. Timing uses nearest-rank quantiles of all recorded successful responses in both bot roles.",
+  "checks": {
+    "closed_final_campaign": true,
+    "single_predeclared_primary": true,
+    "same_baseline_and_pool": true,
+    "map_lock": true,
+    "disjoint_fresh_maps": true,
+    "original_failed_f3_preserved": true,
+    "exact_policy_lock": true,
+    "source_s3_v2_screen_paired_guard": true,
+    "source_v3": true,
+    "source_v2": true,
+    "source_teammate": true,
+    "source_a_v2_tactical_local": true,
+    "source_j_balanced_portfolio": true,
+    "source_j_v2_reclaim_relay": true,
+    "source_s3_selective_contact": true,
+    "source_r3_opponent_league": true,
+    "source_f3_v2_warrior_reserve": true,
+    "primary_SHA": true,
+    "original_v3_SHA": true,
+    "sdk_input_sha256_equal": true,
+    "sdk_input_sha256_bytes_match": true,
+    "submission_input_sha256_equal": true,
+    "submission_input_sha256_bytes_match": true,
+    "frozen_confirmation_script_matches_reviewed": true,
+    "smoke_exact_jobs": true,
+    "smoke_plan_copies_match": true,
+    "smoke_session_closed": true,
+    "smoke_lock_precedes_execution": true,
+    "smoke_raw_outcomes_match_flags": true,
+    "holdout_exact_jobs": true,
+    "holdout_plan_copies_match": true,
+    "holdout_session_closed": true,
+    "holdout_lock_precedes_execution": true,
+    "holdout_raw_outcomes_match_flags": true,
+    "crossplay_exact_jobs": true,
+    "crossplay_plan_copies_match": true,
+    "crossplay_session_closed": true,
+    "crossplay_lock_precedes_execution": true,
+    "crossplay_raw_outcomes_match_flags": true,
+    "Y_reported_comparison_matches_raw": true,
+    "K_reported_comparison_matches_raw": true,
+    "fixed_reported_comparison_matches_raw": true,
+    "added_reported_comparison_matches_raw": true,
+    "opponent_Y_comparisons_match_raw": true,
+    "all_11_gates_exactly_match": true,
+    "campaign_counts_health": true,
+    "recorded_response_maxima_match_arrays": true,
+    "all_observed_responses_below_300ms": true,
+    "holdout_has_no_draws": true
+  },
+  "input_sha256": {
+    "campaign-result.json": "98be8b5a53922f35ac699278d2dce69f37620b9d46a0733fc2fcc8773b83e721",
+    "locked-finalists.json": "7aa64837ea4488a004845e688004e59fcaa543d37d0da8fb5995066957bf066e",
+    "manifest.json": "d568f6758682ed3124b4fa827955ed2b0d8e15547c21479389033bb8feadd456",
+    "campaign-policy.json": "a836bc4a50569e7e62f7bb16b16a3abafd7fa033bde2a4ad8f2772c076fba336",
+    "resource-limit.json": "05c1f89f14989ef850735118835e23bcef6fe45dc5cba196ebbf5d5c9ea56edb",
+    "progress.json": "a2edb8fbaf076a3f8a394c6d247ff121069fcca69517f355fc163402281de4da",
+    "runs/smoke/results.jsonl": "c17cea0ffd0d5c8bc75efd1752a29d4273cf9edbabfa46ac1efff81c2d68cc84",
+    "runs/smoke/session-1790536645834731172.json": "7c0dd2723be49b53ee61da1fc47a80e1e166f8c2844220dfa311755cc9c2386a",
+    "runs/holdout/results.jsonl": "36d05029a20c7ef298fe0df4be3b1a69b5d8012bf25b370310babeffa4e348bf",
+    "runs/holdout/session-1790536664092834259.json": "585bd0d505fc7f00e5956f3b3083b26dedce0f3b9c475335e356667f76fff5cd",
+    "runs/crossplay/results.jsonl": "c41b491c8862af053d4778c8fdacd1485aaf269c334bd8601faf9fa10c4e7649",
+    "runs/crossplay/session-1790539247097495160.json": "7841b730d00cc449a1a9cf1b384c024799356c65f89420c6dd0205f3b0ea391b"
+  },
+  "source_checks": {
+    "s3_v2_screen_paired_guard": {
+      "path": "snapshot/candidates/s3_v2_screen_paired_guard/main.cpp",
+      "sha256": "1703701340ede10b652b0aa024e29c3fd411e2809ae34de1e3d0b39620d496df"
+    },
+    "v3": {
+      "path": "snapshot/candidates/v3/main.cpp",
+      "sha256": "52268569e17d7fc40fd46f0996b2da684768902b4af27ec059c4b068911c4473"
+    },
+    "v2": {
+      "path": "snapshot/candidates/v2/main.cpp",
+      "sha256": "53bb019625fabbbd3aa8a5b65af971912bb4cbdad8a9fde3009fadad5ba6d4c5"
+    },
+    "teammate": {
+      "path": "snapshot/submissions/delineate-v1.zip",
+      "sha256": "571397e3c84998b27f8ce0468bc49333663c69b0b84162ad8dfc27e7a47f2365"
+    },
+    "a_v2_tactical_local": {
+      "path": "snapshot/candidates/a_v2_tactical_local/main.cpp",
+      "sha256": "9d9d6ecd763b84f88c0d5e48f65524798f998e9912f774c0dd22e27f3f78219a"
+    },
+    "j_balanced_portfolio": {
+      "path": "snapshot/candidates/j_balanced_portfolio/main.cpp",
+      "sha256": "534f55f1d6641ed788ca637663456e43375297d8016ac9832c589b0a012c8422"
+    },
+    "j_v2_reclaim_relay": {
+      "path": "snapshot/candidates/j_v2_reclaim_relay/main.cpp",
+      "sha256": "0882dc3284c33db9f4687c085e0c570d156a439365aa229fa6cca6f81e909045"
+    },
+    "s3_selective_contact": {
+      "path": "snapshot/candidates/s3_selective_contact/main.cpp",
+      "sha256": "db83d9aa0e8809aaffd6b36ffc47972996d832d987947187af600d3a8419d96c"
+    },
+    "r3_opponent_league": {
+      "path": "snapshot/candidates/r3_opponent_league/main.cpp",
+      "sha256": "33020d61999456342ea39b3f99e53388914b0ccf98536e2b99ae5e60c31f66cf"
+    },
+    "f3_v2_warrior_reserve": {
+      "path": "snapshot/candidates/f3_v2_warrior_reserve/main.cpp",
+      "sha256": "20fa2eb5635cd9035c1f2c3f659943e7f98d03c4434bc84c5d5772c6a00e58cf"
+    }
+  },
+  "locked_inputs": {
+    "sdk_input_sha256": {
+      "files_checked": 27,
+      "all_match": true
+    },
+    "submission_input_sha256": {
+      "files_checked": 13,
+      "all_match": true
+    }
+  },
+  "completed_games": 4688,
+  "distinct_all_maps": 131,
+  "distinct_holdout_maps": 128,
+  "health": {
+    "errors": 0,
+    "forfeits": 0
+  },
+  "pools": {
+    "overall": {
+      "Y": {
+        "v3": {
+          "games": 1152,
+          "wins": 660,
+          "draws": 0,
+          "losses": 492,
+          "points": 660.0,
+          "point_rate": 0.5729166666666666,
+          "mean_score_margin": 3.9071180555555554
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 1152,
+          "wins": 776,
+          "draws": 0,
+          "losses": 376,
+          "points": 776.0,
+          "point_rate": 0.6736111111111112,
+          "mean_score_margin": 8.32204861111111
+        },
+        "paired": {
+          "maps": 128,
+          "paired_games": 1152,
+          "point_rate_difference": 0.10069444444444445,
+          "map_cluster_bootstrap_95pct": [
+            0.0625,
+            0.13802083333333331
+          ],
+          "resamples": 5000,
+          "seed": 927608
+        }
+      },
+      "K": {
+        "v3": {
+          "games": 1152,
+          "wins": 707,
+          "draws": 0,
+          "losses": 445,
+          "points": 707.0,
+          "point_rate": 0.6137152777777778,
+          "mean_score_margin": 6.927951388888889
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 1152,
+          "wins": 789,
+          "draws": 0,
+          "losses": 363,
+          "points": 789.0,
+          "point_rate": 0.6848958333333334,
+          "mean_score_margin": 9.784722222222221
+        },
+        "paired": {
+          "maps": 128,
+          "paired_games": 1152,
+          "point_rate_difference": 0.07118055555555555,
+          "map_cluster_bootstrap_95pct": [
+            0.035590277777777776,
+            0.10763888888888888
+          ],
+          "resamples": 5000,
+          "seed": 927608
+        }
+      }
+    },
+    "fixed": {
+      "Y": {
+        "v3": {
+          "games": 768,
+          "wins": 487,
+          "draws": 0,
+          "losses": 281,
+          "points": 487.0,
+          "point_rate": 0.6341145833333334,
+          "mean_score_margin": 7.227864583333333
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 768,
+          "wins": 570,
+          "draws": 0,
+          "losses": 198,
+          "points": 570.0,
+          "point_rate": 0.7421875,
+          "mean_score_margin": 12.248697916666666
+        },
+        "paired": {
+          "maps": 128,
+          "paired_games": 768,
+          "point_rate_difference": 0.10807291666666666,
+          "map_cluster_bootstrap_95pct": [
+            0.06510416666666666,
+            0.14973958333333331
+          ],
+          "resamples": 5000,
+          "seed": 927608
+        }
+      },
+      "K": {
+        "v3": {
+          "games": 768,
+          "wins": 517,
+          "draws": 0,
+          "losses": 251,
+          "points": 517.0,
+          "point_rate": 0.6731770833333334,
+          "mean_score_margin": 10.412760416666666
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 768,
+          "wins": 557,
+          "draws": 0,
+          "losses": 211,
+          "points": 557.0,
+          "point_rate": 0.7252604166666666,
+          "mean_score_margin": 12.3046875
+        },
+        "paired": {
+          "maps": 128,
+          "paired_games": 768,
+          "point_rate_difference": 0.05208333333333333,
+          "map_cluster_bootstrap_95pct": [
+            0.014322916666666666,
+            0.08984375
+          ],
+          "resamples": 5000,
+          "seed": 927608
+        }
+      }
+    },
+    "added": {
+      "Y": {
+        "v3": {
+          "games": 384,
+          "wins": 173,
+          "draws": 0,
+          "losses": 211,
+          "points": 173.0,
+          "point_rate": 0.4505208333333333,
+          "mean_score_margin": -2.734375
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 384,
+          "wins": 206,
+          "draws": 0,
+          "losses": 178,
+          "points": 206.0,
+          "point_rate": 0.5364583333333334,
+          "mean_score_margin": 0.46875
+        },
+        "paired": {
+          "maps": 128,
+          "paired_games": 384,
+          "point_rate_difference": 0.0859375,
+          "map_cluster_bootstrap_95pct": [
+            0.0234375,
+            0.1484375
+          ],
+          "resamples": 5000,
+          "seed": 927608
+        }
+      },
+      "K": {
+        "v3": {
+          "games": 384,
+          "wins": 190,
+          "draws": 0,
+          "losses": 194,
+          "points": 190.0,
+          "point_rate": 0.4947916666666667,
+          "mean_score_margin": -0.041666666666666664
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 384,
+          "wins": 232,
+          "draws": 0,
+          "losses": 152,
+          "points": 232.0,
+          "point_rate": 0.6041666666666666,
+          "mean_score_margin": 4.744791666666667
+        },
+        "paired": {
+          "maps": 128,
+          "paired_games": 384,
+          "point_rate_difference": 0.109375,
+          "map_cluster_bootstrap_95pct": [
+            0.041666666666666664,
+            0.17447916666666666
+          ],
+          "resamples": 5000,
+          "seed": 927608
+        }
+      }
+    }
+  },
+  "per_opponent": {
+    "v3": {
+      "Y": {
+        "v3": {
+          "games": 128,
+          "wins": 58,
+          "draws": 0,
+          "losses": 70,
+          "points": 58.0,
+          "point_rate": 0.453125,
+          "mean_score_margin": -3.2421875
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 128,
+          "wins": 82,
+          "draws": 0,
+          "losses": 46,
+          "points": 82.0,
+          "point_rate": 0.640625,
+          "mean_score_margin": 5.015625
+        },
+        "paired": {
+          "maps": 128,
+          "paired_games": 128,
+          "point_rate_difference": 0.1875,
+          "map_cluster_bootstrap_95pct": [
+            0.078125,
+            0.296875
+          ],
+          "resamples": 5000,
+          "seed": 927608
+        }
+      },
+      "K": {
+        "v3": {
+          "games": 128,
+          "wins": 70,
+          "draws": 0,
+          "losses": 58,
+          "points": 70.0,
+          "point_rate": 0.546875,
+          "mean_score_margin": 3.2421875
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 128,
+          "wins": 77,
+          "draws": 0,
+          "losses": 51,
+          "points": 77.0,
+          "point_rate": 0.6015625,
+          "mean_score_margin": 3.5703125
+        },
+        "paired": {
+          "maps": 128,
+          "paired_games": 128,
+          "point_rate_difference": 0.0546875,
+          "map_cluster_bootstrap_95pct": [
+            -0.0625,
+            0.171875
+          ],
+          "resamples": 5000,
+          "seed": 927608
+        }
+      }
+    },
+    "v2": {
+      "Y": {
+        "v3": {
+          "games": 128,
+          "wins": 99,
+          "draws": 0,
+          "losses": 29,
+          "points": 99.0,
+          "point_rate": 0.7734375,
+          "mean_score_margin": 13.4609375
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 128,
+          "wins": 117,
+          "draws": 0,
+          "losses": 11,
+          "points": 117.0,
+          "point_rate": 0.9140625,
+          "mean_score_margin": 21.3828125
+        },
+        "paired": {
+          "maps": 128,
+          "paired_games": 128,
+          "point_rate_difference": 0.140625,
+          "map_cluster_bootstrap_95pct": [
+            0.0625,
+            0.21875
+          ],
+          "resamples": 5000,
+          "seed": 927608
+        }
+      },
+      "K": {
+        "v3": {
+          "games": 128,
+          "wins": 113,
+          "draws": 0,
+          "losses": 15,
+          "points": 113.0,
+          "point_rate": 0.8828125,
+          "mean_score_margin": 20.5
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 128,
+          "wins": 118,
+          "draws": 0,
+          "losses": 10,
+          "points": 118.0,
+          "point_rate": 0.921875,
+          "mean_score_margin": 23.21875
+        },
+        "paired": {
+          "maps": 128,
+          "paired_games": 128,
+          "point_rate_difference": 0.0390625,
+          "map_cluster_bootstrap_95pct": [
+            -0.0234375,
+            0.1015625
+          ],
+          "resamples": 5000,
+          "seed": 927608
+        }
+      }
+    },
+    "teammate": {
+      "Y": {
+        "v3": {
+          "games": 128,
+          "wins": 120,
+          "draws": 0,
+          "losses": 8,
+          "points": 120.0,
+          "point_rate": 0.9375,
+          "mean_score_margin": 24.609375
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 128,
+          "wins": 121,
+          "draws": 0,
+          "losses": 7,
+          "points": 121.0,
+          "point_rate": 0.9453125,
+          "mean_score_margin": 26.265625
+        },
+        "paired": {
+          "maps": 128,
+          "paired_games": 128,
+          "point_rate_difference": 0.0078125,
+          "map_cluster_bootstrap_95pct": [
+            -0.0390625,
+            0.0546875
+          ],
+          "resamples": 5000,
+          "seed": 927608
+        }
+      },
+      "K": {
+        "v3": {
+          "games": 128,
+          "wins": 121,
+          "draws": 0,
+          "losses": 7,
+          "points": 121.0,
+          "point_rate": 0.9453125,
+          "mean_score_margin": 25.9140625
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 128,
+          "wins": 121,
+          "draws": 0,
+          "losses": 7,
+          "points": 121.0,
+          "point_rate": 0.9453125,
+          "mean_score_margin": 26.4296875
+        },
+        "paired": {
+          "maps": 128,
+          "paired_games": 128,
+          "point_rate_difference": 0.0,
+          "map_cluster_bootstrap_95pct": [
+            -0.03125,
+            0.03125
+          ],
+          "resamples": 5000,
+          "seed": 927608
+        }
+      }
+    },
+    "a_v2_tactical_local": {
+      "Y": {
+        "v3": {
+          "games": 128,
+          "wins": 79,
+          "draws": 0,
+          "losses": 49,
+          "points": 79.0,
+          "point_rate": 0.6171875,
+          "mean_score_margin": 4.625
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 128,
+          "wins": 88,
+          "draws": 0,
+          "losses": 40,
+          "points": 88.0,
+          "point_rate": 0.6875,
+          "mean_score_margin": 8.4375
+        },
+        "paired": {
+          "maps": 128,
+          "paired_games": 128,
+          "point_rate_difference": 0.0703125,
+          "map_cluster_bootstrap_95pct": [
+            -0.03125,
+            0.171875
+          ],
+          "resamples": 5000,
+          "seed": 927608
+        }
+      },
+      "K": {
+        "v3": {
+          "games": 128,
+          "wins": 70,
+          "draws": 0,
+          "losses": 58,
+          "points": 70.0,
+          "point_rate": 0.546875,
+          "mean_score_margin": 2.796875
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 128,
+          "wins": 82,
+          "draws": 0,
+          "losses": 46,
+          "points": 82.0,
+          "point_rate": 0.640625,
+          "mean_score_margin": 6.9296875
+        },
+        "paired": {
+          "maps": 128,
+          "paired_games": 128,
+          "point_rate_difference": 0.09375,
+          "map_cluster_bootstrap_95pct": [
+            -0.0234375,
+            0.203125
+          ],
+          "resamples": 5000,
+          "seed": 927608
+        }
+      }
+    },
+    "j_balanced_portfolio": {
+      "Y": {
+        "v3": {
+          "games": 128,
+          "wins": 62,
+          "draws": 0,
+          "losses": 66,
+          "points": 62.0,
+          "point_rate": 0.484375,
+          "mean_score_margin": 0.1015625
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 128,
+          "wins": 78,
+          "draws": 0,
+          "losses": 50,
+          "points": 78.0,
+          "point_rate": 0.609375,
+          "mean_score_margin": 4.78125
+        },
+        "paired": {
+          "maps": 128,
+          "paired_games": 128,
+          "point_rate_difference": 0.125,
+          "map_cluster_bootstrap_95pct": [
+            0.015625,
+            0.234375
+          ],
+          "resamples": 5000,
+          "seed": 927608
+        }
+      },
+      "K": {
+        "v3": {
+          "games": 128,
+          "wins": 71,
+          "draws": 0,
+          "losses": 57,
+          "points": 71.0,
+          "point_rate": 0.5546875,
+          "mean_score_margin": 4.9453125
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 128,
+          "wins": 71,
+          "draws": 0,
+          "losses": 57,
+          "points": 71.0,
+          "point_rate": 0.5546875,
+          "mean_score_margin": 4.6875
+        },
+        "paired": {
+          "maps": 128,
+          "paired_games": 128,
+          "point_rate_difference": 0.0,
+          "map_cluster_bootstrap_95pct": [
+            -0.109375,
+            0.109375
+          ],
+          "resamples": 5000,
+          "seed": 927608
+        }
+      }
+    },
+    "j_v2_reclaim_relay": {
+      "Y": {
+        "v3": {
+          "games": 128,
+          "wins": 69,
+          "draws": 0,
+          "losses": 59,
+          "points": 69.0,
+          "point_rate": 0.5390625,
+          "mean_score_margin": 3.8125
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 128,
+          "wins": 84,
+          "draws": 0,
+          "losses": 44,
+          "points": 84.0,
+          "point_rate": 0.65625,
+          "mean_score_margin": 7.609375
+        },
+        "paired": {
+          "maps": 128,
+          "paired_games": 128,
+          "point_rate_difference": 0.1171875,
+          "map_cluster_bootstrap_95pct": [
+            0.0,
+            0.234375
+          ],
+          "resamples": 5000,
+          "seed": 927608
+        }
+      },
+      "K": {
+        "v3": {
+          "games": 128,
+          "wins": 72,
+          "draws": 0,
+          "losses": 56,
+          "points": 72.0,
+          "point_rate": 0.5625,
+          "mean_score_margin": 5.078125
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 128,
+          "wins": 88,
+          "draws": 0,
+          "losses": 40,
+          "points": 88.0,
+          "point_rate": 0.6875,
+          "mean_score_margin": 8.9921875
+        },
+        "paired": {
+          "maps": 128,
+          "paired_games": 128,
+          "point_rate_difference": 0.125,
+          "map_cluster_bootstrap_95pct": [
+            0.015625,
+            0.234375
+          ],
+          "resamples": 5000,
+          "seed": 927608
+        }
+      }
+    },
+    "s3_selective_contact": {
+      "Y": {
+        "v3": {
+          "games": 128,
+          "wins": 44,
+          "draws": 0,
+          "losses": 84,
+          "points": 44.0,
+          "point_rate": 0.34375,
+          "mean_score_margin": -7.828125
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 128,
+          "wins": 58,
+          "draws": 0,
+          "losses": 70,
+          "points": 58.0,
+          "point_rate": 0.453125,
+          "mean_score_margin": -2.0625
+        },
+        "paired": {
+          "maps": 128,
+          "paired_games": 128,
+          "point_rate_difference": 0.109375,
+          "map_cluster_bootstrap_95pct": [
+            0.0078125,
+            0.2109375
+          ],
+          "resamples": 5000,
+          "seed": 927608
+        }
+      },
+      "K": {
+        "v3": {
+          "games": 128,
+          "wins": 52,
+          "draws": 0,
+          "losses": 76,
+          "points": 52.0,
+          "point_rate": 0.40625,
+          "mean_score_margin": -5.9453125
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 128,
+          "wins": 66,
+          "draws": 0,
+          "losses": 62,
+          "points": 66.0,
+          "point_rate": 0.515625,
+          "mean_score_margin": 0.6171875
+        },
+        "paired": {
+          "maps": 128,
+          "paired_games": 128,
+          "point_rate_difference": 0.109375,
+          "map_cluster_bootstrap_95pct": [
+            0.0,
+            0.21875
+          ],
+          "resamples": 5000,
+          "seed": 927608
+        }
+      }
+    },
+    "r3_opponent_league": {
+      "Y": {
+        "v3": {
+          "games": 128,
+          "wins": 72,
+          "draws": 0,
+          "losses": 56,
+          "points": 72.0,
+          "point_rate": 0.5625,
+          "mean_score_margin": 2.9921875
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 128,
+          "wins": 80,
+          "draws": 0,
+          "losses": 48,
+          "points": 80.0,
+          "point_rate": 0.625,
+          "mean_score_margin": 3.703125
+        },
+        "paired": {
+          "maps": 128,
+          "paired_games": 128,
+          "point_rate_difference": 0.0625,
+          "map_cluster_bootstrap_95pct": [
+            -0.046875,
+            0.171875
+          ],
+          "resamples": 5000,
+          "seed": 927608
+        }
+      },
+      "K": {
+        "v3": {
+          "games": 128,
+          "wins": 83,
+          "draws": 0,
+          "losses": 45,
+          "points": 83.0,
+          "point_rate": 0.6484375,
+          "mean_score_margin": 7.1875
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 128,
+          "wins": 88,
+          "draws": 0,
+          "losses": 40,
+          "points": 88.0,
+          "point_rate": 0.6875,
+          "mean_score_margin": 8.8046875
+        },
+        "paired": {
+          "maps": 128,
+          "paired_games": 128,
+          "point_rate_difference": 0.0390625,
+          "map_cluster_bootstrap_95pct": [
+            -0.0703125,
+            0.140625
+          ],
+          "resamples": 5000,
+          "seed": 927608
+        }
+      }
+    },
+    "f3_v2_warrior_reserve": {
+      "Y": {
+        "v3": {
+          "games": 128,
+          "wins": 57,
+          "draws": 0,
+          "losses": 71,
+          "points": 57.0,
+          "point_rate": 0.4453125,
+          "mean_score_margin": -3.3671875
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 128,
+          "wins": 68,
+          "draws": 0,
+          "losses": 60,
+          "points": 68.0,
+          "point_rate": 0.53125,
+          "mean_score_margin": -0.234375
+        },
+        "paired": {
+          "maps": 128,
+          "paired_games": 128,
+          "point_rate_difference": 0.0859375,
+          "map_cluster_bootstrap_95pct": [
+            -0.03125,
+            0.203125
+          ],
+          "resamples": 5000,
+          "seed": 927608
+        }
+      },
+      "K": {
+        "v3": {
+          "games": 128,
+          "wins": 55,
+          "draws": 0,
+          "losses": 73,
+          "points": 55.0,
+          "point_rate": 0.4296875,
+          "mean_score_margin": -1.3671875
+        },
+        "s3_v2_screen_paired_guard": {
+          "games": 128,
+          "wins": 78,
+          "draws": 0,
+          "losses": 50,
+          "points": 78.0,
+          "point_rate": 0.609375,
+          "mean_score_margin": 4.8125
+        },
+        "paired": {
+          "maps": 128,
+          "paired_games": 128,
+          "point_rate_difference": 0.1796875,
+          "map_cluster_bootstrap_95pct": [
+            0.0625,
+            0.296875
+          ],
+          "resamples": 5000,
+          "seed": 927608
+        }
+      }
+    }
+  },
+  "direct_vs_v3": {
+    "Y": {
+      "games": 128,
+      "wins": 82,
+      "draws": 0,
+      "losses": 46,
+      "points": 82.0,
+      "point_rate": 0.640625,
+      "mean_score_margin": 5.015625
+    },
+    "K": {
+      "games": 128,
+      "wins": 77,
+      "draws": 0,
+      "losses": 51,
+      "points": 77.0,
+      "point_rate": 0.6015625,
+      "mean_score_margin": 3.5703125
+    },
+    "both": {
+      "games": 256,
+      "wins": 159,
+      "draws": 0,
+      "losses": 97,
+      "points": 159.0,
+      "point_rate": 0.62109375,
+      "mean_score_margin": 4.29296875
+    }
+  },
+  "recomputed_gates": {
+    "complete_paired_schedule": true,
+    "no_error_or_forfeit": true,
+    "Y_gain_at_least_3pp": true,
+    "Y_map_cluster_lower_bound_positive": true,
+    "fixed_pool_Y_gain_at_least_3pp": true,
+    "fixed_pool_Y_lower_bound_positive": true,
+    "challenge_pool_Y_no_regression": true,
+    "no_opponent_Y_regression_over_10pp": true,
+    "K_overall_regression_no_more_than_5pp": true,
+    "direct_v3_both_side_point_rate_at_least_half": true,
+    "crossplay_candidate_and_baseline_runtime_healthy": true
+  },
+  "response_time": {
+    "v3": {
+      "responses": 418782,
+      "p50_ms": 57.4275478720665,
+      "p95_ms": 67.372627556324,
+      "p99_ms": 69.8504215106368,
+      "maximum_ms": 125.76487008482218,
+      "at_least_300ms": 0
+    },
+    "s3_v2_screen_paired_guard": {
+      "responses": 335738,
+      "p50_ms": 108.69065765291452,
+      "p95_ms": 122.34148196876049,
+      "p99_ms": 123.42214398086071,
+      "maximum_ms": 182.58011899888515,
+      "at_least_300ms": 0
+    },
+    "v2": {
+      "responses": 71845,
+      "p50_ms": 13.668437488377094,
+      "p95_ms": 14.25918098539114,
+      "p99_ms": 19.869081676006317,
+      "maximum_ms": 75.81517938524485,
+      "at_least_300ms": 0
+    },
+    "teammate": {
+      "responses": 69647,
+      "p50_ms": 2.0625581964850426,
+      "p95_ms": 3.3445172011852264,
+      "p99_ms": 20.581246353685856,
+      "maximum_ms": 132.63078406453133,
+      "at_least_300ms": 0
+    },
+    "a_v2_tactical_local": {
+      "responses": 76467,
+      "p50_ms": 90.00631514936686,
+      "p95_ms": 128.5934140905738,
+      "p99_ms": 135.4076573625207,
+      "maximum_ms": 177.81354952603579,
+      "at_least_300ms": 0
+    },
+    "j_balanced_portfolio": {
+      "responses": 74246,
+      "p50_ms": 14.060715213418007,
+      "p95_ms": 14.686545357108116,
+      "p99_ms": 20.28234861791134,
+      "maximum_ms": 71.32637035101652,
+      "at_least_300ms": 0
+    },
+    "j_v2_reclaim_relay": {
+      "responses": 74441,
+      "p50_ms": 14.04857262969017,
+      "p95_ms": 14.700772240757942,
+      "p99_ms": 20.631814375519753,
+      "maximum_ms": 73.14747106283903,
+      "at_least_300ms": 0
+    },
+    "s3_selective_contact": {
+      "responses": 78600,
+      "p50_ms": 119.04547829180956,
+      "p95_ms": 135.45376062393188,
+      "p99_ms": 136.01520471274853,
+      "maximum_ms": 180.76425604522228,
+      "at_least_300ms": 0
+    },
+    "r3_opponent_league": {
+      "responses": 78775,
+      "p50_ms": 58.23655612766743,
+      "p95_ms": 67.0361090451479,
+      "p99_ms": 69.93693765252829,
+      "maximum_ms": 121.14741932600737,
+      "at_least_300ms": 0
+    },
+    "f3_v2_warrior_reserve": {
+      "responses": 79961,
+      "p50_ms": 56.04957044124603,
+      "p95_ms": 67.7460664883256,
+      "p99_ms": 73.72635509818792,
+      "maximum_ms": 116.64679273962975,
+      "at_least_300ms": 0
+    },
+    "all_bot_processes": {
+      "responses": 1358502,
+      "p50_ms": 59.9924037232995,
+      "p95_ms": 122.14787490665913,
+      "p99_ms": 135.34923736006021,
+      "maximum_ms": 182.58011899888515,
+      "at_least_300ms": 0
+    }
+  },
+  "limits": {
+    "resource": "RLIMIT_AS",
+    "requested_soft_bytes": 402653184,
+    "effective_soft_bytes": 402653184,
+    "hard_bytes": 805306368,
+    "previous_soft_bytes": 805306368,
+    "inherited_by": "workers and bot processes",
+    "scope": "Per-process virtual address space; not total RSS or a replica of the submission container"
+  },
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "interpretation": "All eleven final confirmation gates pass independently. Additional 48-map audit, complete replay verification and actual GCC12 ZIP validation are separate and not asserted passed here. Prior 80-map holdout was used to select this one candidate and is not included in the fresh 128 maps. Original f3 audit failure remains unchanged. No leaderboard guarantee or global optimality claim.",
+  "execution": {
+    "actual_new_games": 0,
+    "compiles": 0,
+    "server_operations": 0,
+    "raw_or_source_mutations": 0,
+    "temporary_files_created": 0,
+    "cleanup": "No build, installed package, temporary script or replay copies created; calculation was in-memory."
+  }
+}

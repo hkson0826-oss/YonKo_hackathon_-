@@ -1,0 +1,27 @@
+{
+  "transport": [
+    "ssh",
+    "-T"
+  ],
+  "command": [
+    "python3",
+    "-B",
+    "experiments/v3_confirmation.py",
+    "--arena",
+    "output",
+    "--phase",
+    "final",
+    "--workers",
+    "24"
+  ],
+  "returncode": 0,
+  "archive_sha256": "b385bf03065eb3421fd4886a8a840ba2bb47a8d51bdc5f0e85537fa88b46b01b",
+  "archive_bytes": 429912725,
+  "cleanup": {
+    "event": "cleanup_complete",
+    "utc": "2026-09-27T20:02:09Z",
+    "path": "/tmp/yk-league-tw82mxuu",
+    "exists": false,
+    "archive_accepted": true
+  }
+}
