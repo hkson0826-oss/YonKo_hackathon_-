@@ -1,0 +1,11 @@
+{
+  "captured_utc": "2026-09-27T18:22:08.063599+00:00",
+  "source_commit": "ff8b2063bc86c5649741efa08f827a027ee954fd",
+  "remote_tmp": "/tmp/yk-league-xeo9l1o_",
+  "scope": "Completed selection stage and locked first primary; holdout and full artifact recovery remain in progress",
+  "file_sha256": {
+    "runs/selection/summary.json": "a14f370f1a04f8e404a21019d986b0e7d4662f15b2f9afe249b9dd50fd088982",
+    "locked-finalists.json": "dcc626f28ea72aa8af3ee05015049a99cd3a0067a98fbcdf760177fbb4204712",
+    "progress.json": "8614cc7e458c685f4bd0775aaaef7dfe98cf821540f36b10fb9eca78844432fe"
+  }
+}
