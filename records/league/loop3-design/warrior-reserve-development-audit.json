@@ -1,0 +1,3199 @@
+{
+  "schema": 1,
+  "results_path": "records/league/loop3-iteration2/runs/development/results.jsonl",
+  "results_sha256": "1944c9e16600bf97b4c5f854a6d37bc1e600ab43db5e77f1dd253c492cad91bc",
+  "results_rows": 2560,
+  "selection_rule": "Within strict loss-to-win and win-to-loss pairs, maximize absolute candidate-minus-v3 final score-margin change; ties map_seed, opponent, team ascending.",
+  "retrieval_note": "Completed development copied read-only before final canonical archive retrieval; canonical SHA comparison remains root's responsibility.",
+  "scope": "Outcome-selected development diagnostics; official transitions and one-turn action effects, not first-action attribution of whole-match outcome.",
+  "script_sha256": "04fc66c416db85b450dca3f2d2c2b44bd0bf9485df6150da6eb02b30d1bd1e92",
+  "engine_sha256": {
+    "yk-development-tools/engine/pipeline.py": "f0bd96c484c8628b6a070b188adcc1a077e9f90017cc15f11ce366d974490fa6",
+    "yk-development-tools/runner/protocol.py": "5917df4bec20b963586b1ffeb7a45b9959f51e3437a227ee7e8d932b172a7d65"
+  },
+  "cases": [
+    {
+      "kind": "gain",
+      "eligible_pairs": 28,
+      "delta_margin": 70,
+      "provenance": {
+        "candidate": {
+          "candidate": "f3_v2_warrior_reserve",
+          "opponent": "j_balanced_portfolio",
+          "map_seed": 8201,
+          "team": "K",
+          "job_id": "0b32535d23bdee575dc30345",
+          "result": {
+            "winner": "K",
+            "reason": "instant",
+            "score": {
+              "Y": 0,
+              "K": 35
+            },
+            "turns": 128,
+            "seed": 8201
+          },
+          "path": "records/league/loop3-iteration2/runs/development/replays/0b32535d23bdee575dc30345.json.gz",
+          "sha256": "0a29cac4f45be3221cdc77faa7b71a7b45ea2f4e1119f9bb1e70bdc23203da73",
+          "verified_frames": 128
+        },
+        "baseline": {
+          "candidate": "v3",
+          "opponent": "j_balanced_portfolio",
+          "map_seed": 8201,
+          "team": "K",
+          "job_id": "65a4ecf811203d4a8649d647",
+          "result": {
+            "winner": "Y",
+            "reason": "instant",
+            "score": {
+              "Y": 35,
+              "K": 0
+            },
+            "turns": 118,
+            "seed": 8201
+          },
+          "path": "records/league/loop3-iteration2/runs/development/replays/65a4ecf811203d4a8649d647.json.gz",
+          "sha256": "8e5d37129286d8fd032b91d3bff90f1ae86b547f88541f74ce6095d2e2f9b8fa",
+          "verified_frames": 118
+        }
+      },
+      "first_text_difference_turn": 14,
+      "first_physical_difference_turn": 14,
+      "legal_observation": "TURN 14\nRESOURCE 12 12\nUNITS 47\nY F 1 4 1\nY F 4 4 1\nY F 5 4 1\nY F 2 6 1\nY F 7 6 1\nY F 5 7 1\nY F 5 8 1\nY F 7 8 1\nY W 1 4 1\nY W 3 4 3\nY W 4 4 2\nY W 5 4 4\nY W 1 5 1\nY W 3 5 7\nY W 1 6 2\nY W 4 6 5\nY W 6 7 5\nY W 4 8 1\nY W 6 8 1\nY W 4 9 3\nY W 5 9 5\nY W 5 10 4\nY W 7 10 1\nY W 5 11 6\nK F 6 4 1\nK F 8 5 2\nK F 10 6 1\nK F 8 9 2\nK F 13 9 1\nK W 8 2 1\nK W 8 3 1\nK W 6 4 5\nK W 9 4 1\nK W 7 5 1\nK W 8 5 3\nK W 11 7 2\nK W 13 7 9\nK W 8 8 1\nK W 9 8 5\nK W 10 8 3\nK W 13 8 5\nK W 8 9 1\nK W 11 9 3\nK W 12 9 5\nK W 13 9 1\nK W 8 10 3\nK W 7 11 1\nBUILDINGS 17\n0 7 7 PLAZA N 0 -1\n1 3 9 HALL Y 2 -1\n2 11 5 HALL K 2 2\n3 0 8 LIBRARY Y 2 -1\n4 14 6 LIBRARY K 2 1\n5 1 13 ENG Y 2 -1\n6 13 1 ENG K 2 2\n7 4 11 HOSPITAL Y 2 -1\n8 10 3 HOSPITAL K 2 2\n9 2 6 STATION Y 2 -1\n10 12 8 STATION K 2 2\n11 8 10 STATION K 2 4\n12 6 4 STATION K 2 4\n13 9 3 WATCH K 2 2\n14 5 11 WATCH Y 2 -1\n15 8 3 DEPOT K 2 2\n16 6 11 DEPOT Y 2 -1\nEND\n",
+      "legal_observation_sha256": "e0dfbe404ea7a67fd341598c5bfab9e526d055246f357e9a516afada74afc373",
+      "prior_state_equal": true,
+      "opponent_commands_equal": true,
+      "commands": {
+        "candidate": {
+          "Y": [
+            "SPAWN W 1 4 11",
+            "SPAWN W 1 4 11",
+            "SPAWN W 1 4 11",
+            "SPAWN W 1 4 11",
+            "SPAWN W 1 4 11",
+            "SPAWN W 1 4 11",
+            "MOVE 1 4 F 1 R",
+            "MOVE 5 4 F 1 U",
+            "MOVE 2 6 F 1 U",
+            "MOVE 7 6 F 1 D",
+            "MOVE 5 7 F 1 U",
+            "MOVE 5 8 F 1 R",
+            "MOVE 7 8 F 1 D",
+            "MOVE 1 4 W 1 R",
+            "MOVE 3 4 W 3 R",
+            "MOVE 4 4 W 2 R",
+            "MOVE 5 4 W 4 R",
+            "MOVE 1 5 W 1 D",
+            "MOVE 3 5 W 5 U",
+            "MOVE 3 5 W 2 D",
+            "MOVE 1 6 W 2 D",
+            "MOVE 4 6 W 5 R",
+            "MOVE 6 7 W 5 R",
+            "MOVE 4 8 W 1 U",
+            "MOVE 6 8 W 1 U",
+            "MOVE 4 9 W 1 U",
+            "MOVE 4 9 W 2 R",
+            "MOVE 5 9 W 5 R",
+            "MOVE 5 10 W 4 U",
+            "MOVE 7 10 W 1 U",
+            "MOVE 4 11 W 4 R",
+            "MOVE 5 11 W 5 R",
+            "PRIORITY 11 5 10 3 8 10 6 4 8 3 7 7 12 8 13 1 9 3 14 6"
+          ],
+          "K": [
+            "SPAWN W 6",
+            "MOVE 13 7 W 1 U",
+            "MOVE 13 7 W 1 D",
+            "MOVE 13 7 W 2 D",
+            "MOVE 13 7 W 2 D",
+            "MOVE 13 7 W 3 U",
+            "MOVE 13 6 W 2 U",
+            "MOVE 13 6 W 4 D",
+            "MOVE 12 9 W 5 U",
+            "MOVE 9 8 W 2 L",
+            "MOVE 9 8 W 3 L",
+            "MOVE 13 8 W 5 L",
+            "MOVE 8 10 W 3 L",
+            "MOVE 8 5 W 1 D",
+            "MOVE 8 5 W 2 D",
+            "MOVE 10 8 W 3 L",
+            "MOVE 11 9 W 3 D",
+            "MOVE 11 7 W 1 L",
+            "MOVE 11 7 W 1 L",
+            "MOVE 8 8 W 1 L",
+            "MOVE 13 9 W 1 D",
+            "MOVE 8 2 W 1 D",
+            "MOVE 7 5 W 1 D",
+            "MOVE 9 4 W 1 U",
+            "MOVE 8 3 W 1 L",
+            "MOVE 8 5 F 1 D",
+            "MOVE 8 5 F 1 L",
+            "MOVE 10 6 F 1 D",
+            "MOVE 13 9 F 1 U",
+            "MOVE 8 9 F 2 D",
+            "MOVE 8 9 W 1 D",
+            "MOVE 6 4 F 1 D",
+            "MOVE 6 4 W 5 D",
+            "PRIORITY 3 9 11 5 13 1 4 11 6 11 8 10 6 4 2 6 1 13 5 11 10 3 7 7 12 8 9 3 8 3 0 8 14 6"
+          ]
+        },
+        "baseline": {
+          "Y": [
+            "SPAWN W 1 4 11",
+            "SPAWN W 1 4 11",
+            "SPAWN W 1 4 11",
+            "SPAWN W 1 4 11",
+            "SPAWN W 1 4 11",
+            "SPAWN W 1 4 11",
+            "MOVE 1 4 F 1 R",
+            "MOVE 5 4 F 1 U",
+            "MOVE 2 6 F 1 U",
+            "MOVE 7 6 F 1 D",
+            "MOVE 5 7 F 1 U",
+            "MOVE 5 8 F 1 R",
+            "MOVE 7 8 F 1 D",
+            "MOVE 1 4 W 1 R",
+            "MOVE 3 4 W 3 R",
+            "MOVE 4 4 W 2 R",
+            "MOVE 5 4 W 4 R",
+            "MOVE 1 5 W 1 D",
+            "MOVE 3 5 W 5 U",
+            "MOVE 3 5 W 2 D",
+            "MOVE 1 6 W 2 D",
+            "MOVE 4 6 W 5 R",
+            "MOVE 6 7 W 5 R",
+            "MOVE 4 8 W 1 U",
+            "MOVE 6 8 W 1 U",
+            "MOVE 4 9 W 1 U",
+            "MOVE 4 9 W 2 R",
+            "MOVE 5 9 W 5 R",
+            "MOVE 5 10 W 4 U",
+            "MOVE 7 10 W 1 U",
+            "MOVE 4 11 W 4 R",
+            "MOVE 5 11 W 5 R",
+            "PRIORITY 11 5 10 3 8 10 6 4 8 3 7 7 12 8 13 1 9 3 14 6"
+          ],
+          "K": [
+            "SPAWN W 6",
+            "MOVE 13 7 W 1 U",
+            "MOVE 13 7 W 8 D",
+            "MOVE 13 6 W 6 D",
+            "MOVE 12 9 W 2 D",
+            "MOVE 12 9 W 2 D",
+            "MOVE 12 9 W 1 U",
+            "MOVE 9 8 W 2 L",
+            "MOVE 9 8 W 3 L",
+            "MOVE 13 8 W 5 L",
+            "MOVE 8 10 W 3 L",
+            "MOVE 10 8 W 3 L",
+            "MOVE 11 9 W 3 D",
+            "MOVE 11 7 W 1 L",
+            "MOVE 11 7 W 1 L",
+            "MOVE 8 8 W 1 L",
+            "MOVE 13 9 W 1 D",
+            "MOVE 8 2 W 1 D",
+            "MOVE 7 5 W 1 D",
+            "MOVE 9 4 W 1 U",
+            "MOVE 8 3 W 1 L",
+            "MOVE 10 6 F 1 D",
+            "MOVE 13 9 F 1 U",
+            "MOVE 8 5 F 2 D",
+            "MOVE 8 5 W 3 D",
+            "MOVE 8 9 F 2 D",
+            "MOVE 8 9 W 1 D",
+            "MOVE 6 4 F 1 R",
+            "MOVE 6 4 W 5 R",
+            "PRIORITY 3 9 11 5 13 1 4 11 6 11 8 10 6 4 2 6 1 13 5 11 10 3 7 7 12 8 9 3 8 3 0 8 14 6"
+          ]
+        }
+      },
+      "changed_origins": [
+        {
+          "position": [
+            6,
+            4
+          ],
+          "building": {
+            "id": 12,
+            "type": "STATION",
+            "owner": "K",
+            "visible_score": 4
+          },
+          "before": {
+            "Y": {
+              "F": 0,
+              "W": 0
+            },
+            "K": {
+              "F": 1,
+              "W": 5
+            }
+          },
+          "candidate": {
+            "outgoing": {
+              "F": 1,
+              "W": 5
+            },
+            "stayed_at_origin": {
+              "F": 0,
+              "W": 0
+            },
+            "landed_before_combat": {
+              "Y": {
+                "F": 0,
+                "W": 4
+              },
+              "K": {
+                "F": 0,
+                "W": 0
+              }
+            },
+            "after_owner": "K"
+          },
+          "baseline": {
+            "outgoing": {
+              "F": 1,
+              "W": 5
+            },
+            "stayed_at_origin": {
+              "F": 0,
+              "W": 0
+            },
+            "landed_before_combat": {
+              "Y": {
+                "F": 0,
+                "W": 4
+              },
+              "K": {
+                "F": 0,
+                "W": 0
+              }
+            },
+            "after_owner": "K"
+          }
+        },
+        {
+          "position": [
+            8,
+            5
+          ],
+          "building": null,
+          "before": {
+            "Y": {
+              "F": 0,
+              "W": 0
+            },
+            "K": {
+              "F": 2,
+              "W": 3
+            }
+          },
+          "candidate": {
+            "outgoing": {
+              "F": 2,
+              "W": 3
+            },
+            "stayed_at_origin": {
+              "F": 0,
+              "W": 0
+            },
+            "landed_before_combat": {
+              "Y": {
+                "F": 0,
+                "W": 0
+              },
+              "K": {
+                "F": 0,
+                "W": 0
+              }
+            },
+            "after_owner": null
+          },
+          "baseline": {
+            "outgoing": {
+              "F": 2,
+              "W": 3
+            },
+            "stayed_at_origin": {
+              "F": 0,
+              "W": 0
+            },
+            "landed_before_combat": {
+              "Y": {
+                "F": 0,
+                "W": 0
+              },
+              "K": {
+                "F": 0,
+                "W": 0
+              }
+            },
+            "after_owner": null
+          }
+        },
+        {
+          "position": [
+            12,
+            9
+          ],
+          "building": null,
+          "before": {
+            "Y": {
+              "F": 0,
+              "W": 0
+            },
+            "K": {
+              "F": 0,
+              "W": 5
+            }
+          },
+          "candidate": {
+            "outgoing": {
+              "F": 0,
+              "W": 5
+            },
+            "stayed_at_origin": {
+              "F": 0,
+              "W": 0
+            },
+            "landed_before_combat": {
+              "Y": {
+                "F": 0,
+                "W": 0
+              },
+              "K": {
+                "F": 0,
+                "W": 0
+              }
+            },
+            "after_owner": null
+          },
+          "baseline": {
+            "outgoing": {
+              "F": 0,
+              "W": 5
+            },
+            "stayed_at_origin": {
+              "F": 0,
+              "W": 0
+            },
+            "landed_before_combat": {
+              "Y": {
+                "F": 0,
+                "W": 0
+              },
+              "K": {
+                "F": 0,
+                "W": 0
+              }
+            },
+            "after_owner": null
+          }
+        },
+        {
+          "position": [
+            13,
+            6
+          ],
+          "building": null,
+          "before": {
+            "Y": {
+              "F": 0,
+              "W": 0
+            },
+            "K": {
+              "F": 0,
+              "W": 0
+            }
+          },
+          "candidate": {
+            "outgoing": {
+              "F": 0,
+              "W": 6
+            },
+            "stayed_at_origin": {
+              "F": 0,
+              "W": 0
+            },
+            "landed_before_combat": {
+              "Y": {
+                "F": 0,
+                "W": 0
+              },
+              "K": {
+                "F": 0,
+                "W": 4
+              }
+            },
+            "after_owner": null
+          },
+          "baseline": {
+            "outgoing": {
+              "F": 0,
+              "W": 6
+            },
+            "stayed_at_origin": {
+              "F": 0,
+              "W": 0
+            },
+            "landed_before_combat": {
+              "Y": {
+                "F": 0,
+                "W": 0
+              },
+              "K": {
+                "F": 0,
+                "W": 1
+              }
+            },
+            "after_owner": null
+          }
+        },
+        {
+          "position": [
+            13,
+            7
+          ],
+          "building": null,
+          "before": {
+            "Y": {
+              "F": 0,
+              "W": 0
+            },
+            "K": {
+              "F": 0,
+              "W": 9
+            }
+          },
+          "candidate": {
+            "outgoing": {
+              "F": 0,
+              "W": 9
+            },
+            "stayed_at_origin": {
+              "F": 0,
+              "W": 0
+            },
+            "landed_before_combat": {
+              "Y": {
+                "F": 0,
+                "W": 0
+              },
+              "K": {
+                "F": 0,
+                "W": 4
+              }
+            },
+            "after_owner": null
+          },
+          "baseline": {
+            "outgoing": {
+              "F": 0,
+              "W": 9
+            },
+            "stayed_at_origin": {
+              "F": 0,
+              "W": 0
+            },
+            "landed_before_combat": {
+              "Y": {
+                "F": 0,
+                "W": 0
+              },
+              "K": {
+                "F": 0,
+                "W": 6
+              }
+            },
+            "after_owner": null
+          }
+        }
+      ],
+      "first_after": {
+        "candidate": {
+          "scores": {
+            "Y": 16,
+            "K": 21
+          },
+          "units": {
+            "Y": {
+              "F": 8,
+              "W": 57,
+              "S": 0
+            },
+            "K": {
+              "F": 7,
+              "W": 57,
+              "S": 0
+            }
+          },
+          "resources": {
+            "Y": 9,
+            "K": 12
+          }
+        },
+        "baseline": {
+          "scores": {
+            "Y": 16,
+            "K": 21
+          },
+          "units": {
+            "Y": {
+              "F": 8,
+              "W": 57,
+              "S": 0
+            },
+            "K": {
+              "F": 7,
+              "W": 57,
+              "S": 0
+            }
+          },
+          "resources": {
+            "Y": 9,
+            "K": 12
+          }
+        }
+      },
+      "fixed_opponent_one_step_reproduces_both": {
+        "candidate": true,
+        "baseline": true
+      },
+      "hypothetical_adjacent_enemy_F_attack": [],
+      "common_economy_through_turn": 60,
+      "economy": {
+        "candidate": {
+          "Y": {
+            "eng": 39,
+            "hall": 45,
+            "income": 690,
+            "production": {
+              "F": 11,
+              "W": 276,
+              "S": 0
+            },
+            "deaths": {
+              "F": 4,
+              "W": 169,
+              "S": 0
+            }
+          },
+          "K": {
+            "eng": 44,
+            "hall": 49,
+            "income": 698,
+            "production": {
+              "F": 8,
+              "W": 289,
+              "S": 0
+            },
+            "deaths": {
+              "F": 1,
+              "W": 169,
+              "S": 0
+            }
+          }
+        },
+        "baseline": {
+          "Y": {
+            "eng": 48,
+            "hall": 59,
+            "income": 718,
+            "production": {
+              "F": 9,
+              "W": 307,
+              "S": 0
+            },
+            "deaths": {
+              "F": 1,
+              "W": 215,
+              "S": 0
+            }
+          },
+          "K": {
+            "eng": 42,
+            "hall": 52,
+            "income": 704,
+            "production": {
+              "F": 11,
+              "W": 284,
+              "S": 0
+            },
+            "deaths": {
+              "F": 4,
+              "W": 215,
+              "S": 0
+            }
+          }
+        }
+      },
+      "timeline": {
+        "candidate": [
+          {
+            "turn": 20,
+            "score": {
+              "Y": 20,
+              "K": 17
+            },
+            "own_units": {
+              "F": 7,
+              "W": 62,
+              "S": 0
+            }
+          },
+          {
+            "turn": 40,
+            "score": {
+              "Y": 11,
+              "K": 22
+            },
+            "own_units": {
+              "F": 7,
+              "W": 95,
+              "S": 0
+            }
+          },
+          {
+            "turn": 60,
+            "score": {
+              "Y": 13,
+              "K": 22
+            },
+            "own_units": {
+              "F": 7,
+              "W": 120,
+              "S": 0
+            }
+          },
+          {
+            "turn": 80,
+            "score": {
+              "Y": 5,
+              "K": 32
+            },
+            "own_units": {
+              "F": 6,
+              "W": 165,
+              "S": 0
+            }
+          },
+          {
+            "turn": 100,
+            "score": {
+              "Y": 6,
+              "K": 28
+            },
+            "own_units": {
+              "F": 6,
+              "W": 153,
+              "S": 0
+            }
+          },
+          {
+            "turn": 120,
+            "score": {
+              "Y": 2,
+              "K": 34
+            },
+            "own_units": {
+              "F": 6,
+              "W": 116,
+              "S": 0
+            }
+          }
+        ],
+        "baseline": [
+          {
+            "turn": 20,
+            "score": {
+              "Y": 17,
+              "K": 20
+            },
+            "own_units": {
+              "F": 7,
+              "W": 59,
+              "S": 0
+            }
+          },
+          {
+            "turn": 40,
+            "score": {
+              "Y": 13,
+              "K": 18
+            },
+            "own_units": {
+              "F": 7,
+              "W": 66,
+              "S": 0
+            }
+          },
+          {
+            "turn": 60,
+            "score": {
+              "Y": 25,
+              "K": 5
+            },
+            "own_units": {
+              "F": 7,
+              "W": 69,
+              "S": 0
+            }
+          },
+          {
+            "turn": 80,
+            "score": {
+              "Y": 34,
+              "K": 1
+            },
+            "own_units": {
+              "F": 6,
+              "W": 8,
+              "S": 0
+            }
+          },
+          {
+            "turn": 100,
+            "score": {
+              "Y": 34,
+              "K": 3
+            },
+            "own_units": {
+              "F": 6,
+              "W": 31,
+              "S": 0
+            }
+          }
+        ]
+      },
+      "building_ownership": {
+        "candidate": [
+          {
+            "id": 1,
+            "type": "HALL",
+            "position": [
+              3,
+              9
+            ],
+            "runs": [
+              {
+                "start_turn": 0,
+                "end_turn": 2,
+                "owner": "N"
+              },
+              {
+                "start_turn": 3,
+                "end_turn": 34,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 35,
+                "end_turn": 39,
+                "owner": "N"
+              },
+              {
+                "start_turn": 40,
+                "end_turn": 41,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 42,
+                "end_turn": 42,
+                "owner": "N"
+              },
+              {
+                "start_turn": 43,
+                "end_turn": 50,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 51,
+                "end_turn": 52,
+                "owner": "N"
+              },
+              {
+                "start_turn": 53,
+                "end_turn": 53,
+                "owner": "K"
+              },
+              {
+                "start_turn": 54,
+                "end_turn": 54,
+                "owner": "N"
+              },
+              {
+                "start_turn": 55,
+                "end_turn": 55,
+                "owner": "K"
+              },
+              {
+                "start_turn": 56,
+                "end_turn": 56,
+                "owner": "N"
+              },
+              {
+                "start_turn": 57,
+                "end_turn": 57,
+                "owner": "K"
+              },
+              {
+                "start_turn": 58,
+                "end_turn": 58,
+                "owner": "N"
+              },
+              {
+                "start_turn": 59,
+                "end_turn": 71,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 72,
+                "end_turn": 73,
+                "owner": "N"
+              },
+              {
+                "start_turn": 74,
+                "end_turn": 86,
+                "owner": "K"
+              },
+              {
+                "start_turn": 87,
+                "end_turn": 87,
+                "owner": "N"
+              },
+              {
+                "start_turn": 88,
+                "end_turn": 105,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 106,
+                "end_turn": 106,
+                "owner": "N"
+              },
+              {
+                "start_turn": 107,
+                "end_turn": 128,
+                "owner": "K"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "type": "HALL",
+            "position": [
+              11,
+              5
+            ],
+            "runs": [
+              {
+                "start_turn": 0,
+                "end_turn": 2,
+                "owner": "N"
+              },
+              {
+                "start_turn": 3,
+                "end_turn": 31,
+                "owner": "K"
+              },
+              {
+                "start_turn": 32,
+                "end_turn": 35,
+                "owner": "N"
+              },
+              {
+                "start_turn": 36,
+                "end_turn": 36,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 37,
+                "end_turn": 37,
+                "owner": "N"
+              },
+              {
+                "start_turn": 38,
+                "end_turn": 40,
+                "owner": "K"
+              },
+              {
+                "start_turn": 41,
+                "end_turn": 41,
+                "owner": "N"
+              },
+              {
+                "start_turn": 42,
+                "end_turn": 53,
+                "owner": "K"
+              },
+              {
+                "start_turn": 54,
+                "end_turn": 54,
+                "owner": "N"
+              },
+              {
+                "start_turn": 55,
+                "end_turn": 55,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 56,
+                "end_turn": 57,
+                "owner": "N"
+              },
+              {
+                "start_turn": 58,
+                "end_turn": 72,
+                "owner": "K"
+              },
+              {
+                "start_turn": 73,
+                "end_turn": 77,
+                "owner": "N"
+              },
+              {
+                "start_turn": 78,
+                "end_turn": 128,
+                "owner": "K"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "type": "ENG",
+            "position": [
+              1,
+              13
+            ],
+            "runs": [
+              {
+                "start_turn": 0,
+                "end_turn": 4,
+                "owner": "N"
+              },
+              {
+                "start_turn": 5,
+                "end_turn": 31,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 32,
+                "end_turn": 32,
+                "owner": "N"
+              },
+              {
+                "start_turn": 33,
+                "end_turn": 43,
+                "owner": "K"
+              },
+              {
+                "start_turn": 44,
+                "end_turn": 44,
+                "owner": "N"
+              },
+              {
+                "start_turn": 45,
+                "end_turn": 46,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 47,
+                "end_turn": 51,
+                "owner": "N"
+              },
+              {
+                "start_turn": 52,
+                "end_turn": 63,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 64,
+                "end_turn": 64,
+                "owner": "N"
+              },
+              {
+                "start_turn": 65,
+                "end_turn": 73,
+                "owner": "K"
+              },
+              {
+                "start_turn": 74,
+                "end_turn": 74,
+                "owner": "N"
+              },
+              {
+                "start_turn": 75,
+                "end_turn": 81,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 82,
+                "end_turn": 82,
+                "owner": "N"
+              },
+              {
+                "start_turn": 83,
+                "end_turn": 85,
+                "owner": "K"
+              },
+              {
+                "start_turn": 86,
+                "end_turn": 86,
+                "owner": "N"
+              },
+              {
+                "start_turn": 87,
+                "end_turn": 91,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 92,
+                "end_turn": 92,
+                "owner": "N"
+              },
+              {
+                "start_turn": 93,
+                "end_turn": 115,
+                "owner": "K"
+              },
+              {
+                "start_turn": 116,
+                "end_turn": 116,
+                "owner": "N"
+              },
+              {
+                "start_turn": 117,
+                "end_turn": 127,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 128,
+                "end_turn": 128,
+                "owner": "N"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "type": "ENG",
+            "position": [
+              13,
+              1
+            ],
+            "runs": [
+              {
+                "start_turn": 0,
+                "end_turn": 4,
+                "owner": "N"
+              },
+              {
+                "start_turn": 5,
+                "end_turn": 48,
+                "owner": "K"
+              },
+              {
+                "start_turn": 49,
+                "end_turn": 49,
+                "owner": "N"
+              },
+              {
+                "start_turn": 50,
+                "end_turn": 69,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 70,
+                "end_turn": 71,
+                "owner": "N"
+              },
+              {
+                "start_turn": 72,
+                "end_turn": 84,
+                "owner": "K"
+              },
+              {
+                "start_turn": 85,
+                "end_turn": 85,
+                "owner": "N"
+              },
+              {
+                "start_turn": 86,
+                "end_turn": 92,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 93,
+                "end_turn": 96,
+                "owner": "N"
+              },
+              {
+                "start_turn": 97,
+                "end_turn": 128,
+                "owner": "K"
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "type": "HOSPITAL",
+            "position": [
+              4,
+              11
+            ],
+            "runs": [
+              {
+                "start_turn": 0,
+                "end_turn": 5,
+                "owner": "N"
+              },
+              {
+                "start_turn": 6,
+                "end_turn": 43,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 44,
+                "end_turn": 45,
+                "owner": "N"
+              },
+              {
+                "start_turn": 46,
+                "end_turn": 81,
+                "owner": "K"
+              },
+              {
+                "start_turn": 82,
+                "end_turn": 82,
+                "owner": "N"
+              },
+              {
+                "start_turn": 83,
+                "end_turn": 87,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 88,
+                "end_turn": 88,
+                "owner": "N"
+              },
+              {
+                "start_turn": 89,
+                "end_turn": 128,
+                "owner": "K"
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "type": "HOSPITAL",
+            "position": [
+              10,
+              3
+            ],
+            "runs": [
+              {
+                "start_turn": 0,
+                "end_turn": 5,
+                "owner": "N"
+              },
+              {
+                "start_turn": 6,
+                "end_turn": 45,
+                "owner": "K"
+              },
+              {
+                "start_turn": 46,
+                "end_turn": 46,
+                "owner": "N"
+              },
+              {
+                "start_turn": 47,
+                "end_turn": 57,
+                "owner": "K"
+              },
+              {
+                "start_turn": 58,
+                "end_turn": 60,
+                "owner": "N"
+              },
+              {
+                "start_turn": 61,
+                "end_turn": 128,
+                "owner": "K"
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "type": "STATION",
+            "position": [
+              6,
+              4
+            ],
+            "runs": [
+              {
+                "start_turn": 0,
+                "end_turn": 9,
+                "owner": "N"
+              },
+              {
+                "start_turn": 10,
+                "end_turn": 10,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 11,
+                "end_turn": 12,
+                "owner": "N"
+              },
+              {
+                "start_turn": 13,
+                "end_turn": 17,
+                "owner": "K"
+              },
+              {
+                "start_turn": 18,
+                "end_turn": 18,
+                "owner": "N"
+              },
+              {
+                "start_turn": 19,
+                "end_turn": 25,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 26,
+                "end_turn": 27,
+                "owner": "N"
+              },
+              {
+                "start_turn": 28,
+                "end_turn": 38,
+                "owner": "K"
+              },
+              {
+                "start_turn": 39,
+                "end_turn": 40,
+                "owner": "N"
+              },
+              {
+                "start_turn": 41,
+                "end_turn": 51,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 52,
+                "end_turn": 53,
+                "owner": "N"
+              },
+              {
+                "start_turn": 54,
+                "end_turn": 67,
+                "owner": "K"
+              },
+              {
+                "start_turn": 68,
+                "end_turn": 68,
+                "owner": "N"
+              },
+              {
+                "start_turn": 69,
+                "end_turn": 77,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 78,
+                "end_turn": 79,
+                "owner": "N"
+              },
+              {
+                "start_turn": 80,
+                "end_turn": 88,
+                "owner": "K"
+              },
+              {
+                "start_turn": 89,
+                "end_turn": 89,
+                "owner": "N"
+              },
+              {
+                "start_turn": 90,
+                "end_turn": 101,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 102,
+                "end_turn": 102,
+                "owner": "N"
+              },
+              {
+                "start_turn": 103,
+                "end_turn": 106,
+                "owner": "K"
+              },
+              {
+                "start_turn": 107,
+                "end_turn": 108,
+                "owner": "N"
+              },
+              {
+                "start_turn": 109,
+                "end_turn": 128,
+                "owner": "K"
+              }
+            ]
+          }
+        ],
+        "baseline": [
+          {
+            "id": 1,
+            "type": "HALL",
+            "position": [
+              3,
+              9
+            ],
+            "runs": [
+              {
+                "start_turn": 0,
+                "end_turn": 2,
+                "owner": "N"
+              },
+              {
+                "start_turn": 3,
+                "end_turn": 118,
+                "owner": "Y"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "type": "HALL",
+            "position": [
+              11,
+              5
+            ],
+            "runs": [
+              {
+                "start_turn": 0,
+                "end_turn": 2,
+                "owner": "N"
+              },
+              {
+                "start_turn": 3,
+                "end_turn": 35,
+                "owner": "K"
+              },
+              {
+                "start_turn": 36,
+                "end_turn": 36,
+                "owner": "N"
+              },
+              {
+                "start_turn": 37,
+                "end_turn": 38,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 39,
+                "end_turn": 39,
+                "owner": "N"
+              },
+              {
+                "start_turn": 40,
+                "end_turn": 53,
+                "owner": "K"
+              },
+              {
+                "start_turn": 54,
+                "end_turn": 54,
+                "owner": "N"
+              },
+              {
+                "start_turn": 55,
+                "end_turn": 67,
+                "owner": "K"
+              },
+              {
+                "start_turn": 68,
+                "end_turn": 68,
+                "owner": "N"
+              },
+              {
+                "start_turn": 69,
+                "end_turn": 74,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 75,
+                "end_turn": 75,
+                "owner": "N"
+              },
+              {
+                "start_turn": 76,
+                "end_turn": 76,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 77,
+                "end_turn": 77,
+                "owner": "N"
+              },
+              {
+                "start_turn": 78,
+                "end_turn": 94,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 95,
+                "end_turn": 95,
+                "owner": "N"
+              },
+              {
+                "start_turn": 96,
+                "end_turn": 104,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 105,
+                "end_turn": 106,
+                "owner": "N"
+              },
+              {
+                "start_turn": 107,
+                "end_turn": 118,
+                "owner": "Y"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "type": "ENG",
+            "position": [
+              1,
+              13
+            ],
+            "runs": [
+              {
+                "start_turn": 0,
+                "end_turn": 4,
+                "owner": "N"
+              },
+              {
+                "start_turn": 5,
+                "end_turn": 50,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 51,
+                "end_turn": 51,
+                "owner": "N"
+              },
+              {
+                "start_turn": 52,
+                "end_turn": 57,
+                "owner": "K"
+              },
+              {
+                "start_turn": 58,
+                "end_turn": 58,
+                "owner": "N"
+              },
+              {
+                "start_turn": 59,
+                "end_turn": 94,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 95,
+                "end_turn": 95,
+                "owner": "N"
+              },
+              {
+                "start_turn": 96,
+                "end_turn": 106,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 107,
+                "end_turn": 110,
+                "owner": "N"
+              },
+              {
+                "start_turn": 111,
+                "end_turn": 118,
+                "owner": "Y"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "type": "ENG",
+            "position": [
+              13,
+              1
+            ],
+            "runs": [
+              {
+                "start_turn": 0,
+                "end_turn": 4,
+                "owner": "N"
+              },
+              {
+                "start_turn": 5,
+                "end_turn": 40,
+                "owner": "K"
+              },
+              {
+                "start_turn": 41,
+                "end_turn": 41,
+                "owner": "N"
+              },
+              {
+                "start_turn": 42,
+                "end_turn": 51,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 52,
+                "end_turn": 68,
+                "owner": "N"
+              },
+              {
+                "start_turn": 69,
+                "end_turn": 72,
+                "owner": "K"
+              },
+              {
+                "start_turn": 73,
+                "end_turn": 73,
+                "owner": "N"
+              },
+              {
+                "start_turn": 74,
+                "end_turn": 91,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 92,
+                "end_turn": 92,
+                "owner": "N"
+              },
+              {
+                "start_turn": 93,
+                "end_turn": 101,
+                "owner": "K"
+              },
+              {
+                "start_turn": 102,
+                "end_turn": 118,
+                "owner": "Y"
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "type": "HOSPITAL",
+            "position": [
+              4,
+              11
+            ],
+            "runs": [
+              {
+                "start_turn": 0,
+                "end_turn": 5,
+                "owner": "N"
+              },
+              {
+                "start_turn": 6,
+                "end_turn": 32,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 33,
+                "end_turn": 44,
+                "owner": "N"
+              },
+              {
+                "start_turn": 45,
+                "end_turn": 118,
+                "owner": "Y"
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "type": "HOSPITAL",
+            "position": [
+              10,
+              3
+            ],
+            "runs": [
+              {
+                "start_turn": 0,
+                "end_turn": 5,
+                "owner": "N"
+              },
+              {
+                "start_turn": 6,
+                "end_turn": 32,
+                "owner": "K"
+              },
+              {
+                "start_turn": 33,
+                "end_turn": 33,
+                "owner": "N"
+              },
+              {
+                "start_turn": 34,
+                "end_turn": 38,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 39,
+                "end_turn": 40,
+                "owner": "N"
+              },
+              {
+                "start_turn": 41,
+                "end_turn": 56,
+                "owner": "K"
+              },
+              {
+                "start_turn": 57,
+                "end_turn": 57,
+                "owner": "N"
+              },
+              {
+                "start_turn": 58,
+                "end_turn": 110,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 111,
+                "end_turn": 111,
+                "owner": "N"
+              },
+              {
+                "start_turn": 112,
+                "end_turn": 116,
+                "owner": "K"
+              },
+              {
+                "start_turn": 117,
+                "end_turn": 117,
+                "owner": "N"
+              },
+              {
+                "start_turn": 118,
+                "end_turn": 118,
+                "owner": "Y"
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "type": "STATION",
+            "position": [
+              6,
+              4
+            ],
+            "runs": [
+              {
+                "start_turn": 0,
+                "end_turn": 9,
+                "owner": "N"
+              },
+              {
+                "start_turn": 10,
+                "end_turn": 10,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 11,
+                "end_turn": 12,
+                "owner": "N"
+              },
+              {
+                "start_turn": 13,
+                "end_turn": 17,
+                "owner": "K"
+              },
+              {
+                "start_turn": 18,
+                "end_turn": 18,
+                "owner": "N"
+              },
+              {
+                "start_turn": 19,
+                "end_turn": 31,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 32,
+                "end_turn": 32,
+                "owner": "N"
+              },
+              {
+                "start_turn": 33,
+                "end_turn": 36,
+                "owner": "K"
+              },
+              {
+                "start_turn": 37,
+                "end_turn": 37,
+                "owner": "N"
+              },
+              {
+                "start_turn": 38,
+                "end_turn": 48,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 49,
+                "end_turn": 49,
+                "owner": "N"
+              },
+              {
+                "start_turn": 50,
+                "end_turn": 51,
+                "owner": "K"
+              },
+              {
+                "start_turn": 52,
+                "end_turn": 52,
+                "owner": "N"
+              },
+              {
+                "start_turn": 53,
+                "end_turn": 57,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 58,
+                "end_turn": 58,
+                "owner": "N"
+              },
+              {
+                "start_turn": 59,
+                "end_turn": 118,
+                "owner": "Y"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "kind": "regression",
+      "eligible_pairs": 11,
+      "delta_margin": -74,
+      "provenance": {
+        "candidate": {
+          "candidate": "f3_v2_warrior_reserve",
+          "opponent": "s3_selective_contact",
+          "map_seed": 8207,
+          "team": "Y",
+          "job_id": "c6e5d47e619945441e4b7918",
+          "result": {
+            "winner": "K",
+            "reason": "instant",
+            "score": {
+              "Y": 0,
+              "K": 39
+            },
+            "turns": 126,
+            "seed": 8207
+          },
+          "path": "records/league/loop3-iteration2/runs/development/replays/c6e5d47e619945441e4b7918.json.gz",
+          "sha256": "4ed831cc7e912a8a473383b5be60e9c94775f449d85883097045cea5bfd8c15c",
+          "verified_frames": 126
+        },
+        "baseline": {
+          "candidate": "v3",
+          "opponent": "s3_selective_contact",
+          "map_seed": 8207,
+          "team": "Y",
+          "job_id": "46c4561666742abbff07ab7e",
+          "result": {
+            "winner": "Y",
+            "reason": "instant",
+            "score": {
+              "Y": 35,
+              "K": 0
+            },
+            "turns": 109,
+            "seed": 8207
+          },
+          "path": "records/league/loop3-iteration2/runs/development/replays/46c4561666742abbff07ab7e.json.gz",
+          "sha256": "b563e1cdb6ce5ccb191e79210c275b8803f7e89d71c05e96fabca7db245bb4e1",
+          "verified_frames": 109
+        }
+      },
+      "first_text_difference_turn": 14,
+      "first_physical_difference_turn": 14,
+      "legal_observation": "TURN 14\nRESOURCE 12 10\nUNITS 32\nY F 4 5 1\nY F 6 5 1\nY F 6 6 1\nY F 5 7 1\nY F 5 9 1\nY F 8 10 1\nY W 4 5 2\nY W 6 6 2\nY W 4 7 5\nY W 5 7 17\nY W 6 7 6\nY W 5 8 2\nY W 6 8 2\nY W 3 9 6\nY W 4 9 5\nY W 5 9 5\nY W 4 11 1\nK F 9 1 1\nK F 6 5 1\nK F 11 5 2\nK F 9 6 1\nK F 7 7 1\nK F 8 9 1\nK W 8 5 3\nK W 10 5 6\nK W 11 5 12\nK W 7 7 3\nK W 8 7 9\nK W 9 7 6\nK W 10 7 5\nK W 9 8 4\nK W 10 11 1\nBUILDINGS 17\n0 7 7 PLAZA K 2 -1\n1 2 11 HALL Y 2 2\n2 12 3 HALL K 2 -1\n3 1 12 LIBRARY Y 2 2\n4 13 2 LIBRARY K 2 -1\n5 3 10 ENG Y 2 2\n6 11 4 ENG K 2 -1\n7 4 8 HOSPITAL Y 2 2\n8 10 6 HOSPITAL K 2 -1\n9 4 14 STATION Y 2 1\n10 10 0 STATION K 2 -1\n11 8 8 STATION K 2 3\n12 6 6 STATION Y 2 3\n13 9 3 WATCH K 2 -1\n14 5 11 WATCH Y 2 4\n15 7 11 DEPOT Y 2 3\n16 7 3 DEPOT K 2 -1\nEND\n",
+      "legal_observation_sha256": "d68aa13ba5ed5073d2772b7ee852620db4836fd1e4cef1bafe05c34c32d9b635",
+      "prior_state_equal": true,
+      "opponent_commands_equal": true,
+      "commands": {
+        "candidate": {
+          "Y": [
+            "SPAWN F 1 4 8",
+            "SPAWN W 3 4 8",
+            "MOVE 3 9 W 1 D",
+            "MOVE 3 9 W 5 R",
+            "MOVE 4 7 W 5 U",
+            "MOVE 4 9 W 3 U",
+            "MOVE 4 9 W 1 R",
+            "MOVE 4 9 W 1 U",
+            "MOVE 5 9 W 5 R",
+            "MOVE 4 8 W 3 R",
+            "MOVE 4 5 W 1 R",
+            "MOVE 4 5 W 1 R",
+            "MOVE 6 6 W 1 U",
+            "MOVE 5 8 W 2 U",
+            "MOVE 6 8 W 2 U",
+            "MOVE 4 11 W 1 R",
+            "MOVE 6 5 F 1 U",
+            "MOVE 6 6 F 1 U",
+            "MOVE 4 5 F 1 U",
+            "MOVE 4 8 F 1 U",
+            "MOVE 5 9 F 1 U",
+            "MOVE 5 7 W 4 R",
+            "MOVE 5 7 W 1 D",
+            "MOVE 5 7 W 1 R",
+            "MOVE 5 7 W 11 R",
+            "MOVE 5 7 F 1 R",
+            "PRIORITY 12 3 2 11 3 10 10 6 4 8 7 3 9 3 8 8 7 7 5 11 6 6 13 2 11 4 7 11 10 0 1 12 4 14"
+          ],
+          "K": [
+            "SPAWN W 5 10 6",
+            "MOVE 11 5 W 1 L",
+            "MOVE 11 5 W 9 L",
+            "MOVE 11 5 W 2 L",
+            "MOVE 8 7 W 1 D",
+            "MOVE 8 7 W 8 L",
+            "MOVE 10 5 W 6 D",
+            "MOVE 9 7 W 6 L",
+            "MOVE 10 6 W 2 D",
+            "MOVE 10 6 W 3 D",
+            "MOVE 10 7 W 5 L",
+            "MOVE 9 8 W 4 U",
+            "MOVE 8 5 W 2 D",
+            "MOVE 8 5 W 1 U",
+            "MOVE 10 11 W 1 U",
+            "MOVE 9 6 F 1 D",
+            "MOVE 11 5 F 1 L",
+            "MOVE 11 5 F 1 L",
+            "MOVE 9 1 F 1 D",
+            "MOVE 7 7 W 3 L",
+            "MOVE 6 5 F 1 R",
+            "MOVE 8 9 F 1 D",
+            "PRIORITY 2 11 12 3 11 4 4 8 10 6 7 11 5 11 6 6 9 3 8 8 3 10 1 12 7 7 7 3 4 14 13 2 10 0"
+          ]
+        },
+        "baseline": {
+          "Y": [
+            "SPAWN F 1 4 8",
+            "SPAWN W 3 4 8",
+            "MOVE 3 9 W 1 D",
+            "MOVE 3 9 W 5 R",
+            "MOVE 4 7 W 5 U",
+            "MOVE 4 9 W 3 U",
+            "MOVE 4 9 W 1 R",
+            "MOVE 4 9 W 1 U",
+            "MOVE 5 9 W 5 R",
+            "MOVE 4 8 W 3 R",
+            "MOVE 4 5 W 1 R",
+            "MOVE 4 5 W 1 R",
+            "MOVE 6 6 W 2 U",
+            "MOVE 5 8 W 2 U",
+            "MOVE 6 8 W 2 U",
+            "MOVE 4 11 W 1 R",
+            "MOVE 6 5 F 1 U",
+            "MOVE 6 6 F 1 U",
+            "MOVE 4 5 F 1 U",
+            "MOVE 4 8 F 1 U",
+            "MOVE 5 9 F 1 U",
+            "MOVE 5 7 W 4 R",
+            "MOVE 5 7 W 1 D",
+            "MOVE 5 7 W 1 R",
+            "MOVE 5 7 W 11 R",
+            "MOVE 5 7 F 1 R",
+            "PRIORITY 12 3 2 11 3 10 10 6 4 8 7 3 9 3 8 8 7 7 5 11 6 6 13 2 11 4 7 11 10 0 1 12 4 14"
+          ],
+          "K": [
+            "SPAWN W 5 10 6",
+            "MOVE 11 5 W 1 L",
+            "MOVE 11 5 W 9 L",
+            "MOVE 11 5 W 2 L",
+            "MOVE 8 7 W 1 D",
+            "MOVE 8 7 W 8 L",
+            "MOVE 10 5 W 6 D",
+            "MOVE 9 7 W 6 L",
+            "MOVE 10 6 W 2 D",
+            "MOVE 10 6 W 3 D",
+            "MOVE 10 7 W 5 L",
+            "MOVE 9 8 W 4 U",
+            "MOVE 8 5 W 2 D",
+            "MOVE 8 5 W 1 U",
+            "MOVE 10 11 W 1 U",
+            "MOVE 9 6 F 1 D",
+            "MOVE 11 5 F 1 L",
+            "MOVE 11 5 F 1 L",
+            "MOVE 9 1 F 1 D",
+            "MOVE 7 7 W 3 L",
+            "MOVE 6 5 F 1 R",
+            "MOVE 8 9 F 1 D",
+            "PRIORITY 2 11 12 3 11 4 4 8 10 6 7 11 5 11 6 6 9 3 8 8 3 10 1 12 7 7 7 3 4 14 13 2 10 0"
+          ]
+        }
+      },
+      "changed_origins": [
+        {
+          "position": [
+            6,
+            6
+          ],
+          "building": {
+            "id": 12,
+            "type": "STATION",
+            "owner": "Y",
+            "visible_score": 3
+          },
+          "before": {
+            "Y": {
+              "F": 1,
+              "W": 2
+            },
+            "K": {
+              "F": 0,
+              "W": 0
+            }
+          },
+          "candidate": {
+            "outgoing": {
+              "F": 1,
+              "W": 1
+            },
+            "stayed_at_origin": {
+              "F": 0,
+              "W": 1
+            },
+            "landed_before_combat": {
+              "Y": {
+                "F": 0,
+                "W": 1
+              },
+              "K": {
+                "F": 0,
+                "W": 0
+              }
+            },
+            "after_owner": "Y"
+          },
+          "baseline": {
+            "outgoing": {
+              "F": 1,
+              "W": 2
+            },
+            "stayed_at_origin": {
+              "F": 0,
+              "W": 0
+            },
+            "landed_before_combat": {
+              "Y": {
+                "F": 0,
+                "W": 0
+              },
+              "K": {
+                "F": 0,
+                "W": 0
+              }
+            },
+            "after_owner": "Y"
+          }
+        }
+      ],
+      "first_after": {
+        "candidate": {
+          "scores": {
+            "Y": 19,
+            "K": 22
+          },
+          "units": {
+            "Y": {
+              "F": 7,
+              "W": 53,
+              "S": 0
+            },
+            "K": {
+              "F": 7,
+              "W": 51,
+              "S": 0
+            }
+          },
+          "resources": {
+            "Y": 13,
+            "K": 12
+          }
+        },
+        "baseline": {
+          "scores": {
+            "Y": 19,
+            "K": 22
+          },
+          "units": {
+            "Y": {
+              "F": 7,
+              "W": 53,
+              "S": 0
+            },
+            "K": {
+              "F": 7,
+              "W": 51,
+              "S": 0
+            }
+          },
+          "resources": {
+            "Y": 13,
+            "K": 12
+          }
+        }
+      },
+      "fixed_opponent_one_step_reproduces_both": {
+        "candidate": true,
+        "baseline": true
+      },
+      "hypothetical_adjacent_enemy_F_attack": [
+        {
+          "target": [
+            6,
+            6
+          ],
+          "enemy_original_command": "MOVE 6 5 F 1 R",
+          "enemy_alternative_command": "MOVE 6 5 F 1 D",
+          "results": {
+            "candidate": {
+              "score": {
+                "Y": 19,
+                "K": 22
+              },
+              "target_owner": "Y",
+              "target_enemy_F": 0,
+              "own_units": {
+                "F": 7,
+                "W": 53,
+                "S": 0
+              }
+            },
+            "baseline": {
+              "score": {
+                "Y": 16,
+                "K": 22
+              },
+              "target_owner": "N",
+              "target_enemy_F": 1,
+              "own_units": {
+                "F": 7,
+                "W": 53,
+                "S": 0
+              }
+            }
+          }
+        }
+      ],
+      "common_economy_through_turn": 60,
+      "economy": {
+        "candidate": {
+          "Y": {
+            "eng": 53,
+            "hall": 48,
+            "income": 696,
+            "production": {
+              "F": 11,
+              "W": 300,
+              "S": 0
+            },
+            "deaths": {
+              "F": 4,
+              "W": 194,
+              "S": 0
+            }
+          },
+          "K": {
+            "eng": 51,
+            "hall": 54,
+            "income": 708,
+            "production": {
+              "F": 13,
+              "W": 302,
+              "S": 0
+            },
+            "deaths": {
+              "F": 6,
+              "W": 194,
+              "S": 0
+            }
+          }
+        },
+        "baseline": {
+          "Y": {
+            "eng": 52,
+            "hall": 54,
+            "income": 708,
+            "production": {
+              "F": 12,
+              "W": 297,
+              "S": 0
+            },
+            "deaths": {
+              "F": 5,
+              "W": 200,
+              "S": 0
+            }
+          },
+          "K": {
+            "eng": 51,
+            "hall": 45,
+            "income": 690,
+            "production": {
+              "F": 14,
+              "W": 273,
+              "S": 0
+            },
+            "deaths": {
+              "F": 7,
+              "W": 200,
+              "S": 0
+            }
+          }
+        }
+      },
+      "timeline": {
+        "candidate": [
+          {
+            "turn": 20,
+            "score": {
+              "Y": 25,
+              "K": 16
+            },
+            "own_units": {
+              "F": 7,
+              "W": 55,
+              "S": 0
+            }
+          },
+          {
+            "turn": 40,
+            "score": {
+              "Y": 16,
+              "K": 22
+            },
+            "own_units": {
+              "F": 7,
+              "W": 80,
+              "S": 0
+            }
+          },
+          {
+            "turn": 60,
+            "score": {
+              "Y": 15,
+              "K": 16
+            },
+            "own_units": {
+              "F": 7,
+              "W": 106,
+              "S": 0
+            }
+          },
+          {
+            "turn": 80,
+            "score": {
+              "Y": 14,
+              "K": 27
+            },
+            "own_units": {
+              "F": 6,
+              "W": 107,
+              "S": 0
+            }
+          },
+          {
+            "turn": 100,
+            "score": {
+              "Y": 11,
+              "K": 26
+            },
+            "own_units": {
+              "F": 7,
+              "W": 116,
+              "S": 0
+            }
+          },
+          {
+            "turn": 120,
+            "score": {
+              "Y": 9,
+              "K": 25
+            },
+            "own_units": {
+              "F": 6,
+              "W": 11,
+              "S": 0
+            }
+          }
+        ],
+        "baseline": [
+          {
+            "turn": 20,
+            "score": {
+              "Y": 19,
+              "K": 16
+            },
+            "own_units": {
+              "F": 7,
+              "W": 42,
+              "S": 0
+            }
+          },
+          {
+            "turn": 40,
+            "score": {
+              "Y": 18,
+              "K": 19
+            },
+            "own_units": {
+              "F": 7,
+              "W": 88,
+              "S": 0
+            }
+          },
+          {
+            "turn": 60,
+            "score": {
+              "Y": 17,
+              "K": 22
+            },
+            "own_units": {
+              "F": 7,
+              "W": 97,
+              "S": 0
+            }
+          },
+          {
+            "turn": 80,
+            "score": {
+              "Y": 17,
+              "K": 21
+            },
+            "own_units": {
+              "F": 7,
+              "W": 86,
+              "S": 0
+            }
+          },
+          {
+            "turn": 100,
+            "score": {
+              "Y": 30,
+              "K": 4
+            },
+            "own_units": {
+              "F": 6,
+              "W": 113,
+              "S": 0
+            }
+          }
+        ]
+      },
+      "building_ownership": {
+        "candidate": [
+          {
+            "id": 1,
+            "type": "HALL",
+            "position": [
+              2,
+              11
+            ],
+            "runs": [
+              {
+                "start_turn": 0,
+                "end_turn": 3,
+                "owner": "N"
+              },
+              {
+                "start_turn": 4,
+                "end_turn": 20,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 21,
+                "end_turn": 22,
+                "owner": "N"
+              },
+              {
+                "start_turn": 23,
+                "end_turn": 33,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 34,
+                "end_turn": 34,
+                "owner": "N"
+              },
+              {
+                "start_turn": 35,
+                "end_turn": 38,
+                "owner": "K"
+              },
+              {
+                "start_turn": 39,
+                "end_turn": 39,
+                "owner": "N"
+              },
+              {
+                "start_turn": 40,
+                "end_turn": 64,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 65,
+                "end_turn": 65,
+                "owner": "N"
+              },
+              {
+                "start_turn": 66,
+                "end_turn": 69,
+                "owner": "K"
+              },
+              {
+                "start_turn": 70,
+                "end_turn": 70,
+                "owner": "N"
+              },
+              {
+                "start_turn": 71,
+                "end_turn": 74,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 75,
+                "end_turn": 75,
+                "owner": "N"
+              },
+              {
+                "start_turn": 76,
+                "end_turn": 84,
+                "owner": "K"
+              },
+              {
+                "start_turn": 85,
+                "end_turn": 87,
+                "owner": "N"
+              },
+              {
+                "start_turn": 88,
+                "end_turn": 103,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 104,
+                "end_turn": 105,
+                "owner": "N"
+              },
+              {
+                "start_turn": 106,
+                "end_turn": 113,
+                "owner": "K"
+              },
+              {
+                "start_turn": 114,
+                "end_turn": 114,
+                "owner": "N"
+              },
+              {
+                "start_turn": 115,
+                "end_turn": 116,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 117,
+                "end_turn": 117,
+                "owner": "N"
+              },
+              {
+                "start_turn": 118,
+                "end_turn": 118,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 119,
+                "end_turn": 119,
+                "owner": "N"
+              },
+              {
+                "start_turn": 120,
+                "end_turn": 126,
+                "owner": "K"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "type": "HALL",
+            "position": [
+              12,
+              3
+            ],
+            "runs": [
+              {
+                "start_turn": 0,
+                "end_turn": 4,
+                "owner": "N"
+              },
+              {
+                "start_turn": 5,
+                "end_turn": 20,
+                "owner": "K"
+              },
+              {
+                "start_turn": 21,
+                "end_turn": 25,
+                "owner": "N"
+              },
+              {
+                "start_turn": 26,
+                "end_turn": 113,
+                "owner": "K"
+              },
+              {
+                "start_turn": 114,
+                "end_turn": 119,
+                "owner": "N"
+              },
+              {
+                "start_turn": 120,
+                "end_turn": 126,
+                "owner": "K"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "type": "ENG",
+            "position": [
+              3,
+              10
+            ],
+            "runs": [
+              {
+                "start_turn": 0,
+                "end_turn": 4,
+                "owner": "N"
+              },
+              {
+                "start_turn": 5,
+                "end_turn": 22,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 23,
+                "end_turn": 24,
+                "owner": "N"
+              },
+              {
+                "start_turn": 25,
+                "end_turn": 62,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 63,
+                "end_turn": 63,
+                "owner": "N"
+              },
+              {
+                "start_turn": 64,
+                "end_turn": 71,
+                "owner": "K"
+              },
+              {
+                "start_turn": 72,
+                "end_turn": 73,
+                "owner": "N"
+              },
+              {
+                "start_turn": 74,
+                "end_turn": 100,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 101,
+                "end_turn": 101,
+                "owner": "N"
+              },
+              {
+                "start_turn": 102,
+                "end_turn": 102,
+                "owner": "K"
+              },
+              {
+                "start_turn": 103,
+                "end_turn": 103,
+                "owner": "N"
+              },
+              {
+                "start_turn": 104,
+                "end_turn": 105,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 106,
+                "end_turn": 106,
+                "owner": "N"
+              },
+              {
+                "start_turn": 107,
+                "end_turn": 126,
+                "owner": "K"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "type": "ENG",
+            "position": [
+              11,
+              4
+            ],
+            "runs": [
+              {
+                "start_turn": 0,
+                "end_turn": 4,
+                "owner": "N"
+              },
+              {
+                "start_turn": 5,
+                "end_turn": 37,
+                "owner": "K"
+              },
+              {
+                "start_turn": 38,
+                "end_turn": 38,
+                "owner": "N"
+              },
+              {
+                "start_turn": 39,
+                "end_turn": 40,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 41,
+                "end_turn": 41,
+                "owner": "N"
+              },
+              {
+                "start_turn": 42,
+                "end_turn": 126,
+                "owner": "K"
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "type": "HOSPITAL",
+            "position": [
+              4,
+              8
+            ],
+            "runs": [
+              {
+                "start_turn": 0,
+                "end_turn": 7,
+                "owner": "N"
+              },
+              {
+                "start_turn": 8,
+                "end_turn": 101,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 102,
+                "end_turn": 102,
+                "owner": "N"
+              },
+              {
+                "start_turn": 103,
+                "end_turn": 126,
+                "owner": "K"
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "type": "HOSPITAL",
+            "position": [
+              10,
+              6
+            ],
+            "runs": [
+              {
+                "start_turn": 0,
+                "end_turn": 7,
+                "owner": "N"
+              },
+              {
+                "start_turn": 8,
+                "end_turn": 126,
+                "owner": "K"
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "type": "STATION",
+            "position": [
+              6,
+              6
+            ],
+            "runs": [
+              {
+                "start_turn": 0,
+                "end_turn": 11,
+                "owner": "N"
+              },
+              {
+                "start_turn": 12,
+                "end_turn": 38,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 39,
+                "end_turn": 39,
+                "owner": "N"
+              },
+              {
+                "start_turn": 40,
+                "end_turn": 53,
+                "owner": "K"
+              },
+              {
+                "start_turn": 54,
+                "end_turn": 56,
+                "owner": "N"
+              },
+              {
+                "start_turn": 57,
+                "end_turn": 59,
+                "owner": "K"
+              },
+              {
+                "start_turn": 60,
+                "end_turn": 63,
+                "owner": "N"
+              },
+              {
+                "start_turn": 64,
+                "end_turn": 75,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 76,
+                "end_turn": 76,
+                "owner": "N"
+              },
+              {
+                "start_turn": 77,
+                "end_turn": 90,
+                "owner": "K"
+              },
+              {
+                "start_turn": 91,
+                "end_turn": 92,
+                "owner": "N"
+              },
+              {
+                "start_turn": 93,
+                "end_turn": 118,
+                "owner": "K"
+              },
+              {
+                "start_turn": 119,
+                "end_turn": 119,
+                "owner": "N"
+              },
+              {
+                "start_turn": 120,
+                "end_turn": 126,
+                "owner": "K"
+              }
+            ]
+          }
+        ],
+        "baseline": [
+          {
+            "id": 1,
+            "type": "HALL",
+            "position": [
+              2,
+              11
+            ],
+            "runs": [
+              {
+                "start_turn": 0,
+                "end_turn": 3,
+                "owner": "N"
+              },
+              {
+                "start_turn": 4,
+                "end_turn": 34,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 35,
+                "end_turn": 41,
+                "owner": "N"
+              },
+              {
+                "start_turn": 42,
+                "end_turn": 72,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 73,
+                "end_turn": 74,
+                "owner": "N"
+              },
+              {
+                "start_turn": 75,
+                "end_turn": 109,
+                "owner": "Y"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "type": "HALL",
+            "position": [
+              12,
+              3
+            ],
+            "runs": [
+              {
+                "start_turn": 0,
+                "end_turn": 4,
+                "owner": "N"
+              },
+              {
+                "start_turn": 5,
+                "end_turn": 28,
+                "owner": "K"
+              },
+              {
+                "start_turn": 29,
+                "end_turn": 29,
+                "owner": "N"
+              },
+              {
+                "start_turn": 30,
+                "end_turn": 34,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 35,
+                "end_turn": 35,
+                "owner": "N"
+              },
+              {
+                "start_turn": 36,
+                "end_turn": 48,
+                "owner": "K"
+              },
+              {
+                "start_turn": 49,
+                "end_turn": 51,
+                "owner": "N"
+              },
+              {
+                "start_turn": 52,
+                "end_turn": 60,
+                "owner": "K"
+              },
+              {
+                "start_turn": 61,
+                "end_turn": 67,
+                "owner": "N"
+              },
+              {
+                "start_turn": 68,
+                "end_turn": 76,
+                "owner": "K"
+              },
+              {
+                "start_turn": 77,
+                "end_turn": 78,
+                "owner": "N"
+              },
+              {
+                "start_turn": 79,
+                "end_turn": 81,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 82,
+                "end_turn": 82,
+                "owner": "N"
+              },
+              {
+                "start_turn": 83,
+                "end_turn": 90,
+                "owner": "K"
+              },
+              {
+                "start_turn": 91,
+                "end_turn": 92,
+                "owner": "N"
+              },
+              {
+                "start_turn": 93,
+                "end_turn": 105,
+                "owner": "K"
+              },
+              {
+                "start_turn": 106,
+                "end_turn": 106,
+                "owner": "N"
+              },
+              {
+                "start_turn": 107,
+                "end_turn": 108,
+                "owner": "K"
+              },
+              {
+                "start_turn": 109,
+                "end_turn": 109,
+                "owner": "N"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "type": "ENG",
+            "position": [
+              3,
+              10
+            ],
+            "runs": [
+              {
+                "start_turn": 0,
+                "end_turn": 4,
+                "owner": "N"
+              },
+              {
+                "start_turn": 5,
+                "end_turn": 36,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 37,
+                "end_turn": 37,
+                "owner": "N"
+              },
+              {
+                "start_turn": 38,
+                "end_turn": 38,
+                "owner": "K"
+              },
+              {
+                "start_turn": 39,
+                "end_turn": 39,
+                "owner": "N"
+              },
+              {
+                "start_turn": 40,
+                "end_turn": 60,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 61,
+                "end_turn": 63,
+                "owner": "N"
+              },
+              {
+                "start_turn": 64,
+                "end_turn": 67,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 68,
+                "end_turn": 68,
+                "owner": "N"
+              },
+              {
+                "start_turn": 69,
+                "end_turn": 70,
+                "owner": "K"
+              },
+              {
+                "start_turn": 71,
+                "end_turn": 71,
+                "owner": "N"
+              },
+              {
+                "start_turn": 72,
+                "end_turn": 99,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 100,
+                "end_turn": 100,
+                "owner": "N"
+              },
+              {
+                "start_turn": 101,
+                "end_turn": 109,
+                "owner": "Y"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "type": "ENG",
+            "position": [
+              11,
+              4
+            ],
+            "runs": [
+              {
+                "start_turn": 0,
+                "end_turn": 4,
+                "owner": "N"
+              },
+              {
+                "start_turn": 5,
+                "end_turn": 31,
+                "owner": "K"
+              },
+              {
+                "start_turn": 32,
+                "end_turn": 32,
+                "owner": "N"
+              },
+              {
+                "start_turn": 33,
+                "end_turn": 38,
+                "owner": "K"
+              },
+              {
+                "start_turn": 39,
+                "end_turn": 41,
+                "owner": "N"
+              },
+              {
+                "start_turn": 42,
+                "end_turn": 80,
+                "owner": "K"
+              },
+              {
+                "start_turn": 81,
+                "end_turn": 81,
+                "owner": "N"
+              },
+              {
+                "start_turn": 82,
+                "end_turn": 86,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 87,
+                "end_turn": 87,
+                "owner": "N"
+              },
+              {
+                "start_turn": 88,
+                "end_turn": 97,
+                "owner": "K"
+              },
+              {
+                "start_turn": 98,
+                "end_turn": 98,
+                "owner": "N"
+              },
+              {
+                "start_turn": 99,
+                "end_turn": 99,
+                "owner": "K"
+              },
+              {
+                "start_turn": 100,
+                "end_turn": 100,
+                "owner": "N"
+              },
+              {
+                "start_turn": 101,
+                "end_turn": 101,
+                "owner": "K"
+              },
+              {
+                "start_turn": 102,
+                "end_turn": 102,
+                "owner": "N"
+              },
+              {
+                "start_turn": 103,
+                "end_turn": 106,
+                "owner": "K"
+              },
+              {
+                "start_turn": 107,
+                "end_turn": 109,
+                "owner": "N"
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "type": "HOSPITAL",
+            "position": [
+              4,
+              8
+            ],
+            "runs": [
+              {
+                "start_turn": 0,
+                "end_turn": 7,
+                "owner": "N"
+              },
+              {
+                "start_turn": 8,
+                "end_turn": 40,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 41,
+                "end_turn": 47,
+                "owner": "N"
+              },
+              {
+                "start_turn": 48,
+                "end_turn": 54,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 55,
+                "end_turn": 61,
+                "owner": "N"
+              },
+              {
+                "start_turn": 62,
+                "end_turn": 109,
+                "owner": "Y"
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "type": "HOSPITAL",
+            "position": [
+              10,
+              6
+            ],
+            "runs": [
+              {
+                "start_turn": 0,
+                "end_turn": 7,
+                "owner": "N"
+              },
+              {
+                "start_turn": 8,
+                "end_turn": 35,
+                "owner": "K"
+              },
+              {
+                "start_turn": 36,
+                "end_turn": 38,
+                "owner": "N"
+              },
+              {
+                "start_turn": 39,
+                "end_turn": 80,
+                "owner": "K"
+              },
+              {
+                "start_turn": 81,
+                "end_turn": 81,
+                "owner": "N"
+              },
+              {
+                "start_turn": 82,
+                "end_turn": 109,
+                "owner": "Y"
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "type": "STATION",
+            "position": [
+              6,
+              6
+            ],
+            "runs": [
+              {
+                "start_turn": 0,
+                "end_turn": 11,
+                "owner": "N"
+              },
+              {
+                "start_turn": 12,
+                "end_turn": 20,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 21,
+                "end_turn": 22,
+                "owner": "N"
+              },
+              {
+                "start_turn": 23,
+                "end_turn": 46,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 47,
+                "end_turn": 49,
+                "owner": "N"
+              },
+              {
+                "start_turn": 50,
+                "end_turn": 53,
+                "owner": "K"
+              },
+              {
+                "start_turn": 54,
+                "end_turn": 55,
+                "owner": "N"
+              },
+              {
+                "start_turn": 56,
+                "end_turn": 58,
+                "owner": "Y"
+              },
+              {
+                "start_turn": 59,
+                "end_turn": 59,
+                "owner": "N"
+              },
+              {
+                "start_turn": 60,
+                "end_turn": 109,
+                "owner": "Y"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
