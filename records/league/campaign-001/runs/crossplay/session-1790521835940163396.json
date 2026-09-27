@@ -1,0 +1,21 @@
+{
+  "status": "complete",
+  "started_utc": "2026-09-27T15:10:35.940113+00:00",
+  "workers": 16,
+  "resumed_jobs": 0,
+  "scheduled_jobs": 112,
+  "command": [
+    "/usr/bin/python3",
+    "experiments/league_campaign.py",
+    "--arena",
+    "output",
+    "--workers",
+    "16"
+  ],
+  "plan_sha256": "be50f5f18ec84832877dc0e27e53021fcec0958abe0f71a98a2747863a95dfce",
+  "python": "3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]",
+  "python_executable": "/usr/bin/python3",
+  "finished_utc": "2026-09-27T15:10:57.573170+00:00",
+  "wall_seconds": 21.632914234884083,
+  "finished_new_jobs": 112
+}

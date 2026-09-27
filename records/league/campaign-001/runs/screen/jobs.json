@@ -1,0 +1,7226 @@
+[
+  {
+    "candidate": "p_15",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "9c280f3e3c8ff3e28b768b60"
+  },
+  {
+    "candidate": "s_local_hold_d3",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "400ab19e1eae5d6bad0ce3df"
+  },
+  {
+    "candidate": "s_mean_min_d4",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "7f261a178ae96aa8a339abe8"
+  },
+  {
+    "candidate": "s_maximin_d1",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "ea68a942b1c60a431476b721"
+  },
+  {
+    "candidate": "r_combined",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "01687cf55a4cafb157a7613d"
+  },
+  {
+    "candidate": "c_economy_portfolio",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "a372429938773acbfb61b535"
+  },
+  {
+    "candidate": "r_guard_one",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "84c3176052ff8c34dd6fb181"
+  },
+  {
+    "candidate": "p_05",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "03136096cab80ca6454eabc5"
+  },
+  {
+    "candidate": "p_08",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "10c2431368c1cd550cfa0ecc"
+  },
+  {
+    "candidate": "p_01",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "9f0a698b1a605f5e8a4185fd"
+  },
+  {
+    "candidate": "r_eng_terminal",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "1c560aee1791f2b496094774"
+  },
+  {
+    "candidate": "p_01",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "ae00ca349aebd16025202f40"
+  },
+  {
+    "candidate": "s_regret_d6",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "1cd253c814e563cae8652777"
+  },
+  {
+    "candidate": "s_regret_d6",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "9e908fb890f13827b253ddbc"
+  },
+  {
+    "candidate": "c_spearhead_portfolio",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "8d3eb7e0fee940cc1843fff3"
+  },
+  {
+    "candidate": "c_economy_direct",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "a2a4d259e2dfb929d6f72120"
+  },
+  {
+    "candidate": "p_02",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "a798298eb0ac7ca85d6f1cb2"
+  },
+  {
+    "candidate": "s_maximin_d1",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "9f19f773bee3f0a469597d80"
+  },
+  {
+    "candidate": "s_tail2_d4",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "1d9c68af58982593913b178c"
+  },
+  {
+    "candidate": "p_05",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "79a91138e38a86e17c625b6d"
+  },
+  {
+    "candidate": "p_06",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "cf09f6cf1d0be7fd2929f199"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "747fdecde7c0d02b1cae66c6"
+  },
+  {
+    "candidate": "p_02",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "4bd55ed56b4af23204b65a82"
+  },
+  {
+    "candidate": "p_13",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "69a989e0b6c226dac3e28216"
+  },
+  {
+    "candidate": "p_01",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "f379e6193fd5cc885667909b"
+  },
+  {
+    "candidate": "p_06",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "eef8dcd49dbb23d7f650857c"
+  },
+  {
+    "candidate": "r_combined",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "9bd6ffc495cf267d495548fe"
+  },
+  {
+    "candidate": "r_economic_value",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "8bcc98916d67e755f19154da"
+  },
+  {
+    "candidate": "p_09",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "4c594bfd6e63c377426e4930"
+  },
+  {
+    "candidate": "s_local_hold_d3",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "f3d48554ef68dde1268e0705"
+  },
+  {
+    "candidate": "r_joint_escort",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "0350a185037f672345a486d0"
+  },
+  {
+    "candidate": "c_spearhead_portfolio",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "4cd2586fff860ce9c49ca7a0"
+  },
+  {
+    "candidate": "r_eng_terminal",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "62ee4e2466372b68320dcb4d"
+  },
+  {
+    "candidate": "s_tail2_d4",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "d5459862ef93cb4697d901a6"
+  },
+  {
+    "candidate": "p_15",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "88d6ffa41f11572c0ab47d63"
+  },
+  {
+    "candidate": "r_guard_one",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "58819b361c8b1bcaa558aead"
+  },
+  {
+    "candidate": "p_00",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "44c5ba8fa772c9e2b064312c"
+  },
+  {
+    "candidate": "s_maximin_d4",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "a063e3bb2f92497cc21a49a9"
+  },
+  {
+    "candidate": "r_joint_escort",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "a7895639b443ebcbee30c3c0"
+  },
+  {
+    "candidate": "c_territory_direct",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "6e6cf95735f80812b12bd75c"
+  },
+  {
+    "candidate": "p_08",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "3ae2f5817165076bf8770e2e"
+  },
+  {
+    "candidate": "r_terminal_margin",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "8d208f92a260ffbe8645a822"
+  },
+  {
+    "candidate": "c_territory_portfolio",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "9721b778ba0d6eb43fae0eb4"
+  },
+  {
+    "candidate": "s_assignment_only",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "9644e58218d2cb3a88cd8820"
+  },
+  {
+    "candidate": "c_territory_direct",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "42726b25d5604524f9e8f819"
+  },
+  {
+    "candidate": "c_spearhead_direct",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "a5705be14d52df843ea51ea6"
+  },
+  {
+    "candidate": "p_11",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "69bd20320a88bba918354c79"
+  },
+  {
+    "candidate": "s_mean_min_d4",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "96735148d0370481295bb96a"
+  },
+  {
+    "candidate": "p_13",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "e65d9da782ebb495cf70494f"
+  },
+  {
+    "candidate": "p_06",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "42e31beca5ec11956cea1571"
+  },
+  {
+    "candidate": "s_regret_d6",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "b415bde64336a9d62088f904"
+  },
+  {
+    "candidate": "s_assignment_only",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "e66284a2e3407ac6615b6b4d"
+  },
+  {
+    "candidate": "c_economy_direct",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "1b07e2623df4f8f3b9df4c34"
+  },
+  {
+    "candidate": "s_mean_min_d4",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "449cd0417a27262da7c2b1c1"
+  },
+  {
+    "candidate": "p_07",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "10c063d8082a1efe4019cb9d"
+  },
+  {
+    "candidate": "c_territory_portfolio",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "65aebe89f07ff39f8dfd1509"
+  },
+  {
+    "candidate": "s_switch_guard_d4",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "66936b13dc67a03cbc02de20"
+  },
+  {
+    "candidate": "s_mean_min_d4",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "1176c144ac1f2aa142ab618e"
+  },
+  {
+    "candidate": "p_04",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "7bb364c2087047c39e4fc8f7"
+  },
+  {
+    "candidate": "r_guard_late",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "b9a92125124e2ea8a551f0bd"
+  },
+  {
+    "candidate": "c_economy_portfolio",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "bc4353f7d504d47793d1509e"
+  },
+  {
+    "candidate": "s_assignment_only",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "7dcc40b3cd02e5950f0f65f3"
+  },
+  {
+    "candidate": "c_spearhead_direct",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "f668b2493ec158c870dc1678"
+  },
+  {
+    "candidate": "p_10",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "52e499ef2799263af6af5e7d"
+  },
+  {
+    "candidate": "c_territory_direct",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "30fb5a0cbc05847146209d6a"
+  },
+  {
+    "candidate": "p_03",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "a6ad8cedc5ed534def08b7b8"
+  },
+  {
+    "candidate": "r_terminal_margin",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "a4ce104b99d8f7c59e8da6cf"
+  },
+  {
+    "candidate": "r_joint_escort",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "cf9f8c244c41ec5b7980a8bb"
+  },
+  {
+    "candidate": "p_12",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "8f3f1349d50096a0e7bfc29b"
+  },
+  {
+    "candidate": "r_combined",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "cffb3d350fd4a2d8eb1377fd"
+  },
+  {
+    "candidate": "p_05",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "166baacf8a0194383f0d9359"
+  },
+  {
+    "candidate": "p_05",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "e83c5f76b0152cb90e7bb0aa"
+  },
+  {
+    "candidate": "p_04",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "872950393dd77833028d4d34"
+  },
+  {
+    "candidate": "p_14",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "5b06acdb2fd290998bb54d9c"
+  },
+  {
+    "candidate": "r_guard_terminal",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "1d5c42d8bf0e6c0cdfe4f1fa"
+  },
+  {
+    "candidate": "p_08",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "c2e037928cae85068bb0fb03"
+  },
+  {
+    "candidate": "r_economic_value",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "bafbf5d6a7690c9390a8fb6a"
+  },
+  {
+    "candidate": "s_switch_guard_d4",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "5e09ce4e35a04f02c1aed68b"
+  },
+  {
+    "candidate": "p_06",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "1dc265aa987c42f7ea35ab13"
+  },
+  {
+    "candidate": "c_spearhead_direct",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "be04961eaed28515ceac4e19"
+  },
+  {
+    "candidate": "s_mean_d4",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "7fb121e98c6d77164c739085"
+  },
+  {
+    "candidate": "s_tail2_d4",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "6c2d8088bde86519f1579e7a"
+  },
+  {
+    "candidate": "r_eng_terminal",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "5fb3b9a77e9edde86df37ee6"
+  },
+  {
+    "candidate": "s_mean_min_d4",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "2baee63cad287b398cf53ef2"
+  },
+  {
+    "candidate": "p_04",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "8b859de685b54181a407ca79"
+  },
+  {
+    "candidate": "c_spearhead_portfolio",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "9431e74b1f1d41746f3b783d"
+  },
+  {
+    "candidate": "c_spearhead_portfolio",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "d26d718ea04d952e366f35c3"
+  },
+  {
+    "candidate": "c_spearhead_portfolio",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "cdfe4196c00ddd9876f582f3"
+  },
+  {
+    "candidate": "p_11",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "929e183ed6e3c7fde3d76991"
+  },
+  {
+    "candidate": "p_10",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "3cf6fc9b44c132d3ceafafdc"
+  },
+  {
+    "candidate": "p_01",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "86068a9d7231f4bdd57bc6ad"
+  },
+  {
+    "candidate": "c_economy_portfolio",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "2a8f464daffd49b5fc5519e9"
+  },
+  {
+    "candidate": "s_maximin_d4",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "af23553db0d1d304f2c8f25d"
+  },
+  {
+    "candidate": "s_local_hold_d3",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "68a182a611dac085efbc41e6"
+  },
+  {
+    "candidate": "r_combined",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "34184479fb9d5275a1b8c2bb"
+  },
+  {
+    "candidate": "c_economy_portfolio",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "d40e4b4b5b60918793a600ab"
+  },
+  {
+    "candidate": "p_07",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "9f049253bac77be27c5fd3cb"
+  },
+  {
+    "candidate": "c_territory_direct",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "b0665577e8fe02f32ef65e4e"
+  },
+  {
+    "candidate": "c_economy_direct",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "0142f3538f13f57021d95ef5"
+  },
+  {
+    "candidate": "p_15",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "1ec8b78659d5493a6fe518c7"
+  },
+  {
+    "candidate": "p_05",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "48604de9a1d29752cd84deab"
+  },
+  {
+    "candidate": "s_mean_min_d4",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "012ce960c87976061d0a69d5"
+  },
+  {
+    "candidate": "s_mean_d4",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "344ff3ebcb7d514c1ffd032d"
+  },
+  {
+    "candidate": "p_03",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "fb27a0d5fdab2b022c2439c1"
+  },
+  {
+    "candidate": "s_local_hold_d3",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "de016f242ab42b73fda23156"
+  },
+  {
+    "candidate": "r_guard_terminal",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "f81663dbdbed9cfb5d05bc57"
+  },
+  {
+    "candidate": "p_09",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "35e4533c9b9fb3df9e5d9931"
+  },
+  {
+    "candidate": "r_eng_guard",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "10d8b1ae6615a6cb09402d2b"
+  },
+  {
+    "candidate": "s_assignment_only",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "b33c965964f40e34d00c866e"
+  },
+  {
+    "candidate": "p_09",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "3290771f2f384b53c45de707"
+  },
+  {
+    "candidate": "p_12",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "c5c6cb290691c2b85fddb920"
+  },
+  {
+    "candidate": "s_regret_d2",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "e67f63d30c8dda1e68c0f05a"
+  },
+  {
+    "candidate": "s_maximin_d4",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "dba185f7fb2304d1c025e51d"
+  },
+  {
+    "candidate": "s_switch_guard_d4",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "710d594c6a40a7959cca1dc3"
+  },
+  {
+    "candidate": "r_guard_terminal",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "8a1783a90974d23a3cb9a50d"
+  },
+  {
+    "candidate": "p_06",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "417a78b9c72dc2e7b2a63c65"
+  },
+  {
+    "candidate": "p_12",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "c64cff323deed9adb3b9a879"
+  },
+  {
+    "candidate": "r_terminal_margin",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "b7a75384d352bec41a6ddacf"
+  },
+  {
+    "candidate": "r_combined",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "c0b481a3f568e49caa1e6cb7"
+  },
+  {
+    "candidate": "r_joint_escort",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "daf43f32e1dbf08ac64b3abe"
+  },
+  {
+    "candidate": "p_10",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "f36c5c47c6753d2f2fa24ebd"
+  },
+  {
+    "candidate": "s_switch_guard_d4",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "c94d8f066d32d988c41fc2bf"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "74c75843af2a284332f6206c"
+  },
+  {
+    "candidate": "p_00",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "58d483b15b5b49c36e6f839e"
+  },
+  {
+    "candidate": "c_economy_portfolio",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "2ad02b9a435422e386897131"
+  },
+  {
+    "candidate": "r_guard_one",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "9441da5ac287b4fd033ec4a8"
+  },
+  {
+    "candidate": "p_12",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "a55f299b5e6d416febbc5ba3"
+  },
+  {
+    "candidate": "p_06",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "121b2cb6a675498232a8744b"
+  },
+  {
+    "candidate": "p_03",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "b24c44b90c5277c83f71d79d"
+  },
+  {
+    "candidate": "p_11",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "d650f53794a54aa976f95212"
+  },
+  {
+    "candidate": "p_15",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "17f40ede99f6a0a47220418f"
+  },
+  {
+    "candidate": "r_combined",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "12d7f95070276ee08411f103"
+  },
+  {
+    "candidate": "p_07",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "9243351821c4ddbaaee826c9"
+  },
+  {
+    "candidate": "s_tail2_d4",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "5bed764cec415c5c4d3fb8a0"
+  },
+  {
+    "candidate": "r_joint_escort",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "ce16f47f5b6a8f30b580fd56"
+  },
+  {
+    "candidate": "c_territory_direct",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "338295f86f48bd7b058ba59d"
+  },
+  {
+    "candidate": "p_10",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "82df134639ac122a25a14911"
+  },
+  {
+    "candidate": "p_01",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "609a051190bf5e7e75893c8b"
+  },
+  {
+    "candidate": "p_12",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "b37a01343fdaaef23e4d4e9a"
+  },
+  {
+    "candidate": "r_guard_late",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "e399dab253296e0e885341f8"
+  },
+  {
+    "candidate": "r_eng_guard",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "7f2b9df74a3a2d0ec9386635"
+  },
+  {
+    "candidate": "s_maximin_d4",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "eccb05241aea023c08917977"
+  },
+  {
+    "candidate": "p_13",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "41ae3f6acfe25fb12146b447"
+  },
+  {
+    "candidate": "p_11",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "ec3f7ea0e2134fcbf9c478be"
+  },
+  {
+    "candidate": "r_guard_one",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "f3ee9ef6d7463c1fbdd6acb8"
+  },
+  {
+    "candidate": "c_territory_portfolio",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "d5c1c0f32ea4a311d9f1a239"
+  },
+  {
+    "candidate": "r_joint_escort",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "9799922bd167edff82a35c64"
+  },
+  {
+    "candidate": "s_assignment_only",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "3e4fff58ad4c4a9d0b6417d7"
+  },
+  {
+    "candidate": "p_08",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "010982b5fe3c05bf6ca537e7"
+  },
+  {
+    "candidate": "p_05",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "b6d9bd9f1219b03705777e80"
+  },
+  {
+    "candidate": "c_territory_portfolio",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "565d8cb10634c3442f089381"
+  },
+  {
+    "candidate": "s_assignment_only",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "17392c28035029a1f144b3e4"
+  },
+  {
+    "candidate": "s_regret_d2",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "26587b434fa27f1de9fd5ed6"
+  },
+  {
+    "candidate": "p_13",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "21a132184182a1cae682502e"
+  },
+  {
+    "candidate": "p_07",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "7cf85d5669ce04e4d715c610"
+  },
+  {
+    "candidate": "c_economy_direct",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "308f39262806e3669fa2ddbd"
+  },
+  {
+    "candidate": "r_eng_guard",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "ed5f514aa01728badc6e4a75"
+  },
+  {
+    "candidate": "r_eng_guard",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "f9a46324ef2a121bebc333ee"
+  },
+  {
+    "candidate": "c_spearhead_portfolio",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "3dda2f5cc3afc79404d4c8a9"
+  },
+  {
+    "candidate": "p_04",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "1ec50d7ee9c31c58e1b8114e"
+  },
+  {
+    "candidate": "r_guard_one",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "2e1e7481e473ba6247b9d5a5"
+  },
+  {
+    "candidate": "r_joint_escort",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "c40de6eceea3fed6fca3518b"
+  },
+  {
+    "candidate": "s_maximin_d4",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "6b8fbbf194601978d0f02ab0"
+  },
+  {
+    "candidate": "p_14",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "dabd4c1d61148c60fd05138d"
+  },
+  {
+    "candidate": "p_05",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "785c4e5780ca8f2ac44a8716"
+  },
+  {
+    "candidate": "p_02",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "0aaa9c85bc732c629d894750"
+  },
+  {
+    "candidate": "p_02",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "3e9a38617ce2f7ece3ebe197"
+  },
+  {
+    "candidate": "p_10",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "561d48ef365abb8b259b964f"
+  },
+  {
+    "candidate": "p_04",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "9a3db6bcb6dd2819646bf09e"
+  },
+  {
+    "candidate": "p_11",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "eed6d55295392bb37e4086d0"
+  },
+  {
+    "candidate": "s_maximin_d1",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "040fa0568a2f76e69468a220"
+  },
+  {
+    "candidate": "r_eng_terminal",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "1412b795d42d52928121fa01"
+  },
+  {
+    "candidate": "s_tail2_d4",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "e5bbf04ff7f1c07bc6f21236"
+  },
+  {
+    "candidate": "c_territory_direct",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "1924ce07b42bc7a8787ebc88"
+  },
+  {
+    "candidate": "r_joint_escort",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "11b9d7d295f5e67f727306d9"
+  },
+  {
+    "candidate": "s_mean_d4",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "53aab577bc5fd4f8f74e6cc7"
+  },
+  {
+    "candidate": "p_09",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "df1849a33e5cd202b07d35f4"
+  },
+  {
+    "candidate": "s_maximin_d4",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "a452fdc70c9681b4ccc4e894"
+  },
+  {
+    "candidate": "s_maximin_d4",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "4459c615dfe2c8f3340313de"
+  },
+  {
+    "candidate": "s_maximin_d1",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "88a425b8bbe416785786dab3"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "3c142656500fb2642666e6b6"
+  },
+  {
+    "candidate": "r_guard_late",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "b20ae38830c6d10c092ff5b1"
+  },
+  {
+    "candidate": "s_maximin_d1",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "58dc3b159adf38188f4b41ce"
+  },
+  {
+    "candidate": "r_economic_value",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "73f60838b4812ae466e1a9ad"
+  },
+  {
+    "candidate": "s_maximin_d1",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "4bb95d122227844e79541fb1"
+  },
+  {
+    "candidate": "r_eng_terminal",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "bad80fc7b8636570e8a53fa1"
+  },
+  {
+    "candidate": "p_14",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "f120e3bab97d6a0d9c950c63"
+  },
+  {
+    "candidate": "p_06",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "055842a5732c130a725817e5"
+  },
+  {
+    "candidate": "s_maximin_d1",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "84a0b59a4c71808393469578"
+  },
+  {
+    "candidate": "p_13",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "e9396d1e684be3e2a62fffff"
+  },
+  {
+    "candidate": "s_maximin_d4",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "d6555b7b4773d362ce331d78"
+  },
+  {
+    "candidate": "r_economic_value",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "705a27cfe680f4a6f4847574"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "f014e3c0522329bf0fd32eea"
+  },
+  {
+    "candidate": "p_15",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "5fa687e4e4e4265091cad987"
+  },
+  {
+    "candidate": "r_eng_terminal",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "e710c6b136e3579f9f2beaf6"
+  },
+  {
+    "candidate": "p_13",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "de4af7e4acb31f51856a0caf"
+  },
+  {
+    "candidate": "p_08",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "73ab8391d3ae0fa607168af4"
+  },
+  {
+    "candidate": "p_03",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "f17d5d4f1c1a49cdd836198d"
+  },
+  {
+    "candidate": "p_09",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "7fecee4fd520292a54f090d7"
+  },
+  {
+    "candidate": "r_economic_value",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "3c6d339bc67a9f90028f8af6"
+  },
+  {
+    "candidate": "r_guard_late",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "f677bc9852ebe843590a0d9f"
+  },
+  {
+    "candidate": "p_11",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "e39d5af92eea98fc910a5e6a"
+  },
+  {
+    "candidate": "p_07",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "d3905d65c9fcc47c89535e02"
+  },
+  {
+    "candidate": "p_14",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "0a941f953e89441b1411d6ef"
+  },
+  {
+    "candidate": "r_guard_late",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "79f0899d7de63abb590477ce"
+  },
+  {
+    "candidate": "r_guard_late",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "2eede2e5f3eaa88909adbbfb"
+  },
+  {
+    "candidate": "r_eng_terminal",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "c9a5f65df63b7f269bbf05d7"
+  },
+  {
+    "candidate": "s_mean_min_d4",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "810ff020240f188f47abde27"
+  },
+  {
+    "candidate": "s_switch_guard_d4",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "1fedb706e802d6f9247c7427"
+  },
+  {
+    "candidate": "p_06",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "f5b5b7a1fb0e21da10e3285b"
+  },
+  {
+    "candidate": "s_maximin_d4",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "282f98b3ad014aa59727dc44"
+  },
+  {
+    "candidate": "s_mean_d4",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "7ce87cde3acd28744be937bf"
+  },
+  {
+    "candidate": "p_03",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "b3944ef6fb4463a4d9d85893"
+  },
+  {
+    "candidate": "r_eng_terminal",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "bbda7d8a2b00cbada4bd5556"
+  },
+  {
+    "candidate": "c_spearhead_direct",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "aac03facbc1d482fe3db7598"
+  },
+  {
+    "candidate": "p_02",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "6c00734727afb8fccacdc576"
+  },
+  {
+    "candidate": "p_03",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "14e5db9b03272a8b7c542a5e"
+  },
+  {
+    "candidate": "c_territory_direct",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "94a7c5144f9edf44ea8f4528"
+  },
+  {
+    "candidate": "r_guard_one",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "647cfb14b7e66e2119c99f9f"
+  },
+  {
+    "candidate": "r_guard_one",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "1e94503a67d4f3523a11938e"
+  },
+  {
+    "candidate": "r_guard_two",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "2e51c9da373f6862e140e5cc"
+  },
+  {
+    "candidate": "r_guard_late",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "4ec1a5f889f15fb7afea51fb"
+  },
+  {
+    "candidate": "r_terminal_margin",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "89dd55b5be8c2626d3beee01"
+  },
+  {
+    "candidate": "r_combined",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "4b48f3e4f1f9f046eb33a384"
+  },
+  {
+    "candidate": "p_03",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "8801939276aec6d7c3409110"
+  },
+  {
+    "candidate": "p_05",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "0fb46a2202527c159026dbd8"
+  },
+  {
+    "candidate": "p_15",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "644ec2ec3b2ef76177d35829"
+  },
+  {
+    "candidate": "c_economy_portfolio",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "f143273461cf9ec600efbf61"
+  },
+  {
+    "candidate": "s_regret_d2",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "ef628ce673a214799f284443"
+  },
+  {
+    "candidate": "p_02",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "54bbfc520aac5c850e66443a"
+  },
+  {
+    "candidate": "s_maximin_d1",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "39fe517e4638595573a6ac73"
+  },
+  {
+    "candidate": "p_08",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "08901bf3ce8a9d753fb57ac9"
+  },
+  {
+    "candidate": "c_economy_portfolio",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "f0630547f8a7a7ccfec667f8"
+  },
+  {
+    "candidate": "p_13",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "9e33e8bf2423ddf557e1e548"
+  },
+  {
+    "candidate": "p_07",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "41f7c469b0712bbaf253b4c7"
+  },
+  {
+    "candidate": "c_territory_portfolio",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "bd4508a678045551d070ab09"
+  },
+  {
+    "candidate": "s_regret_d6",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "b8090e66988f4409a27efa45"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "7189428492c5994b2ead57bc"
+  },
+  {
+    "candidate": "r_joint_escort",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "9863d32cfaaafeccf8227416"
+  },
+  {
+    "candidate": "p_14",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "999fb04ddd60d3b3d9ec97a4"
+  },
+  {
+    "candidate": "r_guard_two",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "d5378e249efa9562b6966033"
+  },
+  {
+    "candidate": "c_economy_direct",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "c3e00695f6406926b7a6bd3f"
+  },
+  {
+    "candidate": "s_tail2_d4",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "1e612a5fb5473923a7b59b55"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "5d0fdf959d305ded6f9b5c6d"
+  },
+  {
+    "candidate": "p_08",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "284b68c460147baa761ef54c"
+  },
+  {
+    "candidate": "p_12",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "cdff5397e51f02a2894743a9"
+  },
+  {
+    "candidate": "s_regret_d6",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "bb431cfdba85e74bf02ec830"
+  },
+  {
+    "candidate": "p_09",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "6c227b87510e9eb884edeb64"
+  },
+  {
+    "candidate": "p_12",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "22bb6a14a1786c59e60c2d71"
+  },
+  {
+    "candidate": "p_05",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "4a5a3da5aa280036b970d792"
+  },
+  {
+    "candidate": "s_local_hold_d3",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "9e5314f411494092f1dd809a"
+  },
+  {
+    "candidate": "r_terminal_margin",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "51a20f7854d613a7f6cc29b2"
+  },
+  {
+    "candidate": "r_guard_two",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "c93d5edab89b5ca2d1dccc21"
+  },
+  {
+    "candidate": "p_04",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "ba33af155371e786677cf9e0"
+  },
+  {
+    "candidate": "r_terminal_margin",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "ee2a3b2a496a3caa0b48d4ee"
+  },
+  {
+    "candidate": "r_eng_guard",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "699cc6abb86a26f6034fb845"
+  },
+  {
+    "candidate": "p_08",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "878979b6639643183152cb05"
+  },
+  {
+    "candidate": "c_economy_direct",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "0a8e7b3762cb6908be20c77f"
+  },
+  {
+    "candidate": "p_15",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "497e9a4b1a31971c7213f84e"
+  },
+  {
+    "candidate": "s_regret_d6",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "4b0bbbbf41d105e657f33cdd"
+  },
+  {
+    "candidate": "p_10",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "d91b78e42cc6cbb633d32d3c"
+  },
+  {
+    "candidate": "r_guard_one",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "365ea96a0f8f487e13d5803c"
+  },
+  {
+    "candidate": "r_eng_guard",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "78fbc109b72522c3e0da384f"
+  },
+  {
+    "candidate": "p_11",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "22792fb7b8b5c8c28e0983fd"
+  },
+  {
+    "candidate": "p_00",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "71e7ff07a86b951bf25fbb4d"
+  },
+  {
+    "candidate": "p_01",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "497073134dd7230b99f75d2f"
+  },
+  {
+    "candidate": "c_spearhead_direct",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "6e377a223202894a3c29a741"
+  },
+  {
+    "candidate": "p_13",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "47a1b5451cc33fce3ab34b9a"
+  },
+  {
+    "candidate": "r_terminal_margin",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "88951c2c49a349e314dad036"
+  },
+  {
+    "candidate": "p_05",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "dc3f29a3785684c28c54992b"
+  },
+  {
+    "candidate": "p_08",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "2024250bb22d3f795304f1fe"
+  },
+  {
+    "candidate": "p_01",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "6e9ab976dab83b29b075d6cb"
+  },
+  {
+    "candidate": "c_economy_portfolio",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "0434098a78fbbd1659f66d8a"
+  },
+  {
+    "candidate": "s_maximin_d1",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "a2f5c92c82c16c237dee3d36"
+  },
+  {
+    "candidate": "r_joint_escort",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "bbba9156ccbd2be7195c9972"
+  },
+  {
+    "candidate": "r_economic_value",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "255b981c6f03c5efc8ad7edf"
+  },
+  {
+    "candidate": "p_07",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "13ea30be66960caeaec3afe0"
+  },
+  {
+    "candidate": "r_eng_guard",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "2585ba7b6cee229ea0906eff"
+  },
+  {
+    "candidate": "c_spearhead_portfolio",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "06c9dcaf80e328285c435081"
+  },
+  {
+    "candidate": "p_02",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "a95872f91e27b510eecbf376"
+  },
+  {
+    "candidate": "p_01",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "640898e2f28b998dd511c3fc"
+  },
+  {
+    "candidate": "p_10",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "71916a7df393ae471dcebd2e"
+  },
+  {
+    "candidate": "p_03",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "4e008392543856744dc11a94"
+  },
+  {
+    "candidate": "p_05",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "9f94330eaad15275ef483e91"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "332fa7ea04f6c81e489ae732"
+  },
+  {
+    "candidate": "s_regret_d6",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "5b81eded7a400f01437b4e3a"
+  },
+  {
+    "candidate": "p_00",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "c2f5d08710644a62cdae4b27"
+  },
+  {
+    "candidate": "p_00",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "6e993e4e98d5dcf5662160e3"
+  },
+  {
+    "candidate": "s_mean_d4",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "0a913efab5f8e8da455a46a8"
+  },
+  {
+    "candidate": "p_11",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "b00dc8407374ce590ce3f9eb"
+  },
+  {
+    "candidate": "p_12",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "ecfc06cd04883679122d77f0"
+  },
+  {
+    "candidate": "p_05",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "20aefd9fb59dc3bca9d02088"
+  },
+  {
+    "candidate": "p_15",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "a757e926f31960042f84ec06"
+  },
+  {
+    "candidate": "r_guard_terminal",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "6955358e5bc4b99645c4d130"
+  },
+  {
+    "candidate": "s_maximin_d4",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "a449ea569582ca7bff0eda0a"
+  },
+  {
+    "candidate": "p_10",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "1243236b91030ff9aa4fcfcb"
+  },
+  {
+    "candidate": "c_spearhead_direct",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "84c85c8a49a33b8f21942afa"
+  },
+  {
+    "candidate": "p_10",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "d03024c6d97e2b68ad24606e"
+  },
+  {
+    "candidate": "s_tail2_d4",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "18d488e5c8c3616d70097a03"
+  },
+  {
+    "candidate": "c_territory_direct",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "f7e3a6dd4f6eba97c85d6604"
+  },
+  {
+    "candidate": "r_combined",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "4cbd9d68e6848eb11ee41e89"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "dafc7fcb522846566a056814"
+  },
+  {
+    "candidate": "p_11",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "d85ac527ef44dd57cca23259"
+  },
+  {
+    "candidate": "r_guard_two",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "c48c2b879c7cfa97e2060663"
+  },
+  {
+    "candidate": "s_regret_d2",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "c312a077db698282a51b70c0"
+  },
+  {
+    "candidate": "p_02",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "1465c3baf7dafe262bc4b660"
+  },
+  {
+    "candidate": "c_spearhead_portfolio",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "45ad91ebaad1e8bf70a761ab"
+  },
+  {
+    "candidate": "p_03",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "47fae462629995fb313613a3"
+  },
+  {
+    "candidate": "p_08",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "795a8ae6beacb19f312553df"
+  },
+  {
+    "candidate": "c_economy_direct",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "8c8c6557be40671dd26d1005"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "9c7090c75225c2455cf46ec5"
+  },
+  {
+    "candidate": "s_local_hold_d3",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "c5ab9d864fa296223312f3a8"
+  },
+  {
+    "candidate": "r_economic_value",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "1f3f151ccc5d50817d3a0009"
+  },
+  {
+    "candidate": "r_guard_late",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "5d8ecf34884a81771d6c5196"
+  },
+  {
+    "candidate": "s_regret_d6",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "40f93b931165f99a2795b07b"
+  },
+  {
+    "candidate": "r_guard_two",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "6c34ceaa227a85b378f151cd"
+  },
+  {
+    "candidate": "p_06",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "3074e44e84e78ee6f7de70d3"
+  },
+  {
+    "candidate": "r_guard_terminal",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "bcfadd46d5c74584f145aac0"
+  },
+  {
+    "candidate": "r_eng_guard",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "608f47916c9b51179f4a39e2"
+  },
+  {
+    "candidate": "s_mean_min_d4",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "b41f6c196fc14de429f92bd1"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "f872c18497efb7fc4a7d5a2b"
+  },
+  {
+    "candidate": "s_assignment_only",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "2d19aac1b2cb01e549d8a009"
+  },
+  {
+    "candidate": "p_12",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "92b291d5e34a782ca379f2d3"
+  },
+  {
+    "candidate": "r_guard_late",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "b91163b751735dd848ddc979"
+  },
+  {
+    "candidate": "r_combined",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "c9760911e9d9c9957cd5c979"
+  },
+  {
+    "candidate": "r_combined",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "ed37d2f900a2289bf6ef8a66"
+  },
+  {
+    "candidate": "s_assignment_only",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "b5442d368dd729765678b2bf"
+  },
+  {
+    "candidate": "c_economy_portfolio",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "f3f135139b424896b67a6077"
+  },
+  {
+    "candidate": "s_switch_guard_d4",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "8284af930c49359ccb2cae5a"
+  },
+  {
+    "candidate": "p_08",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "d016c0a60811e4e233d20fbb"
+  },
+  {
+    "candidate": "s_regret_d2",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "2ba93207fa4f4cd8b90fe71c"
+  },
+  {
+    "candidate": "r_joint_escort",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "8657b058e7a922a4236d8053"
+  },
+  {
+    "candidate": "p_04",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "35e4d4dab1eaebcc164006bb"
+  },
+  {
+    "candidate": "p_11",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "86073e8e8dcdd54a90a41463"
+  },
+  {
+    "candidate": "s_maximin_d4",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "ba10fae887012c71cab39992"
+  },
+  {
+    "candidate": "p_01",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "5a28eb50d7fab4641e94f568"
+  },
+  {
+    "candidate": "p_12",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "ecd29aae9af04ba875b87a7c"
+  },
+  {
+    "candidate": "r_terminal_margin",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "fb66a476533bc1523a3629f0"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "5af6abe96c653b260216e99c"
+  },
+  {
+    "candidate": "r_guard_one",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "442a4c10555e987f8713d635"
+  },
+  {
+    "candidate": "r_eng_terminal",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "76357edb4deb77f14095bf52"
+  },
+  {
+    "candidate": "s_mean_min_d4",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "c883cb13677b7eac028b5d94"
+  },
+  {
+    "candidate": "p_12",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "6637125a519b336a97b13e78"
+  },
+  {
+    "candidate": "p_00",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "806d737a955779a6e4d30573"
+  },
+  {
+    "candidate": "p_04",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "3368449fa4c71cc3ec4cb636"
+  },
+  {
+    "candidate": "r_terminal_margin",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "7cf635f270b1205ffe8fa6c9"
+  },
+  {
+    "candidate": "p_02",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "190c4676f0bba96d77a8911a"
+  },
+  {
+    "candidate": "c_territory_portfolio",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "5bddfdb9d724e9479a51a863"
+  },
+  {
+    "candidate": "p_12",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "3f0687da23aed3366f154599"
+  },
+  {
+    "candidate": "p_00",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "54ea6129dba2f2e40cd9ef47"
+  },
+  {
+    "candidate": "c_territory_portfolio",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "3d357315f1569cfef4d05596"
+  },
+  {
+    "candidate": "r_eng_terminal",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "6c76db7853ec3d8b5eafb47a"
+  },
+  {
+    "candidate": "p_14",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "72abdf047448de5eafbdcb39"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "ca2cd138c2766d3cf4e12d19"
+  },
+  {
+    "candidate": "p_01",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "6344f5ca173c04a1b27aaef9"
+  },
+  {
+    "candidate": "c_spearhead_direct",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "ce752f94887a75580da26058"
+  },
+  {
+    "candidate": "r_joint_escort",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "ca3a7c9841ea29110f62cbf3"
+  },
+  {
+    "candidate": "r_eng_terminal",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "68f85244567d456022c951e8"
+  },
+  {
+    "candidate": "s_maximin_d1",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "16375e23316e0674d23f3259"
+  },
+  {
+    "candidate": "p_06",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "76f263e49a63d4c15810c7c9"
+  },
+  {
+    "candidate": "s_switch_guard_d4",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "22ba333d88719ba41fab717b"
+  },
+  {
+    "candidate": "c_territory_portfolio",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "1c8186fef319dcb8aefc16b7"
+  },
+  {
+    "candidate": "r_combined",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "76465e500f59b986278b16e6"
+  },
+  {
+    "candidate": "r_terminal_margin",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "f1656f1ae7b0c84dab64b1f7"
+  },
+  {
+    "candidate": "r_guard_two",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "ad8cec68800d5c3173bd6a7c"
+  },
+  {
+    "candidate": "p_00",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "f5f2012fb022004bc0258947"
+  },
+  {
+    "candidate": "p_15",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "a413a0f31ce214a98c95ab89"
+  },
+  {
+    "candidate": "p_13",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "beac66c4d42eda14ce46e1e6"
+  },
+  {
+    "candidate": "p_15",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "20ca9a65d976f05ff12b979b"
+  },
+  {
+    "candidate": "r_eng_guard",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "eb947dc02c7ce0ab7f7d1384"
+  },
+  {
+    "candidate": "r_terminal_margin",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "afffafc32189d47fa9ff711f"
+  },
+  {
+    "candidate": "p_09",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "406d278ed697d692808a87f9"
+  },
+  {
+    "candidate": "s_switch_guard_d4",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "155d3ec48440d27cb543b35f"
+  },
+  {
+    "candidate": "s_switch_guard_d4",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "5954936d84813abc4cd2acce"
+  },
+  {
+    "candidate": "c_economy_portfolio",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "210183631ab8350eba74c3f4"
+  },
+  {
+    "candidate": "r_economic_value",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "7f196ae6340a75f6be29d990"
+  },
+  {
+    "candidate": "s_regret_d2",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "1b771cc2a045f3ba9241ca59"
+  },
+  {
+    "candidate": "p_13",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "7974ff59339e17cd05449ce7"
+  },
+  {
+    "candidate": "c_economy_direct",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "6d6efa4c9d9cd88da4097aca"
+  },
+  {
+    "candidate": "p_13",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "193fe265770f44c2206148d9"
+  },
+  {
+    "candidate": "p_00",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "dccb8d29ef700f1e6ff8efc9"
+  },
+  {
+    "candidate": "s_regret_d6",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "5f348cafeb488c3ab39488bd"
+  },
+  {
+    "candidate": "p_15",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "05d99d72ebbe8b511dc74654"
+  },
+  {
+    "candidate": "s_assignment_only",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "7d9b616d97880fd65981c265"
+  },
+  {
+    "candidate": "c_spearhead_portfolio",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "c869cf3e1fc105f43fb5f7b5"
+  },
+  {
+    "candidate": "c_territory_portfolio",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "1b36c616778588bb2cec0120"
+  },
+  {
+    "candidate": "r_eng_terminal",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "acdf1bbac3e21667f3541f32"
+  },
+  {
+    "candidate": "r_eng_terminal",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "2fbddb1aff232c99c1b97038"
+  },
+  {
+    "candidate": "s_tail2_d4",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "438cdbfdc5209b196ddbea91"
+  },
+  {
+    "candidate": "r_combined",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "7b83b469d2ee6270869e25b8"
+  },
+  {
+    "candidate": "s_mean_d4",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "60c9758fa1cc42e008025e2f"
+  },
+  {
+    "candidate": "p_09",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "4713f5bf05a93a2cf4bae5c9"
+  },
+  {
+    "candidate": "s_regret_d2",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "e464dcc0940f19eb8082beaf"
+  },
+  {
+    "candidate": "p_02",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "1602c89b6b9b21f162323200"
+  },
+  {
+    "candidate": "r_guard_terminal",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "d8605dc4a37c900890ce93b1"
+  },
+  {
+    "candidate": "p_12",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "eb1326ff836767ee28069d54"
+  },
+  {
+    "candidate": "s_mean_min_d4",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "b099c9ba96e9e76186ef3c84"
+  },
+  {
+    "candidate": "s_mean_min_d4",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "9af84eb059e23c29be79a06d"
+  },
+  {
+    "candidate": "s_regret_d6",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "d152cd5d91e9e3d6c7363950"
+  },
+  {
+    "candidate": "p_14",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "24f5e138dea6c6baf1c731f3"
+  },
+  {
+    "candidate": "s_assignment_only",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "11c54f53fa46be1d2dac8190"
+  },
+  {
+    "candidate": "p_08",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "1bf01ea72ba0b36e4e4c0b0a"
+  },
+  {
+    "candidate": "s_local_hold_d3",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "00568ccbbb0509b005840e9f"
+  },
+  {
+    "candidate": "s_switch_guard_d4",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "164f2d2eab954c10a1a7c7a6"
+  },
+  {
+    "candidate": "s_switch_guard_d4",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "32935f6493834103bdd4cde4"
+  },
+  {
+    "candidate": "p_11",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "f1a703acc4b55734a519d1f4"
+  },
+  {
+    "candidate": "p_02",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "870e66f98fe2e94150ed7a9b"
+  },
+  {
+    "candidate": "r_guard_two",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "ca40487dea5134aa483cb1df"
+  },
+  {
+    "candidate": "c_economy_direct",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "ae114a86bea757cd7255ce2a"
+  },
+  {
+    "candidate": "s_mean_min_d4",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "7af007434fb80e97f7eb3826"
+  },
+  {
+    "candidate": "p_12",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "4c77e20b610dca93158cc68b"
+  },
+  {
+    "candidate": "r_combined",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "960f59c0e09feb1843ae8664"
+  },
+  {
+    "candidate": "s_tail2_d4",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "1dcb7896703a316e2fbb1da9"
+  },
+  {
+    "candidate": "p_14",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "1edfee78e7b8e2d1ac0a4eb1"
+  },
+  {
+    "candidate": "r_guard_late",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "7e516cf5ee6f36cd8d58c467"
+  },
+  {
+    "candidate": "p_11",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "d34fdde8c262af8c35b60d3c"
+  },
+  {
+    "candidate": "p_02",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "975ee5abd7862e81932a1203"
+  },
+  {
+    "candidate": "s_assignment_only",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "7b7edcf85704770a85aae455"
+  },
+  {
+    "candidate": "p_10",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "2503cd29d5b9bd2a83ee9985"
+  },
+  {
+    "candidate": "s_regret_d2",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "8fb2af2aebfddadb3e005498"
+  },
+  {
+    "candidate": "r_economic_value",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "a859b9d4a14272759f152598"
+  },
+  {
+    "candidate": "r_guard_terminal",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "504ad1f5dddd3bb91c18416a"
+  },
+  {
+    "candidate": "c_spearhead_direct",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "b6cc7210a88c8d5fd19d453e"
+  },
+  {
+    "candidate": "s_mean_min_d4",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "be57aa7a41d9bc28c78173be"
+  },
+  {
+    "candidate": "r_guard_late",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "63ecf42c4181481b61b8f09d"
+  },
+  {
+    "candidate": "p_04",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "adde22f433398b73a7f6c095"
+  },
+  {
+    "candidate": "c_spearhead_portfolio",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "e839665cd0fd569390881693"
+  },
+  {
+    "candidate": "c_economy_direct",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "c538d8e96a37d8670232817d"
+  },
+  {
+    "candidate": "r_economic_value",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "71ceae98132b2706eaf9fd3b"
+  },
+  {
+    "candidate": "p_15",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "dcbfd08336d38a7cd3dd3a79"
+  },
+  {
+    "candidate": "s_maximin_d1",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "f0087a4cbdbb2e2022778672"
+  },
+  {
+    "candidate": "p_12",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "98f1820b80621d1883b25903"
+  },
+  {
+    "candidate": "p_14",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "17fcb9a80044721a04636f86"
+  },
+  {
+    "candidate": "p_07",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "972bdfa72ce1f386b6efe12b"
+  },
+  {
+    "candidate": "p_14",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "d155d2f77f28554ccecdc8a7"
+  },
+  {
+    "candidate": "c_territory_direct",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "e180580b99a340faeb90624e"
+  },
+  {
+    "candidate": "p_06",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "0b81455c4c16e19c1733edec"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "2ab20090e6962683133088d2"
+  },
+  {
+    "candidate": "c_economy_direct",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "6ddc6b9df77233a51248a59a"
+  },
+  {
+    "candidate": "s_mean_min_d4",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "78ea76c575ee862fbe137c47"
+  },
+  {
+    "candidate": "r_guard_two",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "1074740accfeac2fade04e07"
+  },
+  {
+    "candidate": "p_09",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "b38a0d503c5ab98c1bd9e760"
+  },
+  {
+    "candidate": "p_10",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "4625527d6cb67a438562c663"
+  },
+  {
+    "candidate": "p_14",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "5883b489189ac8ff5088ef87"
+  },
+  {
+    "candidate": "s_tail2_d4",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "f4f95e61ba4686ee5043a68d"
+  },
+  {
+    "candidate": "r_guard_late",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "562ddecb638af8df3617c64d"
+  },
+  {
+    "candidate": "s_mean_d4",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "c66c880bd5833fac13ba9c7e"
+  },
+  {
+    "candidate": "p_10",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "f3fa505c8793124364b407c1"
+  },
+  {
+    "candidate": "r_joint_escort",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "e4757e0a0c92289a0564f762"
+  },
+  {
+    "candidate": "r_eng_guard",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "33dbd8a7de37d108c165fd9f"
+  },
+  {
+    "candidate": "p_05",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "16d9274579d452929a1f72d4"
+  },
+  {
+    "candidate": "s_mean_d4",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "943b40117978c03b89bb42ef"
+  },
+  {
+    "candidate": "p_10",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "4684a5485232deb8860cf7e1"
+  },
+  {
+    "candidate": "c_spearhead_direct",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "7f223ffdad9122d1cb3021fd"
+  },
+  {
+    "candidate": "p_08",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "b67c442a82fe98c0a7ba3997"
+  },
+  {
+    "candidate": "c_economy_portfolio",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "84ed9c0b634ed54b6c6c3769"
+  },
+  {
+    "candidate": "p_12",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "283368cda882970a8b217223"
+  },
+  {
+    "candidate": "p_00",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "7bba4a3b41359e2f1109adf6"
+  },
+  {
+    "candidate": "p_05",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "1c08bb453f766aaa70eee0f0"
+  },
+  {
+    "candidate": "p_06",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "9a130db50e3e0ced0a1750d2"
+  },
+  {
+    "candidate": "s_mean_d4",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "9e0bc840dbd48ddea60b86cc"
+  },
+  {
+    "candidate": "p_12",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "5263e35d64bf55cfe2cf79f7"
+  },
+  {
+    "candidate": "s_tail2_d4",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "a8254d023adf3b45a53d8ac5"
+  },
+  {
+    "candidate": "r_guard_late",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "eeed915c16a2bedc6b388bae"
+  },
+  {
+    "candidate": "p_03",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "2dce5748c1602d091987e9ef"
+  },
+  {
+    "candidate": "p_15",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "fd518746da8083c05f443622"
+  },
+  {
+    "candidate": "p_06",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "ea5af4823f051e79dc739f28"
+  },
+  {
+    "candidate": "s_maximin_d4",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "5274ba3965094ab4db1ef8eb"
+  },
+  {
+    "candidate": "p_01",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "dad6115e597802b667f36c43"
+  },
+  {
+    "candidate": "r_economic_value",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "505eb4a1abf1e9b2fdcca2fa"
+  },
+  {
+    "candidate": "c_economy_portfolio",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "dccf3478edcf43c168be4f3a"
+  },
+  {
+    "candidate": "c_territory_portfolio",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "9ec18ea7d0ceac1e17dc0096"
+  },
+  {
+    "candidate": "s_maximin_d4",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "b0b7171a7001d146a2ed5858"
+  },
+  {
+    "candidate": "r_guard_two",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "f48428db4fa9cf110ba86ec6"
+  },
+  {
+    "candidate": "p_07",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "b32403e35c80b152233bf6fe"
+  },
+  {
+    "candidate": "p_15",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "5cb5528ece98eabeea21fa26"
+  },
+  {
+    "candidate": "s_regret_d2",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "31c7fac6a4f58c581aecf021"
+  },
+  {
+    "candidate": "s_assignment_only",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "b8eb88ed693778e48ef4c72e"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "f91cf14c284e9e49ced5771e"
+  },
+  {
+    "candidate": "s_regret_d2",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "8f41523b4a3ce91a34f610eb"
+  },
+  {
+    "candidate": "p_07",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "2ae66fb3cc4f59aba6d321bf"
+  },
+  {
+    "candidate": "c_spearhead_portfolio",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "033f7205f9410b700028659b"
+  },
+  {
+    "candidate": "s_mean_d4",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "e1e6be18649ff61f7032b424"
+  },
+  {
+    "candidate": "r_guard_terminal",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "fc9f08102ebf47355c452c23"
+  },
+  {
+    "candidate": "p_07",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "34ba5b06520c0f7f17513d55"
+  },
+  {
+    "candidate": "p_07",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "300505d0acd400ac351afbbd"
+  },
+  {
+    "candidate": "p_06",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "a59030a1f79a852caaa69037"
+  },
+  {
+    "candidate": "p_07",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "cf19fe33a4bc25de306b4e8d"
+  },
+  {
+    "candidate": "r_guard_late",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "c463678b787fa7045b9b21de"
+  },
+  {
+    "candidate": "p_12",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "dce33a38d75fbf169ea7d4d0"
+  },
+  {
+    "candidate": "p_15",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "a15ea9832a7a0926f9a12088"
+  },
+  {
+    "candidate": "s_regret_d6",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "e61cba7dce4e3c1329cc35d3"
+  },
+  {
+    "candidate": "s_mean_d4",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "17a0f614268d466ed9695146"
+  },
+  {
+    "candidate": "p_08",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "093cc147e11587957064dad5"
+  },
+  {
+    "candidate": "s_regret_d6",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "6bc62b53a8f51fa745b04023"
+  },
+  {
+    "candidate": "r_guard_terminal",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "7d6e9a00b40fb8b7cf5b5e6a"
+  },
+  {
+    "candidate": "p_04",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "994b8b95faa3f21931f5feca"
+  },
+  {
+    "candidate": "r_combined",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "4016893645209e630589af54"
+  },
+  {
+    "candidate": "p_05",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "b8a453102444e88fec4e2f5f"
+  },
+  {
+    "candidate": "p_06",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "8ef61ef6ff9fc87d379e581f"
+  },
+  {
+    "candidate": "s_regret_d6",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "359f2af0c605efcd3f12548d"
+  },
+  {
+    "candidate": "p_05",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "970be0e9af4791cb55870c8f"
+  },
+  {
+    "candidate": "c_territory_direct",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "179b2a57b2b289e0ace6ae47"
+  },
+  {
+    "candidate": "s_maximin_d4",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "a14fc5adf765bc00947c7cbd"
+  },
+  {
+    "candidate": "p_00",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "fcd2c4dbfb84f25033e43d2b"
+  },
+  {
+    "candidate": "s_regret_d2",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "fe68c9a9318a68ced6010934"
+  },
+  {
+    "candidate": "p_09",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "190222f3c93c295d757f95ac"
+  },
+  {
+    "candidate": "p_03",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "ef3cebb3c36ea487e27f1081"
+  },
+  {
+    "candidate": "s_mean_d4",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "bfc34b25ddd83e17c562b48a"
+  },
+  {
+    "candidate": "p_02",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "b275cefc4445c3c2bc772e23"
+  },
+  {
+    "candidate": "s_tail2_d4",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "d628b4197d7ca10879c4ed97"
+  },
+  {
+    "candidate": "r_eng_guard",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "0b60da9b59f42154818a4500"
+  },
+  {
+    "candidate": "r_terminal_margin",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "67a686b573d556569213562e"
+  },
+  {
+    "candidate": "r_guard_two",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "5a70fc0e9a071a1d54104f20"
+  },
+  {
+    "candidate": "p_09",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "799304f891bca06f41253bda"
+  },
+  {
+    "candidate": "s_maximin_d4",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "f65849539d22da6a06c83c80"
+  },
+  {
+    "candidate": "r_combined",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "4aeeb4b8387a9e1718bd187c"
+  },
+  {
+    "candidate": "r_guard_two",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "148622c8f0d28f89c0950df6"
+  },
+  {
+    "candidate": "p_15",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "d9475fca9b0a9454563b1546"
+  },
+  {
+    "candidate": "r_guard_one",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "cc61791610a057732f887525"
+  },
+  {
+    "candidate": "s_mean_min_d4",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "c313b5c08ade1faabc583f03"
+  },
+  {
+    "candidate": "s_mean_min_d4",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "79934f4c372843b6782263d2"
+  },
+  {
+    "candidate": "s_assignment_only",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "53ce6f0b9620976803f18744"
+  },
+  {
+    "candidate": "p_06",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "d33331318855e08d590d2e99"
+  },
+  {
+    "candidate": "p_10",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "945b22983a49057d60a26ec0"
+  },
+  {
+    "candidate": "s_mean_d4",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "a35ff5386d45314610a1ae97"
+  },
+  {
+    "candidate": "p_06",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "90735f64aa447edbc6574da8"
+  },
+  {
+    "candidate": "p_13",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "715b20c8dd9d7a63076a3cc4"
+  },
+  {
+    "candidate": "r_guard_late",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "db7776156027943d6ca14996"
+  },
+  {
+    "candidate": "s_tail2_d4",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "b72ba34e7fde68bf4da1e2b2"
+  },
+  {
+    "candidate": "r_guard_late",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "8d2959507d2316bb02c51874"
+  },
+  {
+    "candidate": "r_eng_terminal",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "65592be46f91cd9182a11804"
+  },
+  {
+    "candidate": "s_assignment_only",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "82a4006858671e2c8e484b15"
+  },
+  {
+    "candidate": "c_territory_portfolio",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "b4297f16e3ddd97d643ae91c"
+  },
+  {
+    "candidate": "s_local_hold_d3",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "2025913f8eeadff39440e108"
+  },
+  {
+    "candidate": "p_00",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "b900f0e4d9ee8f09d161c3ae"
+  },
+  {
+    "candidate": "s_maximin_d4",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "790acc86029bf93c91a47c56"
+  },
+  {
+    "candidate": "s_regret_d6",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "8860d168abc0db9a07e10754"
+  },
+  {
+    "candidate": "p_13",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "2d4ad0e12e8ed334c83c5bae"
+  },
+  {
+    "candidate": "r_joint_escort",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "80f42bcfcd03092a2477321f"
+  },
+  {
+    "candidate": "c_spearhead_portfolio",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "090c60d4cea6425775f21509"
+  },
+  {
+    "candidate": "p_06",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "18ddaa799aae79b2c6b46187"
+  },
+  {
+    "candidate": "p_12",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "9307dd515e96888c9466e646"
+  },
+  {
+    "candidate": "s_maximin_d1",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "ca9134814a72eb4644b9aa0c"
+  },
+  {
+    "candidate": "p_03",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "c705328898433d3867533a90"
+  },
+  {
+    "candidate": "r_economic_value",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "2783607efa712b960d8d8e1b"
+  },
+  {
+    "candidate": "p_02",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "5557c7ec41b13bae986bacbd"
+  },
+  {
+    "candidate": "p_04",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "2511c9b9c60761d50df9bcc4"
+  },
+  {
+    "candidate": "p_03",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "1b94b109a77ccfff64e421c7"
+  },
+  {
+    "candidate": "c_territory_portfolio",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "1e8354195d50d1e09185a54b"
+  },
+  {
+    "candidate": "p_09",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "862e4ac55c27c53b97c70d02"
+  },
+  {
+    "candidate": "p_13",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "5eb5dc04487ebca59b868893"
+  },
+  {
+    "candidate": "p_12",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "65df8c4e08caf5fdf43e155f"
+  },
+  {
+    "candidate": "c_economy_direct",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "f6a5828b4e939316a597b12d"
+  },
+  {
+    "candidate": "p_10",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "1c43d27a0932aa5a788b04c0"
+  },
+  {
+    "candidate": "p_01",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "25a629885d8018193e64bd0a"
+  },
+  {
+    "candidate": "p_07",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "4bd5a3f4bdbc6ae6a1fe06bf"
+  },
+  {
+    "candidate": "r_eng_terminal",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "e396fb189b68d114a080137a"
+  },
+  {
+    "candidate": "p_04",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "9a54ecb22777881f78aeec32"
+  },
+  {
+    "candidate": "p_05",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "62580b39d25b7ab1e6f9469e"
+  },
+  {
+    "candidate": "r_guard_two",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "cafb9e125dd820c7aa31bb3c"
+  },
+  {
+    "candidate": "c_territory_portfolio",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "0c862668ea332a27d6ad7324"
+  },
+  {
+    "candidate": "s_maximin_d1",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "ea3883016865db778a964f46"
+  },
+  {
+    "candidate": "p_08",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "931d548e2d89596c0fc1c9d8"
+  },
+  {
+    "candidate": "r_guard_terminal",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "04f629c763ffa7dcd02700cd"
+  },
+  {
+    "candidate": "r_eng_guard",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "23e95d96dd9d65ee83445209"
+  },
+  {
+    "candidate": "c_spearhead_portfolio",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "a8256c9fe1b1013a18f67990"
+  },
+  {
+    "candidate": "c_territory_portfolio",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "3f6d5f9d1350f3a38c65ee7c"
+  },
+  {
+    "candidate": "s_mean_min_d4",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "ff4526f98f18775cf36924f4"
+  },
+  {
+    "candidate": "r_combined",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "085eacd0e8e2533500d90f83"
+  },
+  {
+    "candidate": "p_06",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "28afa86c7df30714a0df876c"
+  },
+  {
+    "candidate": "s_maximin_d1",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "376ff172745766e5b3a0d113"
+  },
+  {
+    "candidate": "c_spearhead_direct",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "bc6ba5906312468a3986299e"
+  },
+  {
+    "candidate": "s_switch_guard_d4",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "27e48ee720145cf85b6c34c2"
+  },
+  {
+    "candidate": "p_08",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "4d0cf813634f038a1812e686"
+  },
+  {
+    "candidate": "s_regret_d6",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "216938e2dd9355c03b07aa49"
+  },
+  {
+    "candidate": "c_spearhead_portfolio",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "b9f1abb27d81a05c82d75b5b"
+  },
+  {
+    "candidate": "r_combined",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "f0f1185740c9cf71bd2316b2"
+  },
+  {
+    "candidate": "c_territory_direct",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "903a7234302a9d9565ea2073"
+  },
+  {
+    "candidate": "s_local_hold_d3",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "a88fbf65389612c000467186"
+  },
+  {
+    "candidate": "s_local_hold_d3",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "353d0ba8d5602ed061d68565"
+  },
+  {
+    "candidate": "r_terminal_margin",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "a4ea41bfb0140ce839a64904"
+  },
+  {
+    "candidate": "s_regret_d6",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "5f9b8c2217b46821ef55972d"
+  },
+  {
+    "candidate": "r_guard_two",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "a3ff802a1c68c0d498cc1833"
+  },
+  {
+    "candidate": "s_regret_d2",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "8f7cc7090293f0c5885a5bb7"
+  },
+  {
+    "candidate": "c_economy_direct",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "822ec394ad761c18ebb5a4a2"
+  },
+  {
+    "candidate": "c_spearhead_direct",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "d43ab7ea36d128baaac2b2ec"
+  },
+  {
+    "candidate": "p_09",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "f18b66ebbace8a0ecace0555"
+  },
+  {
+    "candidate": "s_regret_d2",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "2b704ce1b1cca6fe9bade22e"
+  },
+  {
+    "candidate": "r_economic_value",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "dbb555f83e23997d82727fbb"
+  },
+  {
+    "candidate": "s_tail2_d4",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "14d1770002cbbad1e64dec06"
+  },
+  {
+    "candidate": "s_local_hold_d3",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "f0a7c6ff9cfdaa8e5932d310"
+  },
+  {
+    "candidate": "p_05",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "1df0dc05b38e73e3d9d17467"
+  },
+  {
+    "candidate": "r_eng_guard",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "5a73e7258baaf9a3a95f4ffc"
+  },
+  {
+    "candidate": "s_maximin_d1",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "558865133c191b211d3c77f2"
+  },
+  {
+    "candidate": "p_01",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "15952c469cd90facddcfceb0"
+  },
+  {
+    "candidate": "c_territory_direct",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "88ff2698e002a2f5099800ce"
+  },
+  {
+    "candidate": "p_06",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "2c5d323e2f8e1642a7580908"
+  },
+  {
+    "candidate": "p_15",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "3170f65b33b8ce29461f7297"
+  },
+  {
+    "candidate": "p_08",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "bda8ca53a4a8a45ee10799b9"
+  },
+  {
+    "candidate": "c_economy_portfolio",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "98c28c256666164732516c4c"
+  },
+  {
+    "candidate": "r_joint_escort",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "881f41a41b6c44b93b6811c5"
+  },
+  {
+    "candidate": "p_05",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "dd7d9a395198d7fe5a849afc"
+  },
+  {
+    "candidate": "c_spearhead_direct",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "ddb38aa32f09b84aec16af76"
+  },
+  {
+    "candidate": "p_06",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "f516d4ac2a7ceb62b52e5588"
+  },
+  {
+    "candidate": "s_assignment_only",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "a0e4d35e17c6e3a487d17720"
+  },
+  {
+    "candidate": "r_economic_value",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "60bb594fc031a8ccc787cb25"
+  },
+  {
+    "candidate": "p_07",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "4b0e515d63cc39ca6f792828"
+  },
+  {
+    "candidate": "s_local_hold_d3",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "669ad35c683e5fccb1dc9656"
+  },
+  {
+    "candidate": "p_02",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "42d57a01e156ecb62dcfe918"
+  },
+  {
+    "candidate": "p_01",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "2bbac4acff41e83213ede2c3"
+  },
+  {
+    "candidate": "p_04",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "cd35d5fe59549dd795ac2bc8"
+  },
+  {
+    "candidate": "r_guard_two",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "2a5d8709c4bb355979384b1e"
+  },
+  {
+    "candidate": "c_spearhead_portfolio",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "d703fb0a78feb75ee53867ad"
+  },
+  {
+    "candidate": "s_local_hold_d3",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "92c56587443500b37a4b591f"
+  },
+  {
+    "candidate": "s_regret_d2",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "072c78299baaa2e9e6574a36"
+  },
+  {
+    "candidate": "r_guard_one",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "5f0a1b9e5b56fe8dcb09f690"
+  },
+  {
+    "candidate": "c_territory_direct",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "beb4ffdc65735f8a1026fda3"
+  },
+  {
+    "candidate": "c_territory_direct",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "ed8e0c0aecdea393369a6482"
+  },
+  {
+    "candidate": "p_03",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "932a47c7c1471dce0bf71038"
+  },
+  {
+    "candidate": "r_eng_terminal",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "38654b11e347066b3bc022b0"
+  },
+  {
+    "candidate": "s_regret_d2",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "69e84724d1405932b4913805"
+  },
+  {
+    "candidate": "c_economy_portfolio",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "52c84ad9efe2a590800ce4bc"
+  },
+  {
+    "candidate": "p_04",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "7eda7c79ebdbbdf0f5c6f326"
+  },
+  {
+    "candidate": "p_00",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "954b09eaa20283631c7a6690"
+  },
+  {
+    "candidate": "p_03",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "191c6eafe26ba68a1557881d"
+  },
+  {
+    "candidate": "p_11",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "42226e256ac7fef1431e57fd"
+  },
+  {
+    "candidate": "p_15",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "7e9d232a6948326f076459af"
+  },
+  {
+    "candidate": "p_14",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "228ed861dd11bc19cd2b3cba"
+  },
+  {
+    "candidate": "p_01",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "b66d31040b56d4e762bf27de"
+  },
+  {
+    "candidate": "c_economy_direct",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "2d249b01cb477637411e6fbb"
+  },
+  {
+    "candidate": "s_assignment_only",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "c972ed310e4d0d99fcc237c5"
+  },
+  {
+    "candidate": "r_guard_one",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "7e65e78a5eaaeab612431173"
+  },
+  {
+    "candidate": "s_switch_guard_d4",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "a983fd894af304f7d30d050b"
+  },
+  {
+    "candidate": "p_07",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "f64e105886a6f5377b6c6dde"
+  },
+  {
+    "candidate": "p_02",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "71b6a9b58f8cce2725f062dd"
+  },
+  {
+    "candidate": "p_00",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "60723ca498232d3803b90b19"
+  },
+  {
+    "candidate": "r_guard_late",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "2f98764e646622f7722e53fd"
+  },
+  {
+    "candidate": "r_combined",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "080ef003956d4c7a4ba822f3"
+  },
+  {
+    "candidate": "c_territory_portfolio",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "22cae560ab707ca6d358c64e"
+  },
+  {
+    "candidate": "p_11",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "5c5d370058269b2bbcb75646"
+  },
+  {
+    "candidate": "r_economic_value",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "3aee36e15b5d4f1071a4e025"
+  },
+  {
+    "candidate": "r_eng_guard",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "83d9c367ae1d67438ca66097"
+  },
+  {
+    "candidate": "r_guard_terminal",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "b571c6d99c75d1f23ba6c98a"
+  },
+  {
+    "candidate": "s_local_hold_d3",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "46329989fa89f1746d64f0b7"
+  },
+  {
+    "candidate": "c_spearhead_direct",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "c9ef26922da5cbd463d30039"
+  },
+  {
+    "candidate": "p_01",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "1d94e951154c0baa16f0c553"
+  },
+  {
+    "candidate": "p_09",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "f46d429d87cc2776cfb8f2e9"
+  },
+  {
+    "candidate": "p_08",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "bd714260e0ad7e84e491d915"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "7f714d15ce8a2761a6889f64"
+  },
+  {
+    "candidate": "p_14",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "39300ffae0e24f4bc3d693de"
+  },
+  {
+    "candidate": "p_10",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "38ab2259c5146e59b12b7596"
+  },
+  {
+    "candidate": "r_guard_terminal",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "0c664b7432e7979bd42e05db"
+  },
+  {
+    "candidate": "s_maximin_d4",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "6c6e1a468c06690f2e49f3a8"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "cc0da9cafd96b82b778311d3"
+  },
+  {
+    "candidate": "r_eng_terminal",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "a2ab60ccfc5b6bcd63097d89"
+  },
+  {
+    "candidate": "p_02",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "0930d7c81452cace44741ee0"
+  },
+  {
+    "candidate": "s_local_hold_d3",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "b530e70337e6ebd54c6860ec"
+  },
+  {
+    "candidate": "p_14",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "82b16c3466d10be7f9bba8a4"
+  },
+  {
+    "candidate": "p_09",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "74116ee9f4f56a45f685c00b"
+  },
+  {
+    "candidate": "c_spearhead_portfolio",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "1006afc0cb2857b2d7847e96"
+  },
+  {
+    "candidate": "s_regret_d2",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "3a57e623fa5f1daeae56016c"
+  },
+  {
+    "candidate": "s_assignment_only",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "d641af640c9c041c0810e6b2"
+  },
+  {
+    "candidate": "s_local_hold_d3",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "a7cfdba27a80f32753fc5462"
+  },
+  {
+    "candidate": "p_10",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "637ee9ae4172c0eda7f873af"
+  },
+  {
+    "candidate": "r_guard_terminal",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "76704a2bb0a971abacabf505"
+  },
+  {
+    "candidate": "c_territory_portfolio",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "60216d7dac9f05a521b2bfaf"
+  },
+  {
+    "candidate": "c_economy_direct",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "a2a33727e10bb9569dee8d17"
+  },
+  {
+    "candidate": "r_guard_two",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "c97eeb81327f01bc0e278f17"
+  },
+  {
+    "candidate": "c_spearhead_portfolio",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "65063ac0120668015df5e02f"
+  },
+  {
+    "candidate": "p_08",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "3b4e581149b0b4a9ac9e35c7"
+  },
+  {
+    "candidate": "r_terminal_margin",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "bf8e36301481262d3f93ad25"
+  },
+  {
+    "candidate": "p_13",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "81d4f58587a2785c9cd7e970"
+  },
+  {
+    "candidate": "s_regret_d2",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "446664c76798191acdd83d88"
+  },
+  {
+    "candidate": "p_15",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "36ee7d1659950b298e428b2a"
+  },
+  {
+    "candidate": "s_maximin_d4",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "7c6cae82b56b559a20247c92"
+  },
+  {
+    "candidate": "p_03",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "bcb93eb46eaa11512160e1ea"
+  },
+  {
+    "candidate": "p_09",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "c3f3cf39cad1aa68842b6da5"
+  },
+  {
+    "candidate": "p_07",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "fd5ce8fd62e874b09a698763"
+  },
+  {
+    "candidate": "c_spearhead_direct",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "95a2ca82b1445a4cd8c0f35e"
+  },
+  {
+    "candidate": "s_maximin_d1",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "455fd824ba2a3963de987102"
+  },
+  {
+    "candidate": "r_terminal_margin",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "c08cb88d24390633bbc9e46f"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "73c1a451af167579281ef355"
+  },
+  {
+    "candidate": "r_guard_terminal",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "308114ae75b47d99deb15cd6"
+  },
+  {
+    "candidate": "r_terminal_margin",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "398f491ceeadbbd9b67efaed"
+  },
+  {
+    "candidate": "p_00",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "cd64e90e09f07e5d33ffa143"
+  },
+  {
+    "candidate": "p_14",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "5cb7feb6393b4cc1c2bc9b0f"
+  },
+  {
+    "candidate": "r_guard_two",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "d936d067e2c01ef391eeb2a4"
+  },
+  {
+    "candidate": "p_15",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "4c4f06f84b8b01e8b4b940ff"
+  },
+  {
+    "candidate": "s_maximin_d1",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "a1e94a8693632ccb208afc23"
+  },
+  {
+    "candidate": "s_tail2_d4",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "9020eb108e5f1f7f0c1d6993"
+  },
+  {
+    "candidate": "r_guard_late",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "2fc8458452733531048dcb72"
+  },
+  {
+    "candidate": "r_guard_two",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "5f50f8e88e7e6f63b450efd0"
+  },
+  {
+    "candidate": "r_guard_two",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "bb4337d27b20f34d60ea8467"
+  },
+  {
+    "candidate": "p_11",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "5b9e7969ce8ef5516f284f6b"
+  },
+  {
+    "candidate": "s_regret_d6",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "6449e62d0efc488b764132a3"
+  },
+  {
+    "candidate": "r_joint_escort",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "9bf8331a3b380bd294f80fc5"
+  },
+  {
+    "candidate": "p_04",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "4e04fd0dca7b088f1c296c82"
+  },
+  {
+    "candidate": "s_tail2_d4",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "bea070c794b745301c4c8bc5"
+  },
+  {
+    "candidate": "p_02",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "3a747851cda0d9ee0f8abc69"
+  },
+  {
+    "candidate": "s_mean_d4",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "513c120187fac4c8d35cf844"
+  },
+  {
+    "candidate": "p_11",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "0fa89622838de2bf4425a421"
+  },
+  {
+    "candidate": "r_combined",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "c5619e3dc776d77f33d4a94b"
+  },
+  {
+    "candidate": "p_09",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "4d2a93c55ac48b82ea74ee50"
+  },
+  {
+    "candidate": "p_01",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "68b6eb963efefe5e286dcd01"
+  },
+  {
+    "candidate": "p_11",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "b29da5ade043ef6f83a71fa1"
+  },
+  {
+    "candidate": "r_guard_terminal",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "2586c4fec054adbaf98c43a5"
+  },
+  {
+    "candidate": "r_economic_value",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "8d496567cae435cd1bb46417"
+  },
+  {
+    "candidate": "r_guard_one",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "da3ec619f6529208808182fb"
+  },
+  {
+    "candidate": "p_09",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "a6307a23ecf1330080fb4b46"
+  },
+  {
+    "candidate": "r_guard_one",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "2efb8ddaef0b63db30cacb08"
+  },
+  {
+    "candidate": "p_10",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "e16e27abd3f61d4f82f2794c"
+  },
+  {
+    "candidate": "s_switch_guard_d4",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "3a0a1950e3e6e24ee7048983"
+  },
+  {
+    "candidate": "p_08",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "31af8c51ac55f178c42002fc"
+  },
+  {
+    "candidate": "s_tail2_d4",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "affd3ac941caf714256283c8"
+  },
+  {
+    "candidate": "r_eng_guard",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "2e3498fd85456b655c9247be"
+  },
+  {
+    "candidate": "r_economic_value",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "9282238df1b09a59d23fd5f7"
+  },
+  {
+    "candidate": "p_15",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "4453ef1c295bd1e0463a953c"
+  },
+  {
+    "candidate": "r_guard_one",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "57e2372c6bf7a4e8cd7a855e"
+  },
+  {
+    "candidate": "s_mean_d4",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "efd985cd958af7aa45aba20f"
+  },
+  {
+    "candidate": "r_economic_value",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "165005b071db585e07b78ec9"
+  },
+  {
+    "candidate": "s_assignment_only",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "c09566b21cd97154b996e42e"
+  },
+  {
+    "candidate": "p_12",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "f633069d56627a646c2b7232"
+  },
+  {
+    "candidate": "p_07",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "d1217eb1935085ae136838e3"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "7347b369bd0920094bacc65f"
+  },
+  {
+    "candidate": "c_economy_portfolio",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "e462394dddc250811b217cee"
+  },
+  {
+    "candidate": "c_territory_portfolio",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "41c372adea27ebb81eb2e8ff"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "b0b6bb265280970992c94f39"
+  },
+  {
+    "candidate": "p_14",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "c49f908aa84024a375ee4d9e"
+  },
+  {
+    "candidate": "p_03",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "fb5960e0c951c594748aaba4"
+  },
+  {
+    "candidate": "p_14",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "a3ecca60c33bb5ad951a8b1e"
+  },
+  {
+    "candidate": "r_guard_terminal",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "35e85402438e6c409ff005ea"
+  },
+  {
+    "candidate": "p_14",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "ee5d8cf278d6f6dfc6f37644"
+  },
+  {
+    "candidate": "s_maximin_d1",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "32801c4374ac11af9f0b034b"
+  },
+  {
+    "candidate": "p_04",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "7d5cc0f136eccc0b6812fed0"
+  },
+  {
+    "candidate": "p_06",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "73ec2865e5881b2da7c47043"
+  },
+  {
+    "candidate": "s_maximin_d4",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "c88293f81a4f322c97c9a7c8"
+  },
+  {
+    "candidate": "p_00",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "4e6bc3e27fb44d4b45ff0c48"
+  },
+  {
+    "candidate": "s_maximin_d4",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "4e9f4a3f34e3ccf7de0119ee"
+  },
+  {
+    "candidate": "s_regret_d6",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "56813c04387e66575c9b2923"
+  },
+  {
+    "candidate": "r_guard_late",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "88d42d5e45cf9feccd1068bb"
+  },
+  {
+    "candidate": "c_spearhead_direct",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "a474d03555c4026ea943ba00"
+  },
+  {
+    "candidate": "p_09",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "5ca69da8a302685d201b7d73"
+  },
+  {
+    "candidate": "p_09",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "7ac28a160f1f24bb800bb1ec"
+  },
+  {
+    "candidate": "r_guard_late",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "1d91c207361ae650d18a6736"
+  },
+  {
+    "candidate": "s_tail2_d4",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "cb1f8bcf7187f03b5763c960"
+  },
+  {
+    "candidate": "r_guard_two",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "1957135c7f7abcb144f42082"
+  },
+  {
+    "candidate": "p_03",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "8d02fe2332d470f205ba04b4"
+  },
+  {
+    "candidate": "r_economic_value",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "953610eecea3a3ee1e35dda8"
+  },
+  {
+    "candidate": "c_economy_direct",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "9bc9bbe338d96b3f2ae6d5ea"
+  },
+  {
+    "candidate": "s_regret_d2",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "b7587e1e04243a785b520e0e"
+  },
+  {
+    "candidate": "p_08",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "9f87acc3a6d323ee510b9cf1"
+  },
+  {
+    "candidate": "p_01",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "aece96f25f0f7363b162ef11"
+  },
+  {
+    "candidate": "c_spearhead_portfolio",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "312b1d8e50e138779908604c"
+  },
+  {
+    "candidate": "r_combined",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "cd0c9e778e4f88c64dfd0e6f"
+  },
+  {
+    "candidate": "r_eng_terminal",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "b5ab065583dd523568ae6fbd"
+  },
+  {
+    "candidate": "s_mean_d4",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "0bdad0e5fcae99c9ee7bcbed"
+  },
+  {
+    "candidate": "p_04",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "f8ca86548cfd3951e3a17535"
+  },
+  {
+    "candidate": "r_eng_terminal",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "c0f51b6b8d3c1565370cd834"
+  },
+  {
+    "candidate": "r_eng_terminal",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "419d0c1ad8cdd3c18c05a775"
+  },
+  {
+    "candidate": "r_eng_terminal",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "a4dfb594ec7e2c18b4230d67"
+  },
+  {
+    "candidate": "p_08",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "9bfd1c4acc86e32ee6aff5c2"
+  },
+  {
+    "candidate": "c_economy_portfolio",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "71dd8379602c8f0eb0923dd5"
+  },
+  {
+    "candidate": "s_regret_d2",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "aff37ba4794a9ae8520161f4"
+  },
+  {
+    "candidate": "c_territory_direct",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "41989c12983df8f2e6f73b2e"
+  },
+  {
+    "candidate": "r_economic_value",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "d27dde7546ed48b9d88f3b58"
+  },
+  {
+    "candidate": "s_maximin_d1",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "109b0ba0a78a5186d166cdd4"
+  },
+  {
+    "candidate": "c_economy_portfolio",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "7d21624425beb604e3041e52"
+  },
+  {
+    "candidate": "s_switch_guard_d4",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "fc4630b2981be441facac3de"
+  },
+  {
+    "candidate": "c_spearhead_direct",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "8578e22afca939df2ba42a74"
+  },
+  {
+    "candidate": "p_10",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "5fd67b12666c30a1136c07af"
+  },
+  {
+    "candidate": "p_02",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "50c132f51d23fe0f9a95f89a"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "06290b25af24592d9b2c48b6"
+  },
+  {
+    "candidate": "c_territory_direct",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "123988f93646d71a01ea8fb6"
+  },
+  {
+    "candidate": "p_04",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "83ae24c71a90e43d4b7bc21d"
+  },
+  {
+    "candidate": "s_maximin_d1",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "afd59b6577122ba6d844bc42"
+  },
+  {
+    "candidate": "p_02",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "aadcd6fe1bed2f0076410644"
+  },
+  {
+    "candidate": "s_mean_min_d4",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "7f8257e9b1f126205c0f6d81"
+  },
+  {
+    "candidate": "s_switch_guard_d4",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "48c55b3e1e6f064dc4bc6f82"
+  },
+  {
+    "candidate": "c_spearhead_direct",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "984e86ad0f192cca5aaf3120"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "4e023da444ec7a9d3d1133d1"
+  },
+  {
+    "candidate": "p_02",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "b7da15f682db059072093c40"
+  },
+  {
+    "candidate": "r_guard_terminal",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "dc726aa45b93d3dbd79d043e"
+  },
+  {
+    "candidate": "c_territory_direct",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "1da69a42c1f236870de45abb"
+  },
+  {
+    "candidate": "p_01",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "de277d5705f1152d022bc3fa"
+  },
+  {
+    "candidate": "r_joint_escort",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "954bbd3d3998dffc4807bd96"
+  },
+  {
+    "candidate": "p_03",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "abd35dbe2b5d79e455f28f7d"
+  },
+  {
+    "candidate": "s_local_hold_d3",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "c30a83239f56568e90869c12"
+  },
+  {
+    "candidate": "s_tail2_d4",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "437121404d5df10728873fc5"
+  },
+  {
+    "candidate": "s_maximin_d1",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "2491ec694fd96b177defdccd"
+  },
+  {
+    "candidate": "p_14",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "c3b5f0b01ac864aedd4201e0"
+  },
+  {
+    "candidate": "r_eng_terminal",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "d70b819d1a328b3b78a2f053"
+  },
+  {
+    "candidate": "p_02",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "1077e347445daad6bf9a4c81"
+  },
+  {
+    "candidate": "p_00",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "54592b7406f4e3c460097e42"
+  },
+  {
+    "candidate": "p_03",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "9e617565bbb00e417d5c2168"
+  },
+  {
+    "candidate": "p_11",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "cee4c00e52dc6b2c3c71dcdc"
+  },
+  {
+    "candidate": "c_economy_direct",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "3119ea65ab30afd1d4e301b2"
+  },
+  {
+    "candidate": "p_02",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "573ab3b2472c9cd31e2bc098"
+  },
+  {
+    "candidate": "r_guard_late",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "429b261940a8a20ce4b3c209"
+  },
+  {
+    "candidate": "s_maximin_d4",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "507ae6d9eb5d344a48d9edd6"
+  },
+  {
+    "candidate": "p_10",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "b440805a80f397f39eddfd9a"
+  },
+  {
+    "candidate": "s_switch_guard_d4",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "5b3c8067cb86204cae7603a3"
+  },
+  {
+    "candidate": "s_local_hold_d3",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "d1a2c358986f86c4c41b8e1d"
+  },
+  {
+    "candidate": "s_maximin_d4",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "68cf072ad0d14d0237afaaff"
+  },
+  {
+    "candidate": "s_regret_d2",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "c6e273c3f0d8d27c97eedd18"
+  },
+  {
+    "candidate": "p_00",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "2c220d2353e1b5e1834e9229"
+  },
+  {
+    "candidate": "s_assignment_only",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "f4fe903bf7bbed4d09fcc6a7"
+  },
+  {
+    "candidate": "r_eng_guard",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "d371c4227784c7ee340a237c"
+  },
+  {
+    "candidate": "r_guard_terminal",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "c089b5d7867eb3625f481d22"
+  },
+  {
+    "candidate": "s_mean_d4",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "fb542ad6c597ec64dd85a697"
+  },
+  {
+    "candidate": "s_regret_d6",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "89aff684792e0fc68dd5c1af"
+  },
+  {
+    "candidate": "r_guard_two",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "002c19547ad4be10962eb92a"
+  },
+  {
+    "candidate": "r_joint_escort",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "62f0f9217b6de97a51205e8d"
+  },
+  {
+    "candidate": "c_economy_portfolio",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "740a5e1bda7478cecb423ef7"
+  },
+  {
+    "candidate": "r_guard_one",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "76fd610d8dcf58c1acc60c05"
+  },
+  {
+    "candidate": "p_10",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "3007e2f83ea82758ff1a564a"
+  },
+  {
+    "candidate": "s_regret_d6",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "f983354c0193b077d91665b5"
+  },
+  {
+    "candidate": "p_14",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "4f8c4d8fbcd4a5448fd80930"
+  },
+  {
+    "candidate": "c_territory_direct",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "52f391bb9070749f973185ae"
+  },
+  {
+    "candidate": "c_territory_direct",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "4c5444613944839b1d98ef81"
+  },
+  {
+    "candidate": "r_eng_guard",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "0547e38ffca8e8082a658906"
+  },
+  {
+    "candidate": "s_switch_guard_d4",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "0457a6199d06d832ae489350"
+  },
+  {
+    "candidate": "c_economy_portfolio",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "51420df79ff8f8dfad89ed75"
+  },
+  {
+    "candidate": "s_regret_d6",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "8fc349b5c1b05e9551ec4916"
+  },
+  {
+    "candidate": "p_12",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "c9cb66788d910476422a891f"
+  },
+  {
+    "candidate": "s_regret_d2",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "83559dc6f01c58afa6b5815d"
+  },
+  {
+    "candidate": "p_13",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "1da2eedb2d697b1740623b95"
+  },
+  {
+    "candidate": "p_03",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "8dbc73b5022880b62cad3191"
+  },
+  {
+    "candidate": "c_spearhead_portfolio",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "04c0709acc961c9c8d1f231e"
+  },
+  {
+    "candidate": "s_switch_guard_d4",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "1f2689f4547a382124858d4b"
+  },
+  {
+    "candidate": "p_05",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "ad8d167ec0845f551242ca06"
+  },
+  {
+    "candidate": "p_07",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "8ad0e5650ab5873b7248b4cf"
+  },
+  {
+    "candidate": "s_switch_guard_d4",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "9fdac7d9a56e9a4b24976c75"
+  },
+  {
+    "candidate": "c_spearhead_direct",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "936fcdc4431702a448c1f1fd"
+  },
+  {
+    "candidate": "p_03",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "f86d7d2d43fbbc0d25a788e2"
+  },
+  {
+    "candidate": "p_13",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "d53c24f9744591e59d08b360"
+  },
+  {
+    "candidate": "p_13",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "4b690bbfa84cc0abddd5d874"
+  },
+  {
+    "candidate": "s_local_hold_d3",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "ee775a2e61b8ccb05a2f1e68"
+  },
+  {
+    "candidate": "c_economy_portfolio",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "455f8886b5a3a119eb5c8165"
+  },
+  {
+    "candidate": "r_guard_terminal",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "f94ea0f474ff76811e753a2e"
+  },
+  {
+    "candidate": "r_terminal_margin",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "7556712a314a5c346c380c2d"
+  },
+  {
+    "candidate": "p_05",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "6202eb35eda0b7a1ad1becee"
+  },
+  {
+    "candidate": "s_regret_d6",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "a59250ca04cd6d1f14316c88"
+  },
+  {
+    "candidate": "p_07",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "44fadf814fc1eae18ac807bb"
+  },
+  {
+    "candidate": "r_guard_late",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "18ce190feca0c742df968624"
+  },
+  {
+    "candidate": "c_territory_direct",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "b9553435511858749d031d24"
+  },
+  {
+    "candidate": "r_eng_guard",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "73c962c913442eda0845955b"
+  },
+  {
+    "candidate": "p_15",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "bfc9ecff51b3fc67ea88e6b3"
+  },
+  {
+    "candidate": "c_territory_direct",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "ec9d30fa082ea5371e509caa"
+  },
+  {
+    "candidate": "p_13",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "d65a108f7b441289c615d4ec"
+  },
+  {
+    "candidate": "p_14",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "423be8fcad3417271085b36b"
+  },
+  {
+    "candidate": "s_local_hold_d3",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "f9001591d0b8dd2f24ec1116"
+  },
+  {
+    "candidate": "r_eng_guard",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "ef0fbebec4899ed42ba21282"
+  },
+  {
+    "candidate": "r_eng_guard",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "4a3f52043d9174024b38b47e"
+  },
+  {
+    "candidate": "p_00",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "073ee5e77196eccaf9313967"
+  },
+  {
+    "candidate": "p_01",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "1428f42e652129eaa33e819c"
+  },
+  {
+    "candidate": "c_spearhead_direct",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "3a094786b335b557094051e4"
+  },
+  {
+    "candidate": "r_guard_one",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "d5dfe1eeae576fe494bd33b5"
+  },
+  {
+    "candidate": "r_terminal_margin",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "c7c1c0559c9ebeb3dd1827cd"
+  },
+  {
+    "candidate": "p_14",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "5d2a03c8c8ad453c5aae1d89"
+  },
+  {
+    "candidate": "p_13",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "deb029eedaf1f8b123f53479"
+  },
+  {
+    "candidate": "p_11",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "ec37912579084a675ffdc5a0"
+  },
+  {
+    "candidate": "s_mean_d4",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "61bc3a0502623c69b6af8322"
+  },
+  {
+    "candidate": "s_mean_d4",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "15cbe6ee0165d41d06aab8de"
+  },
+  {
+    "candidate": "r_guard_two",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "6bec271d5c712115a8a6dad4"
+  },
+  {
+    "candidate": "p_01",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "19158ea524d19c6211c4ad68"
+  },
+  {
+    "candidate": "c_spearhead_direct",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "831805f792adc8da53c3d536"
+  },
+  {
+    "candidate": "p_08",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "db44b2b983f3be6c6cdb8430"
+  },
+  {
+    "candidate": "r_eng_terminal",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "16f4626ee2a0e35a469e265c"
+  },
+  {
+    "candidate": "p_06",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "05d06707aeecf643e09e9dd4"
+  },
+  {
+    "candidate": "s_switch_guard_d4",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "c42048c317c30e14fec2ccca"
+  },
+  {
+    "candidate": "p_01",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "c0cea33388a559652d932d8a"
+  },
+  {
+    "candidate": "c_spearhead_direct",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "299a32e34c2f36f31f37ba56"
+  },
+  {
+    "candidate": "s_tail2_d4",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "464c440d32df2759d8ee1570"
+  },
+  {
+    "candidate": "s_assignment_only",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "e7d5201a42b68c808053b52d"
+  },
+  {
+    "candidate": "r_terminal_margin",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "70817b1d76243499e1eab4c1"
+  },
+  {
+    "candidate": "s_maximin_d1",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "bf176270c7efee5cc3ec0b9e"
+  },
+  {
+    "candidate": "p_05",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "97d59e915291b3643537cbaa"
+  },
+  {
+    "candidate": "r_terminal_margin",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "9f41567ba4aec0116ef99d1c"
+  },
+  {
+    "candidate": "r_eng_guard",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "62bf0c0f5d2291d86d7f60d7"
+  },
+  {
+    "candidate": "p_10",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "4a24b5d6f59399c87c6e7d0c"
+  },
+  {
+    "candidate": "p_00",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "2638a2f3aa82fbdba85fc3cc"
+  },
+  {
+    "candidate": "p_00",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "8c8df296032ced1bd76813e5"
+  },
+  {
+    "candidate": "c_economy_portfolio",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "0833f9fe26f9aea5e776a8cf"
+  },
+  {
+    "candidate": "p_13",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "7f4a496572bd4f3e47724081"
+  },
+  {
+    "candidate": "r_economic_value",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "9a750678c2e64cc5f15263f4"
+  },
+  {
+    "candidate": "s_tail2_d4",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "5a2b77b37647c088efe80bc8"
+  },
+  {
+    "candidate": "p_04",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "a1dd2432f586aade87500a94"
+  },
+  {
+    "candidate": "s_mean_d4",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "36ad84bbbbb30f9a4f3bca26"
+  },
+  {
+    "candidate": "p_10",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "3af77f1339926f015f458229"
+  },
+  {
+    "candidate": "c_territory_portfolio",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "082eb72a7c6f6cdcbb0de38e"
+  },
+  {
+    "candidate": "s_regret_d6",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "927ae66c27faaa93d2620da4"
+  },
+  {
+    "candidate": "c_territory_direct",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "9a9cb92a4771579bc342b8c1"
+  },
+  {
+    "candidate": "p_07",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "48595ff118f60f193dc2d6bc"
+  },
+  {
+    "candidate": "s_mean_d4",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "a52d9ea05327313278dabed0"
+  },
+  {
+    "candidate": "r_combined",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "e09fc813cee61b3f1fe073d9"
+  },
+  {
+    "candidate": "r_joint_escort",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "6dd2dcd86f92417b8b57ebbf"
+  },
+  {
+    "candidate": "r_joint_escort",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "ccc61009488314ecb4120ef4"
+  },
+  {
+    "candidate": "p_01",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "9f0ae8c853bf4dc2e848d02e"
+  },
+  {
+    "candidate": "c_economy_portfolio",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "1d6fad5af5de9d036f48eaf2"
+  },
+  {
+    "candidate": "r_guard_one",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "18eb1c02b5978c655a65fce3"
+  },
+  {
+    "candidate": "p_03",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "de476f961ab11ebd7e8631d5"
+  },
+  {
+    "candidate": "c_spearhead_portfolio",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "66241a79c4764e514a143fa2"
+  },
+  {
+    "candidate": "p_14",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "0866d61257bf213b73447112"
+  },
+  {
+    "candidate": "c_economy_direct",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "f1117d4dbc867e6bcfdb3b54"
+  },
+  {
+    "candidate": "r_guard_terminal",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "4cfb628e1d0fdc23fea9cd95"
+  },
+  {
+    "candidate": "r_guard_terminal",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "3fb62702eca864652745cf00"
+  },
+  {
+    "candidate": "p_01",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "350b9134b8ca41a49da4cda5"
+  },
+  {
+    "candidate": "c_spearhead_direct",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "f9999d2997b285b7f9f0ec87"
+  },
+  {
+    "candidate": "p_07",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "10e72d7ba3acbd9b8523f865"
+  },
+  {
+    "candidate": "s_tail2_d4",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "c29c2668ff40e0599fed267e"
+  },
+  {
+    "candidate": "p_12",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "1a38e190507c403788d59d7f"
+  },
+  {
+    "candidate": "r_guard_late",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "d46a173ddbc14e08f183c54f"
+  },
+  {
+    "candidate": "c_spearhead_direct",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "2bbfcf25dd4bd6770c1108c0"
+  },
+  {
+    "candidate": "s_switch_guard_d4",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "d9b2b0771f25581ceb911c4f"
+  },
+  {
+    "candidate": "s_switch_guard_d4",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "86dd64a92cb1367a75a51bc8"
+  },
+  {
+    "candidate": "c_spearhead_portfolio",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "676e6adc47afefd700159bfa"
+  },
+  {
+    "candidate": "p_05",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "d583cf820af12fd738ca6f29"
+  },
+  {
+    "candidate": "r_terminal_margin",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "fe30b09234394f1d1daf4280"
+  },
+  {
+    "candidate": "s_regret_d2",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "709cc98c0f175a0bc2289bf8"
+  },
+  {
+    "candidate": "s_mean_min_d4",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "26c644dd124d5f1419f113da"
+  },
+  {
+    "candidate": "p_04",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "1bcecef6b31225274be9cefb"
+  },
+  {
+    "candidate": "s_assignment_only",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "6c359eb20f6b605ebd416364"
+  },
+  {
+    "candidate": "r_guard_one",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "586980fb88d5f6345c8e83e1"
+  },
+  {
+    "candidate": "p_11",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "6c0f419afff143aa53d4912d"
+  },
+  {
+    "candidate": "p_07",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "a2f0783f4d5a29d9be915e9a"
+  },
+  {
+    "candidate": "c_territory_portfolio",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "52c56eefa2d316e36bcab81f"
+  },
+  {
+    "candidate": "r_guard_two",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "42d138a88d9d75570b1b6c71"
+  },
+  {
+    "candidate": "r_guard_terminal",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "cbded283c16a4324e89a55ee"
+  },
+  {
+    "candidate": "p_14",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "ae3df5ad5026ae425f36e0af"
+  },
+  {
+    "candidate": "p_08",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "0f8589e515356b1106d85cf0"
+  },
+  {
+    "candidate": "c_economy_direct",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "fb0162f33f75285a3a12c7e8"
+  },
+  {
+    "candidate": "s_mean_min_d4",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "591a6669fd85b0b94fb28f10"
+  },
+  {
+    "candidate": "p_12",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "1dfddb7778e49d107a8dfa35"
+  },
+  {
+    "candidate": "r_eng_guard",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "dc4bd4174863c88fddc1d620"
+  },
+  {
+    "candidate": "p_13",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "8de6ed443f6b634c15f51ad3"
+  },
+  {
+    "candidate": "s_mean_d4",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "467f56249deda59789874324"
+  },
+  {
+    "candidate": "s_assignment_only",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "862f0e11c02449a8588dee96"
+  },
+  {
+    "candidate": "p_11",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "67744e557b331fe59fd20031"
+  },
+  {
+    "candidate": "c_economy_direct",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "3f645a5ecbd65fc536f75079"
+  },
+  {
+    "candidate": "r_guard_two",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "23d01e38686492d761ad049a"
+  },
+  {
+    "candidate": "p_04",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "44b903b24d6e02bda818d940"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "8aea2203c25687db9beb6031"
+  },
+  {
+    "candidate": "s_mean_d4",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "1dbd843d4901e5cb6f43071f"
+  },
+  {
+    "candidate": "p_07",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "1f04fcd6c0e3e087294c990a"
+  },
+  {
+    "candidate": "p_09",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "75b4a0637d781c4ff2f2099a"
+  },
+  {
+    "candidate": "r_guard_late",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "51deba16ca15655f9113f67d"
+  },
+  {
+    "candidate": "s_local_hold_d3",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "971258b2c2acdb871ca126b7"
+  },
+  {
+    "candidate": "s_assignment_only",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "0f9efad606b5d0ce39aaf5e0"
+  },
+  {
+    "candidate": "p_09",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "38cd8f4d48682fbbc62dd90b"
+  },
+  {
+    "candidate": "p_15",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "0aa9a2b51d9a32eeb6adea5d"
+  },
+  {
+    "candidate": "s_mean_d4",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "8fb2e0e2ac7df3751597de0c"
+  },
+  {
+    "candidate": "p_06",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "cf038800ac2f2c3c5602a0c0"
+  },
+  {
+    "candidate": "c_spearhead_portfolio",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "066ac69afa45346a5cd3407b"
+  },
+  {
+    "candidate": "s_maximin_d4",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "17973120e3dbcce0704f3f37"
+  },
+  {
+    "candidate": "c_economy_direct",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "55a5cf582e09eccf4b1d628c"
+  },
+  {
+    "candidate": "c_territory_portfolio",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "e1506cf4d697c3833593c271"
+  },
+  {
+    "candidate": "s_regret_d2",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "4278abf4540a96be881c94d1"
+  },
+  {
+    "candidate": "r_guard_one",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "7817fbf4911b6f9b6e2505a7"
+  },
+  {
+    "candidate": "r_guard_two",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "39b0f2c05cdb80043769a2ea"
+  },
+  {
+    "candidate": "p_11",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "d3aaebe9ef1df50bc4ce4f62"
+  },
+  {
+    "candidate": "r_terminal_margin",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "1ffda199161e5ba186398761"
+  },
+  {
+    "candidate": "s_local_hold_d3",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "8a336398907ce3ab176f4fa0"
+  },
+  {
+    "candidate": "p_13",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "07a7a0869076a9be44bc61c2"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "aa10b3772a590baa94a11dd5"
+  },
+  {
+    "candidate": "p_11",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "d5cd79bb5fc9a42649f2e531"
+  },
+  {
+    "candidate": "s_maximin_d1",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "82175e20e44fa1026ee448e0"
+  },
+  {
+    "candidate": "p_10",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "375bfac7fa21ef1c3845df90"
+  },
+  {
+    "candidate": "s_mean_min_d4",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "ac9bf8d18711c3f586ca37bf"
+  },
+  {
+    "candidate": "r_terminal_margin",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "d90aa4b16b850cc3eb031c9b"
+  },
+  {
+    "candidate": "r_guard_terminal",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "e763667f8d4d0d9e4588cd16"
+  },
+  {
+    "candidate": "p_05",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "cad36a37b82f5b6b7a85f608"
+  },
+  {
+    "candidate": "c_territory_portfolio",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "fa55764122ef8c9f5e227bdf"
+  },
+  {
+    "candidate": "c_territory_portfolio",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "14835fba14dc35659457a120"
+  },
+  {
+    "candidate": "p_00",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "388f2961923322380eefa426"
+  },
+  {
+    "candidate": "p_02",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "47d921332c3b87232700346a"
+  },
+  {
+    "candidate": "c_economy_direct",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "61fbdb8f4ddf7741f4ac341c"
+  },
+  {
+    "candidate": "s_maximin_d1",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "33ccabb1d8eda7212d7e6b9c"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "6e6883df3e0bf2dead048974"
+  },
+  {
+    "candidate": "r_terminal_margin",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "48293f59f1f72968ae431c72"
+  },
+  {
+    "candidate": "s_local_hold_d3",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "3db2f5fc4dea7d1a556f0fee"
+  },
+  {
+    "candidate": "p_03",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "8a69835796f02c470d03daf8"
+  },
+  {
+    "candidate": "c_spearhead_portfolio",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "a342b5c443f1b9038c6b59de"
+  },
+  {
+    "candidate": "s_mean_min_d4",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "603556ca18cfe9acbc7f0394"
+  },
+  {
+    "candidate": "r_joint_escort",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "5343eacf13d9d8f3ff34015f"
+  },
+  {
+    "candidate": "s_mean_min_d4",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "0ee1619154930e0743728cc4"
+  },
+  {
+    "candidate": "p_00",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "1765d758c94a67f16e7b82e3"
+  },
+  {
+    "candidate": "s_tail2_d4",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "d8fcd969055e1d52752d3a81"
+  },
+  {
+    "candidate": "r_guard_one",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "c8966cb476ed28b3b6e7d41a"
+  },
+  {
+    "candidate": "p_09",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "08f37af743249e4b420581f4"
+  },
+  {
+    "candidate": "p_00",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "ea358a1b7f0e3d85e089ef4d"
+  },
+  {
+    "candidate": "r_combined",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "d8de4653b505441477fe1199"
+  },
+  {
+    "candidate": "c_economy_portfolio",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "53c19601a5da2984efa511d0"
+  },
+  {
+    "candidate": "r_eng_terminal",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "818570165adcf017edcd92c3"
+  },
+  {
+    "candidate": "r_guard_one",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "b3eec431ee376347855da66d"
+  },
+  {
+    "candidate": "c_spearhead_direct",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "ba2a316bece290dee428e860"
+  },
+  {
+    "candidate": "r_guard_terminal",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "7f1ff5523c0ea912924d0491"
+  },
+  {
+    "candidate": "c_economy_portfolio",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "f0e3a50fa20efbdf1549d471"
+  },
+  {
+    "candidate": "s_assignment_only",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "7bd8791d6bd4371f15fabb85"
+  },
+  {
+    "candidate": "r_guard_one",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "5c931041a3c74f474e6eb44e"
+  },
+  {
+    "candidate": "r_economic_value",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "8daa9f105a842c11eefed3a3"
+  },
+  {
+    "candidate": "p_04",
+    "opponent": "v2",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "2ea29308e4b11fe2050a9b9b"
+  },
+  {
+    "candidate": "s_switch_guard_d4",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "5706b6dccf438a7d5b48fbf6"
+  },
+  {
+    "candidate": "s_regret_d6",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "4a71b64cad83469d53bd5362"
+  },
+  {
+    "candidate": "p_11",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "655f991d72bea1c53fedbc79"
+  },
+  {
+    "candidate": "c_territory_portfolio",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "c62c81d71db36d18183ad551"
+  },
+  {
+    "candidate": "r_guard_one",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "d5917f1868c4b288190b6420"
+  },
+  {
+    "candidate": "s_maximin_d4",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "03bdca3aa872780b885081da"
+  },
+  {
+    "candidate": "r_joint_escort",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "35fd054c7cb54d7c8acd7df0"
+  },
+  {
+    "candidate": "r_economic_value",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "4a226075cd3a2f7aad158363"
+  },
+  {
+    "candidate": "r_combined",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "2b6cbcbc0529ffce9b2368d2"
+  },
+  {
+    "candidate": "c_economy_direct",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "a4a98c65e3ceaf63ad8d3a55"
+  },
+  {
+    "candidate": "s_mean_min_d4",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "9eb6b5b4e84b34bda6ae5abe"
+  },
+  {
+    "candidate": "p_04",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "d5a1a4e6ddf4fdf562ddf454"
+  },
+  {
+    "candidate": "r_joint_escort",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "6d1b89022e098c96f0c79d49"
+  },
+  {
+    "candidate": "c_economy_direct",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "4d7921db5f72c815cd0b10b2"
+  },
+  {
+    "candidate": "c_territory_direct",
+    "opponent": "c_territory_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "2d3fc50cd8d171020b568b97"
+  },
+  {
+    "candidate": "p_09",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "e586c5ca184147780189fa56"
+  },
+  {
+    "candidate": "c_territory_direct",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "bd108e738856d129dec1ddef"
+  },
+  {
+    "candidate": "p_13",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "e007fb75bb8547a63aeb0746"
+  },
+  {
+    "candidate": "c_territory_portfolio",
+    "opponent": "teammate",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "e2a0e1cce1bf40add38f49f5"
+  },
+  {
+    "candidate": "r_economic_value",
+    "opponent": "v2",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "f07e7320d8805bb7a2addf76"
+  },
+  {
+    "candidate": "c_spearhead_portfolio",
+    "opponent": "v2",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "18ee255147c67ae388dcbf13"
+  },
+  {
+    "candidate": "p_15",
+    "opponent": "teammate",
+    "map_seed": 6001,
+    "team": "Y",
+    "job_id": "29f5690053d410fd529e656d"
+  },
+  {
+    "candidate": "p_04",
+    "opponent": "c_territory_direct",
+    "map_seed": 6002,
+    "team": "Y",
+    "job_id": "f1105fdae6d8ec225f9a4efc"
+  },
+  {
+    "candidate": "r_eng_guard",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "662289145e94dc64e531c68d"
+  },
+  {
+    "candidate": "r_combined",
+    "opponent": "c_economy_direct",
+    "map_seed": 6002,
+    "team": "K",
+    "job_id": "fa19e657889ceffaeec8edf1"
+  },
+  {
+    "candidate": "s_tail2_d4",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "5603d9c9301d8d009c6b6e9a"
+  },
+  {
+    "candidate": "r_eng_guard",
+    "opponent": "c_economy_direct",
+    "map_seed": 6001,
+    "team": "K",
+    "job_id": "0f7130f131957f93a5528ba3"
+  },
+  {
+    "candidate": "s_local_hold_d3",
+    "opponent": "c_territory_direct",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "52cdca7334382d40ab95ff56"
+  },
+  {
+    "candidate": "r_joint_escort",
+    "opponent": "c_economy_direct",
+    "map_seed": 6000,
+    "team": "Y",
+    "job_id": "5bf8305ce309f256e7d89c99"
+  },
+  {
+    "candidate": "s_regret_d2",
+    "opponent": "teammate",
+    "map_seed": 6000,
+    "team": "K",
+    "job_id": "68e281b2b814a369152af804"
+  }
+]

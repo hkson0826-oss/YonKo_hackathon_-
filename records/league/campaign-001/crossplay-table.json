@@ -1,0 +1,583 @@
+{
+  "unique_matches": 112,
+  "totals": {
+    "p_01": {
+      "games": 28,
+      "points": 11.0,
+      "wins": 11,
+      "draws": 0,
+      "losses": 17,
+      "Y_games": 14,
+      "Y_points": 4.0
+    },
+    "r_economic_value": {
+      "games": 28,
+      "points": 14.0,
+      "wins": 14,
+      "draws": 0,
+      "losses": 14,
+      "Y_games": 14,
+      "Y_points": 6.0
+    },
+    "v2": {
+      "games": 28,
+      "points": 14.0,
+      "wins": 14,
+      "draws": 0,
+      "losses": 14,
+      "Y_games": 14,
+      "Y_points": 6.0
+    },
+    "r_guard_one": {
+      "games": 28,
+      "points": 10.0,
+      "wins": 10,
+      "draws": 0,
+      "losses": 18,
+      "Y_games": 14,
+      "Y_points": 5.0
+    },
+    "p_10": {
+      "games": 28,
+      "points": 13.0,
+      "wins": 13,
+      "draws": 0,
+      "losses": 15,
+      "Y_games": 14,
+      "Y_points": 7.0
+    },
+    "r_joint_escort": {
+      "games": 28,
+      "points": 18.0,
+      "wins": 18,
+      "draws": 0,
+      "losses": 10,
+      "Y_games": 14,
+      "Y_points": 9.0
+    },
+    "r_terminal_margin": {
+      "games": 28,
+      "points": 16.0,
+      "wins": 16,
+      "draws": 0,
+      "losses": 12,
+      "Y_games": 14,
+      "Y_points": 7.0
+    },
+    "r_combined": {
+      "games": 28,
+      "points": 16.0,
+      "wins": 16,
+      "draws": 0,
+      "losses": 12,
+      "Y_games": 14,
+      "Y_points": 7.0
+    }
+  },
+  "directed_pairs": {
+    "p_01 vs r_economic_value": {
+      "games": 4,
+      "points": 2.0,
+      "wins": 2,
+      "draws": 0,
+      "losses": 2,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "r_economic_value vs p_01": {
+      "games": 4,
+      "points": 2.0,
+      "wins": 2,
+      "draws": 0,
+      "losses": 2,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "v2 vs p_01": {
+      "games": 4,
+      "points": 3.0,
+      "wins": 3,
+      "draws": 0,
+      "losses": 1,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "p_01 vs v2": {
+      "games": 4,
+      "points": 1.0,
+      "wins": 1,
+      "draws": 0,
+      "losses": 3,
+      "Y_games": 2,
+      "Y_points": 0.0
+    },
+    "r_guard_one vs p_10": {
+      "games": 4,
+      "points": 2.0,
+      "wins": 2,
+      "draws": 0,
+      "losses": 2,
+      "Y_games": 2,
+      "Y_points": 2.0
+    },
+    "p_10 vs r_guard_one": {
+      "games": 4,
+      "points": 2.0,
+      "wins": 2,
+      "draws": 0,
+      "losses": 2,
+      "Y_games": 2,
+      "Y_points": 2.0
+    },
+    "r_economic_value vs p_10": {
+      "games": 4,
+      "points": 2.0,
+      "wins": 2,
+      "draws": 0,
+      "losses": 2,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "p_10 vs r_economic_value": {
+      "games": 4,
+      "points": 2.0,
+      "wins": 2,
+      "draws": 0,
+      "losses": 2,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "r_economic_value vs r_guard_one": {
+      "games": 4,
+      "points": 3.0,
+      "wins": 3,
+      "draws": 0,
+      "losses": 1,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "r_guard_one vs r_economic_value": {
+      "games": 4,
+      "points": 1.0,
+      "wins": 1,
+      "draws": 0,
+      "losses": 3,
+      "Y_games": 2,
+      "Y_points": 0.0
+    },
+    "p_01 vs r_guard_one": {
+      "games": 4,
+      "points": 3.0,
+      "wins": 3,
+      "draws": 0,
+      "losses": 1,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "r_guard_one vs p_01": {
+      "games": 4,
+      "points": 1.0,
+      "wins": 1,
+      "draws": 0,
+      "losses": 3,
+      "Y_games": 2,
+      "Y_points": 0.0
+    },
+    "v2 vs r_joint_escort": {
+      "games": 4,
+      "points": 1.0,
+      "wins": 1,
+      "draws": 0,
+      "losses": 3,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "r_joint_escort vs v2": {
+      "games": 4,
+      "points": 3.0,
+      "wins": 3,
+      "draws": 0,
+      "losses": 1,
+      "Y_games": 2,
+      "Y_points": 2.0
+    },
+    "v2 vs r_economic_value": {
+      "games": 4,
+      "points": 2.0,
+      "wins": 2,
+      "draws": 0,
+      "losses": 2,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "r_economic_value vs v2": {
+      "games": 4,
+      "points": 2.0,
+      "wins": 2,
+      "draws": 0,
+      "losses": 2,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "r_terminal_margin vs p_10": {
+      "games": 4,
+      "points": 2.0,
+      "wins": 2,
+      "draws": 0,
+      "losses": 2,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "p_10 vs r_terminal_margin": {
+      "games": 4,
+      "points": 2.0,
+      "wins": 2,
+      "draws": 0,
+      "losses": 2,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "v2 vs r_terminal_margin": {
+      "games": 4,
+      "points": 1.0,
+      "wins": 1,
+      "draws": 0,
+      "losses": 3,
+      "Y_games": 2,
+      "Y_points": 0.0
+    },
+    "r_terminal_margin vs v2": {
+      "games": 4,
+      "points": 3.0,
+      "wins": 3,
+      "draws": 0,
+      "losses": 1,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "r_combined vs r_guard_one": {
+      "games": 4,
+      "points": 3.0,
+      "wins": 3,
+      "draws": 0,
+      "losses": 1,
+      "Y_games": 2,
+      "Y_points": 2.0
+    },
+    "r_guard_one vs r_combined": {
+      "games": 4,
+      "points": 1.0,
+      "wins": 1,
+      "draws": 0,
+      "losses": 3,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "p_01 vs r_terminal_margin": {
+      "games": 4,
+      "points": 1.0,
+      "wins": 1,
+      "draws": 0,
+      "losses": 3,
+      "Y_games": 2,
+      "Y_points": 0.0
+    },
+    "r_terminal_margin vs p_01": {
+      "games": 4,
+      "points": 3.0,
+      "wins": 3,
+      "draws": 0,
+      "losses": 1,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "r_combined vs p_10": {
+      "games": 4,
+      "points": 3.0,
+      "wins": 3,
+      "draws": 0,
+      "losses": 1,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "p_10 vs r_combined": {
+      "games": 4,
+      "points": 1.0,
+      "wins": 1,
+      "draws": 0,
+      "losses": 3,
+      "Y_games": 2,
+      "Y_points": 0.0
+    },
+    "v2 vs r_combined": {
+      "games": 4,
+      "points": 2.0,
+      "wins": 2,
+      "draws": 0,
+      "losses": 2,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "r_combined vs v2": {
+      "games": 4,
+      "points": 2.0,
+      "wins": 2,
+      "draws": 0,
+      "losses": 2,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "r_joint_escort vs r_economic_value": {
+      "games": 4,
+      "points": 3.0,
+      "wins": 3,
+      "draws": 0,
+      "losses": 1,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "r_economic_value vs r_joint_escort": {
+      "games": 4,
+      "points": 1.0,
+      "wins": 1,
+      "draws": 0,
+      "losses": 3,
+      "Y_games": 2,
+      "Y_points": 0.0
+    },
+    "r_combined vs r_terminal_margin": {
+      "games": 4,
+      "points": 2.0,
+      "wins": 2,
+      "draws": 0,
+      "losses": 2,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "r_terminal_margin vs r_combined": {
+      "games": 4,
+      "points": 2.0,
+      "wins": 2,
+      "draws": 0,
+      "losses": 2,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "p_01 vs p_10": {
+      "games": 4,
+      "points": 2.0,
+      "wins": 2,
+      "draws": 0,
+      "losses": 2,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "p_10 vs p_01": {
+      "games": 4,
+      "points": 2.0,
+      "wins": 2,
+      "draws": 0,
+      "losses": 2,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "v2 vs r_guard_one": {
+      "games": 4,
+      "points": 3.0,
+      "wins": 3,
+      "draws": 0,
+      "losses": 1,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "r_guard_one vs v2": {
+      "games": 4,
+      "points": 1.0,
+      "wins": 1,
+      "draws": 0,
+      "losses": 3,
+      "Y_games": 2,
+      "Y_points": 0.0
+    },
+    "r_joint_escort vs r_terminal_margin": {
+      "games": 4,
+      "points": 3.0,
+      "wins": 3,
+      "draws": 0,
+      "losses": 1,
+      "Y_games": 2,
+      "Y_points": 2.0
+    },
+    "r_terminal_margin vs r_joint_escort": {
+      "games": 4,
+      "points": 1.0,
+      "wins": 1,
+      "draws": 0,
+      "losses": 3,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "r_combined vs r_economic_value": {
+      "games": 4,
+      "points": 2.0,
+      "wins": 2,
+      "draws": 0,
+      "losses": 2,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "r_economic_value vs r_combined": {
+      "games": 4,
+      "points": 2.0,
+      "wins": 2,
+      "draws": 0,
+      "losses": 2,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "v2 vs p_10": {
+      "games": 4,
+      "points": 2.0,
+      "wins": 2,
+      "draws": 0,
+      "losses": 2,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "p_10 vs v2": {
+      "games": 4,
+      "points": 2.0,
+      "wins": 2,
+      "draws": 0,
+      "losses": 2,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "r_combined vs r_joint_escort": {
+      "games": 4,
+      "points": 2.0,
+      "wins": 2,
+      "draws": 0,
+      "losses": 2,
+      "Y_games": 2,
+      "Y_points": 0.0
+    },
+    "r_joint_escort vs r_combined": {
+      "games": 4,
+      "points": 2.0,
+      "wins": 2,
+      "draws": 0,
+      "losses": 2,
+      "Y_games": 2,
+      "Y_points": 0.0
+    },
+    "r_joint_escort vs r_guard_one": {
+      "games": 4,
+      "points": 1.0,
+      "wins": 1,
+      "draws": 0,
+      "losses": 3,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "r_guard_one vs r_joint_escort": {
+      "games": 4,
+      "points": 3.0,
+      "wins": 3,
+      "draws": 0,
+      "losses": 1,
+      "Y_games": 2,
+      "Y_points": 2.0
+    },
+    "r_joint_escort vs p_10": {
+      "games": 4,
+      "points": 2.0,
+      "wins": 2,
+      "draws": 0,
+      "losses": 2,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "p_10 vs r_joint_escort": {
+      "games": 4,
+      "points": 2.0,
+      "wins": 2,
+      "draws": 0,
+      "losses": 2,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "r_terminal_margin vs r_economic_value": {
+      "games": 4,
+      "points": 2.0,
+      "wins": 2,
+      "draws": 0,
+      "losses": 2,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "r_economic_value vs r_terminal_margin": {
+      "games": 4,
+      "points": 2.0,
+      "wins": 2,
+      "draws": 0,
+      "losses": 2,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "r_combined vs p_01": {
+      "games": 4,
+      "points": 2.0,
+      "wins": 2,
+      "draws": 0,
+      "losses": 2,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "p_01 vs r_combined": {
+      "games": 4,
+      "points": 2.0,
+      "wins": 2,
+      "draws": 0,
+      "losses": 2,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "p_01 vs r_joint_escort": {
+      "games": 4,
+      "points": 0.0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 4,
+      "Y_games": 2,
+      "Y_points": 0.0
+    },
+    "r_joint_escort vs p_01": {
+      "games": 4,
+      "points": 4.0,
+      "wins": 4,
+      "draws": 0,
+      "losses": 0,
+      "Y_games": 2,
+      "Y_points": 2.0
+    },
+    "r_terminal_margin vs r_guard_one": {
+      "games": 4,
+      "points": 3.0,
+      "wins": 3,
+      "draws": 0,
+      "losses": 1,
+      "Y_games": 2,
+      "Y_points": 1.0
+    },
+    "r_guard_one vs r_terminal_margin": {
+      "games": 4,
+      "points": 1.0,
+      "wins": 1,
+      "draws": 0,
+      "losses": 3,
+      "Y_games": 2,
+      "Y_points": 0.0
+    }
+  }
+}

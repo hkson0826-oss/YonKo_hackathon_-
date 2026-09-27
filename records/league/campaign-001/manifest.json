@@ -1,0 +1,1686 @@
+{
+  "status": "ready",
+  "created_utc": "2026-09-27T15:01:27.239332+00:00",
+  "root": "/tmp/yk-league-fk6mccd7/workspace/output",
+  "source_commit": "6d08d0220d20c93b558c8d2c46f2d5769408b9f3",
+  "input_sha256": {
+    "experiments/cpu_sweep.py": "bf0f0293499473b0295e2dac640e24362c332edc1edc8c01f5e09ef39f12172b",
+    "experiments/league_campaign.py": "90539ddfabdf38e4410a2255448fdffa89f12704aaa6694a73307d3c25ea84ff",
+    "experiments/local_league/challengers.py": "839d24c3bec34d3d2b874763b597b618f89f59bcad783ca7d1cf2197651adad7",
+    "experiments/local_league/repairs.py": "44158dba1130a0da8201dba3ea00c427a50884a28b929a2b9634506e9f2a690e",
+    "experiments/local_league/search_families.py": "1964196de4793e36d9f0fed263a6490dfb6ba2955a6302dd99157b7370fc7634",
+    "experiments/local_league.py": "626f3b3920e18de474ea2c789fa4ce13c35a465af7e929c39b530b8718517e11",
+    "submissions/delineate-v1.zip": "571397e3c84998b27f8ce0468bc49333663c69b0b84162ad8dfc27e7a47f2365",
+    "submissions/first/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "submissions/first/main.cpp": "13a240536ea85885a1f61c8007665d132cc5c31a9c23ae00dec9872bf01fbcb5",
+    "submissions/first/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "submissions/first/submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60",
+    "submissions/tuned/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "submissions/tuned/main.cpp": "53bb019625fabbbd3aa8a5b65af971912bb4cbdad8a9fde3009fadad5ba6d4c5",
+    "submissions/tuned/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "submissions/tuned/submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60",
+    "yk-development-tools/bots/dist/starter/python/_generated.py": "8cf113fe574425e1f761911e59fe43394aad147946b07ed4a837e1da6b25fcfc",
+    "yk-development-tools/bots/dist/starter/python/campus_bot.py": "2568119d19d9def58dd824b06eac332f018f23c0dee24ba1ccddf3169a151e7b",
+    "yk-development-tools/bots/dist/starter/python/example_lv1.py": "15183b1c05b8daa12212cb2d64fe54dbc81deba69a7e9999b3fac4b3d5ccbc1d",
+    "yk-development-tools/bots/dist/starter/python/example_lv2.py": "91c174b0259ea2759d3ff390bb80ff0d6494fbea59003cb5b0a607bf1370bd4f",
+    "yk-development-tools/bots/dist/starter/python/main.py": "fc0b4fc2eccb0e497c8435d85412332e3628053a905f51687d654b8e2d35b068",
+    "yk-development-tools/bots/dist/starter/python/mybot_template.py": "6d6ee8564548c9bf81562d60c270b69968813045c900c94ce95b5c261456d43b",
+    "yk-development-tools/bots/dist/starter/python/protocol.py": "67a5d27ced038de39d7cd3b069bf01786bf4cc9e6c1d39269d1f7e67b185c194",
+    "yk-development-tools/bots/dist/starter/python/search.py": "34cc73421e056d857549d28523ada709c6531152e4a0e08b8f8eddbad5073e45",
+    "yk-development-tools/bots/dist/starter/python/submission.json": "ff5431b97ab8dc3d045d053fe1e3148eca20bfe900ec66cd9e7f7f5e542f3de5",
+    "yk-development-tools/config/balance.json": "a46886d91862244b6daf4990dcdf2371302433e7120c21dc2a29ecf95696b35f",
+    "yk-development-tools/engine/__init__.py": "5b9c498fcef25d4900bfe993415964ef9b803c37309acda004e6b553130ace86",
+    "yk-development-tools/engine/commands.py": "db00820b9f77cc1b6e71eaa37bb4eb0b4c31cccda7f4b388269a13db04a76798",
+    "yk-development-tools/engine/config.py": "964f20b9f914bbc0bc81c84d7fbee3b2ecbed4b54814ab51cbd20d54ef6f20b9",
+    "yk-development-tools/engine/pipeline.py": "f0bd96c484c8628b6a070b188adcc1a077e9f90017cc15f11ce366d974490fa6",
+    "yk-development-tools/engine/state.py": "dd227e26bcb36a5c412bbf7db19f4418a59627e8ea7e55a90dac5184dcc0737f",
+    "yk-development-tools/mapgen/__init__.py": "4e3cf8f63c58f32835898da672ecaacf87b1ee105da4628fb917b2f6070fc5f0",
+    "yk-development-tools/mapgen/generator.py": "645b53e2b2ce0049608873b1d01a983661dbdbfe63e358fbb152cbeeea13947e",
+    "yk-development-tools/mapgen/render.py": "5486e5f68e8de843fd36ded98716a05a0b399301b6d82651db3aacba6bc16029",
+    "yk-development-tools/mapgen/rng.py": "4b56383dd28a138c2ae0bd387a893b4129e108dddf369dd54d3927848f85cc4d",
+    "yk-development-tools/runner/__init__.py": "7f675ede62ac8590c279dd4f2f64f8aa526f8d41e60dcfd7dba930612db4fbe2",
+    "yk-development-tools/runner/__main__.py": "307299fda7b77d22c64cb51430ec75e5f59d78e9c948786afb3b2544fe45e4b7",
+    "yk-development-tools/runner/bots.py": "c09312d62eaa1a2a5af5576b24922a9fd209365e0f3e655894934585858aba43",
+    "yk-development-tools/runner/cli.py": "90b102ca9513f710deed37c68adbca6026f43b641a5c00758d2868ecd1a90b81",
+    "yk-development-tools/runner/match.py": "122d3fc0c31ade0b808795d15842949da8c32a26c79c779841e7364aa2f51578",
+    "yk-development-tools/runner/protocol.py": "5917df4bec20b963586b1ffeb7a45b9959f51e3437a227ee7e8d932b172a7d65",
+    "yk-development-tools/runner/replay.py": "fc2bf7405c405ac30da4d7c122b24e3c3275544bfbd1ec22779bbb217df6e8a6",
+    "yk-development-tools/runner/validation.py": "7c00c3eca69a8f115e51b3c47a570c1015795b41d16e9987b5679f84f4184345"
+  },
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "python": "3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]",
+  "policy_rng_seed": 20260927,
+  "bots": {
+    "v2": {
+      "id": "v2",
+      "family": "baseline",
+      "parameters": {},
+      "hypothesis": "현재 제출 기준선",
+      "weakness": "공식 1차 경제·종반 패배",
+      "command": "/tmp/yk-league-fk6mccd7/workspace/output/bin/v2",
+      "source": "snapshot/candidates/v2/main.cpp",
+      "source_sha256": "53bb019625fabbbd3aa8a5b65af971912bb4cbdad8a9fde3009fadad5ba6d4c5",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/v2",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/v2/main.cpp",
+            "-o",
+            "/tmp/yk-league-fk6mccd7/workspace/output/bin/v2"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "cc6247fc8a772df3b6174e2a352be116a7707583db91cca564900f0b0de3b45c"
+    },
+    "p_00": {
+      "id": "p_00",
+      "family": "parameter",
+      "parameters": {
+        "eng_bonus": 70
+      },
+      "hypothesis": "경제·병력 가치의 다른 조합을 같은 맵에서 비교한다.",
+      "weakness": "행동 후보 공간 자체는 v2와 같으며 계수만으로 방어 누락을 고칠 수 없다.",
+      "command": "/tmp/yk-league-fk6mccd7/workspace/output/bin/p_00",
+      "source": "snapshot/candidates/p_00/main.cpp",
+      "source_sha256": "60cf7b918ed41a845674373b7867253b29576a82729cf3740d9747130ccb8900",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/p_00",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/p_00/main.cpp",
+            "-o",
+            "/tmp/yk-league-fk6mccd7/workspace/output/bin/p_00"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "c992e907233d5cf5ef82c2208b4036acc62517b66f4494caff6722f1a424f535"
+    },
+    "p_01": {
+      "id": "p_01",
+      "family": "parameter",
+      "parameters": {
+        "eng_bonus": 160
+      },
+      "hypothesis": "경제·병력 가치의 다른 조합을 같은 맵에서 비교한다.",
+      "weakness": "행동 후보 공간 자체는 v2와 같으며 계수만으로 방어 누락을 고칠 수 없다.",
+      "command": "/tmp/yk-league-fk6mccd7/workspace/output/bin/p_01",
+      "source": "snapshot/candidates/p_01/main.cpp",
+      "source_sha256": "75436bac70582d989ac5d4dd7efa7190bc00985273289b4d728ce512546f4ab7",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/p_01",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/p_01/main.cpp",
+            "-o",
+            "/tmp/yk-league-fk6mccd7/workspace/output/bin/p_01"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "1c2b1decbd55a66eaba430ff9e0e3b88123a49852716030f98136693a0991cbb"
+    },
+    "p_02": {
+      "id": "p_02",
+      "family": "parameter",
+      "parameters": {
+        "eng_bonus": 220
+      },
+      "hypothesis": "경제·병력 가치의 다른 조합을 같은 맵에서 비교한다.",
+      "weakness": "행동 후보 공간 자체는 v2와 같으며 계수만으로 방어 누락을 고칠 수 없다.",
+      "command": "/tmp/yk-league-fk6mccd7/workspace/output/bin/p_02",
+      "source": "snapshot/candidates/p_02/main.cpp",
+      "source_sha256": "2d27081ae5aee8427c74230ee7ca96e68017c5edd098f962fa32d373146c25e5",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/p_02",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/p_02/main.cpp",
+            "-o",
+            "/tmp/yk-league-fk6mccd7/workspace/output/bin/p_02"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "9ab8dae6bfbb115a75a9b1a12189710890ad95c5e563b62b190f8cdd9e90aac7"
+    },
+    "p_03": {
+      "id": "p_03",
+      "family": "parameter",
+      "parameters": {
+        "army_weight": 0.8
+      },
+      "hypothesis": "경제·병력 가치의 다른 조합을 같은 맵에서 비교한다.",
+      "weakness": "행동 후보 공간 자체는 v2와 같으며 계수만으로 방어 누락을 고칠 수 없다.",
+      "command": "/tmp/yk-league-fk6mccd7/workspace/output/bin/p_03",
+      "source": "snapshot/candidates/p_03/main.cpp",
+      "source_sha256": "f82ba1657e1040c19bbc7d27ad584eba2e158ab15812f431065069058afa6815",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/p_03",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/p_03/main.cpp",
+            "-o",
+            "/tmp/yk-league-fk6mccd7/workspace/output/bin/p_03"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "321f853f66ef551f9569e0e71acf28edc0132ee727a1b435911dd1357f85bc46"
+    },
+    "p_04": {
+      "id": "p_04",
+      "family": "parameter",
+      "parameters": {
+        "army_weight": 2.0
+      },
+      "hypothesis": "경제·병력 가치의 다른 조합을 같은 맵에서 비교한다.",
+      "weakness": "행동 후보 공간 자체는 v2와 같으며 계수만으로 방어 누락을 고칠 수 없다.",
+      "command": "/tmp/yk-league-fk6mccd7/workspace/output/bin/p_04",
+      "source": "snapshot/candidates/p_04/main.cpp",
+      "source_sha256": "e40ef06acec66c6057bd9eee99109dded145b42ad60e3a900ce0e499f50a2195",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/p_04",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/p_04/main.cpp",
+            "-o",
+            "/tmp/yk-league-fk6mccd7/workspace/output/bin/p_04"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "478d24622b6e4eb27c1bb8f4f4c3e7f3a5758c2ed744480e2d4a77c746cb12a3"
+    },
+    "p_05": {
+      "id": "p_05",
+      "family": "parameter",
+      "parameters": {
+        "income_bonus": 20
+      },
+      "hypothesis": "경제·병력 가치의 다른 조합을 같은 맵에서 비교한다.",
+      "weakness": "행동 후보 공간 자체는 v2와 같으며 계수만으로 방어 누락을 고칠 수 없다.",
+      "command": "/tmp/yk-league-fk6mccd7/workspace/output/bin/p_05",
+      "source": "snapshot/candidates/p_05/main.cpp",
+      "source_sha256": "8c27e6e24724ef1d0d02849d405b0e37fafec1f543bc7c2cfbcc9310fd8696c5",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/p_05",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/p_05/main.cpp",
+            "-o",
+            "/tmp/yk-league-fk6mccd7/workspace/output/bin/p_05"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "fd08ea3d24fd6b950059d5d09e89549a730035b9a5c46beeaee180be31fd666e"
+    },
+    "p_06": {
+      "id": "p_06",
+      "family": "parameter",
+      "parameters": {
+        "income_bonus": 55
+      },
+      "hypothesis": "경제·병력 가치의 다른 조합을 같은 맵에서 비교한다.",
+      "weakness": "행동 후보 공간 자체는 v2와 같으며 계수만으로 방어 누락을 고칠 수 없다.",
+      "command": "/tmp/yk-league-fk6mccd7/workspace/output/bin/p_06",
+      "source": "snapshot/candidates/p_06/main.cpp",
+      "source_sha256": "42866898707fb339709c2217fb4c29d0664cf74156dfa4a981841565c0b2e883",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/p_06",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/p_06/main.cpp",
+            "-o",
+            "/tmp/yk-league-fk6mccd7/workspace/output/bin/p_06"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "2ac41730f9f6cde2a91aa98d5a3919899bee0191256ba774b1f06ac8a4918146"
+    },
+    "p_07": {
+      "id": "p_07",
+      "family": "parameter",
+      "parameters": {
+        "eng_bonus": 180,
+        "army_weight": 1.8
+      },
+      "hypothesis": "경제·병력 가치의 다른 조합을 같은 맵에서 비교한다.",
+      "weakness": "행동 후보 공간 자체는 v2와 같으며 계수만으로 방어 누락을 고칠 수 없다.",
+      "command": "/tmp/yk-league-fk6mccd7/workspace/output/bin/p_07",
+      "source": "snapshot/candidates/p_07/main.cpp",
+      "source_sha256": "c6d882f3551e76eac8317755ff54ab50ba84493f70a7e451dffdead6c7cc3db7",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/p_07",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/p_07/main.cpp",
+            "-o",
+            "/tmp/yk-league-fk6mccd7/workspace/output/bin/p_07"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "a0a80904504f153089f4dc16508cab08ab4adf131ce486441a5ad06d0f81e843"
+    },
+    "p_08": {
+      "id": "p_08",
+      "family": "parameter",
+      "parameters": {
+        "eng_bonus": 110,
+        "income_bonus": 20,
+        "army_weight": 0.8,
+        "resource_weight": 0.35
+      },
+      "hypothesis": "경제·병력 가치의 다른 조합을 같은 맵에서 비교한다.",
+      "weakness": "행동 후보 공간 자체는 v2와 같으며 계수만으로 방어 누락을 고칠 수 없다.",
+      "command": "/tmp/yk-league-fk6mccd7/workspace/output/bin/p_08",
+      "source": "snapshot/candidates/p_08/main.cpp",
+      "source_sha256": "730f1d89621b062c9e909cf774b7e9370393960f16f2517a32d81c68ab0599c6",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/p_08",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/p_08/main.cpp",
+            "-o",
+            "/tmp/yk-league-fk6mccd7/workspace/output/bin/p_08"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "ac733334e867dade54202313d88472ff272b60da50a2980ea5a04e8547ead570"
+    },
+    "p_09": {
+      "id": "p_09",
+      "family": "parameter",
+      "parameters": {
+        "eng_bonus": 70,
+        "income_bonus": 50,
+        "army_weight": 0.8,
+        "resource_weight": 0.65
+      },
+      "hypothesis": "경제·병력 가치의 다른 조합을 같은 맵에서 비교한다.",
+      "weakness": "행동 후보 공간 자체는 v2와 같으며 계수만으로 방어 누락을 고칠 수 없다.",
+      "command": "/tmp/yk-league-fk6mccd7/workspace/output/bin/p_09",
+      "source": "snapshot/candidates/p_09/main.cpp",
+      "source_sha256": "0d0896daf55a5e0ec01ce49bde41102a00f1fae4e7a6fd6e924987439f72f523",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/p_09",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/p_09/main.cpp",
+            "-o",
+            "/tmp/yk-league-fk6mccd7/workspace/output/bin/p_09"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "7b0f57553d3e37243f09648cb7daf58296d94a4dd5506e8a6d381699e6e0dc4f"
+    },
+    "p_10": {
+      "id": "p_10",
+      "family": "parameter",
+      "parameters": {
+        "eng_bonus": 190,
+        "income_bonus": 50,
+        "army_weight": 1.3,
+        "resource_weight": 0.35
+      },
+      "hypothesis": "경제·병력 가치의 다른 조합을 같은 맵에서 비교한다.",
+      "weakness": "행동 후보 공간 자체는 v2와 같으며 계수만으로 방어 누락을 고칠 수 없다.",
+      "command": "/tmp/yk-league-fk6mccd7/workspace/output/bin/p_10",
+      "source": "snapshot/candidates/p_10/main.cpp",
+      "source_sha256": "87cbdedf8a36bb497d7d8f95dac805405ef2c48215711005faffa76161263f30",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/p_10",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/p_10/main.cpp",
+            "-o",
+            "/tmp/yk-league-fk6mccd7/workspace/output/bin/p_10"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "cd1207c45a8f06f22ef55e0708170734339066ad3dde54a4e8eced3f55a69bca"
+    },
+    "p_11": {
+      "id": "p_11",
+      "family": "parameter",
+      "parameters": {
+        "eng_bonus": 190,
+        "income_bonus": 20,
+        "army_weight": 0.8,
+        "resource_weight": 0.35
+      },
+      "hypothesis": "경제·병력 가치의 다른 조합을 같은 맵에서 비교한다.",
+      "weakness": "행동 후보 공간 자체는 v2와 같으며 계수만으로 방어 누락을 고칠 수 없다.",
+      "command": "/tmp/yk-league-fk6mccd7/workspace/output/bin/p_11",
+      "source": "snapshot/candidates/p_11/main.cpp",
+      "source_sha256": "e2f483d97d1ca0783755b7cba0369cd6c0ae2b12d8be6dea8e99115c2a2038bd",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/p_11",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/p_11/main.cpp",
+            "-o",
+            "/tmp/yk-league-fk6mccd7/workspace/output/bin/p_11"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "d3044139275ba7c5a96bfa3452a56817e8e3b0f21abf6dbc2d5eb7951d378f5a"
+    },
+    "p_12": {
+      "id": "p_12",
+      "family": "parameter",
+      "parameters": {
+        "eng_bonus": 110,
+        "income_bonus": 20,
+        "army_weight": 1.3,
+        "resource_weight": 0.35
+      },
+      "hypothesis": "경제·병력 가치의 다른 조합을 같은 맵에서 비교한다.",
+      "weakness": "행동 후보 공간 자체는 v2와 같으며 계수만으로 방어 누락을 고칠 수 없다.",
+      "command": "/tmp/yk-league-fk6mccd7/workspace/output/bin/p_05",
+      "source": "snapshot/candidates/p_12/main.cpp",
+      "source_sha256": "8c27e6e24724ef1d0d02849d405b0e37fafec1f543bc7c2cfbcc9310fd8696c5",
+      "builds": [],
+      "binary_sha256": "fd08ea3d24fd6b950059d5d09e89549a730035b9a5c46beeaee180be31fd666e"
+    },
+    "p_13": {
+      "id": "p_13",
+      "family": "parameter",
+      "parameters": {
+        "eng_bonus": 190,
+        "income_bonus": 20,
+        "army_weight": 1.3,
+        "resource_weight": 0.15
+      },
+      "hypothesis": "경제·병력 가치의 다른 조합을 같은 맵에서 비교한다.",
+      "weakness": "행동 후보 공간 자체는 v2와 같으며 계수만으로 방어 누락을 고칠 수 없다.",
+      "command": "/tmp/yk-league-fk6mccd7/workspace/output/bin/p_13",
+      "source": "snapshot/candidates/p_13/main.cpp",
+      "source_sha256": "ce09a96c51479de2d7b3759431ccf942e02a9f310ddc91504c14a39930407a33",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/p_13",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/p_13/main.cpp",
+            "-o",
+            "/tmp/yk-league-fk6mccd7/workspace/output/bin/p_13"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "84f467191d6ff696d8be9e406253d5a93412d60a0286937304f2b0b643ca4096"
+    },
+    "p_14": {
+      "id": "p_14",
+      "family": "parameter",
+      "parameters": {
+        "eng_bonus": 110,
+        "income_bonus": 20,
+        "army_weight": 0.8,
+        "resource_weight": 0.65
+      },
+      "hypothesis": "경제·병력 가치의 다른 조합을 같은 맵에서 비교한다.",
+      "weakness": "행동 후보 공간 자체는 v2와 같으며 계수만으로 방어 누락을 고칠 수 없다.",
+      "command": "/tmp/yk-league-fk6mccd7/workspace/output/bin/p_14",
+      "source": "snapshot/candidates/p_14/main.cpp",
+      "source_sha256": "68829bae3cb24f4e418cdba2b931286995e2811a5663ffd84d580c36e4f6351a",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/p_14",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/p_14/main.cpp",
+            "-o",
+            "/tmp/yk-league-fk6mccd7/workspace/output/bin/p_14"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "e7c50f969599967fb8034de446909dfa057abb47bf0deed38731c4c95706299a"
+    },
+    "p_15": {
+      "id": "p_15",
+      "family": "parameter",
+      "parameters": {
+        "eng_bonus": 190,
+        "income_bonus": 35,
+        "army_weight": 0.8,
+        "resource_weight": 0.15
+      },
+      "hypothesis": "경제·병력 가치의 다른 조합을 같은 맵에서 비교한다.",
+      "weakness": "행동 후보 공간 자체는 v2와 같으며 계수만으로 방어 누락을 고칠 수 없다.",
+      "command": "/tmp/yk-league-fk6mccd7/workspace/output/bin/p_15",
+      "source": "snapshot/candidates/p_15/main.cpp",
+      "source_sha256": "d163e8f08fb1ac320a621fe3e4bf25de23a1066289c7ba84b5254e42793f7cb8",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/p_15",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/p_15/main.cpp",
+            "-o",
+            "/tmp/yk-league-fk6mccd7/workspace/output/bin/p_15"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "833f62b26c6ac3b36c25ca1c8cab7b18d24242db67a39f78b1c1f5029ef763ad"
+    },
+    "r_guard_one": {
+      "id": "r_guard_one",
+      "family": "paired_defense",
+      "parameters": {
+        "scope": 1,
+        "limit": 1
+      },
+      "hypothesis": "Reserve a legal one-step F/W pair at the highest-value imminently threatened owned building.",
+      "weakness": "Independent worst-case enemy arrivals can overdefend and sacrifice expansion.",
+      "command": "/tmp/yk-league-fk6mccd7/workspace/output/bin/r_guard_one",
+      "source": "snapshot/candidates/r_guard_one/main.cpp",
+      "source_sha256": "61eaf91c053ead129ff34fdf4441f0cb1be8a2511fe92ee819193ea05e0dc2bb",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/r_guard_one",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/r_guard_one/main.cpp",
+            "-o",
+            "/tmp/yk-league-fk6mccd7/workspace/output/bin/r_guard_one"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "edc1013f611b701fc5f70e647bc273f24c57b52ea165fdeb0149f14ae3a0255a"
+    },
+    "r_guard_two": {
+      "id": "r_guard_two",
+      "family": "paired_defense",
+      "parameters": {
+        "scope": 1,
+        "limit": 2
+      },
+      "hypothesis": "Cover two simultaneous losses without assigning the same origin units twice.",
+      "weakness": "Two pessimistic reservations may answer mutually incompatible attacks.",
+      "command": "/tmp/yk-league-fk6mccd7/workspace/output/bin/r_guard_two",
+      "source": "snapshot/candidates/r_guard_two/main.cpp",
+      "source_sha256": "9c589cc8c5ed6389303b91fde10005bd37c1f418d7a36010e2f63b55d12fc7d8",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/r_guard_two",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/r_guard_two/main.cpp",
+            "-o",
+            "/tmp/yk-league-fk6mccd7/workspace/output/bin/r_guard_two"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "77c91ae1c39e566e721187c8ea5b82b5b0663e51e4e0431ac88234f18c6ee0b2"
+    },
+    "r_guard_late": {
+      "id": "r_guard_late",
+      "family": "paired_defense",
+      "parameters": {
+        "scope": 1,
+        "limit": 2,
+        "start": 120
+      },
+      "hypothesis": "Keep v2 expansion early and add joint flag contest defense for the last 40 turns.",
+      "weakness": "An economy lost earlier may already be unrecoverable.",
+      "command": "/tmp/yk-league-fk6mccd7/workspace/output/bin/r_guard_late",
+      "source": "snapshot/candidates/r_guard_late/main.cpp",
+      "source_sha256": "13197cd093823768753a1346a88056bc30306e127f4880a1b55c9963ca11c230",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/r_guard_late",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/r_guard_late/main.cpp",
+            "-o",
+            "/tmp/yk-league-fk6mccd7/workspace/output/bin/r_guard_late"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "f64c84d602023e46ba8b45830ae86463a385e22d304fe54818888ce61422fe41"
+    },
+    "r_eng_guard": {
+      "id": "r_eng_guard",
+      "family": "engineering_retention",
+      "parameters": {
+        "scope": 2,
+        "limit": 1
+      },
+      "hypothesis": "Defend the last owned engineering building with joint arrival rather than increasing its scalar value.",
+      "weakness": "Ignores central score threats and cannot defend when local reinforcements are insufficient.",
+      "command": "/tmp/yk-league-fk6mccd7/workspace/output/bin/r_eng_guard",
+      "source": "snapshot/candidates/r_eng_guard/main.cpp",
+      "source_sha256": "da0fd74143665a4333dd30f1fbec9e6e2edb5113aa3b7ca27cb70135423393d0",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/r_eng_guard",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/r_eng_guard/main.cpp",
+            "-o",
+            "/tmp/yk-league-fk6mccd7/workspace/output/bin/r_eng_guard"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "5ef5f50d0d878be57e786eb47fc9543384a259bc24ade6c2cd0a64323715060f"
+    },
+    "r_eng_terminal": {
+      "id": "r_eng_terminal",
+      "family": "engineering_retention",
+      "parameters": {
+        "scope": 2,
+        "limit": 1,
+        "terminal_margin": true
+      },
+      "hypothesis": "Combine sustained production discount with a final-score ordering within predicted wins/losses.",
+      "weakness": "Short rollout and estimated hidden scores can still select the wrong defense.",
+      "command": "/tmp/yk-league-fk6mccd7/workspace/output/bin/r_eng_terminal",
+      "source": "snapshot/candidates/r_eng_terminal/main.cpp",
+      "source_sha256": "be02682ee9c2b3a7d053bda4ecd8852405a81a86d6c68e44c065cbc81ffc39d1",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/r_eng_terminal",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/r_eng_terminal/main.cpp",
+            "-o",
+            "/tmp/yk-league-fk6mccd7/workspace/output/bin/r_eng_terminal"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "563073e8230b8fff30b290a7694404a1231e84a599d3ba369a438727315753de"
+    },
+    "r_guard_terminal": {
+      "id": "r_guard_terminal",
+      "family": "paired_defense",
+      "parameters": {
+        "scope": 1,
+        "limit": 2,
+        "terminal_margin": true
+      },
+      "hypothesis": "Retain important contested ownership when every terminal rollout predicts the same result.",
+      "weakness": "The secondary score preference does not itself improve actual win probability.",
+      "command": "/tmp/yk-league-fk6mccd7/workspace/output/bin/r_guard_terminal",
+      "source": "snapshot/candidates/r_guard_terminal/main.cpp",
+      "source_sha256": "2382032eb0f4e776a83e3770001075f986a369ddd6fc1e3b3f6dc61278c0038d",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/r_guard_terminal",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/r_guard_terminal/main.cpp",
+            "-o",
+            "/tmp/yk-league-fk6mccd7/workspace/output/bin/r_guard_terminal"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "b09201c8befb9e3394dadc54f6fe4a2f46be5bbae6fa0eba159008053f14e371"
+    },
+    "r_joint_escort": {
+      "id": "r_joint_escort",
+      "family": "joint_arrival",
+      "parameters": {
+        "escort": 2
+      },
+      "hypothesis": "Reserve warriors from reachable origins for unsafe flag destinations on the same turn.",
+      "weakness": "Worst-case danger may redirect warriors away from a better offensive task.",
+      "command": "/tmp/yk-league-fk6mccd7/workspace/output/bin/r_joint_escort",
+      "source": "snapshot/candidates/r_joint_escort/main.cpp",
+      "source_sha256": "2be7876f131ca61fd053510e6c632904e683678e406976b0a3fb1679da8e1b0c",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/r_joint_escort",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/r_joint_escort/main.cpp",
+            "-o",
+            "/tmp/yk-league-fk6mccd7/workspace/output/bin/r_joint_escort"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "4c17b0ffec1cbc9ee84732976a225d203bced87839a4617eb355ab02dbdf8586"
+    },
+    "r_economic_value": {
+      "id": "r_economic_value",
+      "family": "realizable_economy",
+      "parameters": {
+        "economic": true
+      },
+      "hypothesis": "Value engineering through integer warrior-production savings and a bounded remaining horizon.",
+      "weakness": "Assumes income can be spent on warriors and discounts neither recapture nor alternative spending.",
+      "command": "/tmp/yk-league-fk6mccd7/workspace/output/bin/r_economic_value",
+      "source": "snapshot/candidates/r_economic_value/main.cpp",
+      "source_sha256": "cb0849204984bcd9585793ede66e667787f07a7c6f4ee586d90a2931d47cc933",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/r_economic_value",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/r_economic_value/main.cpp",
+            "-o",
+            "/tmp/yk-league-fk6mccd7/workspace/output/bin/r_economic_value"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "64e00978900a9ebc4e5d7e3f961b129ef8fe2b82e1041d38af5eb07613ea566b"
+    },
+    "r_terminal_margin": {
+      "id": "r_terminal_margin",
+      "family": "terminal_order",
+      "parameters": {
+        "terminal_margin": true
+      },
+      "hypothesis": "Break otherwise equal terminal win/loss rollout values with a bounded score margin.",
+      "weakness": "Only changes endgame ties between rollout predictions; estimated scores remain uncertain.",
+      "command": "/tmp/yk-league-fk6mccd7/workspace/output/bin/r_terminal_margin",
+      "source": "snapshot/candidates/r_terminal_margin/main.cpp",
+      "source_sha256": "afc5a257d40f775a5c3520a9f86275249052a41bf730a275fe8796eb8dfd7f9f",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/r_terminal_margin",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/r_terminal_margin/main.cpp",
+            "-o",
+            "/tmp/yk-league-fk6mccd7/workspace/output/bin/r_terminal_margin"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "20f84b1f0918f421c5609199a16d4484055400bf5364238405e4cc68742b915a"
+    },
+    "r_combined": {
+      "id": "r_combined",
+      "family": "combined_repairs",
+      "parameters": {
+        "scope": 1,
+        "limit": 2,
+        "escort": 1,
+        "economic": true,
+        "terminal_margin": true
+      },
+      "hypothesis": "Combine joint defense, shared-arrival escort, engineering savings, and terminal ordering.",
+      "weakness": "Interactions may overcommit scarce units; compare against individual repairs before adoption.",
+      "command": "/tmp/yk-league-fk6mccd7/workspace/output/bin/r_combined",
+      "source": "snapshot/candidates/r_combined/main.cpp",
+      "source_sha256": "74d20a52f93df3e85ecbd12fc133a279713d4c0b55c9db98eb5d47564cd88797",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/r_combined",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/r_combined/main.cpp",
+            "-o",
+            "/tmp/yk-league-fk6mccd7/workspace/output/bin/r_combined"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "eee6e5fdd7855a8d876cce8ab100198658bdc8274fc2ebcfc86441098c7472ec"
+    },
+    "s_maximin_d4": {
+      "id": "s_maximin_d4",
+      "family": "robust_selection",
+      "parameters": {
+        "mode": 1,
+        "depth": 4
+      },
+      "hypothesis": "내부 상대 4개 중 최악의 결과를 개선한다.",
+      "weakness": "상대 후보 밖의 공략에는 보장이 없고 공격 기회를 놓칠 수 있다.",
+      "command": "/tmp/yk-league-fk6mccd7/workspace/output/bin/s_maximin_d4",
+      "source": "snapshot/candidates/s_maximin_d4/main.cpp",
+      "source_sha256": "7603cd0ab25b107146dd2a98bcac10bf78d979760e87069e26f5c9a603d5db73",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/s_maximin_d4",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/s_maximin_d4/main.cpp",
+            "-o",
+            "/tmp/yk-league-fk6mccd7/workspace/output/bin/s_maximin_d4"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "87a01f0a6d08a8eec5459717a8c805cf1dfe94ae2cfdecdd459c19fa07c07c46"
+    },
+    "s_mean_d4": {
+      "id": "s_mean_d4",
+      "family": "uniform_opponent",
+      "parameters": {
+        "mode": 2,
+        "depth": 4
+      },
+      "hypothesis": "모든 상대를 같은 확률로 보고 평균 이득을 높인다.",
+      "weakness": "평균이 좋아도 특정 상대에게 크게 질 수 있다.",
+      "command": "/tmp/yk-league-fk6mccd7/workspace/output/bin/s_mean_d4",
+      "source": "snapshot/candidates/s_mean_d4/main.cpp",
+      "source_sha256": "b8fd827445d01ba42c062462d59017aa20619ae1e55e0f67b4d56cf0fc14ff29",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/s_mean_d4",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/s_mean_d4/main.cpp",
+            "-o",
+            "/tmp/yk-league-fk6mccd7/workspace/output/bin/s_mean_d4"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "4a08aceb21e613a3a26bc98657dcaab5c48d83106f60dab7faad17a8883cc153"
+    },
+    "s_mean_min_d4": {
+      "id": "s_mean_min_d4",
+      "family": "risk_blend",
+      "parameters": {
+        "mode": 3,
+        "depth": 4
+      },
+      "hypothesis": "평균과 최악값을 절반씩 반영해 안전과 기회를 절충한다.",
+      "weakness": "절반이라는 비율은 미검증이며 최악 상대가 비현실적일 수 있다.",
+      "command": "/tmp/yk-league-fk6mccd7/workspace/output/bin/s_mean_min_d4",
+      "source": "snapshot/candidates/s_mean_min_d4/main.cpp",
+      "source_sha256": "471456fd7dd06280bb20a07ef99253e73edd74db1eb8c89acb57c04d85b724a9",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/s_mean_min_d4",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/s_mean_min_d4/main.cpp",
+            "-o",
+            "/tmp/yk-league-fk6mccd7/workspace/output/bin/s_mean_min_d4"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "4cad2c02aa5cc846ad7d490d1cf5f20fa78ca53dd0204be1299687c6b7ad9d9f"
+    },
+    "s_tail2_d4": {
+      "id": "s_tail2_d4",
+      "family": "lower_tail",
+      "parameters": {
+        "mode": 4,
+        "depth": 4
+      },
+      "hypothesis": "하위 2개 결과의 평균으로 극단적인 한 상대의 과도한 영향을 줄인다.",
+      "weakness": "4개 동등가중 가상 상대의 하위 평균이며 실제 손실분포 추정은 아니다.",
+      "command": "/tmp/yk-league-fk6mccd7/workspace/output/bin/s_tail2_d4",
+      "source": "snapshot/candidates/s_tail2_d4/main.cpp",
+      "source_sha256": "a62fa808bcd897a3faf81c5bc165ee5f2db0a3669ecd5d6e574254714efe14c1",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/s_tail2_d4",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/s_tail2_d4/main.cpp",
+            "-o",
+            "/tmp/yk-league-fk6mccd7/workspace/output/bin/s_tail2_d4"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "360d7261917079eb19b3999d41152e41b841d44ae0e9c6e59cb728c7c2ae6e25"
+    },
+    "s_regret_d2": {
+      "id": "s_regret_d2",
+      "family": "short_horizon",
+      "parameters": {
+        "mode": 0,
+        "depth": 2
+      },
+      "hypothesis": "짧은 예측으로 상대 모델 오류의 누적과 계산량을 줄인다.",
+      "weakness": "중립화 뒤 재점령과 먼 경제 투자 효과를 놓칠 수 있다.",
+      "command": "/tmp/yk-league-fk6mccd7/workspace/output/bin/s_regret_d2",
+      "source": "snapshot/candidates/s_regret_d2/main.cpp",
+      "source_sha256": "cdb8f899c0c239d6c3613eb0d38aa9edee9fd34cc7a38f75b0bc14b980d04eeb",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/s_regret_d2",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/s_regret_d2/main.cpp",
+            "-o",
+            "/tmp/yk-league-fk6mccd7/workspace/output/bin/s_regret_d2"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "c0fb01e698e9e655e026b6c75dcc1f3984f7cbab6406eb5b61adac074998d885"
+    },
+    "s_regret_d6": {
+      "id": "s_regret_d6",
+      "family": "long_horizon",
+      "parameters": {
+        "mode": 0,
+        "depth": 6
+      },
+      "hypothesis": "6턴 예측이 경제 거점 진입과 재점령의 결과를 더 잘 반영한다.",
+      "weakness": "계산량과 모델 오류가 늘고 160ms 초과 시 정책0으로 돌아간다.",
+      "command": "/tmp/yk-league-fk6mccd7/workspace/output/bin/s_regret_d6",
+      "source": "snapshot/candidates/s_regret_d6/main.cpp",
+      "source_sha256": "9514df4a916338af1f2264c68220edb01c38bd714fdd43f42a5b7402dedf7b48",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/s_regret_d6",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/s_regret_d6/main.cpp",
+            "-o",
+            "/tmp/yk-league-fk6mccd7/workspace/output/bin/s_regret_d6"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "c66621f2bd44f649ec10cd29b93e74574e1744af55a120fa6ce5f8152cad5266"
+    },
+    "s_switch_guard_d4": {
+      "id": "s_switch_guard_d4",
+      "family": "sparse_role_plan",
+      "parameters": {
+        "mode": 0,
+        "depth": 4,
+        "switch": true
+      },
+      "hypothesis": "후보 정책을 2턴 수행하고 수비 정책0으로 전환하는 계획을 평가한다.",
+      "weakness": "매 턴 다시 계획하며 지속 임무 예약이나 진화적 RHEA는 구현하지 않았다.",
+      "command": "/tmp/yk-league-fk6mccd7/workspace/output/bin/s_switch_guard_d4",
+      "source": "snapshot/candidates/s_switch_guard_d4/main.cpp",
+      "source_sha256": "eb4329bcd38e82ef8b96c04379e9894683490e88c7908dc1bdb58f35e77e1b71",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/s_switch_guard_d4",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/s_switch_guard_d4/main.cpp",
+            "-o",
+            "/tmp/yk-league-fk6mccd7/workspace/output/bin/s_switch_guard_d4"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "eeddf0cb06a2c5ae65c7a429978f38c985e8de1857e49dc5ca69a76457653edf"
+    },
+    "s_assignment_only": {
+      "id": "s_assignment_only",
+      "family": "assignment_ablation",
+      "parameters": {
+        "mode": 0,
+        "depth": 0,
+        "assignment": true
+      },
+      "hypothesis": "팀원에서 유래한 거리 기반 임무 배정만 실행해 탐색의 순기여를 확인한다.",
+      "weakness": "전체 행동 상호작용과 상대 반응을 비교하는 탐색이 없다.",
+      "command": "/tmp/yk-league-fk6mccd7/workspace/output/bin/s_assignment_only",
+      "source": "snapshot/candidates/s_assignment_only/main.cpp",
+      "source_sha256": "17cd7183cc1dd8058d7cbe94a9262ddb35541762bfd2686053a171db51f9c579",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/s_assignment_only",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/s_assignment_only/main.cpp",
+            "-o",
+            "/tmp/yk-league-fk6mccd7/workspace/output/bin/s_assignment_only"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "933bb45d9b621a0d14aa81142d6085ca934b8bd5cc71a69c3bb0586e46ec0969"
+    },
+    "s_maximin_d1": {
+      "id": "s_maximin_d1",
+      "family": "immediate_robust",
+      "parameters": {
+        "mode": 1,
+        "depth": 1
+      },
+      "hypothesis": "동시 명령의 다음 한 턴 피해에 집중한다.",
+      "weakness": "두 턴이 필요한 적 건물 점령을 과소평가할 수 있다.",
+      "command": "/tmp/yk-league-fk6mccd7/workspace/output/bin/s_maximin_d1",
+      "source": "snapshot/candidates/s_maximin_d1/main.cpp",
+      "source_sha256": "48b23f2d20a58bed31d0e5a0a1ee1280885ad18ea0e2a0d142ca6f8aaef216b6",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/s_maximin_d1",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/s_maximin_d1/main.cpp",
+            "-o",
+            "/tmp/yk-league-fk6mccd7/workspace/output/bin/s_maximin_d1"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "54ddd75869675c17d9ae117e263cff1f9fde29bc78b600626dbb920db5e1e6c0"
+    },
+    "s_local_hold_d3": {
+      "id": "s_local_hold_d3",
+      "family": "partial_tactical_portfolio",
+      "parameters": {
+        "mode": 1,
+        "depth": 3,
+        "hold": true
+      },
+      "hypothesis": "적 F가 인접한 아군 건물에서 W 출발을 취소하는 후보를 원래 정책과 비교한다.",
+      "weakness": "할당 정책 슬롯을 대체하며 과잉 주둔할 수 있다. 완전한 PGS나 최적 병력 배정은 아니다.",
+      "command": "/tmp/yk-league-fk6mccd7/workspace/output/bin/s_local_hold_d3",
+      "source": "snapshot/candidates/s_local_hold_d3/main.cpp",
+      "source_sha256": "946c346dd77f532fea6a4ab534103d2ab40a13178ac2485a6997ff92d1a1bf3d",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/s_local_hold_d3",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/s_local_hold_d3/main.cpp",
+            "-o",
+            "/tmp/yk-league-fk6mccd7/workspace/output/bin/s_local_hold_d3"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "f57f87af1e23c0bd594cf117c9d0adfeeb3344b2672f684e0e99fab9882b7a79"
+    },
+    "c_economy_direct": {
+      "id": "c_economy_direct",
+      "family": "economic_auction",
+      "parameters": {
+        "mode": "direct",
+        "replacement_style": null
+      },
+      "hypothesis": "이동 거리당 경제 가치를 전체 기수-거점 쌍에서 경매해 ENG/HALL의 조기 확보를 우선한다.",
+      "weakness": "경제 미래 가치가 고정되어 상대의 집중 돌파와 종반 점령 역전을 과소평가할 수 있다.",
+      "command": "/tmp/yk-league-fk6mccd7/workspace/output/bin/c_economy_direct",
+      "source": "snapshot/candidates/c_economy_direct/main.cpp",
+      "source_sha256": "2594026e71dbf8bb4e020fdcd486100334b9b19d870791f40ee1a0f95e271150",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/c_economy_direct",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/c_economy_direct/main.cpp",
+            "-o",
+            "/tmp/yk-league-fk6mccd7/workspace/output/bin/c_economy_direct"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "c78f0e42cc8f0055ab5a77154fecb4d58ddea462ffcca790e70b11ef622a103f"
+    },
+    "c_economy_portfolio": {
+      "id": "c_economy_portfolio",
+      "family": "economic_auction",
+      "parameters": {
+        "mode": "portfolio",
+        "replacement_style": 2
+      },
+      "hypothesis": "이동 거리당 경제 가치를 전체 기수-거점 쌍에서 경매해 ENG/HALL의 조기 확보를 우선한다.",
+      "weakness": "경제 미래 가치가 고정되어 상대의 집중 돌파와 종반 점령 역전을 과소평가할 수 있다.",
+      "command": "/tmp/yk-league-fk6mccd7/workspace/output/bin/c_economy_portfolio",
+      "source": "snapshot/candidates/c_economy_portfolio/main.cpp",
+      "source_sha256": "71f6ad5583612f64204acd9244a189c1f7fd84b788203aa22357ba62c5774371",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/c_economy_portfolio",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/c_economy_portfolio/main.cpp",
+            "-o",
+            "/tmp/yk-league-fk6mccd7/workspace/output/bin/c_economy_portfolio"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "12a930383bd40529ad3d7d0630e21c20c2f0f99b6468f4eaf78e663a79bad31e"
+    },
+    "c_territory_direct": {
+      "id": "c_territory_direct",
+      "family": "contested_territory",
+      "parameters": {
+        "mode": "direct",
+        "replacement_style": null
+      },
+      "hypothesis": "소유 거점에 접근하는 적 F에 아군 F의 동시 경합과 W 주둔을 예약하고 여유 병력으로 재점령한다.",
+      "weakness": "상대 F의 위협에 지나치게 주둔하여 비어 있는 경제 거점 확보를 놓칠 수 있다.",
+      "command": "/tmp/yk-league-fk6mccd7/workspace/output/bin/c_territory_direct",
+      "source": "snapshot/candidates/c_territory_direct/main.cpp",
+      "source_sha256": "b37b2568617d09e3883b50d8381739c5c3b26c6745b95c0f016c6c97d1c0a43f",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/c_territory_direct",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/c_territory_direct/main.cpp",
+            "-o",
+            "/tmp/yk-league-fk6mccd7/workspace/output/bin/c_territory_direct"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "6b3770f813c0f82df2d82e8dbaa290473b9748cd9c2c61bed5a821d6277daa07"
+    },
+    "c_territory_portfolio": {
+      "id": "c_territory_portfolio",
+      "family": "contested_territory",
+      "parameters": {
+        "mode": "portfolio",
+        "replacement_style": 2
+      },
+      "hypothesis": "소유 거점에 접근하는 적 F에 아군 F의 동시 경합과 W 주둔을 예약하고 여유 병력으로 재점령한다.",
+      "weakness": "상대 F의 위협에 지나치게 주둔하여 비어 있는 경제 거점 확보를 놓칠 수 있다.",
+      "command": "/tmp/yk-league-fk6mccd7/workspace/output/bin/c_territory_portfolio",
+      "source": "snapshot/candidates/c_territory_portfolio/main.cpp",
+      "source_sha256": "ed3b78bb4e74cf64f5f9d38d5fff912daa288291e521c794d8df62c6e05ee6a3",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/c_territory_portfolio",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/c_territory_portfolio/main.cpp",
+            "-o",
+            "/tmp/yk-league-fk6mccd7/workspace/output/bin/c_territory_portfolio"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "0c4abefb8ef1d0ac69326b7c247ff18f3ae332a513880238559d32b2b8ae1f54"
+    },
+    "c_spearhead_direct": {
+      "id": "c_spearhead_direct",
+      "family": "focused_breach",
+      "parameters": {
+        "mode": "direct",
+        "replacement_style": null
+      },
+      "hypothesis": "W를 한 돌파 거점으로 집중시키고 F는 호위받는 정면과 안전한 측면을 점령한다.",
+      "weakness": "거리 변화에 따른 목표 변경으로 왕복과 수비 부족이 발생하며 다방면 기습에 취약하다.",
+      "command": "/tmp/yk-league-fk6mccd7/workspace/output/bin/c_spearhead_direct",
+      "source": "snapshot/candidates/c_spearhead_direct/main.cpp",
+      "source_sha256": "07df620ed50c9ceead260539d9fafcfe6e977db82acdc1a660c64a6c738c0867",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/c_spearhead_direct",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/c_spearhead_direct/main.cpp",
+            "-o",
+            "/tmp/yk-league-fk6mccd7/workspace/output/bin/c_spearhead_direct"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "7b765142a00b92050a0746ac9392c584d3f7c4b98966acb6ba654deecb44a666"
+    },
+    "c_spearhead_portfolio": {
+      "id": "c_spearhead_portfolio",
+      "family": "focused_breach",
+      "parameters": {
+        "mode": "portfolio",
+        "replacement_style": 2
+      },
+      "hypothesis": "W를 한 돌파 거점으로 집중시키고 F는 호위받는 정면과 안전한 측면을 점령한다.",
+      "weakness": "거리 변화에 따른 목표 변경으로 왕복과 수비 부족이 발생하며 다방면 기습에 취약하다.",
+      "command": "/tmp/yk-league-fk6mccd7/workspace/output/bin/c_spearhead_portfolio",
+      "source": "snapshot/candidates/c_spearhead_portfolio/main.cpp",
+      "source_sha256": "34ba4b654a5917698424a74181b9799f2d9e017f42581f3f14b65050870ddb28",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/c_spearhead_portfolio",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/c_spearhead_portfolio/main.cpp",
+            "-o",
+            "/tmp/yk-league-fk6mccd7/workspace/output/bin/c_spearhead_portfolio"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "36e8f6af15457bb19cf720822dbef9339580d4668eb8ea2d64b3e02e1e15bd0b"
+    },
+    "v1": {
+      "id": "v1",
+      "family": "reference",
+      "parameters": {},
+      "hypothesis": "과거 제출 회귀 검사",
+      "weakness": "이전 후보",
+      "command": "/tmp/yk-league-fk6mccd7/workspace/output/bin/v1",
+      "source": "snapshot/candidates/v1/main.cpp",
+      "source_sha256": "13a240536ea85885a1f61c8007665d132cc5c31a9c23ae00dec9872bf01fbcb5",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/v1",
+            "/tmp/yk-league-fk6mccd7/workspace/output/snapshot/candidates/v1/main.cpp",
+            "-o",
+            "/tmp/yk-league-fk6mccd7/workspace/output/bin/v1"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "5d29ecbf2b177ad823405220dc95a204b626fa729bbdb58f1459b5db2a1eb289"
+    },
+    "teammate": {
+      "id": "teammate",
+      "family": "reference",
+      "command": "/usr/bin/python3 /tmp/yk-league-fk6mccd7/workspace/output/snapshot/opponents/teammate/main.py",
+      "source_sha256": "571397e3c84998b27f8ce0468bc49333663c69b0b84162ad8dfc27e7a47f2365"
+    }
+  },
+  "frozen_sha256": {
+    "snapshot/candidates/c_economy_direct/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/c_economy_direct/main.cpp": "2594026e71dbf8bb4e020fdcd486100334b9b19d870791f40ee1a0f95e271150",
+    "snapshot/candidates/c_economy_direct/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/c_economy_portfolio/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/c_economy_portfolio/main.cpp": "71f6ad5583612f64204acd9244a189c1f7fd84b788203aa22357ba62c5774371",
+    "snapshot/candidates/c_economy_portfolio/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/c_spearhead_direct/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/c_spearhead_direct/main.cpp": "07df620ed50c9ceead260539d9fafcfe6e977db82acdc1a660c64a6c738c0867",
+    "snapshot/candidates/c_spearhead_direct/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/c_spearhead_portfolio/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/c_spearhead_portfolio/main.cpp": "34ba4b654a5917698424a74181b9799f2d9e017f42581f3f14b65050870ddb28",
+    "snapshot/candidates/c_spearhead_portfolio/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/c_territory_direct/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/c_territory_direct/main.cpp": "b37b2568617d09e3883b50d8381739c5c3b26c6745b95c0f016c6c97d1c0a43f",
+    "snapshot/candidates/c_territory_direct/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/c_territory_portfolio/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/c_territory_portfolio/main.cpp": "ed3b78bb4e74cf64f5f9d38d5fff912daa288291e521c794d8df62c6e05ee6a3",
+    "snapshot/candidates/c_territory_portfolio/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/p_00/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/p_00/main.cpp": "60cf7b918ed41a845674373b7867253b29576a82729cf3740d9747130ccb8900",
+    "snapshot/candidates/p_00/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/p_01/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/p_01/main.cpp": "75436bac70582d989ac5d4dd7efa7190bc00985273289b4d728ce512546f4ab7",
+    "snapshot/candidates/p_01/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/p_02/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/p_02/main.cpp": "2d27081ae5aee8427c74230ee7ca96e68017c5edd098f962fa32d373146c25e5",
+    "snapshot/candidates/p_02/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/p_03/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/p_03/main.cpp": "f82ba1657e1040c19bbc7d27ad584eba2e158ab15812f431065069058afa6815",
+    "snapshot/candidates/p_03/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/p_04/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/p_04/main.cpp": "e40ef06acec66c6057bd9eee99109dded145b42ad60e3a900ce0e499f50a2195",
+    "snapshot/candidates/p_04/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/p_05/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/p_05/main.cpp": "8c27e6e24724ef1d0d02849d405b0e37fafec1f543bc7c2cfbcc9310fd8696c5",
+    "snapshot/candidates/p_05/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/p_06/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/p_06/main.cpp": "42866898707fb339709c2217fb4c29d0664cf74156dfa4a981841565c0b2e883",
+    "snapshot/candidates/p_06/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/p_07/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/p_07/main.cpp": "c6d882f3551e76eac8317755ff54ab50ba84493f70a7e451dffdead6c7cc3db7",
+    "snapshot/candidates/p_07/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/p_08/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/p_08/main.cpp": "730f1d89621b062c9e909cf774b7e9370393960f16f2517a32d81c68ab0599c6",
+    "snapshot/candidates/p_08/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/p_09/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/p_09/main.cpp": "0d0896daf55a5e0ec01ce49bde41102a00f1fae4e7a6fd6e924987439f72f523",
+    "snapshot/candidates/p_09/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/p_10/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/p_10/main.cpp": "87cbdedf8a36bb497d7d8f95dac805405ef2c48215711005faffa76161263f30",
+    "snapshot/candidates/p_10/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/p_11/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/p_11/main.cpp": "e2f483d97d1ca0783755b7cba0369cd6c0ae2b12d8be6dea8e99115c2a2038bd",
+    "snapshot/candidates/p_11/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/p_12/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/p_12/main.cpp": "8c27e6e24724ef1d0d02849d405b0e37fafec1f543bc7c2cfbcc9310fd8696c5",
+    "snapshot/candidates/p_12/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/p_13/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/p_13/main.cpp": "ce09a96c51479de2d7b3759431ccf942e02a9f310ddc91504c14a39930407a33",
+    "snapshot/candidates/p_13/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/p_14/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/p_14/main.cpp": "68829bae3cb24f4e418cdba2b931286995e2811a5663ffd84d580c36e4f6351a",
+    "snapshot/candidates/p_14/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/p_15/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/p_15/main.cpp": "d163e8f08fb1ac320a621fe3e4bf25de23a1066289c7ba84b5254e42793f7cb8",
+    "snapshot/candidates/p_15/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/r_combined/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/r_combined/main.cpp": "74d20a52f93df3e85ecbd12fc133a279713d4c0b55c9db98eb5d47564cd88797",
+    "snapshot/candidates/r_combined/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/r_economic_value/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/r_economic_value/main.cpp": "cb0849204984bcd9585793ede66e667787f07a7c6f4ee586d90a2931d47cc933",
+    "snapshot/candidates/r_economic_value/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/r_eng_guard/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/r_eng_guard/main.cpp": "da0fd74143665a4333dd30f1fbec9e6e2edb5113aa3b7ca27cb70135423393d0",
+    "snapshot/candidates/r_eng_guard/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/r_eng_terminal/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/r_eng_terminal/main.cpp": "be02682ee9c2b3a7d053bda4ecd8852405a81a86d6c68e44c065cbc81ffc39d1",
+    "snapshot/candidates/r_eng_terminal/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/r_guard_late/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/r_guard_late/main.cpp": "13197cd093823768753a1346a88056bc30306e127f4880a1b55c9963ca11c230",
+    "snapshot/candidates/r_guard_late/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/r_guard_one/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/r_guard_one/main.cpp": "61eaf91c053ead129ff34fdf4441f0cb1be8a2511fe92ee819193ea05e0dc2bb",
+    "snapshot/candidates/r_guard_one/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/r_guard_terminal/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/r_guard_terminal/main.cpp": "2382032eb0f4e776a83e3770001075f986a369ddd6fc1e3b3f6dc61278c0038d",
+    "snapshot/candidates/r_guard_terminal/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/r_guard_two/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/r_guard_two/main.cpp": "9c589cc8c5ed6389303b91fde10005bd37c1f418d7a36010e2f63b55d12fc7d8",
+    "snapshot/candidates/r_guard_two/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/r_joint_escort/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/r_joint_escort/main.cpp": "2be7876f131ca61fd053510e6c632904e683678e406976b0a3fb1679da8e1b0c",
+    "snapshot/candidates/r_joint_escort/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/r_terminal_margin/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/r_terminal_margin/main.cpp": "afc5a257d40f775a5c3520a9f86275249052a41bf730a275fe8796eb8dfd7f9f",
+    "snapshot/candidates/r_terminal_margin/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/s_assignment_only/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/s_assignment_only/main.cpp": "17cd7183cc1dd8058d7cbe94a9262ddb35541762bfd2686053a171db51f9c579",
+    "snapshot/candidates/s_assignment_only/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/s_local_hold_d3/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/s_local_hold_d3/main.cpp": "946c346dd77f532fea6a4ab534103d2ab40a13178ac2485a6997ff92d1a1bf3d",
+    "snapshot/candidates/s_local_hold_d3/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/s_maximin_d1/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/s_maximin_d1/main.cpp": "48b23f2d20a58bed31d0e5a0a1ee1280885ad18ea0e2a0d142ca6f8aaef216b6",
+    "snapshot/candidates/s_maximin_d1/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/s_maximin_d4/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/s_maximin_d4/main.cpp": "7603cd0ab25b107146dd2a98bcac10bf78d979760e87069e26f5c9a603d5db73",
+    "snapshot/candidates/s_maximin_d4/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/s_mean_d4/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/s_mean_d4/main.cpp": "b8fd827445d01ba42c062462d59017aa20619ae1e55e0f67b4d56cf0fc14ff29",
+    "snapshot/candidates/s_mean_d4/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/s_mean_min_d4/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/s_mean_min_d4/main.cpp": "471456fd7dd06280bb20a07ef99253e73edd74db1eb8c89acb57c04d85b724a9",
+    "snapshot/candidates/s_mean_min_d4/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/s_regret_d2/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/s_regret_d2/main.cpp": "cdb8f899c0c239d6c3613eb0d38aa9edee9fd34cc7a38f75b0bc14b980d04eeb",
+    "snapshot/candidates/s_regret_d2/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/s_regret_d6/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/s_regret_d6/main.cpp": "9514df4a916338af1f2264c68220edb01c38bd714fdd43f42a5b7402dedf7b48",
+    "snapshot/candidates/s_regret_d6/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/s_switch_guard_d4/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/s_switch_guard_d4/main.cpp": "eb4329bcd38e82ef8b96c04379e9894683490e88c7908dc1bdb58f35e77e1b71",
+    "snapshot/candidates/s_switch_guard_d4/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/s_tail2_d4/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/s_tail2_d4/main.cpp": "a62fa808bcd897a3faf81c5bc165ee5f2db0a3669ecd5d6e574254714efe14c1",
+    "snapshot/candidates/s_tail2_d4/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/v1/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/v1/main.cpp": "13a240536ea85885a1f61c8007665d132cc5c31a9c23ae00dec9872bf01fbcb5",
+    "snapshot/candidates/v1/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/v2/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/v2/main.cpp": "53bb019625fabbbd3aa8a5b65af971912bb4cbdad8a9fde3009fadad5ba6d4c5",
+    "snapshot/candidates/v2/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/experiments/cpu_sweep.py": "bf0f0293499473b0295e2dac640e24362c332edc1edc8c01f5e09ef39f12172b",
+    "snapshot/experiments/league_campaign.py": "90539ddfabdf38e4410a2255448fdffa89f12704aaa6694a73307d3c25ea84ff",
+    "snapshot/experiments/local_league/challengers.py": "839d24c3bec34d3d2b874763b597b618f89f59bcad783ca7d1cf2197651adad7",
+    "snapshot/experiments/local_league/repairs.py": "44158dba1130a0da8201dba3ea00c427a50884a28b929a2b9634506e9f2a690e",
+    "snapshot/experiments/local_league/search_families.py": "1964196de4793e36d9f0fed263a6490dfb6ba2955a6302dd99157b7370fc7634",
+    "snapshot/experiments/local_league.py": "626f3b3920e18de474ea2c789fa4ce13c35a465af7e929c39b530b8718517e11",
+    "snapshot/opponents/teammate/_generated.py": "8cf113fe574425e1f761911e59fe43394aad147946b07ed4a837e1da6b25fcfc",
+    "snapshot/opponents/teammate/campus_bot.py": "2568119d19d9def58dd824b06eac332f018f23c0dee24ba1ccddf3169a151e7b",
+    "snapshot/opponents/teammate/main.py": "a114cc5a286ea21cc09ba11a018c65bf38e068c7f79d7a8b5420a05ff936b666",
+    "snapshot/opponents/teammate/protocol.py": "67a5d27ced038de39d7cd3b069bf01786bf4cc9e6c1d39269d1f7e67b185c194",
+    "snapshot/opponents/teammate/submission.json": "ff5431b97ab8dc3d045d053fe1e3148eca20bfe900ec66cd9e7f7f5e542f3de5",
+    "snapshot/submissions/delineate-v1.zip": "571397e3c84998b27f8ce0468bc49333663c69b0b84162ad8dfc27e7a47f2365",
+    "snapshot/submissions/first/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/submissions/first/main.cpp": "13a240536ea85885a1f61c8007665d132cc5c31a9c23ae00dec9872bf01fbcb5",
+    "snapshot/submissions/first/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/submissions/first/submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60",
+    "snapshot/submissions/tuned/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/submissions/tuned/main.cpp": "53bb019625fabbbd3aa8a5b65af971912bb4cbdad8a9fde3009fadad5ba6d4c5",
+    "snapshot/submissions/tuned/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/submissions/tuned/submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60",
+    "snapshot/yk-development-tools/bots/dist/starter/python/_generated.py": "8cf113fe574425e1f761911e59fe43394aad147946b07ed4a837e1da6b25fcfc",
+    "snapshot/yk-development-tools/bots/dist/starter/python/campus_bot.py": "2568119d19d9def58dd824b06eac332f018f23c0dee24ba1ccddf3169a151e7b",
+    "snapshot/yk-development-tools/bots/dist/starter/python/example_lv1.py": "15183b1c05b8daa12212cb2d64fe54dbc81deba69a7e9999b3fac4b3d5ccbc1d",
+    "snapshot/yk-development-tools/bots/dist/starter/python/example_lv2.py": "91c174b0259ea2759d3ff390bb80ff0d6494fbea59003cb5b0a607bf1370bd4f",
+    "snapshot/yk-development-tools/bots/dist/starter/python/main.py": "fc0b4fc2eccb0e497c8435d85412332e3628053a905f51687d654b8e2d35b068",
+    "snapshot/yk-development-tools/bots/dist/starter/python/mybot_template.py": "6d6ee8564548c9bf81562d60c270b69968813045c900c94ce95b5c261456d43b",
+    "snapshot/yk-development-tools/bots/dist/starter/python/protocol.py": "67a5d27ced038de39d7cd3b069bf01786bf4cc9e6c1d39269d1f7e67b185c194",
+    "snapshot/yk-development-tools/bots/dist/starter/python/search.py": "34cc73421e056d857549d28523ada709c6531152e4a0e08b8f8eddbad5073e45",
+    "snapshot/yk-development-tools/bots/dist/starter/python/submission.json": "ff5431b97ab8dc3d045d053fe1e3148eca20bfe900ec66cd9e7f7f5e542f3de5",
+    "snapshot/yk-development-tools/config/balance.json": "a46886d91862244b6daf4990dcdf2371302433e7120c21dc2a29ecf95696b35f",
+    "snapshot/yk-development-tools/engine/__init__.py": "5b9c498fcef25d4900bfe993415964ef9b803c37309acda004e6b553130ace86",
+    "snapshot/yk-development-tools/engine/commands.py": "db00820b9f77cc1b6e71eaa37bb4eb0b4c31cccda7f4b388269a13db04a76798",
+    "snapshot/yk-development-tools/engine/config.py": "964f20b9f914bbc0bc81c84d7fbee3b2ecbed4b54814ab51cbd20d54ef6f20b9",
+    "snapshot/yk-development-tools/engine/pipeline.py": "f0bd96c484c8628b6a070b188adcc1a077e9f90017cc15f11ce366d974490fa6",
+    "snapshot/yk-development-tools/engine/state.py": "dd227e26bcb36a5c412bbf7db19f4418a59627e8ea7e55a90dac5184dcc0737f",
+    "snapshot/yk-development-tools/mapgen/__init__.py": "4e3cf8f63c58f32835898da672ecaacf87b1ee105da4628fb917b2f6070fc5f0",
+    "snapshot/yk-development-tools/mapgen/generator.py": "645b53e2b2ce0049608873b1d01a983661dbdbfe63e358fbb152cbeeea13947e",
+    "snapshot/yk-development-tools/mapgen/render.py": "5486e5f68e8de843fd36ded98716a05a0b399301b6d82651db3aacba6bc16029",
+    "snapshot/yk-development-tools/mapgen/rng.py": "4b56383dd28a138c2ae0bd387a893b4129e108dddf369dd54d3927848f85cc4d",
+    "snapshot/yk-development-tools/runner/__init__.py": "7f675ede62ac8590c279dd4f2f64f8aa526f8d41e60dcfd7dba930612db4fbe2",
+    "snapshot/yk-development-tools/runner/__main__.py": "307299fda7b77d22c64cb51430ec75e5f59d78e9c948786afb3b2544fe45e4b7",
+    "snapshot/yk-development-tools/runner/bots.py": "c09312d62eaa1a2a5af5576b24922a9fd209365e0f3e655894934585858aba43",
+    "snapshot/yk-development-tools/runner/cli.py": "90b102ca9513f710deed37c68adbca6026f43b641a5c00758d2868ecd1a90b81",
+    "snapshot/yk-development-tools/runner/match.py": "122d3fc0c31ade0b808795d15842949da8c32a26c79c779841e7364aa2f51578",
+    "snapshot/yk-development-tools/runner/protocol.py": "5917df4bec20b963586b1ffeb7a45b9959f51e3437a227ee7e8d932b172a7d65",
+    "snapshot/yk-development-tools/runner/replay.py": "fc2bf7405c405ac30da4d7c122b24e3c3275544bfbd1ec22779bbb217df6e8a6",
+    "snapshot/yk-development-tools/runner/validation.py": "7c00c3eca69a8f115e51b3c47a570c1015795b41d16e9987b5679f84f4184345",
+    "bin/c_economy_direct": "c78f0e42cc8f0055ab5a77154fecb4d58ddea462ffcca790e70b11ef622a103f",
+    "bin/c_economy_portfolio": "12a930383bd40529ad3d7d0630e21c20c2f0f99b6468f4eaf78e663a79bad31e",
+    "bin/c_spearhead_direct": "7b765142a00b92050a0746ac9392c584d3f7c4b98966acb6ba654deecb44a666",
+    "bin/c_spearhead_portfolio": "36e8f6af15457bb19cf720822dbef9339580d4668eb8ea2d64b3e02e1e15bd0b",
+    "bin/c_territory_direct": "6b3770f813c0f82df2d82e8dbaa290473b9748cd9c2c61bed5a821d6277daa07",
+    "bin/c_territory_portfolio": "0c4abefb8ef1d0ac69326b7c247ff18f3ae332a513880238559d32b2b8ae1f54",
+    "bin/p_00": "c992e907233d5cf5ef82c2208b4036acc62517b66f4494caff6722f1a424f535",
+    "bin/p_01": "1c2b1decbd55a66eaba430ff9e0e3b88123a49852716030f98136693a0991cbb",
+    "bin/p_02": "9ab8dae6bfbb115a75a9b1a12189710890ad95c5e563b62b190f8cdd9e90aac7",
+    "bin/p_03": "321f853f66ef551f9569e0e71acf28edc0132ee727a1b435911dd1357f85bc46",
+    "bin/p_04": "478d24622b6e4eb27c1bb8f4f4c3e7f3a5758c2ed744480e2d4a77c746cb12a3",
+    "bin/p_05": "fd08ea3d24fd6b950059d5d09e89549a730035b9a5c46beeaee180be31fd666e",
+    "bin/p_06": "2ac41730f9f6cde2a91aa98d5a3919899bee0191256ba774b1f06ac8a4918146",
+    "bin/p_07": "a0a80904504f153089f4dc16508cab08ab4adf131ce486441a5ad06d0f81e843",
+    "bin/p_08": "ac733334e867dade54202313d88472ff272b60da50a2980ea5a04e8547ead570",
+    "bin/p_09": "7b0f57553d3e37243f09648cb7daf58296d94a4dd5506e8a6d381699e6e0dc4f",
+    "bin/p_10": "cd1207c45a8f06f22ef55e0708170734339066ad3dde54a4e8eced3f55a69bca",
+    "bin/p_11": "d3044139275ba7c5a96bfa3452a56817e8e3b0f21abf6dbc2d5eb7951d378f5a",
+    "bin/p_13": "84f467191d6ff696d8be9e406253d5a93412d60a0286937304f2b0b643ca4096",
+    "bin/p_14": "e7c50f969599967fb8034de446909dfa057abb47bf0deed38731c4c95706299a",
+    "bin/p_15": "833f62b26c6ac3b36c25ca1c8cab7b18d24242db67a39f78b1c1f5029ef763ad",
+    "bin/r_combined": "eee6e5fdd7855a8d876cce8ab100198658bdc8274fc2ebcfc86441098c7472ec",
+    "bin/r_economic_value": "64e00978900a9ebc4e5d7e3f961b129ef8fe2b82e1041d38af5eb07613ea566b",
+    "bin/r_eng_guard": "5ef5f50d0d878be57e786eb47fc9543384a259bc24ade6c2cd0a64323715060f",
+    "bin/r_eng_terminal": "563073e8230b8fff30b290a7694404a1231e84a599d3ba369a438727315753de",
+    "bin/r_guard_late": "f64c84d602023e46ba8b45830ae86463a385e22d304fe54818888ce61422fe41",
+    "bin/r_guard_one": "edc1013f611b701fc5f70e647bc273f24c57b52ea165fdeb0149f14ae3a0255a",
+    "bin/r_guard_terminal": "b09201c8befb9e3394dadc54f6fe4a2f46be5bbae6fa0eba159008053f14e371",
+    "bin/r_guard_two": "77c91ae1c39e566e721187c8ea5b82b5b0663e51e4e0431ac88234f18c6ee0b2",
+    "bin/r_joint_escort": "4c17b0ffec1cbc9ee84732976a225d203bced87839a4617eb355ab02dbdf8586",
+    "bin/r_terminal_margin": "20f84b1f0918f421c5609199a16d4484055400bf5364238405e4cc68742b915a",
+    "bin/s_assignment_only": "933bb45d9b621a0d14aa81142d6085ca934b8bd5cc71a69c3bb0586e46ec0969",
+    "bin/s_local_hold_d3": "f57f87af1e23c0bd594cf117c9d0adfeeb3344b2672f684e0e99fab9882b7a79",
+    "bin/s_maximin_d1": "54ddd75869675c17d9ae117e263cff1f9fde29bc78b600626dbb920db5e1e6c0",
+    "bin/s_maximin_d4": "87a01f0a6d08a8eec5459717a8c805cf1dfe94ae2cfdecdd459c19fa07c07c46",
+    "bin/s_mean_d4": "4a08aceb21e613a3a26bc98657dcaab5c48d83106f60dab7faad17a8883cc153",
+    "bin/s_mean_min_d4": "4cad2c02aa5cc846ad7d490d1cf5f20fa78ca53dd0204be1299687c6b7ad9d9f",
+    "bin/s_regret_d2": "c0fb01e698e9e655e026b6c75dcc1f3984f7cbab6406eb5b61adac074998d885",
+    "bin/s_regret_d6": "c66621f2bd44f649ec10cd29b93e74574e1744af55a120fa6ce5f8152cad5266",
+    "bin/s_switch_guard_d4": "eeddf0cb06a2c5ae65c7a429978f38c985e8de1857e49dc5ca69a76457653edf",
+    "bin/s_tail2_d4": "360d7261917079eb19b3999d41152e41b841d44ae0e9c6e59cb728c7c2ae6e25",
+    "bin/v1": "5d29ecbf2b177ad823405220dc95a204b626fa729bbdb58f1459b5db2a1eb289",
+    "bin/v2": "cc6247fc8a772df3b6174e2a352be116a7707583db91cca564900f0b0de3b45c"
+  },
+  "finished_utc": "2026-09-27T15:04:33.896580+00:00"
+}

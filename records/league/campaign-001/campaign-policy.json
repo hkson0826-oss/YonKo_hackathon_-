@@ -1,0 +1,65 @@
+{
+  "candidate_count": 43,
+  "workers": 16,
+  "primary_metric": "Y point rate",
+  "ranking_ties": [
+    "worst opponent both-side point rate",
+    "both-side point rate",
+    "mean score margin",
+    "id"
+  ],
+  "smoke_seeds": [
+    5900
+  ],
+  "screen_seeds": [
+    6000,
+    6001,
+    6002
+  ],
+  "selection_seeds": [
+    6100,
+    6101,
+    6102,
+    6103,
+    6104,
+    6105,
+    6106,
+    6107
+  ],
+  "holdout_seeds": [
+    6200,
+    6201,
+    6202,
+    6203,
+    6204,
+    6205,
+    6206,
+    6207,
+    6208,
+    6209,
+    6210,
+    6211,
+    6212,
+    6213,
+    6214,
+    6215,
+    6216,
+    6217,
+    6218,
+    6219,
+    6220,
+    6221,
+    6222,
+    6223
+  ],
+  "crossplay_seeds": [
+    6300,
+    6301
+  ],
+  "replays": "gzip: all losses/draws and first-map wins",
+  "selection": "6 ranked slots with max 2 per family, then 2 diversity/rank slots; baseline always retained",
+  "finalists": "Best two selection candidates excluding baseline, locked before holdout",
+  "promotion": "First selection finalist only: Y paired gain >=0.03, map-cluster bootstrap lower bound >0, no baseline/candidate forfeit/error, no opponent Y regression worse than 0.10; otherwise keep v2",
+  "source_edit_policy": "No candidate changes within this campaign",
+  "crossplay": "Top 8 selection bots incl baseline, all unordered pairs, both sides on 2 maps"
+}

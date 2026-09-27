@@ -1,0 +1,41 @@
+{
+  "candidates": [
+    "v2",
+    "r_combined",
+    "p_01"
+  ],
+  "opponents": [
+    "v2",
+    "teammate",
+    "c_economy_direct",
+    "c_territory_direct",
+    "c_spearhead_direct"
+  ],
+  "map_seeds": [
+    6200,
+    6201,
+    6202,
+    6203,
+    6204,
+    6205,
+    6206,
+    6207,
+    6208,
+    6209,
+    6210,
+    6211,
+    6212,
+    6213,
+    6214,
+    6215,
+    6216,
+    6217,
+    6218,
+    6219,
+    6220,
+    6221,
+    6222,
+    6223
+  ],
+  "replays": "losses"
+}

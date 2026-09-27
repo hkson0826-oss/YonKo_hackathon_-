@@ -1,0 +1,24 @@
+{
+  "transport": [
+    "ssh",
+    "-T"
+  ],
+  "command": [
+    "python3",
+    "experiments/league_campaign.py",
+    "--arena",
+    "output",
+    "--workers",
+    "16"
+  ],
+  "returncode": 0,
+  "archive_sha256": "b5840601beaef3483ef8d117115a75bcfc2e345178ad974e50f6e0c127a604dc",
+  "archive_bytes": 80820558,
+  "cleanup": {
+    "event": "cleanup_complete",
+    "utc": "2026-09-27T15:11:08Z",
+    "path": "/tmp/yk-league-fk6mccd7",
+    "exists": false,
+    "archive_accepted": true
+  }
+}

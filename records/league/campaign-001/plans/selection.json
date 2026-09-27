@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    "v2",
+    "r_guard_one",
+    "r_combined",
+    "p_01",
+    "r_terminal_margin",
+    "r_joint_escort",
+    "p_10",
+    "c_economy_portfolio",
+    "r_economic_value"
+  ],
+  "opponents": [
+    "v2",
+    "teammate",
+    "c_economy_direct",
+    "c_territory_direct",
+    "c_spearhead_direct"
+  ],
+  "map_seeds": [
+    6100,
+    6101,
+    6102,
+    6103,
+    6104,
+    6105,
+    6106,
+    6107
+  ],
+  "replays": "losses"
+}

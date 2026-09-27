@@ -1,0 +1,43 @@
+{
+  "checked_utc": "2026-09-27T15:16:48.078725+00:00",
+  "status": "passed",
+  "frozen_source_files_verified": 179,
+  "build_binaries_intentionally_excluded": 43,
+  "source_input_hashes_verified": 42,
+  "games": 2674,
+  "distinct_maps": 38,
+  "stages": {
+    "smoke": {
+      "games": 90,
+      "maps": 1,
+      "replays_checked": 90
+    },
+    "screen": {
+      "games": 1032,
+      "maps": 3,
+      "replays_checked": 482
+    },
+    "selection": {
+      "games": 720,
+      "maps": 8,
+      "replays_checked": 152
+    },
+    "holdout": {
+      "games": 720,
+      "maps": 24,
+      "replays_checked": 109
+    },
+    "crossplay": {
+      "games": 112,
+      "maps": 2,
+      "replays_checked": 82
+    }
+  },
+  "full_replays_trace_hash_verified": 915,
+  "errors": 0,
+  "forfeits": 0,
+  "maximum_observed_response_ms_both_bots": 80.89938480407,
+  "official_originals_unchanged": 5,
+  "submission_v2_sha256": "f90eca7cac0024ab4cc7c00d79595f71e4eb9bab92ec57e0527c7b977098b64a",
+  "no_elf_or_compiled_cache_in_archive": true
+}
