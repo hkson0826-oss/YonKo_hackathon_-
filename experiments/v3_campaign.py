@@ -118,6 +118,11 @@ def promotion(rows, candidate, opponents, expected_maps):
             'direct_v3_both_side_point_rate': direct_rate, 'gates': gates, 'promoted': all(gates.values())}
 
 
+def runtime_health(rows, candidate):
+    involved = [r for r in rows if {r['candidate'], r['opponent']} & {BASELINE, candidate}]
+    return bool(involved) and all(r['status'] == 'complete' and not r.get('forfeit') for r in involved)
+
+
 def population_spec(revision, requested, challenge):
     return {'modules': MODULES, 'module_sources': {name: SOURCE for name in NEW_MODULES},
             'module_revisions': {name: revision for name in NEW_MODULES},
@@ -236,7 +241,12 @@ def campaign(args):
             cross = list(dict.fromkeys([BASELINE, *finalists, *extra, 'teammate']))
             stage('crossplay', {'pairs': list(itertools.combinations(cross, 2)),
                                'map_seeds': maps['crossplay'], 'replays': 'all'})
-            league.write(arena / 'crossplay-table.json', crossplay_table(load_rows(arena / 'runs/crossplay')))
+            cross_rows = load_rows(arena / 'runs/crossplay')
+            league.write(arena / 'crossplay-table.json', crossplay_table(cross_rows))
+            for name, decision in decisions.items():
+                decision['gates']['crossplay_candidate_and_baseline_runtime_healthy'] = runtime_health(cross_rows, name)
+                decision['promoted'] = all(decision['gates'].values())
+            result['recommended'] = primary if decisions[primary]['promoted'] else BASELINE
         result.update(stage_match_counts={name: report['overall']['matches'] for name, report in reports.items()},
                       total_matches=sum(report['overall']['matches'] for report in reports.values()),
                       elapsed_seconds=time.perf_counter() - started,

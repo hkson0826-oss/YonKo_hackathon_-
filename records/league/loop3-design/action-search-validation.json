@@ -1,0 +1,121 @@
+{
+  "status": "tests_passed_strength_pending",
+  "recorded_utc": "2026-09-27T16:45:01.709652+00:00",
+  "baseline": "submissions/iterative-v3/main.cpp",
+  "baseline_sha256": "52268569e17d7fc40fd46f0996b2da684768902b4af27ec059c4b068911c4473",
+  "module_sha256": "131295b069e02a8695a5abaa167df8e2d99e86bdafc1fa6a5a526bfeae8159d0",
+  "module_api": "variants(source): frozen v3 source input; no filesystem dependency in generator",
+  "candidate_count": 7,
+  "tests": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 python -m unittest discover -s tests -p test_v3_action_search.py -v",
+    "count": 2,
+    "compile_and_execute_variants": 7,
+    "duration_seconds": 51.067,
+    "result": "OK",
+    "test_source_sha256": "34cc2556c5d1846980ea743095281f65185e6255e1ae422c365eced74dd8b89d",
+    "checks": [
+      "transition/evaluation/observation unchanged",
+      "unique generated sources",
+      "C++20 O2 compile",
+      "independent F/W wait",
+      "partial reserve and two-destination split",
+      "two-origin convergence",
+      "incoming units cannot fund same-turn departure",
+      "completed evaluations only",
+      "expired-budget incumbent fallback",
+      "20ms cooperative search finishes under 300ms on synthetic board"
+    ]
+  },
+  "environment": {
+    "compiler": "g++ (GCC) 16.2.1 20260810",
+    "platform": "Linux-7.2.3-arch1-3-x86_64-with-glibc2.44"
+  },
+  "artifacts": "All compile/runtime intermediates inside TemporaryDirectory(dir=/tmp), removed after tests. No ZIP created, no source submission changed.",
+  "limits": "These synthetic checks do not establish official-server time/memory compliance or match strength. Actual league must enforce 300ms and 384MiB.",
+  "candidates": [
+    {
+      "id": "s3_role_wait",
+      "family": "independent_role_moves",
+      "parameters": {
+        "mode": 1,
+        "base_ms": 65,
+        "total_ms": 135
+      },
+      "hypothesis": "v3의 F/W 동시 전량 이동 밖에 있는 한 종류만 이동·잔류하는 행동을 평가한다.",
+      "weakness": "추가 후보가 틀린 rollout 평가를 더 많이 활용할 수 있다. v3의 기본 탐색 시간을 65ms로 나눈다.",
+      "source_sha256": "d12df64a7c4e970015003316b6389baf568a69e6621657c1dc62ae977910b41c"
+    },
+    {
+      "id": "s3_split_reserve",
+      "family": "partial_force_allocation",
+      "parameters": {
+        "mode": 2,
+        "base_ms": 65,
+        "total_ms": 135
+      },
+      "hypothesis": "1개·절반·1개 잔류 및 두 목적지 분할로 전량 이동과 전량 대기 사이의 행동을 연다.",
+      "weakness": "분할 수는 근사 후보이며 모든 병력 수 조합을 탐색하지 않는다. 적 합류를 과소평가하면 각개격파된다.",
+      "source_sha256": "dad477d3b389be6563358afcb8684af03bc53eb7fd674530ae4716e132799f59"
+    },
+    {
+      "id": "s3_joint_origins",
+      "family": "coupled_origin_search",
+      "parameters": {
+        "mode": 3,
+        "base_ms": 65,
+        "total_ms": 135
+      },
+      "hypothesis": "가까운 두 출발지를 함께 바꿔 단독 수정으로는 이득이 없는 합류·호위·교대를 비교한다.",
+      "weakness": "상위 4개 출발지와 제한된 공동 이동 형식만 탐색하며 서로 다른 F/W 교차 역할을 모두 열지는 않는다.",
+      "source_sha256": "978ffc1090fd3bad4131c62eae4ba6b475856297505fa87b47dc1a63802953f1"
+    },
+    {
+      "id": "s3_beam_actions",
+      "family": "action_assignment_beam",
+      "parameters": {
+        "mode": 4,
+        "base_ms": 65,
+        "total_ms": 135
+      },
+      "hypothesis": "출발지별 최선 하나 대신 완전히 평가된 상위 3개 행동을 유지해 뒤쪽 공동 수정의 기회를 남긴다.",
+      "weakness": "폭 3에서 탈락한 전제 행동은 복구하지 못하고 계산 예산 때문에 후반 출발지는 못 볼 수 있다.",
+      "source_sha256": "e2c94946d29ec7a41bd02236a6a328c546adfcf39fce81354773277d11d6ed62"
+    },
+    {
+      "id": "s3_screen_refine",
+      "family": "successive_action_refinement",
+      "parameters": {
+        "mode": 5,
+        "base_ms": 65,
+        "total_ms": 135
+      },
+      "hypothesis": "넓은 행동 후보를 1턴으로 선별하고 상위 8개만 기존 3턴 평가로 확인한다.",
+      "weakness": "즉각 손해를 감수하는 장기 행동은 얕은 선별에서 탈락한다. 1턴 점수는 기존 최선과 직접 비교하지 않는다.",
+      "source_sha256": "c2462ef74391fa62f92c1f415d87006800e3d068f78f765e6d2e51e4a70db02b"
+    },
+    {
+      "id": "s3_selective_contact",
+      "family": "state_conditioned_abstraction",
+      "parameters": {
+        "mode": 6,
+        "base_ms": 65,
+        "total_ms": 135
+      },
+      "hypothesis": "적 접촉·미점령 건물·종반 점령에 관련된 출발지에서만 F/W 독립 행동을 연다.",
+      "weakness": "접촉하지 않은 전략적 이동의 세밀한 개선은 제외된다. 선택 기준은 학습된 최적 기준이 아니다.",
+      "source_sha256": "db83d9aa0e8809aaffd6b36ffc47972996d832d987947187af600d3a8419d96c"
+    },
+    {
+      "id": "s3_revisit_search",
+      "family": "revisited_coordinate_search",
+      "parameters": {
+        "mode": 7,
+        "base_ms": 65,
+        "total_ms": 135
+      },
+      "hypothesis": "분할과 독립 이동으로 뒤쪽 출발지가 바뀐 후 앞쪽 출발지를 역순으로 재평가한다.",
+      "weakness": "최대 2회 국소 탐색이며 지역 최적이나 잘못된 상대 모델을 탈출한다고 보장하지 않는다.",
+      "source_sha256": "01780c2fab998fbca56ab610667b3516205e18c88e979e8f8b0bac2b5ee3b0d0"
+    }
+  ]
+}

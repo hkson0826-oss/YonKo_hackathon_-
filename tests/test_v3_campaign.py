@@ -5,6 +5,7 @@ import unittest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'experiments'))
 import v3_campaign as campaign
+import v3_audit as audit
 
 
 def rows_for(opponents):
@@ -65,6 +66,20 @@ class V3CampaignTests(unittest.TestCase):
                              'forfeit': name == 'f3_broken', 'score_margin': 10 if name.startswith('s3') else 5})
         chosen = campaign.challenge_selection(rows, bots, names)
         self.assertEqual(chosen['opponents'], ['s3_one', 'r3_one'])
+
+    def test_post_holdout_forfeit_blocks_delivery_even_as_opponent(self):
+        rows = [{'candidate': 'challenger', 'opponent': 'new', 'status': 'complete', 'forfeit': False}]
+        self.assertTrue(campaign.runtime_health(rows, 'new'))
+        rows[0]['forfeit'] = True
+        self.assertFalse(campaign.runtime_health(rows, 'new'))
+
+    def test_additional_audit_cannot_ignore_unexpected_or_missing_games(self):
+        ops = [*campaign.FIXED_OPPONENTS, 'challenger_one', 'challenger_two']
+        rows = [{**r, 'map_seed': seed} for r in rows_for(ops) if r['map_seed'] == 8400 for seed in audit.MAPS]
+        self.assertTrue(audit.audit_result(rows, 'new', ops)['passes_additional_gate'])
+        unexpected = {**rows[0], 'candidate': 'unexpected'}
+        self.assertFalse(audit.audit_result([*rows, unexpected], 'new', ops)['passes_additional_gate'])
+        self.assertFalse(audit.audit_result(rows[:-1], 'new', ops)['passes_additional_gate'])
 
     def test_first_revision_does_not_import_second_revision(self):
         spec = campaign.population_spec(1, None, [])

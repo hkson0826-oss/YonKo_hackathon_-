@@ -57,18 +57,34 @@ def frozen_file(arena, manifest, relative):
     return path
 
 
+def baseline_id(result):
+    baseline = result.get('baseline', 'v2')
+    require(baseline in ('v2', 'v3'), 'Unsupported evaluation baseline')
+    return baseline
+
+
+def cpu_seeds(start):
+    require(type(start) is int and start >= 0, 'CPU seed start must be a nonnegative integer')
+    return (start, start + 1)
+
+
 def check_gates(arena, audit):
     result, lock = read(arena / 'campaign-result.json'), read(arena / 'locked-finalists.json')
     manifest, audit_manifest = read(arena / 'manifest.json'), read(audit / 'manifest.json')
     extra = read(audit / 'audit-result.json')
+    baseline = baseline_id(result)
     candidate = lock['primary_candidate']
     require(candidate not in ('v2', 'v1', 'teammate'), 'No promoted new candidate')
+    require(candidate != baseline, 'Primary candidate is the evaluation baseline')
+    require(lock.get('baseline', baseline) == baseline, 'Selection lock baseline differs')
     require(lock['finalists'][0] == candidate, 'Primary differs from first locked finalist')
     require(result['status'] == 'complete' and result['phase'] == 'final', 'Original final validation incomplete')
     require(result['primary_candidate'] == result['recommended'] == candidate, 'Original recommendation differs from primary')
     require(result['promotion_decisions'][candidate]['promoted'] is True, 'Original promotion gate failed')
+    require(result['promotion_decisions'][candidate].get('baseline', baseline) == baseline, 'Promotion decision baseline differs')
     require(all(result['promotion_decisions'][candidate]['gates'].values()), 'Original individual promotion gate failed')
     require(extra['status'] == 'complete' and extra['candidate'] == candidate, 'Audit candidate differs or audit incomplete')
+    require(extra.get('baseline') == baseline, 'Audit baseline differs from original evaluation')
     require(extra['passes_additional_gate'] is True and all(extra['gates'].values()), 'Additional audit gate failed')
     verification = {}
     for label, directory, data in (('original', arena, manifest), ('audit', audit, audit_manifest)):
@@ -77,7 +93,7 @@ def check_gates(arena, audit):
         require(report['source_commit'] == data['source_commit'], f'{label} verification commit differs')
         require(report['games'] == read(directory / 'campaign-result.json')['total_matches'], f'{label} verified match count differs')
         verification[label] = report
-    for name in (candidate, 'v2'):
+    for name in (candidate, baseline):
         require(manifest['bots'][name]['source_sha256'] == audit_manifest['bots'][name]['source_sha256'], f'{name} changed between original and audit')
         for directory, data in ((arena, manifest), (audit, audit_manifest)):
             source = frozen_file(directory, data, data['bots'][name]['source'])
@@ -88,6 +104,14 @@ def check_gates(arena, audit):
             left = frozen_file(arena, manifest, str(original_parent / header))
             right = frozen_file(audit, audit_manifest, str(audit_parent / header))
             require(sha(left) == sha(right), f'{name} {header} changed between original and audit')
+    if baseline == 'v3':
+        relative = 'submissions/iterative-v3/main.cpp'
+        original_sha = sha(ROOT / relative)
+        for directory, data in ((arena, manifest), (audit, audit_manifest)):
+            require(data['input_sha256'].get(relative) == original_sha, 'v3 original input source hash differs')
+            require(data['bots'][baseline]['source_sha256'] == original_sha, 'v3 baseline differs from original submission source')
+            original = frozen_file(directory, data, 'snapshot/' + relative)
+            require(sha(original) == original_sha, 'Frozen original v3 source differs')
     # The validator uses the installed SDK. Verify its engine/runner against the match snapshot.
     sdk_checked = 0
     for relative, expected in manifest['input_sha256'].items():
@@ -97,6 +121,8 @@ def check_gates(arena, audit):
     require(sdk_checked > 0, 'Original manifest has no frozen SDK inputs')
     policy = read(audit / 'audit-policy.json')
     require(policy['candidate'] == candidate and policy['source_sha256'][candidate] == manifest['bots'][candidate]['source_sha256'], 'Audit policy/source mismatch')
+    require(policy.get('baseline', baseline) == baseline, 'Audit policy baseline differs')
+    require(policy['source_sha256'][baseline] == manifest['bots'][baseline]['source_sha256'], 'Audit policy baseline source mismatch')
     return candidate, manifest, verification, sdk_checked
 
 
@@ -159,7 +185,7 @@ def validate_zip(path, source):
     return {'sha256': sha(path), 'bytes': path.stat().st_size, 'members': members, 'deterministic_metadata': True}
 
 
-def validate_runtime(checker, candidate_binary, baseline_binary, candidate, records):
+def validate_runtime(checker, candidate_binary, baseline_binary, candidate, records, *, baseline='v2', cpu_seed_start=7550):
     from engine.config import load_config
     from runner.match import run_match
 
@@ -206,7 +232,7 @@ def validate_runtime(checker, candidate_binary, baseline_binary, candidate, reco
         require(smoke.get('ok') is True and not smoke.get('issues') and not smoke.get('warnings'), 'SDK runtime/output smoke failed')
         rows = []
         (records / 'replays').mkdir()
-        for seed in (7550, 7551):
+        for seed in cpu_seeds(cpu_seed_start):
             for team in 'YK':
                 config = load_config()
                 require(config['total_turns'] == 160, 'Official configuration does not use 160 turns')
@@ -220,14 +246,14 @@ def validate_runtime(checker, candidate_binary, baseline_binary, candidate, reco
                     bots.append(other)
                     y, k = (own, other) if team == 'Y' else (other, own)
                     replay, result = run_match(seed, config, y, k, turn_timeout_ms=300,
-                                               names={team: candidate, 'K' if team == 'Y' else 'Y': 'v2'})
+                                               names={team: candidate, 'K' if team == 'Y' else 'Y': baseline})
                 finally:
                     for bot in bots:
                         bot.close()
                 elapsed = time.monotonic() - started
                 replay_name = f'replays/{seed}-{team}.json.gz'
                 (records / replay_name).write_bytes(gzip.compress(json.dumps(replay, ensure_ascii=False, separators=(',', ':')).encode(), mtime=0))
-                row = {'map_seed': seed, 'team': team, 'candidate': candidate, 'opponent': 'v2', 'result': result,
+                row = {'map_seed': seed, 'team': team, 'candidate': candidate, 'opponent': baseline, 'result': result,
                        'elapsed_seconds': elapsed, 'replay': replay_name,
                        'replay_sha256': sha(records / replay_name),
                        'logical_trace_sha256': hashlib.sha256(json.dumps({'turns': replay['turns'], 'result': result}, sort_keys=True, separators=(',', ':')).encode()).hexdigest(),
@@ -246,6 +272,8 @@ def validate_runtime(checker, candidate_binary, baseline_binary, candidate, reco
 
 
 def run(args):
+    seed_start = getattr(args, 'cpu_seed_start', 7550)
+    seeds = cpu_seeds(seed_start)
     paths = [args.source_output, args.zip_output, args.record_output]
     for path in paths:
         require(not path.exists() and not path.is_symlink(), f'Refusing to overwrite output: {path}')
@@ -272,8 +300,10 @@ def run(args):
     failure = None
     try:
         candidate, manifest, verification, sdk_checked = check_gates(args.arena, args.audit)
+        baseline = baseline_id(read(args.arena / 'campaign-result.json'))
         record.update(candidate=candidate, source_commit=manifest['source_commit'], source_sha256=manifest['bots'][candidate]['source_sha256'],
-                      artifact_verifications=verification, sdk_frozen_files_checked=sdk_checked)
+                      baseline=baseline, baseline_source_sha256=manifest['bots'][baseline]['source_sha256'],
+                      cpu_map_seeds=list(seeds), artifact_verifications=verification, sdk_frozen_files_checked=sdk_checked)
         evidence_paths = [('original', args.arena, ('manifest.json', 'campaign-result.json', 'locked-finalists.json', 'artifact-verification.json')),
                           ('audit', args.audit, ('manifest.json', 'audit-result.json', 'audit-policy.json', 'artifact-verification.json'))]
         record['evaluation_file_sha256'] = {label + '/' + name: sha(directory / name) for label, directory, names in evidence_paths for name in names}
@@ -293,7 +323,8 @@ def run(args):
         folder = Path(manifest['bots'][candidate]['source']).parent
         record['source_files'] = {}
         for name in FILES:
-            relative = str(folder / name) if name != 'submission.json' else 'snapshot/submissions/tuned/submission.json'
+            metadata_folder = 'iterative-v3' if baseline == 'v3' else 'tuned'
+            relative = str(folder / name) if name != 'submission.json' else f'snapshot/submissions/{metadata_folder}/submission.json'
             original = frozen_file(args.arena, manifest, relative)
             shutil.copyfile(original, source / name)
             record['source_files'][name] = {'arena_relative_path': relative, 'sha256': sha(original), 'bytes': original.stat().st_size}
@@ -310,9 +341,10 @@ def run(args):
         for name in FILES:
             require(sha(extracted / name) == record['zip']['members'][name]['sha256'], f'Extracted member mismatch: {name}')
         compile_bot(compiler, extracted / 'main.cpp', tmp / 'candidate', records, 'candidate-from-zip')
-        baseline_source = frozen_file(args.arena, manifest, manifest['bots']['v2']['source'])
-        compile_bot(compiler, baseline_source, tmp / 'baseline', records, 'frozen-v2')
-        rows = validate_runtime(checker, tmp / 'candidate', tmp / 'baseline', candidate, records)
+        baseline_source = frozen_file(args.arena, manifest, manifest['bots'][baseline]['source'])
+        compile_bot(compiler, baseline_source, tmp / 'baseline', records, 'frozen-' + baseline)
+        rows = validate_runtime(checker, tmp / 'candidate', tmp / 'baseline', candidate, records,
+                                baseline=baseline, cpu_seed_start=seed_start)
         require(len(rows) == 4, 'Incomplete CPU validation')
         record.update(status='validated', errors=0, forfeits=0, cpu_matches=4, sdk_smoke_matches=1,
                       full_length_matches=sum(row['result']['turns'] == 160 for row in rows),
@@ -390,6 +422,8 @@ def main():
     for name in ('arena', 'audit', 'source-output', 'zip-output', 'record-output'):
         parser.add_argument('--' + name, type=Path, required=True)
     parser.add_argument('--compiler', default='g++')
+    parser.add_argument('--cpu-seed-start', type=int, default=7550,
+                        help='First of two CPU validation map seeds; both sides are checked (default: 7550)')
     args = parser.parse_args()
     for name in ('arena', 'audit', 'source_output', 'zip_output', 'record_output'):
         setattr(args, name, getattr(args, name).resolve())

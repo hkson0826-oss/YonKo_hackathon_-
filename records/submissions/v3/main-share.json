@@ -1,0 +1,111 @@
+{
+  "published_utc": "2026-09-27T16:50:36.215009+00:00",
+  "branch": "main",
+  "commit": "e73b4028357617c0d82487cbd115a81485798b09",
+  "source_commit": "fa20717dea009dc505242eea32440435ff48964b",
+  "authorization": "User explicitly requested required shared materials committed to main before the next league",
+  "scope": "Validated v3 ZIP/source/runtime records plus compact aggregate evidence and summary",
+  "files": {
+    "README.md": {
+      "bytes": 6455,
+      "sha256": "a98825b95f5cef03d7ef15de96406193ea8cbd9a92b94504404e63d757e57688"
+    },
+    "artifacts/submission-v3.zip": {
+      "bytes": 12207,
+      "sha256": "ce94e80a49d833be8b3c093a34319d8b9cdb5b7ec8d86b91a4b2831b18d799cb"
+    },
+    "docs/21-v3공유요약.md": {
+      "bytes": 4469,
+      "sha256": "7a0cdef33de1e1162495f6780bff2062a341a661696c6274a91693598413e09b"
+    },
+    "records/README.md": {
+      "bytes": 2569,
+      "sha256": "162d64aa40a4c4f71de5ad97b2381d254b02b2a1cc1b1e8e5a469f78115704a6"
+    },
+    "records/submissions/v3/README.md": {
+      "bytes": 2815,
+      "sha256": "aaebb91e4aeeac4d5c685e928dcc1bfbf61981eeecb6634fb6ed5284af976230"
+    },
+    "records/submissions/v3/build-candidate-from-zip.json": {
+      "bytes": 277,
+      "sha256": "d98fdf7c8c558c54a55fbe6a5ceb3f2b67b564e49f7270f7783521d7af2d108f"
+    },
+    "records/submissions/v3/build-frozen-v2.json": {
+      "bytes": 380,
+      "sha256": "162ccbc55e98738e89d8c0afa8091a3d087f3a03be8d27b9042fd4bec0a4ee22"
+    },
+    "records/submissions/v3/cpu-matches.json": {
+      "bytes": 122209,
+      "sha256": "ffc62f0bea46421a3a7f3520d13243faa3bd64683b3e19c9129abe4d3fbee711"
+    },
+    "records/submissions/v3/evidence/cross-family-result.json": {
+      "bytes": 20359,
+      "sha256": "c21bb6a3a905128a37b26a221f32492b7dd9dc1b334f3967196729034c7576de"
+    },
+    "records/submissions/v3/evidence/cross-family-summary.json": {
+      "bytes": 25876,
+      "sha256": "88f211a1ffc82a42292879cb53ee7f68f86d29b044f3ff02803b54bb12ddb4eb"
+    },
+    "records/submissions/v3/evidence/holdout-campaign-result.json": {
+      "bytes": 77306,
+      "sha256": "ea0fa5c8e5fd19e23ee013c394e18e5257b8452c3365a5b9de462b86edce2abf"
+    },
+    "records/submissions/v3/evidence/holdout-selection-lock.json": {
+      "bytes": 315,
+      "sha256": "e72dec59c378a7586d58b59aef686b2caad323a37a20d2248e5916bd5666ec0d"
+    },
+    "records/submissions/v3/evidence/holdout-summary.json": {
+      "bytes": 31439,
+      "sha256": "b524bc9be1ef58c3a74d16dbabba44d2195707fbbc48cce04342f97addbb4fbf"
+    },
+    "records/submissions/v3/evidence/source-manifest.json": {
+      "bytes": 1332,
+      "sha256": "f907210a4fdf87a448b476c142d4c8a3cd224731b7cbac55372fa99d7e543d65"
+    },
+    "records/submissions/v3/replays/7550-K.json.gz": {
+      "bytes": 97936,
+      "sha256": "588b0a0393e4f9aa83b955230a7d263a5b83028dd7c5ad679ec7b6e4b8f38f66"
+    },
+    "records/submissions/v3/replays/7550-Y.json.gz": {
+      "bytes": 97563,
+      "sha256": "78a0ee2c38f47ab7c9b5f2a92a3490ce516ed20ee99a2787dd027513bf68d20b"
+    },
+    "records/submissions/v3/replays/7551-K.json.gz": {
+      "bytes": 60879,
+      "sha256": "df7e3e6c133c55b44da598843883ddf2d0155cd1575f697650d128cb584e87bf"
+    },
+    "records/submissions/v3/replays/7551-Y.json.gz": {
+      "bytes": 30683,
+      "sha256": "9fdb36f521b6a25392e406e6ada810012dd47d56593bf4d6f02d4cf09afda0b8"
+    },
+    "records/submissions/v3/sdk-smoke.json": {
+      "bytes": 1753,
+      "sha256": "fb16cc246073e5df2ac1af6da1b86d05b318ec25c5325a4eb7188acf746d666a"
+    },
+    "records/submissions/v3/validation.json": {
+      "bytes": 12948,
+      "sha256": "4d0f5728645268df7df7b17bb731df7313c360762687d36b34122b41b4a87157"
+    },
+    "records/submissions/v3/zip-inspection.json": {
+      "bytes": 54,
+      "sha256": "99414079ed753bd3adde16eddb87fd509796e814344add62f1063312646c1d24"
+    },
+    "submissions/iterative-v3/generated.hpp": {
+      "bytes": 1043,
+      "sha256": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa"
+    },
+    "submissions/iterative-v3/main.cpp": {
+      "bytes": 35400,
+      "sha256": "52268569e17d7fc40fd46f0996b2da684768902b4af27ec059c4b068911c4473"
+    },
+    "submissions/iterative-v3/protocol.hpp": {
+      "bytes": 5010,
+      "sha256": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8"
+    },
+    "submissions/iterative-v3/submission.json": {
+      "bytes": 46,
+      "sha256": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60"
+    }
+  },
+  "temporary_worktree_removed": true
+}

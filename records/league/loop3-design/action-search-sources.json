@@ -1,0 +1,74 @@
+{
+  "checked_date_utc": "2026-09-27",
+  "retrieval": "Configured mcp__firecrawl__ research search, related, inspect, read tools",
+  "schema_note": "read_paper(id=...) rejected; retry with paperId succeeded.",
+  "search_query": "real time strategy games asymmetric action abstraction portfolio greedy search local search unit action combinatorial search",
+  "papers": [
+    {
+      "id": "arxiv:1711.08101",
+      "title": "Asymmetric Action Abstractions for Multi-Unit Control in Adversarial Real-Time Games",
+      "authors": "Rubens O. Moraes, Levi H. S. Lelis",
+      "created_date": "Wed, 22 Nov 2017 01:35:29 GMT",
+      "updated_date": "2017-11-23",
+      "url": "https://arxiv.org/html/1711.08101",
+      "application": [
+        "independent_role_moves",
+        "partial_force_allocation",
+        "coupled_origin_search",
+        "action_assignment_beam",
+        "revisited_coordinate_search"
+      ],
+      "verified_sections": [
+        "Uniform Action Abstractions / Algorithm 1",
+        "Asymmetric Action Abstractions / Definition 2 and Theorem 1",
+        "Searching with Asymmetric Abstractions"
+      ],
+      "limitation": "Optimal-value action-space inclusion is not a guarantee for fixed-time approximate search; combat scenarios differ from full occupation/economy games."
+    },
+    {
+      "id": "arxiv:1710.04805",
+      "title": "Combinatorial Multi-armed Bandits for Real-Time Strategy Games",
+      "authors": "Santiago Ontañón",
+      "created_date": "Fri, 13 Oct 2017 05:08:14 GMT",
+      "updated_date": "2017-10-16",
+      "url": "https://arxiv.org/html/1710.04805",
+      "application": [
+        "coupled_origin_search",
+        "action_assignment_beam"
+      ],
+      "verified_sections": [
+        "Naive Sampling For CMABs"
+      ],
+      "limitation": "Used as motivation to evaluate complete interacting action combinations. The new candidates do not implement CMAB or inherit its convergence guarantees."
+    },
+    {
+      "id": "arxiv:1709.03480",
+      "title": "Combining Strategic Learning and Tactical Search in Real-Time Strategy Games",
+      "authors": "Nicolas A. Barriga, Marius Stanescu, Michael Buro",
+      "created_date": "Mon, 11 Sep 2017 17:17:51 GMT",
+      "updated_date": "2017-09-12",
+      "url": "https://arxiv.org/html/1709.03480",
+      "application": [
+        "state_conditioned_abstraction"
+      ],
+      "verified_sections": [
+        "Algorithm Details / Algorithm 1 Combined Strategy and Tactics"
+      ],
+      "limitation": "No CNN, training weights, or reduced combat state are used. Whole-state official-style transitions evaluate C++ tactical refinements."
+    }
+  ],
+  "related_not_implemented": [
+    {
+      "id": "arxiv:2406.00614",
+      "reason": "Learned dynamics/state-conditioned abstraction are outside this fixed-rule CPU candidate scope."
+    },
+    {
+      "id": "arxiv:1803.10316",
+      "reason": "Related evolutionary micro work; no load-bearing body claim adopted."
+    },
+    {
+      "id": "arxiv:1803.10314",
+      "reason": "Related coevolution work; no load-bearing body claim adopted."
+    }
+  ]
+}

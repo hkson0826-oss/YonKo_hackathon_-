@@ -1,0 +1,30 @@
+{
+  "checked_utc": "2026-09-27T16:45:06.457175+00:00",
+  "status": "preflight_passed_not_strength_evaluated",
+  "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -p 'test_v3_robust_search.py' -v",
+  "tests": 7,
+  "elapsed_seconds": 20.306,
+  "build_scope": "8 g++ C++20 syntax builds and 1 O2 executable bridge; full SDK games delegated to root league",
+  "compiler": "g++ (GCC) 16.2.1 20260810",
+  "base_source_sha256": "52268569e17d7fc40fd46f0996b2da684768902b4af27ec059c4b068911c4473",
+  "module_sha256": "450fa563a72ec778cc46c6e02a53c50f65f20aef29a85d79e9afb3dd36904f63",
+  "tests_sha256": "1c59009e30c6650b77c79669ce2ed96e1adaf2a4204c6d61487d312dd989d61a",
+  "candidate_sha256": {
+    "r3_lower_tail": "2d53b64ebfe25c0f61bf9f87c42c53a5a83f914b81cd20752a66e33c6ff4756f",
+    "r3_opponent_league": "33020d61999456342ea39b3f99e53388914b0ccf98536e2b99ae5e60c31f66cf",
+    "r3_switching_adversary": "db686aa45071744c32a6b857ae02fc1ab427208980f8e4d9446d484e46f60f50",
+    "r3_local_counter": "d006a63448003101949595389223da63254c228efae90d0bb813f516b3522188",
+    "r3_joint_counter": "337d884b24a2653f599779fdc8b3b2dea2e91e205dc0c4dc991c7ef970df2476",
+    "r3_population_fit": "1c9e633c8c7f5c7e49e0ce274d0715873ec3501a6a8a6c9113894cd8ad5507e5",
+    "r3_minimax_regret": "08dbad63db2b6815984a4b72e21658bc0d31ebc6da2d907b55bb029cf89cb70d",
+    "r3_mixed_matrix": "3b2e084cc707cc3c75dc1e585cf0cb2fb469e9cbac08323f1ef3b3528e8a38a7"
+  },
+  "temporary_storage": "TemporaryDirectory /tmp/yk-v3-robust-*, cleanup via tearDownClass",
+  "initial_failure": "Spawn test incorrectly assumed W cost 3 while its fixture owned ENG (actual cost 2). Revised assertion to official cost calculation; policy source unchanged.",
+  "limits": [
+    "No completed league performance evidence yet",
+    "No official GCC 12.2 build",
+    "Only cooperative 135 ms deadline; maximum wall latency is not proved",
+    "Fixed internal opponents do not imply full game equilibrium"
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "created_utc": "2026-09-27T16:51:01.189761+00:00",
+  "baseline_source_sha256": "52268569e17d7fc40fd46f0996b2da684768902b4af27ec059c4b068911c4473",
+  "baseline_zip_sha256": "ce94e80a49d833be8b3c093a34319d8b9cdb5b7ec8d86b91a4b2831b18d799cb",
+  "new_candidates": 21,
+  "candidates": [
+    {
+      "id": "f3_matching",
+      "family": "v3_economic_repair",
+      "source_sha256": "2b5867fb91bc37d9178d0d5e15713c1784b781c339756a3edc79869ebc01322a",
+      "module": "experiments/local_league/v3_repairs.py",
+      "module_sha256": "6e310bcacc92c091379039092027c3137c0aa1f783cddf25bf1ea486437c8a8a",
+      "hypothesis": "한 F를 여러 목표에 중복 계산하던 접근 잠재력을 일대일 최대 가중치 할당으로 바꾼다.",
+      "weakness": "후속 재사용·거점 연쇄 점령 가치를 낮게 평가할 수 있다."
+    },
+    {
+      "id": "f3_supply_flow",
+      "family": "v3_economic_repair",
+      "source_sha256": "828f984fabde1b559eccbee2c36eda1ff057a8e574cdfb36129c84877c2dca4c",
+      "module": "experiments/local_league/v3_repairs.py",
+      "module_sha256": "6e310bcacc92c091379039092027c3137c0aa1f783cddf25bf1ea486437c8a8a",
+      "hypothesis": "ENG·HALL·HOSPITAL의 고정 보너스를 생산 속도, 생산지부터 목표까지 거리, 남은 턴의 도착 가능 병력으로 대체한다.",
+      "weakness": "지금의 소유권과 생산 거점이 유지된다는 근사이며 전선 이동·경로 전투를 계산하지 않는다."
+    },
+    {
+      "id": "f3_econ_mission",
+      "family": "v3_economic_repair",
+      "source_sha256": "5159a2578645cea538fd3ab3e67bfdea6155b8cd727b65cde3ea7c74f5237165",
+      "module": "experiments/local_league/v3_repairs.py",
+      "module_sha256": "6e310bcacc92c091379039092027c3137c0aa1f783cddf25bf1ea486437c8a8a",
+      "hypothesis": "인접 경제 거점에 F와 필요한 호위를 함께 배치하는 새 행동을 기존 4개 계획과 비교한다.",
+      "weakness": "인접 임무만 생성하고 모든 인접 적 W의 집중을 가정하여 기회를 놓칠 수 있다."
+    },
+    {
+      "id": "f3_matching_mission",
+      "family": "v3_economic_repair",
+      "source_sha256": "f7175d5f71959103eca059c757f9920a186cc0f71f82e6823f0a943cf0bdf62a",
+      "module": "experiments/local_league/v3_repairs.py",
+      "module_sha256": "6e310bcacc92c091379039092027c3137c0aa1f783cddf25bf1ea486437c8a8a",
+      "hypothesis": "경제 거점 공동 임무와 일대일 F 접근 평가를 결합한다.",
+      "weakness": "임무 후보가 늘어 기존 국소 탐색의 예산이 줄며 각 요소의 기여는 단독 후보와 비교해야 한다."
+    },
+    {
+      "id": "f3_flow_mission",
+      "family": "v3_economic_repair",
+      "source_sha256": "0909179e1b0698670a6b3e729bb1aa858e4c07628fc1a28e68b100eaec7fc4a7",
+      "module": "experiments/local_league/v3_repairs.py",
+      "module_sha256": "6e310bcacc92c091379039092027c3137c0aa1f783cddf25bf1ea486437c8a8a",
+      "hypothesis": "새 경제 임무를 실제 전선 도착 가능 생산량으로 평가한다.",
+      "weakness": "경제 추정이 틀리면 임무 생성과 평가가 같은 편향을 증폭한다."
+    },
+    {
+      "id": "f3_econ_portfolio",
+      "family": "v3_economic_repair",
+      "source_sha256": "f521ce39c89c17c9cf0a92eaf681a9f11efa479cf883d17c1d01012549b40d7e",
+      "module": "experiments/local_league/v3_repairs.py",
+      "module_sha256": "6e310bcacc92c091379039092027c3137c0aa1f783cddf25bf1ea486437c8a8a",
+      "hypothesis": "거점 접근 중복 제거·경제 흐름·공동 임무를 함께 평가한다.",
+      "weakness": "세 변경의 결합으로 회귀 원인 분리가 어렵고 단독 후보보다 느릴 수 있다."
+    },
+    {
+      "id": "s3_role_wait",
+      "family": "independent_role_moves",
+      "source_sha256": "d12df64a7c4e970015003316b6389baf568a69e6621657c1dc62ae977910b41c",
+      "module": "experiments/local_league/v3_action_search.py",
+      "module_sha256": "131295b069e02a8695a5abaa167df8e2d99e86bdafc1fa6a5a526bfeae8159d0",
+      "hypothesis": "v3의 F/W 동시 전량 이동 밖에 있는 한 종류만 이동·잔류하는 행동을 평가한다.",
+      "weakness": "추가 후보가 틀린 rollout 평가를 더 많이 활용할 수 있다. v3의 기본 탐색 시간을 65ms로 나눈다."
+    },
+    {
+      "id": "s3_split_reserve",
+      "family": "partial_force_allocation",
+      "source_sha256": "dad477d3b389be6563358afcb8684af03bc53eb7fd674530ae4716e132799f59",
+      "module": "experiments/local_league/v3_action_search.py",
+      "module_sha256": "131295b069e02a8695a5abaa167df8e2d99e86bdafc1fa6a5a526bfeae8159d0",
+      "hypothesis": "1개·절반·1개 잔류 및 두 목적지 분할로 전량 이동과 전량 대기 사이의 행동을 연다.",
+      "weakness": "분할 수는 근사 후보이며 모든 병력 수 조합을 탐색하지 않는다. 적 합류를 과소평가하면 각개격파된다."
+    },
+    {
+      "id": "s3_joint_origins",
+      "family": "coupled_origin_search",
+      "source_sha256": "978ffc1090fd3bad4131c62eae4ba6b475856297505fa87b47dc1a63802953f1",
+      "module": "experiments/local_league/v3_action_search.py",
+      "module_sha256": "131295b069e02a8695a5abaa167df8e2d99e86bdafc1fa6a5a526bfeae8159d0",
+      "hypothesis": "가까운 두 출발지를 함께 바꿔 단독 수정으로는 이득이 없는 합류·호위·교대를 비교한다.",
+      "weakness": "상위 4개 출발지와 제한된 공동 이동 형식만 탐색하며 서로 다른 F/W 교차 역할을 모두 열지는 않는다."
+    },
+    {
+      "id": "s3_beam_actions",
+      "family": "action_assignment_beam",
+      "source_sha256": "e2c94946d29ec7a41bd02236a6a328c546adfcf39fce81354773277d11d6ed62",
+      "module": "experiments/local_league/v3_action_search.py",
+      "module_sha256": "131295b069e02a8695a5abaa167df8e2d99e86bdafc1fa6a5a526bfeae8159d0",
+      "hypothesis": "출발지별 최선 하나 대신 완전히 평가된 상위 3개 행동을 유지해 뒤쪽 공동 수정의 기회를 남긴다.",
+      "weakness": "폭 3에서 탈락한 전제 행동은 복구하지 못하고 계산 예산 때문에 후반 출발지는 못 볼 수 있다."
+    },
+    {
+      "id": "s3_screen_refine",
+      "family": "successive_action_refinement",
+      "source_sha256": "c2462ef74391fa62f92c1f415d87006800e3d068f78f765e6d2e51e4a70db02b",
+      "module": "experiments/local_league/v3_action_search.py",
+      "module_sha256": "131295b069e02a8695a5abaa167df8e2d99e86bdafc1fa6a5a526bfeae8159d0",
+      "hypothesis": "넓은 행동 후보를 1턴으로 선별하고 상위 8개만 기존 3턴 평가로 확인한다.",
+      "weakness": "즉각 손해를 감수하는 장기 행동은 얕은 선별에서 탈락한다. 1턴 점수는 기존 최선과 직접 비교하지 않는다."
+    },
+    {
+      "id": "s3_selective_contact",
+      "family": "state_conditioned_abstraction",
+      "source_sha256": "db83d9aa0e8809aaffd6b36ffc47972996d832d987947187af600d3a8419d96c",
+      "module": "experiments/local_league/v3_action_search.py",
+      "module_sha256": "131295b069e02a8695a5abaa167df8e2d99e86bdafc1fa6a5a526bfeae8159d0",
+      "hypothesis": "적 접촉·미점령 건물·종반 점령에 관련된 출발지에서만 F/W 독립 행동을 연다.",
+      "weakness": "접촉하지 않은 전략적 이동의 세밀한 개선은 제외된다. 선택 기준은 학습된 최적 기준이 아니다."
+    },
+    {
+      "id": "s3_revisit_search",
+      "family": "revisited_coordinate_search",
+      "source_sha256": "01780c2fab998fbca56ab610667b3516205e18c88e979e8f8b0bac2b5ee3b0d0",
+      "module": "experiments/local_league/v3_action_search.py",
+      "module_sha256": "131295b069e02a8695a5abaa167df8e2d99e86bdafc1fa6a5a526bfeae8159d0",
+      "hypothesis": "분할과 독립 이동으로 뒤쪽 출발지가 바뀐 후 앞쪽 출발지를 역순으로 재평가한다.",
+      "weakness": "최대 2회 국소 탐색이며 지역 최적이나 잘못된 상대 모델을 탈출한다고 보장하지 않는다."
+    },
+    {
+      "id": "r3_lower_tail",
+      "family": "downside_risk",
+      "source_sha256": "2d53b64ebfe25c0f61bf9f87c42c53a5a83f914b81cd20752a66e33c6ff4756f",
+      "module": "experiments/local_league/v3_robust_search.py",
+      "module_sha256": "450fa563a72ec778cc46c6e02a53c50f65f20aef29a85d79e9afb3dd36904f63",
+      "hypothesis": "평균과 하위 두 상대 평균을 반씩 반영해 특정 응답에 취약한 행동을 줄인다.",
+      "weakness": "네 기존 상대 밖의 공략은 여전히 보지 못하며 공격 기회를 과소평가할 수 있다."
+    },
+    {
+      "id": "r3_opponent_league",
+      "family": "diverse_opponent_actions",
+      "source_sha256": "33020d61999456342ea39b3f99e53388914b0ccf98536e2b99ae5e60c31f66cf",
+      "module": "experiments/local_league/v3_robust_search.py",
+      "module_sha256": "450fa563a72ec778cc46c6e02a53c50f65f20aef29a85d79e9afb3dd36904f63",
+      "hypothesis": "F/W 혼합 및 깃발 사냥 응답을 추가한 6상대 평가로 행동 다양성을 높인다.",
+      "weakness": "깊이가 3에서 2로 줄고 고정 여섯 휴리스틱 밖으로 일반화가 보장되지 않는다."
+    },
+    {
+      "id": "r3_switching_adversary",
+      "family": "dynamic_script_response",
+      "source_sha256": "db686aa45071744c32a6b857ae02fc1ab427208980f8e4d9446d484e46f60f50",
+      "module": "experiments/local_league/v3_robust_search.py",
+      "module_sha256": "450fa563a72ec778cc46c6e02a53c50f65f20aef29a85d79e9afb3dd36904f63",
+      "hypothesis": "매 예상 턴에 우리 평가를 가장 낮추는 상대 스크립트로 바꾸어 대응 전환을 검사한다.",
+      "weakness": "우리 행동에 반응하는 비현실적으로 강한 상대를 가정하며 탐욕적 한 턴 선택이지 전체 최악 경로는 아니다."
+    },
+    {
+      "id": "r3_local_counter",
+      "family": "local_adversarial_response",
+      "source_sha256": "d006a63448003101949595389223da63254c228efae90d0bb813f516b3522188",
+      "module": "experiments/local_league/v3_robust_search.py",
+      "module_sha256": "450fa563a72ec778cc46c6e02a53c50f65f20aef29a85d79e9afb3dd36904f63",
+      "hypothesis": "접촉한 상대 W 출발지 한 곳의 대기와 이동을 탐색해 기존 스크립트의 공략 누락을 찾는다.",
+      "weakness": "상대가 가까운 W를 가진 경우에만 동작하고 복수 출발지 협공과 먼 접근을 놓친다."
+    },
+    {
+      "id": "r3_joint_counter",
+      "family": "joint_adversarial_response",
+      "source_sha256": "337d884b24a2653f599779fdc8b3b2dea2e91e205dc0c4dc991c7ef970df2476",
+      "module": "experiments/local_league/v3_robust_search.py",
+      "module_sha256": "450fa563a72ec778cc46c6e02a53c50f65f20aef29a85d79e9afb3dd36904f63",
+      "hypothesis": "상대 두 출발지 F/W 공동 이동과 대기를 순서대로 최적화해 교차 공격을 가정한다.",
+      "weakness": "순차 국소 최소와 전량 이동만 검사하며 더 큰 계산량으로 우리 행동 탐색이 줄 수 있다."
+    },
+    {
+      "id": "r3_population_fit",
+      "family": "observed_population_fit",
+      "source_sha256": "1c9e633c8c7f5c7e49e0ce274d0715873ec3501a6a8a6c9113894cd8ad5507e5",
+      "module": "experiments/local_league/v3_robust_search.py",
+      "module_sha256": "450fa563a72ec778cc46c6e02a53c50f65f20aef29a85d79e9afb3dd36904f63",
+      "hypothesis": "직전 공개 전이를 잘 설명하는 6상대 모델에 가중하되 각 10%를 남긴다.",
+      "weakness": "관측 오차에 전투와 숨은 점수 추정 오차가 섞이고 상대 전략 변화에 뒤처질 수 있다."
+    },
+    {
+      "id": "r3_minimax_regret",
+      "family": "restricted_matrix_regret",
+      "source_sha256": "08dbad63db2b6815984a4b72e21658bc0d31ebc6da2d907b55bb029cf89cb70d",
+      "module": "experiments/local_league/v3_robust_search.py",
+      "module_sha256": "450fa563a72ec778cc46c6e02a53c50f65f20aef29a85d79e9afb3dd36904f63",
+      "hypothesis": "v3 국소 행동과 네 정책의 완성된 6상대 행렬에서 최대 기회손실이 작은 행동을 고른다.",
+      "weakness": "최악 절대 승률을 최적화하는 것이 아니고 깊이 2 행렬이 미완성되면 65ms 기준 행동으로 복귀한다."
+    },
+    {
+      "id": "r3_mixed_matrix",
+      "family": "restricted_matrix_mixture",
+      "source_sha256": "3b2e084cc707cc3c75dc1e585cf0cb2fb469e9cbac08323f1ef3b3528e8a38a7",
+      "module": "experiments/local_league/v3_robust_search.py",
+      "module_sha256": "450fa563a72ec778cc46c6e02a53c50f65f20aef29a85d79e9afb3dd36904f63",
+      "hypothesis": "완성된 작은 동시행동 행렬에 256회 regret matching 후 평균 혼합전략을 표본화한다.",
+      "weakness": "제한된 행렬의 근사 혼합일 뿐 게임 전체 Nash나 exploitability 보장이 없고 표본 분산이 생긴다."
+    }
+  ],
+  "root_checks": {
+    "campaign_and_audit_gate_tests": 9,
+    "remote_tmp_tests": 6,
+    "existing_league_tests": 4,
+    "existing_iteration_tests": 4,
+    "v3_snapshot_real_compilation": "passed_v2_and_v3_TMP_cleaned"
+  },
+  "module_validation_records": [
+    "action-search-validation.json",
+    "robust-search-validation.json",
+    "v3-forensics-evidence.json"
+  ],
+  "main_shared_commit": "e73b4028357617c0d82487cbd115a81485798b09"
+}
