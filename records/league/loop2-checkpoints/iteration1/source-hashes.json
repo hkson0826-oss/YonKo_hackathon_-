@@ -1,0 +1,125 @@
+{
+  "source_commit": "c2bfcaf02745ad782481acc6677563ebda7548ae",
+  "bots": {
+    "v2": {
+      "source_sha256": "53bb019625fabbbd3aa8a5b65af971912bb4cbdad8a9fde3009fadad5ba6d4c5",
+      "family": "baseline"
+    },
+    "r_joint_escort": {
+      "source_sha256": "2be7876f131ca61fd053510e6c632904e683678e406976b0a3fb1679da8e1b0c",
+      "family": "joint_arrival"
+    },
+    "r_terminal_margin": {
+      "source_sha256": "afc5a257d40f775a5c3520a9f86275249052a41bf730a275fe8796eb8dfd7f9f",
+      "family": "terminal_order"
+    },
+    "r_combined": {
+      "source_sha256": "74d20a52f93df3e85ecbd12fc133a279713d4c0b55c9db98eb5d47564cd88797",
+      "family": "combined_repairs"
+    },
+    "q_guard_own": {
+      "source_sha256": "15d2b79bcf1ab9e6963c08368d3e26806da82dc0365c6fb685727bbabe1548f7",
+      "family": "isolated_defense"
+    },
+    "q_escort_own": {
+      "source_sha256": "f27fe1d0158fc701e6b034ecacc8a2e9f0e50c11153225d61a7c88a191a4ef75",
+      "family": "isolated_escort"
+    },
+    "q_capacity": {
+      "source_sha256": "b6b007aa5b8cf5605e363e0cbf4a955554e04304ea46a3f704e8d4211835ee2c",
+      "family": "bounded_assignment"
+    },
+    "q_threat_window": {
+      "source_sha256": "c943b16a28d19768705925b2d6aa9dc04547af342ca77747d96afdad96985d79",
+      "family": "defense_arrival_window"
+    },
+    "q_rendezvous": {
+      "source_sha256": "cf4a119a50621d395b6be4eb472a0968accc733fc6216f75be2b86fded31b2e5",
+      "family": "escort_rendezvous"
+    },
+    "q_deadline": {
+      "source_sha256": "14978aa2df0386dd25cbc8011ced8d47fce2712a8500fc1d69a962299aa9d160",
+      "family": "capture_deadline"
+    },
+    "q_balanced_front": {
+      "source_sha256": "4f0c85395b5ebdcc3581e31f3d855343b1a2c5a7de5cb2606f3676285405fc12",
+      "family": "distributed_pressure"
+    },
+    "q_coordinated": {
+      "source_sha256": "392ef885d85128d86c28cbb6a766e8363828d233b6384f52a27ecf507e7240e2",
+      "family": "combined_own_interventions"
+    },
+    "j_balanced_direct": {
+      "source_sha256": "cd6d85a40f589a28e3fbff52968970c00518685b752c97c9d45da608a20570e3",
+      "family": "joint_mission_allocation"
+    },
+    "j_balanced_portfolio": {
+      "source_sha256": "534f55f1d6641ed788ca637663456e43375297d8016ac9832c589b0a012c8422",
+      "family": "joint_mission_allocation"
+    },
+    "j_pressure_direct": {
+      "source_sha256": "2507e32ff1e0fcbc10b93b3af90381ef23f9f6151d3a56469ae584c83cc95b28",
+      "family": "joint_mission_allocation"
+    },
+    "j_pressure_portfolio": {
+      "source_sha256": "caae86336aa83781d9670763ba31c392721cb2e5eea7287c3b6654e4d2bc0143",
+      "family": "joint_mission_allocation"
+    },
+    "j_defensive_direct": {
+      "source_sha256": "8cd17787c6b5e17f2da9878c00380d773435798296175209a870dda5befec644",
+      "family": "joint_mission_allocation"
+    },
+    "j_defensive_portfolio": {
+      "source_sha256": "132c00d4f97e311960b21be22d3edacfd020789b8f63ad5c6dc3e9a625be6896",
+      "family": "joint_mission_allocation"
+    },
+    "j_reclaim_direct": {
+      "source_sha256": "f90303517503b5948f714ae0aaa378ada33bc6a2d33f22d4d0131ba8b6a80654",
+      "family": "joint_mission_allocation"
+    },
+    "j_reclaim_portfolio": {
+      "source_sha256": "8e12a82b5559a227983b17d31b61dada416b99045c987e5d94780a8a7a8092ff",
+      "family": "joint_mission_allocation"
+    },
+    "a_asymmetric_mix": {
+      "source_sha256": "25565d7e9bc5a3ed8635ce84a352cd3c2144863436f5d0bfb80e497039d57a0b",
+      "family": "script_recombination"
+    },
+    "a_pgs_local": {
+      "source_sha256": "aad8e07246cc5a004dd0b9fee424fc627e5ac08280984d97d0d4aecb126278ee",
+      "family": "coordinate_action_search"
+    },
+    "a_pgs_hybrid": {
+      "source_sha256": "9353871137386d01f562ba02bb1430b4deaab007b6f4298b360831e1f6b178fb",
+      "family": "coordinate_action_search"
+    },
+    "a_opponent_fit": {
+      "source_sha256": "20d8db40bbea44a499664f1f812bce676f28f698d16a545280dac85bb9cef52c",
+      "family": "observed_opponent_fit"
+    },
+    "a_fit_pgs": {
+      "source_sha256": "8743220b1067349ce4ddf62425855d400d6bfb938764c7c8530589d4ae47ac49",
+      "family": "observed_opponent_fit"
+    },
+    "a_progressive": {
+      "source_sha256": "68a3697133c69f091fc6501ee5b9a828518ad43fd3a35253609a9f87a5c818bf",
+      "family": "progressive_refinement"
+    },
+    "a_score_scenarios": {
+      "source_sha256": "518f62369ff3f34f74824b547200e786b34b182d7dee7c41cf84556057cd2b7d",
+      "family": "hidden_score_scenarios"
+    },
+    "a_local_unabstracted": {
+      "source_sha256": "90fded547ea47130ebacdadb7a12735020c2095fccfdeeb5d51b5470a76fbad4",
+      "family": "partial_unabstracted_moves"
+    },
+    "v1": {
+      "source_sha256": "13a240536ea85885a1f61c8007665d132cc5c31a9c23ae00dec9872bf01fbcb5",
+      "family": "reference"
+    },
+    "teammate": {
+      "source_sha256": "571397e3c84998b27f8ce0468bc49333663c69b0b84162ad8dfc27e7a47f2365",
+      "family": "reference"
+    }
+  }
+}

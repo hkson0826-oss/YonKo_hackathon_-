@@ -107,6 +107,10 @@ def prepare(output, population_spec=None):
         loaded = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(loaded)
         population += loaded.variants(source)
+        for revision in range(2, spec_config.get('revision', 1) + 1):
+            function = getattr(loaded, f'variants_iteration{revision}', None)
+            if function is not None:
+                population += function(source)
     population.append({"id": "v1", "family": "reference", "parameters": {},
                        "hypothesis": "과거 제출 회귀 검사", "weakness": "이전 후보", "source": (snapshot / "submissions/first/main.cpp").read_text()})
     population, aliases = filter_population(population, spec_config)

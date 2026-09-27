@@ -63,6 +63,7 @@ def verify(arena, host=None):
     assert receipt['returncode'] == 0 and receipt['cleanup']['archive_accepted']
     assert receipt['cleanup']['exists'] is False
     report = {'checked_utc': datetime.datetime.now(datetime.timezone.utc).isoformat(),
+              'verifier_sha256': sha(Path(__file__)),
               'status': 'passed', 'source_commit': manifest['source_commit'],
               'frozen_source_files_verified': frozen, 'binaries_intentionally_omitted': omitted,
               'games': games, 'distinct_maps': len(seeds), 'stages': stages,

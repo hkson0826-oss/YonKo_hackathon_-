@@ -1,5 +1,6 @@
 """Preserve paired outcome changes for a completed iteration."""
 import argparse
+import hashlib
 import json
 from pathlib import Path
 
@@ -9,7 +10,8 @@ from league_campaign import paired_interval, ranking, load_rows, point
 def analyze(arena):
     result = json.loads((arena / 'campaign-result.json').read_text())
     manifest = json.loads((arena / 'manifest.json').read_text())
-    output = {'campaign': result, 'stages': {}}
+    output = {'campaign': result, 'stages': {},
+              'analyzer_sha256': hashlib.sha256(Path(__file__).read_bytes()).hexdigest()}
     lines = ['# 반복 개선 대전 결과', '',
              f"단계 `{result['phase']}`, 완료 {result['total_matches']:,}경기. 추천: **{result['recommended']}**.",
              '', result['recommendation_scope'], '',

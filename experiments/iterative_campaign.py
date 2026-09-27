@@ -32,7 +32,8 @@ def campaign(args):
     started = time.perf_counter()
     arena = args.arena.resolve()
     spec = {'modules': MODULES, 'include_parameters': False, 'deduplicate': True,
-            'include_ids': ['v2', 'v1', *OPPONENTS[2:]], 'include_prefixes': ['q_', 'j_', 'a_']}
+            'include_ids': ['v2', 'v1', *OPPONENTS[2:]], 'include_prefixes': ['q_', 'j_', 'a_'],
+            'revision': args.revision}
     requested = args.candidates.split(',') if args.candidates else None
     if requested:
         spec['include_ids'] = list(dict.fromkeys(['v2', 'v1', *OPPONENTS[2:], *requested]))
@@ -129,6 +130,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--arena', type=Path, required=True)
     parser.add_argument('--phase', choices=['explore', 'final'], required=True)
+    parser.add_argument('--revision', type=int, default=1)
     parser.add_argument('--seed-start', type=int, required=True)
     parser.add_argument('--maps', type=int, default=8)
     parser.add_argument('--selection-start', type=int, default=7200)
@@ -141,7 +143,7 @@ def main():
         ranges += [set(range(args.selection_start, args.selection_start + 16)),
                    set(range(args.holdout_start, args.holdout_start + 64)),
                    {args.holdout_start + 100, args.holdout_start + 101}]
-    if args.workers < 1 or args.maps < 1 or args.seed_start < 1:
+    if args.workers < 1 or args.maps < 1 or args.seed_start < 1 or args.revision < 1:
         parser.error('Invalid worker count or seed range')
     if any(a & b for a, b in itertools.combinations(ranges, 2)):
         parser.error('Map ranges must be disjoint')
