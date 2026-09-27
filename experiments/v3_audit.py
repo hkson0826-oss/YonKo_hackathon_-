@@ -9,7 +9,7 @@ import v3_campaign as campaign
 from cross_family_audit import submission_address_space
 from league_campaign import load_rows
 
-MAPS = list(range(8700, 8732))
+MAPS = campaign.AUDIT_MAPS
 
 
 def audit_result(rows, candidate, opponents):
@@ -41,6 +41,8 @@ def run(args):
     candidate = lock['primary_candidate']
     if lock.get('baseline') != 'v3' or candidate != lock['finalists'][0] or candidate in ('v3', 'v2', 'teammate'):
         raise ValueError('Invalid original selection lock')
+    if not lock.get('map_sets') or any(set(values) & set(MAPS) for values in lock['map_sets'].values()):
+        raise ValueError('Original campaign maps are missing or overlap this audit')
     opponents = lock['opponents']
     if len(opponents) != 8 or len(set(opponents)) != 8 or not set(campaign.FIXED_OPPONENTS) <= set(opponents):
         raise ValueError('Expected six frozen references and two development exploiters')

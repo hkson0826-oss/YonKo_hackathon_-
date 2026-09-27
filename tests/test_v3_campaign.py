@@ -94,6 +94,9 @@ class V3CampaignTests(unittest.TestCase):
         args.holdout_start = 8301
         with self.assertRaises(ValueError):
             campaign.seed_ranges(args)
+        args.holdout_start = 8500
+        with self.assertRaisesRegex(ValueError, 'audit'):
+            campaign.seed_ranges(args)
         args.phase = 'explore'
         args.seed_start = 7501
         with self.assertRaises(ValueError):

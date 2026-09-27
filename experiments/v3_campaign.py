@@ -17,6 +17,7 @@ FIXED_OPPONENTS = ['v3', 'v2', 'teammate', 'a_v2_tactical_local',
                    'j_balanced_portfolio', 'j_v2_reclaim_relay']
 SOURCE = 'submissions/iterative-v3/main.cpp'
 SOURCE_SHA = '52268569e17d7fc40fd46f0996b2da684768902b4af27ec059c4b068911c4473'
+AUDIT_MAPS = list(range(8700, 8732))
 
 
 def paired(rows, candidate, team='Y', opponents=None):
@@ -144,6 +145,8 @@ def seed_ranges(args):
         raise ValueError('Map sets must be disjoint')
     if min(min(values) for values in result.values()) < 8000:
         raise ValueError('Loop3 reserves fresh map seeds >=8000')
+    if any(set(values) & set(AUDIT_MAPS) for values in result.values()):
+        raise ValueError('Campaign maps overlap the reserved independent audit')
     return result
 
 
@@ -229,6 +232,7 @@ def campaign(args):
             primary = finalists[0]
             lock = {'ranking': final_order, 'finalists': finalists, 'primary_candidate': primary,
                     'baseline': BASELINE, 'opponents': opponents,
+                    'map_sets': maps,
                     'source_sha256': {name: bots[name]['source_sha256'] for name in [BASELINE, *finalists, *opponents]}}
             league.write(arena / 'locked-finalists.json', lock)
             stage('holdout', plan([BASELINE, *finalists], 'holdout'))

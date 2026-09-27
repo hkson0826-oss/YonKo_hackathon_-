@@ -123,6 +123,26 @@ def check_gates(arena, audit):
     require(policy['candidate'] == candidate and policy['source_sha256'][candidate] == manifest['bots'][candidate]['source_sha256'], 'Audit policy/source mismatch')
     require(policy.get('baseline', baseline) == baseline, 'Audit policy baseline differs')
     require(policy['source_sha256'][baseline] == manifest['bots'][baseline]['source_sha256'], 'Audit policy baseline source mismatch')
+    if baseline == 'v3':
+        original_policy = read(arena / 'campaign-policy.json')
+        require(policy.get('selection_lock') == lock, 'Audit is not linked to the original selection lock')
+        require(policy.get('opponents') == lock.get('opponents') == original_policy.get('opponents'),
+                'Audit opponent pool differs from the original campaign')
+        require(lock.get('map_sets') == original_policy.get('map_sets') and bool(lock.get('map_sets')),
+                'Original campaign map lock differs or is missing')
+        used_maps = {seed for values in original_policy['map_sets'].values() for seed in values}
+        audit_maps = policy.get('map_seeds', [])
+        require(bool(audit_maps) and len(audit_maps) == len(set(audit_maps)) and not used_maps.intersection(audit_maps),
+                'Audit maps overlap original campaign maps or are missing/duplicated')
+        for name in dict.fromkeys([candidate, baseline, *lock['opponents']]):
+            expected = lock['source_sha256'].get(name)
+            require(expected is not None and expected == policy['source_sha256'].get(name) ==
+                    manifest['bots'][name]['source_sha256'] == audit_manifest['bots'][name]['source_sha256'],
+                    f'Locked source differs between campaign and audit: {name}')
+        for relative, expected in manifest['input_sha256'].items():
+            if relative.startswith('yk-development-tools/'):
+                require(audit_manifest['input_sha256'].get(relative) == expected,
+                        f'Audit SDK differs from original campaign: {relative}')
     return candidate, manifest, verification, sdk_checked
 
 

@@ -29,7 +29,8 @@ class FrozenPackagingGateTests(unittest.TestCase):
             directory.mkdir(parents=True)
             manifest = {'source_commit': 'fixture-commit', 'input_sha256': {sdk: PACKAGE.sha(ROOT / sdk)},
                         'bots': {}, 'frozen_sha256': {}}
-            for name in (candidate, baseline):
+            names = [candidate, baseline, *(['challenger_one', 'challenger_two'] if baseline == 'v3' else [])]
+            for name in names:
                 source = directory / 'snapshot/candidates' / name
                 source.mkdir(parents=True)
                 for filename in ('main.cpp', 'protocol.hpp', 'generated.hpp'):
@@ -57,14 +58,21 @@ class FrozenPackagingGateTests(unittest.TestCase):
         if baseline == 'v3':
             result['baseline'] = lock['baseline'] = 'v3'
             result['promotion_decisions'][candidate]['baseline'] = 'v3'
+            lock['opponents'] = ['v3', 'challenger_one', 'challenger_two']
+            lock['map_sets'] = {'development': [8200], 'selection': [8300], 'holdout': [8400], 'crossplay': [8600]}
+            lock['source_sha256'] = {name: bot['source_sha256'] for name, bot in manifest['bots'].items()}
+            PACKAGE.write(arena / 'campaign-policy.json', {'opponents': lock['opponents'], 'map_sets': lock['map_sets']})
         PACKAGE.write(arena / 'campaign-result.json', result)
         PACKAGE.write(arena / 'locked-finalists.json', lock)
         PACKAGE.write(audit / 'campaign-result.json', {'total_matches': 8})
         PACKAGE.write(audit / 'audit-result.json', {'status': 'complete', 'candidate': candidate, 'baseline': baseline,
                                                     'passes_additional_gate': True, 'gates': {'quality': True, 'health': True}})
         manifest = PACKAGE.read(audit / 'manifest.json')
-        PACKAGE.write(audit / 'audit-policy.json', {'candidate': candidate,
-                    'source_sha256': {name: bot['source_sha256'] for name, bot in manifest['bots'].items()}})
+        policy = {'candidate': candidate,
+                  'source_sha256': {name: bot['source_sha256'] for name, bot in manifest['bots'].items()}}
+        if baseline == 'v3':
+            policy.update(selection_lock=lock, opponents=lock['opponents'], map_seeds=[8700, 8701])
+        PACKAGE.write(audit / 'audit-policy.json', policy)
         return arena, audit
 
     def mutate(self, directory, filename, change):
@@ -165,6 +173,25 @@ class FrozenPackagingGateTests(unittest.TestCase):
         self.assertEqual(marker.read_text(), 'preserve me')
         self.assertFalse(args.zip_output.exists())
         self.assertFalse(args.record_output.exists())
+
+    def test_audit_cannot_substitute_another_pool_source_or_reused_maps(self):
+        changes = [
+            ('audit', 'audit-policy.json', lambda v: v['selection_lock'].update(ranking=['different_run'])),
+            ('audit', 'audit-policy.json', lambda v: v.update(opponents=['v3', 'different_opponent'])),
+            ('audit', 'audit-policy.json', lambda v: v['source_sha256'].update(challenger_one='different_source')),
+            ('audit', 'manifest.json', lambda v: v['bots']['challenger_two'].update(source_sha256='different_source')),
+            ('audit', 'manifest.json', lambda v: v['input_sha256'].update({'yk-development-tools/engine/config.py': 'different_engine'})),
+            ('arena', 'campaign-policy.json', lambda v: v['map_sets'].update(holdout=[8500])),
+            ('audit', 'audit-policy.json', lambda v: v.update(map_seeds=[8400, 8701])),
+            ('audit', 'audit-policy.json', lambda v: v.update(map_seeds=[8700, 8700])),
+            ('audit', 'audit-policy.json', lambda v: v.pop('map_seeds')),
+        ]
+        for side, filename, change in changes:
+            with self.subTest(side=side, filename=filename, change=change):
+                arena, audit = self.fixture('v3')
+                self.mutate(arena if side == 'arena' else audit, filename, change)
+                with self.assertRaises(ValueError):
+                    PACKAGE.check_gates(arena, audit)
 
     def test_cpu_seed_defaults_and_cli_override(self):
         self.assertEqual(PACKAGE.cpu_seeds(7550), (7550, 7551))
