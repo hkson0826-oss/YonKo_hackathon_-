@@ -1,0 +1,83 @@
+{
+  "selection": {
+    "ranking": [
+      "r_guard_one",
+      "r_combined",
+      "p_01",
+      "r_terminal_margin",
+      "v2",
+      "r_joint_escort",
+      "p_10",
+      "c_economy_portfolio",
+      "p_04",
+      "r_guard_two",
+      "p_02",
+      "r_economic_value",
+      "r_guard_terminal",
+      "c_spearhead_portfolio",
+      "p_09",
+      "p_03",
+      "p_14",
+      "s_mean_min_d4",
+      "r_eng_terminal",
+      "r_eng_guard",
+      "p_05",
+      "p_12",
+      "s_regret_d6",
+      "s_switch_guard_d4",
+      "c_territory_portfolio",
+      "s_maximin_d4",
+      "p_11",
+      "p_00",
+      "p_06",
+      "p_15",
+      "s_mean_d4",
+      "r_guard_late",
+      "p_13",
+      "s_tail2_d4",
+      "p_07",
+      "s_regret_d2",
+      "p_08",
+      "s_local_hold_d3",
+      "s_assignment_only",
+      "s_maximin_d1",
+      "c_territory_direct",
+      "c_economy_direct",
+      "c_spearhead_direct"
+    ],
+    "selected": [
+      "v2",
+      "r_guard_one",
+      "r_combined",
+      "p_01",
+      "r_terminal_margin",
+      "r_joint_escort",
+      "p_10",
+      "c_economy_portfolio",
+      "r_economic_value"
+    ]
+  },
+  "sessions": [
+    {
+      "status": "complete",
+      "started_utc": "2026-09-27T15:04:52.166876+00:00",
+      "workers": 16,
+      "resumed_jobs": 0,
+      "scheduled_jobs": 1032,
+      "command": [
+        "/usr/bin/python3",
+        "experiments/league_campaign.py",
+        "--arena",
+        "output",
+        "--workers",
+        "16"
+      ],
+      "plan_sha256": "a371fb7c79f43145463e7bb7016197df97f4a9a5e3919c1c0189c474e3f08025",
+      "python": "3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]",
+      "python_executable": "/usr/bin/python3",
+      "finished_utc": "2026-09-27T15:07:19.052480+00:00",
+      "wall_seconds": 146.88544512260705,
+      "finished_new_jobs": 1032
+    }
+  ]
+}
