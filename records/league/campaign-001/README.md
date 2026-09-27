@@ -2,6 +2,8 @@
 
 완료 경기 **2,674전**, 후보 43개. 내부 승격 기준 추천은 **v2**다.
 
+후보 수는 설정 기준이며 `p_05`·`p_12`가 같은 소스라 고유 소스는 42개다. [전체 후보 목록](candidate-catalog.md), [최종 해석과 다음 수정](../../../docs/17-다양한후보리그결과.md), [결합 후보 패배 분석](review-combined.md)을 함께 읽는다.
+
 | 단계 | 경기 수 |
 |---|---:|
 | smoke | 90 |
@@ -65,3 +67,5 @@ Combine joint defense, shared-arrival escort, engineering savings, and terminal 
 모든 경기 요약·응답시간·진단 지표는 `runs/*/results.jsonl`, 패배·무승부와 첫 맵 승리의 전체 진행은 `runs/*/replays/*.json.gz`에 있다. gzip을 풀어 기존 JSON 리플레이처럼 읽을 수 있다. 실행 바이너리는 보존하지 않으며 실제 소스·헤더·SDK 스냅샷과 해시를 남겼다.
 
 원격 작업은 TMP 안에서 실행됐다. 실제 자원 제한·정리 결과는 `remote_supervisor.json`, `transport_receipt.json`, `transport.jsonl`을 확인한다. 이 보고서는 실제 제출 ZIP 교체나 사이트 업로드를 수행했다는 뜻이 아니다.
+
+[산출물 검증](artifact-verification.json)에서 915개 저장 리플레이의 전체 진행 해시와 동결 소스를 확인했다. [별도 SSH 재확인](cleanup-verification.json)에서도 원격 TMP와 관련 프로세스가 없었다.

@@ -15,10 +15,13 @@
 | [compute/round2](compute/round2/) | 로컬 환경과 CPU 작업자 1/2/4 처리량·로그·패배 리플레이 |
 | [compute/code-search-pilot](compute/code-search-pilot/) | 실제 v2 판단 병목, 동일 대전의 CPU 병렬도 비교, CPU/CUDA 평가함수 정합성·실행 상태 |
 | [research/compute-choice](research/compute-choice/) | CUDA·Python·irace·SMAC 공식 문서와 코드 탐색 적용 근거 |
+| [research/local-league-search](research/local-league-search/) | Firecrawl 논문 확인과 실제 탐색 후보의 적용 범위·약점 |
+| [league/campaign-001](league/campaign-001/README.md) | 43개 설정·2,674경기, 최종 비교·동결 소스·전체 결과·저장 리플레이·서버 복구 |
+| [league/checkpoints-001](league/checkpoints-001/) | 완료 단계별 중간 결과·수비 후보 리플레이 분석·서버 자원 관측 |
 
 공식 원본은 [artifacts/firstround_results](../artifacts/firstround_results/)에 그대로 보존했다. [분석 도구](../experiments/analyze_official_round1.py)는 합법 관측으로 알 수 있는 점수와 사후 복원 점수를 구분한다. [처리량 측정 도구](../experiments/profile_throughput.py)는 고정한 봇 소스·새 임시 빌드로 같은 맵을 반복하며, 기존 출력 경로 덮어쓰기를 거부한다.
 
-최종 선택 후보는 `tuning/portfolio-assets/`다. 전체 후보의 소스 해시와 결과 파일은 [tuning/index.json](tuning/index.json)에 기록했다. 해당 폴더의 `losses-*`에는 후보 평가 중 저장한 패배·무승부 리플레이가 있다.
+최초 v2 튜닝의 선택 후보는 `tuning/portfolio-assets/`다. 당시 후보의 소스 해시와 결과 파일은 [tuning/index.json](tuning/index.json)에 기록했다. 해당 폴더의 `losses-*`에는 후보 평가 중 저장한 패배·무승부 리플레이가 있다. 후속 리그의 최종 판단은 [campaign-001](league/campaign-001/README.md)에 있다.
 
 최종 새 맵 검증은 시드 3000~3019의 양 진영 40경기다. [v2 결과](benchmarks/v2/benchmark-v2-team-holdout.json)는 38승 2패, [동일 조건의 v1 결과](benchmarks/v2/benchmark-v1-team-holdout.json)는 33승 7패다. v2의 두 패배는 [3012/Y](replays/v2-team-holdout/seed-3012-Y.json), [3019/K](replays/v2-team-holdout/seed-3019-K.json)에 저장했다.
 
