@@ -1,0 +1,126 @@
+{
+  "retrieved_at": "2026-09-27T22:54:17+09:00",
+  "provider": "configured firecrawl MCP (mcp__firecrawl)",
+  "key": "family_rhea",
+  "response": {
+    "content": [
+      {
+        "type": "text",
+        "text": "## [arxiv:2005.06764] Rolling Horizon NEAT for General Video Game Playing\nThis paper presents a new Statistical Forward Planning (SFP) method, Rolling Horizon NeuroEvolution of Augmenting Topologies (rhNEAT). Unlike traditional Rolling Horizon Evolution, where an evolutionary algorithm is in charge of evolving a sequence of actions, rhNEAT evolves weights and connections of a neural network in real-time, planning several steps ahead before returning an action to execute in the game. Different versions of the algorithm are explored in a collection of 20 GVGAI games, and compared with other SFP methods and state of the art results. Although results are overall not bet\n\n## [arxiv:2103.04931] Monte Carlo Tree Search: A Review of Recent Modifications and Applications\nMonte Carlo Tree Search (MCTS) is a powerful approach to designing game-playing bots or solving sequential decision problems. The method relies on intelligent tree search that balances exploration and exploitation. MCTS performs random sampling in the form of simulations and stores statistics of actions to make more educated choices in each subsequent iteration. The method has become a state-of-the-art technique for combinatorial games, however, in more complex games (e.g. those with high branching factor or real-time ones), as well as in various practical domains (e.g. transportation, schedul\n\n## [arxiv:2006.08659] Does it matter how well I know what you're thinking? Opponent Modelling in an RTS game\nOpponent Modelling tries to predict the future actions of opponents, and is required to perform well in multi-player games. There is a deep literature on learning an opponent model, but much less on how accurate such models must be to be useful. We investigate the sensitivity of Monte Carlo Tree Search (MCTS) and a Rolling Horizon Evolutionary Algorithm (RHEA) to the accuracy of their modelling of the opponent in a simple Real-Time Strategy game. We find that in this domain RHEA is much more sensitive to the accuracy of an opponent model than MCTS. MCTS generally does better even with an inacc\n\n## [arxiv:1606.06041] Bandit-Based Random Mutation Hill-Climbing\nThe Random Mutation Hill-Climbing algorithm is a direct search technique mostly used in discrete domains. It repeats the process of randomly selecting a neighbour of a best-so-far solution and accepts the neighbour if it is better than or equal to it. In this work, we propose to use a novel method to select the neighbour solution using a set of independent multi- armed bandit-style selection units which results in a bandit-based Random Mutation Hill-Climbing algorithm. The new algorithm significantly outperforms Random Mutation Hill-Climbing in both OneMax (in noise-free and noisy cases) and R\n\n## [arxiv:1704.06942] Population Seeding Techniques for Rolling Horizon Evolution in General Video Game Playing\nWhile Monte Carlo Tree Search and closely related methods have dominated General Video Game Playing, recent research has demonstrated the promise of Rolling Horizon Evolutionary Algorithms as an interesting alternative. However, there is little attention paid to population initialization techniques in the setting of general real-time video games. Therefore, this paper proposes the use of population seeding to improve the performance of Rolling Horizon Evolution and presents the results of two methods, One Step Look Ahead and Monte Carlo Tree Search, tested on 20 games of the General Video Game\n\n## [arxiv:2003.13949] Enhanced Rolling Horizon Evolution Algorithm with Opponent Model Learning: Results for the Fighting Game AI Competition\nThe Fighting Game AI Competition (FTGAIC) provides a challenging benchmark for 2-player video game AI. The challenge arises from the large action space, diverse styles of characters and abilities, and the real-time nature of the game. In this paper, we propose a novel algorithm that combines Rolling Horizon Evolution Algorithm (RHEA) with opponent model learning. The approach is readily applicable to any 2-player video game. In contrast to conventional RHEA, an opponent model is proposed and is optimized by supervised learning with cross-entropy and reinforcement learning with policy gradient \n(poolSize=6)"
+      }
+    ],
+    "structuredContent": {
+      "results": [
+        {
+          "paperId": "8310635129363180531",
+          "primaryId": "arxiv:2005.06764",
+          "ids": {
+            "arxiv": [
+              "2005.06764"
+            ]
+          },
+          "title": "Rolling Horizon NEAT for General Video Game Playing",
+          "abstract": "This paper presents a new Statistical Forward Planning (SFP) method, Rolling Horizon NeuroEvolution of Augmenting Topologies (rhNEAT). Unlike traditional Rolling Horizon Evolution, where an evolutionary algorithm is in charge of evolving a sequence of actions, rhNEAT evolves weights and connections of a neural network in real-time, planning several steps ahead before returning an action to execute in the game. Different versions of the algorithm are explored in a collection of 20 GVGAI games, and compared with other SFP methods and state of the art results. Although results are overall not better than other SFP methods, the nature of rhNEAT to adapt to changing game features has allowed to establish new state of the art records in games that other methods have traditionally struggled with. The algorithm proposed here is general and introduces a new way of representing information within rolling horizon evolution techniques.",
+          "score": 0.031754032258064516,
+          "signals": {
+            "structural": 3.792976454836062,
+            "semantic": 0.013333334,
+            "articleRank": 0.1524895366856287,
+            "seedOverlap": 0
+          }
+        },
+        {
+          "paperId": "7865032657989367544",
+          "primaryId": "arxiv:2103.04931",
+          "ids": {
+            "arxiv": [
+              "2103.04931"
+            ]
+          },
+          "title": "Monte Carlo Tree Search: A Review of Recent Modifications and Applications",
+          "abstract": "Monte Carlo Tree Search (MCTS) is a powerful approach to designing game-playing bots or solving sequential decision problems. The method relies on intelligent tree search that balances exploration and exploitation. MCTS performs random sampling in the form of simulations and stores statistics of actions to make more educated choices in each subsequent iteration. The method has become a state-of-the-art technique for combinatorial games, however, in more complex games (e.g. those with high branching factor or real-time ones), as well as in various practical domains (e.g. transportation, scheduling or security) an efficient MCTS application often requires its problem-dependent modification or integration with other techniques. Such domain-specific modifications and hybrid approaches are the main focus of this survey. The last major MCTS survey has been published in 2012. Contributions that appeared since its release are of particular interest for this review.",
+          "score": 0.028693528693528692,
+          "signals": {
+            "structural": 3,
+            "semantic": 0.010416667,
+            "articleRank": 0,
+            "seedOverlap": 0
+          }
+        },
+        {
+          "paperId": "5610797099348997179",
+          "primaryId": "arxiv:2006.08659",
+          "ids": {
+            "arxiv": [
+              "2006.08659"
+            ]
+          },
+          "title": "Does it matter how well I know what you're thinking? Opponent Modelling in an RTS game",
+          "abstract": "Opponent Modelling tries to predict the future actions of opponents, and is required to perform well in multi-player games. There is a deep literature on learning an opponent model, but much less on how accurate such models must be to be useful. We investigate the sensitivity of Monte Carlo Tree Search (MCTS) and a Rolling Horizon Evolutionary Algorithm (RHEA) to the accuracy of their modelling of the opponent in a simple Real-Time Strategy game. We find that in this domain RHEA is much more sensitive to the accuracy of an opponent model than MCTS. MCTS generally does better even with an inaccurate model, while this will degrade RHEA's performance. We show that faced with an unknown opponent and a low computational budget it is better not to use any explicit model with RHEA, and to model the opponent's actions within the tree as part of the MCTS algorithm.",
+          "score": 0.02619736419157827,
+          "signals": {
+            "structural": 1.8980497060308106,
+            "semantic": 0.016129032,
+            "articleRank": 0.15000000000000002,
+            "seedOverlap": 0
+          }
+        },
+        {
+          "paperId": "6398395592967475903",
+          "primaryId": "arxiv:1606.06041",
+          "ids": {
+            "arxiv": [
+              "1606.06041"
+            ]
+          },
+          "title": "Bandit-Based Random Mutation Hill-Climbing",
+          "abstract": "The Random Mutation Hill-Climbing algorithm is a direct search technique mostly used in discrete domains. It repeats the process of randomly selecting a neighbour of a best-so-far solution and accepts the neighbour if it is better than or equal to it. In this work, we propose to use a novel method to select the neighbour solution using a set of independent multi- armed bandit-style selection units which results in a bandit-based Random Mutation Hill-Climbing algorithm. The new algorithm significantly outperforms Random Mutation Hill-Climbing in both OneMax (in noise-free and noisy cases) and Royal Road problems (in the noise-free case). The algorithm shows particular promise for discrete optimisation problems where each fitness evaluation is expensive.",
+          "score": 0.026171741361614778,
+          "signals": {
+            "structural": 3.6464699578574216,
+            "semantic": 0,
+            "articleRank": 0.2767393738646093,
+            "seedOverlap": 0
+          }
+        },
+        {
+          "paperId": "4093680930293997844",
+          "primaryId": "arxiv:1704.06942",
+          "ids": {
+            "arxiv": [
+              "1704.06942"
+            ]
+          },
+          "title": "Population Seeding Techniques for Rolling Horizon Evolution in General Video Game Playing",
+          "abstract": "While Monte Carlo Tree Search and closely related methods have dominated General Video Game Playing, recent research has demonstrated the promise of Rolling Horizon Evolutionary Algorithms as an interesting alternative. However, there is little attention paid to population initialization techniques in the setting of general real-time video games. Therefore, this paper proposes the use of population seeding to improve the performance of Rolling Horizon Evolution and presents the results of two methods, One Step Look Ahead and Monte Carlo Tree Search, tested on 20 games of the General Video Game AI corpus with multiple evolution parameter values (population size and individual length). An in-depth analysis is carried out between the results of the seeding methods and the vanilla Rolling Horizon Evolution. In addition, the paper presents a comparison to a Monte Carlo Tree Search algorithm. The results are promising, with seeding able to boost performance significantly over baseline evolution and even match the high level of play obtained by the Monte Carlo Tree Search.",
+          "score": 0.02565359477124183,
+          "signals": {
+            "structural": 3.663636881295591,
+            "semantic": 0,
+            "articleRank": 0.26138430986889183,
+            "seedOverlap": 0
+          }
+        },
+        {
+          "paperId": "5934006207596389076",
+          "primaryId": "arxiv:2003.13949",
+          "ids": {
+            "arxiv": [
+              "2003.13949"
+            ]
+          },
+          "title": "Enhanced Rolling Horizon Evolution Algorithm with Opponent Model Learning: Results for the Fighting Game AI Competition",
+          "abstract": "The Fighting Game AI Competition (FTGAIC) provides a challenging benchmark for 2-player video game AI. The challenge arises from the large action space, diverse styles of characters and abilities, and the real-time nature of the game. In this paper, we propose a novel algorithm that combines Rolling Horizon Evolution Algorithm (RHEA) with opponent model learning. The approach is readily applicable to any 2-player video game. In contrast to conventional RHEA, an opponent model is proposed and is optimized by supervised learning with cross-entropy and reinforcement learning with policy gradient and Q-learning respectively, based on history observations from opponent. The model is learned during the live gameplay. With the learned opponent model, the extended RHEA is able to make more realistic plans based on what the opponent is likely to do. This tends to lead to better results. We compared our approach directly with the bots from the FTGAIC 2018 competition, and found our method to significantly outperform all of them, for all three character. Furthermore, our proposed bot with the policy-gradient-based opponent model is the only one without using Monte-Carlo Tree Search (MCTS) among top five bots in the 2019 competition in which it achieved second place, while using much less domain knowledge than the winner.",
+          "score": 0.023860911270983214,
+          "signals": {
+            "structural": 1.866012602160374,
+            "semantic": 0.023386449,
+            "articleRank": 0.2023621212728825,
+            "seedOverlap": 0
+          }
+        }
+      ],
+      "poolSize": 6
+    }
+  }
+}

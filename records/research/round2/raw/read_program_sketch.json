@@ -1,0 +1,14 @@
+{
+  "retrieved_at": "2026-09-27T22:54:17+09:00",
+  "provider": "configured firecrawl MCP (mcp__firecrawl)",
+  "key": "read_program_sketch",
+  "response": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Tool 'firecrawl_research_read_paper' execution failed: Request failed with status code 500"
+      }
+    ],
+    "isError": true
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "candidate": "/tmp/yk-throughput-e3chc7ua/candidate_bot",
+  "opponent": "/usr/bin/python3 /tmp/yk-throughput-e3chc7ua/opponent/main.py",
+  "summary": {
+    "matches": 4,
+    "wins": 3,
+    "draws": 0,
+    "losses": 1,
+    "forfeits": 0,
+    "max_turn_ms": 53.53161400034878,
+    "opponent_max_turn_ms": 79.16073300020798,
+    "mean_score_margin": 4.0,
+    "full_length_matches": 4,
+    "by_team": {
+      "Y": {
+        "wins": 2,
+        "draws": 0,
+        "matches": 2
+      },
+      "K": {
+        "wins": 1,
+        "draws": 0,
+        "matches": 2
+      }
+    }
+  },
+  "matches": [
+    {
+      "seed": 4000,
+      "team": "K",
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 10,
+          "K": 27
+        },
+        "turns": 160,
+        "seed": 4000
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 17,
+      "max_turn_ms": 47.704773000077694,
+      "opponent_max_turn_ms": 67.4473509998279
+    },
+    {
+      "seed": 4000,
+      "team": "Y",
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 21,
+          "K": 16
+        },
+        "turns": 160,
+        "seed": 4000
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 5,
+      "max_turn_ms": 53.53161400034878,
+      "opponent_max_turn_ms": 71.80297300010352
+    },
+    {
+      "seed": 4001,
+      "team": "K",
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 22,
+          "K": 15
+        },
+        "turns": 160,
+        "seed": 4001
+      },
+      "win": false,
+      "draw": false,
+      "score_margin": -7,
+      "max_turn_ms": 51.10377700020763,
+      "opponent_max_turn_ms": 79.16073300020798,
+      "replay": "/home/dlwltkd/YonKo_hackathon_-/records/compute/round2/replays-workers-4/seed-4001-K.json"
+    },
+    {
+      "seed": 4001,
+      "team": "Y",
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 19,
+          "K": 18
+        },
+        "turns": 160,
+        "seed": 4001
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 1,
+      "max_turn_ms": 48.957237000195164,
+      "opponent_max_turn_ms": 67.46014400005151
+    }
+  ]
+}

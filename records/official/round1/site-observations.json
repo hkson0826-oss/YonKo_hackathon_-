@@ -1,0 +1,208 @@
+{
+  "observed_at_kst": "2026-09-27 22:59",
+  "method": "Authenticated Chrome accessibility state, background read-only navigation",
+  "firecrawl_mcp_result": "Leaderboard redirected to login; authenticated browser used",
+  "sources": {
+    "leaderboard": "https://yonsei-vs-korea-hackathon.kr/leaderboard",
+    "rules": "https://yonsei-vs-korea-hackathon.kr/rules",
+    "matches": "https://yonsei-vs-korea-hackathon.kr/matches",
+    "submissions": "https://yonsei-vs-korea-hackathon.kr/submissions",
+    "practice": "https://yonsei-vs-korea-hackathon.kr/practice",
+    "dashboard": "https://yonsei-vs-korea-hackathon.kr/dashboard"
+  },
+  "team": {
+    "name": "강릉",
+    "side": "Y"
+  },
+  "leaderboard": {
+    "publication_kst": "2026-09-27 22:00",
+    "rank": 12,
+    "adjusted_score_percent": 61.0,
+    "wins": 4,
+    "draws": 0,
+    "losses": 1,
+    "errors": 0,
+    "games": 5,
+    "raw_point_rate": 0.8,
+    "formula_disclosed": false,
+    "description": "Partial opponents, strength-adjusted reference ranking; not used for final ranking"
+  },
+  "selected_submission": {
+    "site_version": 3,
+    "filename": "submission-v2.zip",
+    "language": "C++20",
+    "submitted_kst": "2026-09-27 19:48",
+    "display_size": "10.0 KiB",
+    "status": "사용 가능",
+    "selected": true,
+    "local_zip_sha256": "f90eca7cac0024ab4cc7c00d79595f71e4eb9bab92ec57e0527c7b977098b64a",
+    "server_zip_sha256": null,
+    "linkage": "UI version, filename, language and size; server bytes not independently verified"
+  },
+  "submission_history": [
+    {
+      "site_version": 1,
+      "filename": "submission-v1.zip",
+      "submitted_kst": "2026-09-27 19:18"
+    },
+    {
+      "site_version": 2,
+      "filename": "delineate-v1.zip",
+      "submitted_kst": "2026-09-27 19:30"
+    },
+    {
+      "site_version": 3,
+      "filename": "submission-v2.zip",
+      "submitted_kst": "2026-09-27 19:48"
+    }
+  ],
+  "latest_practice": {
+    "site_version": 3,
+    "difficulty": "상",
+    "wins": 10,
+    "games": 10,
+    "execution_errors": 0,
+    "started_kst": "2026-09-27 19:49"
+  },
+  "visible_practice_history": {
+    "count": 4,
+    "low": 1,
+    "medium": 0,
+    "high": 3,
+    "medium_completion_verified": false
+  },
+  "final_ranking": {
+    "opponents": "Every team from the other school exactly once",
+    "side": "Registered side fixed",
+    "criteria": [
+      "(W + 0.5 D) / N",
+      "W / N",
+      "(sum won opponent point rates + 0.5 sum drawn opponent point rates) / N"
+    ],
+    "remaining_tie": "Shared rank; boundary of top 7 receives additional same-code, same-side games on new maps",
+    "same_as_development_adjustment": null
+  },
+  "deadlines_kst": {
+    "2026-09-28_to_30": [
+      [
+        "08:00",
+        "10:00"
+      ],
+      [
+        "20:00",
+        "22:00"
+      ]
+    ],
+    "2026-10-01_leaderboard": [
+      [
+        "08:00",
+        "10:00"
+      ],
+      [
+        "15:00",
+        "17:00"
+      ]
+    ],
+    "file_upload": "2026-10-01 23:00",
+    "final_selection": "2026-10-01 23:59",
+    "report": "2026-10-01 23:59",
+    "final_publication": "2026-10-02 08:00"
+  },
+  "submission_limits": {
+    "gpu": false,
+    "learned_weight_files": false,
+    "arbitrary_data_files": false,
+    "executables": false,
+    "first_turn_ms": 3000,
+    "other_turn_ms": 300,
+    "memory_mib": 384,
+    "zip_mib": 5,
+    "extracted_mib": 20,
+    "files": 200,
+    "stdout_turn_kib": 64,
+    "stdout_lines": 4096,
+    "line_kib": 1,
+    "stderr_game_mib": 1,
+    "processes": 32,
+    "match_seconds": 180,
+    "python": "3.12.14",
+    "numpy": "2.3.3",
+    "cpp": "C++20 GCC12.2.0"
+  },
+  "report_rubric": {
+    "overall_strategy": 15,
+    "units": 20,
+    "regions_buildings": 20,
+    "development_process": 30,
+    "reflection": 5,
+    "completeness": 10
+  },
+  "mutations": {
+    "upload": false,
+    "select_submission": false,
+    "start_practice": false,
+    "send_messages": false
+  },
+  "matches": [
+    {
+      "source_path": "artifacts/firstround_results/replay (1).json",
+      "game_id": "rolling-game-e3fd566eee1999e1349fb77cdba677f9b15a96b8163a2f2ce657c861af1593fb",
+      "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-e3fd566eee1999e1349fb77cdba677f9b15a96b8163a2f2ce657c861af1593fb",
+      "opponent": "저희 집 GPU가 추위를 타요",
+      "side": "Y",
+      "outcome": "win",
+      "time_kst": "2026-09-27 19:54",
+      "opponent_reference_rank": 28,
+      "opponent_adjusted_score_percent": 41.1,
+      "site_version_observed": null
+    },
+    {
+      "source_path": "artifacts/firstround_results/replay (2).json",
+      "game_id": "rolling-game-3dd41599c2c6adcb057a6ed543d2fa6ae0961c00e745a0bb048604720110cbb1",
+      "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-3dd41599c2c6adcb057a6ed543d2fa6ae0961c00e745a0bb048604720110cbb1",
+      "opponent": "뚜띠태하소불고기와멸치두명",
+      "side": "Y",
+      "outcome": "win",
+      "time_kst": "2026-09-27 19:53",
+      "opponent_reference_rank": 14,
+      "opponent_adjusted_score_percent": 57.0,
+      "site_version_observed": null
+    },
+    {
+      "source_path": "artifacts/firstround_results/replay (3).json",
+      "game_id": "rolling-game-805c50c9a490f1c11b69ad06d37d8a66ff8a012f4ede324c829038c68ea5fb4e",
+      "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-805c50c9a490f1c11b69ad06d37d8a66ff8a012f4ede324c829038c68ea5fb4e",
+      "opponent": "신촌도 우리땅",
+      "side": "Y",
+      "outcome": "loss",
+      "time_kst": "2026-09-27 19:53",
+      "opponent_reference_rank": 8,
+      "opponent_adjusted_score_percent": 67.5,
+      "site_version_observed": 3
+    },
+    {
+      "source_path": "artifacts/firstround_results/replay (4).json",
+      "game_id": "rolling-game-e6920b1cc1fb4db8bf3afc03de803bf1602b7771f0d8093ea637c9667bda1b49",
+      "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-e6920b1cc1fb4db8bf3afc03de803bf1602b7771f0d8093ea637c9667bda1b49",
+      "opponent": "양진장",
+      "side": "Y",
+      "outcome": "win",
+      "time_kst": "2026-09-27 19:52",
+      "opponent_reference_rank": 23,
+      "opponent_adjusted_score_percent": 45.4,
+      "site_version_observed": null
+    },
+    {
+      "source_path": "artifacts/firstround_results/replay (5).json",
+      "game_id": "rolling-game-cc2cdecafcf04121af34ef3e1ce4c341cc299e63cc3c4ce29ddf4a9de15ee066",
+      "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-cc2cdecafcf04121af34ef3e1ce4c341cc299e63cc3c4ce29ddf4a9de15ee066",
+      "opponent": "공주",
+      "side": "Y",
+      "outcome": "win",
+      "time_kst": "2026-09-27 19:52",
+      "opponent_reference_rank": 38,
+      "opponent_adjusted_score_percent": 31.1,
+      "site_version_observed": null
+    }
+  ]
+}

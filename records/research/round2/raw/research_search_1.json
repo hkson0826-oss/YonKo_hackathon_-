@@ -1,0 +1,101 @@
+{
+  "retrieved_at": "2026-09-27T22:54:17+09:00",
+  "provider": "configured firecrawl MCP (mcp__firecrawl)",
+  "key": "research_search_1",
+  "response": {
+    "content": [
+      {
+        "type": "text",
+        "text": "## [arxiv:2003.12331] Rolling Horizon Evolutionary Algorithms for General Video Game Playing\nGame-playing Evolutionary Algorithms, specifically Rolling Horizon Evolutionary Algorithms, have recently managed to beat the state of the art in win rate across many video games. However, the best results in a game are highly dependent on the specific configuration of modifications and hybrids introduced over several papers, each adding additional parameters to the core algorithm. Further, the best previously published parameters have been found from only a few human-picked combinations, as the possibility space has grown beyond exhaustive search. This paper presents the state of the art in R\n\n## [arxiv:2003.13949] Enhanced Rolling Horizon Evolution Algorithm with Opponent Model Learning: Results for the Fighting Game AI Competition\nThe Fighting Game AI Competition (FTGAIC) provides a challenging benchmark for 2-player video game AI. The challenge arises from the large action space, diverse styles of characters and abilities, and the real-time nature of the game. In this paper, we propose a novel algorithm that combines Rolling Horizon Evolution Algorithm (RHEA) with opponent model learning. The approach is readily applicable to any 2-player video game. In contrast to conventional RHEA, an opponent model is proposed and is optimized by supervised learning with cross-entropy and reinforcement learning with policy gradient \n\n## [arxiv:1607.01730] Rolling Horizon Coevolutionary Planning for Two-Player Video Games\nThis paper describes a new algorithm for decision making in two-player real-time video games. As with Monte Carlo Tree Search, the algorithm can be used without heuristics and has been developed for use in general video game AI. The approach is to extend recent work on rolling horizon evolutionary planning, which has been shown to work well for single-player games, to two (or in principle many) player games. To select an action the algorithm co-evolves two (or in the general case N) populations, one for each player, where each individual is a sequence of actions for the respective player. The \n\n## [arxiv:2104.10429] Portfolio Search and Optimization for General Strategy Game-Playing\nPortfolio methods represent a simple but efficient type of action abstraction which has shown to improve the performance of search-based agents in a range of strategy games. We first review existing portfolio techniques and propose a new algorithm for optimization and action-selection based on the Rolling Horizon Evolutionary Algorithm. Moreover, a series of variants are developed to solve problems in different aspects. We further analyze the performance of discussed agents in a general strategy game-playing task. For this purpose, we run experiments on three different game-modes of the Strate\n\n## [arxiv:1704.06942] Population Seeding Techniques for Rolling Horizon Evolution in General Video Game Playing\nWhile Monte Carlo Tree Search and closely related methods have dominated General Video Game Playing, recent research has demonstrated the promise of Rolling Horizon Evolutionary Algorithms as an interesting alternative. However, there is little attention paid to population initialization techniques in the setting of general real-time video games. Therefore, this paper proposes the use of population seeding to improve the performance of Rolling Horizon Evolution and presents the results of two methods, One Step Look Ahead and Monte Carlo Tree Search, tested on 20 games of the General Video Game\n\n## [arxiv:1901.00723] Efficient Evolutionary Methods for Game Agent Optimisation: Model-Based is Best\nThis paper introduces a simple and fast variant of Planet Wars as a test-bed for statistical planning based Game AI agents, and for noisy hyper-parameter optimisation. Planet Wars is a real-time strategy game with simple rules but complex game-play. The variant introduced in this paper is designed for speed to enable efficient experimentation, and also for a fixed action space to enable practical inter-operability with General Video Game AI agents. If we treat the game as a win-loss game (which is standard), then this leads to challenging noisy optimisation problems both in tuning agents to pl\n\n## [arxiv:1902.05284] Learn a Prior for RHEA for Better Online Planning\nRolling Horizon Evolutionary Algorithms (RHEA) are a class of online planning methods for real-time game playing; their performance is closely related to the planning horizon and the search time allowed. In this paper, we propose to learn a prior for RHEA in an offline manner by training a value network and a policy network. The value network is used to reduce the planning horizon by providing an estimation of future rewards, and the policy network is used to initialize the population, which helps to narrow down the search scope. The proposed algorithm, named prior-based RHEA (p-RHEA), trains "
+      }
+    ],
+    "structuredContent": {
+      "results": [
+        {
+          "paperId": "3129119098578344656",
+          "primaryId": "arxiv:2003.12331",
+          "ids": {
+            "arxiv": [
+              "2003.12331"
+            ]
+          },
+          "title": "Rolling Horizon Evolutionary Algorithms for General Video Game Playing",
+          "abstract": "Game-playing Evolutionary Algorithms, specifically Rolling Horizon Evolutionary Algorithms, have recently managed to beat the state of the art in win rate across many video games. However, the best results in a game are highly dependent on the specific configuration of modifications and hybrids introduced over several papers, each adding additional parameters to the core algorithm. Further, the best previously published parameters have been found from only a few human-picked combinations, as the possibility space has grown beyond exhaustive search. This paper presents the state of the art in Rolling Horizon Evolutionary Algorithms, combining all modifications described in literature, as well as new ones, for a large resultant hybrid. We then use a parameter optimiser, the N-Tuple Bandit Evolutionary Algorithm, to find the best combination of parameters in 20 games from the General Video Game AI Framework. Further, we analyse the algorithm's parameters and some interesting combinations revealed through the optimisation process. Lastly, we find new state of the art solutions on several games by automatically exploring the large parameter space of RHEA.",
+          "score": 0.9158691361149104
+        },
+        {
+          "paperId": "5934006207596389076",
+          "primaryId": "arxiv:2003.13949",
+          "ids": {
+            "arxiv": [
+              "2003.13949"
+            ]
+          },
+          "title": "Enhanced Rolling Horizon Evolution Algorithm with Opponent Model Learning: Results for the Fighting Game AI Competition",
+          "abstract": "The Fighting Game AI Competition (FTGAIC) provides a challenging benchmark for 2-player video game AI. The challenge arises from the large action space, diverse styles of characters and abilities, and the real-time nature of the game. In this paper, we propose a novel algorithm that combines Rolling Horizon Evolution Algorithm (RHEA) with opponent model learning. The approach is readily applicable to any 2-player video game. In contrast to conventional RHEA, an opponent model is proposed and is optimized by supervised learning with cross-entropy and reinforcement learning with policy gradient and Q-learning respectively, based on history observations from opponent. The model is learned during the live gameplay. With the learned opponent model, the extended RHEA is able to make more realistic plans based on what the opponent is likely to do. This tends to lead to better results. We compared our approach directly with the bots from the FTGAIC 2018 competition, and found our method to significantly outperform all of them, for all three character. Furthermore, our proposed bot with the policy-gradient-based opponent model is the only one without using Monte-Carlo Tree Search (MCTS) among top five bots in the 2019 competition in which it achieved second place, while using much less domain knowledge than the winner.",
+          "score": 0.9119355190055246
+        },
+        {
+          "paperId": "4370678420754929554",
+          "primaryId": "arxiv:1607.01730",
+          "ids": {
+            "arxiv": [
+              "1607.01730"
+            ]
+          },
+          "title": "Rolling Horizon Coevolutionary Planning for Two-Player Video Games",
+          "abstract": "This paper describes a new algorithm for decision making in two-player real-time video games. As with Monte Carlo Tree Search, the algorithm can be used without heuristics and has been developed for use in general video game AI. The approach is to extend recent work on rolling horizon evolutionary planning, which has been shown to work well for single-player games, to two (or in principle many) player games. To select an action the algorithm co-evolves two (or in the general case N) populations, one for each player, where each individual is a sequence of actions for the respective player. The fitness of each individual is evaluated by playing it against a selection of action-sequences from the opposing population. When choosing an action to take in the game, the first action is chosen from the fittest member of the population for that player. The new algorithm is compared with a number of general video game AI algorithms on three variations of a two-player space battle game, with promising results.",
+          "score": 0.8979819308108695
+        },
+        {
+          "paperId": "503667961033784920",
+          "primaryId": "arxiv:2104.10429",
+          "ids": {
+            "arxiv": [
+              "2104.10429"
+            ]
+          },
+          "title": "Portfolio Search and Optimization for General Strategy Game-Playing",
+          "abstract": "Portfolio methods represent a simple but efficient type of action abstraction which has shown to improve the performance of search-based agents in a range of strategy games. We first review existing portfolio techniques and propose a new algorithm for optimization and action-selection based on the Rolling Horizon Evolutionary Algorithm. Moreover, a series of variants are developed to solve problems in different aspects. We further analyze the performance of discussed agents in a general strategy game-playing task. For this purpose, we run experiments on three different game-modes of the Stratega framework. For the optimization of the agents' parameters and portfolio sets we study the use of the N-tuple Bandit Evolutionary Algorithm. The resulting portfolio sets suggest a high diversity in play-styles while being able to consistently beat the sample agents. An analysis of the agents' performance shows that the proposed algorithm generalizes well to all game-modes and is able to outperform other portfolio methods.",
+          "score": 0.8581489350995123
+        },
+        {
+          "paperId": "4093680930293997844",
+          "primaryId": "arxiv:1704.06942",
+          "ids": {
+            "arxiv": [
+              "1704.06942"
+            ]
+          },
+          "title": "Population Seeding Techniques for Rolling Horizon Evolution in General Video Game Playing",
+          "abstract": "While Monte Carlo Tree Search and closely related methods have dominated General Video Game Playing, recent research has demonstrated the promise of Rolling Horizon Evolutionary Algorithms as an interesting alternative. However, there is little attention paid to population initialization techniques in the setting of general real-time video games. Therefore, this paper proposes the use of population seeding to improve the performance of Rolling Horizon Evolution and presents the results of two methods, One Step Look Ahead and Monte Carlo Tree Search, tested on 20 games of the General Video Game AI corpus with multiple evolution parameter values (population size and individual length). An in-depth analysis is carried out between the results of the seeding methods and the vanilla Rolling Horizon Evolution. In addition, the paper presents a comparison to a Monte Carlo Tree Search algorithm. The results are promising, with seeding able to boost performance significantly over baseline evolution and even match the high level of play obtained by the Monte Carlo Tree Search.",
+          "score": 0.8566204956353467
+        },
+        {
+          "paperId": "8723686001862207876",
+          "primaryId": "arxiv:1901.00723",
+          "ids": {
+            "arxiv": [
+              "1901.00723"
+            ]
+          },
+          "title": "Efficient Evolutionary Methods for Game Agent Optimisation: Model-Based is Best",
+          "abstract": "This paper introduces a simple and fast variant of Planet Wars as a test-bed for statistical planning based Game AI agents, and for noisy hyper-parameter optimisation. Planet Wars is a real-time strategy game with simple rules but complex game-play. The variant introduced in this paper is designed for speed to enable efficient experimentation, and also for a fixed action space to enable practical inter-operability with General Video Game AI agents. If we treat the game as a win-loss game (which is standard), then this leads to challenging noisy optimisation problems both in tuning agents to play the game, and in tuning game parameters. Here we focus on the problem of tuning an agent, and report results using the recently developed N-Tuple Bandit Evolutionary Algorithm and a number of other optimisers, including Sequential Model-based Algorithm Configuration (SMAC). Results indicate that the N-Tuple Bandit Evolutionary offers competitive performance as well as insight into the effects of combinations of parameter choices.",
+          "score": 0.8471602646256321
+        },
+        {
+          "paperId": "2229425983489929376",
+          "primaryId": "arxiv:1902.05284",
+          "ids": {
+            "arxiv": [
+              "1902.05284"
+            ]
+          },
+          "title": "Learn a Prior for RHEA for Better Online Planning",
+          "abstract": "Rolling Horizon Evolutionary Algorithms (RHEA) are a class of online planning methods for real-time game playing; their performance is closely related to the planning horizon and the search time allowed. In this paper, we propose to learn a prior for RHEA in an offline manner by training a value network and a policy network. The value network is used to reduce the planning horizon by providing an estimation of future rewards, and the policy network is used to initialize the population, which helps to narrow down the search scope. The proposed algorithm, named prior-based RHEA (p-RHEA), trains policy and value networks by performing planning and learning iteratively. In the planning stage, the horizon-limited search assisted with the policy network and value network is performed to improve the policies and collect training samples. In the learning stage, the policy network and value network are trained with the collected samples to learn better prior knowledge. Experimental results on OpenAI Gym MuJoCo tasks show that the performance of the proposed p-RHEA is significantly improved compared to that of RHEA.",
+          "score": 0.8471602646256321
+        }
+      ]
+    }
+  }
+}

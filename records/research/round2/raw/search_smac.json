@@ -1,0 +1,53 @@
+{
+  "retrieved_at": "2026-09-27T22:54:17+09:00",
+  "provider": "configured firecrawl MCP (mcp__firecrawl)",
+  "key": "search_smac",
+  "response": {
+    "content": [
+      {
+        "type": "text",
+        "text": "## [arxiv:2109.09831] SMAC3: A Versatile Bayesian Optimization Package for Hyperparameter Optimization\nAlgorithm parameters, in particular hyperparameters of machine learning algorithms, can substantially impact their performance. To support users in determining well-performing hyperparameter configurations for their algorithms, datasets and applications at hand, SMAC3 offers a robust and flexible framework for Bayesian Optimization, which can improve performance within a few evaluations. It offers several facades and pre-sets for typical use cases, such as optimizing hyperparameters, solving low dimensional continuous (artificial) global optimization problems and configuring algorithms to perf\n\n## [arxiv:2206.02663] TransBO: Hyperparameter Optimization via Two-Phase Transfer Learning\nWith the extensive applications of machine learning models, automatic hyperparameter optimization (HPO) has become increasingly important. Motivated by the tuning behaviors of human experts, it is intuitive to leverage auxiliary knowledge from past HPO tasks to accelerate the current HPO task. In this paper, we propose TransBO, a novel two-phase transfer learning framework for HPO, which can deal with the complementary nature among source tasks and dynamics during knowledge aggregation issues simultaneously. This framework extracts and aggregates source and target knowledge jointly and adaptiv\n\n## [arxiv:2410.22854] Hyperparameter Optimization in Machine Learning\nHyperparameters are configuration variables controlling the behavior of machine learning algorithms. They are ubiquitous in machine learning and artificial intelligence and the choice of their values determines the effectiveness of systems based on these technologies. Manual hyperparameter search is often time-consuming and becomes infeasible when the number of hyperparameters is large. Automating the search is an important step towards advancing, streamlining, and systematizing machine learning, freeing researchers and practitioners alike from the burden of finding a good set of hyperparamete"
+      }
+    ],
+    "structuredContent": {
+      "results": [
+        {
+          "paperId": "7434396456890664988",
+          "primaryId": "arxiv:2109.09831",
+          "ids": {
+            "arxiv": [
+              "2109.09831"
+            ]
+          },
+          "title": "SMAC3: A Versatile Bayesian Optimization Package for Hyperparameter Optimization",
+          "abstract": "Algorithm parameters, in particular hyperparameters of machine learning algorithms, can substantially impact their performance. To support users in determining well-performing hyperparameter configurations for their algorithms, datasets and applications at hand, SMAC3 offers a robust and flexible framework for Bayesian Optimization, which can improve performance within a few evaluations. It offers several facades and pre-sets for typical use cases, such as optimizing hyperparameters, solving low dimensional continuous (artificial) global optimization problems and configuring algorithms to perform well across multiple problem instances. The SMAC3 package is available under a permissive BSD-license at https://github.com/automl/SMAC3.",
+          "score": 0.9478464369215823
+        },
+        {
+          "paperId": "8001211490379097502",
+          "primaryId": "arxiv:2206.02663",
+          "ids": {
+            "arxiv": [
+              "2206.02663"
+            ]
+          },
+          "title": "TransBO: Hyperparameter Optimization via Two-Phase Transfer Learning",
+          "abstract": "With the extensive applications of machine learning models, automatic hyperparameter optimization (HPO) has become increasingly important. Motivated by the tuning behaviors of human experts, it is intuitive to leverage auxiliary knowledge from past HPO tasks to accelerate the current HPO task. In this paper, we propose TransBO, a novel two-phase transfer learning framework for HPO, which can deal with the complementary nature among source tasks and dynamics during knowledge aggregation issues simultaneously. This framework extracts and aggregates source and target knowledge jointly and adaptively, where the weights can be learned in a principled manner. The extensive experiments, including static and dynamic transfer learning settings and neural architecture search, demonstrate the superiority of TransBO over the state-of-the-arts.",
+          "score": 0.8768032551885854
+        },
+        {
+          "paperId": "6624625275227353413",
+          "primaryId": "arxiv:2410.22854",
+          "ids": {
+            "arxiv": [
+              "2410.22854"
+            ]
+          },
+          "title": "Hyperparameter Optimization in Machine Learning",
+          "abstract": "Hyperparameters are configuration variables controlling the behavior of machine learning algorithms. They are ubiquitous in machine learning and artificial intelligence and the choice of their values determines the effectiveness of systems based on these technologies. Manual hyperparameter search is often time-consuming and becomes infeasible when the number of hyperparameters is large. Automating the search is an important step towards advancing, streamlining, and systematizing machine learning, freeing researchers and practitioners alike from the burden of finding a good set of hyperparameters by trial and error. In this survey, we present a unified treatment of hyperparameter optimization, providing the reader with examples, insights into the state-of-the-art, and numerous links to further reading. We cover the main families of techniques to automate hyperparameter search, often referred to as hyperparameter optimization or tuning, including random and quasi-random search, bandit-, model-, population-, and gradient-based approaches. We further discuss extensions, including online, constrained, and multi-objective formulations, touch upon connections with other fields, such as meta-learning and neural architecture search, and conclude with open questions and future research directions.",
+          "score": 0.8503692405366762
+        }
+      ]
+    }
+  }
+}

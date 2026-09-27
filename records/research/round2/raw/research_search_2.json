@@ -1,0 +1,107 @@
+{
+  "retrieved_at": "2026-09-27T22:54:17+09:00",
+  "provider": "configured firecrawl MCP (mcp__firecrawl)",
+  "key": "research_search_2",
+  "response": {
+    "content": [
+      {
+        "type": "text",
+        "text": "## [arxiv:2605.28273] Global Policy-Space Response Oracles for Two-Player Zero-Sum Games\nThe Policy-Space Response Oracles (PSRO) framework scales equilibrium computation to large zero-sum games by iteratively expanding a restricted strategy set using deep reinforcement learning (DRL). A central challenge is to construct, under limited computational budgets, a small strategy population whose induced game well approximates the full game. Existing PSRO variants typically expand the population using best responses to meta-strategies computed from restricted-game payoffs, which can lead to inefficient expansions that provide limited global improvement. We propose to guide population e\n\n## [arxiv:2506.02849] Learned Controllers for Agile Quadrotors in Pursuit-Evasion Games\nIn this letter we study 1v1 quadrotor pursuit-evasion, where a pursuer and an evader are trained via reinforcement learning (RL) by competing against each other. Such adversarial settings face well-known challenges: each agent's policy changes during training, creating a non-stationary environment; agents might overfit to the current opponent and forget earlier strategies (catastrophic forgetting); and the competitive dynamics can cause strategy cycling or policy collapse. To address these issues, we propose Asynchronous Multi-Stage Population-Based training with Hedge sampling (AMSPBH), a met\n\n## [arxiv:2207.06541] Self-Play PSRO: Toward Optimal Populations in Two-Player Zero-Sum Games\nIn competitive two-agent environments, deep reinforcement learning (RL) methods based on the Double Oracle (DO) algorithm, such as Policy Space Response Oracles (PSRO) and Anytime PSRO (APSRO), iteratively add RL best response policies to a population. Eventually, an optimal mixture of these population policies will approximate a Nash equilibrium. However, these methods might need to add all deterministic policies before converging. In this work, we introduce Self-Play PSRO (SP-PSRO), a method that adds an approximately optimal stochastic policy to the population in each iteration. Instead of \n\n## [arxiv:2410.22776] Conflux-PSRO: Effectively Leveraging Collective Advantages in Policy Space Response Oracles\nPolicy Space Response Oracle (PSRO) with policy population construction has been demonstrated as an effective method for approximating Nash Equilibrium (NE) in zero-sum games. Existing studies have attempted to improve diversity in policy space, primarily by incorporating diversity regularization into the Best Response (BR). However, these methods cause the BR to deviate from maximizing rewards, easily resulting in a population that favors diversity over performance, even when diversity is not always necessary. Consequently, exploitability is difficult to reduce until policies are fully explor\n\n## [arxiv:2505.11100] Bidirectional Distillation: A Mixed-Play Framework for Multi-Agent Generalizable Behaviors\nPopulation-population generalization is a challenging problem in multi-agent reinforcement learning (MARL), particularly when agents encounter unseen co-players. However, existing self-play-based methods are constrained by the limitation of inside-space generalization. In this study, we propose Bidirectional Distillation (BiDist), a novel mixed-play framework, to overcome this limitation in MARL. BiDist leverages knowledge distillation in two alternating directions: forward distillation, which emulates the historical policies' space and creates an implicit self-play, and reverse distillation, \n\n## [pmid:40193259] Distributed Policy Space Response Oracles in Two-Player Zero-Sum Games.\nPolicy space response oracle (PSRO) is a population-based algorithm that can be used to solve two-player zero-sum games. In addition, while deep reinforcement learning is highly effective in solving complex game environments, its integration with PSRO remains fragmented and…\n\n## [pmid:41240599] A unified and efficient training framework for open-ended non-transitive games.\nSelf-play (SP) and Policy-Space Response Oracles (PSRO) are two fundamental training frameworks for solving Nash equilibrium (NE) in games. SP only performs effectively in transitive games, aiming to progressively derive a consistent winning strategy with an efficient warm…"
+      }
+    ],
+    "structuredContent": {
+      "results": [
+        {
+          "paperId": "6724136141514498162",
+          "primaryId": "arxiv:2605.28273",
+          "ids": {
+            "arxiv": [
+              "2605.28273"
+            ]
+          },
+          "title": "Global Policy-Space Response Oracles for Two-Player Zero-Sum Games",
+          "abstract": "The Policy-Space Response Oracles (PSRO) framework scales equilibrium computation to large zero-sum games by iteratively expanding a restricted strategy set using deep reinforcement learning (DRL). A central challenge is to construct, under limited computational budgets, a small strategy population whose induced game well approximates the full game. Existing PSRO variants typically expand the population using best responses to meta-strategies computed from restricted-game payoffs, which can lead to inefficient expansions that provide limited global improvement. We propose to guide population expansion by directly evaluating the post-expansion population quality. Specifically, we adopt Population Exploitability (PE) to measure how well a restricted strategy set represents the full game, and introduce a two-phase exploration--selection framework that explicitly minimizes PE during expansion. We instantiate this framework as Global PSRO, a practical DRL-based algorithm that efficiently generates candidate responses and estimates PE via parameter-sharing conditional neural networks. Experiments across multiple two-player zero-sum games show that Global PSRO achieves lower exploitability and approximates Nash equilibria with significantly fewer policy iterations than prior PSRO methods.",
+          "score": 0.9426758241011313
+        },
+        {
+          "paperId": "704347670693575161",
+          "primaryId": "arxiv:2506.02849",
+          "ids": {
+            "arxiv": [
+              "2506.02849"
+            ]
+          },
+          "title": "Learned Controllers for Agile Quadrotors in Pursuit-Evasion Games",
+          "abstract": "In this letter we study 1v1 quadrotor pursuit-evasion, where a pursuer and an evader are trained via reinforcement learning (RL) by competing against each other. Such adversarial settings face well-known challenges: each agent's policy changes during training, creating a non-stationary environment; agents might overfit to the current opponent and forget earlier strategies (catastrophic forgetting); and the competitive dynamics can cause strategy cycling or policy collapse. To address these issues, we propose Asynchronous Multi-Stage Population-Based training with Hedge sampling (AMSPBH), a method based on Policy-Space Response Oracles (PSRO) and adapted to quadrotor RL control. PSRO maintains a population of previously trained policies and trains new approximate best responses against mixtures of that population instead of against a single opponent. In AMSPBH, each generation trains one agent with Proximal Policy Optimization (PPO) against frozen opponent policies, while a Hedge sampler assigns higher probability to opponents that are currently difficult to beat. We show that: (i) AMSPBH discovers new strategies while retaining competence against older opponents, reaching a regime where additional best-response training gives limited improvement; (ii) compared to training against only the latest opponent, population-based training generalizes better across diverse and unseen strategies; and (iii) the learned population contains distinct pursuit and evasion behaviors, providing useful strategic diversity for finding weaknesses and improving controller robustness. We validate the trained policies with hardware experiments on Crazyflie brushless quadrotors, showing zero-shot sim-to-real transfer of agile, reactive pursuit-evasion behavior against both handcrafted and learned adversaries, with physical flights reaching up to 4.87 m/s.",
+          "score": 0.9377602233752947
+        },
+        {
+          "paperId": "774407002076415892",
+          "primaryId": "arxiv:2207.06541",
+          "ids": {
+            "arxiv": [
+              "2207.06541"
+            ]
+          },
+          "title": "Self-Play PSRO: Toward Optimal Populations in Two-Player Zero-Sum Games",
+          "abstract": "In competitive two-agent environments, deep reinforcement learning (RL) methods based on the Double Oracle (DO) algorithm, such as Policy Space Response Oracles (PSRO) and Anytime PSRO (APSRO), iteratively add RL best response policies to a population. Eventually, an optimal mixture of these population policies will approximate a Nash equilibrium. However, these methods might need to add all deterministic policies before converging. In this work, we introduce Self-Play PSRO (SP-PSRO), a method that adds an approximately optimal stochastic policy to the population in each iteration. Instead of adding only deterministic best responses to the opponent's least exploitable population mixture, SP-PSRO also learns an approximately optimal stochastic policy and adds it to the population as well. As a result, SP-PSRO empirically tends to converge much faster than APSRO and in many games converges in just a few iterations.",
+          "score": 0.9308615796566533
+        },
+        {
+          "paperId": "1045398710437787716",
+          "primaryId": "arxiv:2410.22776",
+          "ids": {
+            "arxiv": [
+              "2410.22776"
+            ]
+          },
+          "title": "Conflux-PSRO: Effectively Leveraging Collective Advantages in Policy Space Response Oracles",
+          "abstract": "Policy Space Response Oracle (PSRO) with policy population construction has been demonstrated as an effective method for approximating Nash Equilibrium (NE) in zero-sum games. Existing studies have attempted to improve diversity in policy space, primarily by incorporating diversity regularization into the Best Response (BR). However, these methods cause the BR to deviate from maximizing rewards, easily resulting in a population that favors diversity over performance, even when diversity is not always necessary. Consequently, exploitability is difficult to reduce until policies are fully explored, especially in complex games. In this paper, we propose Conflux-PSRO, which fully exploits the diversity of the population by adaptively selecting and training policies at state-level. Specifically, Conflux-PSRO identifies useful policies from the existing population and employs a routing policy to select the most appropriate policies at each decision point, while simultaneously training them to enhance their effectiveness. Compared to the single-policy BR of traditional PSRO and its diversity-improved variants, the BR generated by Conflux-PSRO not only leverages the specialized expertise of diverse policies but also synergistically enhances overall performance. Our experiments on various environments demonstrate that Conflux-PSRO significantly improves the utility of BRs and reduces exploitability compared to existing methods.",
+          "score": 0.9275735146384823
+        },
+        {
+          "paperId": "1516200805749365840",
+          "primaryId": "arxiv:2505.11100",
+          "ids": {
+            "arxiv": [
+              "2505.11100"
+            ]
+          },
+          "title": "Bidirectional Distillation: A Mixed-Play Framework for Multi-Agent Generalizable Behaviors",
+          "abstract": "Population-population generalization is a challenging problem in multi-agent reinforcement learning (MARL), particularly when agents encounter unseen co-players. However, existing self-play-based methods are constrained by the limitation of inside-space generalization. In this study, we propose Bidirectional Distillation (BiDist), a novel mixed-play framework, to overcome this limitation in MARL. BiDist leverages knowledge distillation in two alternating directions: forward distillation, which emulates the historical policies' space and creates an implicit self-play, and reverse distillation, which systematically drives agents towards novel distributions outside the known policy space in a non-self-play manner. In addition, BiDist operates as a concise and efficient solution without the need for the complex and costly storage of past policies. We provide both theoretical analysis and empirical evidence to support BiDist's effectiveness. Our results highlight its remarkable generalization ability across a variety of cooperative, competitive, and social dilemma tasks, and reveal that BiDist significantly diversifies the policy distribution space. We also present comprehensive ablation studies to reinforce BiDist's effectiveness and key success factors. Source codes are available in the supplementary material.",
+          "score": 0.9232608643662287
+        },
+        {
+          "paperId": "590362123037499918",
+          "primaryId": "pmid:40193259",
+          "ids": {
+            "doi": [
+              "10.1109/TNNLS.2025.3550827"
+            ],
+            "pmid": [
+              "40193259"
+            ]
+          },
+          "title": "Distributed Policy Space Response Oracles in Two-Player Zero-Sum Games.",
+          "abstract": "Policy space response oracle (PSRO) is a population-based algorithm that can be used to solve two-player zero-sum games. In addition, while deep reinforcement learning is highly effective in solving complex game environments, its integration with PSRO remains fragmented and…",
+          "score": 0.9205614508160216
+        },
+        {
+          "paperId": "7637867077685679731",
+          "primaryId": "pmid:41240599",
+          "ids": {
+            "doi": [
+              "10.1016/j.neunet.2025.108248"
+            ],
+            "pmid": [
+              "41240599"
+            ]
+          },
+          "title": "A unified and efficient training framework for open-ended non-transitive games.",
+          "abstract": "Self-play (SP) and Policy-Space Response Oracles (PSRO) are two fundamental training frameworks for solving Nash equilibrium (NE) in games. SP only performs effectively in transitive games, aiming to progressively derive a consistent winning strategy with an efficient warm…",
+          "score": 0.9205614508160216
+        }
+      ]
+    }
+  }
+}

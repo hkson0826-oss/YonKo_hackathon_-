@@ -1,0 +1,310 @@
+{
+  "started_at_utc": "2026-09-27T13:58:51.112616+00:00",
+  "status": "complete",
+  "purpose": "CPU runner throughput smoke profile, not independent strategy evaluation",
+  "script_sha256": "a018e8281002197834f8e809fc20e1a55ec8904bb6baf145600d1802ce67c212",
+  "source_commit": "a3c810bfa58472d89396928e0fb6e34e945f20e9",
+  "candidate_source_sha256": {
+    "generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "main.cpp": "53bb019625fabbbd3aa8a5b65af971912bb4cbdad8a9fde3009fadad5ba6d4c5",
+    "protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8"
+  },
+  "opponent_zip_sha256": "571397e3c84998b27f8ce0468bc49333663c69b0b84162ad8dfc27e7a47f2365",
+  "benchmark_script_sha256": "3f9cc30cfff4c79440b01fccd2175cd9c536f189834a1af86a4c9b01c8de9996",
+  "engine_source_sha256": {
+    "yk-development-tools/engine/__init__.py": "5b9c498fcef25d4900bfe993415964ef9b803c37309acda004e6b553130ace86",
+    "yk-development-tools/engine/commands.py": "db00820b9f77cc1b6e71eaa37bb4eb0b4c31cccda7f4b388269a13db04a76798",
+    "yk-development-tools/engine/config.py": "964f20b9f914bbc0bc81c84d7fbee3b2ecbed4b54814ab51cbd20d54ef6f20b9",
+    "yk-development-tools/engine/pipeline.py": "f0bd96c484c8628b6a070b188adcc1a077e9f90017cc15f11ce366d974490fa6",
+    "yk-development-tools/engine/state.py": "dd227e26bcb36a5c412bbf7db19f4418a59627e8ea7e55a90dac5184dcc0737f"
+  },
+  "runner_source_sha256": {
+    "yk-development-tools/runner/__init__.py": "7f675ede62ac8590c279dd4f2f64f8aa526f8d41e60dcfd7dba930612db4fbe2",
+    "yk-development-tools/runner/__main__.py": "307299fda7b77d22c64cb51430ec75e5f59d78e9c948786afb3b2544fe45e4b7",
+    "yk-development-tools/runner/bots.py": "c09312d62eaa1a2a5af5576b24922a9fd209365e0f3e655894934585858aba43",
+    "yk-development-tools/runner/cli.py": "90b102ca9513f710deed37c68adbca6026f43b641a5c00758d2868ecd1a90b81",
+    "yk-development-tools/runner/match.py": "122d3fc0c31ade0b808795d15842949da8c32a26c79c779841e7364aa2f51578",
+    "yk-development-tools/runner/protocol.py": "5917df4bec20b963586b1ffeb7a45b9959f51e3437a227ee7e8d932b172a7d65",
+    "yk-development-tools/runner/replay.py": "fc2bf7405c405ac30da4d7c122b24e3c3275544bfbd1ec22779bbb217df6e8a6",
+    "yk-development-tools/runner/validation.py": "7c00c3eca69a8f115e51b3c47a570c1015795b41d16e9987b5679f84f4184345"
+  },
+  "balance_sha256": "a46886d91862244b6daf4990dcdf2371302433e7120c21dc2a29ecf95696b35f",
+  "limits_sha256": "182499583a1da4f5add6c25fe900ad59488c230163b8064c6697014a9b9fec45",
+  "host": {
+    "platform": "Linux-7.2.3-arch1-3-x86_64-with-glibc2.44",
+    "python": "3.14.7 (main, Aug 10 2026, 07:46:56) [GCC 16.1.1 20260728]",
+    "cpu_count": 20,
+    "cpu_affinity": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "initial_load_average": [
+      2.5546875,
+      2.673828125,
+      2.18798828125
+    ],
+    "compiler": "g++ (GCC) 16.2.1 20260810"
+  },
+  "maps": [
+    4000,
+    4001
+  ],
+  "teams": [
+    "Y",
+    "K"
+  ],
+  "workers_order": [
+    1,
+    2,
+    4
+  ],
+  "batches": [
+    {
+      "workers": 1,
+      "command": [
+        "/usr/bin/python3",
+        "/home/dlwltkd/YonKo_hackathon_-/tests/benchmark.py",
+        "--candidate",
+        "/tmp/yk-throughput-e3chc7ua/candidate_bot",
+        "--opponent",
+        "/usr/bin/python3 /tmp/yk-throughput-e3chc7ua/opponent/main.py",
+        "--start",
+        "4000",
+        "--seeds",
+        "2",
+        "--workers",
+        "1",
+        "--output",
+        "/home/dlwltkd/YonKo_hackathon_-/records/compute/round2/throughput-1.json",
+        "--save-losses",
+        "/home/dlwltkd/YonKo_hackathon_-/records/compute/round2/replays-workers-1"
+      ],
+      "started_at_utc": "2026-09-27T13:58:57.180207+00:00",
+      "load_average_before": [
+        2.51025390625,
+        2.66259765625,
+        2.1865234375
+      ],
+      "finished_at_utc": "2026-09-27T13:59:11.987740+00:00",
+      "exit_code": 0,
+      "wall_seconds": 14.807452177999949,
+      "children_cpu_seconds": 18.019361999999997,
+      "average_cpu_cores": 1.2169117133312184,
+      "load_average_after": [
+        2.619140625,
+        2.68017578125,
+        2.19970703125
+      ],
+      "result_path": "records/compute/round2/throughput-1.json",
+      "log_path": "records/compute/round2/throughput-1.log",
+      "summary": {
+        "matches": 4,
+        "wins": 3,
+        "draws": 0,
+        "losses": 1,
+        "forfeits": 0,
+        "max_turn_ms": 43.50704099988434,
+        "opponent_max_turn_ms": 59.75168700024369,
+        "mean_score_margin": 4.0,
+        "full_length_matches": 4,
+        "by_team": {
+          "Y": {
+            "wins": 2,
+            "draws": 0,
+            "matches": 2
+          },
+          "K": {
+            "wins": 1,
+            "draws": 0,
+            "matches": 2
+          }
+        }
+      },
+      "games_per_second": 0.2701342507756309,
+      "turns_per_second": 43.22148012410094,
+      "seconds_per_game_amortized": 3.701863044499987,
+      "speedup_vs_first_batch": 1.0
+    },
+    {
+      "workers": 2,
+      "command": [
+        "/usr/bin/python3",
+        "/home/dlwltkd/YonKo_hackathon_-/tests/benchmark.py",
+        "--candidate",
+        "/tmp/yk-throughput-e3chc7ua/candidate_bot",
+        "--opponent",
+        "/usr/bin/python3 /tmp/yk-throughput-e3chc7ua/opponent/main.py",
+        "--start",
+        "4000",
+        "--seeds",
+        "2",
+        "--workers",
+        "2",
+        "--output",
+        "/home/dlwltkd/YonKo_hackathon_-/records/compute/round2/throughput-2.json",
+        "--save-losses",
+        "/home/dlwltkd/YonKo_hackathon_-/records/compute/round2/replays-workers-2"
+      ],
+      "started_at_utc": "2026-09-27T13:59:11.988811+00:00",
+      "load_average_before": [
+        2.619140625,
+        2.68017578125,
+        2.19970703125
+      ],
+      "finished_at_utc": "2026-09-27T13:59:20.837895+00:00",
+      "exit_code": 0,
+      "wall_seconds": 8.849021282999729,
+      "children_cpu_seconds": 20.934380000000008,
+      "average_cpu_cores": 2.3657282913555684,
+      "load_average_after": [
+        2.59765625,
+        2.673828125,
+        2.20263671875
+      ],
+      "result_path": "records/compute/round2/throughput-2.json",
+      "log_path": "records/compute/round2/throughput-2.log",
+      "summary": {
+        "matches": 4,
+        "wins": 3,
+        "draws": 0,
+        "losses": 1,
+        "forfeits": 0,
+        "max_turn_ms": 50.23675100028413,
+        "opponent_max_turn_ms": 60.842833000151586,
+        "mean_score_margin": 4.0,
+        "full_length_matches": 4,
+        "by_team": {
+          "Y": {
+            "wins": 2,
+            "draws": 0,
+            "matches": 2
+          },
+          "K": {
+            "wins": 1,
+            "draws": 0,
+            "matches": 2
+          }
+        }
+      },
+      "games_per_second": 0.4520273906092404,
+      "turns_per_second": 72.32438249747847,
+      "seconds_per_game_amortized": 2.2122553207499323,
+      "speedup_vs_first_batch": 1.6733434923981074
+    },
+    {
+      "workers": 4,
+      "command": [
+        "/usr/bin/python3",
+        "/home/dlwltkd/YonKo_hackathon_-/tests/benchmark.py",
+        "--candidate",
+        "/tmp/yk-throughput-e3chc7ua/candidate_bot",
+        "--opponent",
+        "/usr/bin/python3 /tmp/yk-throughput-e3chc7ua/opponent/main.py",
+        "--start",
+        "4000",
+        "--seeds",
+        "2",
+        "--workers",
+        "4",
+        "--output",
+        "/home/dlwltkd/YonKo_hackathon_-/records/compute/round2/throughput-4.json",
+        "--save-losses",
+        "/home/dlwltkd/YonKo_hackathon_-/records/compute/round2/replays-workers-4"
+      ],
+      "started_at_utc": "2026-09-27T13:59:20.838987+00:00",
+      "load_average_before": [
+        2.59765625,
+        2.673828125,
+        2.20263671875
+      ],
+      "finished_at_utc": "2026-09-27T13:59:26.039484+00:00",
+      "exit_code": 0,
+      "wall_seconds": 5.200445058999776,
+      "children_cpu_seconds": 23.277805000000004,
+      "average_cpu_cores": 4.476117858358285,
+      "load_average_after": [
+        3.1103515625,
+        2.779296875,
+        2.2392578125
+      ],
+      "result_path": "records/compute/round2/throughput-4.json",
+      "log_path": "records/compute/round2/throughput-4.log",
+      "summary": {
+        "matches": 4,
+        "wins": 3,
+        "draws": 0,
+        "losses": 1,
+        "forfeits": 0,
+        "max_turn_ms": 53.53161400034878,
+        "opponent_max_turn_ms": 79.16073300020798,
+        "mean_score_margin": 4.0,
+        "full_length_matches": 4,
+        "by_team": {
+          "Y": {
+            "wins": 2,
+            "draws": 0,
+            "matches": 2
+          },
+          "K": {
+            "wins": 1,
+            "draws": 0,
+            "matches": 2
+          }
+        }
+      },
+      "games_per_second": 0.7691649377350286,
+      "turns_per_second": 123.06639003760458,
+      "seconds_per_game_amortized": 1.300111264749944,
+      "speedup_vs_first_batch": 2.847343258126436
+    }
+  ],
+  "replay_retention": "all loss/draw replays per batch; repeated same maps; no independent samples added",
+  "limitations": [
+    "One batch per worker count, fixed order and only two maps by default",
+    "Existing ThreadPoolExecutor runner and Python engine retain GIL contention",
+    "Bot subprocesses can run in parallel; CPU scheduling also affects response latency",
+    "No CPU pinning or isolation; shared host background load is recorded",
+    "GPU not used; this profile does not estimate GPU training performance"
+  ],
+  "opponent_source_sha256": {
+    "_generated.py": "8cf113fe574425e1f761911e59fe43394aad147946b07ed4a837e1da6b25fcfc",
+    "campus_bot.py": "2568119d19d9def58dd824b06eac332f018f23c0dee24ba1ccddf3169a151e7b",
+    "main.py": "a114cc5a286ea21cc09ba11a018c65bf38e068c7f79d7a8b5420a05ff936b666",
+    "protocol.py": "67a5d27ced038de39d7cd3b069bf01786bf4cc9e6c1d39269d1f7e67b185c194",
+    "submission.json": "ff5431b97ab8dc3d045d053fe1e3148eca20bfe900ec66cd9e7f7f5e542f3de5"
+  },
+  "build": {
+    "command": [
+      "g++",
+      "-std=c++20",
+      "-O2",
+      "/tmp/yk-throughput-e3chc7ua/candidate/main.cpp",
+      "-o",
+      "/tmp/yk-throughput-e3chc7ua/candidate_bot"
+    ],
+    "stdout": "",
+    "stderr": "",
+    "executable_sha256": "0e3f9b2691428173012294354bc0cbee316f8f8af19779f1e5c2a0511c4d0615"
+  },
+  "same_game_results_across_workers": true,
+  "finished_at_utc": "2026-09-27T13:59:26.042775+00:00",
+  "temporary_bot_snapshot_removed": true
+}

@@ -1,0 +1,53 @@
+{
+  "retrieved_at": "2026-09-27T22:54:17+09:00",
+  "provider": "configured firecrawl MCP (mcp__firecrawl)",
+  "key": "search_cem",
+  "response": {
+    "content": [
+      {
+        "type": "text",
+        "text": "## [arxiv:2009.09043] Cross-Entropy Method Variants for Optimization\nThe cross-entropy (CE) method is a popular stochastic method for optimization due to its simplicity and effectiveness. Designed for rare-event simulations where the probability of a target event occurring is relatively small, the CE-method relies on enough objective function calls to accurately estimate the optimal parameters of the underlying distribution. Certain objective functions may be computationally expensive to evaluate, and the CE-method could potentially get stuck in local minima. This is compounded with the need to have an initial covariance wide enough to cover the design space of\n\n## [arxiv:math/0609461] Cross-Entropy method: convergence issues for extended implementation\nThe cross-entropy method (CE) developed by R. Rubinstein is an elegant practical principle for simulating rare events. The method approximates the probability of the rare event by means of a family of probabilistic models. The method has been extended to optimization, by considering an optimal event as a rare event. CE works rather good when dealing with deterministic function optimization. Now, it appears that two conditions are needed for a good convergence of the method. First, it is necessary to have a family of models sufficiently flexible for discriminating the optimal events. Indirectly\n\n## [arxiv:1806.01916] Selecting Reduced Models in the Cross-Entropy Method\nThis paper deals with the estimation of rare event probabilities using importance sampling (IS), where an optimal proposal distribution is computed with the cross-entropy (CE) method. Although, IS optimized with the CE method leads to an efficient reduction of the estimator variance, this approach remains unaffordable for problems where the repeated evaluation of the score function represents a too intensive computational effort. This is often the case for score functions related to the solution of a partial differential equation (PDE) with random inputs. This work proposes to alleviate comput"
+      }
+    ],
+    "structuredContent": {
+      "results": [
+        {
+          "paperId": "365472062270769198",
+          "primaryId": "arxiv:2009.09043",
+          "ids": {
+            "arxiv": [
+              "2009.09043"
+            ]
+          },
+          "title": "Cross-Entropy Method Variants for Optimization",
+          "abstract": "The cross-entropy (CE) method is a popular stochastic method for optimization due to its simplicity and effectiveness. Designed for rare-event simulations where the probability of a target event occurring is relatively small, the CE-method relies on enough objective function calls to accurately estimate the optimal parameters of the underlying distribution. Certain objective functions may be computationally expensive to evaluate, and the CE-method could potentially get stuck in local minima. This is compounded with the need to have an initial covariance wide enough to cover the design space of interest. We introduce novel variants of the CE-method to address these concerns. To mitigate expensive function calls, during optimization we use every sample to build a surrogate model to approximate the objective function. The surrogate model augments the belief of the objective function with less expensive evaluations. We use a Gaussian process for our surrogate model to incorporate uncertainty in the predictions which is especially helpful when dealing with sparse data. To address local minima convergence, we use Gaussian mixture models to encourage exploration of the design space. We experiment with evaluation scheduling techniques to reallocate true objective function calls earlier in the optimization when the covariance is the largest. To test our approach, we created a parameterized test objective function with many local minima and a single global minimum. Our test function can be adjusted to control the spread and distinction of the minima. Experiments were run to stress the cross-entropy method variants and results indicate that the surrogate model-based approach reduces local minima convergence using the same number of function evaluations.",
+          "score": 0.9067852769181763
+        },
+        {
+          "paperId": "506430336137610974",
+          "primaryId": "arxiv:math/0609461",
+          "ids": {
+            "arxiv": [
+              "math/0609461"
+            ]
+          },
+          "title": "Cross-Entropy method: convergence issues for extended implementation",
+          "abstract": "The cross-entropy method (CE) developed by R. Rubinstein is an elegant practical principle for simulating rare events. The method approximates the probability of the rare event by means of a family of probabilistic models. The method has been extended to optimization, by considering an optimal event as a rare event. CE works rather good when dealing with deterministic function optimization. Now, it appears that two conditions are needed for a good convergence of the method. First, it is necessary to have a family of models sufficiently flexible for discriminating the optimal events. Indirectly, it appears also that the function to be optimized should be deterministic. The purpose of this paper is to consider the case of partially discriminating model family, and of stochastic functions. It will be shown on simple examples that the CE could fail when relaxing these hypotheses. Alternative improvements of the CE method are investigated and compared on random examples in order to handle this issue.",
+          "score": 0.8611650064526928
+        },
+        {
+          "paperId": "7557743101158175757",
+          "primaryId": "arxiv:1806.01916",
+          "ids": {
+            "arxiv": [
+              "1806.01916"
+            ]
+          },
+          "title": "Selecting Reduced Models in the Cross-Entropy Method",
+          "abstract": "This paper deals with the estimation of rare event probabilities using importance sampling (IS), where an optimal proposal distribution is computed with the cross-entropy (CE) method. Although, IS optimized with the CE method leads to an efficient reduction of the estimator variance, this approach remains unaffordable for problems where the repeated evaluation of the score function represents a too intensive computational effort. This is often the case for score functions related to the solution of a partial differential equation (PDE) with random inputs. This work proposes to alleviate computation by the parsimonious use of a hierarchy of score function approximations in the CE optimization process. The score function approximation is obtained by selecting the surrogate of lowest dimensionality, whose accuracy guarantees to pass the current CE optimization stage. The selection relies on certified upper bounds on the error norm. An asymptotic analysis provides some theoretical guarantees on the efficiency and convergence of the proposed algorithm. Numerical results demonstrate the gain brought by the method in the context of pollution alerts and a system modeled by a PDE.",
+          "score": 0.8166404600355432
+        }
+      ]
+    }
+  }
+}

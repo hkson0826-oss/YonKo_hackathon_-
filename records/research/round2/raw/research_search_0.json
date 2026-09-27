@@ -1,0 +1,101 @@
+{
+  "retrieved_at": "2026-09-27T22:54:17+09:00",
+  "provider": "configured firecrawl MCP (mcp__firecrawl)",
+  "key": "research_search_0",
+  "response": {
+    "content": [
+      {
+        "type": "text",
+        "text": "## [arxiv:1710.04805] Combinatorial Multi-armed Bandits for Real-Time Strategy Games\nGames with large branching factors pose a significant challenge for game tree search algorithms. In this paper, we address this problem with a sampling strategy for Monte Carlo Tree Search (MCTS) algorithms called na\"ive sampling, based on a variant of the Multi-armed Bandit problem called Combinatorial Multi-armed Bandits (CMAB). We analyze the theoretical properties of several variants of na\"ive sampling, and empirically compare it against the other existing strategies in the literature for CMABs. We then evaluate these strategies in the context of real-time strategy (RTS) games, a genre of \n\n## [arxiv:2104.10429] Portfolio Search and Optimization for General Strategy Game-Playing\nPortfolio methods represent a simple but efficient type of action abstraction which has shown to improve the performance of search-based agents in a range of strategy games. We first review existing portfolio techniques and propose a new algorithm for optimization and action-selection based on the Rolling Horizon Evolutionary Algorithm. Moreover, a series of variants are developed to solve problems in different aspects. We further analyze the performance of discussed agents in a general strategy game-playing task. For this purpose, we run experiments on three different game-modes of the Strate\n\n## [arxiv:1711.08101] Asymmetric Action Abstractions for Multi-Unit Control in Adversarial Real-Time Games\nAction abstractions restrict the number of legal actions available during search in multi-unit real-time adversarial games, thus allowing algorithms to focus their search on a set of promising actions. Optimal strategies derived from un-abstracted spaces are guaranteed to be no worse than optimal strategies derived from action-abstracted spaces. In practice, however, due to real-time constraints and the state space size, one is only able to derive good strategies in un-abstracted spaces in small-scale games. In this paper we introduce search algorithms that use an action abstraction scheme we \n\n## [arxiv:1709.03480] Combining Strategic Learning and Tactical Search in Real-Time Strategy Games\nA commonly used technique for managing AI complexity in real-time strategy (RTS) games is to use action and/or state abstractions. High-level abstractions can often lead to good strategic decision making, but tactical decision quality may suffer due to lost details. A competing method is to sample the search space which often leads to good tactical performance in simple scenarios, but poor high-level planning. We propose to use a deep convolutional neural network (CNN) to select among a limited set of abstract action choices, and to utilize the remaining computation time for game tree search t\n\n## [arxiv:2012.12186] Learning to Play Imperfect-Information Games by Imitating an Oracle Planner\nWe consider learning to play multiplayer imperfect-information games with simultaneous moves and large state-action spaces. Previous attempts to tackle such challenging games have largely focused on model-free learning methods, often requiring hundreds of years of experience to produce competitive agents. Our approach is based on model-based planning. We tackle the problem of partial observability by first building an (oracle) planner that has access to the full state of the environment and then distilling the knowledge of the oracle to a (follower) agent which is trained to play the imperfect\n\n## [arxiv:2307.04893] Choosing Well Your Opponents: How to Guide the Synthesis of Programmatic Strategies\nThis paper introduces Local Learner (2L), an algorithm for providing a set of reference strategies to guide the search for programmatic strategies in two-player zero-sum games. Previous learning algorithms, such as Iterated Best Response (IBR), Fictitious Play (FP), and Double-Oracle (DO), can be computationally expensive or miss important information for guiding search algorithms. 2L actively selects a set of reference strategies to improve the search signal. We empirically demonstrate the advantages of our approach while guiding a local search algorithm for synthesizing strategies in three g\n\n## [arxiv:1809.07193] TStarBots: Defeating the Cheating Level Builtin AI in StarCraft II in the Full Game\nStarcraft II (SC2) is widely considered as the most challenging Real Time Strategy (RTS) game. The underlying challenges include a large observation space, a huge (continuous and infinite) action space, partial observations, simultaneous move for all players, and long horizon delayed rewards for local decisions. To push the frontier of AI research, Deepmind and Blizzard jointly developed the StarCraft II Learning Environment (SC2LE) as a testbench of complex decision making systems. SC2LE provides a few mini games such as MoveToBeacon, CollectMineralShards, and DefeatRoaches, where some AI age"
+      }
+    ],
+    "structuredContent": {
+      "results": [
+        {
+          "paperId": "6757867545487707397",
+          "primaryId": "arxiv:1710.04805",
+          "ids": {
+            "arxiv": [
+              "1710.04805"
+            ]
+          },
+          "title": "Combinatorial Multi-armed Bandits for Real-Time Strategy Games",
+          "abstract": "Games with large branching factors pose a significant challenge for game tree search algorithms. In this paper, we address this problem with a sampling strategy for Monte Carlo Tree Search (MCTS) algorithms called na\"ive sampling, based on a variant of the Multi-armed Bandit problem called Combinatorial Multi-armed Bandits (CMAB). We analyze the theoretical properties of several variants of na\"ive sampling, and empirically compare it against the other existing strategies in the literature for CMABs. We then evaluate these strategies in the context of real-time strategy (RTS) games, a genre of computer games characterized by their very large branching factors. Our results show that as the branching factor grows, na\"ive sampling outperforms the other sampling strategies.",
+          "score": 0.8726949619246283
+        },
+        {
+          "paperId": "503667961033784920",
+          "primaryId": "arxiv:2104.10429",
+          "ids": {
+            "arxiv": [
+              "2104.10429"
+            ]
+          },
+          "title": "Portfolio Search and Optimization for General Strategy Game-Playing",
+          "abstract": "Portfolio methods represent a simple but efficient type of action abstraction which has shown to improve the performance of search-based agents in a range of strategy games. We first review existing portfolio techniques and propose a new algorithm for optimization and action-selection based on the Rolling Horizon Evolutionary Algorithm. Moreover, a series of variants are developed to solve problems in different aspects. We further analyze the performance of discussed agents in a general strategy game-playing task. For this purpose, we run experiments on three different game-modes of the Stratega framework. For the optimization of the agents' parameters and portfolio sets we study the use of the N-tuple Bandit Evolutionary Algorithm. The resulting portfolio sets suggest a high diversity in play-styles while being able to consistently beat the sample agents. An analysis of the agents' performance shows that the proposed algorithm generalizes well to all game-modes and is able to outperform other portfolio methods.",
+          "score": 0.8726949619246283
+        },
+        {
+          "paperId": "3186205406919693569",
+          "primaryId": "arxiv:1711.08101",
+          "ids": {
+            "arxiv": [
+              "1711.08101"
+            ]
+          },
+          "title": "Asymmetric Action Abstractions for Multi-Unit Control in Adversarial Real-Time Games",
+          "abstract": "Action abstractions restrict the number of legal actions available during search in multi-unit real-time adversarial games, thus allowing algorithms to focus their search on a set of promising actions. Optimal strategies derived from un-abstracted spaces are guaranteed to be no worse than optimal strategies derived from action-abstracted spaces. In practice, however, due to real-time constraints and the state space size, one is only able to derive good strategies in un-abstracted spaces in small-scale games. In this paper we introduce search algorithms that use an action abstraction scheme we call asymmetric abstraction. Asymmetric abstractions retain the un-abstracted spaces' theoretical advantage over regularly abstracted spaces while still allowing the search algorithms to derive effective strategies, even in large-scale games. Empirical results on combat scenarios that arise in a real-time strategy game show that our search algorithms are able to substantially outperform state-of-the-art approaches.",
+          "score": 0.8550783685121771
+        },
+        {
+          "paperId": "1456089919636105483",
+          "primaryId": "arxiv:1709.03480",
+          "ids": {
+            "arxiv": [
+              "1709.03480"
+            ]
+          },
+          "title": "Combining Strategic Learning and Tactical Search in Real-Time Strategy Games",
+          "abstract": "A commonly used technique for managing AI complexity in real-time strategy (RTS) games is to use action and/or state abstractions. High-level abstractions can often lead to good strategic decision making, but tactical decision quality may suffer due to lost details. A competing method is to sample the search space which often leads to good tactical performance in simple scenarios, but poor high-level planning. We propose to use a deep convolutional neural network (CNN) to select among a limited set of abstract action choices, and to utilize the remaining computation time for game tree search to improve low level tactics. The CNN is trained by supervised learning on game states labelled by Puppet Search, a strategic search algorithm that uses action abstractions. The network is then used to select a script --- an abstract action --- to produce low level actions for all units. Subsequently, the game tree search algorithm improves the tactical actions of a subset of units using a limited view of the game state only considering units close to opponent units. Experiments in the microRTS game show that the combined algorithm results in higher win-rates than either of its two independent components and other state-of-the-art microRTS agents. To the best of our knowledge, this is the first successful application of a convolutional network to play a full RTS game on standard game maps, as previous work has focused on sub-problems, such as combat, or on very small maps.",
+          "score": 0.8128673178375735
+        },
+        {
+          "paperId": "1488382333828087478",
+          "primaryId": "arxiv:2012.12186",
+          "ids": {
+            "arxiv": [
+              "2012.12186"
+            ]
+          },
+          "title": "Learning to Play Imperfect-Information Games by Imitating an Oracle Planner",
+          "abstract": "We consider learning to play multiplayer imperfect-information games with simultaneous moves and large state-action spaces. Previous attempts to tackle such challenging games have largely focused on model-free learning methods, often requiring hundreds of years of experience to produce competitive agents. Our approach is based on model-based planning. We tackle the problem of partial observability by first building an (oracle) planner that has access to the full state of the environment and then distilling the knowledge of the oracle to a (follower) agent which is trained to play the imperfect-information game by imitating the oracle's choices. We experimentally show that planning with naive Monte Carlo tree search does not perform very well in large combinatorial action spaces. We therefore propose planning with a fixed-depth tree search and decoupled Thompson sampling for action selection. We show that the planner is able to discover efficient playing strategies in the games of Clash Royale and Pommerman and the follower policy successfully learns to implement them by training on a few hundred battles.",
+          "score": 0.7837237376544267
+        },
+        {
+          "paperId": "6615402333528794645",
+          "primaryId": "arxiv:2307.04893",
+          "ids": {
+            "arxiv": [
+              "2307.04893"
+            ]
+          },
+          "title": "Choosing Well Your Opponents: How to Guide the Synthesis of Programmatic Strategies",
+          "abstract": "This paper introduces Local Learner (2L), an algorithm for providing a set of reference strategies to guide the search for programmatic strategies in two-player zero-sum games. Previous learning algorithms, such as Iterated Best Response (IBR), Fictitious Play (FP), and Double-Oracle (DO), can be computationally expensive or miss important information for guiding search algorithms. 2L actively selects a set of reference strategies to improve the search signal. We empirically demonstrate the advantages of our approach while guiding a local search algorithm for synthesizing strategies in three games, including MicroRTS, a challenging real-time strategy game. Results show that 2L learns reference strategies that provide a stronger search signal than IBR, FP, and DO. We also simulate a tournament of MicroRTS, where a synthesizer using 2L outperformed the winners of the two latest MicroRTS competitions, which were programmatic strategies written by human programmers.",
+          "score": 0.759510916949111
+        },
+        {
+          "paperId": "1807430035999547909",
+          "primaryId": "arxiv:1809.07193",
+          "ids": {
+            "arxiv": [
+              "1809.07193"
+            ]
+          },
+          "title": "TStarBots: Defeating the Cheating Level Builtin AI in StarCraft II in the Full Game",
+          "abstract": "Starcraft II (SC2) is widely considered as the most challenging Real Time Strategy (RTS) game. The underlying challenges include a large observation space, a huge (continuous and infinite) action space, partial observations, simultaneous move for all players, and long horizon delayed rewards for local decisions. To push the frontier of AI research, Deepmind and Blizzard jointly developed the StarCraft II Learning Environment (SC2LE) as a testbench of complex decision making systems. SC2LE provides a few mini games such as MoveToBeacon, CollectMineralShards, and DefeatRoaches, where some AI agents have achieved the performance level of human professional players. However, for full games, the current AI agents are still far from achieving human professional level performance. To bridge this gap, we present two full game AI agents in this paper - the AI agent TStarBot1 is based on deep reinforcement learning over a flat action structure, and the AI agent TStarBot2 is based on hard-coded rules over a hierarchical action structure. Both TStarBot1 and TStarBot2 are able to defeat the built-in AI agents from level 1 to level 10 in a full game (1v1 Zerg-vs-Zerg game on the AbyssalReef map), noting that level 8, level 9, and level 10 are cheating agents with unfair advantages such as full vision on the whole map and resource harvest boosting. To the best of our knowledge, this is the first public work to investigate AI agents that can defeat the built-in AI in the StarCraft II full game.",
+          "score": 0.7502601055951177
+        }
+      ]
+    }
+  }
+}

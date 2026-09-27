@@ -1,0 +1,53 @@
+{
+  "retrieved_at": "2026-09-27T22:54:17+09:00",
+  "provider": "configured firecrawl MCP (mcp__firecrawl)",
+  "key": "search_cma",
+  "response": {
+    "content": [
+      {
+        "type": "text",
+        "text": "## [arxiv:1604.00772] The CMA Evolution Strategy: A Tutorial\nThis tutorial introduces the CMA Evolution Strategy (ES), where CMA stands for Covariance Matrix Adaptation. The CMA-ES is a stochastic, or randomized, method for real-parameter (continuous domain) optimization of non-linear, non-convex functions. We try to motivate and derive the algorithm from intuitive concepts and from requirements of non-linear, non-convex search in continuous domain.\n\n## [arxiv:1610.05231] Evolving the Structure of Evolution Strategies\nVarious variants of the well known Covariance Matrix Adaptation Evolution Strategy (CMA-ES) have been proposed recently, which improve the empirical performance of the original algorithm by structural modifications. However, in practice it is often unclear which variation is best suited to the specific optimization problem at hand. As one approach to tackle this issue, algorithmic mechanisms attached to CMA-ES variants are considered and extracted as functional modules, allowing for combinations of them. This leads to a configuration space over ES structures, which enables the exploration of a\n\n## [arxiv:2304.03473] CMA-ES with Learning Rate Adaptation: Can CMA-ES with Default Population Size Solve Multimodal and Noisy Problems?\nThe covariance matrix adaptation evolution strategy (CMA-ES) is one of the most successful methods for solving black-box continuous optimization problems. One practically useful aspect of the CMA-ES is that it can be used without hyperparameter tuning. However, the hyperparameter settings still have a considerable impact, especially for difficult tasks such as solving multimodal or noisy problems. In this study, we investigate whether the CMA-ES with default population size can solve multimodal and noisy problems. To perform this investigation, we develop a novel learning rate adaptation mecha"
+      }
+    ],
+    "structuredContent": {
+      "results": [
+        {
+          "paperId": "6271055261842400996",
+          "primaryId": "arxiv:1604.00772",
+          "ids": {
+            "arxiv": [
+              "1604.00772"
+            ]
+          },
+          "title": "The CMA Evolution Strategy: A Tutorial",
+          "abstract": "This tutorial introduces the CMA Evolution Strategy (ES), where CMA stands for Covariance Matrix Adaptation. The CMA-ES is a stochastic, or randomized, method for real-parameter (continuous domain) optimization of non-linear, non-convex functions. We try to motivate and derive the algorithm from intuitive concepts and from requirements of non-linear, non-convex search in continuous domain.",
+          "score": 0.9579122720843811
+        },
+        {
+          "paperId": "6647738830380997314",
+          "primaryId": "arxiv:1610.05231",
+          "ids": {
+            "arxiv": [
+              "1610.05231"
+            ]
+          },
+          "title": "Evolving the Structure of Evolution Strategies",
+          "abstract": "Various variants of the well known Covariance Matrix Adaptation Evolution Strategy (CMA-ES) have been proposed recently, which improve the empirical performance of the original algorithm by structural modifications. However, in practice it is often unclear which variation is best suited to the specific optimization problem at hand. As one approach to tackle this issue, algorithmic mechanisms attached to CMA-ES variants are considered and extracted as functional modules, allowing for combinations of them. This leads to a configuration space over ES structures, which enables the exploration of algorithm structures and paves the way toward novel algorithm generation. Specifically, eleven modules are incorporated in this framework with two or three alternative configurations for each module, resulting in 4 608 algorithms. A self-adaptive Genetic Algorithm (GA) is used to efficiently evolve effective ES-structures for given classes of optimization problems, outperforming any classical CMA-ES variants from literature. The proposed approach is evaluated on noiseless functions from BBOB suite. Furthermore, such an observation is again confirmed on different function groups and dimensionality, indicating the feasibility of ES configuration on real-world problem classes.",
+          "score": 0.8833970308388606
+        },
+        {
+          "paperId": "1095393630101299405",
+          "primaryId": "arxiv:2304.03473",
+          "ids": {
+            "arxiv": [
+              "2304.03473"
+            ]
+          },
+          "title": "CMA-ES with Learning Rate Adaptation: Can CMA-ES with Default Population Size Solve Multimodal and Noisy Problems?",
+          "abstract": "The covariance matrix adaptation evolution strategy (CMA-ES) is one of the most successful methods for solving black-box continuous optimization problems. One practically useful aspect of the CMA-ES is that it can be used without hyperparameter tuning. However, the hyperparameter settings still have a considerable impact, especially for difficult tasks such as solving multimodal or noisy problems. In this study, we investigate whether the CMA-ES with default population size can solve multimodal and noisy problems. To perform this investigation, we develop a novel learning rate adaptation mechanism for the CMA-ES, such that the learning rate is adapted so as to maintain a constant signal-to-noise ratio. We investigate the behavior of the CMA-ES with the proposed learning rate adaptation mechanism through numerical experiments, and compare the results with those obtained for the CMA-ES with a fixed learning rate. The results demonstrate that, when the proposed learning rate adaptation is used, the CMA-ES with default population size works well on multimodal and/or noisy problems, without the need for extremely expensive learning rate tuning.",
+          "score": 0.8611650064526928
+        }
+      ]
+    }
+  }
+}

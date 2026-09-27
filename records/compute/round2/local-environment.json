@@ -1,0 +1,18 @@
+{
+  "platform": "Linux-7.2.3-arch1-3-x86_64-with-glibc2.44",
+  "python": "3.14.7",
+  "logical_cpu_count": 20,
+  "cpu": {
+    "CPU(s):": "20",
+    "Model name:": "13th Gen Intel(R) Core(TM) i9-13900H",
+    "Thread(s) per core:": "2",
+    "Core(s) per socket:": "14",
+    "Socket(s):": "1"
+  },
+  "nvidia_smi": {
+    "returncode": 0,
+    "devices": "NVIDIA GeForce RTX 4070 Laptop GPU, 8188 MiB, 610.57.04",
+    "error": ""
+  },
+  "memory_total_kib": "32464904"
+}

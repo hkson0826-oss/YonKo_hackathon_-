@@ -1,0 +1,212 @@
+{
+  "recorded_at_utc": "2026-09-27T13:54:11.158729+00:00",
+  "kind": "static_source_audit_no_new_matches",
+  "old_teammate_commit": "351c32e027b5598ddb53c49b6e7f2d7c9c6c6a4e",
+  "team_commit": "7148f5d7e60bfa5eae34694743cc1c5275869748",
+  "main_commit": "a3c810bfa58472d89396928e0fb6e34e945f20e9",
+  "old_zip_sha256": "571397e3c84998b27f8ce0468bc49333663c69b0b84162ad8dfc27e7a47f2365",
+  "main_zip": {
+    "sha256": "4d94ea9cce6e841b4532b068d6e6825fe9ea4cd040e506623cda3144e9e81446",
+    "bytes": 8185,
+    "local_path": "records/teammates/round2/main-a3c810b/submission-python.zip",
+    "main_source_path": "records/teammates/round2/main-a3c810b/main.py"
+  },
+  "teammate_comparison": [
+    {
+      "file": "_generated.py",
+      "old_zip_sha256": "8cf113fe574425e1f761911e59fe43394aad147946b07ed4a837e1da6b25fcfc",
+      "team_source_sha256": "8cf113fe574425e1f761911e59fe43394aad147946b07ed4a837e1da6b25fcfc",
+      "identical": true
+    },
+    {
+      "file": "campus_bot.py",
+      "old_zip_sha256": "2568119d19d9def58dd824b06eac332f018f23c0dee24ba1ccddf3169a151e7b",
+      "team_source_sha256": "2568119d19d9def58dd824b06eac332f018f23c0dee24ba1ccddf3169a151e7b",
+      "identical": true
+    },
+    {
+      "file": "main.py",
+      "old_zip_sha256": "a114cc5a286ea21cc09ba11a018c65bf38e068c7f79d7a8b5420a05ff936b666",
+      "team_source_sha256": "a114cc5a286ea21cc09ba11a018c65bf38e068c7f79d7a8b5420a05ff936b666",
+      "identical": true
+    },
+    {
+      "file": "protocol.py",
+      "old_zip_sha256": "67a5d27ced038de39d7cd3b069bf01786bf4cc9e6c1d39269d1f7e67b185c194",
+      "team_source_sha256": "67a5d27ced038de39d7cd3b069bf01786bf4cc9e6c1d39269d1f7e67b185c194",
+      "identical": true
+    },
+    {
+      "file": "submission.json",
+      "old_zip_sha256": "ff5431b97ab8dc3d045d053fe1e3148eca20bfe900ec66cd9e7f7f5e542f3de5",
+      "team_source_sha256": "ff5431b97ab8dc3d045d053fe1e3148eca20bfe900ec66cd9e7f7f5e542f3de5",
+      "identical": true
+    }
+  ],
+  "main_template_comparison": [
+    {
+      "file": "_generated.py",
+      "zip_bytes": 1698,
+      "zip_sha256": "8cf113fe574425e1f761911e59fe43394aad147946b07ed4a837e1da6b25fcfc",
+      "sample_sha256": "8cf113fe574425e1f761911e59fe43394aad147946b07ed4a837e1da6b25fcfc",
+      "identical": true
+    },
+    {
+      "file": "campus_bot.py",
+      "zip_bytes": 4662,
+      "zip_sha256": "2568119d19d9def58dd824b06eac332f018f23c0dee24ba1ccddf3169a151e7b",
+      "sample_sha256": "2568119d19d9def58dd824b06eac332f018f23c0dee24ba1ccddf3169a151e7b",
+      "identical": true
+    },
+    {
+      "file": "example_lv1.py",
+      "zip_bytes": 962,
+      "zip_sha256": "15183b1c05b8daa12212cb2d64fe54dbc81deba69a7e9999b3fac4b3d5ccbc1d",
+      "sample_sha256": "15183b1c05b8daa12212cb2d64fe54dbc81deba69a7e9999b3fac4b3d5ccbc1d",
+      "identical": true
+    },
+    {
+      "file": "example_lv2.py",
+      "zip_bytes": 3002,
+      "zip_sha256": "91c174b0259ea2759d3ff390bb80ff0d6494fbea59003cb5b0a607bf1370bd4f",
+      "sample_sha256": "91c174b0259ea2759d3ff390bb80ff0d6494fbea59003cb5b0a607bf1370bd4f",
+      "identical": true
+    },
+    {
+      "file": "main.py",
+      "zip_bytes": 1036,
+      "zip_sha256": "fc0b4fc2eccb0e497c8435d85412332e3628053a905f51687d654b8e2d35b068",
+      "sample_sha256": "fc0b4fc2eccb0e497c8435d85412332e3628053a905f51687d654b8e2d35b068",
+      "identical": true
+    },
+    {
+      "file": "mybot_template.py",
+      "zip_bytes": 180,
+      "zip_sha256": "6d6ee8564548c9bf81562d60c270b69968813045c900c94ce95b5c261456d43b",
+      "sample_sha256": "6d6ee8564548c9bf81562d60c270b69968813045c900c94ce95b5c261456d43b",
+      "identical": true
+    },
+    {
+      "file": "protocol.py",
+      "zip_bytes": 1391,
+      "zip_sha256": "67a5d27ced038de39d7cd3b069bf01786bf4cc9e6c1d39269d1f7e67b185c194",
+      "sample_sha256": "67a5d27ced038de39d7cd3b069bf01786bf4cc9e6c1d39269d1f7e67b185c194",
+      "identical": true
+    },
+    {
+      "file": "search.py",
+      "zip_bytes": 1845,
+      "zip_sha256": "34cc73421e056d857549d28523ada709c6531152e4a0e08b8f8eddbad5073e45",
+      "sample_sha256": "34cc73421e056d857549d28523ada709c6531152e4a0e08b8f8eddbad5073e45",
+      "identical": true
+    },
+    {
+      "file": "submission.json",
+      "zip_bytes": 49,
+      "zip_sha256": "ff5431b97ab8dc3d045d053fe1e3148eca20bfe900ec66cd9e7f7f5e542f3de5",
+      "sample_sha256": "ff5431b97ab8dc3d045d053fe1e3148eca20bfe900ec66cd9e7f7f5e542f3de5",
+      "identical": true
+    }
+  ],
+  "snapshots": [
+    {
+      "commit": "7148f5d7e60bfa5eae34694743cc1c5275869748",
+      "source_path": "bots/delineate_v1/main.py",
+      "sha256": "a114cc5a286ea21cc09ba11a018c65bf38e068c7f79d7a8b5420a05ff936b666",
+      "local_path": "records/teammates/round2/team-7148f5d/bots/delineate_v1/main.py"
+    },
+    {
+      "commit": "7148f5d7e60bfa5eae34694743cc1c5275869748",
+      "source_path": "bots/delineate_v1/STRATEGY.md",
+      "sha256": "e82005c7337ed9a0edc605e18f8941ea0a263cc414ceb36b5ec5419ab24ada7c",
+      "local_path": "records/teammates/round2/team-7148f5d/bots/delineate_v1/STRATEGY.md"
+    },
+    {
+      "commit": "7148f5d7e60bfa5eae34694743cc1c5275869748",
+      "source_path": "docs/rule.md",
+      "sha256": "20e4c058914819fb8727cf134dfb066eebbb4b4cdfcde4a466b6b56b5665b55b",
+      "local_path": "records/teammates/round2/team-7148f5d/docs/rule.md"
+    },
+    {
+      "commit": "7148f5d7e60bfa5eae34694743cc1c5275869748",
+      "source_path": "docs/operation_rule.md",
+      "sha256": "6c43df9f788c4ee98e5515e9ea07cab84324837a6be303dccbe21109d8f1761b",
+      "local_path": "records/teammates/round2/team-7148f5d/docs/operation_rule.md"
+    },
+    {
+      "commit": "7148f5d7e60bfa5eae34694743cc1c5275869748",
+      "source_path": "docs/instructure.md",
+      "sha256": "329308d90e3c71ba94204c357b85375fae1f465393338fcb2f83005fde1c0e5f",
+      "local_path": "records/teammates/round2/team-7148f5d/docs/instructure.md"
+    },
+    {
+      "commit": "7148f5d7e60bfa5eae34694743cc1c5275869748",
+      "source_path": "docs/development_log.md",
+      "sha256": "7d38147d643511be5d55576de25cef7a24884056f45b62ec9dd276ce2f262546",
+      "local_path": "records/teammates/round2/team-7148f5d/docs/development_log.md"
+    },
+    {
+      "commit": "7148f5d7e60bfa5eae34694743cc1c5275869748",
+      "source_path": "docs/llm_usage_log.md",
+      "sha256": "4920d3354bef8d6a43e1827eded4d73f4979f060aef57bc504eec54f58453061",
+      "local_path": "records/teammates/round2/team-7148f5d/docs/llm_usage_log.md"
+    },
+    {
+      "commit": "7148f5d7e60bfa5eae34694743cc1c5275869748",
+      "source_path": "test-results/delineate-v1/results.json",
+      "sha256": "97514583a5d71853eb75126e8cd4a586ef5e62d546306092d387214f7299d832",
+      "local_path": "records/teammates/round2/team-7148f5d/test-results/delineate-v1/results.json"
+    },
+    {
+      "commit": "7148f5d7e60bfa5eae34694743cc1c5275869748",
+      "source_path": "bots/test_delineate_v1.py",
+      "sha256": "53e3f72dd0fd70aa43c3675926e50e8999a92dc0a2a8a4cf8e2b521a2115e431",
+      "local_path": "records/teammates/round2/team-7148f5d/bots/test_delineate_v1.py"
+    }
+  ],
+  "local_anchors": [
+    {
+      "path": "submissions/tuned/main.cpp",
+      "sha256": "53bb019625fabbbd3aa8a5b65af971912bb4cbdad8a9fde3009fadad5ba6d4c5"
+    },
+    {
+      "path": "artifacts/submission-v2.zip",
+      "sha256": "f90eca7cac0024ab4cc7c00d79595f71e4eb9bab92ec57e0527c7b977098b64a"
+    },
+    {
+      "path": "yk-development-tools/docs/rulebook.md",
+      "sha256": "3e35db3dc14524e1d396579a65368d669745c9643e64c8792d3cd73fc87991d7"
+    },
+    {
+      "path": "yk-development-tools/bots/dist/starter/limits.json",
+      "sha256": "182499583a1da4f5add6c25fe900ad59488c230163b8064c6697014a9b9fec45"
+    },
+    {
+      "path": "yk-development-tools/config/balance.json",
+      "sha256": "a46886d91862244b6daf4990dcdf2371302433e7120c21dc2a29ecf95696b35f"
+    }
+  ],
+  "teammate_recorded_results": {
+    "rerun": false,
+    "matches": 8,
+    "wins": 8,
+    "seeds": [
+      0,
+      1
+    ],
+    "opponents": [
+      "lv1",
+      "lv2"
+    ],
+    "max_first_decision_ms": 13.441900000088935,
+    "max_later_decision_ms": 5.106899999645975,
+    "subprocess_transcripts_ok": true,
+    "timing_scope": "decision function only, not server turn latency"
+  },
+  "decision": {
+    "team_code": "keep existing frozen opponent; no new algorithm or rerun",
+    "main_zip": "starter template; do not replace v2",
+    "operation_rules": "pending verification against official current source"
+  },
+  "audit_script_sha256": "deb754d9c43a70af599fbfb379938d053f53c127646296cecad824fc2bd7e922"
+}

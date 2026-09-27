@@ -8,6 +8,12 @@
 | [replays](replays/) | 초기 실패 사례와 최종 평가의 패배 리플레이 |
 | [submissions](submissions/) | 제출 ZIP별 검사 결과와 SHA-256·파일 목록 |
 | [tuning](tuning/) | 후보 10개의 소스, 변경 설정, 개발 대전, 직접 대전 |
+| [official/round1](official/round1/) | 사용자 제공 공식 5경기의 원본 해시·턴별 분석·사이트 관찰 |
+| [research/round2](research/round2/) | Firecrawl 원응답, 논문·원 구현 출처와 확인 수준 |
+| [teammates/round2](teammates/round2/) | 최신 팀원·main ZIP 비교와 고정 소스 스냅샷 |
+| [compute/round2](compute/round2/) | 로컬 환경과 CPU 작업자 1/2/4 처리량·로그·패배 리플레이 |
+
+공식 원본은 [artifacts/firstround_results](../artifacts/firstround_results/)에 그대로 보존했다. [분석 도구](../experiments/analyze_official_round1.py)는 합법 관측으로 알 수 있는 점수와 사후 복원 점수를 구분한다. [처리량 측정 도구](../experiments/profile_throughput.py)는 고정한 봇 소스·새 임시 빌드로 같은 맵을 반복하며, 기존 출력 경로 덮어쓰기를 거부한다.
 
 최종 선택 후보는 `tuning/portfolio-assets/`다. 전체 후보의 소스 해시와 결과 파일은 [tuning/index.json](tuning/index.json)에 기록했다. 해당 폴더의 `losses-*`에는 후보 평가 중 저장한 패배·무승부 리플레이가 있다.
 

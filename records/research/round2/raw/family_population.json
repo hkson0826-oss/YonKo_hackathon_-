@@ -1,0 +1,126 @@
+{
+  "retrieved_at": "2026-09-27T22:54:17+09:00",
+  "provider": "configured firecrawl MCP (mcp__firecrawl)",
+  "key": "family_population",
+  "response": {
+    "content": [
+      {
+        "type": "text",
+        "text": "## [arxiv:2203.11912] What can we Learn Even From the Weakest? Learning Sketches for Programmatic Strategies\nIn this paper we show that behavioral cloning can be used to learn effective sketches of programmatic strategies. We show that even the sketches learned by cloning the behavior of weak players can help the synthesis of programmatic strategies. This is because even weak players can provide helpful information, e.g., that a player must choose an action in their turn of the game. If behavioral cloning is not employed, the synthesizer needs to learn even the most basic information by playing the game, which can be computationally expensive. We demonstrate empirically the advantages of our sketch-l\n\n## [arxiv:1304.1456] Efficient evolutionary dynamics with extensive-form games\nEvolutionary game theory combines game theory and dynamical systems and is customarily adopted to describe evolutionary dynamics in multi-agent systems. In particular, it has been proven to be a successful tool to describe multi-agent learning dynamics. To the best of our knowledge, we provide in this paper the first replicator dynamics applicable to the sequence form of an extensive-form game, allowing an exponential reduction of time and space w.r.t. the currently adopted replicator dynamics for normal form. Furthermore, our replicator dynamics is realization equivalent to the standard repli\n\n## [arxiv:1305.0034] Regret Minimization in Non-Zero-Sum Games with Applications to Building Champion Multiplayer Computer Poker Agents\nIn two-player zero-sum games, if both players minimize their average external regret, then the average of the strategy profiles converges to a Nash equilibrium. For n-player general-sum games, however, theoretical guarantees for regret minimization are less understood. Nonetheless, Counterfactual Regret Minimization (CFR), a popular regret minimization algorithm for extensive-form games, has generated winning three-player Texas Hold'em agents in the Annual Computer Poker Competition (ACPC). In this paper, we provide the first set of theoretical properties for regret minimization algorithms in \n\n## [arxiv:1604.06710] Using Reinforcement Learning to Validate Empirical Game-Theoretic Analysis: A Continuous Double Auction Study\nEmpirical game-theoretic analysis (EGTA) has recently been applied successfully to analyze the behavior of large numbers of competing traders in a continuous double auction market. Multiagent simulation methods like EGTA are useful for studying complex strategic environments like a stock market, where it is not feasible to solve analytically for the rational behavior of each agent. A weakness of simulation-based methods in strategic settings, however, is that it is typically impossible to prove that the strategy profile assigned to the simulated agents is stable, as in a Nash equilibrium. I pr\n\n## [arxiv:1909.12823] A Generalized Training Approach for Multiagent Learning\nThis paper investigates a population-based training regime based on game-theoretic principles called Policy-Spaced Response Oracles (PSRO). PSRO is general in the sense that it (1) encompasses well-known algorithms such as fictitious play and double oracle as special cases, and (2) in principle applies to general-sum, many-player games. Despite this, prior studies of PSRO have been focused on two-player zero-sum games, a regime wherein Nash equilibria are tractably computable. In moving from two-player zero-sum games to more general settings, computation of Nash equilibria quickly becomes infe\n\n## [arxiv:1304.5159] Interactive POMDP Lite: Towards Practical Planning to Predict and Exploit Intentions for Interacting with Self-Interested Agents\nA key challenge in non-cooperative multi-agent systems is that of developing efficient planning algorithms for intelligent agents to interact and perform effectively among boundedly rational, self-interested agents (e.g., humans). The practicality of existing works addressing this challenge is being undermined due to either the restrictive assumptions of the other agents' behavior, the failure in accounting for their rationality, or the prohibitively expensive cost of modeling and predicting their intentions. To boost the practicality of research in this field, we investigate how intention pre\n(poolSize=6)"
+      }
+    ],
+    "structuredContent": {
+      "results": [
+        {
+          "paperId": "7225336248601269236",
+          "primaryId": "arxiv:2203.11912",
+          "ids": {
+            "arxiv": [
+              "2203.11912"
+            ]
+          },
+          "title": "What can we Learn Even From the Weakest? Learning Sketches for Programmatic Strategies",
+          "abstract": "In this paper we show that behavioral cloning can be used to learn effective sketches of programmatic strategies. We show that even the sketches learned by cloning the behavior of weak players can help the synthesis of programmatic strategies. This is because even weak players can provide helpful information, e.g., that a player must choose an action in their turn of the game. If behavioral cloning is not employed, the synthesizer needs to learn even the most basic information by playing the game, which can be computationally expensive. We demonstrate empirically the advantages of our sketch-learning approach with simulated annealing and UCT synthesizers. We evaluate our synthesizers in the games of Can't Stop and MicroRTS. The sketch-based synthesizers are able to learn stronger programmatic strategies than their original counterparts. Our synthesizers generate strategies of Can't Stop that defeat a traditional programmatic strategy for the game. They also synthesize strategies that defeat the best performing method from the latest MicroRTS competition.",
+          "score": 0.032539682539682535,
+          "signals": {
+            "structural": 0.9243589760915315,
+            "semantic": 0.016698735,
+            "articleRank": 0.2317937461671759,
+            "seedOverlap": 1
+          }
+        },
+        {
+          "paperId": "6965133579003199423",
+          "primaryId": "arxiv:1304.1456",
+          "ids": {
+            "arxiv": [
+              "1304.1456"
+            ]
+          },
+          "title": "Efficient evolutionary dynamics with extensive-form games",
+          "abstract": "Evolutionary game theory combines game theory and dynamical systems and is customarily adopted to describe evolutionary dynamics in multi-agent systems. In particular, it has been proven to be a successful tool to describe multi-agent learning dynamics. To the best of our knowledge, we provide in this paper the first replicator dynamics applicable to the sequence form of an extensive-form game, allowing an exponential reduction of time and space w.r.t. the currently adopted replicator dynamics for normal form. Furthermore, our replicator dynamics is realization equivalent to the standard replicator dynamics for normal form. We prove our results for both discrete-time and continuous-time cases. Finally, we extend standard tools to study the stability of a strategy profile to our replicator dynamics.",
+          "score": 0.030309988518943745,
+          "signals": {
+            "structural": 0.9100910484995922,
+            "semantic": 0,
+            "articleRank": 0.28225483720314104,
+            "seedOverlap": 1
+          }
+        },
+        {
+          "paperId": "5251793143820405659",
+          "primaryId": "arxiv:1305.0034",
+          "ids": {
+            "arxiv": [
+              "1305.0034"
+            ]
+          },
+          "title": "Regret Minimization in Non-Zero-Sum Games with Applications to Building Champion Multiplayer Computer Poker Agents",
+          "abstract": "In two-player zero-sum games, if both players minimize their average external regret, then the average of the strategy profiles converges to a Nash equilibrium. For n-player general-sum games, however, theoretical guarantees for regret minimization are less understood. Nonetheless, Counterfactual Regret Minimization (CFR), a popular regret minimization algorithm for extensive-form games, has generated winning three-player Texas Hold'em agents in the Annual Computer Poker Competition (ACPC). In this paper, we provide the first set of theoretical properties for regret minimization algorithms in non-zero-sum games by proving that solutions eliminate iterative strict domination. We formally define dominated actions in extensive-form games, show that CFR avoids iteratively strictly dominated actions and strategies, and demonstrate that removing iteratively dominated actions is enough to win a mock tournament in a small poker game. In addition, for two-player non-zero-sum games, we bound the worst case performance and show that in practice, regret minimization can yield strategies very close to equilibrium. Our theoretical advancements lead us to a new modification of CFR for games with more than two players that is more efficient and may be used to generate stronger strategies than previously possible. Furthermore, we present a new three-player Texas Hold'em poker agent that was built using CFR and a novel game decomposition method. Our new agent wins the three-player events of the 2012 ACPC and defeats the winning three-player programs from previous competitions while requiring less resources to generate than the 2011 winner. Finally, we show that our CFR modification computes a strategy of equal quality to our new agent in a quarter of the time of standard CFR using half the memory.",
+          "score": 0.030309988518943745,
+          "signals": {
+            "structural": 0.9152591210360603,
+            "semantic": 0,
+            "articleRank": 0.26369594458661555,
+            "seedOverlap": 1
+          }
+        },
+        {
+          "paperId": "774106469564139830",
+          "primaryId": "arxiv:1604.06710",
+          "ids": {
+            "arxiv": [
+              "1604.06710"
+            ]
+          },
+          "title": "Using Reinforcement Learning to Validate Empirical Game-Theoretic Analysis: A Continuous Double Auction Study",
+          "abstract": "Empirical game-theoretic analysis (EGTA) has recently been applied successfully to analyze the behavior of large numbers of competing traders in a continuous double auction market. Multiagent simulation methods like EGTA are useful for studying complex strategic environments like a stock market, where it is not feasible to solve analytically for the rational behavior of each agent. A weakness of simulation-based methods in strategic settings, however, is that it is typically impossible to prove that the strategy profile assigned to the simulated agents is stable, as in a Nash equilibrium. I propose using reinforcement learning to analyze the regret of supposed Nash-equilibrium strategy profiles found by EGTA. I have developed a new library of reinforcement learning tools, which I have integrated into an extended version of the market simulator from our prior work. I provide evidence for the effectiveness of our library methods, both on a suite of benchmark problems from the literature, and on non-equilibrium strategy profiles in our market environment. Finally, I use our new reinforcement learning tools to provide evidence that the equilibria found by EGTA in our recent continuous double auction study are likely to have only negligible regret, even with respect to an extended strategy space.",
+          "score": 0.029324894514767934,
+          "signals": {
+            "structural": 0.9335347875679803,
+            "semantic": 0,
+            "articleRank": 0.20059052127620497,
+            "seedOverlap": 1
+          }
+        },
+        {
+          "paperId": "1315271207107580904",
+          "primaryId": "arxiv:1909.12823",
+          "ids": {
+            "arxiv": [
+              "1909.12823"
+            ]
+          },
+          "title": "A Generalized Training Approach for Multiagent Learning",
+          "abstract": "This paper investigates a population-based training regime based on game-theoretic principles called Policy-Spaced Response Oracles (PSRO). PSRO is general in the sense that it (1) encompasses well-known algorithms such as fictitious play and double oracle as special cases, and (2) in principle applies to general-sum, many-player games. Despite this, prior studies of PSRO have been focused on two-player zero-sum games, a regime wherein Nash equilibria are tractably computable. In moving from two-player zero-sum games to more general settings, computation of Nash equilibria quickly becomes infeasible. Here, we extend the theoretical underpinnings of PSRO by considering an alternative solution concept, α-Rank, which is unique (thus faces no equilibrium selection issues, unlike Nash) and applies readily to general-sum, many-player settings. We establish convergence guarantees in several games classes, and identify links between Nash equilibria and α-Rank. We demonstrate the competitive performance of α-Rank-based PSRO against an exact Nash solver-based PSRO in 2-player Kuhn and Leduc Poker. We then go beyond the reach of prior PSRO applications by considering 3- to 5-player poker games, yielding instances where α-Rank achieves faster convergence than approximate Nash solvers, thus establishing it as a favorable general games solver. We also carry out an initial empirical validation in MuJoCo soccer, illustrating the feasibility of the proposed approach in another complex domain.",
+          "score": 0.029051670471052088,
+          "signals": {
+            "structural": 0.8385238369748501,
+            "semantic": 0.013888889,
+            "articleRank": 0.5772644396480152,
+            "seedOverlap": 1
+          }
+        },
+        {
+          "paperId": "3619462772547650053",
+          "primaryId": "arxiv:1304.5159",
+          "ids": {
+            "arxiv": [
+              "1304.5159"
+            ]
+          },
+          "title": "Interactive POMDP Lite: Towards Practical Planning to Predict and Exploit Intentions for Interacting with Self-Interested Agents",
+          "abstract": "A key challenge in non-cooperative multi-agent systems is that of developing efficient planning algorithms for intelligent agents to interact and perform effectively among boundedly rational, self-interested agents (e.g., humans). The practicality of existing works addressing this challenge is being undermined due to either the restrictive assumptions of the other agents' behavior, the failure in accounting for their rationality, or the prohibitively expensive cost of modeling and predicting their intentions. To boost the practicality of research in this field, we investigate how intention prediction can be efficiently exploited and made practical in planning, thereby leading to efficient intention-aware planning frameworks capable of predicting the intentions of other agents and acting optimally with respect to their predicted intentions. We show that the performance losses incurred by the resulting planning policies are linearly bounded by the error of intention prediction. Empirical evaluations through a series of stochastic games demonstrate that our policies can achieve better and more robust performance than the state-of-the-art algorithms.",
+          "score": 0.028484848484848488,
+          "signals": {
+            "structural": 0.8644865532878844,
+            "semantic": 0,
+            "articleRank": 0.46132004331672066,
+            "seedOverlap": 1
+          }
+        }
+      ],
+      "poolSize": 6
+    }
+  }
+}

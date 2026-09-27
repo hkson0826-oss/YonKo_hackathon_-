@@ -1,0 +1,317 @@
+{
+  "checked_at": "2026-09-27",
+  "branch": "jisang",
+  "source_commit": "a3c810bfa58472d89396928e0fb6e34e945f20e9",
+  "source_file": "submissions/tuned/main.cpp",
+  "source_sha256": "53bb019625fabbbd3aa8a5b65af971912bb4cbdad8a9fde3009fadad5ba6d4c5",
+  "primary_sources": [
+    {
+      "id": "R1",
+      "title": "Optimal Target Assignment and Path Finding for Teams of Agents",
+      "url": "https://arxiv.org/abs/1612.05693",
+      "checked_at": "2026-09-27",
+      "verification": "Firecrawl research in-body passages",
+      "raw_file": "raw/read_assignment.json",
+      "verified": "할당+경로의 최적성은 충돌 회피와 최소 완료시간 목적에 한정한다. 전투 게임에 보장을 옮기지 않는다.",
+      "application": "F 목표 배정 부분만 적용; 전투·호위·자원은 별도 공동 행동 검증."
+    },
+    {
+      "id": "R2",
+      "title": "Asymmetric Action Abstractions for Multi-Unit Control in Adversarial Real-Time Games",
+      "url": "https://arxiv.org/abs/1711.08101",
+      "checked_at": "2026-09-27",
+      "verification": "Firecrawl research in-body passages",
+      "raw_file": "raw/read_asym.json",
+      "verified": "일부 유닛의 행동 제한을 풀며, 본문에서 PGS 상대 행동 고정과 실시간 한계를 확인했다.",
+      "application": "중요 부대에만 세밀한 후보. 원문 전투 실험의 성능을 이 게임에 전용하지 않는다."
+    },
+    {
+      "id": "R3",
+      "title": "Combinatorial Multi-armed Bandits for Real-Time Strategy Games",
+      "url": "https://arxiv.org/abs/1710.04805",
+      "checked_at": "2026-09-27",
+      "verification": "Firecrawl research in-body passages",
+      "raw_file": "raw/read_cmab.json",
+      "verified": "개별 변수 통계로 탐색하고 실제 공동 행동 통계로 활용한다. 매우 적은 예산의 개별 추정은 불안정할 수 있다.",
+      "application": "부대 역할 묶음의 소규모 CMAB를 대조 실험; 호위·생산 공동 제약 유지."
+    },
+    {
+      "id": "R4",
+      "title": "Analysis of Hannan Consistent Selection for Monte Carlo Tree Search in Simultaneous Move Games",
+      "url": "https://arxiv.org/abs/1804.09045",
+      "checked_at": "2026-09-27",
+      "verification": "Firecrawl research in-body passages",
+      "raw_file": "raw/read_hannan.json",
+      "verified": "Hannan 일관성만으로 표준 SM-MCTS 수렴을 보장하지 않는다. 평균 보상·탐색·UPO 조건을 구분했다.",
+      "application": "현재 제한 행렬의 600회 반복을 전체 게임 최적성이라고 부르지 않는다."
+    },
+    {
+      "id": "R5",
+      "title": "Portfolio Search and Optimization for General Strategy Game-Playing",
+      "url": "https://arxiv.org/abs/2104.10429",
+      "checked_at": "2026-09-27",
+      "verification": "Firecrawl research in-body passages",
+      "raw_file": "raw/read_rhea_details.json",
+      "verified": "스크립트 행동열, 긴 계획의 역할 흔들림, sparse 변경 표현, NTBEA 결합을 확인했다.",
+      "application": "임무 예약과 변경 비용부터 실험. 원문의 순차 유닛 실행을 동시 행동 규칙으로 수정해야 한다."
+    },
+    {
+      "id": "R6",
+      "title": "Does it matter how well I know what you’re thinking? Opponent Modelling in an RTS game",
+      "url": "https://arxiv.org/abs/2006.08659",
+      "checked_at": "2026-09-27",
+      "verification": "Firecrawl research in-body passages",
+      "raw_file": "raw/read_opmodel.json",
+      "verified": "Ground War 작은 예산에서 RHEA가 틀린 상대 모델에 민감한 결과와 일반화 한계를 확인했다.",
+      "application": "깊이 확대와 상대 모델 오류를 함께 실험. 무상대 모델이 항상 최선이라는 주장은 금지."
+    },
+    {
+      "id": "R7",
+      "title": "The N-Tuple Bandit Evolutionary Algorithm for Game Agent Optimisation",
+      "url": "https://arxiv.org/abs/1802.05991",
+      "checked_at": "2026-09-27",
+      "verification": "Firecrawl research in-body passages",
+      "raw_file": "raw/read_ntbea_details.json",
+      "verified": "이산 공간 N-tuple 통계와 방문 횟수/UCB로 비싼 노이즈 평가를 배분한다.",
+      "application": "이산 전략 설정의 오프라인 튜닝. LUT를 제출 코드로 전송하지 않는다."
+    },
+    {
+      "id": "R8",
+      "title": "The CMA Evolution Strategy: A Tutorial",
+      "url": "https://arxiv.org/abs/1604.00772",
+      "checked_at": "2026-09-27",
+      "verification": "Firecrawl research in-body passages",
+      "raw_file": "raw/read_cma.json",
+      "verified": "연속 비선형·비볼록 블랙박스 최적화라는 범위와 공분산 적응을 확인했다.",
+      "application": "적은 수의 연속 가중치를 오프라인 탐색. 이산 정책 선택의 기본 해법으로 쓰지 않는다."
+    },
+    {
+      "id": "R9",
+      "title": "SMAC3: A Versatile Bayesian Optimization Package for Hyperparameter Optimization",
+      "url": "https://arxiv.org/abs/2109.09831",
+      "checked_at": "2026-09-27",
+      "verification": "Firecrawl research in-body passages",
+      "raw_file": "raw/read_smac.json",
+      "verified": "조건부 설정·random forest·여러 문제 인스턴스·aggressive racing을 본문에서 확인했다.",
+      "application": "맵/상대/진영을 문제 인스턴스로 구성. 저예산 결과로 잘못 탈락시키는 편향 검사."
+    },
+    {
+      "id": "R10",
+      "title": "A Unified Game-Theoretic Approach to Multiagent Reinforcement Learning",
+      "url": "https://arxiv.org/abs/1711.00832",
+      "checked_at": "2026-09-27",
+      "verification": "Firecrawl research in-body passages",
+      "raw_file": "raw/read_psro.json",
+      "verified": "경험 payoff와 meta-strategy 혼합 상대에 대한 근사 best response, 탐색 비중과 집단 과적합 문제를 확인했다.",
+      "application": "고정 코드 집단에도 상대 선택 운영 원리 적용. 완전한 PSRO 구현 또는 균형 보장은 아님."
+    },
+    {
+      "id": "R11",
+      "title": "Choosing Well Your Opponents: How to Guide the Synthesis of Programmatic Strategies",
+      "url": "https://arxiv.org/abs/2307.04893",
+      "checked_at": "2026-09-27",
+      "verification": "Firecrawl research in-body passages",
+      "raw_file": "raw/read_2l.json",
+      "verified": "2L이 프로그램 합성 중 정보를 활용해 참조 상대를 고르며 IBR/FP/DO와 비교한다.",
+      "application": "AI 코드 수정에 유용한 상대 선택. 최신 복제끼리만 반복하지 않는다."
+    },
+    {
+      "id": "R12",
+      "title": "Learning to Play Imperfect-Information Games by Imitating an Oracle Planner",
+      "url": "https://arxiv.org/abs/2012.12186",
+      "checked_at": "2026-09-27",
+      "verification": "Firecrawl research in-body passages",
+      "raw_file": "raw/read_oracle.json",
+      "verified": "전정보 교사와 부분관측 학생, 모방 데이터와 DAgger를 구분했다.",
+      "application": "제출 입력에 숨은 정보 누출 금지. 현 규칙에서 신경망 직접 제출 제외; 연구용만."
+    }
+  ],
+  "supplemental": [
+    {
+      "id": "S1",
+      "title": "Rolling Horizon Coevolutionary Planning for Two-Player Video Games",
+      "url": "https://arxiv.org/abs/1607.01730",
+      "verification": "in-body verified",
+      "raw_file": "raw/read_coev.json"
+    },
+    {
+      "id": "S2",
+      "title": "What can we Learn Even From the Weakest? Learning Sketches for Programmatic Strategies",
+      "url": "https://arxiv.org/abs/2203.11912",
+      "verification": "research read returned 500; configured Firecrawl scrape HTML body succeeded",
+      "raw_file": "raw/read_sketch_fallback.json"
+    },
+    {
+      "id": "S3",
+      "title": "Cross-Entropy Method Variants for Optimization",
+      "url": "https://arxiv.org/abs/2009.09043",
+      "verification": "metadata and abstract only; not load-bearing evidence",
+      "raw_file": "raw/search_cem.json"
+    },
+    {
+      "id": "I1",
+      "title": "SMAC3 original repository",
+      "url": "https://github.com/automl/SMAC3",
+      "verification": "README via configured Firecrawl scrape",
+      "observed_commit": "841488796a82944b7c753c62eec3dfb74f72585e",
+      "raw_file": "raw/official_smac_repo.json"
+    },
+    {
+      "id": "I2",
+      "title": "pycma original repository",
+      "url": "https://github.com/CMA-ES/pycma",
+      "verification": "README via configured Firecrawl scrape",
+      "observed_commit": "48a821b166eceef544847a0b9b66113ac26f1530",
+      "raw_file": "raw/official_cma_repo.json"
+    }
+  ],
+  "raw_responses": [
+    {
+      "key": "research_search_0",
+      "path": "records/research/round2/raw/research_search_0.json",
+      "is_error": false
+    },
+    {
+      "key": "research_search_1",
+      "path": "records/research/round2/raw/research_search_1.json",
+      "is_error": false
+    },
+    {
+      "key": "research_search_2",
+      "path": "records/research/round2/raw/research_search_2.json",
+      "is_error": false
+    },
+    {
+      "key": "family_rhea",
+      "path": "records/research/round2/raw/family_rhea.json",
+      "is_error": false
+    },
+    {
+      "key": "family_population",
+      "path": "records/research/round2/raw/family_population.json",
+      "is_error": false
+    },
+    {
+      "key": "read_asym",
+      "path": "records/research/round2/raw/read_asym.json",
+      "is_error": false
+    },
+    {
+      "key": "read_rhea",
+      "path": "records/research/round2/raw/read_rhea.json",
+      "is_error": false
+    },
+    {
+      "key": "read_ntbea",
+      "path": "records/research/round2/raw/read_ntbea.json",
+      "is_error": false
+    },
+    {
+      "key": "read_hannan",
+      "path": "records/research/round2/raw/read_hannan.json",
+      "is_error": false
+    },
+    {
+      "key": "read_2l",
+      "path": "records/research/round2/raw/read_2l.json",
+      "is_error": false
+    },
+    {
+      "key": "search_assignment",
+      "path": "records/research/round2/raw/search_assignment.json",
+      "is_error": false
+    },
+    {
+      "key": "search_cma",
+      "path": "records/research/round2/raw/search_cma.json",
+      "is_error": false
+    },
+    {
+      "key": "search_smac",
+      "path": "records/research/round2/raw/search_smac.json",
+      "is_error": false
+    },
+    {
+      "key": "read_opmodel",
+      "path": "records/research/round2/raw/read_opmodel.json",
+      "is_error": false
+    },
+    {
+      "key": "read_oracle",
+      "path": "records/research/round2/raw/read_oracle.json",
+      "is_error": false
+    },
+    {
+      "key": "read_program_sketch",
+      "path": "records/research/round2/raw/read_program_sketch.json",
+      "is_error": true
+    },
+    {
+      "key": "read_assignment",
+      "path": "records/research/round2/raw/read_assignment.json",
+      "is_error": false
+    },
+    {
+      "key": "read_cmab",
+      "path": "records/research/round2/raw/read_cmab.json",
+      "is_error": false
+    },
+    {
+      "key": "read_cma",
+      "path": "records/research/round2/raw/read_cma.json",
+      "is_error": false
+    },
+    {
+      "key": "read_smac",
+      "path": "records/research/round2/raw/read_smac.json",
+      "is_error": false
+    },
+    {
+      "key": "read_psro",
+      "path": "records/research/round2/raw/read_psro.json",
+      "is_error": false
+    },
+    {
+      "key": "read_coev",
+      "path": "records/research/round2/raw/read_coev.json",
+      "is_error": false
+    },
+    {
+      "key": "search_cem",
+      "path": "records/research/round2/raw/search_cem.json",
+      "is_error": false
+    },
+    {
+      "key": "read_rhea_details",
+      "path": "records/research/round2/raw/read_rhea_details.json",
+      "is_error": false
+    },
+    {
+      "key": "read_ntbea_details",
+      "path": "records/research/round2/raw/read_ntbea_details.json",
+      "is_error": false
+    },
+    {
+      "key": "official_smac_repo",
+      "path": "records/research/round2/raw/official_smac_repo.json",
+      "is_error": false
+    },
+    {
+      "key": "official_cma_repo",
+      "path": "records/research/round2/raw/official_cma_repo.json",
+      "is_error": false
+    },
+    {
+      "key": "read_sketch_fallback",
+      "path": "records/research/round2/raw/read_sketch_fallback.json",
+      "is_error": false
+    }
+  ],
+  "limitations": [
+    "No candidate algorithm implemented or benchmarked as part of this literature subtask.",
+    "No GPU training executed.",
+    "No claim of exhaustive literature search or championship guarantee.",
+    "Leaderboard adjustment formula not verified; do not optimize a made-up formula.",
+    "Current source restrictions require separating research models from submitted code."
+  ]
+}

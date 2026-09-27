@@ -1,0 +1,53 @@
+{
+  "retrieved_at": "2026-09-27T22:54:17+09:00",
+  "provider": "configured firecrawl MCP (mcp__firecrawl)",
+  "key": "search_assignment",
+  "response": {
+    "content": [
+      {
+        "type": "text",
+        "text": "## [arxiv:1612.05693] Optimal Target Assignment and Path Finding for Teams of Agents\nWe study the TAPF (combined target-assignment and path-finding) problem for teams of agents in known terrain, which generalizes both the anonymous and non-anonymous multi-agent path-finding problems. Each of the teams is given the same number of targets as there are agents in the team. Each agent has to move to exactly one target given to its team such that all targets are visited. The TAPF problem is to first assign agents to targets and then plan collision-free paths for the agents to their targets in a way such that the makespan is minimized. We present the CBM (Conflict-Based Min-Cost-Flow\n\n## [arxiv:1912.00253] Idle Time Optimization for Target Assignment and Path Finding in Sortation Centers\nIn this paper, we study the one-shot and lifelong versions of the Target Assignment and Path Finding problem in automated sortation centers, where each agent needs to constantly assign itself a sorting station, move to its assigned station without colliding with obstacles or other agents, wait in the queue of that station to obtain a parcel for delivery, and then deliver the parcel to a sorting bin. The throughput of such centers is largely determined by the total idle time of all stations since their queues can frequently become empty. To address this problem, we first formalize and study the\n\n## [arxiv:2508.05890] Flow-Based Task Assignment for Large-Scale Online Multi-Agent Pickup and Delivery\nWe study the problem of online Multi-Agent Pickup and Delivery (MAPD), where a team of agents must repeatedly serve dynamically appearing tasks on a shared map. Existing online methods either rely on simple heuristics, which result in poor decisions, or employ complex reasoning, which suffers from limited scalability under real-time constraints. In this work, we focus on the task assignment subproblem and formulate it as a minimum-cost flow over the environment graph. This eliminates the need for pairwise distance computations and allows agents to be simultaneously assigned to tasks and routed"
+      }
+    ],
+    "structuredContent": {
+      "results": [
+        {
+          "paperId": "5274497869051968488",
+          "primaryId": "arxiv:1612.05693",
+          "ids": {
+            "arxiv": [
+              "1612.05693"
+            ]
+          },
+          "title": "Optimal Target Assignment and Path Finding for Teams of Agents",
+          "abstract": "We study the TAPF (combined target-assignment and path-finding) problem for teams of agents in known terrain, which generalizes both the anonymous and non-anonymous multi-agent path-finding problems. Each of the teams is given the same number of targets as there are agents in the team. Each agent has to move to exactly one target given to its team such that all targets are visited. The TAPF problem is to first assign agents to targets and then plan collision-free paths for the agents to their targets in a way such that the makespan is minimized. We present the CBM (Conflict-Based Min-Cost-Flow) algorithm, a hierarchical algorithm that solves TAPF instances optimally by combining ideas from anonymous and non-anonymous multi-agent path-finding algorithms. On the low level, CBM uses a min-cost max-flow algorithm on a time-expanded network to assign all agents in a single team to targets and plan their paths. On the high level, CBM uses conflict-based search to resolve collisions among agents in different teams. Theoretically, we prove that CBM is correct, complete and optimal. Experimentally, we show the scalability of CBM to TAPF instances with dozens of teams and hundreds of agents and adapt it to a simulated warehouse system.",
+          "score": 0.9786474438389795
+        },
+        {
+          "paperId": "479493809068429568",
+          "primaryId": "arxiv:1912.00253",
+          "ids": {
+            "arxiv": [
+              "1912.00253"
+            ]
+          },
+          "title": "Idle Time Optimization for Target Assignment and Path Finding in Sortation Centers",
+          "abstract": "In this paper, we study the one-shot and lifelong versions of the Target Assignment and Path Finding problem in automated sortation centers, where each agent needs to constantly assign itself a sorting station, move to its assigned station without colliding with obstacles or other agents, wait in the queue of that station to obtain a parcel for delivery, and then deliver the parcel to a sorting bin. The throughput of such centers is largely determined by the total idle time of all stations since their queues can frequently become empty. To address this problem, we first formalize and study the one-shot version that assigns stations to a set of agents and finds collision-free paths for the agents to their assigned stations. We present efficient algorithms for this task based on a novel min-cost max-flow formulation that minimizes the total idle time of all stations in a fixed time window. We then demonstrate how our algorithms for solving the one-shot problem can be applied to solving the lifelong problem as well. Experimentally, we believe to be the first researchers to consider real-world automated sortation centers using an industrial simulator with realistic data and a kinodynamic model of real robots. On this simulator, we showcase the benefits of our algorithms by demonstrating their efficiency and effectiveness for up to 350 agents.",
+          "score": 0.9109264722644368
+        },
+        {
+          "paperId": "2516559786181878958",
+          "primaryId": "arxiv:2508.05890",
+          "ids": {
+            "arxiv": [
+              "2508.05890"
+            ]
+          },
+          "title": "Flow-Based Task Assignment for Large-Scale Online Multi-Agent Pickup and Delivery",
+          "abstract": "We study the problem of online Multi-Agent Pickup and Delivery (MAPD), where a team of agents must repeatedly serve dynamically appearing tasks on a shared map. Existing online methods either rely on simple heuristics, which result in poor decisions, or employ complex reasoning, which suffers from limited scalability under real-time constraints. In this work, we focus on the task assignment subproblem and formulate it as a minimum-cost flow over the environment graph. This eliminates the need for pairwise distance computations and allows agents to be simultaneously assigned to tasks and routed toward them. The resulting flow network also supports efficient guide path extraction to integrate with the planner and accelerates planning under real-time constraints. To improve solution quality, we introduce two congestion-aware edge cost models that incorporate real-time traffic estimates. This approach supports real-time execution and scales to over 20000 agents and 30000 tasks within 1-second planning time, outperforming existing baselines in both computational efficiency and assignment quality.",
+          "score": 0.9024721629592075
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "source_commit": "a3c810bfa58472d89396928e0fb6e34e945f20e9",
+  "files": [
+    {
+      "path": "artifacts/firstround_results/replay (1).json",
+      "sha256": "82fb14ed2eca4e21316fc7720d0f60d0b5053cb4e6fa418889b064edd3d97881",
+      "bytes": 598491,
+      "game_id": "rolling-game-e3fd566eee1999e1349fb77cdba677f9b15a96b8163a2f2ce657c861af1593fb",
+      "side": "Y",
+      "ruleset_version": "platform-rules-88a77d888a15",
+      "protocol_version": "platform-protocol-88a77d888a15"
+    },
+    {
+      "path": "artifacts/firstround_results/replay (2).json",
+      "sha256": "6ea68e55f67ef3fa120b790d752632c3556c3f1de9ed842ec6e66c026d5f647d",
+      "bytes": 228638,
+      "game_id": "rolling-game-3dd41599c2c6adcb057a6ed543d2fa6ae0961c00e745a0bb048604720110cbb1",
+      "side": "Y",
+      "ruleset_version": "platform-rules-88a77d888a15",
+      "protocol_version": "platform-protocol-88a77d888a15"
+    },
+    {
+      "path": "artifacts/firstround_results/replay (3).json",
+      "sha256": "e1a77ebc0dc871668ad7002674303b8b6066ff3436dca695bbef434a27335011",
+      "bytes": 561082,
+      "game_id": "rolling-game-805c50c9a490f1c11b69ad06d37d8a66ff8a012f4ede324c829038c68ea5fb4e",
+      "side": "Y",
+      "ruleset_version": "platform-rules-88a77d888a15",
+      "protocol_version": "platform-protocol-88a77d888a15"
+    },
+    {
+      "path": "artifacts/firstround_results/replay (4).json",
+      "sha256": "bc4bc260ae659c5c2943393c851dc5fbf4a5de8246950bf548b8f569f4a454ff",
+      "bytes": 237075,
+      "game_id": "rolling-game-e6920b1cc1fb4db8bf3afc03de803bf1602b7771f0d8093ea637c9667bda1b49",
+      "side": "Y",
+      "ruleset_version": "platform-rules-88a77d888a15",
+      "protocol_version": "platform-protocol-88a77d888a15"
+    },
+    {
+      "path": "artifacts/firstround_results/replay (5).json",
+      "sha256": "52d8ce5c40a06f42b2cbdeace40882ab27f446d7ae0addb4f3828a8635277db2",
+      "bytes": 106282,
+      "game_id": "rolling-game-cc2cdecafcf04121af34ef3e1ce4c341cc299e63cc3c4ce29ddf4a9de15ee066",
+      "side": "Y",
+      "ruleset_version": "platform-rules-88a77d888a15",
+      "protocol_version": "platform-protocol-88a77d888a15"
+    }
+  ]
+}
