@@ -1,0 +1,49 @@
+{
+  "pairs": [
+    [
+      "v2",
+      "a_v2_terminal_local"
+    ],
+    [
+      "v2",
+      "a_local_unabstracted"
+    ],
+    [
+      "v2",
+      "r_combined"
+    ],
+    [
+      "v2",
+      "r_joint_escort"
+    ],
+    [
+      "a_v2_terminal_local",
+      "a_local_unabstracted"
+    ],
+    [
+      "a_v2_terminal_local",
+      "r_combined"
+    ],
+    [
+      "a_v2_terminal_local",
+      "r_joint_escort"
+    ],
+    [
+      "a_local_unabstracted",
+      "r_combined"
+    ],
+    [
+      "a_local_unabstracted",
+      "r_joint_escort"
+    ],
+    [
+      "r_combined",
+      "r_joint_escort"
+    ]
+  ],
+  "map_seeds": [
+    7400,
+    7401
+  ],
+  "replays": "all"
+}

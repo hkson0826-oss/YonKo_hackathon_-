@@ -1,0 +1,1149 @@
+{
+  "status": "ready",
+  "created_utc": "2026-09-27T15:46:23.904885+00:00",
+  "root": "/tmp/yk-league-1c1csuif/workspace/output",
+  "source_commit": "c64d5831becfeef0c5468a77fbae5d25c77792f6",
+  "input_sha256": {
+    "experiments/analyze_iterative.py": "6b04bfb8ac2d0738701283101407fc4946d01f4bc8775a9ddfa5462615f261ba",
+    "experiments/analyze_league.py": "968a9b461608d80469716e1d63b3d8b9fabb401af7dfaf15ceb747a3f1cc1924",
+    "experiments/analyze_official_round1.py": "398d3175ad159bcc4f6f66c52736769146a61dc7aab15c292c69465e141c8d91",
+    "experiments/compare_cpu_executors.py": "097c4e7eaa46c99c9652160608e2d0de8e5b639683f943957ef45530af38bbf0",
+    "experiments/cpu_sweep.py": "bf0f0293499473b0295e2dac640e24362c332edc1edc8c01f5e09ef39f12172b",
+    "experiments/iterative_campaign.py": "7cd9e27e1d72a0a0727937a2b0e63209eae3dbd4ee39e19c09205cc955916b2d",
+    "experiments/league_campaign.py": "90539ddfabdf38e4410a2255448fdffa89f12704aaa6694a73307d3c25ea84ff",
+    "experiments/local_league/adaptive_search.py": "d661367d4b526426e4800512e64295eeaf08b14788c34f66032e43b3da70eb50",
+    "experiments/local_league/causal_repairs.py": "5d9bba808889350cc4e90043cc7f20af4a3e7a92430cf58839e76bf74c51526a",
+    "experiments/local_league/challengers.py": "839d24c3bec34d3d2b874763b597b618f89f59bcad783ca7d1cf2197651adad7",
+    "experiments/local_league/joint_allocator.py": "b21789afb6abbdd26f1c4fc0901e2002b35d0772f3022e047da78e025b901958",
+    "experiments/local_league/repairs.py": "44158dba1130a0da8201dba3ea00c427a50884a28b929a2b9634506e9f2a690e",
+    "experiments/local_league/search_families.py": "1964196de4793e36d9f0fed263a6490dfb6ba2955a6302dd99157b7370fc7634",
+    "experiments/local_league.py": "4d7b2e73ed78ff5714d3174ef0399b6966347a7e1d1fb9155f70944723d7b3aa",
+    "experiments/profile_bot_stages.py": "8d3ad547e7cada268d7baf15428c28d0d768af7926dc45e0fbd905b4faf2d8da",
+    "experiments/profile_throughput.py": "a018e8281002197834f8e809fc20e1a55ec8904bb6baf145600d1802ce67c212",
+    "experiments/run_remote_tmp.py": "933cb0b3a5ebeba9e7c2801f408a930245a1a10bc82ed3cca8edd58f37b49ff7",
+    "experiments/tune_presubmit.py": "50ba7ccfe4c6d75c7f32b1af9368aa13e963485811ed30cff0ebd61839bef8a0",
+    "experiments/tune_presubmit_round2.py": "dd3e3563178c7e4dd09407d6ef798e13fec3c10742112f08d686e536aaea3234",
+    "experiments/tune_presubmit_round3.py": "2161acd245824f0386b59460817ed16958cb772dba1c1d64c7796ace9a8ca992",
+    "experiments/verify_iterative_artifacts.py": "3c74deb03428bfcac45eb2e7c5783d4f76bc40b9b1d06c64df7b1821edbfb49b",
+    "submissions/delineate-v1.zip": "571397e3c84998b27f8ce0468bc49333663c69b0b84162ad8dfc27e7a47f2365",
+    "submissions/first/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "submissions/first/main.cpp": "13a240536ea85885a1f61c8007665d132cc5c31a9c23ae00dec9872bf01fbcb5",
+    "submissions/first/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "submissions/first/submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60",
+    "submissions/tuned/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "submissions/tuned/main.cpp": "53bb019625fabbbd3aa8a5b65af971912bb4cbdad8a9fde3009fadad5ba6d4c5",
+    "submissions/tuned/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "submissions/tuned/submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60",
+    "yk-development-tools/bots/dist/starter/python/_generated.py": "8cf113fe574425e1f761911e59fe43394aad147946b07ed4a837e1da6b25fcfc",
+    "yk-development-tools/bots/dist/starter/python/campus_bot.py": "2568119d19d9def58dd824b06eac332f018f23c0dee24ba1ccddf3169a151e7b",
+    "yk-development-tools/bots/dist/starter/python/example_lv1.py": "15183b1c05b8daa12212cb2d64fe54dbc81deba69a7e9999b3fac4b3d5ccbc1d",
+    "yk-development-tools/bots/dist/starter/python/example_lv2.py": "91c174b0259ea2759d3ff390bb80ff0d6494fbea59003cb5b0a607bf1370bd4f",
+    "yk-development-tools/bots/dist/starter/python/main.py": "fc0b4fc2eccb0e497c8435d85412332e3628053a905f51687d654b8e2d35b068",
+    "yk-development-tools/bots/dist/starter/python/mybot_template.py": "6d6ee8564548c9bf81562d60c270b69968813045c900c94ce95b5c261456d43b",
+    "yk-development-tools/bots/dist/starter/python/protocol.py": "67a5d27ced038de39d7cd3b069bf01786bf4cc9e6c1d39269d1f7e67b185c194",
+    "yk-development-tools/bots/dist/starter/python/search.py": "34cc73421e056d857549d28523ada709c6531152e4a0e08b8f8eddbad5073e45",
+    "yk-development-tools/bots/dist/starter/python/submission.json": "ff5431b97ab8dc3d045d053fe1e3148eca20bfe900ec66cd9e7f7f5e542f3de5",
+    "yk-development-tools/config/balance.json": "a46886d91862244b6daf4990dcdf2371302433e7120c21dc2a29ecf95696b35f",
+    "yk-development-tools/engine/__init__.py": "5b9c498fcef25d4900bfe993415964ef9b803c37309acda004e6b553130ace86",
+    "yk-development-tools/engine/commands.py": "db00820b9f77cc1b6e71eaa37bb4eb0b4c31cccda7f4b388269a13db04a76798",
+    "yk-development-tools/engine/config.py": "964f20b9f914bbc0bc81c84d7fbee3b2ecbed4b54814ab51cbd20d54ef6f20b9",
+    "yk-development-tools/engine/pipeline.py": "f0bd96c484c8628b6a070b188adcc1a077e9f90017cc15f11ce366d974490fa6",
+    "yk-development-tools/engine/state.py": "dd227e26bcb36a5c412bbf7db19f4418a59627e8ea7e55a90dac5184dcc0737f",
+    "yk-development-tools/mapgen/__init__.py": "4e3cf8f63c58f32835898da672ecaacf87b1ee105da4628fb917b2f6070fc5f0",
+    "yk-development-tools/mapgen/generator.py": "645b53e2b2ce0049608873b1d01a983661dbdbfe63e358fbb152cbeeea13947e",
+    "yk-development-tools/mapgen/render.py": "5486e5f68e8de843fd36ded98716a05a0b399301b6d82651db3aacba6bc16029",
+    "yk-development-tools/mapgen/rng.py": "4b56383dd28a138c2ae0bd387a893b4129e108dddf369dd54d3927848f85cc4d",
+    "yk-development-tools/runner/__init__.py": "7f675ede62ac8590c279dd4f2f64f8aa526f8d41e60dcfd7dba930612db4fbe2",
+    "yk-development-tools/runner/__main__.py": "307299fda7b77d22c64cb51430ec75e5f59d78e9c948786afb3b2544fe45e4b7",
+    "yk-development-tools/runner/bots.py": "c09312d62eaa1a2a5af5576b24922a9fd209365e0f3e655894934585858aba43",
+    "yk-development-tools/runner/cli.py": "90b102ca9513f710deed37c68adbca6026f43b641a5c00758d2868ecd1a90b81",
+    "yk-development-tools/runner/match.py": "122d3fc0c31ade0b808795d15842949da8c32a26c79c779841e7364aa2f51578",
+    "yk-development-tools/runner/protocol.py": "5917df4bec20b963586b1ffeb7a45b9959f51e3437a227ee7e8d932b172a7d65",
+    "yk-development-tools/runner/replay.py": "fc2bf7405c405ac30da4d7c122b24e3c3275544bfbd1ec22779bbb217df6e8a6",
+    "yk-development-tools/runner/validation.py": "7c00c3eca69a8f115e51b3c47a570c1015795b41d16e9987b5679f84f4184345"
+  },
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "python": "3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]",
+  "policy_rng_seed": 20260927,
+  "bots": {
+    "v2": {
+      "id": "v2",
+      "family": "baseline",
+      "parameters": {},
+      "hypothesis": "현재 제출 기준선",
+      "weakness": "공식 1차 경제·종반 패배",
+      "command": "/tmp/yk-league-1c1csuif/workspace/output/bin/v2",
+      "source": "snapshot/candidates/v2/main.cpp",
+      "source_sha256": "53bb019625fabbbd3aa8a5b65af971912bb4cbdad8a9fde3009fadad5ba6d4c5",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/v2",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/v2/main.cpp",
+            "-o",
+            "/tmp/yk-league-1c1csuif/workspace/output/bin/v2"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "cc6247fc8a772df3b6174e2a352be116a7707583db91cca564900f0b0de3b45c"
+    },
+    "r_joint_escort": {
+      "id": "r_joint_escort",
+      "family": "joint_arrival",
+      "parameters": {
+        "escort": 2
+      },
+      "hypothesis": "Reserve warriors from reachable origins for unsafe flag destinations on the same turn.",
+      "weakness": "Worst-case danger may redirect warriors away from a better offensive task.",
+      "command": "/tmp/yk-league-1c1csuif/workspace/output/bin/r_joint_escort",
+      "source": "snapshot/candidates/r_joint_escort/main.cpp",
+      "source_sha256": "2be7876f131ca61fd053510e6c632904e683678e406976b0a3fb1679da8e1b0c",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/r_joint_escort",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/r_joint_escort/main.cpp",
+            "-o",
+            "/tmp/yk-league-1c1csuif/workspace/output/bin/r_joint_escort"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "4c17b0ffec1cbc9ee84732976a225d203bced87839a4617eb355ab02dbdf8586"
+    },
+    "r_terminal_margin": {
+      "id": "r_terminal_margin",
+      "family": "terminal_order",
+      "parameters": {
+        "terminal_margin": true
+      },
+      "hypothesis": "Break otherwise equal terminal win/loss rollout values with a bounded score margin.",
+      "weakness": "Only changes endgame ties between rollout predictions; estimated scores remain uncertain.",
+      "command": "/tmp/yk-league-1c1csuif/workspace/output/bin/r_terminal_margin",
+      "source": "snapshot/candidates/r_terminal_margin/main.cpp",
+      "source_sha256": "afc5a257d40f775a5c3520a9f86275249052a41bf730a275fe8796eb8dfd7f9f",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/r_terminal_margin",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/r_terminal_margin/main.cpp",
+            "-o",
+            "/tmp/yk-league-1c1csuif/workspace/output/bin/r_terminal_margin"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "20f84b1f0918f421c5609199a16d4484055400bf5364238405e4cc68742b915a"
+    },
+    "r_combined": {
+      "id": "r_combined",
+      "family": "combined_repairs",
+      "parameters": {
+        "scope": 1,
+        "limit": 2,
+        "escort": 1,
+        "economic": true,
+        "terminal_margin": true
+      },
+      "hypothesis": "Combine joint defense, shared-arrival escort, engineering savings, and terminal ordering.",
+      "weakness": "Interactions may overcommit scarce units; compare against individual repairs before adoption.",
+      "command": "/tmp/yk-league-1c1csuif/workspace/output/bin/r_combined",
+      "source": "snapshot/candidates/r_combined/main.cpp",
+      "source_sha256": "74d20a52f93df3e85ecbd12fc133a279713d4c0b55c9db98eb5d47564cd88797",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/r_combined",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/r_combined/main.cpp",
+            "-o",
+            "/tmp/yk-league-1c1csuif/workspace/output/bin/r_combined"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "eee6e5fdd7855a8d876cce8ab100198658bdc8274fc2ebcfc86441098c7472ec"
+    },
+    "q_threat_window": {
+      "id": "q_threat_window",
+      "family": "defense_arrival_window",
+      "parameters": {
+        "threat_window": true,
+        "opponent_model": "unchanged_v2"
+      },
+      "hypothesis": "Create owned-building defense tasks only against flags within two steps or threatened resident flags.",
+      "weakness": "A distant enemy can advance before reinforcements arrive; this intentionally reduces speculative defense.",
+      "command": "/tmp/yk-league-1c1csuif/workspace/output/bin/q_threat_window",
+      "source": "snapshot/candidates/q_threat_window/main.cpp",
+      "source_sha256": "c943b16a28d19768705925b2d6aa9dc04547af342ca77747d96afdad96985d79",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/q_threat_window",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/q_threat_window/main.cpp",
+            "-o",
+            "/tmp/yk-league-1c1csuif/workspace/output/bin/q_threat_window"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "2b943b3133f3880925a2883a9c44e93a1170359258ad4300cf7fce47fadd7343"
+    },
+    "q_balanced_front": {
+      "id": "q_balanced_front",
+      "family": "distributed_pressure",
+      "parameters": {
+        "balanced_front": true,
+        "capacity": true,
+        "opponent_model": "unchanged_v2"
+      },
+      "hypothesis": "Cap non-immediate local demand and split warriors across tasks instead of matching every nearby enemy at one spot.",
+      "weakness": "The enemy may concentrate and overwhelm a capped attack; immediate owned-building defense remains uncapped.",
+      "command": "/tmp/yk-league-1c1csuif/workspace/output/bin/q_balanced_front",
+      "source": "snapshot/candidates/q_balanced_front/main.cpp",
+      "source_sha256": "4f0c85395b5ebdcc3581e31f3d855343b1a2c5a7de5cb2606f3676285405fc12",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/q_balanced_front",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/q_balanced_front/main.cpp",
+            "-o",
+            "/tmp/yk-league-1c1csuif/workspace/output/bin/q_balanced_front"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "f793275b9ed55f28ebe861bcaae28fc6c58ab552e38cce492ddd03f97874367b"
+    },
+    "q_v2_window_guard": {
+      "id": "q_v2_window_guard",
+      "family": "late_flag_action_repair",
+      "parameters": {
+        "threat_window": true,
+        "guard": 1,
+        "revision": 2,
+        "opponent_model": "unchanged_v2"
+      },
+      "hypothesis": "Pair the promising two-step defense window with one own-only F/W reservation to protect immediate ownership.",
+      "weakness": "Worst-case reservation can still refuse feasible defense or take warriors from a better offensive task.",
+      "command": "/tmp/yk-league-1c1csuif/workspace/output/bin/q_v2_window_guard",
+      "source": "snapshot/candidates/q_v2_window_guard/main.cpp",
+      "source_sha256": "b2fc5701b9c5c1f4867dc71591799b73ffa51c655b93121ccf655eb900c88807",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/q_v2_window_guard",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/q_v2_window_guard/main.cpp",
+            "-o",
+            "/tmp/yk-league-1c1csuif/workspace/output/bin/q_v2_window_guard"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "9e102413a3a06022bd2a1f8379378d2a6aee6980d6fe06a6a588887fe4728ea5"
+    },
+    "q_v2_tactical_mean": {
+      "id": "q_v2_tactical_mean",
+      "family": "late_flag_action_repair",
+      "parameters": {
+        "threat_window": true,
+        "tactical": true,
+        "revision": 2,
+        "opponent_model": "unchanged_v2"
+      },
+      "hypothesis": "After turn 120, reconsider one nearby flag move against the four unchanged opponent scripts; score both immediate ownership and survival.",
+      "weakness": "One-step script predictions can be wrong, single-flag edits cannot coordinate larger attacks, and mean scoring may accept a bad tail.",
+      "command": "/tmp/yk-league-1c1csuif/workspace/output/bin/q_v2_tactical_mean",
+      "source": "snapshot/candidates/q_v2_tactical_mean/main.cpp",
+      "source_sha256": "210cfc3e283e31abd0d48868cde8ece2688369a64731107a479f89d91444b0db",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/q_v2_tactical_mean",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/q_v2_tactical_mean/main.cpp",
+            "-o",
+            "/tmp/yk-league-1c1csuif/workspace/output/bin/q_v2_tactical_mean"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "42f01afe356c30e7f4e733bb16163162a85e072c64f571aa784f7e57f118f4ac"
+    },
+    "q_v2_tactical_worst": {
+      "id": "q_v2_tactical_worst",
+      "family": "late_flag_action_repair",
+      "parameters": {
+        "threat_window": true,
+        "tactical": true,
+        "worst": true,
+        "revision": 2,
+        "opponent_model": "unchanged_v2"
+      },
+      "hypothesis": "Use the worst predicted result when repairing a late nearby flag move, retaining guaranteed script-local ownership opportunities.",
+      "weakness": "The four scripts do not span all adversaries; worst-case scoring can be too conservative and increase runtime.",
+      "command": "/tmp/yk-league-1c1csuif/workspace/output/bin/q_v2_tactical_worst",
+      "source": "snapshot/candidates/q_v2_tactical_worst/main.cpp",
+      "source_sha256": "bdc13d8c7c85b0d4cc8aff46bad5e8d48dd9b6b28bec9ff78e38711f4f77a1b8",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/q_v2_tactical_worst",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/q_v2_tactical_worst/main.cpp",
+            "-o",
+            "/tmp/yk-league-1c1csuif/workspace/output/bin/q_v2_tactical_worst"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "73da406eb35124f9675709265d0f32087bd2ed13592469acd07059500e5f22a1"
+    },
+    "q_v2_guard_tactical": {
+      "id": "q_v2_guard_tactical",
+      "family": "late_flag_action_repair",
+      "parameters": {
+        "threat_window": true,
+        "guard": 1,
+        "tactical": true,
+        "revision": 2,
+        "opponent_model": "unchanged_v2"
+      },
+      "hypothesis": "Combine a legal same-turn defense pair with a final local flag alternative check in the late game.",
+      "weakness": "The tactical edit can undo a conservative reservation; the score model and full-match validation must justify that tradeoff.",
+      "command": "/tmp/yk-league-1c1csuif/workspace/output/bin/q_v2_guard_tactical",
+      "source": "snapshot/candidates/q_v2_guard_tactical/main.cpp",
+      "source_sha256": "8eb775ed7c51660dd5ddb009fdb8d8f5af8a11283ed7ccf42d3f383f4b7e98b1",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/q_v2_guard_tactical",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/q_v2_guard_tactical/main.cpp",
+            "-o",
+            "/tmp/yk-league-1c1csuif/workspace/output/bin/q_v2_guard_tactical"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "0d8304104cee4aa377503b0125a681dee143bb2ec8c623a28385949de9b3b763"
+    },
+    "j_balanced_portfolio": {
+      "id": "j_balanced_portfolio",
+      "family": "joint_mission_allocation",
+      "parameters": {
+        "profile": 0,
+        "mode": "portfolio",
+        "replacement_style": 2,
+        "opponent_model": "unchanged_v2",
+        "own_only": true
+      },
+      "hypothesis": "한 턴 내 실제 도착 W와 F를 공동 배정하고 충족된 수비 임무에서 잉여 병력을 뺀다.",
+      "weakness": "적 인접 W를 모두 한 목표에 가정하는 보수성과 매 턴 탐욕 재배정이 장기 우회·진동을 만들 수 있다.",
+      "command": "/tmp/yk-league-1c1csuif/workspace/output/bin/j_balanced_portfolio",
+      "source": "snapshot/candidates/j_balanced_portfolio/main.cpp",
+      "source_sha256": "534f55f1d6641ed788ca637663456e43375297d8016ac9832c589b0a012c8422",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/j_balanced_portfolio",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/j_balanced_portfolio/main.cpp",
+            "-o",
+            "/tmp/yk-league-1c1csuif/workspace/output/bin/j_balanced_portfolio"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "df92c3281aec091404b21147afaaed6ce7a47285b791514bd32e8e05890aade2"
+    },
+    "j_defensive_portfolio": {
+      "id": "j_defensive_portfolio",
+      "family": "joint_mission_allocation",
+      "parameters": {
+        "profile": 2,
+        "mode": "portfolio",
+        "replacement_style": 2,
+        "opponent_model": "unchanged_v2",
+        "own_only": true
+      },
+      "hypothesis": "F가 실제 접근하는 소유 거점의 임무 가치를 높이되 필요한 W 이상은 이동시킨다.",
+      "weakness": "예상 F 경로와 과대 위협 때문에 실제 공격하지 않는 거점에 수비를 배정할 수 있다.",
+      "command": "/tmp/yk-league-1c1csuif/workspace/output/bin/j_defensive_portfolio",
+      "source": "snapshot/candidates/j_defensive_portfolio/main.cpp",
+      "source_sha256": "132c00d4f97e311960b21be22d3edacfd020789b8f63ad5c6dc3e9a625be6896",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/j_defensive_portfolio",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/j_defensive_portfolio/main.cpp",
+            "-o",
+            "/tmp/yk-league-1c1csuif/workspace/output/bin/j_defensive_portfolio"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "8f3d87599d56bcfd74aa1000b00236208acc5e8a233bb17a90d59ab4e53b1570"
+    },
+    "j_reclaim_portfolio": {
+      "id": "j_reclaim_portfolio",
+      "family": "joint_mission_allocation",
+      "parameters": {
+        "profile": 3,
+        "mode": "portfolio",
+        "replacement_style": 2,
+        "opponent_model": "unchanged_v2",
+        "own_only": true
+      },
+      "hypothesis": "직전 중립화된 1단계 거점의 재점령을 우선하고 남은 턴에 점유 가능 여부를 구분한다.",
+      "weakness": "중립화 상태는 직전 목표의 중요도를 보장하지 않아 가치가 낮은 반복 경합에 매몰될 수 있다.",
+      "command": "/tmp/yk-league-1c1csuif/workspace/output/bin/j_reclaim_portfolio",
+      "source": "snapshot/candidates/j_reclaim_portfolio/main.cpp",
+      "source_sha256": "8e12a82b5559a227983b17d31b61dada416b99045c987e5d94780a8a7a8092ff",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/j_reclaim_portfolio",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/j_reclaim_portfolio/main.cpp",
+            "-o",
+            "/tmp/yk-league-1c1csuif/workspace/output/bin/j_reclaim_portfolio"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "716c5a00031945ff371314d677bff75e38886e0a89192ca01565ec3f01b7dbd4"
+    },
+    "j_v2_defensive_delayed": {
+      "id": "j_v2_defensive_delayed",
+      "family": "joint_mission_revision2",
+      "parameters": {
+        "start_turn": 30,
+        "parent_candidate": "j_defensive_portfolio",
+        "iteration": 2,
+        "own_only": true,
+        "opponent_model": "unchanged_v2",
+        "mode": "portfolio",
+        "replacement_style": 2
+      },
+      "hypothesis": "7003 첫 턴부터 확장 경로가 갈라진 회귀에 대해 초반 30턴의 원래 정책을 보존하고 이후 공동 배정만 추가한다.",
+      "weakness": "초반 공동 호위의 잠재 이득도 버리며 30턴의 정책 전환이 새로운 역할 진동을 만들 수 있다.",
+      "command": "/tmp/yk-league-1c1csuif/workspace/output/bin/j_v2_defensive_delayed",
+      "source": "snapshot/candidates/j_v2_defensive_delayed/main.cpp",
+      "source_sha256": "3690de18060fd04b5ffbad263ca4de1e8060fb8c6f166aedaa73aebce02e87e3",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/j_v2_defensive_delayed",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/j_v2_defensive_delayed/main.cpp",
+            "-o",
+            "/tmp/yk-league-1c1csuif/workspace/output/bin/j_v2_defensive_delayed"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "29d718769826050e9ac8c3f3da5fe2ca06facd9e08ab9a81e245a710d13a99dd"
+    },
+    "j_v2_reclaim_flags7": {
+      "id": "j_v2_reclaim_flags7",
+      "family": "joint_mission_revision2",
+      "parameters": {
+        "flag_cap": 7,
+        "parent_candidate": "j_reclaim_portfolio",
+        "iteration": 2,
+        "own_only": true,
+        "opponent_model": "unchanged_v2",
+        "mode": "portfolio",
+        "replacement_style": 2
+      },
+      "hypothesis": "7005의 10턴부터 F8명 유지·W3명 감소와 종반 중복 F를 근거로 기수 상한을 v2의 7명으로 제한한다.",
+      "weakness": "F1명의 비용 절약은 작은 효과이며 실제 패배 원인은 목표 배정과 전투 경로일 수 있다.",
+      "command": "/tmp/yk-league-1c1csuif/workspace/output/bin/j_v2_reclaim_flags7",
+      "source": "snapshot/candidates/j_v2_reclaim_flags7/main.cpp",
+      "source_sha256": "b51180c3cbcc533e170ef2e85d15c1626ffb1fa4bce2ebef9a453d218879a4b2",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/j_v2_reclaim_flags7",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/j_v2_reclaim_flags7/main.cpp",
+            "-o",
+            "/tmp/yk-league-1c1csuif/workspace/output/bin/j_v2_reclaim_flags7"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "d2b727a61f4c83a453648ea5331c8300823629e620c0dd1c160751871f8e3b86"
+    },
+    "j_v2_reclaim_relay": {
+      "id": "j_v2_reclaim_relay",
+      "family": "joint_mission_revision2",
+      "parameters": {
+        "blocked_flag_relay": true,
+        "parent_candidate": "j_reclaim_portfolio",
+        "iteration": 2,
+        "own_only": true,
+        "opponent_model": "unchanged_v2",
+        "mode": "portfolio",
+        "replacement_style": 2
+      },
+      "hypothesis": "위험 때문에 진전하지 못한 F에는 최종 건물 대신 다음 진전 칸을 W 집결 임무로 만들어 유휴 F와 호위 단절을 줄인다.",
+      "weakness": "막힌 F가 가치 낮은 전선에 있으면 큰 W 집단을 끌어들여 다른 전선을 약하게 만들 수 있다.",
+      "command": "/tmp/yk-league-1c1csuif/workspace/output/bin/j_v2_reclaim_relay",
+      "source": "snapshot/candidates/j_v2_reclaim_relay/main.cpp",
+      "source_sha256": "0882dc3284c33db9f4687c085e0c570d156a439365aa229fa6cca6f81e909045",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/j_v2_reclaim_relay",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/j_v2_reclaim_relay/main.cpp",
+            "-o",
+            "/tmp/yk-league-1c1csuif/workspace/output/bin/j_v2_reclaim_relay"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "c25e9b0154e07676c562dd0500445c242874deace762ee3a5e6383b57cb17484"
+    },
+    "j_v2_reclaim_relay_delayed": {
+      "id": "j_v2_reclaim_relay_delayed",
+      "family": "joint_mission_revision2",
+      "parameters": {
+        "blocked_flag_relay": true,
+        "start_turn": 30,
+        "parent_candidate": "j_reclaim_portfolio",
+        "iteration": 2,
+        "own_only": true,
+        "opponent_model": "unchanged_v2",
+        "mode": "portfolio",
+        "replacement_style": 2
+      },
+      "hypothesis": "초반 v2 확장을 보존한 뒤 막힌 F의 경유점 호위만 추가해 첫 회귀의 초기 분기와 종반 유휴를 함께 대조한다.",
+      "weakness": "두 요소 결합이므로 단일 요인의 인과 효과는 분리 후보와 비교해야 하며 상대별 회귀 가능성이 남는다.",
+      "command": "/tmp/yk-league-1c1csuif/workspace/output/bin/j_v2_reclaim_relay_delayed",
+      "source": "snapshot/candidates/j_v2_reclaim_relay_delayed/main.cpp",
+      "source_sha256": "bbcd6f5e4c44f2089bc461d53d473b4855f4a6678b139846a9bddb6652cd0ec5",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/j_v2_reclaim_relay_delayed",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/j_v2_reclaim_relay_delayed/main.cpp",
+            "-o",
+            "/tmp/yk-league-1c1csuif/workspace/output/bin/j_v2_reclaim_relay_delayed"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "6794532d02e1ec8759daa51733ca98d7689f03214ee33771d36e0404a556193b"
+    },
+    "a_opponent_fit": {
+      "id": "a_opponent_fit",
+      "family": "observed_opponent_fit",
+      "parameters": {
+        "mix": true,
+        "memory": true
+      },
+      "hypothesis": "직전 합법 관측 전이의 재현 오차로 상대 스크립트 가중치를 조절한다.",
+      "weakness": "실제 상대가 네 스크립트 밖에 있거나 전략을 바꾸면 잘못 추정할 수 있다.",
+      "command": "/tmp/yk-league-1c1csuif/workspace/output/bin/a_opponent_fit",
+      "source": "snapshot/candidates/a_opponent_fit/main.cpp",
+      "source_sha256": "20d8db40bbea44a499664f1f812bce676f28f698d16a545280dac85bb9cef52c",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/a_opponent_fit",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/a_opponent_fit/main.cpp",
+            "-o",
+            "/tmp/yk-league-1c1csuif/workspace/output/bin/a_opponent_fit"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "e38986ef9a1066421baf191d9b087579870c5b9c8d3f3024f77b1d9456435948"
+    },
+    "a_progressive": {
+      "id": "a_progressive",
+      "family": "progressive_refinement",
+      "parameters": {
+        "mix": true,
+        "stage": true
+      },
+      "hypothesis": "얕은 평가로 후보 3개를 추린 뒤 더 깊이 평가하되 세 후보가 다 끝난 경우만 교체한다.",
+      "weakness": "얕은 평가에서 탈락한 장기 투자 행동은 복구하지 못한다.",
+      "command": "/tmp/yk-league-1c1csuif/workspace/output/bin/a_progressive",
+      "source": "snapshot/candidates/a_progressive/main.cpp",
+      "source_sha256": "68a3697133c69f091fc6501ee5b9a828518ad43fd3a35253609a9f87a5c818bf",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/a_progressive",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/a_progressive/main.cpp",
+            "-o",
+            "/tmp/yk-league-1c1csuif/workspace/output/bin/a_progressive"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "74da78be837d8edac24077a0f8015be65c087450158ea9f0ba60279aff13d890"
+    },
+    "a_score_scenarios": {
+      "id": "a_score_scenarios",
+      "family": "hidden_score_scenarios",
+      "parameters": {
+        "mix": true,
+        "uncertain": true
+      },
+      "hypothesis": "미공개 대칭 건물 점수를 합법 범위의 두 극단으로 평가해 점수 추정 취약성을 줄인다.",
+      "weakness": "모든 미공개 점수가 함께 낮거나 높은 두 경우뿐이며 전체 가능 맵의 최악값이 아니다.",
+      "command": "/tmp/yk-league-1c1csuif/workspace/output/bin/a_score_scenarios",
+      "source": "snapshot/candidates/a_score_scenarios/main.cpp",
+      "source_sha256": "518f62369ff3f34f74824b547200e786b34b182d7dee7c41cf84556057cd2b7d",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/a_score_scenarios",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/a_score_scenarios/main.cpp",
+            "-o",
+            "/tmp/yk-league-1c1csuif/workspace/output/bin/a_score_scenarios"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "4c5c7d4e6a32e5ecb28ba7a73394b88c7a64a478be5180551e50bc650e04d7dc"
+    },
+    "a_local_unabstracted": {
+      "id": "a_local_unabstracted",
+      "family": "partial_unabstracted_moves",
+      "parameters": {
+        "local": true,
+        "free": true
+      },
+      "hypothesis": "중요 출발지에서는 기존 스크립트에 없는 인접 칸 이동도 실제 전이로 비교한다.",
+      "weakness": "해당 출발지의 F/W 전량 동시 이동만 추가하므로 최적 분할이나 다턴 계획은 아니다.",
+      "command": "/tmp/yk-league-1c1csuif/workspace/output/bin/a_local_unabstracted",
+      "source": "snapshot/candidates/a_local_unabstracted/main.cpp",
+      "source_sha256": "90fded547ea47130ebacdadb7a12735020c2095fccfdeeb5d51b5470a76fbad4",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/a_local_unabstracted",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/a_local_unabstracted/main.cpp",
+            "-o",
+            "/tmp/yk-league-1c1csuif/workspace/output/bin/a_local_unabstracted"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "17998465ecf28b9e8857ef03187a878f06fd88da5f97ed577c7682322bb74dda"
+    },
+    "a_v2_terminal_local": {
+      "id": "a_v2_terminal_local",
+      "family": "terminal_local_revision",
+      "parameters": {},
+      "hypothesis": "7001 최종 턴에서 동가치 패배 때문에 재점령을 포기한 문제를 종반 점수차로 구분한다.",
+      "weakness": "확인된 한 턴에서 3점을 회복해도 패배는 그대로다. 승패 단계 간 순서는 보존한다.",
+      "command": "/tmp/yk-league-1c1csuif/workspace/output/bin/a_v2_terminal_local",
+      "source": "snapshot/candidates/a_v2_terminal_local/main.cpp",
+      "source_sha256": "52268569e17d7fc40fd46f0996b2da684768902b4af27ec059c4b068911c4473",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/a_v2_terminal_local",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/a_v2_terminal_local/main.cpp",
+            "-o",
+            "/tmp/yk-league-1c1csuif/workspace/output/bin/a_v2_terminal_local"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "b35725f93c855e8e927a54146372f6c6cc55d2162d6c9e6eb6dafea5a566b751"
+    },
+    "a_v2_tactical_local": {
+      "id": "a_v2_tactical_local",
+      "family": "tactical_neighborhood_revision",
+      "parameters": {
+        "tactical": true
+      },
+      "hypothesis": "위협·점령 중인 F의 출발지를 우선하고 F/W별 이동·대기를 별도 후보로 공식 전이 평가한다.",
+      "weakness": "대기를 강제하지 않는다. 7001 turn34처럼 F 대기는 오히려 적의 즉시 점령을 도울 수 있다.",
+      "command": "/tmp/yk-league-1c1csuif/workspace/output/bin/a_v2_tactical_local",
+      "source": "snapshot/candidates/a_v2_tactical_local/main.cpp",
+      "source_sha256": "9d9d6ecd763b84f88c0d5e48f65524798f998e9912f774c0dd22e27f3f78219a",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/a_v2_tactical_local",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/a_v2_tactical_local/main.cpp",
+            "-o",
+            "/tmp/yk-league-1c1csuif/workspace/output/bin/a_v2_tactical_local"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "9bb8f738c30500318781f8817ebaee4331624847bee73e4bbd8ff11790e778ee"
+    },
+    "a_v2_tactical_fit": {
+      "id": "a_v2_tactical_fit",
+      "family": "tactical_neighborhood_revision",
+      "parameters": {
+        "tactical": true,
+        "memory": true
+      },
+      "hypothesis": "같은 전술 후보 집합에서 관측 기반 상대 적합도 사용 여부만 대조한다.",
+      "weakness": "모델 후보 밖의 상대를 잘못 추정하면 국소 개선의 기준도 왜곡된다.",
+      "command": "/tmp/yk-league-1c1csuif/workspace/output/bin/a_v2_tactical_fit",
+      "source": "snapshot/candidates/a_v2_tactical_fit/main.cpp",
+      "source_sha256": "c40211e01e82f767a5db8edc504988edb03c812605d6e5f7216773593f1085e7",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/a_v2_tactical_fit",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/a_v2_tactical_fit/main.cpp",
+            "-o",
+            "/tmp/yk-league-1c1csuif/workspace/output/bin/a_v2_tactical_fit"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "428fffa9179fddeed4dedf9f11f8869c260f830066c8fe1aff53bc394de33e1f"
+    },
+    "a_v2_continuous_mix": {
+      "id": "a_v2_continuous_mix",
+      "family": "continuous_role_revision",
+      "parameters": {
+        "continuous": true
+      },
+      "hypothesis": "혼합한 F/W 역할을 rollout 후속 턴에도 유지해 첫 행동과 평가 계획의 불일치를 줄인다.",
+      "weakness": "7007 패배가 역할 단절 때문인지는 미확인이다. 실제 다음 턴에는 재계획하므로 영속 임무가 아니다.",
+      "command": "/tmp/yk-league-1c1csuif/workspace/output/bin/a_v2_continuous_mix",
+      "source": "snapshot/candidates/a_v2_continuous_mix/main.cpp",
+      "source_sha256": "4c5c82bd22d50f982e333a7ad35335d39a73180f929ca769785597957d176a70",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/a_v2_continuous_mix",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/a_v2_continuous_mix/main.cpp",
+            "-o",
+            "/tmp/yk-league-1c1csuif/workspace/output/bin/a_v2_continuous_mix"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "05f45f2755f10bbeffb080566b6dc6858011f473aa2c089b117915b0a60f96d3"
+    },
+    "v1": {
+      "id": "v1",
+      "family": "reference",
+      "parameters": {},
+      "hypothesis": "과거 제출 회귀 검사",
+      "weakness": "이전 후보",
+      "command": "/tmp/yk-league-1c1csuif/workspace/output/bin/v1",
+      "source": "snapshot/candidates/v1/main.cpp",
+      "source_sha256": "13a240536ea85885a1f61c8007665d132cc5c31a9c23ae00dec9872bf01fbcb5",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/v1",
+            "/tmp/yk-league-1c1csuif/workspace/output/snapshot/candidates/v1/main.cpp",
+            "-o",
+            "/tmp/yk-league-1c1csuif/workspace/output/bin/v1"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "5d29ecbf2b177ad823405220dc95a204b626fa729bbdb58f1459b5db2a1eb289"
+    },
+    "teammate": {
+      "id": "teammate",
+      "family": "reference",
+      "command": "/usr/bin/python3 /tmp/yk-league-1c1csuif/workspace/output/snapshot/opponents/teammate/main.py",
+      "source_sha256": "571397e3c84998b27f8ce0468bc49333663c69b0b84162ad8dfc27e7a47f2365"
+    }
+  },
+  "population_spec": {
+    "modules": [
+      "repairs",
+      "causal_repairs",
+      "joint_allocator",
+      "adaptive_search"
+    ],
+    "include_parameters": false,
+    "deduplicate": true,
+    "include_ids": [
+      "v2",
+      "v1",
+      "r_combined",
+      "r_joint_escort",
+      "r_terminal_margin",
+      "a_local_unabstracted",
+      "j_balanced_portfolio",
+      "j_defensive_portfolio",
+      "q_threat_window",
+      "a_progressive",
+      "a_score_scenarios",
+      "j_reclaim_portfolio",
+      "a_opponent_fit",
+      "q_balanced_front",
+      "q_v2_window_guard",
+      "q_v2_tactical_mean",
+      "q_v2_tactical_worst",
+      "q_v2_guard_tactical",
+      "j_v2_defensive_delayed",
+      "j_v2_reclaim_flags7",
+      "j_v2_reclaim_relay",
+      "j_v2_reclaim_relay_delayed",
+      "a_v2_terminal_local",
+      "a_v2_tactical_local",
+      "a_v2_tactical_fit",
+      "a_v2_continuous_mix"
+    ],
+    "include_prefixes": [],
+    "revision": 2
+  },
+  "duplicate_source_aliases": {},
+  "frozen_sha256": {
+    "snapshot/candidates/a_local_unabstracted/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/a_local_unabstracted/main.cpp": "90fded547ea47130ebacdadb7a12735020c2095fccfdeeb5d51b5470a76fbad4",
+    "snapshot/candidates/a_local_unabstracted/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/a_opponent_fit/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/a_opponent_fit/main.cpp": "20d8db40bbea44a499664f1f812bce676f28f698d16a545280dac85bb9cef52c",
+    "snapshot/candidates/a_opponent_fit/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/a_progressive/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/a_progressive/main.cpp": "68a3697133c69f091fc6501ee5b9a828518ad43fd3a35253609a9f87a5c818bf",
+    "snapshot/candidates/a_progressive/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/a_score_scenarios/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/a_score_scenarios/main.cpp": "518f62369ff3f34f74824b547200e786b34b182d7dee7c41cf84556057cd2b7d",
+    "snapshot/candidates/a_score_scenarios/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/a_v2_continuous_mix/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/a_v2_continuous_mix/main.cpp": "4c5c82bd22d50f982e333a7ad35335d39a73180f929ca769785597957d176a70",
+    "snapshot/candidates/a_v2_continuous_mix/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/a_v2_tactical_fit/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/a_v2_tactical_fit/main.cpp": "c40211e01e82f767a5db8edc504988edb03c812605d6e5f7216773593f1085e7",
+    "snapshot/candidates/a_v2_tactical_fit/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/a_v2_tactical_local/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/a_v2_tactical_local/main.cpp": "9d9d6ecd763b84f88c0d5e48f65524798f998e9912f774c0dd22e27f3f78219a",
+    "snapshot/candidates/a_v2_tactical_local/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/a_v2_terminal_local/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/a_v2_terminal_local/main.cpp": "52268569e17d7fc40fd46f0996b2da684768902b4af27ec059c4b068911c4473",
+    "snapshot/candidates/a_v2_terminal_local/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/j_balanced_portfolio/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/j_balanced_portfolio/main.cpp": "534f55f1d6641ed788ca637663456e43375297d8016ac9832c589b0a012c8422",
+    "snapshot/candidates/j_balanced_portfolio/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/j_defensive_portfolio/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/j_defensive_portfolio/main.cpp": "132c00d4f97e311960b21be22d3edacfd020789b8f63ad5c6dc3e9a625be6896",
+    "snapshot/candidates/j_defensive_portfolio/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/j_reclaim_portfolio/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/j_reclaim_portfolio/main.cpp": "8e12a82b5559a227983b17d31b61dada416b99045c987e5d94780a8a7a8092ff",
+    "snapshot/candidates/j_reclaim_portfolio/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/j_v2_defensive_delayed/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/j_v2_defensive_delayed/main.cpp": "3690de18060fd04b5ffbad263ca4de1e8060fb8c6f166aedaa73aebce02e87e3",
+    "snapshot/candidates/j_v2_defensive_delayed/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/j_v2_reclaim_flags7/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/j_v2_reclaim_flags7/main.cpp": "b51180c3cbcc533e170ef2e85d15c1626ffb1fa4bce2ebef9a453d218879a4b2",
+    "snapshot/candidates/j_v2_reclaim_flags7/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/j_v2_reclaim_relay/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/j_v2_reclaim_relay/main.cpp": "0882dc3284c33db9f4687c085e0c570d156a439365aa229fa6cca6f81e909045",
+    "snapshot/candidates/j_v2_reclaim_relay/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/j_v2_reclaim_relay_delayed/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/j_v2_reclaim_relay_delayed/main.cpp": "bbcd6f5e4c44f2089bc461d53d473b4855f4a6678b139846a9bddb6652cd0ec5",
+    "snapshot/candidates/j_v2_reclaim_relay_delayed/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/q_balanced_front/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/q_balanced_front/main.cpp": "4f0c85395b5ebdcc3581e31f3d855343b1a2c5a7de5cb2606f3676285405fc12",
+    "snapshot/candidates/q_balanced_front/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/q_threat_window/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/q_threat_window/main.cpp": "c943b16a28d19768705925b2d6aa9dc04547af342ca77747d96afdad96985d79",
+    "snapshot/candidates/q_threat_window/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/q_v2_guard_tactical/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/q_v2_guard_tactical/main.cpp": "8eb775ed7c51660dd5ddb009fdb8d8f5af8a11283ed7ccf42d3f383f4b7e98b1",
+    "snapshot/candidates/q_v2_guard_tactical/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/q_v2_tactical_mean/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/q_v2_tactical_mean/main.cpp": "210cfc3e283e31abd0d48868cde8ece2688369a64731107a479f89d91444b0db",
+    "snapshot/candidates/q_v2_tactical_mean/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/q_v2_tactical_worst/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/q_v2_tactical_worst/main.cpp": "bdc13d8c7c85b0d4cc8aff46bad5e8d48dd9b6b28bec9ff78e38711f4f77a1b8",
+    "snapshot/candidates/q_v2_tactical_worst/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/q_v2_window_guard/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/q_v2_window_guard/main.cpp": "b2fc5701b9c5c1f4867dc71591799b73ffa51c655b93121ccf655eb900c88807",
+    "snapshot/candidates/q_v2_window_guard/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/r_combined/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/r_combined/main.cpp": "74d20a52f93df3e85ecbd12fc133a279713d4c0b55c9db98eb5d47564cd88797",
+    "snapshot/candidates/r_combined/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/r_joint_escort/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/r_joint_escort/main.cpp": "2be7876f131ca61fd053510e6c632904e683678e406976b0a3fb1679da8e1b0c",
+    "snapshot/candidates/r_joint_escort/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/r_terminal_margin/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/r_terminal_margin/main.cpp": "afc5a257d40f775a5c3520a9f86275249052a41bf730a275fe8796eb8dfd7f9f",
+    "snapshot/candidates/r_terminal_margin/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/v1/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/v1/main.cpp": "13a240536ea85885a1f61c8007665d132cc5c31a9c23ae00dec9872bf01fbcb5",
+    "snapshot/candidates/v1/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/v2/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/v2/main.cpp": "53bb019625fabbbd3aa8a5b65af971912bb4cbdad8a9fde3009fadad5ba6d4c5",
+    "snapshot/candidates/v2/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/experiments/analyze_iterative.py": "6b04bfb8ac2d0738701283101407fc4946d01f4bc8775a9ddfa5462615f261ba",
+    "snapshot/experiments/analyze_league.py": "968a9b461608d80469716e1d63b3d8b9fabb401af7dfaf15ceb747a3f1cc1924",
+    "snapshot/experiments/analyze_official_round1.py": "398d3175ad159bcc4f6f66c52736769146a61dc7aab15c292c69465e141c8d91",
+    "snapshot/experiments/compare_cpu_executors.py": "097c4e7eaa46c99c9652160608e2d0de8e5b639683f943957ef45530af38bbf0",
+    "snapshot/experiments/cpu_sweep.py": "bf0f0293499473b0295e2dac640e24362c332edc1edc8c01f5e09ef39f12172b",
+    "snapshot/experiments/iterative_campaign.py": "7cd9e27e1d72a0a0727937a2b0e63209eae3dbd4ee39e19c09205cc955916b2d",
+    "snapshot/experiments/league_campaign.py": "90539ddfabdf38e4410a2255448fdffa89f12704aaa6694a73307d3c25ea84ff",
+    "snapshot/experiments/local_league/adaptive_search.py": "d661367d4b526426e4800512e64295eeaf08b14788c34f66032e43b3da70eb50",
+    "snapshot/experiments/local_league/causal_repairs.py": "5d9bba808889350cc4e90043cc7f20af4a3e7a92430cf58839e76bf74c51526a",
+    "snapshot/experiments/local_league/challengers.py": "839d24c3bec34d3d2b874763b597b618f89f59bcad783ca7d1cf2197651adad7",
+    "snapshot/experiments/local_league/joint_allocator.py": "b21789afb6abbdd26f1c4fc0901e2002b35d0772f3022e047da78e025b901958",
+    "snapshot/experiments/local_league/repairs.py": "44158dba1130a0da8201dba3ea00c427a50884a28b929a2b9634506e9f2a690e",
+    "snapshot/experiments/local_league/search_families.py": "1964196de4793e36d9f0fed263a6490dfb6ba2955a6302dd99157b7370fc7634",
+    "snapshot/experiments/local_league.py": "4d7b2e73ed78ff5714d3174ef0399b6966347a7e1d1fb9155f70944723d7b3aa",
+    "snapshot/experiments/profile_bot_stages.py": "8d3ad547e7cada268d7baf15428c28d0d768af7926dc45e0fbd905b4faf2d8da",
+    "snapshot/experiments/profile_throughput.py": "a018e8281002197834f8e809fc20e1a55ec8904bb6baf145600d1802ce67c212",
+    "snapshot/experiments/run_remote_tmp.py": "933cb0b3a5ebeba9e7c2801f408a930245a1a10bc82ed3cca8edd58f37b49ff7",
+    "snapshot/experiments/tune_presubmit.py": "50ba7ccfe4c6d75c7f32b1af9368aa13e963485811ed30cff0ebd61839bef8a0",
+    "snapshot/experiments/tune_presubmit_round2.py": "dd3e3563178c7e4dd09407d6ef798e13fec3c10742112f08d686e536aaea3234",
+    "snapshot/experiments/tune_presubmit_round3.py": "2161acd245824f0386b59460817ed16958cb772dba1c1d64c7796ace9a8ca992",
+    "snapshot/experiments/verify_iterative_artifacts.py": "3c74deb03428bfcac45eb2e7c5783d4f76bc40b9b1d06c64df7b1821edbfb49b",
+    "snapshot/opponents/teammate/_generated.py": "8cf113fe574425e1f761911e59fe43394aad147946b07ed4a837e1da6b25fcfc",
+    "snapshot/opponents/teammate/campus_bot.py": "2568119d19d9def58dd824b06eac332f018f23c0dee24ba1ccddf3169a151e7b",
+    "snapshot/opponents/teammate/main.py": "a114cc5a286ea21cc09ba11a018c65bf38e068c7f79d7a8b5420a05ff936b666",
+    "snapshot/opponents/teammate/protocol.py": "67a5d27ced038de39d7cd3b069bf01786bf4cc9e6c1d39269d1f7e67b185c194",
+    "snapshot/opponents/teammate/submission.json": "ff5431b97ab8dc3d045d053fe1e3148eca20bfe900ec66cd9e7f7f5e542f3de5",
+    "snapshot/submissions/delineate-v1.zip": "571397e3c84998b27f8ce0468bc49333663c69b0b84162ad8dfc27e7a47f2365",
+    "snapshot/submissions/first/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/submissions/first/main.cpp": "13a240536ea85885a1f61c8007665d132cc5c31a9c23ae00dec9872bf01fbcb5",
+    "snapshot/submissions/first/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/submissions/first/submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60",
+    "snapshot/submissions/tuned/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/submissions/tuned/main.cpp": "53bb019625fabbbd3aa8a5b65af971912bb4cbdad8a9fde3009fadad5ba6d4c5",
+    "snapshot/submissions/tuned/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/submissions/tuned/submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60",
+    "snapshot/yk-development-tools/bots/dist/starter/python/_generated.py": "8cf113fe574425e1f761911e59fe43394aad147946b07ed4a837e1da6b25fcfc",
+    "snapshot/yk-development-tools/bots/dist/starter/python/campus_bot.py": "2568119d19d9def58dd824b06eac332f018f23c0dee24ba1ccddf3169a151e7b",
+    "snapshot/yk-development-tools/bots/dist/starter/python/example_lv1.py": "15183b1c05b8daa12212cb2d64fe54dbc81deba69a7e9999b3fac4b3d5ccbc1d",
+    "snapshot/yk-development-tools/bots/dist/starter/python/example_lv2.py": "91c174b0259ea2759d3ff390bb80ff0d6494fbea59003cb5b0a607bf1370bd4f",
+    "snapshot/yk-development-tools/bots/dist/starter/python/main.py": "fc0b4fc2eccb0e497c8435d85412332e3628053a905f51687d654b8e2d35b068",
+    "snapshot/yk-development-tools/bots/dist/starter/python/mybot_template.py": "6d6ee8564548c9bf81562d60c270b69968813045c900c94ce95b5c261456d43b",
+    "snapshot/yk-development-tools/bots/dist/starter/python/protocol.py": "67a5d27ced038de39d7cd3b069bf01786bf4cc9e6c1d39269d1f7e67b185c194",
+    "snapshot/yk-development-tools/bots/dist/starter/python/search.py": "34cc73421e056d857549d28523ada709c6531152e4a0e08b8f8eddbad5073e45",
+    "snapshot/yk-development-tools/bots/dist/starter/python/submission.json": "ff5431b97ab8dc3d045d053fe1e3148eca20bfe900ec66cd9e7f7f5e542f3de5",
+    "snapshot/yk-development-tools/config/balance.json": "a46886d91862244b6daf4990dcdf2371302433e7120c21dc2a29ecf95696b35f",
+    "snapshot/yk-development-tools/engine/__init__.py": "5b9c498fcef25d4900bfe993415964ef9b803c37309acda004e6b553130ace86",
+    "snapshot/yk-development-tools/engine/commands.py": "db00820b9f77cc1b6e71eaa37bb4eb0b4c31cccda7f4b388269a13db04a76798",
+    "snapshot/yk-development-tools/engine/config.py": "964f20b9f914bbc0bc81c84d7fbee3b2ecbed4b54814ab51cbd20d54ef6f20b9",
+    "snapshot/yk-development-tools/engine/pipeline.py": "f0bd96c484c8628b6a070b188adcc1a077e9f90017cc15f11ce366d974490fa6",
+    "snapshot/yk-development-tools/engine/state.py": "dd227e26bcb36a5c412bbf7db19f4418a59627e8ea7e55a90dac5184dcc0737f",
+    "snapshot/yk-development-tools/mapgen/__init__.py": "4e3cf8f63c58f32835898da672ecaacf87b1ee105da4628fb917b2f6070fc5f0",
+    "snapshot/yk-development-tools/mapgen/generator.py": "645b53e2b2ce0049608873b1d01a983661dbdbfe63e358fbb152cbeeea13947e",
+    "snapshot/yk-development-tools/mapgen/render.py": "5486e5f68e8de843fd36ded98716a05a0b399301b6d82651db3aacba6bc16029",
+    "snapshot/yk-development-tools/mapgen/rng.py": "4b56383dd28a138c2ae0bd387a893b4129e108dddf369dd54d3927848f85cc4d",
+    "snapshot/yk-development-tools/runner/__init__.py": "7f675ede62ac8590c279dd4f2f64f8aa526f8d41e60dcfd7dba930612db4fbe2",
+    "snapshot/yk-development-tools/runner/__main__.py": "307299fda7b77d22c64cb51430ec75e5f59d78e9c948786afb3b2544fe45e4b7",
+    "snapshot/yk-development-tools/runner/bots.py": "c09312d62eaa1a2a5af5576b24922a9fd209365e0f3e655894934585858aba43",
+    "snapshot/yk-development-tools/runner/cli.py": "90b102ca9513f710deed37c68adbca6026f43b641a5c00758d2868ecd1a90b81",
+    "snapshot/yk-development-tools/runner/match.py": "122d3fc0c31ade0b808795d15842949da8c32a26c79c779841e7364aa2f51578",
+    "snapshot/yk-development-tools/runner/protocol.py": "5917df4bec20b963586b1ffeb7a45b9959f51e3437a227ee7e8d932b172a7d65",
+    "snapshot/yk-development-tools/runner/replay.py": "fc2bf7405c405ac30da4d7c122b24e3c3275544bfbd1ec22779bbb217df6e8a6",
+    "snapshot/yk-development-tools/runner/validation.py": "7c00c3eca69a8f115e51b3c47a570c1015795b41d16e9987b5679f84f4184345",
+    "bin/a_local_unabstracted": "17998465ecf28b9e8857ef03187a878f06fd88da5f97ed577c7682322bb74dda",
+    "bin/a_opponent_fit": "e38986ef9a1066421baf191d9b087579870c5b9c8d3f3024f77b1d9456435948",
+    "bin/a_progressive": "74da78be837d8edac24077a0f8015be65c087450158ea9f0ba60279aff13d890",
+    "bin/a_score_scenarios": "4c5c7d4e6a32e5ecb28ba7a73394b88c7a64a478be5180551e50bc650e04d7dc",
+    "bin/a_v2_continuous_mix": "05f45f2755f10bbeffb080566b6dc6858011f473aa2c089b117915b0a60f96d3",
+    "bin/a_v2_tactical_fit": "428fffa9179fddeed4dedf9f11f8869c260f830066c8fe1aff53bc394de33e1f",
+    "bin/a_v2_tactical_local": "9bb8f738c30500318781f8817ebaee4331624847bee73e4bbd8ff11790e778ee",
+    "bin/a_v2_terminal_local": "b35725f93c855e8e927a54146372f6c6cc55d2162d6c9e6eb6dafea5a566b751",
+    "bin/j_balanced_portfolio": "df92c3281aec091404b21147afaaed6ce7a47285b791514bd32e8e05890aade2",
+    "bin/j_defensive_portfolio": "8f3d87599d56bcfd74aa1000b00236208acc5e8a233bb17a90d59ab4e53b1570",
+    "bin/j_reclaim_portfolio": "716c5a00031945ff371314d677bff75e38886e0a89192ca01565ec3f01b7dbd4",
+    "bin/j_v2_defensive_delayed": "29d718769826050e9ac8c3f3da5fe2ca06facd9e08ab9a81e245a710d13a99dd",
+    "bin/j_v2_reclaim_flags7": "d2b727a61f4c83a453648ea5331c8300823629e620c0dd1c160751871f8e3b86",
+    "bin/j_v2_reclaim_relay": "c25e9b0154e07676c562dd0500445c242874deace762ee3a5e6383b57cb17484",
+    "bin/j_v2_reclaim_relay_delayed": "6794532d02e1ec8759daa51733ca98d7689f03214ee33771d36e0404a556193b",
+    "bin/q_balanced_front": "f793275b9ed55f28ebe861bcaae28fc6c58ab552e38cce492ddd03f97874367b",
+    "bin/q_threat_window": "2b943b3133f3880925a2883a9c44e93a1170359258ad4300cf7fce47fadd7343",
+    "bin/q_v2_guard_tactical": "0d8304104cee4aa377503b0125a681dee143bb2ec8c623a28385949de9b3b763",
+    "bin/q_v2_tactical_mean": "42f01afe356c30e7f4e733bb16163162a85e072c64f571aa784f7e57f118f4ac",
+    "bin/q_v2_tactical_worst": "73da406eb35124f9675709265d0f32087bd2ed13592469acd07059500e5f22a1",
+    "bin/q_v2_window_guard": "9e102413a3a06022bd2a1f8379378d2a6aee6980d6fe06a6a588887fe4728ea5",
+    "bin/r_combined": "eee6e5fdd7855a8d876cce8ab100198658bdc8274fc2ebcfc86441098c7472ec",
+    "bin/r_joint_escort": "4c17b0ffec1cbc9ee84732976a225d203bced87839a4617eb355ab02dbdf8586",
+    "bin/r_terminal_margin": "20f84b1f0918f421c5609199a16d4484055400bf5364238405e4cc68742b915a",
+    "bin/v1": "5d29ecbf2b177ad823405220dc95a204b626fa729bbdb58f1459b5db2a1eb289",
+    "bin/v2": "cc6247fc8a772df3b6174e2a352be116a7707583db91cca564900f0b0de3b45c"
+  },
+  "finished_utc": "2026-09-27T15:48:31.868389+00:00"
+}

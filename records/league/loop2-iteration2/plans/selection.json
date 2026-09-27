@@ -1,0 +1,37 @@
+{
+  "candidates": [
+    "v2",
+    "a_v2_tactical_fit",
+    "a_v2_terminal_local",
+    "a_local_unabstracted",
+    "j_defensive_portfolio",
+    "a_v2_tactical_local",
+    "q_v2_window_guard"
+  ],
+  "opponents": [
+    "v2",
+    "teammate",
+    "r_combined",
+    "r_joint_escort",
+    "r_terminal_margin"
+  ],
+  "map_seeds": [
+    7200,
+    7201,
+    7202,
+    7203,
+    7204,
+    7205,
+    7206,
+    7207,
+    7208,
+    7209,
+    7210,
+    7211,
+    7212,
+    7213,
+    7214,
+    7215
+  ],
+  "replays": "all"
+}

@@ -1,0 +1,38 @@
+{
+  "transport": [
+    "ssh",
+    "-T"
+  ],
+  "command": [
+    "python3",
+    "experiments/iterative_campaign.py",
+    "--arena",
+    "output",
+    "--phase",
+    "final",
+    "--revision",
+    "2",
+    "--seed-start",
+    "7100",
+    "--maps",
+    "8",
+    "--selection-start",
+    "7200",
+    "--holdout-start",
+    "7300",
+    "--candidates",
+    "a_local_unabstracted,j_balanced_portfolio,j_defensive_portfolio,q_threat_window,a_progressive,a_score_scenarios,j_reclaim_portfolio,a_opponent_fit,q_balanced_front,q_v2_window_guard,q_v2_tactical_mean,q_v2_tactical_worst,q_v2_guard_tactical,j_v2_defensive_delayed,j_v2_reclaim_flags7,j_v2_reclaim_relay,j_v2_reclaim_relay_delayed,a_v2_terminal_local,a_v2_tactical_local,a_v2_tactical_fit,a_v2_continuous_mix",
+    "--workers",
+    "16"
+  ],
+  "returncode": 0,
+  "archive_sha256": "3b8d06127b5f4ae71c5406b90fff7ab9bbc876f2ce35fc14678ffb40700caceb",
+  "archive_bytes": 442769657,
+  "cleanup": {
+    "event": "cleanup_complete",
+    "utc": "2026-09-27T16:21:05Z",
+    "path": "/tmp/yk-league-1c1csuif",
+    "exists": false,
+    "archive_accepted": true
+  }
+}

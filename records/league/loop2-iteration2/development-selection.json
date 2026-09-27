@@ -1,0 +1,35 @@
+{
+  "ranking": [
+    "a_v2_tactical_fit",
+    "a_v2_terminal_local",
+    "a_local_unabstracted",
+    "j_defensive_portfolio",
+    "a_v2_tactical_local",
+    "q_v2_window_guard",
+    "j_balanced_portfolio",
+    "j_v2_reclaim_relay",
+    "j_v2_reclaim_relay_delayed",
+    "j_v2_defensive_delayed",
+    "q_v2_guard_tactical",
+    "j_reclaim_portfolio",
+    "j_v2_reclaim_flags7",
+    "q_balanced_front",
+    "a_opponent_fit",
+    "a_progressive",
+    "v2",
+    "a_score_scenarios",
+    "q_v2_tactical_worst",
+    "a_v2_continuous_mix",
+    "q_v2_tactical_mean",
+    "q_threat_window"
+  ],
+  "selected": [
+    "v2",
+    "a_v2_tactical_fit",
+    "a_v2_terminal_local",
+    "a_local_unabstracted",
+    "j_defensive_portfolio",
+    "a_v2_tactical_local",
+    "q_v2_window_guard"
+  ]
+}

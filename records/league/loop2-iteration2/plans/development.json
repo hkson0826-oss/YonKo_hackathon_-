@@ -1,0 +1,44 @@
+{
+  "candidates": [
+    "v2",
+    "a_local_unabstracted",
+    "j_balanced_portfolio",
+    "j_defensive_portfolio",
+    "q_threat_window",
+    "a_progressive",
+    "a_score_scenarios",
+    "j_reclaim_portfolio",
+    "a_opponent_fit",
+    "q_balanced_front",
+    "q_v2_window_guard",
+    "q_v2_tactical_mean",
+    "q_v2_tactical_worst",
+    "q_v2_guard_tactical",
+    "j_v2_defensive_delayed",
+    "j_v2_reclaim_flags7",
+    "j_v2_reclaim_relay",
+    "j_v2_reclaim_relay_delayed",
+    "a_v2_terminal_local",
+    "a_v2_tactical_local",
+    "a_v2_tactical_fit",
+    "a_v2_continuous_mix"
+  ],
+  "opponents": [
+    "v2",
+    "teammate",
+    "r_combined",
+    "r_joint_escort",
+    "r_terminal_margin"
+  ],
+  "map_seeds": [
+    7100,
+    7101,
+    7102,
+    7103,
+    7104,
+    7105,
+    7106,
+    7107
+  ],
+  "replays": "all"
+}
