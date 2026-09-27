@@ -1,0 +1,43 @@
+{
+  "finalists": {
+    "ranking": [
+      "r_combined",
+      "p_01",
+      "r_joint_escort",
+      "r_terminal_margin",
+      "v2",
+      "r_economic_value",
+      "r_guard_one",
+      "p_10",
+      "c_economy_portfolio"
+    ],
+    "finalists": [
+      "r_combined",
+      "p_01"
+    ],
+    "primary_candidate": "r_combined"
+  },
+  "sessions": [
+    {
+      "status": "complete",
+      "started_utc": "2026-09-27T15:07:19.394760+00:00",
+      "workers": 16,
+      "resumed_jobs": 0,
+      "scheduled_jobs": 720,
+      "command": [
+        "/usr/bin/python3",
+        "experiments/league_campaign.py",
+        "--arena",
+        "output",
+        "--workers",
+        "16"
+      ],
+      "plan_sha256": "b1cfccfff6be24c91fdcfac1d9068a8f6ab767c49758efe695753d1293e7e4f0",
+      "python": "3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]",
+      "python_executable": "/usr/bin/python3",
+      "finished_utc": "2026-09-27T15:08:58.031193+00:00",
+      "wall_seconds": 98.63628015853465,
+      "finished_new_jobs": 720
+    }
+  ]
+}
