@@ -56,11 +56,32 @@ def parameter_variants(source):
              "source": sweep.render_candidate(source, values)} for i, values in enumerate(settings)]
 
 
-def prepare(output):
+def filter_population(population, spec):
+    ids = [item['id'] for item in population]
+    if len(ids) != len(set(ids)):
+        raise ValueError('Duplicate bot ids')
+    requested = spec.get('include_ids')
+    if requested is not None:
+        unknown = set(requested) - set(ids)
+        if unknown:
+            raise ValueError(f'Unknown requested candidates: {sorted(unknown)}')
+        population = [item for item in population if item['id'] in requested]
+    aliases, unique, hashes = {}, [], {}
+    for item in population:
+        digest = hashlib.sha256(item['source'].encode()).hexdigest()
+        if spec.get('deduplicate') and digest in hashes:
+            aliases[item['id']] = hashes[digest]
+        else:
+            unique.append(item)
+            hashes[digest] = item['id']
+    return unique, aliases
+
+
+def prepare(output, population_spec=None):
     output.mkdir(parents=True, exist_ok=False)
     (output / ".gitignore").write_text("bin/\n")
     snapshot = output / "snapshot"
-    inputs = {Path("experiments/local_league.py"), Path("experiments/cpu_sweep.py"), Path("experiments/league_campaign.py")}
+    inputs = {path.relative_to(ROOT) for path in (ROOT / 'experiments').glob('*.py')}
     inputs.update(path.relative_to(ROOT) for path in (ROOT / "experiments/local_league").glob("*.py"))
     for folder in ("submissions/tuned", "submissions/first", "yk-development-tools/engine",
                    "yk-development-tools/runner", "yk-development-tools/mapgen", "yk-development-tools/config",
@@ -75,8 +96,10 @@ def prepare(output):
     source = (snapshot / "submissions/tuned/main.cpp").read_text()
     population = [{"id": "v2", "family": "baseline", "parameters": {},
                    "hypothesis": "현재 제출 기준선", "weakness": "공식 1차 경제·종반 패배", "source": source}]
-    population += parameter_variants(source)
-    for module in ("repairs", "search_families", "challengers"):
+    spec_config = population_spec or {}
+    if spec_config.get('include_parameters', True):
+        population += parameter_variants(source)
+    for module in spec_config.get('modules', ("repairs", "search_families", "challengers")):
         # Import the copied generator so every produced candidate is attributable.
         path = snapshot / f"experiments/local_league/{module}.py"
         spec = importlib.util.spec_from_file_location("league_" + module, path)
@@ -85,9 +108,7 @@ def prepare(output):
         population += loaded.variants(source)
     population.append({"id": "v1", "family": "reference", "parameters": {},
                        "hypothesis": "과거 제출 회귀 검사", "weakness": "이전 후보", "source": (snapshot / "submissions/first/main.cpp").read_text()})
-    ids = [item["id"] for item in population]
-    if len(ids) != len(set(ids)):
-        raise ValueError("Duplicate bot ids")
+    population, aliases = filter_population(population, spec_config)
     bots = {}
     (output / "bin").mkdir()
     compiler = shutil.which("g++")
@@ -95,7 +116,8 @@ def prepare(output):
                 "source_commit": os.environ.get("YK_SOURCE_COMMIT") or subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=ROOT, text=True).strip(),
                 "input_sha256": {str(p): sha(snapshot / p) for p in sorted(inputs)},
                 "compiler": subprocess.check_output([compiler, "--version"], text=True).splitlines()[0],
-                "python": sys.version, "policy_rng_seed": 20260927, "bots": bots}
+                "python": sys.version, "policy_rng_seed": 20260927, "bots": bots,
+                "population_spec": spec_config, "duplicate_source_aliases": aliases}
     write(output / "manifest.json", manifest)
     compiled = {}
     for candidate in population:
@@ -142,7 +164,9 @@ def diagnostics(replay):
     result = {t: {"engineering_turns": 0, "late_engineering_turns": 0,
                   "production": {k: 0 for k in "FWS"}, "deaths": {k: 0 for k in "FWS"},
                   "score_turn_120": None, "max_score_lead": 0, "biggest_score_drop": 0,
-                  "biggest_drop_turn": None, "flag_contest_turns": 0} for t in "YK"}
+                  "biggest_drop_turn": None, "flag_contest_turns": 0,
+                  "late_frames": 0, "late_w_concentration_mean": 0.0,
+                  "late_largest_w_stack": 0} for t in "YK"}
     previous_scores = {t: 0 for t in "YK"}
     for frame in replay["turns"]:
         before = {t: {k: sum(n for (x,y,side,kind),n in state.units.items() if side==t and kind==k) for k in "FWS"} for t in "YK"}
@@ -174,7 +198,15 @@ def diagnostics(replay):
             if drop > result[t]["biggest_score_drop"]:
                 result[t]["biggest_score_drop"], result[t]["biggest_drop_turn"] = drop, frame["turn"]
             result[t]["flag_contest_turns"] += sum(state.get_unit(b.x,b.y,t,"F") > 0 and state.get_unit(b.x,b.y,enemy,"F") > 0 for b in state.buildings.values())
+            if frame['turn'] >= 121:
+                warriors = [n for (x,y,side,kind),n in state.units.items() if side == t and kind == 'W']
+                largest = max(warriors, default=0)
+                result[t]['late_frames'] += 1
+                result[t]['late_w_concentration_mean'] += largest / max(1, sum(warriors))
+                result[t]['late_largest_w_stack'] = max(result[t]['late_largest_w_stack'], largest)
         previous_scores = score
+    for stats in result.values():
+        stats['late_w_concentration_mean'] /= max(1, stats['late_frames'])
     return result
 
 
