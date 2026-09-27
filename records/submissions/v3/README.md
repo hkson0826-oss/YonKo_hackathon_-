@@ -21,3 +21,7 @@
 각 경기의 응답 시간 배열·출력량·전체 리플레이를 보존했다. [validation.json](validation.json)에 SDK·평가 파일·ZIP 멤버별 해시, 명령, 환경, TMP 삭제 상태가 있다. 빌드 로그는 [후보](build-candidate-from-zip.json)와 [v2](build-frozen-v2.json), ZIP 형식 검사는 [zip-inspection.json](zip-inspection.json)에 있다.
 
 전체 후보 리그는 `jisang`에 보존했다. 이 공유본의 [평가 요약 근거](evidence/source-manifest.json)는 원본을 바꾸지 않고 필요한 집계·선택 기록만 복사한 것이다. 전체 재현은 [동결된 분석·실험 커밋](https://github.com/hkson0826-oss/YonKo_hackathon_-/tree/fa20717dea009dc505242eea32440435ff48964b)에서 새 출력 경로로 수행한다. 임시 빌드와 압축 해제는 TMP에서 하고 종료 시 정리한다.
+
+## GCC 12.2 추가 호환성 검사
+
+같은 ZIP을 TMP의 Debian GCC12.2로 C++20/O2 빌드하고 SDK 프로토콜17턴 검사를 통과했다. ZIP·소스 SHA는 기존과 같으며 임시 컴파일러·실행 파일을 삭제했다. [검사 원본](gcc12-compatibility.json). 기존 GCC16.2 CPU4경기 검사를 보완하는 결과이며 공식 컨테이너와 동일한 환경 인증은 아니다.
