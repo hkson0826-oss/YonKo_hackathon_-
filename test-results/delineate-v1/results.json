@@ -1,0 +1,122 @@
+[
+  {
+    "opponent": "lv1",
+    "team": "Y",
+    "winner": "Y",
+    "reason": "instant",
+    "score": {
+      "Y": 35,
+      "K": 0
+    },
+    "turns": 34,
+    "seed": 0,
+    "first_decision_ms": 12.881000000106724,
+    "max_later_decision_ms": 1.2987000000066473,
+    "subprocess_transcript_ok": true
+  },
+  {
+    "opponent": "lv1",
+    "team": "K",
+    "winner": "K",
+    "reason": "instant",
+    "score": {
+      "Y": 0,
+      "K": 35
+    },
+    "turns": 33,
+    "seed": 0,
+    "first_decision_ms": 13.441900000088935,
+    "max_later_decision_ms": 1.0338000001866021,
+    "subprocess_transcript_ok": true
+  },
+  {
+    "opponent": "lv1",
+    "team": "Y",
+    "winner": "Y",
+    "reason": "instant",
+    "score": {
+      "Y": 34,
+      "K": 0
+    },
+    "turns": 36,
+    "seed": 1,
+    "first_decision_ms": 12.976999999864347,
+    "max_later_decision_ms": 1.1940999997932522,
+    "subprocess_transcript_ok": true
+  },
+  {
+    "opponent": "lv1",
+    "team": "K",
+    "winner": "K",
+    "reason": "instant",
+    "score": {
+      "Y": 0,
+      "K": 33
+    },
+    "turns": 29,
+    "seed": 1,
+    "first_decision_ms": 12.652200000047742,
+    "max_later_decision_ms": 1.1847999999190506,
+    "subprocess_transcript_ok": true
+  },
+  {
+    "opponent": "lv2",
+    "team": "Y",
+    "winner": "Y",
+    "reason": "instant",
+    "score": {
+      "Y": 35,
+      "K": 0
+    },
+    "turns": 41,
+    "seed": 0,
+    "first_decision_ms": 12.963000000127067,
+    "max_later_decision_ms": 5.106899999645975,
+    "subprocess_transcript_ok": true
+  },
+  {
+    "opponent": "lv2",
+    "team": "K",
+    "winner": "K",
+    "reason": "instant",
+    "score": {
+      "Y": 0,
+      "K": 35
+    },
+    "turns": 43,
+    "seed": 0,
+    "first_decision_ms": 13.412400000106572,
+    "max_later_decision_ms": 1.081999999769323,
+    "subprocess_transcript_ok": true
+  },
+  {
+    "opponent": "lv2",
+    "team": "Y",
+    "winner": "Y",
+    "reason": "instant",
+    "score": {
+      "Y": 33,
+      "K": 0
+    },
+    "turns": 35,
+    "seed": 1,
+    "first_decision_ms": 13.20320000013453,
+    "max_later_decision_ms": 1.094699999612203,
+    "subprocess_transcript_ok": true
+  },
+  {
+    "opponent": "lv2",
+    "team": "K",
+    "winner": "K",
+    "reason": "instant",
+    "score": {
+      "Y": 0,
+      "K": 34
+    },
+    "turns": 38,
+    "seed": 1,
+    "first_decision_ms": 13.045099999999366,
+    "max_later_decision_ms": 1.8605000000206928,
+    "subprocess_transcript_ok": true
+  }
+]
