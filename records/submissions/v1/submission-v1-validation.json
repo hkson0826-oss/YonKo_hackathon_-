@@ -1,0 +1,109 @@
+{
+  "ok": true,
+  "language": "cpp",
+  "issues": [],
+  "result": {
+    "winner": "Y",
+    "reason": "instant",
+    "score": {
+      "Y": 20,
+      "K": 0
+    },
+    "turns": 16,
+    "seed": 0
+  },
+  "output_usage": {
+    "stdout_bytes": 9308,
+    "stderr_bytes": 0,
+    "max_line_bytes": 87,
+    "turns": [
+      {
+        "turn": 1,
+        "bytes": 131,
+        "lines": 5
+      },
+      {
+        "turn": 2,
+        "bytes": 171,
+        "lines": 8
+      },
+      {
+        "turn": 3,
+        "bytes": 236,
+        "lines": 12
+      },
+      {
+        "turn": 4,
+        "bytes": 306,
+        "lines": 17
+      },
+      {
+        "turn": 5,
+        "bytes": 351,
+        "lines": 20
+      },
+      {
+        "turn": 6,
+        "bytes": 416,
+        "lines": 24
+      },
+      {
+        "turn": 7,
+        "bytes": 491,
+        "lines": 29
+      },
+      {
+        "turn": 8,
+        "bytes": 566,
+        "lines": 34
+      },
+      {
+        "turn": 9,
+        "bytes": 641,
+        "lines": 39
+      },
+      {
+        "turn": 10,
+        "bytes": 689,
+        "lines": 42
+      },
+      {
+        "turn": 11,
+        "bytes": 719,
+        "lines": 44
+      },
+      {
+        "turn": 12,
+        "bytes": 780,
+        "lines": 48
+      },
+      {
+        "turn": 13,
+        "bytes": 856,
+        "lines": 53
+      },
+      {
+        "turn": 14,
+        "bytes": 945,
+        "lines": 59
+      },
+      {
+        "turn": 15,
+        "bytes": 960,
+        "lines": 60
+      },
+      {
+        "turn": 16,
+        "bytes": 1050,
+        "lines": 66
+      }
+    ],
+    "unfinished_turn": {
+      "turn": 17,
+      "bytes": 0,
+      "lines": 0
+    },
+    "warnings": []
+  },
+  "warnings": []
+}

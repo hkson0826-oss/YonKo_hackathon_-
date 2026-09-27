@@ -1,0 +1,9 @@
+.firecrawl/
+__pycache__/
+*.pyc
+artifacts/first_bot
+artifacts/simulator_bridge
+artifacts/tuned_bot
+records/tuning/**/bot
+artifacts/tuned_simulator_bridge
+artifacts/opponents/

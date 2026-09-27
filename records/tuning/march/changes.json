@@ -1,0 +1,6 @@
+[
+  [
+    "if (loss) v -= min(16.0,2.0*loss) * (style == 2 ? .55 : 1.0);",
+    "if (loss) v -= min(3.0,0.3*loss) * (style == 2 ? .55 : 1.0);"
+  ]
+]

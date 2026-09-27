@@ -1,0 +1,26 @@
+{
+  "fixture": "Synthetic dense stacks, intentionally above normal game population; I/O and runtime stress only",
+  "results": [
+    {
+      "turn": 101,
+      "status": "ok",
+      "lines": 139,
+      "bytes": 2245,
+      "max_turn_ms": 32.266233999962424
+    },
+    {
+      "turn": 102,
+      "status": "ok",
+      "lines": 139,
+      "bytes": 2245,
+      "max_turn_ms": 35.91920000008031
+    },
+    {
+      "turn": 103,
+      "status": "ok",
+      "lines": 139,
+      "bytes": 2245,
+      "max_turn_ms": 46.25758499969379
+    }
+  ]
+}

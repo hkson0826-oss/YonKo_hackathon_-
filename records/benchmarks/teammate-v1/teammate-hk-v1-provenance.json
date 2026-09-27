@@ -1,0 +1,16 @@
+{
+  "opponent_branch": "origin/손형권_v1",
+  "opponent_commit": "351c32e027b5598ddb53c49b6e7f2d7c9c6c6a4e",
+  "opponent_worktree": "/home/dlwltkd/YonKo_hackathon_-team-hk-v1",
+  "opponent_zip": "/home/dlwltkd/YonKo_hackathon_-team-hk-v1/submissions/delineate-v1.zip",
+  "opponent_zip_sha256": "571397e3c84998b27f8ce0468bc49333663c69b0b84162ad8dfc27e7a47f2365",
+  "opponent_command": "python3 /home/dlwltkd/YonKo_hackathon_-team-hk-v1/delineate-v1/main.py",
+  "candidate_zip_sha256": "40f8ae50e68a1b3f6cc0bff79164cf88dbd95066a7741abd0b43dfba9e7872aa",
+  "candidate_executable_sha256": "ce00b3854a7b2545bcac39ccb5f1d932b4e2fe88a0db2fdd2536ca9255406438",
+  "engine_git_commit": "a77891bfaff14faeb8c989c9a0847c61ae0b7398",
+  "balance_sha256": "a46886d91862244b6daf4990dcdf2371302433e7120c21dc2a29ecf95696b35f",
+  "python_version": "3.14.7",
+  "source_modified": false,
+  "turn_timeout_ms": 300,
+  "max_turns": 160
+}

@@ -1,0 +1,417 @@
+{
+  "candidate": "./artifacts/tuning-presubmit/portfolio-assets/bot",
+  "opponent": "./artifacts/first_bot",
+  "summary": {
+    "matches": 20,
+    "wins": 12,
+    "draws": 0,
+    "losses": 8,
+    "forfeits": 0,
+    "max_turn_ms": 55.56720900040091,
+    "opponent_max_turn_ms": 32.9454379998424,
+    "mean_score_margin": 6.05,
+    "full_length_matches": 15,
+    "by_team": {
+      "Y": {
+        "wins": 5,
+        "draws": 0,
+        "matches": 10
+      },
+      "K": {
+        "wins": 7,
+        "draws": 0,
+        "matches": 10
+      }
+    }
+  },
+  "matches": [
+    {
+      "seed": 2000,
+      "team": "K",
+      "result": {
+        "winner": "K",
+        "reason": "instant",
+        "score": {
+          "Y": 0,
+          "K": 29
+        },
+        "turns": 120,
+        "seed": 2000
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 29,
+      "max_turn_ms": 38.43800000004194,
+      "opponent_max_turn_ms": 24.75619300003018
+    },
+    {
+      "seed": 2000,
+      "team": "Y",
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 15,
+          "K": 16
+        },
+        "turns": 160,
+        "seed": 2000
+      },
+      "win": false,
+      "draw": false,
+      "score_margin": -1,
+      "max_turn_ms": 39.02430700009063,
+      "opponent_max_turn_ms": 27.69234100014728,
+      "replay": "records/tuning/portfolio-assets/losses-v1/seed-2000-Y.json"
+    },
+    {
+      "seed": 2001,
+      "team": "K",
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 23,
+          "K": 8
+        },
+        "turns": 160,
+        "seed": 2001
+      },
+      "win": false,
+      "draw": false,
+      "score_margin": -15,
+      "max_turn_ms": 39.7537500002727,
+      "opponent_max_turn_ms": 28.560381999795936,
+      "replay": "records/tuning/portfolio-assets/losses-v1/seed-2001-K.json"
+    },
+    {
+      "seed": 2001,
+      "team": "Y",
+      "result": {
+        "winner": "K",
+        "reason": "instant",
+        "score": {
+          "Y": 0,
+          "K": 34
+        },
+        "turns": 136,
+        "seed": 2001
+      },
+      "win": false,
+      "draw": false,
+      "score_margin": -34,
+      "max_turn_ms": 55.56720900040091,
+      "opponent_max_turn_ms": 27.937078999912046,
+      "replay": "records/tuning/portfolio-assets/losses-v1/seed-2001-Y.json"
+    },
+    {
+      "seed": 2002,
+      "team": "K",
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 13,
+          "K": 27
+        },
+        "turns": 160,
+        "seed": 2002
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 14,
+      "max_turn_ms": 37.98622699969201,
+      "opponent_max_turn_ms": 29.478170999936992
+    },
+    {
+      "seed": 2002,
+      "team": "Y",
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 32,
+          "K": 9
+        },
+        "turns": 160,
+        "seed": 2002
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 23,
+      "max_turn_ms": 44.293372000083764,
+      "opponent_max_turn_ms": 31.878943999799958
+    },
+    {
+      "seed": 2003,
+      "team": "K",
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 17,
+          "K": 24
+        },
+        "turns": 160,
+        "seed": 2003
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 7,
+      "max_turn_ms": 40.76440700009698,
+      "opponent_max_turn_ms": 31.517837999672338
+    },
+    {
+      "seed": 2003,
+      "team": "Y",
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 14,
+          "K": 26
+        },
+        "turns": 160,
+        "seed": 2003
+      },
+      "win": false,
+      "draw": false,
+      "score_margin": -12,
+      "max_turn_ms": 40.30843000009554,
+      "opponent_max_turn_ms": 26.596960999995645,
+      "replay": "records/tuning/portfolio-assets/losses-v1/seed-2003-Y.json"
+    },
+    {
+      "seed": 2004,
+      "team": "K",
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 2,
+          "K": 27
+        },
+        "turns": 160,
+        "seed": 2004
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 25,
+      "max_turn_ms": 32.913524999912624,
+      "opponent_max_turn_ms": 26.176466999913828
+    },
+    {
+      "seed": 2004,
+      "team": "Y",
+      "result": {
+        "winner": "Y",
+        "reason": "instant",
+        "score": {
+          "Y": 25,
+          "K": 0
+        },
+        "turns": 154,
+        "seed": 2004
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 25,
+      "max_turn_ms": 34.894623999662144,
+      "opponent_max_turn_ms": 32.9454379998424
+    },
+    {
+      "seed": 2005,
+      "team": "K",
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 9,
+          "K": 22
+        },
+        "turns": 160,
+        "seed": 2005
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 13,
+      "max_turn_ms": 40.56134000029488,
+      "opponent_max_turn_ms": 32.766378999895096
+    },
+    {
+      "seed": 2005,
+      "team": "Y",
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 10,
+          "K": 22
+        },
+        "turns": 160,
+        "seed": 2005
+      },
+      "win": false,
+      "draw": false,
+      "score_margin": -12,
+      "max_turn_ms": 45.563833999949566,
+      "opponent_max_turn_ms": 30.116271999759192,
+      "replay": "records/tuning/portfolio-assets/losses-v1/seed-2005-Y.json"
+    },
+    {
+      "seed": 2006,
+      "team": "K",
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 30,
+          "K": 11
+        },
+        "turns": 160,
+        "seed": 2006
+      },
+      "win": false,
+      "draw": false,
+      "score_margin": -19,
+      "max_turn_ms": 41.146404999835795,
+      "opponent_max_turn_ms": 32.7843249997386,
+      "replay": "records/tuning/portfolio-assets/losses-v1/seed-2006-K.json"
+    },
+    {
+      "seed": 2006,
+      "team": "Y",
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 23,
+          "K": 12
+        },
+        "turns": 160,
+        "seed": 2006
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 11,
+      "max_turn_ms": 37.11641000018062,
+      "opponent_max_turn_ms": 25.81466099991303
+    },
+    {
+      "seed": 2007,
+      "team": "K",
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 13,
+          "K": 12
+        },
+        "turns": 160,
+        "seed": 2007
+      },
+      "win": false,
+      "draw": false,
+      "score_margin": -1,
+      "max_turn_ms": 43.19771300015418,
+      "opponent_max_turn_ms": 27.70810399988477,
+      "replay": "records/tuning/portfolio-assets/losses-v1/seed-2007-K.json"
+    },
+    {
+      "seed": 2007,
+      "team": "Y",
+      "result": {
+        "winner": "Y",
+        "reason": "instant",
+        "score": {
+          "Y": 29,
+          "K": 0
+        },
+        "turns": 142,
+        "seed": 2007
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 29,
+      "max_turn_ms": 46.48914800009152,
+      "opponent_max_turn_ms": 28.249844999663765
+    },
+    {
+      "seed": 2008,
+      "team": "K",
+      "result": {
+        "winner": "K",
+        "reason": "instant",
+        "score": {
+          "Y": 0,
+          "K": 32
+        },
+        "turns": 133,
+        "seed": 2008
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 32,
+      "max_turn_ms": 35.13479599996572,
+      "opponent_max_turn_ms": 23.642705000384012
+    },
+    {
+      "seed": 2008,
+      "team": "Y",
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 25,
+          "K": 6
+        },
+        "turns": 160,
+        "seed": 2008
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 19,
+      "max_turn_ms": 39.87299599975813,
+      "opponent_max_turn_ms": 28.345656000055897
+    },
+    {
+      "seed": 2009,
+      "team": "K",
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 12,
+          "K": 27
+        },
+        "turns": 160,
+        "seed": 2009
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 15,
+      "max_turn_ms": 44.03573299987329,
+      "opponent_max_turn_ms": 18.973933999859582
+    },
+    {
+      "seed": 2009,
+      "team": "Y",
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 5,
+          "K": 32
+        },
+        "turns": 160,
+        "seed": 2009
+      },
+      "win": false,
+      "draw": false,
+      "score_margin": -27,
+      "max_turn_ms": 32.668178000221815,
+      "opponent_max_turn_ms": 24.095818999740004,
+      "replay": "records/tuning/portfolio-assets/losses-v1/seed-2009-Y.json"
+    }
+  ]
+}

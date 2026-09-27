@@ -1,0 +1,257 @@
+{
+  "candidate": "/home/dlwltkd/YonKo_hackathon_-/artifacts/tuning-presubmit/assets/bot",
+  "opponent": "python3 /home/dlwltkd/YonKo_hackathon_-team-hk-v1/delineate-v1/main.py",
+  "summary": {
+    "matches": 12,
+    "wins": 8,
+    "draws": 0,
+    "losses": 4,
+    "forfeits": 0,
+    "max_turn_ms": 37.269022000145924,
+    "opponent_max_turn_ms": 93.81962799989196,
+    "mean_score_margin": 8.833333333333334,
+    "full_length_matches": 10,
+    "by_team": {
+      "Y": {
+        "wins": 4,
+        "draws": 0,
+        "matches": 6
+      },
+      "K": {
+        "wins": 4,
+        "draws": 0,
+        "matches": 6
+      }
+    }
+  },
+  "matches": [
+    {
+      "seed": 1000,
+      "team": "K",
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 28,
+          "K": 7
+        },
+        "turns": 160,
+        "seed": 1000
+      },
+      "win": false,
+      "draw": false,
+      "score_margin": -21,
+      "max_turn_ms": 36.32943700040414,
+      "opponent_max_turn_ms": 55.2000760003466
+    },
+    {
+      "seed": 1000,
+      "team": "Y",
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 6,
+          "K": 31
+        },
+        "turns": 160,
+        "seed": 1000
+      },
+      "win": false,
+      "draw": false,
+      "score_margin": -25,
+      "max_turn_ms": 37.269022000145924,
+      "opponent_max_turn_ms": 56.808684000316134
+    },
+    {
+      "seed": 1001,
+      "team": "K",
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 14,
+          "K": 12
+        },
+        "turns": 160,
+        "seed": 1001
+      },
+      "win": false,
+      "draw": false,
+      "score_margin": -2,
+      "max_turn_ms": 30.843721000110236,
+      "opponent_max_turn_ms": 75.48196000016105
+    },
+    {
+      "seed": 1001,
+      "team": "Y",
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 9,
+          "K": 26
+        },
+        "turns": 160,
+        "seed": 1001
+      },
+      "win": false,
+      "draw": false,
+      "score_margin": -17,
+      "max_turn_ms": 33.80486500009283,
+      "opponent_max_turn_ms": 87.75812400017458
+    },
+    {
+      "seed": 1002,
+      "team": "K",
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 11,
+          "K": 26
+        },
+        "turns": 160,
+        "seed": 1002
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 15,
+      "max_turn_ms": 30.460461000075156,
+      "opponent_max_turn_ms": 92.44592599998214
+    },
+    {
+      "seed": 1002,
+      "team": "Y",
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 28,
+          "K": 9
+        },
+        "turns": 160,
+        "seed": 1002
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 19,
+      "max_turn_ms": 34.10066300011749,
+      "opponent_max_turn_ms": 64.58547700003692
+    },
+    {
+      "seed": 1003,
+      "team": "K",
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 10,
+          "K": 20
+        },
+        "turns": 160,
+        "seed": 1003
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 10,
+      "max_turn_ms": 32.67586099991604,
+      "opponent_max_turn_ms": 79.48070200018265
+    },
+    {
+      "seed": 1003,
+      "team": "Y",
+      "result": {
+        "winner": "Y",
+        "reason": "instant",
+        "score": {
+          "Y": 36,
+          "K": 0
+        },
+        "turns": 130,
+        "seed": 1003
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 36,
+      "max_turn_ms": 29.484577999937756,
+      "opponent_max_turn_ms": 86.32868299991969
+    },
+    {
+      "seed": 1004,
+      "team": "K",
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 13,
+          "K": 24
+        },
+        "turns": 160,
+        "seed": 1004
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 11,
+      "max_turn_ms": 36.885749000248325,
+      "opponent_max_turn_ms": 93.81962799989196
+    },
+    {
+      "seed": 1004,
+      "team": "Y",
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 23,
+          "K": 14
+        },
+        "turns": 160,
+        "seed": 1004
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 9,
+      "max_turn_ms": 30.173626999840053,
+      "opponent_max_turn_ms": 76.2444330002836
+    },
+    {
+      "seed": 1005,
+      "team": "K",
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 1,
+          "K": 36
+        },
+        "turns": 160,
+        "seed": 1005
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 35,
+      "max_turn_ms": 36.79993200012177,
+      "opponent_max_turn_ms": 72.38628800041624
+    },
+    {
+      "seed": 1005,
+      "team": "Y",
+      "result": {
+        "winner": "Y",
+        "reason": "instant",
+        "score": {
+          "Y": 36,
+          "K": 0
+        },
+        "turns": 148,
+        "seed": 1005
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 36,
+      "max_turn_ms": 27.81852899988735,
+      "opponent_max_turn_ms": 89.18649799988998
+    }
+  ]
+}

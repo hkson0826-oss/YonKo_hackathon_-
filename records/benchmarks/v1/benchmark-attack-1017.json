@@ -1,0 +1,66 @@
+{
+  "candidate": "/home/dlwltkd/YonKo_hackathon_-/artifacts/first_bot",
+  "opponent": "./artifacts/first_bot 2",
+  "summary": {
+    "matches": 2,
+    "wins": 0,
+    "draws": 0,
+    "losses": 2,
+    "forfeits": 0,
+    "max_turn_ms": 54.108719999931054,
+    "mean_score_margin": -21.5,
+    "full_length_matches": 2,
+    "by_team": {
+      "Y": {
+        "wins": 0,
+        "draws": 0,
+        "matches": 1
+      },
+      "K": {
+        "wins": 0,
+        "draws": 0,
+        "matches": 1
+      }
+    }
+  },
+  "matches": [
+    {
+      "seed": 1017,
+      "team": "K",
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 23,
+          "K": 4
+        },
+        "turns": 160,
+        "seed": 1017
+      },
+      "win": false,
+      "draw": false,
+      "score_margin": -19,
+      "max_turn_ms": 54.108719999931054,
+      "replay": "records/replays/attack-1017/seed-1017-K.json"
+    },
+    {
+      "seed": 1017,
+      "team": "Y",
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 1,
+          "K": 25
+        },
+        "turns": 160,
+        "seed": 1017
+      },
+      "win": false,
+      "draw": false,
+      "score_margin": -24,
+      "max_turn_ms": 33.180573000208824,
+      "replay": "records/replays/attack-1017/seed-1017-Y.json"
+    }
+  ]
+}

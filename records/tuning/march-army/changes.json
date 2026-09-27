@@ -1,0 +1,14 @@
+[
+  [
+    "if (loss) v -= min(16.0,2.0*loss) * (style == 2 ? .55 : 1.0);",
+    "if (loss) v -= min(3.0,0.3*loss) * (style == 2 ? .55 : 1.0);"
+  ],
+  [
+    ".65*future*(val[t]-val[1-t])",
+    "2.0*future*(val[t]-val[1-t])"
+  ],
+  [
+    "tanh(evaluation(trial,us)/200.0)",
+    "tanh(evaluation(trial,us)/400.0)"
+  ]
+]

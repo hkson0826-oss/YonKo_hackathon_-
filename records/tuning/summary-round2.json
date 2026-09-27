@@ -1,0 +1,71 @@
+{
+  "defense": {
+    "matches": 12,
+    "wins": 8,
+    "draws": 0,
+    "losses": 4,
+    "forfeits": 0,
+    "max_turn_ms": 47.75865200008411,
+    "opponent_max_turn_ms": 117.13035699995089,
+    "mean_score_margin": 7.25,
+    "full_length_matches": 10,
+    "by_team": {
+      "Y": {
+        "wins": 4,
+        "draws": 0,
+        "matches": 6
+      },
+      "K": {
+        "wins": 4,
+        "draws": 0,
+        "matches": 6
+      }
+    }
+  },
+  "army": {
+    "matches": 12,
+    "wins": 9,
+    "draws": 0,
+    "losses": 3,
+    "forfeits": 0,
+    "max_turn_ms": 40.16518599974006,
+    "opponent_max_turn_ms": 117.68555400021796,
+    "mean_score_margin": 10.416666666666666,
+    "full_length_matches": 10,
+    "by_team": {
+      "Y": {
+        "wins": 4,
+        "draws": 0,
+        "matches": 6
+      },
+      "K": {
+        "wins": 5,
+        "draws": 0,
+        "matches": 6
+      }
+    }
+  },
+  "portfolio-assets": {
+    "matches": 12,
+    "wins": 11,
+    "draws": 0,
+    "losses": 1,
+    "forfeits": 0,
+    "max_turn_ms": 53.12016000016229,
+    "opponent_max_turn_ms": 136.72750600017025,
+    "mean_score_margin": 22.333333333333332,
+    "full_length_matches": 7,
+    "by_team": {
+      "Y": {
+        "wins": 6,
+        "draws": 0,
+        "matches": 6
+      },
+      "K": {
+        "wins": 5,
+        "draws": 0,
+        "matches": 6
+      }
+    }
+  }
+}

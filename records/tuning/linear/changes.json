@@ -1,0 +1,6 @@
+[
+  [
+    "tanh(evaluation(trial,us)/200.0)",
+    "evaluation(trial,us)/200.0"
+  ]
+]

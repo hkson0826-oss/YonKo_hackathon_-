@@ -1,0 +1,434 @@
+{
+  "selected": "portfolio-assets",
+  "variants": [
+    {
+      "variant": "army",
+      "source_sha256": "e0f72ce2ece6feed70ba07f5ebb4fb50444902942a4dc47a0bb2c97c6533242a",
+      "runs": [
+        {
+          "file": "records/tuning/army/development.json",
+          "summary": {
+            "matches": 12,
+            "wins": 9,
+            "draws": 0,
+            "losses": 3,
+            "forfeits": 0,
+            "max_turn_ms": 40.16518599974006,
+            "opponent_max_turn_ms": 117.68555400021796,
+            "mean_score_margin": 10.416666666666666,
+            "full_length_matches": 10,
+            "by_team": {
+              "Y": {
+                "wins": 4,
+                "draws": 0,
+                "matches": 6
+              },
+              "K": {
+                "wins": 5,
+                "draws": 0,
+                "matches": 6
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "variant": "assets",
+      "source_sha256": "f97caa64759d5126560e9145b6fdd0f01f6ebed9e991cdded22e2a95427adc61",
+      "runs": [
+        {
+          "file": "records/tuning/assets/development-rest.json",
+          "summary": {
+            "matches": 28,
+            "wins": 18,
+            "draws": 0,
+            "losses": 10,
+            "forfeits": 0,
+            "max_turn_ms": 57.0693200002097,
+            "opponent_max_turn_ms": 118.28530299999329,
+            "mean_score_margin": 9.035714285714286,
+            "full_length_matches": 22,
+            "by_team": {
+              "Y": {
+                "wins": 8,
+                "draws": 0,
+                "matches": 14
+              },
+              "K": {
+                "wins": 10,
+                "draws": 0,
+                "matches": 14
+              }
+            }
+          }
+        },
+        {
+          "file": "records/tuning/assets/development.json",
+          "summary": {
+            "matches": 12,
+            "wins": 8,
+            "draws": 0,
+            "losses": 4,
+            "forfeits": 0,
+            "max_turn_ms": 37.269022000145924,
+            "opponent_max_turn_ms": 93.81962799989196,
+            "mean_score_margin": 8.833333333333334,
+            "full_length_matches": 10,
+            "by_team": {
+              "Y": {
+                "wins": 4,
+                "draws": 0,
+                "matches": 6
+              },
+              "K": {
+                "wins": 4,
+                "draws": 0,
+                "matches": 6
+              }
+            }
+          }
+        },
+        {
+          "file": "records/tuning/assets/vs-v1.json",
+          "summary": {
+            "matches": 20,
+            "wins": 12,
+            "draws": 0,
+            "losses": 8,
+            "forfeits": 0,
+            "max_turn_ms": 47.892347000015434,
+            "opponent_max_turn_ms": 46.96882899997945,
+            "mean_score_margin": -0.8,
+            "full_length_matches": 13,
+            "by_team": {
+              "Y": {
+                "wins": 7,
+                "draws": 0,
+                "matches": 10
+              },
+              "K": {
+                "wins": 5,
+                "draws": 0,
+                "matches": 10
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "variant": "defense",
+      "source_sha256": "9ae48e45c71d863401c34971bd1780747b1048ff2833c2e18b25cd57f8f3320f",
+      "runs": [
+        {
+          "file": "records/tuning/defense/development.json",
+          "summary": {
+            "matches": 12,
+            "wins": 8,
+            "draws": 0,
+            "losses": 4,
+            "forfeits": 0,
+            "max_turn_ms": 47.75865200008411,
+            "opponent_max_turn_ms": 117.13035699995089,
+            "mean_score_margin": 7.25,
+            "full_length_matches": 10,
+            "by_team": {
+              "Y": {
+                "wins": 4,
+                "draws": 0,
+                "matches": 6
+              },
+              "K": {
+                "wins": 4,
+                "draws": 0,
+                "matches": 6
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "variant": "lean",
+      "source_sha256": "12a796ba0d717058b8449384289ca9f6aa06e7931c408695c8394cb1cf24577b",
+      "runs": [
+        {
+          "file": "records/tuning/lean/development.json",
+          "summary": {
+            "matches": 12,
+            "wins": 8,
+            "draws": 0,
+            "losses": 4,
+            "forfeits": 0,
+            "max_turn_ms": 40.01529900006062,
+            "opponent_max_turn_ms": 116.97920000005979,
+            "mean_score_margin": 4.083333333333333,
+            "full_length_matches": 11,
+            "by_team": {
+              "Y": {
+                "wins": 4,
+                "draws": 0,
+                "matches": 6
+              },
+              "K": {
+                "wins": 4,
+                "draws": 0,
+                "matches": 6
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "variant": "linear",
+      "source_sha256": "a8eadfec5df65b394754030a3da4385df9b53fe4db1bdea8fdacbf8314837f8a",
+      "runs": [
+        {
+          "file": "records/tuning/linear/development.json",
+          "summary": {
+            "matches": 12,
+            "wins": 7,
+            "draws": 0,
+            "losses": 5,
+            "forfeits": 0,
+            "max_turn_ms": 37.27873199977694,
+            "opponent_max_turn_ms": 106.7430529997182,
+            "mean_score_margin": 6.666666666666667,
+            "full_length_matches": 9,
+            "by_team": {
+              "Y": {
+                "wins": 4,
+                "draws": 0,
+                "matches": 6
+              },
+              "K": {
+                "wins": 3,
+                "draws": 0,
+                "matches": 6
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "variant": "march",
+      "source_sha256": "4acaad0e8ef687dcb4c771f831a8cb20ee3f98e7562b10c6ac227707a07d9f5a",
+      "runs": [
+        {
+          "file": "records/tuning/march/development.json",
+          "summary": {
+            "matches": 12,
+            "wins": 5,
+            "draws": 0,
+            "losses": 7,
+            "forfeits": 0,
+            "max_turn_ms": 40.24285300010888,
+            "opponent_max_turn_ms": 107.46214499977214,
+            "mean_score_margin": 0.0,
+            "full_length_matches": 9,
+            "by_team": {
+              "Y": {
+                "wins": 2,
+                "draws": 0,
+                "matches": 6
+              },
+              "K": {
+                "wins": 3,
+                "draws": 0,
+                "matches": 6
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "variant": "march-army",
+      "source_sha256": "17faef972a0950a842835330e665544a0ecefd85c88eb7766a46ef4f6c59622f",
+      "runs": [
+        {
+          "file": "records/tuning/march-army/development.json",
+          "summary": {
+            "matches": 12,
+            "wins": 4,
+            "draws": 0,
+            "losses": 8,
+            "forfeits": 0,
+            "max_turn_ms": 37.36178400004064,
+            "opponent_max_turn_ms": 118.67812399987088,
+            "mean_score_margin": -7.583333333333333,
+            "full_length_matches": 9,
+            "by_team": {
+              "Y": {
+                "wins": 2,
+                "draws": 0,
+                "matches": 6
+              },
+              "K": {
+                "wins": 2,
+                "draws": 0,
+                "matches": 6
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "variant": "march-defense",
+      "source_sha256": "7d8daf5565d2f26fc74427d80e0bd408a7347ac2f3409f1f595185a45ec213a0",
+      "runs": [
+        {
+          "file": "records/tuning/march-defense/development.json",
+          "summary": {
+            "matches": 12,
+            "wins": 6,
+            "draws": 0,
+            "losses": 6,
+            "forfeits": 0,
+            "max_turn_ms": 35.636430000067776,
+            "opponent_max_turn_ms": 100.79565800015189,
+            "mean_score_margin": 1.5833333333333333,
+            "full_length_matches": 9,
+            "by_team": {
+              "Y": {
+                "wins": 3,
+                "draws": 0,
+                "matches": 6
+              },
+              "K": {
+                "wins": 3,
+                "draws": 0,
+                "matches": 6
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "variant": "portfolio",
+      "source_sha256": "8aec0a918bf741f19dd64b3faa3aef0ed1d8fa0397fe2113f044b5bd6ce2397f",
+      "runs": [
+        {
+          "file": "records/tuning/portfolio/development.json",
+          "summary": {
+            "matches": 12,
+            "wins": 7,
+            "draws": 0,
+            "losses": 5,
+            "forfeits": 0,
+            "max_turn_ms": 51.37563500011311,
+            "opponent_max_turn_ms": 104.96974599982423,
+            "mean_score_margin": 10.916666666666666,
+            "full_length_matches": 10,
+            "by_team": {
+              "Y": {
+                "wins": 3,
+                "draws": 0,
+                "matches": 6
+              },
+              "K": {
+                "wins": 4,
+                "draws": 0,
+                "matches": 6
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "variant": "portfolio-assets",
+      "source_sha256": "53bb019625fabbbd3aa8a5b65af971912bb4cbdad8a9fde3009fadad5ba6d4c5",
+      "runs": [
+        {
+          "file": "records/tuning/portfolio-assets/development-rest.json",
+          "summary": {
+            "matches": 28,
+            "wins": 27,
+            "draws": 0,
+            "losses": 1,
+            "forfeits": 0,
+            "max_turn_ms": 42.71455000025526,
+            "opponent_max_turn_ms": 78.40974300006565,
+            "mean_score_margin": 22.535714285714285,
+            "full_length_matches": 15,
+            "by_team": {
+              "Y": {
+                "wins": 13,
+                "draws": 0,
+                "matches": 14
+              },
+              "K": {
+                "wins": 14,
+                "draws": 0,
+                "matches": 14
+              }
+            }
+          }
+        },
+        {
+          "file": "records/tuning/portfolio-assets/development.json",
+          "summary": {
+            "matches": 12,
+            "wins": 11,
+            "draws": 0,
+            "losses": 1,
+            "forfeits": 0,
+            "max_turn_ms": 53.12016000016229,
+            "opponent_max_turn_ms": 136.72750600017025,
+            "mean_score_margin": 22.333333333333332,
+            "full_length_matches": 7,
+            "by_team": {
+              "Y": {
+                "wins": 6,
+                "draws": 0,
+                "matches": 6
+              },
+              "K": {
+                "wins": 5,
+                "draws": 0,
+                "matches": 6
+              }
+            }
+          }
+        },
+        {
+          "file": "records/tuning/portfolio-assets/vs-v1.json",
+          "summary": {
+            "matches": 20,
+            "wins": 12,
+            "draws": 0,
+            "losses": 8,
+            "forfeits": 0,
+            "max_turn_ms": 55.56720900040091,
+            "opponent_max_turn_ms": 32.9454379998424,
+            "mean_score_margin": 6.05,
+            "full_length_matches": 15,
+            "by_team": {
+              "Y": {
+                "wins": 5,
+                "draws": 0,
+                "matches": 10
+              },
+              "K": {
+                "wins": 7,
+                "draws": 0,
+                "matches": 10
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "holdout_results": [
+    "records/benchmarks/v2/benchmark-v2-team-holdout.json",
+    "records/benchmarks/v2/benchmark-v1-team-holdout.json"
+  ],
+  "submission_manifest": "records/submissions/v2/submission-v2-manifest.json"
+}

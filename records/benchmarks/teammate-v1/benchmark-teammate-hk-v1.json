@@ -1,0 +1,804 @@
+{
+  "candidate": "/home/dlwltkd/YonKo_hackathon_-/artifacts/first_bot",
+  "opponent": "python3 /home/dlwltkd/YonKo_hackathon_-team-hk-v1/delineate-v1/main.py",
+  "summary": {
+    "matches": 40,
+    "wins": 25,
+    "draws": 0,
+    "losses": 15,
+    "forfeits": 0,
+    "max_turn_ms": 79.2878400002337,
+    "opponent_max_turn_ms": 84.98358199994982,
+    "mean_score_margin": 7.65,
+    "full_length_matches": 31,
+    "by_team": {
+      "Y": {
+        "wins": 13,
+        "draws": 0,
+        "matches": 20
+      },
+      "K": {
+        "wins": 12,
+        "draws": 0,
+        "matches": 20
+      }
+    }
+  },
+  "matches": [
+    {
+      "seed": 1000,
+      "team": "K",
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 14,
+          "K": 17
+        },
+        "turns": 160,
+        "seed": 1000
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 3,
+      "max_turn_ms": 49.898821000169846,
+      "opponent_max_turn_ms": 67.88345199993273
+    },
+    {
+      "seed": 1000,
+      "team": "Y",
+      "result": {
+        "winner": "K",
+        "reason": "instant",
+        "score": {
+          "Y": 0,
+          "K": 35
+        },
+        "turns": 141,
+        "seed": 1000
+      },
+      "win": false,
+      "draw": false,
+      "score_margin": -35,
+      "max_turn_ms": 24.463620000005903,
+      "opponent_max_turn_ms": 73.28327599998374,
+      "replay": "records/replays/teammate-hk-v1/seed-1000-Y.json"
+    },
+    {
+      "seed": 1001,
+      "team": "K",
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 14,
+          "K": 21
+        },
+        "turns": 160,
+        "seed": 1001
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 7,
+      "max_turn_ms": 42.74579299999459,
+      "opponent_max_turn_ms": 62.09143999967637
+    },
+    {
+      "seed": 1001,
+      "team": "Y",
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 15,
+          "K": 20
+        },
+        "turns": 160,
+        "seed": 1001
+      },
+      "win": false,
+      "draw": false,
+      "score_margin": -5,
+      "max_turn_ms": 24.556517000291933,
+      "opponent_max_turn_ms": 75.38782599976912,
+      "replay": "records/replays/teammate-hk-v1/seed-1001-Y.json"
+    },
+    {
+      "seed": 1002,
+      "team": "K",
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 11,
+          "K": 23
+        },
+        "turns": 160,
+        "seed": 1002
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 12,
+      "max_turn_ms": 38.34086999995634,
+      "opponent_max_turn_ms": 66.95573000024524
+    },
+    {
+      "seed": 1002,
+      "team": "Y",
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 9,
+          "K": 28
+        },
+        "turns": 160,
+        "seed": 1002
+      },
+      "win": false,
+      "draw": false,
+      "score_margin": -19,
+      "max_turn_ms": 32.68689600008656,
+      "opponent_max_turn_ms": 67.85002300011911,
+      "replay": "records/replays/teammate-hk-v1/seed-1002-Y.json"
+    },
+    {
+      "seed": 1003,
+      "team": "K",
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 19,
+          "K": 18
+        },
+        "turns": 160,
+        "seed": 1003
+      },
+      "win": false,
+      "draw": false,
+      "score_margin": -1,
+      "max_turn_ms": 36.743850000220846,
+      "opponent_max_turn_ms": 76.99102400010815,
+      "replay": "records/replays/teammate-hk-v1/seed-1003-K.json"
+    },
+    {
+      "seed": 1003,
+      "team": "Y",
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 12,
+          "K": 23
+        },
+        "turns": 160,
+        "seed": 1003
+      },
+      "win": false,
+      "draw": false,
+      "score_margin": -11,
+      "max_turn_ms": 26.703125000040018,
+      "opponent_max_turn_ms": 64.36102799989385,
+      "replay": "records/replays/teammate-hk-v1/seed-1003-Y.json"
+    },
+    {
+      "seed": 1004,
+      "team": "K",
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 24,
+          "K": 13
+        },
+        "turns": 160,
+        "seed": 1004
+      },
+      "win": false,
+      "draw": false,
+      "score_margin": -11,
+      "max_turn_ms": 22.695264000049065,
+      "opponent_max_turn_ms": 58.23980599961942,
+      "replay": "records/replays/teammate-hk-v1/seed-1004-K.json"
+    },
+    {
+      "seed": 1004,
+      "team": "Y",
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 34,
+          "K": 2
+        },
+        "turns": 160,
+        "seed": 1004
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 32,
+      "max_turn_ms": 32.30804299982992,
+      "opponent_max_turn_ms": 54.27442600012
+    },
+    {
+      "seed": 1005,
+      "team": "K",
+      "result": {
+        "winner": "K",
+        "reason": "instant",
+        "score": {
+          "Y": 0,
+          "K": 34
+        },
+        "turns": 63,
+        "seed": 1005
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 34,
+      "max_turn_ms": 21.36148499994306,
+      "opponent_max_turn_ms": 56.16177799993238
+    },
+    {
+      "seed": 1005,
+      "team": "Y",
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 25,
+          "K": 8
+        },
+        "turns": 160,
+        "seed": 1005
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 17,
+      "max_turn_ms": 31.91737599991029,
+      "opponent_max_turn_ms": 69.5285359997797
+    },
+    {
+      "seed": 1006,
+      "team": "K",
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 29,
+          "K": 4
+        },
+        "turns": 160,
+        "seed": 1006
+      },
+      "win": false,
+      "draw": false,
+      "score_margin": -25,
+      "max_turn_ms": 32.80935500015403,
+      "opponent_max_turn_ms": 68.16397200009305,
+      "replay": "records/replays/teammate-hk-v1/seed-1006-K.json"
+    },
+    {
+      "seed": 1006,
+      "team": "Y",
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 25,
+          "K": 3
+        },
+        "turns": 160,
+        "seed": 1006
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 22,
+      "max_turn_ms": 28.995341999689117,
+      "opponent_max_turn_ms": 64.34007300003941
+    },
+    {
+      "seed": 1007,
+      "team": "K",
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 12,
+          "K": 23
+        },
+        "turns": 160,
+        "seed": 1007
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 11,
+      "max_turn_ms": 28.944968999894627,
+      "opponent_max_turn_ms": 62.178896000204986
+    },
+    {
+      "seed": 1007,
+      "team": "Y",
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 32,
+          "K": 3
+        },
+        "turns": 160,
+        "seed": 1007
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 29,
+      "max_turn_ms": 79.2878400002337,
+      "opponent_max_turn_ms": 62.36454400004732
+    },
+    {
+      "seed": 1008,
+      "team": "K",
+      "result": {
+        "winner": "Y",
+        "reason": "instant",
+        "score": {
+          "Y": 30,
+          "K": 0
+        },
+        "turns": 99,
+        "seed": 1008
+      },
+      "win": false,
+      "draw": false,
+      "score_margin": -30,
+      "max_turn_ms": 34.1078970000126,
+      "opponent_max_turn_ms": 73.73010399987834,
+      "replay": "records/replays/teammate-hk-v1/seed-1008-K.json"
+    },
+    {
+      "seed": 1008,
+      "team": "Y",
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 31,
+          "K": 2
+        },
+        "turns": 160,
+        "seed": 1008
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 29,
+      "max_turn_ms": 34.654555000088294,
+      "opponent_max_turn_ms": 67.20136200010529
+    },
+    {
+      "seed": 1009,
+      "team": "K",
+      "result": {
+        "winner": "K",
+        "reason": "instant",
+        "score": {
+          "Y": 0,
+          "K": 36
+        },
+        "turns": 124,
+        "seed": 1009
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 36,
+      "max_turn_ms": 32.52890200019465,
+      "opponent_max_turn_ms": 71.59906599963506
+    },
+    {
+      "seed": 1009,
+      "team": "Y",
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 13,
+          "K": 26
+        },
+        "turns": 160,
+        "seed": 1009
+      },
+      "win": false,
+      "draw": false,
+      "score_margin": -13,
+      "max_turn_ms": 53.66513400031181,
+      "opponent_max_turn_ms": 68.03778099992996,
+      "replay": "records/replays/teammate-hk-v1/seed-1009-Y.json"
+    },
+    {
+      "seed": 1010,
+      "team": "K",
+      "result": {
+        "winner": "K",
+        "reason": "instant",
+        "score": {
+          "Y": 0,
+          "K": 31
+        },
+        "turns": 136,
+        "seed": 1010
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 31,
+      "max_turn_ms": 22.383416000138823,
+      "opponent_max_turn_ms": 59.0692850000778
+    },
+    {
+      "seed": 1010,
+      "team": "Y",
+      "result": {
+        "winner": "Y",
+        "reason": "instant",
+        "score": {
+          "Y": 32,
+          "K": 0
+        },
+        "turns": 132,
+        "seed": 1010
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 32,
+      "max_turn_ms": 43.66750100007266,
+      "opponent_max_turn_ms": 79.9041089999264
+    },
+    {
+      "seed": 1011,
+      "team": "K",
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 18,
+          "K": 19
+        },
+        "turns": 160,
+        "seed": 1011
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 1,
+      "max_turn_ms": 28.602342000340286,
+      "opponent_max_turn_ms": 65.06900900012624
+    },
+    {
+      "seed": 1011,
+      "team": "Y",
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 28,
+          "K": 9
+        },
+        "turns": 160,
+        "seed": 1011
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 19,
+      "max_turn_ms": 30.142240000259335,
+      "opponent_max_turn_ms": 68.35982600023272
+    },
+    {
+      "seed": 1012,
+      "team": "K",
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 15,
+          "K": 24
+        },
+        "turns": 160,
+        "seed": 1012
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 9,
+      "max_turn_ms": 30.488801000046806,
+      "opponent_max_turn_ms": 69.79031699984262
+    },
+    {
+      "seed": 1012,
+      "team": "Y",
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 19,
+          "K": 20
+        },
+        "turns": 160,
+        "seed": 1012
+      },
+      "win": false,
+      "draw": false,
+      "score_margin": -1,
+      "max_turn_ms": 30.603700000028766,
+      "opponent_max_turn_ms": 54.834805999689706,
+      "replay": "records/replays/teammate-hk-v1/seed-1012-Y.json"
+    },
+    {
+      "seed": 1013,
+      "team": "K",
+      "result": {
+        "winner": "K",
+        "reason": "instant",
+        "score": {
+          "Y": 0,
+          "K": 35
+        },
+        "turns": 141,
+        "seed": 1013
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 35,
+      "max_turn_ms": 28.331581000202277,
+      "opponent_max_turn_ms": 84.98358199994982
+    },
+    {
+      "seed": 1013,
+      "team": "Y",
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 24,
+          "K": 13
+        },
+        "turns": 160,
+        "seed": 1013
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 11,
+      "max_turn_ms": 27.55314499972883,
+      "opponent_max_turn_ms": 51.913506999881065
+    },
+    {
+      "seed": 1014,
+      "team": "K",
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 17,
+          "K": 16
+        },
+        "turns": 160,
+        "seed": 1014
+      },
+      "win": false,
+      "draw": false,
+      "score_margin": -1,
+      "max_turn_ms": 30.348855999818625,
+      "opponent_max_turn_ms": 72.21839700014243,
+      "replay": "records/replays/teammate-hk-v1/seed-1014-K.json"
+    },
+    {
+      "seed": 1014,
+      "team": "Y",
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 15,
+          "K": 20
+        },
+        "turns": 160,
+        "seed": 1014
+      },
+      "win": false,
+      "draw": false,
+      "score_margin": -5,
+      "max_turn_ms": 33.66602400001284,
+      "opponent_max_turn_ms": 53.75711499982572,
+      "replay": "records/replays/teammate-hk-v1/seed-1014-Y.json"
+    },
+    {
+      "seed": 1015,
+      "team": "K",
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 23,
+          "K": 8
+        },
+        "turns": 160,
+        "seed": 1015
+      },
+      "win": false,
+      "draw": false,
+      "score_margin": -15,
+      "max_turn_ms": 24.375504000090586,
+      "opponent_max_turn_ms": 62.11137800028155,
+      "replay": "records/replays/teammate-hk-v1/seed-1015-K.json"
+    },
+    {
+      "seed": 1015,
+      "team": "Y",
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 19,
+          "K": 15
+        },
+        "turns": 160,
+        "seed": 1015
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 4,
+      "max_turn_ms": 33.3929469998111,
+      "opponent_max_turn_ms": 63.28810000013618
+    },
+    {
+      "seed": 1016,
+      "team": "K",
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 4,
+          "K": 30
+        },
+        "turns": 160,
+        "seed": 1016
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 26,
+      "max_turn_ms": 27.691147000041383,
+      "opponent_max_turn_ms": 61.45169599994915
+    },
+    {
+      "seed": 1016,
+      "team": "Y",
+      "result": {
+        "winner": "Y",
+        "reason": "instant",
+        "score": {
+          "Y": 36,
+          "K": 0
+        },
+        "turns": 94,
+        "seed": 1016
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 36,
+      "max_turn_ms": 41.277284000443615,
+      "opponent_max_turn_ms": 61.74490700004753
+    },
+    {
+      "seed": 1017,
+      "team": "K",
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 27,
+          "K": 2
+        },
+        "turns": 160,
+        "seed": 1017
+      },
+      "win": false,
+      "draw": false,
+      "score_margin": -25,
+      "max_turn_ms": 31.796117999874696,
+      "opponent_max_turn_ms": 66.30858699963937,
+      "replay": "records/replays/teammate-hk-v1/seed-1017-K.json"
+    },
+    {
+      "seed": 1017,
+      "team": "Y",
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 26,
+          "K": 3
+        },
+        "turns": 160,
+        "seed": 1017
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 23,
+      "max_turn_ms": 31.888918000277044,
+      "opponent_max_turn_ms": 76.51206000036836
+    },
+    {
+      "seed": 1018,
+      "team": "K",
+      "result": {
+        "winner": "K",
+        "reason": "instant",
+        "score": {
+          "Y": 0,
+          "K": 41
+        },
+        "turns": 114,
+        "seed": 1018
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 41,
+      "max_turn_ms": 28.94288500010589,
+      "opponent_max_turn_ms": 61.12824799993177
+    },
+    {
+      "seed": 1018,
+      "team": "Y",
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 26,
+          "K": 15
+        },
+        "turns": 160,
+        "seed": 1018
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 11,
+      "max_turn_ms": 45.751210000162246,
+      "opponent_max_turn_ms": 81.93901699996786
+    },
+    {
+      "seed": 1019,
+      "team": "K",
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 31,
+          "K": 8
+        },
+        "turns": 160,
+        "seed": 1019
+      },
+      "win": false,
+      "draw": false,
+      "score_margin": -23,
+      "max_turn_ms": 29.81303399974422,
+      "opponent_max_turn_ms": 63.87465099987821,
+      "replay": "records/replays/teammate-hk-v1/seed-1019-K.json"
+    },
+    {
+      "seed": 1019,
+      "team": "Y",
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 27,
+          "K": 12
+        },
+        "turns": 160,
+        "seed": 1019
+      },
+      "win": true,
+      "draw": false,
+      "score_margin": 15,
+      "max_turn_ms": 30.08070099986071,
+      "opponent_max_turn_ms": 69.78870500006451
+    }
+  ]
+}

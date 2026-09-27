@@ -1,0 +1,183 @@
+{
+  "candidate": "/home/dlwltkd/YonKo_hackathon_-/artifacts/first_bot",
+  "opponent": "/usr/bin/python3 /home/dlwltkd/YonKo_hackathon_-/yk-python-sample/example_lv2.py",
+  "summary": {
+    "matches": 10,
+    "wins": 10,
+    "draws": 0,
+    "forfeits": 0,
+    "max_turn_ms": 31.76523799993447
+  },
+  "matches": [
+    {
+      "seed": 0,
+      "team": "K",
+      "result": {
+        "winner": "K",
+        "reason": "instant",
+        "score": {
+          "Y": 0,
+          "K": 37
+        },
+        "turns": 37,
+        "seed": 0
+      },
+      "win": true,
+      "draw": false,
+      "max_turn_ms": 18.851230999871404
+    },
+    {
+      "seed": 0,
+      "team": "Y",
+      "result": {
+        "winner": "Y",
+        "reason": "instant",
+        "score": {
+          "Y": 37,
+          "K": 0
+        },
+        "turns": 43,
+        "seed": 0
+      },
+      "win": true,
+      "draw": false,
+      "max_turn_ms": 20.700620000070558
+    },
+    {
+      "seed": 1,
+      "team": "K",
+      "result": {
+        "winner": "K",
+        "reason": "instant",
+        "score": {
+          "Y": 0,
+          "K": 34
+        },
+        "turns": 30,
+        "seed": 1
+      },
+      "win": true,
+      "draw": false,
+      "max_turn_ms": 27.931719999969573
+    },
+    {
+      "seed": 1,
+      "team": "Y",
+      "result": {
+        "winner": "Y",
+        "reason": "instant",
+        "score": {
+          "Y": 34,
+          "K": 0
+        },
+        "turns": 36,
+        "seed": 1
+      },
+      "win": true,
+      "draw": false,
+      "max_turn_ms": 31.76523799993447
+    },
+    {
+      "seed": 2,
+      "team": "K",
+      "result": {
+        "winner": "K",
+        "reason": "instant",
+        "score": {
+          "Y": 0,
+          "K": 39
+        },
+        "turns": 32,
+        "seed": 2
+      },
+      "win": true,
+      "draw": false,
+      "max_turn_ms": 25.05425300000752
+    },
+    {
+      "seed": 2,
+      "team": "Y",
+      "result": {
+        "winner": "Y",
+        "reason": "instant",
+        "score": {
+          "Y": 41,
+          "K": 0
+        },
+        "turns": 30,
+        "seed": 2
+      },
+      "win": true,
+      "draw": false,
+      "max_turn_ms": 26.731414999858316
+    },
+    {
+      "seed": 3,
+      "team": "K",
+      "result": {
+        "winner": "K",
+        "reason": "instant",
+        "score": {
+          "Y": 0,
+          "K": 31
+        },
+        "turns": 30,
+        "seed": 3
+      },
+      "win": true,
+      "draw": false,
+      "max_turn_ms": 22.10161500011054
+    },
+    {
+      "seed": 3,
+      "team": "Y",
+      "result": {
+        "winner": "Y",
+        "reason": "instant",
+        "score": {
+          "Y": 31,
+          "K": 0
+        },
+        "turns": 29,
+        "seed": 3
+      },
+      "win": true,
+      "draw": false,
+      "max_turn_ms": 23.835705999999846
+    },
+    {
+      "seed": 4,
+      "team": "K",
+      "result": {
+        "winner": "K",
+        "reason": "instant",
+        "score": {
+          "Y": 0,
+          "K": 43
+        },
+        "turns": 22,
+        "seed": 4
+      },
+      "win": true,
+      "draw": false,
+      "max_turn_ms": 22.587497000131407
+    },
+    {
+      "seed": 4,
+      "team": "Y",
+      "result": {
+        "winner": "Y",
+        "reason": "instant",
+        "score": {
+          "Y": 43,
+          "K": 0
+        },
+        "turns": 22,
+        "seed": 4
+      },
+      "win": true,
+      "draw": false,
+      "max_turn_ms": 24.537184999871897
+    }
+  ]
+}

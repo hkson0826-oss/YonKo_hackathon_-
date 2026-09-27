@@ -1,0 +1,26 @@
+[
+  [
+    "tanh(evaluation(trial,us)/200.0)",
+    "evaluation(trial,us)/200.0"
+  ],
+  [
+    "if (board.type[b] == ENG && !has(s,t,ENG))",
+    "if (board.type[b] == ENG && (!has(s,t,ENG) || s.owner[b] == t))"
+  ],
+  [
+    "(style == 1 ? 42 : 30)",
+    "(style == 1 ? 75 : 55)"
+  ],
+  [
+    ".65*future*(val[t]-val[1-t])",
+    "1.3*future*(val[t]-val[1-t])"
+  ],
+  [
+    "bonus += 70;",
+    "bonus += 110;"
+  ],
+  [
+    "(income(s,team)-10)*19",
+    "(income(s,team)-10)*35"
+  ]
+]

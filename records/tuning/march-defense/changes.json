@@ -1,0 +1,18 @@
+[
+  [
+    "if (loss) v -= min(16.0,2.0*loss) * (style == 2 ? .55 : 1.0);",
+    "if (loss) v -= min(3.0,0.3*loss) * (style == 2 ? .55 : 1.0);"
+  ],
+  [
+    "if (board.type[b] == ENG && !has(s,t,ENG))",
+    "if (board.type[b] == ENG && (!has(s,t,ENG) || s.owner[b] == t))"
+  ],
+  [
+    "(style == 1 ? 42 : 30)",
+    "(style == 1 ? 75 : 55)"
+  ],
+  [
+    "if (enemy_flag_dist[c] > 5 && !(available[F][c] && danger[c])) continue;",
+    "if (enemy_flag_dist[c] > 5 && !near_enemy[c] && !(available[F][c] && danger[c])) continue;"
+  ]
+]
