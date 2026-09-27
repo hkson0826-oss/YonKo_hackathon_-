@@ -1,0 +1,32 @@
+{
+  "published_utc": "2026-09-27T19:16:23.659464+00:00",
+  "branch": "main",
+  "commit": "14d6ea61a35a8b2d479185b7174d955fe061a54d",
+  "source_commit": "9080319c7b06c7e36031804ee093a5b26ca93bfd",
+  "authorization": "User requested only necessary shared materials committed to main before further work",
+  "scope": "Completed followup failure and retained-v3 conclusion, separate confirmation plan, GCC12 compatibility; no candidate sources or bulk league data",
+  "files": {
+    "README.md": {
+      "bytes": 6812,
+      "sha256": "0b316e592a16557eee108023ea2c3b81740a79870f7ef49596cc20e87d0ff32c"
+    },
+    "docs/21-v3공유요약.md": {
+      "bytes": 4992,
+      "sha256": "8d62a4779e996c2d69a87da7918163e6df2cbbf6035ef6f83f6b5b364b8f09bd"
+    },
+    "docs/22-v3후속검증결과.md": {
+      "bytes": 9951,
+      "sha256": "600217cbe67078081e8318b45b108b88d40e619c4a2d6ba62848e1720cb5d58a"
+    },
+    "records/submissions/v3/README.md": {
+      "bytes": 3217,
+      "sha256": "52693cc1556e7cb880e1663cff67dd23a5ef556ae23415d4fc0f91990b6d571f"
+    },
+    "records/submissions/v3/gcc12-compatibility.json": {
+      "bytes": 18836,
+      "sha256": "a5ce0743ff9ac34cbea3c04b6b412c32ec310cae6d855b4ee5fe679631c86f89"
+    }
+  },
+  "unchanged_v3_zip_sha256": "ce94e80a49d833be8b3c093a34319d8b9cdb5b7ec8d86b91a4b2831b18d799cb",
+  "temporary_worktree_removed": true
+}
