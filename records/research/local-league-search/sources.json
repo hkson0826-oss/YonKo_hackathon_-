@@ -1,0 +1,45 @@
+{
+  "checked_date": "2026-09-27",
+  "provider": "configured mcp__firecrawl research index",
+  "search": {
+    "query": "Portfolio Greedy Search script policies real time strategy games",
+    "k": 4,
+    "kept": ["arxiv:2104.10429", "arxiv:2307.04893"],
+    "adjacent_not_implemented": ["arxiv:2501.03824"],
+    "excluded": [{"id": "arxiv:2505.03659", "reason": "Financial portfolio selection, not game action selection"}]
+  },
+  "expansion": {
+    "seeds": ["arxiv:2104.10429", "arxiv:2006.08659"],
+    "mode": "references",
+    "intent": "Small computation budget portfolio greedy search and asymmetric script action abstraction for RTS",
+    "results": ["arxiv:2009.05643", "arxiv:1901.00723", "arxiv:1802.05991", "arxiv:1709.08071"],
+    "disposition": "Adjacent framework, configuration tuning, and opponent modelling references; not implemented in this candidate generator"
+  },
+  "body_checks": [
+    {
+      "id": "arxiv:2104.10429",
+      "title": "Portfolio Search and Optimization for General Strategy Game-Playing",
+      "url": "https://arxiv.org/abs/2104.10429",
+      "question": "How does Sparse Portfolio Rolling Horizon Evolutionary Algorithm represent script or role changes, and what limitation or failure of switching roles does the paper report?",
+      "section": "IV-B Sparse Portfolio RHEA",
+      "short_excerpt": "A higher efficiency would have been achieved if the agent had stuck with the same script assignment for a prolonged time-frame.",
+      "application": "Fixed two-step role continuation followed by one defensive switch is a bounded contrast, not an evolutionary algorithm or persistent role reservation."
+    },
+    {
+      "id": "arxiv:2006.08659",
+      "title": "Does it matter how well I know what you're thinking? Opponent Modelling in an RTS game",
+      "url": "https://arxiv.org/abs/2006.08659",
+      "question": "What happens when rolling horizon evolutionary planning uses an inaccurate opponent model? Does a longer planning horizon always help?",
+      "section": "V-C RHEA Horizon Length; VI Conclusion",
+      "short_excerpt": "The results suggest that RHEA is particularly sensitive to a poor opponent model in comparison to MCTS.",
+      "application": "Compare short and long horizons while retaining diverse opponent scripts. Reduced horizon does not establish robustness to incorrect opponent models."
+    }
+  ],
+  "reused_prior_body_check": {
+    "id": "arxiv:1711.08101",
+    "url": "https://arxiv.org/abs/1711.08101",
+    "local_record": "../round2/README.md",
+    "application": "A single tactical action subset broadens a script portfolio; this is not a full asymmetric-search or PGS implementation."
+  },
+  "status": "Candidate implementation and validation only; strength is determined by separately recorded league matches"
+}

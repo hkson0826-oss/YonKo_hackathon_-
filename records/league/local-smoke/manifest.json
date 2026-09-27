@@ -1,0 +1,15 @@
+{
+  "purpose": "Local integration smoke only, not strength evidence",
+  "source_commit_before_new_work": "49e5db267835b4005a920e1149353403c56a1b9d",
+  "source_hashes_authoritative": true,
+  "v2_sha256": "53bb019625fabbbd3aa8a5b65af971912bb4cbdad8a9fde3009fadad5ba6d4c5",
+  "candidate_sha256": "61eaf91c053ead129ff34fdf4441f0cb1be8a2511fe92ee819193ea05e0dc2bb",
+  "python": "3.14.7 (main, Aug 10 2026, 07:46:56) [GCC 16.1.1 20260728]",
+  "compiler": "g++ (GCC) 16.2.1 20260810",
+  "build": "g++ -std=c++20 -O2 -I submissions/tuned <temporary main.cpp> -o <temporary bot>",
+  "temporary_scope": "Builds and match in TemporaryDirectory under /tmp; only result and compressed replay copied to repository; context exited and removed directory",
+  "parameters": {
+    "scope": 1,
+    "limit": 1
+  }
+}
