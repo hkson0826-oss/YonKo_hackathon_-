@@ -1,0 +1,45 @@
+{
+  "candidates": [
+    "v3",
+    "f3_v2_soft_matching",
+    "f3_v2_movement_matching",
+    "f3_v2_safe_econ_mission",
+    "f3_v2_warrior_reserve",
+    "s3_v2_screen_paired_guard",
+    "s3_v2_screen_roundrobin",
+    "s3_v2_screen_continuation",
+    "s3_v2_screen_intact_base",
+    "r3_v2_mean_control",
+    "r3_v2_y_tail",
+    "r3_v2_pareto_local",
+    "r3_v2_tail_recheck",
+    "s3_screen_refine",
+    "s3_joint_origins",
+    "s3_selective_contact",
+    "f3_matching",
+    "f3_econ_mission",
+    "r3_lower_tail",
+    "r3_opponent_league"
+  ],
+  "opponents": [
+    "v3",
+    "v2",
+    "teammate",
+    "a_v2_tactical_local",
+    "j_balanced_portfolio",
+    "j_v2_reclaim_relay",
+    "s3_selective_contact",
+    "r3_opponent_league"
+  ],
+  "map_seeds": [
+    8200,
+    8201,
+    8202,
+    8203,
+    8204,
+    8205,
+    8206,
+    8207
+  ],
+  "replays": "all"
+}

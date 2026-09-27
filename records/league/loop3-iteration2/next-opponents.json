@@ -1,0 +1,167 @@
+{
+  "selection_scope": "Development-only exploiters; freeze before the next run and new-map selection",
+  "rule": "Direct both-side point rate against v3, then mean margin, then id; distinct generator prefixes",
+  "ranking": [
+    {
+      "id": "s3_v2_screen_continuation",
+      "family": "s3",
+      "games": 16,
+      "point_rate": 0.8125,
+      "mean_score_margin": 12.1875,
+      "source_sha256": "4e75653f7a00215504678b2292593d32eaad47ffb3d691de6db24b96adf57c89"
+    },
+    {
+      "id": "f3_v2_movement_matching",
+      "family": "f3",
+      "games": 16,
+      "point_rate": 0.8125,
+      "mean_score_margin": 7.0,
+      "source_sha256": "2736977091f14749c0a42c388d4dab437932fb847494e3e963c8769e1ed62454"
+    },
+    {
+      "id": "f3_v2_warrior_reserve",
+      "family": "f3",
+      "games": 16,
+      "point_rate": 0.625,
+      "mean_score_margin": 6.6875,
+      "source_sha256": "20fa2eb5635cd9035c1f2c3f659943e7f98d03c4434bc84c5d5772c6a00e58cf"
+    },
+    {
+      "id": "s3_v2_screen_intact_base",
+      "family": "s3",
+      "games": 16,
+      "point_rate": 0.625,
+      "mean_score_margin": 3.9375,
+      "source_sha256": "41e60884d43f0d7b4f6be0e6936d8e28dd946f0055a9838993b0cb181b4bf184"
+    },
+    {
+      "id": "r3_v2_tail_recheck",
+      "family": "r3",
+      "games": 16,
+      "point_rate": 0.5625,
+      "mean_score_margin": 6.1875,
+      "source_sha256": "89ef4ef59500ef3d94611f10e0ba3ccc4ac7b4f8415a711787e593a0aba34c6d"
+    },
+    {
+      "id": "s3_selective_contact",
+      "family": "s3",
+      "games": 16,
+      "point_rate": 0.5625,
+      "mean_score_margin": 4.125,
+      "source_sha256": "db83d9aa0e8809aaffd6b36ffc47972996d832d987947187af600d3a8419d96c"
+    },
+    {
+      "id": "f3_matching",
+      "family": "f3",
+      "games": 16,
+      "point_rate": 0.5625,
+      "mean_score_margin": 3.625,
+      "source_sha256": "2b5867fb91bc37d9178d0d5e15713c1784b781c339756a3edc79869ebc01322a"
+    },
+    {
+      "id": "s3_screen_refine",
+      "family": "s3",
+      "games": 16,
+      "point_rate": 0.5625,
+      "mean_score_margin": 0.8125,
+      "source_sha256": "c2462ef74391fa62f92c1f415d87006800e3d068f78f765e6d2e51e4a70db02b"
+    },
+    {
+      "id": "f3_v2_soft_matching",
+      "family": "f3",
+      "games": 16,
+      "point_rate": 0.5,
+      "mean_score_margin": 1.9375,
+      "source_sha256": "3a932ae19765ad86328ad217b3858342400ef29348784bcc3ed68f8c95767047"
+    },
+    {
+      "id": "r3_v2_mean_control",
+      "family": "r3",
+      "games": 16,
+      "point_rate": 0.5,
+      "mean_score_margin": 0.0,
+      "source_sha256": "c4878474ea3b38cb881c78cf66379a14c5864861b714d99a7ecb370e7a0bee51"
+    },
+    {
+      "id": "r3_v2_y_tail",
+      "family": "r3",
+      "games": 16,
+      "point_rate": 0.5,
+      "mean_score_margin": -2.4375,
+      "source_sha256": "df23c1f1fc745b4115e3030070c45de0f5c6afae34a4a0638f55d5221e667cd5"
+    },
+    {
+      "id": "s3_v2_screen_paired_guard",
+      "family": "s3",
+      "games": 16,
+      "point_rate": 0.4375,
+      "mean_score_margin": 2.8125,
+      "source_sha256": "1703701340ede10b652b0aa024e29c3fd411e2809ae34de1e3d0b39620d496df"
+    },
+    {
+      "id": "f3_econ_mission",
+      "family": "f3",
+      "games": 16,
+      "point_rate": 0.4375,
+      "mean_score_margin": 1.4375,
+      "source_sha256": "5159a2578645cea538fd3ab3e67bfdea6155b8cd727b65cde3ea7c74f5237165"
+    },
+    {
+      "id": "f3_v2_safe_econ_mission",
+      "family": "f3",
+      "games": 16,
+      "point_rate": 0.4375,
+      "mean_score_margin": 1.4375,
+      "source_sha256": "7809ae15f7b4b68164dc6873f75f814cafc97573169e581e9af914f003c796cd"
+    },
+    {
+      "id": "r3_lower_tail",
+      "family": "r3",
+      "games": 16,
+      "point_rate": 0.4375,
+      "mean_score_margin": -3.0,
+      "source_sha256": "2d53b64ebfe25c0f61bf9f87c42c53a5a83f914b81cd20752a66e33c6ff4756f"
+    },
+    {
+      "id": "r3_v2_pareto_local",
+      "family": "r3",
+      "games": 16,
+      "point_rate": 0.4375,
+      "mean_score_margin": -3.3125,
+      "source_sha256": "8b5245332dc6db6adce4ad1cbb118f931d388b6aa943080af2a6c4abb548b165"
+    },
+    {
+      "id": "s3_v2_screen_roundrobin",
+      "family": "s3",
+      "games": 16,
+      "point_rate": 0.3125,
+      "mean_score_margin": -0.1875,
+      "source_sha256": "279f011758de9b46b63cf361fd035400f892e1df76e3b39aa261fc0ec29eb65e"
+    },
+    {
+      "id": "s3_joint_origins",
+      "family": "s3",
+      "games": 16,
+      "point_rate": 0.25,
+      "mean_score_margin": -5.0625,
+      "source_sha256": "978ffc1090fd3bad4131c62eae4ba6b475856297505fa87b47dc1a63802953f1"
+    },
+    {
+      "id": "r3_opponent_league",
+      "family": "r3",
+      "games": 16,
+      "point_rate": 0.25,
+      "mean_score_margin": -11.9375,
+      "source_sha256": "33020d61999456342ea39b3f99e53388914b0ccf98536e2b99ae5e60c31f66cf"
+    }
+  ],
+  "opponents": [
+    "s3_v2_screen_continuation",
+    "f3_v2_movement_matching"
+  ],
+  "source_sha256": {
+    "s3_v2_screen_continuation": "4e75653f7a00215504678b2292593d32eaad47ffb3d691de6db24b96adf57c89",
+    "f3_v2_movement_matching": "2736977091f14749c0a42c388d4dab437932fb847494e3e963c8769e1ed62454"
+  },
+  "source_commit": "ff8b2063bc86c5649741efa08f827a027ee954fd"
+}

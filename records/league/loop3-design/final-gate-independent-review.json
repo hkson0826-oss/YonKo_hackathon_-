@@ -1,0 +1,1509 @@
+{
+  "reviewed_utc": "2026-09-27T19:00:01.461379+00:00",
+  "status": "independent_gate_recount_passed",
+  "source_commit": "ff8b2063bc86c5649741efa08f827a027ee954fd",
+  "arena": "records/league/loop3-iteration2",
+  "stage_counts": {
+    "smoke": 50,
+    "development": 2560,
+    "selection": 2688,
+    "holdout": 3840,
+    "crossplay": 60
+  },
+  "total_matches": 9198,
+  "errors": 0,
+  "forfeits": 0,
+  "primary": "f3_v2_warrior_reserve",
+  "secondary": "s3_v2_screen_paired_guard",
+  "recommended": "f3_v2_warrior_reserve",
+  "first_lock_preserved": true,
+  "locked_sha256": {
+    "v3": "52268569e17d7fc40fd46f0996b2da684768902b4af27ec059c4b068911c4473",
+    "f3_v2_warrior_reserve": "20fa2eb5635cd9035c1f2c3f659943e7f98d03c4434bc84c5d5772c6a00e58cf",
+    "s3_v2_screen_paired_guard": "1703701340ede10b652b0aa024e29c3fd411e2809ae34de1e3d0b39620d496df",
+    "v2": "53bb019625fabbbd3aa8a5b65af971912bb4cbdad8a9fde3009fadad5ba6d4c5",
+    "teammate": "571397e3c84998b27f8ce0468bc49333663c69b0b84162ad8dfc27e7a47f2365",
+    "a_v2_tactical_local": "9d9d6ecd763b84f88c0d5e48f65524798f998e9912f774c0dd22e27f3f78219a",
+    "j_balanced_portfolio": "534f55f1d6641ed788ca637663456e43375297d8016ac9832c589b0a012c8422",
+    "j_v2_reclaim_relay": "0882dc3284c33db9f4687c085e0c570d156a439365aa229fa6cca6f81e909045",
+    "s3_selective_contact": "db83d9aa0e8809aaffd6b36ffc47972996d832d987947187af600d3a8419d96c",
+    "r3_opponent_league": "33020d61999456342ea39b3f99e53388914b0ccf98536e2b99ae5e60c31f66cf"
+  },
+  "holdout_maps": [
+    8400,
+    8401,
+    8402,
+    8403,
+    8404,
+    8405,
+    8406,
+    8407,
+    8408,
+    8409,
+    8410,
+    8411,
+    8412,
+    8413,
+    8414,
+    8415,
+    8416,
+    8417,
+    8418,
+    8419,
+    8420,
+    8421,
+    8422,
+    8423,
+    8424,
+    8425,
+    8426,
+    8427,
+    8428,
+    8429,
+    8430,
+    8431,
+    8432,
+    8433,
+    8434,
+    8435,
+    8436,
+    8437,
+    8438,
+    8439,
+    8440,
+    8441,
+    8442,
+    8443,
+    8444,
+    8445,
+    8446,
+    8447,
+    8448,
+    8449,
+    8450,
+    8451,
+    8452,
+    8453,
+    8454,
+    8455,
+    8456,
+    8457,
+    8458,
+    8459,
+    8460,
+    8461,
+    8462,
+    8463,
+    8464,
+    8465,
+    8466,
+    8467,
+    8468,
+    8469,
+    8470,
+    8471,
+    8472,
+    8473,
+    8474,
+    8475,
+    8476,
+    8477,
+    8478,
+    8479
+  ],
+  "all_map_sets_disjoint": true,
+  "gate_method": "Independently recomputed from result winners and exact initial-condition pairs without campaign analysis helpers; 5000 map bootstrap resamples using seed 927608",
+  "reviews": {
+    "f3_v2_warrior_reserve": {
+      "pools": {
+        "all": {
+          "Y": {
+            "candidate": {
+              "games": 640,
+              "wins": 408,
+              "draws": 0,
+              "losses": 232,
+              "point_rate": 0.6375
+            },
+            "baseline": {
+              "games": 640,
+              "wins": 373,
+              "draws": 0,
+              "losses": 267,
+              "point_rate": 0.5828125
+            },
+            "paired": {
+              "maps": 80,
+              "paired_games": 640,
+              "point_rate_difference": 0.0546875,
+              "map_cluster_bootstrap_95pct": [
+                0.0078125,
+                0.1015625
+              ],
+              "resamples": 5000,
+              "seed": 927608
+            }
+          },
+          "K": {
+            "candidate": {
+              "games": 640,
+              "wins": 411,
+              "draws": 0,
+              "losses": 229,
+              "point_rate": 0.6421875
+            },
+            "baseline": {
+              "games": 640,
+              "wins": 415,
+              "draws": 0,
+              "losses": 225,
+              "point_rate": 0.6484375
+            },
+            "paired": {
+              "maps": 80,
+              "paired_games": 640,
+              "point_rate_difference": -0.00625,
+              "map_cluster_bootstrap_95pct": [
+                -0.0484375,
+                0.0359375
+              ],
+              "resamples": 5000,
+              "seed": 927608
+            }
+          }
+        },
+        "fixed": {
+          "Y": {
+            "candidate": {
+              "games": 480,
+              "wins": 321,
+              "draws": 0,
+              "losses": 159,
+              "point_rate": 0.66875
+            },
+            "baseline": {
+              "games": 480,
+              "wins": 293,
+              "draws": 0,
+              "losses": 187,
+              "point_rate": 0.6104166666666667
+            },
+            "paired": {
+              "maps": 80,
+              "paired_games": 480,
+              "point_rate_difference": 0.05833333333333333,
+              "map_cluster_bootstrap_95pct": [
+                0.008333333333333335,
+                0.10833333333333332
+              ],
+              "resamples": 5000,
+              "seed": 927608
+            }
+          },
+          "K": {
+            "candidate": {
+              "games": 480,
+              "wins": 324,
+              "draws": 0,
+              "losses": 156,
+              "point_rate": 0.675
+            },
+            "baseline": {
+              "games": 480,
+              "wins": 326,
+              "draws": 0,
+              "losses": 154,
+              "point_rate": 0.6791666666666667
+            },
+            "paired": {
+              "maps": 80,
+              "paired_games": 480,
+              "point_rate_difference": -0.0041666666666666675,
+              "map_cluster_bootstrap_95pct": [
+                -0.052083333333333336,
+                0.04375
+              ],
+              "resamples": 5000,
+              "seed": 927608
+            }
+          }
+        },
+        "added": {
+          "Y": {
+            "candidate": {
+              "games": 160,
+              "wins": 87,
+              "draws": 0,
+              "losses": 73,
+              "point_rate": 0.54375
+            },
+            "baseline": {
+              "games": 160,
+              "wins": 80,
+              "draws": 0,
+              "losses": 80,
+              "point_rate": 0.5
+            },
+            "paired": {
+              "maps": 80,
+              "paired_games": 160,
+              "point_rate_difference": 0.04375,
+              "map_cluster_bootstrap_95pct": [
+                -0.0375,
+                0.125
+              ],
+              "resamples": 5000,
+              "seed": 927608
+            }
+          },
+          "K": {
+            "candidate": {
+              "games": 160,
+              "wins": 87,
+              "draws": 0,
+              "losses": 73,
+              "point_rate": 0.54375
+            },
+            "baseline": {
+              "games": 160,
+              "wins": 89,
+              "draws": 0,
+              "losses": 71,
+              "point_rate": 0.55625
+            },
+            "paired": {
+              "maps": 80,
+              "paired_games": 160,
+              "point_rate_difference": -0.0125,
+              "map_cluster_bootstrap_95pct": [
+                -0.1,
+                0.075
+              ],
+              "resamples": 5000,
+              "seed": 927608
+            }
+          }
+        }
+      },
+      "opponents": {
+        "v3": {
+          "Y": {
+            "candidate": {
+              "games": 80,
+              "wins": 37,
+              "draws": 0,
+              "losses": 43,
+              "point_rate": 0.4625
+            },
+            "baseline": {
+              "games": 80,
+              "wins": 32,
+              "draws": 0,
+              "losses": 48,
+              "point_rate": 0.4
+            },
+            "paired": {
+              "maps": 80,
+              "paired_games": 80,
+              "point_rate_difference": 0.0625,
+              "map_cluster_bootstrap_95pct": [
+                -0.075,
+                0.2
+              ],
+              "resamples": 5000,
+              "seed": 927608
+            }
+          },
+          "K": {
+            "candidate": {
+              "games": 80,
+              "wins": 50,
+              "draws": 0,
+              "losses": 30,
+              "point_rate": 0.625
+            },
+            "baseline": {
+              "games": 80,
+              "wins": 48,
+              "draws": 0,
+              "losses": 32,
+              "point_rate": 0.6
+            },
+            "paired": {
+              "maps": 80,
+              "paired_games": 80,
+              "point_rate_difference": 0.025,
+              "map_cluster_bootstrap_95pct": [
+                -0.1,
+                0.1625
+              ],
+              "resamples": 5000,
+              "seed": 927608
+            }
+          }
+        },
+        "v2": {
+          "Y": {
+            "candidate": {
+              "games": 80,
+              "wins": 69,
+              "draws": 0,
+              "losses": 11,
+              "point_rate": 0.8625
+            },
+            "baseline": {
+              "games": 80,
+              "wins": 63,
+              "draws": 0,
+              "losses": 17,
+              "point_rate": 0.7875
+            },
+            "paired": {
+              "maps": 80,
+              "paired_games": 80,
+              "point_rate_difference": 0.075,
+              "map_cluster_bootstrap_95pct": [
+                -0.025,
+                0.175
+              ],
+              "resamples": 5000,
+              "seed": 927608
+            }
+          },
+          "K": {
+            "candidate": {
+              "games": 80,
+              "wins": 67,
+              "draws": 0,
+              "losses": 13,
+              "point_rate": 0.8375
+            },
+            "baseline": {
+              "games": 80,
+              "wins": 70,
+              "draws": 0,
+              "losses": 10,
+              "point_rate": 0.875
+            },
+            "paired": {
+              "maps": 80,
+              "paired_games": 80,
+              "point_rate_difference": -0.0375,
+              "map_cluster_bootstrap_95pct": [
+                -0.125,
+                0.05
+              ],
+              "resamples": 5000,
+              "seed": 927608
+            }
+          }
+        },
+        "teammate": {
+          "Y": {
+            "candidate": {
+              "games": 80,
+              "wins": 74,
+              "draws": 0,
+              "losses": 6,
+              "point_rate": 0.925
+            },
+            "baseline": {
+              "games": 80,
+              "wins": 77,
+              "draws": 0,
+              "losses": 3,
+              "point_rate": 0.9625
+            },
+            "paired": {
+              "maps": 80,
+              "paired_games": 80,
+              "point_rate_difference": -0.0375,
+              "map_cluster_bootstrap_95pct": [
+                -0.0875,
+                0.0
+              ],
+              "resamples": 5000,
+              "seed": 927608
+            }
+          },
+          "K": {
+            "candidate": {
+              "games": 80,
+              "wins": 75,
+              "draws": 0,
+              "losses": 5,
+              "point_rate": 0.9375
+            },
+            "baseline": {
+              "games": 80,
+              "wins": 75,
+              "draws": 0,
+              "losses": 5,
+              "point_rate": 0.9375
+            },
+            "paired": {
+              "maps": 80,
+              "paired_games": 80,
+              "point_rate_difference": 0.0,
+              "map_cluster_bootstrap_95pct": [
+                -0.0625,
+                0.0625
+              ],
+              "resamples": 5000,
+              "seed": 927608
+            }
+          }
+        },
+        "a_v2_tactical_local": {
+          "Y": {
+            "candidate": {
+              "games": 80,
+              "wins": 57,
+              "draws": 0,
+              "losses": 23,
+              "point_rate": 0.7125
+            },
+            "baseline": {
+              "games": 80,
+              "wins": 46,
+              "draws": 0,
+              "losses": 34,
+              "point_rate": 0.575
+            },
+            "paired": {
+              "maps": 80,
+              "paired_games": 80,
+              "point_rate_difference": 0.1375,
+              "map_cluster_bootstrap_95pct": [
+                0.0,
+                0.275
+              ],
+              "resamples": 5000,
+              "seed": 927608
+            }
+          },
+          "K": {
+            "candidate": {
+              "games": 80,
+              "wins": 51,
+              "draws": 0,
+              "losses": 29,
+              "point_rate": 0.6375
+            },
+            "baseline": {
+              "games": 80,
+              "wins": 48,
+              "draws": 0,
+              "losses": 32,
+              "point_rate": 0.6
+            },
+            "paired": {
+              "maps": 80,
+              "paired_games": 80,
+              "point_rate_difference": 0.0375,
+              "map_cluster_bootstrap_95pct": [
+                -0.0875,
+                0.1625
+              ],
+              "resamples": 5000,
+              "seed": 927608
+            }
+          }
+        },
+        "j_balanced_portfolio": {
+          "Y": {
+            "candidate": {
+              "games": 80,
+              "wins": 34,
+              "draws": 0,
+              "losses": 46,
+              "point_rate": 0.425
+            },
+            "baseline": {
+              "games": 80,
+              "wins": 35,
+              "draws": 0,
+              "losses": 45,
+              "point_rate": 0.4375
+            },
+            "paired": {
+              "maps": 80,
+              "paired_games": 80,
+              "point_rate_difference": -0.0125,
+              "map_cluster_bootstrap_95pct": [
+                -0.15,
+                0.1125
+              ],
+              "resamples": 5000,
+              "seed": 927608
+            }
+          },
+          "K": {
+            "candidate": {
+              "games": 80,
+              "wins": 42,
+              "draws": 0,
+              "losses": 38,
+              "point_rate": 0.525
+            },
+            "baseline": {
+              "games": 80,
+              "wins": 40,
+              "draws": 0,
+              "losses": 40,
+              "point_rate": 0.5
+            },
+            "paired": {
+              "maps": 80,
+              "paired_games": 80,
+              "point_rate_difference": 0.025,
+              "map_cluster_bootstrap_95pct": [
+                -0.1,
+                0.15
+              ],
+              "resamples": 5000,
+              "seed": 927608
+            }
+          }
+        },
+        "j_v2_reclaim_relay": {
+          "Y": {
+            "candidate": {
+              "games": 80,
+              "wins": 50,
+              "draws": 0,
+              "losses": 30,
+              "point_rate": 0.625
+            },
+            "baseline": {
+              "games": 80,
+              "wins": 40,
+              "draws": 0,
+              "losses": 40,
+              "point_rate": 0.5
+            },
+            "paired": {
+              "maps": 80,
+              "paired_games": 80,
+              "point_rate_difference": 0.125,
+              "map_cluster_bootstrap_95pct": [
+                -0.0125,
+                0.2625
+              ],
+              "resamples": 5000,
+              "seed": 927608
+            }
+          },
+          "K": {
+            "candidate": {
+              "games": 80,
+              "wins": 39,
+              "draws": 0,
+              "losses": 41,
+              "point_rate": 0.4875
+            },
+            "baseline": {
+              "games": 80,
+              "wins": 45,
+              "draws": 0,
+              "losses": 35,
+              "point_rate": 0.5625
+            },
+            "paired": {
+              "maps": 80,
+              "paired_games": 80,
+              "point_rate_difference": -0.075,
+              "map_cluster_bootstrap_95pct": [
+                -0.2,
+                0.05
+              ],
+              "resamples": 5000,
+              "seed": 927608
+            }
+          }
+        },
+        "s3_selective_contact": {
+          "Y": {
+            "candidate": {
+              "games": 80,
+              "wins": 33,
+              "draws": 0,
+              "losses": 47,
+              "point_rate": 0.4125
+            },
+            "baseline": {
+              "games": 80,
+              "wins": 28,
+              "draws": 0,
+              "losses": 52,
+              "point_rate": 0.35
+            },
+            "paired": {
+              "maps": 80,
+              "paired_games": 80,
+              "point_rate_difference": 0.0625,
+              "map_cluster_bootstrap_95pct": [
+                -0.0625,
+                0.1875
+              ],
+              "resamples": 5000,
+              "seed": 927608
+            }
+          },
+          "K": {
+            "candidate": {
+              "games": 80,
+              "wins": 39,
+              "draws": 0,
+              "losses": 41,
+              "point_rate": 0.4875
+            },
+            "baseline": {
+              "games": 80,
+              "wins": 35,
+              "draws": 0,
+              "losses": 45,
+              "point_rate": 0.4375
+            },
+            "paired": {
+              "maps": 80,
+              "paired_games": 80,
+              "point_rate_difference": 0.05,
+              "map_cluster_bootstrap_95pct": [
+                -0.0875,
+                0.1875
+              ],
+              "resamples": 5000,
+              "seed": 927608
+            }
+          }
+        },
+        "r3_opponent_league": {
+          "Y": {
+            "candidate": {
+              "games": 80,
+              "wins": 54,
+              "draws": 0,
+              "losses": 26,
+              "point_rate": 0.675
+            },
+            "baseline": {
+              "games": 80,
+              "wins": 52,
+              "draws": 0,
+              "losses": 28,
+              "point_rate": 0.65
+            },
+            "paired": {
+              "maps": 80,
+              "paired_games": 80,
+              "point_rate_difference": 0.025,
+              "map_cluster_bootstrap_95pct": [
+                -0.0875,
+                0.15
+              ],
+              "resamples": 5000,
+              "seed": 927608
+            }
+          },
+          "K": {
+            "candidate": {
+              "games": 80,
+              "wins": 48,
+              "draws": 0,
+              "losses": 32,
+              "point_rate": 0.6
+            },
+            "baseline": {
+              "games": 80,
+              "wins": 54,
+              "draws": 0,
+              "losses": 26,
+              "point_rate": 0.675
+            },
+            "paired": {
+              "maps": 80,
+              "paired_games": 80,
+              "point_rate_difference": -0.075,
+              "map_cluster_bootstrap_95pct": [
+                -0.2,
+                0.0375
+              ],
+              "resamples": 5000,
+              "seed": 927608
+            }
+          }
+        }
+      },
+      "direct_v3_both_sides": {
+        "games": 160,
+        "wins": 87,
+        "draws": 0,
+        "losses": 73,
+        "point_rate": 0.54375
+      },
+      "gates": {
+        "complete_paired_schedule": true,
+        "no_error_or_forfeit": true,
+        "Y_gain_at_least_3pp": true,
+        "Y_map_cluster_lower_bound_positive": true,
+        "fixed_pool_Y_gain_at_least_3pp": true,
+        "fixed_pool_Y_lower_bound_positive": true,
+        "challenge_pool_Y_no_regression": true,
+        "no_opponent_Y_regression_over_10pp": true,
+        "K_overall_regression_no_more_than_5pp": true,
+        "direct_v3_both_side_point_rate_at_least_half": true,
+        "crossplay_candidate_and_baseline_runtime_healthy": true
+      },
+      "gate_record_exact_match": true,
+      "runtime_holdout": {
+        "responses": 183645,
+        "p95_ms": 68.44819243997335,
+        "max_ms": 129.4490434229374,
+        "above_135ms": 0,
+        "at_least_300ms": 0,
+        "all_stages_max_ms": 129.4490434229374,
+        "measurement_note": "Observed whole response latency includes scheduling and protocol I/O. A response above the internal 135ms search budget does not by itself prove an internal search deadline violation or a bug; all recorded responses passed the official 300ms/first-turn3000ms runner limits."
+      },
+      "earlier_stages": {
+        "development": {
+          "Y": {
+            "games": 64,
+            "wins": 42,
+            "draws": 0,
+            "losses": 22,
+            "point_rate": 0.65625
+          },
+          "K": {
+            "games": 64,
+            "wins": 49,
+            "draws": 0,
+            "losses": 15,
+            "point_rate": 0.765625
+          }
+        },
+        "selection": {
+          "Y": {
+            "games": 192,
+            "wins": 128,
+            "draws": 0,
+            "losses": 64,
+            "point_rate": 0.6666666666666666
+          },
+          "K": {
+            "games": 192,
+            "wins": 123,
+            "draws": 0,
+            "losses": 69,
+            "point_rate": 0.640625
+          }
+        }
+      }
+    },
+    "s3_v2_screen_paired_guard": {
+      "pools": {
+        "all": {
+          "Y": {
+            "candidate": {
+              "games": 640,
+              "wins": 424,
+              "draws": 0,
+              "losses": 216,
+              "point_rate": 0.6625
+            },
+            "baseline": {
+              "games": 640,
+              "wins": 373,
+              "draws": 0,
+              "losses": 267,
+              "point_rate": 0.5828125
+            },
+            "paired": {
+              "maps": 80,
+              "paired_games": 640,
+              "point_rate_difference": 0.0796875,
+              "map_cluster_bootstrap_95pct": [
+                0.0359375,
+                0.125
+              ],
+              "resamples": 5000,
+              "seed": 927608
+            }
+          },
+          "K": {
+            "candidate": {
+              "games": 640,
+              "wins": 450,
+              "draws": 0,
+              "losses": 190,
+              "point_rate": 0.703125
+            },
+            "baseline": {
+              "games": 640,
+              "wins": 415,
+              "draws": 0,
+              "losses": 225,
+              "point_rate": 0.6484375
+            },
+            "paired": {
+              "maps": 80,
+              "paired_games": 640,
+              "point_rate_difference": 0.0546875,
+              "map_cluster_bootstrap_95pct": [
+                0.00625,
+                0.103125
+              ],
+              "resamples": 5000,
+              "seed": 927608
+            }
+          }
+        },
+        "fixed": {
+          "Y": {
+            "candidate": {
+              "games": 480,
+              "wins": 335,
+              "draws": 0,
+              "losses": 145,
+              "point_rate": 0.6979166666666666
+            },
+            "baseline": {
+              "games": 480,
+              "wins": 293,
+              "draws": 0,
+              "losses": 187,
+              "point_rate": 0.6104166666666667
+            },
+            "paired": {
+              "maps": 80,
+              "paired_games": 480,
+              "point_rate_difference": 0.0875,
+              "map_cluster_bootstrap_95pct": [
+                0.035416666666666666,
+                0.13958333333333334
+              ],
+              "resamples": 5000,
+              "seed": 927608
+            }
+          },
+          "K": {
+            "candidate": {
+              "games": 480,
+              "wins": 353,
+              "draws": 0,
+              "losses": 127,
+              "point_rate": 0.7354166666666667
+            },
+            "baseline": {
+              "games": 480,
+              "wins": 326,
+              "draws": 0,
+              "losses": 154,
+              "point_rate": 0.6791666666666667
+            },
+            "paired": {
+              "maps": 80,
+              "paired_games": 480,
+              "point_rate_difference": 0.05625,
+              "map_cluster_bootstrap_95pct": [
+                0.004166666666666666,
+                0.10833333333333332
+              ],
+              "resamples": 5000,
+              "seed": 927608
+            }
+          }
+        },
+        "added": {
+          "Y": {
+            "candidate": {
+              "games": 160,
+              "wins": 89,
+              "draws": 0,
+              "losses": 71,
+              "point_rate": 0.55625
+            },
+            "baseline": {
+              "games": 160,
+              "wins": 80,
+              "draws": 0,
+              "losses": 80,
+              "point_rate": 0.5
+            },
+            "paired": {
+              "maps": 80,
+              "paired_games": 160,
+              "point_rate_difference": 0.05625,
+              "map_cluster_bootstrap_95pct": [
+                -0.0375,
+                0.14375
+              ],
+              "resamples": 5000,
+              "seed": 927608
+            }
+          },
+          "K": {
+            "candidate": {
+              "games": 160,
+              "wins": 97,
+              "draws": 0,
+              "losses": 63,
+              "point_rate": 0.60625
+            },
+            "baseline": {
+              "games": 160,
+              "wins": 89,
+              "draws": 0,
+              "losses": 71,
+              "point_rate": 0.55625
+            },
+            "paired": {
+              "maps": 80,
+              "paired_games": 160,
+              "point_rate_difference": 0.05,
+              "map_cluster_bootstrap_95pct": [
+                -0.05625,
+                0.15
+              ],
+              "resamples": 5000,
+              "seed": 927608
+            }
+          }
+        }
+      },
+      "opponents": {
+        "v3": {
+          "Y": {
+            "candidate": {
+              "games": 80,
+              "wins": 49,
+              "draws": 0,
+              "losses": 31,
+              "point_rate": 0.6125
+            },
+            "baseline": {
+              "games": 80,
+              "wins": 32,
+              "draws": 0,
+              "losses": 48,
+              "point_rate": 0.4
+            },
+            "paired": {
+              "maps": 80,
+              "paired_games": 80,
+              "point_rate_difference": 0.2125,
+              "map_cluster_bootstrap_95pct": [
+                0.0625,
+                0.35
+              ],
+              "resamples": 5000,
+              "seed": 927608
+            }
+          },
+          "K": {
+            "candidate": {
+              "games": 80,
+              "wins": 53,
+              "draws": 0,
+              "losses": 27,
+              "point_rate": 0.6625
+            },
+            "baseline": {
+              "games": 80,
+              "wins": 48,
+              "draws": 0,
+              "losses": 32,
+              "point_rate": 0.6
+            },
+            "paired": {
+              "maps": 80,
+              "paired_games": 80,
+              "point_rate_difference": 0.0625,
+              "map_cluster_bootstrap_95pct": [
+                -0.1,
+                0.225
+              ],
+              "resamples": 5000,
+              "seed": 927608
+            }
+          }
+        },
+        "v2": {
+          "Y": {
+            "candidate": {
+              "games": 80,
+              "wins": 76,
+              "draws": 0,
+              "losses": 4,
+              "point_rate": 0.95
+            },
+            "baseline": {
+              "games": 80,
+              "wins": 63,
+              "draws": 0,
+              "losses": 17,
+              "point_rate": 0.7875
+            },
+            "paired": {
+              "maps": 80,
+              "paired_games": 80,
+              "point_rate_difference": 0.1625,
+              "map_cluster_bootstrap_95pct": [
+                0.075,
+                0.2625
+              ],
+              "resamples": 5000,
+              "seed": 927608
+            }
+          },
+          "K": {
+            "candidate": {
+              "games": 80,
+              "wins": 77,
+              "draws": 0,
+              "losses": 3,
+              "point_rate": 0.9625
+            },
+            "baseline": {
+              "games": 80,
+              "wins": 70,
+              "draws": 0,
+              "losses": 10,
+              "point_rate": 0.875
+            },
+            "paired": {
+              "maps": 80,
+              "paired_games": 80,
+              "point_rate_difference": 0.0875,
+              "map_cluster_bootstrap_95pct": [
+                0.0125,
+                0.1625
+              ],
+              "resamples": 5000,
+              "seed": 927608
+            }
+          }
+        },
+        "teammate": {
+          "Y": {
+            "candidate": {
+              "games": 80,
+              "wins": 77,
+              "draws": 0,
+              "losses": 3,
+              "point_rate": 0.9625
+            },
+            "baseline": {
+              "games": 80,
+              "wins": 77,
+              "draws": 0,
+              "losses": 3,
+              "point_rate": 0.9625
+            },
+            "paired": {
+              "maps": 80,
+              "paired_games": 80,
+              "point_rate_difference": 0.0,
+              "map_cluster_bootstrap_95pct": [
+                -0.0375,
+                0.0375
+              ],
+              "resamples": 5000,
+              "seed": 927608
+            }
+          },
+          "K": {
+            "candidate": {
+              "games": 80,
+              "wins": 77,
+              "draws": 0,
+              "losses": 3,
+              "point_rate": 0.9625
+            },
+            "baseline": {
+              "games": 80,
+              "wins": 75,
+              "draws": 0,
+              "losses": 5,
+              "point_rate": 0.9375
+            },
+            "paired": {
+              "maps": 80,
+              "paired_games": 80,
+              "point_rate_difference": 0.025,
+              "map_cluster_bootstrap_95pct": [
+                -0.0375,
+                0.0875
+              ],
+              "resamples": 5000,
+              "seed": 927608
+            }
+          }
+        },
+        "a_v2_tactical_local": {
+          "Y": {
+            "candidate": {
+              "games": 80,
+              "wins": 50,
+              "draws": 0,
+              "losses": 30,
+              "point_rate": 0.625
+            },
+            "baseline": {
+              "games": 80,
+              "wins": 46,
+              "draws": 0,
+              "losses": 34,
+              "point_rate": 0.575
+            },
+            "paired": {
+              "maps": 80,
+              "paired_games": 80,
+              "point_rate_difference": 0.05,
+              "map_cluster_bootstrap_95pct": [
+                -0.1,
+                0.2125
+              ],
+              "resamples": 5000,
+              "seed": 927608
+            }
+          },
+          "K": {
+            "candidate": {
+              "games": 80,
+              "wins": 50,
+              "draws": 0,
+              "losses": 30,
+              "point_rate": 0.625
+            },
+            "baseline": {
+              "games": 80,
+              "wins": 48,
+              "draws": 0,
+              "losses": 32,
+              "point_rate": 0.6
+            },
+            "paired": {
+              "maps": 80,
+              "paired_games": 80,
+              "point_rate_difference": 0.025,
+              "map_cluster_bootstrap_95pct": [
+                -0.1125,
+                0.1625
+              ],
+              "resamples": 5000,
+              "seed": 927608
+            }
+          }
+        },
+        "j_balanced_portfolio": {
+          "Y": {
+            "candidate": {
+              "games": 80,
+              "wins": 38,
+              "draws": 0,
+              "losses": 42,
+              "point_rate": 0.475
+            },
+            "baseline": {
+              "games": 80,
+              "wins": 35,
+              "draws": 0,
+              "losses": 45,
+              "point_rate": 0.4375
+            },
+            "paired": {
+              "maps": 80,
+              "paired_games": 80,
+              "point_rate_difference": 0.0375,
+              "map_cluster_bootstrap_95pct": [
+                -0.1,
+                0.175
+              ],
+              "resamples": 5000,
+              "seed": 927608
+            }
+          },
+          "K": {
+            "candidate": {
+              "games": 80,
+              "wins": 49,
+              "draws": 0,
+              "losses": 31,
+              "point_rate": 0.6125
+            },
+            "baseline": {
+              "games": 80,
+              "wins": 40,
+              "draws": 0,
+              "losses": 40,
+              "point_rate": 0.5
+            },
+            "paired": {
+              "maps": 80,
+              "paired_games": 80,
+              "point_rate_difference": 0.1125,
+              "map_cluster_bootstrap_95pct": [
+                -0.025,
+                0.25
+              ],
+              "resamples": 5000,
+              "seed": 927608
+            }
+          }
+        },
+        "j_v2_reclaim_relay": {
+          "Y": {
+            "candidate": {
+              "games": 80,
+              "wins": 45,
+              "draws": 0,
+              "losses": 35,
+              "point_rate": 0.5625
+            },
+            "baseline": {
+              "games": 80,
+              "wins": 40,
+              "draws": 0,
+              "losses": 40,
+              "point_rate": 0.5
+            },
+            "paired": {
+              "maps": 80,
+              "paired_games": 80,
+              "point_rate_difference": 0.0625,
+              "map_cluster_bootstrap_95pct": [
+                -0.075,
+                0.2
+              ],
+              "resamples": 5000,
+              "seed": 927608
+            }
+          },
+          "K": {
+            "candidate": {
+              "games": 80,
+              "wins": 47,
+              "draws": 0,
+              "losses": 33,
+              "point_rate": 0.5875
+            },
+            "baseline": {
+              "games": 80,
+              "wins": 45,
+              "draws": 0,
+              "losses": 35,
+              "point_rate": 0.5625
+            },
+            "paired": {
+              "maps": 80,
+              "paired_games": 80,
+              "point_rate_difference": 0.025,
+              "map_cluster_bootstrap_95pct": [
+                -0.125,
+                0.175
+              ],
+              "resamples": 5000,
+              "seed": 927608
+            }
+          }
+        },
+        "s3_selective_contact": {
+          "Y": {
+            "candidate": {
+              "games": 80,
+              "wins": 41,
+              "draws": 0,
+              "losses": 39,
+              "point_rate": 0.5125
+            },
+            "baseline": {
+              "games": 80,
+              "wins": 28,
+              "draws": 0,
+              "losses": 52,
+              "point_rate": 0.35
+            },
+            "paired": {
+              "maps": 80,
+              "paired_games": 80,
+              "point_rate_difference": 0.1625,
+              "map_cluster_bootstrap_95pct": [
+                0.025,
+                0.3
+              ],
+              "resamples": 5000,
+              "seed": 927608
+            }
+          },
+          "K": {
+            "candidate": {
+              "games": 80,
+              "wins": 39,
+              "draws": 0,
+              "losses": 41,
+              "point_rate": 0.4875
+            },
+            "baseline": {
+              "games": 80,
+              "wins": 35,
+              "draws": 0,
+              "losses": 45,
+              "point_rate": 0.4375
+            },
+            "paired": {
+              "maps": 80,
+              "paired_games": 80,
+              "point_rate_difference": 0.05,
+              "map_cluster_bootstrap_95pct": [
+                -0.1,
+                0.2
+              ],
+              "resamples": 5000,
+              "seed": 927608
+            }
+          }
+        },
+        "r3_opponent_league": {
+          "Y": {
+            "candidate": {
+              "games": 80,
+              "wins": 48,
+              "draws": 0,
+              "losses": 32,
+              "point_rate": 0.6
+            },
+            "baseline": {
+              "games": 80,
+              "wins": 52,
+              "draws": 0,
+              "losses": 28,
+              "point_rate": 0.65
+            },
+            "paired": {
+              "maps": 80,
+              "paired_games": 80,
+              "point_rate_difference": -0.05,
+              "map_cluster_bootstrap_95pct": [
+                -0.175,
+                0.075
+              ],
+              "resamples": 5000,
+              "seed": 927608
+            }
+          },
+          "K": {
+            "candidate": {
+              "games": 80,
+              "wins": 58,
+              "draws": 0,
+              "losses": 22,
+              "point_rate": 0.725
+            },
+            "baseline": {
+              "games": 80,
+              "wins": 54,
+              "draws": 0,
+              "losses": 26,
+              "point_rate": 0.675
+            },
+            "paired": {
+              "maps": 80,
+              "paired_games": 80,
+              "point_rate_difference": 0.05,
+              "map_cluster_bootstrap_95pct": [
+                -0.0875,
+                0.1875
+              ],
+              "resamples": 5000,
+              "seed": 927608
+            }
+          }
+        }
+      },
+      "direct_v3_both_sides": {
+        "games": 160,
+        "wins": 102,
+        "draws": 0,
+        "losses": 58,
+        "point_rate": 0.6375
+      },
+      "gates": {
+        "complete_paired_schedule": true,
+        "no_error_or_forfeit": true,
+        "Y_gain_at_least_3pp": true,
+        "Y_map_cluster_lower_bound_positive": true,
+        "fixed_pool_Y_gain_at_least_3pp": true,
+        "fixed_pool_Y_lower_bound_positive": true,
+        "challenge_pool_Y_no_regression": true,
+        "no_opponent_Y_regression_over_10pp": true,
+        "K_overall_regression_no_more_than_5pp": true,
+        "direct_v3_both_side_point_rate_at_least_half": true,
+        "crossplay_candidate_and_baseline_runtime_healthy": true
+      },
+      "gate_record_exact_match": true,
+      "runtime_holdout": {
+        "responses": 182906,
+        "p95_ms": 122.47880082577467,
+        "max_ms": 177.43314430117607,
+        "above_135ms": 725,
+        "at_least_300ms": 0,
+        "all_stages_max_ms": 178.5629065707326,
+        "measurement_note": "Observed whole response latency includes scheduling and protocol I/O. A response above the internal 135ms search budget does not by itself prove an internal search deadline violation or a bug; all recorded responses passed the official 300ms/first-turn3000ms runner limits."
+      },
+      "earlier_stages": {
+        "development": {
+          "Y": {
+            "games": 64,
+            "wins": 43,
+            "draws": 0,
+            "losses": 21,
+            "point_rate": 0.671875
+          },
+          "K": {
+            "games": 64,
+            "wins": 44,
+            "draws": 0,
+            "losses": 20,
+            "point_rate": 0.6875
+          }
+        },
+        "selection": {
+          "Y": {
+            "games": 192,
+            "wins": 125,
+            "draws": 0,
+            "losses": 67,
+            "point_rate": 0.6510416666666666
+          },
+          "K": {
+            "games": 192,
+            "wins": 130,
+            "draws": 0,
+            "losses": 62,
+            "point_rate": 0.6770833333333334
+          }
+        }
+      }
+    }
+  },
+  "input_sha256": {
+    "manifest.json": "d1fa6708c9e30352f4f10c2b646af41e3cff81bf1dd0147ddef42b930bdba5f8",
+    "campaign-policy.json": "a31ffd14eb508f255c2c3f6473f1564083d1d6fb6f0c8f92dab7f8cfa95bd50c",
+    "locked-finalists.json": "dcc626f28ea72aa8af3ee05015049a99cd3a0067a98fbcdf760177fbb4204712",
+    "campaign-result.json": "47d31bacd4c980d32cf11b302b137b9826b4dc9898aa24e0e43f8dfd261620de",
+    "progress.json": "21338ca314293fb3bfefbe81ac40faa7340b7f425567c6595897a7e97ed81842",
+    "runs/smoke/results.jsonl": "7922e385597c7f88bef456e3c35b0a8226ffb1bc461babb8c69d6807c16c3e7a",
+    "runs/development/results.jsonl": "1944c9e16600bf97b4c5f854a6d37bc1e600ab43db5e77f1dd253c492cad91bc",
+    "runs/selection/results.jsonl": "6d1866d26a9f74c51ef5e90a3df4ee82f3681b92f71c56e0e960fceeff451fa0",
+    "runs/holdout/results.jsonl": "3bd6c9c34138f6dccdd0b17a96a1a7dc79d3cb4b1ced16bdab2a7b23b03d1e2a",
+    "runs/crossplay/results.jsonl": "1ce2a590e3c17c3be4fe8864ef4a13a5b0ff4edcd2355d487473433f339df043"
+  },
+  "status_limits": [
+    "Original holdout/crossplay gates passed; scheduled 32-map additional audit still pending",
+    "No packaging or official upload validation is certified by this review",
+    "Only overall K regression is gated; individual K opponent regressions can be larger",
+    "Secondary holdout outcome is disclosed but cannot replace the first locked primary",
+    "Added-pool Y confidence interval includes zero despite passing the predeclared point-estimate non-regression gate"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "candidates": [
+    "v3",
+    "r3_lower_tail",
+    "s3_v2_screen_intact_base",
+    "r3_v2_y_tail",
+    "s3_v2_screen_paired_guard",
+    "f3_v2_warrior_reserve",
+    "r3_v2_pareto_local"
+  ],
+  "opponents": [
+    "v3",
+    "v2",
+    "teammate",
+    "a_v2_tactical_local",
+    "j_balanced_portfolio",
+    "j_v2_reclaim_relay",
+    "s3_selective_contact",
+    "r3_opponent_league"
+  ],
+  "map_seeds": [
+    8300,
+    8301,
+    8302,
+    8303,
+    8304,
+    8305,
+    8306,
+    8307,
+    8308,
+    8309,
+    8310,
+    8311,
+    8312,
+    8313,
+    8314,
+    8315,
+    8316,
+    8317,
+    8318,
+    8319,
+    8320,
+    8321,
+    8322,
+    8323
+  ],
+  "replays": "all"
+}
