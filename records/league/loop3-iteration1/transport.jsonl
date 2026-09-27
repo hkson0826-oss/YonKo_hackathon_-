@@ -1,0 +1,172 @@
+{"event": "temporary_created", "utc": "2026-09-27T16:51:11Z", "path": "/tmp/yk-league-euv5p0nt"}
+{"event": "limits", "utc": "2026-09-27T16:51:11Z", "affinity_before": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51], "affinity": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45], "cpu_fraction": 0.8846153846153846, "workers": 16, "process_address_space_bytes": 805306368, "expected_process_count_bound": 88, "expected_address_space_bound_bytes": 70866960384, "memory_available_before_bytes": 467749998592, "memory_budget_bytes": 420974998732, "memory_bound_note": "RLIMIT_AS is per process; the aggregate bound assumes the frozen league worker topology.", "load_before": [0.02783203125, 0.24267578125, 4.0]}
+{"event": "progress", "utc": "2026-09-27T16:51:15Z", "line": "{\"built\": \"v2\", \"count\": 1, \"total\": 26}"}
+{"event": "progress", "utc": "2026-09-27T16:51:19Z", "line": "{\"built\": \"v3\", \"count\": 2, \"total\": 26}"}
+{"event": "progress", "utc": "2026-09-27T16:51:25Z", "line": "{\"built\": \"j_balanced_portfolio\", \"count\": 3, \"total\": 26}"}
+{"event": "progress", "utc": "2026-09-27T16:51:30Z", "line": "{\"built\": \"j_v2_reclaim_relay\", \"count\": 4, \"total\": 26}"}
+{"event": "progress", "utc": "2026-09-27T16:51:35Z", "line": "{\"built\": \"a_v2_tactical_local\", \"count\": 5, \"total\": 26}"}
+{"event": "progress", "utc": "2026-09-27T16:51:40Z", "line": "{\"built\": \"f3_matching\", \"count\": 6, \"total\": 26}"}
+{"event": "progress", "utc": "2026-09-27T16:51:45Z", "line": "{\"built\": \"f3_supply_flow\", \"count\": 7, \"total\": 26}"}
+{"event": "progress", "utc": "2026-09-27T16:51:50Z", "line": "{\"built\": \"f3_econ_mission\", \"count\": 8, \"total\": 26}"}
+{"event": "progress", "utc": "2026-09-27T16:51:55Z", "line": "{\"built\": \"f3_matching_mission\", \"count\": 9, \"total\": 26}"}
+{"event": "progress", "utc": "2026-09-27T16:52:00Z", "line": "{\"built\": \"f3_flow_mission\", \"count\": 10, \"total\": 26}"}
+{"event": "progress", "utc": "2026-09-27T16:52:05Z", "line": "{\"built\": \"f3_econ_portfolio\", \"count\": 11, \"total\": 26}"}
+{"event": "progress", "utc": "2026-09-27T16:52:10Z", "line": "{\"built\": \"s3_role_wait\", \"count\": 12, \"total\": 26}"}
+{"event": "progress", "utc": "2026-09-27T16:52:15Z", "line": "{\"built\": \"s3_split_reserve\", \"count\": 13, \"total\": 26}"}
+{"event": "progress", "utc": "2026-09-27T16:52:20Z", "line": "{\"built\": \"s3_joint_origins\", \"count\": 14, \"total\": 26}"}
+{"event": "progress", "utc": "2026-09-27T16:52:25Z", "line": "{\"built\": \"s3_beam_actions\", \"count\": 15, \"total\": 26}"}
+{"event": "progress", "utc": "2026-09-27T16:52:30Z", "line": "{\"built\": \"s3_screen_refine\", \"count\": 16, \"total\": 26}"}
+{"event": "progress", "utc": "2026-09-27T16:52:35Z", "line": "{\"built\": \"s3_selective_contact\", \"count\": 17, \"total\": 26}"}
+{"event": "progress", "utc": "2026-09-27T16:52:40Z", "line": "{\"built\": \"s3_revisit_search\", \"count\": 18, \"total\": 26}"}
+{"event": "progress", "utc": "2026-09-27T16:52:45Z", "line": "{\"built\": \"r3_lower_tail\", \"count\": 19, \"total\": 26}"}
+{"event": "progress", "utc": "2026-09-27T16:52:50Z", "line": "{\"built\": \"r3_opponent_league\", \"count\": 20, \"total\": 26}"}
+{"event": "progress", "utc": "2026-09-27T16:52:55Z", "line": "{\"built\": \"r3_switching_adversary\", \"count\": 21, \"total\": 26}"}
+{"event": "progress", "utc": "2026-09-27T16:53:00Z", "line": "{\"built\": \"r3_local_counter\", \"count\": 22, \"total\": 26}"}
+{"event": "progress", "utc": "2026-09-27T16:53:05Z", "line": "{\"built\": \"r3_joint_counter\", \"count\": 23, \"total\": 26}"}
+{"event": "progress", "utc": "2026-09-27T16:53:10Z", "line": "{\"built\": \"r3_population_fit\", \"count\": 24, \"total\": 26}"}
+{"event": "progress", "utc": "2026-09-27T16:53:15Z", "line": "{\"built\": \"r3_minimax_regret\", \"count\": 25, \"total\": 26}"}
+{"event": "progress", "utc": "2026-09-27T16:53:21Z", "line": "{\"built\": \"r3_mixed_matrix\", \"count\": 26, \"total\": 26}"}
+{"event": "progress", "utc": "2026-09-27T16:53:21Z", "line": "{\"event\": \"stage_start\", \"stage\": \"smoke\", \"jobs\": 54}"}
+{"event": "progress", "utc": "2026-09-27T16:53:37Z", "line": "{\"finished\": 16, \"total\": 54, \"elapsed_seconds\": 16.1, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T16:53:49Z", "line": "{\"finished\": 32, \"total\": 54, \"elapsed_seconds\": 28.6, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T16:54:00Z", "line": "{\"finished\": 48, \"total\": 54, \"elapsed_seconds\": 38.9, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T16:54:11Z", "line": "{\"finished\": 54, \"total\": 54, \"elapsed_seconds\": 49.8, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T16:54:11Z", "line": "{\"event\": \"stage_complete\", \"stage\": \"smoke\", \"overall\": {\"jobs\": 54, \"matches\": 54, \"errors\": 0, \"distinct_map_count\": 1, \"wins\": 30, \"draws\": 0, \"losses\": 24, \"point_rate\": 0.5555555555555556, \"forfeits\": 0, \"max_turn_ms\": 162.14442159980536, \"opponent_max_turn_ms\": 109.80512574315071, \"p95_turn_ms\": 135.34058164805174, \"opponent_p95_turn_ms\": 65.94210583716631, \"mean_score_margin\": 3.2037037037037037}}"}
+{"event": "progress", "utc": "2026-09-27T16:54:11Z", "line": "{\"event\": \"stage_start\", \"stage\": \"development\", \"jobs\": 2112}"}
+{"event": "progress", "utc": "2026-09-27T16:54:27Z", "line": "{\"finished\": 16, \"total\": 2112, \"elapsed_seconds\": 16.5, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T16:54:41Z", "line": "{\"finished\": 32, \"total\": 2112, \"elapsed_seconds\": 30.3, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T16:54:52Z", "line": "{\"finished\": 48, \"total\": 2112, \"elapsed_seconds\": 40.8, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T16:55:06Z", "line": "{\"finished\": 64, \"total\": 2112, \"elapsed_seconds\": 55.3, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T16:55:18Z", "line": "{\"finished\": 80, \"total\": 2112, \"elapsed_seconds\": 67.8, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T16:55:29Z", "line": "{\"finished\": 96, \"total\": 2112, \"elapsed_seconds\": 78.5, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T16:55:41Z", "line": "{\"finished\": 112, \"total\": 2112, \"elapsed_seconds\": 90.6, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T16:55:54Z", "line": "{\"finished\": 128, \"total\": 2112, \"elapsed_seconds\": 103.6, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T16:56:05Z", "line": "{\"finished\": 144, \"total\": 2112, \"elapsed_seconds\": 114.1, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T16:56:17Z", "line": "{\"finished\": 160, \"total\": 2112, \"elapsed_seconds\": 126.5, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T16:56:31Z", "line": "{\"finished\": 176, \"total\": 2112, \"elapsed_seconds\": 140.3, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T16:56:39Z", "line": "{\"finished\": 192, \"total\": 2112, \"elapsed_seconds\": 148.4, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T16:56:55Z", "line": "{\"finished\": 208, \"total\": 2112, \"elapsed_seconds\": 164.7, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T16:57:06Z", "line": "{\"finished\": 224, \"total\": 2112, \"elapsed_seconds\": 175.0, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T16:57:18Z", "line": "{\"finished\": 240, \"total\": 2112, \"elapsed_seconds\": 187.2, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T16:57:30Z", "line": "{\"finished\": 256, \"total\": 2112, \"elapsed_seconds\": 199.5, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T16:57:42Z", "line": "{\"finished\": 272, \"total\": 2112, \"elapsed_seconds\": 211.5, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T16:57:55Z", "line": "{\"finished\": 288, \"total\": 2112, \"elapsed_seconds\": 223.9, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T16:58:06Z", "line": "{\"finished\": 304, \"total\": 2112, \"elapsed_seconds\": 235.2, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T16:58:15Z", "line": "{\"finished\": 320, \"total\": 2112, \"elapsed_seconds\": 244.8, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T16:58:29Z", "line": "{\"finished\": 336, \"total\": 2112, \"elapsed_seconds\": 258.3, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T16:58:41Z", "line": "{\"finished\": 352, \"total\": 2112, \"elapsed_seconds\": 269.9, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T16:58:50Z", "line": "{\"finished\": 368, \"total\": 2112, \"elapsed_seconds\": 279.3, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T16:59:02Z", "line": "{\"finished\": 384, \"total\": 2112, \"elapsed_seconds\": 291.4, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T16:59:13Z", "line": "{\"finished\": 400, \"total\": 2112, \"elapsed_seconds\": 302.6, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T16:59:27Z", "line": "{\"finished\": 416, \"total\": 2112, \"elapsed_seconds\": 316.3, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T16:59:39Z", "line": "{\"finished\": 432, \"total\": 2112, \"elapsed_seconds\": 328.4, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T16:59:51Z", "line": "{\"finished\": 448, \"total\": 2112, \"elapsed_seconds\": 340.6, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:00:02Z", "line": "{\"finished\": 464, \"total\": 2112, \"elapsed_seconds\": 351.7, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:00:17Z", "line": "{\"finished\": 480, \"total\": 2112, \"elapsed_seconds\": 365.9, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:00:26Z", "line": "{\"finished\": 496, \"total\": 2112, \"elapsed_seconds\": 375.6, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:00:39Z", "line": "{\"finished\": 512, \"total\": 2112, \"elapsed_seconds\": 388.1, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:00:54Z", "line": "{\"finished\": 528, \"total\": 2112, \"elapsed_seconds\": 403.4, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:01:05Z", "line": "{\"finished\": 544, \"total\": 2112, \"elapsed_seconds\": 414.1, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:01:17Z", "line": "{\"finished\": 560, \"total\": 2112, \"elapsed_seconds\": 425.9, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:01:28Z", "line": "{\"finished\": 576, \"total\": 2112, \"elapsed_seconds\": 437.5, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:01:40Z", "line": "{\"finished\": 592, \"total\": 2112, \"elapsed_seconds\": 449.4, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:01:50Z", "line": "{\"finished\": 608, \"total\": 2112, \"elapsed_seconds\": 459.7, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:02:00Z", "line": "{\"finished\": 624, \"total\": 2112, \"elapsed_seconds\": 469.7, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:02:10Z", "line": "{\"finished\": 640, \"total\": 2112, \"elapsed_seconds\": 479.7, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:02:25Z", "line": "{\"finished\": 656, \"total\": 2112, \"elapsed_seconds\": 494.1, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:02:36Z", "line": "{\"finished\": 672, \"total\": 2112, \"elapsed_seconds\": 505.1, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:02:48Z", "line": "{\"finished\": 688, \"total\": 2112, \"elapsed_seconds\": 517.4, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:02:59Z", "line": "{\"finished\": 704, \"total\": 2112, \"elapsed_seconds\": 528.0, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:03:12Z", "line": "{\"finished\": 720, \"total\": 2112, \"elapsed_seconds\": 541.5, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:03:23Z", "line": "{\"finished\": 736, \"total\": 2112, \"elapsed_seconds\": 552.0, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:03:35Z", "line": "{\"finished\": 752, \"total\": 2112, \"elapsed_seconds\": 564.4, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:03:47Z", "line": "{\"finished\": 768, \"total\": 2112, \"elapsed_seconds\": 576.7, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:03:58Z", "line": "{\"finished\": 784, \"total\": 2112, \"elapsed_seconds\": 587.5, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:04:09Z", "line": "{\"finished\": 800, \"total\": 2112, \"elapsed_seconds\": 598.8, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:04:22Z", "line": "{\"finished\": 816, \"total\": 2112, \"elapsed_seconds\": 611.2, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:04:32Z", "line": "{\"finished\": 832, \"total\": 2112, \"elapsed_seconds\": 621.7, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:04:44Z", "line": "{\"finished\": 848, \"total\": 2112, \"elapsed_seconds\": 633.0, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:04:57Z", "line": "{\"finished\": 864, \"total\": 2112, \"elapsed_seconds\": 646.2, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:05:07Z", "line": "{\"finished\": 880, \"total\": 2112, \"elapsed_seconds\": 656.6, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:05:21Z", "line": "{\"finished\": 896, \"total\": 2112, \"elapsed_seconds\": 670.6, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:05:34Z", "line": "{\"finished\": 912, \"total\": 2112, \"elapsed_seconds\": 683.5, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:05:45Z", "line": "{\"finished\": 928, \"total\": 2112, \"elapsed_seconds\": 694.4, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:06:01Z", "line": "{\"finished\": 944, \"total\": 2112, \"elapsed_seconds\": 710.6, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:06:14Z", "line": "{\"finished\": 960, \"total\": 2112, \"elapsed_seconds\": 723.6, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:06:25Z", "line": "{\"finished\": 976, \"total\": 2112, \"elapsed_seconds\": 734.6, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:06:38Z", "line": "{\"finished\": 992, \"total\": 2112, \"elapsed_seconds\": 747.4, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:06:53Z", "line": "{\"finished\": 1008, \"total\": 2112, \"elapsed_seconds\": 762.2, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:07:05Z", "line": "{\"finished\": 1024, \"total\": 2112, \"elapsed_seconds\": 774.3, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:07:17Z", "line": "{\"finished\": 1040, \"total\": 2112, \"elapsed_seconds\": 786.3, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:07:26Z", "line": "{\"finished\": 1056, \"total\": 2112, \"elapsed_seconds\": 795.1, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:07:39Z", "line": "{\"finished\": 1072, \"total\": 2112, \"elapsed_seconds\": 808.2, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:07:51Z", "line": "{\"finished\": 1088, \"total\": 2112, \"elapsed_seconds\": 820.4, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:08:03Z", "line": "{\"finished\": 1104, \"total\": 2112, \"elapsed_seconds\": 832.5, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:08:16Z", "line": "{\"finished\": 1120, \"total\": 2112, \"elapsed_seconds\": 845.4, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:08:27Z", "line": "{\"finished\": 1136, \"total\": 2112, \"elapsed_seconds\": 856.5, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:08:39Z", "line": "{\"finished\": 1152, \"total\": 2112, \"elapsed_seconds\": 868.1, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:08:50Z", "line": "{\"finished\": 1168, \"total\": 2112, \"elapsed_seconds\": 879.4, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:08:59Z", "line": "{\"finished\": 1184, \"total\": 2112, \"elapsed_seconds\": 888.1, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:09:10Z", "line": "{\"finished\": 1200, \"total\": 2112, \"elapsed_seconds\": 899.4, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:09:22Z", "line": "{\"finished\": 1216, \"total\": 2112, \"elapsed_seconds\": 911.6, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:09:35Z", "line": "{\"finished\": 1232, \"total\": 2112, \"elapsed_seconds\": 924.6, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:09:47Z", "line": "{\"finished\": 1248, \"total\": 2112, \"elapsed_seconds\": 936.4, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:09:59Z", "line": "{\"finished\": 1264, \"total\": 2112, \"elapsed_seconds\": 948.6, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:10:10Z", "line": "{\"finished\": 1280, \"total\": 2112, \"elapsed_seconds\": 959.1, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:10:22Z", "line": "{\"finished\": 1296, \"total\": 2112, \"elapsed_seconds\": 971.4, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:10:34Z", "line": "{\"finished\": 1312, \"total\": 2112, \"elapsed_seconds\": 983.2, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:10:48Z", "line": "{\"finished\": 1328, \"total\": 2112, \"elapsed_seconds\": 997.8, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:11:00Z", "line": "{\"finished\": 1344, \"total\": 2112, \"elapsed_seconds\": 1009.0, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:11:11Z", "line": "{\"finished\": 1360, \"total\": 2112, \"elapsed_seconds\": 1020.2, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:11:21Z", "line": "{\"finished\": 1376, \"total\": 2112, \"elapsed_seconds\": 1030.6, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:11:33Z", "line": "{\"finished\": 1392, \"total\": 2112, \"elapsed_seconds\": 1042.6, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:11:45Z", "line": "{\"finished\": 1408, \"total\": 2112, \"elapsed_seconds\": 1054.1, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:11:55Z", "line": "{\"finished\": 1424, \"total\": 2112, \"elapsed_seconds\": 1064.3, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:12:11Z", "line": "{\"finished\": 1440, \"total\": 2112, \"elapsed_seconds\": 1080.4, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:12:24Z", "line": "{\"finished\": 1456, \"total\": 2112, \"elapsed_seconds\": 1093.0, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:12:35Z", "line": "{\"finished\": 1472, \"total\": 2112, \"elapsed_seconds\": 1104.1, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:12:48Z", "line": "{\"finished\": 1488, \"total\": 2112, \"elapsed_seconds\": 1117.4, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:13:00Z", "line": "{\"finished\": 1504, \"total\": 2112, \"elapsed_seconds\": 1128.9, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:13:14Z", "line": "{\"finished\": 1520, \"total\": 2112, \"elapsed_seconds\": 1142.9, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:13:23Z", "line": "{\"finished\": 1536, \"total\": 2112, \"elapsed_seconds\": 1152.7, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:13:37Z", "line": "{\"finished\": 1552, \"total\": 2112, \"elapsed_seconds\": 1166.3, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:13:51Z", "line": "{\"finished\": 1568, \"total\": 2112, \"elapsed_seconds\": 1180.1, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:14:02Z", "line": "{\"finished\": 1584, \"total\": 2112, \"elapsed_seconds\": 1191.0, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:14:13Z", "line": "{\"finished\": 1600, \"total\": 2112, \"elapsed_seconds\": 1201.9, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:14:25Z", "line": "{\"finished\": 1616, \"total\": 2112, \"elapsed_seconds\": 1214.4, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:14:39Z", "line": "{\"finished\": 1632, \"total\": 2112, \"elapsed_seconds\": 1228.6, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:14:51Z", "line": "{\"finished\": 1648, \"total\": 2112, \"elapsed_seconds\": 1240.6, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:15:03Z", "line": "{\"finished\": 1664, \"total\": 2112, \"elapsed_seconds\": 1252.0, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:15:12Z", "line": "{\"finished\": 1680, \"total\": 2112, \"elapsed_seconds\": 1261.7, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:15:25Z", "line": "{\"finished\": 1696, \"total\": 2112, \"elapsed_seconds\": 1274.2, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:15:36Z", "line": "{\"finished\": 1712, \"total\": 2112, \"elapsed_seconds\": 1285.4, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:15:49Z", "line": "{\"finished\": 1728, \"total\": 2112, \"elapsed_seconds\": 1298.6, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:16:03Z", "line": "{\"finished\": 1744, \"total\": 2112, \"elapsed_seconds\": 1312.0, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:16:15Z", "line": "{\"finished\": 1760, \"total\": 2112, \"elapsed_seconds\": 1324.0, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:16:27Z", "line": "{\"finished\": 1776, \"total\": 2112, \"elapsed_seconds\": 1336.8, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:16:40Z", "line": "{\"finished\": 1792, \"total\": 2112, \"elapsed_seconds\": 1349.2, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:16:50Z", "line": "{\"finished\": 1808, \"total\": 2112, \"elapsed_seconds\": 1359.1, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:17:02Z", "line": "{\"finished\": 1824, \"total\": 2112, \"elapsed_seconds\": 1371.4, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:17:17Z", "line": "{\"finished\": 1840, \"total\": 2112, \"elapsed_seconds\": 1386.1, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:17:27Z", "line": "{\"finished\": 1856, \"total\": 2112, \"elapsed_seconds\": 1396.0, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:17:43Z", "line": "{\"finished\": 1872, \"total\": 2112, \"elapsed_seconds\": 1412.3, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:17:52Z", "line": "{\"finished\": 1888, \"total\": 2112, \"elapsed_seconds\": 1421.5, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:18:01Z", "line": "{\"finished\": 1904, \"total\": 2112, \"elapsed_seconds\": 1430.3, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:18:11Z", "line": "{\"finished\": 1920, \"total\": 2112, \"elapsed_seconds\": 1440.5, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:18:24Z", "line": "{\"finished\": 1936, \"total\": 2112, \"elapsed_seconds\": 1453.7, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:18:37Z", "line": "{\"finished\": 1952, \"total\": 2112, \"elapsed_seconds\": 1466.0, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:18:45Z", "line": "{\"finished\": 1968, \"total\": 2112, \"elapsed_seconds\": 1474.6, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:18:59Z", "line": "{\"finished\": 1984, \"total\": 2112, \"elapsed_seconds\": 1488.8, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:19:15Z", "line": "{\"finished\": 2000, \"total\": 2112, \"elapsed_seconds\": 1504.7, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:19:26Z", "line": "{\"finished\": 2016, \"total\": 2112, \"elapsed_seconds\": 1515.3, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:19:40Z", "line": "{\"finished\": 2032, \"total\": 2112, \"elapsed_seconds\": 1529.5, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:19:51Z", "line": "{\"finished\": 2048, \"total\": 2112, \"elapsed_seconds\": 1540.7, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:20:02Z", "line": "{\"finished\": 2064, \"total\": 2112, \"elapsed_seconds\": 1551.6, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:20:11Z", "line": "{\"finished\": 2080, \"total\": 2112, \"elapsed_seconds\": 1560.6, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:20:21Z", "line": "{\"finished\": 2096, \"total\": 2112, \"elapsed_seconds\": 1570.8, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:20:42Z", "line": "{\"finished\": 2112, \"total\": 2112, \"elapsed_seconds\": 1591.5, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "progress", "utc": "2026-09-27T17:20:43Z", "line": "{\"event\": \"stage_complete\", \"stage\": \"development\", \"overall\": {\"jobs\": 2112, \"matches\": 2112, \"errors\": 0, \"distinct_map_count\": 8, \"wins\": 1358, \"draws\": 0, \"losses\": 754, \"point_rate\": 0.6429924242424242, \"forfeits\": 0, \"max_turn_ms\": 187.6227492466569, \"opponent_max_turn_ms\": 178.60801238566637, \"p95_turn_ms\": 135.36552153527737, \"opponent_p95_turn_ms\": 99.246964789927, \"mean_score_margin\": 9.570075757575758}}"}
+{"event": "progress", "utc": "2026-09-27T17:20:43Z", "line": "{\"event\": \"campaign_complete\", \"status\": \"complete\", \"phase\": \"explore\", \"baseline\": \"v3\", \"candidate_count\": 22, \"development_ranking\": [\"s3_screen_refine\", \"r3_lower_tail\", \"s3_joint_origins\", \"s3_split_reserve\", \"s3_revisit_search\", \"s3_beam_actions\", \"f3_matching\", \"r3_local_counter\", \"f3_econ_mission\", \"r3_minimax_regret\", \"s3_selective_contact\", \"r3_joint_counter\", \"s3_role_wait\", \"f3_econ_portfolio\", \"f3_matching_mission\", \"r3_switching_adversary\", \"r3_mixed_matrix\", \"r3_opponent_league\", \"v3\", \"f3_flow_mission\", \"f3_supply_flow\", \"r3_population_fit\"], \"selected\": [\"v3\", \"s3_screen_refine\", \"r3_lower_tail\", \"s3_joint_origins\", \"s3_split_reserve\", \"s3_revisit_search\", \"s3_beam_actions\"], \"recommended\": \"v3\", \"recommendation_scope\": \"Development only; no submission promotion\", \"stage_match_counts\": {\"smoke\": 54, \"development\": 2112}, \"total_matches\": 2166, \"elapsed_seconds\": 1772.40900967177, \"errors\": 0, \"forfeits\": 0}"}
+{"event": "archive_ready", "utc": "2026-09-27T17:20:51Z", "sha256": "6337759f7217aaec35c864b955c5733b5b63c7bcfae284885699cdceb04d69ad", "bytes": 186627272, "status": "complete"}
+{"event": "archive_acknowledgement", "utc": "2026-09-27T17:21:04Z", "value": "OK"}
+{"event": "cleanup_complete", "utc": "2026-09-27T17:21:04Z", "path": "/tmp/yk-league-euv5p0nt", "exists": false, "archive_accepted": true}

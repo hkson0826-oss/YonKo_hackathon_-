@@ -1,0 +1,13 @@
+{
+  "verified_utc": "2026-09-27T17:23:09.478963+00:00",
+  "preview_rows_exactly_match_final": 1289,
+  "preview_replays_exactly_match_final": 11,
+  "live_log_identical_to_durable_transport": true,
+  "remote_cleanup": {
+    "event": "cleanup_complete",
+    "utc": "2026-09-27T17:21:04Z",
+    "path": "/tmp/yk-league-euv5p0nt",
+    "exists": false,
+    "archive_accepted": true
+  }
+}

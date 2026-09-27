@@ -1,0 +1,35 @@
+{
+  "ranking": [
+    "s3_screen_refine",
+    "r3_lower_tail",
+    "s3_joint_origins",
+    "s3_split_reserve",
+    "s3_revisit_search",
+    "s3_beam_actions",
+    "f3_matching",
+    "r3_local_counter",
+    "f3_econ_mission",
+    "r3_minimax_regret",
+    "s3_selective_contact",
+    "r3_joint_counter",
+    "s3_role_wait",
+    "f3_econ_portfolio",
+    "f3_matching_mission",
+    "r3_switching_adversary",
+    "r3_mixed_matrix",
+    "r3_opponent_league",
+    "v3",
+    "f3_flow_mission",
+    "f3_supply_flow",
+    "r3_population_fit"
+  ],
+  "selected": [
+    "v3",
+    "s3_screen_refine",
+    "r3_lower_tail",
+    "s3_joint_origins",
+    "s3_split_reserve",
+    "s3_revisit_search",
+    "s3_beam_actions"
+  ]
+}

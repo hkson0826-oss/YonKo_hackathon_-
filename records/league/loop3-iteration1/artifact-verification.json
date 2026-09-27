@@ -1,0 +1,180 @@
+{
+  "checked_utc": "2026-09-27T17:23:15.790315+00:00",
+  "verifier_sha256": "eb1e5f331a04807b4fe9a5eecd9102984b0c9a369013146e5c279e3eab4efcd5",
+  "status": "passed",
+  "source_commit": "c6c0b6df617df69a723049c2c82518ab9cf027ca",
+  "frozen_source_files_verified": 154,
+  "binaries_intentionally_omitted": 26,
+  "games": 2166,
+  "distinct_maps": 9,
+  "stages": {
+    "smoke": {
+      "games": 54,
+      "full_replays_verified": 54,
+      "distinct_maps": 1
+    },
+    "development": {
+      "games": 2112,
+      "full_replays_verified": 2112,
+      "distinct_maps": 8
+    }
+  },
+  "full_replays_trace_hash_verified": 2166,
+  "errors": 0,
+  "forfeits": 0,
+  "maximum_response_ms_both_bots": 187.6227492466569,
+  "official_originals_unchanged": 5,
+  "maximum_job_elapsed_seconds_including_analysis": 22.22020233143121,
+  "stdout_peak_by_bot_including_END": {
+    "r3_minimax_regret": {
+      "turn_bytes": 2982,
+      "turn_lines": 189,
+      "line_bytes": 88
+    },
+    "v3": {
+      "turn_bytes": 3127,
+      "turn_lines": 200,
+      "line_bytes": 88
+    },
+    "s3_role_wait": {
+      "turn_bytes": 3046,
+      "turn_lines": 193,
+      "line_bytes": 88
+    },
+    "f3_flow_mission": {
+      "turn_bytes": 3732,
+      "turn_lines": 238,
+      "line_bytes": 88
+    },
+    "r3_switching_adversary": {
+      "turn_bytes": 2977,
+      "turn_lines": 188,
+      "line_bytes": 88
+    },
+    "f3_supply_flow": {
+      "turn_bytes": 3924,
+      "turn_lines": 250,
+      "line_bytes": 88
+    },
+    "f3_econ_portfolio": {
+      "turn_bytes": 3049,
+      "turn_lines": 195,
+      "line_bytes": 88
+    },
+    "s3_screen_refine": {
+      "turn_bytes": 2882,
+      "turn_lines": 185,
+      "line_bytes": 88
+    },
+    "s3_revisit_search": {
+      "turn_bytes": 2264,
+      "turn_lines": 144,
+      "line_bytes": 88
+    },
+    "r3_local_counter": {
+      "turn_bytes": 3340,
+      "turn_lines": 211,
+      "line_bytes": 88
+    },
+    "s3_split_reserve": {
+      "turn_bytes": 2754,
+      "turn_lines": 175,
+      "line_bytes": 88
+    },
+    "r3_lower_tail": {
+      "turn_bytes": 3377,
+      "turn_lines": 214,
+      "line_bytes": 88
+    },
+    "j_v2_reclaim_relay": {
+      "turn_bytes": 2456,
+      "turn_lines": 154,
+      "line_bytes": 88
+    },
+    "s3_selective_contact": {
+      "turn_bytes": 2445,
+      "turn_lines": 153,
+      "line_bytes": 88
+    },
+    "r3_opponent_league": {
+      "turn_bytes": 2446,
+      "turn_lines": 154,
+      "line_bytes": 88
+    },
+    "r3_population_fit": {
+      "turn_bytes": 2862,
+      "turn_lines": 183,
+      "line_bytes": 88
+    },
+    "r3_mixed_matrix": {
+      "turn_bytes": 2922,
+      "turn_lines": 184,
+      "line_bytes": 88
+    },
+    "s3_beam_actions": {
+      "turn_bytes": 2882,
+      "turn_lines": 182,
+      "line_bytes": 88
+    },
+    "r3_joint_counter": {
+      "turn_bytes": 2595,
+      "turn_lines": 167,
+      "line_bytes": 88
+    },
+    "teammate": {
+      "turn_bytes": 1799,
+      "turn_lines": 117,
+      "line_bytes": 88
+    },
+    "j_balanced_portfolio": {
+      "turn_bytes": 2640,
+      "turn_lines": 165,
+      "line_bytes": 88
+    },
+    "a_v2_tactical_local": {
+      "turn_bytes": 3037,
+      "turn_lines": 193,
+      "line_bytes": 88
+    },
+    "v2": {
+      "turn_bytes": 2849,
+      "turn_lines": 178,
+      "line_bytes": 88
+    },
+    "f3_matching": {
+      "turn_bytes": 3150,
+      "turn_lines": 202,
+      "line_bytes": 88
+    },
+    "f3_econ_mission": {
+      "turn_bytes": 3475,
+      "turn_lines": 220,
+      "line_bytes": 88
+    },
+    "f3_matching_mission": {
+      "turn_bytes": 3593,
+      "turn_lines": 228,
+      "line_bytes": 88
+    },
+    "s3_joint_origins": {
+      "turn_bytes": 2950,
+      "turn_lines": 187,
+      "line_bytes": 88
+    }
+  },
+  "stdout_check_scope": "Replay-preserved commands plus LF and END; stderr was not captured by the league.",
+  "submission_v2_sha256": "f90eca7cac0024ab4cc7c00d79595f71e4eb9bab92ec57e0527c7b977098b64a",
+  "transport_cleanup": {
+    "event": "cleanup_complete",
+    "utc": "2026-09-27T17:21:04Z",
+    "path": "/tmp/yk-league-euv5p0nt",
+    "exists": false,
+    "archive_accepted": true
+  },
+  "submission_v3_sha256": "ce94e80a49d833be8b3c093a34319d8b9cdb5b7ec8d86b91a4b2831b18d799cb",
+  "independent_cleanup_check": {
+    "path": "/tmp/yk-league-euv5p0nt",
+    "path_exists": false,
+    "matching_process_ids": []
+  }
+}

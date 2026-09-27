@@ -1,0 +1,29 @@
+{
+  "status": "complete",
+  "started_utc": "2026-09-27T16:53:21.255591+00:00",
+  "workers": 16,
+  "resumed_jobs": 0,
+  "scheduled_jobs": 54,
+  "command": [
+    "/usr/bin/python3",
+    "experiments/v3_campaign.py",
+    "--arena",
+    "output",
+    "--phase",
+    "explore",
+    "--revision",
+    "1",
+    "--seed-start",
+    "8100",
+    "--maps",
+    "8",
+    "--workers",
+    "16"
+  ],
+  "plan_sha256": "13806849285b5c1ae0a080797b6aeb5289bb21ccc67e8d74575abbebd2c880dc",
+  "python": "3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]",
+  "python_executable": "/usr/bin/python3",
+  "finished_utc": "2026-09-27T16:54:11.119278+00:00",
+  "wall_seconds": 49.86355922650546,
+  "finished_new_jobs": 54
+}

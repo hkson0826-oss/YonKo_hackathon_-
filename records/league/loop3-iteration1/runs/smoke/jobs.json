@@ -1,0 +1,380 @@
+[
+  {
+    "candidate": "f3_econ_mission",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "Y",
+    "job_id": "bfcd9046a6b2fc817ad094c2"
+  },
+  {
+    "candidate": "r3_switching_adversary",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "K",
+    "job_id": "109e61693b8e042e3f975d1f"
+  },
+  {
+    "candidate": "s3_role_wait",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "Y",
+    "job_id": "0997db068b35a5a4a750c38a"
+  },
+  {
+    "candidate": "f3_supply_flow",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "K",
+    "job_id": "2308ada22d136095d45edee9"
+  },
+  {
+    "candidate": "s3_beam_actions",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "K",
+    "job_id": "93616ef66c4ebbc7d79e1ea5"
+  },
+  {
+    "candidate": "r3_opponent_league",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "Y",
+    "job_id": "675b9a0c5044be1aad5b95e2"
+  },
+  {
+    "candidate": "r3_population_fit",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "K",
+    "job_id": "68e1a80a981baf5ab1bded94"
+  },
+  {
+    "candidate": "f3_flow_mission",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "Y",
+    "job_id": "71b757864acb9ecf704c0615"
+  },
+  {
+    "candidate": "r3_minimax_regret",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "Y",
+    "job_id": "04646baac1b7ab726a4050e6"
+  },
+  {
+    "candidate": "f3_matching_mission",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "K",
+    "job_id": "f7ef7c4c565c3d04b65af9fe"
+  },
+  {
+    "candidate": "r3_local_counter",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "Y",
+    "job_id": "aec1fe9b9290f85339e3239a"
+  },
+  {
+    "candidate": "f3_matching",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "Y",
+    "job_id": "b99cd05c370c432b364aad35"
+  },
+  {
+    "candidate": "r3_population_fit",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "Y",
+    "job_id": "eb9a7c41c0900821ff9292aa"
+  },
+  {
+    "candidate": "v3",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "K",
+    "job_id": "2e42fb0c8aa307e485870978"
+  },
+  {
+    "candidate": "r3_mixed_matrix",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "Y",
+    "job_id": "ee5323c88795611fe2277813"
+  },
+  {
+    "candidate": "j_balanced_portfolio",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "K",
+    "job_id": "ced8879ed071a538e8bc4b32"
+  },
+  {
+    "candidate": "f3_matching",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "K",
+    "job_id": "ffd6ed1e88f489b979eda7c1"
+  },
+  {
+    "candidate": "f3_flow_mission",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "K",
+    "job_id": "0c249c791543755f82da618b"
+  },
+  {
+    "candidate": "a_v2_tactical_local",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "K",
+    "job_id": "8e4e9cfc617d09e302f16ef9"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "Y",
+    "job_id": "9629dd980d08b128ab31362f"
+  },
+  {
+    "candidate": "r3_lower_tail",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "Y",
+    "job_id": "433442376f498314d86224ee"
+  },
+  {
+    "candidate": "r3_opponent_league",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "K",
+    "job_id": "5191d8f701e96c6a15d1d3d8"
+  },
+  {
+    "candidate": "v3",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "Y",
+    "job_id": "d00f941a8ff0a87c9eef33a9"
+  },
+  {
+    "candidate": "r3_switching_adversary",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "Y",
+    "job_id": "b0e0ec8d16c06933b4f6f19c"
+  },
+  {
+    "candidate": "j_v2_reclaim_relay",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "K",
+    "job_id": "724a402e20287e2afc76347c"
+  },
+  {
+    "candidate": "r3_lower_tail",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "K",
+    "job_id": "a4ed6e15c20d9bea77ede5b1"
+  },
+  {
+    "candidate": "s3_selective_contact",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "Y",
+    "job_id": "747fc522a8d6ea1034a25391"
+  },
+  {
+    "candidate": "s3_split_reserve",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "Y",
+    "job_id": "78538ee69f35c28affe51780"
+  },
+  {
+    "candidate": "s3_selective_contact",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "K",
+    "job_id": "4903ebb7798e37bb62077d1d"
+  },
+  {
+    "candidate": "f3_econ_portfolio",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "K",
+    "job_id": "50bca68ac1e868f4baa02a6d"
+  },
+  {
+    "candidate": "s3_joint_origins",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "Y",
+    "job_id": "feef0455703d93977e550c62"
+  },
+  {
+    "candidate": "f3_econ_mission",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "K",
+    "job_id": "c406186267aa69a6464b7b58"
+  },
+  {
+    "candidate": "s3_joint_origins",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "K",
+    "job_id": "f0ee127dda1c8d56a9c26d70"
+  },
+  {
+    "candidate": "s3_revisit_search",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "Y",
+    "job_id": "31e21e7bd57a28b2bf9920ba"
+  },
+  {
+    "candidate": "f3_matching_mission",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "Y",
+    "job_id": "ee28472de0aa5f048ba49ada"
+  },
+  {
+    "candidate": "r3_mixed_matrix",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "K",
+    "job_id": "6dd863f85b59df82a7815433"
+  },
+  {
+    "candidate": "j_balanced_portfolio",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "Y",
+    "job_id": "85a79327e322b1719c9421f4"
+  },
+  {
+    "candidate": "j_v2_reclaim_relay",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "Y",
+    "job_id": "43c7bffa8081422191219674"
+  },
+  {
+    "candidate": "r3_joint_counter",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "Y",
+    "job_id": "74cef7b2d32c164f896a310a"
+  },
+  {
+    "candidate": "f3_econ_portfolio",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "Y",
+    "job_id": "2919670908c407db42129982"
+  },
+  {
+    "candidate": "f3_supply_flow",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "Y",
+    "job_id": "7e5503fe53d800fa54760082"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "K",
+    "job_id": "d7c59901d67d67c6530f931e"
+  },
+  {
+    "candidate": "s3_beam_actions",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "Y",
+    "job_id": "6e49465637be97d647064269"
+  },
+  {
+    "candidate": "r3_local_counter",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "K",
+    "job_id": "34fedf50a48b2e3f07376cac"
+  },
+  {
+    "candidate": "r3_joint_counter",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "K",
+    "job_id": "b4f5050789532ec97e117a1c"
+  },
+  {
+    "candidate": "s3_screen_refine",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "Y",
+    "job_id": "c728a6d06e66eaffaa4a8db3"
+  },
+  {
+    "candidate": "v2",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "K",
+    "job_id": "e39c3320e49aa826f86fd2b5"
+  },
+  {
+    "candidate": "s3_role_wait",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "K",
+    "job_id": "470f0e350ce653ce86a521ea"
+  },
+  {
+    "candidate": "s3_revisit_search",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "K",
+    "job_id": "f3a6861a1f3a0a8fc44725ba"
+  },
+  {
+    "candidate": "s3_split_reserve",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "K",
+    "job_id": "3d3b44aa79d7499e918d3331"
+  },
+  {
+    "candidate": "r3_minimax_regret",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "K",
+    "job_id": "3c64c9f8ba9f9a1b7b050388"
+  },
+  {
+    "candidate": "s3_screen_refine",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "K",
+    "job_id": "314a9d50af32a79bff7ef367"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "Y",
+    "job_id": "83d1623f0ac4614ee38112e7"
+  },
+  {
+    "candidate": "a_v2_tactical_local",
+    "opponent": "v3",
+    "map_seed": 8099,
+    "team": "Y",
+    "job_id": "fb1c73db2e2449666eae8215"
+  }
+]

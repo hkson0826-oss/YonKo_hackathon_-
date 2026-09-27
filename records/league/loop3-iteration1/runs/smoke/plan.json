@@ -1,0 +1,38 @@
+{
+  "candidates": [
+    "v3",
+    "f3_matching",
+    "f3_supply_flow",
+    "f3_econ_mission",
+    "f3_matching_mission",
+    "f3_flow_mission",
+    "f3_econ_portfolio",
+    "s3_role_wait",
+    "s3_split_reserve",
+    "s3_joint_origins",
+    "s3_beam_actions",
+    "s3_screen_refine",
+    "s3_selective_contact",
+    "s3_revisit_search",
+    "r3_lower_tail",
+    "r3_opponent_league",
+    "r3_switching_adversary",
+    "r3_local_counter",
+    "r3_joint_counter",
+    "r3_population_fit",
+    "r3_minimax_regret",
+    "r3_mixed_matrix",
+    "v2",
+    "teammate",
+    "a_v2_tactical_local",
+    "j_balanced_portfolio",
+    "j_v2_reclaim_relay"
+  ],
+  "opponents": [
+    "v3"
+  ],
+  "map_seeds": [
+    8099
+  ],
+  "replays": "all"
+}

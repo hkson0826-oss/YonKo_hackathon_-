@@ -1,0 +1,32 @@
+{
+  "transport": [
+    "ssh",
+    "-T"
+  ],
+  "command": [
+    "python3",
+    "experiments/v3_campaign.py",
+    "--arena",
+    "output",
+    "--phase",
+    "explore",
+    "--revision",
+    "1",
+    "--seed-start",
+    "8100",
+    "--maps",
+    "8",
+    "--workers",
+    "16"
+  ],
+  "returncode": 0,
+  "archive_sha256": "6337759f7217aaec35c864b955c5733b5b63c7bcfae284885699cdceb04d69ad",
+  "archive_bytes": 186627272,
+  "cleanup": {
+    "event": "cleanup_complete",
+    "utc": "2026-09-27T17:21:04Z",
+    "path": "/tmp/yk-league-euv5p0nt",
+    "exists": false,
+    "archive_accepted": true
+  }
+}

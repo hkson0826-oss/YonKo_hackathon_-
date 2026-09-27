@@ -1,0 +1,69 @@
+{
+  "created_utc": "2026-09-27T16:53:21.243092+00:00",
+  "phase": "explore",
+  "baseline": "v3",
+  "candidate_ids": [
+    "v3",
+    "f3_matching",
+    "f3_supply_flow",
+    "f3_econ_mission",
+    "f3_matching_mission",
+    "f3_flow_mission",
+    "f3_econ_portfolio",
+    "s3_role_wait",
+    "s3_split_reserve",
+    "s3_joint_origins",
+    "s3_beam_actions",
+    "s3_screen_refine",
+    "s3_selective_contact",
+    "s3_revisit_search",
+    "r3_lower_tail",
+    "r3_opponent_league",
+    "r3_switching_adversary",
+    "r3_local_counter",
+    "r3_joint_counter",
+    "r3_population_fit",
+    "r3_minimax_regret",
+    "r3_mixed_matrix"
+  ],
+  "fixed_opponents": [
+    "v3",
+    "v2",
+    "teammate",
+    "a_v2_tactical_local",
+    "j_balanced_portfolio",
+    "j_v2_reclaim_relay"
+  ],
+  "challenge_lock": null,
+  "opponents": [
+    "v3",
+    "v2",
+    "teammate",
+    "a_v2_tactical_local",
+    "j_balanced_portfolio",
+    "j_v2_reclaim_relay"
+  ],
+  "map_sets": {
+    "smoke": [
+      8099
+    ],
+    "development": [
+      8100,
+      8101,
+      8102,
+      8103,
+      8104,
+      8105,
+      8106,
+      8107
+    ]
+  },
+  "primary_metric": "Y point rate against frozen fixed and strengthened pools",
+  "selection_count": 6,
+  "finalists": 2,
+  "primary_only_can_promote": true,
+  "promotion": "Complete and error-free; Y gain >=3pp and map CI lower>0 both all/fixed pools; challenge Y non-regression; each opponent Y regression <=10pp; overall K regression <=5pp; direct v3 both-side point rate >=.5.",
+  "replay_policy": "all games, including wins",
+  "resource_policy": "After compilation, workers and bots inherit 384MiB RLIMIT_AS; official 300ms turn timeout",
+  "interpretation": "Development exploiters strengthen training; report fixed/expanded pools separately. No code or opponent changes after final selection starts."
+}

@@ -1,0 +1,49 @@
+{
+  "status": "complete",
+  "phase": "explore",
+  "baseline": "v3",
+  "candidate_count": 22,
+  "development_ranking": [
+    "s3_screen_refine",
+    "r3_lower_tail",
+    "s3_joint_origins",
+    "s3_split_reserve",
+    "s3_revisit_search",
+    "s3_beam_actions",
+    "f3_matching",
+    "r3_local_counter",
+    "f3_econ_mission",
+    "r3_minimax_regret",
+    "s3_selective_contact",
+    "r3_joint_counter",
+    "s3_role_wait",
+    "f3_econ_portfolio",
+    "f3_matching_mission",
+    "r3_switching_adversary",
+    "r3_mixed_matrix",
+    "r3_opponent_league",
+    "v3",
+    "f3_flow_mission",
+    "f3_supply_flow",
+    "r3_population_fit"
+  ],
+  "selected": [
+    "v3",
+    "s3_screen_refine",
+    "r3_lower_tail",
+    "s3_joint_origins",
+    "s3_split_reserve",
+    "s3_revisit_search",
+    "s3_beam_actions"
+  ],
+  "recommended": "v3",
+  "recommendation_scope": "Development only; no submission promotion",
+  "stage_match_counts": {
+    "smoke": 54,
+    "development": 2112
+  },
+  "total_matches": 2166,
+  "elapsed_seconds": 1772.40900967177,
+  "errors": 0,
+  "forfeits": 0
+}
