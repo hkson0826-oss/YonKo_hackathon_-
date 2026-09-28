@@ -1,0 +1,83 @@
+{
+  "recorded_at_utc": "2026-09-28T06:09:54.190574+00:00",
+  "observation_method": "Authenticated Chrome rendered UI; manually transcribed observed initial and final states only",
+  "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-99740c430713d5754ed6861ceef5f2baae7fa19465c4fbd34e98077ea5a3adfb",
+  "game_id": "rolling-game-99740c430713d5754ed6861ceef5f2baae7fa19465c4fbd34e98077ea5a3adfb",
+  "opponent": "하면해",
+  "our_side": "Y",
+  "site_submission": 3,
+  "our_local_version": "v2",
+  "match_time_display": "9월 27일 23:01",
+  "outcome": "win",
+  "points": 1.0,
+  "last_turn": 38,
+  "end_reason_display": "즉시 승리",
+  "observations": [
+    {
+      "turn": 0,
+      "public_score": {
+        "Y": 0,
+        "K": 0
+      },
+      "resources": {
+        "Y": 10,
+        "K": 10
+      },
+      "units": {
+        "Y": {
+          "F": 0,
+          "W": 0,
+          "S": 0
+        },
+        "K": {
+          "F": 0,
+          "W": 0,
+          "S": 0
+        }
+      }
+    },
+    {
+      "turn": 38,
+      "public_score": {
+        "Y": 43,
+        "K": 0
+      },
+      "resources": {
+        "Y": 14,
+        "K": 10
+      },
+      "resource_cap": 40,
+      "owned_building_counts": {
+        "Y": 16,
+        "K": 0
+      },
+      "units": {
+        "Y": {
+          "F": 7,
+          "W": 141,
+          "S": 0
+        },
+        "K": {
+          "F": 4,
+          "W": 41,
+          "S": 0
+        }
+      },
+      "unit_value": {
+        "Y": 458,
+        "K": 143
+      },
+      "occupation_turn_display": {
+        "Y": 1041,
+        "K": null
+      }
+    }
+  ],
+  "original_replay_file_acquired": false,
+  "limitations": [
+    "Not an exported replay JSON; not included in the 18-game census.",
+    "Final W counts are survivors, not total production.",
+    "Attempted full 39-state UI capture timed out; no complete turn series saved.",
+    "Displayed public scores are preserved as public scores, not inferred hidden scores."
+  ]
+}

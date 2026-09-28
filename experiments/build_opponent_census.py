@@ -32,14 +32,28 @@ def bfs(terrain, start, stations=()):
     return seen
 
 
+def future_threat_allowed(turn, final_observation_turn, travel_steps):
+    # Before termination, use the rules horizon, not hindsight about an early win.
+    return (0 <= turn < min(final_observation_turn, 160)
+            and 0 <= travel_steps <= min(3, 160 - turn))
+
+
 def self_check():
     terrain = ['.....', '.###.', '.....']
     assert bfs(terrain, (0, 1))[(4, 1)] == 6
     assert bfs(terrain, (0, 1), [(0, 1), (4, 1)])[(4, 1)] == 1
     assert bfs(terrain, (0, 1), [(0, 1)])[(4, 1)] == 6
     assert (2, 1) not in bfs(terrain, (0, 1))
+    assert not future_threat_allowed(107, 107, 0)
+    assert not future_threat_allowed(92, 92, 1)
+    assert future_threat_allowed(106, 107, 3)
+    assert not future_threat_allowed(160, 160, 0)
+    assert future_threat_allowed(159, 160, 1)
+    assert not future_threat_allowed(159, 160, 2)
     return {'obstacle_detour': True, 'station_edge': True, 'one_station_no_tele': True,
-            'blocked_cell_unreachable': True}
+            'blocked_cell_unreachable': True, 'early_terminal_observations_excluded': True,
+            'earlier_observations_keep_rules_horizon': True,
+            'normal_terminal_and_last_turn_horizon': True}
 
 
 def mean(values):
@@ -168,7 +182,7 @@ def profile(entry):
                     continue
                 target = (building['x'], building['y'])
                 eta = transport.get(target, 999)
-                if turn >= 160 or eta > min(3, 160 - turn):
+                if not future_threat_allowed(turn, raw['turns'][-1]['turn'], eta):
                     continue
                 existing = min((distances((u[2], u[3]), stations[side]).get(target, 999)
                                 for u in ours_w), default=999)
@@ -262,6 +276,7 @@ def markdown(result):
         '- 명령 t는 관측 t−1에서 선택된 명령이다. 접근 지표는 관측 시점의 정보만 사용한다.',
         '- 홈은 우리 본진 쪽 x=0..4 또는 10..14, 중앙은 x=5..9이다. 경로는 장애물을 반영한다.',
         '- 경제 위협은 우리 소유 ENG/HALL에 상대 F가 현재 역 연결 포함 3이동 이내인 장면이다. 주변 1도보 칸의 상대 W 부재를 무호위 지표로 쓴다.',
+        '- 조기종료를 포함한 최종 관측은 이후 명령이 없으므로 미래 위협에서 제외한다. 종료 전 관측은 규칙상 160턴 한도를 사용하며 사후에 알게 된 조기종료 시각으로 경로를 자르지 않는다.',
         '- 도착 시간은 현재 소유 역 및 즉시 생산 가능한 병원을 포함한 기하학적 하한이다. 전투·향후 생산·자원 경쟁·거점 소유 변화·상대 선택을 예측하지 않으며 실제 차단 성공을 뜻하지 않는다.',
         '- 자원 상한 관측 횟수, HALL 소유 관측 합계는 자원 손실 또는 실제 총수입이 아니다. 역 2개 소유도 실제 순간이동 사용의 증거가 아니다.',
         '- 점수는 사후 전체 공개 정보를 이용한 분석 값이다. 상대 명령이나 숨은 점수를 봇 입력으로 제공하지 않는다.', '',
@@ -330,6 +345,7 @@ def main():
         'source_commit': subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip(),
         'source_hashes': {p: digest(ROOT / p) for p in source_paths},
         'scope': 'participant-visible opponent behavior, per-game/version-separated, no hidden command recovery',
+        'future_threat_filter': 'exclude final observation; nonterminal observations use rules horizon 160',
         'coverage': {'games': len(profiles), 'distinct_opponents': len({p['identity']['opponent'] for p in profiles}),
                      'by_round': dict(Counter(p['identity']['round'] for p in profiles)),
                      'our_results': dict(Counter(p['our_result'] for p in profiles)),

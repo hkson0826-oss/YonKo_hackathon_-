@@ -1,0 +1,44 @@
+{
+  "recorded_at_utc": "2026-09-28T06:09:54.190574+00:00",
+  "supersedes_browser_connection_status_only": "collection-status.json",
+  "browser_recovered": true,
+  "read_scope": [
+    "leaderboard: all 104 rows, score help, 0 main-content links",
+    "own matches: 19 of 19, all rounds and outcomes",
+    "haemyeonhae: initial and final replay UI states"
+  ],
+  "leaderboard_matches_previous_ranked_snapshot": true,
+  "our_latest": {
+    "rank": 19,
+    "adjusted_percent": 66.2,
+    "wins": 9,
+    "draws": 0,
+    "losses": 4,
+    "games": 13
+  },
+  "adjusted_formula": "not disclosed; help says opponent strength considered",
+  "adjusted_formula_inferred": false,
+  "opponent_source_or_full_orders_available": false,
+  "other_teams_matches": "No detail links in leaderboard main; own-match view only. No additional access route established.",
+  "full_replay_coverage": {
+    "games": 18,
+    "distinct_opponents": 15,
+    "transitions": 1978
+  },
+  "ui_only_extra_match": "haemyeonhae-ui-observations.json",
+  "original_download_status": "Button became busy then ready; no new local replay file verified. Download event wait timed out.",
+  "operational_limits": [
+    "Chrome downloads manager access was rejected by browser URL policy. No override or alternate access to that manager attempted.",
+    "Full missing-match UI loop timed out and reset session; partial loop was not published as full data."
+  ],
+  "mutations": {
+    "submission_upload": false,
+    "submission_selection": false,
+    "practice_started": false,
+    "messages_sent": false
+  },
+  "records": [
+    "leaderboard-live-followup.json",
+    "haemyeonhae-ui-observations.json"
+  ]
+}
