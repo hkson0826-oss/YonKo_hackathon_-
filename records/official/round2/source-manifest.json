@@ -1,0 +1,189 @@
+{
+  "retrieved_at": "2026-09-28T05:29:12.925985+00:00",
+  "source_commit": "d766387a7a6f0d253e0eb52a6a8150e14aa2dad8",
+  "source_directory_name_is_not_submission_version": true,
+  "files": [
+    {
+      "path": "V4_replay/V4_1replay.json",
+      "bytes": 386281,
+      "sha256": "d011af83e7da5237c13f9217f31ba49a38049200b3411c68fff4c6469f8ed724",
+      "game_id": "rolling-game-109f2e839e8bdb05922c807c8622bb6bd0553f65492fb5101562ab8c9e63242a",
+      "evaluation_id": "01a0e285-d621-7b44-900b-03ddd469159d",
+      "side": "Y",
+      "result": {
+        "reason": "instant",
+        "winner": "Y"
+      },
+      "ruleset": "platform-rules-88a77d888a15",
+      "protocol": "platform-protocol-88a77d888a15"
+    },
+    {
+      "path": "V4_replay/V4_2replay.json",
+      "bytes": 423388,
+      "sha256": "5dd107be161d4d85ba346bfc05b9a7da2b129a47b3bc4a52384ac1cb23c1ae24",
+      "game_id": "rolling-game-1a938b484fe952c60f68313ce8cb680d401dc712bb9b0ca9d385d6b71161cb55",
+      "evaluation_id": "01a0e285-d621-7b44-900b-03ddd469159d",
+      "side": "Y",
+      "result": {
+        "reason": "instant",
+        "winner": "K"
+      },
+      "ruleset": "platform-rules-88a77d888a15",
+      "protocol": "platform-protocol-88a77d888a15"
+    },
+    {
+      "path": "V4_replay/replay (1).json",
+      "bytes": 560022,
+      "sha256": "a5b148ae8a95ffd684a511d65b8609a4da1557f9f7828db22d6a1a600eb7a5f4",
+      "game_id": "rolling-game-34bca1e9294c28464dba463fabb2a9f47d3617bd0eb021872ff16724eb7a5169",
+      "evaluation_id": "01a0e285-d621-7b44-900b-03ddd469159d",
+      "side": "Y",
+      "result": {
+        "reason": "score",
+        "winner": "Y"
+      },
+      "ruleset": "platform-rules-88a77d888a15",
+      "protocol": "platform-protocol-88a77d888a15"
+    },
+    {
+      "path": "V4_replay/replay (10).json",
+      "bytes": 84673,
+      "sha256": "f91cbf2ba3adf601fee3728c7b7a45543aa787b096fd490a80bd194f45cf9ae3",
+      "game_id": "rolling-game-d54af110884f1eff7197810d39f74f0ffcb31dd84cd3874da7a3dc3048632a4e",
+      "evaluation_id": "01a0e285-d621-7b44-900b-03ddd469159d",
+      "side": "Y",
+      "result": {
+        "reason": "instant",
+        "winner": "Y"
+      },
+      "ruleset": "platform-rules-88a77d888a15",
+      "protocol": "platform-protocol-88a77d888a15"
+    },
+    {
+      "path": "V4_replay/replay (2).json",
+      "bytes": 197348,
+      "sha256": "ec88839f7ad1bc6453573573712ba82e7b20f9ff600671a6ff98f175e288ddc2",
+      "game_id": "rolling-game-63440e085528d83bdd61a389b932c72c48eb67e155b1d57d3374ebe909833eaf",
+      "evaluation_id": "01a0e285-d621-7b44-900b-03ddd469159d",
+      "side": "Y",
+      "result": {
+        "reason": "instant",
+        "winner": "K"
+      },
+      "ruleset": "platform-rules-88a77d888a15",
+      "protocol": "platform-protocol-88a77d888a15"
+    },
+    {
+      "path": "V4_replay/replay (3).json",
+      "bytes": 573201,
+      "sha256": "9c8825500a1568ea45cb0ffe351c9297569a223c591292728c1c5d48363562a7",
+      "game_id": "rolling-game-6f32639acafca887f873728e555f1b24252c8f760a4be88f32d865d0727daff3",
+      "evaluation_id": "01a0e285-d621-7b44-900b-03ddd469159d",
+      "side": "Y",
+      "result": {
+        "reason": "score",
+        "winner": "Y"
+      },
+      "ruleset": "platform-rules-88a77d888a15",
+      "protocol": "platform-protocol-88a77d888a15"
+    },
+    {
+      "path": "V4_replay/replay (4).json",
+      "bytes": 100588,
+      "sha256": "8c5d422a4aa5ee45b712516fd3612e842444181f6e2373a3d77c78a7204e9e93",
+      "game_id": "rolling-game-7b34b928563d09ad1b5cc7adbf5037e2c5dc571aa6d687abf3401972f1562899",
+      "evaluation_id": "01a0e285-d621-7b44-900b-03ddd469159d",
+      "side": "Y",
+      "result": {
+        "reason": "instant",
+        "winner": "Y"
+      },
+      "ruleset": "platform-rules-88a77d888a15",
+      "protocol": "platform-protocol-88a77d888a15"
+    },
+    {
+      "path": "V4_replay/replay (5).json",
+      "bytes": 335985,
+      "sha256": "9ead6d80eaf065100e6b8b0ceb578cdbd7c45518fba594bb0dfa2da4894dbe6e",
+      "game_id": "rolling-game-ad84278667fd0929bb5a0b62d486dd6989d107b95060a86689b09677e48c8850",
+      "evaluation_id": "01a0e285-d621-7b44-900b-03ddd469159d",
+      "side": "Y",
+      "result": {
+        "reason": "instant",
+        "winner": "Y"
+      },
+      "ruleset": "platform-rules-88a77d888a15",
+      "protocol": "platform-protocol-88a77d888a15"
+    },
+    {
+      "path": "V4_replay/replay (6).json",
+      "bytes": 316492,
+      "sha256": "25a54389121d711db187f05112052ad208c20ebd1eb250b9ef261b096fb645ab",
+      "game_id": "rolling-game-b51fb30a9b60cbaa637281ccc70189592ccc3acd2a1cc54422eeb2a3647a2028",
+      "evaluation_id": "01a0e285-d621-7b44-900b-03ddd469159d",
+      "side": "Y",
+      "result": {
+        "reason": "instant",
+        "winner": "Y"
+      },
+      "ruleset": "platform-rules-88a77d888a15",
+      "protocol": "platform-protocol-88a77d888a15"
+    },
+    {
+      "path": "V4_replay/replay (7).json",
+      "bytes": 617790,
+      "sha256": "16a984811e7a3124c9834c13706235dc2e0a821c75c13bd2fe6baa8eb5566a2a",
+      "game_id": "rolling-game-bc613bbd0aa2e7ed3cb760c4420de07d584fbfe74435d9e64cfe603140e921df",
+      "evaluation_id": "01a0e285-d621-7b44-900b-03ddd469159d",
+      "side": "Y",
+      "result": {
+        "reason": "score",
+        "winner": "K"
+      },
+      "ruleset": "platform-rules-88a77d888a15",
+      "protocol": "platform-protocol-88a77d888a15"
+    },
+    {
+      "path": "V4_replay/replay (8).json",
+      "bytes": 457435,
+      "sha256": "08477349ddad2b27104b58a4a09fe367e8b747e2c958549ee71150d4d5661863",
+      "game_id": "rolling-game-bffff5735e63efaae46f6cf1d63637b372b1a97295a0b11a270ef78a6fe046c8",
+      "evaluation_id": "01a0e285-d621-7b44-900b-03ddd469159d",
+      "side": "Y",
+      "result": {
+        "reason": "instant",
+        "winner": "K"
+      },
+      "ruleset": "platform-rules-88a77d888a15",
+      "protocol": "platform-protocol-88a77d888a15"
+    },
+    {
+      "path": "V4_replay/replay (9).json",
+      "bytes": 554981,
+      "sha256": "5fec597eb1998acaed0795fd96d7f0e3570db294cfab0b34f5734becc449c48c",
+      "game_id": "rolling-game-c43810616007b08b82fa2ccc028a9bd58a815dd7af25480f26bcd6b298c02031",
+      "evaluation_id": "01a0e285-d621-7b44-900b-03ddd469159d",
+      "side": "Y",
+      "result": {
+        "reason": "instant",
+        "winner": "Y"
+      },
+      "ruleset": "platform-rules-88a77d888a15",
+      "protocol": "platform-protocol-88a77d888a15"
+    },
+    {
+      "path": "V4_replay/replay.json",
+      "bytes": 658521,
+      "sha256": "70da24ce3da77267dce4728fbf4233980b1d1e3f2a069c6bae1e6c328a09da0a",
+      "game_id": "rolling-game-2b49c08f6a4dffa5a063bab17ed6c665a6c84abafe79a82c147811dbf32b1491",
+      "evaluation_id": "01a0e285-d621-7b44-900b-03ddd469159d",
+      "side": "Y",
+      "result": {
+        "reason": "score",
+        "winner": "Y"
+      },
+      "ruleset": "platform-rules-88a77d888a15",
+      "protocol": "platform-protocol-88a77d888a15"
+    }
+  ]
+}

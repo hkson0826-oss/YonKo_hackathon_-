@@ -1,0 +1,875 @@
+{
+  "observed_at_utc": "2026-09-28T05:32:07.951117+00:00",
+  "publication_kst": "2026-09-28 10:00",
+  "method": "Authenticated Chrome CUA accessibility and rendered DOM text; manual structured transcription; no credentials retained",
+  "sources": {
+    "leaderboard": "https://yonsei-vs-korea-hackathon.kr/leaderboard",
+    "submissions": "https://yonsei-vs-korea-hackathon.kr/submissions",
+    "matches": "https://yonsei-vs-korea-hackathon.kr/matches",
+    "rules": "https://yonsei-vs-korea-hackathon.kr/rules",
+    "announcements": "https://yonsei-vs-korea-hackathon.kr/announcements"
+  },
+  "firecrawl": {
+    "live_fetch_requested": true,
+    "result": "Login landing page only; switched to authenticated Chrome",
+    "scrape_id": "01a0e67b-877d-7090-8fa8-de4b3a0a99ee"
+  },
+  "leaderboard": {
+    "registered_teams": 104,
+    "ranked_teams": 56,
+    "unranked_zero_games": 48,
+    "our_rank": 19,
+    "our_side_rank_derived": 9,
+    "our_adjusted_percent": 66.2,
+    "wins": 9,
+    "draws": 0,
+    "losses": 4,
+    "errors": 0,
+    "games": 13,
+    "raw_point_rate": 0.6923076923076923,
+    "displayed_rank_change": -12,
+    "formula_disclosed": false,
+    "formula_note": "UI says strength of opponents considered but gives no exact adjusted-score formula; 9/13 is raw rate, not 66.2%",
+    "by_side": {
+      "Y": {
+        "ranked_teams": 29,
+        "wins": 166,
+        "games": 378
+      },
+      "K": {
+        "ranked_teams": 27,
+        "wins": 212,
+        "games": 378
+      }
+    },
+    "rows": [
+      {
+        "rank": 1,
+        "side": "K",
+        "team": "AIKU",
+        "adjusted_percent": 91.2,
+        "wins": 14,
+        "draws": 0,
+        "losses": 0,
+        "errors": 0,
+        "games": 14
+      },
+      {
+        "rank": 2,
+        "side": "K",
+        "team": "야구사랑했단",
+        "adjusted_percent": 91.0,
+        "wins": 14,
+        "draws": 0,
+        "losses": 0,
+        "errors": 0,
+        "games": 14
+      },
+      {
+        "rank": 3,
+        "side": "K",
+        "team": "모든상금은제세공과금공제후지급됩니다",
+        "adjusted_percent": 90.7,
+        "wins": 14,
+        "draws": 0,
+        "losses": 0,
+        "errors": 0,
+        "games": 14
+      },
+      {
+        "rank": 4,
+        "side": "K",
+        "team": "페이커",
+        "adjusted_percent": 89.7,
+        "wins": 14,
+        "draws": 0,
+        "losses": 0,
+        "errors": 0,
+        "games": 14
+      },
+      {
+        "rank": 5,
+        "side": "K",
+        "team": "뉴비들",
+        "adjusted_percent": 87.2,
+        "wins": 13,
+        "draws": 0,
+        "losses": 1,
+        "errors": 0,
+        "games": 14
+      },
+      {
+        "rank": 6,
+        "side": "K",
+        "team": "붉은 산호초",
+        "adjusted_percent": 86.7,
+        "wins": 13,
+        "draws": 0,
+        "losses": 1,
+        "errors": 0,
+        "games": 14
+      },
+      {
+        "rank": 7,
+        "side": "K",
+        "team": "신촌을못가",
+        "adjusted_percent": 81.4,
+        "wins": 12,
+        "draws": 0,
+        "losses": 2,
+        "errors": 2,
+        "games": 14
+      },
+      {
+        "rank": 8,
+        "side": "K",
+        "team": "개우진보러갈까",
+        "adjusted_percent": 79.2,
+        "wins": 11,
+        "draws": 0,
+        "losses": 3,
+        "errors": 0,
+        "games": 14
+      },
+      {
+        "rank": 9,
+        "side": "Y",
+        "team": "ㄱ-",
+        "adjusted_percent": 76.2,
+        "wins": 10,
+        "draws": 0,
+        "losses": 3,
+        "errors": 0,
+        "games": 13
+      },
+      {
+        "rank": 10,
+        "side": "K",
+        "team": "tAIger",
+        "adjusted_percent": 75.7,
+        "wins": 11,
+        "draws": 0,
+        "losses": 3,
+        "errors": 0,
+        "games": 14
+      },
+      {
+        "rank": 11,
+        "side": "Y",
+        "team": "치명ㄷ",
+        "adjusted_percent": 75.2,
+        "wins": 11,
+        "draws": 0,
+        "losses": 2,
+        "errors": 0,
+        "games": 13
+      },
+      {
+        "rank": 12,
+        "side": "Y",
+        "team": "뉴비입니다",
+        "adjusted_percent": 75.0,
+        "wins": 9,
+        "draws": 0,
+        "losses": 4,
+        "errors": 0,
+        "games": 13
+      },
+      {
+        "rank": 13,
+        "side": "Y",
+        "team": "너구리",
+        "adjusted_percent": 74.7,
+        "wins": 11,
+        "draws": 0,
+        "losses": 2,
+        "errors": 0,
+        "games": 13
+      },
+      {
+        "rank": 14,
+        "side": "Y",
+        "team": "황자구그는감히전설이라할수있다",
+        "adjusted_percent": 74.3,
+        "wins": 9,
+        "draws": 0,
+        "losses": 4,
+        "errors": 0,
+        "games": 13
+      },
+      {
+        "rank": 15,
+        "side": "Y",
+        "team": "파랑파랑(that's blueblue)",
+        "adjusted_percent": 72.6,
+        "wins": 11,
+        "draws": 0,
+        "losses": 2,
+        "errors": 0,
+        "games": 13
+      },
+      {
+        "rank": 16,
+        "side": "Y",
+        "team": "교수명:Claude",
+        "adjusted_percent": 71.8,
+        "wins": 9,
+        "draws": 0,
+        "losses": 4,
+        "errors": 0,
+        "games": 13
+      },
+      {
+        "rank": 17,
+        "side": "K",
+        "team": "건성건성",
+        "adjusted_percent": 71.1,
+        "wins": 10,
+        "draws": 0,
+        "losses": 4,
+        "errors": 0,
+        "games": 14
+      },
+      {
+        "rank": 18,
+        "side": "Y",
+        "team": "占쏙옙",
+        "adjusted_percent": 69.6,
+        "wins": 10,
+        "draws": 0,
+        "losses": 3,
+        "errors": 0,
+        "games": 13
+      },
+      {
+        "rank": 19,
+        "side": "Y",
+        "team": "강릉",
+        "adjusted_percent": 66.2,
+        "wins": 9,
+        "draws": 0,
+        "losses": 4,
+        "errors": 0,
+        "games": 13
+      },
+      {
+        "rank": 20,
+        "side": "K",
+        "team": "요미",
+        "adjusted_percent": 61.5,
+        "wins": 9,
+        "draws": 0,
+        "losses": 5,
+        "errors": 0,
+        "games": 14
+      },
+      {
+        "rank": 21,
+        "side": "K",
+        "team": "어잌후",
+        "adjusted_percent": 59.8,
+        "wins": 8,
+        "draws": 0,
+        "losses": 6,
+        "errors": 0,
+        "games": 14
+      },
+      {
+        "rank": 22,
+        "side": "K",
+        "team": "그래피",
+        "adjusted_percent": 59.6,
+        "wins": 8,
+        "draws": 0,
+        "losses": 6,
+        "errors": 0,
+        "games": 14
+      },
+      {
+        "rank": 23,
+        "side": "Y",
+        "team": "후라.AI",
+        "adjusted_percent": 59.1,
+        "wins": 8,
+        "draws": 0,
+        "losses": 5,
+        "errors": 0,
+        "games": 13
+      },
+      {
+        "rank": 24,
+        "side": "K",
+        "team": "신촌도 우리땅",
+        "adjusted_percent": 59.1,
+        "wins": 9,
+        "draws": 0,
+        "losses": 5,
+        "errors": 0,
+        "games": 14
+      },
+      {
+        "rank": 25,
+        "side": "K",
+        "team": "하면해",
+        "adjusted_percent": 58.7,
+        "wins": 8,
+        "draws": 0,
+        "losses": 6,
+        "errors": 0,
+        "games": 14
+      },
+      {
+        "rank": 26,
+        "side": "K",
+        "team": "뚜띠태하소불고기와멸치두명",
+        "adjusted_percent": 58.7,
+        "wins": 8,
+        "draws": 0,
+        "losses": 6,
+        "errors": 0,
+        "games": 14
+      },
+      {
+        "rank": 27,
+        "side": "Y",
+        "team": "인지시를위대하게",
+        "adjusted_percent": 55.6,
+        "wins": 8,
+        "draws": 0,
+        "losses": 6,
+        "errors": 0,
+        "games": 14
+      },
+      {
+        "rank": 28,
+        "side": "K",
+        "team": "파전",
+        "adjusted_percent": 52.7,
+        "wins": 6,
+        "draws": 0,
+        "losses": 8,
+        "errors": 0,
+        "games": 14
+      },
+      {
+        "rank": 29,
+        "side": "Y",
+        "team": "2325",
+        "adjusted_percent": 52.6,
+        "wins": 7,
+        "draws": 0,
+        "losses": 6,
+        "errors": 0,
+        "games": 13
+      },
+      {
+        "rank": 30,
+        "side": "Y",
+        "team": "렛츠고",
+        "adjusted_percent": 50.6,
+        "wins": 7,
+        "draws": 0,
+        "losses": 6,
+        "errors": 0,
+        "games": 13
+      },
+      {
+        "rank": 31,
+        "side": "K",
+        "team": "저희 집 GPU가 추위를 타요",
+        "adjusted_percent": 50.5,
+        "wins": 6,
+        "draws": 0,
+        "losses": 8,
+        "errors": 0,
+        "games": 14
+      },
+      {
+        "rank": 32,
+        "side": "K",
+        "team": "니땅내땅",
+        "adjusted_percent": 49.7,
+        "wins": 7,
+        "draws": 0,
+        "losses": 7,
+        "errors": 0,
+        "games": 14
+      },
+      {
+        "rank": 33,
+        "side": "Y",
+        "team": "장진하",
+        "adjusted_percent": 46.0,
+        "wins": 6,
+        "draws": 0,
+        "losses": 7,
+        "errors": 0,
+        "games": 13
+      },
+      {
+        "rank": 34,
+        "side": "Y",
+        "team": "저게되네;",
+        "adjusted_percent": 40.9,
+        "wins": 5,
+        "draws": 0,
+        "losses": 8,
+        "errors": 0,
+        "games": 13
+      },
+      {
+        "rank": 35,
+        "side": "Y",
+        "team": "정진규컴퓨터시스템D504",
+        "adjusted_percent": 38.1,
+        "wins": 5,
+        "draws": 0,
+        "losses": 8,
+        "errors": 0,
+        "games": 13
+      },
+      {
+        "rank": 36,
+        "side": "Y",
+        "team": "우트와 윤트",
+        "adjusted_percent": 36.9,
+        "wins": 4,
+        "draws": 0,
+        "losses": 9,
+        "errors": 0,
+        "games": 13
+      },
+      {
+        "rank": 37,
+        "side": "Y",
+        "team": "박박이",
+        "adjusted_percent": 35.6,
+        "wins": 4,
+        "draws": 0,
+        "losses": 9,
+        "errors": 0,
+        "games": 13
+      },
+      {
+        "rank": 38,
+        "side": "K",
+        "team": "양진장",
+        "adjusted_percent": 33.5,
+        "wins": 3,
+        "draws": 0,
+        "losses": 11,
+        "errors": 0,
+        "games": 14
+      },
+      {
+        "rank": 39,
+        "side": "Y",
+        "team": "ACE",
+        "adjusted_percent": 33.2,
+        "wins": 4,
+        "draws": 0,
+        "losses": 9,
+        "errors": 0,
+        "games": 13
+      },
+      {
+        "rank": 40,
+        "side": "K",
+        "team": "태호랑이",
+        "adjusted_percent": 31.1,
+        "wins": 3,
+        "draws": 0,
+        "losses": 11,
+        "errors": 0,
+        "games": 14
+      },
+      {
+        "rank": 41,
+        "side": "Y",
+        "team": "연세있게 코딩하조",
+        "adjusted_percent": 27.6,
+        "wins": 3,
+        "draws": 0,
+        "losses": 10,
+        "errors": 0,
+        "games": 13
+      },
+      {
+        "rank": 42,
+        "side": "Y",
+        "team": "고대26김준우사랑단",
+        "adjusted_percent": 27.4,
+        "wins": 4,
+        "draws": 0,
+        "losses": 9,
+        "errors": 1,
+        "games": 13
+      },
+      {
+        "rank": 43,
+        "side": "K",
+        "team": "참새튀김기",
+        "adjusted_percent": 26.4,
+        "wins": 3,
+        "draws": 0,
+        "losses": 11,
+        "errors": 0,
+        "games": 14
+      },
+      {
+        "rank": 44,
+        "side": "K",
+        "team": "1026",
+        "adjusted_percent": 24.5,
+        "wins": 3,
+        "draws": 0,
+        "losses": 11,
+        "errors": 0,
+        "games": 14
+      },
+      {
+        "rank": 45,
+        "side": "Y",
+        "team": "고양이척살부대",
+        "adjusted_percent": 24.1,
+        "wins": 2,
+        "draws": 0,
+        "losses": 11,
+        "errors": 0,
+        "games": 13
+      },
+      {
+        "rank": 46,
+        "side": "Y",
+        "team": "친교실",
+        "adjusted_percent": 23.4,
+        "wins": 2,
+        "draws": 0,
+        "losses": 11,
+        "errors": 0,
+        "games": 13
+      },
+      {
+        "rank": 47,
+        "side": "Y",
+        "team": "초짜들",
+        "adjusted_percent": 20.6,
+        "wins": 3,
+        "draws": 0,
+        "losses": 10,
+        "errors": 0,
+        "games": 13
+      },
+      {
+        "rank": 48,
+        "side": "K",
+        "team": "hyper",
+        "adjusted_percent": 20.6,
+        "wins": 1,
+        "draws": 0,
+        "losses": 13,
+        "errors": 0,
+        "games": 14
+      },
+      {
+        "rank": 49,
+        "side": "K",
+        "team": "인공저능",
+        "adjusted_percent": 19.9,
+        "wins": 2,
+        "draws": 0,
+        "losses": 12,
+        "errors": 0,
+        "games": 14
+      },
+      {
+        "rank": 50,
+        "side": "K",
+        "team": "학부기",
+        "adjusted_percent": 18.8,
+        "wins": 1,
+        "draws": 0,
+        "losses": 13,
+        "errors": 0,
+        "games": 14
+      },
+      {
+        "rank": 51,
+        "side": "Y",
+        "team": "GNB",
+        "adjusted_percent": 18.6,
+        "wins": 2,
+        "draws": 0,
+        "losses": 11,
+        "errors": 0,
+        "games": 13
+      },
+      {
+        "rank": 52,
+        "side": "K",
+        "team": "공주",
+        "adjusted_percent": 18.4,
+        "wins": 1,
+        "draws": 0,
+        "losses": 13,
+        "errors": 0,
+        "games": 14
+      },
+      {
+        "rank": 53,
+        "side": "Y",
+        "team": "집가고싶다",
+        "adjusted_percent": 17.7,
+        "wins": 1,
+        "draws": 0,
+        "losses": 12,
+        "errors": 0,
+        "games": 13
+      },
+      {
+        "rank": 54,
+        "side": "Y",
+        "team": "조니 해커 블루",
+        "adjusted_percent": 17.7,
+        "wins": 2,
+        "draws": 0,
+        "losses": 11,
+        "errors": 0,
+        "games": 13
+      },
+      {
+        "rank": 55,
+        "side": "Y",
+        "team": "욘욘펀치",
+        "adjusted_percent": 11.8,
+        "wins": 0,
+        "draws": 0,
+        "losses": 13,
+        "errors": 0,
+        "games": 13
+      },
+      {
+        "rank": 56,
+        "side": "Y",
+        "team": "파스텔",
+        "adjusted_percent": 9.8,
+        "wins": 0,
+        "draws": 0,
+        "losses": 13,
+        "errors": 0,
+        "games": 13
+      }
+    ]
+  },
+  "selected_submission": {
+    "site_version": 4,
+    "filename": "submission-v3.zip",
+    "local_version": 3,
+    "submitted_kst": "2026-09-28 01:40",
+    "display_size": "11.9 KiB",
+    "language": "C++20",
+    "status": "사용 가능",
+    "selected": true,
+    "local_zip_sha256": "ce94e80a49d833be8b3c093a34319d8b9cdb5b7ec8d86b91a4b2831b18d799cb",
+    "server_zip_sha256": null,
+    "linkage": "UI submission#4,filename,language,size,timestamp; server bytes not independently verified"
+  },
+  "local_v4_status": {
+    "uploaded": false,
+    "site_total_submissions": 4,
+    "filename": "submission-v4.zip",
+    "sha256": "b3f7fee0154ff08a7f563e8b0036dd7b649d136e949e641ebe69a8c0ba7cd3da"
+  },
+  "match_completeness": {
+    "latest_ui_games": 13,
+    "local_unique_game_ids": 13,
+    "all_ids_and_outcomes_matched_to_ui": true,
+    "all_latest_games_site_submission": 4,
+    "all_history_ui_games": 19,
+    "previous_round_ui_games_now": 6,
+    "previous_round_local_originals": 5,
+    "missing_old_game": {
+      "opponent": "하면해",
+      "outcome": "win",
+      "game_id": "rolling-game-99740c430713d5754ed6861ceef5f2baae7fa19465c4fbd34e98077ea5a3adfb"
+    },
+    "previous_rank_caution": "Prior Sep27 22:59 snapshot rank12,4W1L is preserved; Sep27 23:59 announcement confirms recalculation, latest UI delta19-12=>prior7 is not the old snapshot rank."
+  },
+  "matches": [
+    {
+      "path": "V4_replay/V4_1replay.json",
+      "game_id": "rolling-game-109f2e839e8bdb05922c807c8622bb6bd0553f65492fb5101562ab8c9e63242a",
+      "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-109f2e839e8bdb05922c807c8622bb6bd0553f65492fb5101562ab8c9e63242a",
+      "opponent": "뚜띠태하소불고기와멸치두명",
+      "opponent_reference_rank": 26,
+      "opponent_adjusted_percent": 58.7,
+      "site_submission": 4,
+      "side": "Y",
+      "outcome": "win"
+    },
+    {
+      "path": "V4_replay/V4_2replay.json",
+      "game_id": "rolling-game-1a938b484fe952c60f68313ce8cb680d401dc712bb9b0ca9d385d6b71161cb55",
+      "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-1a938b484fe952c60f68313ce8cb680d401dc712bb9b0ca9d385d6b71161cb55",
+      "opponent": "붉은 산호초",
+      "opponent_reference_rank": 6,
+      "opponent_adjusted_percent": 86.7,
+      "site_submission": 4,
+      "side": "Y",
+      "outcome": "loss"
+    },
+    {
+      "path": "V4_replay/replay (1).json",
+      "game_id": "rolling-game-34bca1e9294c28464dba463fabb2a9f47d3617bd0eb021872ff16724eb7a5169",
+      "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-34bca1e9294c28464dba463fabb2a9f47d3617bd0eb021872ff16724eb7a5169",
+      "opponent": "그래피",
+      "opponent_reference_rank": 22,
+      "opponent_adjusted_percent": 59.6,
+      "site_submission": 4,
+      "side": "Y",
+      "outcome": "win"
+    },
+    {
+      "path": "V4_replay/replay (10).json",
+      "game_id": "rolling-game-d54af110884f1eff7197810d39f74f0ffcb31dd84cd3874da7a3dc3048632a4e",
+      "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-d54af110884f1eff7197810d39f74f0ffcb31dd84cd3874da7a3dc3048632a4e",
+      "opponent": "hyper",
+      "opponent_reference_rank": 48,
+      "opponent_adjusted_percent": 20.6,
+      "site_submission": 4,
+      "side": "Y",
+      "outcome": "win"
+    },
+    {
+      "path": "V4_replay/replay (2).json",
+      "game_id": "rolling-game-63440e085528d83bdd61a389b932c72c48eb67e155b1d57d3374ebe909833eaf",
+      "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-63440e085528d83bdd61a389b932c72c48eb67e155b1d57d3374ebe909833eaf",
+      "opponent": "신촌을못가",
+      "opponent_reference_rank": 7,
+      "opponent_adjusted_percent": 81.4,
+      "site_submission": 4,
+      "side": "Y",
+      "outcome": "loss"
+    },
+    {
+      "path": "V4_replay/replay (3).json",
+      "game_id": "rolling-game-6f32639acafca887f873728e555f1b24252c8f760a4be88f32d865d0727daff3",
+      "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-6f32639acafca887f873728e555f1b24252c8f760a4be88f32d865d0727daff3",
+      "opponent": "요미",
+      "opponent_reference_rank": 20,
+      "opponent_adjusted_percent": 61.5,
+      "site_submission": 4,
+      "side": "Y",
+      "outcome": "win"
+    },
+    {
+      "path": "V4_replay/replay (4).json",
+      "game_id": "rolling-game-7b34b928563d09ad1b5cc7adbf5037e2c5dc571aa6d687abf3401972f1562899",
+      "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-7b34b928563d09ad1b5cc7adbf5037e2c5dc571aa6d687abf3401972f1562899",
+      "opponent": "공주",
+      "opponent_reference_rank": 52,
+      "opponent_adjusted_percent": 18.4,
+      "site_submission": 4,
+      "side": "Y",
+      "outcome": "win"
+    },
+    {
+      "path": "V4_replay/replay (5).json",
+      "game_id": "rolling-game-ad84278667fd0929bb5a0b62d486dd6989d107b95060a86689b09677e48c8850",
+      "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-ad84278667fd0929bb5a0b62d486dd6989d107b95060a86689b09677e48c8850",
+      "opponent": "참새튀김기",
+      "opponent_reference_rank": 43,
+      "opponent_adjusted_percent": 26.4,
+      "site_submission": 4,
+      "side": "Y",
+      "outcome": "win"
+    },
+    {
+      "path": "V4_replay/replay (6).json",
+      "game_id": "rolling-game-b51fb30a9b60cbaa637281ccc70189592ccc3acd2a1cc54422eeb2a3647a2028",
+      "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-b51fb30a9b60cbaa637281ccc70189592ccc3acd2a1cc54422eeb2a3647a2028",
+      "opponent": "신촌도 우리땅",
+      "opponent_reference_rank": 24,
+      "opponent_adjusted_percent": 59.1,
+      "site_submission": 4,
+      "side": "Y",
+      "outcome": "win"
+    },
+    {
+      "path": "V4_replay/replay (7).json",
+      "game_id": "rolling-game-bc613bbd0aa2e7ed3cb760c4420de07d584fbfe74435d9e64cfe603140e921df",
+      "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-bc613bbd0aa2e7ed3cb760c4420de07d584fbfe74435d9e64cfe603140e921df",
+      "opponent": "tAIger",
+      "opponent_reference_rank": 10,
+      "opponent_adjusted_percent": 75.7,
+      "site_submission": 4,
+      "side": "Y",
+      "outcome": "loss"
+    },
+    {
+      "path": "V4_replay/replay (8).json",
+      "game_id": "rolling-game-bffff5735e63efaae46f6cf1d63637b372b1a97295a0b11a270ef78a6fe046c8",
+      "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-bffff5735e63efaae46f6cf1d63637b372b1a97295a0b11a270ef78a6fe046c8",
+      "opponent": "뉴비들",
+      "opponent_reference_rank": 5,
+      "opponent_adjusted_percent": 87.2,
+      "site_submission": 4,
+      "side": "Y",
+      "outcome": "loss"
+    },
+    {
+      "path": "V4_replay/replay (9).json",
+      "game_id": "rolling-game-c43810616007b08b82fa2ccc028a9bd58a815dd7af25480f26bcd6b298c02031",
+      "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-c43810616007b08b82fa2ccc028a9bd58a815dd7af25480f26bcd6b298c02031",
+      "opponent": "니땅내땅",
+      "opponent_reference_rank": 32,
+      "opponent_adjusted_percent": 49.7,
+      "site_submission": 4,
+      "side": "Y",
+      "outcome": "win"
+    },
+    {
+      "path": "V4_replay/replay.json",
+      "game_id": "rolling-game-2b49c08f6a4dffa5a063bab17ed6c665a6c84abafe79a82c147811dbf32b1491",
+      "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-2b49c08f6a4dffa5a063bab17ed6c665a6c84abafe79a82c147811dbf32b1491",
+      "opponent": "어잌후",
+      "opponent_reference_rank": 21,
+      "opponent_adjusted_percent": 59.8,
+      "site_submission": 4,
+      "side": "Y",
+      "outcome": "win"
+    }
+  ],
+  "rules_updates": {
+    "game_balance_change_policy": "No gameplay/balance changes during competition",
+    "latest_replay_ruleset": "platform-rules-88a77d888a15",
+    "latest_replay_protocol": "platform-protocol-88a77d888a15",
+    "round_allocation": "From Sep28 morning prioritize minimum10 games, at most16/team and660total; balance game counts; cross-school only; stratified previous performance/new teams; no repeated opponent within round",
+    "next_cutoff_kst": "2026-09-28 20:00",
+    "next_publication_kst": "2026-09-28 22:00",
+    "final_scoring": "Win1,draw0.5; cross-school round robin at fixed registered side; rank by point rate then win rate then weighted defeated/drawn opponents point rates",
+    "awards_weight_percent": {
+      "final_leaderboard": 70,
+      "report": 20,
+      "presentation": 10
+    }
+  },
+  "announcements": [
+    {
+      "published_kst": "2026-09-28 00:41:24",
+      "title": "참가팀 간 교류 관련 유의사항",
+      "summary": "Inter-team code sharing and off-platform systems pitting agents of multiple participant teams are prohibited. This is distinct from evaluating our own team candidates; no other-team code obtained."
+    },
+    {
+      "published_kst": "2026-09-27 23:59:39",
+      "title": "27일 22:00 대시보드 순위 수정 안내",
+      "summary": "Prior 22:00 table adjusted to equalize match counts; development leaderboard not final awards ranking."
+    }
+  ],
+  "mutations": {
+    "uploaded": false,
+    "selected_submission_changed": false,
+    "practice_started": false,
+    "messages_sent": false
+  }
+}
