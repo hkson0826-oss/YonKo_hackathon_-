@@ -1,0 +1,25 @@
+{
+  "checked_at_utc": "2026-09-28T05:38:27.342951+00:00",
+  "status": "passed",
+  "checks": {
+    "analysis_and_crosscheck_source_hashes": 12,
+    "originals_equal_main_commit": 13,
+    "raw_wins_losses_and_all_1495_command_timings": true,
+    "complete_site_game_id_match": true,
+    "leaderboard_derived_summaries": true,
+    "script_parses": true,
+    "local_document_links": 71,
+    "existing_zip_bytes_preserved": true
+  },
+  "scope": "Raw results/timing/ID/hash/link checks. Own-stage consistency and legal path checks are not full opponent reconstruction.",
+  "file_hashes": {
+    "README.md": "5617b5bebb795d483bcef2cf9e4f548aca2350b77a78cd1ff0b1c590e03cb7c1",
+    "docs/25-공식2차결과와구조개선.md": "54f9ae3ea6b554cb61016752cdae7130b358882745b85132e0c9b93e57de2b55",
+    "records/official/round2/strategy-review.md": "2827f1613004607e49fb296052dc257617625bf9b1c6e7565bdea3d52c612e04",
+    "records/official/round2/replay-analysis.md": "326c98b18270659a9c7ed17d59d854faac0f106989ba6fb29802f9502edd4f27",
+    "records/official/round2/early-defense-crosscheck.md": "fcde5ae4ceca7d2f4246c5d7f01beef6b0c529e29306a1f12de3c4c2ed9b0393",
+    "experiments/analyze_official_round2.py": "eb2633fd56f77a8bdd7d64145ae3f6da34f798dcb7fbfbf702f111a4c1805a53",
+    "records/official/round2/replay-analysis.json": "ec9ab7dac899cf078c92cd002abe13bb20c6b8368b8dc73f74fe8006b759fe2e",
+    "records/official/round2/early-defense-crosscheck.json": "92b324d493bee3a40158d72a4d7f54c5e539de396af2fd55f53cbb4f8f93a236"
+  }
+}

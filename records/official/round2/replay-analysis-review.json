@@ -1,0 +1,186 @@
+{
+  "created_at": "2026-09-28T05:37:25.460746+00:00",
+  "status": "passed",
+  "method": "Separate raw-JSON assertions for selected narrative facts; derived production totals crosschecked with raw final W gap. Not an independent full production-stage implementation.",
+  "input_hashes": {
+    "experiments/analyze_official_round2.py": "eb2633fd56f77a8bdd7d64145ae3f6da34f798dcb7fbfbf702f111a4c1805a53",
+    "records/official/round2/replay-analysis.json": "ec9ab7dac899cf078c92cd002abe13bb20c6b8368b8dc73f74fe8006b759fe2e",
+    "records/official/round2/replay-analysis.md": "326c98b18270659a9c7ed17d59d854faac0f106989ba6fb29802f9502edd4f27"
+  },
+  "checks": [
+    {
+      "name": "V4_2replay.json enemy F approach is observable before loss",
+      "passed": true
+    },
+    {
+      "name": "V4_2replay.json neutralized after owned, no own unit at loss cell",
+      "passed": true
+    },
+    {
+      "name": "V4_2replay.json no own casualty at lost economy cell",
+      "passed": true
+    },
+    {
+      "name": "V4_2replay.json full legal score knowledge precedes key loss",
+      "passed": true
+    },
+    {
+      "name": "replay (2).json enemy F approach is observable before loss",
+      "passed": true
+    },
+    {
+      "name": "replay (2).json neutralized after owned, no own unit at loss cell",
+      "passed": true
+    },
+    {
+      "name": "replay (2).json no own casualty at lost economy cell",
+      "passed": true
+    },
+    {
+      "name": "replay (2).json full legal score knowledge precedes key loss",
+      "passed": true
+    },
+    {
+      "name": "replay (8).json enemy F approach is observable before loss",
+      "passed": true
+    },
+    {
+      "name": "replay (8).json neutralized after owned, no own unit at loss cell",
+      "passed": true
+    },
+    {
+      "name": "replay (8).json no own casualty at lost economy cell",
+      "passed": true
+    },
+    {
+      "name": "replay (8).json full legal score knowledge precedes key loss",
+      "passed": true
+    },
+    {
+      "name": "ENG reclaim absent for 10 observed turns",
+      "passed": true
+    },
+    {
+      "name": "ENG missing F until recovery",
+      "passed": true
+    },
+    {
+      "name": "ENG chase t24 is an actual command",
+      "passed": true
+    },
+    {
+      "name": "HALL neutral 24 to30, restored31",
+      "passed": true
+    },
+    {
+      "name": "V4_2replay.json narrative result and production totals",
+      "passed": true
+    },
+    {
+      "name": "V4_2replay.json production difference agrees with public final warriors",
+      "passed": true
+    },
+    {
+      "name": "replay (2).json narrative result and production totals",
+      "passed": true
+    },
+    {
+      "name": "replay (2).json production difference agrees with public final warriors",
+      "passed": true
+    },
+    {
+      "name": "replay (8).json narrative result and production totals",
+      "passed": true
+    },
+    {
+      "name": "replay (8).json production difference agrees with public final warriors",
+      "passed": true
+    },
+    {
+      "name": "replay (7).json narrative result and production totals",
+      "passed": true
+    },
+    {
+      "name": "replay (7).json production difference agrees with public final warriors",
+      "passed": true
+    },
+    {
+      "name": "tAIger final Y score reversal from direct observations",
+      "passed": true
+    },
+    {
+      "name": "tAIger no ownership change finalturn",
+      "passed": true
+    },
+    {
+      "name": "tAIger final W19 production exact",
+      "passed": true
+    },
+    {
+      "name": "tAIger equal economy",
+      "passed": true
+    },
+    {
+      "name": "graphs win counterexample retained",
+      "passed": true
+    },
+    {
+      "name": "V4_replay/V4_1replay.json unchanged hash",
+      "passed": true
+    },
+    {
+      "name": "V4_replay/V4_2replay.json unchanged hash",
+      "passed": true
+    },
+    {
+      "name": "V4_replay/replay (1).json unchanged hash",
+      "passed": true
+    },
+    {
+      "name": "V4_replay/replay (10).json unchanged hash",
+      "passed": true
+    },
+    {
+      "name": "V4_replay/replay (2).json unchanged hash",
+      "passed": true
+    },
+    {
+      "name": "V4_replay/replay (3).json unchanged hash",
+      "passed": true
+    },
+    {
+      "name": "V4_replay/replay (4).json unchanged hash",
+      "passed": true
+    },
+    {
+      "name": "V4_replay/replay (5).json unchanged hash",
+      "passed": true
+    },
+    {
+      "name": "V4_replay/replay (6).json unchanged hash",
+      "passed": true
+    },
+    {
+      "name": "V4_replay/replay (7).json unchanged hash",
+      "passed": true
+    },
+    {
+      "name": "V4_replay/replay (8).json unchanged hash",
+      "passed": true
+    },
+    {
+      "name": "V4_replay/replay (9).json unchanged hash",
+      "passed": true
+    },
+    {
+      "name": "V4_replay/replay.json unchanged hash",
+      "passed": true
+    },
+    {
+      "name": "13 exact game IDs match site",
+      "passed": true
+    }
+  ],
+  "checks_passed": 43,
+  "counterfactual_claimed": false
+}
