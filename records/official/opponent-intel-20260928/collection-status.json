@@ -1,0 +1,49 @@
+{
+  "checked_at_utc": "2026-09-28T05:58:22.298516+00:00",
+  "public_page": {
+    "url": "https://yonsei-vs-korea-hackathon.kr/leaderboard",
+    "method": "configured Firecrawl MCP live scrape maxAge0",
+    "result": "login redirect; public landing states only own replays viewable",
+    "record": "public-fetch.json"
+  },
+  "authenticated_browser": {
+    "method": "CUA Chrome background task tab",
+    "url": "https://yonsei-vs-korea-hackathon.kr/matches",
+    "initial_state": "entry time verification screen",
+    "subsequent_state": "browser connection unavailable",
+    "read_attempts": [
+      "AX state",
+      "reclaim same tab",
+      "reset session and same tab",
+      "documented DOM snapshot API"
+    ],
+    "additional_match_download_completed": false,
+    "optional_user_reconnect_requested": true
+  },
+  "known_access_from_previous_authenticated_read": {
+    "record": "records/official/round2/site-observations.json",
+    "all_leaderboard_rows_visible": true,
+    "own_match_list_visible": true,
+    "own_match_count": 19,
+    "other_team_vs_other_team_detail_access": "not established; not accessed",
+    "opponent_code_or_commands": "not available in downloaded own-perspective replays"
+  },
+  "missing_replay": {
+    "game_id": "rolling-game-99740c430713d5754ed6861ceef5f2baae7fa19465c4fbd34e98077ea5a3adfb",
+    "opponent": "하면해",
+    "known_outcome": "our win",
+    "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-99740c430713d5754ed6861ceef5f2baae7fa19465c4fbd34e98077ea5a3adfb"
+  },
+  "local_download_check": {
+    "candidate": "replay.json",
+    "game_id": "rolling-game-805c50c9a490f1c11b69ad06d37d8a66ff8a012f4ede324c829038c68ea5fb4e",
+    "result": "already represented old loss; no additional unique game"
+  },
+  "mutations": {
+    "submission_upload": false,
+    "submission_selection": false,
+    "practice_started": false,
+    "messages_sent": false,
+    "other_team_materials_requested": false
+  }
+}
