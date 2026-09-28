@@ -1,0 +1,68 @@
+{
+  "status": "passed",
+  "source_commit": "963deddb512225141b9c662fd96f46c348e939d2",
+  "source_hashes": {
+    "experiments/build_opponent_census.py": "9df9d515f8bd4d4d36355a9d8fcab66222fb929fb634c8ff31e4db6bd09a6fd5",
+    "experiments/analyze_official_round1.py": "398d3175ad159bcc4f6f66c52736769146a61dc7aab15c292c69465e141c8d91",
+    "yk-development-tools/engine/pipeline.py": "f0bd96c484c8628b6a070b188adcc1a077e9f90017cc15f11ce366d974490fa6",
+    "yk-development-tools/config/balance.json": "a46886d91862244b6daf4990dcdf2371302433e7120c21dc2a29ecf95696b35f",
+    "records/official/round1/site-observations.json": "f955752d30d3efb390181b39bf9f43309673a45b7ad9e74389ffd8d90c02edac",
+    "records/official/round2/site-observations.json": "7ea4d29f256024a2b33e43a5053d309fb30ebada100f72a143e29eb74cdb0bb2"
+  },
+  "self_checks": {
+    "obstacle_detour": true,
+    "station_edge": true,
+    "one_station_no_tele": true,
+    "blocked_cell_unreachable": true
+  },
+  "original_hashes_unchanged": {
+    "artifacts/firstround_results/replay (1).json": "82fb14ed2eca4e21316fc7720d0f60d0b5053cb4e6fa418889b064edd3d97881",
+    "artifacts/firstround_results/replay (2).json": "6ea68e55f67ef3fa120b790d752632c3556c3f1de9ed842ec6e66c026d5f647d",
+    "artifacts/firstround_results/replay (3).json": "e1a77ebc0dc871668ad7002674303b8b6066ff3436dca695bbef434a27335011",
+    "artifacts/firstround_results/replay (4).json": "bc4bc260ae659c5c2943393c851dc5fbf4a5de8246950bf548b8f569f4a454ff",
+    "artifacts/firstround_results/replay (5).json": "52d8ce5c40a06f42b2cbdeace40882ab27f446d7ae0addb4f3828a8635277db2",
+    "V4_replay/V4_1replay.json": "d011af83e7da5237c13f9217f31ba49a38049200b3411c68fff4c6469f8ed724",
+    "V4_replay/V4_2replay.json": "5dd107be161d4d85ba346bfc05b9a7da2b129a47b3bc4a52384ac1cb23c1ae24",
+    "V4_replay/replay (1).json": "a5b148ae8a95ffd684a511d65b8609a4da1557f9f7828db22d6a1a600eb7a5f4",
+    "V4_replay/replay (10).json": "f91cbf2ba3adf601fee3728c7b7a45543aa787b096fd490a80bd194f45cf9ae3",
+    "V4_replay/replay (2).json": "ec88839f7ad1bc6453573573712ba82e7b20f9ff600671a6ff98f175e288ddc2",
+    "V4_replay/replay (3).json": "9c8825500a1568ea45cb0ffe351c9297569a223c591292728c1c5d48363562a7",
+    "V4_replay/replay (4).json": "8c5d422a4aa5ee45b712516fd3612e842444181f6e2373a3d77c78a7204e9e93",
+    "V4_replay/replay (5).json": "9ead6d80eaf065100e6b8b0ceb578cdbd7c45518fba594bb0dfa2da4894dbe6e",
+    "V4_replay/replay (6).json": "25a54389121d711db187f05112052ad208c20ebd1eb250b9ef261b096fb645ab",
+    "V4_replay/replay (7).json": "16a984811e7a3124c9834c13706235dc2e0a821c75c13bd2fe6baa8eb5566a2a",
+    "V4_replay/replay (8).json": "08477349ddad2b27104b58a4a09fe367e8b747e2c958549ee71150d4d5661863",
+    "V4_replay/replay (9).json": "5fec597eb1998acaed0795fd96d7f0e3570db294cfab0b34f5734becc449c48c",
+    "V4_replay/replay.json": "70da24ce3da77267dce4728fbf4233980b1d1e3f2a069c6bae1e6c328a09da0a"
+  },
+  "existing_analysis_crosschecked_games": [
+    "rolling-game-e3fd566eee1999e1349fb77cdba677f9b15a96b8163a2f2ce657c861af1593fb",
+    "rolling-game-3dd41599c2c6adcb057a6ed543d2fa6ae0961c00e745a0bb048604720110cbb1",
+    "rolling-game-805c50c9a490f1c11b69ad06d37d8a66ff8a012f4ede324c829038c68ea5fb4e",
+    "rolling-game-e6920b1cc1fb4db8bf3afc03de803bf1602b7771f0d8093ea637c9667bda1b49",
+    "rolling-game-cc2cdecafcf04121af34ef3e1ce4c341cc299e63cc3c4ce29ddf4a9de15ee066",
+    "rolling-game-109f2e839e8bdb05922c807c8622bb6bd0553f65492fb5101562ab8c9e63242a",
+    "rolling-game-1a938b484fe952c60f68313ce8cb680d401dc712bb9b0ca9d385d6b71161cb55",
+    "rolling-game-34bca1e9294c28464dba463fabb2a9f47d3617bd0eb021872ff16724eb7a5169",
+    "rolling-game-d54af110884f1eff7197810d39f74f0ffcb31dd84cd3874da7a3dc3048632a4e",
+    "rolling-game-63440e085528d83bdd61a389b932c72c48eb67e155b1d57d3374ebe909833eaf",
+    "rolling-game-6f32639acafca887f873728e555f1b24252c8f760a4be88f32d865d0727daff3",
+    "rolling-game-7b34b928563d09ad1b5cc7adbf5037e2c5dc571aa6d687abf3401972f1562899",
+    "rolling-game-ad84278667fd0929bb5a0b62d486dd6989d107b95060a86689b09677e48c8850",
+    "rolling-game-b51fb30a9b60cbaa637281ccc70189592ccc3acd2a1cc54422eeb2a3647a2028",
+    "rolling-game-bc613bbd0aa2e7ed3cb760c4420de07d584fbfe74435d9e64cfe603140e921df",
+    "rolling-game-bffff5735e63efaae46f6cf1d63637b372b1a97295a0b11a270ef78a6fe046c8",
+    "rolling-game-c43810616007b08b82fa2ccc028a9bd58a815dd7af25480f26bcd6b298c02031",
+    "rolling-game-2b49c08f6a4dffa5a063bab17ed6c665a6c84abafe79a82c147811dbf32b1491"
+  ],
+  "all_site_game_identity_side_result_checks": 18,
+  "own_official_spawn_move_transitions_checked": 1978,
+  "enemy_orders_reconstructed": false,
+  "extra_metadata": null,
+  "started_at_utc": "2026-09-28T05:59:14.226866+00:00",
+  "finished_at_utc": "2026-09-28T05:59:17.973849+00:00",
+  "output_sha256": {
+    "census.json": "0ee2adc8d9bdf3754d4f03b532a1173c623909b6684fc9908582b7742493b147",
+    "census.md": "13718b8828762e5efd18cb6372e300a0ddca69562a1c3ded188241b318d59dde"
+  }
+}

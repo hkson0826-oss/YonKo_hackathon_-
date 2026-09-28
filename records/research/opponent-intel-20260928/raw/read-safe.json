@@ -1,0 +1,22 @@
+{
+  "tool": "mcp__firecrawl__firecrawl_research_read_paper",
+  "request": {
+    "paperId": "arxiv:2112.12594",
+    "question": "Verify inside the paper: why can restricted Nash response fail with naive limited lookahead, what does continual depth-limited robust response change, what assumptions and value-function/oracle requirements are needed for guarantees? Which components could transfer to a small rule-based simultaneous action matrix search without learned weights, and which cannot?"
+  },
+  "original_response_serialization_sha256": "66f422c9d36b0e1325731cd199cce5009d379a0619cac24dc9d7ad4ef20c7d47",
+  "original_response_bytes": 32272,
+  "full_response_retained": false,
+  "provenance_note": "Original MCP response was read during this research batch; full copyrighted bodies/abstract passages are omitted from the public record. Hash identifies that original local JSON serialization, not a publisher-provided file.",
+  "verification": {
+    "sections": [
+      "1",
+      "5 Full Gadget",
+      "Appendix C",
+      "Appendix F"
+    ],
+    "paraphrase_ko": "상대 best response는 모델 오류에 취약하고 제한 탐색의 일부 기존 gadget은 exploitability를 오판한다. full gadget은 과거 해결 부분까지 보존하며 올바른 경계 가치가 필요하다. 깊은 게임에는 비용이 커서 이번에는 직접 이식하지 않는다."
+  },
+  "source_url": "https://arxiv.org/abs/2112.12594",
+  "passage_count": 4
+}

@@ -1,0 +1,101 @@
+{
+  "tool": "mcp__firecrawl__firecrawl_research_search_papers",
+  "request": {
+    "query": "safe opponent exploitation adversarial games opponent model robust best response restricted Nash response",
+    "k": 8
+  },
+  "original_response_serialization_sha256": "6cf4eabb23d05e2d6e19d8e9db94831beb2acaf53ae6ef727b91b3989aa933f0",
+  "original_response_bytes": 20080,
+  "full_response_retained": false,
+  "provenance_note": "Original MCP response was read during this research batch; full copyrighted bodies/abstract passages are omitted from the public record. Hash identifies that original local JSON serialization, not a publisher-provided file.",
+  "results": [
+    {
+      "paperId": "5587989761118534341",
+      "primaryId": "arxiv:2607.28520",
+      "ids": {
+        "arxiv": [
+          "2607.28520"
+        ]
+      },
+      "title": "Agents That Certify Their Own Exploits: Confidence-Scheduled Restricted Responses for Safe Opponent Exploitation",
+      "score": 0.9758729785823308
+    },
+    {
+      "paperId": "913718416475138726",
+      "primaryId": "arxiv:2604.25796",
+      "ids": {
+        "arxiv": [
+          "2604.25796"
+        ]
+      },
+      "title": "StratFormer: Adaptive Opponent Modeling and Exploitation in Imperfect-Information Games",
+      "score": 0.9426758241011313
+    },
+    {
+      "paperId": "7195618556248156250",
+      "primaryId": "arxiv:2112.12594",
+      "ids": {
+        "arxiv": [
+          "2112.12594"
+        ]
+      },
+      "title": "Continual Depth-limited Responses for Computing Counter-strategies in Sequential Games",
+      "score": 0.9340109905087812
+    },
+    {
+      "paperId": "2575194484783680626",
+      "primaryId": "arxiv:2203.07562",
+      "ids": {
+        "arxiv": [
+          "2203.07562"
+        ]
+      },
+      "title": "Safe adaptation in multiagent competition",
+      "score": 0.9332363674067763
+    },
+    {
+      "paperId": "4948596040944966735",
+      "primaryId": "arxiv:2110.04835",
+      "ids": {
+        "arxiv": [
+          "2110.04835"
+        ]
+      },
+      "title": "Reinforcement Learning In Two Player Zero Sum Simultaneous Action Games",
+      "score": 0.9168273035060777
+    },
+    {
+      "paperId": "8509918621331633772",
+      "primaryId": "arxiv:1603.03491",
+      "ids": {
+        "arxiv": [
+          "1603.03491"
+        ]
+      },
+      "title": "Bayesian Opponent Exploitation in Imperfect-Information Games",
+      "score": 0.9109264722644368
+    },
+    {
+      "paperId": "274066162947746927",
+      "primaryId": "arxiv:2302.00797",
+      "ids": {
+        "arxiv": [
+          "2302.00797"
+        ]
+      },
+      "title": "Combining Tree-Search, Generative Models, and Nash Bargaining Concepts in Game-Theoretic Reinforcement Learning",
+      "score": 0.9078364897378534
+    },
+    {
+      "paperId": "5013842496405263115",
+      "primaryId": "arxiv:1909.08735",
+      "ids": {
+        "arxiv": [
+          "1909.08735"
+        ]
+      },
+      "title": "Robust Opponent Modeling via Adversarial Ensemble Reinforcement Learning in Asymmetric Imperfect-Information Games",
+      "score": 0.9078364897378534
+    }
+  ]
+}

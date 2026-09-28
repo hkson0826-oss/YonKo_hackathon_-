@@ -1,0 +1,28 @@
+{
+  "tool": "mcp__firecrawl__firecrawl_research_inspect_paper",
+  "request": {
+    "paperId": "arxiv:2102.07381"
+  },
+  "original_response_serialization_sha256": "f50e78a02ce121d8cc82a1f5c99c85efe841a99fca86f27031fede558f15a50e",
+  "original_response_bytes": 4276,
+  "full_response_retained": false,
+  "provenance_note": "Original MCP response was read during this research batch; full copyrighted bodies/abstract passages are omitted from the public record. Hash identifies that original local JSON serialization, not a publisher-provided file.",
+  "paper": {
+    "paperId": "1353878658091575165",
+    "ids": {
+      "arxiv": [
+        "2102.07381"
+      ]
+    },
+    "title": "A Decentralized Multi-UAV Spatio-Temporal Multi-Task Allocation Approach for Perimeter Defense",
+    "authors": "Shridhar Velhal, Suresh Sundaram, Narasimhan Sundararajan",
+    "categories": [
+      "eess.SY",
+      "cs.MA",
+      "cs.RO",
+      "cs.SY"
+    ],
+    "createdDate": "Mon, 15 Feb 2021 07:45:56 GMT",
+    "updateDate": "2021-02-16"
+  }
+}

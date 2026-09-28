@@ -1,0 +1,25 @@
+{
+  "tool": "mcp__firecrawl__firecrawl_research_inspect_paper",
+  "request": {
+    "paperId": "arxiv:2112.12594"
+  },
+  "original_response_serialization_sha256": "2cbdecbda203a4de79b902d45789fc44c8800fd6adb1edc9e3bbb84b502aa57a",
+  "original_response_bytes": 3124,
+  "full_response_retained": false,
+  "provenance_note": "Original MCP response was read during this research batch; full copyrighted bodies/abstract passages are omitted from the public record. Hash identifies that original local JSON serialization, not a publisher-provided file.",
+  "paper": {
+    "paperId": "7195618556248156250",
+    "ids": {
+      "arxiv": [
+        "2112.12594"
+      ]
+    },
+    "title": "Continual Depth-limited Responses for Computing Counter-strategies in Sequential Games",
+    "authors": "David Milec, Ondřej Kubíček, Viliam Lisý",
+    "categories": [
+      "cs.GT"
+    ],
+    "createdDate": "Thu, 23 Dec 2021 14:41:36 GMT",
+    "updateDate": "2024-04-04"
+  }
+}

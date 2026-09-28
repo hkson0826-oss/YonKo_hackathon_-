@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-09-28T06:00:46.641446+00:00",
+  "checks": {
+    "raw_record_hashes": 22,
+    "source_input_hashes": 6,
+    "local_links": [
+      {
+        "target": "../round2/README.md",
+        "exists": true
+      },
+      {
+        "target": "../../official/round2/early-defense-crosscheck.md",
+        "exists": true
+      },
+      {
+        "target": "../../../submissions/iterative-v4/main.cpp",
+        "exists": true
+      },
+      {
+        "target": "sources.json",
+        "exists": true
+      },
+      {
+        "target": "raw/",
+        "exists": true
+      }
+    ],
+    "json_parse": true,
+    "no_full_paper_bodies": true,
+    "body_verifications": 6
+  },
+  "errors": [],
+  "scope": "Research records and links only; does not validate proposed algorithms or performance."
+}

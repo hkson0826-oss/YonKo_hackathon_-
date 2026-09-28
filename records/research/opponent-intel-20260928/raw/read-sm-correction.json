@@ -1,0 +1,22 @@
+{
+  "tool": "mcp__firecrawl__firecrawl_research_read_paper",
+  "request": {
+    "paperId": "arxiv:1804.09045",
+    "question": "Verify the body's exact counterexample/conclusion: using a Hannan-consistent action selection algorithm directly on observed payoff does not ensure simultaneous-move MCTS convergence; what joint-action averaging or unbiased payoff observations assumption restores it? This will qualify a finite small matrix endgame solver, not claim it already converges within 300 ms."
+  },
+  "original_response_serialization_sha256": "fba0e4f85ca88f14555d75c5da68fdde739aa16463ba266468ab99ecd1c2d751",
+  "original_response_bytes": 31130,
+  "full_response_retained": false,
+  "provenance_note": "Original MCP response was read during this research batch; full copyrighted bodies/abstract passages are omitted from the public record. Hash identifies that original local JSON serialization, not a publisher-provided file.",
+  "verification": {
+    "sections": [
+      "Theorem 4.1",
+      "Theorem 5.4",
+      "Definition 5.11",
+      "Theorem 5.12"
+    ],
+    "paraphrase_ko": "Hannan consistency만으로 일반 SM-MCTS 수렴을 보장하지 못하는 반례가 있다. 공동 행동별 보상의 평균을 사용하는 SM-MCTS-A 또는 별도 unbiased-payoff-observation 조건과 탐험 조건을 구분해야 한다."
+  },
+  "source_url": "https://arxiv.org/abs/1804.09045",
+  "passage_count": 4
+}

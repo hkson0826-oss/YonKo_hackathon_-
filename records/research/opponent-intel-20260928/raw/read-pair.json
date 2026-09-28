@@ -1,0 +1,23 @@
+{
+  "tool": "mcp__firecrawl__firecrawl_research_read_paper",
+  "request": {
+    "paperId": "arxiv:1611.00450",
+    "question": "Verify body: how does pairwise reach avoid feasibility define the bipartite graph and maximum matching, how are recomputation and defender guarantees formulated, which continuous dynamics/speed and obstacle assumptions are necessary, and when cannot separate pairwise success imply multi defender success?"
+  },
+  "original_response_serialization_sha256": "00d9929ce2f7404fc34bad5434e9fc8a62d7af30ac6063b30f0f4d388a63238a",
+  "original_response_bytes": 32545,
+  "full_response_retained": false,
+  "provenance_note": "Original MCP response was read during this research batch; full copyrighted bodies/abstract passages are omitted from the public record. Hash identifies that original local JSON serialization, not a publisher-provided file.",
+  "verification": {
+    "sections": [
+      "II-A",
+      "V-A",
+      "V-B",
+      "V-E",
+      "VI-C"
+    ],
+    "paraphrase_ko": "개별적으로 방어 가능한 공격자–방어자 관계를 이분 그래프로 만들고 최대 매칭으로 묶는다. 배정된 방어자가 승리 제어를 따르는 조건과 연속적 재계산이 필요하다. 연속 제어·포획 반경의 보장을 동시 격자 전투에 적용한 것으로 주장하지 않는다."
+  },
+  "source_url": "https://arxiv.org/abs/1611.00450",
+  "passage_count": 4
+}

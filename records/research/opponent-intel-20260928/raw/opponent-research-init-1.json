@@ -1,0 +1,107 @@
+{
+  "tool": "mcp__firecrawl__firecrawl_research_search_papers",
+  "request": {
+    "query": "multi robot task allocation time windows deadlines interception reachability target defense assignment",
+    "k": 8
+  },
+  "original_response_serialization_sha256": "5f0b779ca7742242650ca088a9c7e9d288d87a725873f79741fc356c09ea0e04",
+  "original_response_bytes": 17615,
+  "full_response_retained": false,
+  "provenance_note": "Original MCP response was read during this research batch; full copyrighted bodies/abstract passages are omitted from the public record. Hash identifies that original local JSON serialization, not a publisher-provided file.",
+  "results": [
+    {
+      "paperId": "4364723254162540011",
+      "primaryId": "arxiv:2604.11954",
+      "ids": {
+        "arxiv": [
+          "2604.11954"
+        ]
+      },
+      "title": "Dynamic Multi-Robot Task Allocation under Uncertainty and Communication Constraints: A Game-Theoretic Approach",
+      "score": 0.8991213772699436
+    },
+    {
+      "paperId": "5061786264846716870",
+      "primaryId": "arxiv:2005.13109",
+      "ids": {
+        "arxiv": [
+          "2005.13109"
+        ]
+      },
+      "title": "Dynamic Multi-Robot Task Allocation under Uncertainty and Temporal Constraints",
+      "score": 0.8956687768809987
+    },
+    {
+      "paperId": "1993499239630893263",
+      "primaryId": "pmid:42315643",
+      "ids": {
+        "doi": [
+          "10.1038/s41598-026-55576-9"
+        ],
+        "pmid": [
+          "42315643"
+        ]
+      },
+      "title": "Graph attention network-enhanced multi-agent reinforcement learning for dynamic interception task allocation in counter-drone defense.",
+      "score": 0.8921121892965543
+    },
+    {
+      "paperId": "9027406647680228027",
+      "primaryId": "arxiv:2505.08419",
+      "ids": {
+        "arxiv": [
+          "2505.08419"
+        ]
+      },
+      "title": "HMR-ODTA: Online Diverse Task Allocation for a Team of Heterogeneous Mobile Robots",
+      "score": 0.8909031788043871
+    },
+    {
+      "paperId": "4023016418238306654",
+      "primaryId": "pmid:28976326",
+      "ids": {
+        "doi": [
+          "10.1109/TCYB.2017.2743164"
+        ],
+        "pmid": [
+          "28976326"
+        ]
+      },
+      "title": "Distributed Task Rescheduling With Time Constraints for the Optimization of Total Task Allocations in a Multirobot System.",
+      "score": 0.8859476187202091
+    },
+    {
+      "paperId": "803693493986789569",
+      "primaryId": "arxiv:2403.11737",
+      "ids": {
+        "arxiv": [
+          "2403.11737"
+        ]
+      },
+      "title": "SMT-Based Dynamic Multi-Robot Task Allocation",
+      "score": 0.8550783685121771
+    },
+    {
+      "paperId": "4302182745594915390",
+      "primaryId": "arxiv:2608.21554",
+      "ids": {
+        "arxiv": [
+          "2608.21554"
+        ]
+      },
+      "title": "Model-Based Reinforcement Learning for Heterogeneous Multi-Robot Task Assignment Under Distribution Shifts",
+      "score": 0.8519528019683106
+    },
+    {
+      "paperId": "6045646396976406528",
+      "primaryId": "arxiv:2107.08540",
+      "ids": {
+        "arxiv": [
+          "2107.08540"
+        ]
+      },
+      "title": "Distributed Planning for Serving Cooperative Tasks with Time Windows: A Game Theoretic Approach",
+      "score": 0.8438951025545426
+    }
+  ]
+}

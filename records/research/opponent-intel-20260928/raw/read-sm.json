@@ -1,0 +1,22 @@
+{
+  "tool": "mcp__firecrawl__firecrawl_research_read_paper",
+  "request": {
+    "paperId": "arxiv:1310.8613",
+    "question": "Verify inside the body: how do regret matching and joint action matrix backups work in simultaneous move MCTS, what exploration and payoff averaging assumptions make the convergence theorem hold, and does it guarantee an optimal policy within a finite 300 millisecond search budget?"
+  },
+  "original_response_serialization_sha256": "25f2dd23893a7aff22dc5e040326fbc1f2415c9fbc216a9486fe2ed2da1f2b01",
+  "original_response_bytes": 32838,
+  "full_response_retained": false,
+  "provenance_note": "Original MCP response was read during this research batch; full copyrighted bodies/abstract passages are omitted from the public record. Hash identifies that original local JSON serialization, not a publisher-provided file.",
+  "verification": {
+    "sections": [
+      "3",
+      "3.1",
+      "3.2",
+      "4"
+    ],
+    "paraphrase_ko": "각 상태에 양쪽 공동 행동 조합을 두고 regret matching 또는 Exp3를 적용한다. 형식 분석은 충분한 탐험·평균 백업과 점근 수렴에 관한 것이며 유한 300ms 최적성 보장이 아니다."
+  },
+  "source_url": "https://arxiv.org/abs/1310.8613",
+  "passage_count": 4
+}

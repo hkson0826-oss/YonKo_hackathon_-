@@ -1,0 +1,126 @@
+{
+  "tool": "mcp__firecrawl__firecrawl_research_related_papers",
+  "request": {
+    "seed_ids": [
+      "arxiv:2102.07381",
+      "arxiv:1912.04342"
+    ],
+    "intent": "deadline aware interception and assignment robust to attacker changes, methods useful for discrete grid game defenders with production resource costs",
+    "mode": "similar",
+    "k": 6
+  },
+  "original_response_serialization_sha256": "45f90aa7428b745f0d57714314b4ced79f48f746a6d93b99c3f67dc49f0ebe71",
+  "original_response_bytes": 12314,
+  "full_response_retained": false,
+  "provenance_note": "Original MCP response was read during this research batch; full copyrighted bodies/abstract passages are omitted from the public record. Hash identifies that original local JSON serialization, not a publisher-provided file.",
+  "results": [
+    {
+      "paperId": "1156995649849532619",
+      "primaryId": "pmid:29994434",
+      "ids": {
+        "doi": [
+          "10.1109/TCYB.2018.2794769"
+        ],
+        "pmid": [
+          "29994434"
+        ]
+      },
+      "title": "Reach-Avoid Games With Two Defenders and One Attacker: An Analytical Approach.",
+      "score": 0.032266458495966696,
+      "signals": {
+        "structural": 30.72464089228329,
+        "semantic": 0.0121951215,
+        "articleRank": 0.9579440756491885,
+        "seedOverlap": 0
+      }
+    },
+    {
+      "paperId": "9078532143981697189",
+      "primaryId": "arxiv:1909.03989",
+      "ids": {
+        "arxiv": [
+          "1909.03989"
+        ]
+      },
+      "title": "Perimeter-defense Game on Arbitrary Convex Shapes",
+      "score": 0.028474711270410194,
+      "signals": {
+        "structural": 11.65749843613166,
+        "semantic": 0.013634246,
+        "articleRank": 0.3317806115137213,
+        "seedOverlap": 0
+      }
+    },
+    {
+      "paperId": "6105738606832685983",
+      "primaryId": "arxiv:1611.00450",
+      "ids": {
+        "arxiv": [
+          "1611.00450"
+        ]
+      },
+      "title": "Multiplayer Reach-Avoid Games via Pairwise Outcomes",
+      "score": 0.028125,
+      "signals": {
+        "structural": 25.832941672803383,
+        "semantic": 0,
+        "articleRank": 1.635261377659619,
+        "seedOverlap": 0
+      }
+    },
+    {
+      "paperId": "4918323097050212469",
+      "primaryId": "arxiv:0908.3929",
+      "ids": {
+        "arxiv": [
+          "0908.3929"
+        ]
+      },
+      "title": "A Dynamic Boundary Guarding Problem with Translating Targets",
+      "score": 0.027526395173453996,
+      "signals": {
+        "structural": 12.397204857455836,
+        "semantic": 0,
+        "articleRank": 0.3751676858735923,
+        "seedOverlap": 0
+      }
+    },
+    {
+      "paperId": "2139616371895360117",
+      "primaryId": "arxiv:1904.02789",
+      "ids": {
+        "arxiv": [
+          "1904.02789"
+        ]
+      },
+      "title": "Task Assignment for Multiplayer Reach-Avoid Games in Convex Domains via Analytical Barriers",
+      "score": 0.026881720430107527,
+      "signals": {
+        "structural": 29.83415718616967,
+        "semantic": 0,
+        "articleRank": 0.8557983242239926,
+        "seedOverlap": 0
+      }
+    },
+    {
+      "paperId": "6131233893562772307",
+      "primaryId": "pmid:32881703",
+      "ids": {
+        "doi": [
+          "10.1109/TCYB.2020.3015031"
+        ],
+        "pmid": [
+          "32881703"
+        ]
+      },
+      "title": "Guarding a Subspace in High-Dimensional Space With Two Defenders and One Attacker.",
+      "score": 0.026515151515151516,
+      "signals": {
+        "structural": 9.992034967838554,
+        "semantic": 0.01,
+        "articleRank": 0.28851955957632175,
+        "seedOverlap": 0
+      }
+    }
+  ]
+}

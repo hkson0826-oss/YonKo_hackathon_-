@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-09-28T06:00:18.306730+00:00",
+  "census_sha256": "0ee2adc8d9bdf3754d4f03b532a1173c623909b6684fc9908582b7742493b147",
+  "profile_count": 18,
+  "checks": [
+    "profile rows = turns + 1",
+    "all threat observations before turn160 and geometric arrival within remaining turns",
+    "per-turn enemy W production sums equal summaries",
+    "F/W/S peak fields equal observed maxima",
+    "all generated output SHA256 match census-verification.json"
+  ],
+  "game_weighted_binary_observation_counts": {
+    "all": {
+      "win": {
+        "games": 13,
+        "enemy_f_home_incursion": 9,
+        "unescorted_economic_threat_any": 9,
+        "unescorted_economic_threat_by30": 6,
+        "our_home_enemy_capture_neutral_event": 7,
+        "our_late_losses145onward": 4
+      },
+      "loss": {
+        "games": 5,
+        "enemy_f_home_incursion": 5,
+        "unescorted_economic_threat_any": 5,
+        "unescorted_economic_threat_by30": 5,
+        "our_home_enemy_capture_neutral_event": 5,
+        "our_late_losses145onward": 3
+      }
+    },
+    "round2": {
+      "win": {
+        "games": 9,
+        "enemy_f_home_incursion": 7,
+        "unescorted_economic_threat_any": 7,
+        "unescorted_economic_threat_by30": 4,
+        "our_home_enemy_capture_neutral_event": 5,
+        "our_late_losses145onward": 3
+      },
+      "loss": {
+        "games": 4,
+        "enemy_f_home_incursion": 4,
+        "unescorted_economic_threat_any": 4,
+        "unescorted_economic_threat_by30": 4,
+        "our_home_enemy_capture_neutral_event": 4,
+        "our_late_losses145onward": 2
+      }
+    }
+  },
+  "interpretation": "Counts weight each game once; no win prediction, causal effect, or significance claim. Opponent policy version unknown."
+}

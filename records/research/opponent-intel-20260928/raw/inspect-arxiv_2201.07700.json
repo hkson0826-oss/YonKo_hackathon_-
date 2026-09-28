@@ -1,0 +1,27 @@
+{
+  "tool": "mcp__firecrawl__firecrawl_research_inspect_paper",
+  "request": {
+    "paperId": "arxiv:2201.07700"
+  },
+  "original_response_serialization_sha256": "55a3056c0f3e6ffff0bac39e2d2da7e112ad005e9be66211ccdc793901f5ab8c",
+  "original_response_bytes": 3476,
+  "full_response_retained": false,
+  "provenance_note": "Original MCP response was read during this research batch; full copyrighted bodies/abstract passages are omitted from the public record. Hash identifies that original local JSON serialization, not a publisher-provided file.",
+  "paper": {
+    "paperId": "1350387592031673422",
+    "ids": {
+      "arxiv": [
+        "2201.07700"
+      ]
+    },
+    "title": "Anytime PSRO for Two-Player Zero-Sum Games",
+    "authors": "Stephen McAleer, Kevin Wang, John Lanier, Marc Lanctot, Pierre Baldi, Tuomas Sandholm, Roy Fox",
+    "categories": [
+      "cs.GT",
+      "cs.LG",
+      "cs.MA"
+    ],
+    "createdDate": "Wed, 19 Jan 2022 16:34:11 GMT",
+    "updateDate": "2022-02-01"
+  }
+}

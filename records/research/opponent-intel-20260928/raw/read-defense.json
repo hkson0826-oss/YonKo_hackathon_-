@@ -1,0 +1,22 @@
+{
+  "tool": "mcp__firecrawl__firecrawl_research_read_paper",
+  "request": {
+    "paperId": "arxiv:2102.07381",
+    "question": "Verify inside the paper: how is intruder interception transformed into task location and deadline, how are infeasible assignments excluded and task sequences allocated, what assumptions are made about known attacker trajectories or radial motion, and what guarantees or limits apply? Cite sections/equations."
+  },
+  "original_response_serialization_sha256": "8a551268a62494bf92da1159c47cd58c1df49cfe073aa7b0074568255f62a272",
+  "original_response_bytes": 31843,
+  "full_response_retained": false,
+  "provenance_note": "Original MCP response was read during this research batch; full copyrighted bodies/abstract passages are omitted from the public record. Hash identifies that original local JSON serialization, not a publisher-provided file.",
+  "verification": {
+    "sections": [
+      "III-A",
+      "III-B",
+      "IV-C",
+      "IV-D"
+    ],
+    "paraphrase_ko": "예측 침투 위치와 도착 시각으로 임무를 만들고 시간에 늦으면 방어 실패다. 임무 궤적 생성과 충돌 조정을 분리한다. 비협동 침입자·제한 기동·연속 위치 및 통신 가정을 현재 게임에 그대로 옮기지 않는다. 속도 식과 자연어 사이 불일치가 있어 해당 수치 관계는 인용하지 않았다."
+  },
+  "source_url": "https://arxiv.org/abs/2102.07381",
+  "passage_count": 4
+}

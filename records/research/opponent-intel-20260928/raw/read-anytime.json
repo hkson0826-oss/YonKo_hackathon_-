@@ -1,0 +1,22 @@
+{
+  "tool": "mcp__firecrawl__firecrawl_research_read_paper",
+  "request": {
+    "paperId": "arxiv:2201.07700",
+    "question": "Verify body: why ordinary double oracle can increase exploitability, what unrestricted best-response access and restricted-distribution optimization are required for anytime double oracle monotonic guarantees, and how the approximate APSRO version differs. Is a finite empirical opponent league's minimum payoff itself a full-game exploitability certificate?"
+  },
+  "original_response_serialization_sha256": "ee0313e3eacff274b02f0cd0700b869445b6667dda5f2ba699e94efbb7a161d5",
+  "original_response_bytes": 32712,
+  "full_response_retained": false,
+  "provenance_note": "Original MCP response was read during this research batch; full copyrighted bodies/abstract passages are omitted from the public record. Hash identifies that original local JSON serialization, not a publisher-provided file.",
+  "verification": {
+    "sections": [
+      "1",
+      "3 Figure 1",
+      "4 Proposition 1",
+      "4 Proposition 2"
+    ],
+    "paraphrase_ko": "양측을 모두 현재 정책 집단에 제한한 DO의 개선은 전체 exploitability 감소와 같지 않다. ADO는 상대를 전체 공간에 풀어둔 제한 문제와 정확한 best response를 요구한다. RL로 근사한 APSRO는 정확한 방법의 이론 보장을 그대로 갖지 않는다."
+  },
+  "source_url": "https://arxiv.org/abs/2201.07700",
+  "passage_count": 4
+}

@@ -1,0 +1,101 @@
+{
+  "tool": "mcp__firecrawl__firecrawl_research_search_papers",
+  "request": {
+    "query": "simultaneous move games online search portfolio double oracle policy space response oracles opponent modelling safe best response",
+    "k": 8
+  },
+  "original_response_serialization_sha256": "d4b6ac05d075aaa110123a08cfb1c23dcddd3e0f506c00770d7ef992c647171f",
+  "original_response_bytes": 19283,
+  "full_response_retained": false,
+  "provenance_note": "Original MCP response was read during this research batch; full copyrighted bodies/abstract passages are omitted from the public record. Hash identifies that original local JSON serialization, not a publisher-provided file.",
+  "results": [
+    {
+      "paperId": "1350387592031673422",
+      "primaryId": "arxiv:2201.07700",
+      "ids": {
+        "arxiv": [
+          "2201.07700"
+        ]
+      },
+      "title": "Anytime PSRO for Two-Player Zero-Sum Games",
+      "score": 0.9617643082340419
+    },
+    {
+      "paperId": "5199218272660519945",
+      "primaryId": "arxiv:2103.06426",
+      "ids": {
+        "arxiv": [
+          "2103.06426"
+        ]
+      },
+      "title": "XDO: A Double Oracle Algorithm for Extensive-Form Games",
+      "score": 0.954239787561503
+    },
+    {
+      "paperId": "5055345265207575118",
+      "primaryId": "arxiv:2602.06599",
+      "ids": {
+        "arxiv": [
+          "2602.06599"
+        ]
+      },
+      "title": "Sample-Efficient Policy Space Response Oracles with Joint Experience Best Response",
+      "score": 0.9446689335413089
+    },
+    {
+      "paperId": "6738946381259230709",
+      "primaryId": "arxiv:2106.01901",
+      "ids": {
+        "arxiv": [
+          "2106.01901"
+        ]
+      },
+      "title": "Iterative Empirical Game Solving via Single Policy Best Response",
+      "score": 0.9377602233752947
+    },
+    {
+      "paperId": "774407002076415892",
+      "primaryId": "arxiv:2207.06541",
+      "ids": {
+        "arxiv": [
+          "2207.06541"
+        ]
+      },
+      "title": "Self-Play PSRO: Toward Optimal Populations in Two-Player Zero-Sum Games",
+      "score": 0.9355352341624104
+    },
+    {
+      "paperId": "274066162947746927",
+      "primaryId": "arxiv:2302.00797",
+      "ids": {
+        "arxiv": [
+          "2302.00797"
+        ]
+      },
+      "title": "Combining Tree-Search, Generative Models, and Nash Bargaining Concepts in Game-Theoretic Reinforcement Learning",
+      "score": 0.9324533088603709
+    },
+    {
+      "paperId": "380337465149257207",
+      "primaryId": "arxiv:2601.05279",
+      "ids": {
+        "arxiv": [
+          "2601.05279"
+        ]
+      },
+      "title": "Simulation-Free PSRO: Removing Game Simulation from Policy Space Response Oracles",
+      "score": 0.9267292522085272
+    },
+    {
+      "paperId": "6928699692452969914",
+      "primaryId": "arxiv:2405.21027",
+      "ids": {
+        "arxiv": [
+          "2405.21027"
+        ]
+      },
+      "title": "Fusion-PSRO: Nash Policy Fusion for Policy Space Response Oracles",
+      "score": 0.9250134837227268
+    }
+  ]
+}

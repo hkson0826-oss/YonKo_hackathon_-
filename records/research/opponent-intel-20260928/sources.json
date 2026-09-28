@@ -1,0 +1,337 @@
+{
+  "status": "research_complete_implementation_not_started",
+  "batch_recorded_at_utc": "2026-09-28T06:00:09.841665+00:00",
+  "timestamp_note": "Batch record time, not exact per-request completion times.",
+  "scope": "Public primary papers, observed official failure hypotheses, current v4 code gaps; no opponent private source retrieval.",
+  "provider": "configured mcp__firecrawl__ MCP",
+  "skill": "/home/dlwltkd/.codex/plugins/cache/openai-curated-remote/app-6a314a73f8ac819195b0d55e36b9c609/2.1.0/skills/firecrawl-research-index/SKILL.md",
+  "web_fallback_used": false,
+  "cli_used": false,
+  "search_requests": 5,
+  "related_requests": 2,
+  "metadata_successes": 5,
+  "body_successes": 6,
+  "schema_errors_recovered": 4,
+  "no_network_source_changed": true,
+  "inputs": [
+    {
+      "path": "submissions/iterative-v4/main.cpp",
+      "sha256": "1703701340ede10b652b0aa024e29c3fd411e2809ae34de1e3d0b39620d496df"
+    },
+    {
+      "path": "submissions/iterative-v3/main.cpp",
+      "sha256": "52268569e17d7fc40fd46f0996b2da684768902b4af27ec059c4b068911c4473"
+    },
+    {
+      "path": "docs/25-공식2차결과와구조개선.md",
+      "sha256": "54f9ae3ea6b554cb61016752cdae7130b358882745b85132e0c9b93e57de2b55"
+    },
+    {
+      "path": "records/official/round2/strategy-review.md",
+      "sha256": "2827f1613004607e49fb296052dc257617625bf9b1c6e7565bdea3d52c612e04"
+    },
+    {
+      "path": "records/research/round2/README.md",
+      "sha256": "70b01fb93ab9f5e6ece42e0638b7ceaaa3cb70308fc0921446fb7a05967e4fb6"
+    },
+    {
+      "path": "docs/01-대회규칙과제출.md",
+      "sha256": "ebade650d8f53f50bd59d53e08ea296685e243f8ec20cf84a47131caf9e0670d"
+    }
+  ],
+  "sources": [
+    {
+      "id": "arxiv:1611.00450",
+      "url": "https://arxiv.org/abs/1611.00450",
+      "metadata": {
+        "paperId": "6105738606832685983",
+        "ids": {
+          "arxiv": [
+            "1611.00450"
+          ]
+        },
+        "title": "Multiplayer Reach-Avoid Games via Pairwise Outcomes",
+        "authors": "Mo Chen, Zhengyuan Zhou, Claire J. Tomlin",
+        "categories": [
+          "math.OC"
+        ],
+        "createdDate": "Wed, 2 Nov 2016 02:34:59 GMT",
+        "updateDate": "2016-11-03"
+      },
+      "verified_in_body": true,
+      "body_record": "raw/read-pair.json",
+      "verification": {
+        "sections": [
+          "II-A",
+          "V-A",
+          "V-B",
+          "V-E",
+          "VI-C"
+        ],
+        "paraphrase_ko": "개별적으로 방어 가능한 공격자–방어자 관계를 이분 그래프로 만들고 최대 매칭으로 묶는다. 배정된 방어자가 승리 제어를 따르는 조건과 연속적 재계산이 필요하다. 연속 제어·포획 반경의 보장을 동시 격자 전투에 적용한 것으로 주장하지 않는다."
+      }
+    },
+    {
+      "id": "arxiv:2102.07381",
+      "url": "https://arxiv.org/abs/2102.07381",
+      "metadata": {
+        "paperId": "1353878658091575165",
+        "ids": {
+          "arxiv": [
+            "2102.07381"
+          ]
+        },
+        "title": "A Decentralized Multi-UAV Spatio-Temporal Multi-Task Allocation Approach for Perimeter Defense",
+        "authors": "Shridhar Velhal, Suresh Sundaram, Narasimhan Sundararajan",
+        "categories": [
+          "eess.SY",
+          "cs.MA",
+          "cs.RO",
+          "cs.SY"
+        ],
+        "createdDate": "Mon, 15 Feb 2021 07:45:56 GMT",
+        "updateDate": "2021-02-16"
+      },
+      "verified_in_body": true,
+      "body_record": "raw/read-defense.json",
+      "verification": {
+        "sections": [
+          "III-A",
+          "III-B",
+          "IV-C",
+          "IV-D"
+        ],
+        "paraphrase_ko": "예측 침투 위치와 도착 시각으로 임무를 만들고 시간에 늦으면 방어 실패다. 임무 궤적 생성과 충돌 조정을 분리한다. 비협동 침입자·제한 기동·연속 위치 및 통신 가정을 현재 게임에 그대로 옮기지 않는다. 속도 식과 자연어 사이 불일치가 있어 해당 수치 관계는 인용하지 않았다."
+      }
+    },
+    {
+      "id": "arxiv:1310.8613",
+      "url": "https://arxiv.org/abs/1310.8613",
+      "metadata": {
+        "paperId": "3390358447171089000",
+        "ids": {
+          "arxiv": [
+            "1310.8613"
+          ]
+        },
+        "title": "Convergence of Monte Carlo Tree Search in Simultaneous Move Games",
+        "authors": "Viliam Lisý, Vojtěch Kovařík, Marc Lanctot, Branislav Bošanský",
+        "categories": [
+          "cs.GT"
+        ],
+        "createdDate": "Thu, 31 Oct 2013 17:41:51 GMT",
+        "updateDate": "2013-12-16"
+      },
+      "verified_in_body": true,
+      "body_record": "raw/read-sm.json",
+      "verification": {
+        "sections": [
+          "3",
+          "3.1",
+          "3.2",
+          "4"
+        ],
+        "paraphrase_ko": "각 상태에 양쪽 공동 행동 조합을 두고 regret matching 또는 Exp3를 적용한다. 형식 분석은 충분한 탐험·평균 백업과 점근 수렴에 관한 것이며 유한 300ms 최적성 보장이 아니다."
+      }
+    },
+    {
+      "id": "arxiv:1804.09045",
+      "url": "https://arxiv.org/abs/1804.09045",
+      "metadata": {
+        "title": "Analysis of Hannan Consistent Selection for Monte Carlo Tree Search in Simultaneous Move Games",
+        "metadata_status": "Previously catalogued in records/research/round2; body re-read in this batch"
+      },
+      "verified_in_body": true,
+      "body_record": "raw/read-sm-correction.json",
+      "verification": {
+        "sections": [
+          "Theorem 4.1",
+          "Theorem 5.4",
+          "Definition 5.11",
+          "Theorem 5.12"
+        ],
+        "paraphrase_ko": "Hannan consistency만으로 일반 SM-MCTS 수렴을 보장하지 못하는 반례가 있다. 공동 행동별 보상의 평균을 사용하는 SM-MCTS-A 또는 별도 unbiased-payoff-observation 조건과 탐험 조건을 구분해야 한다."
+      }
+    },
+    {
+      "id": "arxiv:2112.12594",
+      "url": "https://arxiv.org/abs/2112.12594",
+      "metadata": {
+        "paperId": "7195618556248156250",
+        "ids": {
+          "arxiv": [
+            "2112.12594"
+          ]
+        },
+        "title": "Continual Depth-limited Responses for Computing Counter-strategies in Sequential Games",
+        "authors": "David Milec, Ondřej Kubíček, Viliam Lisý",
+        "categories": [
+          "cs.GT"
+        ],
+        "createdDate": "Thu, 23 Dec 2021 14:41:36 GMT",
+        "updateDate": "2024-04-04"
+      },
+      "verified_in_body": true,
+      "body_record": "raw/read-safe.json",
+      "verification": {
+        "sections": [
+          "1",
+          "5 Full Gadget",
+          "Appendix C",
+          "Appendix F"
+        ],
+        "paraphrase_ko": "상대 best response는 모델 오류에 취약하고 제한 탐색의 일부 기존 gadget은 exploitability를 오판한다. full gadget은 과거 해결 부분까지 보존하며 올바른 경계 가치가 필요하다. 깊은 게임에는 비용이 커서 이번에는 직접 이식하지 않는다."
+      }
+    },
+    {
+      "id": "arxiv:2201.07700",
+      "url": "https://arxiv.org/abs/2201.07700",
+      "metadata": {
+        "paperId": "1350387592031673422",
+        "ids": {
+          "arxiv": [
+            "2201.07700"
+          ]
+        },
+        "title": "Anytime PSRO for Two-Player Zero-Sum Games",
+        "authors": "Stephen McAleer, Kevin Wang, John Lanier, Marc Lanctot, Pierre Baldi, Tuomas Sandholm, Roy Fox",
+        "categories": [
+          "cs.GT",
+          "cs.LG",
+          "cs.MA"
+        ],
+        "createdDate": "Wed, 19 Jan 2022 16:34:11 GMT",
+        "updateDate": "2022-02-01"
+      },
+      "verified_in_body": true,
+      "body_record": "raw/read-anytime.json",
+      "verification": {
+        "sections": [
+          "1",
+          "3 Figure 1",
+          "4 Proposition 1",
+          "4 Proposition 2"
+        ],
+        "paraphrase_ko": "양측을 모두 현재 정책 집단에 제한한 DO의 개선은 전체 exploitability 감소와 같지 않다. ADO는 상대를 전체 공간에 풀어둔 제한 문제와 정확한 best response를 요구한다. RL로 근사한 APSRO는 정확한 방법의 이론 보장을 그대로 갖지 않는다."
+      }
+    }
+  ],
+  "research_only": {
+    "bot_source_changed": false,
+    "matches_run": 0,
+    "gpu_used": false,
+    "performance_claimed": false
+  },
+  "artifacts": [
+    {
+      "path": "raw/inspect-arxiv_1310.8613.json",
+      "bytes": 962,
+      "sha256": "e10c535af795593db1895c1822edf85f6fefc5b5d940befa1e4271ab87db9c05"
+    },
+    {
+      "path": "raw/inspect-arxiv_1611.00450.json",
+      "bytes": 924,
+      "sha256": "469e1e1ee774e063aeb944498281dedd29dbe7e2944ab0e9aa45e6b922e9650a"
+    },
+    {
+      "path": "raw/inspect-arxiv_2102.07381.json",
+      "bytes": 1029,
+      "sha256": "acd41ac8f44751e8125800f052a3c180c700ee013c0b7392ea36c763525957e0"
+    },
+    {
+      "path": "raw/inspect-arxiv_2112.12594.json",
+      "bytes": 961,
+      "sha256": "9c2eb867878b45f3348bd9b48aa328f88f7ff676324d81455cdb1bd625eb0454"
+    },
+    {
+      "path": "raw/inspect-arxiv_2201.07700.json",
+      "bytes": 997,
+      "sha256": "948c36807c48a7f87f6dd978d6072ce6d2bac6e191d6c7af9b5c26d8ee5e8917"
+    },
+    {
+      "path": "raw/opponent-research-init-1.json",
+      "bytes": 3325,
+      "sha256": "3fb5e06e1f0d5406ed82fcd0e9a1086cf2ec89abf6bdad3469f10bff2db11dc5"
+    },
+    {
+      "path": "raw/opponent-research-init-2.json",
+      "bytes": 3027,
+      "sha256": "f0b8751ea5d5a7334855a37a3c5479abea332d73a27c99b51c674a390ccdcb24"
+    },
+    {
+      "path": "raw/opponent-research-second-1.json",
+      "bytes": 2988,
+      "sha256": "e49ce4b42eba5425558794f2610948860cd6ca561df614fa37da22d40a5ff2e7"
+    },
+    {
+      "path": "raw/opponent-research-second-2.json",
+      "bytes": 3117,
+      "sha256": "c2d0dccfddf3bc062837ee9ec1ea666ecdf8f43d17ce6097bac260eaaac2ec9f"
+    },
+    {
+      "path": "raw/opponent-research-second-3.json",
+      "bytes": 3191,
+      "sha256": "6bbfc4c44709aacee66cc6956e3f0bbc68d325ec12e7b973a00da32bd381a9db"
+    },
+    {
+      "path": "raw/read-anytime-schema-error.json",
+      "bytes": 1344,
+      "sha256": "3fac32495edd7ea0e6170e2888112daa306f94d62dd138f7169e555f58808655"
+    },
+    {
+      "path": "raw/read-anytime.json",
+      "bytes": 1458,
+      "sha256": "d019c976470da688037816d1702d2707ae0ea5f859b50f631e32632f192513fe"
+    },
+    {
+      "path": "raw/read-defense-schema-error.json",
+      "bytes": 1294,
+      "sha256": "50340dd3b156b1a5adf50390e1383c57fa1aac8d32759aae03bc198d132de1d1"
+    },
+    {
+      "path": "raw/read-defense.json",
+      "bytes": 1454,
+      "sha256": "f6770d4392c63702f482e3f073c4f3ec7b91229ebf05a901e2484c7fc917230d"
+    },
+    {
+      "path": "raw/read-pair.json",
+      "bytes": 1418,
+      "sha256": "69874eceb7c5eec124d960a40664a5db17c5ebb339551ef1dfcdf5a848f2e339"
+    },
+    {
+      "path": "raw/read-safe-schema-error.json",
+      "bytes": 1350,
+      "sha256": "ee84c3143e01cbe06dfd1c197dd6009eb7b5cc028200aeac0995dce849f019b4"
+    },
+    {
+      "path": "raw/read-safe.json",
+      "bytes": 1455,
+      "sha256": "a3e99f314f865be00c43f32511faea73fc580765dd35ac3a4bd230986547d45a"
+    },
+    {
+      "path": "raw/read-sm-correction.json",
+      "bytes": 1415,
+      "sha256": "6a0503c3a8d996f857a834d79fbe98ccad91605b83be373fe115ad3d3f6a91fc"
+    },
+    {
+      "path": "raw/read-sm-schema-error.json",
+      "bytes": 1267,
+      "sha256": "1c1468e467ac3882605ba192ea82def7d3a2938fd5dbedd8a2f94bb796a08e52"
+    },
+    {
+      "path": "raw/read-sm.json",
+      "bytes": 1268,
+      "sha256": "30a9570c2dc66be2288d7ac67e621e1f54d027f7c0e0acb623816d7974a03bc2"
+    },
+    {
+      "path": "raw/related-defense.json",
+      "bytes": 3654,
+      "sha256": "2510f5f5b352e5fbe0f43fa030b92591fe94aa2fc539c9b38f37731c7f71a668"
+    },
+    {
+      "path": "raw/related-safe.json",
+      "bytes": 3533,
+      "sha256": "6617b1aecc47cc44703d897da0068e496412b767d88355238ecbcbf5a1099e45"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "tool": "mcp__firecrawl__firecrawl_research_inspect_paper",
+  "request": {
+    "paperId": "arxiv:1310.8613"
+  },
+  "original_response_serialization_sha256": "a5721b7d0b899a9681ce9eee5e56be7b5ffef4035b05de533ac7868234f2c69f",
+  "original_response_bytes": 2436,
+  "full_response_retained": false,
+  "provenance_note": "Original MCP response was read during this research batch; full copyrighted bodies/abstract passages are omitted from the public record. Hash identifies that original local JSON serialization, not a publisher-provided file.",
+  "paper": {
+    "paperId": "3390358447171089000",
+    "ids": {
+      "arxiv": [
+        "1310.8613"
+      ]
+    },
+    "title": "Convergence of Monte Carlo Tree Search in Simultaneous Move Games",
+    "authors": "Viliam Lisý, Vojtěch Kovařík, Marc Lanctot, Branislav Bošanský",
+    "categories": [
+      "cs.GT"
+    ],
+    "createdDate": "Thu, 31 Oct 2013 17:41:51 GMT",
+    "updateDate": "2013-12-16"
+  }
+}

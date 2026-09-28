@@ -1,0 +1,18 @@
+{
+  "tool": "mcp__firecrawl__firecrawl_research_read_paper",
+  "request": {
+    "question": "Verify inside the body: how do regret matching and joint action matrix backups work in simultaneous move MCTS, what exploration and payoff averaging assumptions make the convergence theorem hold, and does it guarantee an optimal policy within a finite 300 millisecond search budget?",
+    "id": "arxiv:1310.8613"
+  },
+  "original_response_serialization_sha256": "18c506150c1b89dc352ee9b6584e41b1b63da67e4e7491e7c101c97c555a33fe",
+  "original_response_bytes": 431,
+  "full_response_retained": false,
+  "provenance_note": "Original MCP response was read during this research batch; full copyrighted bodies/abstract passages are omitted from the public record. Hash identifies that original local JSON serialization, not a publisher-provided file.",
+  "isError": true,
+  "error": [
+    {
+      "type": "text",
+      "text": "tool call error: tool call failed for `firecrawl/firecrawl_research_read_paper`\n\nCaused by:\n    Mcp error: -32602: MCP error -32602: Tool 'firecrawl_research_read_paper' parameter validation failed: paperId: Invalid input: expected string, received undefined. Please check the parameter types and values according to the tool's schema."
+    }
+  ]
+}

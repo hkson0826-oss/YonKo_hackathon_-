@@ -1,0 +1,101 @@
+{
+  "tool": "mcp__firecrawl__firecrawl_research_search_papers",
+  "request": {
+    "query": "simultaneous move game tree search decoupled UCT regret matching online matrix game guarantees",
+    "k": 8
+  },
+  "original_response_serialization_sha256": "4df4620617608571d89ef3274367a19aa6081f919b6bb1da1007b29fc5fe074f",
+  "original_response_bytes": 17151,
+  "full_response_retained": false,
+  "provenance_note": "Original MCP response was read during this research batch; full copyrighted bodies/abstract passages are omitted from the public record. Hash identifies that original local JSON serialization, not a publisher-provided file.",
+  "results": [
+    {
+      "paperId": "3390358447171089000",
+      "primaryId": "arxiv:1310.8613",
+      "ids": {
+        "arxiv": [
+          "1310.8613"
+        ]
+      },
+      "title": "Convergence of Monte Carlo Tree Search in Simultaneous Move Games",
+      "score": 0.9241418199787566
+    },
+    {
+      "paperId": "1029338211929990746",
+      "primaryId": "arxiv:2512.12486",
+      "ids": {
+        "arxiv": [
+          "2512.12486"
+        ]
+      },
+      "title": "Simultaneous AlphaZero: Extending Tree Search to Markov Games",
+      "score": 0.9078364897378534
+    },
+    {
+      "paperId": "6170549481387030952",
+      "primaryId": "arxiv:1804.09045",
+      "ids": {
+        "arxiv": [
+          "1804.09045"
+        ]
+      },
+      "title": "Analysis of Hannan Consistent Selection for Monte Carlo Tree Search in Simultaneous Move Games",
+      "score": 0.8503692405366762
+    },
+    {
+      "paperId": "2620397515636934822",
+      "primaryId": "arxiv:2305.14709",
+      "ids": {
+        "arxiv": [
+          "2305.14709"
+        ]
+      },
+      "title": "Regret Matching+: (In)Stability and Fast Convergence in Games",
+      "score": 0.8041599598359659
+    },
+    {
+      "paperId": "7638272831355197297",
+      "primaryId": "arxiv:2609.21976",
+      "ids": {
+        "arxiv": [
+          "2609.21976"
+        ]
+      },
+      "title": "Multiplicative Optimism for Constant Regret in Games",
+      "score": 0.780528693435329
+    },
+    {
+      "paperId": "943161242774480790",
+      "primaryId": "arxiv:1902.04982",
+      "ids": {
+        "arxiv": [
+          "1902.04982"
+        ]
+      },
+      "title": "Stable-Predictive Optimistic Counterfactual Regret Minimization",
+      "score": 0.7718434978390747
+    },
+    {
+      "paperId": "8402499273985844067",
+      "primaryId": "arxiv:2604.16087",
+      "ids": {
+        "arxiv": [
+          "2604.16087"
+        ]
+      },
+      "title": "The Harder Path: Last Iterate Convergence for Uncoupled Learning in Zero-Sum Games with Bandit Feedback",
+      "score": 0.7651724826508884
+    },
+    {
+      "paperId": "5307822215610658150",
+      "primaryId": "arxiv:2406.10411",
+      "ids": {
+        "arxiv": [
+          "2406.10411"
+        ]
+      },
+      "title": "Tree Search for Simultaneous Move Games via Equilibrium Approximation",
+      "score": 0.759510916949111
+    }
+  ]
+}

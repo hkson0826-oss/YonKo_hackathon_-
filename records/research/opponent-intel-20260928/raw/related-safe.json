@@ -1,0 +1,120 @@
+{
+  "tool": "mcp__firecrawl__firecrawl_research_related_papers",
+  "request": {
+    "seed_ids": [
+      "arxiv:2112.12594",
+      "arxiv:2201.07700"
+    ],
+    "intent": "robust opponent exploitation using restricted responses or minimax regret, non neural methods bounded lookahead and adversary population expansion",
+    "mode": "references",
+    "k": 6
+  },
+  "original_response_serialization_sha256": "ba4bfba36e612a7abfd5757ff148757d97e70f3ee1b953e2e1db0b5d1b5fc762",
+  "original_response_bytes": 14650,
+  "full_response_retained": false,
+  "provenance_note": "Original MCP response was read during this research batch; full copyrighted bodies/abstract passages are omitted from the public record. Hash identifies that original local JSON serialization, not a publisher-provided file.",
+  "results": [
+    {
+      "paperId": "3449713275543604439",
+      "primaryId": "arxiv:2009.14521",
+      "ids": {
+        "arxiv": [
+          "2009.14521"
+        ]
+      },
+      "title": "Complexity and Algorithms for Exploiting Quantal Opponents in Large Two-Player Games",
+      "score": 0.03306010928961749,
+      "signals": {
+        "structural": 0.9284053764164656,
+        "semantic": 0.020949159,
+        "articleRank": 0.21791659844842703,
+        "seedOverlap": 1
+      }
+    },
+    {
+      "paperId": "6738946381259230709",
+      "primaryId": "arxiv:2106.01901",
+      "ids": {
+        "arxiv": [
+          "2106.01901"
+        ]
+      },
+      "title": "Iterative Empirical Game Solving via Single Policy Best Response",
+      "score": 0.03225806451612903,
+      "signals": {
+        "structural": 0.9203710232654786,
+        "semantic": 0.013513514,
+        "articleRank": 0.2456548507933449,
+        "seedOverlap": 1
+      }
+    },
+    {
+      "paperId": "5199218272660519945",
+      "primaryId": "arxiv:2103.06426",
+      "ids": {
+        "arxiv": [
+          "2103.06426"
+        ]
+      },
+      "title": "XDO: A Double Oracle Algorithm for Extensive-Form Games",
+      "score": 0.031544957774465976,
+      "signals": {
+        "structural": 0.8870704498186998,
+        "semantic": 0.014492754,
+        "articleRank": 0.3690467516539507,
+        "seedOverlap": 1
+      }
+    },
+    {
+      "paperId": "943161242774480790",
+      "primaryId": "arxiv:1902.04982",
+      "ids": {
+        "arxiv": [
+          "1902.04982"
+        ]
+      },
+      "title": "Stable-Predictive Optimistic Counterfactual Regret Minimization",
+      "score": 0.03125763125763126,
+      "signals": {
+        "structural": 0.8945352278640809,
+        "semantic": 0.012820513,
+        "articleRank": 0.3401397504020906,
+        "seedOverlap": 1
+      }
+    },
+    {
+      "paperId": "2392928394174112353",
+      "primaryId": "arxiv:1301.6711",
+      "ids": {
+        "arxiv": [
+          "1301.6711"
+        ]
+      },
+      "title": "Bayesian Poker",
+      "score": 0.030330882352941176,
+      "signals": {
+        "structural": 0.9100069888157472,
+        "semantic": 0,
+        "articleRank": 0.28255940161863285,
+        "seedOverlap": 1
+      }
+    },
+    {
+      "paperId": "1867072553899093494",
+      "primaryId": "arxiv:1903.05614",
+      "ids": {
+        "arxiv": [
+          "1903.05614"
+        ]
+      },
+      "title": "Computing Approximate Equilibria in Sequential Adversarial Games by Exploitability Descent",
+      "score": 0.030330882352941176,
+      "signals": {
+        "structural": 0.8511433890039197,
+        "semantic": 0.010416667,
+        "articleRank": 0.5195054858603612,
+        "seedOverlap": 1
+      }
+    }
+  ]
+}

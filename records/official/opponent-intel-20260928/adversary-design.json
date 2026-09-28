@@ -1,0 +1,625 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-28T05:59:12.650145+00:00",
+  "analysis_base_commit": "d0cf51240785f96fbbe1a5361ab0c592c9f7de29",
+  "status": "design_only_no_new_bot_no_new_game",
+  "scope": {
+    "verified_original_replays": 18,
+    "round1_replays": 5,
+    "round2_replays": 13,
+    "round1_latest_round_coverage": "previous site update says6games; only5 are in this design input, not claimed complete",
+    "all_inputs_used_as": "development_evidence",
+    "top4_opponent_code_and_strategy": "unknown in cited prior snapshot; no inference from unbeaten record",
+    "school_rank_causality": "unknown; aggregate rank/wins confounded by participants, schedule and maps"
+  },
+  "sources": [
+    {
+      "path": "docs/01-대회규칙과제출.md",
+      "sha256": "ebade650d8f53f50bd59d53e08ea296685e243f8ec20cf84a47131caf9e0670d"
+    },
+    {
+      "path": "docs/07-공식1차경기분석.md",
+      "sha256": "78a650be6deedb4f036a53b7f8b914b8e133e068fb033f0b7b39fa3d3d88dbbd"
+    },
+    {
+      "path": "docs/25-공식2차결과와구조개선.md",
+      "sha256": "54f9ae3ea6b554cb61016752cdae7130b358882745b85132e0c9b93e57de2b55"
+    },
+    {
+      "path": "records/official/round1/analysis.json",
+      "sha256": "86b0a4f73041e3e46d0ce75a07e9ddf7713e6a9e2fc78386752478570a48d1d4"
+    },
+    {
+      "path": "records/official/round2/replay-analysis.json",
+      "sha256": "ec9ab7dac899cf078c92cd002abe13bb20c6b8368b8dc73f74fe8006b759fe2e"
+    },
+    {
+      "path": "records/official/round2/early-defense-crosscheck.json",
+      "sha256": "92b324d493bee3a40158d72a4d7f54c5e539de396af2fd55f53cbb4f8f93a236"
+    },
+    {
+      "path": "records/official/round2/strategy-review.md",
+      "sha256": "2827f1613004607e49fb296052dc257617625bf9b1c6e7565bdea3d52c612e04"
+    },
+    {
+      "path": "records/league/loop3-design/warrior-reserve-audit-failures.json",
+      "sha256": "679190e734ca085f30bda3043c46bd8186dd2fc2f3345c5adec6edc6faf16372"
+    },
+    {
+      "path": "records/league/loop3-design/robust-ablation-plan.md",
+      "sha256": "cffbe7287faec722b8612bc3e05036646c9e96073c74ac54749fda4d9b86aa27"
+    },
+    {
+      "path": "submissions/iterative-v3/main.cpp",
+      "sha256": "52268569e17d7fc40fd46f0996b2da684768902b4af27ec059c4b068911c4473"
+    },
+    {
+      "path": "submissions/iterative-v4/main.cpp",
+      "sha256": "1703701340ede10b652b0aa024e29c3fd411e2809ae34de1e3d0b39620d496df"
+    }
+  ],
+  "verified_replay_manifest": [
+    {
+      "round": "round1",
+      "path": "artifacts/firstround_results/replay (1).json",
+      "sha256": "82fb14ed2eca4e21316fc7720d0f60d0b5053cb4e6fa418889b064edd3d97881",
+      "game_id": "rolling-game-e3fd566eee1999e1349fb77cdba677f9b15a96b8163a2f2ce657c861af1593fb",
+      "side": "Y",
+      "winner": "Y",
+      "turn_count": 160,
+      "use": "development_evidence_only"
+    },
+    {
+      "round": "round1",
+      "path": "artifacts/firstround_results/replay (2).json",
+      "sha256": "6ea68e55f67ef3fa120b790d752632c3556c3f1de9ed842ec6e66c026d5f647d",
+      "game_id": "rolling-game-3dd41599c2c6adcb057a6ed543d2fa6ae0961c00e745a0bb048604720110cbb1",
+      "side": "Y",
+      "winner": "Y",
+      "turn_count": 65,
+      "use": "development_evidence_only"
+    },
+    {
+      "round": "round1",
+      "path": "artifacts/firstround_results/replay (3).json",
+      "sha256": "e1a77ebc0dc871668ad7002674303b8b6066ff3436dca695bbef434a27335011",
+      "game_id": "rolling-game-805c50c9a490f1c11b69ad06d37d8a66ff8a012f4ede324c829038c68ea5fb4e",
+      "side": "Y",
+      "winner": "K",
+      "turn_count": 160,
+      "use": "development_evidence_only"
+    },
+    {
+      "round": "round1",
+      "path": "artifacts/firstround_results/replay (4).json",
+      "sha256": "bc4bc260ae659c5c2943393c851dc5fbf4a5de8246950bf548b8f569f4a454ff",
+      "game_id": "rolling-game-e6920b1cc1fb4db8bf3afc03de803bf1602b7771f0d8093ea637c9667bda1b49",
+      "side": "Y",
+      "winner": "Y",
+      "turn_count": 66,
+      "use": "development_evidence_only"
+    },
+    {
+      "round": "round1",
+      "path": "artifacts/firstround_results/replay (5).json",
+      "sha256": "52d8ce5c40a06f42b2cbdeace40882ab27f446d7ae0addb4f3828a8635277db2",
+      "game_id": "rolling-game-cc2cdecafcf04121af34ef3e1ce4c341cc299e63cc3c4ce29ddf4a9de15ee066",
+      "side": "Y",
+      "winner": "Y",
+      "turn_count": 32,
+      "use": "development_evidence_only"
+    },
+    {
+      "round": "round2",
+      "path": "V4_replay/V4_1replay.json",
+      "sha256": "d011af83e7da5237c13f9217f31ba49a38049200b3411c68fff4c6469f8ed724",
+      "game_id": "rolling-game-109f2e839e8bdb05922c807c8622bb6bd0553f65492fb5101562ab8c9e63242a",
+      "side": "Y",
+      "winner": "Y",
+      "turn_count": 107,
+      "use": "development_evidence_only"
+    },
+    {
+      "round": "round2",
+      "path": "V4_replay/V4_2replay.json",
+      "sha256": "5dd107be161d4d85ba346bfc05b9a7da2b129a47b3bc4a52384ac1cb23c1ae24",
+      "game_id": "rolling-game-1a938b484fe952c60f68313ce8cb680d401dc712bb9b0ca9d385d6b71161cb55",
+      "side": "Y",
+      "winner": "K",
+      "turn_count": 134,
+      "use": "development_evidence_only"
+    },
+    {
+      "round": "round2",
+      "path": "V4_replay/replay (1).json",
+      "sha256": "a5b148ae8a95ffd684a511d65b8609a4da1557f9f7828db22d6a1a600eb7a5f4",
+      "game_id": "rolling-game-34bca1e9294c28464dba463fabb2a9f47d3617bd0eb021872ff16724eb7a5169",
+      "side": "Y",
+      "winner": "Y",
+      "turn_count": 160,
+      "use": "development_evidence_only"
+    },
+    {
+      "round": "round2",
+      "path": "V4_replay/replay (10).json",
+      "sha256": "f91cbf2ba3adf601fee3728c7b7a45543aa787b096fd490a80bd194f45cf9ae3",
+      "game_id": "rolling-game-d54af110884f1eff7197810d39f74f0ffcb31dd84cd3874da7a3dc3048632a4e",
+      "side": "Y",
+      "winner": "Y",
+      "turn_count": 26,
+      "use": "development_evidence_only"
+    },
+    {
+      "round": "round2",
+      "path": "V4_replay/replay (2).json",
+      "sha256": "ec88839f7ad1bc6453573573712ba82e7b20f9ff600671a6ff98f175e288ddc2",
+      "game_id": "rolling-game-63440e085528d83bdd61a389b932c72c48eb67e155b1d57d3374ebe909833eaf",
+      "side": "Y",
+      "winner": "K",
+      "turn_count": 67,
+      "use": "development_evidence_only"
+    },
+    {
+      "round": "round2",
+      "path": "V4_replay/replay (3).json",
+      "sha256": "9c8825500a1568ea45cb0ffe351c9297569a223c591292728c1c5d48363562a7",
+      "game_id": "rolling-game-6f32639acafca887f873728e555f1b24252c8f760a4be88f32d865d0727daff3",
+      "side": "Y",
+      "winner": "Y",
+      "turn_count": 160,
+      "use": "development_evidence_only"
+    },
+    {
+      "round": "round2",
+      "path": "V4_replay/replay (4).json",
+      "sha256": "8c5d422a4aa5ee45b712516fd3612e842444181f6e2373a3d77c78a7204e9e93",
+      "game_id": "rolling-game-7b34b928563d09ad1b5cc7adbf5037e2c5dc571aa6d687abf3401972f1562899",
+      "side": "Y",
+      "winner": "Y",
+      "turn_count": 31,
+      "use": "development_evidence_only"
+    },
+    {
+      "round": "round2",
+      "path": "V4_replay/replay (5).json",
+      "sha256": "9ead6d80eaf065100e6b8b0ceb578cdbd7c45518fba594bb0dfa2da4894dbe6e",
+      "game_id": "rolling-game-ad84278667fd0929bb5a0b62d486dd6989d107b95060a86689b09677e48c8850",
+      "side": "Y",
+      "winner": "Y",
+      "turn_count": 92,
+      "use": "development_evidence_only"
+    },
+    {
+      "round": "round2",
+      "path": "V4_replay/replay (6).json",
+      "sha256": "25a54389121d711db187f05112052ad208c20ebd1eb250b9ef261b096fb645ab",
+      "game_id": "rolling-game-b51fb30a9b60cbaa637281ccc70189592ccc3acd2a1cc54422eeb2a3647a2028",
+      "side": "Y",
+      "winner": "Y",
+      "turn_count": 92,
+      "use": "development_evidence_only"
+    },
+    {
+      "round": "round2",
+      "path": "V4_replay/replay (7).json",
+      "sha256": "16a984811e7a3124c9834c13706235dc2e0a821c75c13bd2fe6baa8eb5566a2a",
+      "game_id": "rolling-game-bc613bbd0aa2e7ed3cb760c4420de07d584fbfe74435d9e64cfe603140e921df",
+      "side": "Y",
+      "winner": "K",
+      "turn_count": 160,
+      "use": "development_evidence_only"
+    },
+    {
+      "round": "round2",
+      "path": "V4_replay/replay (8).json",
+      "sha256": "08477349ddad2b27104b58a4a09fe367e8b747e2c958549ee71150d4d5661863",
+      "game_id": "rolling-game-bffff5735e63efaae46f6cf1d63637b372b1a97295a0b11a270ef78a6fe046c8",
+      "side": "Y",
+      "winner": "K",
+      "turn_count": 149,
+      "use": "development_evidence_only"
+    },
+    {
+      "round": "round2",
+      "path": "V4_replay/replay (9).json",
+      "sha256": "5fec597eb1998acaed0795fd96d7f0e3570db294cfab0b34f5734becc449c48c",
+      "game_id": "rolling-game-c43810616007b08b82fa2ccc028a9bd58a815dd7af25480f26bcd6b298c02031",
+      "side": "Y",
+      "winner": "Y",
+      "turn_count": 157,
+      "use": "development_evidence_only"
+    },
+    {
+      "round": "round2",
+      "path": "V4_replay/replay.json",
+      "sha256": "70da24ce3da77267dce4728fbf4233980b1d1e3f2a069c6bae1e6c328a09da0a",
+      "game_id": "rolling-game-2b49c08f6a4dffa5a063bab17ed6c665a6c84abafe79a82c147811dbf32b1491",
+      "side": "Y",
+      "winner": "Y",
+      "turn_count": 160,
+      "use": "development_evidence_only"
+    }
+  ],
+  "opponent_families": [
+    {
+      "id": "A1",
+      "name": "single_flag_economic_raid",
+      "independent_mechanism": "Build an enemy-W-arrival-aware weighted grid graph; send one expendable F through a low-contact route to opponent ENG or HALL. Separate ordinary expansion from the raider; no v3 policy or evaluation call.",
+      "evidence": "round2 Newbies and Red Coral single-F traces",
+      "parameters": {
+        "route_penalty_W": [
+          2,
+          5,
+          10
+        ],
+        "raid_flags": [
+          1,
+          2
+        ],
+        "launch_turn": [
+          6,
+          10,
+          14
+        ],
+        "target_order": [
+          "ENG_then_HALL",
+          "HALL_then_ENG"
+        ],
+        "retreat_slack": [
+          0,
+          1,
+          2
+        ]
+      },
+      "required_events": [
+        "F raider follows a legal >=3-step off-center route",
+        "arrives at an economy building without allied W on the arrival tile",
+        "can abort when its route becomes intercepted"
+      ],
+      "not_claimed": "Not an implementation or reconstruction of either official opponent.",
+      "split": "development_and_selection"
+    },
+    {
+      "id": "A2",
+      "name": "dual_deadline_economic_raid",
+      "independent_mechanism": "Choose two distinct F origins and targets using a two-task arrival-time assignment; schedule a one-turn launch delay or wait so two fronts threaten within 0..2 turns. Use shared production and movement pools.",
+      "evidence": "round2 Shinchon ENG t23 / HALL t24",
+      "parameters": {
+        "arrival_gap": [
+          0,
+          1,
+          2
+        ],
+        "number_of_raiders": [
+          2,
+          3
+        ],
+        "production_source": [
+          "base",
+          "closest_owned_hospital"
+        ],
+        "second_target": [
+          "ENG_HALL",
+          "economy_HOSPITAL"
+        ],
+        "retarget_on_interception": [
+          false,
+          true
+        ]
+      },
+      "required_events": [
+        "two distinct fronts threaten different economy buildings within two turns",
+        "no raider or production resource double-counting",
+        "force response at both deadlines rather than merely chasing the closest F"
+      ],
+      "split": "development_and_selection"
+    },
+    {
+      "id": "A3",
+      "name": "economy_hospital_concentration",
+      "independent_mechanism": "Finite-state plan: secure one ENG -> forward HOSPITAL -> rally F+W at one objective -> relocate production and repeat. Use force arrival thresholds and minimal local rear guard, not global v3 building-value maximization.",
+      "evidence": "economic-production associations in both rounds; f3 failed reserve sacrifice of enemy HOSPITAL pressure",
+      "parameters": {
+        "surviving_W_margin": [
+          0,
+          1,
+          3
+        ],
+        "rally_turn_cap": [
+          2,
+          4,
+          6
+        ],
+        "F_reserve": [
+          1,
+          2
+        ],
+        "rear_W_cap": [
+          0,
+          1,
+          2
+        ],
+        "production_relocation": [
+          "nearest_front",
+          "defended_hospital"
+        ],
+        "attack_order": [
+          "HOSPITAL_ENG",
+          "HALL_PLAZA"
+        ]
+      },
+      "required_events": [
+        "synchronized F/W arrival at one target",
+        "owned forward hospital is actually used for production",
+        "an enemy economic target is pressed after own economy is secured"
+      ],
+      "split": "development_and_selection"
+    },
+    {
+      "id": "A4",
+      "name": "equal_force_contest_reclaim_relay",
+      "independent_mechanism": "Event-driven controller routes replacement F separately from W. At W equality it sends/holds F to contest; after neutralization it books recapture cost and a backup F. It replans from new ownership, not from a copied fixed opponent action trace.",
+      "evidence": "round1 terminal W3+F defense and repeated ENG flips; prior j_reclaim regression",
+      "parameters": {
+        "W_margin": [
+          0,
+          1
+        ],
+        "replacement_F_delay": [
+          0,
+          1,
+          2
+        ],
+        "claim_priority": [
+          "economy_first",
+          "score_first"
+        ],
+        "escort_wait": [
+          0,
+          1,
+          2
+        ],
+        "relay_flags": [
+          1,
+          2
+        ]
+      },
+      "required_events": [
+        "W equality plus surviving F creates contest",
+        "a neutralized building is retargeted before an unrelated low-value expansion",
+        "same physical W and teleport budget are shared across all tasks"
+      ],
+      "split": "sealed_policy_family_for_final"
+    },
+    {
+      "id": "A5",
+      "name": "terminal_multi_target_flip",
+      "independent_mechanism": "Use a time-expanded small assignment only in the last H turns. Enumerate legal F/W joint arrival packages and PRIORITY; compare actual terminal score, then occupation, then unit tiebreak. No credit for income or units that cannot affect the horizon.",
+      "evidence": "round2 tAIger t158..160 and round1 final WATCH neutralization",
+      "parameters": {
+        "terminal_horizon": [
+          4,
+          7,
+          10
+        ],
+        "targets_per_plan": [
+          2,
+          3,
+          4
+        ],
+        "reserve_capture_cost": [
+          true,
+          false
+        ],
+        "information_mode": [
+          "known_score_only",
+          "legal_symmetric_score_bounds"
+        ],
+        "minimum_arrival_slack": [
+          0,
+          1
+        ]
+      },
+      "required_events": [
+        "two or more buildings are attacked/contested in the final two turns",
+        "enemy ownership can be neutralized without completing own capture",
+        "resource shortage changes PRIORITY rather than overspending"
+      ],
+      "split": "development_and_selection"
+    },
+    {
+      "id": "A6",
+      "name": "bait_switch_and_repeat_raid",
+      "independent_mechanism": "A small state machine chooses between a raid and central pressure using public defender commitment. After one or two defenders respond it can reverse route, wait, or switch targets; when defense leaves, re-enter. Fixed seed controls only tie-breaking.",
+      "evidence": "stress hypothesis, not a measured official-opponent tactic; f3 8714 actual enemy F turned away while own attack was also abandoned",
+      "parameters": {
+        "switch_trigger_W": [
+          1,
+          2,
+          4
+        ],
+        "bait_duration": [
+          1,
+          2,
+          3
+        ],
+        "repeat_cooldown": [
+          2,
+          4,
+          8
+        ],
+        "commitment_penalty": [
+          0,
+          1,
+          3
+        ],
+        "fallback": [
+          "center_pressure",
+          "other_flank",
+          "wait_then_reenter"
+        ]
+      },
+      "required_events": [
+        "target changes after visible defense commitment",
+        "defender pursuit is distinguishable from interception at a fixed cut",
+        "repeat raid attacks a newly emptied protected building"
+      ],
+      "split": "sealed_policy_family_for_final"
+    }
+  ],
+  "rule_and_trace_fixtures": [
+    {
+      "id": "T01",
+      "case": "Newbies t10 F route toward HALL; W2 (3,7)",
+      "expected": "Generate an interception route by t13 at (3,10), if affordable; do not certify a t14 repair that is already late.",
+      "trace_source": "records/official/round2/early-defense-crosscheck.json"
+    },
+    {
+      "id": "T02",
+      "case": "Red Coral t18 W1 (4,9), ENG (4,12)",
+      "expected": "Include W1 down/down/down and correctly reject the visually near route through wall (3,12).",
+      "trace_source": "records/official/round2/early-defense-crosscheck.json"
+    },
+    {
+      "id": "T03",
+      "case": "Shinchon t18, resource12, Wcost2; two raiders",
+      "expected": "Consider W2 production at base plus split routes, not only hospital production; credit only defenders arriving by each deadline.",
+      "trace_source": "records/official/round2/early-defense-crosscheck.json"
+    },
+    {
+      "id": "T04",
+      "case": "Threat disappears or turns away",
+      "expected": "Cancel costly defensive reservation while preserving legal attack commitments; cancellation must be driven by current public state, not future replay."
+    },
+    {
+      "id": "T05",
+      "case": "W arrives after economy building becomes neutral",
+      "expected": "Create F recovery job and account for its ETA and capture budget; W-only arrival is not counted as recovered ownership."
+    },
+    {
+      "id": "T06",
+      "case": "Our W3, their W3+F1, our adjacent F1 at turn159",
+      "expected": "Joint W stay + F enter keeps owned building contested; W stay alone fails. Test exact official transition."
+    },
+    {
+      "id": "T07",
+      "case": "Friendly weak F on owned building is killed",
+      "expected": "Compare same-turn enemy capture after combat neutralization against slower capture of an empty owned building."
+    },
+    {
+      "id": "T08",
+      "case": "Two economic threats but only one timely W",
+      "expected": "One W cannot satisfy both simultaneous deadlines; report infeasible task and choose real tradeoff."
+    },
+    {
+      "id": "T09",
+      "case": "Two or three terminal captures, budget below sum",
+      "expected": "Use PRIORITY and library snapshot order correctly; future depot bonus cannot fund same-turn captures."
+    },
+    {
+      "id": "T10",
+      "case": "f3 8714 t60 defense and enemy hospital attack",
+      "expected": "Keep option combining HALL W1 reserve AND separate F1/W7 hospital attack; they are compatible. Never infer whole-game win from one-turn change.",
+      "trace_source": "records/league/loop3-design/warrior-reserve-audit-failures.json"
+    },
+    {
+      "id": "T11",
+      "case": "Own base/new hospital production excluded by existing pre-production top4",
+      "expected": "Urgent source generation considers legal spawn sites with no preexisting unit; record emergency slot and effect on old candidate count."
+    },
+    {
+      "id": "T12",
+      "case": "Two-origin convergence unhelpful one origin at a time",
+      "expected": "Generate both F/W changes as a complete joint command; evaluate complete base and new candidate under identical modeled opponents."
+    },
+    {
+      "id": "T13",
+      "case": "158-turn score lead; simultaneous losses and gain",
+      "expected": "Evaluate total final-board score across all contested buildings; economic bonuses cannot outrank a provable terminal point advantage."
+    },
+    {
+      "id": "T14",
+      "case": "Hidden score still -1 and mirrored partner unknown",
+      "expected": "Use only legal bounds consistent with symmetric pair; no hindsight score, future enemy action or replay-only information."
+    },
+    {
+      "id": "T15",
+      "case": "Teleport plus two tasks; newly arriving troops",
+      "expected": "One valid TELE, max5, pre-move origin pool; newly arriving troops cannot move again this turn."
+    },
+    {
+      "id": "T16",
+      "case": "Time cut between opponent evaluations",
+      "expected": "Discard partial candidate, retain last fully evaluated legal incumbent, record incomplete reason and deadline margin."
+    }
+  ],
+  "criteria": {
+    "status": "proposed_before_implementation; must be frozen in a run manifest before selection/final results",
+    "baseline": "immutable local v4; v3 is diagnostic official predecessor",
+    "main_side": "Y",
+    "primary_metric": "macro mean of family Y win+0.5draw rates; equal weight per family and per locked profile within family",
+    "new_family_count": 6,
+    "profiles_per_family": 2,
+    "historical_opponents": [
+      "v3",
+      "v2",
+      "j_v2_reclaim_relay",
+      "s3_selective_contact"
+    ],
+    "performance_gates": [
+      "Final paired map-bootstrap 95% lower bound of macro Y improvement over v4 is greater than zero.",
+      "Point Y score rate in every new family is at least 0.50; no family point regression versus v4 worse than 0.05.",
+      "Held-out policy families A4/A6 pooled Y improvement is nonnegative; each family remains separately reported.",
+      "Historical-group macro Y 95% lower confidence bound of difference is at least -0.03; no historical opponent point regression worse than 0.05.",
+      "K is a symmetry/generalization check: macro point difference must be at least -0.05; a Y gain must not be relabeled universal improvement.",
+      "Fresh audit macro Y difference is positive and no family point regression worse than 0.05. No replacing the selected candidate based on audit outcome."
+    ],
+    "safety_gates": [
+      "zero engine-invalid commands, errors, output violations or forfeits",
+      "all mandatory reachable microcases pass the exact expected local transition",
+      "actual ZIP tested with GCC12.2 under 384MiB memory and normal300ms/first3000ms protocol limits",
+      "runtime gate calibrated before tuning on the same benchmark machine; reserve explicit headroom because previous official v3 normal max was276ms"
+    ],
+    "uncertainty": "These are proposed release goals, not evidence already passed; map-resampled CIs condition on fixed policy families and cannot quantify unknown official-team strength.",
+    "sample_plan": {
+      "development_new_maps": 24,
+      "selection_new_maps": 48,
+      "final_new_maps": 128,
+      "audit_new_maps": 48,
+      "full_final_games": 8192,
+      "full_audit_games": 3072,
+      "formula": "maps * (6 independent families*2 profiles +4 historical opponents) *2 sides *2 tested programs(v4,selected candidate)",
+      "seed_manifest": "Not yet allocated. Before any run, draw disjoint integer map/policy seeds; check historical seed overlap AND map hash overlap. Official18 and all previously analyzed maps are development only. More games on one map do not create independent maps."
+    }
+  },
+  "instrumentation": [
+    "source_commit/sha + source_profile_id + exact engine/config/protocol hashes",
+    "legal observation hash, actual turn input/output alignment, own and model full-action hashes",
+    "threat id and target; earliest enemy F arrival lower bound, plausible path; threat uncertainty vs committed prediction",
+    "defender/spawn source ETA, shared resource and W/F pool; chosen deadline slack; why a task is infeasible",
+    "candidate source inclusion/exclusion rank, emergency slot, generation/cleaning/complete-evaluation counts",
+    "four original policy predictions vs new model predictions; model values, modeled minimum gain, acceptance/rejection code",
+    "same-budget baseline chosen action, continuation, actual completed transition count, base65ms effect",
+    "defense diversion and compatible attack opportunity; cancelled assignment; F recapture arrival time",
+    "actual next-state ownership/F survival error without claiming unique enemy command reconstruction",
+    "terminal score bounds, capture cost and PRIORITY effect, instant-win condition and tiebreak feasibility",
+    "time per stage, memory, incomplete candidate fallback, all output legality issues"
+  ],
+  "diversity_gate": {
+    "status": "proposed_not_measured",
+    "minimum_structurally_distinct_families": 6,
+    "policy_sharing": "protocol/parser/official transition may be shared; v2/v3 policy/evaluation/target allocator must not be copied into new independent opponents",
+    "behavior_requirement": "Each family executes its declared legal events on at least two purpose-built fixture geometries, with outcome-independent fixture selection. Every mandatory event must occur at least once. Failure means the opponent family is not counted, regardless of how many parameter variants exist.",
+    "full_game_coverage": "Report per-family eligible games, actual triggered games, failed attempts and no-op fallback count. If fewer than16 eligible development maps exercise the signature, collect extra development maps before freezing selection; never mine final maps for difficult examples.",
+    "distance": "Across the frozen identical-state corpus report canonical full-action disagreement and event fingerprint distances; target >=10% disagreement for claimed different implementations, but a same-action percentage alone cannot establish strategic diversity.",
+    "holdout": "A4/A6 complete opponent policies are frozen before candidate development, never used for candidate selection, first evaluated in final. Their design primitives are known, so this is held-out-policy evaluation, not genuinely unknown-algorithm proof."
+  },
+  "failure_limits": [
+    "observed team may change algorithms or have multiple modes",
+    "a hypothesis opponent is not a clone of an observed team",
+    "fixed adversaries can overfit in both directions; equally weak distinct policies are still insufficient",
+    "finite seeds do not prove universal winning or an equilibrium",
+    "robust worst-case modes can become too passive when physically incompatible enemy attacks are combined",
+    "root collecting new public data may expand replay census; it does not retroactively make these18 complete"
+  ]
+}

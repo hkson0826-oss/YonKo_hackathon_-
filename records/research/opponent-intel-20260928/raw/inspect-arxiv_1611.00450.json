@@ -1,0 +1,25 @@
+{
+  "tool": "mcp__firecrawl__firecrawl_research_inspect_paper",
+  "request": {
+    "paperId": "arxiv:1611.00450"
+  },
+  "original_response_serialization_sha256": "68c85b8b31501e12674637f8d82f2b2e2ef63d1fea06949c31a7f03799efc9ff",
+  "original_response_bytes": 3010,
+  "full_response_retained": false,
+  "provenance_note": "Original MCP response was read during this research batch; full copyrighted bodies/abstract passages are omitted from the public record. Hash identifies that original local JSON serialization, not a publisher-provided file.",
+  "paper": {
+    "paperId": "6105738606832685983",
+    "ids": {
+      "arxiv": [
+        "1611.00450"
+      ]
+    },
+    "title": "Multiplayer Reach-Avoid Games via Pairwise Outcomes",
+    "authors": "Mo Chen, Zhengyuan Zhou, Claire J. Tomlin",
+    "categories": [
+      "math.OC"
+    ],
+    "createdDate": "Wed, 2 Nov 2016 02:34:59 GMT",
+    "updateDate": "2016-11-03"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "tool": "mcp__firecrawl__firecrawl_research_search_papers",
+  "request": {
+    "query": "reachability intercept intruder multi agent perimeter defense bipartite matching assignment deadline",
+    "k": 8
+  },
+  "original_response_serialization_sha256": "3ae1fb598def1e80e203c6946af0a4882a50afee01bd615bb0adb650bd2aef21",
+  "original_response_bytes": 18826,
+  "full_response_retained": false,
+  "provenance_note": "Original MCP response was read during this research batch; full copyrighted bodies/abstract passages are omitted from the public record. Hash identifies that original local JSON serialization, not a publisher-provided file.",
+  "results": [
+    {
+      "paperId": "8831835074102412973",
+      "primaryId": "arxiv:1912.04342",
+      "ids": {
+        "arxiv": [
+          "1912.04342"
+        ]
+      },
+      "title": "Cooperative Team Strategies for Multi-player Perimeter-Defense Games",
+      "score": 0.9267292522085272
+    },
+    {
+      "paperId": "1353878658091575165",
+      "primaryId": "arxiv:2102.07381",
+      "ids": {
+        "arxiv": [
+          "2102.07381"
+        ]
+      },
+      "title": "A Decentralized Multi-UAV Spatio-Temporal Multi-Task Allocation Approach for Perimeter Defense",
+      "score": 0.8872045937171068
+    },
+    {
+      "paperId": "6730087273436825443",
+      "primaryId": "arxiv:2305.16748",
+      "ids": {
+        "arxiv": [
+          "2305.16748"
+        ]
+      },
+      "title": "A Decentralized Spike-based Learning Framework for Sequential Capture in Discrete Perimeter Defense Problem",
+      "score": 0.8487717474909259
+    },
+    {
+      "paperId": "9078532143981697189",
+      "primaryId": "arxiv:1909.03989",
+      "ids": {
+        "arxiv": [
+          "1909.03989"
+        ]
+      },
+      "title": "Perimeter-defense Game on Arbitrary Convex Shapes",
+      "score": 0.84224131298103
+    },
+    {
+      "paperId": "4061299032649131633",
+      "primaryId": "arxiv:2112.12098",
+      "ids": {
+        "arxiv": [
+          "2112.12098"
+        ]
+      },
+      "title": "IDCAIS: Inter-Defender Collision-Aware Interception Strategy against Multiple Attackers",
+      "score": 0.8388910504234147
+    },
+    {
+      "paperId": "1902921987397814754",
+      "primaryId": "arxiv:2307.09954",
+      "ids": {
+        "arxiv": [
+          "2307.09954"
+        ]
+      },
+      "title": "Priority-based DREAM Approach for Highly Manoeuvring Intruders in A Perimeter Defense Problem",
+      "score": 0.8354835371034369
+    },
+    {
+      "paperId": "1993499239630893263",
+      "primaryId": "pmid:42315643",
+      "ids": {
+        "doi": [
+          "10.1038/s41598-026-55576-9"
+        ],
+        "pmid": [
+          "42315643"
+        ]
+      },
+      "title": "Graph attention network-enhanced multi-agent reinforcement learning for dynamic interception task allocation in counter-drone defense.",
+      "score": 0.8354835371034369
+    },
+    {
+      "paperId": "8107815315586772039",
+      "primaryId": "arxiv:2301.09689",
+      "ids": {
+        "arxiv": [
+          "2301.09689"
+        ]
+      },
+      "title": "Graph Neural Networks for Decentralized Multi-Agent Perimeter Defense",
+      "score": 0.8221891305219503
+    }
+  ]
+}
