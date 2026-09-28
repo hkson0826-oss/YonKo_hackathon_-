@@ -1,0 +1,157 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-09-28T06:11:59.094123+00:00",
+  "source_commit": "bdd4c9498f434c85b1621b9b13522b4aae8c8c69",
+  "verification_script_sha256": "f0ad05fce7b3815fdefef7f9a6e695f78840ea0da3ea857cab5f228dadda125c",
+  "command": "PYTHONDONTWRITEBYTECODE=1 python -B records/official/opponent-intel-20260928/terminal-filtered/verify_prior_census.py",
+  "old_census_sha256": "0ee2adc8d9bdf3754d4f03b532a1173c623909b6684fc9908582b7742493b147",
+  "new_census_sha256": "e10783a667f18ebd29f7396b562bffbc0ea8fa81b07655b57e0ac6f1defa6e3a",
+  "old_output_hashes_still_match_original_verification": true,
+  "new_output_hashes_match_verification": true,
+  "all_18_original_replay_hashes_still_match": true,
+  "coverage_exactly_unchanged": true,
+  "all_profile_fields_except_threat_snapshot_list_exactly_unchanged": 18,
+  "first_threats_scores_production_outcomes_observed_turn_rows_unchanged": true,
+  "removed_terminal_future_threat_count": 3,
+  "removed_terminal_future_threats": [
+    {
+      "opponent": "뚜띠태하소불고기와멸치두명",
+      "round": "round2",
+      "game_id": "rolling-game-109f2e839e8bdb05922c807c8622bb6bd0553f65492fb5101562ab8c9e63242a",
+      "terminal_turn": 107,
+      "removed_future_threat": {
+        "observation_turn": 107,
+        "command_turn_starting_from_this_observation": 108,
+        "target_id": 1,
+        "target_type": "HALL",
+        "target_xy": [
+          0,
+          2
+        ],
+        "remaining_turns": 53,
+        "target_stage": 2,
+        "enemy_f_xy": [
+          3,
+          2
+        ],
+        "enemy_f_count": 1,
+        "enemy_w_absent_within_one_walk_step": true,
+        "enemy_f_walk_steps": 3,
+        "enemy_f_static_transport_steps": 3,
+        "our_existing_w_static_transport_steps": 0,
+        "our_spawned_w_geometric_arrival_turns": 2,
+        "our_resource_now_allows_one_w_spawn": true,
+        "geometric_enemy_arrives_before_any_current_or_immediate_spawn_w": false,
+        "enemy_w_on_target": 0,
+        "our_w_on_target": 38
+      }
+    },
+    {
+      "opponent": "뚜띠태하소불고기와멸치두명",
+      "round": "round2",
+      "game_id": "rolling-game-109f2e839e8bdb05922c807c8622bb6bd0553f65492fb5101562ab8c9e63242a",
+      "terminal_turn": 107,
+      "removed_future_threat": {
+        "observation_turn": 107,
+        "command_turn_starting_from_this_observation": 108,
+        "target_id": 1,
+        "target_type": "HALL",
+        "target_xy": [
+          0,
+          2
+        ],
+        "remaining_turns": 53,
+        "target_stage": 2,
+        "enemy_f_xy": [
+          1,
+          4
+        ],
+        "enemy_f_count": 1,
+        "enemy_w_absent_within_one_walk_step": true,
+        "enemy_f_walk_steps": 3,
+        "enemy_f_static_transport_steps": 3,
+        "our_existing_w_static_transport_steps": 0,
+        "our_spawned_w_geometric_arrival_turns": 2,
+        "our_resource_now_allows_one_w_spawn": true,
+        "geometric_enemy_arrives_before_any_current_or_immediate_spawn_w": false,
+        "enemy_w_on_target": 0,
+        "our_w_on_target": 38
+      }
+    },
+    {
+      "opponent": "신촌도 우리땅",
+      "round": "round2",
+      "game_id": "rolling-game-b51fb30a9b60cbaa637281ccc70189592ccc3acd2a1cc54422eeb2a3647a2028",
+      "terminal_turn": 92,
+      "removed_future_threat": {
+        "observation_turn": 92,
+        "command_turn_starting_from_this_observation": 93,
+        "target_id": 5,
+        "target_type": "ENG",
+        "target_xy": [
+          0,
+          0
+        ],
+        "remaining_turns": 68,
+        "target_stage": 2,
+        "enemy_f_xy": [
+          0,
+          0
+        ],
+        "enemy_f_count": 1,
+        "enemy_w_absent_within_one_walk_step": true,
+        "enemy_f_walk_steps": 0,
+        "enemy_f_static_transport_steps": 0,
+        "our_existing_w_static_transport_steps": 1,
+        "our_spawned_w_geometric_arrival_turns": 6,
+        "our_resource_now_allows_one_w_spawn": true,
+        "geometric_enemy_arrives_before_any_current_or_immediate_spawn_w": true,
+        "enemy_w_on_target": 0,
+        "our_w_on_target": 0
+      }
+    }
+  ],
+  "retained_future_threat_count_before": 1360,
+  "retained_future_threat_count_after": 1357,
+  "all_nonterminal_threat_rows_preserved_in_order": true,
+  "game_weighted_binary_observation_counts": {
+    "all": {
+      "win": {
+        "games": 13,
+        "enemy_f_home_incursion": 9,
+        "unescorted_economic_threat_any": 9,
+        "unescorted_economic_threat_by30": 6,
+        "our_home_enemy_capture_neutral_event": 7,
+        "our_late_losses145onward": 4
+      },
+      "loss": {
+        "games": 5,
+        "enemy_f_home_incursion": 5,
+        "unescorted_economic_threat_any": 5,
+        "unescorted_economic_threat_by30": 5,
+        "our_home_enemy_capture_neutral_event": 5,
+        "our_late_losses145onward": 3
+      }
+    },
+    "round2": {
+      "win": {
+        "games": 9,
+        "enemy_f_home_incursion": 7,
+        "unescorted_economic_threat_any": 7,
+        "unescorted_economic_threat_by30": 4,
+        "our_home_enemy_capture_neutral_event": 5,
+        "our_late_losses145onward": 3
+      },
+      "loss": {
+        "games": 4,
+        "enemy_f_home_incursion": 4,
+        "unescorted_economic_threat_any": 4,
+        "unescorted_economic_threat_by30": 4,
+        "our_home_enemy_capture_neutral_event": 4,
+        "our_late_losses145onward": 2
+      }
+    }
+  },
+  "binary_counts_exactly_unchanged": true,
+  "interpretation": "Only post-termination hypothetical action threats removed; full terminal observations are preserved. No new behavioral or performance evidence added."
+}

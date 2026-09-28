@@ -4,6 +4,9 @@
 
 | 폴더 | 내용 |
 |---|---|
+| [official/opponent-intel-20260928](official/opponent-intel-20260928/) | 상대 15팀·18경기 분석, 104팀 성적표, 추가 화면 관측, 독립 상대 사양 |
+| [research/opponent-intel-20260928](research/opponent-intel-20260928/README.md) | 도착 기한 배정·종반 동시 행동·상대 모델·공략형 확장 연구 |
+| [official/round2](official/round2/) | 최신 v3 공식 13경기 분석·실제 제출 연결·4패의 턴별 근거 |
 | [benchmarks/v1](benchmarks/v1/) | 초기 예제·정책별 대전, 공격형 검사, 응답 시간 검사 |
 | [benchmarks/teammate-v1](benchmarks/teammate-v1/) | 팀원 봇 원본 정보·제출 검사, 기존 v1과의 대전 |
 | [benchmarks/v2](benchmarks/v2/) | 동일한 새 맵에서 실행한 v1·v2의 팀원 봇 상대 성적 |

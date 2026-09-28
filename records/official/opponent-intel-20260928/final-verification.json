@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-09-28T06:14:31.879593+00:00",
+  "analysis_source_commit": "bdd4c9498f434c85b1621b9b13522b4aae8c8c69",
+  "json_files_parsed": 37,
+  "original_replay_hashes_checked": 18,
+  "own_transitions_checked_by_analysis": 1978,
+  "live_leaderboard_rows": 104,
+  "ranked_rows": 56,
+  "extra_match_full_json_available": false,
+  "extra_match_ui_observations": 2,
+  "terminal_false_future_threats_removed": 3,
+  "existing_match_summaries_unchanged": true,
+  "summary_local_links_checked": 96,
+  "v4_zip_hash_unchanged": true,
+  "new_bot_implementation": false,
+  "new_match_simulations": 0,
+  "summary_sha256": "6c8d286c85ada652fe626ffad2f51708846e29592b05d28ffba4da3b9667f08c",
+  "checks_scope": "Analysis consistency, file integrity and links; no algorithm performance validation."
+}
