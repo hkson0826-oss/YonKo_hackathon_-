@@ -1,0 +1,33 @@
+{
+  "created_utc": "2026-09-29T10:24:24.769719+00:00",
+  "stage": "final",
+  "baseline": "v4",
+  "hypothesis": "Independent final of selection winner guard3 with exact frozen code; require Y and both-side nonregression, no three-win per-opponent side regression, zero errors/forfeits; live v7 unavailable for direct comparison",
+  "source_commit": "798f6883d4a86e5851993db8e399485cd6cf1cc0",
+  "source_sha256": {
+    "s3_selective_contact": "db83d9aa0e8809aaffd6b36ffc47972996d832d987947187af600d3a8419d96c",
+    "j_balanced_portfolio": "534f55f1d6641ed788ca637663456e43375297d8016ac9832c589b0a012c8422",
+    "teammate": "571397e3c84998b27f8ce0468bc49333663c69b0b84162ad8dfc27e7a47f2365",
+    "v3": "52268569e17d7fc40fd46f0996b2da684768902b4af27ec059c4b068911c4473",
+    "raid1": "be00d499e7fa4bfff2d11fd6a2506ee9771b9c6fae75e41b7fcaeff6df828f44",
+    "v4": "1703701340ede10b652b0aa024e29c3fd411e2809ae34de1e3d0b39620d496df",
+    "guard3": "61a4f25113d9bf2c387a59ddc770a3143de6311e3fd2e004827a66eb78edfbc9"
+  },
+  "map_seeds": [
+    14000,
+    14001,
+    14002,
+    14003,
+    14004,
+    14005,
+    14006,
+    14007,
+    14008,
+    14009
+  ],
+  "policy_rng_seed": 20260927,
+  "scheduled_jobs": 200,
+  "workers": 6,
+  "resource_policy": "Official engine turn timeout; inherited 384MiB RLIMIT_AS after compilation",
+  "stop_policy": "Any error/forfeit blocks promotion; deadline decisions and candidate locking belong to the operator."
+}

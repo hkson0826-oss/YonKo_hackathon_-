@@ -42,3 +42,5 @@ An isolated temporary fixture injected syntax rejection, an invalid production s
 - Injected-error check: `/tmp/yk-action-audit-selftest.json`
 
 These results apply to the frozen development2 candidate versions above. They do not certify guard3, an untested later source, a different official SDK, or the unavailable website v7 source.
+
+The reusable CLI is now tracked at `experiments/audit_deadline_actions.py`. Re-run against a preserved run directory with `python3 -B experiments/audit_deadline_actions.py --run-dir RUN_DIRECTORY --output NEW_AUDIT_JSON`. The CLI reproduced all320 replay counts and findings exactly; this does not change the original audit result.

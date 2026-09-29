@@ -1,0 +1,47 @@
+{
+  "replays": 200,
+  "frames": 24919,
+  "elapsed_seconds": 6.249797354001203,
+  "results_sha256": "ca4b04adae3861e47b90d1cd91d2c2d7cf25e3b8ea9fd0e4d6620e4ffd7acef8",
+  "counts": {
+    "candidate:guard3": {
+      "turns": 12057,
+      "commands": 475875
+    },
+    "candidate:v4": {
+      "turns": 12862,
+      "commands": 465362
+    },
+    "opponent:j_balanced_portfolio": {
+      "turns": 5156,
+      "commands": 137319
+    },
+    "opponent:raid1": {
+      "turns": 3208,
+      "commands": 64374
+    },
+    "opponent:s3_selective_contact": {
+      "turns": 6102,
+      "commands": 200038
+    },
+    "opponent:teammate": {
+      "turns": 4683,
+      "commands": 119905
+    },
+    "opponent:v3": {
+      "turns": 5770,
+      "commands": 184071
+    }
+  },
+  "examples": [],
+  "candidate_source_sha256": {
+    "guard3": "61a4f25113d9bf2c387a59ddc770a3143de6311e3fd2e004827a66eb78edfbc9",
+    "v4": "1703701340ede10b652b0aa024e29c3fd411e2809ae34de1e3d0b39620d496df"
+  },
+  "auditor_sha256": "dd71de1e97f87755fc2b62025a747bdbf92b9307164d75dd6d7460e315b5ecd9",
+  "sdk_reference_sha256": {
+    "engine/pipeline.py": "f0bd96c484c8628b6a070b188adcc1a077e9f90017cc15f11ce366d974490fa6",
+    "runner/protocol.py": "5917df4bec20b963586b1ffeb7a45b9959f51e3437a227ee7e8d932b172a7d65",
+    "runner/replay.py": "fc2bf7405c405ac30da4d7c122b24e3c3275544bfbd1ec22779bbb217df6e8a6"
+  }
+}
