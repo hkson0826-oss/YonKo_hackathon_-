@@ -1,0 +1,33 @@
+{
+  "created_utc": "2026-09-29T10:04:47.972319+00:00",
+  "stage": "development",
+  "baseline": "v4",
+  "hypothesis": "Compare escort-aware economic defense, full-seed terminal coordination, and coordinated midgame defense against original four plus independent raid stress opponent; primary Y, K diagnostics",
+  "source_commit": "09128f0dfd2ae1fafae93f9550947aac6fcc8bd9",
+  "source_sha256": {
+    "endgame2": "fcff42b922e5fc170b77d5dfaa66246179af05c601904d980154cb70fe5a2e35",
+    "j_balanced_portfolio": "534f55f1d6641ed788ca637663456e43375297d8016ac9832c589b0a012c8422",
+    "midgame1": "8d031513085ab08b15aec6beaa0d1bc13235ca1a4448b802c7f9122b06d0757b",
+    "v4": "1703701340ede10b652b0aa024e29c3fd411e2809ae34de1e3d0b39620d496df",
+    "raid1": "be00d499e7fa4bfff2d11fd6a2506ee9771b9c6fae75e41b7fcaeff6df828f44",
+    "v3": "52268569e17d7fc40fd46f0996b2da684768902b4af27ec059c4b068911c4473",
+    "guard2": "e73cf900936c62f616aea26c00e68ea53f9e94a2df7c307ca3f77f6d1b68efaa",
+    "s3_selective_contact": "db83d9aa0e8809aaffd6b36ffc47972996d832d987947187af600d3a8419d96c",
+    "teammate": "571397e3c84998b27f8ce0468bc49333663c69b0b84162ad8dfc27e7a47f2365"
+  },
+  "map_seeds": [
+    12030,
+    12031,
+    12032,
+    12033,
+    12034,
+    12035,
+    12036,
+    12037
+  ],
+  "policy_rng_seed": 20260927,
+  "scheduled_jobs": 320,
+  "workers": 6,
+  "resource_policy": "Official engine turn timeout; inherited 384MiB RLIMIT_AS after compilation",
+  "stop_policy": "Any error/forfeit blocks promotion; deadline decisions and candidate locking belong to the operator."
+}
