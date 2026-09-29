@@ -1,0 +1,25 @@
+{
+  "candidates": [
+    "v4",
+    "guard2",
+    "endgame2",
+    "guard3"
+  ],
+  "opponents": [
+    "v3",
+    "teammate",
+    "j_balanced_portfolio",
+    "s3_selective_contact",
+    "raid1"
+  ],
+  "map_seeds": [
+    13000,
+    13001,
+    13002,
+    13003,
+    13004,
+    13005
+  ],
+  "replays": "all",
+  "order_seed": 20260929
+}

@@ -1,0 +1,10 @@
+{
+  "requested_deadline_kst": "2026-09-29T20:00:00+09:00",
+  "local_zip_validated_before_kst": "2026-09-29T19:32:26+09:00",
+  "browser_attachment_call_elapsed_seconds": 20529.9246,
+  "tool_return_checked_utc": "2026-09-29T16:15:06Z",
+  "site_state_after_return": "7 submissions; v7 still selected; upload input empty. No v8 uploaded by deadline.",
+  "deadline_met": false,
+  "cause": "Not yet established; elapsed browser tool call observed.",
+  "recovery": "Retried actual file input with short tool timeout; ZIP attachment confirmed, Submit clicked after deadline."
+}
