@@ -1,0 +1,25 @@
+{
+  "candidate": "guard3",
+  "parent": "guard2",
+  "status": "frozen_smoke_pass_unbenchmarked",
+  "files": {
+    "main.cpp": "61a4f25113d9bf2c387a59ddc770a3143de6311e3fd2e004827a66eb78edfbc9",
+    "protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60",
+    "check.cpp": "eb944499faa00e80b1240c2a38e712c6900653e9475b462ce744a88e38a04d67",
+    "check_replay.cpp": "8e99321256f1c858cd6dfa4160e56e8327a7f5fefe669242ca1812f353d3d6c5"
+  },
+  "change": "Reject any seed F destination W reduction, including zero immediate danger.",
+  "validation": {
+    "compiler": "g++16.2.1",
+    "flags": [
+      "-std=c++20",
+      "-O2"
+    ],
+    "guard2_synthetic_checks": "pass",
+    "actual_12015_t16_escort": 1,
+    "fixture_replay": "/tmp/yk-loop1-20260929/runs/development1/replays/5bf6e9460652d73d8498fd99.json.gz",
+    "fixture_sha256": "6a1616c1f978adc9f4b9878ab65f68dcdae05f9c8879c24d0bf89ff6a96a32fb"
+  }
+}
