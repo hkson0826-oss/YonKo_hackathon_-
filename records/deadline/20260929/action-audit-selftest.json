@@ -1,0 +1,117 @@
+{
+  "replays": 1,
+  "frames": 1,
+  "elapsed_seconds": 0.0004456040041986853,
+  "results_sha256": "ca94f70f199bec07b0826b46b08fdbe8373655bf9898382f7a967fddce150d4c",
+  "counts": {
+    "candidate:guard2": {
+      "turns": 1,
+      "commands": 6,
+      "syntax_ignored": 1,
+      "spawn_budget_clip": 1,
+      "spawn_invalid_site": 1,
+      "move_stock_clip": 1,
+      "tele_same_station": 1,
+      "move_blocked_destination": 1
+    },
+    "opponent:teammate": {
+      "turns": 1,
+      "commands": 5
+    }
+  },
+  "examples": [
+    {
+      "label": "candidate:guard2",
+      "reason": "syntax_ignored",
+      "job_id": "e1f0d6a6d9447aebafccb522",
+      "seed": 12031,
+      "turn": 1,
+      "team": "K",
+      "command": null,
+      "line": "IGNORED_TEST_LINE"
+    },
+    {
+      "label": "candidate:guard2",
+      "reason": "spawn_budget_clip",
+      "job_id": "e1f0d6a6d9447aebafccb522",
+      "seed": 12031,
+      "turn": 1,
+      "team": "K",
+      "command": {
+        "cmd": "Spawn",
+        "kind": "W",
+        "count": 999,
+        "x": null,
+        "y": null
+      },
+      "requested": 999,
+      "applied": 3
+    },
+    {
+      "label": "candidate:guard2",
+      "reason": "spawn_invalid_site",
+      "job_id": "e1f0d6a6d9447aebafccb522",
+      "seed": 12031,
+      "turn": 1,
+      "team": "K",
+      "command": {
+        "cmd": "Spawn",
+        "kind": "F",
+        "count": 1,
+        "x": -1,
+        "y": -1
+      }
+    },
+    {
+      "label": "candidate:guard2",
+      "reason": "move_stock_clip",
+      "job_id": "e1f0d6a6d9447aebafccb522",
+      "seed": 12031,
+      "turn": 1,
+      "team": "K",
+      "command": {
+        "cmd": "Move",
+        "x": 13,
+        "y": 7,
+        "kind": "W",
+        "count": 999,
+        "direction": "R"
+      },
+      "requested": 999,
+      "applied": 3
+    },
+    {
+      "label": "candidate:guard2",
+      "reason": "tele_same_station",
+      "job_id": "e1f0d6a6d9447aebafccb522",
+      "seed": 12031,
+      "turn": 1,
+      "team": "K",
+      "command": {
+        "cmd": "Tele",
+        "x": 13,
+        "y": 7,
+        "kind": "W",
+        "count": 1,
+        "tx": 13,
+        "ty": 7
+      }
+    },
+    {
+      "label": "candidate:guard2",
+      "reason": "move_blocked_destination",
+      "job_id": "e1f0d6a6d9447aebafccb522",
+      "seed": 12031,
+      "turn": 1,
+      "team": "K",
+      "command": {
+        "cmd": "Move",
+        "x": -2,
+        "y": -2,
+        "kind": "F",
+        "count": 1,
+        "direction": "R"
+      }
+    }
+  ]
+}

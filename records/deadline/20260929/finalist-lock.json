@@ -1,0 +1,23 @@
+{
+  "candidate": "guard3",
+  "baseline": "v4",
+  "source_sha256": "61a4f25113d9bf2c387a59ddc770a3143de6311e3fd2e004827a66eb78edfbc9",
+  "locked_utc": "2026-09-29T10:24:24.703206+00:00",
+  "selection_run": "selection",
+  "selection_Y_difference": 0.16666666666666666,
+  "selection_K_difference": 0.2,
+  "reason": "Highest primary Y among the three frozen candidates; no opponent rate regression in selection; preserve all seed F escorts. Final maps14000\u201314009 were declared before selection.",
+  "final_maps": [
+    14000,
+    14001,
+    14002,
+    14003,
+    14004,
+    14005,
+    14006,
+    14007,
+    14008,
+    14009
+  ],
+  "unchanged_source": true
+}
