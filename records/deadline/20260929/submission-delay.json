@@ -5,6 +5,6 @@
   "tool_return_checked_utc": "2026-09-29T16:15:06Z",
   "site_state_after_return": "7 submissions; v7 still selected; upload input empty. No v8 uploaded by deadline.",
   "deadline_met": false,
-  "cause": "Not yet established; elapsed browser tool call observed.",
-  "recovery": "Retried actual file input with short tool timeout; ZIP attachment confirmed, Submit clicked after deadline."
+  "cause": "Unknown. Targeted read-only systemd/kernel/logind investigation found no suspend/resume events; realtime and monotonic elapsed were continuous across this boot. The observed long browser-tool wait is not explained by host suspension.",
+  "recovery": "Site v8 uploaded2026-09-30 01:19 KST, source usable, medium and high practice each10/10 with0 runtime errors. Selectedv8 and verifiedafterrefresh2026-09-30 01:30 KST. Missed 2026-09-29 20:00 cutoff."
 }

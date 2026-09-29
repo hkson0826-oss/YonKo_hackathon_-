@@ -1,0 +1,137 @@
+{
+  "interval_utc": [
+    "2026-09-29 10:30:00 UTC",
+    "2026-09-29 16:16:00 UTC"
+  ],
+  "interval_kst": [
+    "2026-09-29 19:30:00 +09:00",
+    "2026-09-30 01:16:00 +09:00"
+  ],
+  "queries": {
+    "sleep_services": {
+      "command": [
+        "journalctl",
+        "--utc",
+        "--since",
+        "2026-09-29 10:30:00 UTC",
+        "--until",
+        "2026-09-29 16:16:00 UTC",
+        "--no-pager",
+        "-u",
+        "systemd-suspend.service",
+        "-u",
+        "systemd-suspend-then-hibernate.service",
+        "-u",
+        "systemd-hibernate.service",
+        "-u",
+        "systemd-hybrid-sleep.service",
+        "-o",
+        "short-iso-precise"
+      ],
+      "returncode": 0,
+      "stdout": "-- No entries --",
+      "stderr": ""
+    },
+    "kernel_sleep": {
+      "command": [
+        "journalctl",
+        "--utc",
+        "--since",
+        "2026-09-29 10:30:00 UTC",
+        "--until",
+        "2026-09-29 16:16:00 UTC",
+        "--no-pager",
+        "_TRANSPORT=kernel",
+        "--grep=(?i)(suspend|resume|hibernat|PM: suspend|PM: resume)",
+        "-o",
+        "short-iso-precise"
+      ],
+      "returncode": 1,
+      "stdout": "-- No entries --",
+      "stderr": ""
+    },
+    "logind_sleep": {
+      "command": [
+        "journalctl",
+        "--utc",
+        "--since",
+        "2026-09-29 10:30:00 UTC",
+        "--until",
+        "2026-09-29 16:16:00 UTC",
+        "--no-pager",
+        "-u",
+        "systemd-logind.service",
+        "--grep=(?i)(suspend|resume|hibernat|sleep)",
+        "-o",
+        "short-iso-precise"
+      ],
+      "returncode": 1,
+      "stdout": "-- No entries --",
+      "stderr": ""
+    },
+    "pid1_sleep": {
+      "command": [
+        "journalctl",
+        "--utc",
+        "--since",
+        "2026-09-29 10:30:00 UTC",
+        "--until",
+        "2026-09-29 16:16:00 UTC",
+        "--no-pager",
+        "_PID=1",
+        "--grep=(?i)(suspend|resume|hibernat|sleep)",
+        "-o",
+        "short-iso-precise"
+      ],
+      "returncode": 1,
+      "stdout": "-- No entries --",
+      "stderr": ""
+    }
+  },
+  "system_kernel_timestamp_metadata": {
+    "command": [
+      "journalctl",
+      "--utc",
+      "--since",
+      "2026-09-29 10:30:00 UTC",
+      "--until",
+      "2026-09-29 16:16:00 UTC",
+      "--no-pager",
+      "_TRANSPORT=kernel",
+      "+",
+      "_PID=1",
+      "-o",
+      "json",
+      "--output-fields=__REALTIME_TIMESTAMP,__MONOTONIC_TIMESTAMP,_BOOT_ID,_TRANSPORT"
+    ],
+    "records": 1093,
+    "first": {
+      "utc": "2026-09-29T10:31:06.302541+00:00",
+      "kst": "2026-09-29T19:31:06.302541+09:00",
+      "monotonic_seconds": 45010.715024,
+      "boot_id": "d564d7c461ea446cbb4f087a646283b5"
+    },
+    "last": {
+      "utc": "2026-09-29T16:15:45.872661+00:00",
+      "kst": "2026-09-30T01:15:45.872661+09:00",
+      "monotonic_seconds": 65690.285144,
+      "boot_id": "d564d7c461ea446cbb4f087a646283b5"
+    },
+    "wall_elapsed_seconds": 20679.57012,
+    "monotonic_elapsed_seconds": 20679.57012,
+    "offset_range_microseconds": 14,
+    "max_interrecord_wall_gap_seconds": 119.098136,
+    "hourly_record_counts_utc": {
+      "2026-09-29 10:00 UTC": 89,
+      "2026-09-29 11:00 UTC": 187,
+      "2026-09-29 12:00 UTC": 187,
+      "2026-09-29 13:00 UTC": 188,
+      "2026-09-29 14:00 UTC": 186,
+      "2026-09-29 15:00 UTC": 192,
+      "2026-09-29 16:00 UTC": 64
+    },
+    "boot_ids": [
+      "d564d7c461ea446cbb4f087a646283b5"
+    ]
+  }
+}

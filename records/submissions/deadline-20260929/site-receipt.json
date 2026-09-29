@@ -1,0 +1,68 @@
+{
+  "status": "uploaded_usable_practice_passed_selected",
+  "site": "https://yonsei-vs-korea-hackathon.kr/submissions",
+  "site_version": "v8",
+  "filename": "submission-20260929-guard3.zip",
+  "zip_sha256": "15fe3b7931e25fa6fbd6364536d39190fd6fe8e564405ed223bb28b33615f03f",
+  "uploaded_display_kst": "2026-09-30 01:19",
+  "server_status": "사용 가능",
+  "selected_version_at_check": "v8",
+  "requested_deadline_kst": "2026-09-29 20:00",
+  "deadline_met": false,
+  "local_games": {
+    "leagues": 1016,
+    "distinct_league_maps": 35,
+    "sdk_smoke": 1,
+    "cpu_runtime": 4
+  },
+  "direct_v7_comparison": "Unavailable: source/ZIP not found; no relative-strength claim.",
+  "server_build_log": "Source validated and image assembled. Actual game protocol smoke is pending.",
+  "practice": {
+    "medium": {
+      "requested_display_kst": "2026-09-30 01:22",
+      "team": "Y",
+      "games": 10,
+      "wins": 10,
+      "runtime_errors": 0,
+      "graduation_battle_criterion_passed": true,
+      "replay_ids": [
+        "01a0edf9-8549-7015-9904-ee07e6e04495",
+        "01a0edf9-8549-7cb3-94b5-f50dab00884d",
+        "01a0edf9-8549-7d3c-9550-d04f9f153df1",
+        "01a0edf9-8549-7c91-99d3-ba88a3ad01ec",
+        "01a0edf9-8549-75c0-95c0-27c70f622694",
+        "01a0edf9-8549-7cc4-aeb1-ce4fd5328c12",
+        "01a0edf9-8549-7412-b9e4-e9d3376f3e7c",
+        "01a0edf9-8549-7190-ae5c-d258614dc263",
+        "01a0edf9-8549-79c1-999b-678a4f6a3c17",
+        "01a0edf9-8549-7aa7-ae9c-d44244ebb499"
+      ]
+    },
+    "high": {
+      "requested_display_kst": "2026-09-30 01:25",
+      "team": "Y",
+      "games": 10,
+      "wins": 10,
+      "runtime_errors": 0,
+      "replay_ids": [
+        "01a0edfc-f78a-7f5e-aa54-bfbc2da2e937",
+        "01a0edfc-f78a-7068-a8cf-3d71a5d0d5b9",
+        "01a0edfc-f78a-7550-8fe7-b82bf2d4bb77",
+        "01a0edfc-f78a-7b40-8c40-7f144f4e1910",
+        "01a0edfc-f78a-7d43-828d-6a50e374944d",
+        "01a0edfc-f78a-7023-b31f-353dce269f4b",
+        "01a0edfc-f78a-7add-8b4b-26c865aee518",
+        "01a0edfc-f78a-7052-a1da-a658c60e8686",
+        "01a0edfc-f78a-7b8a-a1ca-50dd6f12bc9c",
+        "01a0edfc-f78a-7a8a-8513-11384655ba9a"
+      ]
+    }
+  },
+  "selection_confirmed_kst": "2026-09-30 01:30",
+  "selection_verified_after_refresh": true,
+  "selection_confirmation": [
+    "다음 채점에는 v8을 사용합니다.",
+    "대회에 사용할 코드: v8"
+  ],
+  "previous_v7_available": true
+}
