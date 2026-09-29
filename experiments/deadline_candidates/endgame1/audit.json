@@ -1,0 +1,24 @@
+{
+  "candidate": "endgame1",
+  "parent": "iterative-v4",
+  "status": "compiled_smoke_pass_unbenchmarked",
+  "files": {
+    "main.cpp": "5e4d6834dcec7d89ebec46ecd0e97226210e871e45e38420291f9ab5c4ebb927",
+    "protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60"
+  },
+  "validation": {
+    "compiler": "g++16.2.1",
+    "flags": [
+      "-std=c++20",
+      "-O2"
+    ],
+    "joint_capture": true,
+    "neutralization": true,
+    "production_stock": true,
+    "random_decisions": 36,
+    "max_ms": 90.5331
+  },
+  "source_frozen": true
+}

@@ -130,6 +130,10 @@ def run(args):
     if args.resume:
         if not plan_path.is_file() or json.loads(plan_path.read_text()) != plan:
             raise ValueError('Resume plan mismatch')
+        previous = json.loads(policy_path.read_text())
+        for key in ('stage', 'baseline', 'hypothesis', 'source_sha256', 'policy_rng_seed'):
+            if previous.get(key) != policy[key]:
+                raise ValueError('Resume policy mismatch: ' + key)
     else:
         if plan_path.exists() or policy_path.exists():
             raise ValueError('Run ID already used; use --resume or a new ID')

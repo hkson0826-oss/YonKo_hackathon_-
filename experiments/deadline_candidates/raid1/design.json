@@ -1,0 +1,17 @@
+{
+  "id": "raid1",
+  "purpose": "Independent stress opponent for rear economic building defence; not a submission recommendation",
+  "parent": "c_economy_direct",
+  "parent_source_sha256": "2594026e71dbf8bb4e020fdcd486100334b9b19d870791f40ee1a0f95e271150",
+  "source_sha256": "be00d499e7fa4bfff2d11fd6a2506ee9771b9c6fae75e41b7fcaeff6df828f44",
+  "generator_sha256": "839d24c3bec34d3d2b874763b597b618f89f59bcad783ca7d1cf2197651adad7",
+  "change": "Add 36 times remaining-horizon value to enemy-owned ENG/HALL within six path steps of enemy base, reusing global flag allocation and safe movement from independent economy generator",
+  "hypothesis": "A sparse flag diversion toward rear economy can expose guards that only follow the current front",
+  "known_limitations": [
+    "No claim that this is stronger than the existing fixed opponents",
+    "Economic targeting can overcommit flags or escort warriors",
+    "No battle outcomes used in choosing this opponent",
+    "Still reuses v2 transition and map interpretation; not a model of an unknown actual entrant"
+  ],
+  "status": "source_created_unmeasured"
+}
