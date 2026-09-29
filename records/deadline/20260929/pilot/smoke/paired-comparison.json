@@ -1,0 +1,41 @@
+{
+  "baseline": "v4",
+  "comparisons": {
+    "v3": {
+      "Y": {
+        "paired_maps": 1,
+        "paired_games": 4,
+        "point_rate_difference": 0.0,
+        "map_cluster_bootstrap_95pct": [
+          0.0,
+          0.0
+        ],
+        "opponent_point_rate_difference": {
+          "s3_selective_contact": -1.0,
+          "teammate": 0.0,
+          "v3": 1.0,
+          "j_balanced_portfolio": 0.0
+        }
+      },
+      "K": {
+        "paired_maps": 1,
+        "paired_games": 4,
+        "point_rate_difference": 0.0,
+        "map_cluster_bootstrap_95pct": [
+          0.0,
+          0.0
+        ],
+        "opponent_point_rate_difference": {
+          "j_balanced_portfolio": 0.0,
+          "v3": -1.0,
+          "s3_selective_contact": 1.0,
+          "teammate": 0.0
+        }
+      }
+    }
+  },
+  "interpretation": "Small local fixed-opponent samples; no automatic promotion or leaderboard-score claim.",
+  "complete": true,
+  "errors": 0,
+  "forfeits": 0
+}

@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "started_utc": "2026-09-29T09:48:45.425316+00:00",
+  "workers": 6,
+  "resumed_jobs": 0,
+  "scheduled_jobs": 16,
+  "command": [
+    "/usr/bin/python3",
+    "/tmp/yk-pilot-20260929/snapshot/experiments/deadline_20260929.py",
+    "run",
+    "--arena",
+    "/tmp/yk-pilot-20260929",
+    "--run-id",
+    "smoke",
+    "--seed-start",
+    "12000",
+    "--maps",
+    "1",
+    "--stage",
+    "smoke",
+    "--workers",
+    "6"
+  ],
+  "plan_sha256": "55a2fd6eed8250c8a4bd24399fc92435e759cb0d6c10cbcfe6f00098bb71105b",
+  "python": "3.14.7 (main, Aug 10 2026, 07:46:56) [GCC 16.1.1 20260728]",
+  "python_executable": "/usr/bin/python3",
+  "finished_utc": "2026-09-29T09:49:15.448344+00:00",
+  "wall_seconds": 30.022986377000052,
+  "finished_new_jobs": 16
+}
