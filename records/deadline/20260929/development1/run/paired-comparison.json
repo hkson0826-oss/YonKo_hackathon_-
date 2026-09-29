@@ -1,0 +1,73 @@
+{
+  "baseline": "v4",
+  "comparisons": {
+    "guard1": {
+      "Y": {
+        "paired_maps": 10,
+        "paired_games": 40,
+        "point_rate_difference": 0.075,
+        "map_cluster_bootstrap_95pct": [
+          -0.075,
+          0.25
+        ],
+        "opponent_point_rate_difference": {
+          "s3_selective_contact": 0.0,
+          "v3": 0.5,
+          "j_balanced_portfolio": -0.2,
+          "teammate": 0.0
+        }
+      },
+      "K": {
+        "paired_maps": 10,
+        "paired_games": 40,
+        "point_rate_difference": 0.0,
+        "map_cluster_bootstrap_95pct": [
+          -0.175,
+          0.15
+        ],
+        "opponent_point_rate_difference": {
+          "j_balanced_portfolio": -0.3,
+          "v3": 0.3,
+          "s3_selective_contact": 0.1,
+          "teammate": -0.1
+        }
+      }
+    },
+    "endgame1": {
+      "Y": {
+        "paired_maps": 10,
+        "paired_games": 40,
+        "point_rate_difference": 0.025,
+        "map_cluster_bootstrap_95pct": [
+          -0.175,
+          0.25
+        ],
+        "opponent_point_rate_difference": {
+          "teammate": 0.0,
+          "s3_selective_contact": -0.3,
+          "j_balanced_portfolio": 0.1,
+          "v3": 0.3
+        }
+      },
+      "K": {
+        "paired_maps": 10,
+        "paired_games": 40,
+        "point_rate_difference": 0.0,
+        "map_cluster_bootstrap_95pct": [
+          -0.15,
+          0.15
+        ],
+        "opponent_point_rate_difference": {
+          "s3_selective_contact": -0.1,
+          "v3": 0.0,
+          "j_balanced_portfolio": 0.1,
+          "teammate": 0.0
+        }
+      }
+    }
+  },
+  "interpretation": "Small local fixed-opponent samples; no automatic promotion or leaderboard-score claim.",
+  "complete": true,
+  "errors": 0,
+  "forfeits": 0
+}

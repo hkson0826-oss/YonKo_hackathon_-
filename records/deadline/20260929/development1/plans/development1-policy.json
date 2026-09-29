@@ -1,0 +1,33 @@
+{
+  "created_utc": "2026-09-29T09:53:17.367003+00:00",
+  "stage": "development",
+  "baseline": "v4",
+  "hypothesis": "Deadline-aware rear economy guard and terminal joint movement versus unchanged v4 on matched maps",
+  "source_commit": "9416d137864ace1a86fd998edaa92214f604a905",
+  "source_sha256": {
+    "v4": "1703701340ede10b652b0aa024e29c3fd411e2809ae34de1e3d0b39620d496df",
+    "s3_selective_contact": "db83d9aa0e8809aaffd6b36ffc47972996d832d987947187af600d3a8419d96c",
+    "teammate": "571397e3c84998b27f8ce0468bc49333663c69b0b84162ad8dfc27e7a47f2365",
+    "endgame1": "5e4d6834dcec7d89ebec46ecd0e97226210e871e45e38420291f9ab5c4ebb927",
+    "v3": "52268569e17d7fc40fd46f0996b2da684768902b4af27ec059c4b068911c4473",
+    "guard1": "0ebf7b35214b57b49e86b67a751868bad8d284340969fcd1573bef50c170696f",
+    "j_balanced_portfolio": "534f55f1d6641ed788ca637663456e43375297d8016ac9832c589b0a012c8422"
+  },
+  "map_seeds": [
+    12010,
+    12011,
+    12012,
+    12013,
+    12014,
+    12015,
+    12016,
+    12017,
+    12018,
+    12019
+  ],
+  "policy_rng_seed": 20260927,
+  "scheduled_jobs": 240,
+  "workers": 6,
+  "resource_policy": "Official engine turn timeout; inherited 384MiB RLIMIT_AS after compilation",
+  "stop_policy": "Any error/forfeit blocks promotion; deadline decisions and candidate locking belong to the operator."
+}

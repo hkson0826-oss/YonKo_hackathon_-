@@ -1,0 +1,27 @@
+{
+  "candidate": "midgame1",
+  "parent": "iterative-v4",
+  "status": "frozen_smoke_pass_unbenchmarked",
+  "files": {
+    "main.cpp": "8d031513085ab08b15aec6beaa0d1bc13235ca1a4448b802c7f9122b06d0757b",
+    "protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60",
+    "check.cpp": "2ad4ef2b783bb4e1d607d3da88346d2fc2f5fe9ed9b3170f142f07236b82cf26",
+    "check_engine.py": "a28ca3900afdc20a8aec3138b4586d33261102200dfd3762c4f6360fc867e197"
+  },
+  "time_budget_ms": 170,
+  "base_budget_ms": 135,
+  "validation": {
+    "compiler": "g++16.2.1",
+    "optimization": "O2",
+    "decisions": 36,
+    "generated_candidates": 9,
+    "max_ms": 129.81,
+    "official_engine": {
+      "joint": "Y",
+      "only_flag": "K",
+      "only_w": "N"
+    }
+  }
+}

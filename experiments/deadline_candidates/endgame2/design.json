@@ -1,0 +1,8 @@
+{
+  "candidate": "endgame2",
+  "parent": "endgame1",
+  "hypothesis": "Preserve full original 135ms seed; spend up to 35ms extra only on final three turns so the robust guard compares against an unreduced seed.",
+  "change": "Base search capped135ms at all turns, terminal extension capped170ms with screen150ms.",
+  "limitation": "Wall-clock bounded search can still diverge with machine scheduling; no same-map causal win claim.",
+  "sha256": "fcff42b922e5fc170b77d5dfaa66246179af05c601904d980154cb70fe5a2e35"
+}

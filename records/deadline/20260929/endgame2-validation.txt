@@ -1,0 +1,3 @@
+g++ -std=c++20 -O2 experiments/deadline_candidates/endgame2/check.cpp -o /tmp/yk-endgame2-check
+CHECK RESULT: joint_capture=pass neutralization=pass production_stock=pass random_states=36 legality=pass max_ms=142.811
+36 decisions, not games. Local GCC16; official GCC12 verification pending.
