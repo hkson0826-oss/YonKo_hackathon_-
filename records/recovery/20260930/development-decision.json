@@ -1,0 +1,14 @@
+{
+  "status": "proceed_to_selection_without_source_change",
+  "candidate": "guard4",
+  "baseline": "guard3",
+  "results": {
+    "Y_point_rate_difference": -0.125,
+    "K_point_rate_difference": 0.25,
+    "games": 32,
+    "maps": 2,
+    "errors": 0,
+    "forfeits": 0
+  },
+  "reason": "Mixed small development sample: overall +1 win, Y -1 win. No promotion claim; predeclared independent selection criterion must pass."
+}
