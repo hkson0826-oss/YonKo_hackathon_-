@@ -21,7 +21,7 @@
   },
   "scope": [
     "Last8turns, at mostone optional newF when a spawnsite can reach a score-changing target within remaining actions. Eight is a fixed small endgame window, not tuned over result seeds.",
-    "Current Fquota may already allow production; cap extra atone in this phase. No relaxation of F/W safety, beam, opponent model or production cost.",
+    "The quota exception admits one optional newF; existing zero-F emergency allowance up to two is preserved. No relaxation of safety, beam, opponent model or cost.",
     "Existing11 contracts plus independent remote-F/local-new-F endgame contract."
   ],
   "evaluation": {

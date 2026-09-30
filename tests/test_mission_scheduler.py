@@ -25,8 +25,8 @@ from engine.config import load_config
 from engine.state import new_game
 from runner.bots import SubprocessBot
 from runner.protocol import parse_commands, serialize_init, serialize_turn
-from mission_scheduler_cases import (HALL_REPLAY, OFFICIAL_REPLAY, RENDEZVOUS_REPLAY,
-                                     hall_history_before, official_history_before,
+from mission_scheduler_cases import (FINAL_FLAG_REPLAY, HALL_REPLAY, OFFICIAL_REPLAY, RENDEZVOUS_REPLAY,
+                                     final_flag_history_before, hall_history_before, official_history_before,
                                      rendezvous_history_before, state_from_observation, tactical_state)
 
 SOURCE = Path(os.environ.get('MISSION_SCHEDULER_SOURCE', ROOT / 'experiments/mission_scheduler_20261001/main.cpp')).resolve()
@@ -352,6 +352,61 @@ class MissionSchedulerProtocolTests(unittest.TestCase):
         self.assertIsNotNone(trace['intercepted_turn'], 'The scripted attacker must be intercepted')
         self.assertLessEqual(trace['intercepted_turn'], 16,
                              'The raider reaches the HALL on turn 16 unless removed earlier')
+
+    @unittest.skipUnless(FINAL_FLAG_REPLAY.is_file(), 'Archived final F production development replay is unavailable')
+    def test_late_hospital_flag_can_finish_a_capture_despite_existing_flags(self):
+        history, replay = final_flag_history_before(156)
+        bot = self.bot(history[0], 'K')
+        matched = 0
+        for index, previous in enumerate(history[:-1]):
+            self.ask(bot, previous, 'K')
+            matched += self.audit['observations'][-1]['raw'] == replay['turns'][index]['commands']['K']
+        state = history[-1]
+        hospital = state.building_at(12, 8)
+        target = state.building_at(9, 9)
+        self.assertEqual((state.turn, flags(state, 'K'), state.resources['K']), (155, 4, 13))
+        self.assertEqual((hospital.btype, hospital.owner), ('HOSPITAL', 'K'))
+        self.assertEqual((target.btype, target.owner, target.score), ('WATCH', 'Y', 4))
+        self.assertIn(target.id, state.revealed['K'])
+        hidden_hall = state.building_at(2, 1)
+        self.assertNotIn(hidden_hall.id, state.revealed['K'])
+        serialized = serialize_turn(state, 'K', 156)
+        self.assertIn(f'{hidden_hall.id} 2 1 HALL Y 2 -1', serialized)
+        trace = {'source_replay_sha256': hashlib.sha256(FINAL_FLAG_REPLAY.read_bytes()).hexdigest(),
+                 'branch_input_turn': 156, 'initial_flags': flags(state, 'K'),
+                 'original_history_outputs_matched': matched,
+                 'original_history_outputs_compared': len(history) - 1,
+                 'opponent_assumption': 'No movement or production after original turn 155',
+                 'information': 'Official serialize_turn preserves hidden scores throughout forced history and the branch',
+                 'legal_branch_input': serialized, 'turns': [], 'flag_births': 0, 'captured_turn': None}
+        self.audit['late_flag_production_case'] = trace
+        for _ in range(5):
+            commands = self.ask(bot, state, 'K')
+            initial_flags = flags(state, 'K')
+            births = sum(c.count for c in commands if isinstance(c, Spawn) and c.kind == 'F')
+            after, result = run_turn(state, [], commands)
+            trace['flag_births'] += births
+            trace['turns'].append({'turn': after.turn,
+                                   'commands': self.audit['observations'][-1]['raw'],
+                                   'target_owner': after.buildings[target.id].owner,
+                                   'flags_before': initial_flags, 'flag_births': births,
+                                   'flags_after': flags(after, 'K'),
+                                   'score': {side: sum(b.score for b in after.sorted_buildings() if b.owner == side)
+                                             for side in 'YK'},
+                                   'result': result})
+            self.assertEqual(flags(after, 'K'), initial_flags + births,
+                             'A late production opportunity must preserve flags against stationary visible enemies')
+            if after.buildings[target.id].owner == 'K' and trace['captured_turn'] is None:
+                trace['captured_turn'] = after.turn
+            state = after
+            if result:
+                break
+        self.assertGreater(trace['flag_births'], 0,
+                           'Existing distant flags must not exclude a useful hospital birth before the game ends')
+        self.assertEqual(state.buildings[target.id].owner, 'K',
+                         'The new flag must finish the reachable four-point capture by turn 160')
+        self.assertIsNotNone(trace['captured_turn'])
+        self.assertGreater(state.get_unit(9, 9, 'K', 'F'), 0)
 
     @unittest.skipUnless(OFFICIAL_REPLAY.is_file(), 'Latest official development replay is unavailable')
     def test_official_turn_29_has_no_flag_suicide_against_stationary_enemy(self):

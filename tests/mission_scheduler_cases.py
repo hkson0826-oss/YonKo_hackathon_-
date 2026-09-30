@@ -71,6 +71,7 @@ def official_history_before(turn):
 
 RENDEZVOUS_REPLAY = ROOT / 'records/benchmarks/mission-20261001/v1/runs/development-common/replays/81b32c6a7c4aa249159323da.json.gz'
 HALL_REPLAY = ROOT / 'records/benchmarks/mission-20261001/v1/runs/development-common/replays/ca61304a881abc2d17a4d2c8.json.gz'
+FINAL_FLAG_REPLAY = ROOT / 'records/benchmarks/mission-20261001/v3/runs/development-common/replays/7b0cbafcd38b265caedd8dd6.json.gz'
 
 
 def local_history_before(replay_path, turn):
@@ -104,3 +105,7 @@ def rendezvous_history_before(turn=13):
 
 def hall_history_before(turn=14):
     return local_history_before(HALL_REPLAY, turn)
+
+
+def final_flag_history_before(turn=156):
+    return local_history_before(FINAL_FLAG_REPLAY, turn)

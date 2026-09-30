@@ -639,6 +639,12 @@ vector<string> decide(const p::View& view,const p::Init& in) {
     int desired=min(7,max(2,(targets+1)/2));
     if(w.left<12)desired=min(desired,4);
     int extra=min(actual==0?2:1,max(0,desired-actual));
+    if(w.left<=8) {
+        bool reachableScore=false;
+        for(int site:w.sites)for(int b=0;b<board.count;++b)
+            if(w.owner[b]!=0&&max(1,board.distance[site][board.pos[b]])<=w.left)reachableScore=true;
+        if(reachableScore)extra=max(extra,1);
+    }
     for(int i=0;i<extra;++i)flags.push_back({-1,-1,0,0,true});
     Plan seed;seed.money=w.money;copy(w.own[W],w.own[W]+board.size,seed.availableW.begin());
     if constexpr(MISSION_RENDEZVOUS)rendezvous(seed,w,f,flags);
