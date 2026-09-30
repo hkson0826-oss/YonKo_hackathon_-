@@ -1,0 +1,36 @@
+{
+  "created_utc": "2026-09-30T18:44:06.580178+00:00",
+  "stage": "selection",
+  "baseline": "v8",
+  "hypothesis": "Before-selection amendment compares both frozen mission versions on unseen8maps; no further code tuning; v8 adoption gate precommitted",
+  "source_commit": "2821a5c0d0282935e3068a09b042caa276c2bc0e",
+  "source_sha256": {
+    "mission4": "b06263e5cffee351fa23e6279b2f6f5f1cda0a5c1106cfc3516c005aad97c9e7",
+    "r3_opponent_league": "33020d61999456342ea39b3f99e53388914b0ccf98536e2b99ae5e60c31f66cf",
+    "j_balanced_portfolio": "534f55f1d6641ed788ca637663456e43375297d8016ac9832c589b0a012c8422",
+    "team_v9_2": "9e3f1938c995329a8c3898b5bec47a1ae5b62badf11ec7d48627254c567d15bb",
+    "mission3": "5cff84e533234f02fa8665de009ec7b2d10641c5baf5a33ac3fcc7edddb434e1",
+    "s3_selective_contact": "db83d9aa0e8809aaffd6b36ffc47972996d832d987947187af600d3a8419d96c",
+    "v8": "61a4f25113d9bf2c387a59ddc770a3143de6311e3fd2e004827a66eb78edfbc9"
+  },
+  "map_seeds": [
+    19100,
+    19101,
+    19102,
+    19103,
+    19104,
+    19105,
+    19106,
+    19107
+  ],
+  "policy_rng_seed": 20260927,
+  "candidate_runtime_args": {
+    "team_v9_2": [
+      "--attack-seed=20261001"
+    ]
+  },
+  "scheduled_jobs": 192,
+  "workers": 6,
+  "resource_policy": "Official engine turn timeout; inherited 384MiB RLIMIT_AS after compilation",
+  "stop_policy": "Any error/forfeit blocks promotion; deadline decisions and candidate locking belong to the operator."
+}

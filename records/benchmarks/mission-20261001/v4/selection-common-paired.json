@@ -1,0 +1,1869 @@
+{
+  "input_sha256": "9f47d371f9af37c52e5cbcb225bcc4034a60fa8aa1f2f40073145300b215efd9",
+  "analyzer_sha256": "090ee60c9a0c72f916bc0b6b9ab428991f19b25e9e327fedbea0e8c7c7c52418",
+  "method": "Match candidate/opponent/map/side; resample map means for intervals. Use a common-opponent run without direct matches. No multiple-comparison correction; these are development diagnostics.",
+  "pairs": {
+    "mission4 minus mission3": {
+      "difference": "mission4 minus mission3",
+      "by_side": {
+        "Y": {
+          "paired_maps": 8,
+          "paired_games": 32,
+          "point_rate_difference": 0.09375,
+          "map_cluster_bootstrap_95pct": [
+            0.03125,
+            0.1875
+          ]
+        },
+        "K": {
+          "paired_maps": 8,
+          "paired_games": 32,
+          "point_rate_difference": 0.0,
+          "map_cluster_bootstrap_95pct": [
+            -0.125,
+            0.15625
+          ]
+        },
+        "both": {
+          "paired_maps": 8,
+          "paired_games": 64,
+          "point_rate_difference": 0.046875,
+          "map_cluster_bootstrap_95pct": [
+            -0.03125,
+            0.15625
+          ]
+        }
+      },
+      "score_margin_difference": {
+        "paired_maps": 8,
+        "paired_games": 64,
+        "mean": 0.53125,
+        "map_cluster_bootstrap_95pct": [
+          -1.90625,
+          2.96875
+        ]
+      },
+      "matched_games": [
+        {
+          "map_seed": 19103,
+          "side": "K",
+          "opponent": "s3_selective_contact",
+          "left_job": "b7bf09e6f3271ba99704797c",
+          "right_job": "1aa8dede886d2d8b446bc8a4",
+          "point_difference": 0.0,
+          "score_margin_difference": 0
+        },
+        {
+          "map_seed": 19101,
+          "side": "K",
+          "opponent": "team_v9_2",
+          "left_job": "e81de6cbff3992254291ab8a",
+          "right_job": "43557d05bf09587ad242ac97",
+          "point_difference": 0.0,
+          "score_margin_difference": -11
+        },
+        {
+          "map_seed": 19103,
+          "side": "K",
+          "opponent": "r3_opponent_league",
+          "left_job": "5ad42ab0e9dec1fe5cdaa2f3",
+          "right_job": "ec74da5a71cbfc83cdff5c4d",
+          "point_difference": 0.0,
+          "score_margin_difference": 0
+        },
+        {
+          "map_seed": 19107,
+          "side": "Y",
+          "opponent": "r3_opponent_league",
+          "left_job": "f7ebaec8b713b754b010868f",
+          "right_job": "ff6c61e859a3688b84da10ea",
+          "point_difference": 0.0,
+          "score_margin_difference": 0
+        },
+        {
+          "map_seed": 19100,
+          "side": "Y",
+          "opponent": "s3_selective_contact",
+          "left_job": "6f22ae062e56672deb7f5a0a",
+          "right_job": "9f9755fc3cd6c3c53547fdd5",
+          "point_difference": 0.0,
+          "score_margin_difference": 5
+        },
+        {
+          "map_seed": 19105,
+          "side": "Y",
+          "opponent": "r3_opponent_league",
+          "left_job": "86d4bc5277cf26145ad0de2a",
+          "right_job": "6bb4d6b3d718fddf174f92a2",
+          "point_difference": 0.0,
+          "score_margin_difference": 4
+        },
+        {
+          "map_seed": 19104,
+          "side": "Y",
+          "opponent": "team_v9_2",
+          "left_job": "b54a6741db3b74eda23cb485",
+          "right_job": "e2dfd0d9594e1cdbc87f64b9",
+          "point_difference": 1.0,
+          "score_margin_difference": 20
+        },
+        {
+          "map_seed": 19102,
+          "side": "K",
+          "opponent": "s3_selective_contact",
+          "left_job": "cce60b0f0664be01f5cc2a51",
+          "right_job": "db51ef639adf3808fbac4e47",
+          "point_difference": 0.0,
+          "score_margin_difference": 0
+        },
+        {
+          "map_seed": 19107,
+          "side": "K",
+          "opponent": "team_v9_2",
+          "left_job": "5e771a025ff05f9059e29c1e",
+          "right_job": "9e0e79df433362c6356dcd67",
+          "point_difference": 0.0,
+          "score_margin_difference": -1
+        },
+        {
+          "map_seed": 19101,
+          "side": "Y",
+          "opponent": "r3_opponent_league",
+          "left_job": "23662e70d6900fc5b46e7616",
+          "right_job": "e12677aa3edca62b308b8320",
+          "point_difference": 0.0,
+          "score_margin_difference": 2
+        },
+        {
+          "map_seed": 19102,
+          "side": "Y",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "bc77c3e48636f98f38176504",
+          "right_job": "37db02e4162ff5f0b1897c09",
+          "point_difference": 0.0,
+          "score_margin_difference": 0
+        },
+        {
+          "map_seed": 19101,
+          "side": "Y",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "a8a953441db8d918e2888fed",
+          "right_job": "1dd43d18a98c4c52d2d2ba6e",
+          "point_difference": 1.0,
+          "score_margin_difference": 6
+        },
+        {
+          "map_seed": 19106,
+          "side": "Y",
+          "opponent": "r3_opponent_league",
+          "left_job": "d33034e9f262d14347a5a4ac",
+          "right_job": "481c88170ddb843b19b35406",
+          "point_difference": 0.0,
+          "score_margin_difference": 0
+        },
+        {
+          "map_seed": 19103,
+          "side": "Y",
+          "opponent": "r3_opponent_league",
+          "left_job": "be0d3f78109899999b556f30",
+          "right_job": "a11359d492631e81025a2397",
+          "point_difference": 0.0,
+          "score_margin_difference": 0
+        },
+        {
+          "map_seed": 19106,
+          "side": "Y",
+          "opponent": "s3_selective_contact",
+          "left_job": "f438e5f334a1473b960c58ee",
+          "right_job": "df1a808185a7d64c61c1542f",
+          "point_difference": 0.0,
+          "score_margin_difference": -19
+        },
+        {
+          "map_seed": 19103,
+          "side": "Y",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "0c3b642d6ae9eb1944ff8ae8",
+          "right_job": "12ce2c000158a2ae11e7e4ad",
+          "point_difference": 0.0,
+          "score_margin_difference": 0
+        },
+        {
+          "map_seed": 19105,
+          "side": "K",
+          "opponent": "r3_opponent_league",
+          "left_job": "f38b756d57e4b49b0b8abe1a",
+          "right_job": "43165d4c3543c283e41482ec",
+          "point_difference": 0.0,
+          "score_margin_difference": 0
+        },
+        {
+          "map_seed": 19104,
+          "side": "K",
+          "opponent": "s3_selective_contact",
+          "left_job": "15d46dcf2d016860d23c3b10",
+          "right_job": "99a707c7dd8b937c6279ac8a",
+          "point_difference": 0.0,
+          "score_margin_difference": -1
+        },
+        {
+          "map_seed": 19105,
+          "side": "Y",
+          "opponent": "team_v9_2",
+          "left_job": "840ba19ec27b36bda511d65d",
+          "right_job": "30b13a96179e826f19b2ac54",
+          "point_difference": 0.0,
+          "score_margin_difference": -5
+        },
+        {
+          "map_seed": 19102,
+          "side": "Y",
+          "opponent": "r3_opponent_league",
+          "left_job": "81d3206bc70e180c915d812e",
+          "right_job": "c5e05ba6a7f3ff993327d2ac",
+          "point_difference": 0.0,
+          "score_margin_difference": 0
+        },
+        {
+          "map_seed": 19103,
+          "side": "K",
+          "opponent": "team_v9_2",
+          "left_job": "ca4c2a3f4c40a95b5a1ad08f",
+          "right_job": "f8e37b9ea6c34a4cf1da2091",
+          "point_difference": 0.0,
+          "score_margin_difference": -2
+        },
+        {
+          "map_seed": 19101,
+          "side": "K",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "fc52fc69b531d810d6df975d",
+          "right_job": "1c173338f9ed444ec8d68a2a",
+          "point_difference": 0.0,
+          "score_margin_difference": -4
+        },
+        {
+          "map_seed": 19101,
+          "side": "K",
+          "opponent": "r3_opponent_league",
+          "left_job": "31146efcb0963910e71814b9",
+          "right_job": "52f7307b9661f9bebf475ad2",
+          "point_difference": 1.0,
+          "score_margin_difference": 6
+        },
+        {
+          "map_seed": 19101,
+          "side": "K",
+          "opponent": "s3_selective_contact",
+          "left_job": "d9b5c05d7ab91e5dcf7c1fb7",
+          "right_job": "bcff93daf616cf564d17eadc",
+          "point_difference": 1.0,
+          "score_margin_difference": 20
+        },
+        {
+          "map_seed": 19105,
+          "side": "K",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "a766473ffa0cacca7697ddc7",
+          "right_job": "8b61ffa185c87e190117cc6b",
+          "point_difference": 0.0,
+          "score_margin_difference": -5
+        },
+        {
+          "map_seed": 19104,
+          "side": "K",
+          "opponent": "r3_opponent_league",
+          "left_job": "3e10d3c881c54057901e7b22",
+          "right_job": "885de1a2679603dea69fc6c1",
+          "point_difference": 0.0,
+          "score_margin_difference": 0
+        },
+        {
+          "map_seed": 19104,
+          "side": "K",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "6578fd54df769913de6421c6",
+          "right_job": "1503622531eef28deb924c7e",
+          "point_difference": 0.0,
+          "score_margin_difference": -5
+        },
+        {
+          "map_seed": 19104,
+          "side": "K",
+          "opponent": "team_v9_2",
+          "left_job": "aa6f52b241c0f654cc176669",
+          "right_job": "429e091657adab1941991bca",
+          "point_difference": 0.0,
+          "score_margin_difference": -22
+        },
+        {
+          "map_seed": 19103,
+          "side": "Y",
+          "opponent": "s3_selective_contact",
+          "left_job": "f88bb37e7e1f41a93f5a72c8",
+          "right_job": "d346e7733139c9a7e5a71e95",
+          "point_difference": 0.0,
+          "score_margin_difference": 8
+        },
+        {
+          "map_seed": 19104,
+          "side": "Y",
+          "opponent": "r3_opponent_league",
+          "left_job": "5ab2f8b0a6ed06d2b8f0e862",
+          "right_job": "c0762ba9f65911e743c2d8f5",
+          "point_difference": 0.0,
+          "score_margin_difference": -1
+        },
+        {
+          "map_seed": 19104,
+          "side": "Y",
+          "opponent": "s3_selective_contact",
+          "left_job": "021677827da90957df7163b1",
+          "right_job": "de124cdfebb39dae3a913515",
+          "point_difference": 0.0,
+          "score_margin_difference": -7
+        },
+        {
+          "map_seed": 19100,
+          "side": "Y",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "c9bedc6d65c249ce3a5e0aa0",
+          "right_job": "441e3703d205d3f2fe7c4e9e",
+          "point_difference": 0.0,
+          "score_margin_difference": 5
+        },
+        {
+          "map_seed": 19103,
+          "side": "K",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "518195ebeaffaa6a3659e192",
+          "right_job": "1345237810048641385e72a4",
+          "point_difference": 0.0,
+          "score_margin_difference": 0
+        },
+        {
+          "map_seed": 19107,
+          "side": "Y",
+          "opponent": "s3_selective_contact",
+          "left_job": "35cfbaaab77276382b99b108",
+          "right_job": "f3db0e3b02b20776bbfc5e9f",
+          "point_difference": 0.0,
+          "score_margin_difference": -3
+        },
+        {
+          "map_seed": 19106,
+          "side": "K",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "fbd14cff8b69944da1d4e341",
+          "right_job": "64c8f9ddaeb63cd483495d8e",
+          "point_difference": 0.0,
+          "score_margin_difference": 0
+        },
+        {
+          "map_seed": 19106,
+          "side": "K",
+          "opponent": "s3_selective_contact",
+          "left_job": "ae5384e554e599c9863a49f4",
+          "right_job": "66a010432d9fab1f321242f8",
+          "point_difference": 0.0,
+          "score_margin_difference": 2
+        },
+        {
+          "map_seed": 19104,
+          "side": "Y",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "0321f88b320bf45279ca5519",
+          "right_job": "9bf99fcc66d93498f1e182b0",
+          "point_difference": 0.0,
+          "score_margin_difference": 0
+        },
+        {
+          "map_seed": 19101,
+          "side": "Y",
+          "opponent": "s3_selective_contact",
+          "left_job": "9dff1a7ac5186b34afcafe81",
+          "right_job": "0c2fdd72c35d33529eddafe9",
+          "point_difference": 0.0,
+          "score_margin_difference": 25
+        },
+        {
+          "map_seed": 19102,
+          "side": "Y",
+          "opponent": "s3_selective_contact",
+          "left_job": "2c343d08609648f2a5f275d7",
+          "right_job": "92f85c51bb1c1d62b7a7ea1c",
+          "point_difference": 0.0,
+          "score_margin_difference": 9
+        },
+        {
+          "map_seed": 19102,
+          "side": "K",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "99af9db4de76accfc76fe46d",
+          "right_job": "0b076b8c80ceda061b86faa9",
+          "point_difference": 0.0,
+          "score_margin_difference": 0
+        },
+        {
+          "map_seed": 19100,
+          "side": "K",
+          "opponent": "r3_opponent_league",
+          "left_job": "1c4036374cdb1346f4061d4d",
+          "right_job": "da14a18797692449ec0bf804",
+          "point_difference": 0.0,
+          "score_margin_difference": 0
+        },
+        {
+          "map_seed": 19102,
+          "side": "K",
+          "opponent": "r3_opponent_league",
+          "left_job": "0739c1a23f901d3d1ca80e61",
+          "right_job": "e02ae9b2aa1287063011c151",
+          "point_difference": 0.0,
+          "score_margin_difference": 0
+        },
+        {
+          "map_seed": 19105,
+          "side": "Y",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "8bb8ea90fb321b1c52fea9d8",
+          "right_job": "6c77c9b368fae0d0794831fa",
+          "point_difference": 0.0,
+          "score_margin_difference": 0
+        },
+        {
+          "map_seed": 19106,
+          "side": "K",
+          "opponent": "team_v9_2",
+          "left_job": "cc380c5294b6d9df6345fad7",
+          "right_job": "2b6f7bbab7a08b0b12ccc1a7",
+          "point_difference": 0.0,
+          "score_margin_difference": -3
+        },
+        {
+          "map_seed": 19107,
+          "side": "Y",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "3bb2875fb24c4466983b835c",
+          "right_job": "6430f1d9cdfe55f29ddb4790",
+          "point_difference": 0.0,
+          "score_margin_difference": 0
+        },
+        {
+          "map_seed": 19107,
+          "side": "K",
+          "opponent": "r3_opponent_league",
+          "left_job": "36218afd061af782e41c8b10",
+          "right_job": "c58632bb488b8476f9ea7de8",
+          "point_difference": 0.0,
+          "score_margin_difference": 0
+        },
+        {
+          "map_seed": 19100,
+          "side": "Y",
+          "opponent": "team_v9_2",
+          "left_job": "58db81a2e8f5fc8cb7938ec6",
+          "right_job": "3861d2deeff7f21fc63e8f31",
+          "point_difference": 0.0,
+          "score_margin_difference": 14
+        },
+        {
+          "map_seed": 19105,
+          "side": "K",
+          "opponent": "s3_selective_contact",
+          "left_job": "de2ddfa3c7151d7607f8120b",
+          "right_job": "d1fcfe6cf87044afa831a661",
+          "point_difference": 0.0,
+          "score_margin_difference": -4
+        },
+        {
+          "map_seed": 19102,
+          "side": "Y",
+          "opponent": "team_v9_2",
+          "left_job": "3035a37eb6be06b41ed47dc2",
+          "right_job": "fcfffdd5c41e20472782e5ac",
+          "point_difference": 1.0,
+          "score_margin_difference": 17
+        },
+        {
+          "map_seed": 19100,
+          "side": "Y",
+          "opponent": "r3_opponent_league",
+          "left_job": "f9256c91bf92517d634566ed",
+          "right_job": "79975e8be4584121b392a609",
+          "point_difference": 0.0,
+          "score_margin_difference": 0
+        },
+        {
+          "map_seed": 19100,
+          "side": "K",
+          "opponent": "s3_selective_contact",
+          "left_job": "689dbc92fbbe7b5b784232da",
+          "right_job": "446846399e49d41100cf4f83",
+          "point_difference": 0.0,
+          "score_margin_difference": -3
+        },
+        {
+          "map_seed": 19107,
+          "side": "Y",
+          "opponent": "team_v9_2",
+          "left_job": "a40e34208d646c1f93541bf2",
+          "right_job": "1f4af35b06f345d5b5337a1a",
+          "point_difference": 0.0,
+          "score_margin_difference": -1
+        },
+        {
+          "map_seed": 19106,
+          "side": "Y",
+          "opponent": "team_v9_2",
+          "left_job": "baad6ec63f9f9e3ed47e41df",
+          "right_job": "7f4ac684a30f82ff8894f091",
+          "point_difference": 0.0,
+          "score_margin_difference": -2
+        },
+        {
+          "map_seed": 19106,
+          "side": "Y",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "086ac67158c636bede9d6ffa",
+          "right_job": "41ab8613dd9c485b3ef057c6",
+          "point_difference": 0.0,
+          "score_margin_difference": 0
+        },
+        {
+          "map_seed": 19101,
+          "side": "Y",
+          "opponent": "team_v9_2",
+          "left_job": "c5c4881b0d447fa93871a5b2",
+          "right_job": "b44ae5746ecbf0c2c100cd92",
+          "point_difference": 0.0,
+          "score_margin_difference": 2
+        },
+        {
+          "map_seed": 19100,
+          "side": "K",
+          "opponent": "team_v9_2",
+          "left_job": "b76f690429f29dd84563c8e7",
+          "right_job": "3c553703c7b246be5ee0721b",
+          "point_difference": 0.0,
+          "score_margin_difference": 23
+        },
+        {
+          "map_seed": 19102,
+          "side": "K",
+          "opponent": "team_v9_2",
+          "left_job": "6e0a599d12ed0883a4436299",
+          "right_job": "d4656d4dbe2801f36e495c70",
+          "point_difference": -1.0,
+          "score_margin_difference": -22
+        },
+        {
+          "map_seed": 19107,
+          "side": "K",
+          "opponent": "s3_selective_contact",
+          "left_job": "fb25956f72b073009fc3de3e",
+          "right_job": "e4b553c7d0a3bcc62b4799af",
+          "point_difference": -1.0,
+          "score_margin_difference": -34
+        },
+        {
+          "map_seed": 19107,
+          "side": "K",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "ef42cad50114f99867c6da62",
+          "right_job": "ac3083c22c694b22d8a73c8b",
+          "point_difference": 0.0,
+          "score_margin_difference": 0
+        },
+        {
+          "map_seed": 19106,
+          "side": "K",
+          "opponent": "r3_opponent_league",
+          "left_job": "f97aad49a32500ed39a3100e",
+          "right_job": "09d8d2d657a9a28093a2bee3",
+          "point_difference": 0.0,
+          "score_margin_difference": 0
+        },
+        {
+          "map_seed": 19105,
+          "side": "K",
+          "opponent": "team_v9_2",
+          "left_job": "53554c55c6a5b2d8038a59ff",
+          "right_job": "c6fa5c0181c4ea0225e9155b",
+          "point_difference": 0.0,
+          "score_margin_difference": 0
+        },
+        {
+          "map_seed": 19100,
+          "side": "K",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "a4bf0ffe7ed26b8b37646b32",
+          "right_job": "f14362afa2562bb8c2ab78d5",
+          "point_difference": 0.0,
+          "score_margin_difference": 0
+        },
+        {
+          "map_seed": 19105,
+          "side": "Y",
+          "opponent": "s3_selective_contact",
+          "left_job": "fcba9383f4a6b698d2cac54f",
+          "right_job": "1216533a17b40a0ec518c7c4",
+          "point_difference": 0.0,
+          "score_margin_difference": 18
+        },
+        {
+          "map_seed": 19103,
+          "side": "Y",
+          "opponent": "team_v9_2",
+          "left_job": "4700f8df5d2ba60965460204",
+          "right_job": "930d0e1b49d2f1ce6f7f5ac8",
+          "point_difference": 0.0,
+          "score_margin_difference": 3
+        }
+      ]
+    },
+    "mission4 minus v8": {
+      "difference": "mission4 minus v8",
+      "by_side": {
+        "Y": {
+          "paired_maps": 8,
+          "paired_games": 32,
+          "point_rate_difference": 0.0625,
+          "map_cluster_bootstrap_95pct": [
+            -0.09375,
+            0.21875
+          ]
+        },
+        "K": {
+          "paired_maps": 8,
+          "paired_games": 32,
+          "point_rate_difference": 0.0625,
+          "map_cluster_bootstrap_95pct": [
+            -0.34375,
+            0.46875
+          ]
+        },
+        "both": {
+          "paired_maps": 8,
+          "paired_games": 64,
+          "point_rate_difference": 0.0625,
+          "map_cluster_bootstrap_95pct": [
+            -0.1875,
+            0.3125
+          ]
+        }
+      },
+      "score_margin_difference": {
+        "paired_maps": 8,
+        "paired_games": 64,
+        "mean": 3.171875,
+        "map_cluster_bootstrap_95pct": [
+          -7.640625,
+          12.953125
+        ]
+      },
+      "matched_games": [
+        {
+          "map_seed": 19103,
+          "side": "K",
+          "opponent": "s3_selective_contact",
+          "left_job": "b7bf09e6f3271ba99704797c",
+          "right_job": "dd8c69b4924bfebe51a44b39",
+          "point_difference": 0.0,
+          "score_margin_difference": 4
+        },
+        {
+          "map_seed": 19101,
+          "side": "K",
+          "opponent": "team_v9_2",
+          "left_job": "e81de6cbff3992254291ab8a",
+          "right_job": "d0fcacec9b894cb999f1b7c3",
+          "point_difference": 1.0,
+          "score_margin_difference": 12
+        },
+        {
+          "map_seed": 19103,
+          "side": "K",
+          "opponent": "r3_opponent_league",
+          "left_job": "5ad42ab0e9dec1fe5cdaa2f3",
+          "right_job": "8bd0ba1b9e86310781809e19",
+          "point_difference": 0.0,
+          "score_margin_difference": 5
+        },
+        {
+          "map_seed": 19107,
+          "side": "Y",
+          "opponent": "r3_opponent_league",
+          "left_job": "f7ebaec8b713b754b010868f",
+          "right_job": "37d220370fce7793c47ef206",
+          "point_difference": 0.0,
+          "score_margin_difference": 35
+        },
+        {
+          "map_seed": 19100,
+          "side": "Y",
+          "opponent": "s3_selective_contact",
+          "left_job": "6f22ae062e56672deb7f5a0a",
+          "right_job": "d468255c762f75669441b18e",
+          "point_difference": 0.0,
+          "score_margin_difference": 9
+        },
+        {
+          "map_seed": 19105,
+          "side": "Y",
+          "opponent": "r3_opponent_league",
+          "left_job": "86d4bc5277cf26145ad0de2a",
+          "right_job": "2652be714fc20eb75522e221",
+          "point_difference": -1.0,
+          "score_margin_difference": -35
+        },
+        {
+          "map_seed": 19104,
+          "side": "Y",
+          "opponent": "team_v9_2",
+          "left_job": "b54a6741db3b74eda23cb485",
+          "right_job": "16b9d337ad26ecb824b002aa",
+          "point_difference": 1.0,
+          "score_margin_difference": 24
+        },
+        {
+          "map_seed": 19102,
+          "side": "K",
+          "opponent": "s3_selective_contact",
+          "left_job": "cce60b0f0664be01f5cc2a51",
+          "right_job": "fb34b7f53666df27154dd8d1",
+          "point_difference": 0.0,
+          "score_margin_difference": 12
+        },
+        {
+          "map_seed": 19107,
+          "side": "K",
+          "opponent": "team_v9_2",
+          "left_job": "5e771a025ff05f9059e29c1e",
+          "right_job": "d8e80b78504c35463bc216b0",
+          "point_difference": 0.0,
+          "score_margin_difference": 20
+        },
+        {
+          "map_seed": 19101,
+          "side": "Y",
+          "opponent": "r3_opponent_league",
+          "left_job": "23662e70d6900fc5b46e7616",
+          "right_job": "1c03dff54366ecd268091a9e",
+          "point_difference": 0.0,
+          "score_margin_difference": -19
+        },
+        {
+          "map_seed": 19102,
+          "side": "Y",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "bc77c3e48636f98f38176504",
+          "right_job": "f8ad631b42d6e5aa5e1ca9fc",
+          "point_difference": -1.0,
+          "score_margin_difference": -40
+        },
+        {
+          "map_seed": 19101,
+          "side": "Y",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "a8a953441db8d918e2888fed",
+          "right_job": "393ccc38bf5a020bc01a452c",
+          "point_difference": 0.0,
+          "score_margin_difference": -4
+        },
+        {
+          "map_seed": 19106,
+          "side": "Y",
+          "opponent": "r3_opponent_league",
+          "left_job": "d33034e9f262d14347a5a4ac",
+          "right_job": "4c6682ba88cbb2f7ce9e8988",
+          "point_difference": 0.0,
+          "score_margin_difference": 2
+        },
+        {
+          "map_seed": 19103,
+          "side": "Y",
+          "opponent": "r3_opponent_league",
+          "left_job": "be0d3f78109899999b556f30",
+          "right_job": "1b3e3186540f653852960c85",
+          "point_difference": 0.0,
+          "score_margin_difference": 6
+        },
+        {
+          "map_seed": 19106,
+          "side": "Y",
+          "opponent": "s3_selective_contact",
+          "left_job": "f438e5f334a1473b960c58ee",
+          "right_job": "0e517a9503dc50e6e5fe20e5",
+          "point_difference": 1.0,
+          "score_margin_difference": 11
+        },
+        {
+          "map_seed": 19103,
+          "side": "Y",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "0c3b642d6ae9eb1944ff8ae8",
+          "right_job": "e34a14b7a43fc2215b68549a",
+          "point_difference": 0.0,
+          "score_margin_difference": 1
+        },
+        {
+          "map_seed": 19105,
+          "side": "K",
+          "opponent": "r3_opponent_league",
+          "left_job": "f38b756d57e4b49b0b8abe1a",
+          "right_job": "3ecb2f6b93d6707b3a9fba3d",
+          "point_difference": -1.0,
+          "score_margin_difference": -43
+        },
+        {
+          "map_seed": 19104,
+          "side": "K",
+          "opponent": "s3_selective_contact",
+          "left_job": "15d46dcf2d016860d23c3b10",
+          "right_job": "ef73cec219be22ca64f0ac5f",
+          "point_difference": -1.0,
+          "score_margin_difference": -40
+        },
+        {
+          "map_seed": 19105,
+          "side": "Y",
+          "opponent": "team_v9_2",
+          "left_job": "840ba19ec27b36bda511d65d",
+          "right_job": "6dfbd73552f46b39f4425945",
+          "point_difference": 0.0,
+          "score_margin_difference": 9
+        },
+        {
+          "map_seed": 19102,
+          "side": "Y",
+          "opponent": "r3_opponent_league",
+          "left_job": "81d3206bc70e180c915d812e",
+          "right_job": "d3493769584f7ff0939d9093",
+          "point_difference": 0.0,
+          "score_margin_difference": 16
+        },
+        {
+          "map_seed": 19103,
+          "side": "K",
+          "opponent": "team_v9_2",
+          "left_job": "ca4c2a3f4c40a95b5a1ad08f",
+          "right_job": "5374cd068ba45cebe364110e",
+          "point_difference": 1.0,
+          "score_margin_difference": 36
+        },
+        {
+          "map_seed": 19101,
+          "side": "K",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "fc52fc69b531d810d6df975d",
+          "right_job": "41171986546c5e7479f66441",
+          "point_difference": 0.0,
+          "score_margin_difference": -8
+        },
+        {
+          "map_seed": 19101,
+          "side": "K",
+          "opponent": "r3_opponent_league",
+          "left_job": "31146efcb0963910e71814b9",
+          "right_job": "87faee5736c4b7a0506c0454",
+          "point_difference": 0.0,
+          "score_margin_difference": -21
+        },
+        {
+          "map_seed": 19101,
+          "side": "K",
+          "opponent": "s3_selective_contact",
+          "left_job": "d9b5c05d7ab91e5dcf7c1fb7",
+          "right_job": "8dc4a6c2c28a5fe0c5d72d9f",
+          "point_difference": 1.0,
+          "score_margin_difference": 26
+        },
+        {
+          "map_seed": 19105,
+          "side": "K",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "a766473ffa0cacca7697ddc7",
+          "right_job": "76cb2da228d031a806be0902",
+          "point_difference": -1.0,
+          "score_margin_difference": -66
+        },
+        {
+          "map_seed": 19104,
+          "side": "K",
+          "opponent": "r3_opponent_league",
+          "left_job": "3e10d3c881c54057901e7b22",
+          "right_job": "115df088773058ca7016d1a7",
+          "point_difference": 0.0,
+          "score_margin_difference": 0
+        },
+        {
+          "map_seed": 19104,
+          "side": "K",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "6578fd54df769913de6421c6",
+          "right_job": "33941182e13f500fb316df1e",
+          "point_difference": 0.0,
+          "score_margin_difference": -9
+        },
+        {
+          "map_seed": 19104,
+          "side": "K",
+          "opponent": "team_v9_2",
+          "left_job": "aa6f52b241c0f654cc176669",
+          "right_job": "01438cd080146d7d113d54b1",
+          "point_difference": -1.0,
+          "score_margin_difference": -45
+        },
+        {
+          "map_seed": 19103,
+          "side": "Y",
+          "opponent": "s3_selective_contact",
+          "left_job": "f88bb37e7e1f41a93f5a72c8",
+          "right_job": "07a1d676f82c946023677987",
+          "point_difference": 0.0,
+          "score_margin_difference": 10
+        },
+        {
+          "map_seed": 19104,
+          "side": "Y",
+          "opponent": "r3_opponent_league",
+          "left_job": "5ab2f8b0a6ed06d2b8f0e862",
+          "right_job": "b3df40953c433fb0cfeea97c",
+          "point_difference": -1.0,
+          "score_margin_difference": -31
+        },
+        {
+          "map_seed": 19104,
+          "side": "Y",
+          "opponent": "s3_selective_contact",
+          "left_job": "021677827da90957df7163b1",
+          "right_job": "a9980485c95c4f2cb243ad67",
+          "point_difference": 0.0,
+          "score_margin_difference": 0
+        },
+        {
+          "map_seed": 19100,
+          "side": "Y",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "c9bedc6d65c249ce3a5e0aa0",
+          "right_job": "3492f2f4ae98cee5b6a932c1",
+          "point_difference": 0.0,
+          "score_margin_difference": -12
+        },
+        {
+          "map_seed": 19103,
+          "side": "K",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "518195ebeaffaa6a3659e192",
+          "right_job": "b4256fe5e094cb5c373e9e29",
+          "point_difference": 0.0,
+          "score_margin_difference": -5
+        },
+        {
+          "map_seed": 19107,
+          "side": "Y",
+          "opponent": "s3_selective_contact",
+          "left_job": "35cfbaaab77276382b99b108",
+          "right_job": "2cafc9739747713d17e3d09f",
+          "point_difference": 0.0,
+          "score_margin_difference": 36
+        },
+        {
+          "map_seed": 19106,
+          "side": "K",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "fbd14cff8b69944da1d4e341",
+          "right_job": "9d9dab12f7cb4e76734866ac",
+          "point_difference": 1.0,
+          "score_margin_difference": 10
+        },
+        {
+          "map_seed": 19106,
+          "side": "K",
+          "opponent": "s3_selective_contact",
+          "left_job": "ae5384e554e599c9863a49f4",
+          "right_job": "f63efdd0a9e9f3bb431cc63b",
+          "point_difference": 1.0,
+          "score_margin_difference": 41
+        },
+        {
+          "map_seed": 19104,
+          "side": "Y",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "0321f88b320bf45279ca5519",
+          "right_job": "f3fad9fd88e96d419ccad456",
+          "point_difference": 1.0,
+          "score_margin_difference": 33
+        },
+        {
+          "map_seed": 19101,
+          "side": "Y",
+          "opponent": "s3_selective_contact",
+          "left_job": "9dff1a7ac5186b34afcafe81",
+          "right_job": "818d674c252b24fbb7ba74be",
+          "point_difference": 0.0,
+          "score_margin_difference": 30
+        },
+        {
+          "map_seed": 19102,
+          "side": "Y",
+          "opponent": "s3_selective_contact",
+          "left_job": "2c343d08609648f2a5f275d7",
+          "right_job": "e908b720e93432f8ac3d4430",
+          "point_difference": 0.0,
+          "score_margin_difference": -1
+        },
+        {
+          "map_seed": 19102,
+          "side": "K",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "99af9db4de76accfc76fe46d",
+          "right_job": "9a67a692747e68062e957d67",
+          "point_difference": -1.0,
+          "score_margin_difference": -50
+        },
+        {
+          "map_seed": 19100,
+          "side": "K",
+          "opponent": "r3_opponent_league",
+          "left_job": "1c4036374cdb1346f4061d4d",
+          "right_job": "304795fa2e8bf501ad09a3bf",
+          "point_difference": 1.0,
+          "score_margin_difference": 45
+        },
+        {
+          "map_seed": 19102,
+          "side": "K",
+          "opponent": "r3_opponent_league",
+          "left_job": "0739c1a23f901d3d1ca80e61",
+          "right_job": "1e7bc7dad6cf629e687a44f2",
+          "point_difference": 0.0,
+          "score_margin_difference": 22
+        },
+        {
+          "map_seed": 19105,
+          "side": "Y",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "8bb8ea90fb321b1c52fea9d8",
+          "right_job": "2fa9578d73e9e3104f62d782",
+          "point_difference": -1.0,
+          "score_margin_difference": -54
+        },
+        {
+          "map_seed": 19106,
+          "side": "K",
+          "opponent": "team_v9_2",
+          "left_job": "cc380c5294b6d9df6345fad7",
+          "right_job": "e9244c727b0222f6134fa430",
+          "point_difference": 1.0,
+          "score_margin_difference": 20
+        },
+        {
+          "map_seed": 19107,
+          "side": "Y",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "3bb2875fb24c4466983b835c",
+          "right_job": "faadbdc852fa8ffd08e08ca1",
+          "point_difference": 1.0,
+          "score_margin_difference": 44
+        },
+        {
+          "map_seed": 19107,
+          "side": "K",
+          "opponent": "r3_opponent_league",
+          "left_job": "36218afd061af782e41c8b10",
+          "right_job": "29c7e9935ff08f9f89c671a7",
+          "point_difference": 0.0,
+          "score_margin_difference": -13
+        },
+        {
+          "map_seed": 19100,
+          "side": "Y",
+          "opponent": "team_v9_2",
+          "left_job": "58db81a2e8f5fc8cb7938ec6",
+          "right_job": "441714bafdda0e5f9147d67b",
+          "point_difference": 0.0,
+          "score_margin_difference": 15
+        },
+        {
+          "map_seed": 19105,
+          "side": "K",
+          "opponent": "s3_selective_contact",
+          "left_job": "de2ddfa3c7151d7607f8120b",
+          "right_job": "155a28dab17b4762d219f5b9",
+          "point_difference": -1.0,
+          "score_margin_difference": -25
+        },
+        {
+          "map_seed": 19102,
+          "side": "Y",
+          "opponent": "team_v9_2",
+          "left_job": "3035a37eb6be06b41ed47dc2",
+          "right_job": "8177096f956e636339f078da",
+          "point_difference": 0.0,
+          "score_margin_difference": -1
+        },
+        {
+          "map_seed": 19100,
+          "side": "Y",
+          "opponent": "r3_opponent_league",
+          "left_job": "f9256c91bf92517d634566ed",
+          "right_job": "989e9f2e9ee6daded2a9bc75",
+          "point_difference": 0.0,
+          "score_margin_difference": 5
+        },
+        {
+          "map_seed": 19100,
+          "side": "K",
+          "opponent": "s3_selective_contact",
+          "left_job": "689dbc92fbbe7b5b784232da",
+          "right_job": "208341eb30b544cca9411769",
+          "point_difference": 0.0,
+          "score_margin_difference": -2
+        },
+        {
+          "map_seed": 19107,
+          "side": "Y",
+          "opponent": "team_v9_2",
+          "left_job": "a40e34208d646c1f93541bf2",
+          "right_job": "8c141cad36741cceb7a6016c",
+          "point_difference": 1.0,
+          "score_margin_difference": 50
+        },
+        {
+          "map_seed": 19106,
+          "side": "Y",
+          "opponent": "team_v9_2",
+          "left_job": "baad6ec63f9f9e3ed47e41df",
+          "right_job": "e75bb793fc084813706556bf",
+          "point_difference": 0.0,
+          "score_margin_difference": 6
+        },
+        {
+          "map_seed": 19106,
+          "side": "Y",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "086ac67158c636bede9d6ffa",
+          "right_job": "183375961c5257703c058f7d",
+          "point_difference": 0.0,
+          "score_margin_difference": 9
+        },
+        {
+          "map_seed": 19101,
+          "side": "Y",
+          "opponent": "team_v9_2",
+          "left_job": "c5c4881b0d447fa93871a5b2",
+          "right_job": "8021183074f1d91192cd69c6",
+          "point_difference": 0.0,
+          "score_margin_difference": -10
+        },
+        {
+          "map_seed": 19100,
+          "side": "K",
+          "opponent": "team_v9_2",
+          "left_job": "b76f690429f29dd84563c8e7",
+          "right_job": "ad8fe7a7ac7562f96ba61a3f",
+          "point_difference": 0.0,
+          "score_margin_difference": 8
+        },
+        {
+          "map_seed": 19102,
+          "side": "K",
+          "opponent": "team_v9_2",
+          "left_job": "6e0a599d12ed0883a4436299",
+          "right_job": "293d9bcc0035967581eb38f9",
+          "point_difference": 0.0,
+          "score_margin_difference": 28
+        },
+        {
+          "map_seed": 19107,
+          "side": "K",
+          "opponent": "s3_selective_contact",
+          "left_job": "fb25956f72b073009fc3de3e",
+          "right_job": "a8883cd3eaa8b749d773a83e",
+          "point_difference": -1.0,
+          "score_margin_difference": -22
+        },
+        {
+          "map_seed": 19107,
+          "side": "K",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "ef42cad50114f99867c6da62",
+          "right_job": "dca8e0819bf2d1e9061229e8",
+          "point_difference": 1.0,
+          "score_margin_difference": 50
+        },
+        {
+          "map_seed": 19106,
+          "side": "K",
+          "opponent": "r3_opponent_league",
+          "left_job": "f97aad49a32500ed39a3100e",
+          "right_job": "c6a4a634daf252129b8e8af8",
+          "point_difference": 1.0,
+          "score_margin_difference": 18
+        },
+        {
+          "map_seed": 19105,
+          "side": "K",
+          "opponent": "team_v9_2",
+          "left_job": "53554c55c6a5b2d8038a59ff",
+          "right_job": "6896b72c50b6de06cfa9c46c",
+          "point_difference": -1.0,
+          "score_margin_difference": -29
+        },
+        {
+          "map_seed": 19100,
+          "side": "K",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "a4bf0ffe7ed26b8b37646b32",
+          "right_job": "c538545b77f677cbbf271c08",
+          "point_difference": 1.0,
+          "score_margin_difference": 46
+        },
+        {
+          "map_seed": 19105,
+          "side": "Y",
+          "opponent": "s3_selective_contact",
+          "left_job": "fcba9383f4a6b698d2cac54f",
+          "right_job": "d1bfadee6d0529040480bde1",
+          "point_difference": 1.0,
+          "score_margin_difference": 27
+        },
+        {
+          "map_seed": 19103,
+          "side": "Y",
+          "opponent": "team_v9_2",
+          "left_job": "4700f8df5d2ba60965460204",
+          "right_job": "aba481e6f1230bd598b0d4fd",
+          "point_difference": 0.0,
+          "score_margin_difference": 7
+        }
+      ]
+    },
+    "mission3 minus v8": {
+      "difference": "mission3 minus v8",
+      "by_side": {
+        "Y": {
+          "paired_maps": 8,
+          "paired_games": 32,
+          "point_rate_difference": -0.03125,
+          "map_cluster_bootstrap_95pct": [
+            -0.21875,
+            0.1875
+          ]
+        },
+        "K": {
+          "paired_maps": 8,
+          "paired_games": 32,
+          "point_rate_difference": 0.0625,
+          "map_cluster_bootstrap_95pct": [
+            -0.34375,
+            0.4375
+          ]
+        },
+        "both": {
+          "paired_maps": 8,
+          "paired_games": 64,
+          "point_rate_difference": 0.015625,
+          "map_cluster_bootstrap_95pct": [
+            -0.234375,
+            0.28125
+          ]
+        }
+      },
+      "score_margin_difference": {
+        "paired_maps": 8,
+        "paired_games": 64,
+        "mean": 2.640625,
+        "map_cluster_bootstrap_95pct": [
+          -8.609375,
+          13.703125
+        ]
+      },
+      "matched_games": [
+        {
+          "map_seed": 19103,
+          "side": "K",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "1345237810048641385e72a4",
+          "right_job": "b4256fe5e094cb5c373e9e29",
+          "point_difference": 0.0,
+          "score_margin_difference": -5
+        },
+        {
+          "map_seed": 19104,
+          "side": "Y",
+          "opponent": "r3_opponent_league",
+          "left_job": "c0762ba9f65911e743c2d8f5",
+          "right_job": "b3df40953c433fb0cfeea97c",
+          "point_difference": -1.0,
+          "score_margin_difference": -30
+        },
+        {
+          "map_seed": 19105,
+          "side": "Y",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "6c77c9b368fae0d0794831fa",
+          "right_job": "2fa9578d73e9e3104f62d782",
+          "point_difference": -1.0,
+          "score_margin_difference": -54
+        },
+        {
+          "map_seed": 19104,
+          "side": "Y",
+          "opponent": "s3_selective_contact",
+          "left_job": "de124cdfebb39dae3a913515",
+          "right_job": "a9980485c95c4f2cb243ad67",
+          "point_difference": 0.0,
+          "score_margin_difference": 7
+        },
+        {
+          "map_seed": 19103,
+          "side": "K",
+          "opponent": "team_v9_2",
+          "left_job": "f8e37b9ea6c34a4cf1da2091",
+          "right_job": "5374cd068ba45cebe364110e",
+          "point_difference": 1.0,
+          "score_margin_difference": 38
+        },
+        {
+          "map_seed": 19105,
+          "side": "K",
+          "opponent": "team_v9_2",
+          "left_job": "c6fa5c0181c4ea0225e9155b",
+          "right_job": "6896b72c50b6de06cfa9c46c",
+          "point_difference": -1.0,
+          "score_margin_difference": -29
+        },
+        {
+          "map_seed": 19106,
+          "side": "Y",
+          "opponent": "r3_opponent_league",
+          "left_job": "481c88170ddb843b19b35406",
+          "right_job": "4c6682ba88cbb2f7ce9e8988",
+          "point_difference": 0.0,
+          "score_margin_difference": 2
+        },
+        {
+          "map_seed": 19107,
+          "side": "K",
+          "opponent": "r3_opponent_league",
+          "left_job": "c58632bb488b8476f9ea7de8",
+          "right_job": "29c7e9935ff08f9f89c671a7",
+          "point_difference": 0.0,
+          "score_margin_difference": -13
+        },
+        {
+          "map_seed": 19101,
+          "side": "Y",
+          "opponent": "team_v9_2",
+          "left_job": "b44ae5746ecbf0c2c100cd92",
+          "right_job": "8021183074f1d91192cd69c6",
+          "point_difference": 0.0,
+          "score_margin_difference": -12
+        },
+        {
+          "map_seed": 19107,
+          "side": "K",
+          "opponent": "team_v9_2",
+          "left_job": "9e0e79df433362c6356dcd67",
+          "right_job": "d8e80b78504c35463bc216b0",
+          "point_difference": 0.0,
+          "score_margin_difference": 21
+        },
+        {
+          "map_seed": 19102,
+          "side": "Y",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "37db02e4162ff5f0b1897c09",
+          "right_job": "f8ad631b42d6e5aa5e1ca9fc",
+          "point_difference": -1.0,
+          "score_margin_difference": -40
+        },
+        {
+          "map_seed": 19103,
+          "side": "Y",
+          "opponent": "s3_selective_contact",
+          "left_job": "d346e7733139c9a7e5a71e95",
+          "right_job": "07a1d676f82c946023677987",
+          "point_difference": 0.0,
+          "score_margin_difference": 2
+        },
+        {
+          "map_seed": 19105,
+          "side": "Y",
+          "opponent": "r3_opponent_league",
+          "left_job": "6bb4d6b3d718fddf174f92a2",
+          "right_job": "2652be714fc20eb75522e221",
+          "point_difference": -1.0,
+          "score_margin_difference": -39
+        },
+        {
+          "map_seed": 19106,
+          "side": "K",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "64c8f9ddaeb63cd483495d8e",
+          "right_job": "9d9dab12f7cb4e76734866ac",
+          "point_difference": 1.0,
+          "score_margin_difference": 10
+        },
+        {
+          "map_seed": 19100,
+          "side": "Y",
+          "opponent": "s3_selective_contact",
+          "left_job": "9f9755fc3cd6c3c53547fdd5",
+          "right_job": "d468255c762f75669441b18e",
+          "point_difference": 0.0,
+          "score_margin_difference": 4
+        },
+        {
+          "map_seed": 19106,
+          "side": "Y",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "41ab8613dd9c485b3ef057c6",
+          "right_job": "183375961c5257703c058f7d",
+          "point_difference": 0.0,
+          "score_margin_difference": 9
+        },
+        {
+          "map_seed": 19105,
+          "side": "Y",
+          "opponent": "team_v9_2",
+          "left_job": "30b13a96179e826f19b2ac54",
+          "right_job": "6dfbd73552f46b39f4425945",
+          "point_difference": 0.0,
+          "score_margin_difference": 14
+        },
+        {
+          "map_seed": 19104,
+          "side": "Y",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "9bf99fcc66d93498f1e182b0",
+          "right_job": "f3fad9fd88e96d419ccad456",
+          "point_difference": 1.0,
+          "score_margin_difference": 33
+        },
+        {
+          "map_seed": 19103,
+          "side": "Y",
+          "opponent": "r3_opponent_league",
+          "left_job": "a11359d492631e81025a2397",
+          "right_job": "1b3e3186540f653852960c85",
+          "point_difference": 0.0,
+          "score_margin_difference": 6
+        },
+        {
+          "map_seed": 19101,
+          "side": "K",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "1c173338f9ed444ec8d68a2a",
+          "right_job": "41171986546c5e7479f66441",
+          "point_difference": 0.0,
+          "score_margin_difference": -4
+        },
+        {
+          "map_seed": 19105,
+          "side": "K",
+          "opponent": "r3_opponent_league",
+          "left_job": "43165d4c3543c283e41482ec",
+          "right_job": "3ecb2f6b93d6707b3a9fba3d",
+          "point_difference": -1.0,
+          "score_margin_difference": -43
+        },
+        {
+          "map_seed": 19104,
+          "side": "K",
+          "opponent": "team_v9_2",
+          "left_job": "429e091657adab1941991bca",
+          "right_job": "01438cd080146d7d113d54b1",
+          "point_difference": -1.0,
+          "score_margin_difference": -23
+        },
+        {
+          "map_seed": 19102,
+          "side": "Y",
+          "opponent": "s3_selective_contact",
+          "left_job": "92f85c51bb1c1d62b7a7ea1c",
+          "right_job": "e908b720e93432f8ac3d4430",
+          "point_difference": 0.0,
+          "score_margin_difference": -10
+        },
+        {
+          "map_seed": 19100,
+          "side": "K",
+          "opponent": "s3_selective_contact",
+          "left_job": "446846399e49d41100cf4f83",
+          "right_job": "208341eb30b544cca9411769",
+          "point_difference": 0.0,
+          "score_margin_difference": 1
+        },
+        {
+          "map_seed": 19100,
+          "side": "K",
+          "opponent": "team_v9_2",
+          "left_job": "3c553703c7b246be5ee0721b",
+          "right_job": "ad8fe7a7ac7562f96ba61a3f",
+          "point_difference": 0.0,
+          "score_margin_difference": -15
+        },
+        {
+          "map_seed": 19105,
+          "side": "Y",
+          "opponent": "s3_selective_contact",
+          "left_job": "1216533a17b40a0ec518c7c4",
+          "right_job": "d1bfadee6d0529040480bde1",
+          "point_difference": 1.0,
+          "score_margin_difference": 9
+        },
+        {
+          "map_seed": 19107,
+          "side": "Y",
+          "opponent": "r3_opponent_league",
+          "left_job": "ff6c61e859a3688b84da10ea",
+          "right_job": "37d220370fce7793c47ef206",
+          "point_difference": 0.0,
+          "score_margin_difference": 35
+        },
+        {
+          "map_seed": 19102,
+          "side": "K",
+          "opponent": "team_v9_2",
+          "left_job": "d4656d4dbe2801f36e495c70",
+          "right_job": "293d9bcc0035967581eb38f9",
+          "point_difference": 1.0,
+          "score_margin_difference": 50
+        },
+        {
+          "map_seed": 19106,
+          "side": "K",
+          "opponent": "team_v9_2",
+          "left_job": "2b6f7bbab7a08b0b12ccc1a7",
+          "right_job": "e9244c727b0222f6134fa430",
+          "point_difference": 1.0,
+          "score_margin_difference": 23
+        },
+        {
+          "map_seed": 19106,
+          "side": "K",
+          "opponent": "s3_selective_contact",
+          "left_job": "66a010432d9fab1f321242f8",
+          "right_job": "f63efdd0a9e9f3bb431cc63b",
+          "point_difference": 1.0,
+          "score_margin_difference": 39
+        },
+        {
+          "map_seed": 19101,
+          "side": "Y",
+          "opponent": "r3_opponent_league",
+          "left_job": "e12677aa3edca62b308b8320",
+          "right_job": "1c03dff54366ecd268091a9e",
+          "point_difference": 0.0,
+          "score_margin_difference": -21
+        },
+        {
+          "map_seed": 19103,
+          "side": "Y",
+          "opponent": "team_v9_2",
+          "left_job": "930d0e1b49d2f1ce6f7f5ac8",
+          "right_job": "aba481e6f1230bd598b0d4fd",
+          "point_difference": 0.0,
+          "score_margin_difference": 4
+        },
+        {
+          "map_seed": 19106,
+          "side": "Y",
+          "opponent": "s3_selective_contact",
+          "left_job": "df1a808185a7d64c61c1542f",
+          "right_job": "0e517a9503dc50e6e5fe20e5",
+          "point_difference": 1.0,
+          "score_margin_difference": 30
+        },
+        {
+          "map_seed": 19101,
+          "side": "K",
+          "opponent": "r3_opponent_league",
+          "left_job": "52f7307b9661f9bebf475ad2",
+          "right_job": "87faee5736c4b7a0506c0454",
+          "point_difference": -1.0,
+          "score_margin_difference": -27
+        },
+        {
+          "map_seed": 19103,
+          "side": "Y",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "12ce2c000158a2ae11e7e4ad",
+          "right_job": "e34a14b7a43fc2215b68549a",
+          "point_difference": 0.0,
+          "score_margin_difference": 1
+        },
+        {
+          "map_seed": 19100,
+          "side": "Y",
+          "opponent": "r3_opponent_league",
+          "left_job": "79975e8be4584121b392a609",
+          "right_job": "989e9f2e9ee6daded2a9bc75",
+          "point_difference": 0.0,
+          "score_margin_difference": 5
+        },
+        {
+          "map_seed": 19102,
+          "side": "Y",
+          "opponent": "r3_opponent_league",
+          "left_job": "c5e05ba6a7f3ff993327d2ac",
+          "right_job": "d3493769584f7ff0939d9093",
+          "point_difference": 0.0,
+          "score_margin_difference": 16
+        },
+        {
+          "map_seed": 19105,
+          "side": "K",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "8b61ffa185c87e190117cc6b",
+          "right_job": "76cb2da228d031a806be0902",
+          "point_difference": -1.0,
+          "score_margin_difference": -61
+        },
+        {
+          "map_seed": 19102,
+          "side": "Y",
+          "opponent": "team_v9_2",
+          "left_job": "fcfffdd5c41e20472782e5ac",
+          "right_job": "8177096f956e636339f078da",
+          "point_difference": -1.0,
+          "score_margin_difference": -18
+        },
+        {
+          "map_seed": 19104,
+          "side": "K",
+          "opponent": "r3_opponent_league",
+          "left_job": "885de1a2679603dea69fc6c1",
+          "right_job": "115df088773058ca7016d1a7",
+          "point_difference": 0.0,
+          "score_margin_difference": 0
+        },
+        {
+          "map_seed": 19106,
+          "side": "K",
+          "opponent": "r3_opponent_league",
+          "left_job": "09d8d2d657a9a28093a2bee3",
+          "right_job": "c6a4a634daf252129b8e8af8",
+          "point_difference": 1.0,
+          "score_margin_difference": 18
+        },
+        {
+          "map_seed": 19102,
+          "side": "K",
+          "opponent": "r3_opponent_league",
+          "left_job": "e02ae9b2aa1287063011c151",
+          "right_job": "1e7bc7dad6cf629e687a44f2",
+          "point_difference": 0.0,
+          "score_margin_difference": 22
+        },
+        {
+          "map_seed": 19103,
+          "side": "K",
+          "opponent": "s3_selective_contact",
+          "left_job": "1aa8dede886d2d8b446bc8a4",
+          "right_job": "dd8c69b4924bfebe51a44b39",
+          "point_difference": 0.0,
+          "score_margin_difference": 4
+        },
+        {
+          "map_seed": 19104,
+          "side": "K",
+          "opponent": "s3_selective_contact",
+          "left_job": "99a707c7dd8b937c6279ac8a",
+          "right_job": "ef73cec219be22ca64f0ac5f",
+          "point_difference": -1.0,
+          "score_margin_difference": -39
+        },
+        {
+          "map_seed": 19103,
+          "side": "K",
+          "opponent": "r3_opponent_league",
+          "left_job": "ec74da5a71cbfc83cdff5c4d",
+          "right_job": "8bd0ba1b9e86310781809e19",
+          "point_difference": 0.0,
+          "score_margin_difference": 5
+        },
+        {
+          "map_seed": 19107,
+          "side": "Y",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "6430f1d9cdfe55f29ddb4790",
+          "right_job": "faadbdc852fa8ffd08e08ca1",
+          "point_difference": 1.0,
+          "score_margin_difference": 44
+        },
+        {
+          "map_seed": 19101,
+          "side": "Y",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "1dd43d18a98c4c52d2d2ba6e",
+          "right_job": "393ccc38bf5a020bc01a452c",
+          "point_difference": -1.0,
+          "score_margin_difference": -10
+        },
+        {
+          "map_seed": 19104,
+          "side": "K",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "1503622531eef28deb924c7e",
+          "right_job": "33941182e13f500fb316df1e",
+          "point_difference": 0.0,
+          "score_margin_difference": -4
+        },
+        {
+          "map_seed": 19104,
+          "side": "Y",
+          "opponent": "team_v9_2",
+          "left_job": "e2dfd0d9594e1cdbc87f64b9",
+          "right_job": "16b9d337ad26ecb824b002aa",
+          "point_difference": 0.0,
+          "score_margin_difference": 4
+        },
+        {
+          "map_seed": 19107,
+          "side": "K",
+          "opponent": "s3_selective_contact",
+          "left_job": "e4b553c7d0a3bcc62b4799af",
+          "right_job": "a8883cd3eaa8b749d773a83e",
+          "point_difference": 0.0,
+          "score_margin_difference": 12
+        },
+        {
+          "map_seed": 19101,
+          "side": "K",
+          "opponent": "s3_selective_contact",
+          "left_job": "bcff93daf616cf564d17eadc",
+          "right_job": "8dc4a6c2c28a5fe0c5d72d9f",
+          "point_difference": 0.0,
+          "score_margin_difference": 6
+        },
+        {
+          "map_seed": 19107,
+          "side": "Y",
+          "opponent": "team_v9_2",
+          "left_job": "1f4af35b06f345d5b5337a1a",
+          "right_job": "8c141cad36741cceb7a6016c",
+          "point_difference": 1.0,
+          "score_margin_difference": 51
+        },
+        {
+          "map_seed": 19102,
+          "side": "K",
+          "opponent": "s3_selective_contact",
+          "left_job": "db51ef639adf3808fbac4e47",
+          "right_job": "fb34b7f53666df27154dd8d1",
+          "point_difference": 0.0,
+          "score_margin_difference": 12
+        },
+        {
+          "map_seed": 19105,
+          "side": "K",
+          "opponent": "s3_selective_contact",
+          "left_job": "d1fcfe6cf87044afa831a661",
+          "right_job": "155a28dab17b4762d219f5b9",
+          "point_difference": -1.0,
+          "score_margin_difference": -21
+        },
+        {
+          "map_seed": 19100,
+          "side": "Y",
+          "opponent": "team_v9_2",
+          "left_job": "3861d2deeff7f21fc63e8f31",
+          "right_job": "441714bafdda0e5f9147d67b",
+          "point_difference": 0.0,
+          "score_margin_difference": 1
+        },
+        {
+          "map_seed": 19101,
+          "side": "K",
+          "opponent": "team_v9_2",
+          "left_job": "43557d05bf09587ad242ac97",
+          "right_job": "d0fcacec9b894cb999f1b7c3",
+          "point_difference": 1.0,
+          "score_margin_difference": 23
+        },
+        {
+          "map_seed": 19100,
+          "side": "Y",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "441e3703d205d3f2fe7c4e9e",
+          "right_job": "3492f2f4ae98cee5b6a932c1",
+          "point_difference": 0.0,
+          "score_margin_difference": -17
+        },
+        {
+          "map_seed": 19107,
+          "side": "K",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "ac3083c22c694b22d8a73c8b",
+          "right_job": "dca8e0819bf2d1e9061229e8",
+          "point_difference": 1.0,
+          "score_margin_difference": 50
+        },
+        {
+          "map_seed": 19100,
+          "side": "K",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "f14362afa2562bb8c2ab78d5",
+          "right_job": "c538545b77f677cbbf271c08",
+          "point_difference": 1.0,
+          "score_margin_difference": 46
+        },
+        {
+          "map_seed": 19107,
+          "side": "Y",
+          "opponent": "s3_selective_contact",
+          "left_job": "f3db0e3b02b20776bbfc5e9f",
+          "right_job": "2cafc9739747713d17e3d09f",
+          "point_difference": 0.0,
+          "score_margin_difference": 39
+        },
+        {
+          "map_seed": 19100,
+          "side": "K",
+          "opponent": "r3_opponent_league",
+          "left_job": "da14a18797692449ec0bf804",
+          "right_job": "304795fa2e8bf501ad09a3bf",
+          "point_difference": 1.0,
+          "score_margin_difference": 45
+        },
+        {
+          "map_seed": 19101,
+          "side": "Y",
+          "opponent": "s3_selective_contact",
+          "left_job": "0c2fdd72c35d33529eddafe9",
+          "right_job": "818d674c252b24fbb7ba74be",
+          "point_difference": 0.0,
+          "score_margin_difference": 5
+        },
+        {
+          "map_seed": 19102,
+          "side": "K",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "0b076b8c80ceda061b86faa9",
+          "right_job": "9a67a692747e68062e957d67",
+          "point_difference": -1.0,
+          "score_margin_difference": -50
+        },
+        {
+          "map_seed": 19106,
+          "side": "Y",
+          "opponent": "team_v9_2",
+          "left_job": "7f4ac684a30f82ff8894f091",
+          "right_job": "e75bb793fc084813706556bf",
+          "point_difference": 0.0,
+          "score_margin_difference": 8
+        }
+      ]
+    }
+  },
+  "candidate_games_before_matching": {
+    "mission4": 64,
+    "mission3": 64,
+    "v8": 64
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "candidate": "mission4",
+  "source_commit": "2821a5c0d0282935e3068a09b042caa276c2bc0e",
+  "source_sha256": "b06263e5cffee351fa23e6279b2f6f5f1cda0a5c1106cfc3516c005aad97c9e7",
+  "selection_summary": {
+    "common_mission4": 49,
+    "common_mission3": 46,
+    "common_v8": 45,
+    "each_common_games": 64,
+    "direct_mission4_wins": 12,
+    "direct_games": 16,
+    "Y_point_difference_vs_v8": 0.0625,
+    "K_point_difference_vs_v8": 0.0625,
+    "semantic_frames": 33283,
+    "errors": 0,
+    "forfeits": 0,
+    "semantic_issues": 0
+  },
+  "status": "frozen_final_evaluation_planned",
+  "maps": [
+    19200,
+    19201,
+    19202,
+    19203,
+    19204,
+    19205,
+    19206,
+    19207
+  ],
+  "common": {
+    "candidates": [
+      "mission4",
+      "v8"
+    ],
+    "opponents": [
+      "s3_selective_contact",
+      "r3_opponent_league",
+      "j_balanced_portfolio",
+      "team_v9_2"
+    ],
+    "games": 128,
+    "workers": 6
+  },
+  "direct": {
+    "candidate": "mission4",
+    "opponent": "v8",
+    "games": 16,
+    "workers": 4
+  },
+  "teammate_policy_seed": 20261001,
+  "gate": "Same performance/runtime gate as selection-plan, now on separate final maps. No code edits/tuning after selection. Current externally selected serverv9 is not changed by this experiment. Final performance and uncertainty are reported separately from source/ZIP validity."
+}
