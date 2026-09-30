@@ -1,0 +1,29 @@
+{
+  "created_utc": "2026-09-30T18:28:15.742421+00:00",
+  "stage": "development",
+  "baseline": "v8",
+  "hypothesis": "Latest teammate v9_2 frozen policy seed20261001 against independent mission3 on/off and v8 on matched maps and sides",
+  "source_commit": "5605ca67b81c4a0edd37b197989a03b7b512f42f",
+  "source_sha256": {
+    "mission3_no_rally": "87135692daf1b8cecb43f8e4721968bccafc37a73b266199f0374a60afab624a",
+    "mission3": "5cff84e533234f02fa8665de009ec7b2d10641c5baf5a33ac3fcc7edddb434e1",
+    "v8": "61a4f25113d9bf2c387a59ddc770a3143de6311e3fd2e004827a66eb78edfbc9",
+    "team_v9_2": "9e3f1938c995329a8c3898b5bec47a1ae5b62badf11ec7d48627254c567d15bb"
+  },
+  "map_seeds": [
+    19020,
+    19021,
+    19022,
+    19023
+  ],
+  "policy_rng_seed": 20260927,
+  "candidate_runtime_args": {
+    "team_v9_2": [
+      "--attack-seed=20261001"
+    ]
+  },
+  "scheduled_jobs": 24,
+  "workers": 4,
+  "resource_policy": "Official engine turn timeout; inherited 384MiB RLIMIT_AS after compilation",
+  "stop_policy": "Any error/forfeit blocks promotion; deadline decisions and candidate locking belong to the operator."
+}

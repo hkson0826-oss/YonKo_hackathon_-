@@ -1,0 +1,24 @@
+{
+  "created_utc": "2026-09-30T18:28:15.774726+00:00",
+  "stage": "development",
+  "baseline": "mission3",
+  "hypothesis": "Same development maps v3 on/off directly against v8; no performance promotion from this alone",
+  "source_commit": "5605ca67b81c4a0edd37b197989a03b7b512f42f",
+  "source_sha256": {
+    "mission3_no_rally": "87135692daf1b8cecb43f8e4721968bccafc37a73b266199f0374a60afab624a",
+    "v8": "61a4f25113d9bf2c387a59ddc770a3143de6311e3fd2e004827a66eb78edfbc9",
+    "mission3": "5cff84e533234f02fa8665de009ec7b2d10641c5baf5a33ac3fcc7edddb434e1"
+  },
+  "map_seeds": [
+    19000,
+    19001,
+    19002,
+    19003
+  ],
+  "policy_rng_seed": 20260927,
+  "candidate_runtime_args": {},
+  "scheduled_jobs": 16,
+  "workers": 2,
+  "resource_policy": "Official engine turn timeout; inherited 384MiB RLIMIT_AS after compilation",
+  "stop_policy": "Any error/forfeit blocks promotion; deadline decisions and candidate locking belong to the operator."
+}

@@ -1,0 +1,268 @@
+{
+  "status": "not_promoted",
+  "source_commit": "5605ca67b81c4a0edd37b197989a03b7b512f42f",
+  "source_sha256": "5cff84e533234f02fa8665de009ec7b2d10641c5baf5a33ac3fcc7edddb434e1",
+  "games": 112,
+  "runs": {
+    "pilot-direct": {
+      "maps": 4,
+      "outcomes": {
+        "mission3": {
+          "games": 8,
+          "distinct_maps": 4,
+          "wins": 8,
+          "draws": 0,
+          "losses": 0,
+          "point_rate": 1.0,
+          "map_cluster_bootstrap_95pct": [
+            1.0,
+            1.0
+          ],
+          "mean_score_margin": 24.125,
+          "mean_game_turns": 131.25,
+          "forfeits": 0,
+          "first_turn_max_ms": 6.491496998933144,
+          "after_first_turn_max_ms": 3.8933929972699843,
+          "response_ms": {
+            "count": 1050,
+            "mean": 1.7638310866494153,
+            "p50": 1.652636994549539,
+            "p95": 3.0889639965607785,
+            "max": 6.491496998933144
+          }
+        },
+        "mission3_no_rally": {
+          "games": 8,
+          "distinct_maps": 4,
+          "wins": 7,
+          "draws": 0,
+          "losses": 1,
+          "point_rate": 0.875,
+          "map_cluster_bootstrap_95pct": [
+            0.625,
+            1.0
+          ],
+          "mean_score_margin": 19,
+          "mean_game_turns": 145.125,
+          "forfeits": 0,
+          "first_turn_max_ms": 6.346168003801722,
+          "after_first_turn_max_ms": 4.5466570009011775,
+          "response_ms": {
+            "count": 1161,
+            "mean": 2.1038389715705885,
+            "p50": 2.1261270012473688,
+            "p95": 3.1331799982581288,
+            "max": 6.346168003801722
+          }
+        },
+        "v8": {
+          "games": 16,
+          "distinct_maps": 4,
+          "wins": 1,
+          "draws": 0,
+          "losses": 15,
+          "point_rate": 0.0625,
+          "map_cluster_bootstrap_95pct": [
+            0.0,
+            0.1875
+          ],
+          "mean_score_margin": -21.5625,
+          "mean_game_turns": 138.1875,
+          "forfeits": 0,
+          "first_turn_max_ms": 13.490079996699933,
+          "after_first_turn_max_ms": 125.8294399958686,
+          "response_ms": {
+            "count": 2211,
+            "mean": 79.90256174276928,
+            "p50": 79.15496799978428,
+            "p95": 113.88067100051558,
+            "max": 125.8294399958686
+          }
+        }
+      }
+    },
+    "development-common": {
+      "maps": 4,
+      "outcomes": {
+        "mission3": {
+          "games": 24,
+          "distinct_maps": 4,
+          "wins": 11,
+          "draws": 0,
+          "losses": 13,
+          "point_rate": 0.4583333333333333,
+          "map_cluster_bootstrap_95pct": [
+            0.16666666666666666,
+            0.75
+          ],
+          "mean_score_margin": -3.5833333333333335,
+          "mean_game_turns": 133.79166666666666,
+          "forfeits": 0,
+          "first_turn_max_ms": 6.538046000059694,
+          "after_first_turn_max_ms": 4.434778995346278,
+          "response_ms": {
+            "count": 3211,
+            "mean": 1.7757248730226212,
+            "p50": 1.6849429957801476,
+            "p95": 2.9550510007538833,
+            "max": 6.538046000059694
+          }
+        },
+        "mission3_no_rally": {
+          "games": 24,
+          "distinct_maps": 4,
+          "wins": 8,
+          "draws": 0,
+          "losses": 16,
+          "point_rate": 0.3333333333333333,
+          "map_cluster_bootstrap_95pct": [
+            0.0,
+            0.6666666666666666
+          ],
+          "mean_score_margin": -13.25,
+          "mean_game_turns": 134.33333333333334,
+          "forfeits": 0,
+          "first_turn_max_ms": 6.450310997024644,
+          "after_first_turn_max_ms": 4.822306000278331,
+          "response_ms": {
+            "count": 3224,
+            "mean": 2.2656238715426658,
+            "p50": 2.229801997600589,
+            "p95": 3.233720999560319,
+            "max": 6.450310997024644
+          }
+        },
+        "v8": {
+          "games": 24,
+          "distinct_maps": 4,
+          "wins": 16,
+          "draws": 0,
+          "losses": 8,
+          "point_rate": 0.6666666666666666,
+          "map_cluster_bootstrap_95pct": [
+            0.5416666666666666,
+            0.7916666666666667
+          ],
+          "mean_score_margin": 8.875,
+          "mean_game_turns": 136.45833333333334,
+          "forfeits": 0,
+          "first_turn_max_ms": 13.685751997400075,
+          "after_first_turn_max_ms": 129.38186099927407,
+          "response_ms": {
+            "count": 3275,
+            "mean": 84.81410082041079,
+            "p50": 83.86088899715105,
+            "p95": 118.97796200355515,
+            "max": 129.38186099927407
+          }
+        }
+      }
+    },
+    "development-teammate": {
+      "maps": 4,
+      "outcomes": {
+        "mission3": {
+          "games": 8,
+          "distinct_maps": 4,
+          "wins": 3,
+          "draws": 0,
+          "losses": 5,
+          "point_rate": 0.375,
+          "map_cluster_bootstrap_95pct": [
+            0.125,
+            0.5
+          ],
+          "mean_score_margin": -8.875,
+          "mean_game_turns": 142.875,
+          "forfeits": 0,
+          "first_turn_max_ms": 7.046946004265919,
+          "after_first_turn_max_ms": 4.557503001706209,
+          "response_ms": {
+            "count": 1143,
+            "mean": 2.041708048073431,
+            "p50": 1.94218000251567,
+            "p95": 3.1532060020253994,
+            "max": 7.046946004265919
+          }
+        },
+        "mission3_no_rally": {
+          "games": 8,
+          "distinct_maps": 4,
+          "wins": 3,
+          "draws": 0,
+          "losses": 5,
+          "point_rate": 0.375,
+          "map_cluster_bootstrap_95pct": [
+            0.125,
+            0.5
+          ],
+          "mean_score_margin": -6,
+          "mean_game_turns": 140.125,
+          "forfeits": 0,
+          "first_turn_max_ms": 5.792875999759417,
+          "after_first_turn_max_ms": 4.231996004818939,
+          "response_ms": {
+            "count": 1121,
+            "mean": 2.3372785415649218,
+            "p50": 2.305175999936182,
+            "p95": 3.3020570044755004,
+            "max": 5.792875999759417
+          }
+        },
+        "v8": {
+          "games": 8,
+          "distinct_maps": 4,
+          "wins": 5,
+          "draws": 0,
+          "losses": 3,
+          "point_rate": 0.625,
+          "map_cluster_bootstrap_95pct": [
+            0.5,
+            0.875
+          ],
+          "mean_score_margin": 11,
+          "mean_game_turns": 135.75,
+          "forfeits": 0,
+          "first_turn_max_ms": 13.096828995912801,
+          "after_first_turn_max_ms": 126.31948999478482,
+          "response_ms": {
+            "count": 1086,
+            "mean": 84.86264517582146,
+            "p50": 83.58944900101051,
+            "p95": 122.76331800239859,
+            "max": 126.31948999478482
+          }
+        },
+        "team_v9_2": {
+          "games": 24,
+          "distinct_maps": 4,
+          "wins": 13,
+          "draws": 0,
+          "losses": 11,
+          "point_rate": 0.5416666666666666,
+          "map_cluster_bootstrap_95pct": [
+            0.5,
+            0.625
+          ],
+          "mean_score_margin": 1.2916666666666667,
+          "mean_game_turns": 139.58333333333334,
+          "forfeits": 0,
+          "first_turn_max_ms": 14.750451999134384,
+          "after_first_turn_max_ms": 138.71672000095714,
+          "response_ms": {
+            "count": 3350,
+            "mean": 113.83899241768835,
+            "p50": 130.88568699458847,
+            "p95": 135.86921300156973,
+            "max": 138.71672000095714
+          }
+        }
+      }
+    }
+  },
+  "errors": 0,
+  "forfeits": 0,
+  "semantic_action_issues": 0,
+  "frames": 15271,
+  "conclusion": "Defense revision improves development performance and rendezvous is retained. Direct 8/8 wins do not establish general superiority: same-common-opponent results11/24 versus v8 16/24, latest-teammate3/8 versus v8 5/8. Four-map samples and wall-time-dependent opponent searches limit causal/general claims. Server v8 retained."
+}

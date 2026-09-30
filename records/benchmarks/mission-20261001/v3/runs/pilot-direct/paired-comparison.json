@@ -1,0 +1,35 @@
+{
+  "baseline": "mission3",
+  "comparisons": {
+    "mission3_no_rally": {
+      "Y": {
+        "paired_maps": 4,
+        "paired_games": 4,
+        "point_rate_difference": -0.25,
+        "map_cluster_bootstrap_95pct": [
+          -0.75,
+          0.0
+        ],
+        "opponent_point_rate_difference": {
+          "v8": -0.25
+        }
+      },
+      "K": {
+        "paired_maps": 4,
+        "paired_games": 4,
+        "point_rate_difference": 0.0,
+        "map_cluster_bootstrap_95pct": [
+          0.0,
+          0.0
+        ],
+        "opponent_point_rate_difference": {
+          "v8": 0.0
+        }
+      }
+    }
+  },
+  "interpretation": "Small local fixed-opponent samples; no automatic promotion or leaderboard-score claim.",
+  "complete": true,
+  "errors": 0,
+  "forfeits": 0
+}

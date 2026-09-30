@@ -1,0 +1,11 @@
+{
+  "original_arena": "/tmp/yk-mission-arena-v3-20261001",
+  "archive": "records/benchmarks/mission-20261001/v3",
+  "complete_runs": [
+    "pilot-direct",
+    "development-common",
+    "development-teammate"
+  ],
+  "binaries_omitted": true,
+  "notes": "All frozen sources/plans/results/replays preserved byte-for-byte. Original absolute arena paths map to the same relative archive paths."
+}
