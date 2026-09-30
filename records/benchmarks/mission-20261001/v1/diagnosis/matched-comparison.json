@@ -1,0 +1,650 @@
+[
+  {
+    "seed": 19010,
+    "team": "K",
+    "opponent": "j_balanced_portfolio",
+    "mission": {
+      "job_id": "a0e7ebb8eb8c0c410bf0a01f",
+      "win": false,
+      "score": 9,
+      "turns": 160,
+      "score_t20": 19,
+      "score_t40": 14,
+      "W_production_t20": 100,
+      "F_deaths": 1,
+      "final_F": 7
+    },
+    "v8": {
+      "job_id": "ddd3bf1a59d302e20f41b1a5",
+      "win": true,
+      "score": 29,
+      "turns": 148,
+      "score_t20": 20,
+      "score_t40": 16,
+      "W_production_t20": 98,
+      "F_deaths": 10,
+      "final_F": 7
+    }
+  },
+  {
+    "seed": 19010,
+    "team": "K",
+    "opponent": "r3_opponent_league",
+    "mission": {
+      "job_id": "ee1be2c5f2174d6b80e1fae0",
+      "win": false,
+      "score": 12,
+      "turns": 160,
+      "score_t20": 19,
+      "score_t40": 16,
+      "W_production_t20": 105,
+      "F_deaths": 11,
+      "final_F": 5
+    },
+    "v8": {
+      "job_id": "78b7f50d17edd7b95b2ee9cd",
+      "win": true,
+      "score": 23,
+      "turns": 160,
+      "score_t20": 16,
+      "score_t40": 12,
+      "W_production_t20": 99,
+      "F_deaths": 12,
+      "final_F": 5
+    }
+  },
+  {
+    "seed": 19010,
+    "team": "K",
+    "opponent": "s3_selective_contact",
+    "mission": {
+      "job_id": "4f339c57abb86659afa31b14",
+      "win": true,
+      "score": 19,
+      "turns": 160,
+      "score_t20": 18,
+      "score_t40": 15,
+      "W_production_t20": 105,
+      "F_deaths": 10,
+      "final_F": 6
+    },
+    "v8": {
+      "job_id": "9791557d8b59bbf52d7808e1",
+      "win": false,
+      "score": 5,
+      "turns": 160,
+      "score_t20": 16,
+      "score_t40": 11,
+      "W_production_t20": 98,
+      "F_deaths": 28,
+      "final_F": 6
+    }
+  },
+  {
+    "seed": 19010,
+    "team": "Y",
+    "opponent": "j_balanced_portfolio",
+    "mission": {
+      "job_id": "831b34880a9fcf3c345ef71d",
+      "win": false,
+      "score": 0,
+      "turns": 138,
+      "score_t20": 21,
+      "score_t40": 12,
+      "W_production_t20": 100,
+      "F_deaths": 11,
+      "final_F": 7
+    },
+    "v8": {
+      "job_id": "89a633fd9c966ee815ac0198",
+      "win": false,
+      "score": 14,
+      "turns": 160,
+      "score_t20": 19,
+      "score_t40": 13,
+      "W_production_t20": 97,
+      "F_deaths": 21,
+      "final_F": 4
+    }
+  },
+  {
+    "seed": 19010,
+    "team": "Y",
+    "opponent": "r3_opponent_league",
+    "mission": {
+      "job_id": "d869eca6b1f8d6fbfe6384e0",
+      "win": false,
+      "score": 16,
+      "turns": 160,
+      "score_t20": 18,
+      "score_t40": 22,
+      "W_production_t20": 98,
+      "F_deaths": 9,
+      "final_F": 6
+    },
+    "v8": {
+      "job_id": "cc28de21029576d6cad17c82",
+      "win": true,
+      "score": 14,
+      "turns": 160,
+      "score_t20": 22,
+      "score_t40": 16,
+      "W_production_t20": 100,
+      "F_deaths": 19,
+      "final_F": 6
+    }
+  },
+  {
+    "seed": 19010,
+    "team": "Y",
+    "opponent": "s3_selective_contact",
+    "mission": {
+      "job_id": "4f2e5cf743294a2a96bd831f",
+      "win": false,
+      "score": 16,
+      "turns": 160,
+      "score_t20": 19,
+      "score_t40": 17,
+      "W_production_t20": 97,
+      "F_deaths": 9,
+      "final_F": 6
+    },
+    "v8": {
+      "job_id": "dd82cf7098c32bfa88c37c8b",
+      "win": false,
+      "score": 13,
+      "turns": 160,
+      "score_t20": 15,
+      "score_t40": 19,
+      "W_production_t20": 91,
+      "F_deaths": 15,
+      "final_F": 6
+    }
+  },
+  {
+    "seed": 19011,
+    "team": "K",
+    "opponent": "j_balanced_portfolio",
+    "mission": {
+      "job_id": "9aa401bca10f34ffc1a258e4",
+      "win": false,
+      "score": 0,
+      "turns": 143,
+      "score_t20": 16,
+      "score_t40": 16,
+      "W_production_t20": 93,
+      "F_deaths": 6,
+      "final_F": 6
+    },
+    "v8": {
+      "job_id": "ab6010e6c2b67eda1f1de692",
+      "win": true,
+      "score": 37,
+      "turns": 160,
+      "score_t20": 18,
+      "score_t40": 18,
+      "W_production_t20": 93,
+      "F_deaths": 10,
+      "final_F": 6
+    }
+  },
+  {
+    "seed": 19011,
+    "team": "K",
+    "opponent": "r3_opponent_league",
+    "mission": {
+      "job_id": "39284ecdc1950415adc64d6b",
+      "win": false,
+      "score": 0,
+      "turns": 157,
+      "score_t20": 9,
+      "score_t40": 16,
+      "W_production_t20": 87,
+      "F_deaths": 8,
+      "final_F": 7
+    },
+    "v8": {
+      "job_id": "4a758d4d11aad28a68fa11f0",
+      "win": true,
+      "score": 32,
+      "turns": 160,
+      "score_t20": 19,
+      "score_t40": 20,
+      "W_production_t20": 94,
+      "F_deaths": 11,
+      "final_F": 6
+    }
+  },
+  {
+    "seed": 19011,
+    "team": "K",
+    "opponent": "s3_selective_contact",
+    "mission": {
+      "job_id": "f00c9effb86a11efa90ff8ae",
+      "win": true,
+      "score": 31,
+      "turns": 160,
+      "score_t20": 12,
+      "score_t40": 28,
+      "W_production_t20": 88,
+      "F_deaths": 3,
+      "final_F": 3
+    },
+    "v8": {
+      "job_id": "fda90c5999b2e3e729e47eb0",
+      "win": false,
+      "score": 4,
+      "turns": 160,
+      "score_t20": 16,
+      "score_t40": 18,
+      "W_production_t20": 93,
+      "F_deaths": 17,
+      "final_F": 6
+    }
+  },
+  {
+    "seed": 19011,
+    "team": "Y",
+    "opponent": "j_balanced_portfolio",
+    "mission": {
+      "job_id": "4569b01dc80e3ed07627931c",
+      "win": false,
+      "score": 0,
+      "turns": 122,
+      "score_t20": 11,
+      "score_t40": 18,
+      "W_production_t20": 90,
+      "F_deaths": 6,
+      "final_F": 7
+    },
+    "v8": {
+      "job_id": "3c4cdb2462acd74eb775382c",
+      "win": true,
+      "score": 25,
+      "turns": 160,
+      "score_t20": 22,
+      "score_t40": 18,
+      "W_production_t20": 94,
+      "F_deaths": 16,
+      "final_F": 6
+    }
+  },
+  {
+    "seed": 19011,
+    "team": "Y",
+    "opponent": "r3_opponent_league",
+    "mission": {
+      "job_id": "81a4e7d7e038127251f1e66d",
+      "win": false,
+      "score": 0,
+      "turns": 112,
+      "score_t20": 17,
+      "score_t40": 13,
+      "W_production_t20": 88,
+      "F_deaths": 7,
+      "final_F": 7
+    },
+    "v8": {
+      "job_id": "adb606c9209846e577459748",
+      "win": true,
+      "score": 36,
+      "turns": 160,
+      "score_t20": 16,
+      "score_t40": 17,
+      "W_production_t20": 96,
+      "F_deaths": 6,
+      "final_F": 3
+    }
+  },
+  {
+    "seed": 19011,
+    "team": "Y",
+    "opponent": "s3_selective_contact",
+    "mission": {
+      "job_id": "5a9442ca51c006f479bca846",
+      "win": false,
+      "score": 4,
+      "turns": 160,
+      "score_t20": 15,
+      "score_t40": 8,
+      "W_production_t20": 92,
+      "F_deaths": 10,
+      "final_F": 7
+    },
+    "v8": {
+      "job_id": "df30adb6e5a9f5085ac09018",
+      "win": true,
+      "score": 36,
+      "turns": 160,
+      "score_t20": 17,
+      "score_t40": 17,
+      "W_production_t20": 93,
+      "F_deaths": 7,
+      "final_F": 6
+    }
+  },
+  {
+    "seed": 19012,
+    "team": "K",
+    "opponent": "j_balanced_portfolio",
+    "mission": {
+      "job_id": "8f9dc5f8c895072703a0ab27",
+      "win": false,
+      "score": 0,
+      "turns": 91,
+      "score_t20": 12,
+      "score_t40": 5,
+      "W_production_t20": 84,
+      "F_deaths": 4,
+      "final_F": 7
+    },
+    "v8": {
+      "job_id": "1bd28630abb731acecd2cdaa",
+      "win": false,
+      "score": 0,
+      "turns": 119,
+      "score_t20": 20,
+      "score_t40": 8,
+      "W_production_t20": 75,
+      "F_deaths": 15,
+      "final_F": 7
+    }
+  },
+  {
+    "seed": 19012,
+    "team": "K",
+    "opponent": "r3_opponent_league",
+    "mission": {
+      "job_id": "7cb98a5c833b92efe316a9d0",
+      "win": false,
+      "score": 0,
+      "turns": 77,
+      "score_t20": 9,
+      "score_t40": 9,
+      "W_production_t20": 76,
+      "F_deaths": 4,
+      "final_F": 7
+    },
+    "v8": {
+      "job_id": "3618c74bcdac532f94c07abd",
+      "win": true,
+      "score": 37,
+      "turns": 108,
+      "score_t20": 22,
+      "score_t40": 26,
+      "W_production_t20": 75,
+      "F_deaths": 8,
+      "final_F": 7
+    }
+  },
+  {
+    "seed": 19012,
+    "team": "K",
+    "opponent": "s3_selective_contact",
+    "mission": {
+      "job_id": "3bcc8f8a76f6ad3e05daae35",
+      "win": false,
+      "score": 0,
+      "turns": 83,
+      "score_t20": 16,
+      "score_t40": 14,
+      "W_production_t20": 88,
+      "F_deaths": 6,
+      "final_F": 7
+    },
+    "v8": {
+      "job_id": "151ee3b9f366a7a9f87c30cb",
+      "win": false,
+      "score": 0,
+      "turns": 94,
+      "score_t20": 17,
+      "score_t40": 12,
+      "W_production_t20": 75,
+      "F_deaths": 11,
+      "final_F": 6
+    }
+  },
+  {
+    "seed": 19012,
+    "team": "Y",
+    "opponent": "j_balanced_portfolio",
+    "mission": {
+      "job_id": "7af9624b7fe34f8cbae692a2",
+      "win": false,
+      "score": 0,
+      "turns": 69,
+      "score_t20": 12,
+      "score_t40": 7,
+      "W_production_t20": 80,
+      "F_deaths": 4,
+      "final_F": 7
+    },
+    "v8": {
+      "job_id": "974904c78b2d8907fce7c01e",
+      "win": true,
+      "score": 39,
+      "turns": 100,
+      "score_t20": 19,
+      "score_t40": 22,
+      "W_production_t20": 81,
+      "F_deaths": 5,
+      "final_F": 6
+    }
+  },
+  {
+    "seed": 19012,
+    "team": "Y",
+    "opponent": "r3_opponent_league",
+    "mission": {
+      "job_id": "5509042e1bc0b3983e3acaa5",
+      "win": true,
+      "score": 26,
+      "turns": 160,
+      "score_t20": 12,
+      "score_t40": 13,
+      "W_production_t20": 83,
+      "F_deaths": 7,
+      "final_F": 6
+    },
+    "v8": {
+      "job_id": "772bcd04ddf893f751e4b93a",
+      "win": true,
+      "score": 34,
+      "turns": 103,
+      "score_t20": 22,
+      "score_t40": 20,
+      "W_production_t20": 69,
+      "F_deaths": 4,
+      "final_F": 6
+    }
+  },
+  {
+    "seed": 19012,
+    "team": "Y",
+    "opponent": "s3_selective_contact",
+    "mission": {
+      "job_id": "81b32c6a7c4aa249159323da",
+      "win": false,
+      "score": 0,
+      "turns": 62,
+      "score_t20": 9,
+      "score_t40": 7,
+      "W_production_t20": 76,
+      "F_deaths": 5,
+      "final_F": 7
+    },
+    "v8": {
+      "job_id": "ad7e8ec2d829162cc46d1eaa",
+      "win": true,
+      "score": 36,
+      "turns": 133,
+      "score_t20": 18,
+      "score_t40": 22,
+      "W_production_t20": 75,
+      "F_deaths": 6,
+      "final_F": 7
+    }
+  },
+  {
+    "seed": 19013,
+    "team": "K",
+    "opponent": "j_balanced_portfolio",
+    "mission": {
+      "job_id": "ca61304a881abc2d17a4d2c8",
+      "win": false,
+      "score": 0,
+      "turns": 123,
+      "score_t20": 10,
+      "score_t40": 10,
+      "W_production_t20": 90,
+      "F_deaths": 0,
+      "final_F": 7
+    },
+    "v8": {
+      "job_id": "cf3fb1bdb8e25f55bfd23da8",
+      "win": true,
+      "score": 31,
+      "turns": 146,
+      "score_t20": 15,
+      "score_t40": 21,
+      "W_production_t20": 84,
+      "F_deaths": 9,
+      "final_F": 5
+    }
+  },
+  {
+    "seed": 19013,
+    "team": "K",
+    "opponent": "r3_opponent_league",
+    "mission": {
+      "job_id": "2d1015c7640b6dfcc3c72949",
+      "win": false,
+      "score": 0,
+      "turns": 155,
+      "score_t20": 9,
+      "score_t40": 15,
+      "W_production_t20": 98,
+      "F_deaths": 3,
+      "final_F": 7
+    },
+    "v8": {
+      "job_id": "37e23cc65089199523d84ed6",
+      "win": true,
+      "score": 33,
+      "turns": 106,
+      "score_t20": 19,
+      "score_t40": 13,
+      "W_production_t20": 84,
+      "F_deaths": 10,
+      "final_F": 6
+    }
+  },
+  {
+    "seed": 19013,
+    "team": "K",
+    "opponent": "s3_selective_contact",
+    "mission": {
+      "job_id": "952058c0dabbf87f2127e6d2",
+      "win": false,
+      "score": 0,
+      "turns": 122,
+      "score_t20": 10,
+      "score_t40": 13,
+      "W_production_t20": 96,
+      "F_deaths": 7,
+      "final_F": 7
+    },
+    "v8": {
+      "job_id": "d3ae6a41bfd32bcd1647b209",
+      "win": true,
+      "score": 31,
+      "turns": 134,
+      "score_t20": 15,
+      "score_t40": 13,
+      "W_production_t20": 88,
+      "F_deaths": 8,
+      "final_F": 5
+    }
+  },
+  {
+    "seed": 19013,
+    "team": "Y",
+    "opponent": "j_balanced_portfolio",
+    "mission": {
+      "job_id": "6de600f38f484888233fe5a3",
+      "win": false,
+      "score": 0,
+      "turns": 111,
+      "score_t20": 15,
+      "score_t40": 9,
+      "W_production_t20": 90,
+      "F_deaths": 4,
+      "final_F": 7
+    },
+    "v8": {
+      "job_id": "c6d0270e310c22cd11acb984",
+      "win": false,
+      "score": 0,
+      "turns": 128,
+      "score_t20": 16,
+      "score_t40": 12,
+      "W_production_t20": 93,
+      "F_deaths": 17,
+      "final_F": 6
+    }
+  },
+  {
+    "seed": 19013,
+    "team": "Y",
+    "opponent": "r3_opponent_league",
+    "mission": {
+      "job_id": "5d19adb82d7eaff16d4bb617",
+      "win": false,
+      "score": 0,
+      "turns": 127,
+      "score_t20": 14,
+      "score_t40": 4,
+      "W_production_t20": 90,
+      "F_deaths": 2,
+      "final_F": 7
+    },
+    "v8": {
+      "job_id": "44741aede39c719341d1b072",
+      "win": true,
+      "score": 23,
+      "turns": 130,
+      "score_t20": 16,
+      "score_t40": 20,
+      "W_production_t20": 86,
+      "F_deaths": 9,
+      "final_F": 6
+    }
+  },
+  {
+    "seed": 19013,
+    "team": "Y",
+    "opponent": "s3_selective_contact",
+    "mission": {
+      "job_id": "5092b11124b69bbf17e1cedd",
+      "win": false,
+      "score": 0,
+      "turns": 153,
+      "score_t20": 10,
+      "score_t40": 15,
+      "W_production_t20": 96,
+      "F_deaths": 7,
+      "final_F": 6
+    },
+    "v8": {
+      "job_id": "055b61618c6ea40e83903979",
+      "win": false,
+      "score": 0,
+      "turns": 114,
+      "score_t20": 14,
+      "score_t40": 24,
+      "W_production_t20": 94,
+      "F_deaths": 9,
+      "final_F": 7
+    }
+  }
+]

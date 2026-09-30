@@ -1,0 +1,529 @@
+[
+  {
+    "run": "pilot-direct",
+    "job_id": "1e24903045bab770a3133569",
+    "map_seed": 19000,
+    "side": "K",
+    "opponent": "v8",
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 30,
+        "K": 0
+      },
+      "turns": 149,
+      "seed": 19000
+    },
+    "action_reproduction_mismatches": [],
+    "stats": {
+      "flag_turns": 950,
+      "recovered_valid_missions": 866,
+      "continued_missions": 803,
+      "active_output_missions": 953,
+      "stalled_output_missions": 331,
+      "three_stall_output_missions": 51,
+      "F_move_units": 774,
+      "one_step_reverse_flow_units": 150,
+      "F_hold_units": 197
+    },
+    "memory_trace": "/tmp/yk-mission-memory-audit-20261001/1e24903045bab770a3133569.json",
+    "replay_sha256": "47715b5c6357ed18026fc209631943de077a445383ddd8a5e1501f0f96b0ef1d"
+  },
+  {
+    "run": "pilot-direct",
+    "job_id": "b0ded9873962bee0a176211e",
+    "map_seed": 19001,
+    "side": "K",
+    "opponent": "v8",
+    "result": {
+      "winner": "K",
+      "reason": "instant",
+      "score": {
+        "Y": 0,
+        "K": 28
+      },
+      "turns": 142,
+      "seed": 19001
+    },
+    "action_reproduction_mismatches": [],
+    "stats": {
+      "flag_turns": 716,
+      "recovered_valid_missions": 598,
+      "continued_missions": 528,
+      "active_output_missions": 669,
+      "stalled_output_missions": 173,
+      "three_stall_output_missions": 21,
+      "F_move_units": 545,
+      "one_step_reverse_flow_units": 108,
+      "F_hold_units": 174
+    },
+    "memory_trace": "/tmp/yk-mission-memory-audit-20261001/b0ded9873962bee0a176211e.json",
+    "replay_sha256": "eef853c5c09053702427c95a85eaa4e3710b50d972bfe1b53a5576405b2b4b6c"
+  },
+  {
+    "run": "pilot-direct",
+    "job_id": "38bd769564bcc22f8fbb4d00",
+    "map_seed": 19000,
+    "side": "Y",
+    "opponent": "v8",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 7,
+        "K": 22
+      },
+      "turns": 160,
+      "seed": 19000
+    },
+    "action_reproduction_mismatches": [],
+    "stats": {
+      "flag_turns": 948,
+      "recovered_valid_missions": 862,
+      "continued_missions": 790,
+      "active_output_missions": 958,
+      "stalled_output_missions": 385,
+      "three_stall_output_missions": 62,
+      "F_move_units": 718,
+      "one_step_reverse_flow_units": 137,
+      "F_hold_units": 244
+    },
+    "memory_trace": "/tmp/yk-mission-memory-audit-20261001/38bd769564bcc22f8fbb4d00.json",
+    "replay_sha256": "d54fc0f6f44fdbbf1c45ae3336187a304f8bcc5b205241902abfbd19a5b7d706"
+  },
+  {
+    "run": "pilot-direct",
+    "job_id": "5864d33db1c3464be1ea5d83",
+    "map_seed": 19001,
+    "side": "Y",
+    "opponent": "v8",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 26,
+        "K": 7
+      },
+      "turns": 160,
+      "seed": 19001
+    },
+    "action_reproduction_mismatches": [],
+    "stats": {
+      "flag_turns": 929,
+      "recovered_valid_missions": 832,
+      "continued_missions": 746,
+      "active_output_missions": 919,
+      "stalled_output_missions": 277,
+      "three_stall_output_missions": 33,
+      "F_move_units": 751,
+      "one_step_reverse_flow_units": 127,
+      "F_hold_units": 188
+    },
+    "memory_trace": "/tmp/yk-mission-memory-audit-20261001/5864d33db1c3464be1ea5d83.json",
+    "replay_sha256": "e33e4b1c2046be088638ed46f5f2a85150353855be127b7ce5d9e366e10242fb"
+  },
+  {
+    "run": "pilot-direct",
+    "job_id": "4776e9051ddf4d9ee9f901e6",
+    "map_seed": 19002,
+    "side": "K",
+    "opponent": "v8",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 4,
+        "K": 25
+      },
+      "turns": 160,
+      "seed": 19002
+    },
+    "action_reproduction_mismatches": [],
+    "stats": {
+      "flag_turns": 874,
+      "recovered_valid_missions": 778,
+      "continued_missions": 724,
+      "active_output_missions": 876,
+      "stalled_output_missions": 242,
+      "three_stall_output_missions": 20,
+      "F_move_units": 743,
+      "one_step_reverse_flow_units": 180,
+      "F_hold_units": 140
+    },
+    "memory_trace": "/tmp/yk-mission-memory-audit-20261001/4776e9051ddf4d9ee9f901e6.json",
+    "replay_sha256": "c304dd13cfb1b84007f49388355346846076a286426e23e7ee72c29a094445db"
+  },
+  {
+    "run": "pilot-direct",
+    "job_id": "a5d7c63431f4849ff50454a8",
+    "map_seed": 19003,
+    "side": "K",
+    "opponent": "v8",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 30,
+        "K": 7
+      },
+      "turns": 160,
+      "seed": 19003
+    },
+    "action_reproduction_mismatches": [],
+    "stats": {
+      "flag_turns": 1047,
+      "recovered_valid_missions": 945,
+      "continued_missions": 817,
+      "active_output_missions": 1051,
+      "stalled_output_missions": 413,
+      "three_stall_output_missions": 75,
+      "F_move_units": 745,
+      "one_step_reverse_flow_units": 141,
+      "F_hold_units": 318
+    },
+    "memory_trace": "/tmp/yk-mission-memory-audit-20261001/a5d7c63431f4849ff50454a8.json",
+    "replay_sha256": "e2317c25fdc3b928a9765633db0e5a2f0e6c6139def6e6d5bac286f7bc115c90"
+  },
+  {
+    "run": "pilot-direct",
+    "job_id": "2d6656634f184226904a9517",
+    "map_seed": 19002,
+    "side": "Y",
+    "opponent": "v8",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 16,
+        "K": 11
+      },
+      "turns": 160,
+      "seed": 19002
+    },
+    "action_reproduction_mismatches": [],
+    "stats": {
+      "flag_turns": 861,
+      "recovered_valid_missions": 780,
+      "continued_missions": 718,
+      "active_output_missions": 870,
+      "stalled_output_missions": 261,
+      "three_stall_output_missions": 31,
+      "F_move_units": 728,
+      "one_step_reverse_flow_units": 144,
+      "F_hold_units": 140
+    },
+    "memory_trace": "/tmp/yk-mission-memory-audit-20261001/2d6656634f184226904a9517.json",
+    "replay_sha256": "f52ee3e94bd48f879814c482888adfb94fc8f2fdf065f1ce1b27bee91188ba5d"
+  },
+  {
+    "run": "pilot-direct",
+    "job_id": "70fe5b0ff9dd0fc9988f31de",
+    "map_seed": 19003,
+    "side": "Y",
+    "opponent": "v8",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 20,
+        "K": 14
+      },
+      "turns": 160,
+      "seed": 19003
+    },
+    "action_reproduction_mismatches": [],
+    "stats": {
+      "flag_turns": 963,
+      "recovered_valid_missions": 881,
+      "continued_missions": 761,
+      "active_output_missions": 968,
+      "stalled_output_missions": 368,
+      "three_stall_output_missions": 54,
+      "F_move_units": 724,
+      "one_step_reverse_flow_units": 115,
+      "F_hold_units": 253
+    },
+    "memory_trace": "/tmp/yk-mission-memory-audit-20261001/70fe5b0ff9dd0fc9988f31de.json",
+    "replay_sha256": "ad1ab377572c1f40050559c883db017f135ef851ed570dedb0985d9d24995dd3"
+  },
+  {
+    "run": "development-common",
+    "job_id": "5509042e1bc0b3983e3acaa5",
+    "map_seed": 19012,
+    "side": "Y",
+    "opponent": "r3_opponent_league",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 26,
+        "K": 11
+      },
+      "turns": 160,
+      "seed": 19012
+    },
+    "action_reproduction_mismatches": [],
+    "stats": {
+      "flag_turns": 955,
+      "recovered_valid_missions": 859,
+      "continued_missions": 764,
+      "active_output_missions": 947,
+      "stalled_output_missions": 321,
+      "three_stall_output_missions": 51,
+      "F_move_units": 753,
+      "one_step_reverse_flow_units": 116,
+      "F_hold_units": 212
+    },
+    "memory_trace": "/tmp/yk-mission-memory-audit-20261001/5509042e1bc0b3983e3acaa5.json",
+    "replay_sha256": "514141d47da5aacd4717337ac1c9fd51579bc3bf23aeef16830c5ccd0dad3e25"
+  },
+  {
+    "run": "development-common",
+    "job_id": "7af9624b7fe34f8cbae692a2",
+    "map_seed": 19012,
+    "side": "Y",
+    "opponent": "j_balanced_portfolio",
+    "result": {
+      "winner": "K",
+      "reason": "instant",
+      "score": {
+        "Y": 0,
+        "K": 35
+      },
+      "turns": 69,
+      "seed": 19012
+    },
+    "action_reproduction_mismatches": [],
+    "stats": {
+      "flag_turns": 438,
+      "recovered_valid_missions": 396,
+      "continued_missions": 332,
+      "active_output_missions": 439,
+      "stalled_output_missions": 114,
+      "three_stall_output_missions": 16,
+      "F_move_units": 360,
+      "one_step_reverse_flow_units": 56,
+      "F_hold_units": 89
+    },
+    "memory_trace": "/tmp/yk-mission-memory-audit-20261001/7af9624b7fe34f8cbae692a2.json",
+    "replay_sha256": "ce484fafe00a12530cc431dddb0d1366a2362256dfb2a3266e641dce833840c0"
+  },
+  {
+    "run": "development-common",
+    "job_id": "7cb98a5c833b92efe316a9d0",
+    "map_seed": 19012,
+    "side": "K",
+    "opponent": "r3_opponent_league",
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 38,
+        "K": 0
+      },
+      "turns": 77,
+      "seed": 19012
+    },
+    "action_reproduction_mismatches": [],
+    "stats": {
+      "flag_turns": 502,
+      "recovered_valid_missions": 468,
+      "continued_missions": 403,
+      "active_output_missions": 511,
+      "stalled_output_missions": 175,
+      "three_stall_output_missions": 25,
+      "F_move_units": 388,
+      "one_step_reverse_flow_units": 56,
+      "F_hold_units": 125
+    },
+    "memory_trace": "/tmp/yk-mission-memory-audit-20261001/7cb98a5c833b92efe316a9d0.json",
+    "replay_sha256": "ab29b1f72e2065c104d8ba76fb0ed5a827ec2fa5d645c35ab42cf822026a049c"
+  },
+  {
+    "run": "development-common",
+    "job_id": "d869eca6b1f8d6fbfe6384e0",
+    "map_seed": 19010,
+    "side": "Y",
+    "opponent": "r3_opponent_league",
+    "result": {
+      "winner": "K",
+      "reason": "occupation_turns",
+      "score": {
+        "Y": 16,
+        "K": 16
+      },
+      "turns": 160,
+      "seed": 19010
+    },
+    "action_reproduction_mismatches": [],
+    "stats": {
+      "flag_turns": 928,
+      "recovered_valid_missions": 826,
+      "continued_missions": 754,
+      "active_output_missions": 933,
+      "stalled_output_missions": 341,
+      "three_stall_output_missions": 55,
+      "F_move_units": 711,
+      "one_step_reverse_flow_units": 182,
+      "F_hold_units": 232
+    },
+    "memory_trace": "/tmp/yk-mission-memory-audit-20261001/d869eca6b1f8d6fbfe6384e0.json",
+    "replay_sha256": "c16d82c9148cf7ee889a7db7b033b9f3c0db187a6977265fd3e47bacf815d467"
+  },
+  {
+    "run": "development-common",
+    "job_id": "3bcc8f8a76f6ad3e05daae35",
+    "map_seed": 19012,
+    "side": "K",
+    "opponent": "s3_selective_contact",
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 39,
+        "K": 0
+      },
+      "turns": 83,
+      "seed": 19012
+    },
+    "action_reproduction_mismatches": [],
+    "stats": {
+      "flag_turns": 519,
+      "recovered_valid_missions": 481,
+      "continued_missions": 440,
+      "active_output_missions": 531,
+      "stalled_output_missions": 185,
+      "three_stall_output_missions": 34,
+      "F_move_units": 432,
+      "one_step_reverse_flow_units": 71,
+      "F_hold_units": 100
+    },
+    "memory_trace": "/tmp/yk-mission-memory-audit-20261001/3bcc8f8a76f6ad3e05daae35.json",
+    "replay_sha256": "5464340edd3ab5d28730ee4e0dd8d5d3bd6050298507852fcb55886ef608486a"
+  },
+  {
+    "run": "development-common",
+    "job_id": "8f9dc5f8c895072703a0ab27",
+    "map_seed": 19012,
+    "side": "K",
+    "opponent": "j_balanced_portfolio",
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 39,
+        "K": 0
+      },
+      "turns": 91,
+      "seed": 19012
+    },
+    "action_reproduction_mismatches": [],
+    "stats": {
+      "flag_turns": 602,
+      "recovered_valid_missions": 545,
+      "continued_missions": 490,
+      "active_output_missions": 604,
+      "stalled_output_missions": 215,
+      "three_stall_output_missions": 41,
+      "F_move_units": 461,
+      "one_step_reverse_flow_units": 85,
+      "F_hold_units": 151
+    },
+    "memory_trace": "/tmp/yk-mission-memory-audit-20261001/8f9dc5f8c895072703a0ab27.json",
+    "replay_sha256": "9c2306609071bc5ac871177fe0ebe3d7e5754098c398c71ecd09bcab97cd03bb"
+  },
+  {
+    "run": "development-common",
+    "job_id": "831b34880a9fcf3c345ef71d",
+    "map_seed": 19010,
+    "side": "Y",
+    "opponent": "j_balanced_portfolio",
+    "result": {
+      "winner": "K",
+      "reason": "instant",
+      "score": {
+        "Y": 0,
+        "K": 33
+      },
+      "turns": 138,
+      "seed": 19010
+    },
+    "action_reproduction_mismatches": [],
+    "stats": {
+      "flag_turns": 845,
+      "recovered_valid_missions": 736,
+      "continued_missions": 692,
+      "active_output_missions": 838,
+      "stalled_output_missions": 360,
+      "three_stall_output_missions": 78,
+      "F_move_units": 565,
+      "one_step_reverse_flow_units": 128,
+      "F_hold_units": 297
+    },
+    "memory_trace": "/tmp/yk-mission-memory-audit-20261001/831b34880a9fcf3c345ef71d.json",
+    "replay_sha256": "2f6a0c885b2aa3b894f7c4c8bbc56586c784380acdc349dd6a49a8b04a631294"
+  },
+  {
+    "run": "development-common",
+    "job_id": "4f2e5cf743294a2a96bd831f",
+    "map_seed": 19010,
+    "side": "Y",
+    "opponent": "s3_selective_contact",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 16,
+        "K": 19
+      },
+      "turns": 160,
+      "seed": 19010
+    },
+    "action_reproduction_mismatches": [],
+    "stats": {
+      "flag_turns": 891,
+      "recovered_valid_missions": 806,
+      "continued_missions": 740,
+      "active_output_missions": 891,
+      "stalled_output_missions": 308,
+      "three_stall_output_missions": 38,
+      "F_move_units": 783,
+      "one_step_reverse_flow_units": 167,
+      "F_hold_units": 120
+    },
+    "memory_trace": "/tmp/yk-mission-memory-audit-20261001/4f2e5cf743294a2a96bd831f.json",
+    "replay_sha256": "116a3f2d49e769239a9c4044ecc811b58db9c1eece632bd102673e380111cf75"
+  },
+  {
+    "run": "development-common",
+    "job_id": "81b32c6a7c4aa249159323da",
+    "map_seed": 19012,
+    "side": "Y",
+    "opponent": "s3_selective_contact",
+    "result": {
+      "winner": "K",
+      "reason": "instant",
+      "score": {
+        "Y": 0,
+        "K": 36
+      },
+      "turns": 62,
+      "seed": 19012
+    },
+    "action_reproduction_mismatches": [],
+    "stats": {
+      "flag_turns": 401,
+      "recovered_valid_missions": 379,
+      "continued_missions": 311,
+      "active_output_missions": 409,
+      "stalled_output_missions": 101,
+      "three_stall_output_missions": 10,
+      "F_move_units": 352,
+      "one_step_reverse_flow_units": 58,
+      "F_hold_units": 61
+    },
+    "memory_trace": "/tmp/yk-mission-memory-audit-20261001/81b32c6a7c4aa249159323da.json",
+    "replay_sha256": "866cd35eb6c337f08c2fc14af7514a49ab937263d73365c0b90e2c89ad051bbf"
+  }
+]

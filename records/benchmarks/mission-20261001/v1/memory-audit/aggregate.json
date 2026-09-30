@@ -1,0 +1,42 @@
+{
+  "source_sha256": "657693b842b738ce92f0e3b99746e3d6d10a44fe8ab5f52b6433b28bc8a950b3",
+  "games": 17,
+  "turns": 2251,
+  "command_mismatches": 0,
+  "groups": {
+    "pilot-direct": {
+      "games": 8,
+      "stats": {
+        "flag_turns": 7288,
+        "recovered_valid_missions": 6542,
+        "continued_missions": 5887,
+        "active_output_missions": 7264,
+        "stalled_output_missions": 2450,
+        "three_stall_output_missions": 347,
+        "F_move_units": 5728,
+        "one_step_reverse_flow_units": 1102,
+        "F_hold_units": 1654
+      },
+      "valid_memory_recovery_rate": 0.8976399560922064,
+      "same_mission_continuation_rate": 0.8104350220264317,
+      "reverse_flow_ratio": 0.19238826815642457
+    },
+    "development-common": {
+      "games": 9,
+      "stats": {
+        "flag_turns": 6081,
+        "recovered_valid_missions": 5496,
+        "continued_missions": 4926,
+        "active_output_missions": 6103,
+        "stalled_output_missions": 2120,
+        "three_stall_output_missions": 348,
+        "F_move_units": 4805,
+        "one_step_reverse_flow_units": 919,
+        "F_hold_units": 1387
+      },
+      "valid_memory_recovery_rate": 0.9037987173162308,
+      "same_mission_continuation_rate": 0.8071440275274455,
+      "reverse_flow_ratio": 0.19125910509885535
+    }
+  }
+}

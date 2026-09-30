@@ -1,0 +1,180 @@
+{
+  "source": "tests/test_mission_scheduler.py::audit_commands",
+  "source_file_sha256": "69627837d4d291277af5a6b1f993323698916d56dd1ab44cced0886ed01d8805",
+  "function_sha256": "2668d8ebfc3f884fe0a7dd0a653d6f83a59d03ae6a711d778dc8b9bdf52bf743",
+  "frozen_function": "strict_commands.py",
+  "original_team_turns": 8,
+  "original_failures": 0,
+  "corrected_alternative_team_turns": 8,
+  "corrected_alternative_failures": 0,
+  "legacy_failures": [
+    {
+      "turn": 15,
+      "original": {
+        "Y": {
+          "status": "pass",
+          "commands": 23
+        },
+        "K": {
+          "status": "pass",
+          "commands": 14
+        }
+      },
+      "corrected_alternative": {
+        "Y": {
+          "status": "pass",
+          "commands": 23
+        },
+        "K": {
+          "status": "pass",
+          "commands": 15
+        }
+      },
+      "legacy_alternative": {
+        "Y": {
+          "status": "pass",
+          "commands": 23
+        },
+        "K": {
+          "status": "fail",
+          "error": "Departure stock clipped: Move(x=10, y=11, kind='W', count=10, direction='R'), available=9"
+        }
+      }
+    }
+  ],
+  "all_four_corrected_full_states_equal_legacy_engine_states": true,
+  "records": [
+    {
+      "turn": 14,
+      "original": {
+        "Y": {
+          "status": "pass",
+          "commands": 19
+        },
+        "K": {
+          "status": "pass",
+          "commands": 16
+        }
+      },
+      "corrected_alternative": {
+        "Y": {
+          "status": "pass",
+          "commands": 19
+        },
+        "K": {
+          "status": "pass",
+          "commands": 17
+        }
+      },
+      "legacy_alternative": {
+        "Y": {
+          "status": "pass",
+          "commands": 19
+        },
+        "K": {
+          "status": "pass",
+          "commands": 17
+        }
+      }
+    },
+    {
+      "turn": 15,
+      "original": {
+        "Y": {
+          "status": "pass",
+          "commands": 23
+        },
+        "K": {
+          "status": "pass",
+          "commands": 14
+        }
+      },
+      "corrected_alternative": {
+        "Y": {
+          "status": "pass",
+          "commands": 23
+        },
+        "K": {
+          "status": "pass",
+          "commands": 15
+        }
+      },
+      "legacy_alternative": {
+        "Y": {
+          "status": "pass",
+          "commands": 23
+        },
+        "K": {
+          "status": "fail",
+          "error": "Departure stock clipped: Move(x=10, y=11, kind='W', count=10, direction='R'), available=9"
+        }
+      }
+    },
+    {
+      "turn": 16,
+      "original": {
+        "Y": {
+          "status": "pass",
+          "commands": 17
+        },
+        "K": {
+          "status": "pass",
+          "commands": 12
+        }
+      },
+      "corrected_alternative": {
+        "Y": {
+          "status": "pass",
+          "commands": 17
+        },
+        "K": {
+          "status": "pass",
+          "commands": 13
+        }
+      },
+      "legacy_alternative": {
+        "Y": {
+          "status": "pass",
+          "commands": 17
+        },
+        "K": {
+          "status": "pass",
+          "commands": 13
+        }
+      }
+    },
+    {
+      "turn": 17,
+      "original": {
+        "Y": {
+          "status": "pass",
+          "commands": 22
+        },
+        "K": {
+          "status": "pass",
+          "commands": 14
+        }
+      },
+      "corrected_alternative": {
+        "Y": {
+          "status": "pass",
+          "commands": 22
+        },
+        "K": {
+          "status": "pass",
+          "commands": 14
+        }
+      },
+      "legacy_alternative": {
+        "Y": {
+          "status": "pass",
+          "commands": 22
+        },
+        "K": {
+          "status": "pass",
+          "commands": 14
+        }
+      }
+    }
+  ]
+}
