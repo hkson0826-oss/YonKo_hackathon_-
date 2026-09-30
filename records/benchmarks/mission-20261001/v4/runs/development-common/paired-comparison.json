@@ -1,0 +1,69 @@
+{
+  "baseline": "v8",
+  "comparisons": {
+    "mission4": {
+      "Y": {
+        "paired_maps": 4,
+        "paired_games": 12,
+        "point_rate_difference": -0.16666666666666669,
+        "map_cluster_bootstrap_95pct": [
+          -0.8333333333333333,
+          0.5
+        ],
+        "opponent_point_rate_difference": {
+          "j_balanced_portfolio": 0.0,
+          "s3_selective_contact": -0.25,
+          "r3_opponent_league": -0.25
+        }
+      },
+      "K": {
+        "paired_maps": 4,
+        "paired_games": 12,
+        "point_rate_difference": -0.25,
+        "map_cluster_bootstrap_95pct": [
+          -0.5,
+          0.0
+        ],
+        "opponent_point_rate_difference": {
+          "s3_selective_contact": 0.0,
+          "j_balanced_portfolio": -0.5,
+          "r3_opponent_league": -0.25
+        }
+      }
+    },
+    "mission3": {
+      "Y": {
+        "paired_maps": 4,
+        "paired_games": 12,
+        "point_rate_difference": -0.16666666666666669,
+        "map_cluster_bootstrap_95pct": [
+          -0.8333333333333333,
+          0.5
+        ],
+        "opponent_point_rate_difference": {
+          "r3_opponent_league": -0.25,
+          "s3_selective_contact": -0.25,
+          "j_balanced_portfolio": 0.0
+        }
+      },
+      "K": {
+        "paired_maps": 4,
+        "paired_games": 12,
+        "point_rate_difference": -0.41666666666666663,
+        "map_cluster_bootstrap_95pct": [
+          -0.5833333333333333,
+          -0.3333333333333333
+        ],
+        "opponent_point_rate_difference": {
+          "r3_opponent_league": -0.25,
+          "s3_selective_contact": -0.25,
+          "j_balanced_portfolio": -0.75
+        }
+      }
+    }
+  },
+  "interpretation": "Small local fixed-opponent samples; no automatic promotion or leaderboard-score claim.",
+  "complete": true,
+  "errors": 0,
+  "forfeits": 0
+}

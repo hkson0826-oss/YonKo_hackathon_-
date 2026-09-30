@@ -1,0 +1,23 @@
+{
+  "created_utc": "2026-09-30T18:39:47.834705+00:00",
+  "stage": "development",
+  "baseline": "mission4",
+  "hypothesis": "Late-F revision direct developmental matchup; distinct from generalization",
+  "source_commit": "2821a5c0d0282935e3068a09b042caa276c2bc0e",
+  "source_sha256": {
+    "v8": "61a4f25113d9bf2c387a59ddc770a3143de6311e3fd2e004827a66eb78edfbc9",
+    "mission4": "b06263e5cffee351fa23e6279b2f6f5f1cda0a5c1106cfc3516c005aad97c9e7"
+  },
+  "map_seeds": [
+    19000,
+    19001,
+    19002,
+    19003
+  ],
+  "policy_rng_seed": 20260927,
+  "candidate_runtime_args": {},
+  "scheduled_jobs": 8,
+  "workers": 2,
+  "resource_policy": "Official engine turn timeout; inherited 384MiB RLIMIT_AS after compilation",
+  "stop_policy": "Any error/forfeit blocks promotion; deadline decisions and candidate locking belong to the operator."
+}

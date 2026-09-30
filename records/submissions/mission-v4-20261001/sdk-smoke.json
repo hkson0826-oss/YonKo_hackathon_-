@@ -1,0 +1,113 @@
+{
+  "ok": true,
+  "issues": [],
+  "result": {
+    "winner": "Y",
+    "reason": "instant",
+    "score": {
+      "Y": 24,
+      "K": 0
+    },
+    "turns": 17,
+    "seed": 0
+  },
+  "output_usage": {
+    "stdout_bytes": 3147,
+    "stderr_bytes": 0,
+    "max_line_bytes": 23,
+    "turns": [
+      {
+        "turn": 1,
+        "bytes": 42,
+        "lines": 4
+      },
+      {
+        "turn": 2,
+        "bytes": 69,
+        "lines": 6
+      },
+      {
+        "turn": 3,
+        "bytes": 74,
+        "lines": 6
+      },
+      {
+        "turn": 4,
+        "bytes": 89,
+        "lines": 7
+      },
+      {
+        "turn": 5,
+        "bytes": 104,
+        "lines": 8
+      },
+      {
+        "turn": 6,
+        "bytes": 134,
+        "lines": 10
+      },
+      {
+        "turn": 7,
+        "bytes": 149,
+        "lines": 11
+      },
+      {
+        "turn": 8,
+        "bytes": 177,
+        "lines": 13
+      },
+      {
+        "turn": 9,
+        "bytes": 192,
+        "lines": 14
+      },
+      {
+        "turn": 10,
+        "bytes": 212,
+        "lines": 15
+      },
+      {
+        "turn": 11,
+        "bytes": 255,
+        "lines": 18
+      },
+      {
+        "turn": 12,
+        "bytes": 270,
+        "lines": 19
+      },
+      {
+        "turn": 13,
+        "bytes": 260,
+        "lines": 18
+      },
+      {
+        "turn": 14,
+        "bytes": 272,
+        "lines": 19
+      },
+      {
+        "turn": 15,
+        "bytes": 275,
+        "lines": 19
+      },
+      {
+        "turn": 16,
+        "bytes": 288,
+        "lines": 20
+      },
+      {
+        "turn": 17,
+        "bytes": 285,
+        "lines": 19
+      }
+    ],
+    "unfinished_turn": {
+      "turn": 18,
+      "bytes": 0,
+      "lines": 0
+    },
+    "warnings": []
+  },
+  "warnings": []
+}

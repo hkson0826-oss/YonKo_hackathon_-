@@ -1,0 +1,26 @@
+{
+  "status": "fresh_selection_required",
+  "games": 104,
+  "frames": 14457,
+  "errors": 0,
+  "forfeits": 0,
+  "semantic_issues": 0,
+  "common_wins": {
+    "mission4": 12,
+    "mission3": 10,
+    "v8": 17
+  },
+  "teammate_wins": {
+    "mission4": 5,
+    "mission3": 6,
+    "v8": 8
+  },
+  "direct_v8": {
+    "mission4": {
+      "wins": 7,
+      "losses": 1
+    }
+  },
+  "source_sha256": "b06263e5cffee351fa23e6279b2f6f5f1cda0a5c1106cfc3516c005aad97c9e7",
+  "interpretation": "One intended late-F fix causally supported by identical trajectories to154; other early timed-opponent divergence prevents attributing aggregate differences purely to the patch. No promotion. Both frozen mission versions enter fresh selection as documented before selection."
+}
