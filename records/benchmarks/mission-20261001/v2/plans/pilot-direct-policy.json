@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-09-30T18:12:25.815123+00:00",
+  "stage": "development",
+  "baseline": "mission2",
+  "hypothesis": "Rendezvous revision compared on original development direct maps; not fresh validation",
+  "source_commit": "4ac5c5ae61f5b06cca35f2005744016c50c2ad5b",
+  "source_sha256": {
+    "v8": "61a4f25113d9bf2c387a59ddc770a3143de6311e3fd2e004827a66eb78edfbc9",
+    "mission2": "6b9429deea930a2575f4a91d36859a4a238b4306bf843cc5013b5599265e1aa0"
+  },
+  "map_seeds": [
+    19000,
+    19001,
+    19002,
+    19003
+  ],
+  "policy_rng_seed": 20260927,
+  "scheduled_jobs": 8,
+  "workers": 3,
+  "resource_policy": "Official engine turn timeout; inherited 384MiB RLIMIT_AS after compilation",
+  "stop_policy": "Any error/forfeit blocks promotion; deadline decisions and candidate locking belong to the operator."
+}

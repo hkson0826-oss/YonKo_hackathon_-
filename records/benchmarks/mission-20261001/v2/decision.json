@@ -1,0 +1,26 @@
+{
+  "source_sha256": "6b9429deea930a2575f4a91d36859a4a238b4306bf843cc5013b5599265e1aa0",
+  "status": "not_promoted",
+  "direct": {
+    "maps": 4,
+    "wins": 5,
+    "losses": 3
+  },
+  "common": {
+    "maps": 4,
+    "mission2": {
+      "wins": 2,
+      "losses": 22
+    },
+    "v8": {
+      "wins": 16,
+      "losses": 8
+    }
+  },
+  "counterexample": "Stationary guard hospital captured at16 withall7Falive; v1 failed6turns.",
+  "invalid_actions": 0,
+  "forfeits": 0,
+  "errors": 0,
+  "conclusion": "Local rendezvous contract fixed but broader superiority absent. One-win change vs v1 is small and opponents contain time-budgeted choices; do not attribute entire difference causally to rendezvous.",
+  "next": "Separately diagnose omitted HALL defense deadline; consider controlled rendezvous ablation after repair."
+}

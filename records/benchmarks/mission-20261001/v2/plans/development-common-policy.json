@@ -1,0 +1,25 @@
+{
+  "created_utc": "2026-09-30T18:12:25.781795+00:00",
+  "stage": "development",
+  "baseline": "v8",
+  "hypothesis": "Persistent rendezvous converts surviving F into captures; unchanged strong common development maps",
+  "source_commit": "4ac5c5ae61f5b06cca35f2005744016c50c2ad5b",
+  "source_sha256": {
+    "s3_selective_contact": "db83d9aa0e8809aaffd6b36ffc47972996d832d987947187af600d3a8419d96c",
+    "v8": "61a4f25113d9bf2c387a59ddc770a3143de6311e3fd2e004827a66eb78edfbc9",
+    "mission2": "6b9429deea930a2575f4a91d36859a4a238b4306bf843cc5013b5599265e1aa0",
+    "r3_opponent_league": "33020d61999456342ea39b3f99e53388914b0ccf98536e2b99ae5e60c31f66cf",
+    "j_balanced_portfolio": "534f55f1d6641ed788ca637663456e43375297d8016ac9832c589b0a012c8422"
+  },
+  "map_seeds": [
+    19010,
+    19011,
+    19012,
+    19013
+  ],
+  "policy_rng_seed": 20260927,
+  "scheduled_jobs": 48,
+  "workers": 6,
+  "resource_policy": "Official engine turn timeout; inherited 384MiB RLIMIT_AS after compilation",
+  "stop_policy": "Any error/forfeit blocks promotion; deadline decisions and candidate locking belong to the operator."
+}
