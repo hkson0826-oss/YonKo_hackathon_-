@@ -25,9 +25,10 @@ from engine.config import load_config
 from engine.state import new_game
 from runner.bots import SubprocessBot
 from runner.protocol import parse_commands, serialize_init, serialize_turn
-from mission_scheduler_cases import OFFICIAL_REPLAY, official_history_before, state_from_observation, tactical_state
+from mission_scheduler_cases import (OFFICIAL_REPLAY, RENDEZVOUS_REPLAY, official_history_before,
+                                     rendezvous_history_before, state_from_observation, tactical_state)
 
-SOURCE = ROOT / 'experiments/mission_scheduler_20261001/main.cpp'
+SOURCE = Path(os.environ.get('MISSION_SCHEDULER_SOURCE', ROOT / 'experiments/mission_scheduler_20261001/main.cpp')).resolve()
 
 
 def audit_commands(state, side, lines):
@@ -251,6 +252,54 @@ class MissionSchedulerProtocolTests(unittest.TestCase):
             state, result = run_turn(state, commands, [])
             if result:
                 break
+
+    @unittest.skipUnless(RENDEZVOUS_REPLAY.is_file(), 'Archived rendezvous development replay is unavailable')
+    def test_stationary_hospital_guard_is_cleared_after_delayed_escort_arrives(self):
+        history, replay = rendezvous_history_before(13)
+        state = history[0]
+        bot = self.bot(state)
+        matched = 0
+        for index, state in enumerate(history[:-1]):
+            commands = self.ask(bot, state)
+            raw = self.audit['observations'][-1]['raw']
+            matched += raw == replay['turns'][index]['commands']['Y']
+        state = history[-1]
+        self.assertEqual(state.get_unit(9, 3, 'Y', 'F'), 1)
+        self.assertEqual(state.get_unit(7, 4, 'Y', 'W'), 3)
+        self.assertEqual(state.get_unit(10, 3, 'K', 'W'), 1)
+        target = state.building_at(10, 3)
+        self.assertEqual(target.btype, 'HOSPITAL')
+        self.assertNotIn(target.id, state.revealed['Y'])
+        serialized = serialize_turn(state, 'Y', 13)
+        self.assertIn(f'{target.id} 10 3 HOSPITAL N 0 -1', serialized)
+        trace = {'source_replay_sha256': hashlib.sha256(RENDEZVOUS_REPLAY.read_bytes()).hexdigest(),
+                 'branch_input_turn': 13, 'original_history_outputs_matched': matched,
+                 'original_history_outputs_compared': len(history) - 1,
+                 'opponent_assumption': 'No movement or production after original turn 12',
+                 'information': 'Official serialize_turn filters all hidden building scores',
+                 'turns': [], 'captured_turn': None}
+        self.audit['rendezvous_case'] = trace
+        for _ in range(6):
+            commands = self.ask(bot, state)
+            initial_flags = flags(state, 'Y')
+            births = sum(c.count for c in commands if isinstance(c, Spawn) and c.kind == 'F')
+            after, result = run_turn(state, commands, [])
+            trace['turns'].append({'turn': after.turn, 'commands': self.audit['observations'][-1]['raw'],
+                                   'target_owner': after.buildings[target.id].owner,
+                                   'flags_before': initial_flags, 'flag_births': births,
+                                   'flags_after': flags(after, 'Y'),
+                                   'units_after': [[team, kind, x, y, count]
+                                                   for (x, y, team, kind), count in sorted(after.units.items())]})
+            self.assertEqual(flags(after, 'Y'), initial_flags + births,
+                             'The escort repair must preserve existing flags against the stationary opponent')
+            if after.buildings[target.id].owner == 'Y':
+                trace['captured_turn'] = after.turn
+                self.assertGreater(after.get_unit(10, 3, 'Y', 'F'), 0)
+                break
+            state = after
+            self.assertIsNone(result, 'The counterfactual ended before the hospital mission could be checked')
+        self.assertIsNotNone(trace['captured_turn'],
+                             'The adjacent flag and nearby W3 should coordinate to take the W1-guarded hospital within six turns')
 
     @unittest.skipUnless(OFFICIAL_REPLAY.is_file(), 'Latest official development replay is unavailable')
     def test_official_turn_29_has_no_flag_suicide_against_stationary_enemy(self):

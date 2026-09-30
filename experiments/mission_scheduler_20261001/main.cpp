@@ -89,6 +89,14 @@ struct World {
 };
 struct Memory { int expected, goal, previousDistance, age=0, stalled=0; };
 vector<Memory> memories;
+struct SupportGroup {int expected,count;};
+struct SupportContract {
+    int goal, flagExpected, rally, need, age=0;
+    vector<SupportGroup> groups;
+};
+struct SupportIntent {int goal,from,next;};
+vector<SupportContract> supportMemory;
+vector<SupportIntent> supportIntents;
 int lastTurn=0;
 array<bool, MAX_BUILDINGS> depotSeen{};
 
@@ -251,6 +259,105 @@ int warriorStep(const Plan& p,const Forecast& f,int src,int goal,int amount) {
     }
     return best;
 }
+
+int supportNeed(const Forecast& f,int cell) {
+    return f.reachableW[cell]+(f.reachableF[cell]>0?1:0);
+}
+int forwardStep(const Forecast& f,int from,int goal) {
+    int best=-1;double rank=-1e30;
+    for(int c:board.adj[from])if(board.distance[c][goal]<board.distance[from][goal]) {
+        double score=-supportNeed(f,c)*2.-board.distance[c][goal];
+        if(score>rank){rank=score;best=c;}
+    }
+    return best;
+}
+
+// Reserve a short rendezvous before asking the independent F allocator to move.
+void rendezvous(Plan& seed,const World& w,const Forecast& f,const vector<Token>& flags) {
+    supportIntents.clear();
+    vector<SupportContract> requests;
+    array<bool,MAX_BUILDINGS> taken{};
+    for(const auto& old:supportMemory) {
+        if(old.goal<0||old.goal>=board.count||w.owner[old.goal]==0||old.age>=7)continue;
+        auto flag=find_if(flags.begin(),flags.end(),[&](const Token& t){return !t.newFlag&&t.pos==old.flagExpected&&t.goal==old.goal;});
+        if(flag==flags.end())continue;
+        SupportContract next=old;next.age++;requests.push_back(move(next));taken[old.goal]=true;
+    }
+    vector<Token> order=flags;
+    stable_sort(order.begin(),order.end(),[&](const Token&a,const Token&b){
+        auto rank=[&](const Token&t){return t.goal<0?-1.:value(w,t.goal)/(board.distance[t.pos][board.pos[t.goal]]+2.);};
+        return rank(a)>rank(b);
+    });
+    for(const auto& flag:order) {
+        if(flag.newFlag||flag.goal<0||taken[flag.goal]||requests.size()>=3||w.left<5)continue;
+        int goal=board.pos[flag.goal];int exit=forwardStep(f,flag.pos,goal);
+        if(exit<0)continue;
+        int need=supportNeed(f,exit),near=0;
+        for(int c=0;c<board.size;++c)if(board.distance[c][exit]<=1)near+=seed.availableW[c];
+        if(need<=near||need==0)continue;
+        int rally=-1;double best=1e30;
+        vector<int> options=board.adj[flag.pos];options.push_back(flag.pos);
+        for(int c:options) {
+            if(f.reachableW[c]>0)continue;
+            vector<pair<int,int>> supply;
+            for(int src=0;src<board.size;++src)if(seed.availableW[src]&&board.distance[src][c]<=3)
+                supply.push_back({board.distance[src][c],seed.availableW[src]});
+            sort(supply.begin(),supply.end());int count=0,eta=INF;
+            for(auto [d,n]:supply){count+=n;if(count>=need){eta=d;break;}}
+            if(count<need)continue;
+            double score=eta*2+board.distance[c][goal]+(c==flag.pos?0:.3);
+            if(score<best){best=score;rally=c;}
+        }
+        if(rally>=0){requests.push_back({flag.goal,flag.pos,rally,need,0,{}});taken[flag.goal]=true;}
+    }
+    vector<SupportContract> retained;
+    for(auto request:requests) {
+        Plan plan=seed;
+        int from=request.flagExpected,goal=board.pos[request.goal];
+        int progress=forwardStep(f,from,goal);
+        if(progress<0)continue;
+        int required=max(1,supportNeed(f,progress));
+        request.need=max(required,request.need);
+        vector<pair<int,int>> groups;
+        int supplied=0;
+        // Anonymous stacks are recovered only up to their current observed count.
+        for(const auto& old:request.groups) {
+            int take=min(old.count,plan.availableW[old.expected]);
+            if(take>0){plan.availableW[old.expected]-=take;groups.push_back({old.expected,take});supplied+=take;}
+        }
+        vector<int> sources;
+        for(int src=0;src<board.size;++src)if(plan.availableW[src]&&board.distance[src][request.rally]<=3)sources.push_back(src);
+        stable_sort(sources.begin(),sources.end(),[&](int a,int b){return board.distance[a][request.rally]<board.distance[b][request.rally];});
+        for(int src:sources)if(supplied<request.need) {
+            int take=min(request.need-supplied,plan.availableW[src]);
+            plan.availableW[src]-=take;groups.push_back({src,take});supplied+=take;
+        }
+        if(supplied<request.need)continue;
+        int ready=0;for(auto [src,count]:groups)if(board.distance[src][progress]<=1)ready+=count;
+        bool advance=ready>=required&&from==request.rally;
+        int flagNext=advance?progress:from;
+        if(!advance&&from!=request.rally) {
+            vector<int> options=board.adj[from];options.push_back(from);
+            int bestDistance=INF;
+            for(int c:options)if(f.reachableW[c]==0&&board.distance[c][request.rally]<bestDistance) {
+                bestDistance=board.distance[c][request.rally];flagNext=c;
+            }
+        }
+        vector<SupportGroup> expected;
+        for(auto [src,count]:groups) {
+            int dest;
+            if(advance&&board.distance[src][flagNext]<=1)dest=flagNext;
+            else dest=warriorStep(plan,f,src,request.rally,count);
+            addMove(plan,W,src,dest,count);expected.push_back({dest,count});
+        }
+        if(plan.arrivalW[flagNext]<f.reachableW[flagNext])continue;
+        request.flagExpected=flagNext;request.groups=move(expected);
+        if(advance)request.rally=flagNext;
+        seed=move(plan);supportIntents.push_back({request.goal,from,flagNext});retained.push_back(move(request));
+    }
+    supportMemory=move(retained);
+}
+
 void reserveDefenders(Plan& p,const World& w,const Forecast& f,const vector<Defender>& tasks) {
     for(const auto& task:tasks) {
         int target=board.pos[task.building];
@@ -300,11 +407,14 @@ double progressCost(const World& w,const Forecast& f,int start,int goal) {
     return best;
 }
 vector<Candidate> candidates(const World& w,const Forecast& f,const Token& token) {
+    const SupportIntent* support=nullptr;
+    for(const auto& intent:supportIntents)if(token.pos==intent.from&&token.goal==intent.goal)support=&intent;
     vector<int> starts=token.newFlag?w.sites:vector<int>{token.pos};
     vector<Candidate> out;
     for(int src:starts) {
         vector<pair<double,int>> goals;
         for(int b=0;b<board.count;++b)if(w.owner[b]!=0) {
+            if(support&&support->goal!=b)continue;
             int distance=board.distance[src][board.pos[b]];
             if(distance>=INF||max(1,distance)>w.left)continue;
             double rank=value(w,b)/(distance+3.);
@@ -318,6 +428,7 @@ vector<Candidate> candidates(const World& w,const Forecast& f,const Token& token
             vector<pair<int,bool>> steps{{src,false}};for(int n:board.adj[src])steps.push_back({n,false});
             for(int n:w.stations)if(stationLink(w,src,n))steps.push_back({n,true});
             for(auto [dest,tele]:steps) {
+                if(support&&(dest!=support->next||tele))continue;
                 int d=board.distance[dest][goal];
                 if(d>board.distance[src][goal]+1)continue;
                 double route=progressCost(w,f,dest,goal);
@@ -509,7 +620,7 @@ vector<string> commands(const Plan& p,const World& w) {
 
 vector<string> decide(const p::View& view,const p::Init& in) {
     auto start=chrono::steady_clock::now();
-    if(lastTurn==0||view.turn<=lastTurn) {board.init(in);memories.clear();depotSeen.fill(false);}
+    if(lastTurn==0||view.turn<=lastTurn) {board.init(in);memories.clear();supportMemory.clear();supportIntents.clear();depotSeen.fill(false);}
     World w(view,in);Forecast f(w);
     for(int b=0;b<board.count;++b)if(w.owner[b]==0&&board.type[b]==DEPOT)depotSeen[b]=true;
     auto flags=tokens(w);int actual=int(flags.size());
@@ -519,9 +630,13 @@ vector<string> decide(const p::View& view,const p::Init& in) {
     int extra=min(actual==0?2:1,max(0,desired-actual));
     for(int i=0;i<extra;++i)flags.push_back({-1,-1,0,0,true});
     Plan seed;seed.money=w.money;copy(w.own[W],w.own[W]+board.size,seed.availableW.begin());
+    rendezvous(seed,w,f,flags);
     auto defense=defenseTasks(w);reserveDefenders(seed,w,f,defense);
     Plan plan=assignFlags(move(seed),w,f,move(flags),start+chrono::milliseconds(95));
     finishWarriors(plan,w,f,defense);
+    supportMemory.erase(remove_if(supportMemory.begin(),supportMemory.end(),[&](const SupportContract& c){
+        return none_of(plan.flags.begin(),plan.flags.end(),[&](const Assigned& a){return a.goal==c.goal&&a.next==c.flagExpected;});
+    }),supportMemory.end());
     memories.clear();
     for(const auto& a:plan.flags)if(a.goal>=0)memories.push_back({a.next,a.goal,board.distance[a.from][board.pos[a.goal]],a.age,a.stalled});
     lastTurn=view.turn;return commands(plan,w);

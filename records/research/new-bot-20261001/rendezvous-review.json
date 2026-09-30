@@ -1,0 +1,48 @@
+{
+  "task": "Independent multiturm delayed-escort regression case",
+  "candidate_v1_sha256": "657693b842b738ce92f0e3b99746e3d6d10a44fe8ab5f52b6433b28bc8a950b3",
+  "candidate_v2_sha256": "6b9429deea930a2575f4a91d36859a4a238b4306bf843cc5013b5599265e1aa0",
+  "source_replay_sha256": "866cd35eb6c337f08c2fc14af7514a49ab937263d73365c0b90e2c89ad051bbf",
+  "branch_input_turn": 13,
+  "opponent_assumption": "stationary with no production after original turn12",
+  "v1": {
+    "history_outputs_matched": 12,
+    "history_outputs_compared": 12,
+    "captured_within_six_turns": false,
+    "flag_deaths": 0
+  },
+  "v2": {
+    "protocol_tests": 10,
+    "passed": 10,
+    "observations": 63,
+    "maximum_response_ms": 5.345739002223127,
+    "captured_turn": 16,
+    "flag_deaths": 0,
+    "source_sha256_rechecked_after_tests": true
+  },
+  "positive_control": {
+    "captured_turn": 16,
+    "flag_deaths": 0,
+    "file": "/tmp/yk-mission-rendezvous-oracle-20261001.json"
+  },
+  "input_protection": [
+    "All original engine frames0..12 match archived snapshots exactly.",
+    "Bot receives only official serialize_init/serialize_turn; unrevealed scores stay -1.",
+    "Target hospital score is asserted hidden at branch input."
+  ],
+  "limitations": [
+    "Development regression case, not held-out match-strength evidence.",
+    "Warm-up uses original v1 observations, even where v2 would have chosen a different action.",
+    "Counterfactual enemy holds still; does not reproduce actual s3 policy."
+  ],
+  "owned_test_sha256": {
+    "tests/test_mission_scheduler.py": "69627837d4d291277af5a6b1f993323698916d56dd1ab44cced0886ed01d8805",
+    "tests/mission_scheduler_cases.py": "58ff2c6b6ebf1800f32c972d6f61fa7199748af268851291971803639471ae68",
+    "tests/test_mission_rules_20261001.py": "03a24e26d549cc61435a0d62185ee3b4e4d9978b2c5e83c28413a51d078e3d4b"
+  },
+  "evidence_files": [
+    "/tmp/yk-mission-rendezvous-v1-before-20261001.json",
+    "/tmp/yk-mission-rendezvous-v2-after-20261001.json",
+    "/tmp/yk-mission-rendezvous-oracle-20261001.json"
+  ]
+}

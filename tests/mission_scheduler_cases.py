@@ -1,6 +1,7 @@
 """Legal observations and engine fixtures for the independent mission-bot audit."""
 from pathlib import Path
 import json
+import gzip
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -66,3 +67,32 @@ def official_history_before(turn):
     observations = [row['observation'] for row in replay['turns']
                     if row['observation']['turn'] < turn]
     return replay['side'], sorted(observations, key=lambda row: row['turn'])
+
+
+RENDEZVOUS_REPLAY = ROOT / 'records/benchmarks/mission-20261001/v1/runs/development-common/replays/81b32c6a7c4aa249159323da.json.gz'
+
+
+def rendezvous_history_before(turn=13):
+    """Reconstruct original states, preserving reveal masks before protocol serialization."""
+    from engine.pipeline import run_turn
+    from runner.protocol import parse_commands
+    from runner.replay import snapshot
+
+    replay = json.loads(gzip.open(RENDEZVOUS_REPLAY, 'rt').read())
+    game_map = replay['map']
+    buildings = [Building(b['id'], b['x'], b['y'], b['type'], b['score'])
+                 for b in game_map['buildings']]
+    state = new_game(replay['config'], terrain=[list(row) for row in game_map['terrain']],
+                     buildings=buildings, bases=game_map['bases'])
+    history = [state]
+    for frame in replay['turns']:
+        if frame['turn'] >= turn:
+            break
+        state, _ = run_turn(state, parse_commands(frame['commands']['Y']),
+                           parse_commands(frame['commands']['K']))
+        if snapshot(state) != frame['state']:
+            raise AssertionError(f"Official engine does not reproduce source frame {frame['turn']}")
+        history.append(state)
+    if history[-1].turn != turn - 1:
+        raise AssertionError('Source replay does not reach requested observation')
+    return history, replay

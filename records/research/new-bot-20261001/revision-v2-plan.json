@@ -1,0 +1,43 @@
+{
+  "stage": "development_revision",
+  "parent_source_sha256": "657693b842b738ce92f0e3b99746e3d6d10a44fe8ab5f52b6433b28bc8a950b3",
+  "problem": "F survives but cannot convert troops into captures: strong common opponents3/24 vs v8 16/24. Visible W1 blocks hospital6 stationary-enemy turns with F7alive.",
+  "replay_case": {
+    "run": "development-common",
+    "job_id": "81b32c6a7c4aa249159323da",
+    "map_seed": 19012,
+    "side": "Y",
+    "input_turn": 13,
+    "target_hospital": [
+      10,
+      3
+    ]
+  },
+  "change": "Persistent rendezvous waypoint and2-3turn warrior escort reservation per stalled F mission, reconciled to observed anonymous troop counts. Preserve immediate stationary-enemy safety.",
+  "isolated_from": "Known missed cheap HALL defense in19013K is recorded separately; do not conflate its correction with this revision.",
+  "tests": "Existing9actualSDKcontracts plus stationary-enemy6turn hospital-capture counterexample, nohiddenpointinjection.",
+  "evaluation": {
+    "direct_seeds": [
+      19000,
+      19001,
+      19002,
+      19003
+    ],
+    "common_seeds": [
+      19010,
+      19011,
+      19012,
+      19013
+    ],
+    "baseline": "v8",
+    "strong_opponents": [
+      "s3_selective_contact",
+      "r3_opponent_league",
+      "j_balanced_portfolio"
+    ],
+    "workers": 6,
+    "replays": "all"
+  },
+  "freeze": "Commit and push source/test changes, then copy to new immutable arena before any games.",
+  "advance_condition": "Meaningful improvement on common opponents without new invalid actions; fresh selection/final maps required before claiming improvement or considering promotion."
+}
