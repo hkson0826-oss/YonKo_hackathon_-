@@ -1,0 +1,51 @@
+{
+  "status": "planned_before_any_selection_games",
+  "selection_rule_for_family": "Choose v4 only if development common and new-teammate outcomes are no worse than v3 without runtime/legality regression; otherwise use frozen v3. No parameter tuning on selection results.",
+  "rationale": "v3 beat v8 on all8 direct development games and improved common3/24→11/24 but remained behind fixed-opponent baseline. A bounded fresh-map comparison checks whether direct strength generalizes; not a presumption of superiority.",
+  "seeds": [
+    19100,
+    19101,
+    19102,
+    19103,
+    19104,
+    19105,
+    19106,
+    19107
+  ],
+  "stage": "selection",
+  "common": {
+    "candidates": [
+      "chosen_mission",
+      "v8"
+    ],
+    "opponents": [
+      "s3_selective_contact",
+      "r3_opponent_league",
+      "j_balanced_portfolio",
+      "team_v9_2"
+    ],
+    "games": 128,
+    "workers": 6
+  },
+  "direct": {
+    "candidate": "chosen_mission",
+    "opponent": "v8",
+    "games": 16,
+    "workers": 4
+  },
+  "teammate_policy_seed": 20261001,
+  "adoption_gate": {
+    "requirements": [
+      "No errors, forfeits, invalid/clipped commands or execution-limit violation.",
+      "Chosen mission point rate at least v8 both overall and registered Y side, with positive difference in at least one.",
+      "No common opponent point-rate regression worse than0.25, direct point rate at least0.5."
+    ],
+    "if_pass": "Run separate final seeds19200–19207 with frozen code and same schedule. Never choose server submission from development or selection alone.",
+    "if_fail": "Stop promotion evaluation, deliver best independent research artifact and preserve selected server v8. Keep final seeds unused."
+  },
+  "limitations": [
+    "Eight new maps with paired sides are still a small sample; report map-cluster uncertainty and allside/opponent strata.",
+    "Time-budgeted opponent policy can vary despite source and RNG seeds fixed.",
+    "Mapseeds19100–19107 are not used for tuning; failure may guide documented future work but no further code revision in this selection cycle."
+  ]
+}
