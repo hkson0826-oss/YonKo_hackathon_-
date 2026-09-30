@@ -1,0 +1,25 @@
+{
+  "candidate": "guard4",
+  "base": "guard3_site_v8",
+  "files": {
+    "README.md": "8cadc6a8f3bae4e44c9ae90ff924025986cb0961fcbad8387af5e3fe343d41c6",
+    "fixture-sources.json": "fc8712cfa73531eed7cb38990607f9390f0baa31b92a2fb47f2ee05b7404e8a2",
+    "fixtures.inc": "5dad393a3c81c393ac5d36fdc3ee24258184d5b06ba1deac580afa91d6baa3c8",
+    "generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "main.cpp": "c7f1ed99244087eb2e9f5b4a6c8a49bfadd1687898c2ca99a3db4292e490713d",
+    "make_probe.py": "d0d15f256fd54c2a2ddb6b4a2e0f5a08092c2d2013234b5ffffa400fdacb2577",
+    "official-check.json": "ffb592f74f88bd65dc0e10dbd20fa4f0f3f9d7ff62a65a402abfe783e23dd515",
+    "official_check.py": "fc5931715d1f4f00b408cf6b9e503a96988327ec0da5fc5b3d6a4660c3613720",
+    "old_guard.inc": "c3383e64d8ed7fe9e71931166c299aaf589af21e360cf92e31fa4860dceff7ec",
+    "probe.cpp": "4712da286d825a5407cd37c74358df47d655e149744d1060343cec94d42e23f4",
+    "probe.log": "2a41f02c06e1e01d8480737f2c6024864e81d53d9f434c265b8f9dbe192d9918",
+    "protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "source.diff": "e043c41995359d38d06820f0c0a8ac22ed54ab973f6a50a6383228543daeddc2",
+    "submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60"
+  },
+  "compiler": "g++ (GCC) 16.2.1 20260810",
+  "probe_checks": 25,
+  "official_transitions": 32,
+  "full_games": 0,
+  "status": "focused_checks_passed_not_promoted"
+}

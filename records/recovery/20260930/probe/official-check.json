@@ -1,0 +1,47 @@
+{
+  "all_passed": true,
+  "official_transitions": 32,
+  "cases": [
+    {
+      "replay_id": "4c3c7c788e84b8d7e1630fdd",
+      "verified_official_turns": 8,
+      "team": "K",
+      "target": [
+        10,
+        5
+      ],
+      "target_w_after_turn8": 6
+    },
+    {
+      "replay_id": "0bae688770a51815defd7530",
+      "verified_official_turns": 8,
+      "team": "K",
+      "target": [
+        10,
+        5
+      ],
+      "target_w_after_turn8": 7
+    },
+    {
+      "replay_id": "918d12cb7db927282197b8da",
+      "verified_official_turns": 8,
+      "team": "Y",
+      "target": [
+        4,
+        9
+      ],
+      "target_w_after_turn8": 4
+    },
+    {
+      "replay_id": "f1c487612439cfec8e08ea50",
+      "verified_official_turns": 8,
+      "team": "Y",
+      "target": [
+        4,
+        9
+      ],
+      "target_w_after_turn8": 5
+    }
+  ],
+  "meaning": "Exact candidate equals recorded baseline action at turn8 (C++ probe); official engine replay independently reproduces resulting W6/W4, versus old guard3 W7/W5. No full-game counterfactual or win-rate claim."
+}

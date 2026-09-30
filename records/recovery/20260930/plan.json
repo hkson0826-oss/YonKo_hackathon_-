@@ -59,5 +59,6 @@
   "acceptance": "Existing audited deadline criteria unchanged; selection primary Y must improve, final Y/overall must not regress, no opponent-side loss of >=3 wins, zero runtime errors or forfeits, actual ZIP GCC12 and semantic action audit must pass.",
   "fallback": "Retain submitted guard3/v8 if promotion lacks evidence or browser authentication is unavailable. Never represent a local test or attempted upload as a verified site submission.",
   "deadline_policy": "Finish candidate decision and packaging by 19:40 KST; prioritize verified site status by 19:45 KST ahead of today 20:00.",
-  "live_access": "At 19:10 KST only an unauthenticated in-app browser is connected; user requested to log in/reconnect Chrome. Latest live state unavailable until then."
+  "live_access": "At 19:10 KST only an unauthenticated in-app browser is connected; user requested to log in/reconnect Chrome. Latest live state unavailable until then.",
+  "team_plan_alignment": "Latest teammate revision adds planning only; executable source hashes match frozen opponent. September30 uses a minimal redundant-reserve fix, October1 reserved for freezing and report. Do not expand architectural changes without fresh official failure evidence."
 }

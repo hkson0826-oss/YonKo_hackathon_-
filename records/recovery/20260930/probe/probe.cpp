@@ -51,5 +51,18 @@ int main() {
         s.turn=150;
         check("turn150_unchanged",equal(deadline_guard(s,0,a),a));
     }
+    {
+        State s=setup({{78,ENG},{202,STATION},{82,STATION}});s.owner[1]=s.owner[2]=1;
+        s.u[1][F][83]=0;s.u[1][F][202]=1;s.u[0][W][78]=1;
+        Action a;a.moves={{W,78,79,1}};
+        auto b=deadline_guard(s,0,a);
+        check("enemy_flag_teleport_alert_preserved",equal(b,old_guard(s,0,a))&&!equal(b,a_clean(s,0,a)));
+    }
+    {
+        State s=setup({{78,ENG},{77,STATION},{50,STATION}});s.u[0][W][50]=3;s.u[0][W][78]=1;
+        Action a;a.moves={{W,78,79,1},{W,50,77,3,true},{W,77,78,3}};
+        auto b=deadline_guard(s,0,a);
+        check("teleport_arrival_not_reused",equal(b,old_guard(s,0,a))&&projected_w(s,b,78)>=1);
+    }
     cout<<"checks="<<checks<<" all_passed=true\n";
 }

@@ -21,4 +21,6 @@ two_other_reservations_happen: PASS
 flag_escort_stays_intact: PASS
 enemy_warrior_threat_unchanged: PASS
 turn150_unchanged: PASS
-checks=23 all_passed=true
+enemy_flag_teleport_alert_preserved: PASS
+teleport_arrival_not_reused: PASS
+checks=25 all_passed=true
