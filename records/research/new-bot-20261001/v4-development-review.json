@@ -1405,5 +1405,55 @@
   "limitations": [
     "Development seeds were already used for repairs. Fresh selection remains required.",
     "A pre-turn153 difference is not evidence of the late-F rule effect. Exact cause of runtime/opponent variance is not inferred without instrumentation."
-  ]
+  ],
+  "selection_assessment": {
+    "literal_development_rule": "v3: v4 did not match or exceed teammate win count (5/8 vs6/8).",
+    "recommendation": "Amend the fresh-selection plan before inspecting new maps to include both frozen v3 and v4 with v8; no source changes or extra tuning.",
+    "rationale": [
+      "The intended19010K common-opponent witness has identical commands/states through154 and v4 F birth at155; it changes loss15:20 into win21:14.",
+      "All8 teammate pairs diverge first in opponent commands atturn5–28, when v4 late-F code is inactive; one apparent loss ends99turns before the feature can run.",
+      "Same frozenv3 teammate rerun changes5of8 outcomes, so the observed1-win difference has substantial opponent/runtime variance.",
+      "Development common totalv4+2 includes one clear late-F gain and one early opponent-driven divergence; do not attribute both wins to v4."
+    ],
+    "actual_late_margin_regression": {
+      "map_seed": 19011,
+      "side": "K",
+      "opponent": "r3_opponent_league",
+      "score_margin_change": -1,
+      "outcome_change": "win -> win"
+    },
+    "teammate_changed_outcomes": [
+      {
+        "map_seed": 19020,
+        "side": "Y",
+        "v3": "win",
+        "v4": "loss",
+        "first_opponent_difference": 28,
+        "first_own_difference": 31
+      },
+      {
+        "map_seed": 19020,
+        "side": "K",
+        "v3": "win",
+        "v4": "loss",
+        "first_opponent_difference": 28,
+        "first_own_difference": 30,
+        "v4_terminal_turn": 99
+      },
+      {
+        "map_seed": 19022,
+        "side": "Y",
+        "v3": "loss",
+        "v4": "win",
+        "first_opponent_difference": 14,
+        "first_own_difference": 16
+      }
+    ]
+  },
+  "opponent_runtime_context": {
+    "team_v9_2_command": "/tmp/yk-mission-arena-v4-20261001/bin/team_v9_2 --attack-seed=20261001",
+    "random_seed_fixed": true,
+    "wall_clock_budget_checks": "snapshot/candidates/team_v9_2/main.cpp:645,679 use steady_clock limits; s3_decide default135ms.",
+    "interpretation": "Fixed attack seed does not fix wall-clock search work. Replay proves opponent-first divergence; exact cutoff branch was not instrumented."
+  }
 }

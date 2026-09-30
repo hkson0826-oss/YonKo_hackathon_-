@@ -102,8 +102,21 @@
     "Latest 12 match identities read; only Coral raw JSON saved. Subsequent Chrome file downloads did not arrive; multiple-download permission is a hypothesis, user inquiry pending. No authentication bypass/cookie export.",
     "UI checkpoints for other four losses and two wins; no claim of full-turn analysis for those games.",
     "No current participant source code acquired. Public search did not establish recent participant strategy writeups.",
-    "Existing selected v8 not changed by this research."
+    "Initial selected v8 was observed early in the research. A later read found externally selected serverv9 v9_2.zip. No upload or selection change was performed by this task."
   ],
   "announcement_rechecked_at": "2026-10-01T03:25:26.152384+09:00",
-  "announcement_recheck": "All 11 announcements unchanged; newest maintenance notice 10/1 00:24:44. Authenticated Chrome DOM read."
+  "announcement_recheck": "All 11 announcements unchanged; newest maintenance notice 10/1 00:24:44. Authenticated Chrome DOM read.",
+  "dashboard_recheck": {
+    "checked_at": "2026-10-01T03:47:24.366086+09:00",
+    "selected_version": 9,
+    "selected_filename": "v9_2.zip",
+    "uploaded_kst": "2026-10-01 03:25",
+    "usable": true,
+    "rank": 33,
+    "points": 7,
+    "games": 12,
+    "results_published": "2026-10-01 00:09",
+    "action": "Read-only authenticated Chrome. Upload/selection changed externally during this research; assistant performed no upload or selection mutation. Preserve current selection.",
+    "provenance_limit": "Server ZIP has not been downloaded/hashed; same filename does not prove equality with Git main v9_2 source."
+  }
 }

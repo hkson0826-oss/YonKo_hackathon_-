@@ -45,7 +45,7 @@
       "No common opponent point-rate regression worse than0.25, direct point rate at least0.5."
     ],
     "if_pass": "Run separate final seeds19200–19207 with frozen code and same schedule. Never choose server submission from development or selection alone.",
-    "if_fail": "Stop promotion evaluation, deliver best independent research artifact and preserve selected server v8. Keep final seeds unused."
+    "if_fail": "Stop promotion evaluation, deliver the selected independent research artifact, leave current externally selected serverv9 unchanged, and keep final seeds unused."
   },
   "limitations": [
     "Eight new maps with paired sides are still a small sample; report map-cluster uncertainty and allside/opponent strata.",
@@ -57,5 +57,6 @@
     "prior_plan_commit": "b7daf6af",
     "source_changes": "none",
     "total_games": 224
-  }
+  },
+  "server_selection_update_during_run": "Authenticated dashboard later showed serverv9 v9_2.zip uploaded and selected externally at10/1 03:25. Local v8 stays the frozen benchmark baseline. This task will not restore v8 or change the current server selection from this comparison."
 }
