@@ -1,0 +1,296 @@
+{
+  "source": "/tmp/yk-new-bot-20261001/records/official/latest-20261001/raw/rolling-game-f8600dcbb568c94c1bf2715e2bae9e00fd16abc8333520f22a5fd05a1c25362c.json",
+  "source_sha256": "630113f4d9a2632f9857ccf2d30942933229746e355cd09d68a4b19eac00254d",
+  "verifier_sha256": "94e3aff5161e71b6e1d308d8b2f51898a61eb7dcb0e556f0b7ac624a669d4a28",
+  "game_id": "rolling-game-f8600dcbb568c94c1bf2715e2bae9e00fd16abc8333520f22a5fd05a1c25362c",
+  "raw_final_scores": {
+    "K": null,
+    "Y": 0
+  },
+  "retrospective_exact_scores": {
+    "Y": 0,
+    "K": 35,
+    "N": 2
+  },
+  "total_map_score": 37,
+  "invalid_or_negative_score_observations": [],
+  "all17_resolved": true,
+  "building_scores": [
+    {
+      "id": 0,
+      "type": "PLAZA",
+      "xy": [
+        7,
+        7
+      ],
+      "final_owner": "K",
+      "score": 3,
+      "evidence": {
+        "kind": "direct_observation",
+        "building_id": 0,
+        "first_turn": 7
+      }
+    },
+    {
+      "id": 1,
+      "type": "HALL",
+      "xy": [
+        2,
+        8
+      ],
+      "final_owner": "N",
+      "score": 2,
+      "evidence": {
+        "kind": "direct_observation",
+        "building_id": 1,
+        "first_turn": 2
+      }
+    },
+    {
+      "id": 2,
+      "type": "HALL",
+      "xy": [
+        12,
+        6
+      ],
+      "final_owner": "K",
+      "score": 2,
+      "evidence": {
+        "kind": "180_degree_symmetric_pair",
+        "observed_building_id": 1,
+        "observed_xy": [
+          2,
+          8
+        ],
+        "first_turn": 2
+      }
+    },
+    {
+      "id": 3,
+      "type": "LIBRARY",
+      "xy": [
+        4,
+        9
+      ],
+      "final_owner": "K",
+      "score": 1,
+      "evidence": {
+        "kind": "direct_observation",
+        "building_id": 3,
+        "first_turn": 5
+      }
+    },
+    {
+      "id": 4,
+      "type": "LIBRARY",
+      "xy": [
+        10,
+        5
+      ],
+      "final_owner": "K",
+      "score": 1,
+      "evidence": {
+        "kind": "180_degree_symmetric_pair",
+        "observed_building_id": 3,
+        "observed_xy": [
+          4,
+          9
+        ],
+        "first_turn": 5
+      }
+    },
+    {
+      "id": 5,
+      "type": "ENG",
+      "xy": [
+        1,
+        11
+      ],
+      "final_owner": "K",
+      "score": 1,
+      "evidence": {
+        "kind": "direct_observation",
+        "building_id": 5,
+        "first_turn": 4
+      }
+    },
+    {
+      "id": 6,
+      "type": "ENG",
+      "xy": [
+        13,
+        3
+      ],
+      "final_owner": "K",
+      "score": 1,
+      "evidence": {
+        "kind": "180_degree_symmetric_pair",
+        "observed_building_id": 5,
+        "observed_xy": [
+          1,
+          11
+        ],
+        "first_turn": 4
+      }
+    },
+    {
+      "id": 7,
+      "type": "HOSPITAL",
+      "xy": [
+        1,
+        9
+      ],
+      "final_owner": "K",
+      "score": 2,
+      "evidence": {
+        "kind": "direct_observation",
+        "building_id": 7,
+        "first_turn": 2
+      }
+    },
+    {
+      "id": 8,
+      "type": "HOSPITAL",
+      "xy": [
+        13,
+        5
+      ],
+      "final_owner": "K",
+      "score": 2,
+      "evidence": {
+        "kind": "180_degree_symmetric_pair",
+        "observed_building_id": 7,
+        "observed_xy": [
+          1,
+          9
+        ],
+        "first_turn": 2
+      }
+    },
+    {
+      "id": 9,
+      "type": "STATION",
+      "xy": [
+        1,
+        14
+      ],
+      "final_owner": "K",
+      "score": 2,
+      "evidence": {
+        "kind": "direct_observation",
+        "building_id": 9,
+        "first_turn": 7
+      }
+    },
+    {
+      "id": 10,
+      "type": "STATION",
+      "xy": [
+        13,
+        0
+      ],
+      "final_owner": "K",
+      "score": 2,
+      "evidence": {
+        "kind": "180_degree_symmetric_pair",
+        "observed_building_id": 9,
+        "observed_xy": [
+          1,
+          14
+        ],
+        "first_turn": 7
+      }
+    },
+    {
+      "id": 11,
+      "type": "STATION",
+      "xy": [
+        5,
+        3
+      ],
+      "final_owner": "K",
+      "score": 2,
+      "evidence": {
+        "kind": "direct_observation",
+        "building_id": 11,
+        "first_turn": 13
+      }
+    },
+    {
+      "id": 12,
+      "type": "STATION",
+      "xy": [
+        9,
+        11
+      ],
+      "final_owner": "K",
+      "score": 2,
+      "evidence": {
+        "kind": "direct_observation",
+        "building_id": 12,
+        "first_turn": 13
+      }
+    },
+    {
+      "id": 13,
+      "type": "WATCH",
+      "xy": [
+        5,
+        2
+      ],
+      "final_owner": "K",
+      "score": 3,
+      "evidence": {
+        "kind": "direct_observation",
+        "building_id": 13,
+        "first_turn": 14
+      }
+    },
+    {
+      "id": 14,
+      "type": "WATCH",
+      "xy": [
+        9,
+        12
+      ],
+      "final_owner": "K",
+      "score": 3,
+      "evidence": {
+        "kind": "direct_observation",
+        "building_id": 14,
+        "first_turn": 13
+      }
+    },
+    {
+      "id": 15,
+      "type": "DEPOT",
+      "xy": [
+        9,
+        2
+      ],
+      "final_owner": "K",
+      "score": 4,
+      "evidence": {
+        "kind": "direct_observation",
+        "building_id": 15,
+        "first_turn": 30
+      }
+    },
+    {
+      "id": 16,
+      "type": "DEPOT",
+      "xy": [
+        5,
+        12
+      ],
+      "final_owner": "K",
+      "score": 4,
+      "evidence": {
+        "kind": "direct_observation",
+        "building_id": 16,
+        "first_turn": 9
+      }
+    }
+  ],
+  "interpretation": "K=35 is an exact retrospective sum from directly observed building scores and their rule-defined 180-degree symmetric mates. Raw final K total is null. No imputation, unknown=-1 replacement, or midpoint estimate used."
+}

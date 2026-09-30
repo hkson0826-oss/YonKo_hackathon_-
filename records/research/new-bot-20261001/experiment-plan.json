@@ -1,0 +1,70 @@
+{
+  "created_kst": "2026-10-01T02:55:00+09:00",
+  "family": "mission_scheduler",
+  "hypothesis": "Persistent F missions with shared current-turn production/escort/TELE reservations reduce waste without losing useful expansion or final score.",
+  "baseline": "v8",
+  "strong_opponents": [
+    "s3_selective_contact",
+    "r3_opponent_league",
+    "j_balanced_portfolio"
+  ],
+  "pilot": {
+    "seeds": [
+      19000,
+      19001,
+      19002,
+      19003
+    ],
+    "games": 8,
+    "opponents": [
+      "v8"
+    ]
+  },
+  "development_common": {
+    "seeds": [
+      19010,
+      19011,
+      19012,
+      19013
+    ],
+    "candidates": [
+      "mission",
+      "v8"
+    ],
+    "games": 48
+  },
+  "selection_seeds": [
+    19100,
+    19101,
+    19102,
+    19103,
+    19104,
+    19105,
+    19106,
+    19107
+  ],
+  "final_seeds": [
+    19200,
+    19201,
+    19202,
+    19203,
+    19204,
+    19205,
+    19206,
+    19207
+  ],
+  "sides": [
+    "Y",
+    "K"
+  ],
+  "workers": 6,
+  "limits": {
+    "memory_MiB": 384,
+    "normal_turn_ms": 300,
+    "first_turn_ms": 3000
+  },
+  "archive": "all local replays and summaries",
+  "revision_policy": "Diagnose losses; change only independent mission family; immutable arena/new run IDs. Official observations and old18020/18028 are development only.",
+  "promotion_policy": "No error/forfeit/invalid actions; Y and per-opponent regressions checked; final fresh maps needed. Preserve v8 if unclear.",
+  "zip_policy": "Preserve candidate with research status even if not stronger; exact ZIP GCC12/SDK/runtime verification is distinct from promotion."
+}

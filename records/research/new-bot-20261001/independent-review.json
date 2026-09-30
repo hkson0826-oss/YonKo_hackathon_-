@@ -1,0 +1,23 @@
+{
+  "candidate_sha256": "657693b842b738ce92f0e3b99746e3d6d10a44fe8ab5f52b6433b28bc8a950b3",
+  "rule_tests": {
+    "total": 24,
+    "passed": 24
+  },
+  "protocol_tests": {
+    "total": 9,
+    "passed": 9,
+    "observations": 47,
+    "max_response_ms": 4.915268000331707,
+    "elapsed_seconds": 4.438
+  },
+  "test_files": {
+    "tests/test_mission_rules_20261001.py": "03a24e26d549cc61435a0d62185ee3b4e4d9978b2c5e83c28413a51d078e3d4b",
+    "tests/test_mission_scheduler.py": "c7416c65fae1bdca551031804b6c1caf328e192895989c60afd2c2719bd48a88",
+    "tests/mission_scheduler_cases.py": "ca15fab27d0defca2610ebf7d6eb61671ef98ba0ead29bf00ad75c0f25aa1e9f"
+  },
+  "review": "/tmp/yk-mission-independent-review-20261001.md",
+  "audit": "/tmp/yk-mission-protocol-audit-20261001-v2.json",
+  "negative_control_audit": "/tmp/yk-mission-final-birth-audit-20261001-before.json",
+  "remaining_limitation": "Functional development cases; not a match-strength or server-runtime certification"
+}

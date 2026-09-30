@@ -1,0 +1,57 @@
+{
+  "checks": [
+    {
+      "case": "final_neutralize",
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 3,
+          "K": 2
+        },
+        "turns": 160
+      }
+    },
+    {
+      "case": "final_surplus_capture",
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 7,
+          "K": 2
+        },
+        "turns": 160
+      }
+    },
+    {
+      "case": "official29_original_command_negative_control",
+      "initial_flags": 6,
+      "final_flags": 4,
+      "losses": 2,
+      "syntax_and_resource_audit": "passed"
+    },
+    {
+      "case": "audit_negative_control",
+      "command": [
+        "SPAWN F 1 0 7"
+      ],
+      "rejected": true
+    },
+    {
+      "case": "audit_negative_control",
+      "command": [
+        "SPAWN F 10000"
+      ],
+      "rejected": true
+    },
+    {
+      "case": "audit_negative_control",
+      "command": [
+        "MOVE 6 5 F 10000 R"
+      ],
+      "rejected": true
+    }
+  ],
+  "new_candidate_executed": false
+}

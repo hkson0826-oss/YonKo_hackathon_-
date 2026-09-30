@@ -1,0 +1,638 @@
+{
+  "checked_at": "2026-10-01T02:50:00+09:00",
+  "source": "Authenticated Chrome visible DOM only",
+  "coverage": "Four losing games at turns 10/20/40/end and two representative wins at end. Full raw replay available only for Coral separately.",
+  "unknown_score_policy": "null means unknown or not captured, never zero. These are public UI scores, not omniscient engine scores.",
+  "observations": [
+    {
+      "opponent": "hyper",
+      "gameId": "rolling-game-338deb88dbe3cae97f1b21adb22a5ed13b9a8f985972fc586bd3a69ea16bf390",
+      "turn": 39,
+      "units": {
+        "Y": {
+          "F": 5,
+          "W": 111,
+          "S": 0,
+          "value": 358
+        },
+        "K": {
+          "F": 5,
+          "W": 93,
+          "S": 0,
+          "value": 304
+        }
+      },
+      "economy": {
+        "Y": {
+          "ENG": 1,
+          "HALL": 1,
+          "HOSPITAL": 1
+        },
+        "K": {
+          "ENG": 0,
+          "HALL": 0,
+          "HOSPITAL": 0
+        }
+      },
+      "public_scores": {
+        "Y": 29,
+        "K": 0
+      }
+    },
+    {
+      "opponent": "신촌도 우리땅",
+      "gameId": "rolling-game-da2cd8628e8a73907056ec6791d15093d36498bc6be6c6661caa0d0fc7fad041",
+      "turn": 10,
+      "units": {
+        "Y": {
+          "F": 7,
+          "W": 25,
+          "S": 0,
+          "value": 110
+        },
+        "K": {
+          "F": 4,
+          "W": 33,
+          "S": 0,
+          "value": 119
+        }
+      },
+      "economy": {
+        "Y": {
+          "ENG": 1,
+          "HALL": 0,
+          "HOSPITAL": 0
+        },
+        "K": {
+          "ENG": 1,
+          "HALL": 2,
+          "HOSPITAL": 0
+        }
+      },
+      "public_scores": {
+        "Y": null,
+        "K": null
+      }
+    },
+    {
+      "opponent": "신촌도 우리땅",
+      "gameId": "rolling-game-da2cd8628e8a73907056ec6791d15093d36498bc6be6c6661caa0d0fc7fad041",
+      "turn": 20,
+      "units": {
+        "Y": {
+          "F": 6,
+          "W": 47,
+          "S": 0,
+          "value": 171
+        },
+        "K": {
+          "F": 4,
+          "W": 74,
+          "S": 0,
+          "value": 242
+        }
+      },
+      "economy": {
+        "Y": {
+          "ENG": 1,
+          "HALL": 0,
+          "HOSPITAL": 1
+        },
+        "K": {
+          "ENG": 1,
+          "HALL": 2,
+          "HOSPITAL": 1
+        }
+      },
+      "public_scores": {
+        "Y": null,
+        "K": null
+      }
+    },
+    {
+      "opponent": "신촌도 우리땅",
+      "gameId": "rolling-game-da2cd8628e8a73907056ec6791d15093d36498bc6be6c6661caa0d0fc7fad041",
+      "turn": 40,
+      "units": {
+        "Y": {
+          "F": 5,
+          "W": 80,
+          "S": 0,
+          "value": 265
+        },
+        "K": {
+          "F": 4,
+          "W": 129,
+          "S": 0,
+          "value": 407
+        }
+      },
+      "economy": {
+        "Y": {
+          "ENG": 1,
+          "HALL": 0,
+          "HOSPITAL": 1
+        },
+        "K": {
+          "ENG": 1,
+          "HALL": 1,
+          "HOSPITAL": 1
+        }
+      },
+      "public_scores": {
+        "Y": null,
+        "K": null
+      }
+    },
+    {
+      "opponent": "신촌도 우리땅",
+      "gameId": "rolling-game-da2cd8628e8a73907056ec6791d15093d36498bc6be6c6661caa0d0fc7fad041",
+      "turn": 94,
+      "units": {
+        "Y": {
+          "F": 2,
+          "W": 0,
+          "S": 0,
+          "value": 10
+        },
+        "K": {
+          "F": 4,
+          "W": 195,
+          "S": 0,
+          "value": 605
+        }
+      },
+      "economy": {
+        "Y": {
+          "ENG": 0,
+          "HALL": 0,
+          "HOSPITAL": 0
+        },
+        "K": {
+          "ENG": 2,
+          "HALL": 2,
+          "HOSPITAL": 1
+        }
+      },
+      "public_scores": {
+        "Y": 0,
+        "K": null
+      }
+    },
+    {
+      "opponent": "저희 집 GPU가 추위를 타요",
+      "gameId": "rolling-game-8b8ad8f55cb3085f0834c475ad27afbe4eb6002d1df682b830449077f4552c4f",
+      "turn": 10,
+      "units": {
+        "Y": {
+          "F": 6,
+          "W": 26,
+          "S": 0,
+          "value": 108
+        },
+        "K": {
+          "F": 4,
+          "W": 31,
+          "S": 0,
+          "value": 113
+        }
+      },
+      "economy": {
+        "Y": {
+          "ENG": 0,
+          "HALL": 1,
+          "HOSPITAL": 1
+        },
+        "K": {
+          "ENG": 1,
+          "HALL": 1,
+          "HOSPITAL": 1
+        }
+      },
+      "public_scores": {
+        "Y": 14,
+        "K": null
+      }
+    },
+    {
+      "opponent": "저희 집 GPU가 추위를 타요",
+      "gameId": "rolling-game-8b8ad8f55cb3085f0834c475ad27afbe4eb6002d1df682b830449077f4552c4f",
+      "turn": 20,
+      "units": {
+        "Y": {
+          "F": 6,
+          "W": 69,
+          "S": 0,
+          "value": 237
+        },
+        "K": {
+          "F": 6,
+          "W": 70,
+          "S": 0,
+          "value": 240
+        }
+      },
+      "economy": {
+        "Y": {
+          "ENG": 1,
+          "HALL": 1,
+          "HOSPITAL": 1
+        },
+        "K": {
+          "ENG": 1,
+          "HALL": 1,
+          "HOSPITAL": 1
+        }
+      },
+      "public_scores": {
+        "Y": 15,
+        "K": null
+      }
+    },
+    {
+      "opponent": "저희 집 GPU가 추위를 타요",
+      "gameId": "rolling-game-8b8ad8f55cb3085f0834c475ad27afbe4eb6002d1df682b830449077f4552c4f",
+      "turn": 40,
+      "units": {
+        "Y": {
+          "F": 5,
+          "W": 108,
+          "S": 0,
+          "value": 349
+        },
+        "K": {
+          "F": 8,
+          "W": 111,
+          "S": 0,
+          "value": 373
+        }
+      },
+      "economy": {
+        "Y": {
+          "ENG": 1,
+          "HALL": 1,
+          "HOSPITAL": 1
+        },
+        "K": {
+          "ENG": 1,
+          "HALL": 0,
+          "HOSPITAL": 1
+        }
+      },
+      "public_scores": {
+        "Y": 20,
+        "K": null
+      }
+    },
+    {
+      "opponent": "저희 집 GPU가 추위를 타요",
+      "gameId": "rolling-game-8b8ad8f55cb3085f0834c475ad27afbe4eb6002d1df682b830449077f4552c4f",
+      "turn": 160,
+      "units": {
+        "Y": {
+          "F": 4,
+          "W": 183,
+          "S": 0,
+          "value": 569
+        },
+        "K": {
+          "F": 7,
+          "W": 212,
+          "S": 0,
+          "value": 671
+        }
+      },
+      "economy": {
+        "Y": {
+          "ENG": 1,
+          "HALL": 1,
+          "HOSPITAL": 1
+        },
+        "K": {
+          "ENG": 1,
+          "HALL": 1,
+          "HOSPITAL": 1
+        }
+      },
+      "public_scores": {
+        "Y": 13,
+        "K": null
+      }
+    },
+    {
+      "opponent": "신촌을못가",
+      "gameId": "rolling-game-78bee81572ee4bca067398c24c2cf92af2e07cccf6eed23580e5e9e1b8c7894c",
+      "turn": 10,
+      "units": {
+        "Y": {
+          "F": 6,
+          "W": 23,
+          "S": 0,
+          "value": 99
+        },
+        "K": {
+          "F": 9,
+          "W": 20,
+          "S": 0,
+          "value": 105
+        }
+      },
+      "economy": {
+        "Y": {
+          "ENG": 0,
+          "HALL": 1,
+          "HOSPITAL": 1
+        },
+        "K": {
+          "ENG": 1,
+          "HALL": 1,
+          "HOSPITAL": 0
+        }
+      },
+      "public_scores": {
+        "Y": 14,
+        "K": null
+      }
+    },
+    {
+      "opponent": "신촌을못가",
+      "gameId": "rolling-game-78bee81572ee4bca067398c24c2cf92af2e07cccf6eed23580e5e9e1b8c7894c",
+      "turn": 20,
+      "units": {
+        "Y": {
+          "F": 7,
+          "W": 60,
+          "S": 0,
+          "value": 215
+        },
+        "K": {
+          "F": 9,
+          "W": 49,
+          "S": 0,
+          "value": 192
+        }
+      },
+      "economy": {
+        "Y": {
+          "ENG": 1,
+          "HALL": 0,
+          "HOSPITAL": 1
+        },
+        "K": {
+          "ENG": 1,
+          "HALL": 1,
+          "HOSPITAL": 1
+        }
+      },
+      "public_scores": {
+        "Y": 11,
+        "K": null
+      }
+    },
+    {
+      "opponent": "신촌을못가",
+      "gameId": "rolling-game-78bee81572ee4bca067398c24c2cf92af2e07cccf6eed23580e5e9e1b8c7894c",
+      "turn": 40,
+      "units": {
+        "Y": {
+          "F": 7,
+          "W": 57,
+          "S": 0,
+          "value": 206
+        },
+        "K": {
+          "F": 9,
+          "W": 68,
+          "S": 0,
+          "value": 249
+        }
+      },
+      "economy": {
+        "Y": {
+          "ENG": 1,
+          "HALL": 0,
+          "HOSPITAL": 1
+        },
+        "K": {
+          "ENG": 1,
+          "HALL": 2,
+          "HOSPITAL": 1
+        }
+      },
+      "public_scores": {
+        "Y": 13,
+        "K": null
+      }
+    },
+    {
+      "opponent": "신촌을못가",
+      "gameId": "rolling-game-78bee81572ee4bca067398c24c2cf92af2e07cccf6eed23580e5e9e1b8c7894c",
+      "turn": 94,
+      "units": {
+        "Y": {
+          "F": 7,
+          "W": 13,
+          "S": 0,
+          "value": 74
+        },
+        "K": {
+          "F": 6,
+          "W": 142,
+          "S": 0,
+          "value": 456
+        }
+      },
+      "economy": {
+        "Y": {
+          "ENG": 0,
+          "HALL": 0,
+          "HOSPITAL": 0
+        },
+        "K": {
+          "ENG": 1,
+          "HALL": 2,
+          "HOSPITAL": 2
+        }
+      },
+      "public_scores": {
+        "Y": 0,
+        "K": null
+      }
+    },
+    {
+      "opponent": "올림픽 정신",
+      "gameId": "rolling-game-50e7d1728d49c2148db752ce876687be4decc69356541dc2c23155eff9163687",
+      "turn": 10,
+      "units": {
+        "Y": {
+          "F": 6,
+          "W": 37,
+          "S": 0,
+          "value": 141
+        },
+        "K": {
+          "F": 7,
+          "W": 33,
+          "S": 1,
+          "value": 136
+        }
+      },
+      "economy": {
+        "Y": {
+          "ENG": 1,
+          "HALL": 1,
+          "HOSPITAL": 1
+        },
+        "K": {
+          "ENG": 1,
+          "HALL": 1,
+          "HOSPITAL": 1
+        }
+      },
+      "public_scores": {
+        "Y": 19,
+        "K": null
+      }
+    },
+    {
+      "opponent": "올림픽 정신",
+      "gameId": "rolling-game-50e7d1728d49c2148db752ce876687be4decc69356541dc2c23155eff9163687",
+      "turn": 20,
+      "units": {
+        "Y": {
+          "F": 7,
+          "W": 75,
+          "S": 0,
+          "value": 260
+        },
+        "K": {
+          "F": 7,
+          "W": 73,
+          "S": 1,
+          "value": 256
+        }
+      },
+      "economy": {
+        "Y": {
+          "ENG": 1,
+          "HALL": 1,
+          "HOSPITAL": 1
+        },
+        "K": {
+          "ENG": 1,
+          "HALL": 1,
+          "HOSPITAL": 1
+        }
+      },
+      "public_scores": {
+        "Y": 11,
+        "K": null
+      }
+    },
+    {
+      "opponent": "올림픽 정신",
+      "gameId": "rolling-game-50e7d1728d49c2148db752ce876687be4decc69356541dc2c23155eff9163687",
+      "turn": 40,
+      "units": {
+        "Y": {
+          "F": 7,
+          "W": 121,
+          "S": 0,
+          "value": 398
+        },
+        "K": {
+          "F": 7,
+          "W": 77,
+          "S": 0,
+          "value": 266
+        }
+      },
+      "economy": {
+        "Y": {
+          "ENG": 1,
+          "HALL": 2,
+          "HOSPITAL": 1
+        },
+        "K": {
+          "ENG": 0,
+          "HALL": 0,
+          "HOSPITAL": 1
+        }
+      },
+      "public_scores": {
+        "Y": 27,
+        "K": 8
+      }
+    },
+    {
+      "opponent": "올림픽 정신",
+      "gameId": "rolling-game-50e7d1728d49c2148db752ce876687be4decc69356541dc2c23155eff9163687",
+      "turn": 160,
+      "units": {
+        "Y": {
+          "F": 6,
+          "W": 110,
+          "S": 0,
+          "value": 360
+        },
+        "K": {
+          "F": 6,
+          "W": 94,
+          "S": 0,
+          "value": 312
+        }
+      },
+      "economy": {
+        "Y": {
+          "ENG": 1,
+          "HALL": 1,
+          "HOSPITAL": 2
+        },
+        "K": {
+          "ENG": 1,
+          "HALL": 1,
+          "HOSPITAL": 0
+        }
+      },
+      "public_scores": {
+        "Y": 13,
+        "K": 17
+      }
+    },
+    {
+      "opponent": "고대26김준우사랑단",
+      "gameId": "rolling-game-fa3bfb5fb15e1a24559a7135a67ae8081ca687df9450eaf01f6c94ca29bc34be",
+      "turn": 65,
+      "units": {
+        "Y": {
+          "F": 7,
+          "W": 117,
+          "S": 0,
+          "value": 386
+        },
+        "K": {
+          "F": 4,
+          "W": 14,
+          "S": 0,
+          "value": 62
+        }
+      },
+      "economy": {
+        "Y": {
+          "ENG": 1,
+          "HALL": 2,
+          "HOSPITAL": 2
+        },
+        "K": {
+          "ENG": 0,
+          "HALL": 0,
+          "HOSPITAL": 0
+        }
+      },
+      "public_scores": {
+        "Y": 33,
+        "K": 0
+      }
+    }
+  ]
+}

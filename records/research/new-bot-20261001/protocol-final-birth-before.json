@@ -1,0 +1,21 @@
+{
+  "source_sha256": "f3bcb253b9f03d16e8b68a3c06fbd61898928f08f1b37a1486ee58520fda59bc",
+  "compiler": "g++",
+  "observations": [
+    {
+      "test": "__main__.MissionSchedulerProtocolTests.test_last_turn_new_flag_can_neutralize_adjacent_enemy_building",
+      "turn": 160,
+      "side": "Y",
+      "raw": [
+        "SPAWN W 1",
+        "MOVE 0 1 W 1 R"
+      ],
+      "max_response_ms_so_far": 3.1510509943473153
+    }
+  ],
+  "limitations": [
+    "Handcrafted and forced historical observations are development cases, not fresh maps.",
+    "A stationary-opponent counterfactual is not full match replay.",
+    "No candidate-private implementation helpers are used."
+  ]
+}
