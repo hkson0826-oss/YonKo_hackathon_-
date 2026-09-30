@@ -1,0 +1,11 @@
+{
+  "archive_reanalysis_equal_original_aggregates": {
+    "direct_games": 64,
+    "common_games": 96
+  },
+  "distinct_replay_ids": 160,
+  "all_archived_replay_sha256_match": true,
+  "new_report_relative_links_resolve": true,
+  "independent_report_review": "Corrected source/config file wording and explicit home-region definition; aggregate numbers, confidence intervals and runtime verified against originals.",
+  "known_source_whitespace": "Two Markdown hard breaks in byte-preserved teammate snapshot excluded from whitespace check."
+}

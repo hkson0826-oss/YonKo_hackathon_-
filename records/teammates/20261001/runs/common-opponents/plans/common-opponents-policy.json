@@ -1,0 +1,29 @@
+{
+  "created_utc": "2026-09-30T16:15:06.980538+00:00",
+  "stage": "development",
+  "baseline": "v8",
+  "hypothesis": "Prespecified common-opponent comparison on separate maps; compare opening search defense without changing either strategy",
+  "source_commit": "27222acabc0d12056208e6b1a3482e7a389efea5",
+  "source_sha256": {
+    "teammate": "571397e3c84998b27f8ce0468bc49333663c69b0b84162ad8dfc27e7a47f2365",
+    "s3_selective_contact": "db83d9aa0e8809aaffd6b36ffc47972996d832d987947187af600d3a8419d96c",
+    "v3": "52268569e17d7fc40fd46f0996b2da684768902b4af27ec059c4b068911c4473",
+    "j_balanced_portfolio": "534f55f1d6641ed788ca637663456e43375297d8016ac9832c589b0a012c8422",
+    "v8": "61a4f25113d9bf2c387a59ddc770a3143de6311e3fd2e004827a66eb78edfbc9"
+  },
+  "map_seeds": [
+    18100,
+    18101,
+    18102,
+    18103,
+    18104,
+    18105,
+    18106,
+    18107
+  ],
+  "policy_rng_seed": 20260927,
+  "scheduled_jobs": 96,
+  "workers": 6,
+  "resource_policy": "Official engine turn timeout; inherited 384MiB RLIMIT_AS after compilation",
+  "stop_policy": "Any error/forfeit blocks promotion; deadline decisions and candidate locking belong to the operator."
+}

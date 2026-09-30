@@ -26,5 +26,18 @@
     "map_and_side_denominators_correct": true
   },
   "scope": "Read-only analyzer checks using stored actual games and frozen official step_spawn. No strategy changes or new matches.",
-  "duplicate_input_rejected": true
+  "duplicate_input_rejected": true,
+  "common_check": {
+    "games": 96,
+    "maps": 8,
+    "player_records": 192,
+    "per_focal_bot_games": 48,
+    "final_scores_equal_recorded_result": true,
+    "production_minus_losses_equal_final_stock": true,
+    "production_and_losses_equal_existing_diagnostics": true
+  },
+  "resume_note": {
+    "reported_by_runner_owner": "Common-opponents first process exited143 after72 completed; same frozen plan/policy resumed remaining24. Original interruption cause undetermined.",
+    "completed_total": 96
+  }
 }
