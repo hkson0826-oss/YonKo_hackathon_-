@@ -1,0 +1,62 @@
+{
+  "copied_files": 9,
+  "copied_bytes": 408717,
+  "files": [
+    {
+      "source": "/tmp/yk-mission-v2-review-20261001/README.md",
+      "archive": "README.md",
+      "bytes": 4262,
+      "sha256": "b9ae7f7dc76669f3f16949b4f91f382770ff16474ab81d7b14aa3694ad3eebe7"
+    },
+    {
+      "source": "/tmp/yk-mission-v2-review-20261001/all-contracts-v3-rally.json",
+      "archive": "all-contracts-v3-rally.json",
+      "bytes": 89647,
+      "sha256": "25f09b18140ae7bfadc9f4516b9f73a9a3eab08cadda9a1e71695a78fb140fcc"
+    },
+    {
+      "source": "/tmp/yk-mission-v2-review-20261001/evidence.json",
+      "archive": "evidence.json",
+      "bytes": 224081,
+      "sha256": "5c161b33b6a06f9861859d8a844058bd2b8bc9fc02d16f0da83e672cd4befc47"
+    },
+    {
+      "source": "/tmp/yk-mission-v2-review-20261001/g++-no-rally",
+      "archive": "g++-no-rally",
+      "bytes": 56,
+      "sha256": "b1ca1681b44b457e699b5649593957a997c99fb97d6a1023216239f77dc0c795"
+    },
+    {
+      "source": "/tmp/yk-mission-v2-review-20261001/hall-contract-summary.json",
+      "archive": "hall-contract-summary.json",
+      "bytes": 2704,
+      "sha256": "46dd6224ef9ed6e66c900bf59cddd1c9a1d5d35b275e948e5a31fbe7f679fd91"
+    },
+    {
+      "source": "/tmp/yk-mission-v2-review-20261001/hall-contract-v2.json",
+      "archive": "hall-contract-v2.json",
+      "bytes": 21707,
+      "sha256": "fa76ff10d69f364af5f24c764f42bd1e6a0ba529035aaab9870705dff53a4bc1"
+    },
+    {
+      "source": "/tmp/yk-mission-v2-review-20261001/hall-contract-v3-no-rally.json",
+      "archive": "hall-contract-v3-no-rally.json",
+      "bytes": 29959,
+      "sha256": "426dd975e29eeda8b7b9d2de48668265862a25fbc44432ae706ae06dfc1971ea"
+    },
+    {
+      "source": "/tmp/yk-mission-v2-review-20261001/hall-contract-v3-rally.json",
+      "archive": "hall-contract-v3-rally.json",
+      "bytes": 30043,
+      "sha256": "d15ca14e9d8b2e5faf9c89da87d3c37c92a3ac085d6cf1620f1c9505fb112398"
+    },
+    {
+      "source": "/tmp/yk-mission-v2-review-20261001/review.py",
+      "archive": "review.py",
+      "bytes": 6258,
+      "sha256": "1927a0062f5d1ad0ea3cead0e071f9e31caf77741e1186fb20d8ec011aef4d28"
+    }
+  ],
+  "excluded": [],
+  "method": "Original text/source/evidence copied byte-for-byte; existing manifests preserved. No compiled binaries, caches, original files, tests, candidate source or Git metadata changed."
+}

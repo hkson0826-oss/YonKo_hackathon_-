@@ -1,0 +1,61 @@
+{
+  "source_v1_sha256": "657693b842b738ce92f0e3b99746e3d6d10a44fe8ab5f52b6433b28bc8a950b3",
+  "replay_job": "ca61304a881abc2d17a4d2c8",
+  "side": "K",
+  "map_seed": 19013,
+  "input_turn": 14,
+  "enemy_flag_xy": [
+    11,
+    7
+  ],
+  "post_turn_xy": [
+    11,
+    8
+  ],
+  "command_reproduction_turns": 123,
+  "command_reproduction_mismatches": 0,
+  "rank_comparison": [
+    {
+      "input_turn": 14,
+      "HALL_ETA": 3,
+      "HALL_rank": 12.6,
+      "ENG_ETA": 4,
+      "ENG_rank": 15.6
+    },
+    {
+      "input_turn": 15,
+      "HALL_ETA": 2,
+      "HALL_rank": 15.75,
+      "ENG_ETA": 3,
+      "ENG_rank": 18.72
+    },
+    {
+      "input_turn": 16,
+      "HALL_ETA": 1,
+      "HALL_rank": 21,
+      "ENG_ETA": 2,
+      "ENG_rank": 23.4
+    }
+  ],
+  "confirmed_causes": [
+    "single preferred building per enemy F omits HALL defense task",
+    "finishWarriors clears actual defense reservation along with tentative production preference",
+    "remaining W allocation sends whole source group regardless of defense remaining demand"
+  ],
+  "supply_reset_alone_insufficient": {
+    "input_turn": 15,
+    "source_xy": [
+      10,
+      11
+    ],
+    "warriors": 10,
+    "ENG_utility_original": 19.5,
+    "ENG_utility_with_reserved_one": 9.75,
+    "next_goal_utility": 9.24444
+  },
+  "limitations": [
+    "Observed internal behavior is v1 only; v2 arena failure is separately reported by root.",
+    "No full-game causal performance claim; prior agent audits bounded official-engine counterfactual.",
+    "Multiple candidate building threats are alternative enemy choices, not one simultaneous enemy action."
+  ]
+}

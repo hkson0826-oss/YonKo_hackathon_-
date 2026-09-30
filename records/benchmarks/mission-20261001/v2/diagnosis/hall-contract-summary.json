@@ -1,0 +1,71 @@
+{
+  "test": "test_visible_flag_raid_is_stopped_before_home_hall_is_lost",
+  "contract": "After legal forced source observations T1-13, keep owned HALL through turns14-18 and intercept the visible F following (11,7)->(11,8)->(11,9)->(12,9) by turn16. All other enemy units hold and do not produce. Skip future attacker orders after death. Both command lists pass strict pre-engine audit.",
+  "limitations": [
+    "This is a bounded scripted-opponent regression contract, not whole-game performance or a reactive opponent.",
+    "Forced replay history preserves legal score masking but need not match the candidate decisions."
+  ],
+  "results": [
+    {
+      "variant": "mission2",
+      "source_sha256": "6b9429deea930a2575f4a91d36859a4a238b4306bf843cc5013b5599265e1aa0",
+      "compile_defines": [],
+      "outcome": "fail: HALL neutralized on turn16",
+      "trace": "hall-contract-v2.json",
+      "intercepted_turn": null,
+      "branch_turns_executed": 3,
+      "hall_owners": [
+        "K",
+        "K",
+        "N"
+      ],
+      "source_replay_sha256": "402bdd17b7675370f0974ca5cad26006a8c9ed977d0c91db0df8b7369c27f4f6",
+      "forced_history_command_matches": 7,
+      "forced_history_commands_compared": 13
+    },
+    {
+      "variant": "mission3 with rendezvous",
+      "source_sha256": "5cff84e533234f02fa8665de009ec7b2d10641c5baf5a33ac3fcc7edddb434e1",
+      "compile_defines": [],
+      "outcome": "pass",
+      "trace": "hall-contract-v3-rally.json",
+      "intercepted_turn": 15,
+      "branch_turns_executed": 5,
+      "hall_owners": [
+        "K",
+        "K",
+        "K",
+        "K",
+        "K"
+      ],
+      "source_replay_sha256": "402bdd17b7675370f0974ca5cad26006a8c9ed977d0c91db0df8b7369c27f4f6",
+      "forced_history_command_matches": 7,
+      "forced_history_commands_compared": 13
+    },
+    {
+      "variant": "mission3 without rendezvous",
+      "source_sha256": "5cff84e533234f02fa8665de009ec7b2d10641c5baf5a33ac3fcc7edddb434e1",
+      "compile_defines": [
+        "MISSION_RENDEZVOUS=0"
+      ],
+      "outcome": "pass",
+      "trace": "hall-contract-v3-no-rally.json",
+      "intercepted_turn": 15,
+      "branch_turns_executed": 5,
+      "hall_owners": [
+        "K",
+        "K",
+        "K",
+        "K",
+        "K"
+      ],
+      "source_replay_sha256": "402bdd17b7675370f0974ca5cad26006a8c9ed977d0c91db0df8b7369c27f4f6",
+      "forced_history_command_matches": 9,
+      "forced_history_commands_compared": 13
+    }
+  ],
+  "test_file_sha256": {
+    "tests/test_mission_scheduler.py": "b902380fb4073a7ba75dd786c43899c383c56cbb41f8b9617e6eb5a4c7f985d5",
+    "tests/mission_scheduler_cases.py": "35f88b1c7df0e99767af3add5ddcdf3342b424e401eccc7c50146c7a5ab6450d"
+  }
+}

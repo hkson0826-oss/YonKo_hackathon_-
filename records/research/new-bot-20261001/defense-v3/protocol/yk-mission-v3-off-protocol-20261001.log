@@ -1,0 +1,26 @@
+test_equal_warrior_escort_keeps_flag_alive (__main__.MissionSchedulerProtocolTests.test_equal_warrior_escort_keeps_flag_alive) ... ok
+test_last_turn_neutralization_is_enough_to_win (__main__.MissionSchedulerProtocolTests.test_last_turn_neutralization_is_enough_to_win) ... ok
+test_last_turn_new_flag_can_neutralize_adjacent_enemy_building (__main__.MissionSchedulerProtocolTests.test_last_turn_new_flag_can_neutralize_adjacent_enemy_building) ... ok
+test_merged_flags_can_all_die_then_new_observation_has_no_stale_departures (__main__.MissionSchedulerProtocolTests.test_merged_flags_can_all_die_then_new_observation_has_no_stale_departures) ... ok
+test_official_turn_29_has_no_flag_suicide_against_stationary_enemy (__main__.MissionSchedulerProtocolTests.test_official_turn_29_has_no_flag_suicide_against_stationary_enemy) ... ok
+test_opening_production_moves_in_its_birth_turn_on_both_sides (__main__.MissionSchedulerProtocolTests.test_opening_production_moves_in_its_birth_turn_on_both_sides) ... ok
+test_shared_budget_and_departure_pools_with_two_hospitals_and_stations (__main__.MissionSchedulerProtocolTests.test_shared_budget_and_departure_pools_with_two_hospitals_and_stations) ... ok
+test_stationary_hospital_guard_is_cleared_after_delayed_escort_arrives (__main__.MissionSchedulerProtocolTests.test_stationary_hospital_guard_is_cleared_after_delayed_escort_arrives) ... FAIL
+test_surplus_warrior_clears_defending_flag_in_one_turn (__main__.MissionSchedulerProtocolTests.test_surplus_warrior_clears_defending_flag_in_one_turn) ... ok
+test_unescorted_flag_does_not_walk_into_visible_stationary_army (__main__.MissionSchedulerProtocolTests.test_unescorted_flag_does_not_walk_into_visible_stationary_army) ... ok
+
+======================================================================
+FAIL: test_stationary_hospital_guard_is_cleared_after_delayed_escort_arrives (__main__.MissionSchedulerProtocolTests.test_stationary_hospital_guard_is_cleared_after_delayed_escort_arrives)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/yk-new-bot-20261001/tests/test_mission_scheduler.py", line 301, in test_stationary_hospital_guard_is_cleared_after_delayed_escort_arrives
+    self.assertIsNotNone(trace['captured_turn'],
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+                         'The adjacent flag and nearby W3 should coordinate to take the W1-guarded hospital within six turns')
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpectedly None : The adjacent flag and nearby W3 should coordinate to take the W1-guarded hospital within six turns
+
+----------------------------------------------------------------------
+Ran 10 tests in 5.128s
+
+FAILED (failures=1)

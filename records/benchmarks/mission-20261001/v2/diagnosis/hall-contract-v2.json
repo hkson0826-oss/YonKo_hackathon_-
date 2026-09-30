@@ -1,0 +1,1071 @@
+{
+  "source_sha256": "6b9429deea930a2575f4a91d36859a4a238b4306bf843cc5013b5599265e1aa0",
+  "compiler": "g++",
+  "observations": [
+    {
+      "test": "test_mission_scheduler.MissionSchedulerProtocolTests.test_visible_flag_raid_is_stopped_before_home_hall_is_lost",
+      "turn": 1,
+      "side": "K",
+      "raw": [
+        "SPAWN F 2",
+        "MOVE 10 10 F 1 R",
+        "MOVE 10 10 F 1 D"
+      ],
+      "max_response_ms_so_far": 5.320452997693792
+    },
+    {
+      "test": "test_mission_scheduler.MissionSchedulerProtocolTests.test_visible_flag_raid_is_stopped_before_home_hall_is_lost",
+      "turn": 2,
+      "side": "K",
+      "raw": [
+        "SPAWN F 1",
+        "SPAWN W 1",
+        "MOVE 10 10 F 1 D",
+        "MOVE 11 10 F 1 R",
+        "MOVE 10 11 F 1 R",
+        "MOVE 10 10 W 1 D",
+        "PRIORITY 11 11"
+      ],
+      "max_response_ms_so_far": 5.320452997693792
+    },
+    {
+      "test": "test_mission_scheduler.MissionSchedulerProtocolTests.test_visible_flag_raid_is_stopped_before_home_hall_is_lost",
+      "turn": 3,
+      "side": "K",
+      "raw": [
+        "SPAWN F 1",
+        "SPAWN W 2",
+        "MOVE 10 10 F 1 U",
+        "MOVE 12 10 F 1 U",
+        "MOVE 10 11 F 1 L",
+        "MOVE 11 11 F 1 R",
+        "MOVE 10 10 W 2 R",
+        "MOVE 10 11 W 1 L",
+        "PRIORITY 12 9 9 11 10 9"
+      ],
+      "max_response_ms_so_far": 5.320452997693792
+    },
+    {
+      "test": "test_mission_scheduler.MissionSchedulerProtocolTests.test_visible_flag_raid_is_stopped_before_home_hall_is_lost",
+      "turn": 4,
+      "side": "K",
+      "raw": [
+        "SPAWN W 10",
+        "MOVE 10 9 F 1 U",
+        "MOVE 12 9 F 1 L",
+        "MOVE 9 11 F 1 U",
+        "MOVE 12 11 F 1 R",
+        "MOVE 10 10 W 10 L",
+        "MOVE 11 10 W 2 R",
+        "MOVE 9 11 W 1 L"
+      ],
+      "max_response_ms_so_far": 5.320452997693792
+    },
+    {
+      "test": "test_mission_scheduler.MissionSchedulerProtocolTests.test_visible_flag_raid_is_stopped_before_home_hall_is_lost",
+      "turn": 5,
+      "side": "K",
+      "raw": [
+        "SPAWN W 6",
+        "MOVE 10 8 F 1 L",
+        "MOVE 11 9 F 1 L",
+        "MOVE 9 10 F 1 U",
+        "MOVE 13 11 F 1 R",
+        "MOVE 9 10 W 10 U",
+        "MOVE 10 10 W 6 R",
+        "MOVE 12 10 W 2 L",
+        "MOVE 8 11 W 1 L",
+        "PRIORITY 9 8"
+      ],
+      "max_response_ms_so_far": 5.320452997693792
+    },
+    {
+      "test": "test_mission_scheduler.MissionSchedulerProtocolTests.test_visible_flag_raid_is_stopped_before_home_hall_is_lost",
+      "turn": 6,
+      "side": "K",
+      "raw": [
+        "SPAWN W 5",
+        "MOVE 9 8 F 1 L",
+        "MOVE 9 9 F 1 L",
+        "MOVE 14 11 F 1 U",
+        "MOVE 9 9 W 10 L",
+        "MOVE 10 10 W 5 L",
+        "MOVE 11 10 W 8 R",
+        "MOVE 7 11 W 1 L",
+        "TELE 10 9 F 1 9 8",
+        "PRIORITY 14 10"
+      ],
+      "max_response_ms_so_far": 5.320452997693792
+    },
+    {
+      "test": "test_mission_scheduler.MissionSchedulerProtocolTests.test_visible_flag_raid_is_stopped_before_home_hall_is_lost",
+      "turn": 7,
+      "side": "K",
+      "raw": [
+        "SPAWN F 1",
+        "SPAWN W 2",
+        "MOVE 8 8 F 1 L",
+        "MOVE 9 8 F 1 L",
+        "MOVE 8 9 F 1 L",
+        "MOVE 10 10 F 1 L",
+        "MOVE 14 10 F 1 L",
+        "MOVE 8 9 W 9 L",
+        "MOVE 8 9 W 1 R",
+        "MOVE 9 10 W 5 L",
+        "MOVE 10 10 W 2 L",
+        "MOVE 12 10 W 8 L",
+        "MOVE 6 11 W 1 R"
+      ],
+      "max_response_ms_so_far": 5.320452997693792
+    },
+    {
+      "test": "test_mission_scheduler.MissionSchedulerProtocolTests.test_visible_flag_raid_is_stopped_before_home_hall_is_lost",
+      "turn": 8,
+      "side": "K",
+      "raw": [
+        "SPAWN F 1",
+        "SPAWN W 4",
+        "MOVE 7 8 F 1 D",
+        "MOVE 8 8 F 1 L",
+        "MOVE 7 9 F 1 L",
+        "MOVE 9 10 F 1 L",
+        "MOVE 10 10 F 1 L",
+        "MOVE 13 10 F 1 L",
+        "MOVE 7 9 W 8 U",
+        "MOVE 9 9 W 1 U",
+        "MOVE 8 10 W 5 L",
+        "MOVE 9 10 W 2 L",
+        "MOVE 10 10 W 4 L",
+        "MOVE 11 10 W 8 L",
+        "MOVE 7 11 W 1 L"
+      ],
+      "max_response_ms_so_far": 5.320452997693792
+    },
+    {
+      "test": "test_mission_scheduler.MissionSchedulerProtocolTests.test_visible_flag_raid_is_stopped_before_home_hall_is_lost",
+      "turn": 9,
+      "side": "K",
+      "raw": [
+        "SPAWN F 1",
+        "SPAWN W 4",
+        "MOVE 7 8 F 1 U",
+        "MOVE 7 8 F 1 D",
+        "MOVE 7 9 F 1 U",
+        "MOVE 8 10 F 1 U",
+        "MOVE 10 10 F 1 L",
+        "MOVE 12 10 F 1 L",
+        "MOVE 7 8 W 8 U",
+        "MOVE 7 10 W 5 L",
+        "MOVE 8 10 W 2 L",
+        "MOVE 9 10 W 6 L",
+        "MOVE 10 10 W 4 U",
+        "MOVE 10 10 W 8 L",
+        "MOVE 6 11 W 1 L",
+        "PRIORITY 7 7"
+      ],
+      "max_response_ms_so_far": 5.320452997693792
+    },
+    {
+      "test": "test_mission_scheduler.MissionSchedulerProtocolTests.test_visible_flag_raid_is_stopped_before_home_hall_is_lost",
+      "turn": 10,
+      "side": "K",
+      "raw": [
+        "SPAWN W 4",
+        "MOVE 7 8 F 1 U",
+        "MOVE 7 9 F 1 L",
+        "MOVE 7 10 F 1 U",
+        "MOVE 11 10 F 1 L",
+        "MOVE 7 8 W 1 U",
+        "MOVE 10 9 W 4 L",
+        "MOVE 6 10 W 1 U",
+        "MOVE 6 10 W 4 L",
+        "MOVE 7 10 W 2 L",
+        "MOVE 8 10 W 6 L",
+        "MOVE 9 10 W 6 U",
+        "MOVE 9 10 W 2 D",
+        "MOVE 10 10 W 4 L",
+        "MOVE 5 11 W 1 U",
+        "TELE 10 9 F 1 9 8",
+        "PRIORITY 7 7"
+      ],
+      "max_response_ms_so_far": 5.320452997693792
+    },
+    {
+      "test": "test_mission_scheduler.MissionSchedulerProtocolTests.test_visible_flag_raid_is_stopped_before_home_hall_is_lost",
+      "turn": 11,
+      "side": "K",
+      "raw": [
+        "SPAWN W 4",
+        "MOVE 7 7 F 2 U",
+        "MOVE 6 9 F 1 D",
+        "MOVE 7 9 F 1 U",
+        "MOVE 10 10 F 1 L",
+        "MOVE 7 7 W 1 U",
+        "MOVE 6 9 W 1 D",
+        "MOVE 9 9 W 4 U",
+        "MOVE 5 10 W 5 R",
+        "MOVE 7 10 W 6 L",
+        "MOVE 8 10 W 6 L",
+        "MOVE 9 10 W 4 U",
+        "MOVE 10 10 W 4 L"
+      ],
+      "max_response_ms_so_far": 5.320452997693792
+    },
+    {
+      "test": "test_mission_scheduler.MissionSchedulerProtocolTests.test_visible_flag_raid_is_stopped_before_home_hall_is_lost",
+      "turn": 12,
+      "side": "K",
+      "raw": [
+        "SPAWN W 6",
+        "MOVE 7 6 F 2 D",
+        "MOVE 7 8 F 1 U",
+        "MOVE 9 8 F 1 U",
+        "MOVE 6 10 F 1 U",
+        "MOVE 9 10 F 1 L",
+        "MOVE 9 8 W 5 L",
+        "MOVE 9 9 W 4 R",
+        "MOVE 6 10 W 6 U",
+        "MOVE 7 10 W 6 L",
+        "MOVE 9 10 W 2 L",
+        "MOVE 9 10 W 2 D",
+        "MOVE 10 10 W 6 L"
+      ],
+      "max_response_ms_so_far": 5.320452997693792
+    },
+    {
+      "test": "test_mission_scheduler.MissionSchedulerProtocolTests.test_visible_flag_raid_is_stopped_before_home_hall_is_lost",
+      "turn": 13,
+      "side": "K",
+      "raw": [
+        "SPAWN W 6",
+        "MOVE 7 7 F 3 D",
+        "MOVE 9 7 F 1 U",
+        "MOVE 6 9 F 1 L",
+        "MOVE 8 10 F 1 U",
+        "MOVE 7 7 W 8 D",
+        "MOVE 8 8 W 5 L",
+        "MOVE 8 9 W 3 L",
+        "MOVE 10 9 W 1 L",
+        "MOVE 5 10 W 6 U",
+        "MOVE 8 10 W 8 R",
+        "MOVE 10 10 W 6 D",
+        "MOVE 11 10 W 5 L",
+        "MOVE 11 10 W 1 D",
+        "PRIORITY 5 9"
+      ],
+      "max_response_ms_so_far": 5.320452997693792
+    },
+    {
+      "test": "test_mission_scheduler.MissionSchedulerProtocolTests.test_visible_flag_raid_is_stopped_before_home_hall_is_lost",
+      "turn": 14,
+      "side": "K",
+      "raw": [
+        "SPAWN W 5",
+        "MOVE 9 6 F 1 U",
+        "MOVE 7 8 F 2 U",
+        "MOVE 7 8 F 1 R",
+        "MOVE 5 9 F 1 D",
+        "MOVE 9 10 F 1 L",
+        "MOVE 7 8 W 5 U",
+        "MOVE 7 9 W 3 U",
+        "MOVE 9 9 W 1 U",
+        "MOVE 7 10 W 3 U",
+        "MOVE 7 10 W 5 R",
+        "MOVE 9 10 W 1 U",
+        "MOVE 9 10 W 5 D",
+        "MOVE 10 10 W 5 L",
+        "MOVE 9 11 W 4 L",
+        "MOVE 11 11 W 5 L",
+        "PRIORITY 9 5 7 7"
+      ],
+      "max_response_ms_so_far": 5.320452997693792
+    },
+    {
+      "test": "test_mission_scheduler.MissionSchedulerProtocolTests.test_visible_flag_raid_is_stopped_before_home_hall_is_lost",
+      "turn": 15,
+      "side": "K",
+      "raw": [
+        "SPAWN W 3",
+        "MOVE 7 7 F 2 U",
+        "MOVE 8 8 F 1 R",
+        "MOVE 8 10 F 1 L",
+        "MOVE 7 7 W 4 U",
+        "MOVE 7 8 W 3 U",
+        "MOVE 9 8 W 1 L",
+        "MOVE 5 9 W 7 D",
+        "MOVE 7 9 W 3 U",
+        "MOVE 9 9 W 1 L",
+        "MOVE 8 10 W 5 L",
+        "MOVE 9 10 W 5 L",
+        "MOVE 10 10 W 3 L",
+        "MOVE 8 11 W 4 L",
+        "MOVE 9 11 W 5 R",
+        "MOVE 10 11 W 5 L",
+        "PRIORITY 9 5"
+      ],
+      "max_response_ms_so_far": 5.320452997693792
+    },
+    {
+      "test": "test_mission_scheduler.MissionSchedulerProtocolTests.test_visible_flag_raid_is_stopped_before_home_hall_is_lost",
+      "turn": 16,
+      "side": "K",
+      "raw": [
+        "SPAWN W 5",
+        "MOVE 9 5 F 1 U",
+        "MOVE 7 6 F 1 D",
+        "MOVE 9 8 F 1 U",
+        "MOVE 7 10 F 1 U",
+        "MOVE 7 7 W 3 U",
+        "MOVE 7 8 W 3 U",
+        "MOVE 8 8 W 1 L",
+        "MOVE 8 9 W 1 L",
+        "MOVE 7 10 W 3 U",
+        "MOVE 7 10 W 2 L",
+        "MOVE 8 10 W 5 L",
+        "MOVE 9 10 W 3 L",
+        "MOVE 10 10 W 5 D",
+        "MOVE 7 11 W 4 L",
+        "MOVE 9 11 W 5 L",
+        "MOVE 10 11 W 5 R"
+      ],
+      "max_response_ms_so_far": 5.320452997693792
+    }
+  ],
+  "limitations": [
+    "Handcrafted and forced historical observations are development cases, not fresh maps.",
+    "A stationary-opponent counterfactual is not full match replay.",
+    "No candidate-private implementation helpers are used."
+  ],
+  "hall_defense_case": {
+    "source_replay_sha256": "402bdd17b7675370f0974ca5cad26006a8c9ed977d0c91db0df8b7369c27f4f6",
+    "branch_input_turn": 14,
+    "enemy_flag_input_position": [
+      11,
+      7
+    ],
+    "original_history_outputs_matched": 7,
+    "original_history_outputs_compared": 13,
+    "opponent_assumption": "Only the F at (11,7) follows D,D,R; no other movement or production. Dead F receives no later orders.",
+    "information": "Forced historical states are serialized through the official hidden-score filter",
+    "turns": [
+      {
+        "turn": 14,
+        "own_commands": [
+          "SPAWN W 5",
+          "MOVE 9 6 F 1 U",
+          "MOVE 7 8 F 2 U",
+          "MOVE 7 8 F 1 R",
+          "MOVE 5 9 F 1 D",
+          "MOVE 9 10 F 1 L",
+          "MOVE 7 8 W 5 U",
+          "MOVE 7 9 W 3 U",
+          "MOVE 9 9 W 1 U",
+          "MOVE 7 10 W 3 U",
+          "MOVE 7 10 W 5 R",
+          "MOVE 9 10 W 1 U",
+          "MOVE 9 10 W 5 D",
+          "MOVE 10 10 W 5 L",
+          "MOVE 9 11 W 4 L",
+          "MOVE 11 11 W 5 L",
+          "PRIORITY 9 5 7 7"
+        ],
+        "enemy_commands": [
+          "MOVE 11 7 F 1 D"
+        ],
+        "hall_owner": "K",
+        "raider_alive": true,
+        "units_after": [
+          [
+            "Y",
+            "F",
+            2,
+            12,
+            1
+          ],
+          [
+            "Y",
+            "F",
+            3,
+            2,
+            1
+          ],
+          [
+            "Y",
+            "W",
+            4,
+            5,
+            6
+          ],
+          [
+            "Y",
+            "W",
+            4,
+            6,
+            1
+          ],
+          [
+            "Y",
+            "W",
+            5,
+            6,
+            7
+          ],
+          [
+            "Y",
+            "W",
+            5,
+            7,
+            8
+          ],
+          [
+            "Y",
+            "F",
+            5,
+            8,
+            1
+          ],
+          [
+            "Y",
+            "W",
+            5,
+            8,
+            8
+          ],
+          [
+            "K",
+            "W",
+            5,
+            9,
+            7
+          ],
+          [
+            "K",
+            "F",
+            5,
+            10,
+            1
+          ],
+          [
+            "Y",
+            "F",
+            6,
+            11,
+            1
+          ],
+          [
+            "Y",
+            "W",
+            6,
+            11,
+            3
+          ],
+          [
+            "Y",
+            "W",
+            7,
+            5,
+            2
+          ],
+          [
+            "K",
+            "F",
+            7,
+            7,
+            2
+          ],
+          [
+            "K",
+            "W",
+            7,
+            7,
+            4
+          ],
+          [
+            "K",
+            "W",
+            7,
+            8,
+            3
+          ],
+          [
+            "K",
+            "W",
+            7,
+            9,
+            3
+          ],
+          [
+            "Y",
+            "F",
+            7,
+            12,
+            1
+          ],
+          [
+            "K",
+            "F",
+            8,
+            8,
+            1
+          ],
+          [
+            "K",
+            "F",
+            8,
+            10,
+            1
+          ],
+          [
+            "K",
+            "W",
+            8,
+            10,
+            5
+          ],
+          [
+            "K",
+            "W",
+            8,
+            11,
+            4
+          ],
+          [
+            "K",
+            "F",
+            9,
+            5,
+            1
+          ],
+          [
+            "K",
+            "W",
+            9,
+            8,
+            1
+          ],
+          [
+            "K",
+            "W",
+            9,
+            9,
+            1
+          ],
+          [
+            "K",
+            "W",
+            9,
+            10,
+            5
+          ],
+          [
+            "K",
+            "W",
+            9,
+            11,
+            5
+          ],
+          [
+            "K",
+            "W",
+            10,
+            11,
+            5
+          ],
+          [
+            "Y",
+            "F",
+            11,
+            8,
+            1
+          ],
+          [
+            "K",
+            "W",
+            11,
+            11,
+            1
+          ]
+        ]
+      },
+      {
+        "turn": 15,
+        "own_commands": [
+          "SPAWN W 3",
+          "MOVE 7 7 F 2 U",
+          "MOVE 8 8 F 1 R",
+          "MOVE 8 10 F 1 L",
+          "MOVE 7 7 W 4 U",
+          "MOVE 7 8 W 3 U",
+          "MOVE 9 8 W 1 L",
+          "MOVE 5 9 W 7 D",
+          "MOVE 7 9 W 3 U",
+          "MOVE 9 9 W 1 L",
+          "MOVE 8 10 W 5 L",
+          "MOVE 9 10 W 5 L",
+          "MOVE 10 10 W 3 L",
+          "MOVE 8 11 W 4 L",
+          "MOVE 9 11 W 5 R",
+          "MOVE 10 11 W 5 L",
+          "PRIORITY 9 5"
+        ],
+        "enemy_commands": [
+          "MOVE 11 8 F 1 D"
+        ],
+        "hall_owner": "K",
+        "raider_alive": true,
+        "units_after": [
+          [
+            "Y",
+            "F",
+            2,
+            12,
+            1
+          ],
+          [
+            "Y",
+            "F",
+            3,
+            2,
+            1
+          ],
+          [
+            "Y",
+            "W",
+            4,
+            5,
+            6
+          ],
+          [
+            "Y",
+            "W",
+            4,
+            6,
+            1
+          ],
+          [
+            "Y",
+            "W",
+            5,
+            6,
+            7
+          ],
+          [
+            "Y",
+            "W",
+            5,
+            7,
+            8
+          ],
+          [
+            "Y",
+            "F",
+            5,
+            8,
+            1
+          ],
+          [
+            "Y",
+            "W",
+            5,
+            8,
+            8
+          ],
+          [
+            "K",
+            "F",
+            5,
+            10,
+            1
+          ],
+          [
+            "K",
+            "W",
+            5,
+            10,
+            7
+          ],
+          [
+            "Y",
+            "F",
+            6,
+            11,
+            1
+          ],
+          [
+            "Y",
+            "W",
+            6,
+            11,
+            3
+          ],
+          [
+            "Y",
+            "W",
+            7,
+            5,
+            2
+          ],
+          [
+            "K",
+            "F",
+            7,
+            6,
+            2
+          ],
+          [
+            "K",
+            "W",
+            7,
+            6,
+            4
+          ],
+          [
+            "K",
+            "W",
+            7,
+            7,
+            3
+          ],
+          [
+            "K",
+            "W",
+            7,
+            8,
+            3
+          ],
+          [
+            "K",
+            "F",
+            7,
+            10,
+            1
+          ],
+          [
+            "K",
+            "W",
+            7,
+            10,
+            5
+          ],
+          [
+            "K",
+            "W",
+            7,
+            11,
+            4
+          ],
+          [
+            "Y",
+            "F",
+            7,
+            12,
+            1
+          ],
+          [
+            "K",
+            "W",
+            8,
+            8,
+            1
+          ],
+          [
+            "K",
+            "W",
+            8,
+            9,
+            1
+          ],
+          [
+            "K",
+            "W",
+            8,
+            10,
+            5
+          ],
+          [
+            "K",
+            "F",
+            9,
+            5,
+            1
+          ],
+          [
+            "K",
+            "F",
+            9,
+            8,
+            1
+          ],
+          [
+            "K",
+            "W",
+            9,
+            10,
+            3
+          ],
+          [
+            "K",
+            "W",
+            9,
+            11,
+            5
+          ],
+          [
+            "K",
+            "W",
+            10,
+            11,
+            5
+          ],
+          [
+            "Y",
+            "F",
+            11,
+            9,
+            1
+          ],
+          [
+            "K",
+            "W",
+            11,
+            11,
+            1
+          ]
+        ]
+      },
+      {
+        "turn": 16,
+        "own_commands": [
+          "SPAWN W 5",
+          "MOVE 9 5 F 1 U",
+          "MOVE 7 6 F 1 D",
+          "MOVE 9 8 F 1 U",
+          "MOVE 7 10 F 1 U",
+          "MOVE 7 7 W 3 U",
+          "MOVE 7 8 W 3 U",
+          "MOVE 8 8 W 1 L",
+          "MOVE 8 9 W 1 L",
+          "MOVE 7 10 W 3 U",
+          "MOVE 7 10 W 2 L",
+          "MOVE 8 10 W 5 L",
+          "MOVE 9 10 W 3 L",
+          "MOVE 10 10 W 5 D",
+          "MOVE 7 11 W 4 L",
+          "MOVE 9 11 W 5 L",
+          "MOVE 10 11 W 5 R"
+        ],
+        "enemy_commands": [
+          "MOVE 11 9 F 1 R"
+        ],
+        "hall_owner": "N",
+        "raider_alive": true,
+        "units_after": [
+          [
+            "Y",
+            "F",
+            2,
+            12,
+            1
+          ],
+          [
+            "Y",
+            "F",
+            3,
+            2,
+            1
+          ],
+          [
+            "Y",
+            "W",
+            4,
+            5,
+            6
+          ],
+          [
+            "Y",
+            "W",
+            4,
+            6,
+            1
+          ],
+          [
+            "Y",
+            "W",
+            5,
+            6,
+            7
+          ],
+          [
+            "Y",
+            "W",
+            5,
+            7,
+            8
+          ],
+          [
+            "Y",
+            "F",
+            5,
+            8,
+            1
+          ],
+          [
+            "Y",
+            "W",
+            5,
+            8,
+            8
+          ],
+          [
+            "K",
+            "F",
+            5,
+            10,
+            1
+          ],
+          [
+            "K",
+            "W",
+            5,
+            10,
+            7
+          ],
+          [
+            "K",
+            "W",
+            6,
+            10,
+            2
+          ],
+          [
+            "K",
+            "W",
+            6,
+            11,
+            1
+          ],
+          [
+            "Y",
+            "W",
+            7,
+            5,
+            2
+          ],
+          [
+            "K",
+            "F",
+            7,
+            6,
+            1
+          ],
+          [
+            "K",
+            "W",
+            7,
+            6,
+            7
+          ],
+          [
+            "K",
+            "F",
+            7,
+            7,
+            1
+          ],
+          [
+            "K",
+            "W",
+            7,
+            7,
+            3
+          ],
+          [
+            "K",
+            "W",
+            7,
+            8,
+            1
+          ],
+          [
+            "K",
+            "F",
+            7,
+            9,
+            1
+          ],
+          [
+            "K",
+            "W",
+            7,
+            9,
+            4
+          ],
+          [
+            "K",
+            "W",
+            7,
+            10,
+            5
+          ],
+          [
+            "Y",
+            "F",
+            7,
+            12,
+            1
+          ],
+          [
+            "K",
+            "W",
+            8,
+            10,
+            3
+          ],
+          [
+            "K",
+            "W",
+            8,
+            11,
+            5
+          ],
+          [
+            "K",
+            "F",
+            9,
+            4,
+            1
+          ],
+          [
+            "K",
+            "F",
+            9,
+            7,
+            1
+          ],
+          [
+            "K",
+            "W",
+            10,
+            11,
+            5
+          ],
+          [
+            "K",
+            "W",
+            11,
+            11,
+            6
+          ],
+          [
+            "Y",
+            "F",
+            12,
+            9,
+            1
+          ]
+        ]
+      }
+    ],
+    "intercepted_turn": null
+  }
+}

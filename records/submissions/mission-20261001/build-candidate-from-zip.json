@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/tmp/yk-gcc12-jauafaj7/gcc12-wrapper",
+    "-std=c++20",
+    "-O2",
+    "-I",
+    "/tmp/yk-mission-package-qm7684ra/extracted",
+    "/tmp/yk-mission-package-qm7684ra/extracted/main.cpp",
+    "-o",
+    "/tmp/yk-mission-package-qm7684ra/candidate"
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": ""
+}

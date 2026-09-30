@@ -1,0 +1,195 @@
+{
+  "input_sha256": "49358de7db62b67e8972469939ed4acb773a19e5916b6943db2df0a477742f1f",
+  "analyzer_sha256": "090ee60c9a0c72f916bc0b6b9ab428991f19b25e9e327fedbea0e8c7c7c52418",
+  "method": "Match candidate/opponent/map/side; resample map means for intervals. Use a common-opponent run without direct matches. No multiple-comparison correction; these are development diagnostics.",
+  "pairs": {
+    "mission3 minus mission3_no_rally": {
+      "difference": "mission3 minus mission3_no_rally",
+      "by_side": {
+        "Y": {
+          "paired_maps": 1,
+          "paired_games": 1,
+          "point_rate_difference": 1,
+          "map_cluster_bootstrap_95pct": [
+            1,
+            1
+          ]
+        },
+        "K": {
+          "paired_maps": 1,
+          "paired_games": 1,
+          "point_rate_difference": 0,
+          "map_cluster_bootstrap_95pct": [
+            0,
+            0
+          ]
+        },
+        "both": {
+          "paired_maps": 1,
+          "paired_games": 2,
+          "point_rate_difference": 0.5,
+          "map_cluster_bootstrap_95pct": [
+            0.5,
+            0.5
+          ]
+        }
+      },
+      "score_margin_difference": {
+        "paired_maps": 1,
+        "paired_games": 2,
+        "mean": 1,
+        "map_cluster_bootstrap_95pct": [
+          1,
+          1
+        ]
+      },
+      "matched_games": [
+        {
+          "map_seed": 1,
+          "side": "Y",
+          "opponent": "common",
+          "left_job": "mission3-Y",
+          "right_job": "mission3_no_rally-Y",
+          "point_difference": 1,
+          "score_margin_difference": 2
+        },
+        {
+          "map_seed": 1,
+          "side": "K",
+          "opponent": "common",
+          "left_job": "mission3-K",
+          "right_job": "mission3_no_rally-K",
+          "point_difference": 0,
+          "score_margin_difference": 0
+        }
+      ]
+    },
+    "mission3 minus v8": {
+      "difference": "mission3 minus v8",
+      "by_side": {
+        "Y": {
+          "paired_maps": 1,
+          "paired_games": 1,
+          "point_rate_difference": 0,
+          "map_cluster_bootstrap_95pct": [
+            0,
+            0
+          ]
+        },
+        "K": {
+          "paired_maps": 1,
+          "paired_games": 1,
+          "point_rate_difference": -1,
+          "map_cluster_bootstrap_95pct": [
+            -1,
+            -1
+          ]
+        },
+        "both": {
+          "paired_maps": 1,
+          "paired_games": 2,
+          "point_rate_difference": -0.5,
+          "map_cluster_bootstrap_95pct": [
+            -0.5,
+            -0.5
+          ]
+        }
+      },
+      "score_margin_difference": {
+        "paired_maps": 1,
+        "paired_games": 2,
+        "mean": -1,
+        "map_cluster_bootstrap_95pct": [
+          -1,
+          -1
+        ]
+      },
+      "matched_games": [
+        {
+          "map_seed": 1,
+          "side": "Y",
+          "opponent": "common",
+          "left_job": "mission3-Y",
+          "right_job": "v8-Y",
+          "point_difference": 0,
+          "score_margin_difference": 0
+        },
+        {
+          "map_seed": 1,
+          "side": "K",
+          "opponent": "common",
+          "left_job": "mission3-K",
+          "right_job": "v8-K",
+          "point_difference": -1,
+          "score_margin_difference": -2
+        }
+      ]
+    },
+    "mission3_no_rally minus v8": {
+      "difference": "mission3_no_rally minus v8",
+      "by_side": {
+        "Y": {
+          "paired_maps": 1,
+          "paired_games": 1,
+          "point_rate_difference": -1,
+          "map_cluster_bootstrap_95pct": [
+            -1,
+            -1
+          ]
+        },
+        "K": {
+          "paired_maps": 1,
+          "paired_games": 1,
+          "point_rate_difference": -1,
+          "map_cluster_bootstrap_95pct": [
+            -1,
+            -1
+          ]
+        },
+        "both": {
+          "paired_maps": 1,
+          "paired_games": 2,
+          "point_rate_difference": -1,
+          "map_cluster_bootstrap_95pct": [
+            -1,
+            -1
+          ]
+        }
+      },
+      "score_margin_difference": {
+        "paired_maps": 1,
+        "paired_games": 2,
+        "mean": -2,
+        "map_cluster_bootstrap_95pct": [
+          -2,
+          -2
+        ]
+      },
+      "matched_games": [
+        {
+          "map_seed": 1,
+          "side": "Y",
+          "opponent": "common",
+          "left_job": "mission3_no_rally-Y",
+          "right_job": "v8-Y",
+          "point_difference": -1,
+          "score_margin_difference": -2
+        },
+        {
+          "map_seed": 1,
+          "side": "K",
+          "opponent": "common",
+          "left_job": "mission3_no_rally-K",
+          "right_job": "v8-K",
+          "point_difference": -1,
+          "score_margin_difference": -2
+        }
+      ]
+    }
+  },
+  "candidate_games_before_matching": {
+    "mission3": 2,
+    "mission3_no_rally": 2,
+    "v8": 2
+  }
+}

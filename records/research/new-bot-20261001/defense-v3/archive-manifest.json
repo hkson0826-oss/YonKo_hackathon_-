@@ -1,0 +1,122 @@
+{
+  "copied_files": 18,
+  "copied_bytes": 320796,
+  "files": [
+    {
+      "source": "/tmp/yk-mission-defense-audit-20261001/README.md",
+      "archive": "task-audit/README.md",
+      "bytes": 1453,
+      "sha256": "3535275d679efb5a3ecf0d2c724f0065a30fe46fafc4eedfd312f15aad0501f2"
+    },
+    {
+      "source": "/tmp/yk-mission-defense-audit-20261001/analyze.py",
+      "archive": "task-audit/analyze.py",
+      "bytes": 1675,
+      "sha256": "ca380e7ddcb0758ac55c868218c47306780ba2b8980e2b9c39c3e9a0fe93df88"
+    },
+    {
+      "source": "/tmp/yk-mission-defense-audit-20261001/audit.json",
+      "archive": "task-audit/audit.json",
+      "bytes": 66839,
+      "sha256": "dadd07550c51152277c12cd65b3f6ceeb72c31d316d5b7d35fa179b661a2dbb4"
+    },
+    {
+      "source": "/tmp/yk-mission-defense-audit-20261001/manifest.json",
+      "archive": "task-audit/manifest.json",
+      "bytes": 708,
+      "sha256": "314e27e43bca02ae6f5cc887071fe649b4467189ecc209b48ca2303ef175fce2"
+    },
+    {
+      "source": "/tmp/yk-mission-defense-audit-20261001/source-v1/generated.hpp",
+      "archive": "task-audit/source-v1/generated.hpp",
+      "bytes": 1043,
+      "sha256": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa"
+    },
+    {
+      "source": "/tmp/yk-mission-defense-audit-20261001/source-v1/main.cpp",
+      "archive": "task-audit/source-v1/main.cpp",
+      "bytes": 27588,
+      "sha256": "657693b842b738ce92f0e3b99746e3d6d10a44fe8ab5f52b6433b28bc8a950b3"
+    },
+    {
+      "source": "/tmp/yk-mission-defense-audit-20261001/source-v1/protocol.hpp",
+      "archive": "task-audit/source-v1/protocol.hpp",
+      "bytes": 5010,
+      "sha256": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8"
+    },
+    {
+      "source": "/tmp/yk-mission-defense-audit-20261001/summary.json",
+      "archive": "task-audit/summary.json",
+      "bytes": 1617,
+      "sha256": "f7c22467b842f9c71f31d4014f34967ceff1f316b6be7630a9b7b83912b04fbc"
+    },
+    {
+      "source": "/tmp/yk-mission-defense-audit-20261001/trace.cpp",
+      "archive": "task-audit/trace.cpp",
+      "bytes": 2420,
+      "sha256": "70dd7fb756e5aa6db0277bb78ad84df4ed1c575270bfd99cfe23a1275de919f4"
+    },
+    {
+      "source": "/tmp/yk-mission-defense-detail-20261001/analyze.py",
+      "archive": "allocation-detail/analyze.py",
+      "bytes": 1675,
+      "sha256": "ca380e7ddcb0758ac55c868218c47306780ba2b8980e2b9c39c3e9a0fe93df88"
+    },
+    {
+      "source": "/tmp/yk-mission-defense-detail-20261001/audit.json",
+      "archive": "allocation-detail/audit.json",
+      "bytes": 102517,
+      "sha256": "b5417860232a14ee43d22ada2bf348cff72dc6de63deb3436184018666dcc5e0"
+    },
+    {
+      "source": "/tmp/yk-mission-defense-detail-20261001/generated.hpp",
+      "archive": "allocation-detail/generated.hpp",
+      "bytes": 1043,
+      "sha256": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa"
+    },
+    {
+      "source": "/tmp/yk-mission-defense-detail-20261001/instrumented-v1.cpp",
+      "archive": "allocation-detail/instrumented-v1.cpp",
+      "bytes": 28300,
+      "sha256": "919ae9084990a8dc0f959ed35bfd7bc21436eda297fc047ed42b953b6aafd9db"
+    },
+    {
+      "source": "/tmp/yk-mission-defense-detail-20261001/manifest.json",
+      "archive": "allocation-detail/manifest.json",
+      "bytes": 520,
+      "sha256": "5f1dde555c17ef1eeeb25acc95956a9f335d8aa4f9509f154ec46df81c879f1e"
+    },
+    {
+      "source": "/tmp/yk-mission-defense-detail-20261001/protocol.hpp",
+      "archive": "allocation-detail/protocol.hpp",
+      "bytes": 5010,
+      "sha256": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8"
+    },
+    {
+      "source": "/tmp/yk-mission-defense-detail-20261001/trace.cpp",
+      "archive": "allocation-detail/trace.cpp",
+      "bytes": 2421,
+      "sha256": "8c71ac9aa6365995506a8bbb507a60ca1ea4229e2b93545ace82331482a9fbef"
+    },
+    {
+      "source": "/tmp/yk-mission-v3-off-protocol-20261001.json",
+      "archive": "protocol/yk-mission-v3-off-protocol-20261001.json",
+      "bytes": 68118,
+      "sha256": "ab368267329deee09c899c057a25be6073ccdd7344f62f1b4c672f62df77c1a4"
+    },
+    {
+      "source": "/tmp/yk-mission-v3-off-protocol-20261001.log",
+      "archive": "protocol/yk-mission-v3-off-protocol-20261001.log",
+      "bytes": 2839,
+      "sha256": "64192929b716dd00d0f529fb5011815d41ca09d433be6d69572385879bd04cd1"
+    }
+  ],
+  "excluded": [
+    {
+      "path": "/tmp/yk-mission-defense-detail-20261001/trace",
+      "bytes": 391296,
+      "reason": "compiled binary or cache"
+    }
+  ],
+  "method": "Original text/source/evidence copied byte-for-byte; existing manifests preserved. No compiled binaries, caches, original files, tests, candidate source or Git metadata changed."
+}
