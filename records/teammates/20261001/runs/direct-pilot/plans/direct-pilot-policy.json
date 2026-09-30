@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-09-30T16:12:12.970059+00:00",
+  "stage": "smoke",
+  "baseline": "v8",
+  "hypothesis": "Unchanged v8 versus current teammate branch, paired sides; diagnose opening search defense before expansion",
+  "source_commit": "27222acabc0d12056208e6b1a3482e7a389efea5",
+  "source_sha256": {
+    "teammate": "571397e3c84998b27f8ce0468bc49333663c69b0b84162ad8dfc27e7a47f2365",
+    "v8": "61a4f25113d9bf2c387a59ddc770a3143de6311e3fd2e004827a66eb78edfbc9"
+  },
+  "map_seeds": [
+    18000,
+    18001,
+    18002,
+    18003
+  ],
+  "policy_rng_seed": 20260927,
+  "scheduled_jobs": 8,
+  "workers": 6,
+  "resource_policy": "Official engine turn timeout; inherited 384MiB RLIMIT_AS after compilation",
+  "stop_policy": "Any error/forfeit blocks promotion; deadline decisions and candidate locking belong to the operator."
+}
