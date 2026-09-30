@@ -1,6 +1,6 @@
 {
   "created_utc": "2026-09-30T10:13:00Z",
-  "status": "planned",
+  "status": "complete_rejected_at_selection",
   "baseline": "guard3 (site v8)",
   "baseline_sha256": "61a4f25113d9bf2c387a59ddc770a3143de6311e3fd2e004827a66eb78edfbc9",
   "candidate": "guard4",
@@ -38,7 +38,8 @@
       16209
     ],
     "maps": 10,
-    "games": 160
+    "games": 160,
+    "status": "not_run_candidate_rejected"
   },
   "cpu_validation_seeds": [
     16300,
@@ -60,5 +61,6 @@
   "fallback": "Retain submitted guard3/v8 if promotion lacks evidence or browser authentication is unavailable. Never represent a local test or attempted upload as a verified site submission.",
   "deadline_policy": "Finish candidate decision and packaging by 19:40 KST; prioritize verified site status by 19:45 KST ahead of today 20:00.",
   "live_access": "At 19:10 KST only an unauthenticated in-app browser is connected; user requested to log in/reconnect Chrome. Latest live state unavailable until then.",
-  "team_plan_alignment": "Latest teammate revision adds planning only; executable source hashes match frozen opponent. September30 uses a minimal redundant-reserve fix, October1 reserved for freezing and report. Do not expand architectural changes without fresh official failure evidence."
+  "team_plan_alignment": "Latest teammate revision adds planning only; executable source hashes match frozen opponent. September30 uses a minimal redundant-reserve fix, October1 reserved for freezing and report. Do not expand architectural changes without fresh official failure evidence.",
+  "completion_utc": "2026-09-30T10:21:00Z"
 }

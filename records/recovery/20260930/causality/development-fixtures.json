@@ -1,0 +1,23 @@
+[
+  {
+    "label": "16000_K_j_balanced_portfolio_turn4",
+    "candidate_job": "e1c348e4f85d9fd60f4bc53a",
+    "baseline_job": "f44ca1a3aaed3f4131c59f8b",
+    "candidate_replay_sha256": "ebff2574fad384100884d91774cc647c25d1bf571af18887550eb4ae2783d47e",
+    "baseline_replay_sha256": "a1e5435432d53a6d9767d8e03e05a69d8b751f4a609ee1fef57aa4f64e36c793"
+  },
+  {
+    "label": "16001_Y_v3_turn13",
+    "candidate_job": "7a5cfdc28b43488d91ec5a55",
+    "baseline_job": "b5c582096d6be7ee4ec17467",
+    "candidate_replay_sha256": "e40db3c58bdcc34c7352347dc0d6d2446fa9872366135fafa10a30298d44f405",
+    "baseline_replay_sha256": "bde5046bfe215a2cd02c738ba033be169b5404e74dada67ff72bd0d7c978b08a"
+  },
+  {
+    "label": "16001_K_v3_turn12",
+    "candidate_job": "886b3c9f435adc9901feb6d5",
+    "baseline_job": "2056d4b0dcafd3746a0a15ec",
+    "candidate_replay_sha256": "f2f24260cc4dbe7b7fd95f5b4b92f54ba985f4b2a74db843111c52055833b1ea",
+    "baseline_replay_sha256": "b355674b8f5a1261dca52321d874c24bb7e1120f20bc086de3d0d0b4e3eb0572"
+  }
+]

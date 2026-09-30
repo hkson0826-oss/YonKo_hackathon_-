@@ -1,0 +1,26 @@
+{
+  "created_utc": "2026-09-30T10:17:15.196303+00:00",
+  "stage": "selection",
+  "baseline": "guard3",
+  "hypothesis": "Frozen guard4 may reduce redundant reserves; development was mixed Y -1/8 K +2/8, so promote only after independent criteria pass",
+  "source_commit": "363456abcbaaf5c4d2a0ff8a0770182f46e17820",
+  "source_sha256": {
+    "s3_selective_contact": "db83d9aa0e8809aaffd6b36ffc47972996d832d987947187af600d3a8419d96c",
+    "j_balanced_portfolio": "534f55f1d6641ed788ca637663456e43375297d8016ac9832c589b0a012c8422",
+    "teammate": "571397e3c84998b27f8ce0468bc49333663c69b0b84162ad8dfc27e7a47f2365",
+    "v3": "52268569e17d7fc40fd46f0996b2da684768902b4af27ec059c4b068911c4473",
+    "guard3": "61a4f25113d9bf2c387a59ddc770a3143de6311e3fd2e004827a66eb78edfbc9",
+    "guard4": "c7f1ed99244087eb2e9f5b4a6c8a49bfadd1687898c2ca99a3db4292e490713d"
+  },
+  "map_seeds": [
+    16100,
+    16101,
+    16102,
+    16103
+  ],
+  "policy_rng_seed": 20260927,
+  "scheduled_jobs": 64,
+  "workers": 6,
+  "resource_policy": "Official engine turn timeout; inherited 384MiB RLIMIT_AS after compilation",
+  "stop_policy": "Any error/forfeit blocks promotion; deadline decisions and candidate locking belong to the operator."
+}

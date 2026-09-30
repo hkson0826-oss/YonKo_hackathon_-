@@ -1,0 +1,94 @@
+{
+  "outcome": "reject_guard4_preserve_submitted_v8",
+  "development_and_selection": {
+    "development": {
+      "matches": 32,
+      "maps": 2,
+      "errors": 0,
+      "forfeits": 0,
+      "candidates": {
+        "guard3": {
+          "overall": {
+            "wins": 10,
+            "games": 16
+          },
+          "Y": {
+            "wins": 6,
+            "games": 8
+          },
+          "K": {
+            "wins": 4,
+            "games": 8
+          }
+        },
+        "guard4": {
+          "overall": {
+            "wins": 11,
+            "games": 16
+          },
+          "Y": {
+            "wins": 5,
+            "games": 8
+          },
+          "K": {
+            "wins": 6,
+            "games": 8
+          }
+        }
+      }
+    },
+    "selection": {
+      "matches": 64,
+      "maps": 4,
+      "errors": 0,
+      "forfeits": 0,
+      "candidates": {
+        "guard3": {
+          "overall": {
+            "wins": 26,
+            "games": 32
+          },
+          "Y": {
+            "wins": 14,
+            "games": 16
+          },
+          "K": {
+            "wins": 12,
+            "games": 16
+          }
+        },
+        "guard4": {
+          "overall": {
+            "wins": 20,
+            "games": 32
+          },
+          "Y": {
+            "wins": 11,
+            "games": 16
+          },
+          "K": {
+            "wins": 9,
+            "games": 16
+          }
+        }
+      }
+    }
+  },
+  "audited_replays": 96,
+  "audited_game_turns": 14709,
+  "semantic_issues": 0,
+  "preexisting_focused_probe_pass_count": 25,
+  "preexisting_official_replay_transition_count": 32,
+  "causality_scope": "Deterministic guard application explains the first divergent action in two matched games only; no full-game causal attribution or internal seed logging.",
+  "files_sha256": {
+    "development-actions.json": "5e36b5a08ab84b11445f9657e3623aa5e37d8dbdc145dccce4f955b9c6a01d7d",
+    "selection-actions.json": "05b3aa5d4b8f59168e2a5b1ebcb17332c4d132723a611c2a6aa52f7534213cf4",
+    "development-probe.cpp": "b5a5f905a249395f337dc82fda0f87932d8ef464ab5b3e6d2f558d3dc7824478",
+    "development-probe.log": "00a1ee1ec5b013495edabc46ac147b84eafa4726eec095332c55e663f3fda17d",
+    "development-old-guard.inc": "c3383e64d8ed7fe9e71931166c299aaf589af21e360cf92e31fa4860dceff7ec",
+    "development-inspect-guard.inc": "9f888571cb188d420f45ff1eec5f21273654b260da8240f863f66bcaa21127fe",
+    "development-fixtures.inc": "face041630b7a1966bc93d5ce73a5e426b8356190ae41f3198528262717f95a1",
+    "development-fixtures.json": "8721c0609a8db07806c56357b2ae087297e3f7a71d76fcb291d6e03bfe1d6bb7"
+  },
+  "portable_probe_recompiled_same_output": true
+}
