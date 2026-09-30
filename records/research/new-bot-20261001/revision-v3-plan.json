@@ -1,0 +1,69 @@
+{
+  "stage": "development_revision_with_ablation",
+  "parent_source_sha256": "6b9429deea930a2575f4a91d36859a4a238b4306bf843cc5013b5599265e1aa0",
+  "evidence": {
+    "case": "development-common ca61304a881abc2d17a4d2c8 seed19013 K",
+    "input_turn14_enemy_F": [
+      11,
+      7
+    ],
+    "after_turn14_enemy_F": [
+      11,
+      8
+    ],
+    "defense_choice": "HALL ETA3 rank12.6, ENG ETA4 rank15.6: onebesttargetperenemyF drops HALL inturns14–16.",
+    "allocation": "Actual W1 defender reservation lost by goalSupply reset; full W10 surplus assigned to already satisfied ENG defense. Correcting counter alone leaves ENG utility9.75>next9.244; residual demand cap also needed."
+  },
+  "change": [
+    "Consider each owned building threatened within5turns; shared troop/time budget remains.",
+    "Preserve actual reserved defense/escort supply separately from speculative production preference.",
+    "Cap defensive W assignment at residual demand; free surplus for attack/escort."
+  ],
+  "ablation": "Same v3 source with rendezvous enabled versus disabled. One final family/candidate will be delivered; no wrapper invoking legacy policies.",
+  "development": {
+    "direct_seeds": [
+      19000,
+      19001,
+      19002,
+      19003
+    ],
+    "common_seeds": [
+      19010,
+      19011,
+      19012,
+      19013
+    ],
+    "candidates": [
+      "mission3",
+      "mission3_no_rally",
+      "v8"
+    ],
+    "opponents": [
+      "s3_selective_contact",
+      "r3_opponent_league",
+      "j_balanced_portfolio"
+    ],
+    "games_common": 72
+  },
+  "new_teammate": {
+    "source_commit": "7d96f62afc7c767a60da6e9f387291ff66c43ef8",
+    "source": "submissions/v9_2",
+    "policy_rng_seed": 20261001,
+    "policy_argument": "--attack-seed=20261001",
+    "additional_development_seeds": [
+      19020,
+      19021,
+      19022,
+      19023
+    ],
+    "candidates": [
+      "mission3",
+      "mission3_no_rally",
+      "v8"
+    ],
+    "games": 24,
+    "note": "Latest teammate source is versioned from main, not old teammate v1. Read/SDK audit before games. This fixed policy seed is separate from map seeds."
+  },
+  "tests": "Keep existing legal safety/endgame tests; new multi-turn HALL interception contract; rendezvous-off is an ablation and may intentionally fail the dedicated rendezvous contract.",
+  "adoption": "Fresh selection/final required if development becomes competitive; otherwise explicitly reject promotion and preserve server v8."
+}
