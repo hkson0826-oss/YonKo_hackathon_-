@@ -1,0 +1,26 @@
+{
+  "replays": 8,
+  "frames": 1251,
+  "elapsed_seconds": 0.3660055360014667,
+  "results_sha256": "429f9592e7908061f517420c66645992d491c5b3d44d6e5b8d1ac2a71d773833",
+  "counts": {
+    "candidate:mission": {
+      "turns": 1251,
+      "commands": 23274
+    },
+    "opponent:v8": {
+      "turns": 1251,
+      "commands": 41636
+    }
+  },
+  "examples": [],
+  "candidate_source_sha256": {
+    "mission": "657693b842b738ce92f0e3b99746e3d6d10a44fe8ab5f52b6433b28bc8a950b3"
+  },
+  "auditor_sha256": "dd71de1e97f87755fc2b62025a747bdbf92b9307164d75dd6d7460e315b5ecd9",
+  "sdk_reference_sha256": {
+    "engine/pipeline.py": "f0bd96c484c8628b6a070b188adcc1a077e9f90017cc15f11ce366d974490fa6",
+    "runner/protocol.py": "5917df4bec20b963586b1ffeb7a45b9959f51e3437a227ee7e8d932b172a7d65",
+    "runner/replay.py": "fc2bf7405c405ac30da4d7c122b24e3c3275544bfbd1ec22779bbb217df6e8a6"
+  }
+}

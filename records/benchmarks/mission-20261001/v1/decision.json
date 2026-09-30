@@ -1,0 +1,27 @@
+{
+  "candidate_source_sha256": "657693b842b738ce92f0e3b99746e3d6d10a44fe8ab5f52b6433b28bc8a950b3",
+  "status": "rejected_for_promotion; diagnose and revise same independent family",
+  "pilot": {
+    "maps": 4,
+    "games": 8,
+    "mission_wins": 5,
+    "losses": 3
+  },
+  "common": {
+    "maps": 4,
+    "games": 48,
+    "mission": {
+      "wins": 3,
+      "losses": 21
+    },
+    "v8": {
+      "wins": 16,
+      "losses": 8
+    }
+  },
+  "errors": 0,
+  "forfeits": 0,
+  "semantic_invalid_or_clipped_commands": 0,
+  "interpretation": "Direct v8 result does not generalize to strong common opponents. Low latency and tactical counterexample success do not compensate for 13 fewer wins on24 common matches.",
+  "next": "Read first divergence, economic delays, F stalls and escort/defense competition before new source."
+}

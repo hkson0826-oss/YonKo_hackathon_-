@@ -1,0 +1,25 @@
+{
+  "created_utc": "2026-09-30T17:57:14.616424+00:00",
+  "stage": "development",
+  "baseline": "v8",
+  "hypothesis": "New mission family compared with v8 on fixed strong internal opponents and paired sides",
+  "source_commit": "03fc4fd70645b2e0679205096c812f0e231ff7a7",
+  "source_sha256": {
+    "mission": "657693b842b738ce92f0e3b99746e3d6d10a44fe8ab5f52b6433b28bc8a950b3",
+    "j_balanced_portfolio": "534f55f1d6641ed788ca637663456e43375297d8016ac9832c589b0a012c8422",
+    "s3_selective_contact": "db83d9aa0e8809aaffd6b36ffc47972996d832d987947187af600d3a8419d96c",
+    "v8": "61a4f25113d9bf2c387a59ddc770a3143de6311e3fd2e004827a66eb78edfbc9",
+    "r3_opponent_league": "33020d61999456342ea39b3f99e53388914b0ccf98536e2b99ae5e60c31f66cf"
+  },
+  "map_seeds": [
+    19010,
+    19011,
+    19012,
+    19013
+  ],
+  "policy_rng_seed": 20260927,
+  "scheduled_jobs": 48,
+  "workers": 6,
+  "resource_policy": "Official engine turn timeout; inherited 384MiB RLIMIT_AS after compilation",
+  "stop_policy": "Any error/forfeit blocks promotion; deadline decisions and candidate locking belong to the operator."
+}

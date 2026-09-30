@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-09-30T17:56:46.152817+00:00",
+  "stage": "development",
+  "baseline": "mission",
+  "hypothesis": "Independent persistent mission assignments reduce F waste without sacrificing score against selected v8",
+  "source_commit": "03fc4fd70645b2e0679205096c812f0e231ff7a7",
+  "source_sha256": {
+    "mission": "657693b842b738ce92f0e3b99746e3d6d10a44fe8ab5f52b6433b28bc8a950b3",
+    "v8": "61a4f25113d9bf2c387a59ddc770a3143de6311e3fd2e004827a66eb78edfbc9"
+  },
+  "map_seeds": [
+    19000,
+    19001,
+    19002,
+    19003
+  ],
+  "policy_rng_seed": 20260927,
+  "scheduled_jobs": 8,
+  "workers": 6,
+  "resource_policy": "Official engine turn timeout; inherited 384MiB RLIMIT_AS after compilation",
+  "stop_policy": "Any error/forfeit blocks promotion; deadline decisions and candidate locking belong to the operator."
+}

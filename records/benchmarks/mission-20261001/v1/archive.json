@@ -1,0 +1,12 @@
+{
+  "original_arena": "/tmp/yk-mission-arena-v1-20261001",
+  "archive": "records/benchmarks/mission-20261001/v1",
+  "complete_runs": [
+    "pilot-direct",
+    "development-common"
+  ],
+  "running_runs_not_archived": [],
+  "binaries_omitted": true,
+  "source_commit": "03fc4fd70645b2e0679205096c812f0e231ff7a7",
+  "notes": "Snapshot and immutable original result bytes preserved. Absolute original paths in evidence refer to original_arena; same relative paths in this archive contain the evidence."
+}
