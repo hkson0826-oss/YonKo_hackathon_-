@@ -1,0 +1,15 @@
+{
+  "requested_deadline_kst": "2026-09-30 20:00",
+  "status": "artifact_ready_awaiting_authenticated_selection_check",
+  "artifact": "artifacts/submission-20260929-guard3.zip",
+  "zip_sha256": "15fe3b7931e25fa6fbd6364536d39190fd6fe8e564405ed223bb28b33615f03f",
+  "existing_site_version": "v8",
+  "recorded_upload_kst": "2026-09-30 01:19",
+  "last_verified_selected_kst": "2026-09-30 01:30",
+  "today_current_selection_verified": false,
+  "new_upload_performed_this_turn": false,
+  "action_on_login": "Open submissions; verify v8 is usable and selected for next grading. Select v8 if necessary. Reupload the same validated ZIP only if the recorded v8 is missing or unusable. Verify resulting visible state before marking complete.",
+  "blocker": "Only an unauthenticated in-app browser is currently connected. User login/Chrome reconnection requested; login page visible.",
+  "preflight": "19 checks passed; existing GCC12, smoke/CPU and server practice evidence match exact ZIP.",
+  "selection_decision": "guard4 rejected after independent regression; keep approved guard3/v8."
+}

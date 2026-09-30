@@ -1,0 +1,169 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-09-30T10:28:29.032747+00:00",
+  "deadline_kst": "2026-09-30 20:00",
+  "artifact": "/home/dlwltkd/YonKo_hackathon_-/artifacts/submission-20260929-guard3.zip",
+  "zip_sha256": "15fe3b7931e25fa6fbd6364536d39190fd6fe8e564405ed223bb28b33615f03f",
+  "zip_bytes": 15847,
+  "checks": {
+    "same_zip_as_recorded_uploaded_v8": true,
+    "same_zip_as_approved_gcc12_validation": true,
+    "explicit_original_acceptance": true,
+    "exactly_four_permitted_root_files": true,
+    "zip_crc_passed": true,
+    "file_metadata_regular": true,
+    "within_official_size_limits": true,
+    "cpp_manifest_and_main_entry": true,
+    "every_member_matches_release_and_gcc12_evidence": true,
+    "main_matches_approved_candidate": true,
+    "fresh_sdk_zip_inspection": true,
+    "gcc12_prior_actual_zip_execution_passed": true,
+    "prior_runtime_resource_checks_passed": true,
+    "prior_cpu_results_consistent": true,
+    "prior_sdk_smoke_consistent": true,
+    "prior_site_practice_twenty_wins": true,
+    "prior_site_selection_refreshed": true,
+    "new_candidate_explicitly_rejected": true,
+    "no_newer_accepted_release_found": true
+  },
+  "zip_members": {
+    "generated.hpp": {
+      "sha256": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+      "bytes": 1043,
+      "same_release_source": true,
+      "same_validated_extracted_source": true,
+      "same_validation_member_digest": true,
+      "same_gcc12_member_digest": true
+    },
+    "main.cpp": {
+      "sha256": "61a4f25113d9bf2c387a59ddc770a3143de6311e3fd2e004827a66eb78edfbc9",
+      "bytes": 52377,
+      "same_release_source": true,
+      "same_validated_extracted_source": true,
+      "same_validation_member_digest": true,
+      "same_gcc12_member_digest": true
+    },
+    "protocol.hpp": {
+      "sha256": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+      "bytes": 5010,
+      "same_release_source": true,
+      "same_validated_extracted_source": true,
+      "same_validation_member_digest": true,
+      "same_gcc12_member_digest": true
+    },
+    "submission.json": {
+      "sha256": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60",
+      "bytes": 46,
+      "same_release_source": true,
+      "same_validated_extracted_source": true,
+      "same_validation_member_digest": true,
+      "same_gcc12_member_digest": true
+    }
+  },
+  "fresh_sdk_inspection": {
+    "ok": true,
+    "language": "cpp",
+    "issues": []
+  },
+  "recorded_site_version": "v8",
+  "recorded_upload_kst": "2026-09-30 01:19",
+  "recorded_selection_kst": "2026-09-30 01:30",
+  "live_site_reverified": false,
+  "live_site_limitation": "This preflight verifies original local bytes against the stored upload/selection receipt; current authenticated site state must be checked separately by the root agent.",
+  "gcc12_compiler": "x86_64-linux-gnu-g++-12 (Debian 12.2.0-14+deb12u1) 12.2.0",
+  "prior_maximum_response_ms": 107.5705939947511,
+  "checked_tracked_release_zips": [
+    "artifacts/submission-20260929-guard3.zip",
+    "artifacts/submission-v1.zip",
+    "artifacts/submission-v2.zip",
+    "artifacts/submission-v3.zip",
+    "artifacts/submission-v4.zip",
+    "submissions/delineate-v1.zip"
+  ],
+  "checked_tracked_release_evidence": [
+    {
+      "path": "records/deadline/20260929/final-decision.json",
+      "status": null,
+      "approved": true,
+      "candidate": "guard3",
+      "version": null,
+      "created_utc": "2026-09-29T10:30:33.473384+00:00",
+      "zip_sha256": null
+    },
+    {
+      "path": "records/recovery/20260930/decision.json",
+      "status": "HOLD_EXISTING_V8",
+      "approved": false,
+      "candidate": "guard4",
+      "version": null,
+      "created_utc": null,
+      "zip_sha256": null
+    },
+    {
+      "path": "records/submissions/deadline-20260929/decision.json",
+      "status": null,
+      "approved": true,
+      "candidate": "guard3",
+      "version": null,
+      "created_utc": "2026-09-29T10:30:33.473384+00:00",
+      "zip_sha256": null
+    },
+    {
+      "path": "records/submissions/deadline-20260929/site-receipt.json",
+      "status": "uploaded_usable_practice_passed_selected",
+      "approved": null,
+      "candidate": null,
+      "version": "v8",
+      "created_utc": null,
+      "zip_sha256": null
+    },
+    {
+      "path": "records/submissions/deadline-20260929/validation.json",
+      "status": "validated",
+      "approved": null,
+      "candidate": "guard3",
+      "version": null,
+      "created_utc": "2026-09-29T10:32:12.091823+00:00",
+      "zip_sha256": "15fe3b7931e25fa6fbd6364536d39190fd6fe8e564405ed223bb28b33615f03f"
+    },
+    {
+      "path": "records/submissions/v1/submission-v1-validation.json",
+      "status": null,
+      "approved": null,
+      "candidate": null,
+      "version": null,
+      "created_utc": null,
+      "zip_sha256": null
+    },
+    {
+      "path": "records/submissions/v2/submission-v2-validation.json",
+      "status": null,
+      "approved": null,
+      "candidate": null,
+      "version": null,
+      "created_utc": null,
+      "zip_sha256": null
+    },
+    {
+      "path": "records/submissions/v3/validation.json",
+      "status": "validated",
+      "approved": null,
+      "candidate": "a_v2_terminal_local",
+      "version": null,
+      "created_utc": "2026-09-27T16:31:15.171803+00:00",
+      "zip_sha256": "ce94e80a49d833be8b3c093a34319d8b9cdb5b7ec8d86b91a4b2831b18d799cb"
+    },
+    {
+      "path": "records/submissions/v4/validation.json",
+      "status": "validated",
+      "approved": null,
+      "candidate": "s3_v2_screen_paired_guard",
+      "version": null,
+      "created_utc": "2026-09-27T20:24:37.242566+00:00",
+      "zip_sha256": "b3f7fee0154ff08a7f563e8b0036dd7b649d136e949e641ebe69a8c0ba7cd3da"
+    }
+  ],
+  "newer_validated_candidates": [],
+  "newer_approved_candidates": [],
+  "scope": "Read-only local ZIP, source and saved validation/receipt preflight. No new compile or games. No original repository changes."
+}
