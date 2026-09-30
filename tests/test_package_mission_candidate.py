@@ -212,6 +212,14 @@ class MissionPackagingTests(unittest.TestCase):
                 with self.assertRaises(ValueError):
                     helper.validate_cpu_rows(rows, 'mission', 22400)
 
+    def test_v8_header_change_is_not_hidden_by_an_unchanged_main_hash(self):
+        path = (self.arena / self.manifest['bots']['v8']['source']).parent / 'protocol.hpp'
+        path.write_text('different baseline protocol')
+        self.manifest['frozen_sha256'][str(path.relative_to(self.arena))] = helper.sha(path)
+        helper.write(self.arena / 'manifest.json', self.manifest)
+        with self.assertRaisesRegex(ValueError, 'v8 bundle differs'):
+            helper.verify_inputs(self.arena, 'mission')
+
     def test_v8_identity_cannot_be_replaced_by_updating_manifest_digests(self):
         path = self.arena / self.manifest['bots']['v8']['source']
         path.write_text('different baseline')

@@ -66,13 +66,17 @@ def verify_inputs(arena, candidate):
                 'Frozen bundle source differs from bot identity: ' + name)
         metadata = read(arena / bundles[name]['submission.json']['relative'])
         require(metadata == {'schemaVersion': 1, 'language': 'cpp'}, 'Unexpected C++ submission metadata')
+    baseline_reference = package.ROOT / 'submissions/deadline-20260929-guard3'
+    baseline_hashes = {member: sha(baseline_reference / member) for member in package.FILES}
+    require(all(bundles[BASELINE][member]['sha256'] == digest for member, digest in baseline_hashes.items()),
+            'v8 bundle differs from the preserved guard3 submission')
     tools = [Path(__file__), Path(package.__file__), Path(evidence.__file__),
              Path(__file__).with_name('verify_gcc12_tmp.py'),
              Path(__file__).with_name('audit_deadline_actions.py'),
              *[package.KIT / name for name in ('submission.py', 'run_tests.py', 'output_usage.py',
                                               '_support.py', 'limits.json')]]
     seal = {'manifest_sha256': sha(arena / 'manifest.json'), 'source_commit': manifest['source_commit'],
-            'bundles': bundles, 'sdk_input_sha256': sdk,
+            'bundles': bundles, 'baseline_reference_sha256': baseline_hashes, 'sdk_input_sha256': sdk,
             'validation_tools_sha256': {str(path.relative_to(package.ROOT)): sha(path) for path in tools}}
     return manifest, seal
 
@@ -117,7 +121,11 @@ def audit_actions(rows, records):
                                                  'stdout': result.stdout, 'stderr': result.stderr})
     require(result.returncode == 0 and output.is_file(), 'Runtime action auditor failed')
     audit = read(output)
-    require(audit['replays'] == 4 and audit['frames'] > 0 and audit['counts'], 'Incomplete runtime action audit')
+    labels = {'candidate:' + rows[0]['candidate'], 'opponent:' + BASELINE}
+    require(audit['replays'] == 4 and audit['frames'] == sum(row['result']['turns'] for row in rows) and
+            set(audit['counts']) == labels and
+            all(counts['turns'] == audit['frames'] for counts in audit['counts'].values()),
+            'Incomplete runtime action audit')
     issues = {label: {key: value for key, value in counts.items()
                       if key not in ('turns', 'commands') and value}
               for label, counts in audit['counts'].items()}
@@ -219,9 +227,10 @@ def run(args):
         record['input_seal_unchanged'] = True
         require(sha(pending) == record['zip']['sha256'], 'Staged ZIP hash differs')
         args.output_zip.parent.mkdir(parents=True, exist_ok=True)
-        with args.output_zip.open('xb') as output, pending.open('rb') as source:
+        with args.output_zip.open('xb') as output:
             made_zip = True
-            shutil.copyfileobj(source, output)
+            with pending.open('rb') as source:
+                shutil.copyfileobj(source, output)
         require(sha(args.output_zip) == record['zip']['sha256'], 'Published ZIP hash differs')
         record.update(status='validated', output_zip=str(args.output_zip))
     except BaseException as exc:
