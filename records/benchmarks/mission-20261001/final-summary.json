@@ -1,0 +1,2050 @@
+{
+  "status": "research_candidate_only_not_promoted",
+  "candidate": "mission4",
+  "source_sha256": "b06263e5cffee351fa23e6279b2f6f5f1cda0a5c1106cfc3516c005aad97c9e7",
+  "league_games": 696,
+  "distinct_maps": 28,
+  "audited_runs": 14,
+  "frames": 97791,
+  "errors": 0,
+  "forfeits": 0,
+  "semantic_issues": 0,
+  "selection": {
+    "common": {
+      "mission3": {
+        "overall": {
+          "games": 64,
+          "distinct_maps": 8,
+          "wins": 46,
+          "draws": 0,
+          "losses": 18,
+          "point_rate": 0.71875,
+          "map_cluster_bootstrap_95pct": [
+            0.53125,
+            0.90625
+          ],
+          "mean_score_margin": 12.515625,
+          "mean_game_turns": 146.90625,
+          "forfeits": 0,
+          "first_turn_max_ms": 6.77204300154699,
+          "after_first_turn_max_ms": 6.293828002526425,
+          "response_ms": {
+            "count": 9402,
+            "mean": 1.7454577692569555,
+            "p50": 1.6624130003037862,
+            "p95": 2.8718129979097284,
+            "max": 6.77204300154699
+          }
+        },
+        "by_side": {
+          "Y": {
+            "games": 32,
+            "distinct_maps": 8,
+            "wins": 24,
+            "draws": 0,
+            "losses": 8,
+            "point_rate": 0.75,
+            "map_cluster_bootstrap_95pct": [
+              0.59375,
+              0.90625
+            ],
+            "mean_score_margin": 12.9375,
+            "mean_game_turns": 146.28125,
+            "forfeits": 0,
+            "first_turn_max_ms": 6.28013599634869,
+            "after_first_turn_max_ms": 6.293828002526425,
+            "response_ms": {
+              "count": 4681,
+              "mean": 1.8023178726241345,
+              "p50": 1.7257099971175194,
+              "p95": 2.914266995503567,
+              "max": 6.293828002526425
+            }
+          },
+          "K": {
+            "games": 32,
+            "distinct_maps": 8,
+            "wins": 22,
+            "draws": 0,
+            "losses": 10,
+            "point_rate": 0.6875,
+            "map_cluster_bootstrap_95pct": [
+              0.40625,
+              0.9375
+            ],
+            "mean_score_margin": 12.09375,
+            "mean_game_turns": 147.53125,
+            "forfeits": 0,
+            "first_turn_max_ms": 6.77204300154699,
+            "after_first_turn_max_ms": 4.85346200002823,
+            "response_ms": {
+              "count": 4721,
+              "mean": 1.6890794291040714,
+              "p50": 1.5997599984984845,
+              "p95": 2.8090720006730407,
+              "max": 6.77204300154699
+            }
+          }
+        },
+        "by_opponent": {
+          "j_balanced_portfolio": {
+            "games": 16,
+            "distinct_maps": 8,
+            "wins": 10,
+            "draws": 0,
+            "losses": 6,
+            "point_rate": 0.625,
+            "map_cluster_bootstrap_95pct": [
+              0.3125,
+              0.875
+            ],
+            "mean_score_margin": 3.3125,
+            "mean_game_turns": 147.5,
+            "forfeits": 0,
+            "first_turn_max_ms": 6.77204300154699,
+            "after_first_turn_max_ms": 4.544878000160679,
+            "response_ms": {
+              "count": 2360,
+              "mean": 1.7608640388585874,
+              "p50": 1.6835959977470338,
+              "p95": 2.842964000592474,
+              "max": 6.77204300154699
+            }
+          },
+          "r3_opponent_league": {
+            "games": 16,
+            "distinct_maps": 8,
+            "wins": 11,
+            "draws": 0,
+            "losses": 5,
+            "point_rate": 0.6875,
+            "map_cluster_bootstrap_95pct": [
+              0.4375,
+              0.9375
+            ],
+            "mean_score_margin": 16.3125,
+            "mean_game_turns": 134.0625,
+            "forfeits": 0,
+            "first_turn_max_ms": 6.3616839979658835,
+            "after_first_turn_max_ms": 4.314621000958141,
+            "response_ms": {
+              "count": 2145,
+              "mean": 1.7485592456882937,
+              "p50": 1.6494999945280142,
+              "p95": 2.959944999020081,
+              "max": 6.3616839979658835
+            }
+          },
+          "s3_selective_contact": {
+            "games": 16,
+            "distinct_maps": 8,
+            "wins": 13,
+            "draws": 0,
+            "losses": 3,
+            "point_rate": 0.8125,
+            "map_cluster_bootstrap_95pct": [
+              0.625,
+              0.9375
+            ],
+            "mean_score_margin": 15,
+            "mean_game_turns": 154.375,
+            "forfeits": 0,
+            "first_turn_max_ms": 6.163108999317046,
+            "after_first_turn_max_ms": 4.85346200002823,
+            "response_ms": {
+              "count": 2470,
+              "mean": 1.696257535593258,
+              "p50": 1.618637004867196,
+              "p95": 2.770924002106767,
+              "max": 6.163108999317046
+            }
+          },
+          "team_v9_2": {
+            "games": 16,
+            "distinct_maps": 8,
+            "wins": 12,
+            "draws": 0,
+            "losses": 4,
+            "point_rate": 0.75,
+            "map_cluster_bootstrap_95pct": [
+              0.5,
+              0.9375
+            ],
+            "mean_score_margin": 15.4375,
+            "mean_game_turns": 151.6875,
+            "forfeits": 0,
+            "first_turn_max_ms": 6.453781003074255,
+            "after_first_turn_max_ms": 6.293828002526425,
+            "response_ms": {
+              "count": 2427,
+              "mean": 1.7778076307914674,
+              "p50": 1.7040789971360937,
+              "p95": 2.8618430005735718,
+              "max": 6.453781003074255
+            }
+          }
+        }
+      },
+      "mission4": {
+        "overall": {
+          "games": 64,
+          "distinct_maps": 8,
+          "wins": 49,
+          "draws": 0,
+          "losses": 15,
+          "point_rate": 0.765625,
+          "map_cluster_bootstrap_95pct": [
+            0.578125,
+            0.9375
+          ],
+          "mean_score_margin": 13.046875,
+          "mean_game_turns": 143.59375,
+          "forfeits": 0,
+          "first_turn_max_ms": 6.649265000305604,
+          "after_first_turn_max_ms": 5.889588996069506,
+          "response_ms": {
+            "count": 9190,
+            "mean": 1.7511446520134348,
+            "p50": 1.6608750011073425,
+            "p95": 2.9121469997335225,
+            "max": 6.649265000305604
+          }
+        },
+        "by_side": {
+          "Y": {
+            "games": 32,
+            "distinct_maps": 8,
+            "wins": 27,
+            "draws": 0,
+            "losses": 5,
+            "point_rate": 0.84375,
+            "map_cluster_bootstrap_95pct": [
+              0.71875,
+              0.96875
+            ],
+            "mean_score_margin": 16.0625,
+            "mean_game_turns": 143.65625,
+            "forfeits": 0,
+            "first_turn_max_ms": 6.5116859987028874,
+            "after_first_turn_max_ms": 5.889588996069506,
+            "response_ms": {
+              "count": 4597,
+              "mean": 1.802146081133143,
+              "p50": 1.7079289973480627,
+              "p95": 2.9918360014562495,
+              "max": 6.5116859987028874
+            }
+          },
+          "K": {
+            "games": 32,
+            "distinct_maps": 8,
+            "wins": 22,
+            "draws": 0,
+            "losses": 10,
+            "point_rate": 0.6875,
+            "map_cluster_bootstrap_95pct": [
+              0.4375,
+              0.9375
+            ],
+            "mean_score_margin": 10.03125,
+            "mean_game_turns": 143.53125,
+            "forfeits": 0,
+            "first_turn_max_ms": 6.649265000305604,
+            "after_first_turn_max_ms": 5.005973995139357,
+            "response_ms": {
+              "count": 4593,
+              "mean": 1.7000988062343583,
+              "p50": 1.6123589957715012,
+              "p95": 2.7987040011794306,
+              "max": 6.649265000305604
+            }
+          }
+        },
+        "by_opponent": {
+          "j_balanced_portfolio": {
+            "games": 16,
+            "distinct_maps": 8,
+            "wins": 11,
+            "draws": 0,
+            "losses": 5,
+            "point_rate": 0.6875,
+            "map_cluster_bootstrap_95pct": [
+              0.375,
+              0.9375
+            ],
+            "mean_score_margin": 3.125,
+            "mean_game_turns": 147.25,
+            "forfeits": 0,
+            "first_turn_max_ms": 6.368816997564863,
+            "after_first_turn_max_ms": 5.889588996069506,
+            "response_ms": {
+              "count": 2356,
+              "mean": 1.7597254596827052,
+              "p50": 1.6683030044077896,
+              "p95": 2.8443929986678995,
+              "max": 6.368816997564863
+            }
+          },
+          "r3_opponent_league": {
+            "games": 16,
+            "distinct_maps": 8,
+            "wins": 12,
+            "draws": 0,
+            "losses": 4,
+            "point_rate": 0.75,
+            "map_cluster_bootstrap_95pct": [
+              0.5,
+              1.0
+            ],
+            "mean_score_margin": 17,
+            "mean_game_turns": 134.0625,
+            "forfeits": 0,
+            "first_turn_max_ms": 6.5116859987028874,
+            "after_first_turn_max_ms": 5.041510994487908,
+            "response_ms": {
+              "count": 2145,
+              "mean": 1.7764486180717995,
+              "p50": 1.6700310006854124,
+              "p95": 3.011570996022783,
+              "max": 6.5116859987028874
+            }
+          },
+          "s3_selective_contact": {
+            "games": 16,
+            "distinct_maps": 8,
+            "wins": 13,
+            "draws": 0,
+            "losses": 3,
+            "point_rate": 0.8125,
+            "map_cluster_bootstrap_95pct": [
+              0.625,
+              0.9375
+            ],
+            "mean_score_margin": 16,
+            "mean_game_turns": 144.9375,
+            "forfeits": 0,
+            "first_turn_max_ms": 6.649265000305604,
+            "after_first_turn_max_ms": 4.830149999179412,
+            "response_ms": {
+              "count": 2319,
+              "mean": 1.7186913139697542,
+              "p50": 1.6338790010195225,
+              "p95": 2.818510001816321,
+              "max": 6.649265000305604
+            }
+          },
+          "team_v9_2": {
+            "games": 16,
+            "distinct_maps": 8,
+            "wins": 13,
+            "draws": 0,
+            "losses": 3,
+            "point_rate": 0.8125,
+            "map_cluster_bootstrap_95pct": [
+              0.625,
+              0.9375
+            ],
+            "mean_score_margin": 16.0625,
+            "mean_game_turns": 148.125,
+            "forfeits": 0,
+            "first_turn_max_ms": 6.306800998572726,
+            "after_first_turn_max_ms": 5.750240001361817,
+            "response_ms": {
+              "count": 2370,
+              "mean": 1.7514678169329718,
+              "p50": 1.6679789987392724,
+              "p95": 2.94109400419984,
+              "max": 6.306800998572726
+            }
+          }
+        }
+      },
+      "v8": {
+        "overall": {
+          "games": 64,
+          "distinct_maps": 8,
+          "wins": 45,
+          "draws": 0,
+          "losses": 19,
+          "point_rate": 0.703125,
+          "map_cluster_bootstrap_95pct": [
+            0.5625,
+            0.8125
+          ],
+          "mean_score_margin": 9.875,
+          "mean_game_turns": 155.640625,
+          "forfeits": 0,
+          "first_turn_max_ms": 14.56165399577003,
+          "after_first_turn_max_ms": 132.0082980018924,
+          "response_ms": {
+            "count": 9961,
+            "mean": 87.22350577611732,
+            "p50": 85.84131399402395,
+            "p95": 122.93264100298984,
+            "max": 132.0082980018924
+          }
+        },
+        "by_side": {
+          "Y": {
+            "games": 32,
+            "distinct_maps": 8,
+            "wins": 25,
+            "draws": 0,
+            "losses": 7,
+            "point_rate": 0.78125,
+            "map_cluster_bootstrap_95pct": [
+              0.625,
+              0.9375
+            ],
+            "mean_score_margin": 10.5,
+            "mean_game_turns": 156.96875,
+            "forfeits": 0,
+            "first_turn_max_ms": 14.089511998463422,
+            "after_first_turn_max_ms": 128.3140759987873,
+            "response_ms": {
+              "count": 5023,
+              "mean": 84.96478455765276,
+              "p50": 83.64514500135556,
+              "p95": 121.43239900615299,
+              "max": 128.3140759987873
+            }
+          },
+          "K": {
+            "games": 32,
+            "distinct_maps": 8,
+            "wins": 20,
+            "draws": 0,
+            "losses": 12,
+            "point_rate": 0.625,
+            "map_cluster_bootstrap_95pct": [
+              0.4375,
+              0.78125
+            ],
+            "mean_score_margin": 9.25,
+            "mean_game_turns": 154.3125,
+            "forfeits": 0,
+            "first_turn_max_ms": 14.56165399577003,
+            "after_first_turn_max_ms": 132.0082980018924,
+            "response_ms": {
+              "count": 4938,
+              "mean": 89.52110737197545,
+              "p50": 88.14969300146913,
+              "p95": 123.78571799490601,
+              "max": 132.0082980018924
+            }
+          }
+        },
+        "by_opponent": {
+          "j_balanced_portfolio": {
+            "games": 16,
+            "distinct_maps": 8,
+            "wins": 10,
+            "draws": 0,
+            "losses": 6,
+            "point_rate": 0.625,
+            "map_cluster_bootstrap_95pct": [
+              0.3125,
+              0.875
+            ],
+            "mean_score_margin": 6.5625,
+            "mean_game_turns": 159.1875,
+            "forfeits": 0,
+            "first_turn_max_ms": 14.56165399577003,
+            "after_first_turn_max_ms": 128.22760499693686,
+            "response_ms": {
+              "count": 2547,
+              "mean": 85.4185042661421,
+              "p50": 84.03786700364435,
+              "p95": 122.41666499903658,
+              "max": 128.22760499693686
+            }
+          },
+          "r3_opponent_league": {
+            "games": 16,
+            "distinct_maps": 8,
+            "wins": 13,
+            "draws": 0,
+            "losses": 3,
+            "point_rate": 0.8125,
+            "map_cluster_bootstrap_95pct": [
+              0.5625,
+              1.0
+            ],
+            "mean_score_margin": 17.5,
+            "mean_game_turns": 153.1875,
+            "forfeits": 0,
+            "first_turn_max_ms": 13.697413000045344,
+            "after_first_turn_max_ms": 127.02060300216544,
+            "response_ms": {
+              "count": 2451,
+              "mean": 86.35871333943345,
+              "p50": 85.14581700001145,
+              "p95": 121.65583200112451,
+              "max": 127.02060300216544
+            }
+          },
+          "s3_selective_contact": {
+            "games": 16,
+            "distinct_maps": 8,
+            "wins": 12,
+            "draws": 0,
+            "losses": 4,
+            "point_rate": 0.75,
+            "map_cluster_bootstrap_95pct": [
+              0.5,
+              1.0
+            ],
+            "mean_score_margin": 8.75,
+            "mean_game_turns": 152.75,
+            "forfeits": 0,
+            "first_turn_max_ms": 14.122751003014855,
+            "after_first_turn_max_ms": 127.74898600036977,
+            "response_ms": {
+              "count": 2444,
+              "mean": 88.8991189284694,
+              "p50": 87.18558299733559,
+              "p95": 123.45528999867383,
+              "max": 127.74898600036977
+            }
+          },
+          "team_v9_2": {
+            "games": 16,
+            "distinct_maps": 8,
+            "wins": 10,
+            "draws": 0,
+            "losses": 6,
+            "point_rate": 0.625,
+            "map_cluster_bootstrap_95pct": [
+              0.5,
+              0.8125
+            ],
+            "mean_score_margin": 6.6875,
+            "mean_game_turns": 157.4375,
+            "forfeits": 0,
+            "first_turn_max_ms": 14.089511998463422,
+            "after_first_turn_max_ms": 132.0082980018924,
+            "response_ms": {
+              "count": 2519,
+              "mean": 88.26429440806275,
+              "p50": 87.19346400175709,
+              "p95": 123.82084300043061,
+              "max": 132.0082980018924
+            }
+          }
+        }
+      }
+    },
+    "direct": {
+      "mission3": {
+        "overall": {
+          "games": 16,
+          "distinct_maps": 8,
+          "wins": 9,
+          "draws": 0,
+          "losses": 7,
+          "point_rate": 0.5625,
+          "map_cluster_bootstrap_95pct": [
+            0.3125,
+            0.8125
+          ],
+          "mean_score_margin": 6,
+          "mean_game_turns": 141.3125,
+          "forfeits": 0,
+          "first_turn_max_ms": 6.840513997303788,
+          "after_first_turn_max_ms": 4.7257920014089905,
+          "response_ms": {
+            "count": 2261,
+            "mean": 1.8468893008392453,
+            "p50": 1.7447369973524474,
+            "p95": 2.99886900029378,
+            "max": 6.840513997303788
+          }
+        },
+        "by_side": {
+          "Y": {
+            "games": 8,
+            "distinct_maps": 8,
+            "wins": 6,
+            "draws": 0,
+            "losses": 2,
+            "point_rate": 0.75,
+            "map_cluster_bootstrap_95pct": [
+              0.5,
+              1.0
+            ],
+            "mean_score_margin": 9.25,
+            "mean_game_turns": 140.875,
+            "forfeits": 0,
+            "first_turn_max_ms": 5.883425998035818,
+            "after_first_turn_max_ms": 4.7257920014089905,
+            "response_ms": {
+              "count": 1127,
+              "mean": 1.9113379495294112,
+              "p50": 1.8043100062641315,
+              "p95": 3.0804540001554415,
+              "max": 5.883425998035818
+            }
+          },
+          "K": {
+            "games": 8,
+            "distinct_maps": 8,
+            "wins": 3,
+            "draws": 0,
+            "losses": 5,
+            "point_rate": 0.375,
+            "map_cluster_bootstrap_95pct": [
+              0.125,
+              0.75
+            ],
+            "mean_score_margin": 2.75,
+            "mean_game_turns": 141.75,
+            "forfeits": 0,
+            "first_turn_max_ms": 6.840513997303788,
+            "after_first_turn_max_ms": 4.580269000143744,
+            "response_ms": {
+              "count": 1134,
+              "mean": 1.7828384833138335,
+              "p50": 1.6907280005398206,
+              "p95": 2.8731429993058555,
+              "max": 6.840513997303788
+            }
+          }
+        },
+        "by_opponent": {
+          "v8": {
+            "games": 16,
+            "distinct_maps": 8,
+            "wins": 9,
+            "draws": 0,
+            "losses": 7,
+            "point_rate": 0.5625,
+            "map_cluster_bootstrap_95pct": [
+              0.3125,
+              0.8125
+            ],
+            "mean_score_margin": 6,
+            "mean_game_turns": 141.3125,
+            "forfeits": 0,
+            "first_turn_max_ms": 6.840513997303788,
+            "after_first_turn_max_ms": 4.7257920014089905,
+            "response_ms": {
+              "count": 2261,
+              "mean": 1.8468893008392453,
+              "p50": 1.7447369973524474,
+              "p95": 2.99886900029378,
+              "max": 6.840513997303788
+            }
+          }
+        }
+      },
+      "mission4": {
+        "overall": {
+          "games": 16,
+          "distinct_maps": 8,
+          "wins": 12,
+          "draws": 0,
+          "losses": 4,
+          "point_rate": 0.75,
+          "map_cluster_bootstrap_95pct": [
+            0.5,
+            0.9375
+          ],
+          "mean_score_margin": 9.3125,
+          "mean_game_turns": 154.3125,
+          "forfeits": 0,
+          "first_turn_max_ms": 7.967205005115829,
+          "after_first_turn_max_ms": 7.444178998412099,
+          "response_ms": {
+            "count": 2469,
+            "mean": 1.8149541198826846,
+            "p50": 1.7361959980917163,
+            "p95": 2.913002004788723,
+            "max": 7.967205005115829
+          }
+        },
+        "by_side": {
+          "Y": {
+            "games": 8,
+            "distinct_maps": 8,
+            "wins": 7,
+            "draws": 0,
+            "losses": 1,
+            "point_rate": 0.875,
+            "map_cluster_bootstrap_95pct": [
+              0.625,
+              1.0
+            ],
+            "mean_score_margin": 11,
+            "mean_game_turns": 160,
+            "forfeits": 0,
+            "first_turn_max_ms": 7.967205005115829,
+            "after_first_turn_max_ms": 7.444178998412099,
+            "response_ms": {
+              "count": 1280,
+              "mean": 1.8416960906961322,
+              "p50": 1.7489649981143884,
+              "p95": 3.011414002685342,
+              "max": 7.967205005115829
+            }
+          },
+          "K": {
+            "games": 8,
+            "distinct_maps": 8,
+            "wins": 5,
+            "draws": 0,
+            "losses": 3,
+            "point_rate": 0.625,
+            "map_cluster_bootstrap_95pct": [
+              0.25,
+              0.875
+            ],
+            "mean_score_margin": 7.625,
+            "mean_game_turns": 148.625,
+            "forfeits": 0,
+            "first_turn_max_ms": 6.921503001649398,
+            "after_first_turn_max_ms": 3.9720310014672577,
+            "response_ms": {
+              "count": 1189,
+              "mean": 1.7861654549195114,
+              "p50": 1.718851999612525,
+              "p95": 2.831784004229121,
+              "max": 6.921503001649398
+            }
+          }
+        },
+        "by_opponent": {
+          "v8": {
+            "games": 16,
+            "distinct_maps": 8,
+            "wins": 12,
+            "draws": 0,
+            "losses": 4,
+            "point_rate": 0.75,
+            "map_cluster_bootstrap_95pct": [
+              0.5,
+              0.9375
+            ],
+            "mean_score_margin": 9.3125,
+            "mean_game_turns": 154.3125,
+            "forfeits": 0,
+            "first_turn_max_ms": 7.967205005115829,
+            "after_first_turn_max_ms": 7.444178998412099,
+            "response_ms": {
+              "count": 2469,
+              "mean": 1.8149541198826846,
+              "p50": 1.7361959980917163,
+              "p95": 2.913002004788723,
+              "max": 7.967205005115829
+            }
+          }
+        }
+      },
+      "v8": {
+        "overall": {
+          "games": 32,
+          "distinct_maps": 8,
+          "wins": 11,
+          "draws": 0,
+          "losses": 21,
+          "point_rate": 0.34375,
+          "map_cluster_bootstrap_95pct": [
+            0.125,
+            0.5625
+          ],
+          "mean_score_margin": -7.65625,
+          "mean_game_turns": 147.8125,
+          "forfeits": 0,
+          "first_turn_max_ms": 14.4854519967339,
+          "after_first_turn_max_ms": 127.98080100037623,
+          "response_ms": {
+            "count": 4730,
+            "mean": 90.487314969165,
+            "p50": 88.98109399888199,
+            "p95": 124.1182209996623,
+            "max": 127.98080100037623
+          }
+        },
+        "by_side": {
+          "Y": {
+            "games": 16,
+            "distinct_maps": 8,
+            "wins": 8,
+            "draws": 0,
+            "losses": 8,
+            "point_rate": 0.5,
+            "map_cluster_bootstrap_95pct": [
+              0.1875,
+              0.8125
+            ],
+            "mean_score_margin": -5.1875,
+            "mean_game_turns": 145.1875,
+            "forfeits": 0,
+            "first_turn_max_ms": 14.4854519967339,
+            "after_first_turn_max_ms": 127.98080100037623,
+            "response_ms": {
+              "count": 2323,
+              "mean": 91.47454398421655,
+              "p50": 89.81045800464926,
+              "p95": 124.18230700131971,
+              "max": 127.98080100037623
+            }
+          },
+          "K": {
+            "games": 16,
+            "distinct_maps": 8,
+            "wins": 3,
+            "draws": 0,
+            "losses": 13,
+            "point_rate": 0.1875,
+            "map_cluster_bootstrap_95pct": [
+              0.0,
+              0.4375
+            ],
+            "mean_score_margin": -10.125,
+            "mean_game_turns": 150.4375,
+            "forfeits": 0,
+            "first_turn_max_ms": 13.828868999553379,
+            "after_first_turn_max_ms": 127.87439999374328,
+            "response_ms": {
+              "count": 2407,
+              "mean": 89.53453848309738,
+              "p50": 88.14666699618101,
+              "p95": 123.97201799467439,
+              "max": 127.87439999374328
+            }
+          }
+        },
+        "by_opponent": {
+          "mission3": {
+            "games": 16,
+            "distinct_maps": 8,
+            "wins": 7,
+            "draws": 0,
+            "losses": 9,
+            "point_rate": 0.4375,
+            "map_cluster_bootstrap_95pct": [
+              0.1875,
+              0.6875
+            ],
+            "mean_score_margin": -6,
+            "mean_game_turns": 141.3125,
+            "forfeits": 0,
+            "first_turn_max_ms": 13.93325200479012,
+            "after_first_turn_max_ms": 127.98080100037623,
+            "response_ms": {
+              "count": 2261,
+              "mean": 91.1900841742841,
+              "p50": 89.82701600325527,
+              "p95": 124.45910200040089,
+              "max": 127.98080100037623
+            }
+          },
+          "mission4": {
+            "games": 16,
+            "distinct_maps": 8,
+            "wins": 4,
+            "draws": 0,
+            "losses": 12,
+            "point_rate": 0.25,
+            "map_cluster_bootstrap_95pct": [
+              0.0625,
+              0.5
+            ],
+            "mean_score_margin": -9.3125,
+            "mean_game_turns": 154.3125,
+            "forfeits": 0,
+            "first_turn_max_ms": 14.4854519967339,
+            "after_first_turn_max_ms": 127.82775900268462,
+            "response_ms": {
+              "count": 2469,
+              "mean": 89.8437502981345,
+              "p50": 88.17206700041424,
+              "p95": 123.82109399914043,
+              "max": 127.82775900268462
+            }
+          }
+        }
+      }
+    }
+  },
+  "final": {
+    "common": {
+      "mission4": {
+        "overall": {
+          "games": 64,
+          "distinct_maps": 8,
+          "wins": 40,
+          "draws": 0,
+          "losses": 24,
+          "point_rate": 0.625,
+          "map_cluster_bootstrap_95pct": [
+            0.453125,
+            0.8125
+          ],
+          "mean_score_margin": 8.21875,
+          "mean_game_turns": 134.671875,
+          "forfeits": 0,
+          "first_turn_max_ms": 6.903749999764841,
+          "after_first_turn_max_ms": 6.1927580027258955,
+          "response_ms": {
+            "count": 8619,
+            "mean": 1.835362743324033,
+            "p50": 1.7510879988549277,
+            "p95": 3.01648500317242,
+            "max": 6.903749999764841
+          }
+        },
+        "by_side": {
+          "Y": {
+            "games": 32,
+            "distinct_maps": 8,
+            "wins": 19,
+            "draws": 0,
+            "losses": 13,
+            "point_rate": 0.59375,
+            "map_cluster_bootstrap_95pct": [
+              0.34375,
+              0.8125
+            ],
+            "mean_score_margin": 6.0625,
+            "mean_game_turns": 138.71875,
+            "forfeits": 0,
+            "first_turn_max_ms": 6.837395005277358,
+            "after_first_turn_max_ms": 6.1927580027258955,
+            "response_ms": {
+              "count": 4439,
+              "mean": 1.9232424640265722,
+              "p50": 1.845971004513558,
+              "p95": 3.1124390006880276,
+              "max": 6.837395005277358
+            }
+          },
+          "K": {
+            "games": 32,
+            "distinct_maps": 8,
+            "wins": 21,
+            "draws": 0,
+            "losses": 11,
+            "point_rate": 0.65625,
+            "map_cluster_bootstrap_95pct": [
+              0.4375,
+              0.875
+            ],
+            "mean_score_margin": 10.375,
+            "mean_game_turns": 130.625,
+            "forfeits": 0,
+            "first_turn_max_ms": 6.903749999764841,
+            "after_first_turn_max_ms": 4.466748003324028,
+            "response_ms": {
+              "count": 4180,
+              "mean": 1.7420378437549968,
+              "p50": 1.654223000514321,
+              "p95": 2.9317779990378767,
+              "max": 6.903749999764841
+            }
+          }
+        },
+        "by_opponent": {
+          "j_balanced_portfolio": {
+            "games": 16,
+            "distinct_maps": 8,
+            "wins": 7,
+            "draws": 0,
+            "losses": 9,
+            "point_rate": 0.4375,
+            "map_cluster_bootstrap_95pct": [
+              0.1875,
+              0.6875
+            ],
+            "mean_score_margin": -0.9375,
+            "mean_game_turns": 131.8125,
+            "forfeits": 0,
+            "first_turn_max_ms": 6.693285002256744,
+            "after_first_turn_max_ms": 4.124090999539476,
+            "response_ms": {
+              "count": 2109,
+              "mean": 1.864368092906285,
+              "p50": 1.787296001566574,
+              "p95": 3.044582001166418,
+              "max": 6.693285002256744
+            }
+          },
+          "r3_opponent_league": {
+            "games": 16,
+            "distinct_maps": 8,
+            "wins": 11,
+            "draws": 0,
+            "losses": 5,
+            "point_rate": 0.6875,
+            "map_cluster_bootstrap_95pct": [
+              0.4375,
+              0.9375
+            ],
+            "mean_score_margin": 11.125,
+            "mean_game_turns": 130.4375,
+            "forfeits": 0,
+            "first_turn_max_ms": 6.903749999764841,
+            "after_first_turn_max_ms": 4.879215994151309,
+            "response_ms": {
+              "count": 2087,
+              "mean": 1.847110258665771,
+              "p50": 1.7503039998700842,
+              "p95": 3.132555000775028,
+              "max": 6.903749999764841
+            }
+          },
+          "s3_selective_contact": {
+            "games": 16,
+            "distinct_maps": 8,
+            "wins": 11,
+            "draws": 0,
+            "losses": 5,
+            "point_rate": 0.6875,
+            "map_cluster_bootstrap_95pct": [
+              0.4375,
+              0.9375
+            ],
+            "mean_score_margin": 13.0625,
+            "mean_game_turns": 130.5625,
+            "forfeits": 0,
+            "first_turn_max_ms": 6.415506999474019,
+            "after_first_turn_max_ms": 6.117529999755789,
+            "response_ms": {
+              "count": 2089,
+              "mean": 1.806424270871381,
+              "p50": 1.7279210005654022,
+              "p95": 2.9860340000595897,
+              "max": 6.415506999474019
+            }
+          },
+          "team_v9_2": {
+            "games": 16,
+            "distinct_maps": 8,
+            "wins": 11,
+            "draws": 0,
+            "losses": 5,
+            "point_rate": 0.6875,
+            "map_cluster_bootstrap_95pct": [
+              0.4375,
+              0.9375
+            ],
+            "mean_score_margin": 9.625,
+            "mean_game_turns": 145.875,
+            "forfeits": 0,
+            "first_turn_max_ms": 6.837395005277358,
+            "after_first_turn_max_ms": 6.1927580027258955,
+            "response_ms": {
+              "count": 2334,
+              "mean": 1.8245500278854787,
+              "p50": 1.7464040065533482,
+              "p95": 2.9504990015993826,
+              "max": 6.837395005277358
+            }
+          }
+        }
+      },
+      "v8": {
+        "overall": {
+          "games": 64,
+          "distinct_maps": 8,
+          "wins": 43,
+          "draws": 0,
+          "losses": 21,
+          "point_rate": 0.671875,
+          "map_cluster_bootstrap_95pct": [
+            0.640625,
+            0.71875
+          ],
+          "mean_score_margin": 11.28125,
+          "mean_game_turns": 136.40625,
+          "forfeits": 0,
+          "first_turn_max_ms": 14.902043003530707,
+          "after_first_turn_max_ms": 133.15114599390654,
+          "response_ms": {
+            "count": 8730,
+            "mean": 86.41013868360139,
+            "p50": 85.0588380053523,
+            "p95": 122.34794899995904,
+            "max": 133.15114599390654
+          }
+        },
+        "by_side": {
+          "Y": {
+            "games": 32,
+            "distinct_maps": 8,
+            "wins": 22,
+            "draws": 0,
+            "losses": 10,
+            "point_rate": 0.6875,
+            "map_cluster_bootstrap_95pct": [
+              0.53125,
+              0.8125
+            ],
+            "mean_score_margin": 11.875,
+            "mean_game_turns": 133.71875,
+            "forfeits": 0,
+            "first_turn_max_ms": 14.3426329959766,
+            "after_first_turn_max_ms": 129.3799350023619,
+            "response_ms": {
+              "count": 4279,
+              "mean": 87.13155920606617,
+              "p50": 86.21325300191529,
+              "p95": 122.38512800104218,
+              "max": 129.3799350023619
+            }
+          },
+          "K": {
+            "games": 32,
+            "distinct_maps": 8,
+            "wins": 21,
+            "draws": 0,
+            "losses": 11,
+            "point_rate": 0.65625,
+            "map_cluster_bootstrap_95pct": [
+              0.5,
+              0.78125
+            ],
+            "mean_score_margin": 10.6875,
+            "mean_game_turns": 139.09375,
+            "forfeits": 0,
+            "first_turn_max_ms": 14.902043003530707,
+            "after_first_turn_max_ms": 133.15114599390654,
+            "response_ms": {
+              "count": 4451,
+              "mean": 85.71659601552078,
+              "p50": 83.93629600323038,
+              "p95": 122.29495899373433,
+              "max": 133.15114599390654
+            }
+          }
+        },
+        "by_opponent": {
+          "j_balanced_portfolio": {
+            "games": 16,
+            "distinct_maps": 8,
+            "wins": 13,
+            "draws": 0,
+            "losses": 3,
+            "point_rate": 0.8125,
+            "map_cluster_bootstrap_95pct": [
+              0.625,
+              0.9375
+            ],
+            "mean_score_margin": 17.5625,
+            "mean_game_turns": 134.125,
+            "forfeits": 0,
+            "first_turn_max_ms": 14.65070200356422,
+            "after_first_turn_max_ms": 133.15114599390654,
+            "response_ms": {
+              "count": 2146,
+              "mean": 85.32318814399966,
+              "p50": 83.70681600354146,
+              "p95": 122.12882899621036,
+              "max": 133.15114599390654
+            }
+          },
+          "r3_opponent_league": {
+            "games": 16,
+            "distinct_maps": 8,
+            "wins": 13,
+            "draws": 0,
+            "losses": 3,
+            "point_rate": 0.8125,
+            "map_cluster_bootstrap_95pct": [
+              0.625,
+              0.9375
+            ],
+            "mean_score_margin": 16.6875,
+            "mean_game_turns": 131.25,
+            "forfeits": 0,
+            "first_turn_max_ms": 13.963969999167603,
+            "after_first_turn_max_ms": 129.3799350023619,
+            "response_ms": {
+              "count": 2100,
+              "mean": 86.02103258051059,
+              "p50": 84.83103400067193,
+              "p95": 121.85649100138107,
+              "max": 129.3799350023619
+            }
+          },
+          "s3_selective_contact": {
+            "games": 16,
+            "distinct_maps": 8,
+            "wins": 9,
+            "draws": 0,
+            "losses": 7,
+            "point_rate": 0.5625,
+            "map_cluster_bootstrap_95pct": [
+              0.3125,
+              0.8125
+            ],
+            "mean_score_margin": 8.6875,
+            "mean_game_turns": 137.25,
+            "forfeits": 0,
+            "first_turn_max_ms": 13.520252003218047,
+            "after_first_turn_max_ms": 127.65247299830662,
+            "response_ms": {
+              "count": 2196,
+              "mean": 84.8509464808301,
+              "p50": 83.66741400095634,
+              "p95": 121.55772299593082,
+              "max": 127.65247299830662
+            }
+          },
+          "team_v9_2": {
+            "games": 16,
+            "distinct_maps": 8,
+            "wins": 8,
+            "draws": 0,
+            "losses": 8,
+            "point_rate": 0.5,
+            "map_cluster_bootstrap_95pct": [
+              0.25,
+              0.75
+            ],
+            "mean_score_margin": 2.1875,
+            "mean_game_turns": 143,
+            "forfeits": 0,
+            "first_turn_max_ms": 14.902043003530707,
+            "after_first_turn_max_ms": 128.2443140007672,
+            "response_ms": {
+              "count": 2288,
+              "mean": 89.28326138979097,
+              "p50": 88.0136819978361,
+              "p95": 123.26415000279667,
+              "max": 128.2443140007672
+            }
+          }
+        }
+      }
+    },
+    "direct": {
+      "mission4": {
+        "overall": {
+          "games": 16,
+          "distinct_maps": 8,
+          "wins": 9,
+          "draws": 0,
+          "losses": 7,
+          "point_rate": 0.5625,
+          "map_cluster_bootstrap_95pct": [
+            0.25,
+            0.875
+          ],
+          "mean_score_margin": 3,
+          "mean_game_turns": 136.4375,
+          "forfeits": 0,
+          "first_turn_max_ms": 7.14440400042804,
+          "after_first_turn_max_ms": 6.613632998778485,
+          "response_ms": {
+            "count": 2183,
+            "mean": 1.9579364319624022,
+            "p50": 1.8672439982765354,
+            "p95": 3.2121940021170303,
+            "max": 7.14440400042804
+          }
+        },
+        "by_side": {
+          "Y": {
+            "games": 8,
+            "distinct_maps": 8,
+            "wins": 5,
+            "draws": 0,
+            "losses": 3,
+            "point_rate": 0.625,
+            "map_cluster_bootstrap_95pct": [
+              0.25,
+              0.875
+            ],
+            "mean_score_margin": 7.875,
+            "mean_game_turns": 139.75,
+            "forfeits": 0,
+            "first_turn_max_ms": 7.032840003375895,
+            "after_first_turn_max_ms": 4.74723400111543,
+            "response_ms": {
+              "count": 1118,
+              "mean": 2.003354108216329,
+              "p50": 1.9103240047115833,
+              "p95": 3.2379289987147786,
+              "max": 7.032840003375895
+            }
+          },
+          "K": {
+            "games": 8,
+            "distinct_maps": 8,
+            "wins": 4,
+            "draws": 0,
+            "losses": 4,
+            "point_rate": 0.5,
+            "map_cluster_bootstrap_95pct": [
+              0.125,
+              0.875
+            ],
+            "mean_score_margin": -1.875,
+            "mean_game_turns": 133.125,
+            "forfeits": 0,
+            "first_turn_max_ms": 7.14440400042804,
+            "after_first_turn_max_ms": 6.613632998778485,
+            "response_ms": {
+              "count": 1065,
+              "mean": 1.9102585333221298,
+              "p50": 1.821268000639975,
+              "p95": 3.1758159966557287,
+              "max": 7.14440400042804
+            }
+          }
+        },
+        "by_opponent": {
+          "v8": {
+            "games": 16,
+            "distinct_maps": 8,
+            "wins": 9,
+            "draws": 0,
+            "losses": 7,
+            "point_rate": 0.5625,
+            "map_cluster_bootstrap_95pct": [
+              0.25,
+              0.875
+            ],
+            "mean_score_margin": 3,
+            "mean_game_turns": 136.4375,
+            "forfeits": 0,
+            "first_turn_max_ms": 7.14440400042804,
+            "after_first_turn_max_ms": 6.613632998778485,
+            "response_ms": {
+              "count": 2183,
+              "mean": 1.9579364319624022,
+              "p50": 1.8672439982765354,
+              "p95": 3.2121940021170303,
+              "max": 7.14440400042804
+            }
+          }
+        }
+      },
+      "v8": {
+        "overall": {
+          "games": 16,
+          "distinct_maps": 8,
+          "wins": 7,
+          "draws": 0,
+          "losses": 9,
+          "point_rate": 0.4375,
+          "map_cluster_bootstrap_95pct": [
+            0.125,
+            0.75
+          ],
+          "mean_score_margin": -3,
+          "mean_game_turns": 136.4375,
+          "forfeits": 0,
+          "first_turn_max_ms": 14.798989999690093,
+          "after_first_turn_max_ms": 128.36654399870895,
+          "response_ms": {
+            "count": 2183,
+            "mean": 90.96979949384516,
+            "p50": 90.2192690045922,
+            "p95": 124.59660600143252,
+            "max": 128.36654399870895
+          }
+        },
+        "by_side": {
+          "Y": {
+            "games": 8,
+            "distinct_maps": 8,
+            "wins": 4,
+            "draws": 0,
+            "losses": 4,
+            "point_rate": 0.5,
+            "map_cluster_bootstrap_95pct": [
+              0.125,
+              0.875
+            ],
+            "mean_score_margin": 1.875,
+            "mean_game_turns": 133.125,
+            "forfeits": 0,
+            "first_turn_max_ms": 14.798989999690093,
+            "after_first_turn_max_ms": 126.69075799931306,
+            "response_ms": {
+              "count": 1065,
+              "mean": 91.8903402431921,
+              "p50": 92.14380800403887,
+              "p95": 124.73558099736692,
+              "max": 126.69075799931306
+            }
+          },
+          "K": {
+            "games": 8,
+            "distinct_maps": 8,
+            "wins": 3,
+            "draws": 0,
+            "losses": 5,
+            "point_rate": 0.375,
+            "map_cluster_bootstrap_95pct": [
+              0.125,
+              0.75
+            ],
+            "mean_score_margin": -7.875,
+            "mean_game_turns": 139.75,
+            "forfeits": 0,
+            "first_turn_max_ms": 13.841230997059029,
+            "after_first_turn_max_ms": 128.36654399870895,
+            "response_ms": {
+              "count": 1118,
+              "mean": 90.09289797501287,
+              "p50": 88.07612599775894,
+              "p95": 124.51658800273435,
+              "max": 128.36654399870895
+            }
+          }
+        },
+        "by_opponent": {
+          "mission4": {
+            "games": 16,
+            "distinct_maps": 8,
+            "wins": 7,
+            "draws": 0,
+            "losses": 9,
+            "point_rate": 0.4375,
+            "map_cluster_bootstrap_95pct": [
+              0.125,
+              0.75
+            ],
+            "mean_score_margin": -3,
+            "mean_game_turns": 136.4375,
+            "forfeits": 0,
+            "first_turn_max_ms": 14.798989999690093,
+            "after_first_turn_max_ms": 128.36654399870895,
+            "response_ms": {
+              "count": 2183,
+              "mean": 90.96979949384516,
+              "p50": 90.2192690045922,
+              "p95": 124.59660600143252,
+              "max": 128.36654399870895
+            }
+          }
+        }
+      }
+    },
+    "paired": {
+      "difference": "mission4 minus v8",
+      "by_side": {
+        "Y": {
+          "paired_maps": 8,
+          "paired_games": 32,
+          "point_rate_difference": -0.09375,
+          "map_cluster_bootstrap_95pct": [
+            -0.375,
+            0.1875
+          ]
+        },
+        "K": {
+          "paired_maps": 8,
+          "paired_games": 32,
+          "point_rate_difference": 0.0,
+          "map_cluster_bootstrap_95pct": [
+            -0.125,
+            0.125
+          ]
+        },
+        "both": {
+          "paired_maps": 8,
+          "paired_games": 64,
+          "point_rate_difference": -0.046875,
+          "map_cluster_bootstrap_95pct": [
+            -0.21875,
+            0.140625
+          ]
+        }
+      },
+      "score_margin_difference": {
+        "paired_maps": 8,
+        "paired_games": 64,
+        "mean": -3.0625,
+        "map_cluster_bootstrap_95pct": [
+          -14.328125,
+          8.640625
+        ]
+      },
+      "matched_games": [
+        {
+          "map_seed": 19204,
+          "side": "K",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "c2b15471dc93488b695de10b",
+          "right_job": "9a5523b79a11c8b4061aede1",
+          "point_difference": 0.0,
+          "score_margin_difference": 1
+        },
+        {
+          "map_seed": 19205,
+          "side": "K",
+          "opponent": "r3_opponent_league",
+          "left_job": "d5fab3ef3592976795fa5115",
+          "right_job": "ab3b355fb263a8004fbc5d8e",
+          "point_difference": 1.0,
+          "score_margin_difference": 45
+        },
+        {
+          "map_seed": 19205,
+          "side": "K",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "a44223dbaf60423d6c2b02c3",
+          "right_job": "b7ea874eee03d947d5c312da",
+          "point_difference": 0.0,
+          "score_margin_difference": 3
+        },
+        {
+          "map_seed": 19202,
+          "side": "Y",
+          "opponent": "team_v9_2",
+          "left_job": "a02081973b8ae2f33e58b3ca",
+          "right_job": "b94b0ed3863d5c89edd7dc9a",
+          "point_difference": -1.0,
+          "score_margin_difference": -63
+        },
+        {
+          "map_seed": 19206,
+          "side": "Y",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "6055de835532f9400d160c45",
+          "right_job": "e98d73b51152742dda92b7d2",
+          "point_difference": 1.0,
+          "score_margin_difference": 33
+        },
+        {
+          "map_seed": 19206,
+          "side": "Y",
+          "opponent": "team_v9_2",
+          "left_job": "a62579e042ce443ccef4476e",
+          "right_job": "b16bea3de181f0bd18495f7e",
+          "point_difference": 1.0,
+          "score_margin_difference": 48
+        },
+        {
+          "map_seed": 19201,
+          "side": "K",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "a674524ad07f52bf1b733ed4",
+          "right_job": "86ea4c76dcad390f4b89066d",
+          "point_difference": -1.0,
+          "score_margin_difference": -44
+        },
+        {
+          "map_seed": 19206,
+          "side": "K",
+          "opponent": "r3_opponent_league",
+          "left_job": "229e7fc4bc076592bd9f872b",
+          "right_job": "052336e231efee6b4c5886b5",
+          "point_difference": 0.0,
+          "score_margin_difference": 9
+        },
+        {
+          "map_seed": 19201,
+          "side": "K",
+          "opponent": "team_v9_2",
+          "left_job": "580f92465a1bb322bd74979d",
+          "right_job": "49d9a3b43e9d0ef2e82e26c6",
+          "point_difference": 0.0,
+          "score_margin_difference": -22
+        },
+        {
+          "map_seed": 19201,
+          "side": "Y",
+          "opponent": "team_v9_2",
+          "left_job": "1ce499dc92a96ff54e470594",
+          "right_job": "3c9eee211a2698c5f0a43a39",
+          "point_difference": 0.0,
+          "score_margin_difference": 14
+        },
+        {
+          "map_seed": 19200,
+          "side": "K",
+          "opponent": "team_v9_2",
+          "left_job": "59b14b85234bb990782f88e3",
+          "right_job": "db6440be9707c0bd1736cfa0",
+          "point_difference": 0.0,
+          "score_margin_difference": 11
+        },
+        {
+          "map_seed": 19200,
+          "side": "K",
+          "opponent": "r3_opponent_league",
+          "left_job": "3f41dcbbf9a263763a81cc1a",
+          "right_job": "46cd2c23e2600cff174f78ef",
+          "point_difference": 0.0,
+          "score_margin_difference": -2
+        },
+        {
+          "map_seed": 19202,
+          "side": "Y",
+          "opponent": "r3_opponent_league",
+          "left_job": "9d79a639ec37c128130c6485",
+          "right_job": "013c404323cb04176a54ec89",
+          "point_difference": -1.0,
+          "score_margin_difference": -58
+        },
+        {
+          "map_seed": 19207,
+          "side": "K",
+          "opponent": "s3_selective_contact",
+          "left_job": "074f10ebea183a24d11ade74",
+          "right_job": "e50cc4d8f9fc33203b0cb16f",
+          "point_difference": 0.0,
+          "score_margin_difference": -18
+        },
+        {
+          "map_seed": 19203,
+          "side": "Y",
+          "opponent": "r3_opponent_league",
+          "left_job": "9fd2b021149958b52fdc82cb",
+          "right_job": "581298cac647da7aa7ca147a",
+          "point_difference": -1.0,
+          "score_margin_difference": -47
+        },
+        {
+          "map_seed": 19206,
+          "side": "K",
+          "opponent": "s3_selective_contact",
+          "left_job": "63d98b8f29aa184ef8cfb7c4",
+          "right_job": "bccb2653215936e1ce90aa62",
+          "point_difference": 0.0,
+          "score_margin_difference": 4
+        },
+        {
+          "map_seed": 19203,
+          "side": "Y",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "bacd40d968a1e8df6c2af26c",
+          "right_job": "576eac21b2d6b8e70a962711",
+          "point_difference": -1.0,
+          "score_margin_difference": -51
+        },
+        {
+          "map_seed": 19203,
+          "side": "Y",
+          "opponent": "s3_selective_contact",
+          "left_job": "b78b5b8ffef3e2d556493900",
+          "right_job": "bc34c6d1562f476f154e71e2",
+          "point_difference": 0.0,
+          "score_margin_difference": 0
+        },
+        {
+          "map_seed": 19200,
+          "side": "Y",
+          "opponent": "team_v9_2",
+          "left_job": "b66e5408dc8ae5d779c6f9ff",
+          "right_job": "dca370f2caf4e3d7e82b16db",
+          "point_difference": 0.0,
+          "score_margin_difference": -20
+        },
+        {
+          "map_seed": 19201,
+          "side": "Y",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "6a2faef130d2e885d2cab0a4",
+          "right_job": "c7af959b15c0777f7942cc8e",
+          "point_difference": -1.0,
+          "score_margin_difference": -41
+        },
+        {
+          "map_seed": 19200,
+          "side": "K",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "8754d3d947bca34fce58245b",
+          "right_job": "e52da397d8c00029a1cd8986",
+          "point_difference": 0.0,
+          "score_margin_difference": 0
+        },
+        {
+          "map_seed": 19204,
+          "side": "K",
+          "opponent": "s3_selective_contact",
+          "left_job": "e17eb3d0996d7b529f99afed",
+          "right_job": "eb96dcf0d3f1e2db25a77228",
+          "point_difference": 0.0,
+          "score_margin_difference": 9
+        },
+        {
+          "map_seed": 19205,
+          "side": "Y",
+          "opponent": "r3_opponent_league",
+          "left_job": "d5e51070f8c95751c7269730",
+          "right_job": "0cb14a6c591f158dce0e26cd",
+          "point_difference": 0.0,
+          "score_margin_difference": 4
+        },
+        {
+          "map_seed": 19201,
+          "side": "K",
+          "opponent": "r3_opponent_league",
+          "left_job": "2f0f56af93018b64e8a4371e",
+          "right_job": "4a6e5b15f6de3e5dcd8f5a0b",
+          "point_difference": 0.0,
+          "score_margin_difference": -9
+        },
+        {
+          "map_seed": 19202,
+          "side": "K",
+          "opponent": "r3_opponent_league",
+          "left_job": "444661dfe496070800a1be42",
+          "right_job": "75c529215ad9a6ff70683889",
+          "point_difference": 0.0,
+          "score_margin_difference": 7
+        },
+        {
+          "map_seed": 19206,
+          "side": "Y",
+          "opponent": "s3_selective_contact",
+          "left_job": "ad19594c2f91c6ea999b827f",
+          "right_job": "5034f64f85e9894d27a90852",
+          "point_difference": 0.0,
+          "score_margin_difference": -2
+        },
+        {
+          "map_seed": 19207,
+          "side": "Y",
+          "opponent": "s3_selective_contact",
+          "left_job": "5afe597c364d03b96a800428",
+          "right_job": "4a04b8b19106c027ce486e1b",
+          "point_difference": 0.0,
+          "score_margin_difference": 17
+        },
+        {
+          "map_seed": 19202,
+          "side": "Y",
+          "opponent": "s3_selective_contact",
+          "left_job": "ae921332ec4e6afdcee9070d",
+          "right_job": "6ee566fe4f646648449a78f8",
+          "point_difference": 0.0,
+          "score_margin_difference": -7
+        },
+        {
+          "map_seed": 19206,
+          "side": "Y",
+          "opponent": "r3_opponent_league",
+          "left_job": "80f5a462c887fafdcc1bfefe",
+          "right_job": "1b04d8ab8be0b33321c3534d",
+          "point_difference": 0.0,
+          "score_margin_difference": 20
+        },
+        {
+          "map_seed": 19201,
+          "side": "K",
+          "opponent": "s3_selective_contact",
+          "left_job": "f8410977e246f2d5619e6e33",
+          "right_job": "bfb3cb81eb7532849ff49330",
+          "point_difference": 0.0,
+          "score_margin_difference": -4
+        },
+        {
+          "map_seed": 19202,
+          "side": "Y",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "ac424668a428c60e6532d2d2",
+          "right_job": "923e43abd7a9281c7e6a3a7a",
+          "point_difference": -1.0,
+          "score_margin_difference": -61
+        },
+        {
+          "map_seed": 19206,
+          "side": "K",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "3cedfa7d46e13070a4c89c4a",
+          "right_job": "e3a1e163155b4db8bde76719",
+          "point_difference": 0.0,
+          "score_margin_difference": 5
+        },
+        {
+          "map_seed": 19205,
+          "side": "Y",
+          "opponent": "s3_selective_contact",
+          "left_job": "b15ca9b339a4ae9a8dc6c76a",
+          "right_job": "8d1f35e2ef870058f369e971",
+          "point_difference": 0.0,
+          "score_margin_difference": 10
+        },
+        {
+          "map_seed": 19205,
+          "side": "K",
+          "opponent": "s3_selective_contact",
+          "left_job": "06f2bcdd6a2e92d2723ceb7d",
+          "right_job": "a638c54ae889c17cfa67bc0c",
+          "point_difference": 0.0,
+          "score_margin_difference": 2
+        },
+        {
+          "map_seed": 19200,
+          "side": "Y",
+          "opponent": "s3_selective_contact",
+          "left_job": "60f9c1f692b5309312360574",
+          "right_job": "aaed534217ea90ce96ab2361",
+          "point_difference": 0.0,
+          "score_margin_difference": -31
+        },
+        {
+          "map_seed": 19205,
+          "side": "Y",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "7bfcae76081f70de9b078dc6",
+          "right_job": "55d025f992f58152ddc2a0f7",
+          "point_difference": 0.0,
+          "score_margin_difference": 4
+        },
+        {
+          "map_seed": 19207,
+          "side": "K",
+          "opponent": "r3_opponent_league",
+          "left_job": "b2a2e5984f4c6c95972ba230",
+          "right_job": "ba9acf7e13c80aa48b494003",
+          "point_difference": 0.0,
+          "score_margin_difference": 5
+        },
+        {
+          "map_seed": 19201,
+          "side": "Y",
+          "opponent": "s3_selective_contact",
+          "left_job": "b528dfe8ebe19970d720c8e7",
+          "right_job": "a869598d707795291fb40457",
+          "point_difference": 0.0,
+          "score_margin_difference": -23
+        },
+        {
+          "map_seed": 19202,
+          "side": "K",
+          "opponent": "team_v9_2",
+          "left_job": "855fe1a1998d721de36f6f5a",
+          "right_job": "f3efd38e0ddd64dd25ebfe8a",
+          "point_difference": 0.0,
+          "score_margin_difference": 15
+        },
+        {
+          "map_seed": 19204,
+          "side": "Y",
+          "opponent": "r3_opponent_league",
+          "left_job": "24ec9af1b43de28e1f58de3b",
+          "right_job": "7164f76e5c757cafe66724b8",
+          "point_difference": 1.0,
+          "score_margin_difference": 59
+        },
+        {
+          "map_seed": 19202,
+          "side": "K",
+          "opponent": "s3_selective_contact",
+          "left_job": "113f6f949141aa611e751497",
+          "right_job": "d3db05a0f360e7e4c9773748",
+          "point_difference": 1.0,
+          "score_margin_difference": 46
+        },
+        {
+          "map_seed": 19207,
+          "side": "K",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "9ba715e9a072dc471ae90721",
+          "right_job": "46e00d25f0bfdc8b1dbace71",
+          "point_difference": 0.0,
+          "score_margin_difference": -12
+        },
+        {
+          "map_seed": 19204,
+          "side": "K",
+          "opponent": "r3_opponent_league",
+          "left_job": "254e448b8da19c338735979c",
+          "right_job": "73c96f4c92fd2c58674ca5ea",
+          "point_difference": 0.0,
+          "score_margin_difference": 1
+        },
+        {
+          "map_seed": 19204,
+          "side": "Y",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "8d4100c46887c147bb44060f",
+          "right_job": "795e89310a713fc12740c59e",
+          "point_difference": -1.0,
+          "score_margin_difference": -32
+        },
+        {
+          "map_seed": 19200,
+          "side": "Y",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "a664055e470fa09d8f020cef",
+          "right_job": "0742929bbfbf4149dbbb127e",
+          "point_difference": 0.0,
+          "score_margin_difference": -10
+        },
+        {
+          "map_seed": 19207,
+          "side": "K",
+          "opponent": "team_v9_2",
+          "left_job": "cec293eaf4b7e0f54b1b8e92",
+          "right_job": "9ee4bc2d463901faa5c2bf0d",
+          "point_difference": 0.0,
+          "score_margin_difference": -24
+        },
+        {
+          "map_seed": 19203,
+          "side": "K",
+          "opponent": "r3_opponent_league",
+          "left_job": "550b190068a42c240dd43a8b",
+          "right_job": "7ebb3cefcb263b4424d33a44",
+          "point_difference": -1.0,
+          "score_margin_difference": -54
+        },
+        {
+          "map_seed": 19203,
+          "side": "K",
+          "opponent": "s3_selective_contact",
+          "left_job": "2155efa8adffb88856012da3",
+          "right_job": "0055c389c03e502f24cb7085",
+          "point_difference": 1.0,
+          "score_margin_difference": 42
+        },
+        {
+          "map_seed": 19207,
+          "side": "Y",
+          "opponent": "team_v9_2",
+          "left_job": "515bb12a5f6b9a87469a87f8",
+          "right_job": "b1b667cca343e72878341d21",
+          "point_difference": 0.0,
+          "score_margin_difference": 0
+        },
+        {
+          "map_seed": 19200,
+          "side": "Y",
+          "opponent": "r3_opponent_league",
+          "left_job": "5a72c9b6edee456de6e2588b",
+          "right_job": "c5b889abc6dfda963f97f938",
+          "point_difference": 0.0,
+          "score_margin_difference": -18
+        },
+        {
+          "map_seed": 19203,
+          "side": "Y",
+          "opponent": "team_v9_2",
+          "left_job": "f86e38dd777b9e552b33b8ef",
+          "right_job": "d281b4701bdcaccd6dce12b6",
+          "point_difference": 1.0,
+          "score_margin_difference": 35
+        },
+        {
+          "map_seed": 19204,
+          "side": "K",
+          "opponent": "team_v9_2",
+          "left_job": "cc289dc3f558720ea59f7e6c",
+          "right_job": "57b886b3ac5799b520e67400",
+          "point_difference": 0.0,
+          "score_margin_difference": 2
+        },
+        {
+          "map_seed": 19203,
+          "side": "K",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "fec86b67f5fde3265d6515ce",
+          "right_job": "a9bba33cbb4d10cee1bdf0e3",
+          "point_difference": 0.0,
+          "score_margin_difference": 22
+        },
+        {
+          "map_seed": 19204,
+          "side": "Y",
+          "opponent": "team_v9_2",
+          "left_job": "13bc0a7f50e1b4266afd5d0d",
+          "right_job": "9a7783b7d1464653001b0a25",
+          "point_difference": 0.0,
+          "score_margin_difference": 18
+        },
+        {
+          "map_seed": 19205,
+          "side": "Y",
+          "opponent": "team_v9_2",
+          "left_job": "8bbb00c1bfa5454d26c1a43e",
+          "right_job": "1c362b6db870e040d3f96144",
+          "point_difference": 1.0,
+          "score_margin_difference": 55
+        },
+        {
+          "map_seed": 19207,
+          "side": "Y",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "fd7922c7e34bb343f3e74999",
+          "right_job": "88d60b75945f9a155f8278e9",
+          "point_difference": -1.0,
+          "score_margin_difference": -49
+        },
+        {
+          "map_seed": 19200,
+          "side": "K",
+          "opponent": "s3_selective_contact",
+          "left_job": "cec15ca2c177d06ebbb6b025",
+          "right_job": "77eb47e14d29926bc07b4819",
+          "point_difference": -1.0,
+          "score_margin_difference": -36
+        },
+        {
+          "map_seed": 19204,
+          "side": "Y",
+          "opponent": "s3_selective_contact",
+          "left_job": "aa17383e08d612a902732e69",
+          "right_job": "5a8e8f09c0b65400ace43190",
+          "point_difference": 1.0,
+          "score_margin_difference": 61
+        },
+        {
+          "map_seed": 19207,
+          "side": "Y",
+          "opponent": "r3_opponent_league",
+          "left_job": "3b596826d39c534cc89687ba",
+          "right_job": "564848d132b095d15413e662",
+          "point_difference": 0.0,
+          "score_margin_difference": 13
+        },
+        {
+          "map_seed": 19201,
+          "side": "Y",
+          "opponent": "r3_opponent_league",
+          "left_job": "c93a64ee65b83e6f6f7e8e6e",
+          "right_job": "aeff60e9b3402af6548a7b6c",
+          "point_difference": -1.0,
+          "score_margin_difference": -64
+        },
+        {
+          "map_seed": 19202,
+          "side": "K",
+          "opponent": "j_balanced_portfolio",
+          "left_job": "e9c51764e0ecd9de996dd7df",
+          "right_job": "4f136897aa53cea18d9abb8f",
+          "point_difference": -1.0,
+          "score_margin_difference": -64
+        },
+        {
+          "map_seed": 19206,
+          "side": "K",
+          "opponent": "team_v9_2",
+          "left_job": "a9df7e6e17f7a0d656c17d87",
+          "right_job": "f6a779f1483962be8463ddc9",
+          "point_difference": 1.0,
+          "score_margin_difference": 31
+        },
+        {
+          "map_seed": 19203,
+          "side": "K",
+          "opponent": "team_v9_2",
+          "left_job": "b5f814d5378ef37f49c59eba",
+          "right_job": "294cae4dd71d6a067a6e47ae",
+          "point_difference": 0.0,
+          "score_margin_difference": -1
+        },
+        {
+          "map_seed": 19205,
+          "side": "K",
+          "opponent": "team_v9_2",
+          "left_job": "6f8e47677258e2936510cbd8",
+          "right_job": "4200ee954349c8e251c21e6c",
+          "point_difference": 0.0,
+          "score_margin_difference": 20
+        }
+      ]
+    }
+  },
+  "decision": "mission4 chosen within independent family after selection. Final gate fails overall and Y point-rate comparison plus j_balanced regression. Do not promote. Source/ZIP runtime validity is separate. Current externally selected serverv9 remains unchanged; no server upload or selection operation by this task.",
+  "scope": "All completed frozen leagues only. Two separate GCC12 ZIP validations each have1smoke+4CPU matches and are not counted in league_games.",
+  "final_seed_use": "19200–19207 final games completed with no source changes; no further tuning on these maps."
+}

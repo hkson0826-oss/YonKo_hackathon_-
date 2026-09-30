@@ -1,0 +1,41 @@
+{
+  "baseline": "v8",
+  "comparisons": {
+    "mission4": {
+      "Y": {
+        "paired_maps": 8,
+        "paired_games": 32,
+        "point_rate_difference": -0.09375,
+        "map_cluster_bootstrap_95pct": [
+          -0.375,
+          0.1875
+        ],
+        "opponent_point_rate_difference": {
+          "team_v9_2": 0.25,
+          "j_balanced_portfolio": -0.5,
+          "r3_opponent_league": -0.25,
+          "s3_selective_contact": 0.125
+        }
+      },
+      "K": {
+        "paired_maps": 8,
+        "paired_games": 32,
+        "point_rate_difference": 0.0,
+        "map_cluster_bootstrap_95pct": [
+          -0.125,
+          0.125
+        ],
+        "opponent_point_rate_difference": {
+          "j_balanced_portfolio": -0.25,
+          "r3_opponent_league": 0.0,
+          "team_v9_2": 0.125,
+          "s3_selective_contact": 0.125
+        }
+      }
+    }
+  },
+  "interpretation": "Small local fixed-opponent samples; no automatic promotion or leaderboard-score claim.",
+  "complete": true,
+  "errors": 0,
+  "forfeits": 0
+}

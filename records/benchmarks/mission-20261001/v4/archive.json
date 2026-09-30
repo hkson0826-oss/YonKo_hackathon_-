@@ -6,7 +6,9 @@
     "development-common",
     "development-teammate",
     "selection-common",
-    "selection-direct"
+    "selection-direct",
+    "final-common",
+    "final-direct"
   ],
   "binaries_omitted": true,
   "notes": "Original absolute arena paths map to same relative archive paths; all sources/results/replay bytes preserved."

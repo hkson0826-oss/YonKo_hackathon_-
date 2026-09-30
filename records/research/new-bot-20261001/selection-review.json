@@ -1,0 +1,282 @@
+{
+  "review": "Independent read-only selection gate audit",
+  "plan_path": "/tmp/yk-new-bot-20261001/records/research/new-bot-20261001/selection-plan.json",
+  "plan_sha256": "45798a411106a745aec80b8810849e6fd2c946b9be762e30ceb9bd4b5a6c3f92",
+  "first_selection_game_started_utc": "2026-09-30T18:44:06.683236+00:00",
+  "frozen_source_sha256": {
+    "mission3": "5cff84e533234f02fa8665de009ec7b2d10641c5baf5a33ac3fcc7edddb434e1",
+    "mission4": "b06263e5cffee351fa23e6279b2f6f5f1cda0a5c1106cfc3516c005aad97c9e7"
+  },
+  "runs": {
+    "selection-common": {
+      "games": 192,
+      "maps": 8,
+      "schedule_complete": true,
+      "results_sha256": "40f1aafffdd8e44cc20ada69c1458d575b9444e5848d7b2c47c28d443b3fa6fc",
+      "action_audit_sha256": "8e5560f60944bc72a90eb6a46dabd62c170f8a889a0cc3302d9063a986434581",
+      "action_issues": {},
+      "action_audit_frames": 28553,
+      "by_candidate": {
+        "mission3": {
+          "games": 64,
+          "wins": 46,
+          "draws": 0,
+          "losses": 18,
+          "point_rate": 0.71875,
+          "mean_score_margin": 12.515625,
+          "by_side": {
+            "Y": {
+              "games": 32,
+              "wins": 24,
+              "point_rate": 0.75
+            },
+            "K": {
+              "games": 32,
+              "wins": 22,
+              "point_rate": 0.6875
+            }
+          },
+          "by_opponent": {
+            "j_balanced_portfolio": {
+              "games": 16,
+              "wins": 10,
+              "point_rate": 0.625
+            },
+            "r3_opponent_league": {
+              "games": 16,
+              "wins": 11,
+              "point_rate": 0.6875
+            },
+            "s3_selective_contact": {
+              "games": 16,
+              "wins": 13,
+              "point_rate": 0.8125
+            },
+            "team_v9_2": {
+              "games": 16,
+              "wins": 12,
+              "point_rate": 0.75
+            }
+          },
+          "runtime_ms": {
+            "first_turn_max": 6.77204300154699,
+            "normal_turn_max": 6.293828002526425
+          }
+        },
+        "mission4": {
+          "games": 64,
+          "wins": 49,
+          "draws": 0,
+          "losses": 15,
+          "point_rate": 0.765625,
+          "mean_score_margin": 13.046875,
+          "by_side": {
+            "Y": {
+              "games": 32,
+              "wins": 27,
+              "point_rate": 0.84375
+            },
+            "K": {
+              "games": 32,
+              "wins": 22,
+              "point_rate": 0.6875
+            }
+          },
+          "by_opponent": {
+            "j_balanced_portfolio": {
+              "games": 16,
+              "wins": 11,
+              "point_rate": 0.6875
+            },
+            "r3_opponent_league": {
+              "games": 16,
+              "wins": 12,
+              "point_rate": 0.75
+            },
+            "s3_selective_contact": {
+              "games": 16,
+              "wins": 13,
+              "point_rate": 0.8125
+            },
+            "team_v9_2": {
+              "games": 16,
+              "wins": 13,
+              "point_rate": 0.8125
+            }
+          },
+          "runtime_ms": {
+            "first_turn_max": 6.649265000305604,
+            "normal_turn_max": 5.889588996069506
+          }
+        },
+        "v8": {
+          "games": 64,
+          "wins": 45,
+          "draws": 0,
+          "losses": 19,
+          "point_rate": 0.703125,
+          "mean_score_margin": 9.875,
+          "by_side": {
+            "Y": {
+              "games": 32,
+              "wins": 25,
+              "point_rate": 0.78125
+            },
+            "K": {
+              "games": 32,
+              "wins": 20,
+              "point_rate": 0.625
+            }
+          },
+          "by_opponent": {
+            "j_balanced_portfolio": {
+              "games": 16,
+              "wins": 10,
+              "point_rate": 0.625
+            },
+            "r3_opponent_league": {
+              "games": 16,
+              "wins": 13,
+              "point_rate": 0.8125
+            },
+            "s3_selective_contact": {
+              "games": 16,
+              "wins": 12,
+              "point_rate": 0.75
+            },
+            "team_v9_2": {
+              "games": 16,
+              "wins": 10,
+              "point_rate": 0.625
+            }
+          },
+          "runtime_ms": {
+            "first_turn_max": 14.56165399577003,
+            "normal_turn_max": 132.0082980018924
+          }
+        }
+      },
+      "mission4_output_maximum": {
+        "lines_with_END": 42,
+        "line_bytes": 31,
+        "turn_bytes": 634
+      },
+      "output_violations": []
+    },
+    "selection-direct": {
+      "games": 32,
+      "maps": 8,
+      "schedule_complete": true,
+      "results_sha256": "8d886cb5642a919bc8a60d7cfce710e57419573d016baa436a5fcd3bcff87465",
+      "action_audit_sha256": "62933d5048750023f366f28a0013a36034c04a295601cc4dca2ea8c33b50be90",
+      "action_issues": {},
+      "action_audit_frames": 4730,
+      "by_candidate": {
+        "mission3": {
+          "games": 16,
+          "wins": 9,
+          "draws": 0,
+          "losses": 7,
+          "point_rate": 0.5625,
+          "mean_score_margin": 6,
+          "by_side": {
+            "Y": {
+              "games": 8,
+              "wins": 6,
+              "point_rate": 0.75
+            },
+            "K": {
+              "games": 8,
+              "wins": 3,
+              "point_rate": 0.375
+            }
+          },
+          "by_opponent": {
+            "v8": {
+              "games": 16,
+              "wins": 9,
+              "point_rate": 0.5625
+            }
+          },
+          "runtime_ms": {
+            "first_turn_max": 6.840513997303788,
+            "normal_turn_max": 4.7257920014089905
+          }
+        },
+        "mission4": {
+          "games": 16,
+          "wins": 12,
+          "draws": 0,
+          "losses": 4,
+          "point_rate": 0.75,
+          "mean_score_margin": 9.3125,
+          "by_side": {
+            "Y": {
+              "games": 8,
+              "wins": 7,
+              "point_rate": 0.875
+            },
+            "K": {
+              "games": 8,
+              "wins": 5,
+              "point_rate": 0.625
+            }
+          },
+          "by_opponent": {
+            "v8": {
+              "games": 16,
+              "wins": 12,
+              "point_rate": 0.75
+            }
+          },
+          "runtime_ms": {
+            "first_turn_max": 7.967205005115829,
+            "normal_turn_max": 7.444178998412099
+          }
+        }
+      },
+      "mission4_output_maximum": {
+        "lines_with_END": 38,
+        "line_bytes": 29,
+        "turn_bytes": 584
+      },
+      "output_violations": []
+    }
+  },
+  "gate": {
+    "family_choice": "mission4",
+    "complete_schedule": true,
+    "no_errors_or_forfeits": true,
+    "no_action_audit_issues": true,
+    "runtime_within_first3000_normal300ms": true,
+    "stdout_limits_pass": true,
+    "overall_at_least_v8": true,
+    "Y_at_least_v8": true,
+    "strictly_positive_at_least_one": true,
+    "worst_opponent_regression_at_least_minus_quarter": true,
+    "direct_point_rate_at_least_half": true
+  },
+  "passes": true,
+  "overall_difference": 0.0625,
+  "Y_difference": 0.0625,
+  "opponent_rate_differences": {
+    "j_balanced_portfolio": 0.0625,
+    "r3_opponent_league": -0.0625,
+    "s3_selective_contact": 0.0625,
+    "team_v9_2": 0.1875
+  },
+  "decision": "Select mission4 for separate final128 common +16 direct games on19200–19207; selection pass is not server promotion.",
+  "limitations": [
+    "Eight fresh selection maps are still a small sample.",
+    "Opponent wall-clock search can vary despite fixed source and RNG seed.",
+    "No peak RSS was independently sampled; execution status/forfeit records and observed time/output limits were checked.",
+    "No new games, tests, or source modifications in this review."
+  ],
+  "preregistration": {
+    "gate_commit": "89cb8929",
+    "committed_at": "2026-10-01T03:43:04+09:00",
+    "first_game_started_at": "2026-10-01T03:44:06.683236+09:00",
+    "selection_criteria_and_schedule_match": true,
+    "later_plan_change": "1752e997 corrects if_fail server-preservation wording from v8 to externally selected v9 and adds server selection context; numeric requirements, family ranking, schedule, and final-validation requirement unchanged."
+  }
+}
