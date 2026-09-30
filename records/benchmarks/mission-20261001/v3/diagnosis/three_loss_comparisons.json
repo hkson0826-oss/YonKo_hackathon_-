@@ -1,0 +1,1409 @@
+[
+  {
+    "map_seed": 19012,
+    "side": "Y",
+    "opponent": "r3_opponent_league",
+    "bots": {
+      "mission3": {
+        "job": "88b48bff3f47a3da3a427534",
+        "replay_sha256": "2e337fd61c6459cd16f8e1bb0a1a2ce46d8636eb2594314d3e3528039c5845de",
+        "result": {
+          "winner": "K",
+          "reason": "instant",
+          "score": {
+            "Y": 0,
+            "K": 32
+          },
+          "turns": 43,
+          "seed": 19012
+        },
+        "checkpoints": {
+          "10": {
+            "score": 9,
+            "F": 7,
+            "W": 25,
+            "buildings": [
+              [
+                "HALL",
+                1
+              ],
+              [
+                "ENG",
+                5
+              ],
+              [
+                "STATION",
+                9
+              ],
+              [
+                "WATCH",
+                13
+              ]
+            ]
+          },
+          "20": {
+            "score": 9,
+            "F": 7,
+            "W": 56,
+            "buildings": [
+              [
+                "HALL",
+                1
+              ],
+              [
+                "LIBRARY",
+                3
+              ],
+              [
+                "STATION",
+                9
+              ],
+              [
+                "WATCH",
+                13
+              ]
+            ]
+          },
+          "40": {
+            "score": 7,
+            "F": 7,
+            "W": 34,
+            "buildings": [
+              [
+                "HALL",
+                1
+              ],
+              [
+                "STATION",
+                9
+              ],
+              [
+                "WATCH",
+                13
+              ]
+            ]
+          },
+          "43": {
+            "score": 0,
+            "F": 6,
+            "W": 33,
+            "buildings": []
+          }
+        }
+      },
+      "v8": {
+        "job": "772bcd04ddf893f751e4b93a",
+        "replay_sha256": "470dc55ee5636987beb0baaa7b6311f5a881a2fb17bf1d4e56e7e936d102207c",
+        "result": {
+          "winner": "Y",
+          "reason": "instant",
+          "score": {
+            "Y": 34,
+            "K": 0
+          },
+          "turns": 103,
+          "seed": 19012
+        },
+        "checkpoints": {
+          "10": {
+            "score": 16,
+            "F": 6,
+            "W": 28,
+            "buildings": [
+              [
+                "HALL",
+                1
+              ],
+              [
+                "LIBRARY",
+                3
+              ],
+              [
+                "ENG",
+                5
+              ],
+              [
+                "HOSPITAL",
+                8
+              ],
+              [
+                "STATION",
+                9
+              ],
+              [
+                "WATCH",
+                13
+              ],
+              [
+                "DEPOT",
+                15
+              ]
+            ]
+          },
+          "20": {
+            "score": 22,
+            "F": 7,
+            "W": 33,
+            "buildings": [
+              [
+                "PLAZA",
+                0
+              ],
+              [
+                "HALL",
+                1
+              ],
+              [
+                "LIBRARY",
+                3
+              ],
+              [
+                "ENG",
+                5
+              ],
+              [
+                "HOSPITAL",
+                8
+              ],
+              [
+                "STATION",
+                9
+              ],
+              [
+                "STATION",
+                11
+              ],
+              [
+                "WATCH",
+                13
+              ],
+              [
+                "DEPOT",
+                15
+              ]
+            ]
+          },
+          "40": {
+            "score": 20,
+            "F": 7,
+            "W": 64,
+            "buildings": [
+              [
+                "HALL",
+                1
+              ],
+              [
+                "LIBRARY",
+                3
+              ],
+              [
+                "ENG",
+                6
+              ],
+              [
+                "HOSPITAL",
+                8
+              ],
+              [
+                "STATION",
+                11
+              ],
+              [
+                "STATION",
+                12
+              ],
+              [
+                "WATCH",
+                13
+              ],
+              [
+                "DEPOT",
+                15
+              ]
+            ]
+          },
+          "80": {
+            "score": 29,
+            "F": 7,
+            "W": 125,
+            "buildings": [
+              [
+                "PLAZA",
+                0
+              ],
+              [
+                "HALL",
+                1
+              ],
+              [
+                "HALL",
+                2
+              ],
+              [
+                "LIBRARY",
+                4
+              ],
+              [
+                "ENG",
+                5
+              ],
+              [
+                "ENG",
+                6
+              ],
+              [
+                "HOSPITAL",
+                8
+              ],
+              [
+                "STATION",
+                10
+              ],
+              [
+                "STATION",
+                12
+              ],
+              [
+                "WATCH",
+                13
+              ],
+              [
+                "WATCH",
+                14
+              ],
+              [
+                "DEPOT",
+                15
+              ]
+            ]
+          },
+          "103": {
+            "score": 34,
+            "F": 6,
+            "W": 176,
+            "buildings": [
+              [
+                "HALL",
+                1
+              ],
+              [
+                "HALL",
+                2
+              ],
+              [
+                "LIBRARY",
+                3
+              ],
+              [
+                "ENG",
+                5
+              ],
+              [
+                "ENG",
+                6
+              ],
+              [
+                "HOSPITAL",
+                7
+              ],
+              [
+                "HOSPITAL",
+                8
+              ],
+              [
+                "STATION",
+                9
+              ],
+              [
+                "STATION",
+                11
+              ],
+              [
+                "STATION",
+                12
+              ],
+              [
+                "WATCH",
+                13
+              ],
+              [
+                "WATCH",
+                14
+              ],
+              [
+                "DEPOT",
+                15
+              ],
+              [
+                "DEPOT",
+                16
+              ]
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "map_seed": 19011,
+    "side": "Y",
+    "opponent": "s3_selective_contact",
+    "bots": {
+      "mission3": {
+        "job": "32631a9e533e997582692fde",
+        "replay_sha256": "735f1ad44faf0ace4059326ab04c21a8665fecb282b3a86d875e94487474d513",
+        "result": {
+          "winner": "K",
+          "reason": "score",
+          "score": {
+            "Y": 4,
+            "K": 37
+          },
+          "turns": 160,
+          "seed": 19011
+        },
+        "checkpoints": {
+          "10": {
+            "score": 12,
+            "F": 5,
+            "W": 34,
+            "buildings": [
+              [
+                "HALL",
+                1
+              ],
+              [
+                "ENG",
+                5
+              ],
+              [
+                "HOSPITAL",
+                7
+              ],
+              [
+                "STATION",
+                12
+              ],
+              [
+                "WATCH",
+                13
+              ]
+            ]
+          },
+          "20": {
+            "score": 23,
+            "F": 6,
+            "W": 81,
+            "buildings": [
+              [
+                "ENG",
+                5
+              ],
+              [
+                "HOSPITAL",
+                7
+              ],
+              [
+                "STATION",
+                11
+              ],
+              [
+                "STATION",
+                12
+              ],
+              [
+                "WATCH",
+                13
+              ],
+              [
+                "DEPOT",
+                15
+              ],
+              [
+                "DEPOT",
+                16
+              ]
+            ]
+          },
+          "40": {
+            "score": 24,
+            "F": 7,
+            "W": 58,
+            "buildings": [
+              [
+                "ENG",
+                5
+              ],
+              [
+                "HOSPITAL",
+                7
+              ],
+              [
+                "STATION",
+                10
+              ],
+              [
+                "STATION",
+                11
+              ],
+              [
+                "STATION",
+                12
+              ],
+              [
+                "WATCH",
+                13
+              ],
+              [
+                "WATCH",
+                14
+              ],
+              [
+                "DEPOT",
+                15
+              ]
+            ]
+          },
+          "80": {
+            "score": 4,
+            "F": 7,
+            "W": 48,
+            "buildings": [
+              [
+                "ENG",
+                5
+              ],
+              [
+                "HOSPITAL",
+                7
+              ]
+            ]
+          },
+          "120": {
+            "score": 4,
+            "F": 7,
+            "W": 37,
+            "buildings": [
+              [
+                "ENG",
+                5
+              ],
+              [
+                "HOSPITAL",
+                7
+              ]
+            ]
+          },
+          "160": {
+            "score": 4,
+            "F": 4,
+            "W": 33,
+            "buildings": [
+              [
+                "ENG",
+                5
+              ],
+              [
+                "HOSPITAL",
+                7
+              ]
+            ]
+          }
+        }
+      },
+      "v8": {
+        "job": "df30adb6e5a9f5085ac09018",
+        "replay_sha256": "51c9f67a60cf7ccf3a95230f205bfa1ce44a7195d4efd775641e82c78c2501e0",
+        "result": {
+          "winner": "Y",
+          "reason": "score",
+          "score": {
+            "Y": 36,
+            "K": 5
+          },
+          "turns": 160,
+          "seed": 19011
+        },
+        "checkpoints": {
+          "10": {
+            "score": 8,
+            "F": 6,
+            "W": 31,
+            "buildings": [
+              [
+                "HALL",
+                1
+              ],
+              [
+                "ENG",
+                5
+              ],
+              [
+                "HOSPITAL",
+                7
+              ],
+              [
+                "WATCH",
+                13
+              ]
+            ]
+          },
+          "20": {
+            "score": 18,
+            "F": 7,
+            "W": 79,
+            "buildings": [
+              [
+                "HALL",
+                1
+              ],
+              [
+                "LIBRARY",
+                3
+              ],
+              [
+                "ENG",
+                5
+              ],
+              [
+                "HOSPITAL",
+                7
+              ],
+              [
+                "STATION",
+                9
+              ],
+              [
+                "STATION",
+                11
+              ],
+              [
+                "WATCH",
+                13
+              ],
+              [
+                "WATCH",
+                14
+              ]
+            ]
+          },
+          "40": {
+            "score": 16,
+            "F": 7,
+            "W": 128,
+            "buildings": [
+              [
+                "HALL",
+                1
+              ],
+              [
+                "LIBRARY",
+                3
+              ],
+              [
+                "ENG",
+                5
+              ],
+              [
+                "HOSPITAL",
+                7
+              ],
+              [
+                "STATION",
+                9
+              ],
+              [
+                "STATION",
+                11
+              ],
+              [
+                "STATION",
+                12
+              ]
+            ]
+          },
+          "80": {
+            "score": 34,
+            "F": 7,
+            "W": 165,
+            "buildings": [
+              [
+                "PLAZA",
+                0
+              ],
+              [
+                "HALL",
+                1
+              ],
+              [
+                "HALL",
+                2
+              ],
+              [
+                "LIBRARY",
+                3
+              ],
+              [
+                "ENG",
+                5
+              ],
+              [
+                "HOSPITAL",
+                7
+              ],
+              [
+                "STATION",
+                9
+              ],
+              [
+                "STATION",
+                11
+              ],
+              [
+                "STATION",
+                12
+              ],
+              [
+                "WATCH",
+                13
+              ],
+              [
+                "WATCH",
+                14
+              ],
+              [
+                "DEPOT",
+                15
+              ],
+              [
+                "DEPOT",
+                16
+              ]
+            ]
+          },
+          "120": {
+            "score": 35,
+            "F": 7,
+            "W": 188,
+            "buildings": [
+              [
+                "PLAZA",
+                0
+              ],
+              [
+                "HALL",
+                1
+              ],
+              [
+                "LIBRARY",
+                3
+              ],
+              [
+                "ENG",
+                5
+              ],
+              [
+                "HOSPITAL",
+                7
+              ],
+              [
+                "STATION",
+                9
+              ],
+              [
+                "STATION",
+                10
+              ],
+              [
+                "STATION",
+                11
+              ],
+              [
+                "STATION",
+                12
+              ],
+              [
+                "WATCH",
+                13
+              ],
+              [
+                "WATCH",
+                14
+              ],
+              [
+                "DEPOT",
+                15
+              ],
+              [
+                "DEPOT",
+                16
+              ]
+            ]
+          },
+          "160": {
+            "score": 36,
+            "F": 4,
+            "W": 230,
+            "buildings": [
+              [
+                "PLAZA",
+                0
+              ],
+              [
+                "HALL",
+                1
+              ],
+              [
+                "HALL",
+                2
+              ],
+              [
+                "LIBRARY",
+                3
+              ],
+              [
+                "ENG",
+                5
+              ],
+              [
+                "HOSPITAL",
+                7
+              ],
+              [
+                "STATION",
+                9
+              ],
+              [
+                "STATION",
+                10
+              ],
+              [
+                "STATION",
+                11
+              ],
+              [
+                "STATION",
+                12
+              ],
+              [
+                "WATCH",
+                13
+              ],
+              [
+                "WATCH",
+                14
+              ],
+              [
+                "DEPOT",
+                15
+              ],
+              [
+                "DEPOT",
+                16
+              ]
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "map_seed": 19010,
+    "side": "K",
+    "opponent": "j_balanced_portfolio",
+    "bots": {
+      "mission3": {
+        "job": "7b0cbafcd38b265caedd8dd6",
+        "replay_sha256": "16bada8adcd565e81bd81c6ab01614a42c59fe74cb6ac8535eef040107f81e59",
+        "result": {
+          "winner": "Y",
+          "reason": "score",
+          "score": {
+            "Y": 20,
+            "K": 15
+          },
+          "turns": 160,
+          "seed": 19010
+        },
+        "checkpoints": {
+          "10": {
+            "score": 16,
+            "F": 5,
+            "W": 42,
+            "buildings": [
+              [
+                "HALL",
+                2
+              ],
+              [
+                "LIBRARY",
+                4
+              ],
+              [
+                "ENG",
+                6
+              ],
+              [
+                "HOSPITAL",
+                8
+              ],
+              [
+                "STATION",
+                10
+              ],
+              [
+                "STATION",
+                11
+              ],
+              [
+                "WATCH",
+                13
+              ],
+              [
+                "DEPOT",
+                15
+              ]
+            ]
+          },
+          "20": {
+            "score": 19,
+            "F": 5,
+            "W": 77,
+            "buildings": [
+              [
+                "PLAZA",
+                0
+              ],
+              [
+                "HALL",
+                2
+              ],
+              [
+                "LIBRARY",
+                4
+              ],
+              [
+                "ENG",
+                6
+              ],
+              [
+                "HOSPITAL",
+                8
+              ],
+              [
+                "STATION",
+                10
+              ],
+              [
+                "STATION",
+                11
+              ],
+              [
+                "WATCH",
+                13
+              ],
+              [
+                "DEPOT",
+                16
+              ]
+            ]
+          },
+          "40": {
+            "score": 19,
+            "F": 5,
+            "W": 107,
+            "buildings": [
+              [
+                "PLAZA",
+                0
+              ],
+              [
+                "HALL",
+                2
+              ],
+              [
+                "LIBRARY",
+                4
+              ],
+              [
+                "ENG",
+                6
+              ],
+              [
+                "HOSPITAL",
+                8
+              ],
+              [
+                "STATION",
+                10
+              ],
+              [
+                "STATION",
+                11
+              ],
+              [
+                "WATCH",
+                13
+              ],
+              [
+                "DEPOT",
+                15
+              ]
+            ]
+          },
+          "80": {
+            "score": 21,
+            "F": 5,
+            "W": 79,
+            "buildings": [
+              [
+                "PLAZA",
+                0
+              ],
+              [
+                "HALL",
+                2
+              ],
+              [
+                "LIBRARY",
+                4
+              ],
+              [
+                "ENG",
+                6
+              ],
+              [
+                "HOSPITAL",
+                8
+              ],
+              [
+                "STATION",
+                10
+              ],
+              [
+                "STATION",
+                11
+              ],
+              [
+                "STATION",
+                12
+              ],
+              [
+                "WATCH",
+                13
+              ],
+              [
+                "DEPOT",
+                15
+              ]
+            ]
+          },
+          "120": {
+            "score": 18,
+            "F": 5,
+            "W": 144,
+            "buildings": [
+              [
+                "HALL",
+                2
+              ],
+              [
+                "LIBRARY",
+                4
+              ],
+              [
+                "ENG",
+                6
+              ],
+              [
+                "HOSPITAL",
+                8
+              ],
+              [
+                "STATION",
+                10
+              ],
+              [
+                "STATION",
+                11
+              ],
+              [
+                "STATION",
+                12
+              ],
+              [
+                "WATCH",
+                13
+              ],
+              [
+                "DEPOT",
+                16
+              ]
+            ]
+          },
+          "160": {
+            "score": 15,
+            "F": 4,
+            "W": 107,
+            "buildings": [
+              [
+                "HALL",
+                2
+              ],
+              [
+                "LIBRARY",
+                4
+              ],
+              [
+                "ENG",
+                6
+              ],
+              [
+                "HOSPITAL",
+                8
+              ],
+              [
+                "STATION",
+                10
+              ],
+              [
+                "STATION",
+                12
+              ],
+              [
+                "DEPOT",
+                15
+              ],
+              [
+                "DEPOT",
+                16
+              ]
+            ]
+          }
+        }
+      },
+      "v8": {
+        "job": "ddd3bf1a59d302e20f41b1a5",
+        "replay_sha256": "d82b28e075de4fbee6069f942cede78ac041496444b52c0a3340321f6d18d123",
+        "result": {
+          "winner": "K",
+          "reason": "instant",
+          "score": {
+            "Y": 0,
+            "K": 33
+          },
+          "turns": 123,
+          "seed": 19010
+        },
+        "checkpoints": {
+          "10": {
+            "score": 15,
+            "F": 6,
+            "W": 40,
+            "buildings": [
+              [
+                "HALL",
+                2
+              ],
+              [
+                "ENG",
+                6
+              ],
+              [
+                "HOSPITAL",
+                8
+              ],
+              [
+                "STATION",
+                10
+              ],
+              [
+                "STATION",
+                11
+              ],
+              [
+                "WATCH",
+                13
+              ],
+              [
+                "DEPOT",
+                15
+              ]
+            ]
+          },
+          "20": {
+            "score": 20,
+            "F": 7,
+            "W": 83,
+            "buildings": [
+              [
+                "HALL",
+                2
+              ],
+              [
+                "LIBRARY",
+                4
+              ],
+              [
+                "ENG",
+                6
+              ],
+              [
+                "HOSPITAL",
+                8
+              ],
+              [
+                "STATION",
+                10
+              ],
+              [
+                "STATION",
+                12
+              ],
+              [
+                "WATCH",
+                13
+              ],
+              [
+                "WATCH",
+                14
+              ],
+              [
+                "DEPOT",
+                16
+              ]
+            ]
+          },
+          "40": {
+            "score": 16,
+            "F": 7,
+            "W": 110,
+            "buildings": [
+              [
+                "HALL",
+                2
+              ],
+              [
+                "LIBRARY",
+                4
+              ],
+              [
+                "ENG",
+                6
+              ],
+              [
+                "HOSPITAL",
+                8
+              ],
+              [
+                "STATION",
+                10
+              ],
+              [
+                "STATION",
+                11
+              ],
+              [
+                "WATCH",
+                13
+              ],
+              [
+                "DEPOT",
+                16
+              ]
+            ]
+          },
+          "80": {
+            "score": 21,
+            "F": 7,
+            "W": 215,
+            "buildings": [
+              [
+                "PLAZA",
+                0
+              ],
+              [
+                "HALL",
+                2
+              ],
+              [
+                "LIBRARY",
+                3
+              ],
+              [
+                "LIBRARY",
+                4
+              ],
+              [
+                "ENG",
+                6
+              ],
+              [
+                "HOSPITAL",
+                8
+              ],
+              [
+                "STATION",
+                10
+              ],
+              [
+                "WATCH",
+                13
+              ],
+              [
+                "DEPOT",
+                15
+              ],
+              [
+                "DEPOT",
+                16
+              ]
+            ]
+          },
+          "120": {
+            "score": 33,
+            "F": 6,
+            "W": 142,
+            "buildings": [
+              [
+                "PLAZA",
+                0
+              ],
+              [
+                "HALL",
+                2
+              ],
+              [
+                "LIBRARY",
+                3
+              ],
+              [
+                "LIBRARY",
+                4
+              ],
+              [
+                "ENG",
+                5
+              ],
+              [
+                "ENG",
+                6
+              ],
+              [
+                "HOSPITAL",
+                7
+              ],
+              [
+                "HOSPITAL",
+                8
+              ],
+              [
+                "STATION",
+                9
+              ],
+              [
+                "STATION",
+                10
+              ],
+              [
+                "STATION",
+                11
+              ],
+              [
+                "STATION",
+                12
+              ],
+              [
+                "WATCH",
+                13
+              ],
+              [
+                "WATCH",
+                14
+              ],
+              [
+                "DEPOT",
+                15
+              ],
+              [
+                "DEPOT",
+                16
+              ]
+            ]
+          },
+          "123": {
+            "score": 33,
+            "F": 6,
+            "W": 137,
+            "buildings": [
+              [
+                "PLAZA",
+                0
+              ],
+              [
+                "HALL",
+                2
+              ],
+              [
+                "LIBRARY",
+                3
+              ],
+              [
+                "LIBRARY",
+                4
+              ],
+              [
+                "ENG",
+                5
+              ],
+              [
+                "ENG",
+                6
+              ],
+              [
+                "HOSPITAL",
+                7
+              ],
+              [
+                "HOSPITAL",
+                8
+              ],
+              [
+                "STATION",
+                9
+              ],
+              [
+                "STATION",
+                10
+              ],
+              [
+                "STATION",
+                11
+              ],
+              [
+                "STATION",
+                12
+              ],
+              [
+                "WATCH",
+                13
+              ],
+              [
+                "WATCH",
+                14
+              ],
+              [
+                "DEPOT",
+                15
+              ],
+              [
+                "DEPOT",
+                16
+              ]
+            ]
+          }
+        }
+      }
+    }
+  }
+]

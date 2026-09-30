@@ -1,0 +1,100 @@
+INIT 15 15
+TEAM K
+MAP ..........#....
+MAP ..BH#.....#....
+MAP ........#......
+MAP ##....#B.......
+MAP ..B........#...
+MAP ...B.BB#.......
+MAP ..B.........B..
+MAP .....#.B.#.....
+MAP ..B.........B..
+MAP .......#BB.B...
+MAP ...#........B..
+MAP .......B#....##
+MAP ......#........
+MAP ....#.....#HB..
+MAP ....#..........
+BUILDINGS 17
+0 7 7 PLAZA
+1 2 1 HALL
+2 12 13 HALL
+3 2 8 LIBRARY
+4 12 6 LIBRARY
+5 3 5 ENG
+6 11 9 ENG
+7 2 6 HOSPITAL
+8 12 8 HOSPITAL
+9 2 4 STATION
+10 12 10 STATION
+11 8 9 STATION
+12 6 5 STATION
+13 9 9 WATCH
+14 5 5 WATCH
+15 7 11 DEPOT
+16 7 3 DEPOT
+BASE Y 3 1
+BASE K 11 13
+END
+TURN 156
+RESOURCE 13 12
+UNITS 40
+Y F 10 4 1
+Y F 2 6 1
+Y F 8 8 1
+Y F 9 9 1
+Y F 10 10 1
+Y F 5 11 1
+Y F 11 11 1
+Y F 10 12 1
+Y W 2 1 1
+Y W 5 2 8
+Y W 2 3 1
+Y W 3 3 4
+Y W 4 3 5
+Y W 5 3 15
+Y W 2 5 5
+Y W 3 5 4
+Y W 4 5 10
+Y W 5 5 5
+Y W 2 7 1
+Y W 8 7 6
+Y W 3 8 1
+Y W 6 8 6
+Y W 9 9 1
+K F 1 0 1
+K F 5 6 1
+K F 8 6 1
+K F 2 11 1
+K W 7 3 25
+K W 6 4 1
+K W 7 4 4
+K W 6 5 20
+K W 7 7 1
+K W 12 7 1
+K W 10 8 5
+K W 11 8 9
+K W 12 8 8
+K W 11 9 2
+K W 12 10 1
+K W 7 11 1
+K W 12 13 1
+BUILDINGS 17
+0 7 7 PLAZA Y 2 3
+1 2 1 HALL Y 2 -1
+2 12 13 HALL K 2 2
+3 2 8 LIBRARY Y 2 1
+4 12 6 LIBRARY K 2 1
+5 3 5 ENG Y 2 1
+6 11 9 ENG K 2 1
+7 2 6 HOSPITAL Y 2 1
+8 12 8 HOSPITAL K 2 1
+9 2 4 STATION N 0 2
+10 12 10 STATION K 2 2
+11 8 9 STATION K 2 2
+12 6 5 STATION K 2 2
+13 9 9 WATCH Y 2 4
+14 5 5 WATCH Y 2 4
+15 7 11 DEPOT K 2 3
+16 7 3 DEPOT K 2 3
+END

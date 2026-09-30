@@ -1,0 +1,702 @@
+{
+  "replay": "/tmp/yk-mission-arena-v3-20261001/runs/development-common/replays/7b0cbafcd38b265caedd8dd6.json.gz",
+  "replay_sha256": "16bada8adcd565e81bd81c6ab01614a42c59fe74cb6ac8535eef040107f81e59",
+  "source_sha256": "5cff84e533234f02fa8665de009ec7b2d10641c5baf5a33ac3fcc7edddb434e1",
+  "input_turn": 156,
+  "baseline": {
+    "turns": [
+      {
+        "turn": 156,
+        "changes": [],
+        "K_commands": [
+          "SPAWN W 6 12 8",
+          "MOVE 5 6 F 1 R",
+          "MOVE 8 6 F 1 L",
+          "MOVE 2 11 F 1 U",
+          "MOVE 7 3 W 1 D",
+          "MOVE 6 4 W 1 D",
+          "MOVE 7 4 W 4 L",
+          "MOVE 12 7 W 1 U",
+          "MOVE 10 8 W 5 L",
+          "MOVE 11 8 W 9 D",
+          "MOVE 12 8 W 12 L"
+        ],
+        "Y_commands": [
+          "SPAWN W 1 2 6",
+          "SPAWN W 1 2 6",
+          "SPAWN W 1 2 6",
+          "SPAWN W 1 2 6",
+          "SPAWN W 1 2 6",
+          "SPAWN W 1 2 6",
+          "MOVE 10 4 F 1 D",
+          "MOVE 2 6 F 1 U",
+          "MOVE 8 8 F 1 D",
+          "MOVE 10 12 F 1 L",
+          "MOVE 5 2 W 7 D",
+          "MOVE 5 2 W 1 L",
+          "MOVE 2 3 W 1 U",
+          "MOVE 3 3 W 4 D",
+          "MOVE 4 3 W 5 D",
+          "MOVE 5 3 W 15 D",
+          "MOVE 2 5 W 5 R",
+          "MOVE 3 5 W 1 U",
+          "MOVE 3 5 W 1 D",
+          "MOVE 4 5 W 10 R",
+          "MOVE 5 5 W 5 D",
+          "MOVE 2 6 W 6 U",
+          "MOVE 2 7 W 1 D",
+          "MOVE 8 7 W 6 L",
+          "MOVE 3 8 W 1 R",
+          "MOVE 6 8 W 6 U",
+          "PRIORITY 7 11 7 3 12 13 2 4 12 10 8 9 6 5 12 8 12 6 11 9"
+        ],
+        "resources": {
+          "Y": 11,
+          "K": 13
+        },
+        "points": {
+          "Y": 16,
+          "K": 15
+        },
+        "K_F": 4,
+        "destination": [
+          11,
+          8
+        ],
+        "visible_enemy_reachable_W": 0,
+        "visible_enemy_reachable_F": 0,
+        "K_W_arrival_at_destination": 12,
+        "watch_owner": "Y",
+        "result": null
+      },
+      {
+        "turn": 157,
+        "changes": [],
+        "K_commands": [
+          "SPAWN W 6 12 8",
+          "MOVE 6 6 F 1 U",
+          "MOVE 7 6 F 1 R",
+          "MOVE 6 4 W 1 R",
+          "MOVE 6 4 W 3 D",
+          "MOVE 7 4 W 1 U",
+          "MOVE 9 8 W 5 D",
+          "MOVE 11 8 W 12 L",
+          "MOVE 12 8 W 6 L",
+          "MOVE 11 9 W 9 L"
+        ],
+        "Y_commands": [
+          "SPAWN W 5",
+          "MOVE 5 5 W 7 U",
+          "MOVE 5 5 W 2 D",
+          "MOVE 5 5 W 1 D",
+          "MOVE 5 3 W 6 D",
+          "MOVE 5 3 W 1 U",
+          "MOVE 3 5 W 1 U",
+          "MOVE 3 5 W 2 D",
+          "MOVE 3 5 W 1 D",
+          "MOVE 3 5 W 1 D",
+          "MOVE 3 5 W 1 U",
+          "MOVE 6 7 W 6 D",
+          "MOVE 2 5 W 1 R",
+          "MOVE 2 5 W 1 D",
+          "MOVE 2 5 W 4 R",
+          "MOVE 3 1 W 5 D",
+          "MOVE 7 7 W 4 D",
+          "MOVE 7 7 W 1 U",
+          "MOVE 4 4 W 5 R",
+          "MOVE 3 4 W 5 D",
+          "MOVE 3 6 W 1 R",
+          "MOVE 4 2 W 1 R",
+          "MOVE 2 2 W 1 R",
+          "MOVE 2 1 W 1 D",
+          "MOVE 4 8 W 1 U",
+          "MOVE 9 9 W 1 L",
+          "MOVE 2 5 F 1 U",
+          "MOVE 10 5 F 1 D",
+          "MOVE 9 9 F 1 D",
+          "PRIORITY 7 3 7 11 12 13 5 5 9 9 2 1 12 10 6 5 7 7 12 8 2 4 8 9 3 5 11 9 12 6 2 6 2 8"
+        ],
+        "resources": {
+          "Y": 11,
+          "K": 13
+        },
+        "points": {
+          "Y": 20,
+          "K": 15
+        },
+        "K_F": 4,
+        "destination": [
+          10,
+          8
+        ],
+        "visible_enemy_reachable_W": 0,
+        "visible_enemy_reachable_F": 0,
+        "K_W_arrival_at_destination": 12,
+        "watch_owner": "Y",
+        "result": null
+      },
+      {
+        "turn": 158,
+        "changes": [],
+        "K_commands": [
+          "SPAWN W 6 12 8",
+          "MOVE 1 0 F 1 D",
+          "MOVE 8 6 F 1 D",
+          "MOVE 7 3 W 25 D",
+          "MOVE 7 4 W 1 L",
+          "MOVE 10 8 W 12 L",
+          "MOVE 11 8 W 6 L",
+          "MOVE 12 8 W 7 L",
+          "MOVE 9 9 W 5 L",
+          "MOVE 10 9 W 9 L",
+          "MOVE 11 9 W 1 L"
+        ],
+        "Y_commands": [
+          "SPAWN W 5",
+          "MOVE 5 4 W 25 D",
+          "MOVE 10 10 F 1 D",
+          "MOVE 3 5 W 11 R",
+          "MOVE 5 6 W 8 U",
+          "MOVE 3 2 W 1 U",
+          "MOVE 6 8 W 1 U",
+          "MOVE 6 8 W 5 U",
+          "MOVE 5 2 W 2 R",
+          "MOVE 2 6 W 1 D",
+          "MOVE 4 6 W 1 U",
+          "MOVE 8 9 W 1 D",
+          "MOVE 2 4 F 1 R",
+          "MOVE 8 9 F 1 D",
+          "MOVE 9 10 F 1 L",
+          "PRIORITY 5 5 7 7 7 11 7 3 2 1 9 9 12 13 12 10 6 5 2 4 8 9 12 8 2 8 12 6 11 9 2 6 3 5"
+        ],
+        "resources": {
+          "Y": 13,
+          "K": 13
+        },
+        "points": {
+          "Y": 20,
+          "K": 15
+        },
+        "K_F": 4,
+        "destination": [
+          9,
+          8
+        ],
+        "visible_enemy_reachable_W": 0,
+        "visible_enemy_reachable_F": 0,
+        "K_W_arrival_at_destination": 12,
+        "watch_owner": "Y",
+        "result": null
+      },
+      {
+        "turn": 159,
+        "changes": [],
+        "K_commands": [
+          "SPAWN W 6 12 8",
+          "MOVE 6 5 F 1 D",
+          "MOVE 2 10 F 1 D",
+          "MOVE 6 4 W 1 R",
+          "MOVE 7 4 W 25 U",
+          "MOVE 6 5 W 7 D",
+          "MOVE 9 8 W 12 D",
+          "MOVE 10 8 W 6 L",
+          "MOVE 11 8 W 7 L",
+          "MOVE 12 8 W 6 L",
+          "MOVE 9 9 W 9 L",
+          "MOVE 10 9 W 1 L"
+        ],
+        "Y_commands": [
+          "MOVE 3 1 W 4 D",
+          "MOVE 3 1 W 2 L",
+          "MOVE 2 2 W 1 D",
+          "MOVE 3 2 W 5 D",
+          "MOVE 6 2 W 2 L",
+          "MOVE 3 4 W 2 D",
+          "MOVE 5 4 W 8 D",
+          "MOVE 4 5 W 12 R",
+          "MOVE 3 6 W 4 U",
+          "MOVE 7 6 W 1 D",
+          "MOVE 2 7 W 1 D",
+          "MOVE 4 7 W 1 U",
+          "MOVE 6 7 W 6 R",
+          "MOVE 2 8 W 1 R",
+          "MOVE 7 8 W 4 U",
+          "MOVE 8 10 W 1 U",
+          "PRIORITY 7 11 7 3 12 13 12 10 6 5 12 8 12 6 11 9"
+        ],
+        "resources": {
+          "Y": 25,
+          "K": 13
+        },
+        "points": {
+          "Y": 20,
+          "K": 15
+        },
+        "K_F": 4,
+        "destination": [
+          9,
+          9
+        ],
+        "visible_enemy_reachable_W": 0,
+        "visible_enemy_reachable_F": 0,
+        "K_W_arrival_at_destination": 13,
+        "watch_owner": "Y",
+        "result": null
+      },
+      {
+        "turn": 160,
+        "changes": [],
+        "K_commands": [
+          "SPAWN W 6 12 8",
+          "MOVE 1 1 F 1 U",
+          "MOVE 8 7 F 1 D",
+          "MOVE 2 11 F 1 U",
+          "MOVE 7 4 W 1 U",
+          "MOVE 6 5 W 6 U",
+          "MOVE 6 6 W 7 U",
+          "MOVE 9 8 W 6 L",
+          "MOVE 10 8 W 7 L",
+          "MOVE 11 8 W 6 L",
+          "MOVE 12 8 W 6 L",
+          "MOVE 8 9 W 13 R",
+          "MOVE 9 9 W 13 L"
+        ],
+        "Y_commands": [
+          "SPAWN W 12",
+          "MOVE 5 5 W 25 D",
+          "MOVE 5 5 W 1 U",
+          "MOVE 5 5 W 1 U",
+          "MOVE 5 5 W 1 D",
+          "MOVE 5 5 W 1 L",
+          "MOVE 3 1 W 1 L",
+          "MOVE 3 1 W 11 D",
+          "MOVE 7 7 W 11 R",
+          "MOVE 3 5 W 6 R",
+          "MOVE 3 3 W 5 D",
+          "MOVE 3 2 W 1 D",
+          "MOVE 3 2 W 3 R",
+          "MOVE 2 1 W 1 D",
+          "MOVE 2 1 W 1 D",
+          "MOVE 5 2 W 2 R",
+          "MOVE 2 3 W 1 D",
+          "MOVE 4 6 W 1 R",
+          "MOVE 2 8 W 1 R",
+          "MOVE 3 8 W 1 R",
+          "MOVE 8 10 F 2 L",
+          "PRIORITY 7 3 7 11 5 5 9 9 12 13 6 5 12 10 7 7 2 1 2 4 8 9 12 8 11 9 12 6 3 5 2 6 2 8"
+        ],
+        "resources": {
+          "Y": 13,
+          "K": 13
+        },
+        "points": {
+          "Y": 20,
+          "K": 15
+        },
+        "K_F": 4,
+        "destination": [
+          9,
+          9
+        ],
+        "visible_enemy_reachable_W": 0,
+        "visible_enemy_reachable_F": 0,
+        "K_W_arrival_at_destination": 13,
+        "watch_owner": "Y",
+        "result": {
+          "winner": "Y",
+          "reason": "score",
+          "score": {
+            "Y": 20,
+            "K": 15
+          },
+          "turns": 160
+        }
+      }
+    ],
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 20,
+        "K": 15
+      },
+      "turns": 160
+    }
+  },
+  "alternative": {
+    "turns": [
+      {
+        "turn": 156,
+        "changes": [
+          [
+            "SPAWN W 6 12 8",
+            "SPAWN W 4 12 8"
+          ],
+          [
+            null,
+            "SPAWN F 1 12 8"
+          ],
+          [
+            null,
+            "MOVE 12 8 F 1 L"
+          ]
+        ],
+        "K_commands": [
+          "SPAWN F 1 12 8",
+          "SPAWN W 4 12 8",
+          "MOVE 5 6 F 1 R",
+          "MOVE 8 6 F 1 L",
+          "MOVE 2 11 F 1 U",
+          "MOVE 7 3 W 1 D",
+          "MOVE 6 4 W 1 D",
+          "MOVE 7 4 W 4 L",
+          "MOVE 12 7 W 1 U",
+          "MOVE 10 8 W 5 L",
+          "MOVE 11 8 W 9 D",
+          "MOVE 12 8 W 12 L",
+          "MOVE 12 8 F 1 L"
+        ],
+        "Y_commands": [
+          "SPAWN W 1 2 6",
+          "SPAWN W 1 2 6",
+          "SPAWN W 1 2 6",
+          "SPAWN W 1 2 6",
+          "SPAWN W 1 2 6",
+          "SPAWN W 1 2 6",
+          "MOVE 10 4 F 1 D",
+          "MOVE 2 6 F 1 U",
+          "MOVE 8 8 F 1 D",
+          "MOVE 10 12 F 1 L",
+          "MOVE 5 2 W 7 D",
+          "MOVE 5 2 W 1 L",
+          "MOVE 2 3 W 1 U",
+          "MOVE 3 3 W 4 D",
+          "MOVE 4 3 W 5 D",
+          "MOVE 5 3 W 15 D",
+          "MOVE 2 5 W 5 R",
+          "MOVE 3 5 W 1 U",
+          "MOVE 3 5 W 1 D",
+          "MOVE 4 5 W 10 R",
+          "MOVE 5 5 W 5 D",
+          "MOVE 2 6 W 6 U",
+          "MOVE 2 7 W 1 D",
+          "MOVE 8 7 W 6 L",
+          "MOVE 3 8 W 1 R",
+          "MOVE 6 8 W 6 U",
+          "PRIORITY 7 11 7 3 12 13 2 4 12 10 8 9 6 5 12 8 12 6 11 9"
+        ],
+        "resources": {
+          "Y": 11,
+          "K": 12
+        },
+        "points": {
+          "Y": 16,
+          "K": 15
+        },
+        "K_F": 5,
+        "destination": [
+          11,
+          8
+        ],
+        "visible_enemy_reachable_W": 0,
+        "visible_enemy_reachable_F": 0,
+        "K_W_arrival_at_destination": 12,
+        "watch_owner": "Y",
+        "result": null
+      },
+      {
+        "turn": 157,
+        "changes": [
+          [
+            null,
+            "MOVE 11 8 F 1 L"
+          ]
+        ],
+        "K_commands": [
+          "SPAWN W 6 12 8",
+          "MOVE 6 6 F 1 U",
+          "MOVE 7 6 F 1 R",
+          "MOVE 6 4 W 1 R",
+          "MOVE 6 4 W 3 D",
+          "MOVE 7 4 W 1 U",
+          "MOVE 9 8 W 5 D",
+          "MOVE 11 8 W 12 L",
+          "MOVE 12 8 W 6 L",
+          "MOVE 11 9 W 9 L",
+          "MOVE 11 8 F 1 L"
+        ],
+        "Y_commands": [
+          "SPAWN W 5",
+          "MOVE 5 5 W 7 U",
+          "MOVE 5 5 W 2 D",
+          "MOVE 5 5 W 1 D",
+          "MOVE 5 3 W 6 D",
+          "MOVE 5 3 W 1 U",
+          "MOVE 3 5 W 1 U",
+          "MOVE 3 5 W 2 D",
+          "MOVE 3 5 W 1 D",
+          "MOVE 3 5 W 1 D",
+          "MOVE 3 5 W 1 U",
+          "MOVE 6 7 W 6 D",
+          "MOVE 2 5 W 1 R",
+          "MOVE 2 5 W 1 D",
+          "MOVE 2 5 W 4 R",
+          "MOVE 3 1 W 5 D",
+          "MOVE 7 7 W 4 D",
+          "MOVE 7 7 W 1 U",
+          "MOVE 4 4 W 5 R",
+          "MOVE 3 4 W 5 D",
+          "MOVE 3 6 W 1 R",
+          "MOVE 4 2 W 1 R",
+          "MOVE 2 2 W 1 R",
+          "MOVE 2 1 W 1 D",
+          "MOVE 4 8 W 1 U",
+          "MOVE 9 9 W 1 L",
+          "MOVE 2 5 F 1 U",
+          "MOVE 10 5 F 1 D",
+          "MOVE 9 9 F 1 D",
+          "PRIORITY 7 3 7 11 12 13 5 5 9 9 2 1 12 10 6 5 7 7 12 8 2 4 8 9 3 5 11 9 12 6 2 6 2 8"
+        ],
+        "resources": {
+          "Y": 11,
+          "K": 12
+        },
+        "points": {
+          "Y": 20,
+          "K": 15
+        },
+        "K_F": 5,
+        "destination": [
+          10,
+          8
+        ],
+        "visible_enemy_reachable_W": 0,
+        "visible_enemy_reachable_F": 0,
+        "K_W_arrival_at_destination": 12,
+        "watch_owner": "Y",
+        "result": null
+      },
+      {
+        "turn": 158,
+        "changes": [
+          [
+            "MOVE 12 8 W 7 L",
+            "MOVE 12 8 W 5 L"
+          ],
+          [
+            null,
+            "MOVE 10 8 F 1 L"
+          ]
+        ],
+        "K_commands": [
+          "SPAWN W 6 12 8",
+          "MOVE 1 0 F 1 D",
+          "MOVE 8 6 F 1 D",
+          "MOVE 7 3 W 25 D",
+          "MOVE 7 4 W 1 L",
+          "MOVE 10 8 W 12 L",
+          "MOVE 11 8 W 6 L",
+          "MOVE 12 8 W 5 L",
+          "MOVE 9 9 W 5 L",
+          "MOVE 10 9 W 9 L",
+          "MOVE 11 9 W 1 L",
+          "MOVE 10 8 F 1 L"
+        ],
+        "Y_commands": [
+          "SPAWN W 5",
+          "MOVE 5 4 W 25 D",
+          "MOVE 10 10 F 1 D",
+          "MOVE 3 5 W 11 R",
+          "MOVE 5 6 W 8 U",
+          "MOVE 3 2 W 1 U",
+          "MOVE 6 8 W 1 U",
+          "MOVE 6 8 W 5 U",
+          "MOVE 5 2 W 2 R",
+          "MOVE 2 6 W 1 D",
+          "MOVE 4 6 W 1 U",
+          "MOVE 8 9 W 1 D",
+          "MOVE 2 4 F 1 R",
+          "MOVE 8 9 F 1 D",
+          "MOVE 9 10 F 1 L",
+          "PRIORITY 5 5 7 7 7 11 7 3 2 1 9 9 12 13 12 10 6 5 2 4 8 9 12 8 2 8 12 6 11 9 2 6 3 5"
+        ],
+        "resources": {
+          "Y": 13,
+          "K": 12
+        },
+        "points": {
+          "Y": 20,
+          "K": 15
+        },
+        "K_F": 5,
+        "destination": [
+          9,
+          8
+        ],
+        "visible_enemy_reachable_W": 0,
+        "visible_enemy_reachable_F": 0,
+        "K_W_arrival_at_destination": 12,
+        "watch_owner": "Y",
+        "result": null
+      },
+      {
+        "turn": 159,
+        "changes": [
+          [
+            "MOVE 11 8 W 7 L",
+            "MOVE 11 8 W 5 L"
+          ],
+          [
+            null,
+            "MOVE 9 8 F 1 D"
+          ]
+        ],
+        "K_commands": [
+          "SPAWN W 6 12 8",
+          "MOVE 6 5 F 1 D",
+          "MOVE 2 10 F 1 D",
+          "MOVE 6 4 W 1 R",
+          "MOVE 7 4 W 25 U",
+          "MOVE 6 5 W 7 D",
+          "MOVE 9 8 W 12 D",
+          "MOVE 10 8 W 6 L",
+          "MOVE 11 8 W 5 L",
+          "MOVE 12 8 W 6 L",
+          "MOVE 9 9 W 9 L",
+          "MOVE 10 9 W 1 L",
+          "MOVE 9 8 F 1 D"
+        ],
+        "Y_commands": [
+          "MOVE 3 1 W 4 D",
+          "MOVE 3 1 W 2 L",
+          "MOVE 2 2 W 1 D",
+          "MOVE 3 2 W 5 D",
+          "MOVE 6 2 W 2 L",
+          "MOVE 3 4 W 2 D",
+          "MOVE 5 4 W 8 D",
+          "MOVE 4 5 W 12 R",
+          "MOVE 3 6 W 4 U",
+          "MOVE 7 6 W 1 D",
+          "MOVE 2 7 W 1 D",
+          "MOVE 4 7 W 1 U",
+          "MOVE 6 7 W 6 R",
+          "MOVE 2 8 W 1 R",
+          "MOVE 7 8 W 4 U",
+          "MOVE 8 10 W 1 U",
+          "PRIORITY 7 11 7 3 12 13 12 10 6 5 12 8 12 6 11 9"
+        ],
+        "resources": {
+          "Y": 25,
+          "K": 11
+        },
+        "points": {
+          "Y": 16,
+          "K": 15
+        },
+        "K_F": 5,
+        "destination": [
+          9,
+          9
+        ],
+        "visible_enemy_reachable_W": 0,
+        "visible_enemy_reachable_F": 0,
+        "K_W_arrival_at_destination": 13,
+        "watch_owner": "N",
+        "result": null
+      },
+      {
+        "turn": 160,
+        "changes": [
+          [
+            "MOVE 10 8 W 7 L",
+            "MOVE 10 8 W 5 L"
+          ],
+          [
+            "SPAWN W 6 12 8",
+            "SPAWN W 5 12 8"
+          ]
+        ],
+        "K_commands": [
+          "SPAWN W 5 12 8",
+          "MOVE 1 1 F 1 U",
+          "MOVE 8 7 F 1 D",
+          "MOVE 2 11 F 1 U",
+          "MOVE 7 4 W 1 U",
+          "MOVE 6 5 W 6 U",
+          "MOVE 6 6 W 7 U",
+          "MOVE 9 8 W 6 L",
+          "MOVE 10 8 W 5 L",
+          "MOVE 11 8 W 6 L",
+          "MOVE 12 8 W 6 L",
+          "MOVE 8 9 W 13 R",
+          "MOVE 9 9 W 13 L"
+        ],
+        "Y_commands": [
+          "SPAWN W 12",
+          "MOVE 5 5 W 25 D",
+          "MOVE 5 5 W 1 U",
+          "MOVE 5 5 W 1 U",
+          "MOVE 5 5 W 1 D",
+          "MOVE 5 5 W 1 L",
+          "MOVE 3 1 W 1 L",
+          "MOVE 3 1 W 11 D",
+          "MOVE 7 7 W 11 R",
+          "MOVE 3 5 W 6 R",
+          "MOVE 3 3 W 5 D",
+          "MOVE 3 2 W 1 D",
+          "MOVE 3 2 W 3 R",
+          "MOVE 2 1 W 1 D",
+          "MOVE 2 1 W 1 D",
+          "MOVE 5 2 W 2 R",
+          "MOVE 2 3 W 1 D",
+          "MOVE 4 6 W 1 R",
+          "MOVE 2 8 W 1 R",
+          "MOVE 3 8 W 1 R",
+          "MOVE 8 10 F 2 L",
+          "PRIORITY 7 3 7 11 5 5 9 9 12 13 6 5 12 10 7 7 2 1 2 4 8 9 12 8 11 9 12 6 3 5 2 6 2 8"
+        ],
+        "resources": {
+          "Y": 13,
+          "K": 12
+        },
+        "points": {
+          "Y": 16,
+          "K": 19
+        },
+        "K_F": 5,
+        "destination": [
+          9,
+          9
+        ],
+        "visible_enemy_reachable_W": 0,
+        "visible_enemy_reachable_F": 0,
+        "K_W_arrival_at_destination": 13,
+        "watch_owner": "K",
+        "result": {
+          "winner": "K",
+          "reason": "score",
+          "score": {
+            "Y": 16,
+            "K": 19
+          },
+          "turns": 160
+        }
+      }
+    ],
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 16,
+        "K": 19
+      },
+      "turns": 160
+    }
+  },
+  "limitations": [
+    "Five-turn fixed original opponent commands; not a new match and not a response-adaptive opponent.",
+    "All original other F actions retained. W production is lower by2 at156 and1 at160 to fund F/capture; later two-W departure reductions prevent stock clipping.",
+    "Input file is serialize_turn legal K observation; decision uses no hidden score.",
+    "Candidate source is unchanged; this is a feasible action witness, not a tested automatic repair."
+  ]
+}
