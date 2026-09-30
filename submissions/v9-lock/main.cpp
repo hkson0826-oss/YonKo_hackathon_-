@@ -83,11 +83,17 @@ int income(const State& s, int t) {
 //   ALLIN (estimated deficit): maximise variance. No defensive reservation, extra all-in script,
 //                            search is risk seeking.
 //   NORMAL: before V9_SWITCH, and an unresolved tie region.
-enum { V9_NORMAL = 0, V9_LOCK = 1, V9_ALLIN = 2 };
+//   COUNTER: small deficit or tie (-2..0): keep the defensive reservations, add the all-in attack script
+//            to the search as a counterattack candidate.
+// Hysteresis: ALLIN starts at a deficit >= V9_ALLIN_DEFICIT, or when behind in the last V9_ALLIN_LATE
+// turns, and is left only once the lead reaches V9_EXIT_LEAD (no LOCK/ALLIN flip-flop).
+enum { V9_NORMAL = 0, V9_LOCK = 1, V9_ALLIN = 2, V9_COUNTER = 3 };
+constexpr int V9_ALLIN_DEFICIT = 3;  // enter ALLIN when trailing by at least this many points
+constexpr int V9_ALLIN_LATE = 4;     // ... or when trailing (or tied and behind on occupation) this close to 160
+constexpr int V9_EXIT_LEAD = 3;      // leave ALLIN (for LOCK) only with at least this lead
 constexpr int V9_SWITCH = 140;     // turn (completed turns) at which the score-aware endgame starts
 constexpr int V9_HORIZON = 6;      // endgame guard looks at enemy F arriving within this many turns
 constexpr int V9_MID = 1;          // pre-endgame: deadline_guard also covers escorted HALL/ENG raids
-constexpr int V9_MID_MAX = 4;      // largest escorted raid (need) the pre-endgame guard answers
 int v9_mode = V9_NORMAL;
 bool v9_known[BMAX]{};             // score is exact: revealed, mirror revealed, or plaza
 double v9_margin = 0, v9_margin_low = 0;
@@ -99,7 +105,7 @@ double v9_margin = 0, v9_margin_low = 0;
 ofstream v9_trace_file;
 bool v9_tracing = false;
 #define V9LOG(...) do { if (v9_tracing) v9_trace_file << __VA_ARGS__; } while (0)
-const char* v9_mode_name(int m) { return m == V9_LOCK ? "LOCK" : m == V9_ALLIN ? "ALLIN" : "NORMAL"; }
+const char* v9_mode_name(int m) { return m == V9_LOCK ? "LOCK" : m == V9_ALLIN ? "ALLIN" : m == V9_COUNTER ? "COUNTER" : "NORMAL"; }
 string v9_cell(int c) { return "(" + to_string(c%15) + "," + to_string(c/15) + ")"; }
 string v9_bname(int b) { return types[board.type[b]] + "#" + to_string(board.id[b]) + v9_cell(board.pos[b]); }
 
@@ -1043,7 +1049,7 @@ Action a_decide(const State& s,int us,AClock::time_point start,double limit=135.
     vector<APlan> plans;
     for(int i=0;i<4;++i) plans.push_back({scripts[i],i,-1e100});
     // Evaluated first so a tight time budget cannot skip it.
-    if(v9_mode==V9_ALLIN) {
+    if(v9_mode==V9_ALLIN || v9_mode==V9_COUNTER) {
         v9_randomize=true;
         Action allin=a_clean(s,us,policy(s,us,4));
         v9_randomize=false;
@@ -1281,10 +1287,13 @@ Action deadline_guard(const State& s,int us,Action action) {
             int escort=0;
             for(int c=0;c<N;++c) if(s.u[enemy][W][c] && enemy_eta(c,target)<=flag_eta) escort+=s.u[enemy][W][c];
             for(int c:enemy_sources) if(board.dist[c][target]<=flag_eta) {escort+=s.res[enemy]/cost(s,enemy,W);break;}
+            // No size cap: any escorted raid is answered if enough W can arrive in time (all-or-nothing below).
             need=escort+1;
-            if(need>V9_MID_MAX) {
+            int reach=0;
+            for(int c=0;c<N;++c) if(stock[c] && board.dist[c][target]<=flag_eta) reach+=stock[c];
+            if(reach<need) {
                 V9LOG("  [mid-guard] " << v9_bname(b) << ": escorted raid, enemy F in " << flag_eta << " turns with "
-                      << escort << " W -> need " << need << " > cap " << V9_MID_MAX << ", not answered\n");
+                      << escort << " W -> need " << need << ", only " << reach << " W in reach, not answered\n");
                 continue;
             }
         }
@@ -1721,10 +1730,13 @@ vector<string> decide(const p::View& v, const p::Init& in) {
             theirs_high += v9_known[b] ? s.score[b] : centre ? 4 : 2;
         }
         v9_margin = mine - theirs; v9_margin_low = mine - theirs_high;
+        const int remaining = 160 - s.turn, previous = v9_mode;
+        const bool losing = v9_margin < 0 || (v9_margin == 0 && s.occupation[us] <= s.occupation[1-us]);
         if (s.turn < V9_SWITCH) v9_mode = V9_NORMAL;
+        else if (previous == V9_ALLIN) v9_mode = v9_margin >= V9_EXIT_LEAD ? V9_LOCK : V9_ALLIN;
+        else if (v9_margin <= -V9_ALLIN_DEFICIT || (losing && remaining <= V9_ALLIN_LATE)) v9_mode = V9_ALLIN;
         else if (v9_margin >= 1) v9_mode = V9_LOCK;
-        else if (v9_margin <= -1) v9_mode = V9_ALLIN;
-        else v9_mode = s.occupation[us] > s.occupation[1-us] ? V9_LOCK : V9_ALLIN;   // tie-break by occupation
+        else v9_mode = V9_COUNTER;
         if (v9_tracing) {
             int unknown = 0, nw[2]{}, nf[2]{};
             for (int b = 0; b < board.nb; ++b) if (s.owner[b] == 1-us && !v9_known[b]) ++unknown;
@@ -1735,10 +1747,16 @@ vector<string> decide(const p::View& v, const p::Init& in) {
                   << " | res " << s.res[us] << "/" << s.res[1-us] << " W " << nw[us] << "/" << nw[1-us]
                   << " F " << nf[us] << "/" << nf[1-us] << "\n");
             if (s.turn < V9_SWITCH) V9LOG("  [mode] NORMAL: before turn " << V9_SWITCH+1 << "\n");
-            else if (v9_margin >= 1) V9LOG("  [mode] LOCK: estimated lead " << v9_margin << " >= 1 -> minimise variance, hold every point\n");
-            else if (v9_margin <= -1) V9LOG("  [mode] ALLIN: estimated deficit " << v9_margin << " <= -1 -> maximise variance\n");
-            else V9LOG("  [mode] " << v9_mode_name(v9_mode) << ": score tie region, occupation " << long(s.occupation[us])
-                       << " vs " << long(s.occupation[1-us]) << " decides\n");
+            else if (previous == V9_ALLIN)
+                V9LOG("  [mode] " << v9_mode_name(v9_mode) << ": was ALLIN, margin " << v9_margin
+                      << (v9_mode == V9_ALLIN ? " < exit lead " : " >= exit lead ") << V9_EXIT_LEAD << "\n");
+            else if (v9_mode == V9_ALLIN)
+                V9LOG("  [mode] ALLIN: margin " << v9_margin << (v9_margin <= -V9_ALLIN_DEFICIT ? " <= -" : ", losing with ")
+                      << (v9_margin <= -V9_ALLIN_DEFICIT ? V9_ALLIN_DEFICIT : remaining)
+                      << (v9_margin <= -V9_ALLIN_DEFICIT ? "" : " turns left") << " -> maximise variance, no defence\n");
+            else if (v9_mode == V9_LOCK) V9LOG("  [mode] LOCK: estimated lead " << v9_margin << " >= 1 -> minimise variance, hold every point\n");
+            else V9LOG("  [mode] COUNTER: margin " << v9_margin << " in -" << V9_ALLIN_DEFICIT-1 << "..0, occupation "
+                       << long(s.occupation[us]) << " vs " << long(s.occupation[1-us]) << " -> keep defence, add counterattack\n");
             if (s.turn > 145) V9LOG("  [flags] endgame F demand " << v9_flag_target(s,us,7)
                                     << " (targets reachable before 160 + threatened own buildings)\n");
         }
