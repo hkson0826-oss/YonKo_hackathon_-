@@ -25,7 +25,8 @@ from engine.config import load_config
 from engine.state import new_game
 from runner.bots import SubprocessBot
 from runner.protocol import parse_commands, serialize_init, serialize_turn
-from mission_scheduler_cases import (OFFICIAL_REPLAY, RENDEZVOUS_REPLAY, official_history_before,
+from mission_scheduler_cases import (HALL_REPLAY, OFFICIAL_REPLAY, RENDEZVOUS_REPLAY,
+                                     hall_history_before, official_history_before,
                                      rendezvous_history_before, state_from_observation, tactical_state)
 
 SOURCE = Path(os.environ.get('MISSION_SCHEDULER_SOURCE', ROOT / 'experiments/mission_scheduler_20261001/main.cpp')).resolve()
@@ -300,6 +301,57 @@ class MissionSchedulerProtocolTests(unittest.TestCase):
             self.assertIsNone(result, 'The counterfactual ended before the hospital mission could be checked')
         self.assertIsNotNone(trace['captured_turn'],
                              'The adjacent flag and nearby W3 should coordinate to take the W1-guarded hospital within six turns')
+
+    @unittest.skipUnless(HALL_REPLAY.is_file(), 'Archived HALL defense development replay is unavailable')
+    def test_visible_flag_raid_is_stopped_before_home_hall_is_lost(self):
+        history, replay = hall_history_before(14)
+        bot = self.bot(history[0], 'K')
+        matched = 0
+        for index, previous in enumerate(history[:-1]):
+            self.ask(bot, previous, 'K')
+            matched += self.audit['observations'][-1]['raw'] == replay['turns'][index]['commands']['K']
+        state = history[-1]
+        hall = state.building_at(12, 9)
+        self.assertEqual((state.turn, hall.btype, hall.owner), (13, 'HALL', 'K'))
+        self.assertEqual(state.get_unit(11, 7, 'Y', 'F'), 1)
+        raid_position = (11, 7)
+        route = [(11, 8), (11, 9), (12, 9)]
+        trace = {'source_replay_sha256': hashlib.sha256(HALL_REPLAY.read_bytes()).hexdigest(),
+                 'branch_input_turn': 14, 'enemy_flag_input_position': [11, 7],
+                 'original_history_outputs_matched': matched,
+                 'original_history_outputs_compared': len(history) - 1,
+                 'opponent_assumption': 'Only the F at (11,7) follows D,D,R; no other movement or production. Dead F receives no later orders.',
+                 'information': 'Forced historical states are serialized through the official hidden-score filter',
+                 'turns': [], 'intercepted_turn': None}
+        self.audit['hall_defense_case'] = trace
+        for offset in range(5):
+            commands = self.ask(bot, state, 'K')
+            enemy_lines = []
+            if offset < len(route) and state.get_unit(*raid_position, 'Y', 'F'):
+                destination = route[offset]
+                dx, dy = destination[0] - raid_position[0], destination[1] - raid_position[1]
+                direction = next(name for name, vector in DIRECTIONS.items() if vector == (dx, dy))
+                enemy_lines = [f'MOVE {raid_position[0]} {raid_position[1]} F 1 {direction}']
+                raid_position = destination
+            enemy = audit_commands(state, 'Y', enemy_lines)
+            after, result = run_turn(state, enemy, commands)
+            alive = after.get_unit(*raid_position, 'Y', 'F') > 0
+            if not alive and trace['intercepted_turn'] is None:
+                trace['intercepted_turn'] = after.turn
+            trace['turns'].append({'turn': after.turn,
+                                   'own_commands': self.audit['observations'][-1]['raw'],
+                                   'enemy_commands': enemy_lines,
+                                   'hall_owner': after.buildings[hall.id].owner,
+                                   'raider_alive': alive,
+                                   'units_after': [[team, kind, x, y, count]
+                                                   for (x, y, team, kind), count in sorted(after.units.items())]})
+            self.assertEqual(after.buildings[hall.id].owner, 'K',
+                             f'Turn {after.turn}: a visible three-step unescorted raid must not neutralize the owned HALL')
+            state = after
+            self.assertIsNone(result, 'The counterfactual ended before the five-turn defense check')
+        self.assertIsNotNone(trace['intercepted_turn'], 'The scripted attacker must be intercepted')
+        self.assertLessEqual(trace['intercepted_turn'], 16,
+                             'The raider reaches the HALL on turn 16 unless removed earlier')
 
     @unittest.skipUnless(OFFICIAL_REPLAY.is_file(), 'Latest official development replay is unavailable')
     def test_official_turn_29_has_no_flag_suicide_against_stationary_enemy(self):

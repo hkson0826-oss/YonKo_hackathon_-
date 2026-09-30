@@ -29,6 +29,13 @@ def csv(value):
 
 def prepare(args):
     arena = args.arena.resolve()
+    runtime_args = {}
+    supplied_names = {value.partition('=')[0] for value in args.candidate}
+    for supplied in args.candidate_arg:
+        name, separator, argument = supplied.partition('=')
+        if not separator or name not in supplied_names or not argument or '\x00' in argument:
+            raise ValueError('Candidate argument must be CANDIDATE_ID=ONE_ARGUMENT: ' + supplied)
+        runtime_args.setdefault(name, []).append(argument)
     challenge = ['s3_selective_contact', 'r3_opponent_league', 'f3_v2_warrior_reserve']
     league.prepare(arena, v3_campaign.population_spec(2, [V4], challenge))
     manifest = json.loads((arena / 'manifest.json').read_text())
@@ -53,12 +60,15 @@ def prepare(args):
             shutil.copyfile(path, frozen / path.name)
         builds = []
         command = league.sweep._compile(arena, frozen / 'main.cpp', name, shutil.which('g++'), builds, frozen)
+        arguments = runtime_args.get(name, [])
+        command = shlex.join([*shlex.split(command), *arguments])
         manifest['bots'][name] = {
             'id': name, 'family': 'deadline_external', 'source_directory': str(source),
             'source': str((frozen / 'main.cpp').relative_to(arena)),
             'source_sha256': league.sha(frozen / 'main.cpp'),
             'input_files_sha256': {path.name: league.sha(frozen / path.name) for path in copied},
             'command': command, 'binary_sha256': league.sha(shlex.split(command)[0]), 'builds': builds,
+            'runtime_args': arguments,
         }
     manifest['frozen_sha256'] = {
         str(path.relative_to(arena)): league.sha(path)
@@ -124,6 +134,9 @@ def run(args):
               'hypothesis': args.hypothesis, 'source_commit': manifest['source_commit'],
               'source_sha256': {name: manifest['bots'][name]['source_sha256'] for name in set(candidates + opponents)},
               'map_seeds': plan['map_seeds'], 'policy_rng_seed': manifest['policy_rng_seed'],
+              'candidate_runtime_args': {name: manifest['bots'][name]['runtime_args']
+                                         for name in sorted(set(candidates + opponents))
+                                         if manifest['bots'][name].get('runtime_args')},
               'scheduled_jobs': len(jobs), 'workers': args.workers,
               'resource_policy': 'Official engine turn timeout; inherited 384MiB RLIMIT_AS after compilation',
               'stop_policy': 'Any error/forfeit blocks promotion; deadline decisions and candidate locking belong to the operator.'}
@@ -134,6 +147,8 @@ def run(args):
         for key in ('stage', 'baseline', 'hypothesis', 'source_sha256', 'policy_rng_seed'):
             if previous.get(key) != policy[key]:
                 raise ValueError('Resume policy mismatch: ' + key)
+        if previous.get('candidate_runtime_args', {}) != policy['candidate_runtime_args']:
+            raise ValueError('Resume policy mismatch: candidate_runtime_args')
     else:
         if plan_path.exists() or policy_path.exists():
             raise ValueError('Run ID already used; use --resume or a new ID')
@@ -157,6 +172,7 @@ def main():
     prep = sub.add_parser('prepare')
     prep.add_argument('--arena', type=Path, required=True)
     prep.add_argument('--candidate', action='append', default=[], help='NEW_ID=CPP_SOURCE_DIRECTORY; copied before freezing')
+    prep.add_argument('--candidate-arg', action='append', default=[], help='CANDIDATE_ID=ONE_ARGUMENT; repeat for multiple arguments')
     play = sub.add_parser('run')
     play.add_argument('--arena', type=Path, required=True)
     play.add_argument('--run-id', required=True)

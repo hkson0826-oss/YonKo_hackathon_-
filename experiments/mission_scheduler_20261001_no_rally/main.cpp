@@ -1,3 +1,4 @@
+#define MISSION_RENDEZVOUS 0
 #include "protocol.hpp"
 #include <chrono>
 #include <cmath>

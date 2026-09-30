@@ -70,15 +70,16 @@ def official_history_before(turn):
 
 
 RENDEZVOUS_REPLAY = ROOT / 'records/benchmarks/mission-20261001/v1/runs/development-common/replays/81b32c6a7c4aa249159323da.json.gz'
+HALL_REPLAY = ROOT / 'records/benchmarks/mission-20261001/v1/runs/development-common/replays/ca61304a881abc2d17a4d2c8.json.gz'
 
 
-def rendezvous_history_before(turn=13):
+def local_history_before(replay_path, turn):
     """Reconstruct original states, preserving reveal masks before protocol serialization."""
     from engine.pipeline import run_turn
     from runner.protocol import parse_commands
     from runner.replay import snapshot
 
-    replay = json.loads(gzip.open(RENDEZVOUS_REPLAY, 'rt').read())
+    replay = json.loads(gzip.open(replay_path, 'rt').read())
     game_map = replay['map']
     buildings = [Building(b['id'], b['x'], b['y'], b['type'], b['score'])
                  for b in game_map['buildings']]
@@ -96,3 +97,10 @@ def rendezvous_history_before(turn=13):
     if history[-1].turn != turn - 1:
         raise AssertionError('Source replay does not reach requested observation')
     return history, replay
+
+
+def rendezvous_history_before(turn=13):
+    return local_history_before(RENDEZVOUS_REPLAY, turn)
+
+def hall_history_before(turn=14):
+    return local_history_before(HALL_REPLAY, turn)
