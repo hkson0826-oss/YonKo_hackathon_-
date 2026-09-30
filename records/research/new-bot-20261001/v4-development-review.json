@@ -1,0 +1,1409 @@
+{
+  "source": "read-only comparison of completed rows; no new games",
+  "runs": {
+    "development-common": {
+      "rows": 72,
+      "expected_rows": 72,
+      "complete": true,
+      "by_candidate": {
+        "mission3": {
+          "games": 24,
+          "outcomes": {
+            "loss": 14,
+            "win": 10
+          },
+          "mean_score_margin": -4.333333333333333,
+          "max_response_ms": 6.049162999261171
+        },
+        "mission4": {
+          "games": 24,
+          "outcomes": {
+            "win": 12,
+            "loss": 12
+          },
+          "mean_score_margin": -3.2083333333333335,
+          "max_response_ms": 6.694267001876142
+        },
+        "v8": {
+          "games": 24,
+          "outcomes": {
+            "win": 17,
+            "loss": 7
+          },
+          "mean_score_margin": 15.041666666666666,
+          "max_response_ms": 127.40502500673756
+        }
+      },
+      "v4_minus_v3": {
+        "paired_games": 24,
+        "point_sum_difference": 2.0,
+        "mean_score_margin_difference": 1.125,
+        "classes": {
+          "late_window_divergence": 8,
+          "diverged_before_late_window": 5,
+          "identical_through_shorter_game": 11
+        },
+        "pairs": [
+          {
+            "map_seed": 19011,
+            "side": "Y",
+            "opponent": "r3_opponent_league",
+            "left": {
+              "job_id": "e5e68edc2a0d3c81a50b9ca1",
+              "outcome": "loss",
+              "score_margin": -39,
+              "turns": 153
+            },
+            "right": {
+              "job_id": "410eea3ec41f78b4f64617ca",
+              "outcome": "loss",
+              "score_margin": -39,
+              "turns": 153
+            },
+            "right_minus_left_point": 0.0,
+            "right_minus_left_margin": 0,
+            "first_state_difference": 153,
+            "first_own_command_difference": 153,
+            "first_opponent_command_difference": null,
+            "comparison_class": "late_window_divergence",
+            "left_late_F_births": [],
+            "right_late_F_births": [
+              {
+                "turn": 153,
+                "commands": [
+                  "SPAWN F 1"
+                ]
+              }
+            ]
+          },
+          {
+            "map_seed": 19011,
+            "side": "Y",
+            "opponent": "s3_selective_contact",
+            "left": {
+              "job_id": "32631a9e533e997582692fde",
+              "outcome": "loss",
+              "score_margin": -39,
+              "turns": 155
+            },
+            "right": {
+              "job_id": "dc068ab00de9b69b80109219",
+              "outcome": "loss",
+              "score_margin": -39,
+              "turns": 155
+            },
+            "right_minus_left_point": 0.0,
+            "right_minus_left_margin": 0,
+            "first_state_difference": 154,
+            "first_own_command_difference": 154,
+            "first_opponent_command_difference": 155,
+            "comparison_class": "late_window_divergence",
+            "left_late_F_births": [],
+            "right_late_F_births": [
+              {
+                "turn": 154,
+                "commands": [
+                  "SPAWN F 1"
+                ]
+              }
+            ]
+          },
+          {
+            "map_seed": 19013,
+            "side": "K",
+            "opponent": "r3_opponent_league",
+            "left": {
+              "job_id": "22e9f11f6711096e1dcae8e9",
+              "outcome": "win",
+              "score_margin": 9,
+              "turns": 160
+            },
+            "right": {
+              "job_id": "0e3f1e522a00e52235b91dda",
+              "outcome": "win",
+              "score_margin": 11,
+              "turns": 160
+            },
+            "right_minus_left_point": 0.0,
+            "right_minus_left_margin": 2,
+            "first_state_difference": 153,
+            "first_own_command_difference": 153,
+            "first_opponent_command_difference": 155,
+            "comparison_class": "late_window_divergence",
+            "left_late_F_births": [],
+            "right_late_F_births": [
+              {
+                "turn": 153,
+                "commands": [
+                  "SPAWN F 1"
+                ]
+              }
+            ]
+          },
+          {
+            "map_seed": 19010,
+            "side": "Y",
+            "opponent": "s3_selective_contact",
+            "left": {
+              "job_id": "f595e74321daeec14bdf262a",
+              "outcome": "win",
+              "score_margin": 32,
+              "turns": 88
+            },
+            "right": {
+              "job_id": "643026c7ce018fa807fdd8d0",
+              "outcome": "win",
+              "score_margin": 33,
+              "turns": 69
+            },
+            "right_minus_left_point": 0.0,
+            "right_minus_left_margin": 1,
+            "first_state_difference": 31,
+            "first_own_command_difference": 32,
+            "first_opponent_command_difference": 31,
+            "comparison_class": "diverged_before_late_window",
+            "causal_limit": "The late-F code gate is inactive before turn153. Earlier differences cannot be attributed directly to the added late token; inspect opponent/runtime variance.",
+            "left_late_F_births": [],
+            "right_late_F_births": []
+          },
+          {
+            "map_seed": 19010,
+            "side": "Y",
+            "opponent": "j_balanced_portfolio",
+            "left": {
+              "job_id": "dd943d65ce8ac31a667480bd",
+              "outcome": "loss",
+              "score_margin": -7,
+              "turns": 160
+            },
+            "right": {
+              "job_id": "ee47adc0a10ddbf7c844c6e8",
+              "outcome": "loss",
+              "score_margin": -4,
+              "turns": 160
+            },
+            "right_minus_left_point": 0.0,
+            "right_minus_left_margin": 3,
+            "first_state_difference": 154,
+            "first_own_command_difference": 154,
+            "first_opponent_command_difference": 155,
+            "comparison_class": "late_window_divergence",
+            "left_late_F_births": [],
+            "right_late_F_births": [
+              {
+                "turn": 154,
+                "commands": [
+                  "SPAWN F 1 12 8"
+                ]
+              },
+              {
+                "turn": 156,
+                "commands": [
+                  "SPAWN F 1"
+                ]
+              }
+            ]
+          },
+          {
+            "map_seed": 19012,
+            "side": "Y",
+            "opponent": "r3_opponent_league",
+            "left": {
+              "job_id": "88b48bff3f47a3da3a427534",
+              "outcome": "loss",
+              "score_margin": -32,
+              "turns": 43
+            },
+            "right": {
+              "job_id": "e0424d376c30507c31952875",
+              "outcome": "loss",
+              "score_margin": -32,
+              "turns": 43
+            },
+            "right_minus_left_point": 0.0,
+            "right_minus_left_margin": 0,
+            "first_state_difference": null,
+            "first_own_command_difference": null,
+            "first_opponent_command_difference": null,
+            "comparison_class": "identical_through_shorter_game",
+            "left_late_F_births": [],
+            "right_late_F_births": []
+          },
+          {
+            "map_seed": 19010,
+            "side": "K",
+            "opponent": "s3_selective_contact",
+            "left": {
+              "job_id": "5f358dddcd68152b967731d0",
+              "outcome": "win",
+              "score_margin": 27,
+              "turns": 160
+            },
+            "right": {
+              "job_id": "1f39e9d8f8af3466d3eb44b3",
+              "outcome": "win",
+              "score_margin": 27,
+              "turns": 160
+            },
+            "right_minus_left_point": 0.0,
+            "right_minus_left_margin": 0,
+            "first_state_difference": null,
+            "first_own_command_difference": null,
+            "first_opponent_command_difference": null,
+            "comparison_class": "identical_through_shorter_game",
+            "left_late_F_births": [],
+            "right_late_F_births": []
+          },
+          {
+            "map_seed": 19010,
+            "side": "K",
+            "opponent": "j_balanced_portfolio",
+            "left": {
+              "job_id": "7b0cbafcd38b265caedd8dd6",
+              "outcome": "loss",
+              "score_margin": -5,
+              "turns": 160
+            },
+            "right": {
+              "job_id": "ec93d9582ddcee451cd3d0b7",
+              "outcome": "win",
+              "score_margin": 7,
+              "turns": 160
+            },
+            "right_minus_left_point": 1.0,
+            "right_minus_left_margin": 12,
+            "first_state_difference": 155,
+            "first_own_command_difference": 155,
+            "first_opponent_command_difference": 156,
+            "comparison_class": "late_window_divergence",
+            "left_late_F_births": [],
+            "right_late_F_births": [
+              {
+                "turn": 155,
+                "commands": [
+                  "SPAWN F 1 12 8"
+                ]
+              }
+            ]
+          },
+          {
+            "map_seed": 19011,
+            "side": "K",
+            "opponent": "r3_opponent_league",
+            "left": {
+              "job_id": "511054a6fd8c4b98f619fa88",
+              "outcome": "win",
+              "score_margin": 13,
+              "turns": 160
+            },
+            "right": {
+              "job_id": "7bd3a9f1cda9d8ff19151fa3",
+              "outcome": "win",
+              "score_margin": 12,
+              "turns": 160
+            },
+            "right_minus_left_point": 0.0,
+            "right_minus_left_margin": -1,
+            "first_state_difference": 153,
+            "first_own_command_difference": 153,
+            "first_opponent_command_difference": 154,
+            "comparison_class": "late_window_divergence",
+            "left_late_F_births": [],
+            "right_late_F_births": [
+              {
+                "turn": 153,
+                "commands": [
+                  "SPAWN F 1"
+                ]
+              }
+            ]
+          },
+          {
+            "map_seed": 19010,
+            "side": "K",
+            "opponent": "r3_opponent_league",
+            "left": {
+              "job_id": "abc13625528d6477bc3e0b03",
+              "outcome": "win",
+              "score_margin": 33,
+              "turns": 158
+            },
+            "right": {
+              "job_id": "85ff57543bb35fbbb779ee36",
+              "outcome": "win",
+              "score_margin": 33,
+              "turns": 158
+            },
+            "right_minus_left_point": 0.0,
+            "right_minus_left_margin": 0,
+            "first_state_difference": null,
+            "first_own_command_difference": null,
+            "first_opponent_command_difference": null,
+            "comparison_class": "identical_through_shorter_game",
+            "left_late_F_births": [],
+            "right_late_F_births": []
+          },
+          {
+            "map_seed": 19013,
+            "side": "Y",
+            "opponent": "r3_opponent_league",
+            "left": {
+              "job_id": "8fafcc9fdf3860c68a5fe845",
+              "outcome": "win",
+              "score_margin": 31,
+              "turns": 138
+            },
+            "right": {
+              "job_id": "157ff98191f16289cb73f8b2",
+              "outcome": "win",
+              "score_margin": 31,
+              "turns": 138
+            },
+            "right_minus_left_point": 0.0,
+            "right_minus_left_margin": 0,
+            "first_state_difference": null,
+            "first_own_command_difference": null,
+            "first_opponent_command_difference": null,
+            "comparison_class": "identical_through_shorter_game",
+            "left_late_F_births": [],
+            "right_late_F_births": []
+          },
+          {
+            "map_seed": 19011,
+            "side": "Y",
+            "opponent": "j_balanced_portfolio",
+            "left": {
+              "job_id": "a5f8e1abf8148c05dfceb5f0",
+              "outcome": "loss",
+              "score_margin": -20,
+              "turns": 160
+            },
+            "right": {
+              "job_id": "27781d21d2f07585ef5f8e7b",
+              "outcome": "loss",
+              "score_margin": -20,
+              "turns": 160
+            },
+            "right_minus_left_point": 0.0,
+            "right_minus_left_margin": 0,
+            "first_state_difference": 153,
+            "first_own_command_difference": 153,
+            "first_opponent_command_difference": 154,
+            "comparison_class": "late_window_divergence",
+            "left_late_F_births": [],
+            "right_late_F_births": [
+              {
+                "turn": 153,
+                "commands": [
+                  "SPAWN F 1"
+                ]
+              },
+              {
+                "turn": 155,
+                "commands": [
+                  "SPAWN F 1"
+                ]
+              },
+              {
+                "turn": 157,
+                "commands": [
+                  "SPAWN F 1"
+                ]
+              }
+            ]
+          },
+          {
+            "map_seed": 19013,
+            "side": "K",
+            "opponent": "j_balanced_portfolio",
+            "left": {
+              "job_id": "3e66a2fb70b9c34fbbdd15cd",
+              "outcome": "loss",
+              "score_margin": -1,
+              "turns": 160
+            },
+            "right": {
+              "job_id": "1d07ddae172c736697cf3670",
+              "outcome": "loss",
+              "score_margin": -1,
+              "turns": 160
+            },
+            "right_minus_left_point": 0.0,
+            "right_minus_left_margin": 0,
+            "first_state_difference": null,
+            "first_own_command_difference": null,
+            "first_opponent_command_difference": null,
+            "comparison_class": "identical_through_shorter_game",
+            "left_late_F_births": [],
+            "right_late_F_births": []
+          },
+          {
+            "map_seed": 19012,
+            "side": "K",
+            "opponent": "j_balanced_portfolio",
+            "left": {
+              "job_id": "f1ffe271a7a8025319ab0b07",
+              "outcome": "loss",
+              "score_margin": -39,
+              "turns": 84
+            },
+            "right": {
+              "job_id": "4ccf328358c7a4e69784b7b3",
+              "outcome": "loss",
+              "score_margin": -39,
+              "turns": 84
+            },
+            "right_minus_left_point": 0.0,
+            "right_minus_left_margin": 0,
+            "first_state_difference": null,
+            "first_own_command_difference": null,
+            "first_opponent_command_difference": null,
+            "comparison_class": "identical_through_shorter_game",
+            "left_late_F_births": [],
+            "right_late_F_births": []
+          },
+          {
+            "map_seed": 19012,
+            "side": "Y",
+            "opponent": "j_balanced_portfolio",
+            "left": {
+              "job_id": "d2e5ea3d339f05e13240a096",
+              "outcome": "loss",
+              "score_margin": -33,
+              "turns": 77
+            },
+            "right": {
+              "job_id": "8027e990f03c369936a6e307",
+              "outcome": "loss",
+              "score_margin": -33,
+              "turns": 77
+            },
+            "right_minus_left_point": 0.0,
+            "right_minus_left_margin": 0,
+            "first_state_difference": null,
+            "first_own_command_difference": null,
+            "first_opponent_command_difference": null,
+            "comparison_class": "identical_through_shorter_game",
+            "left_late_F_births": [],
+            "right_late_F_births": []
+          },
+          {
+            "map_seed": 19011,
+            "side": "K",
+            "opponent": "j_balanced_portfolio",
+            "left": {
+              "job_id": "7ae515d3d4061cbb53575e00",
+              "outcome": "loss",
+              "score_margin": -33,
+              "turns": 160
+            },
+            "right": {
+              "job_id": "e676f2a0df9e9c8d92e729ea",
+              "outcome": "loss",
+              "score_margin": -30,
+              "turns": 160
+            },
+            "right_minus_left_point": 0.0,
+            "right_minus_left_margin": 3,
+            "first_state_difference": 153,
+            "first_own_command_difference": 153,
+            "first_opponent_command_difference": 154,
+            "comparison_class": "late_window_divergence",
+            "left_late_F_births": [],
+            "right_late_F_births": [
+              {
+                "turn": 153,
+                "commands": [
+                  "SPAWN F 1 11 13"
+                ]
+              }
+            ]
+          },
+          {
+            "map_seed": 19013,
+            "side": "K",
+            "opponent": "s3_selective_contact",
+            "left": {
+              "job_id": "9f5e91ce8ab61cb54edaca03",
+              "outcome": "win",
+              "score_margin": 17,
+              "turns": 160
+            },
+            "right": {
+              "job_id": "143c5eb003b13aea0f816472",
+              "outcome": "win",
+              "score_margin": 5,
+              "turns": 160
+            },
+            "right_minus_left_point": 0.0,
+            "right_minus_left_margin": -12,
+            "first_state_difference": 148,
+            "first_own_command_difference": 149,
+            "first_opponent_command_difference": 148,
+            "comparison_class": "diverged_before_late_window",
+            "causal_limit": "The late-F code gate is inactive before turn153. Earlier differences cannot be attributed directly to the added late token; inspect opponent/runtime variance.",
+            "left_late_F_births": [],
+            "right_late_F_births": []
+          },
+          {
+            "map_seed": 19012,
+            "side": "Y",
+            "opponent": "s3_selective_contact",
+            "left": {
+              "job_id": "21767633fc4a580f154b1ce7",
+              "outcome": "loss",
+              "score_margin": -38,
+              "turns": 69
+            },
+            "right": {
+              "job_id": "a4a1f2a68d42b01f65d6b596",
+              "outcome": "loss",
+              "score_margin": -38,
+              "turns": 69
+            },
+            "right_minus_left_point": 0.0,
+            "right_minus_left_margin": 0,
+            "first_state_difference": null,
+            "first_own_command_difference": null,
+            "first_opponent_command_difference": null,
+            "comparison_class": "identical_through_shorter_game",
+            "left_late_F_births": [],
+            "right_late_F_births": []
+          },
+          {
+            "map_seed": 19011,
+            "side": "K",
+            "opponent": "s3_selective_contact",
+            "left": {
+              "job_id": "5eb5eb25cbb97709f87459c4",
+              "outcome": "loss",
+              "score_margin": -36,
+              "turns": 153
+            },
+            "right": {
+              "job_id": "3b676b4426935c46951eada9",
+              "outcome": "loss",
+              "score_margin": -33,
+              "turns": 160
+            },
+            "right_minus_left_point": 0.0,
+            "right_minus_left_margin": 3,
+            "first_state_difference": 41,
+            "first_own_command_difference": 42,
+            "first_opponent_command_difference": 41,
+            "comparison_class": "diverged_before_late_window",
+            "causal_limit": "The late-F code gate is inactive before turn153. Earlier differences cannot be attributed directly to the added late token; inspect opponent/runtime variance.",
+            "left_late_F_births": [],
+            "right_late_F_births": []
+          },
+          {
+            "map_seed": 19012,
+            "side": "K",
+            "opponent": "s3_selective_contact",
+            "left": {
+              "job_id": "2e5d3c4b6c5037b9bc6bc39e",
+              "outcome": "loss",
+              "score_margin": -7,
+              "turns": 160
+            },
+            "right": {
+              "job_id": "29ebefa5787d80b9f6ea4be2",
+              "outcome": "win",
+              "score_margin": 6,
+              "turns": 160
+            },
+            "right_minus_left_point": 1.0,
+            "right_minus_left_margin": 13,
+            "first_state_difference": 19,
+            "first_own_command_difference": 20,
+            "first_opponent_command_difference": 19,
+            "comparison_class": "diverged_before_late_window",
+            "causal_limit": "The late-F code gate is inactive before turn153. Earlier differences cannot be attributed directly to the added late token; inspect opponent/runtime variance.",
+            "left_late_F_births": [
+              {
+                "turn": 153,
+                "commands": [
+                  "SPAWN F 1 4 11"
+                ]
+              }
+            ],
+            "right_late_F_births": []
+          },
+          {
+            "map_seed": 19010,
+            "side": "Y",
+            "opponent": "r3_opponent_league",
+            "left": {
+              "job_id": "03baa3f6e178e3723d2498d8",
+              "outcome": "win",
+              "score_margin": 33,
+              "turns": 155
+            },
+            "right": {
+              "job_id": "78029bc176e35e06263e3ae0",
+              "outcome": "win",
+              "score_margin": 33,
+              "turns": 155
+            },
+            "right_minus_left_point": 0.0,
+            "right_minus_left_margin": 0,
+            "first_state_difference": null,
+            "first_own_command_difference": null,
+            "first_opponent_command_difference": null,
+            "comparison_class": "identical_through_shorter_game",
+            "left_late_F_births": [],
+            "right_late_F_births": []
+          },
+          {
+            "map_seed": 19013,
+            "side": "Y",
+            "opponent": "j_balanced_portfolio",
+            "left": {
+              "job_id": "a42df44ac6af7d26c648399c",
+              "outcome": "win",
+              "score_margin": 31,
+              "turns": 132
+            },
+            "right": {
+              "job_id": "e0419275ebd468f4a27540ef",
+              "outcome": "win",
+              "score_margin": 31,
+              "turns": 132
+            },
+            "right_minus_left_point": 0.0,
+            "right_minus_left_margin": 0,
+            "first_state_difference": null,
+            "first_own_command_difference": null,
+            "first_opponent_command_difference": null,
+            "comparison_class": "identical_through_shorter_game",
+            "left_late_F_births": [],
+            "right_late_F_births": []
+          },
+          {
+            "map_seed": 19012,
+            "side": "K",
+            "opponent": "r3_opponent_league",
+            "left": {
+              "job_id": "67c98ae207b83ace71583fb6",
+              "outcome": "loss",
+              "score_margin": -31,
+              "turns": 54
+            },
+            "right": {
+              "job_id": "05b9b3159245456386f576e7",
+              "outcome": "loss",
+              "score_margin": -31,
+              "turns": 54
+            },
+            "right_minus_left_point": 0.0,
+            "right_minus_left_margin": 0,
+            "first_state_difference": null,
+            "first_own_command_difference": null,
+            "first_opponent_command_difference": null,
+            "comparison_class": "identical_through_shorter_game",
+            "left_late_F_births": [],
+            "right_late_F_births": []
+          },
+          {
+            "map_seed": 19013,
+            "side": "Y",
+            "opponent": "s3_selective_contact",
+            "left": {
+              "job_id": "adc8e1d6a9b48e7dfe98a13b",
+              "outcome": "win",
+              "score_margin": 30,
+              "turns": 130
+            },
+            "right": {
+              "job_id": "69fd6822b7b6a5e767053a0d",
+              "outcome": "win",
+              "score_margin": 33,
+              "turns": 125
+            },
+            "right_minus_left_point": 0.0,
+            "right_minus_left_margin": 3,
+            "first_state_difference": 43,
+            "first_own_command_difference": 44,
+            "first_opponent_command_difference": 43,
+            "comparison_class": "diverged_before_late_window",
+            "causal_limit": "The late-F code gate is inactive before turn153. Earlier differences cannot be attributed directly to the added late token; inspect opponent/runtime variance.",
+            "left_late_F_births": [],
+            "right_late_F_births": []
+          }
+        ]
+      }
+    },
+    "development-teammate": {
+      "rows": 24,
+      "expected_rows": 24,
+      "complete": true,
+      "by_candidate": {
+        "mission3": {
+          "games": 8,
+          "outcomes": {
+            "win": 6,
+            "loss": 2
+          },
+          "mean_score_margin": 4.875,
+          "max_response_ms": 6.184594996739179
+        },
+        "mission4": {
+          "games": 8,
+          "outcomes": {
+            "loss": 3,
+            "win": 5
+          },
+          "mean_score_margin": 3.625,
+          "max_response_ms": 6.067042995709926
+        },
+        "v8": {
+          "games": 8,
+          "outcomes": {
+            "win": 8
+          },
+          "mean_score_margin": 18.5,
+          "max_response_ms": 124.88197399943601
+        }
+      },
+      "v4_minus_v3": {
+        "paired_games": 8,
+        "point_sum_difference": -1.0,
+        "mean_score_margin_difference": -1.25,
+        "classes": {
+          "diverged_before_late_window": 8
+        },
+        "pairs": [
+          {
+            "map_seed": 19021,
+            "side": "Y",
+            "opponent": "team_v9_2",
+            "left": {
+              "job_id": "69c33ee899e3b21e51e04285",
+              "outcome": "win",
+              "score_margin": 20,
+              "turns": 160
+            },
+            "right": {
+              "job_id": "364c60f0f10330b6b0bbea6f",
+              "outcome": "win",
+              "score_margin": 29,
+              "turns": 147
+            },
+            "right_minus_left_point": 0.0,
+            "right_minus_left_margin": 9,
+            "first_state_difference": 9,
+            "first_own_command_difference": 10,
+            "first_opponent_command_difference": 9,
+            "comparison_class": "diverged_before_late_window",
+            "causal_limit": "The late-F code gate is inactive before turn153. Earlier differences cannot be attributed directly to the added late token; inspect opponent/runtime variance.",
+            "left_late_F_births": [],
+            "right_late_F_births": []
+          },
+          {
+            "map_seed": 19020,
+            "side": "Y",
+            "opponent": "team_v9_2",
+            "left": {
+              "job_id": "957fdfa1fa22b62b3a3a036b",
+              "outcome": "win",
+              "score_margin": 17,
+              "turns": 160
+            },
+            "right": {
+              "job_id": "850e9bd9d26248b7fd96d732",
+              "outcome": "loss",
+              "score_margin": -21,
+              "turns": 160
+            },
+            "right_minus_left_point": -1.0,
+            "right_minus_left_margin": -38,
+            "first_state_difference": 28,
+            "first_own_command_difference": 31,
+            "first_opponent_command_difference": 28,
+            "comparison_class": "diverged_before_late_window",
+            "causal_limit": "The late-F code gate is inactive before turn153. Earlier differences cannot be attributed directly to the added late token; inspect opponent/runtime variance.",
+            "left_late_F_births": [],
+            "right_late_F_births": [
+              {
+                "turn": 153,
+                "commands": [
+                  "SPAWN F 1 4 6"
+                ]
+              }
+            ]
+          },
+          {
+            "map_seed": 19023,
+            "side": "K",
+            "opponent": "team_v9_2",
+            "left": {
+              "job_id": "f86d76ea768735cd0cd2cd06",
+              "outcome": "win",
+              "score_margin": 15,
+              "turns": 160
+            },
+            "right": {
+              "job_id": "b025707b5211684972358b8f",
+              "outcome": "win",
+              "score_margin": 30,
+              "turns": 155
+            },
+            "right_minus_left_point": 0.0,
+            "right_minus_left_margin": 15,
+            "first_state_difference": 18,
+            "first_own_command_difference": 20,
+            "first_opponent_command_difference": 18,
+            "comparison_class": "diverged_before_late_window",
+            "causal_limit": "The late-F code gate is inactive before turn153. Earlier differences cannot be attributed directly to the added late token; inspect opponent/runtime variance.",
+            "left_late_F_births": [],
+            "right_late_F_births": []
+          },
+          {
+            "map_seed": 19021,
+            "side": "K",
+            "opponent": "team_v9_2",
+            "left": {
+              "job_id": "4e0c888f9a4fe5f70cb424ad",
+              "outcome": "win",
+              "score_margin": 6,
+              "turns": 160
+            },
+            "right": {
+              "job_id": "e5a43ac562432d28ad11bab8",
+              "outcome": "win",
+              "score_margin": 12,
+              "turns": 160
+            },
+            "right_minus_left_point": 0.0,
+            "right_minus_left_margin": 6,
+            "first_state_difference": 9,
+            "first_own_command_difference": 10,
+            "first_opponent_command_difference": 9,
+            "comparison_class": "diverged_before_late_window",
+            "causal_limit": "The late-F code gate is inactive before turn153. Earlier differences cannot be attributed directly to the added late token; inspect opponent/runtime variance.",
+            "left_late_F_births": [],
+            "right_late_F_births": [
+              {
+                "turn": 153,
+                "commands": [
+                  "SPAWN F 1 11 5"
+                ]
+              }
+            ]
+          },
+          {
+            "map_seed": 19022,
+            "side": "K",
+            "opponent": "team_v9_2",
+            "left": {
+              "job_id": "be7cff4c7c0533658f00c9e5",
+              "outcome": "loss",
+              "score_margin": -23,
+              "turns": 96
+            },
+            "right": {
+              "job_id": "e3d65a3f358730582109227d",
+              "outcome": "loss",
+              "score_margin": -22,
+              "turns": 133
+            },
+            "right_minus_left_point": 0.0,
+            "right_minus_left_margin": 1,
+            "first_state_difference": 13,
+            "first_own_command_difference": 14,
+            "first_opponent_command_difference": 13,
+            "comparison_class": "diverged_before_late_window",
+            "causal_limit": "The late-F code gate is inactive before turn153. Earlier differences cannot be attributed directly to the added late token; inspect opponent/runtime variance.",
+            "left_late_F_births": [],
+            "right_late_F_births": []
+          },
+          {
+            "map_seed": 19020,
+            "side": "K",
+            "opponent": "team_v9_2",
+            "left": {
+              "job_id": "3543fe4d38d5e5285566a6dd",
+              "outcome": "win",
+              "score_margin": 16,
+              "turns": 160
+            },
+            "right": {
+              "job_id": "790d5e7a1bb98598d6e02163",
+              "outcome": "loss",
+              "score_margin": -36,
+              "turns": 99
+            },
+            "right_minus_left_point": -1.0,
+            "right_minus_left_margin": -52,
+            "first_state_difference": 28,
+            "first_own_command_difference": 30,
+            "first_opponent_command_difference": 28,
+            "comparison_class": "diverged_before_late_window",
+            "causal_limit": "The late-F code gate is inactive before turn153. Earlier differences cannot be attributed directly to the added late token; inspect opponent/runtime variance.",
+            "left_late_F_births": [],
+            "right_late_F_births": []
+          },
+          {
+            "map_seed": 19023,
+            "side": "Y",
+            "opponent": "team_v9_2",
+            "left": {
+              "job_id": "0d201cdad4608324b246af57",
+              "outcome": "win",
+              "score_margin": 9,
+              "turns": 160
+            },
+            "right": {
+              "job_id": "348dbe871bd42db0608ee7cb",
+              "outcome": "win",
+              "score_margin": 9,
+              "turns": 160
+            },
+            "right_minus_left_point": 0.0,
+            "right_minus_left_margin": 0,
+            "first_state_difference": 5,
+            "first_own_command_difference": 10,
+            "first_opponent_command_difference": 5,
+            "comparison_class": "diverged_before_late_window",
+            "causal_limit": "The late-F code gate is inactive before turn153. Earlier differences cannot be attributed directly to the added late token; inspect opponent/runtime variance.",
+            "left_late_F_births": [],
+            "right_late_F_births": []
+          },
+          {
+            "map_seed": 19022,
+            "side": "Y",
+            "opponent": "team_v9_2",
+            "left": {
+              "job_id": "d44e9dad15272c46198bdd78",
+              "outcome": "loss",
+              "score_margin": -21,
+              "turns": 160
+            },
+            "right": {
+              "job_id": "2353bb03b8196969ff1aee56",
+              "outcome": "win",
+              "score_margin": 28,
+              "turns": 110
+            },
+            "right_minus_left_point": 1.0,
+            "right_minus_left_margin": 49,
+            "first_state_difference": 14,
+            "first_own_command_difference": 16,
+            "first_opponent_command_difference": 14,
+            "comparison_class": "diverged_before_late_window",
+            "causal_limit": "The late-F code gate is inactive before turn153. Earlier differences cannot be attributed directly to the added late token; inspect opponent/runtime variance.",
+            "left_late_F_births": [],
+            "right_late_F_births": []
+          }
+        ]
+      }
+    },
+    "pilot-direct": {
+      "rows": 8,
+      "expected_rows": 8,
+      "complete": true,
+      "by_candidate": {
+        "mission4": {
+          "games": 8,
+          "outcomes": {
+            "win": 7,
+            "loss": 1
+          },
+          "mean_score_margin": 17.75,
+          "max_response_ms": 6.215204994077794
+        }
+      }
+    }
+  },
+  "v3_rerun_control": {
+    "development-common": {
+      "matched_games": 24,
+      "changed_outcomes": 1,
+      "changed_games": 6,
+      "pairs": [
+        {
+          "map_seed": 19011,
+          "side": "Y",
+          "opponent": "s3_selective_contact",
+          "left": {
+            "job_id": "32631a9e533e997582692fde",
+            "outcome": "loss",
+            "score_margin": -33,
+            "turns": 160
+          },
+          "right": {
+            "job_id": "32631a9e533e997582692fde",
+            "outcome": "loss",
+            "score_margin": -39,
+            "turns": 155
+          },
+          "right_minus_left_point": 0.0,
+          "right_minus_left_margin": -6,
+          "first_state_difference": 29,
+          "first_own_command_difference": 30,
+          "first_opponent_command_difference": 29,
+          "comparison_class": "diverged_before_late_window",
+          "causal_limit": "The late-F code gate is inactive before turn153. Earlier differences cannot be attributed directly to the added late token; inspect opponent/runtime variance.",
+          "left_late_F_births": [],
+          "right_late_F_births": []
+        },
+        {
+          "map_seed": 19010,
+          "side": "Y",
+          "opponent": "s3_selective_contact",
+          "left": {
+            "job_id": "f595e74321daeec14bdf262a",
+            "outcome": "win",
+            "score_margin": 33,
+            "turns": 110
+          },
+          "right": {
+            "job_id": "f595e74321daeec14bdf262a",
+            "outcome": "win",
+            "score_margin": 32,
+            "turns": 88
+          },
+          "right_minus_left_point": 0.0,
+          "right_minus_left_margin": -1,
+          "first_state_difference": 68,
+          "first_own_command_difference": 70,
+          "first_opponent_command_difference": 68,
+          "comparison_class": "diverged_before_late_window",
+          "causal_limit": "The late-F code gate is inactive before turn153. Earlier differences cannot be attributed directly to the added late token; inspect opponent/runtime variance.",
+          "left_late_F_births": [],
+          "right_late_F_births": []
+        },
+        {
+          "map_seed": 19013,
+          "side": "K",
+          "opponent": "s3_selective_contact",
+          "left": {
+            "job_id": "9f5e91ce8ab61cb54edaca03",
+            "outcome": "win",
+            "score_margin": 3,
+            "turns": 160
+          },
+          "right": {
+            "job_id": "9f5e91ce8ab61cb54edaca03",
+            "outcome": "win",
+            "score_margin": 17,
+            "turns": 160
+          },
+          "right_minus_left_point": 0.0,
+          "right_minus_left_margin": 14,
+          "first_state_difference": 99,
+          "first_own_command_difference": 100,
+          "first_opponent_command_difference": 99,
+          "comparison_class": "diverged_before_late_window",
+          "causal_limit": "The late-F code gate is inactive before turn153. Earlier differences cannot be attributed directly to the added late token; inspect opponent/runtime variance.",
+          "left_late_F_births": [],
+          "right_late_F_births": []
+        },
+        {
+          "map_seed": 19011,
+          "side": "K",
+          "opponent": "s3_selective_contact",
+          "left": {
+            "job_id": "5eb5eb25cbb97709f87459c4",
+            "outcome": "loss",
+            "score_margin": -33,
+            "turns": 160
+          },
+          "right": {
+            "job_id": "5eb5eb25cbb97709f87459c4",
+            "outcome": "loss",
+            "score_margin": -36,
+            "turns": 153
+          },
+          "right_minus_left_point": 0.0,
+          "right_minus_left_margin": -3,
+          "first_state_difference": 41,
+          "first_own_command_difference": 42,
+          "first_opponent_command_difference": 41,
+          "comparison_class": "diverged_before_late_window",
+          "causal_limit": "The late-F code gate is inactive before turn153. Earlier differences cannot be attributed directly to the added late token; inspect opponent/runtime variance.",
+          "left_late_F_births": [],
+          "right_late_F_births": []
+        },
+        {
+          "map_seed": 19012,
+          "side": "K",
+          "opponent": "s3_selective_contact",
+          "left": {
+            "job_id": "2e5d3c4b6c5037b9bc6bc39e",
+            "outcome": "win",
+            "score_margin": 13,
+            "turns": 160
+          },
+          "right": {
+            "job_id": "2e5d3c4b6c5037b9bc6bc39e",
+            "outcome": "loss",
+            "score_margin": -7,
+            "turns": 160
+          },
+          "right_minus_left_point": -1.0,
+          "right_minus_left_margin": -20,
+          "first_state_difference": 19,
+          "first_own_command_difference": 20,
+          "first_opponent_command_difference": 19,
+          "comparison_class": "diverged_before_late_window",
+          "causal_limit": "The late-F code gate is inactive before turn153. Earlier differences cannot be attributed directly to the added late token; inspect opponent/runtime variance.",
+          "left_late_F_births": [],
+          "right_late_F_births": [
+            {
+              "turn": 153,
+              "commands": [
+                "SPAWN F 1 4 11"
+              ]
+            }
+          ]
+        },
+        {
+          "map_seed": 19013,
+          "side": "Y",
+          "opponent": "s3_selective_contact",
+          "left": {
+            "job_id": "adc8e1d6a9b48e7dfe98a13b",
+            "outcome": "win",
+            "score_margin": 32,
+            "turns": 118
+          },
+          "right": {
+            "job_id": "adc8e1d6a9b48e7dfe98a13b",
+            "outcome": "win",
+            "score_margin": 30,
+            "turns": 130
+          },
+          "right_minus_left_point": 0.0,
+          "right_minus_left_margin": -2,
+          "first_state_difference": 43,
+          "first_own_command_difference": 44,
+          "first_opponent_command_difference": 43,
+          "comparison_class": "diverged_before_late_window",
+          "causal_limit": "The late-F code gate is inactive before turn153. Earlier differences cannot be attributed directly to the added late token; inspect opponent/runtime variance.",
+          "left_late_F_births": [],
+          "right_late_F_births": []
+        }
+      ]
+    },
+    "development-teammate": {
+      "matched_games": 8,
+      "changed_outcomes": 5,
+      "changed_games": 8,
+      "pairs": [
+        {
+          "map_seed": 19021,
+          "side": "Y",
+          "opponent": "team_v9_2",
+          "left": {
+            "job_id": "69c33ee899e3b21e51e04285",
+            "outcome": "win",
+            "score_margin": 26,
+            "turns": 159
+          },
+          "right": {
+            "job_id": "69c33ee899e3b21e51e04285",
+            "outcome": "win",
+            "score_margin": 20,
+            "turns": 160
+          },
+          "right_minus_left_point": 0.0,
+          "right_minus_left_margin": -6,
+          "first_state_difference": 9,
+          "first_own_command_difference": 10,
+          "first_opponent_command_difference": 9,
+          "comparison_class": "diverged_before_late_window",
+          "causal_limit": "The late-F code gate is inactive before turn153. Earlier differences cannot be attributed directly to the added late token; inspect opponent/runtime variance.",
+          "left_late_F_births": [],
+          "right_late_F_births": []
+        },
+        {
+          "map_seed": 19020,
+          "side": "Y",
+          "opponent": "team_v9_2",
+          "left": {
+            "job_id": "957fdfa1fa22b62b3a3a036b",
+            "outcome": "loss",
+            "score_margin": -36,
+            "turns": 110
+          },
+          "right": {
+            "job_id": "957fdfa1fa22b62b3a3a036b",
+            "outcome": "win",
+            "score_margin": 17,
+            "turns": 160
+          },
+          "right_minus_left_point": 1.0,
+          "right_minus_left_margin": 53,
+          "first_state_difference": 3,
+          "first_own_command_difference": 6,
+          "first_opponent_command_difference": 3,
+          "comparison_class": "diverged_before_late_window",
+          "causal_limit": "The late-F code gate is inactive before turn153. Earlier differences cannot be attributed directly to the added late token; inspect opponent/runtime variance.",
+          "left_late_F_births": [],
+          "right_late_F_births": []
+        },
+        {
+          "map_seed": 19023,
+          "side": "K",
+          "opponent": "team_v9_2",
+          "left": {
+            "job_id": "f86d76ea768735cd0cd2cd06",
+            "outcome": "loss",
+            "score_margin": -7,
+            "turns": 160
+          },
+          "right": {
+            "job_id": "f86d76ea768735cd0cd2cd06",
+            "outcome": "win",
+            "score_margin": 15,
+            "turns": 160
+          },
+          "right_minus_left_point": 1.0,
+          "right_minus_left_margin": 22,
+          "first_state_difference": 21,
+          "first_own_command_difference": 23,
+          "first_opponent_command_difference": 21,
+          "comparison_class": "diverged_before_late_window",
+          "causal_limit": "The late-F code gate is inactive before turn153. Earlier differences cannot be attributed directly to the added late token; inspect opponent/runtime variance.",
+          "left_late_F_births": [],
+          "right_late_F_births": []
+        },
+        {
+          "map_seed": 19021,
+          "side": "K",
+          "opponent": "team_v9_2",
+          "left": {
+            "job_id": "4e0c888f9a4fe5f70cb424ad",
+            "outcome": "loss",
+            "score_margin": -20,
+            "turns": 160
+          },
+          "right": {
+            "job_id": "4e0c888f9a4fe5f70cb424ad",
+            "outcome": "win",
+            "score_margin": 6,
+            "turns": 160
+          },
+          "right_minus_left_point": 1.0,
+          "right_minus_left_margin": 26,
+          "first_state_difference": 9,
+          "first_own_command_difference": 10,
+          "first_opponent_command_difference": 9,
+          "comparison_class": "diverged_before_late_window",
+          "causal_limit": "The late-F code gate is inactive before turn153. Earlier differences cannot be attributed directly to the added late token; inspect opponent/runtime variance.",
+          "left_late_F_births": [],
+          "right_late_F_births": []
+        },
+        {
+          "map_seed": 19022,
+          "side": "K",
+          "opponent": "team_v9_2",
+          "left": {
+            "job_id": "be7cff4c7c0533658f00c9e5",
+            "outcome": "loss",
+            "score_margin": -28,
+            "turns": 107
+          },
+          "right": {
+            "job_id": "be7cff4c7c0533658f00c9e5",
+            "outcome": "loss",
+            "score_margin": -23,
+            "turns": 96
+          },
+          "right_minus_left_point": 0.0,
+          "right_minus_left_margin": 5,
+          "first_state_difference": 13,
+          "first_own_command_difference": 14,
+          "first_opponent_command_difference": 13,
+          "comparison_class": "diverged_before_late_window",
+          "causal_limit": "The late-F code gate is inactive before turn153. Earlier differences cannot be attributed directly to the added late token; inspect opponent/runtime variance.",
+          "left_late_F_births": [],
+          "right_late_F_births": []
+        },
+        {
+          "map_seed": 19020,
+          "side": "K",
+          "opponent": "team_v9_2",
+          "left": {
+            "job_id": "3543fe4d38d5e5285566a6dd",
+            "outcome": "loss",
+            "score_margin": -34,
+            "turns": 127
+          },
+          "right": {
+            "job_id": "3543fe4d38d5e5285566a6dd",
+            "outcome": "win",
+            "score_margin": 16,
+            "turns": 160
+          },
+          "right_minus_left_point": 1.0,
+          "right_minus_left_margin": 50,
+          "first_state_difference": 31,
+          "first_own_command_difference": 33,
+          "first_opponent_command_difference": 31,
+          "comparison_class": "diverged_before_late_window",
+          "causal_limit": "The late-F code gate is inactive before turn153. Earlier differences cannot be attributed directly to the added late token; inspect opponent/runtime variance.",
+          "left_late_F_births": [],
+          "right_late_F_births": []
+        },
+        {
+          "map_seed": 19023,
+          "side": "Y",
+          "opponent": "team_v9_2",
+          "left": {
+            "job_id": "0d201cdad4608324b246af57",
+            "outcome": "win",
+            "score_margin": 15,
+            "turns": 160
+          },
+          "right": {
+            "job_id": "0d201cdad4608324b246af57",
+            "outcome": "win",
+            "score_margin": 9,
+            "turns": 160
+          },
+          "right_minus_left_point": 0.0,
+          "right_minus_left_margin": -6,
+          "first_state_difference": 19,
+          "first_own_command_difference": 20,
+          "first_opponent_command_difference": 19,
+          "comparison_class": "diverged_before_late_window",
+          "causal_limit": "The late-F code gate is inactive before turn153. Earlier differences cannot be attributed directly to the added late token; inspect opponent/runtime variance.",
+          "left_late_F_births": [],
+          "right_late_F_births": []
+        },
+        {
+          "map_seed": 19022,
+          "side": "Y",
+          "opponent": "team_v9_2",
+          "left": {
+            "job_id": "d44e9dad15272c46198bdd78",
+            "outcome": "win",
+            "score_margin": 13,
+            "turns": 160
+          },
+          "right": {
+            "job_id": "d44e9dad15272c46198bdd78",
+            "outcome": "loss",
+            "score_margin": -21,
+            "turns": 160
+          },
+          "right_minus_left_point": -1.0,
+          "right_minus_left_margin": -34,
+          "first_state_difference": 14,
+          "first_own_command_difference": 16,
+          "first_opponent_command_difference": 14,
+          "comparison_class": "diverged_before_late_window",
+          "causal_limit": "The late-F code gate is inactive before turn153. Earlier differences cannot be attributed directly to the added late token; inspect opponent/runtime variance.",
+          "left_late_F_births": [],
+          "right_late_F_births": []
+        }
+      ]
+    }
+  },
+  "limitations": [
+    "Development seeds were already used for repairs. Fresh selection remains required.",
+    "A pre-turn153 difference is not evidence of the late-F rule effect. Exact cause of runtime/opponent variance is not inferred without instrumentation."
+  ]
+}
