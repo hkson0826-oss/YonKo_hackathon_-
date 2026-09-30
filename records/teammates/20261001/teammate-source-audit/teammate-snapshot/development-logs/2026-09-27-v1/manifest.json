@@ -1,0 +1,107 @@
+{
+  "experiment": "EXP-001",
+  "snapshot_time_kst": "2026-09-27T20:03:53.4273518+09:00",
+  "note": "Retrospective snapshot; experiment timestamp not recorded. Excludes Python caches from manifest.",
+  "files": [
+    {
+      "path": "delineate-v1.zip",
+      "bytes": 6737,
+      "sha256": "571397E3C84998B27F8CE0468BC49333663C69B0B84162AD8DFC27E7A47F2365"
+    },
+    {
+      "path": "development_log.md",
+      "bytes": 9812,
+      "sha256": "7D38147D643511BE5D55576DE25CEF7A24884056F45B62EC9DD276CE2F262546"
+    },
+    {
+      "path": "llm_usage_log.md",
+      "bytes": 4592,
+      "sha256": "4920D3354BEF8D6A43E1827EDED4D73F4979F060AEF57BC504EEC54F58453061"
+    },
+    {
+      "path": "operation_rule.md",
+      "bytes": 9542,
+      "sha256": "6C43DF9F788C4EE98E5515E9EA07CAB84324837A6BE303DCCBE21109D8F1761B"
+    },
+    {
+      "path": "test_delineate_v1.py",
+      "bytes": 2940,
+      "sha256": "53E3F72DD0FD70AA43C3675926E50E8999A92DC0A2A8A4CF8E2B521A2115E431"
+    },
+    {
+      "path": "results/lv1-seed0-K-replay.json",
+      "bytes": 227163,
+      "sha256": "6471F3B6A321413968211DB2F34B8052955D4137D606A8F41DD19711E833F327"
+    },
+    {
+      "path": "results/lv1-seed0-Y-replay.json",
+      "bytes": 236512,
+      "sha256": "C3A61477FFED4A2EFFCBC8FC9F05CE893AB741EA0B1FD48D5C174278E472BE31"
+    },
+    {
+      "path": "results/lv1-seed1-K-replay.json",
+      "bytes": 204829,
+      "sha256": "C122943CEEA521E795B8A783BE43E6227A2F9C3EEFE90F0585638CDE40559E82"
+    },
+    {
+      "path": "results/lv1-seed1-Y-replay.json",
+      "bytes": 278686,
+      "sha256": "445A2C7B8C93CEE3BFF8903CFF9427B1F7675A6939680C088CC8A4AAC4D1189D"
+    },
+    {
+      "path": "results/lv2-seed0-K-replay.json",
+      "bytes": 319357,
+      "sha256": "2F8B8AA862C19F1F59657404E06CC9588386337745F4C03352223E4517CDFF18"
+    },
+    {
+      "path": "results/lv2-seed0-Y-replay.json",
+      "bytes": 326366,
+      "sha256": "9CEF081B77C92A9E47AFDAF1E32A3B5DC6ACC8630CDF926260545749FF62878D"
+    },
+    {
+      "path": "results/lv2-seed1-K-replay.json",
+      "bytes": 250642,
+      "sha256": "3CD72ED6F7FF92C1FDA52450C7E58111B925A1346D5502CA7BB4F0B54B34814A"
+    },
+    {
+      "path": "results/lv2-seed1-Y-replay.json",
+      "bytes": 266562,
+      "sha256": "7F832584F9FBDEDC74AC023550E007319CDF7897FAB2FDFD11EDCA02ABDC00A4"
+    },
+    {
+      "path": "results/results.json",
+      "bytes": 2567,
+      "sha256": "933F0FDD0997560C9B2942B19C5FD427B7BD110078718127BDFABC5DF9C306F2"
+    },
+    {
+      "path": "source/_generated.py",
+      "bytes": 1698,
+      "sha256": "8CF113FE574425E1F761911E59FE43394AAD147946B07ED4A837E1DA6B25FCFC"
+    },
+    {
+      "path": "source/campus_bot.py",
+      "bytes": 4662,
+      "sha256": "2568119D19D9DEF58DD824B06EAC332F018F23C0DEE24BA1CCDDF3169A151E7B"
+    },
+    {
+      "path": "source/main.py",
+      "bytes": 8422,
+      "sha256": "A114CC5A286EA21CC09BA11A018C65BF38E068C7F79D7A8B5420A05FF936B666"
+    },
+    {
+      "path": "source/protocol.py",
+      "bytes": 1391,
+      "sha256": "67A5D27CED038DE39D7CD3B069BF01786BF4CC9E6C1D39269D1F7E67B185C194"
+    },
+    {
+      "path": "source/STRATEGY.md",
+      "bytes": 4375,
+      "sha256": "E82005C7337ED9A0EDC605E18F8941EA0A263CC414CEB36B5EC5419AB24ADA7C"
+    },
+    {
+      "path": "source/submission.json",
+      "bytes": 49,
+      "sha256": "FF5431B97AB8DC3D045D053FE1E3148ECA20BFE900EC66CD9E7F7F5E542F3DE5"
+    }
+  ]
+}

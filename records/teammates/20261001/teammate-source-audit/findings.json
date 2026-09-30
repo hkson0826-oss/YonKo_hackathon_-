@@ -1,0 +1,214 @@
+{
+  "ref": "origin/손형권_v1",
+  "commit": "8c458b1f3df3e78afafb81bd5739d4ab54cd70c5",
+  "findings": [
+    {
+      "id": "TEAM-01",
+      "area": "opening",
+      "title": "F expansion production",
+      "status": "implemented",
+      "source": "bots/delineate_v1/main.py",
+      "lines": [
+        85,
+        114
+      ],
+      "detail": "Start with two F when nf<2, otherwise replenish one F per turn up to min(6,max(2,number_of_unowned_buildings)); spend remaining budget on W. Spawn site greedily minimizes nearest target distance-value; newly produced units are included in same-turn movement."
+    },
+    {
+      "id": "TEAM-02",
+      "area": "opening",
+      "title": "Global diminishing target assignment",
+      "status": "implemented",
+      "source": "bots/delineate_v1/main.py",
+      "lines": [
+        116,
+        130
+      ],
+      "detail": "Repeatedly take lowest (distance - value + 18*already_assigned + 0.7*min(10,target_enemy_W), flag_index, target_coordinate). Individual F in the same cell can take different targets."
+    },
+    {
+      "id": "TEAM-03",
+      "area": "opening",
+      "title": "Economic value and hidden scores",
+      "status": "implemented",
+      "source": "bots/delineate_v1/main.py",
+      "lines": [
+        58,
+        69
+      ],
+      "detail": "Value=1.4*score + bonus*min(1,remaining/60). HALL5, ENG5 only while owning none, HOSPITAL4, DEPOT2, LIBRARY1, STATION0.5, WATCH0. Unknown score uses rotation pair, else x-region mean3 or1.5."
+    },
+    {
+      "id": "TEAM-04",
+      "area": "planning",
+      "title": "BFS is geometric path search only",
+      "status": "implemented",
+      "source": "bots/delineate_v1/main.py",
+      "lines": [
+        14,
+        37
+      ],
+      "detail": "Precomputes all-pairs passable-cell distance at first decision. No multistep action search, forward combat simulation, learned evaluation or opponent-policy rollout."
+    },
+    {
+      "id": "TEAM-05",
+      "area": "planning",
+      "title": "No mission memory",
+      "status": "implemented",
+      "source": "bots/delineate_v1/main.py",
+      "lines": [
+        116,
+        169
+      ],
+      "detail": "Assignments reset every turn. Only terrain/init persist; previously assigned missions, depot reward receipt, opponent-policy adaptation and temporal commitment are not stored."
+    },
+    {
+      "id": "TEAM-06",
+      "area": "planning",
+      "title": "Late-game policy",
+      "status": "implemented",
+      "source": "bots/delineate_v1/main.py",
+      "lines": [
+        45,
+        69,
+        97,
+        124
+      ],
+      "detail": "Only functional bonuses fade during last60 turns and goals past remaining movement/capture horizon are filtered. No lead-dependent defend switch or terminal tactical solver."
+    },
+    {
+      "id": "TEAM-07",
+      "area": "defense",
+      "title": "Demand allocation",
+      "status": "implemented",
+      "source": "bots/delineate_v1/main.py",
+      "lines": [
+        132,
+        159
+      ],
+      "detail": "Owned buildings threatened by enemy W within BFS3 or enemy F within BFS2 receive demand local_enemy_W+1 and value+7. Nonowned assigned or enemy-F occupied buildings receive local_enemy_W+1/value+2. Surplus W has soft penalty4 per over-demand assignment, not a hard cap."
+    },
+    {
+      "id": "TEAM-08",
+      "area": "defense",
+      "title": "Immediate F risk avoidance",
+      "status": "implemented",
+      "source": "bots/delineate_v1/main.py",
+      "lines": [
+        71,
+        82,
+        160,
+        174
+      ],
+      "detail": "Enemy existing W at destination or adjacent cells plus maximum affordable W production from any enemy base/hospital are compared with our planned W arrivals. If enemy>ours penalty1000, then distance and0.01*enemy threat. Equal W counts are treated safe for F survival, though both F can contest."
+    },
+    {
+      "id": "TEAM-09",
+      "area": "defense",
+      "title": "Owned ENG discount undervaluation",
+      "status": "static_limitation",
+      "source": "bots/delineate_v1/main.py",
+      "lines": [
+        58,
+        67,
+        138
+      ],
+      "detail": "If we own an ENG, its functional bonus is zero even when valuing defense of our only ENG. Preserving the W discount is not explicitly rewarded."
+    },
+    {
+      "id": "TEAM-10",
+      "area": "defense",
+      "title": "Intermediate W attrition unmodeled",
+      "status": "static_limitation",
+      "source": "bots/delineate_v1/main.py",
+      "lines": [
+        155,
+        156
+      ],
+      "detail": "W chooses stay/one-hop solely by BFS distance to its assigned target. No intermediate enemy concentration, preservation or combat outcome term. Predicted vulnerability in narrow defended routes, requires replay evidence."
+    },
+    {
+      "id": "TEAM-11",
+      "area": "defense",
+      "title": "Double-counted demands",
+      "status": "static_limitation",
+      "source": "bots/delineate_v1/main.py",
+      "lines": [
+        135,
+        140
+      ],
+      "detail": "The same enemy W within3 of multiple buildings is independently counted in each task. Threat sets also assume all neighboring enemy W can converge on each considered F destination independently. This is a safety upper bound per cell, not a globally feasible joint enemy plan."
+    },
+    {
+      "id": "TEAM-12",
+      "area": "defense",
+      "title": "TELE arrival missing",
+      "status": "static_limitation",
+      "source": "bots/delineate_v1/main.py",
+      "lines": [
+        71,
+        82
+      ],
+      "detail": "threat only includes ordinary one-step moves and fresh production. Enemy W could TELE to owned station with no arrival contribution in threat. Own strategy never emits TELE either."
+    },
+    {
+      "id": "TEAM-13",
+      "area": "planning",
+      "title": "Absolute-coordinate tie behavior",
+      "status": "static_limitation",
+      "source": "bots/delineate_v1/main.py",
+      "lines": [
+        17,
+        127,
+        152,
+        177
+      ],
+      "detail": "Direction priority rotates between Y UDLR and K DURL, but F tuple minimum finally compares absolute target coordinates; W target ties preserve building iteration order and equal-value capture priority also preserves input order. Therefore complete180-degree equivariance is not guaranteed. This does not establish net Y/K strength advantage."
+    },
+    {
+      "id": "TEAM-14",
+      "area": "opening",
+      "title": "Capture budget is approximation",
+      "status": "static_limitation",
+      "source": "bots/delineate_v1/main.py",
+      "lines": [
+        86,
+        90
+      ],
+      "detail": "Reserves sum of capture costs for every target within1 of any current F, minus base income10. This may count several alternatives for one F and excludes new F. Actual missions, safety, neutralization or HALL extra income are not jointly simulated."
+    },
+    {
+      "id": "TEAM-15",
+      "area": "planning",
+      "title": "Single greedy spawn site",
+      "status": "static_limitation",
+      "source": "bots/delineate_v1/main.py",
+      "lines": [
+        93,
+        104
+      ],
+      "detail": "Same best site is chosen from target distance/value for both F and W and each produced unit. Enemy spawn danger or specific defense demand does not enter site choice."
+    },
+    {
+      "id": "TEAM-16",
+      "area": "evidence",
+      "title": "Original 8/8 result scope",
+      "status": "observed_archive",
+      "source": "bots/test_delineate_v1.py",
+      "lines": [
+        1,
+        75
+      ],
+      "detail": "Two map seeds0/1, two sidesY/K, examplesLv1/Lv2. 8 wins in29–43 turns. InProcess judgment timing excludes turn IPC/startup; independent stdin/stdout transcript equality is not a enforced300ms match. No strong-opponent or element ablation evidence in this branch."
+    },
+    {
+      "id": "TEAM-17",
+      "area": "scope",
+      "title": "Plan is not completed implementation",
+      "status": "observed_archive",
+      "source": "전체적인 계획.txt",
+      "lines": [],
+      "detail": "전체적인 계획.txt schedules9/27 strategy research,9/28–29 structure,9/30 parameters,10/1 freeze/report. Branch latest only adds this plan; no later new strategy implementation found."
+    }
+  ]
+}

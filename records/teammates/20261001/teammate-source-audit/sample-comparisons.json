@@ -1,0 +1,72 @@
+[
+  {
+    "source": "yk-cpp-sample/generated.hpp",
+    "sdk_source": "yk-development-tools/bots/dist/starter/cpp/generated.hpp",
+    "identical": true
+  },
+  {
+    "source": "yk-cpp-sample/main.cpp",
+    "sdk_source": "yk-development-tools/bots/dist/starter/cpp/main.cpp",
+    "identical": true
+  },
+  {
+    "source": "yk-cpp-sample/protocol.hpp",
+    "sdk_source": "yk-development-tools/bots/dist/starter/cpp/protocol.hpp",
+    "identical": true
+  },
+  {
+    "source": "yk-cpp-sample/search.hpp",
+    "sdk_source": "yk-development-tools/bots/dist/starter/cpp/search.hpp",
+    "identical": true
+  },
+  {
+    "source": "yk-cpp-sample/submission.json",
+    "sdk_source": "yk-development-tools/bots/dist/starter/cpp/submission.json",
+    "identical": true
+  },
+  {
+    "source": "yk-python-sample/_generated.py",
+    "sdk_source": "yk-development-tools/bots/dist/starter/python/_generated.py",
+    "identical": true
+  },
+  {
+    "source": "yk-python-sample/campus_bot.py",
+    "sdk_source": "yk-development-tools/bots/dist/starter/python/campus_bot.py",
+    "identical": true
+  },
+  {
+    "source": "yk-python-sample/example_lv1.py",
+    "sdk_source": "yk-development-tools/bots/dist/starter/python/example_lv1.py",
+    "identical": true
+  },
+  {
+    "source": "yk-python-sample/example_lv2.py",
+    "sdk_source": "yk-development-tools/bots/dist/starter/python/example_lv2.py",
+    "identical": true
+  },
+  {
+    "source": "yk-python-sample/main.py",
+    "sdk_source": "yk-development-tools/bots/dist/starter/python/main.py",
+    "identical": true
+  },
+  {
+    "source": "yk-python-sample/mybot_template.py",
+    "sdk_source": "yk-development-tools/bots/dist/starter/python/mybot_template.py",
+    "identical": true
+  },
+  {
+    "source": "yk-python-sample/protocol.py",
+    "sdk_source": "yk-development-tools/bots/dist/starter/python/protocol.py",
+    "identical": true
+  },
+  {
+    "source": "yk-python-sample/search.py",
+    "sdk_source": "yk-development-tools/bots/dist/starter/python/search.py",
+    "identical": true
+  },
+  {
+    "source": "yk-python-sample/submission.json",
+    "sdk_source": "yk-development-tools/bots/dist/starter/python/submission.json",
+    "identical": true
+  }
+]

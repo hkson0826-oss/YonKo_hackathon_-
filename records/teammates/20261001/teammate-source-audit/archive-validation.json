@@ -1,0 +1,139 @@
+{
+  "manifest_files": [
+    {
+      "path": "development-logs/2026-09-27-v1/delineate-v1.zip",
+      "sha256": "571397e3c84998b27f8ce0468bc49333663c69b0b84162ad8dfc27e7a47f2365",
+      "manifest_matches": true
+    },
+    {
+      "path": "development-logs/2026-09-27-v1/development_log.md",
+      "sha256": "7d38147d643511be5d55576de25cef7a24884056f45b62ec9dd276ce2f262546",
+      "manifest_matches": true
+    },
+    {
+      "path": "development-logs/2026-09-27-v1/llm_usage_log.md",
+      "sha256": "4920d3354bef8d6a43e1827eded4d73f4979f060aef57bc504eec54f58453061",
+      "manifest_matches": true
+    },
+    {
+      "path": "development-logs/2026-09-27-v1/operation_rule.md",
+      "sha256": "6c43df9f788c4ee98e5515e9ea07cab84324837a6be303dccbe21109d8f1761b",
+      "manifest_matches": true
+    },
+    {
+      "path": "development-logs/2026-09-27-v1/test_delineate_v1.py",
+      "sha256": "53e3f72dd0fd70aa43c3675926e50e8999a92dc0a2a8a4cf8e2b521a2115e431",
+      "manifest_matches": true
+    },
+    {
+      "path": "development-logs/2026-09-27-v1/results/lv1-seed0-K-replay.json",
+      "sha256": "6471f3b6a321413968211db2f34b8052955d4137d606a8f41dd19711e833f327",
+      "manifest_matches": true
+    },
+    {
+      "path": "development-logs/2026-09-27-v1/results/lv1-seed0-Y-replay.json",
+      "sha256": "c3a61477ffed4a2effcbc8fc9f05ce893ab741ea0b1fd48d5c174278e472be31",
+      "manifest_matches": true
+    },
+    {
+      "path": "development-logs/2026-09-27-v1/results/lv1-seed1-K-replay.json",
+      "sha256": "c122943ceea521e795b8a783be43e6227a2f9c3eefe90f0585638cde40559e82",
+      "manifest_matches": true
+    },
+    {
+      "path": "development-logs/2026-09-27-v1/results/lv1-seed1-Y-replay.json",
+      "sha256": "445a2c7b8c93cee3bff8903cff9427b1f7675a6939680c088cc8a4aac4d1189d",
+      "manifest_matches": true
+    },
+    {
+      "path": "development-logs/2026-09-27-v1/results/lv2-seed0-K-replay.json",
+      "sha256": "2f8b8aa862c19f1f59657404e06cc9588386337745f4c03352223e4517cdff18",
+      "manifest_matches": true
+    },
+    {
+      "path": "development-logs/2026-09-27-v1/results/lv2-seed0-Y-replay.json",
+      "sha256": "9cef081b77c92a9e47afdaf1e32a3b5dc6acc8630cdf926260545749ff62878d",
+      "manifest_matches": true
+    },
+    {
+      "path": "development-logs/2026-09-27-v1/results/lv2-seed1-K-replay.json",
+      "sha256": "3cd72ed6f7ff92c1fda52450c7e58111b925a1346d5502ca7bb4f0b54b34814a",
+      "manifest_matches": true
+    },
+    {
+      "path": "development-logs/2026-09-27-v1/results/lv2-seed1-Y-replay.json",
+      "sha256": "7f832584f9fbdedc74ac023550e007319cdf7897fab2fdfd11edca02abdc00a4",
+      "manifest_matches": true
+    },
+    {
+      "path": "development-logs/2026-09-27-v1/results/results.json",
+      "sha256": "97514583a5d71853eb75126e8cd4a586ef5e62d546306092d387214f7299d832",
+      "manifest_matches": false
+    },
+    {
+      "path": "development-logs/2026-09-27-v1/source/_generated.py",
+      "sha256": "8cf113fe574425e1f761911e59fe43394aad147946b07ed4a837e1da6b25fcfc",
+      "manifest_matches": true
+    },
+    {
+      "path": "development-logs/2026-09-27-v1/source/campus_bot.py",
+      "sha256": "2568119d19d9def58dd824b06eac332f018f23c0dee24ba1ccddf3169a151e7b",
+      "manifest_matches": true
+    },
+    {
+      "path": "development-logs/2026-09-27-v1/source/main.py",
+      "sha256": "a114cc5a286ea21cc09ba11a018c65bf38e068c7f79d7a8b5420a05ff936b666",
+      "manifest_matches": true
+    },
+    {
+      "path": "development-logs/2026-09-27-v1/source/protocol.py",
+      "sha256": "67a5d27ced038de39d7cd3b069bf01786bf4cc9e6c1d39269d1f7e67b185c194",
+      "manifest_matches": true
+    },
+    {
+      "path": "development-logs/2026-09-27-v1/source/STRATEGY.md",
+      "sha256": "e82005c7337ed9a0edc605e18f8941ea0a263cc414ceb36b5ec5419ab24ada7c",
+      "manifest_matches": true
+    },
+    {
+      "path": "development-logs/2026-09-27-v1/source/submission.json",
+      "sha256": "ff5431b97ab8dc3d045d053fe1e3148eca20bfe900ec66cd9e7f7f5e542f3de5",
+      "manifest_matches": true
+    }
+  ],
+  "active_vs_archived_source": [
+    {
+      "path": "main.py",
+      "identical": true
+    },
+    {
+      "path": "campus_bot.py",
+      "identical": true
+    },
+    {
+      "path": "protocol.py",
+      "identical": true
+    },
+    {
+      "path": "_generated.py",
+      "identical": true
+    },
+    {
+      "path": "STRATEGY.md",
+      "identical": true
+    },
+    {
+      "path": "submission.json",
+      "identical": true
+    }
+  ],
+  "result_sets_identical": true,
+  "zip_copies_identical": true,
+  "manifest_mismatch_explanation": {
+    "file": "development-logs/2026-09-27-v1/results/results.json",
+    "git_blob_bytes": 2446,
+    "git_blob_sha256": "97514583a5d71853eb75126e8cd4a586ef5e62d546306092d387214f7299d832",
+    "sha256_after_lf_to_crlf": "933f0fdd0997560c9b2942b19c5fd427b7bd110078718127bdfabc5df9c306f2",
+    "note": "The archived manifest hash is reproduced exactly by LF to CRLF normalization; this is a line-ending discrepancy, not changed result values."
+  }
+}
