@@ -1,0 +1,21 @@
+--- guard3/main.cpp
++++ guard4/main.cpp
+@@ -984,6 +984,7 @@
+     }
+     stable_sort(defenses.begin(),defenses.end(),[](auto a,auto b){return a.deadline<b.deadline;});
+     vector<Movement> reserved;
++    constexpr int defense_limit=2;
+     int assignments=0;
+     auto safe_step=[&](int src,int target) {
+         if(src==target) return danger[src]? -1:src;
+@@ -1020,7 +1021,9 @@
+         return true;
+     };
+     for(auto defense:defenses) {
+-        if(assignments>=2) break;
++        if(assignments>=defense_limit) break;
++        // Even two later reservations leave one of these arriving warriors.
++        if(seed_warriors[defense.target]>defense_limit && !danger[defense.target]) continue;
+         int source=-1,dest=-1,best=INF;
+         for(int c=0;c<N;++c) if(stock[c]>locked[c] && board.dist[c][defense.target]<=defense.deadline) {
+             int step=safe_step(c,defense.target);
