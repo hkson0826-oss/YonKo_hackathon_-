@@ -116,6 +116,7 @@ Action v9_plan(const State& s,int us,Action base) {
         buy(W,site,budget/cost(s,us,W));
     }
     vector<Movement> reserved;
+    vector<int> reserved_targets;
     bool tele_used=false;
     bool tele_booked[161]{};
     using Route=V9Travel;
@@ -136,7 +137,10 @@ Action v9_plan(const State& s,int us,Action base) {
         book_route(r,n);
         used[kind][c]+=n;
         if(n) v9_report_note({kind,c,r.to,n,r.tele},reason,target,need,eta);
-        if(c!=r.to && n) reserved.push_back({kind,c,r.to,n,r.tele});
+        if(c!=r.to && n) {
+            reserved.push_back({kind,c,r.to,n,r.tele});
+            reserved_targets.push_back(target);
+        }
         if(kind==W && n) arrived[r.to]+=n;
         return n;
     };
@@ -172,6 +176,41 @@ Action v9_plan(const State& s,int us,Action base) {
         copy(saved_booked,saved_booked+161,tele_booked);
         if(missing) {
             v9_report_event("defense_skipped_insufficient_arrivals",t.b,t.need,t.eta,t.need-missing);
+            // An incomplete future defence must not release the current garrison
+            // to an unrelated attack. Retain it while it can survive this turn;
+            // if contact would overrun it, explicitly choose a less exposed exit.
+            // Do not commit partial reinforcements to a fight we cannot cover.
+            int garrison=stock[W][p]-used[W][p];
+            if(garrison>0) {
+                auto immediate_enemy=[&](int q) {
+                    int walking=0,remote=0;
+                    for(int c=0;c<N;++c) if(s.u[enemy][W][c]) {
+                        if(board.dist[c][q]<=1) walking+=s.u[enemy][W][c];
+                        else if(enemy_eta(c,q)<=1) remote+=s.u[enemy][W][c];
+                    }
+                    return walking+min(remote,5);
+                };
+                int danger=immediate_enemy(p),dest=p;
+                int exposure=max(0,danger+1-garrison-arrived[p]);
+                if(exposure>0) {
+                    int best_distance=INF;
+                    for(int q:board.adj[p]) {
+                        // Count only committed arrivals, not neighbours that the
+                        // ordinary planner may move away later in this same turn.
+                        int risk=max(0,immediate_enemy(q)+1-garrison-arrived[q]);
+                        int d=INF;
+                        for(int b=0;b<board.nb;++b) if(b!=t.b && s.owner[b]==us)
+                            d=min(d,v9_distance(s,us,q,board.pos[b]));
+                        if(risk<exposure || (dest!=p && risk==exposure && d<best_distance)) {
+                            dest=q;exposure=risk;best_distance=d;
+                        }
+                    }
+                }
+                const char* reason=dest!=p?"defense_garrison_retreat":
+                    exposure==0?"defense_garrison_retained":"defense_garrison_no_safer_exit";
+                send(W,p,Route{dest==p?0:1,dest,false},garrison,reason,t.b,t.need,t.eta);
+                v9_report_event(reason,t.b,t.need,t.eta,garrison);
+            }
             continue;
         }
         v9_report_event("defense_committed",t.b,t.need,t.eta,t.need);
@@ -304,7 +343,52 @@ Action v9_plan(const State& s,int us,Action base) {
             auto r=route(c,p,n);
             send(W,c,r,n,lock?"remaining_defense_distribution":"remaining_attack_support",target,-1,r.eta);
         }
-        a.moves=reserved;
+        // Endpoint escort ETA is not route safety: a flag can die on this turn's
+        // intermediate cell while its promised escort walks elsewhere. Check the
+        // completed W orders, including departures, before launching offensive F.
+        // Only observed armies are used; remote station arrivals share five slots.
+        if(!lock) {
+            int next_w[N],enemy_next[N]{};
+            copy(stock[W],stock[W]+N,next_w);
+            for(auto m:reserved) if(m.kind==W) {
+                next_w[m.from]-=m.count;next_w[m.to]+=m.count;
+            }
+            for(int p=0;p<N;++p) if(board.pass[p]) {
+                int remote=0;
+                for(int c=0;c<N;++c) if(s.u[enemy][W][c]) {
+                    if(board.dist[c][p]<=1) enemy_next[p]+=s.u[enemy][W][c];
+                    else if(enemy_eta(c,p)<=1) remote+=s.u[enemy][W][c];
+                }
+                enemy_next[p]+=min(remote,5);
+            }
+            vector<Movement> checked;
+            for(int i=0;i<int(reserved.size());++i) {
+                auto m=reserved[i];int b=reserved_targets[i];
+                if(m.kind==F && b>=0 && next_w[m.to]<enemy_next[m.to]) {
+                    int goal=board.pos[b],best=m.to;
+                    int deficit=max(0,enemy_next[best]-next_w[best]);
+                    int distance=v9_distance(s,us,best,goal);
+                    vector<int> options=board.adj[m.from];options.push_back(m.from);
+                    for(int q:options) {
+                        int d=v9_distance(s,us,q,goal);
+                        // A detour must still leave time to affect the final score.
+                        if(1+d>left) continue;
+                        int risk=max(0,enemy_next[q]-next_w[q]);
+                        if(risk<deficit || (risk==deficit && d<distance)) {
+                            best=q;deficit=risk;distance=d;
+                        }
+                    }
+                    if(best!=m.to) {
+                        m.to=best;m.tele=false;
+                        const char* reason=best==m.from?"offensive_step_wait":
+                            deficit==0?"offensive_step_safe_detour":"offensive_step_minimum_risk_escape";
+                        v9_report_note(m,reason,b,enemy_next[best],1+distance);
+                    }
+                }
+                if(m.from!=m.to) checked.push_back(m);
+            }
+            a.moves=move(checked);
+        } else a.moves=reserved;
     } else {
         // Override only reserved early economic defense, preserving other v8 orders.
         int available[2][N];
