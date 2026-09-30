@@ -1,0 +1,122 @@
+{
+  "checked_at": "2026-10-01T02:00:00+09:00",
+  "checked_until": "2026-10-01T02:52:00+09:00",
+  "method": "Authenticated Chrome, all 11 announcements and expanded rules/development/operating sections; no credential export",
+  "sources": [
+    "https://yonsei-vs-korea-hackathon.kr/announcements",
+    "https://yonsei-vs-korea-hackathon.kr/rules",
+    "https://yonsei-vs-korea-hackathon.kr/dashboard",
+    "https://yonsei-vs-korea-hackathon.kr/leaderboard"
+  ],
+  "announcements": [
+    {
+      "published": "2026-10-01 00:24:44",
+      "finding": "10/1 03:00–04:00 KST intermittent service for maintenance after 9/30 problems."
+    },
+    {
+      "published": "2026-09-30 23:05",
+      "finding": "Leaderboard delayed, planned before midnight."
+    },
+    {
+      "published": "2026-09-30 21:38",
+      "finding": "Submission selection issues: inquire with pre-21 pending build logs by22:15, now past."
+    },
+    {
+      "published": "2026-09-30 20:36",
+      "finding": "9/30 selection cutoff extended20→21; result23."
+    },
+    {
+      "published": "2026-09-30 20:26",
+      "finding": "9/30 cutoff extension20→21."
+    },
+    {
+      "published": "2026-09-29 09:33",
+      "finding": "Final70% leaderboard+20%report+10%presentation; wholepoolSwiss then top12 onegame roundrobin. Wins1/draw.5/loss0, point rate then win rate then opponent weighted point sum/games; boundary12 ties playoff. Final upload10/1 23:00, selection23:59, result10/2 08:00."
+    },
+    {
+      "published": "2026-09-29 08:10",
+      "finding": "9/29–10/1 cross-school and same-school games; input side remains registered side."
+    },
+    {
+      "published": "2026-09-28 17:08",
+      "finding": "Participants responsible for checking announcements."
+    },
+    {
+      "published": "2026-09-28 14:30:18",
+      "finding": "FAQ clarifies restriction applies to ZIP contents/runtime, not how values are obtained. Values may be embedded as source/header constants/arrays, no separate count/size limit within execution limits. Separate data/weights/executable files and runtime external file/network access prohibited."
+    },
+    {
+      "published": "2026-09-28 00:41",
+      "finding": "Code exchange between different participating teams and external multi-participant-team agent arena prohibited. Own same-team internal candidates and official replay observations are scope here."
+    },
+    {
+      "published": "2026-09-27 23:59",
+      "finding": "Interim leaderboard reference only; uneven game counts being addressed."
+    }
+  ],
+  "deadlines_kst": {
+    "last_interim_reflection": "2026-10-01 15:00",
+    "last_interim_result": "2026-10-01 17:00",
+    "final_upload": "2026-10-01 23:00",
+    "final_selection_and_report": "2026-10-01 23:59",
+    "final_result": "2026-10-02 08:00"
+  },
+  "limits": {
+    "turn_ms": 300,
+    "first_turn_ms": 3000,
+    "whole_match_infrastructure_seconds": 180,
+    "memory_MiB": 384,
+    "processes": 32,
+    "stdout_KiB_per_turn": 64,
+    "stdout_lines_per_turn": 4096,
+    "stdout_bytes_per_line": 1024,
+    "stderr_MiB_per_game": 1,
+    "zip_MiB": 5,
+    "extracted_MiB": 20,
+    "zip_files": 200,
+    "cpp": "C++20 GCC12.2.0",
+    "python": "3.12.14 NumPy2.3.3"
+  },
+  "dashboard": {
+    "selected_filename": "submission-20260929-guard3.zip",
+    "version": 8,
+    "uploaded": "2026-09-30 01:19",
+    "usable": true,
+    "rank": 33,
+    "points": 7,
+    "games": 12,
+    "published": "2026-10-01 00:09",
+    "match_round_label": "10/1 00:30 leaderboard",
+    "labels_note": "UI publication time and match label differ; preserved separately. Server ZIP hash not newly downloaded."
+  },
+  "interpretation_changes": [
+    "Old blanket prohibition on learned constants is superseded by explicit FAQ. Rulebased scheduler is engineering choice, not legally required by a weight ban.",
+    "Upload and selection are separate. Pending may be selected with warning; failed selected build has no automatic fallback.",
+    "Scouts reveal hidden points, not enemy troop positions; both teams units/resources are already public."
+  ],
+  "report_requirements": {
+    "template": "/downloads/report-template-20260927.docx",
+    "llm_log": "Record model, prompt and purpose; form link visible, not submitted in this task."
+  },
+  "coverage_limits": [
+    "Latest 12 match identities read; only Coral raw JSON saved. Subsequent Chrome file downloads did not arrive; multiple-download permission is a hypothesis, user inquiry pending. No authentication bypass/cookie export.",
+    "UI checkpoints for other four losses and two wins; no claim of full-turn analysis for those games.",
+    "No current participant source code acquired. Public search did not establish recent participant strategy writeups.",
+    "Initial selected v8 was observed early in the research. A later read found externally selected serverv9 v9_2.zip. No upload or selection change was performed by this task."
+  ],
+  "announcement_rechecked_at": "2026-10-01T03:25:26.152384+09:00",
+  "announcement_recheck": "All 11 announcements unchanged; newest maintenance notice 10/1 00:24:44. Authenticated Chrome DOM read.",
+  "dashboard_recheck": {
+    "checked_at": "2026-10-01T03:47:24.366086+09:00",
+    "selected_version": 9,
+    "selected_filename": "v9_2.zip",
+    "uploaded_kst": "2026-10-01 03:25",
+    "usable": true,
+    "rank": 33,
+    "points": 7,
+    "games": 12,
+    "results_published": "2026-10-01 00:09",
+    "action": "Read-only authenticated Chrome. Upload/selection changed externally during this research; assistant performed no upload or selection mutation. Preserve current selection.",
+    "provenance_limit": "Server ZIP has not been downloaded/hashed; same filename does not prove equality with Git main v9_2 source."
+  }
+}

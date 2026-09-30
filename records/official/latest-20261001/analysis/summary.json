@@ -1,0 +1,922 @@
+{
+  "metadata": {
+    "created_at_utc": "2026-09-30T17:52:42.869216+00:00",
+    "raw_scope": "/tmp/yk-new-bot-20261001/records/official/latest-20261001/raw",
+    "complete_expected_set": false,
+    "expected_games": 12,
+    "analyzed_games": 1,
+    "missing_collector_game_ids": [
+      "rolling-game-10df106303acd2c6934fc025bd072eca2983adc72eb17e2bae362affbf9b02be",
+      "rolling-game-338deb88dbe3cae97f1b21adb22a5ed13b9a8f985972fc586bd3a69ea16bf390",
+      "rolling-game-50e7d1728d49c2148db752ce876687be4decc69356541dc2c23155eff9163687",
+      "rolling-game-78bee81572ee4bca067398c24c2cf92af2e07cccf6eed23580e5e9e1b8c7894c",
+      "rolling-game-8b8ad8f55cb3085f0834c475ad27afbe4eb6002d1df682b830449077f4552c4f",
+      "rolling-game-ab518851823fd094d3efa67ab4a8d8b9cf97b8d23e0b520d3fded631a4e499b6",
+      "rolling-game-b68cd686cdd239b15422c469466fc367f3a45196a45214dcb17920c7bed11bc4",
+      "rolling-game-da2cd8628e8a73907056ec6791d15093d36498bc6be6c6661caa0d0fc7fad041",
+      "rolling-game-e3f629ecfd532c76d8d52112844927d5dbdb10f7bb480ce4bb8989a3f812275b",
+      "rolling-game-ece792fd174391f3b326dab047448a8547f8257adcfd2842f607de8fbe33eee5",
+      "rolling-game-fa3bfb5fb15e1a24559a7135a67ae8081ca687df9450eaf01f6c94ca29bc34be"
+    ],
+    "outcomes": {
+      "loss": 1
+    },
+    "own_spawn_move_transitions_checked": 98,
+    "dependency_hashes": {
+      "/tmp/yk-new-bot-20261001/records/official/latest-20261001/analysis/analyze_latest.py": "f2f8d678f828d659dc3c7c7fafb956df133a2cfaffe4256ade0f1d0bf6414148",
+      "/tmp/yk-new-bot-20261001/experiments/analyze_official_round1.py": "398d3175ad159bcc4f6f66c52736769146a61dc7aab15c292c69465e141c8d91",
+      "/tmp/yk-new-bot-20261001/yk-development-tools/engine/pipeline.py": "f0bd96c484c8628b6a070b188adcc1a077e9f90017cc15f11ce366d974490fa6",
+      "/tmp/yk-new-bot-20261001/yk-development-tools/engine/state.py": "dd227e26bcb36a5c412bbf7db19f4418a59627e8ea7e55a90dac5184dcc0737f",
+      "/tmp/yk-new-bot-20261001/yk-development-tools/config/balance.json": "a46886d91862244b6daf4990dcdf2371302433e7120c21dc2a29ecf95696b35f",
+      "/tmp/yk-new-bot-20261001/yk-development-tools/runner/protocol.py": "5917df4bec20b963586b1ffeb7a45b9959f51e3437a227ee7e8d932b172a7d65"
+    },
+    "schema": "Official participant-view schemaVersion 2. Our command, public units and ownership; no opponent orders. Retrospective scores inferred only for analysis, never injected into bot observations.",
+    "limits": [
+      "Only own spawn/move stages checked with official SDK; no full-game opponent-order reproduction.",
+      "Enemy W production follows exact equal W combat losses; enemy F production is not reconstructed.",
+      "No causal victory counterfactual from replay observations.",
+      "Current site code version and opponent names require separate collector identity records."
+    ],
+    "identity_source": "records/official/latest-20261001/matches.json",
+    "identity_sha256": "eda98b28e40830304befa8e9773f9fb437acc61a6076f19ec0a27312621f2018"
+  },
+  "matches": [
+    {
+      "source": "records/official/latest-20261001/raw/rolling-game-f8600dcbb568c94c1bf2715e2bae9e00fd16abc8333520f22a5fd05a1c25362c.json",
+      "sha256": "630113f4d9a2632f9857ccf2d30942933229746e355cd09d68a4b19eac00254d",
+      "evaluationId": "01a0f219-a1b3-747d-96f3-09067028426b",
+      "gameId": "rolling-game-f8600dcbb568c94c1bf2715e2bae9e00fd16abc8333520f22a5fd05a1c25362c",
+      "seriesId": "rolling-199620a2b8922ab38a29cb3607f894cc53340ca6ad0b925891fdcac04ad3ef92",
+      "teamId": "csv-bf2ad497-1140-4dda-be0e-ec18cd9dfcfb",
+      "side": "Y",
+      "rulesetVersion": "platform-rules-88a77d888a15",
+      "protocolVersion": "platform-protocol-88a77d888a15",
+      "schemaVersion": 2,
+      "result": {
+        "reason": "instant",
+        "winner": "K"
+      },
+      "turn_count": 98,
+      "our_result": "loss",
+      "final_observed_scores": {
+        "K": null,
+        "Y": 0
+      },
+      "final_scores_reconstructed": {
+        "Y": 0,
+        "K": 35,
+        "N": 2
+      },
+      "final_occupation_reconstructed": {
+        "Y": 945,
+        "K": 2305
+      },
+      "final_units": {
+        "Y": {
+          "F": 3,
+          "W": 4,
+          "S": 0
+        },
+        "K": {
+          "F": 4,
+          "W": 99,
+          "S": 0
+        }
+      },
+      "first_turn_with_all_building_scores_legally_inferable": 13,
+      "last_turn_our_score_strictly_led": 22,
+      "response_ms": {
+        "max": 254,
+        "mean": 195.85714285714286,
+        "p95_nearest_rank": 205,
+        "at_least_160ms_count": 98
+      },
+      "command_status_counts": {
+        "ok": 98
+      },
+      "our_production": {
+        "F": 37,
+        "W": 465,
+        "S": 0
+      },
+      "our_casualties": {
+        "F": 34,
+        "W": 461,
+        "S": 0
+      },
+      "our_production_resource_spend": 1135,
+      "enemy_w_production_inferred_from_equal_w_losses": 560,
+      "economy": {
+        "Y": {
+          "turns_with_eng_at_production": 85,
+          "turns_with_hospital_at_production": 93,
+          "hall_count_sum_at_turn_start": 92
+        },
+        "K": {
+          "turns_with_eng_at_production": 94,
+          "turns_with_hospital_at_production": 96,
+          "hall_count_sum_at_turn_start": 98
+        }
+      },
+      "own_spawn_move_transitions_checked": 98,
+      "submission_link": {
+        "status": "not_present_in_replay",
+        "zip_hash": null
+      },
+      "opponent_identity": null,
+      "site_identity": {
+        "opponent": "붉은 산호초",
+        "gameId": "rolling-game-f8600dcbb568c94c1bf2715e2bae9e00fd16abc8333520f22a5fd05a1c25362c",
+        "outcome": "loss",
+        "submission": 8,
+        "side": "Y",
+        "source_url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-f8600dcbb568c94c1bf2715e2bae9e00fd16abc8333520f22a5fd05a1c25362c",
+        "published_round_label": "10월 1일 00:30 리더보드"
+      },
+      "opponent_name": "붉은 산호초",
+      "first_response_ms": 254,
+      "normal_response_ms": {
+        "count": 97,
+        "max": 207,
+        "median": 196,
+        "p95": 205,
+        "over_300ms": 0
+      },
+      "economic_ownership_intervals": [
+        {
+          "id": 1,
+          "owner": "N",
+          "stage": 0,
+          "type": "HALL",
+          "x": 2,
+          "y": 8,
+          "intervals": {
+            "Y": [
+              [
+                2,
+                90
+              ],
+              [
+                95,
+                97
+              ]
+            ],
+            "K": [
+              [
+                92,
+                93
+              ]
+            ],
+            "N": [
+              [
+                0,
+                1
+              ],
+              [
+                91,
+                91
+              ],
+              [
+                94,
+                94
+              ],
+              [
+                98,
+                98
+              ]
+            ]
+          }
+        },
+        {
+          "id": 2,
+          "owner": "N",
+          "stage": 0,
+          "type": "HALL",
+          "x": 12,
+          "y": 6,
+          "intervals": {
+            "Y": [],
+            "K": [
+              [
+                2,
+                98
+              ]
+            ],
+            "N": [
+              [
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "id": 5,
+          "owner": "N",
+          "stage": 0,
+          "type": "ENG",
+          "x": 1,
+          "y": 11,
+          "intervals": {
+            "Y": [
+              [
+                4,
+                88
+              ]
+            ],
+            "K": [
+              [
+                92,
+                98
+              ]
+            ],
+            "N": [
+              [
+                0,
+                3
+              ],
+              [
+                89,
+                91
+              ]
+            ]
+          }
+        },
+        {
+          "id": 6,
+          "owner": "N",
+          "stage": 0,
+          "type": "ENG",
+          "x": 13,
+          "y": 3,
+          "intervals": {
+            "Y": [],
+            "K": [
+              [
+                4,
+                98
+              ]
+            ],
+            "N": [
+              [
+                0,
+                3
+              ]
+            ]
+          }
+        },
+        {
+          "id": 7,
+          "owner": "N",
+          "stage": 0,
+          "type": "HOSPITAL",
+          "x": 1,
+          "y": 9,
+          "intervals": {
+            "Y": [
+              [
+                2,
+                94
+              ]
+            ],
+            "K": [
+              [
+                96,
+                98
+              ]
+            ],
+            "N": [
+              [
+                0,
+                1
+              ],
+              [
+                95,
+                95
+              ]
+            ]
+          }
+        },
+        {
+          "id": 8,
+          "owner": "N",
+          "stage": 0,
+          "type": "HOSPITAL",
+          "x": 13,
+          "y": 5,
+          "intervals": {
+            "Y": [],
+            "K": [
+              [
+                2,
+                98
+              ]
+            ],
+            "N": [
+              [
+                0,
+                1
+              ]
+            ]
+          }
+        }
+      ],
+      "economic_first_capture": {
+        "Y": {
+          "ENG": 4,
+          "HALL": 2,
+          "HOSPITAL": 2
+        },
+        "K": {
+          "ENG": 4,
+          "HALL": 2,
+          "HOSPITAL": 2
+        }
+      },
+      "phases": [
+        {
+          "start": 1,
+          "end": 20,
+          "own_production": {
+            "F": 7,
+            "W": 99,
+            "S": 0
+          },
+          "own_casualties": {
+            "F": 0,
+            "W": 35,
+            "S": 0
+          },
+          "enemy_w_produced": 103,
+          "end_scores": {
+            "Y": 17,
+            "K": 17,
+            "N": 3
+          },
+          "end_units": {
+            "Y": {
+              "F": 7,
+              "W": 64,
+              "S": 0
+            },
+            "K": {
+              "F": 5,
+              "W": 68,
+              "S": 0
+            }
+          }
+        },
+        {
+          "start": 21,
+          "end": 40,
+          "own_production": {
+            "F": 5,
+            "W": 105,
+            "S": 0
+          },
+          "own_casualties": {
+            "F": 6,
+            "W": 101,
+            "S": 0
+          },
+          "enemy_w_produced": 123,
+          "end_scores": {
+            "Y": 15,
+            "K": 20,
+            "N": 2
+          },
+          "end_units": {
+            "Y": {
+              "F": 6,
+              "W": 68,
+              "S": 0
+            },
+            "K": {
+              "F": 5,
+              "W": 90,
+              "S": 0
+            }
+          }
+        },
+        {
+          "start": 41,
+          "end": 80,
+          "own_production": {
+            "F": 14,
+            "W": 197,
+            "S": 0
+          },
+          "own_casualties": {
+            "F": 14,
+            "W": 226,
+            "S": 0
+          },
+          "enemy_w_produced": 230,
+          "end_scores": {
+            "Y": 5,
+            "K": 31,
+            "N": 1
+          },
+          "end_units": {
+            "Y": {
+              "F": 6,
+              "W": 39,
+              "S": 0
+            },
+            "K": {
+              "F": 4,
+              "W": 94,
+              "S": 0
+            }
+          }
+        },
+        {
+          "start": 81,
+          "end": 98,
+          "own_production": {
+            "F": 11,
+            "W": 64,
+            "S": 0
+          },
+          "own_casualties": {
+            "F": 14,
+            "W": 99,
+            "S": 0
+          },
+          "enemy_w_produced": 104,
+          "end_scores": {
+            "Y": 0,
+            "K": 35,
+            "N": 2
+          },
+          "end_units": {
+            "Y": {
+              "F": 3,
+              "W": 4,
+              "S": 0
+            },
+            "K": {
+              "F": 4,
+              "W": 99,
+              "S": 0
+            }
+          }
+        }
+      ],
+      "checkpoints": [
+        {
+          "turn": 5,
+          "retrospective_scores": {
+            "Y": 6,
+            "K": 6,
+            "N": 25
+          },
+          "units": {
+            "Y": {
+              "F": 6,
+              "W": 8,
+              "S": 0
+            },
+            "K": {
+              "F": 5,
+              "W": 9,
+              "S": 0
+            }
+          },
+          "building_counts": {
+            "Y": {
+              "HALL": 1,
+              "LIBRARY": 1,
+              "ENG": 1,
+              "HOSPITAL": 1
+            },
+            "K": {
+              "HALL": 1,
+              "LIBRARY": 1,
+              "ENG": 1,
+              "HOSPITAL": 1
+            }
+          }
+        },
+        {
+          "turn": 10,
+          "retrospective_scores": {
+            "Y": 15,
+            "K": 12,
+            "N": 10
+          },
+          "units": {
+            "Y": {
+              "F": 6,
+              "W": 42,
+              "S": 0
+            },
+            "K": {
+              "F": 5,
+              "W": 38,
+              "S": 0
+            }
+          },
+          "building_counts": {
+            "Y": {
+              "PLAZA": 1,
+              "HALL": 1,
+              "LIBRARY": 1,
+              "ENG": 1,
+              "HOSPITAL": 1,
+              "STATION": 1,
+              "DEPOT": 1
+            },
+            "K": {
+              "HALL": 1,
+              "LIBRARY": 1,
+              "ENG": 1,
+              "HOSPITAL": 1,
+              "STATION": 1,
+              "DEPOT": 1
+            }
+          }
+        },
+        {
+          "turn": 15,
+          "retrospective_scores": {
+            "Y": 17,
+            "K": 17,
+            "N": 3
+          },
+          "units": {
+            "Y": {
+              "F": 6,
+              "W": 57,
+              "S": 0
+            },
+            "K": {
+              "F": 5,
+              "W": 60,
+              "S": 0
+            }
+          },
+          "building_counts": {
+            "Y": {
+              "PLAZA": 1,
+              "HALL": 1,
+              "LIBRARY": 1,
+              "ENG": 1,
+              "HOSPITAL": 1,
+              "STATION": 2,
+              "DEPOT": 1
+            },
+            "K": {
+              "HALL": 1,
+              "LIBRARY": 1,
+              "ENG": 1,
+              "HOSPITAL": 1,
+              "STATION": 2,
+              "WATCH": 1,
+              "DEPOT": 1
+            }
+          }
+        },
+        {
+          "turn": 20,
+          "retrospective_scores": {
+            "Y": 17,
+            "K": 17,
+            "N": 3
+          },
+          "units": {
+            "Y": {
+              "F": 7,
+              "W": 64,
+              "S": 0
+            },
+            "K": {
+              "F": 5,
+              "W": 68,
+              "S": 0
+            }
+          },
+          "building_counts": {
+            "Y": {
+              "PLAZA": 1,
+              "HALL": 1,
+              "LIBRARY": 1,
+              "ENG": 1,
+              "HOSPITAL": 1,
+              "STATION": 2,
+              "DEPOT": 1
+            },
+            "K": {
+              "HALL": 1,
+              "LIBRARY": 1,
+              "ENG": 1,
+              "HOSPITAL": 1,
+              "STATION": 2,
+              "WATCH": 1,
+              "DEPOT": 1
+            }
+          }
+        },
+        {
+          "turn": 30,
+          "retrospective_scores": {
+            "Y": 16,
+            "K": 17,
+            "N": 4
+          },
+          "units": {
+            "Y": {
+              "F": 5,
+              "W": 64,
+              "S": 0
+            },
+            "K": {
+              "F": 5,
+              "W": 84,
+              "S": 0
+            }
+          },
+          "building_counts": {
+            "Y": {
+              "PLAZA": 1,
+              "HALL": 1,
+              "LIBRARY": 1,
+              "ENG": 1,
+              "HOSPITAL": 1,
+              "STATION": 2,
+              "WATCH": 1
+            },
+            "K": {
+              "HALL": 1,
+              "LIBRARY": 1,
+              "ENG": 1,
+              "HOSPITAL": 1,
+              "STATION": 2,
+              "WATCH": 1,
+              "DEPOT": 1
+            }
+          }
+        },
+        {
+          "turn": 40,
+          "retrospective_scores": {
+            "Y": 15,
+            "K": 20,
+            "N": 2
+          },
+          "units": {
+            "Y": {
+              "F": 6,
+              "W": 68,
+              "S": 0
+            },
+            "K": {
+              "F": 5,
+              "W": 90,
+              "S": 0
+            }
+          },
+          "building_counts": {
+            "Y": {
+              "HALL": 1,
+              "LIBRARY": 1,
+              "ENG": 1,
+              "HOSPITAL": 1,
+              "STATION": 1,
+              "WATCH": 1,
+              "DEPOT": 1
+            },
+            "K": {
+              "PLAZA": 1,
+              "HALL": 1,
+              "LIBRARY": 1,
+              "ENG": 1,
+              "HOSPITAL": 1,
+              "STATION": 2,
+              "WATCH": 1,
+              "DEPOT": 1
+            }
+          }
+        },
+        {
+          "turn": 60,
+          "retrospective_scores": {
+            "Y": 6,
+            "K": 31,
+            "N": 0
+          },
+          "units": {
+            "Y": {
+              "F": 7,
+              "W": 48,
+              "S": 0
+            },
+            "K": {
+              "F": 5,
+              "W": 81,
+              "S": 0
+            }
+          },
+          "building_counts": {
+            "Y": {
+              "HALL": 1,
+              "LIBRARY": 1,
+              "ENG": 1,
+              "HOSPITAL": 1
+            },
+            "K": {
+              "PLAZA": 1,
+              "HALL": 1,
+              "LIBRARY": 1,
+              "ENG": 1,
+              "HOSPITAL": 1,
+              "STATION": 4,
+              "WATCH": 2,
+              "DEPOT": 2
+            }
+          }
+        },
+        {
+          "turn": 80,
+          "retrospective_scores": {
+            "Y": 5,
+            "K": 31,
+            "N": 1
+          },
+          "units": {
+            "Y": {
+              "F": 6,
+              "W": 39,
+              "S": 0
+            },
+            "K": {
+              "F": 4,
+              "W": 94,
+              "S": 0
+            }
+          },
+          "building_counts": {
+            "Y": {
+              "HALL": 1,
+              "ENG": 1,
+              "HOSPITAL": 1
+            },
+            "K": {
+              "PLAZA": 1,
+              "HALL": 1,
+              "LIBRARY": 1,
+              "ENG": 1,
+              "HOSPITAL": 1,
+              "STATION": 4,
+              "WATCH": 2,
+              "DEPOT": 2
+            }
+          }
+        },
+        {
+          "turn": 98,
+          "retrospective_scores": {
+            "Y": 0,
+            "K": 35,
+            "N": 2
+          },
+          "units": {
+            "Y": {
+              "F": 3,
+              "W": 4,
+              "S": 0
+            },
+            "K": {
+              "F": 4,
+              "W": 99,
+              "S": 0
+            }
+          },
+          "building_counts": {
+            "Y": {},
+            "K": {
+              "PLAZA": 1,
+              "HALL": 1,
+              "LIBRARY": 2,
+              "ENG": 2,
+              "HOSPITAL": 2,
+              "STATION": 4,
+              "WATCH": 2,
+              "DEPOT": 2
+            }
+          }
+        }
+      ],
+      "first_enemy_flag_in_home": {
+        "turn": 26,
+        "units": [
+          [
+            "K",
+            "F",
+            4,
+            11,
+            1
+          ],
+          [
+            "K",
+            "F",
+            4,
+            12,
+            1
+          ]
+        ]
+      },
+      "enemy_maximum_observed_f": 5,
+      "own_tele_command_count": 0,
+      "first_economic_loss": {
+        "turn": 89,
+        "id": 5,
+        "type": "ENG",
+        "x": 1,
+        "y": 11,
+        "from": "Y",
+        "to": "N",
+        "score_retrospective": 1,
+        "first_recovery": null,
+        "own_casualties_on_cell": [
+          {
+            "kind": "F",
+            "x": 1,
+            "y": 11,
+            "count": 1
+          },
+          {
+            "kind": "W",
+            "x": 1,
+            "y": 11,
+            "count": 7
+          }
+        ],
+        "post_cell_units": [
+          [
+            "K",
+            "W",
+            1,
+            11,
+            4
+          ]
+        ],
+        "scores": {
+          "Y": 4,
+          "K": 28,
+          "N": 5
+        }
+      },
+      "home_intrusion_ownership_event_count": 10,
+      "enemy_hold_counterexample_turns": [
+        {
+          "turn": 29,
+          "own_f_loss_with_actual_own_action_and_enemy_hold": 2,
+          "actual_own_f_loss": 2,
+          "scope": "One-turn legal opponent response: no enemy spawn or move. Combat probe only; not a full-game counterfactual or opponent reconstruction."
+        },
+        {
+          "turn": 46,
+          "own_f_loss_with_actual_own_action_and_enemy_hold": 1,
+          "actual_own_f_loss": 1,
+          "scope": "One-turn legal opponent response: no enemy spawn or move. Combat probe only; not a full-game counterfactual or opponent reconstruction."
+        },
+        {
+          "turn": 52,
+          "own_f_loss_with_actual_own_action_and_enemy_hold": 2,
+          "actual_own_f_loss": 2,
+          "scope": "One-turn legal opponent response: no enemy spawn or move. Combat probe only; not a full-game counterfactual or opponent reconstruction."
+        },
+        {
+          "turn": 69,
+          "own_f_loss_with_actual_own_action_and_enemy_hold": 2,
+          "actual_own_f_loss": 1,
+          "scope": "One-turn legal opponent response: no enemy spawn or move. Combat probe only; not a full-game counterfactual or opponent reconstruction."
+        },
+        {
+          "turn": 73,
+          "own_f_loss_with_actual_own_action_and_enemy_hold": 1,
+          "actual_own_f_loss": 1,
+          "scope": "One-turn legal opponent response: no enemy spawn or move. Combat probe only; not a full-game counterfactual or opponent reconstruction."
+        },
+        {
+          "turn": 88,
+          "own_f_loss_with_actual_own_action_and_enemy_hold": 1,
+          "actual_own_f_loss": 3,
+          "scope": "One-turn legal opponent response: no enemy spawn or move. Combat probe only; not a full-game counterfactual or opponent reconstruction."
+        },
+        {
+          "turn": 95,
+          "own_f_loss_with_actual_own_action_and_enemy_hold": 3,
+          "actual_own_f_loss": 4,
+          "scope": "One-turn legal opponent response: no enemy spawn or move. Combat probe only; not a full-game counterfactual or opponent reconstruction."
+        }
+      ],
+      "late_score_margin": {},
+      "largest_our_score_lead": {
+        "turn": 9,
+        "margin": 7
+      }
+    }
+  ]
+}

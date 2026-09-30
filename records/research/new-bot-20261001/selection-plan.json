@@ -1,0 +1,62 @@
+{
+  "status": "planned_before_any_selection_games",
+  "selection_rule_for_family": "Compare frozen mission3 and mission4 against the same four opponents and v8 on all eight fresh maps. Pick independent family representative by overall common point rate, then registered Y point rate, then mean score margin; exact ties prefer v4 because it fixes a verified legal capture contract. This research-family choice is separate from server promotion.",
+  "rationale": "v3 beat v8 on all8 direct development games and improved common3/24→11/24 but remained behind fixed-opponent baseline. A bounded fresh-map comparison checks whether direct strength generalizes; not a presumption of superiority.",
+  "seeds": [
+    19100,
+    19101,
+    19102,
+    19103,
+    19104,
+    19105,
+    19106,
+    19107
+  ],
+  "stage": "selection",
+  "common": {
+    "candidates": [
+      "mission3",
+      "mission4",
+      "v8"
+    ],
+    "opponents": [
+      "s3_selective_contact",
+      "r3_opponent_league",
+      "j_balanced_portfolio",
+      "team_v9_2"
+    ],
+    "games": 192,
+    "workers": 6
+  },
+  "direct": {
+    "opponent": "v8",
+    "games": 32,
+    "workers": 4,
+    "candidates": [
+      "mission3",
+      "mission4"
+    ]
+  },
+  "teammate_policy_seed": 20261001,
+  "adoption_gate": {
+    "requirements": [
+      "No errors, forfeits, invalid/clipped commands or execution-limit violation.",
+      "Chosen mission point rate at least v8 both overall and registered Y side, with positive difference in at least one.",
+      "No common opponent point-rate regression worse than0.25, direct point rate at least0.5."
+    ],
+    "if_pass": "Run separate final seeds19200–19207 with frozen code and same schedule. Never choose server submission from development or selection alone.",
+    "if_fail": "Stop promotion evaluation, deliver the selected independent research artifact, leave current externally selected serverv9 unchanged, and keep final seeds unused."
+  },
+  "limitations": [
+    "Eight new maps with paired sides are still a small sample; report map-cluster uncertainty and allside/opponent strata.",
+    "Time-budgeted opponent policy can vary despite source and RNG seeds fixed.",
+    "Mapseeds19100–19107 are not used for tuning; failure may guide documented future work but no further code revision in this selection cycle."
+  ],
+  "amendment_before_selection": {
+    "reason": "Completed development is mixed: common v4 12/24 vs v3 10/24; teammate v4 5/8 vs v3 6/8. In all8 teammate pairs the timed opponent diverged before turn29, long before the v4-only last8turn code. Five of8 unchanged-v3 teammate outcomes also differed across repeated arenas. No selection map has been run or inspected. Compare both frozen candidates on new maps to separate family choice from this noisy development ranking.",
+    "prior_plan_commit": "b7daf6af",
+    "source_changes": "none",
+    "total_games": 224
+  },
+  "server_selection_update_during_run": "Authenticated dashboard later showed serverv9 v9_2.zip uploaded and selected externally at10/1 03:25. Local v8 stays the frozen benchmark baseline. This task will not restore v8 or change the current server selection from this comparison."
+}

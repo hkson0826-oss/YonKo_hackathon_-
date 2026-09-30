@@ -1,0 +1,497 @@
+{
+  "repo": "/home/dlwltkd/YonKo_hackathon_-",
+  "head": "0146fdcb9ac95884eae06f6ff4b38b5b3d42ffc9",
+  "scope": "All docs and records/research files inventoried; selected strategy prose and source blocks inspected, not every raw JSON body reread.",
+  "files": [
+    {
+      "path": "docs/01-대회규칙과제출.md",
+      "bytes": 17605,
+      "sha256": "ebade650d8f53f50bd59d53e08ea296685e243f8ec20cf84a47131caf9e0670d"
+    },
+    {
+      "path": "docs/02-Firecrawl조사.md",
+      "bytes": 13226,
+      "sha256": "b5e5802a4fee60af0dfe53a74ecd9be97e33de5e45185a823d4a82591ed93b77"
+    },
+    {
+      "path": "docs/03-알고리즘과약점분석.md",
+      "bytes": 26752,
+      "sha256": "701d95a273f128418a1637173923ecffd3a32109ff7b08dfad66b6f60b33c1ef"
+    },
+    {
+      "path": "docs/04-벤치마크운영.md",
+      "bytes": 7568,
+      "sha256": "7d15d9bdeb7be465f8389b61f0e94476a7ebb25414ce273a5515040f19e53a02"
+    },
+    {
+      "path": "docs/05-팀원봇대전.md",
+      "bytes": 4106,
+      "sha256": "eed8c506f4945b9ae14da907d746126878cad08db5e90ad1b0d4e57928e3a816"
+    },
+    {
+      "path": "docs/06-v2튜닝결과.md",
+      "bytes": 4215,
+      "sha256": "35e431eed67ebf93568ada129b44308dbf082324ad6c9135c930efa2cec6d816"
+    },
+    {
+      "path": "docs/07-공식1차경기분석.md",
+      "bytes": 14526,
+      "sha256": "78a650be6deedb4f036a53b7f8b914b8e133e068fb033f0b7b39fa3d3d88dbbd"
+    },
+    {
+      "path": "docs/08-다양한접근과근거.md",
+      "bytes": 19518,
+      "sha256": "41ad10787de5ef4633e1c10cef0a5b36a213982af9982297d736677736ee9a6b"
+    },
+    {
+      "path": "docs/09-팀원변경검토.md",
+      "bytes": 11649,
+      "sha256": "3fa89326aa7a6db255a1809c5fcde2dfd2a5d1e673de6257b2abaf5b4b2610f4"
+    },
+    {
+      "path": "docs/10-사이트운영과보정점수.md",
+      "bytes": 9363,
+      "sha256": "b0865b9f52094e4646171e85fce90e72254bfd2c72787f28750dbf3375352540"
+    },
+    {
+      "path": "docs/11-GPU실험계획.md",
+      "bytes": 20661,
+      "sha256": "c942ce33256861f3e678e4dc954d6117e9d84c674497ffef6cc14e74ea3c8762"
+    },
+    {
+      "path": "docs/12-후속개발우선순위.md",
+      "bytes": 10990,
+      "sha256": "31df92d66b4dcabef70c81a8a40a219115e6716da6c572304fe798945840c38a"
+    },
+    {
+      "path": "docs/13-GPU자원배분보완.md",
+      "bytes": 11564,
+      "sha256": "fd97213ab6940ab8ebb4ce331765b69408e69da608bfbff2613541f104fd0820"
+    },
+    {
+      "path": "docs/14-CPU와GPU선택근거.md",
+      "bytes": 10339,
+      "sha256": "dea3d4eecaba6c729b44643138b946699241d1f2bff43dc90aaa0d8dcb59ca89"
+    },
+    {
+      "path": "docs/15-CPU와GPU실측결과.md",
+      "bytes": 10805,
+      "sha256": "3ae39ff082856dc06cf58dcc90bcb67006950c490e34277073435044b1aebed9"
+    },
+    {
+      "path": "docs/16-다양한후보리그계획.md",
+      "bytes": 7087,
+      "sha256": "2de37ac8084f4a09fb98c377167c6ad538040161ecb20ea938021924e410ed93"
+    },
+    {
+      "path": "docs/17-다양한후보리그결과.md",
+      "bytes": 9137,
+      "sha256": "62941d98479abfeb700cf7f77ab2c03b2e3a3abc90739cabb87a70a094194833"
+    },
+    {
+      "path": "docs/18-근거기반반복개선.md",
+      "bytes": 9570,
+      "sha256": "7ad72485af15b92c532aa5d236c87777a7670d2bb6efd096811e99d3f47f0a50"
+    },
+    {
+      "path": "docs/19-반복개선검증결과.md",
+      "bytes": 12576,
+      "sha256": "d3b79b3c46215afd05c1ef83056bf46f56612a14cd4295c2e9656dd831ade0fb"
+    },
+    {
+      "path": "docs/20-v3후속반복계획.md",
+      "bytes": 8421,
+      "sha256": "832f42e85bd3c5a5760f611532bfdb89ad8f3872c0c31fe274d49720358e2c4d"
+    },
+    {
+      "path": "docs/21-v3공유요약.md",
+      "bytes": 5127,
+      "sha256": "14d8645f43f99485a09d549fc66ac9699ce3a57804e5006cdcad29d1eccc0353"
+    },
+    {
+      "path": "docs/22-v3후속검증결과.md",
+      "bytes": 10151,
+      "sha256": "a09c60e343fa3e192b3fc337d93de31e81fe9ba3a128fe67accd6e55b4819d71"
+    },
+    {
+      "path": "docs/23-s3독립확인계획.md",
+      "bytes": 4282,
+      "sha256": "766a653beac9ad5043e60852be68113118088ce4fcc6fc2a7af4c7653e9e98f6"
+    },
+    {
+      "path": "docs/24-s3독립검증결과.md",
+      "bytes": 5430,
+      "sha256": "52ba4189185f30a7670623498906429db764ca547b6bec4eff8d2dbfd4a315f9"
+    },
+    {
+      "path": "docs/25-공식2차결과와구조개선.md",
+      "bytes": 8889,
+      "sha256": "54f9ae3ea6b554cb61016752cdae7130b358882745b85132e0c9b93e57de2b55"
+    },
+    {
+      "path": "docs/26-상대정보확장과대응전략.md",
+      "bytes": 9187,
+      "sha256": "6c8d286c85ada652fe626ffad2f51708846e29592b05d28ffba4da3b9667f08c"
+    },
+    {
+      "path": "docs/27-20260929-guard3제출.md",
+      "bytes": 5016,
+      "sha256": "f639bb03e5996a95a3e33c2dc243add1ab44ff45d3ec586b2ade7ac457b1c357"
+    },
+    {
+      "path": "docs/28-20260930재검증.md",
+      "bytes": 4478,
+      "sha256": "1357f15a40408cacaca6b1babafc4507562284821589bdc02c02ac13d4e888c4"
+    },
+    {
+      "path": "docs/29-팀원전략비교와대전.md",
+      "bytes": 13106,
+      "sha256": "8ce2342851e9d69924c4a8903b49612a8cb0cffd9cbb0304f2dbfc8776ac908b"
+    },
+    {
+      "path": "records/research/compute-choice/README.md",
+      "bytes": 848,
+      "sha256": "c48b3e14e3e3ae3417a868299cdf76b774ff91d87ea5a9e70664c31a13db6c83"
+    },
+    {
+      "path": "records/research/compute-choice/raw/irace.json",
+      "bytes": 508,
+      "sha256": "eb912dce0f202bd128ebef66c96c6414af1faeacf04e1aab9604ab20a923d771"
+    },
+    {
+      "path": "records/research/compute-choice/raw/nvidia.json",
+      "bytes": 539,
+      "sha256": "24776ce2a4841f3812a43fe865687bbe15e4406c8be960ebb41fd46dc4219d33"
+    },
+    {
+      "path": "records/research/compute-choice/raw/python.json",
+      "bytes": 507,
+      "sha256": "ca2d77cad8c010e10b5dd4788509c065e205be25511d0bfae57dfdc4d984572e"
+    },
+    {
+      "path": "records/research/compute-choice/raw/smac.json",
+      "bytes": 492,
+      "sha256": "2e73872e37398c52a7b0c59ed3e4f34ebeef20c8155e280b2743f285f5b36398"
+    },
+    {
+      "path": "records/research/compute-choice/sources.json",
+      "bytes": 4214,
+      "sha256": "6595626c36c20e5baf92b221187c9bb835123c067109ca4c2085f608590d4d19"
+    },
+    {
+      "path": "records/research/gpu-allocation/README.md",
+      "bytes": 1426,
+      "sha256": "2d4dd5032aac8fb31ca222fc48d88c59da69836075790ab8d6ef46d00aaef73d"
+    },
+    {
+      "path": "records/research/gpu-allocation/read-asha.json",
+      "bytes": 12162,
+      "sha256": "e6d9b1f131e3e331a78a0623ca6d8e1afc645b5eefcc2f713479cc6eb9321127"
+    },
+    {
+      "path": "records/research/gpu-allocation/read-pbt.json",
+      "bytes": 12315,
+      "sha256": "ea8dc201645906754ecafb262e0d620b686022f35ab06688b6eac418f84aaa0a"
+    },
+    {
+      "path": "records/research/gpu-allocation/read-sample-factory.json",
+      "bytes": 15492,
+      "sha256": "985c1df9e239db30764546b03b97b966a5f38c06a3b6cfce0c60992e9067ba7e"
+    },
+    {
+      "path": "records/research/gpu-allocation/search-allocation.json",
+      "bytes": 6648,
+      "sha256": "ffb98b18ed18c0357547164d2447225c0558a9b624db6cfa4c29f0242c577d54"
+    },
+    {
+      "path": "records/research/gpu-allocation/search-sampling.json",
+      "bytes": 4991,
+      "sha256": "8387235f81e7b7bd7a632b573f7f8fa9989e1e64c1453929e34dbdecc27544e1"
+    },
+    {
+      "path": "records/research/local-league-search/README.md",
+      "bytes": 4154,
+      "sha256": "a00d7be8c0c2a5e545c664c03852d21808a5a5880032e11abd2905d20690306f"
+    },
+    {
+      "path": "records/research/local-league-search/sources.json",
+      "bytes": 2793,
+      "sha256": "c26e0bf9b436f10f076f132c23d0037d5438f5c6ad9a5ab1a153b4ec4ef57cf6"
+    },
+    {
+      "path": "records/research/opponent-intel-20260928/README.md",
+      "bytes": 18127,
+      "sha256": "67749b80048a40dd6b57d32719a1ffa2b710167d1b51c4e1e45024ee81de9638"
+    },
+    {
+      "path": "records/research/opponent-intel-20260928/raw/inspect-arxiv_1310.8613.json",
+      "bytes": 962,
+      "sha256": "e10c535af795593db1895c1822edf85f6fefc5b5d940befa1e4271ab87db9c05"
+    },
+    {
+      "path": "records/research/opponent-intel-20260928/raw/inspect-arxiv_1611.00450.json",
+      "bytes": 924,
+      "sha256": "469e1e1ee774e063aeb944498281dedd29dbe7e2944ab0e9aa45e6b922e9650a"
+    },
+    {
+      "path": "records/research/opponent-intel-20260928/raw/inspect-arxiv_2102.07381.json",
+      "bytes": 1029,
+      "sha256": "acd41ac8f44751e8125800f052a3c180c700ee013c0b7392ea36c763525957e0"
+    },
+    {
+      "path": "records/research/opponent-intel-20260928/raw/inspect-arxiv_2112.12594.json",
+      "bytes": 961,
+      "sha256": "9c2eb867878b45f3348bd9b48aa328f88f7ff676324d81455cdb1bd625eb0454"
+    },
+    {
+      "path": "records/research/opponent-intel-20260928/raw/inspect-arxiv_2201.07700.json",
+      "bytes": 997,
+      "sha256": "948c36807c48a7f87f6dd978d6072ce6d2bac6e191d6c7af9b5c26d8ee5e8917"
+    },
+    {
+      "path": "records/research/opponent-intel-20260928/raw/opponent-research-init-1.json",
+      "bytes": 3325,
+      "sha256": "3fb5e06e1f0d5406ed82fcd0e9a1086cf2ec89abf6bdad3469f10bff2db11dc5"
+    },
+    {
+      "path": "records/research/opponent-intel-20260928/raw/opponent-research-init-2.json",
+      "bytes": 3027,
+      "sha256": "f0b8751ea5d5a7334855a37a3c5479abea332d73a27c99b51c674a390ccdcb24"
+    },
+    {
+      "path": "records/research/opponent-intel-20260928/raw/opponent-research-second-1.json",
+      "bytes": 2988,
+      "sha256": "e49ce4b42eba5425558794f2610948860cd6ca561df614fa37da22d40a5ff2e7"
+    },
+    {
+      "path": "records/research/opponent-intel-20260928/raw/opponent-research-second-2.json",
+      "bytes": 3117,
+      "sha256": "c2d0dccfddf3bc062837ee9ec1ea666ecdf8f43d17ce6097bac260eaaac2ec9f"
+    },
+    {
+      "path": "records/research/opponent-intel-20260928/raw/opponent-research-second-3.json",
+      "bytes": 3191,
+      "sha256": "6bbfc4c44709aacee66cc6956e3f0bbc68d325ec12e7b973a00da32bd381a9db"
+    },
+    {
+      "path": "records/research/opponent-intel-20260928/raw/read-anytime-schema-error.json",
+      "bytes": 1344,
+      "sha256": "3fac32495edd7ea0e6170e2888112daa306f94d62dd138f7169e555f58808655"
+    },
+    {
+      "path": "records/research/opponent-intel-20260928/raw/read-anytime.json",
+      "bytes": 1458,
+      "sha256": "d019c976470da688037816d1702d2707ae0ea5f859b50f631e32632f192513fe"
+    },
+    {
+      "path": "records/research/opponent-intel-20260928/raw/read-defense-schema-error.json",
+      "bytes": 1294,
+      "sha256": "50340dd3b156b1a5adf50390e1383c57fa1aac8d32759aae03bc198d132de1d1"
+    },
+    {
+      "path": "records/research/opponent-intel-20260928/raw/read-defense.json",
+      "bytes": 1454,
+      "sha256": "f6770d4392c63702f482e3f073c4f3ec7b91229ebf05a901e2484c7fc917230d"
+    },
+    {
+      "path": "records/research/opponent-intel-20260928/raw/read-pair.json",
+      "bytes": 1418,
+      "sha256": "69874eceb7c5eec124d960a40664a5db17c5ebb339551ef1dfcdf5a848f2e339"
+    },
+    {
+      "path": "records/research/opponent-intel-20260928/raw/read-safe-schema-error.json",
+      "bytes": 1350,
+      "sha256": "ee84c3143e01cbe06dfd1c197dd6009eb7b5cc028200aeac0995dce849f019b4"
+    },
+    {
+      "path": "records/research/opponent-intel-20260928/raw/read-safe.json",
+      "bytes": 1455,
+      "sha256": "a3e99f314f865be00c43f32511faea73fc580765dd35ac3a4bd230986547d45a"
+    },
+    {
+      "path": "records/research/opponent-intel-20260928/raw/read-sm-correction.json",
+      "bytes": 1415,
+      "sha256": "6a0503c3a8d996f857a834d79fbe98ccad91605b83be373fe115ad3d3f6a91fc"
+    },
+    {
+      "path": "records/research/opponent-intel-20260928/raw/read-sm-schema-error.json",
+      "bytes": 1267,
+      "sha256": "1c1468e467ac3882605ba192ea82def7d3a2938fd5dbedd8a2f94bb796a08e52"
+    },
+    {
+      "path": "records/research/opponent-intel-20260928/raw/read-sm.json",
+      "bytes": 1268,
+      "sha256": "30a9570c2dc66be2288d7ac67e621e1f54d027f7c0e0acb623816d7974a03bc2"
+    },
+    {
+      "path": "records/research/opponent-intel-20260928/raw/related-defense.json",
+      "bytes": 3654,
+      "sha256": "2510f5f5b352e5fbe0f43fa030b92591fe94aa2fc539c9b38f37731c7f71a668"
+    },
+    {
+      "path": "records/research/opponent-intel-20260928/raw/related-safe.json",
+      "bytes": 3533,
+      "sha256": "6617b1aecc47cc44703d897da0068e496412b767d88355238ecbcbf5a1099e45"
+    },
+    {
+      "path": "records/research/opponent-intel-20260928/sources.json",
+      "bytes": 12046,
+      "sha256": "64c0f448d449b22df491e2d79d03ac452eb81087395bbda56dcf7586b70b3c31"
+    },
+    {
+      "path": "records/research/opponent-intel-20260928/verification.json",
+      "bytes": 825,
+      "sha256": "cfec0b18040b80c6704107691ade0e7db844694a6f3fc4f158a7af0f8b5fdbdc"
+    },
+    {
+      "path": "records/research/round2/README.md",
+      "bytes": 3991,
+      "sha256": "70b01fb93ab9f5e6ece42e0638b7ceaaa3cb70308fc0921446fb7a05967e4fb6"
+    },
+    {
+      "path": "records/research/round2/raw/family_population.json",
+      "bytes": 15750,
+      "sha256": "bbee0ce04873128ae17b97073e794bf97611e6c2d4a0b9addf117000d63a4f2f"
+    },
+    {
+      "path": "records/research/round2/raw/family_rhea.json",
+      "bytes": 13839,
+      "sha256": "8905cbc2e7a3eac7a9addd9550b39edbd40854468620bb254519a4bbde1e5215"
+    },
+    {
+      "path": "records/research/round2/raw/official_cma_repo.json",
+      "bytes": 58108,
+      "sha256": "f7deeef81b5c5ba1537615381feb68361cc7471cde2c4edeee8c47eed4577821"
+    },
+    {
+      "path": "records/research/round2/raw/official_smac_repo.json",
+      "bytes": 43113,
+      "sha256": "da2af2db2feb06d1a08cea21d94152bc0ac25a0b14a14f3f904d1f84ef74ca87"
+    },
+    {
+      "path": "records/research/round2/raw/read_2l.json",
+      "bytes": 24494,
+      "sha256": "266cf606c4f39a47bff58449503a320e6bb3de62f2e0bc136de972a786ae3b87"
+    },
+    {
+      "path": "records/research/round2/raw/read_assignment.json",
+      "bytes": 16910,
+      "sha256": "01588d88716429c9f3b5a9be3c9a589f306fc3964a9aa9f8e722b78c19478fb8"
+    },
+    {
+      "path": "records/research/round2/raw/read_asym.json",
+      "bytes": 25268,
+      "sha256": "e6c4d462229256ab0a937f86206614fb88ebfd72c302b09ccc32d1a90fe7fb58"
+    },
+    {
+      "path": "records/research/round2/raw/read_cma.json",
+      "bytes": 17035,
+      "sha256": "b8d534e2aaf7c01f03a7c019bcdf47e942a3a9b96a51a1d0b7e14b5f1ab9b576"
+    },
+    {
+      "path": "records/research/round2/raw/read_cmab.json",
+      "bytes": 16323,
+      "sha256": "36d31bde7ddea77ebe94981b16c1e9b679690c380e1fffb17ae6710de3d40eca"
+    },
+    {
+      "path": "records/research/round2/raw/read_coev.json",
+      "bytes": 16839,
+      "sha256": "f97b7fadf244db6068895dfd03a65f993dd6e007831a3067ab86747537b03dc8"
+    },
+    {
+      "path": "records/research/round2/raw/read_hannan.json",
+      "bytes": 23273,
+      "sha256": "af6885fa9811401032a65de69216e62e78c84c3bc33e21735796b8cb66c7fcbf"
+    },
+    {
+      "path": "records/research/round2/raw/read_ntbea.json",
+      "bytes": 24445,
+      "sha256": "81a45f77d5eca841d9cdc77485df9dedd9ffdf87401671505b0c5a72ef758aaa"
+    },
+    {
+      "path": "records/research/round2/raw/read_ntbea_details.json",
+      "bytes": 16757,
+      "sha256": "2d97ff49d7af0cfccb70c74916b511ebefa462a05a8b44a6089af4140392187b"
+    },
+    {
+      "path": "records/research/round2/raw/read_opmodel.json",
+      "bytes": 24551,
+      "sha256": "163c57462b157ce5911db33d26b76fda4d64a6a3dc207851cc1b9abc3696737f"
+    },
+    {
+      "path": "records/research/round2/raw/read_oracle.json",
+      "bytes": 16836,
+      "sha256": "db631f3c730d2189968e28bcaf74ea93e3ec452d3896a45575bfa6a2d7e11f61"
+    },
+    {
+      "path": "records/research/round2/raw/read_program_sketch.json",
+      "bytes": 355,
+      "sha256": "5cb63ddf289694ad7a952f91fba8f98cc1bd277e5bc087907c1b2f297847c404"
+    },
+    {
+      "path": "records/research/round2/raw/read_psro.json",
+      "bytes": 16720,
+      "sha256": "7ff24718f18b1171f642f379a4a8fd765337e40c1caba01f8bc6ce200f28da0e"
+    },
+    {
+      "path": "records/research/round2/raw/read_rhea.json",
+      "bytes": 24478,
+      "sha256": "483979f19e34ef58ec591e05ae698fdcc570a4ad63b0d51388f95be45a5e2e30"
+    },
+    {
+      "path": "records/research/round2/raw/read_rhea_details.json",
+      "bytes": 16376,
+      "sha256": "11b2d13dfcca3a5e2a34b9f29045feb5f6516e745adb6e8cb650ed5541970563"
+    },
+    {
+      "path": "records/research/round2/raw/read_sketch_fallback.json",
+      "bytes": 162819,
+      "sha256": "317974dfcdc719cfca76f971897c45bda26d5ae424f4e6c65f523aff106a267d"
+    },
+    {
+      "path": "records/research/round2/raw/read_smac.json",
+      "bytes": 16080,
+      "sha256": "20c5b24eda780b336d95b5935738fe1251f293a81ad4b9405da594a054064b9a"
+    },
+    {
+      "path": "records/research/round2/raw/research_search_0.json",
+      "bytes": 15702,
+      "sha256": "b46e0027fe4be1d8ac2d438aa67d2d2f117875e87fb564d8d8bee0024e8d3e63"
+    },
+    {
+      "path": "records/research/round2/raw/research_search_1.json",
+      "bytes": 15588,
+      "sha256": "d90e1dcba146c043d738174dad0672d4199f3b50f8f0f41e8ac5c6a0a3a50f8c"
+    },
+    {
+      "path": "records/research/round2/raw/research_search_2.json",
+      "bytes": 14702,
+      "sha256": "fd2fbb7a23676045cc1a0fbc2f6c643c1f515b0ac966f06abf7cf27086953741"
+    },
+    {
+      "path": "records/research/round2/raw/search_assignment.json",
+      "bytes": 7217,
+      "sha256": "cc5f6ec1d91b674317d534ec3c406d261b6980bd03e26a0c8d51c2f4441fd6ec"
+    },
+    {
+      "path": "records/research/round2/raw/search_cem.json",
+      "bytes": 7356,
+      "sha256": "57cf9de202b963a77455d0e70246e3512f4b857bd03e469cd774e7f307c49243"
+    },
+    {
+      "path": "records/research/round2/raw/search_cma.json",
+      "bytes": 6066,
+      "sha256": "066cb3b4c16d63676dda36150796d8ef67bfe82b28463a7cc7ab21d56bd46cce"
+    },
+    {
+      "path": "records/research/round2/raw/search_smac.json",
+      "bytes": 6331,
+      "sha256": "1435896b2c424ade83641d5db986b82d1e2f176ae93a028d6588299904369c1e"
+    },
+    {
+      "path": "records/research/round2/sources.json",
+      "bytes": 12741,
+      "sha256": "2d31ada77535e7ca8d22a8c4530692f307189a0241ec8a605b32d70fc8743380"
+    }
+  ]
+}

@@ -1,0 +1,995 @@
+{
+  "verdict": "FINAL_GATE_FAIL_RESEARCH_ONLY",
+  "source_sha256": "b06263e5cffee351fa23e6279b2f6f5f1cda0a5c1106cfc3516c005aad97c9e7",
+  "source_unchanged_from_final_preregistration": true,
+  "plans": {
+    "final_path": "/tmp/yk-new-bot-20261001/records/research/new-bot-20261001/final-plan.json",
+    "final_sha256": "cace9d2ffe709778a4ef343ee1a6658e440ed374d7b6ee17ca0f6f4a4938da9a",
+    "selection_adoption_gate": {
+      "requirements": [
+        "No errors, forfeits, invalid/clipped commands or execution-limit violation.",
+        "Chosen mission point rate at least v8 both overall and registered Y side, with positive difference in at least one.",
+        "No common opponent point-rate regression worse than0.25, direct point rate at least0.5."
+      ],
+      "if_pass": "Run separate final seeds19200–19207 with frozen code and same schedule. Never choose server submission from development or selection alone.",
+      "if_fail": "Stop promotion evaluation, deliver the selected independent research artifact, leave current externally selected serverv9 unchanged, and keep final seeds unused."
+    }
+  },
+  "schedule_checks": {
+    "final-common": {
+      "complete": true,
+      "forfeits": 0,
+      "schedule_exact": true,
+      "audit_results_hash_matches": true,
+      "audit_has_no_issues": true
+    },
+    "final-direct": {
+      "complete": true,
+      "forfeits": 0,
+      "schedule_exact": true,
+      "audit_results_hash_matches": true,
+      "audit_has_no_issues": true
+    }
+  },
+  "common": {
+    "overall": {
+      "mission4": {
+        "games": 64,
+        "wins": 40,
+        "draws": 0,
+        "point_rate": 0.625,
+        "point_rate_map_bootstrap95": [
+          0.453125,
+          0.796875
+        ],
+        "mean_score_margin": 8.21875
+      },
+      "v8": {
+        "games": 64,
+        "wins": 43,
+        "draws": 0,
+        "point_rate": 0.671875,
+        "point_rate_map_bootstrap95": [
+          0.640625,
+          0.71875
+        ],
+        "mean_score_margin": 11.28125
+      },
+      "paired_difference": {
+        "paired_games": 64,
+        "point_rate_difference": -0.046875,
+        "paired_map_bootstrap95": [
+          -0.21875,
+          0.125
+        ],
+        "map_mean_differences": {
+          "19200": -0.125,
+          "19201": -0.375,
+          "19202": -0.375,
+          "19203": -0.125,
+          "19204": 0.125,
+          "19205": 0.25,
+          "19206": 0.375,
+          "19207": -0.125
+        }
+      }
+    },
+    "Y": {
+      "mission4": {
+        "games": 32,
+        "wins": 19,
+        "draws": 0,
+        "point_rate": 0.59375,
+        "point_rate_map_bootstrap95": [
+          0.375,
+          0.8125
+        ],
+        "mean_score_margin": 6.0625
+      },
+      "v8": {
+        "games": 32,
+        "wins": 22,
+        "draws": 0,
+        "point_rate": 0.6875,
+        "point_rate_map_bootstrap95": [
+          0.53125,
+          0.8125
+        ],
+        "mean_score_margin": 11.875
+      },
+      "paired_difference": {
+        "paired_games": 32,
+        "point_rate_difference": -0.09375,
+        "paired_map_bootstrap95": [
+          -0.375,
+          0.15625
+        ],
+        "map_mean_differences": {
+          "19200": 0.0,
+          "19201": -0.5,
+          "19202": -0.75,
+          "19203": -0.25,
+          "19204": 0.25,
+          "19205": 0.25,
+          "19206": 0.5,
+          "19207": -0.25
+        }
+      }
+    },
+    "K": {
+      "mission4": {
+        "games": 32,
+        "wins": 21,
+        "draws": 0,
+        "point_rate": 0.65625,
+        "point_rate_map_bootstrap95": [
+          0.4375,
+          0.875
+        ],
+        "mean_score_margin": 10.375
+      },
+      "v8": {
+        "games": 32,
+        "wins": 21,
+        "draws": 0,
+        "point_rate": 0.65625,
+        "point_rate_map_bootstrap95": [
+          0.5,
+          0.78125
+        ],
+        "mean_score_margin": 10.6875
+      },
+      "paired_difference": {
+        "paired_games": 32,
+        "point_rate_difference": 0.0,
+        "paired_map_bootstrap95": [
+          -0.125,
+          0.125
+        ],
+        "map_mean_differences": {
+          "19200": -0.25,
+          "19201": -0.25,
+          "19202": 0.0,
+          "19203": 0.0,
+          "19204": 0.0,
+          "19205": 0.25,
+          "19206": 0.25,
+          "19207": 0.0
+        }
+      }
+    },
+    "s3_selective_contact": {
+      "mission4": {
+        "games": 16,
+        "wins": 11,
+        "draws": 0,
+        "point_rate": 0.6875,
+        "point_rate_map_bootstrap95": [
+          0.4375,
+          0.875
+        ],
+        "mean_score_margin": 13.0625
+      },
+      "v8": {
+        "games": 16,
+        "wins": 9,
+        "draws": 0,
+        "point_rate": 0.5625,
+        "point_rate_map_bootstrap95": [
+          0.3125,
+          0.8125
+        ],
+        "mean_score_margin": 8.6875
+      },
+      "paired_difference": {
+        "paired_games": 16,
+        "point_rate_difference": 0.125,
+        "paired_map_bootstrap95": [
+          -0.125,
+          0.3125
+        ],
+        "map_mean_differences": {
+          "19200": -0.5,
+          "19201": 0.0,
+          "19202": 0.5,
+          "19203": 0.5,
+          "19204": 0.5,
+          "19205": 0.0,
+          "19206": 0.0,
+          "19207": 0.0
+        }
+      }
+    },
+    "r3_opponent_league": {
+      "mission4": {
+        "games": 16,
+        "wins": 11,
+        "draws": 0,
+        "point_rate": 0.6875,
+        "point_rate_map_bootstrap95": [
+          0.4375,
+          0.9375
+        ],
+        "mean_score_margin": 11.125
+      },
+      "v8": {
+        "games": 16,
+        "wins": 13,
+        "draws": 0,
+        "point_rate": 0.8125,
+        "point_rate_map_bootstrap95": [
+          0.625,
+          0.9375
+        ],
+        "mean_score_margin": 16.6875
+      },
+      "paired_difference": {
+        "paired_games": 16,
+        "point_rate_difference": -0.125,
+        "paired_map_bootstrap95": [
+          -0.4375,
+          0.1875
+        ],
+        "map_mean_differences": {
+          "19200": 0.0,
+          "19201": -0.5,
+          "19202": -0.5,
+          "19203": -1.0,
+          "19204": 0.5,
+          "19205": 0.5,
+          "19206": 0.0,
+          "19207": 0.0
+        }
+      }
+    },
+    "j_balanced_portfolio": {
+      "mission4": {
+        "games": 16,
+        "wins": 7,
+        "draws": 0,
+        "point_rate": 0.4375,
+        "point_rate_map_bootstrap95": [
+          0.1875,
+          0.6875
+        ],
+        "mean_score_margin": -0.9375
+      },
+      "v8": {
+        "games": 16,
+        "wins": 13,
+        "draws": 0,
+        "point_rate": 0.8125,
+        "point_rate_map_bootstrap95": [
+          0.625,
+          0.9375
+        ],
+        "mean_score_margin": 17.5625
+      },
+      "paired_difference": {
+        "paired_games": 16,
+        "point_rate_difference": -0.375,
+        "paired_map_bootstrap95": [
+          -0.6875,
+          -0.0625
+        ],
+        "map_mean_differences": {
+          "19200": 0.0,
+          "19201": -1.0,
+          "19202": -1.0,
+          "19203": -0.5,
+          "19204": -0.5,
+          "19205": 0.0,
+          "19206": 0.5,
+          "19207": -0.5
+        }
+      }
+    },
+    "team_v9_2": {
+      "mission4": {
+        "games": 16,
+        "wins": 11,
+        "draws": 0,
+        "point_rate": 0.6875,
+        "point_rate_map_bootstrap95": [
+          0.4375,
+          0.9375
+        ],
+        "mean_score_margin": 9.625
+      },
+      "v8": {
+        "games": 16,
+        "wins": 8,
+        "draws": 0,
+        "point_rate": 0.5,
+        "point_rate_map_bootstrap95": [
+          0.25,
+          0.75
+        ],
+        "mean_score_margin": 2.1875
+      },
+      "paired_difference": {
+        "paired_games": 16,
+        "point_rate_difference": 0.1875,
+        "paired_map_bootstrap95": [
+          -0.0625,
+          0.5
+        ],
+        "map_mean_differences": {
+          "19200": 0.0,
+          "19201": 0.0,
+          "19202": -0.5,
+          "19203": 0.5,
+          "19204": 0.0,
+          "19205": 0.5,
+          "19206": 1.0,
+          "19207": 0.0
+        }
+      }
+    }
+  },
+  "side_by_opponent": {
+    "Y:s3_selective_contact": {
+      "mission4": {
+        "games": 8,
+        "wins": 5,
+        "draws": 0,
+        "point_rate": 0.625,
+        "point_rate_map_bootstrap95": [
+          0.25,
+          0.875
+        ],
+        "mean_score_margin": 6.875
+      },
+      "v8": {
+        "games": 8,
+        "wins": 4,
+        "draws": 0,
+        "point_rate": 0.5,
+        "point_rate_map_bootstrap95": [
+          0.125,
+          0.875
+        ],
+        "mean_score_margin": 3.75
+      },
+      "paired_difference": {
+        "paired_games": 8,
+        "point_rate_difference": 0.125,
+        "paired_map_bootstrap95": [
+          0.0,
+          0.375
+        ],
+        "map_mean_differences": {
+          "19200": 0.0,
+          "19201": 0.0,
+          "19202": 0.0,
+          "19203": 0.0,
+          "19204": 1.0,
+          "19205": 0.0,
+          "19206": 0.0,
+          "19207": 0.0
+        }
+      }
+    },
+    "Y:r3_opponent_league": {
+      "mission4": {
+        "games": 8,
+        "wins": 5,
+        "draws": 0,
+        "point_rate": 0.625,
+        "point_rate_map_bootstrap95": [
+          0.25,
+          0.875
+        ],
+        "mean_score_margin": 7.625
+      },
+      "v8": {
+        "games": 8,
+        "wins": 7,
+        "draws": 0,
+        "point_rate": 0.875,
+        "point_rate_map_bootstrap95": [
+          0.625,
+          1.0
+        ],
+        "mean_score_margin": 19
+      },
+      "paired_difference": {
+        "paired_games": 8,
+        "point_rate_difference": -0.25,
+        "paired_map_bootstrap95": [
+          -0.625,
+          0.25
+        ],
+        "map_mean_differences": {
+          "19200": 0.0,
+          "19201": -1.0,
+          "19202": -1.0,
+          "19203": -1.0,
+          "19204": 1.0,
+          "19205": 0.0,
+          "19206": 0.0,
+          "19207": 0.0
+        }
+      }
+    },
+    "Y:j_balanced_portfolio": {
+      "mission4": {
+        "games": 8,
+        "wins": 3,
+        "draws": 0,
+        "point_rate": 0.375,
+        "point_rate_map_bootstrap95": [
+          0.125,
+          0.75
+        ],
+        "mean_score_margin": -4.875
+      },
+      "v8": {
+        "games": 8,
+        "wins": 7,
+        "draws": 0,
+        "point_rate": 0.875,
+        "point_rate_map_bootstrap95": [
+          0.625,
+          1.0
+        ],
+        "mean_score_margin": 21
+      },
+      "paired_difference": {
+        "paired_games": 8,
+        "point_rate_difference": -0.5,
+        "paired_map_bootstrap95": [
+          -0.875,
+          0.0
+        ],
+        "map_mean_differences": {
+          "19200": 0.0,
+          "19201": -1.0,
+          "19202": -1.0,
+          "19203": -1.0,
+          "19204": -1.0,
+          "19205": 0.0,
+          "19206": 1.0,
+          "19207": -1.0
+        }
+      }
+    },
+    "Y:team_v9_2": {
+      "mission4": {
+        "games": 8,
+        "wins": 6,
+        "draws": 0,
+        "point_rate": 0.75,
+        "point_rate_map_bootstrap95": [
+          0.375,
+          1.0
+        ],
+        "mean_score_margin": 14.625
+      },
+      "v8": {
+        "games": 8,
+        "wins": 4,
+        "draws": 0,
+        "point_rate": 0.5,
+        "point_rate_map_bootstrap95": [
+          0.125,
+          0.875
+        ],
+        "mean_score_margin": 3.75
+      },
+      "paired_difference": {
+        "paired_games": 8,
+        "point_rate_difference": 0.25,
+        "paired_map_bootstrap95": [
+          -0.25,
+          0.625
+        ],
+        "map_mean_differences": {
+          "19200": 0.0,
+          "19201": 0.0,
+          "19202": -1.0,
+          "19203": 1.0,
+          "19204": 0.0,
+          "19205": 1.0,
+          "19206": 1.0,
+          "19207": 0.0
+        }
+      }
+    },
+    "K:s3_selective_contact": {
+      "mission4": {
+        "games": 8,
+        "wins": 6,
+        "draws": 0,
+        "point_rate": 0.75,
+        "point_rate_map_bootstrap95": [
+          0.5,
+          1.0
+        ],
+        "mean_score_margin": 19.25
+      },
+      "v8": {
+        "games": 8,
+        "wins": 5,
+        "draws": 0,
+        "point_rate": 0.625,
+        "point_rate_map_bootstrap95": [
+          0.25,
+          0.875
+        ],
+        "mean_score_margin": 13.625
+      },
+      "paired_difference": {
+        "paired_games": 8,
+        "point_rate_difference": 0.125,
+        "paired_map_bootstrap95": [
+          -0.25,
+          0.5
+        ],
+        "map_mean_differences": {
+          "19200": -1.0,
+          "19201": 0.0,
+          "19202": 1.0,
+          "19203": 1.0,
+          "19204": 0.0,
+          "19205": 0.0,
+          "19206": 0.0,
+          "19207": 0.0
+        }
+      }
+    },
+    "K:r3_opponent_league": {
+      "mission4": {
+        "games": 8,
+        "wins": 6,
+        "draws": 0,
+        "point_rate": 0.75,
+        "point_rate_map_bootstrap95": [
+          0.5,
+          1.0
+        ],
+        "mean_score_margin": 14.625
+      },
+      "v8": {
+        "games": 8,
+        "wins": 6,
+        "draws": 0,
+        "point_rate": 0.75,
+        "point_rate_map_bootstrap95": [
+          0.375,
+          1.0
+        ],
+        "mean_score_margin": 14.375
+      },
+      "paired_difference": {
+        "paired_games": 8,
+        "point_rate_difference": 0.0,
+        "paired_map_bootstrap95": [
+          -0.375,
+          0.375
+        ],
+        "map_mean_differences": {
+          "19200": 0.0,
+          "19201": 0.0,
+          "19202": 0.0,
+          "19203": -1.0,
+          "19204": 0.0,
+          "19205": 1.0,
+          "19206": 0.0,
+          "19207": 0.0
+        }
+      }
+    },
+    "K:j_balanced_portfolio": {
+      "mission4": {
+        "games": 8,
+        "wins": 4,
+        "draws": 0,
+        "point_rate": 0.5,
+        "point_rate_map_bootstrap95": [
+          0.125,
+          0.875
+        ],
+        "mean_score_margin": 3
+      },
+      "v8": {
+        "games": 8,
+        "wins": 6,
+        "draws": 0,
+        "point_rate": 0.75,
+        "point_rate_map_bootstrap95": [
+          0.375,
+          1.0
+        ],
+        "mean_score_margin": 14.125
+      },
+      "paired_difference": {
+        "paired_games": 8,
+        "point_rate_difference": -0.25,
+        "paired_map_bootstrap95": [
+          -0.5,
+          0.0
+        ],
+        "map_mean_differences": {
+          "19200": 0.0,
+          "19201": -1.0,
+          "19202": -1.0,
+          "19203": 0.0,
+          "19204": 0.0,
+          "19205": 0.0,
+          "19206": 0.0,
+          "19207": 0.0
+        }
+      }
+    },
+    "K:team_v9_2": {
+      "mission4": {
+        "games": 8,
+        "wins": 5,
+        "draws": 0,
+        "point_rate": 0.625,
+        "point_rate_map_bootstrap95": [
+          0.25,
+          0.875
+        ],
+        "mean_score_margin": 4.625
+      },
+      "v8": {
+        "games": 8,
+        "wins": 4,
+        "draws": 0,
+        "point_rate": 0.5,
+        "point_rate_map_bootstrap95": [
+          0.125,
+          0.875
+        ],
+        "mean_score_margin": 0.625
+      },
+      "paired_difference": {
+        "paired_games": 8,
+        "point_rate_difference": 0.125,
+        "paired_map_bootstrap95": [
+          0.0,
+          0.375
+        ],
+        "map_mean_differences": {
+          "19200": 0.0,
+          "19201": 0.0,
+          "19202": 0.0,
+          "19203": 0.0,
+          "19204": 0.0,
+          "19205": 0.0,
+          "19206": 1.0,
+          "19207": 0.0
+        }
+      }
+    }
+  },
+  "direct": {
+    "overall": {
+      "games": 16,
+      "wins": 9,
+      "draws": 0,
+      "point_rate": 0.5625,
+      "point_rate_map_bootstrap95": [
+        0.25,
+        0.875
+      ],
+      "mean_score_margin": 3
+    },
+    "Y": {
+      "games": 8,
+      "wins": 5,
+      "draws": 0,
+      "point_rate": 0.625,
+      "point_rate_map_bootstrap95": [
+        0.25,
+        1.0
+      ],
+      "mean_score_margin": 7.875
+    },
+    "K": {
+      "games": 8,
+      "wins": 4,
+      "draws": 0,
+      "point_rate": 0.5,
+      "point_rate_map_bootstrap95": [
+        0.125,
+        0.875
+      ],
+      "mean_score_margin": -1.875
+    }
+  },
+  "gate": {
+    "legality_and_execution_limits": true,
+    "overall_at_least_v8": false,
+    "registered_Y_at_least_v8": false,
+    "positive_in_overall_or_Y": false,
+    "each_opponent_regression_at_least_minus_0_25": false,
+    "direct_at_least_0_5": true,
+    "pass": false
+  },
+  "audit": {
+    "scope": "Independent result/schedule/hash/runtime/output-size recomputation; semantic correctness from completed root action audits bound to identical result/source hashes. No new games or source edits.",
+    "semantic_frames": 19532,
+    "semantic_issues": 0,
+    "audits": {
+      "final-common": {
+        "replays": 128,
+        "frames": 17349,
+        "elapsed_seconds": 3.779818705996149,
+        "results_sha256": "c5e95105b316bf1fbb38fb24261eec0168b09beb4600301051c4a83e99904a74",
+        "counts": {
+          "candidate:mission4": {
+            "turns": 8619,
+            "commands": 171156
+          },
+          "candidate:v8": {
+            "turns": 8730,
+            "commands": 322423
+          },
+          "opponent:j_balanced_portfolio": {
+            "turns": 4255,
+            "commands": 117949
+          },
+          "opponent:r3_opponent_league": {
+            "turns": 4187,
+            "commands": 122375
+          },
+          "opponent:s3_selective_contact": {
+            "turns": 4285,
+            "commands": 118939
+          },
+          "opponent:team_v9_2": {
+            "turns": 4622,
+            "commands": 140723
+          }
+        },
+        "examples": [],
+        "candidate_source_sha256": {
+          "mission4": "b06263e5cffee351fa23e6279b2f6f5f1cda0a5c1106cfc3516c005aad97c9e7",
+          "v8": "61a4f25113d9bf2c387a59ddc770a3143de6311e3fd2e004827a66eb78edfbc9"
+        },
+        "auditor_sha256": "dd71de1e97f87755fc2b62025a747bdbf92b9307164d75dd6d7460e315b5ecd9",
+        "sdk_reference_sha256": {
+          "engine/pipeline.py": "f0bd96c484c8628b6a070b188adcc1a077e9f90017cc15f11ce366d974490fa6",
+          "runner/protocol.py": "5917df4bec20b963586b1ffeb7a45b9959f51e3437a227ee7e8d932b172a7d65",
+          "runner/replay.py": "fc2bf7405c405ac30da4d7c122b24e3c3275544bfbd1ec22779bbb217df6e8a6"
+        }
+      },
+      "final-direct": {
+        "replays": 16,
+        "frames": 2183,
+        "elapsed_seconds": 0.4159016480043647,
+        "results_sha256": "d9c019320a3711b30d9de6f39f54db7dce05e680ba4620587e6827f14e401137",
+        "counts": {
+          "candidate:mission4": {
+            "turns": 2183,
+            "commands": 43651
+          },
+          "opponent:v8": {
+            "turns": 2183,
+            "commands": 68214
+          }
+        },
+        "examples": [],
+        "candidate_source_sha256": {
+          "mission4": "b06263e5cffee351fa23e6279b2f6f5f1cda0a5c1106cfc3516c005aad97c9e7"
+        },
+        "auditor_sha256": "dd71de1e97f87755fc2b62025a747bdbf92b9307164d75dd6d7460e315b5ecd9",
+        "sdk_reference_sha256": {
+          "engine/pipeline.py": "f0bd96c484c8628b6a070b188adcc1a077e9f90017cc15f11ce366d974490fa6",
+          "runner/protocol.py": "5917df4bec20b963586b1ffeb7a45b9959f51e3437a227ee7e8d932b172a7d65",
+          "runner/replay.py": "fc2bf7405c405ac30da4d7c122b24e3c3275544bfbd1ec22779bbb217df6e8a6"
+        }
+      }
+    },
+    "output_size_checks": {
+      "frames_both_teams": 39064,
+      "max_lines_including_END": 159,
+      "max_line_bytes_including_newline": 89,
+      "max_turn_bytes_including_END": 2564,
+      "violations": []
+    },
+    "output_size_limitation": "Replay command strings plus an END line; not a separate raw pipe capture."
+  },
+  "runtime": {
+    "final-common:mission4": {
+      "first_max_ms": 6.903749999764841,
+      "regular_max_ms": 6.1927580027258955,
+      "first_violations": 0,
+      "regular_violations": 0,
+      "observations": 8619
+    },
+    "final-common:j_balanced_portfolio": {
+      "first_max_ms": 18.773463998513762,
+      "regular_max_ms": 33.94666100211907,
+      "first_violations": 0,
+      "regular_violations": 0,
+      "observations": 4255
+    },
+    "final-common:r3_opponent_league": {
+      "first_max_ms": 14.357538995682262,
+      "regular_max_ms": 95.06585900089704,
+      "first_violations": 0,
+      "regular_violations": 0,
+      "observations": 4187
+    },
+    "final-common:v8": {
+      "first_max_ms": 14.902043003530707,
+      "regular_max_ms": 133.15114599390654,
+      "first_violations": 0,
+      "regular_violations": 0,
+      "observations": 8730
+    },
+    "final-common:s3_selective_contact": {
+      "first_max_ms": 13.782960995740723,
+      "regular_max_ms": 136.64652200532146,
+      "first_violations": 0,
+      "regular_violations": 0,
+      "observations": 4285
+    },
+    "final-common:team_v9_2": {
+      "first_max_ms": 14.16908700048225,
+      "regular_max_ms": 137.4985810034559,
+      "first_violations": 0,
+      "regular_violations": 0,
+      "observations": 4622
+    },
+    "final-direct:mission4": {
+      "first_max_ms": 7.14440400042804,
+      "regular_max_ms": 6.613632998778485,
+      "first_violations": 0,
+      "regular_violations": 0,
+      "observations": 2183
+    },
+    "final-direct:v8": {
+      "first_max_ms": 14.798989999690093,
+      "regular_max_ms": 128.36654399870895,
+      "first_violations": 0,
+      "regular_violations": 0,
+      "observations": 2183
+    }
+  },
+  "memory_run_constraints": {
+    "final-common": {
+      "resource": "RLIMIT_AS",
+      "requested_soft_bytes": 402653184,
+      "effective_soft_bytes": 402653184,
+      "hard_bytes": -1,
+      "previous_soft_bytes": -1,
+      "inherited_by": "workers and bot processes",
+      "scope": "Per-process virtual address space; not total RSS or a replica of the submission container"
+    },
+    "final-direct": {
+      "resource": "RLIMIT_AS",
+      "requested_soft_bytes": 402653184,
+      "effective_soft_bytes": 402653184,
+      "hard_bytes": -1,
+      "previous_soft_bytes": -1,
+      "inherited_by": "workers and bot processes",
+      "scope": "Per-process virtual address space; not total RSS or a replica of the submission container"
+    }
+  },
+  "uncertainty_method": {
+    "resampling_unit": "map; both sides and all selected opponents remain in their map cluster",
+    "maps": 8,
+    "replicates": 4000,
+    "random_seed": 20261001,
+    "percentiles": "sorted sample indices 99 and 3899 (zero based)",
+    "paired_difference": "mission4 minus v8 matched on map, side, opponent; differences averaged within map before resampling",
+    "caveats": [
+      "Only eight maps; intervals are descriptive and broad.",
+      "Time-budgeted opponent policies can vary despite fixed source and RNG seed.",
+      "Gate uses preregistered raw point thresholds; intervals do not establish equivalence or excuse gate failure."
+    ],
+    "cluster_order": "Ascending map_seed before sampling; stable against concurrent result completion order.",
+    "root_report_reconciliation": {
+      "root_path": "/tmp/yk-new-bot-20261001/records/benchmarks/mission-20261001/final-summary.json",
+      "root_sha256": "f16551abd2d3bc9174ee2fa912cef508ebec6ae5a6f620eb2c507aabafb6cd82",
+      "cause": "Same 4000 replicates, Random(20261001), and sample percentile indices 99/3899. Root preserves first-seen map order from matched records; independent review sorts by map_seed. Random.choices draws indices, so the same random indices address different map means. This changes a finite Monte Carlo sample, not the underlying empirical bootstrap distribution or observed game metrics.",
+      "reproduced": {
+        "both": {
+          "root_cluster_order": [
+            19204,
+            19205,
+            19202,
+            19206,
+            19201,
+            19200,
+            19207,
+            19203
+          ],
+          "review_cluster_order": [
+            19200,
+            19201,
+            19202,
+            19203,
+            19204,
+            19205,
+            19206,
+            19207
+          ],
+          "root_ci_reproduced": [
+            -0.21875,
+            0.140625
+          ],
+          "review_ci_reproduced": [
+            -0.21875,
+            0.125
+          ],
+          "map_means_identical": true
+        },
+        "Y": {
+          "root_cluster_order": [
+            19202,
+            19206,
+            19201,
+            19203,
+            19200,
+            19205,
+            19207,
+            19204
+          ],
+          "review_cluster_order": [
+            19200,
+            19201,
+            19202,
+            19203,
+            19204,
+            19205,
+            19206,
+            19207
+          ],
+          "root_ci_reproduced": [
+            -0.375,
+            0.1875
+          ],
+          "review_ci_reproduced": [
+            -0.375,
+            0.15625
+          ],
+          "map_means_identical": true
+        },
+        "K": {
+          "root_cluster_order": [
+            19204,
+            19205,
+            19201,
+            19206,
+            19200,
+            19207,
+            19202,
+            19203
+          ],
+          "review_cluster_order": [
+            19200,
+            19201,
+            19202,
+            19203,
+            19204,
+            19205,
+            19206,
+            19207
+          ],
+          "root_ci_reproduced": [
+            -0.125,
+            0.125
+          ],
+          "review_ci_reproduced": [
+            -0.125,
+            0.125
+          ],
+          "map_means_identical": true
+        }
+      },
+      "impact": "No score, outcome, gate, or disposition changes; retain each reported interval with its explicit sampling order."
+    }
+  },
+  "disposition": {
+    "family_representative": "mission4",
+    "status": "research artifact only; no promotion",
+    "server": "Leave externally selected serverv9 unchanged. This independent review did not access or mutate the server.",
+    "cycle": "Finished; no further code tuning, revisions, or post-final switch to another family member."
+  }
+}

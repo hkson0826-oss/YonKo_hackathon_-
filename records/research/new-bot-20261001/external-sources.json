@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "research_time_utc": "2026-09-30T17:30:39Z",
+  "research_date_kst": "2026-10-01",
+  "repository_read_only": "/home/dlwltkd/YonKo_hackathon_-",
+  "repository_branch_observed": "jisang",
+  "prior_documents_read": [
+    "AGENTS.md",
+    "docs/02-Firecrawl조사.md",
+    "docs/08-다양한접근과근거.md",
+    "docs/26-상대정보확장과대응전략.md"
+  ],
+  "skill_read": "/home/dlwltkd/.codex/plugins/cache/openai-curated-remote/app-6a314a73f8ac819195b0d55e36b9c609/2.2.0/skills/firecrawl/SKILL.md",
+  "skill_reference_read": "references/paper-research.md",
+  "provider": "configured mcp__firecrawl",
+  "fallback_used": false,
+  "sources": [
+    {
+      "id": "R1",
+      "kind": "primary_research_paper",
+      "url": "https://arxiv.org/abs/2509.15052",
+      "title": "Online Multi-Robot Coordination and Cooperation with Task Precedence Relationships",
+      "authors": "Walker Gosrich, Saurav Agarwal, Kashish Garg, Siddharth Mayya, Matthew Malencia, Mark Yim, Vijay Kumar",
+      "arxiv": "2509.15052",
+      "created_date": "Thu, 18 Sep 2025 15:15:49 GMT",
+      "updated_date": "2025-09-19",
+      "verification": "Canonical metadata plus retrieved in-body passages; not a claim of complete full-paper reading.",
+      "verified_sections": [
+        "III Mission Model",
+        "IV-C Online Flow-Based Solution",
+        "IV-C1 Graph Topology Modifications",
+        "IV-C2 Reward Model Modifications",
+        "Algorithm 1"
+      ],
+      "verified_claims": [
+        "Task rewards depend on coalition size and preceding outcomes.",
+        "Online re-allocation removes completed tasks, adds free-agent sources, preserves in-progress coalitions and updates rewards.",
+        "Authors describe NLP solves in seconds, not a demonstrated 300ms implementation."
+      ],
+      "transfer_limits": [
+        "Homogeneous robots and task duration/precedence assumptions.",
+        "Nonlinear and approximate network-flow optimization; not generic linear min-cost optimality for adversarial combat."
+      ]
+    },
+    {
+      "id": "R2",
+      "kind": "primary_research_paper",
+      "url": "https://arxiv.org/abs/2005.07371",
+      "title": "Lifelong Multi-Agent Path Finding in Large-Scale Warehouses",
+      "authors": "Jiaoyang Li, Andrew Tinka, Scott Kiesel, Joseph W. Durham, T. K. Satish Kumar, Sven Koenig",
+      "arxiv": "2005.07371",
+      "created_date": "Fri, 15 May 2020 06:07:15 GMT",
+      "updated_date": "2021-03-15",
+      "verification": "Canonical metadata plus retrieved in-body passages; not a claim of complete full-paper reading.",
+      "verified_sections": [
+        "3 Problem Definition",
+        "4.2 Bounded-Horizon MAPF Solvers",
+        "4.3 Behavior of RHCR",
+        "4.4 Avoiding Deadlocks"
+      ],
+      "verified_claims": [
+        "Task assigner is external to path planning.",
+        "Bounded collision horizon reduces planning scope.",
+        "Paper gives both longer-window inefficiency and short-window deadlock counterexamples.",
+        "Progress-based extension does not yield completeness."
+      ],
+      "transfer_limits": [
+        "Warehouse collision-free routing rather than combat.",
+        "Friendly vertex and edge collision exclusions do not apply to this game.",
+        "No game win-rate or 300ms inference from paper throughput."
+      ]
+    },
+    {
+      "id": "R3",
+      "kind": "primary_research_paper",
+      "url": "https://arxiv.org/abs/2103.07780",
+      "title": "Online Double Oracle",
+      "authors": "Le Cong Dinh, Yaodong Yang, Stephen McAleer, Zheng Tian, Nicolas Perez Nieves, Oliver Slumbers, David Henry Mguni, Haitham Bou Ammar, Jun Wang",
+      "arxiv": "2103.07780",
+      "created_date": "Sat, 13 Mar 2021 19:48:27 GMT",
+      "updated_date": "2023-02-16",
+      "verification": "Canonical metadata plus retrieved in-body passages; not a claim of complete full-paper reading.",
+      "verified_sections": [
+        "3 Notations & Preliminaries",
+        "Algorithm 2 Online Single Oracle",
+        "4.2 Online Double Oracle",
+        "4.3 epsilon Best Responses",
+        "4.4 Unknown effective set size"
+      ],
+      "verified_claims": [
+        "Two-player zero-sum normal-form payoff matrix.",
+        "Algorithm observes loss vector, updates weights and adds best response to average loss in current window.",
+        "ODO differs from solving each restricted equilibrium to convergence in ordinary DO.",
+        "Approximate-response guarantees require a bounded approximation error."
+      ],
+      "transfer_limits": [
+        "Finite budget heuristic search here has no verified oracle error bound.",
+        "Short rollout evaluations are not the full game's true payoffs.",
+        "Same equilibrium guarantee does not follow from using a small restricted mixed strategy."
+      ]
+    },
+    {
+      "id": "R4",
+      "kind": "author_competition_writeup",
+      "url": "https://www.kaggle.com/competitions/lux-ai-season-2/writeups/ry-andy-1st-place-solution",
+      "title": "1st place solution — Lux AI Season 2",
+      "author": "Ryan Anderson",
+      "date": "2023-12-13",
+      "verification": "Fresh Firecrawl markdown scrape of main writeup and author's supplemental response.",
+      "verified_sections": [
+        "Forward simulation",
+        "Roles and Goals",
+        "Coordination Among Units and Factories",
+        "Ice Conflicts",
+        "Author supplemental blockade response"
+      ],
+      "verified_claims": [
+        "Persistent role and multi-step goal are separate.",
+        "Role validity/transitions and shared assignment conflicts are checked.",
+        "Planning uses approximately 2.9 seconds and 5 to more than 50 simulated steps.",
+        "Author reports economic weakness, a bad matchup and a blockade counterexample."
+      ],
+      "transfer_limits": [
+        "Different game's publicly released first-person evidence, not this competition's team strategy.",
+        "Lux power/factory/self-collision rules differ.",
+        "Runtime exceeds current 300ms per-turn budget."
+      ]
+    }
+  ],
+  "tool_calls": [
+    {
+      "tool": "firecrawl_research_search_papers",
+      "query": "time extended multi robot task allocation deadlines coalition requirements centralized min cost flow",
+      "k": 5,
+      "selected": "R1"
+    },
+    {
+      "tool": "firecrawl_research_search_papers",
+      "query": "simultaneous move real time strategy online double oracle action abstraction search",
+      "k": 5,
+      "selected": "R3"
+    },
+    {
+      "tool": "firecrawl_research_read_paper",
+      "paper_id": "arxiv:2509.15052",
+      "k": 6,
+      "question": "Online re-allocation, completed/failed/in-progress tasks, coalition reward flow approximation, runtime and optimality limits."
+    },
+    {
+      "tool": "firecrawl_research_read_paper",
+      "paper_id": "arxiv:2103.07780",
+      "k": 5,
+      "question": "Full-information payoff and best-response oracle assumptions, restricted set expansion, approximate/time-budget behavior."
+    },
+    {
+      "tool": "firecrawl_research_read_paper",
+      "paper_id": "arxiv:2005.07371",
+      "k": 4,
+      "question": "Planning and execution horizon, bounded replanning, deadlock and completeness limits."
+    },
+    {
+      "tool": "firecrawl_research_read_paper",
+      "paper_id": "arxiv:2103.07780",
+      "k": 3,
+      "question": "Loss vector, normal-form matrix, oracle, support and reset assumptions."
+    },
+    {
+      "tool": "firecrawl_research_read_paper",
+      "paper_id": "arxiv:2005.07371",
+      "k": 2,
+      "question": "Planning and execution horizon relationship; external task assignment."
+    },
+    {
+      "tool": "firecrawl_research_inspect_paper",
+      "paper_ids": [
+        "arxiv:2509.15052",
+        "arxiv:2005.07371",
+        "arxiv:2103.07780"
+      ]
+    },
+    {
+      "tool": "firecrawl_scrape",
+      "url": "https://www.kaggle.com/competitions/lux-ai-season-2/writeups/ry-andy-1st-place-solution",
+      "formats": [
+        "markdown"
+      ],
+      "only_main_content": true
+    }
+  ],
+  "event_public_searches": [
+    {
+      "query": "\"연고전\" \"해커톤\" \"전략\" 2026",
+      "search_id": "01a0f35c-9344-737c-adb1-8963b287d12c",
+      "result_count": 5,
+      "conclusion": "Official event descriptions, social account and an unrelated hackcamp result; no verified entrant strategy."
+    },
+    {
+      "query": "\"연고전\" \"깃발 대항전\" (github OR 전략 OR 코드 OR 우승)",
+      "search_id": "01a0f35c-ea88-700b-bc52-36a874bde2d5",
+      "result_count": 6,
+      "conclusion": "Official event descriptions/social pages; no verified entrant strategy."
+    },
+    {
+      "query": "site:github.com (\"yonsei-vs-korea-hackathon\" OR \"깃발 대항전\" OR \"연고전 해커톤\")",
+      "search_id": "01a0f35d-b72c-712d-a591-728b6213197a",
+      "result_count": 0,
+      "conclusion": "No results; not proof no material exists."
+    }
+  ],
+  "competition_team_code": {
+    "acquired": false,
+    "executed": false,
+    "additional_collection_stopped": true,
+    "reason": "Parent reports current official restriction on sharing other entrant code and operating a separate multi-team agent match system; rely on official replay behavior."
+  },
+  "rules_correction": {
+    "source": "Parent agent report from authenticated official FAQ during this turn; exact primary evidence to be linked by parent.",
+    "status": "Reported by parent, not independently browsed by this research agent.",
+    "content": "Required values in source/header constants or arrays are permitted without restricting the process used to determine values; separate weights files/binaries/runtime external file and network access are restricted.",
+    "effect": "Do not reuse old claim that all learned source constants are prohibited. Rule-based mission design is a practical design choice, not necessity inferred from blanket weight prohibition."
+  },
+  "recommendation": {
+    "method": "Persistent deadline-aware coalition missions with bounded joint assignment and first-action execution",
+    "status": "Design hypothesis, not implemented or benchmarked by this agent",
+    "main_reason": "Changes action generation and coordination representation rather than only policy weights or rollout depth.",
+    "not_claimed": [
+      "Complete literature coverage",
+      "300ms performance already measured",
+      "Nash/global optimization guarantee",
+      "Superiority against unobserved top teams",
+      "New participant team source code access"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "checked_at": "2026-09-30T17:31:02.210295+00:00",
+  "source_repo": "/home/dlwltkd/YonKo_hackathon_-",
+  "documented_engine_commit": "88a77d888a1562e52ca2b21b2363d52bb8ce307c",
+  "policy_revision_local": "platform-public-rules-v4",
+  "sdk_revision_local": "participant-sdk-docs-v2",
+  "hashes": {
+    "docs/01-대회규칙과제출.md": "ebade650d8f53f50bd59d53e08ea296685e243f8ec20cf84a47131caf9e0670d",
+    "yk-development-tools/docs/rulebook.md": "3e35db3dc14524e1d396579a65368d669745c9643e64c8792d3cd73fc87991d7",
+    "yk-development-tools/docs/PLATFORM_OPERATIONS.md": "15ca4b2343960d9962bdc72a5d93e03fa9850faff81920226c4f86c5507358d5",
+    "yk-development-tools/docs/platform-sdk-provenance.json": "e46086b87a3a752645f2bfa34b438acc43243be02a8435f1da3abf33f43fabe2",
+    "yk-development-tools/config/balance.json": "a46886d91862244b6daf4990dcdf2371302433e7120c21dc2a29ecf95696b35f",
+    "yk-development-tools/engine/pipeline.py": "f0bd96c484c8628b6a070b188adcc1a077e9f90017cc15f11ce366d974490fa6",
+    "yk-development-tools/engine/state.py": "dd227e26bcb36a5c412bbf7db19f4418a59627e8ea7e55a90dac5184dcc0737f",
+    "yk-development-tools/engine/commands.py": "db00820b9f77cc1b6e71eaa37bb4eb0b4c31cccda7f4b388269a13db04a76798",
+    "yk-development-tools/mapgen/generator.py": "645b53e2b2ce0049608873b1d01a983661dbdbfe63e358fbb152cbeeea13947e",
+    "yk-development-tools/mapgen/rng.py": "4b56383dd28a138c2ae0bd387a893b4129e108dddf369dd54d3927848f85cc4d",
+    "yk-development-tools/runner/protocol.py": "5917df4bec20b963586b1ffeb7a45b9959f51e3437a227ee7e8d932b172a7d65",
+    "yk-development-tools/runner/match.py": "122d3fc0c31ade0b808795d15842949da8c32a26c79c779841e7364aa2f51578",
+    "yk-development-tools/runner/bots.py": "c09312d62eaa1a2a5af5576b24922a9fd209365e0f3e655894934585858aba43",
+    "yk-development-tools/bots/dist/starter/limits.json": "182499583a1da4f5add6c25fe900ad59488c230163b8064c6697014a9b9fec45",
+    "yk-development-tools/bots/dist/starter/submission.py": "e3e163f2de9877218bc0079e6bfad94b1a78102e9d253d84abf97bf2e19b1130",
+    "yk-development-tools/bots/dist/starter/cpp/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "yk-development-tools/bots/dist/starter/cpp/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "tests/test_rules.py": "23d413a87013dc4f9f51515ce71ec77536651fe37bb178c9c293d3d913d5244e"
+  },
+  "tests": [
+    {
+      "command": "python3 -B tests/test_rules.py",
+      "tests": 18,
+      "status": "passed",
+      "elapsed_seconds_reported_by_unittest": 0.051
+    },
+    {
+      "command": "python3 -B /tmp/yk-new-bot-rule-counterexamples-20261001.py",
+      "tests": 24,
+      "status": "passed",
+      "elapsed_seconds_reported_by_unittest": 0.003
+    }
+  ],
+  "extra_counterexamples_sha256": "0f2acdc77d781c0bfe6444bdf0a2219bdf7c7f78851ff97b11f3119855a2551d",
+  "limitations": [
+    "No official server rule behavior re-execution by this agent",
+    "Latest website FAQ and competition operation evidence collected independently by root agent",
+    "No validation of a new C++ simulator yet; none existed at audit time"
+  ],
+  "site_review": {
+    "verified_by": "root agent in authenticated Chrome",
+    "urls": [
+      "https://yonsei-vs-korea-hackathon.kr/rules",
+      "https://yonsei-vs-korea-hackathon.kr/announcements"
+    ],
+    "evidence_path": "records/research/new-bot-20261001/site-review.json",
+    "faq_date": "2026-09-28 14:30 KST",
+    "limits_additional_to_local_json": {
+      "zip_bytes": 5242880,
+      "extracted_bytes": 20971520,
+      "files": 200,
+      "match_infrastructure_seconds": 180
+    },
+    "source_constant_arrays_allowed_within_runtime_limits": true,
+    "value_derivation_process_not_restricted": true,
+    "separate_data_binary_files_runtime_file_reads_network_disallowed": true
+  },
+  "report_sha256": "574a01e70c68fcf0114a1d95d565cc2b5c9ea51f2ab66c34892fb03202c96114"
+}

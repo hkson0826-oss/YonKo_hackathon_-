@@ -1,0 +1,269 @@
+{
+  "url": "https://yonsei-vs-korea-hackathon.kr/leaderboard",
+  "published_at": "2026-10-01T00:09:00+09:00",
+  "checked_at": "2026-10-01T02:51:00+09:00",
+  "total_teams": 87,
+  "coverage": "Read all 87 visible rows; retained top12 and our/latest opponents.",
+  "purpose": "Interim Swiss reference ranking, not final standings.",
+  "point_rate_formula": "(wins + 0.5*draws)/games",
+  "formula_checks": {
+    "강릉": 0.5833333333333334,
+    "붉은 산호초": 0.75,
+    "신촌도 우리땅": 0.5454545454545454
+  },
+  "rows": [
+    {
+      "rank": 1,
+      "school": "K",
+      "team": "tAIger",
+      "wins": 11,
+      "draws": 0,
+      "losses": 1,
+      "games": 12,
+      "errors": 0,
+      "point_rate": 0.9166666666666666
+    },
+    {
+      "rank": 2,
+      "school": "K",
+      "team": "야구사랑했단",
+      "wins": 9,
+      "draws": 0,
+      "losses": 3,
+      "games": 12,
+      "errors": 0,
+      "point_rate": 0.75
+    },
+    {
+      "rank": 3,
+      "school": "K",
+      "team": "붉은 산호초",
+      "wins": 9,
+      "draws": 0,
+      "losses": 3,
+      "games": 12,
+      "errors": 0,
+      "point_rate": 0.75
+    },
+    {
+      "rank": 4,
+      "school": "Y",
+      "team": "파스텔",
+      "wins": 9,
+      "draws": 0,
+      "losses": 3,
+      "games": 12,
+      "errors": 0,
+      "point_rate": 0.75
+    },
+    {
+      "rank": 5,
+      "school": "K",
+      "team": "신촌을못가",
+      "wins": 9,
+      "draws": 0,
+      "losses": 3,
+      "games": 12,
+      "errors": 0,
+      "point_rate": 0.75
+    },
+    {
+      "rank": 6,
+      "school": "Y",
+      "team": "치명ㄷ",
+      "wins": 9,
+      "draws": 0,
+      "losses": 3,
+      "games": 12,
+      "errors": 0,
+      "point_rate": 0.75
+    },
+    {
+      "rank": 7,
+      "school": "K",
+      "team": "AIKU",
+      "wins": 8,
+      "draws": 0,
+      "losses": 4,
+      "games": 12,
+      "errors": 0,
+      "point_rate": 0.6666666666666666
+    },
+    {
+      "rank": 8,
+      "school": "Y",
+      "team": "ACE",
+      "wins": 8,
+      "draws": 0,
+      "losses": 4,
+      "games": 12,
+      "errors": 0,
+      "point_rate": 0.6666666666666666
+    },
+    {
+      "rank": 9,
+      "school": "K",
+      "team": "페이커",
+      "wins": 8,
+      "draws": 0,
+      "losses": 4,
+      "games": 12,
+      "errors": 0,
+      "point_rate": 0.6666666666666666
+    },
+    {
+      "rank": 10,
+      "school": "K",
+      "team": "모든상금은제세공과금공제후지급됩니다",
+      "wins": 8,
+      "draws": 0,
+      "losses": 4,
+      "games": 12,
+      "errors": 0,
+      "point_rate": 0.6666666666666666
+    },
+    {
+      "rank": 10,
+      "school": "K",
+      "team": "참새튀김기",
+      "wins": 8,
+      "draws": 0,
+      "losses": 4,
+      "games": 12,
+      "errors": 0,
+      "point_rate": 0.6666666666666666
+    },
+    {
+      "rank": 12,
+      "school": "Y",
+      "team": "교수명:Claude",
+      "wins": 8,
+      "draws": 0,
+      "losses": 4,
+      "games": 12,
+      "errors": 0,
+      "point_rate": 0.6666666666666666
+    },
+    {
+      "rank": 33,
+      "school": "Y",
+      "team": "강릉",
+      "wins": 7,
+      "draws": 0,
+      "losses": 5,
+      "games": 12,
+      "errors": 0,
+      "point_rate": 0.5833333333333334
+    },
+    {
+      "rank": 34,
+      "school": "K",
+      "team": "신촌도 우리땅",
+      "wins": 6,
+      "draws": 0,
+      "losses": 5,
+      "games": 11,
+      "errors": 0,
+      "point_rate": 0.5454545454545454
+    },
+    {
+      "rank": 43,
+      "school": "Y",
+      "team": "올림픽 정신",
+      "wins": 6,
+      "draws": 0,
+      "losses": 6,
+      "games": 12,
+      "errors": 0,
+      "point_rate": 0.5
+    },
+    {
+      "rank": 44,
+      "school": "K",
+      "team": "니땅내땅",
+      "wins": 6,
+      "draws": 0,
+      "losses": 6,
+      "games": 12,
+      "errors": 0,
+      "point_rate": 0.5
+    },
+    {
+      "rank": 52,
+      "school": "K",
+      "team": "연세찜닭",
+      "wins": 6,
+      "draws": 0,
+      "losses": 6,
+      "games": 12,
+      "errors": 0,
+      "point_rate": 0.5
+    },
+    {
+      "rank": 56,
+      "school": "K",
+      "team": "저희 집 GPU가 추위를 타요",
+      "wins": 5,
+      "draws": 0,
+      "losses": 7,
+      "games": 12,
+      "errors": 0,
+      "point_rate": 0.4166666666666667
+    },
+    {
+      "rank": 57,
+      "school": "Y",
+      "team": "정진규컴퓨터시스템D504",
+      "wins": 5,
+      "draws": 0,
+      "losses": 7,
+      "games": 12,
+      "errors": 0,
+      "point_rate": 0.4166666666666667
+    },
+    {
+      "rank": 61,
+      "school": "K",
+      "team": "뚜띠태하소불고기와멸치두명",
+      "wins": 5,
+      "draws": 0,
+      "losses": 7,
+      "games": 12,
+      "errors": 0,
+      "point_rate": 0.4166666666666667
+    },
+    {
+      "rank": 73,
+      "school": "K",
+      "team": "hyper",
+      "wins": 4,
+      "draws": 0,
+      "losses": 7,
+      "games": 11,
+      "errors": 0,
+      "point_rate": 0.36363636363636365
+    },
+    {
+      "rank": 78,
+      "school": "Y",
+      "team": "고대26김준우사랑단",
+      "wins": 4,
+      "draws": 0,
+      "losses": 8,
+      "games": 12,
+      "errors": 0,
+      "point_rate": 0.3333333333333333
+    },
+    {
+      "rank": 84,
+      "school": "Y",
+      "team": "조니 해커 블루",
+      "wins": 2,
+      "draws": 0,
+      "losses": 9,
+      "games": 11,
+      "errors": 0,
+      "point_rate": 0.18181818181818182
+    }
+  ]
+}
