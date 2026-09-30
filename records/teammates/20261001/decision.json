@@ -1,0 +1,64 @@
+{
+  "date_kst": "2026-10-01",
+  "status": "completed",
+  "decision": "Keep submitted v8; do not replace it wholesale with teammate v1. No strategy source, ZIP or website selection changed.",
+  "source_plan": "plan.json",
+  "source_plan_sha256": "771521129d99bc3f73172528ca7d0a9cde7efd43e330331a83c568b06afc2f2b",
+  "games": 160,
+  "distinct_maps": 40,
+  "direct": {
+    "games": 64,
+    "maps": 32,
+    "v8_wins": 60,
+    "v8_losses": 4,
+    "Y": [
+      31,
+      0,
+      1
+    ],
+    "K": [
+      29,
+      0,
+      3
+    ]
+  },
+  "common_opponents": {
+    "games": 96,
+    "maps": 8,
+    "v8_wins": 33,
+    "v8_losses": 15,
+    "teammate_wins": 7,
+    "teammate_losses": 41,
+    "paired_v8_minus_teammate_percentage_points": 54.1666666667,
+    "map_cluster_bootstrap_95pct_percentage_points": [
+      25.0,
+      79.1666666667
+    ]
+  },
+  "errors": 0,
+  "forfeits": 0,
+  "draws": 0,
+  "audited_frames": 22660,
+  "runtime_interruption": "Common run terminated with exit143 after72 saved games; unknown cause. Resumed same frozen plan/policy for24 remaining games without overwriting completed matches.",
+  "next_comparisons": [
+    "Distant hospital commitments and forward production",
+    "Repeated F losses despite midgame score lead",
+    "Duplicate economic guard allocation with other support arriving"
+  ],
+  "limits": [
+    "No feature ablation or causal attribution",
+    "Exploratory post-hoc map strata",
+    "Fixed local opponents, not official leaderboard score",
+    "Current40 maps become development data if used for tuning",
+    "Time-budgeted v8 search may vary across runs",
+    "No website/login/submission action in this task"
+  ],
+  "validation": [
+    "Frozen branch/ZIP/runtime source equality",
+    "All160 replay hashes and unique job IDs",
+    "All320 player perspectives final score and unit accounting checked",
+    "All22660 frames action legality checked",
+    "Independent aggregation and report review",
+    "Original snapshot trailing Markdown whitespace preserved"
+  ]
+}

@@ -1,0 +1,4802 @@
+[
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18003,
+    "team": "K",
+    "job_id": "0cf8dbc45670f3894c725aec",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "instant",
+      "score": {
+        "Y": 0,
+        "K": 35
+      },
+      "turns": 99,
+      "seed": 18003
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 35,
+    "max_turn_ms": 122.11572500382317,
+    "opponent_max_turn_ms": 36.71777500130702,
+    "logical_trace_sha256": "52e36646b3957446e9fead75ad8ee72fda3671d8f3a27e694ecea6942431d5ae",
+    "started_utc": "2026-09-30T16:12:13.074164+00:00",
+    "finished_utc": "2026-09-30T16:12:20.157975+00:00",
+    "run": "direct-pilot",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-pilot/run/replays/0cf8dbc45670f3894c725aec.json.gz",
+    "replay_sha256": "8d0765d0d671f0f3b518dbcc00f98a7dce8eb0bff03e2454817a1e50e4372adb"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18001,
+    "team": "K",
+    "job_id": "823f2c5a592254805134d88d",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "instant",
+      "score": {
+        "Y": 0,
+        "K": 36
+      },
+      "turns": 117,
+      "seed": 18001
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 36,
+    "max_turn_ms": 108.19987500144634,
+    "opponent_max_turn_ms": 33.10901999793714,
+    "logical_trace_sha256": "9c62d13b06c609d81ebe93f3fb3963e577a95f1a2012e6e0d26c083a7f9b424a",
+    "started_utc": "2026-09-30T16:12:13.083366+00:00",
+    "finished_utc": "2026-09-30T16:12:21.283401+00:00",
+    "run": "direct-pilot",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-pilot/run/replays/823f2c5a592254805134d88d.json.gz",
+    "replay_sha256": "ff5397e42c2f3c5376e283cfeeab2c1b1e2059b80bf3363a38186209bea7ea14"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18001,
+    "team": "Y",
+    "job_id": "54fd2749d6c035b24781a751",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 33,
+        "K": 0
+      },
+      "turns": 130,
+      "seed": 18001
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 33,
+    "max_turn_ms": 122.86764800228411,
+    "opponent_max_turn_ms": 35.8897749974858,
+    "logical_trace_sha256": "70a7e8c0fcf2000e0c9a3503cf92be81cd6dc8707e899dbf7128c6ec61fe4241",
+    "started_utc": "2026-09-30T16:12:13.098032+00:00",
+    "finished_utc": "2026-09-30T16:12:22.512887+00:00",
+    "run": "direct-pilot",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-pilot/run/replays/54fd2749d6c035b24781a751.json.gz",
+    "replay_sha256": "275c72d0f1ab7893bd1199182f180977674a7a82d4568e738d75159bbbc267fc"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18002,
+    "team": "K",
+    "job_id": "5e4b2e84510b5dab19a58d8a",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 1,
+        "K": 36
+      },
+      "turns": 160,
+      "seed": 18002
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 35,
+    "max_turn_ms": 117.95074799738359,
+    "opponent_max_turn_ms": 34.811479003110435,
+    "logical_trace_sha256": "d2d59bd7cd6154820799f21b94e75093ee2bfc711cc6a11fa6fe1d1fc7a4db93",
+    "started_utc": "2026-09-30T16:12:13.132584+00:00",
+    "finished_utc": "2026-09-30T16:12:24.989984+00:00",
+    "run": "direct-pilot",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-pilot/run/replays/5e4b2e84510b5dab19a58d8a.json.gz",
+    "replay_sha256": "4f37f8eda0978beb6f360c2a0edbd48acce8a04d64163bb17a2c6d97c2078e6c"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18000,
+    "team": "K",
+    "job_id": "01b92385015a1327ac3d641c",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 7,
+        "K": 25
+      },
+      "turns": 160,
+      "seed": 18000
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 18,
+    "max_turn_ms": 118.61239800055046,
+    "opponent_max_turn_ms": 35.20709000440547,
+    "logical_trace_sha256": "e21e93e4d32098a21c68eb849fb7730da26767319c614fd432b1f7e867f45b63",
+    "started_utc": "2026-09-30T16:12:13.076990+00:00",
+    "finished_utc": "2026-09-30T16:12:25.535369+00:00",
+    "run": "direct-pilot",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-pilot/run/replays/01b92385015a1327ac3d641c.json.gz",
+    "replay_sha256": "c2b1b3f9a79816ce367580c48d0ee3a2f6f987e21dc7902a01c515ebc9c2659f"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18000,
+    "team": "Y",
+    "job_id": "a9b4024cc5eec37c5a69835d",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 27,
+        "K": 10
+      },
+      "turns": 160,
+      "seed": 18000
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 17,
+    "max_turn_ms": 115.70120800024597,
+    "opponent_max_turn_ms": 34.05616200325312,
+    "logical_trace_sha256": "ad7b7acc97cf0db509e4540068b8875ff987baecbc08d1a164d3d3f1f7e5b810",
+    "started_utc": "2026-09-30T16:12:13.078776+00:00",
+    "finished_utc": "2026-09-30T16:12:25.702106+00:00",
+    "run": "direct-pilot",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-pilot/run/replays/a9b4024cc5eec37c5a69835d.json.gz",
+    "replay_sha256": "6bdec8ba74992cd0cbbeb73d39f054b58e31075b1690ee646e2e2b19854ed818"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18003,
+    "team": "Y",
+    "job_id": "52571671418e86e1195dd1ea",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 35,
+        "K": 0
+      },
+      "turns": 115,
+      "seed": 18003
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 35,
+    "max_turn_ms": 98.11297499982174,
+    "opponent_max_turn_ms": 29.585843003587797,
+    "logical_trace_sha256": "dea19253f9650967ba11df66ffd2fb4f4eeace5370398629bc560aefda9f715d",
+    "started_utc": "2026-09-30T16:12:21.284315+00:00",
+    "finished_utc": "2026-09-30T16:12:29.037200+00:00",
+    "run": "direct-pilot",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-pilot/run/replays/52571671418e86e1195dd1ea.json.gz",
+    "replay_sha256": "21dea8a583263cb2a610cad6bc25d24247860e8c7292d61745c380b4b91c05ea"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18002,
+    "team": "Y",
+    "job_id": "2bf738f8fcb1340dc5fe5885",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 33,
+        "K": 4
+      },
+      "turns": 160,
+      "seed": 18002
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 29,
+    "max_turn_ms": 100.51699900213862,
+    "opponent_max_turn_ms": 27.935833000810817,
+    "logical_trace_sha256": "1b0ae41195cb537d2c0e3d0c7a83cc93cb8748c2349903fefa537d3e2b992dee",
+    "started_utc": "2026-09-30T16:12:20.158678+00:00",
+    "finished_utc": "2026-09-30T16:12:30.892530+00:00",
+    "run": "direct-pilot",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-pilot/run/replays/2bf738f8fcb1340dc5fe5885.json.gz",
+    "replay_sha256": "4821b78e8529d768bdc32bc5096fe6ccfa7d3abc84e15c5f822a276e89b8589d"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18007,
+    "team": "Y",
+    "job_id": "e3e395b3d4cfbda3c266016c",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 31,
+        "K": 0
+      },
+      "turns": 118,
+      "seed": 18007
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 31,
+    "max_turn_ms": 98.69898399483645,
+    "opponent_max_turn_ms": 43.47251800209051,
+    "logical_trace_sha256": "2c5b5fea2140e597c01f2a96df0cc5ec3cc5e1662d87c38582df71b43f50b1b6",
+    "started_utc": "2026-09-30T16:13:16.748971+00:00",
+    "finished_utc": "2026-09-30T16:13:24.988449+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/e3e395b3d4cfbda3c266016c.json.gz",
+    "replay_sha256": "cbe45d219525bc9ba0cb1d364c7aa3ff3ad7a86303b9410f7a35d735dc827eec"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18005,
+    "team": "Y",
+    "job_id": "1d68330f7013187e0d2c227f",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 32,
+        "K": 0
+      },
+      "turns": 126,
+      "seed": 18005
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 32,
+    "max_turn_ms": 107.90932000236353,
+    "opponent_max_turn_ms": 39.67035000096075,
+    "logical_trace_sha256": "81268db8acbdd85f820228b4b8eb68e8ba5b8cbc5b6a93fcd9948a8d5cf43be0",
+    "started_utc": "2026-09-30T16:13:16.725991+00:00",
+    "finished_utc": "2026-09-30T16:13:25.807602+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/1d68330f7013187e0d2c227f.json.gz",
+    "replay_sha256": "5d708ec44eadc3e19415b3f1f220b7f2f8b66af8e680934dba8cd39bf5a7d1ce"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18012,
+    "team": "Y",
+    "job_id": "e9c442159b9fa060a7d39aaf",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 25,
+        "K": 8
+      },
+      "turns": 160,
+      "seed": 18012
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 17,
+    "max_turn_ms": 112.46903899882454,
+    "opponent_max_turn_ms": 36.699169999337755,
+    "logical_trace_sha256": "f3c3e46782d26d145acf216b107d93e0ea1dec964b5e12e392f04d308de1d765",
+    "started_utc": "2026-09-30T16:13:16.726222+00:00",
+    "finished_utc": "2026-09-30T16:13:28.245344+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/e9c442159b9fa060a7d39aaf.json.gz",
+    "replay_sha256": "3470e6694526616d74a6a9f3123abfbbfc19890f38b14eccc61526a3bf00b65c"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18010,
+    "team": "Y",
+    "job_id": "76fcf0f1b0b826431e1e0331",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 36,
+        "K": 2
+      },
+      "turns": 160,
+      "seed": 18010
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 34,
+    "max_turn_ms": 114.353447999747,
+    "opponent_max_turn_ms": 31.965433001460042,
+    "logical_trace_sha256": "ce5d83a43da5f75e629a710614b132608783e8d85ab98c66d8f35aa7d2e1759e",
+    "started_utc": "2026-09-30T16:13:16.724981+00:00",
+    "finished_utc": "2026-09-30T16:13:28.563572+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/76fcf0f1b0b826431e1e0331.json.gz",
+    "replay_sha256": "33139476ec5e93227a23d193d156e84c9c6fd0514691b1def337eeb66acbe153"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18028,
+    "team": "K",
+    "job_id": "bf794433c8237dc070cf6e72",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 26,
+        "K": 11
+      },
+      "turns": 160,
+      "seed": 18028
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -15,
+    "max_turn_ms": 121.81405699811876,
+    "opponent_max_turn_ms": 47.8658819993143,
+    "logical_trace_sha256": "d9c49ae48a860c5c14e3f5054dd8aa9c6eecf4f0a28ffb4ae5cdcd5b84207204",
+    "started_utc": "2026-09-30T16:13:16.724372+00:00",
+    "finished_utc": "2026-09-30T16:13:28.814100+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/bf794433c8237dc070cf6e72.json.gz",
+    "replay_sha256": "301c509168071f71ed6b1f19a5a1b6ce9ca023d4d888f9aa91399e6512bf45cf"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18017,
+    "team": "Y",
+    "job_id": "1a5d8146e70cd1c1afd1e6c4",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 34,
+        "K": 0
+      },
+      "turns": 153,
+      "seed": 18017
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 34,
+    "max_turn_ms": 122.61245300032897,
+    "opponent_max_turn_ms": 33.14780200162204,
+    "logical_trace_sha256": "6007a4b7518ab4c39f43cac70b3c829c0d0820a218f67353068649c816e597fc",
+    "started_utc": "2026-09-30T16:13:16.731008+00:00",
+    "finished_utc": "2026-09-30T16:13:29.083120+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/1a5d8146e70cd1c1afd1e6c4.json.gz",
+    "replay_sha256": "66aeb7f9afb682eec6e7691e6808fb94edc971587d8ddef8793fb8fd745aebd8"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18024,
+    "team": "Y",
+    "job_id": "ce0ed1463e8ebbcd215a9925",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 28,
+        "K": 0
+      },
+      "turns": 70,
+      "seed": 18024
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 28,
+    "max_turn_ms": 113.8358669995796,
+    "opponent_max_turn_ms": 34.142179996706545,
+    "logical_trace_sha256": "3218bf0c21b820610deea3ced90e4dd7ad28597d751ea33fb5784a9b5d125d01",
+    "started_utc": "2026-09-30T16:13:24.989083+00:00",
+    "finished_utc": "2026-09-30T16:13:30.073276+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/ce0ed1463e8ebbcd215a9925.json.gz",
+    "replay_sha256": "059d6a442cb1da3766e068243dd43d981d6ae4379de1c8a785891f7aadbdb5fe"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18005,
+    "team": "K",
+    "job_id": "f4adbe3ae2e8987230cc58bf",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "instant",
+      "score": {
+        "Y": 0,
+        "K": 28
+      },
+      "turns": 102,
+      "seed": 18005
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 28,
+    "max_turn_ms": 118.50211000273703,
+    "opponent_max_turn_ms": 26.01213399611879,
+    "logical_trace_sha256": "8ded757d369b19393899a7dda637e5badade69473b107b3f3b11069f51338417",
+    "started_utc": "2026-09-30T16:13:25.808493+00:00",
+    "finished_utc": "2026-09-30T16:13:33.561586+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/f4adbe3ae2e8987230cc58bf.json.gz",
+    "replay_sha256": "45e28234f13c64082da4ae3f9977a048538ac5871b2c94c0237028ba787d21c6"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18011,
+    "team": "Y",
+    "job_id": "d3f9cd43c8884b5b2f861797",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 33,
+        "K": 0
+      },
+      "turns": 90,
+      "seed": 18011
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 33,
+    "max_turn_ms": 103.67638299794635,
+    "opponent_max_turn_ms": 29.383544002484996,
+    "logical_trace_sha256": "5dc84b25065f5089add2cbb6d907e1eb0c05298ff3f1db233944c8c35d25cf17",
+    "started_utc": "2026-09-30T16:13:30.073901+00:00",
+    "finished_utc": "2026-09-30T16:13:36.393476+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/d3f9cd43c8884b5b2f861797.json.gz",
+    "replay_sha256": "e4297a02349bdc49649e10321bdaa426a631dcf402325f184483b805a6f1e369"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18030,
+    "team": "Y",
+    "job_id": "1f5cf4d5a157da1d56f3426f",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 37,
+        "K": 0
+      },
+      "turns": 122,
+      "seed": 18030
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 37,
+    "max_turn_ms": 105.08427699824097,
+    "opponent_max_turn_ms": 29.133559997717384,
+    "logical_trace_sha256": "c892599dfa08aa5c83b0da2ace6ea89c085d675289a3ab1892c8ba7cc7803a5f",
+    "started_utc": "2026-09-30T16:13:28.246427+00:00",
+    "finished_utc": "2026-09-30T16:13:36.740428+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/1f5cf4d5a157da1d56f3426f.json.gz",
+    "replay_sha256": "d7c0feca3bce0879a2a8cd0c1698dac31ca3bd43281af7248b05e811fb014cc2"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18007,
+    "team": "K",
+    "job_id": "0a2a3d2b03c9aa6b5856c2bb",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "instant",
+      "score": {
+        "Y": 0,
+        "K": 32
+      },
+      "turns": 122,
+      "seed": 18007
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 32,
+    "max_turn_ms": 121.37020899535855,
+    "opponent_max_turn_ms": 31.186070998955984,
+    "logical_trace_sha256": "2c212f43d8dcdbb2c91bed8e073887450d7a2740d717a26babe528e9528148e0",
+    "started_utc": "2026-09-30T16:13:29.084217+00:00",
+    "finished_utc": "2026-09-30T16:13:37.755238+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/0a2a3d2b03c9aa6b5856c2bb.json.gz",
+    "replay_sha256": "b70141de70c586de1238a8d22a0992b86fe13056f0d521ad75fcb2fed4f2f8d3"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18014,
+    "team": "K",
+    "job_id": "bae9923618fcfd8e6f4cc770",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 4,
+        "K": 27
+      },
+      "turns": 160,
+      "seed": 18014
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 23,
+    "max_turn_ms": 123.04426099581178,
+    "opponent_max_turn_ms": 28.583398001501337,
+    "logical_trace_sha256": "0e9b8f06c948b1413d430a9bb0e1b65c59853a99376c5fb78869d71c3e35f326",
+    "started_utc": "2026-09-30T16:13:28.565304+00:00",
+    "finished_utc": "2026-09-30T16:13:40.037041+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/bae9923618fcfd8e6f4cc770.json.gz",
+    "replay_sha256": "34c4ac111c81dbd9e57e2feac20ffa19d523c9c2bf657c1a2edc36296bc400fb"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18009,
+    "team": "K",
+    "job_id": "cf54fa2360b8e78a8cd9743f",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 13,
+        "K": 15
+      },
+      "turns": 160,
+      "seed": 18009
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 2,
+    "max_turn_ms": 114.51449499872979,
+    "opponent_max_turn_ms": 29.12010299769463,
+    "logical_trace_sha256": "3b32aa00ca41a67f98ea73b2a17246692343bdf7472a1212b6211dd38210ab5d",
+    "started_utc": "2026-09-30T16:13:28.815236+00:00",
+    "finished_utc": "2026-09-30T16:13:41.133737+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/cf54fa2360b8e78a8cd9743f.json.gz",
+    "replay_sha256": "eea00c529d39ec8ee710a9e1f33c1fb1a5c7323de28117ea291e5059ad509f7b"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18024,
+    "team": "K",
+    "job_id": "4c78610b98d8fbfd70bd33d7",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "instant",
+      "score": {
+        "Y": 0,
+        "K": 25
+      },
+      "turns": 90,
+      "seed": 18024
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 25,
+    "max_turn_ms": 111.87236700061476,
+    "opponent_max_turn_ms": 29.09402400109684,
+    "logical_trace_sha256": "0650477ceec55331f0c193584847182f57a6bd50930281b351d2694a94061de2",
+    "started_utc": "2026-09-30T16:13:37.756126+00:00",
+    "finished_utc": "2026-09-30T16:13:44.282714+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/4c78610b98d8fbfd70bd33d7.json.gz",
+    "replay_sha256": "cf1043cf1808542d1495a1399c3fe165aa14e68094ce94375dda7fd918848b29"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18014,
+    "team": "Y",
+    "job_id": "cff0732fd6ae75e9286c6cda",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 26,
+        "K": 0
+      },
+      "turns": 125,
+      "seed": 18014
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 26,
+    "max_turn_ms": 115.95723600476049,
+    "opponent_max_turn_ms": 27.596519998041913,
+    "logical_trace_sha256": "a82273d2f284467055a28eac2cbc12207a03fc5e644501777082ce139bafe8c0",
+    "started_utc": "2026-09-30T16:13:36.394174+00:00",
+    "finished_utc": "2026-09-30T16:13:45.480967+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/cff0732fd6ae75e9286c6cda.json.gz",
+    "replay_sha256": "52189a91e5236608ec5e9be9165bcc187d53ac48f74591041119048f417a3e57"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18026,
+    "team": "K",
+    "job_id": "1d6faf910a10f1242457d7b8",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 10,
+        "K": 23
+      },
+      "turns": 160,
+      "seed": 18026
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 13,
+    "max_turn_ms": 123.98445900180377,
+    "opponent_max_turn_ms": 39.55295999912778,
+    "logical_trace_sha256": "491a938b2d571043e1de294bfab72a6252fadb74d36bd4e748fa7e66b837f229",
+    "started_utc": "2026-09-30T16:13:33.562291+00:00",
+    "finished_utc": "2026-09-30T16:13:46.426450+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/1d6faf910a10f1242457d7b8.json.gz",
+    "replay_sha256": "2b070399b7efd56dafa7c968fdcb5efc6e74bc389415e506b1a9bcf5d8989663"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18031,
+    "team": "Y",
+    "job_id": "8188d58da379e8577927e8b2",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 33,
+        "K": 0
+      },
+      "turns": 102,
+      "seed": 18031
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 33,
+    "max_turn_ms": 114.26660900178831,
+    "opponent_max_turn_ms": 32.64262099401094,
+    "logical_trace_sha256": "19b48387c9ccd2433ab92be9677dedf48f60eb4c44a23a120e44f8963ab60ffe",
+    "started_utc": "2026-09-30T16:13:40.038169+00:00",
+    "finished_utc": "2026-09-30T16:13:47.840622+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/8188d58da379e8577927e8b2.json.gz",
+    "replay_sha256": "e502b77653999b096e594ef5e1244258aab3fd1404e72858e6078484e5ccfdc5"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18012,
+    "team": "K",
+    "job_id": "e9e45dcf1294f280a19a7d42",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 2,
+        "K": 31
+      },
+      "turns": 160,
+      "seed": 18012
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 29,
+    "max_turn_ms": 118.76010499690892,
+    "opponent_max_turn_ms": 29.367824005021248,
+    "logical_trace_sha256": "a86c0a5ffb9cb25c45f6d838859c98df0f9eaf62843b532e82bbf6954cfb9f5b",
+    "started_utc": "2026-09-30T16:13:36.741227+00:00",
+    "finished_utc": "2026-09-30T16:13:48.262244+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/e9e45dcf1294f280a19a7d42.json.gz",
+    "replay_sha256": "ce41c05c23860d829090a3009d8b72a750541b7b3de37644a2714fca6dc8311d"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18022,
+    "team": "Y",
+    "job_id": "eea0a11cfb69d5c27304638e",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 34,
+        "K": 0
+      },
+      "turns": 114,
+      "seed": 18022
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 34,
+    "max_turn_ms": 109.46595499990508,
+    "opponent_max_turn_ms": 27.950245996180456,
+    "logical_trace_sha256": "f5113703589260095aba7865fd1a0fbe406f8095c9937900b8a91e4906f9ae66",
+    "started_utc": "2026-09-30T16:13:41.134789+00:00",
+    "finished_utc": "2026-09-30T16:13:49.103864+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/eea0a11cfb69d5c27304638e.json.gz",
+    "replay_sha256": "ee06994cbb4e56197713922e7c6551edab39805501a79800541d42ad42be1388"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18009,
+    "team": "Y",
+    "job_id": "3a7670467152121381479082",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 30,
+        "K": 0
+      },
+      "turns": 130,
+      "seed": 18009
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 30,
+    "max_turn_ms": 107.32959499728167,
+    "opponent_max_turn_ms": 31.64611700049136,
+    "logical_trace_sha256": "0652c9cca4c2c5e274cdea1426cbffd0da1bac5e137a66d521fd3c4942fb3643",
+    "started_utc": "2026-09-30T16:13:44.283497+00:00",
+    "finished_utc": "2026-09-30T16:13:53.607468+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/3a7670467152121381479082.json.gz",
+    "replay_sha256": "1f21b18b0f4d54f202fe86b77f3f0c2f1eed762d907d79548ab4c52678de455d"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18019,
+    "team": "K",
+    "job_id": "e79b37ed920d08a682facc39",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "instant",
+      "score": {
+        "Y": 0,
+        "K": 33
+      },
+      "turns": 146,
+      "seed": 18019
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 33,
+    "max_turn_ms": 124.44432199845323,
+    "opponent_max_turn_ms": 38.328681999701075,
+    "logical_trace_sha256": "56b5bb02684f9f02c93ec6e8ff14dbb29b63b6fb505819bababdf5f7e0647481",
+    "started_utc": "2026-09-30T16:13:45.481864+00:00",
+    "finished_utc": "2026-09-30T16:13:56.444550+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/e79b37ed920d08a682facc39.json.gz",
+    "replay_sha256": "6de08f04db4fd35dc3a6512fa1ed9053852058dce8f12a7f4fd57b64a3d82db0"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18026,
+    "team": "Y",
+    "job_id": "b87e3fa1d5e5a0abae10a383",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 21,
+        "K": 9
+      },
+      "turns": 160,
+      "seed": 18026
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 12,
+    "max_turn_ms": 123.30603299778886,
+    "opponent_max_turn_ms": 29.673404998902697,
+    "logical_trace_sha256": "eacff531b641c9630d4eb5d79041d1b189ec55bbf1cb4f86efbbf00674c9cc50",
+    "started_utc": "2026-09-30T16:13:46.427647+00:00",
+    "finished_utc": "2026-09-30T16:13:59.336954+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/b87e3fa1d5e5a0abae10a383.json.gz",
+    "replay_sha256": "040a7502cef8abd58e4061a510d60fde7041ce9774fe2ff3663b4dac558c9f20"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18010,
+    "team": "K",
+    "job_id": "cf7edf9dfb91ab9b9a09897a",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 2,
+        "K": 37
+      },
+      "turns": 160,
+      "seed": 18010
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 35,
+    "max_turn_ms": 118.66098499740474,
+    "opponent_max_turn_ms": 29.768664004222956,
+    "logical_trace_sha256": "4f2a84418035185d03aa9123d2d2ef028bb9ee16d77ae0398dae2455dea60c1b",
+    "started_utc": "2026-09-30T16:13:48.263412+00:00",
+    "finished_utc": "2026-09-30T16:14:00.037148+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/cf7edf9dfb91ab9b9a09897a.json.gz",
+    "replay_sha256": "027fee20d1888c9c618ba179080933ae953280caabe62473d133e525a595fbc4"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18025,
+    "team": "K",
+    "job_id": "4ebdb958943562da4906c8d4",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "instant",
+      "score": {
+        "Y": 0,
+        "K": 31
+      },
+      "turns": 157,
+      "seed": 18025
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 31,
+    "max_turn_ms": 117.03252399456687,
+    "opponent_max_turn_ms": 30.022047001693863,
+    "logical_trace_sha256": "2463eb8ac57b3d3c7375022c5860dfcf8fb3ad5d14c5c58cf72b625c9aed7a84",
+    "started_utc": "2026-09-30T16:13:47.841368+00:00",
+    "finished_utc": "2026-09-30T16:14:00.345759+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/4ebdb958943562da4906c8d4.json.gz",
+    "replay_sha256": "bb6b8a29fdb8261f7a552eda593dc99f6de26a2e57c5037ccea55161cee6e7f4"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18030,
+    "team": "K",
+    "job_id": "a7bca457684d38d8744b41a0",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 1,
+        "K": 35
+      },
+      "turns": 160,
+      "seed": 18030
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 34,
+    "max_turn_ms": 120.72669799817959,
+    "opponent_max_turn_ms": 31.2128270015819,
+    "logical_trace_sha256": "aa42df0f76d78c9d1339b966a8b25e72a1c1216a105f336978a852b6a5b65de9",
+    "started_utc": "2026-09-30T16:13:49.105569+00:00",
+    "finished_utc": "2026-09-30T16:14:00.883838+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/a7bca457684d38d8744b41a0.json.gz",
+    "replay_sha256": "a017a8586eeaa3081362ed904828609b3bb3f181994629ca5451e0ca0da0836c"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18006,
+    "team": "K",
+    "job_id": "5bfd48cbdac31be01eda903f",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "instant",
+      "score": {
+        "Y": 0,
+        "K": 37
+      },
+      "turns": 122,
+      "seed": 18006
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 37,
+    "max_turn_ms": 111.85372500040103,
+    "opponent_max_turn_ms": 30.17906299646711,
+    "logical_trace_sha256": "552df1a191a678ca84883540fdff306179fc47f76b9e4f542d3f330b8c96276b",
+    "started_utc": "2026-09-30T16:13:53.608439+00:00",
+    "finished_utc": "2026-09-30T16:14:02.274902+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/5bfd48cbdac31be01eda903f.json.gz",
+    "replay_sha256": "baf5788addf8809566598c9c4b047b08eb5e4132c4b07885b6f2599682a458b4"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18004,
+    "team": "K",
+    "job_id": "950ec41e7b8723bc3c05d560",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "instant",
+      "score": {
+        "Y": 0,
+        "K": 37
+      },
+      "turns": 94,
+      "seed": 18004
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 37,
+    "max_turn_ms": 99.99495500233024,
+    "opponent_max_turn_ms": 36.53373599809129,
+    "logical_trace_sha256": "b38b9a7e70cc71fbb661e0d67a85d47d0915b79790977ead93be8006f18852fb",
+    "started_utc": "2026-09-30T16:13:56.445776+00:00",
+    "finished_utc": "2026-09-30T16:14:02.912248+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/950ec41e7b8723bc3c05d560.json.gz",
+    "replay_sha256": "fe860827efe4c854009596dfa81483cc3d264a74279fbeb911032ac1fa3b7d71"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18031,
+    "team": "K",
+    "job_id": "c84c799224e1b5effff62eb5",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "instant",
+      "score": {
+        "Y": 0,
+        "K": 33
+      },
+      "turns": 102,
+      "seed": 18031
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 33,
+    "max_turn_ms": 121.78671899891924,
+    "opponent_max_turn_ms": 30.482176996883936,
+    "logical_trace_sha256": "17aa85774ead25045d530d0196bdfbcddb5c4e30286569f4faaaebe5c7fa8edf",
+    "started_utc": "2026-09-30T16:13:59.338004+00:00",
+    "finished_utc": "2026-09-30T16:14:06.610534+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/c84c799224e1b5effff62eb5.json.gz",
+    "replay_sha256": "0397cbe9eb3916ed8b237f4f4dfdb7f6881a9eabe78d2dbbbb2adaa690805a05"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18016,
+    "team": "K",
+    "job_id": "3206746c46ebd6c448042f1d",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "instant",
+      "score": {
+        "Y": 0,
+        "K": 36
+      },
+      "turns": 121,
+      "seed": 18016
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 36,
+    "max_turn_ms": 123.00867500016466,
+    "opponent_max_turn_ms": 29.720604994508903,
+    "logical_trace_sha256": "1ca25e0b3c33324958649b9267ffab9505f4c0d6c56a1daa80efffbdcd419968",
+    "started_utc": "2026-09-30T16:14:00.346937+00:00",
+    "finished_utc": "2026-09-30T16:14:10.149227+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/3206746c46ebd6c448042f1d.json.gz",
+    "replay_sha256": "100b8e1e88cb82de536ce08610a30a86e738785e25756b7b23b401435fbfe932"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18015,
+    "team": "Y",
+    "job_id": "c6e964476260d5bd3957bd21",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 27,
+        "K": 2
+      },
+      "turns": 160,
+      "seed": 18015
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 25,
+    "max_turn_ms": 121.48420800076565,
+    "opponent_max_turn_ms": 34.592620002513286,
+    "logical_trace_sha256": "1fc50e5f73b9c737cea4a7e8c77e071895b99f4958f9c7470838cb95b68eb2c2",
+    "started_utc": "2026-09-30T16:14:00.038271+00:00",
+    "finished_utc": "2026-09-30T16:14:12.536672+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/c6e964476260d5bd3957bd21.json.gz",
+    "replay_sha256": "d94a2ec7addcb7afd80668ce4bebff8b889f8b7561a0e0042491c810d0785afa"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18021,
+    "team": "K",
+    "job_id": "9b567f2c8fdc0629dccad71e",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 3,
+        "K": 34
+      },
+      "turns": 160,
+      "seed": 18021
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 31,
+    "max_turn_ms": 121.64440200285753,
+    "opponent_max_turn_ms": 41.70019999583019,
+    "logical_trace_sha256": "6b64ef742c2f9e92044be394959402669682224527bb3ae71ef46d9b73e98f0f",
+    "started_utc": "2026-09-30T16:14:00.884845+00:00",
+    "finished_utc": "2026-09-30T16:14:13.354676+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/9b567f2c8fdc0629dccad71e.json.gz",
+    "replay_sha256": "6ad2b14c2961e3787ee6fa3dec060b4e313ec7091857d73126604788e015284e"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18008,
+    "team": "Y",
+    "job_id": "71fd71895e0e5f14074d377d",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 38,
+        "K": 1
+      },
+      "turns": 160,
+      "seed": 18008
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 37,
+    "max_turn_ms": 121.57148199912626,
+    "opponent_max_turn_ms": 29.843791002349462,
+    "logical_trace_sha256": "08f44eda94417dd36b4a03bb6f003b2cdb20aa65fe533b85097abd5cf8c6e892",
+    "started_utc": "2026-09-30T16:14:02.275812+00:00",
+    "finished_utc": "2026-09-30T16:14:13.913170+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/71fd71895e0e5f14074d377d.json.gz",
+    "replay_sha256": "bbedaec996a10e79f60d2cb4aaee17225a82469d30a44a65f7234d223c16074b"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18021,
+    "team": "Y",
+    "job_id": "5141d06cc3620a78ff5d2409",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 20,
+        "K": 17
+      },
+      "turns": 160,
+      "seed": 18021
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 3,
+    "max_turn_ms": 124.13901399850147,
+    "opponent_max_turn_ms": 30.938877003791276,
+    "logical_trace_sha256": "3246dd2b613418600dc54e338c195852db4161a4c06746b4950637f4a23f16fa",
+    "started_utc": "2026-09-30T16:14:02.912968+00:00",
+    "finished_utc": "2026-09-30T16:14:15.290704+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/5141d06cc3620a78ff5d2409.json.gz",
+    "replay_sha256": "c0e589b8afa0d9501f2ce88acf3b1f81ed919c7c50ead5a39edfcaaa84411db2"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18023,
+    "team": "K",
+    "job_id": "42ebf2aa104a98b6f672ff79",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "instant",
+      "score": {
+        "Y": 0,
+        "K": 24
+      },
+      "turns": 111,
+      "seed": 18023
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 24,
+    "max_turn_ms": 122.84079899836797,
+    "opponent_max_turn_ms": 30.761286994675174,
+    "logical_trace_sha256": "14ede63adf34bddcc348afc585582506dcf597842fbc3e1c5d2eb532197505b9",
+    "started_utc": "2026-09-30T16:14:06.611212+00:00",
+    "finished_utc": "2026-09-30T16:14:15.420274+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/42ebf2aa104a98b6f672ff79.json.gz",
+    "replay_sha256": "d3d28de1a1cc66b054230832c53486dd1b08c09155fcfcddbe595cfbc93a088d"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18018,
+    "team": "Y",
+    "job_id": "375523a102b4eebff2c89f98",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 28,
+        "K": 3
+      },
+      "turns": 160,
+      "seed": 18018
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 25,
+    "max_turn_ms": 124.47561799490359,
+    "opponent_max_turn_ms": 41.44229299708968,
+    "logical_trace_sha256": "72d5421eb1e71c5687736a16669c0a69b8055199341e202f220201e9a1c61642",
+    "started_utc": "2026-09-30T16:14:10.150404+00:00",
+    "finished_utc": "2026-09-30T16:14:22.698010+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/375523a102b4eebff2c89f98.json.gz",
+    "replay_sha256": "3b2172ac022618b591738cf798bf86e48192229a92e9a5701484943a953db713"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18027,
+    "team": "Y",
+    "job_id": "f62a6609c6101c3bff5904d3",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 37,
+        "K": 0
+      },
+      "turns": 120,
+      "seed": 18027
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 37,
+    "max_turn_ms": 121.71851900347974,
+    "opponent_max_turn_ms": 36.519600995234214,
+    "logical_trace_sha256": "5510ef495273ca683dcdaaf3b540060274ff56400ff9b5827b8ffce886c44c08",
+    "started_utc": "2026-09-30T16:14:13.914345+00:00",
+    "finished_utc": "2026-09-30T16:14:22.727156+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/f62a6609c6101c3bff5904d3.json.gz",
+    "replay_sha256": "2df28355154a32d8df5b45963d78db457b2ca20339ff0b2eff692a5812407030"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18028,
+    "team": "Y",
+    "job_id": "f925bd24e3dd6d9b8133f48c",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 29,
+        "K": 0
+      },
+      "turns": 119,
+      "seed": 18028
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 29,
+    "max_turn_ms": 120.2801570034353,
+    "opponent_max_turn_ms": 33.0730540008517,
+    "logical_trace_sha256": "f92e2103daea527c16508ef8ab97db71c656e06e4ad71b800e73af1614385db4",
+    "started_utc": "2026-09-30T16:14:13.355840+00:00",
+    "finished_utc": "2026-09-30T16:14:22.888685+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/f925bd24e3dd6d9b8133f48c.json.gz",
+    "replay_sha256": "3058f6381a5567bd7f337216778fa72778f553fc394744d2195beebfa50ad739"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18029,
+    "team": "Y",
+    "job_id": "f9ff2c89bedb778223b9f609",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 21,
+        "K": 11
+      },
+      "turns": 160,
+      "seed": 18029
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 10,
+    "max_turn_ms": 124.29033999796957,
+    "opponent_max_turn_ms": 29.21300399611937,
+    "logical_trace_sha256": "24a8315affb2d45d90847b1e3739b334031af1ee61e59bd6d5614274fbfbbc3b",
+    "started_utc": "2026-09-30T16:14:12.538061+00:00",
+    "finished_utc": "2026-09-30T16:14:25.838581+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/f9ff2c89bedb778223b9f609.json.gz",
+    "replay_sha256": "9a1cafff16de3a717be26110a2436adf9736e72a7baa90d2fc9c462fd7be21eb"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18022,
+    "team": "K",
+    "job_id": "7d5459bde604e28f7c938c38",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 23,
+        "K": 14
+      },
+      "turns": 160,
+      "seed": 18022
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -9,
+    "max_turn_ms": 112.59086299833143,
+    "opponent_max_turn_ms": 29.563884003437124,
+    "logical_trace_sha256": "36de682ca665d980cba07161a717a38a7bd732be732a8577faf3c70fb30b8ab9",
+    "started_utc": "2026-09-30T16:14:15.291803+00:00",
+    "finished_utc": "2026-09-30T16:14:26.605043+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/7d5459bde604e28f7c938c38.json.gz",
+    "replay_sha256": "a4f1c72cdceca37fd3fe321f7f92d4376c6ce946782d789915809deace583893"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18029,
+    "team": "K",
+    "job_id": "8a60da33e92871f8491af94e",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 9,
+        "K": 22
+      },
+      "turns": 160,
+      "seed": 18029
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 13,
+    "max_turn_ms": 124.93108399939956,
+    "opponent_max_turn_ms": 30.369300999154802,
+    "logical_trace_sha256": "f487cbb1fdd8475e478a95dae4764bc1f846467d6fcac6230a574467640d5443",
+    "started_utc": "2026-09-30T16:14:15.421044+00:00",
+    "finished_utc": "2026-09-30T16:14:27.812026+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/8a60da33e92871f8491af94e.json.gz",
+    "replay_sha256": "85483f8cab4ebedec36bf36bc23d0e0bb7726d500345ec2194ee7f3e493fa81f"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18004,
+    "team": "Y",
+    "job_id": "08664f3302291e8f4abe34b6",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 36,
+        "K": 0
+      },
+      "turns": 82,
+      "seed": 18004
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 36,
+    "max_turn_ms": 124.50805600383319,
+    "opponent_max_turn_ms": 29.897574000642635,
+    "logical_trace_sha256": "b3c3c8733757a56c36f282f9f2eed5c86ba31654d5bdd83bc0941a2649bf117a",
+    "started_utc": "2026-09-30T16:14:22.728460+00:00",
+    "finished_utc": "2026-09-30T16:14:28.466000+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/08664f3302291e8f4abe34b6.json.gz",
+    "replay_sha256": "0902f24815c6b1c812e673add8ee98539a2157ac8059cda79505e275b2083fb3"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18020,
+    "team": "Y",
+    "job_id": "3484b59d8c896cfa14171631",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "instant",
+      "score": {
+        "Y": 0,
+        "K": 41
+      },
+      "turns": 131,
+      "seed": 18020
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -41,
+    "max_turn_ms": 116.76207800337579,
+    "opponent_max_turn_ms": 35.67545699479524,
+    "logical_trace_sha256": "7619a26547b3e9d9365dc0849484db62241b4413419725437b1ed0f812bd5833",
+    "started_utc": "2026-09-30T16:14:22.889616+00:00",
+    "finished_utc": "2026-09-30T16:14:32.716667+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/3484b59d8c896cfa14171631.json.gz",
+    "replay_sha256": "1654900407a962b0be85eac7c8de761ccbb5644d025ad1db843bd25d4a95331e"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18013,
+    "team": "K",
+    "job_id": "15b956c44c40e9e66d4dcc7a",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 5,
+        "K": 34
+      },
+      "turns": 160,
+      "seed": 18013
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 29,
+    "max_turn_ms": 119.22851300187176,
+    "opponent_max_turn_ms": 28.07505999953719,
+    "logical_trace_sha256": "d21f4e55656e939252ae36a766cdf8b1b5ec0639d85bf9b436cfae436ca2c086",
+    "started_utc": "2026-09-30T16:14:22.699084+00:00",
+    "finished_utc": "2026-09-30T16:14:35.285664+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/15b956c44c40e9e66d4dcc7a.json.gz",
+    "replay_sha256": "a25446b45f451f92b957448a8255eee7067c2c1ae0246ef0cf7959195255a523"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18019,
+    "team": "Y",
+    "job_id": "4cb5e262888dee4312c83fbe",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 34,
+        "K": 0
+      },
+      "turns": 121,
+      "seed": 18019
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 34,
+    "max_turn_ms": 121.81793299532728,
+    "opponent_max_turn_ms": 27.362689004803542,
+    "logical_trace_sha256": "e4e396fefc119a1c443d1f82bec152b81de1271b2c4bd8b672e49cfe7da1e95c",
+    "started_utc": "2026-09-30T16:14:26.606059+00:00",
+    "finished_utc": "2026-09-30T16:14:35.511782+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/4cb5e262888dee4312c83fbe.json.gz",
+    "replay_sha256": "bf9a0c48850d76969aae11038c19f1cec6ed7357c5178c4c61a51537268e8f0e"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18006,
+    "team": "Y",
+    "job_id": "a8a357b2589c72a733a24747",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 37,
+        "K": 0
+      },
+      "turns": 138,
+      "seed": 18006
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 37,
+    "max_turn_ms": 102.42358899995452,
+    "opponent_max_turn_ms": 29.782190998957958,
+    "logical_trace_sha256": "1adfbbf19c3f08983194bdb67e1daf15610d6ac3c6615a07640eaa1910bca3b7",
+    "started_utc": "2026-09-30T16:14:25.839815+00:00",
+    "finished_utc": "2026-09-30T16:14:35.870515+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/a8a357b2589c72a733a24747.json.gz",
+    "replay_sha256": "f81798abf96749c0c91be3571f8c3387c29916a26b0c84bd546f8acd0110e640"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18023,
+    "team": "Y",
+    "job_id": "5637bfaaed69b938754f771d",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 34,
+        "K": 1
+      },
+      "turns": 160,
+      "seed": 18023
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 33,
+    "max_turn_ms": 116.45470200164709,
+    "opponent_max_turn_ms": 42.08656300033908,
+    "logical_trace_sha256": "30f04790e813cf29c8e9a95d76598ee9a46c7b37be981d6d67cb3d63297fc751",
+    "started_utc": "2026-09-30T16:14:28.466772+00:00",
+    "finished_utc": "2026-09-30T16:14:40.477926+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/5637bfaaed69b938754f771d.json.gz",
+    "replay_sha256": "f72dced46680ba1fb776ac7d54fcd80de9175cac1a5af30a1b0e18ac043198e3"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18015,
+    "team": "K",
+    "job_id": "f029da20b7405d448e2b50a3",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 7,
+        "K": 22
+      },
+      "turns": 160,
+      "seed": 18015
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 15,
+    "max_turn_ms": 117.21380399831105,
+    "opponent_max_turn_ms": 35.002553995582275,
+    "logical_trace_sha256": "aa62e146a1ea1e88c3db3d04a0e993d64e8fd8a15972ce9cf770992db86adbdd",
+    "started_utc": "2026-09-30T16:14:27.813164+00:00",
+    "finished_utc": "2026-09-30T16:14:40.561161+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/f029da20b7405d448e2b50a3.json.gz",
+    "replay_sha256": "aed3e14aa712209397a5886fc469c85eee33f531b912eb36dd63ca49f7f81586"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18018,
+    "team": "K",
+    "job_id": "44fe4f911ce3caf9c5a20a89",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "instant",
+      "score": {
+        "Y": 0,
+        "K": 29
+      },
+      "turns": 93,
+      "seed": 18018
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 29,
+    "max_turn_ms": 116.12910999974702,
+    "opponent_max_turn_ms": 44.19861299538752,
+    "logical_trace_sha256": "8dab8de4d781494e4d6a6aec76736558c2e3a2355fbc31f14d2634e90777e390",
+    "started_utc": "2026-09-30T16:14:35.871474+00:00",
+    "finished_utc": "2026-09-30T16:14:42.202550+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/44fe4f911ce3caf9c5a20a89.json.gz",
+    "replay_sha256": "f52a7fc9870de7fdbc219d848350587cc265d315b040ccfdf7da68eda82833f2"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18011,
+    "team": "K",
+    "job_id": "717d11e362925c5fc9910b32",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "instant",
+      "score": {
+        "Y": 0,
+        "K": 34
+      },
+      "turns": 134,
+      "seed": 18011
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 34,
+    "max_turn_ms": 103.88519499974791,
+    "opponent_max_turn_ms": 25.86780199635541,
+    "logical_trace_sha256": "61e88488bd4e28b9534b2c6211c27d2d8383f1ca20a0e80de73fa108cc07e61e",
+    "started_utc": "2026-09-30T16:14:32.717862+00:00",
+    "finished_utc": "2026-09-30T16:14:42.787273+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/717d11e362925c5fc9910b32.json.gz",
+    "replay_sha256": "e5558690057ba9c162cd92d74fb24c22d1cff6bcdfa370dfdbf9a4df9fae717e"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18008,
+    "team": "K",
+    "job_id": "fd0541ffd5f3ddebc4736619",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 8,
+        "K": 29
+      },
+      "turns": 160,
+      "seed": 18008
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 21,
+    "max_turn_ms": 103.23679899738636,
+    "opponent_max_turn_ms": 29.291540995473042,
+    "logical_trace_sha256": "324770696069b81f2350010bde49e0cb7653b7888e9dd02e899211a3acd0680d",
+    "started_utc": "2026-09-30T16:14:35.512704+00:00",
+    "finished_utc": "2026-09-30T16:14:46.662604+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/fd0541ffd5f3ddebc4736619.json.gz",
+    "replay_sha256": "e7dfdcc100c84c79c932a088f4acb428cdc5c45de4b19285bc486f4be5f45745"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18027,
+    "team": "K",
+    "job_id": "f2dbe0af1ec68bfc7032bae6",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "instant",
+      "score": {
+        "Y": 0,
+        "K": 33
+      },
+      "turns": 59,
+      "seed": 18027
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 33,
+    "max_turn_ms": 122.96575299842516,
+    "opponent_max_turn_ms": 39.62346699699992,
+    "logical_trace_sha256": "5b1e52ff40ae1fe259b41e900707d294cb02ba88acb9df684e10d061f9804460",
+    "started_utc": "2026-09-30T16:14:42.203251+00:00",
+    "finished_utc": "2026-09-30T16:14:46.983768+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/f2dbe0af1ec68bfc7032bae6.json.gz",
+    "replay_sha256": "aa1afd44ba6d016fd024c60665536472e500de4acd386fdd08cc10d01de8f0fc"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18017,
+    "team": "K",
+    "job_id": "57cc285a979a9d6db88e7e50",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 10,
+        "K": 27
+      },
+      "turns": 160,
+      "seed": 18017
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 17,
+    "max_turn_ms": 117.3546459976933,
+    "opponent_max_turn_ms": 28.23047200217843,
+    "logical_trace_sha256": "9de5cc02526a54399bdce4137f7cc7dfde76ffe70fb61be33ccf3cbb119408ad",
+    "started_utc": "2026-09-30T16:14:35.287065+00:00",
+    "finished_utc": "2026-09-30T16:14:47.798407+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/57cc285a979a9d6db88e7e50.json.gz",
+    "replay_sha256": "efc8a96cdc36a1c6c5c1ee506457530fb320e57b936d17da794654e8373715f8"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18020,
+    "team": "K",
+    "job_id": "5de3450dcc120b9b84d0948c",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 41,
+        "K": 0
+      },
+      "turns": 74,
+      "seed": 18020
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -41,
+    "max_turn_ms": 91.88029499637196,
+    "opponent_max_turn_ms": 35.650076999445446,
+    "logical_trace_sha256": "19fbcd7319c1e11b7e11a1dd48efee76a6db0b3f1baded6c23caa667b8264803",
+    "started_utc": "2026-09-30T16:14:42.788301+00:00",
+    "finished_utc": "2026-09-30T16:14:48.000263+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/5de3450dcc120b9b84d0948c.json.gz",
+    "replay_sha256": "bbaf2988885e3ee486d536db5a760fc79d925b4d6863138f35d9550acbcdba40"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18013,
+    "team": "Y",
+    "job_id": "3df75f5042a6b706713dee6a",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 34,
+        "K": 0
+      },
+      "turns": 153,
+      "seed": 18013
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 34,
+    "max_turn_ms": 111.46992800058797,
+    "opponent_max_turn_ms": 25.106435001362115,
+    "logical_trace_sha256": "74741af0c5834ec546e1d86689f401bbf88205cfaccd54cfdb8907db5f8511a4",
+    "started_utc": "2026-09-30T16:14:40.562350+00:00",
+    "finished_utc": "2026-09-30T16:14:51.422202+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/3df75f5042a6b706713dee6a.json.gz",
+    "replay_sha256": "ccee69f3d922ded72c3dc77d4df80d407469b2d0c002af7bdae6a953389c12f4"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18025,
+    "team": "Y",
+    "job_id": "194e3e1da122e75c332b50c3",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 31,
+        "K": 0
+      },
+      "turns": 153,
+      "seed": 18025
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 31,
+    "max_turn_ms": 114.55150399706326,
+    "opponent_max_turn_ms": 32.18510199803859,
+    "logical_trace_sha256": "0d6113ce881508304e852c71a7ea8afdc2800e3f83781a68b5f4df9010b5579d",
+    "started_utc": "2026-09-30T16:14:40.479130+00:00",
+    "finished_utc": "2026-09-30T16:14:52.114363+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/194e3e1da122e75c332b50c3.json.gz",
+    "replay_sha256": "aa3b0667aed12ceabdc2c7c24cf0d7f61282c896c3f1e3e1c8dfb99b7ba759ea"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "teammate",
+    "map_seed": 18016,
+    "team": "Y",
+    "job_id": "b29ccab45524072a03b9fc26",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 38,
+        "K": 0
+      },
+      "turns": 149,
+      "seed": 18016
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 38,
+    "max_turn_ms": 100.7620960008353,
+    "opponent_max_turn_ms": 30.046322994166985,
+    "logical_trace_sha256": "3c3ecb1eb5fb920674efbbf8ef784005c3f97b4fa9b7c2fee04163bc04fc4fa7",
+    "started_utc": "2026-09-30T16:14:46.663694+00:00",
+    "finished_utc": "2026-09-30T16:14:56.430662+00:00",
+    "run": "direct-main",
+    "replay_archive_path": "records/teammates/20261001/runs/direct-main/run/replays/b29ccab45524072a03b9fc26.json.gz",
+    "replay_sha256": "b178ba7d7420d020e15bfa0ac59616fee7f4d3e7895cc8959919401f85f4559c"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 18107,
+    "team": "K",
+    "job_id": "3cbd8061dc01ce0c99ec441c",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 21,
+        "K": 18
+      },
+      "turns": 160,
+      "seed": 18107
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -3,
+    "max_turn_ms": 39.23354600556195,
+    "opponent_max_turn_ms": 15.909720001218375,
+    "logical_trace_sha256": "d33f80b657280bad019f53ebba04ea15b2aa41511d7a3cc42aec20cb8bad7019",
+    "started_utc": "2026-09-30T16:15:07.081379+00:00",
+    "finished_utc": "2026-09-30T16:15:09.198521+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/3cbd8061dc01ce0c99ec441c.json.gz",
+    "replay_sha256": "56de9c5b370880f96a57a32f289e609b37e80bffead45734879f6d32f1002da9"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 18103,
+    "team": "K",
+    "job_id": "b20f6efcb9bcc16d1f5da4f7",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 24,
+        "K": 9
+      },
+      "turns": 160,
+      "seed": 18103
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -15,
+    "max_turn_ms": 27.65611300128512,
+    "opponent_max_turn_ms": 16.38722400093684,
+    "logical_trace_sha256": "c76ee830d955a974ac664b8efba273d3d7e319e780d389a59ea65506e12d6175",
+    "started_utc": "2026-09-30T16:15:07.095971+00:00",
+    "finished_utc": "2026-09-30T16:15:09.209571+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/b20f6efcb9bcc16d1f5da4f7.json.gz",
+    "replay_sha256": "e451ac7ce79d6d9c630a2e361cd5991df649f8a8e04d45ae3f01e98727b3ee2c"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 18102,
+    "team": "K",
+    "job_id": "ffc7dc97308d480f41c57496",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 22,
+        "K": 11
+      },
+      "turns": 160,
+      "seed": 18102
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -11,
+    "max_turn_ms": 43.21596500085434,
+    "opponent_max_turn_ms": 16.66912200016668,
+    "logical_trace_sha256": "4bbd20f251148fde91782349906cdbbf7bb2d0259d6292e420b0709d3efbc496",
+    "started_utc": "2026-09-30T16:15:07.082732+00:00",
+    "finished_utc": "2026-09-30T16:15:09.277531+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/ffc7dc97308d480f41c57496.json.gz",
+    "replay_sha256": "0c40db080d659a0c28cbc80ea0e707c6eddd5dfa409b7e2c36f2ff5ff7c11ed3"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "s3_selective_contact",
+    "map_seed": 18103,
+    "team": "K",
+    "job_id": "70ae6674e387b9fa5de238f0",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 32,
+        "K": 0
+      },
+      "turns": 87,
+      "seed": 18103
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -32,
+    "max_turn_ms": 42.632062002667226,
+    "opponent_max_turn_ms": 120.36951900518034,
+    "logical_trace_sha256": "73f524b01f95c920cd5d3bbd7e7dc7e4517b0f86a970c33fdbb4e0e1c0498027",
+    "started_utc": "2026-09-30T16:15:07.089208+00:00",
+    "finished_utc": "2026-09-30T16:15:13.350319+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/70ae6674e387b9fa5de238f0.json.gz",
+    "replay_sha256": "052819f078bb544e2ab14608fa6dd1df6f9c2bea01cd5808b0d15cac94f5dcdf"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "v3",
+    "map_seed": 18100,
+    "team": "K",
+    "job_id": "2fc715c2d3fd082fd5d6e92b",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 27,
+        "K": 2
+      },
+      "turns": 160,
+      "seed": 18100
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -25,
+    "max_turn_ms": 28.311880996625405,
+    "opponent_max_turn_ms": 62.37292500009062,
+    "logical_trace_sha256": "aab03067e9c38eff3f7ae2bfa73d02979d6e0f958a84ff66fc217303a235faee",
+    "started_utc": "2026-09-30T16:15:07.082680+00:00",
+    "finished_utc": "2026-09-30T16:15:13.508350+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/2fc715c2d3fd082fd5d6e92b.json.gz",
+    "replay_sha256": "98237fd2c8bba36b84f30275ea3b3315bc29805af923f627ee2e227a0a7368af"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "v3",
+    "map_seed": 18106,
+    "team": "K",
+    "job_id": "fddb93339e896f17d7381ce3",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 28,
+        "K": 0
+      },
+      "turns": 127,
+      "seed": 18106
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -28,
+    "max_turn_ms": 122.29679300071439,
+    "opponent_max_turn_ms": 67.87052000436233,
+    "logical_trace_sha256": "27af0d33bf81b1f0921f0b771a1a7670b1b3e495fb5cdf411a6eca6bc6ca2a82",
+    "started_utc": "2026-09-30T16:15:09.199650+00:00",
+    "finished_utc": "2026-09-30T16:15:19.760614+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/fddb93339e896f17d7381ce3.json.gz",
+    "replay_sha256": "c16bbcffc6f68434f249d5365a9c6710f0d2a228ee142a61dcbb539e3fd2b049"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "v3",
+    "map_seed": 18105,
+    "team": "K",
+    "job_id": "fff979a7f0f2d3a82c8a79bd",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 21,
+        "K": 6
+      },
+      "turns": 160,
+      "seed": 18105
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -15,
+    "max_turn_ms": 122.00809799833223,
+    "opponent_max_turn_ms": 69.1625949984882,
+    "logical_trace_sha256": "52ed916bbf391a47c2b66b2570bb5cfb0a8fe2a98acc882d9e689a5199caddae",
+    "started_utc": "2026-09-30T16:15:07.111897+00:00",
+    "finished_utc": "2026-09-30T16:15:21.088864+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/fff979a7f0f2d3a82c8a79bd.json.gz",
+    "replay_sha256": "3c84d037ba1635add51620783bc9471695a633c02b0796e28d5b24bcfd08fb21"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "s3_selective_contact",
+    "map_seed": 18100,
+    "team": "K",
+    "job_id": "eeb77557308ce9d0bba9b226",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 17,
+        "K": 12
+      },
+      "turns": 160,
+      "seed": 18100
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -5,
+    "max_turn_ms": 27.969460999884177,
+    "opponent_max_turn_ms": 127.97825399320573,
+    "logical_trace_sha256": "55d5bf38950304a2a2ab55d31b1913da1bad5c6da58bce97ae70e9a86f50fbbb",
+    "started_utc": "2026-09-30T16:15:09.210710+00:00",
+    "finished_utc": "2026-09-30T16:15:21.139458+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/eeb77557308ce9d0bba9b226.json.gz",
+    "replay_sha256": "f797603e614cf4e5c4d9d52004a6edc673127e620f1d58ab0520c501972ec738"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 18100,
+    "team": "K",
+    "job_id": "1fa8f494298facbcd6a3af3e",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "instant",
+      "score": {
+        "Y": 0,
+        "K": 26
+      },
+      "turns": 91,
+      "seed": 18100
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 26,
+    "max_turn_ms": 123.80724599643145,
+    "opponent_max_turn_ms": 16.855698995641433,
+    "logical_trace_sha256": "35c34be15292682858f3f90a48f6b30b186a92e717bada86e89d488530a6b3d2",
+    "started_utc": "2026-09-30T16:15:13.351081+00:00",
+    "finished_utc": "2026-09-30T16:15:21.153410+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/1fa8f494298facbcd6a3af3e.json.gz",
+    "replay_sha256": "3835530dbf1b6059bc8eb30305afc762ab859b9b6e5546fb2c39a508ed8c3c16"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "s3_selective_contact",
+    "map_seed": 18106,
+    "team": "Y",
+    "job_id": "2ec9bc89da9c1a294724f28e",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 19,
+        "K": 15
+      },
+      "turns": 160,
+      "seed": 18106
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 4,
+    "max_turn_ms": 29.58797199971741,
+    "opponent_max_turn_ms": 135.61075500183506,
+    "logical_trace_sha256": "ab46c186d5c13b8d16fbc3bed4b1c0371d31614011f3239e0b647b55e9dd4a33",
+    "started_utc": "2026-09-30T16:15:09.278760+00:00",
+    "finished_utc": "2026-09-30T16:15:22.897138+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/2ec9bc89da9c1a294724f28e.json.gz",
+    "replay_sha256": "8dd00a86a1ff758f9dba4f4224d5a0a45b957205affe7bb1710c17a331946564"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 18107,
+    "team": "Y",
+    "job_id": "ac7ff6716480ec44abd087c9",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 14,
+        "K": 25
+      },
+      "turns": 160,
+      "seed": 18107
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -11,
+    "max_turn_ms": 28.9625840014196,
+    "opponent_max_turn_ms": 17.286274996877182,
+    "logical_trace_sha256": "ae9686d2d32e6ff1e6ed947fbbcbbf1ffd0fa3a9a6c55e517977a893cb6542af",
+    "started_utc": "2026-09-30T16:15:21.140631+00:00",
+    "finished_utc": "2026-09-30T16:15:23.496306+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/ac7ff6716480ec44abd087c9.json.gz",
+    "replay_sha256": "26374be240a406a5a6d6b93b26d74c1e3ba0e1154a9d189e82379e9be6300b5e"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "s3_selective_contact",
+    "map_seed": 18105,
+    "team": "Y",
+    "job_id": "56acc7790472e07c79bfd626",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 20,
+        "K": 6
+      },
+      "turns": 160,
+      "seed": 18105
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 14,
+    "max_turn_ms": 125.5157350024092,
+    "opponent_max_turn_ms": 135.7504930056166,
+    "logical_trace_sha256": "687c5661fe6ff43969bc50859f873712f4f586e44cf116581b0b5d3cc96a86b2",
+    "started_utc": "2026-09-30T16:15:13.509329+00:00",
+    "finished_utc": "2026-09-30T16:15:30.660861+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/56acc7790472e07c79bfd626.json.gz",
+    "replay_sha256": "43cbfe5fc4fe662743f1d91df3066a2223cd911cb6d79eebde8854802fed4e20"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "v3",
+    "map_seed": 18105,
+    "team": "Y",
+    "job_id": "68ed7c44869d5f38d0eecdb0",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 29,
+        "K": 0
+      },
+      "turns": 149,
+      "seed": 18105
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 29,
+    "max_turn_ms": 126.82549700548407,
+    "opponent_max_turn_ms": 73.42414899903815,
+    "logical_trace_sha256": "577ea1ffd53a3e0b9178bc280e666de4ba2f0f072c3f0ba450561f602a0647af",
+    "started_utc": "2026-09-30T16:15:19.762563+00:00",
+    "finished_utc": "2026-09-30T16:15:33.550561+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/68ed7c44869d5f38d0eecdb0.json.gz",
+    "replay_sha256": "c55719ecc8c8c96aa0154419525352284db6d0a8ad1999bf628abd449e721aea"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 18101,
+    "team": "K",
+    "job_id": "de8e10d9e2e61f1f1213f655",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 2,
+        "K": 39
+      },
+      "turns": 160,
+      "seed": 18101
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 37,
+    "max_turn_ms": 125.50657399697229,
+    "opponent_max_turn_ms": 17.74056299473159,
+    "logical_trace_sha256": "4c3490bd14b3f3afa23f43e6436f158b59b56bffd7e12b88f1d838dbeadd3c9c",
+    "started_utc": "2026-09-30T16:15:21.090217+00:00",
+    "finished_utc": "2026-09-30T16:15:34.297575+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/de8e10d9e2e61f1f1213f655.json.gz",
+    "replay_sha256": "a940bb6b87242ccef13e736020c390834d736b6731891585af9cd59078218380"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 18104,
+    "team": "Y",
+    "job_id": "3b460cd673cddb8969c2b185",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 37,
+        "K": 2
+      },
+      "turns": 160,
+      "seed": 18104
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 35,
+    "max_turn_ms": 126.14591199962888,
+    "opponent_max_turn_ms": 18.46319700416643,
+    "logical_trace_sha256": "b95e91e3ce61d6529b3746ecd12c5bf88d9d1ad1b3255046bb522c2fecbaa22a",
+    "started_utc": "2026-09-30T16:15:21.154875+00:00",
+    "finished_utc": "2026-09-30T16:15:35.471013+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/3b460cd673cddb8969c2b185.json.gz",
+    "replay_sha256": "c292114a1bf81caf04ff012faca15def6e9e712e16aca3cf6ca398e0769f5352"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "s3_selective_contact",
+    "map_seed": 18101,
+    "team": "K",
+    "job_id": "e469704464fb91d00ca5919b",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 8,
+        "K": 31
+      },
+      "turns": 160,
+      "seed": 18101
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 23,
+    "max_turn_ms": 123.26153100002557,
+    "opponent_max_turn_ms": 135.87432300118962,
+    "logical_trace_sha256": "6d0b0693c76a9756d11d029619d80ddb88caa35489b10adde65f6967a77462f1",
+    "started_utc": "2026-09-30T16:15:22.898267+00:00",
+    "finished_utc": "2026-09-30T16:15:39.020054+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/e469704464fb91d00ca5919b.json.gz",
+    "replay_sha256": "20682cabb6cdb4bffb63fffa5eb1563c3763db717eb9936d293e15588ba1a751"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "s3_selective_contact",
+    "map_seed": 18103,
+    "team": "Y",
+    "job_id": "599d0e70dfc650c10e6c2e82",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 18,
+        "K": 13
+      },
+      "turns": 160,
+      "seed": 18103
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 5,
+    "max_turn_ms": 129.00157500553178,
+    "opponent_max_turn_ms": 135.77699800225673,
+    "logical_trace_sha256": "aaf5719e2837b2abb99d16023ff5a10897a90f5282d0dcfae6f0289b5fd6cbf7",
+    "started_utc": "2026-09-30T16:15:23.497412+00:00",
+    "finished_utc": "2026-09-30T16:15:41.485514+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/599d0e70dfc650c10e6c2e82.json.gz",
+    "replay_sha256": "bc7c2fad42974063c6711e1b600b62802dfd3da157f898a5abf24362a6242af0"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 18102,
+    "team": "Y",
+    "job_id": "6939ba0c619a6d212822350f",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 32,
+        "K": 1
+      },
+      "turns": 160,
+      "seed": 18102
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 31,
+    "max_turn_ms": 125.69503000122495,
+    "opponent_max_turn_ms": 18.136769998818636,
+    "logical_trace_sha256": "da292e1376f7254f90ce82d0a17af23de01810e7339ae11c19860a727025c323",
+    "started_utc": "2026-09-30T16:15:30.662081+00:00",
+    "finished_utc": "2026-09-30T16:15:44.180243+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/6939ba0c619a6d212822350f.json.gz",
+    "replay_sha256": "cb9e0f33a5778f9eefd4f34e12d8c6999ab8579e4879814b62b162380d05e8e4"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "v3",
+    "map_seed": 18107,
+    "team": "Y",
+    "job_id": "95fe05028dd226cc9744c2e5",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "instant",
+      "score": {
+        "Y": 0,
+        "K": 29
+      },
+      "turns": 130,
+      "seed": 18107
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -29,
+    "max_turn_ms": 128.37342399870977,
+    "opponent_max_turn_ms": 78.8373999967007,
+    "logical_trace_sha256": "147ea61292691463dec73445f1e5354d5d1e28e3d5d7cd0532fcd1c6f7e94a1d",
+    "started_utc": "2026-09-30T16:15:33.553148+00:00",
+    "finished_utc": "2026-09-30T16:15:45.190204+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/95fe05028dd226cc9744c2e5.json.gz",
+    "replay_sha256": "d06c18c46d4e1c425cf953ea9c0295b8fc630e8203de703dd93dd81be5b1a2a2"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "v3",
+    "map_seed": 18101,
+    "team": "K",
+    "job_id": "79ce4fc9a4cb2b69d1464f70",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 5,
+        "K": 35
+      },
+      "turns": 160,
+      "seed": 18101
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 30,
+    "max_turn_ms": 124.71398500201758,
+    "opponent_max_turn_ms": 77.1910800031037,
+    "logical_trace_sha256": "8a43fc6950c2b264652c3b1e52f4562044989d7bf1d06feec540c0dd1e16a5e4",
+    "started_utc": "2026-09-30T16:15:34.299852+00:00",
+    "finished_utc": "2026-09-30T16:15:47.850861+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/79ce4fc9a4cb2b69d1464f70.json.gz",
+    "replay_sha256": "533cfa5cab6c2d628c030f5cfa865b92f28b7bc212fead23b115360adb8e56d1"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "s3_selective_contact",
+    "map_seed": 18103,
+    "team": "Y",
+    "job_id": "f50c08a010ac15cfe72bc7a5",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "instant",
+      "score": {
+        "Y": 0,
+        "K": 29
+      },
+      "turns": 84,
+      "seed": 18103
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -29,
+    "max_turn_ms": 43.59967000345932,
+    "opponent_max_turn_ms": 135.68243400368374,
+    "logical_trace_sha256": "2821617cd97ba062f7eee1473cafddb1fbe4d74bf9c117baf0e2326ecbf788c5",
+    "started_utc": "2026-09-30T16:15:41.486768+00:00",
+    "finished_utc": "2026-09-30T16:15:49.338632+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/f50c08a010ac15cfe72bc7a5.json.gz",
+    "replay_sha256": "5921cb86d0ca215e6a2aeca6b6975f179de51af8d27a6976a21a398c82173043"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "s3_selective_contact",
+    "map_seed": 18104,
+    "team": "K",
+    "job_id": "da23c3afb7c61b619f42b410",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 12,
+        "K": 20
+      },
+      "turns": 160,
+      "seed": 18104
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 8,
+    "max_turn_ms": 127.54017100087367,
+    "opponent_max_turn_ms": 135.97329200274544,
+    "logical_trace_sha256": "65aa3a04d6ccbe60ee98890f653806de3783d9487c73e501658d12a734bdfb08",
+    "started_utc": "2026-09-30T16:15:35.472221+00:00",
+    "finished_utc": "2026-09-30T16:15:53.354637+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/da23c3afb7c61b619f42b410.json.gz",
+    "replay_sha256": "7748f91d3d8a7db1bc57c889588daf6b3d03f62c66d718696e4ddbd30afac6c3"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 18104,
+    "team": "K",
+    "job_id": "ecc612b7a946e490de439259",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 17,
+        "K": 19
+      },
+      "turns": 160,
+      "seed": 18104
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 2,
+    "max_turn_ms": 127.31431200518273,
+    "opponent_max_turn_ms": 19.69379299407592,
+    "logical_trace_sha256": "1586ec7e9e3bec66be45c3df1e0df9cf86c6f300df0be1eb7849f5fc1935ba61",
+    "started_utc": "2026-09-30T16:15:39.021306+00:00",
+    "finished_utc": "2026-09-30T16:15:54.322989+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/ecc612b7a946e490de439259.json.gz",
+    "replay_sha256": "9ff081cda47a629d5c9571c32661c515306d75033b4a16ea079831fcccc15f81"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "s3_selective_contact",
+    "map_seed": 18104,
+    "team": "Y",
+    "job_id": "876d5e620db143f3f03e4d18",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 18,
+        "K": 21
+      },
+      "turns": 160,
+      "seed": 18104
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -3,
+    "max_turn_ms": 33.408425995730795,
+    "opponent_max_turn_ms": 135.80101200204808,
+    "logical_trace_sha256": "355e55d1ed0cab0191b709029ef0aaf2c21e8159369a31cb36d1176447c5bcb8",
+    "started_utc": "2026-09-30T16:15:44.182984+00:00",
+    "finished_utc": "2026-09-30T16:15:58.781338+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/876d5e620db143f3f03e4d18.json.gz",
+    "replay_sha256": "c7a0a16b3ee793ef38e8c697857ca17364e06f4446c479f447ffa8a0b766caa2"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "v3",
+    "map_seed": 18102,
+    "team": "Y",
+    "job_id": "f49fcb5390081b015974d132",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 23,
+        "K": 7
+      },
+      "turns": 160,
+      "seed": 18102
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 16,
+    "max_turn_ms": 127.3774979999871,
+    "opponent_max_turn_ms": 84.45129099709447,
+    "logical_trace_sha256": "1e4036690074f087b2bda09d3ccc582855a2fbaf577641cd494d699cf7901c68",
+    "started_utc": "2026-09-30T16:15:45.191196+00:00",
+    "finished_utc": "2026-09-30T16:16:00.190590+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/f49fcb5390081b015974d132.json.gz",
+    "replay_sha256": "9a291e29424c190d0910cbfcdc5e97b3c45e4273da9bf04d6e31f9ad7d146b04"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 18102,
+    "team": "Y",
+    "job_id": "ee18351870ef74cc2ea059d2",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 16,
+        "K": 10
+      },
+      "turns": 160,
+      "seed": 18102
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 6,
+    "max_turn_ms": 28.41808900120668,
+    "opponent_max_turn_ms": 16.81520000420278,
+    "logical_trace_sha256": "47cb1af247ca4c450b40eebf16e643792ceee8b73dca6349c85f7515e3dabbb4",
+    "started_utc": "2026-09-30T16:15:58.782441+00:00",
+    "finished_utc": "2026-09-30T16:16:01.064018+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/ee18351870ef74cc2ea059d2.json.gz",
+    "replay_sha256": "41fd1b3c79390d4119507aa225c78088e9b0d336a21dbd6f71f02ff9a26425f9"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "v3",
+    "map_seed": 18102,
+    "team": "K",
+    "job_id": "ede2d655f6b602ef320650bf",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "instant",
+      "score": {
+        "Y": 0,
+        "K": 32
+      },
+      "turns": 143,
+      "seed": 18102
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 32,
+    "max_turn_ms": 127.00886899983743,
+    "opponent_max_turn_ms": 83.5753970022779,
+    "logical_trace_sha256": "f42c55abbad409c4d6517264c47af53080753499998119ff76758c7cd6b87f88",
+    "started_utc": "2026-09-30T16:15:49.340149+00:00",
+    "finished_utc": "2026-09-30T16:16:01.642577+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/ede2d655f6b602ef320650bf.json.gz",
+    "replay_sha256": "02e7b36f2a682937e7b6a46fdc9edeb491f82c01b9ce70334875ec167e5d15c8"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "s3_selective_contact",
+    "map_seed": 18106,
+    "team": "K",
+    "job_id": "438fc2cc1b932fe8869f373e",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 1,
+        "K": 34
+      },
+      "turns": 160,
+      "seed": 18106
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 33,
+    "max_turn_ms": 31.522429002507124,
+    "opponent_max_turn_ms": 135.93979800498346,
+    "logical_trace_sha256": "5238d0702bb976726b5656fb9d7e4d923a2361e716cd3ff01df23375c74a9b52",
+    "started_utc": "2026-09-30T16:15:47.851978+00:00",
+    "finished_utc": "2026-09-30T16:16:02.593113+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/438fc2cc1b932fe8869f373e.json.gz",
+    "replay_sha256": "d54193a90ae70e9b10e26f442146f25b03a8f77aed6089c2411f7715653ab83b"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "s3_selective_contact",
+    "map_seed": 18105,
+    "team": "K",
+    "job_id": "ab083bb456e839d080c6427e",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 30,
+        "K": 0
+      },
+      "turns": 125,
+      "seed": 18105
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -30,
+    "max_turn_ms": 50.404905996401794,
+    "opponent_max_turn_ms": 135.66434499807656,
+    "logical_trace_sha256": "fad9735a5d6bdfb9f6199d43446e11c81f0bd0a21de752c9c70f10756d12fa69",
+    "started_utc": "2026-09-30T16:15:53.357333+00:00",
+    "finished_utc": "2026-09-30T16:16:03.938158+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/ab083bb456e839d080c6427e.json.gz",
+    "replay_sha256": "bed5c8e534546191c2424fd90cc2327c849b531e93f1a850a945b2a805ea1dde"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "v3",
+    "map_seed": 18101,
+    "team": "K",
+    "job_id": "e12a8caa212a6b3cdc8cc9ee",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 39,
+        "K": 0
+      },
+      "turns": 106,
+      "seed": 18101
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -39,
+    "max_turn_ms": 31.194081995636225,
+    "opponent_max_turn_ms": 60.68216400308302,
+    "logical_trace_sha256": "eab5cb237cb56869ad6cb1b98780dd542a2b53197ae5893339d2fa92941c5bc2",
+    "started_utc": "2026-09-30T16:16:01.643734+00:00",
+    "finished_utc": "2026-09-30T16:16:06.106730+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/e12a8caa212a6b3cdc8cc9ee.json.gz",
+    "replay_sha256": "cc88b81f048a64ded35e51d7b61cc3ec30199bc399483d80b4230510b743c78b"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "v3",
+    "map_seed": 18103,
+    "team": "Y",
+    "job_id": "6136c4702868905ed4e9962b",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 25,
+        "K": 5
+      },
+      "turns": 160,
+      "seed": 18103
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 20,
+    "max_turn_ms": 128.53798699507024,
+    "opponent_max_turn_ms": 71.08139399497304,
+    "logical_trace_sha256": "7161430664f5a7b8605a47fd4ec30b0371fa31d7cd68c4335da52fc76869df95",
+    "started_utc": "2026-09-30T16:15:54.324244+00:00",
+    "finished_utc": "2026-09-30T16:16:08.840262+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/6136c4702868905ed4e9962b.json.gz",
+    "replay_sha256": "6f8d9dba68e5ffdfb8e4712e87fcef6d6e6bc65041b8699a27846e4f58ef6e21"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 18101,
+    "team": "K",
+    "job_id": "5cdec653cba028255a976873",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 39,
+        "K": 0
+      },
+      "turns": 119,
+      "seed": 18101
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -39,
+    "max_turn_ms": 41.474568999547046,
+    "opponent_max_turn_ms": 17.13481899787439,
+    "logical_trace_sha256": "eb0ca2b5506545314d24b32f49cf4717af970d2c7ba44cab695b69759c94b558",
+    "started_utc": "2026-09-30T16:16:08.841435+00:00",
+    "finished_utc": "2026-09-30T16:16:10.588554+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/5cdec653cba028255a976873.json.gz",
+    "replay_sha256": "af1ea051cbd2edcf4678fed6f49ba03cdd133f97bfef37363ba4d114b8a6ecac"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 18103,
+    "team": "Y",
+    "job_id": "a6fc92717fbb2769e6cc79a0",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 29,
+        "K": 0
+      },
+      "turns": 139,
+      "seed": 18103
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 29,
+    "max_turn_ms": 125.45015799696557,
+    "opponent_max_turn_ms": 19.502279996231664,
+    "logical_trace_sha256": "11ed5c2134a2b592ac9b3a1c55565da7a67ec534d9dd7227982804c6b942b032",
+    "started_utc": "2026-09-30T16:16:00.191839+00:00",
+    "finished_utc": "2026-09-30T16:16:12.052427+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/a6fc92717fbb2769e6cc79a0.json.gz",
+    "replay_sha256": "039067cba448777c933b05f27c281354fbf134e5fa0900b5e66f6dd84c17f9f7"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 18107,
+    "team": "K",
+    "job_id": "855f1d2449832ea16de0955d",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 6,
+        "K": 32
+      },
+      "turns": 160,
+      "seed": 18107
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 26,
+    "max_turn_ms": 123.35438700392842,
+    "opponent_max_turn_ms": 17.09842000127537,
+    "logical_trace_sha256": "625312d38f7c3899e2c22d0cf470989cbb37c26565ea8f7ba9f5a3afc2eaca07",
+    "started_utc": "2026-09-30T16:16:01.065251+00:00",
+    "finished_utc": "2026-09-30T16:16:15.604463+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/855f1d2449832ea16de0955d.json.gz",
+    "replay_sha256": "2ccd3de2d6948704b1c30a52548cdf3382da9b5db25237eb0eec7940025c5586"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 18102,
+    "team": "K",
+    "job_id": "6830861367e1d8a5aff9e3a2",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 8,
+        "K": 20
+      },
+      "turns": 160,
+      "seed": 18102
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 12,
+    "max_turn_ms": 123.06818900106009,
+    "opponent_max_turn_ms": 17.49106699571712,
+    "logical_trace_sha256": "39bc3ba3899f08406ffcd3171fc69469a663f1fb3a4f5847b8b163bd797fb23c",
+    "started_utc": "2026-09-30T16:16:02.594368+00:00",
+    "finished_utc": "2026-09-30T16:16:16.177850+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/6830861367e1d8a5aff9e3a2.json.gz",
+    "replay_sha256": "bd8a42586d9ee38ab71b0c08c180d2d5342541ab8c2385fdb137f1147222deb5"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "v3",
+    "map_seed": 18107,
+    "team": "K",
+    "job_id": "bda3a3afd4e99a8235154450",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 15,
+        "K": 20
+      },
+      "turns": 160,
+      "seed": 18107
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 5,
+    "max_turn_ms": 123.48907600244274,
+    "opponent_max_turn_ms": 73.22056400153087,
+    "logical_trace_sha256": "8feb9076e09802a42aafa00a29c48e1fc3c014fa821b4db23defa29e8c686850",
+    "started_utc": "2026-09-30T16:16:03.939159+00:00",
+    "finished_utc": "2026-09-30T16:16:18.391625+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/bda3a3afd4e99a8235154450.json.gz",
+    "replay_sha256": "177e18279aeaf9816a677465d15231fc5cba7a6abd11bb3e96cf031a3fca0026"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 18105,
+    "team": "Y",
+    "job_id": "a9b4c26588f7daf74d7e9520",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 26,
+        "K": 0
+      },
+      "turns": 103,
+      "seed": 18105
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 26,
+    "max_turn_ms": 123.71254900062922,
+    "opponent_max_turn_ms": 16.981439002847765,
+    "logical_trace_sha256": "f923099edd1aec4c75bf49692388a59c36aad6d2f51dd2f14e5044edd9e21c3d",
+    "started_utc": "2026-09-30T16:16:10.589534+00:00",
+    "finished_utc": "2026-09-30T16:16:19.392256+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/a9b4c26588f7daf74d7e9520.json.gz",
+    "replay_sha256": "dcb2185a9b8b37fe364c516afd78944cacca93e0ea08cee8ac1bbabb9851ecbd"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "s3_selective_contact",
+    "map_seed": 18100,
+    "team": "K",
+    "job_id": "74f5325b406f225fc283b963",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 16,
+        "K": 12
+      },
+      "turns": 160,
+      "seed": 18100
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -4,
+    "max_turn_ms": 122.77460600307677,
+    "opponent_max_turn_ms": 135.76387299690396,
+    "logical_trace_sha256": "9966e3ecb9494ddd0e4d82b19c0937450399ed44741115496ee2414a21402e98",
+    "started_utc": "2026-09-30T16:16:06.107697+00:00",
+    "finished_utc": "2026-09-30T16:16:22.095849+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/74f5325b406f225fc283b963.json.gz",
+    "replay_sha256": "44c51b712d768fdc535a9f39da0cdeb625471ee1cc0ea3acf43f63afdb240320"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "s3_selective_contact",
+    "map_seed": 18101,
+    "team": "Y",
+    "job_id": "abab39d85f9e46fc27d56bb5",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "instant",
+      "score": {
+        "Y": 0,
+        "K": 39
+      },
+      "turns": 133,
+      "seed": 18101
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -39,
+    "max_turn_ms": 30.13348300009966,
+    "opponent_max_turn_ms": 135.56886399601353,
+    "logical_trace_sha256": "6b2ea2d0a2f7ab63c40075f48c03f2e08e59490833dcc866efb51d37e7f11682",
+    "started_utc": "2026-09-30T16:16:12.053629+00:00",
+    "finished_utc": "2026-09-30T16:16:22.435971+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/abab39d85f9e46fc27d56bb5.json.gz",
+    "replay_sha256": "313aa078039e14a79c42f1ab1d7cf4c8f016edd8602faa5eab39b9f6332d8ffe"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 18106,
+    "team": "K",
+    "job_id": "a677477392260636561787fd",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 34,
+        "K": 0
+      },
+      "turns": 146,
+      "seed": 18106
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -34,
+    "max_turn_ms": 29.60309099580627,
+    "opponent_max_turn_ms": 17.1071739969193,
+    "logical_trace_sha256": "638471492e5d0bc485b9b85940df879f24f1818027afc174810a7b23d21f93a9",
+    "started_utc": "2026-09-30T16:16:22.097497+00:00",
+    "finished_utc": "2026-09-30T16:16:24.164342+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/a677477392260636561787fd.json.gz",
+    "replay_sha256": "276333913f60fb1687ffc5a4487f94b5f5b6d538ece6a96761bb9d6a5e9ceca0"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "v3",
+    "map_seed": 18101,
+    "team": "Y",
+    "job_id": "3b1bc223462b34617e852ee5",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "instant",
+      "score": {
+        "Y": 0,
+        "K": 39
+      },
+      "turns": 123,
+      "seed": 18101
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -39,
+    "max_turn_ms": 31.585919998178724,
+    "opponent_max_turn_ms": 65.68089700158453,
+    "logical_trace_sha256": "65fd21171e7333cb347145f030e2fd558039185420150231c19024b2cda03bf6",
+    "started_utc": "2026-09-30T16:16:19.393170+00:00",
+    "finished_utc": "2026-09-30T16:16:24.390872+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/3b1bc223462b34617e852ee5.json.gz",
+    "replay_sha256": "d1db5dc6671c329e93f827b58bc15a6e043015aa261c39c4eead18a58382948d"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "s3_selective_contact",
+    "map_seed": 18107,
+    "team": "K",
+    "job_id": "acd043e73aec2f67e93b1aed",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 38,
+        "K": 0
+      },
+      "turns": 154,
+      "seed": 18107
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -38,
+    "max_turn_ms": 28.77871199598303,
+    "opponent_max_turn_ms": 135.83473400649382,
+    "logical_trace_sha256": "c29423c8bf77aeb3454e55c0fb9844ba76e91adcc9166b03e476223d6cde7f94",
+    "started_utc": "2026-09-30T16:16:15.605667+00:00",
+    "finished_utc": "2026-09-30T16:16:27.608294+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/acd043e73aec2f67e93b1aed.json.gz",
+    "replay_sha256": "f69a54cfb1e9af6d6719c892b447a9ef06c44551c39b032fa5c07cced00074e5"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "v3",
+    "map_seed": 18106,
+    "team": "Y",
+    "job_id": "cfaa1ed5bcec70a90ea71ed6",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 28,
+        "K": 0
+      },
+      "turns": 67,
+      "seed": 18106
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 28,
+    "max_turn_ms": 123.27185900358018,
+    "opponent_max_turn_ms": 67.71930099785095,
+    "logical_trace_sha256": "bf1a376782c2e9b05cc544f39bc7a0fd2e5f4a9e5d3c1eefd0613beb18a926b0",
+    "started_utc": "2026-09-30T16:16:24.165420+00:00",
+    "finished_utc": "2026-09-30T16:16:29.911347+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/cfaa1ed5bcec70a90ea71ed6.json.gz",
+    "replay_sha256": "88f70974b454b8ec99264b54b270ae47b454ea6fedd6515cbe6c89b23475d569"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "s3_selective_contact",
+    "map_seed": 18102,
+    "team": "Y",
+    "job_id": "3b8f24930d7fbe2fb1339dbf",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 19,
+        "K": 13
+      },
+      "turns": 160,
+      "seed": 18102
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 6,
+    "max_turn_ms": 124.65046400029678,
+    "opponent_max_turn_ms": 135.73708899639314,
+    "logical_trace_sha256": "5d211fed0eca30775ef7002e80019c959db93d623c90fcf237cfca35f133733f",
+    "started_utc": "2026-09-30T16:16:16.179176+00:00",
+    "finished_utc": "2026-09-30T16:16:31.918773+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/3b8f24930d7fbe2fb1339dbf.json.gz",
+    "replay_sha256": "ac49b5063055684a2f896792cade4c2b9e609d5047beeb0b3afa1d50f62b1181"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "v3",
+    "map_seed": 18101,
+    "team": "Y",
+    "job_id": "dada3259edd5efd4c35ec166",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 34,
+        "K": 0
+      },
+      "turns": 158,
+      "seed": 18101
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 34,
+    "max_turn_ms": 124.52422399655916,
+    "opponent_max_turn_ms": 70.9490020017256,
+    "logical_trace_sha256": "5bd8206f7dff3d4b81f7d4e970d1557bc5ef7f4a91a595005517b1a36f4919b2",
+    "started_utc": "2026-09-30T16:16:18.392860+00:00",
+    "finished_utc": "2026-09-30T16:16:32.016978+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/dada3259edd5efd4c35ec166.json.gz",
+    "replay_sha256": "2343a4f8e2b1dfb0ed8eadbca5ce8e828d1a6e05eaf25bdedc049bd2d62d2312"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 18105,
+    "team": "K",
+    "job_id": "8218391d41c6782e0909c098",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 1,
+        "K": 32
+      },
+      "turns": 160,
+      "seed": 18105
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 31,
+    "max_turn_ms": 124.81351599853951,
+    "opponent_max_turn_ms": 22.28571000159718,
+    "logical_trace_sha256": "ef8cc36ea351f4c2422af9e75e28fdc62aaefea8756a3e2a681591bea3e5f730",
+    "started_utc": "2026-09-30T16:16:22.436958+00:00",
+    "finished_utc": "2026-09-30T16:16:37.223756+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/8218391d41c6782e0909c098.json.gz",
+    "replay_sha256": "28c0e050a6a1ea67fbe50a937acdf8fb7cf32821aba399b5be103dc1e9955533"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "s3_selective_contact",
+    "map_seed": 18105,
+    "team": "Y",
+    "job_id": "fd9117feaa1c047e729d3cae",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "instant",
+      "score": {
+        "Y": 0,
+        "K": 32
+      },
+      "turns": 153,
+      "seed": 18105
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -32,
+    "max_turn_ms": 29.671929994947277,
+    "opponent_max_turn_ms": 135.6544189984561,
+    "logical_trace_sha256": "9da41208d1ee5f7b18ed1b6c25c3d18adb51a13b0d96b08f7f507b3c7dac16c5",
+    "started_utc": "2026-09-30T16:16:24.392829+00:00",
+    "finished_utc": "2026-09-30T16:16:37.939014+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/fd9117feaa1c047e729d3cae.json.gz",
+    "replay_sha256": "45e542bb35591fb30ff9e6c9212f72192588fdc52d7f75f1acc4dd531646520b"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "s3_selective_contact",
+    "map_seed": 18106,
+    "team": "K",
+    "job_id": "97de34b1baef4ff0c39c034f",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 27,
+        "K": 0
+      },
+      "turns": 79,
+      "seed": 18106
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -27,
+    "max_turn_ms": 122.77689600159647,
+    "opponent_max_turn_ms": 135.7676339976024,
+    "logical_trace_sha256": "53f47eaeb0a56aa9955822b8b68ac5ce6cd228b33fe31389df32492df4ea0bf9",
+    "started_utc": "2026-09-30T16:16:32.018249+00:00",
+    "finished_utc": "2026-09-30T16:16:39.525129+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/97de34b1baef4ff0c39c034f.json.gz",
+    "replay_sha256": "5e0d6fd82d109000e344246d154b5cbc320afe761c61b358e026f66c9297bd58"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "s3_selective_contact",
+    "map_seed": 18107,
+    "team": "Y",
+    "job_id": "943c64f5d3eb6ff1f7e38655",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 5,
+        "K": 34
+      },
+      "turns": 160,
+      "seed": 18107
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -29,
+    "max_turn_ms": 42.78688300109934,
+    "opponent_max_turn_ms": 135.6586129986681,
+    "logical_trace_sha256": "37723fbb6fbbb4ef8a01d16d7582455d275ea4a78e1ef437dfaebac13a0d2113",
+    "started_utc": "2026-09-30T16:16:29.911999+00:00",
+    "finished_utc": "2026-09-30T16:16:42.875041+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/943c64f5d3eb6ff1f7e38655.json.gz",
+    "replay_sha256": "3ec8d1fe340236c35465011ce7bbf03dffd0b01142398f48bb60d903bdddf711"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "s3_selective_contact",
+    "map_seed": 18107,
+    "team": "K",
+    "job_id": "0dab1959e7e1d4d308b5e9b9",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 14,
+        "K": 25
+      },
+      "turns": 160,
+      "seed": 18107
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 11,
+    "max_turn_ms": 124.54257100034738,
+    "opponent_max_turn_ms": 135.7858590054093,
+    "logical_trace_sha256": "62ba845b4fe3f9ff736e55c98e04bc3969a1fcf274131a246f692d9e0abb25b0",
+    "started_utc": "2026-09-30T16:16:27.610426+00:00",
+    "finished_utc": "2026-09-30T16:16:44.807093+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/0dab1959e7e1d4d308b5e9b9.json.gz",
+    "replay_sha256": "d9c705bfb077b5eb0ba6587b8e311a86774726bfb6ac29ac27fccd5660f8d651"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 18106,
+    "team": "K",
+    "job_id": "fcbe239ad10ac305d97b151f",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 32,
+        "K": 0
+      },
+      "turns": 90,
+      "seed": 18106
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -32,
+    "max_turn_ms": 123.38301799900364,
+    "opponent_max_turn_ms": 17.077327000151854,
+    "logical_trace_sha256": "4f70d3bc29269db94e5526bc0004fe7e9ced69198f7a1856e4b287c7192f4b9b",
+    "started_utc": "2026-09-30T16:16:37.940415+00:00",
+    "finished_utc": "2026-09-30T16:16:45.114333+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/fcbe239ad10ac305d97b151f.json.gz",
+    "replay_sha256": "22e041263145585f8524f1ea0f82753c8813d8b03730d5d2af47782389716249"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "v3",
+    "map_seed": 18102,
+    "team": "K",
+    "job_id": "b7bc188787ecbe3cc0a7fe7d",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 24,
+        "K": 9
+      },
+      "turns": 160,
+      "seed": 18102
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -15,
+    "max_turn_ms": 34.6143819988356,
+    "opponent_max_turn_ms": 72.0684329935466,
+    "logical_trace_sha256": "412e0c8cc7c47d03ddd1f628ced614c742b4c9217a5e2b5d5ca2bd1fdaba9733",
+    "started_utc": "2026-09-30T16:16:39.526455+00:00",
+    "finished_utc": "2026-09-30T16:16:47.113528+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/b7bc188787ecbe3cc0a7fe7d.json.gz",
+    "replay_sha256": "99f4fdbba9b192e548f4405de7aee16a66284711923209e50107a50e40c5bc07"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "s3_selective_contact",
+    "map_seed": 18105,
+    "team": "K",
+    "job_id": "ea36d129dff0f98d6956ec34",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 16,
+        "K": 9
+      },
+      "turns": 160,
+      "seed": 18105
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -7,
+    "max_turn_ms": 122.71668500034139,
+    "opponent_max_turn_ms": 135.9284439968178,
+    "logical_trace_sha256": "2c71e09682cd50a8cb919ebb8d6f9ae4c1539146df27ba0ac4b68440470bb2cd",
+    "started_utc": "2026-09-30T16:16:31.919894+00:00",
+    "finished_utc": "2026-09-30T16:16:48.893289+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/ea36d129dff0f98d6956ec34.json.gz",
+    "replay_sha256": "64857c27b06f1e856363ef0df5871f66a12fa8c282b5a799402be7fc12aa9892"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 18100,
+    "team": "K",
+    "job_id": "b8cb3a887b05b414a4dea207",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 24,
+        "K": 5
+      },
+      "turns": 160,
+      "seed": 18100
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -19,
+    "max_turn_ms": 45.62941999756731,
+    "opponent_max_turn_ms": 20.184645996778272,
+    "logical_trace_sha256": "5fae8540c9b3686897ba6aefe707359ad78f16855086d8b8cd6923e8e1fc8ce0",
+    "started_utc": "2026-09-30T16:16:47.114833+00:00",
+    "finished_utc": "2026-09-30T16:16:49.491463+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/b8cb3a887b05b414a4dea207.json.gz",
+    "replay_sha256": "a927d796fbe9cb2c490560b4ffd4a9e26e956c938876205ef0d3b18128216766"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "s3_selective_contact",
+    "map_seed": 18106,
+    "team": "Y",
+    "job_id": "ff389bc41b6b436b9a9fdb86",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "instant",
+      "score": {
+        "Y": 0,
+        "K": 28
+      },
+      "turns": 135,
+      "seed": 18106
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -28,
+    "max_turn_ms": 124.37382499774685,
+    "opponent_max_turn_ms": 135.6796719992417,
+    "logical_trace_sha256": "b64dad1ca5726e2f1349e36a6f8149ea1a4e44bb11742e85273f8916858ac3d7",
+    "started_utc": "2026-09-30T16:16:37.225205+00:00",
+    "finished_utc": "2026-09-30T16:16:51.231329+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/ff389bc41b6b436b9a9fdb86.json.gz",
+    "replay_sha256": "4b3d5e04fb29f3bc7488d2fb0f0d43f55b350b0e4d04e5d5ff77d71f86a24a9a"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "v3",
+    "map_seed": 18106,
+    "team": "Y",
+    "job_id": "98cf99b1f1a6139a445f19c9",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 8,
+        "K": 25
+      },
+      "turns": 160,
+      "seed": 18106
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -17,
+    "max_turn_ms": 45.76826399716083,
+    "opponent_max_turn_ms": 70.8529039984569,
+    "logical_trace_sha256": "0e808e2655d0f1141a420e0a0004f2f52eaa8fae0c6310c14389617a5d1d510b",
+    "started_utc": "2026-09-30T16:16:45.115215+00:00",
+    "finished_utc": "2026-09-30T16:16:52.435837+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/98cf99b1f1a6139a445f19c9.json.gz",
+    "replay_sha256": "26088a7758480afc2f4e8519a7ce60e4cca724b9f7fce3367d0734ed4d5b0b76"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 18106,
+    "team": "Y",
+    "job_id": "a1acccd296d9303c8bda76e7",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 7,
+        "K": 28
+      },
+      "turns": 160,
+      "seed": 18106
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -21,
+    "max_turn_ms": 125.37457200232893,
+    "opponent_max_turn_ms": 16.72794300247915,
+    "logical_trace_sha256": "9ffa0e791407d55987963a3de2233c827781b6f83a35a6bba894e6d469d0a320",
+    "started_utc": "2026-09-30T16:16:42.876391+00:00",
+    "finished_utc": "2026-09-30T16:16:56.625164+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/a1acccd296d9303c8bda76e7.json.gz",
+    "replay_sha256": "4e2718ca1eae2a806af9f6dfb8ecd262f3470158f1118b76e40c2b2fe50e1d29"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "v3",
+    "map_seed": 18102,
+    "team": "Y",
+    "job_id": "db758b605ab7c4fea9117c78",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "instant",
+      "score": {
+        "Y": 0,
+        "K": 31
+      },
+      "turns": 138,
+      "seed": 18102
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -31,
+    "max_turn_ms": 43.11547199904453,
+    "opponent_max_turn_ms": 69.54163299815264,
+    "logical_trace_sha256": "d5dc658fd763bc67b03fd77905afd2ffe75dd286b55e282b5198c2d296650303",
+    "started_utc": "2026-09-30T16:16:51.232364+00:00",
+    "finished_utc": "2026-09-30T16:16:57.287556+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/db758b605ab7c4fea9117c78.json.gz",
+    "replay_sha256": "f0752ffbf68be1c4ab13e7c4034d0ef57e1256f49a72aaee377b79fad6727c4a"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 18104,
+    "team": "K",
+    "job_id": "f78a74d215902be75fac8da2",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 24,
+        "K": 15
+      },
+      "turns": 160,
+      "seed": 18104
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -9,
+    "max_turn_ms": 34.358784003416076,
+    "opponent_max_turn_ms": 19.96482099639252,
+    "logical_trace_sha256": "c4118f576598a28cb1811c1523a781eaef492bc6f4a0b202217579ce2b6aab6d",
+    "started_utc": "2026-09-30T16:16:56.626415+00:00",
+    "finished_utc": "2026-09-30T16:16:59.081620+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/f78a74d215902be75fac8da2.json.gz",
+    "replay_sha256": "2a5db4b1625a526fb80602cbcdcaf80a883d2d1f2884a22370a3a010072532a9"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "s3_selective_contact",
+    "map_seed": 18101,
+    "team": "Y",
+    "job_id": "88cb6effa8cd0a309c264b80",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 35,
+        "K": 6
+      },
+      "turns": 160,
+      "seed": 18101
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 29,
+    "max_turn_ms": 123.41758699767524,
+    "opponent_max_turn_ms": 135.6028439986403,
+    "logical_trace_sha256": "25b1b092505ec561d10c55d252418c4e44123d284b6eadff72e0d12e244bad6f",
+    "started_utc": "2026-09-30T16:16:44.808320+00:00",
+    "finished_utc": "2026-09-30T16:17:01.225038+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/88cb6effa8cd0a309c264b80.json.gz",
+    "replay_sha256": "7f3d1e25dd26ba7853210fa8c1067db5d78b98c2bf0c8c61c7e749520d564440"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "s3_selective_contact",
+    "map_seed": 18102,
+    "team": "Y",
+    "job_id": "307cc16ba229814d5817548a",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 8,
+        "K": 25
+      },
+      "turns": 160,
+      "seed": 18102
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -17,
+    "max_turn_ms": 28.556842997204512,
+    "opponent_max_turn_ms": 134.86507900233846,
+    "logical_trace_sha256": "45771ce106c7d161047d7aa19655fdaa4affc71676d5d07f9964139d5ac7e207",
+    "started_utc": "2026-09-30T16:16:48.894546+00:00",
+    "finished_utc": "2026-09-30T16:17:02.134039+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/307cc16ba229814d5817548a.json.gz",
+    "replay_sha256": "74c89f2340fcb5974a4168a21d861ee862afec0922d0cfb0016934678ca0437a"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 18103,
+    "team": "Y",
+    "job_id": "d6d162006576fa843cdeefff",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "instant",
+      "score": {
+        "Y": 0,
+        "K": 28
+      },
+      "turns": 90,
+      "seed": 18103
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -28,
+    "max_turn_ms": 27.565288997720927,
+    "opponent_max_turn_ms": 16.773643001215532,
+    "logical_trace_sha256": "1cd796e0c88accd6364adcdfc2fcdf44ae450c962ed0432239a3e94ee36b3c81",
+    "started_utc": "2026-09-30T16:17:02.135207+00:00",
+    "finished_utc": "2026-09-30T16:17:03.460619+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/d6d162006576fa843cdeefff.json.gz",
+    "replay_sha256": "b817230c6f4926d48e171387afe11a5c339dd25ffea79796691c1a78a0251066"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "v3",
+    "map_seed": 18100,
+    "team": "Y",
+    "job_id": "1bcb2102e437237edd8547aa",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 10,
+        "K": 15
+      },
+      "turns": 160,
+      "seed": 18100
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -5,
+    "max_turn_ms": 124.17599200125551,
+    "opponent_max_turn_ms": 76.12713699927554,
+    "logical_trace_sha256": "21339ab7fdd45c948743bcf3f9a34e48cfc38f298531db1c168f74ee04b62179",
+    "started_utc": "2026-09-30T16:16:49.493751+00:00",
+    "finished_utc": "2026-09-30T16:17:03.780367+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/1bcb2102e437237edd8547aa.json.gz",
+    "replay_sha256": "3043c1febe2bfdacbfdbf1d9f46a0ffc96fe7a6a169d3aa671d82977e28fd5c8"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "v3",
+    "map_seed": 18107,
+    "team": "K",
+    "job_id": "3e1f2ae68c9fa842058f9044",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 37,
+        "K": 0
+      },
+      "turns": 150,
+      "seed": 18107
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -37,
+    "max_turn_ms": 28.130835999036208,
+    "opponent_max_turn_ms": 74.25982599670533,
+    "logical_trace_sha256": "8b8ebc1baaf92b279fe38457a51bdf26a81a4b9a8f8308e1ab7eed5fac7ecde7",
+    "started_utc": "2026-09-30T16:16:57.289733+00:00",
+    "finished_utc": "2026-09-30T16:17:03.977146+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/3e1f2ae68c9fa842058f9044.json.gz",
+    "replay_sha256": "ce7effc8dbaa42a6c324d2786f7794726ed129f7dd5fcd5019845aa3057664c6"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 18104,
+    "team": "Y",
+    "job_id": "d36d526f9e21e5f7b14a2ae3",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 27,
+        "K": 12
+      },
+      "turns": 160,
+      "seed": 18104
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 15,
+    "max_turn_ms": 41.789878996496554,
+    "opponent_max_turn_ms": 17.574163000972476,
+    "logical_trace_sha256": "85fc5a0fbcb47080a9b0729064dce142f09e573ffbc5d64a1b28ba9c75e71076",
+    "started_utc": "2026-09-30T16:17:03.461397+00:00",
+    "finished_utc": "2026-09-30T16:17:05.878230+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/d36d526f9e21e5f7b14a2ae3.json.gz",
+    "replay_sha256": "b6353d99fc3412558c79275c7d63f384ae9e3d3d027c21db4f5fb0ac565cc0d7"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "v3",
+    "map_seed": 18104,
+    "team": "K",
+    "job_id": "d5584f89baaec00263e67f2f",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 14,
+        "K": 16
+      },
+      "turns": 160,
+      "seed": 18104
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 2,
+    "max_turn_ms": 124.53955400269479,
+    "opponent_max_turn_ms": 87.20752199587878,
+    "logical_trace_sha256": "8005bf38bb767d4dbb7ee52f4bb7017153c7ab1b12123eed39b557e25a32d4db",
+    "started_utc": "2026-09-30T16:16:52.436923+00:00",
+    "finished_utc": "2026-09-30T16:17:06.889160+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/d5584f89baaec00263e67f2f.json.gz",
+    "replay_sha256": "543b8f36f607d830cd78d884a8cef55362d0275eda4f539cc0ce91bcf0952c62"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "v3",
+    "map_seed": 18107,
+    "team": "Y",
+    "job_id": "58787d33c49fa2a69f147243",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "instant",
+      "score": {
+        "Y": 0,
+        "K": 34
+      },
+      "turns": 143,
+      "seed": 18107
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -34,
+    "max_turn_ms": 44.40644200076349,
+    "opponent_max_turn_ms": 66.491520999989,
+    "logical_trace_sha256": "c77dd4c867f42d67da693c850855cd464aea45969318cd899f06a1d50ba853d3",
+    "started_utc": "2026-09-30T16:17:03.978227+00:00",
+    "finished_utc": "2026-09-30T16:17:10.191632+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/58787d33c49fa2a69f147243.json.gz",
+    "replay_sha256": "27ed5421ee5db9eea8549fa746bb157614cce8e35e718f99ddfeb51025a22cea"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "s3_selective_contact",
+    "map_seed": 18104,
+    "team": "Y",
+    "job_id": "28146da5405adca8d27b7c83",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 12,
+        "K": 20
+      },
+      "turns": 160,
+      "seed": 18104
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -8,
+    "max_turn_ms": 125.1328590005869,
+    "opponent_max_turn_ms": 135.6956900053774,
+    "logical_trace_sha256": "db929e3f3e9908d76d97c507fbd5f5309c4cb495541c92fb18c7466bfc1a6e3c",
+    "started_utc": "2026-09-30T16:16:59.083954+00:00",
+    "finished_utc": "2026-09-30T16:17:16.103470+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/28146da5405adca8d27b7c83.json.gz",
+    "replay_sha256": "53614190c4e89bb508afd762023de291470f83d9c99347e4dadbb528791c2d04"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "s3_selective_contact",
+    "map_seed": 18104,
+    "team": "K",
+    "job_id": "21ba22d66d68e0b404b86c7c",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 19,
+        "K": 20
+      },
+      "turns": 160,
+      "seed": 18104
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 1,
+    "max_turn_ms": 37.053004998597316,
+    "opponent_max_turn_ms": 135.68068599852268,
+    "logical_trace_sha256": "fb2ba5a41e59b0fd1f2f5556c191a2aca2c9cb07400c0d0e8711cb80eedd2ca9",
+    "started_utc": "2026-09-30T16:17:03.782785+00:00",
+    "finished_utc": "2026-09-30T16:17:18.258706+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/21ba22d66d68e0b404b86c7c.json.gz",
+    "replay_sha256": "ed7ae130b943bfcb332fa20f88c891292ddcc7b986f1a12cd19064062db5f477"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "s3_selective_contact",
+    "map_seed": 18100,
+    "team": "Y",
+    "job_id": "db2c85d423cbfd65031f22ae",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 5,
+        "K": 12
+      },
+      "turns": 160,
+      "seed": 18100
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -7,
+    "max_turn_ms": 124.77634099923307,
+    "opponent_max_turn_ms": 135.72669499990297,
+    "logical_trace_sha256": "256c9e4a3aa667e800195f6b241bf050fba40e5388b99e4d30bcf0a3abe9bef9",
+    "started_utc": "2026-09-30T16:17:01.226121+00:00",
+    "finished_utc": "2026-09-30T16:17:18.697142+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/db2c85d423cbfd65031f22ae.json.gz",
+    "replay_sha256": "e4ad1a0a1524513b95f0f561496e57fb9cd84e613451d891a287a68c1cea38f7"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 18103,
+    "team": "K",
+    "job_id": "2a1d88968be4bf91ff828d31",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 23,
+        "K": 8
+      },
+      "turns": 160,
+      "seed": 18103
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -15,
+    "max_turn_ms": 124.47471599443816,
+    "opponent_max_turn_ms": 17.11008399433922,
+    "logical_trace_sha256": "7272ba85f94eb38a6d80525f2a0b2eaa250b41993adad25e3c55c800548abd10",
+    "started_utc": "2026-09-30T16:17:05.879388+00:00",
+    "finished_utc": "2026-09-30T16:17:20.140984+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/2a1d88968be4bf91ff828d31.json.gz",
+    "replay_sha256": "0355f507bbd1d954c224a3c69cdc588914d0c59cecf246955c2367666bbab8e8"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "v3",
+    "map_seed": 18103,
+    "team": "K",
+    "job_id": "9e96593ededca546f3a1bf81",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "instant",
+      "score": {
+        "Y": 0,
+        "K": 26
+      },
+      "turns": 150,
+      "seed": 18103
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 26,
+    "max_turn_ms": 123.18203099857783,
+    "opponent_max_turn_ms": 73.81827799690655,
+    "logical_trace_sha256": "4af78f3519ef99ed1cd54bb97c8a52c42989c074ba13555ec9f6cc38f505ea64",
+    "started_utc": "2026-09-30T16:17:06.890465+00:00",
+    "finished_utc": "2026-09-30T16:17:20.164972+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/9e96593ededca546f3a1bf81.json.gz",
+    "replay_sha256": "f765d1734cad2297673e04d71de68535362a412b051a6b7ba76415bd12f02de6"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "v3",
+    "map_seed": 18103,
+    "team": "Y",
+    "job_id": "b79e89e05bf2d766d4307c43",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "instant",
+      "score": {
+        "Y": 0,
+        "K": 32
+      },
+      "turns": 102,
+      "seed": 18103
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -32,
+    "max_turn_ms": 30.45607600506628,
+    "opponent_max_turn_ms": 63.12973500462249,
+    "logical_trace_sha256": "8aa0574ebfac087ea4436077d794f8a13b2352058c171f88e897d022cc109da8",
+    "started_utc": "2026-09-30T16:19:12.204137+00:00",
+    "finished_utc": "2026-09-30T16:19:16.502575+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/b79e89e05bf2d766d4307c43.json.gz",
+    "replay_sha256": "c676eda033435ec31311cca4fbf9f788cebb1f12fc20cfa376c7643e053a4571"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "v3",
+    "map_seed": 18105,
+    "team": "Y",
+    "job_id": "edea82f2e1d61789234aabfd",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "instant",
+      "score": {
+        "Y": 0,
+        "K": 32
+      },
+      "turns": 148,
+      "seed": 18105
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -32,
+    "max_turn_ms": 32.534591999137774,
+    "opponent_max_turn_ms": 61.547479999717325,
+    "logical_trace_sha256": "b1cacc56045bdf1aad752e7ca8485aebc5de93b27ff09333ccd3b6930714d624",
+    "started_utc": "2026-09-30T16:19:12.195162+00:00",
+    "finished_utc": "2026-09-30T16:19:18.479042+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/edea82f2e1d61789234aabfd.json.gz",
+    "replay_sha256": "10816c009a70a2fd99c718c118900bb49db0cc8dd57bcfbf2c82dc83a8b61730"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 18105,
+    "team": "K",
+    "job_id": "9aaf3d9d7e7f6ba516c81527",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 31,
+        "K": 2
+      },
+      "turns": 160,
+      "seed": 18105
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -29,
+    "max_turn_ms": 31.712641000922304,
+    "opponent_max_turn_ms": 16.132242999447044,
+    "logical_trace_sha256": "c8cc5c9b9ae52dee408baa12f676aa27f020c6acf1cbc7514119c70a7491b9e7",
+    "started_utc": "2026-09-30T16:19:16.503349+00:00",
+    "finished_utc": "2026-09-30T16:19:18.780468+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/9aaf3d9d7e7f6ba516c81527.json.gz",
+    "replay_sha256": "18b06bb5388353e5aa2cf4dc3305149a670a2fcbd21369b7b41ee637fdae4258"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "v3",
+    "map_seed": 18104,
+    "team": "K",
+    "job_id": "1739ce6f5b41924e641c22a8",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 28,
+        "K": 8
+      },
+      "turns": 160,
+      "seed": 18104
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -20,
+    "max_turn_ms": 28.50597100041341,
+    "opponent_max_turn_ms": 67.80318699748022,
+    "logical_trace_sha256": "77265df87f915316f0b2dc7533470b82559d1ad73c34da18518ef950d468e72c",
+    "started_utc": "2026-09-30T16:19:12.174483+00:00",
+    "finished_utc": "2026-09-30T16:19:19.093333+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/1739ce6f5b41924e641c22a8.json.gz",
+    "replay_sha256": "b7c09f1649a42b2d475ed97730138d8dc1407dce9272ee3bab1e0faff840fcfc"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "v3",
+    "map_seed": 18104,
+    "team": "Y",
+    "job_id": "ed2777aee1dbf9a87821282e",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 5,
+        "K": 34
+      },
+      "turns": 160,
+      "seed": 18104
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -29,
+    "max_turn_ms": 28.435333995730616,
+    "opponent_max_turn_ms": 69.14555800176458,
+    "logical_trace_sha256": "b1fa2a99719053122ce6667e13ca24309d9c7cc44caebb171302ea9b5c1aca5e",
+    "started_utc": "2026-09-30T16:19:12.182599+00:00",
+    "finished_utc": "2026-09-30T16:19:19.259271+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/ed2777aee1dbf9a87821282e.json.gz",
+    "replay_sha256": "f18cd0a8d3f8b15b2e193eebbc12260da01698a44fdb2b23cd07a1371b4b1eba"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 18105,
+    "team": "Y",
+    "job_id": "31fbe010fc7798a27f63bdd6",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 4,
+        "K": 28
+      },
+      "turns": 160,
+      "seed": 18105
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -24,
+    "max_turn_ms": 29.814386005455162,
+    "opponent_max_turn_ms": 17.47012099804124,
+    "logical_trace_sha256": "69317a819ec646fef0c4adf4940898590a534e8c93f4dc792df7013a860979c4",
+    "started_utc": "2026-09-30T16:19:18.480194+00:00",
+    "finished_utc": "2026-09-30T16:19:20.758239+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/31fbe010fc7798a27f63bdd6.json.gz",
+    "replay_sha256": "52012b786f88df6f7ec7699d9ca90d454bcb737384b2c48efac9277c20330330"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 18100,
+    "team": "Y",
+    "job_id": "fbed8bb614426bb01dc7d3c5",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 7,
+        "K": 22
+      },
+      "turns": 160,
+      "seed": 18100
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -15,
+    "max_turn_ms": 28.794584999559447,
+    "opponent_max_turn_ms": 16.774765004811343,
+    "logical_trace_sha256": "1cef14c44dcfb8621e0248af186e1004e8664ab8d851d2b82f4b5f89056ef217",
+    "started_utc": "2026-09-30T16:19:20.759447+00:00",
+    "finished_utc": "2026-09-30T16:19:23.022903+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/fbed8bb614426bb01dc7d3c5.json.gz",
+    "replay_sha256": "8d08e4f8ab104b90cec94336e77a99b1bd86f42bb30a473a84f7a265d64202f8"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "s3_selective_contact",
+    "map_seed": 18100,
+    "team": "Y",
+    "job_id": "ad33b59b691550d2abb59a9f",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "instant",
+      "score": {
+        "Y": 0,
+        "K": 28
+      },
+      "turns": 157,
+      "seed": 18100
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -28,
+    "max_turn_ms": 27.130383998155594,
+    "opponent_max_turn_ms": 135.50689799740212,
+    "logical_trace_sha256": "afc048fdc32d4af8d6884044dc807f91ba35deb855650a2f0a3f2ac970256564",
+    "started_utc": "2026-09-30T16:19:12.175903+00:00",
+    "finished_utc": "2026-09-30T16:19:23.869231+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/ad33b59b691550d2abb59a9f.json.gz",
+    "replay_sha256": "04a94514c754e9dc0843c4073e16ae84866ea6710c4f81e36f7f2dab6cfe8a8e"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 18100,
+    "team": "Y",
+    "job_id": "688526ab287a2406d4f26c6e",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 13,
+        "K": 16
+      },
+      "turns": 160,
+      "seed": 18100
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -3,
+    "max_turn_ms": 122.20865500421496,
+    "opponent_max_turn_ms": 16.475379998155404,
+    "logical_trace_sha256": "15e7ff31ca764d317d9c3bb50799adf34b11b4a2d375565734460ef4adb4a333",
+    "started_utc": "2026-09-30T16:19:12.174490+00:00",
+    "finished_utc": "2026-09-30T16:19:24.757808+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/688526ab287a2406d4f26c6e.json.gz",
+    "replay_sha256": "ef5b10127e1bb9cc1b417a8a7d03e3f81057620b7e8ffb46b536de292cf6d767"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "s3_selective_contact",
+    "map_seed": 18101,
+    "team": "K",
+    "job_id": "c40c77f2f5ff22b84187a6f1",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 39,
+        "K": 0
+      },
+      "turns": 110,
+      "seed": 18101
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -39,
+    "max_turn_ms": 30.032961003598757,
+    "opponent_max_turn_ms": 130.99422899540514,
+    "logical_trace_sha256": "54f5eb2369339ba036e558707447afc933b4a4eb3a24d77ebb35ec64ed06a5ae",
+    "started_utc": "2026-09-30T16:19:18.781814+00:00",
+    "finished_utc": "2026-09-30T16:19:26.902042+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/c40c77f2f5ff22b84187a6f1.json.gz",
+    "replay_sha256": "c24464d7ebe19690df9f719d857c63cfb68f6042780458a1a1d106635f40a1d3"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 18106,
+    "team": "Y",
+    "job_id": "adc7f7d3c7e115e1620bf0d8",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "instant",
+      "score": {
+        "Y": 0,
+        "K": 34
+      },
+      "turns": 117,
+      "seed": 18106
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -34,
+    "max_turn_ms": 31.598194000252988,
+    "opponent_max_turn_ms": 16.078927998023573,
+    "logical_trace_sha256": "83bba671049237be042c36e248274c412b2fb686368cddeacd9d22610f7781bb",
+    "started_utc": "2026-09-30T16:19:26.902866+00:00",
+    "finished_utc": "2026-09-30T16:19:28.572505+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/adc7f7d3c7e115e1620bf0d8.json.gz",
+    "replay_sha256": "14981db53b706a1b4739e6ea4df31588d298e34f30e87d6c909c256835c77eea"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "v3",
+    "map_seed": 18106,
+    "team": "K",
+    "job_id": "9f5382cd312068189b03f5b9",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 14,
+        "K": 19
+      },
+      "turns": 160,
+      "seed": 18106
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 5,
+    "max_turn_ms": 39.08505400613649,
+    "opponent_max_turn_ms": 73.07712599867955,
+    "logical_trace_sha256": "28b8e40baf4ae6e634ac21b8cd6fe1f3d9ffc00b0e1a30a6c69e596ca4a43814",
+    "started_utc": "2026-09-30T16:19:23.870260+00:00",
+    "finished_utc": "2026-09-30T16:19:31.540824+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/9f5382cd312068189b03f5b9.json.gz",
+    "replay_sha256": "595932e224b4041bdf94317bb563653a6cc77ef0ca60de8218fa142cb3509dfb"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "v3",
+    "map_seed": 18100,
+    "team": "K",
+    "job_id": "f4eb1ee532a987644d065453",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 16,
+        "K": 10
+      },
+      "turns": 160,
+      "seed": 18100
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -6,
+    "max_turn_ms": 124.0658099995926,
+    "opponent_max_turn_ms": 72.7001690029283,
+    "logical_trace_sha256": "1827bf6adff71e8f5ffdd63d0f0ae9976ee23eba705c12e451afbf2028d7caaf",
+    "started_utc": "2026-09-30T16:19:19.260426+00:00",
+    "finished_utc": "2026-09-30T16:19:33.217684+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/f4eb1ee532a987644d065453.json.gz",
+    "replay_sha256": "20afe4e52a1acb263a58d24632cd6497e29c9babfa6e4139a0e0db069f2c540c"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "v3",
+    "map_seed": 18103,
+    "team": "K",
+    "job_id": "15bae4aeeade9fa1f40b7c11",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 32,
+        "K": 0
+      },
+      "turns": 97,
+      "seed": 18103
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -32,
+    "max_turn_ms": 29.780356999253854,
+    "opponent_max_turn_ms": 69.93997399695218,
+    "logical_trace_sha256": "6a42159c2cfd5fc66e136863717d33fd4573992baf39e24a15d177a43fa60419",
+    "started_utc": "2026-09-30T16:19:31.543255+00:00",
+    "finished_utc": "2026-09-30T16:19:35.958538+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/15bae4aeeade9fa1f40b7c11.json.gz",
+    "replay_sha256": "e353e459af2e098ed5a809a3ec84aa1e3c027e8a3e883854c696b35357c06f5a"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "s3_selective_contact",
+    "map_seed": 18103,
+    "team": "K",
+    "job_id": "80889929b0ce40f5698cd383",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 8,
+        "K": 22
+      },
+      "turns": 160,
+      "seed": 18103
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 14,
+    "max_turn_ms": 123.62701100209961,
+    "opponent_max_turn_ms": 135.85112299915636,
+    "logical_trace_sha256": "c9ca5a4a2ed8a92c79c9bbe2d5a6776e8a2d7a7102468fe996a6cb7ed2ddf02e",
+    "started_utc": "2026-09-30T16:19:19.094494+00:00",
+    "finished_utc": "2026-09-30T16:19:36.218963+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/80889929b0ce40f5698cd383.json.gz",
+    "replay_sha256": "25e07685fcaebaff1fa8e8dd447e62a16e1035296fa6f219d40a1af3e3047fce"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "v3",
+    "map_seed": 18104,
+    "team": "Y",
+    "job_id": "8bee1b937c743448164f36d2",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 23,
+        "K": 12
+      },
+      "turns": 160,
+      "seed": 18104
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 11,
+    "max_turn_ms": 125.39153999387054,
+    "opponent_max_turn_ms": 75.17729000392137,
+    "logical_trace_sha256": "723bda308cf01eec92e5973b4a3c48ab99b10222237ce1687203fe9b27553f3f",
+    "started_utc": "2026-09-30T16:19:23.024016+00:00",
+    "finished_utc": "2026-09-30T16:19:38.098598+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/8bee1b937c743448164f36d2.json.gz",
+    "replay_sha256": "5458de6e9865c66f7ed25ee86240136923e0ff5ecd8390dcb910547884a3e70b"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 18107,
+    "team": "Y",
+    "job_id": "6e8708c572a5980a72e9dc7b",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 37,
+        "K": 0
+      },
+      "turns": 146,
+      "seed": 18107
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 37,
+    "max_turn_ms": 125.52127099479549,
+    "opponent_max_turn_ms": 17.838578998635057,
+    "logical_trace_sha256": "e871bfba860a462e6bdc4b38a2ea4b01fc7cd7fe08d31d4d39b451ad3af919ec",
+    "started_utc": "2026-09-30T16:19:28.573442+00:00",
+    "finished_utc": "2026-09-30T16:19:41.443345+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/6e8708c572a5980a72e9dc7b.json.gz",
+    "replay_sha256": "283d090b38d1cf0d053594172a431b55739d3947f7dc6a02f7d9d70a7155ac0d"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "v3",
+    "map_seed": 18105,
+    "team": "K",
+    "job_id": "da32b5b5a691f8157d110f13",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 32,
+        "K": 0
+      },
+      "turns": 137,
+      "seed": 18105
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -32,
+    "max_turn_ms": 30.902990998583846,
+    "opponent_max_turn_ms": 70.88111600023694,
+    "logical_trace_sha256": "800119d1d5853bea00efee9fb50e0208387ef5ec13e604bf37a89fe73f735465",
+    "started_utc": "2026-09-30T16:19:35.959357+00:00",
+    "finished_utc": "2026-09-30T16:19:42.266260+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/da32b5b5a691f8157d110f13.json.gz",
+    "replay_sha256": "34e8f06990b9c59439416eda420d2b28217793528017081cd9b3da8a80d46023"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "s3_selective_contact",
+    "map_seed": 18107,
+    "team": "Y",
+    "job_id": "f9c43f46ede99e08ee6d4280",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 22,
+        "K": 11
+      },
+      "turns": 160,
+      "seed": 18107
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 11,
+    "max_turn_ms": 124.9694139987696,
+    "opponent_max_turn_ms": 135.7614599983208,
+    "logical_trace_sha256": "87eaa0718254dd7a21213bf887f0e5029059b94ff373345e68a9d796f114d41a",
+    "started_utc": "2026-09-30T16:19:24.759004+00:00",
+    "finished_utc": "2026-09-30T16:19:42.433397+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/f9c43f46ede99e08ee6d4280.json.gz",
+    "replay_sha256": "be6591c031e76a9fb8ff7a7becc18fafcc6206a94d6055797695b1485d326030"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 18101,
+    "team": "Y",
+    "job_id": "e017a73db1d7a86e0992bd1d",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "instant",
+      "score": {
+        "Y": 0,
+        "K": 39
+      },
+      "turns": 137,
+      "seed": 18101
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -39,
+    "max_turn_ms": 32.717367001168896,
+    "opponent_max_turn_ms": 16.839650001202244,
+    "logical_trace_sha256": "bcfe1dbfb5e020e82f12494182e016e838f46befccbc4425715112d824077731",
+    "started_utc": "2026-09-30T16:19:41.444577+00:00",
+    "finished_utc": "2026-09-30T16:19:43.457846+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/e017a73db1d7a86e0992bd1d.json.gz",
+    "replay_sha256": "18f643a93fc90dbd95d7f27d3307a5fb80b49e60dc2c38212662bf32b00e438f"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "j_balanced_portfolio",
+    "map_seed": 18101,
+    "team": "Y",
+    "job_id": "33afc520fd278a5e42274115",
+    "status": "complete",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 32,
+        "K": 8
+      },
+      "turns": 160,
+      "seed": 18101
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 24,
+    "max_turn_ms": 124.4652440000209,
+    "opponent_max_turn_ms": 17.460761999245733,
+    "logical_trace_sha256": "44bfa4a5654b671262ebbdfaf181247537d35b5d9d1807e438ecca4c4dc935b8",
+    "started_utc": "2026-09-30T16:19:33.218892+00:00",
+    "finished_utc": "2026-09-30T16:19:46.298597+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/33afc520fd278a5e42274115.json.gz",
+    "replay_sha256": "e9395d7b47816ee3a9b210a935961ccc4e9edbbae2ad8e470948d76583c013c6"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "v3",
+    "map_seed": 18100,
+    "team": "Y",
+    "job_id": "29371af30778463004598256",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "instant",
+      "score": {
+        "Y": 0,
+        "K": 28
+      },
+      "turns": 147,
+      "seed": 18100
+    },
+    "win": false,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": -28,
+    "max_turn_ms": 31.408278999151662,
+    "opponent_max_turn_ms": 60.191128999576904,
+    "logical_trace_sha256": "f8756542b88160a107cc5850aef6077cda2c161d259809040b8fd04407a49be1",
+    "started_utc": "2026-09-30T16:19:42.268705+00:00",
+    "finished_utc": "2026-09-30T16:19:48.222695+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/29371af30778463004598256.json.gz",
+    "replay_sha256": "87d6d0b723960a6b18ffb5a79cb3884640b67ef28accf2e704af0fefde3f0c05"
+  },
+  {
+    "candidate": "teammate",
+    "opponent": "s3_selective_contact",
+    "map_seed": 18102,
+    "team": "K",
+    "job_id": "4662019d6d2902ed379db9b0",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 16,
+        "K": 17
+      },
+      "turns": 160,
+      "seed": 18102
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 1,
+    "max_turn_ms": 30.047822998312768,
+    "opponent_max_turn_ms": 128.15870699705556,
+    "logical_trace_sha256": "df65532892a62ae39e28c206fa3592bcec0db2e39f06e24f7dfdd7cd2e2b0a8f",
+    "started_utc": "2026-09-30T16:19:36.220237+00:00",
+    "finished_utc": "2026-09-30T16:19:48.662145+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/4662019d6d2902ed379db9b0.json.gz",
+    "replay_sha256": "2b2beb49b83af699a34a4598879780dccfa8f1f9b9086f7c23af1b598a4392fe"
+  },
+  {
+    "candidate": "v8",
+    "opponent": "s3_selective_contact",
+    "map_seed": 18102,
+    "team": "K",
+    "job_id": "d4dab79bf9d20919fbc16fb9",
+    "status": "complete",
+    "result": {
+      "winner": "K",
+      "reason": "instant",
+      "score": {
+        "Y": 0,
+        "K": 31
+      },
+      "turns": 146,
+      "seed": 18102
+    },
+    "win": true,
+    "draw": false,
+    "forfeit": false,
+    "score_margin": 31,
+    "max_turn_ms": 122.8337479988113,
+    "opponent_max_turn_ms": 135.63713799521793,
+    "logical_trace_sha256": "959d8f9fd893413f008a869bb2e0ea7923d20c0fe90dd30f550c66983a9d0280",
+    "started_utc": "2026-09-30T16:19:38.100106+00:00",
+    "finished_utc": "2026-09-30T16:19:50.344453+00:00",
+    "run": "common-opponents",
+    "replay_archive_path": "records/teammates/20261001/runs/common-opponents/run/replays/d4dab79bf9d20919fbc16fb9.json.gz",
+    "replay_sha256": "3ecd1dfcd70d1f941bdcde239537706a05bebb5414880d82874048537330e760"
+  }
+]

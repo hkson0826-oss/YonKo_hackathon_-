@@ -1,0 +1,43 @@
+{
+  "tool_sha256": "090ee60c9a0c72f916bc0b6b9ab428991f19b25e9e327fedbea0e8c7c7c52418",
+  "existing_replay_check": {
+    "games": 32,
+    "maps": 2,
+    "player_accounting_checks": 64,
+    "production_and_losses_equal_existing_diagnostics": true
+  },
+  "pilot_check": {
+    "games": 8,
+    "maps": 4,
+    "player_records": 16,
+    "per_bot_games": 8,
+    "per_side_games": 4,
+    "final_scores_equal_recorded_result": true,
+    "production_minus_losses_equal_final_stock": true,
+    "production_and_losses_equal_existing_diagnostics": true
+  },
+  "direct_check": {
+    "games": 64,
+    "maps": 32,
+    "player_records": 128,
+    "production_and_losses_equal_existing_diagnostics": true,
+    "final_scores_equal_recorded_result": true,
+    "production_minus_losses_equal_final_stock": true,
+    "map_and_side_denominators_correct": true
+  },
+  "scope": "Read-only analyzer checks using stored actual games and frozen official step_spawn. No strategy changes or new matches.",
+  "duplicate_input_rejected": true,
+  "common_check": {
+    "games": 96,
+    "maps": 8,
+    "player_records": 192,
+    "per_focal_bot_games": 48,
+    "final_scores_equal_recorded_result": true,
+    "production_minus_losses_equal_final_stock": true,
+    "production_and_losses_equal_existing_diagnostics": true
+  },
+  "resume_note": {
+    "reported_by_runner_owner": "Common-opponents first process exited143 after72 completed; same frozen plan/policy resumed remaining24. Original interruption cause undetermined.",
+    "completed_total": 96
+  }
+}
