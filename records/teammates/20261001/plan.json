@@ -1,0 +1,126 @@
+{
+  "created_utc": "2026-09-30T16:11:00Z",
+  "objective": "Read the teammate branch before playing; compare opening expansion, search/planning and defense, side/map strengths and weaknesses using unchanged source.",
+  "teammate_branch": "origin/손형권_v1",
+  "teammate_commit": "8c458b1f3df3e78afafb81bd5739d4ab54cd70c5",
+  "teammate_zip_sha256": "571397e3c84998b27f8ce0468bc49333663c69b0b84162ad8dfc27e7a47f2365",
+  "teammate_input_sha256": {
+    "main.py": "a114cc5a286ea21cc09ba11a018c65bf38e068c7f79d7a8b5420a05ff936b666",
+    "protocol.py": "67a5d27ced038de39d7cd3b069bf01786bf4cc9e6c1d39269d1f7e67b185c194",
+    "campus_bot.py": "2568119d19d9def58dd824b06eac332f018f23c0dee24ba1ccddf3169a151e7b",
+    "_generated.py": "8cf113fe574425e1f761911e59fe43394aad147946b07ed4a837e1da6b25fcfc",
+    "submission.json": "ff5431b97ab8dc3d045d053fe1e3148eca20bfe900ec66cd9e7f7f5e542f3de5"
+  },
+  "v8_source_sha256": "61a4f25113d9bf2c387a59ddc770a3143de6311e3fd2e004827a66eb78edfbc9",
+  "v8_zip_sha256": "15fe3b7931e25fa6fbd6364536d39190fd6fe8e564405ed223bb28b33615f03f",
+  "arena": "/tmp/yk-team-arena-20261001",
+  "workers": 6,
+  "source_changes": "none",
+  "runtime": "official frozen SDK; separate bot processes; 300ms regular/3000ms first turn; 384MiB inherited address-space limit",
+  "batches": [
+    {
+      "id": "direct-pilot",
+      "seeds": [
+        18000,
+        18001,
+        18002,
+        18003
+      ],
+      "maps": 4,
+      "games": 8,
+      "candidates": [
+        "v8"
+      ],
+      "opponents": [
+        "teammate"
+      ]
+    },
+    {
+      "id": "direct-main",
+      "seeds": [
+        18004,
+        18005,
+        18006,
+        18007,
+        18008,
+        18009,
+        18010,
+        18011,
+        18012,
+        18013,
+        18014,
+        18015,
+        18016,
+        18017,
+        18018,
+        18019,
+        18020,
+        18021,
+        18022,
+        18023,
+        18024,
+        18025,
+        18026,
+        18027,
+        18028,
+        18029,
+        18030,
+        18031
+      ],
+      "maps": 28,
+      "games": 56,
+      "candidates": [
+        "v8"
+      ],
+      "opponents": [
+        "teammate"
+      ]
+    },
+    {
+      "id": "common-opponents",
+      "seeds": [
+        18100,
+        18101,
+        18102,
+        18103,
+        18104,
+        18105,
+        18106,
+        18107
+      ],
+      "maps": 8,
+      "games": 96,
+      "candidates": [
+        "v8",
+        "teammate"
+      ],
+      "opponents": [
+        "v3",
+        "j_balanced_portfolio",
+        "s3_selective_contact"
+      ]
+    }
+  ],
+  "sides": [
+    "Y",
+    "K"
+  ],
+  "total_games": 160,
+  "distinct_maps": 40,
+  "replays": "all",
+  "stop_policy": "Pause and diagnose any runtime/protocol failure before expanding past pilot. No tuning or source changes during this comparative review.",
+  "metrics": [
+    "side/opponent win-draw-loss",
+    "map-paired uncertainty",
+    "scores and economic building ownership by game phase",
+    "F/W production, survivors and losses",
+    "own-half economic building loss and enemy F intrusion",
+    "runtime distribution and errors",
+    "exploratory map geometry associations"
+  ],
+  "limitations": [
+    "Map-feature associations are exploratory; do not label causal from win correlation.",
+    "V8 embeds an adapted version of the teammate assignment policy; not wholly independent strategy families.",
+    "No current authenticated server results or leaderboard-score inference."
+  ]
+}
