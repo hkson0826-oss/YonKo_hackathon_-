@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/tmp/yk-gcc12-e58glp_n/gcc12-wrapper",
+    "-std=c++20",
+    "-O2",
+    "-I",
+    "/tmp/yk-deadline-package-58iuuw_0/extracted",
+    "/tmp/yk-deadline-package-58iuuw_0/extracted/main.cpp",
+    "-o",
+    "/tmp/yk-deadline-package-58iuuw_0/candidate"
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": ""
+}

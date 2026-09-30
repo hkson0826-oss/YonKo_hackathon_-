@@ -1,0 +1,218 @@
+{
+  "status": "validated",
+  "started_utc": "2026-09-29T10:31:24.091288+00:00",
+  "candidate": "guard3",
+  "helper_sha256": "ae80af2aba8664cf66708ef03e390a946ea2ac2f9f2ccbe324a1679e38a92a9f",
+  "shared_helper_sha256": "5bd9526ad4d26bdc71348a1b5084f0745fbf5c1961b28264e8229457f472b196",
+  "scope": "Separate deadline experiment acceptance evidence and exact-ZIP runtime checks; original campaign gates are unchanged.",
+  "source_commit": "798f6883d4a86e5851993db8e399485cd6cf1cc0",
+  "source_sha256": "61a4f25113d9bf2c387a59ddc770a3143de6311e3fd2e004827a66eb78edfbc9",
+  "baseline": "v4",
+  "baseline_source_sha256": "1703701340ede10b652b0aa024e29c3fd411e2809ae34de1e3d0b39620d496df",
+  "decision_sha256": "d9f80d1cb57b01c973df27d5a4db4b7f1f41f30e80e93bb826878a3d9528706c",
+  "evidence": {
+    "selection": {
+      "arena": "/tmp/yk-selection-20260929",
+      "run_id": "selection",
+      "maps": [
+        13000,
+        13001,
+        13002,
+        13003,
+        13004,
+        13005
+      ],
+      "games": 240,
+      "manifest_sha256": "3fb9ede29a833bf6c9c5613b6e826c968de5e509e70f06c86dba631867549e43",
+      "summary_sha256": "c276fad72d7301fc11ebdb8479d8b41235cb6b4b4abff9e27852ce745b0d6bea",
+      "results_sha256": "2c026fa7f7c891a104dd5f1aaaf57eeb277a6021e961ce80a41fadf556006862",
+      "sdk_input_sha256": {
+        "yk-development-tools/bots/dist/starter/python/_generated.py": "8cf113fe574425e1f761911e59fe43394aad147946b07ed4a837e1da6b25fcfc",
+        "yk-development-tools/bots/dist/starter/python/campus_bot.py": "2568119d19d9def58dd824b06eac332f018f23c0dee24ba1ccddf3169a151e7b",
+        "yk-development-tools/bots/dist/starter/python/example_lv1.py": "15183b1c05b8daa12212cb2d64fe54dbc81deba69a7e9999b3fac4b3d5ccbc1d",
+        "yk-development-tools/bots/dist/starter/python/example_lv2.py": "91c174b0259ea2759d3ff390bb80ff0d6494fbea59003cb5b0a607bf1370bd4f",
+        "yk-development-tools/bots/dist/starter/python/main.py": "fc0b4fc2eccb0e497c8435d85412332e3628053a905f51687d654b8e2d35b068",
+        "yk-development-tools/bots/dist/starter/python/mybot_template.py": "6d6ee8564548c9bf81562d60c270b69968813045c900c94ce95b5c261456d43b",
+        "yk-development-tools/bots/dist/starter/python/protocol.py": "67a5d27ced038de39d7cd3b069bf01786bf4cc9e6c1d39269d1f7e67b185c194",
+        "yk-development-tools/bots/dist/starter/python/search.py": "34cc73421e056d857549d28523ada709c6531152e4a0e08b8f8eddbad5073e45",
+        "yk-development-tools/bots/dist/starter/python/submission.json": "ff5431b97ab8dc3d045d053fe1e3148eca20bfe900ec66cd9e7f7f5e542f3de5",
+        "yk-development-tools/config/balance.json": "a46886d91862244b6daf4990dcdf2371302433e7120c21dc2a29ecf95696b35f",
+        "yk-development-tools/engine/__init__.py": "5b9c498fcef25d4900bfe993415964ef9b803c37309acda004e6b553130ace86",
+        "yk-development-tools/engine/commands.py": "db00820b9f77cc1b6e71eaa37bb4eb0b4c31cccda7f4b388269a13db04a76798",
+        "yk-development-tools/engine/config.py": "964f20b9f914bbc0bc81c84d7fbee3b2ecbed4b54814ab51cbd20d54ef6f20b9",
+        "yk-development-tools/engine/pipeline.py": "f0bd96c484c8628b6a070b188adcc1a077e9f90017cc15f11ce366d974490fa6",
+        "yk-development-tools/engine/state.py": "dd227e26bcb36a5c412bbf7db19f4418a59627e8ea7e55a90dac5184dcc0737f",
+        "yk-development-tools/mapgen/__init__.py": "4e3cf8f63c58f32835898da672ecaacf87b1ee105da4628fb917b2f6070fc5f0",
+        "yk-development-tools/mapgen/generator.py": "645b53e2b2ce0049608873b1d01a983661dbdbfe63e358fbb152cbeeea13947e",
+        "yk-development-tools/mapgen/render.py": "5486e5f68e8de843fd36ded98716a05a0b399301b6d82651db3aacba6bc16029",
+        "yk-development-tools/mapgen/rng.py": "4b56383dd28a138c2ae0bd387a893b4129e108dddf369dd54d3927848f85cc4d",
+        "yk-development-tools/runner/__init__.py": "7f675ede62ac8590c279dd4f2f64f8aa526f8d41e60dcfd7dba930612db4fbe2",
+        "yk-development-tools/runner/__main__.py": "307299fda7b77d22c64cb51430ec75e5f59d78e9c948786afb3b2544fe45e4b7",
+        "yk-development-tools/runner/bots.py": "c09312d62eaa1a2a5af5576b24922a9fd209365e0f3e655894934585858aba43",
+        "yk-development-tools/runner/cli.py": "90b102ca9513f710deed37c68adbca6026f43b641a5c00758d2868ecd1a90b81",
+        "yk-development-tools/runner/match.py": "122d3fc0c31ade0b808795d15842949da8c32a26c79c779841e7364aa2f51578",
+        "yk-development-tools/runner/protocol.py": "5917df4bec20b963586b1ffeb7a45b9959f51e3437a227ee7e8d932b172a7d65",
+        "yk-development-tools/runner/replay.py": "fc2bf7405c405ac30da4d7c122b24e3c3275544bfbd1ec22779bbb217df6e8a6",
+        "yk-development-tools/runner/validation.py": "7c00c3eca69a8f115e51b3c47a570c1015795b41d16e9987b5679f84f4184345"
+      },
+      "source_sha256": {
+        "guard3": "61a4f25113d9bf2c387a59ddc770a3143de6311e3fd2e004827a66eb78edfbc9",
+        "v4": "1703701340ede10b652b0aa024e29c3fd411e2809ae34de1e3d0b39620d496df"
+      },
+      "opponents": [
+        "v3",
+        "teammate",
+        "j_balanced_portfolio",
+        "s3_selective_contact",
+        "raid1"
+      ],
+      "opponent_sha256": {
+        "v3": "52268569e17d7fc40fd46f0996b2da684768902b4af27ec059c4b068911c4473",
+        "teammate": "571397e3c84998b27f8ce0468bc49333663c69b0b84162ad8dfc27e7a47f2365",
+        "j_balanced_portfolio": "534f55f1d6641ed788ca637663456e43375297d8016ac9832c589b0a012c8422",
+        "s3_selective_contact": "db83d9aa0e8809aaffd6b36ffc47972996d832d987947187af600d3a8419d96c",
+        "raid1": "be00d499e7fa4bfff2d11fd6a2506ee9771b9c6fae75e41b7fcaeff6df828f44"
+      },
+      "created_utc": "2026-09-29T10:16:00.988962+00:00",
+      "finished_utc": "2026-09-29T10:23:56.833830+00:00"
+    },
+    "final": {
+      "arena": "/tmp/yk-selection-20260929",
+      "run_id": "final",
+      "maps": [
+        14000,
+        14001,
+        14002,
+        14003,
+        14004,
+        14005,
+        14006,
+        14007,
+        14008,
+        14009
+      ],
+      "games": 200,
+      "manifest_sha256": "3fb9ede29a833bf6c9c5613b6e826c968de5e509e70f06c86dba631867549e43",
+      "summary_sha256": "520e30f9409225a15bf73b5629584353e0a7e4db67158c730d2ef89d34ffa0f9",
+      "results_sha256": "ca4b04adae3861e47b90d1cd91d2c2d7cf25e3b8ea9fd0e4d6620e4ffd7acef8",
+      "sdk_input_sha256": {
+        "yk-development-tools/bots/dist/starter/python/_generated.py": "8cf113fe574425e1f761911e59fe43394aad147946b07ed4a837e1da6b25fcfc",
+        "yk-development-tools/bots/dist/starter/python/campus_bot.py": "2568119d19d9def58dd824b06eac332f018f23c0dee24ba1ccddf3169a151e7b",
+        "yk-development-tools/bots/dist/starter/python/example_lv1.py": "15183b1c05b8daa12212cb2d64fe54dbc81deba69a7e9999b3fac4b3d5ccbc1d",
+        "yk-development-tools/bots/dist/starter/python/example_lv2.py": "91c174b0259ea2759d3ff390bb80ff0d6494fbea59003cb5b0a607bf1370bd4f",
+        "yk-development-tools/bots/dist/starter/python/main.py": "fc0b4fc2eccb0e497c8435d85412332e3628053a905f51687d654b8e2d35b068",
+        "yk-development-tools/bots/dist/starter/python/mybot_template.py": "6d6ee8564548c9bf81562d60c270b69968813045c900c94ce95b5c261456d43b",
+        "yk-development-tools/bots/dist/starter/python/protocol.py": "67a5d27ced038de39d7cd3b069bf01786bf4cc9e6c1d39269d1f7e67b185c194",
+        "yk-development-tools/bots/dist/starter/python/search.py": "34cc73421e056d857549d28523ada709c6531152e4a0e08b8f8eddbad5073e45",
+        "yk-development-tools/bots/dist/starter/python/submission.json": "ff5431b97ab8dc3d045d053fe1e3148eca20bfe900ec66cd9e7f7f5e542f3de5",
+        "yk-development-tools/config/balance.json": "a46886d91862244b6daf4990dcdf2371302433e7120c21dc2a29ecf95696b35f",
+        "yk-development-tools/engine/__init__.py": "5b9c498fcef25d4900bfe993415964ef9b803c37309acda004e6b553130ace86",
+        "yk-development-tools/engine/commands.py": "db00820b9f77cc1b6e71eaa37bb4eb0b4c31cccda7f4b388269a13db04a76798",
+        "yk-development-tools/engine/config.py": "964f20b9f914bbc0bc81c84d7fbee3b2ecbed4b54814ab51cbd20d54ef6f20b9",
+        "yk-development-tools/engine/pipeline.py": "f0bd96c484c8628b6a070b188adcc1a077e9f90017cc15f11ce366d974490fa6",
+        "yk-development-tools/engine/state.py": "dd227e26bcb36a5c412bbf7db19f4418a59627e8ea7e55a90dac5184dcc0737f",
+        "yk-development-tools/mapgen/__init__.py": "4e3cf8f63c58f32835898da672ecaacf87b1ee105da4628fb917b2f6070fc5f0",
+        "yk-development-tools/mapgen/generator.py": "645b53e2b2ce0049608873b1d01a983661dbdbfe63e358fbb152cbeeea13947e",
+        "yk-development-tools/mapgen/render.py": "5486e5f68e8de843fd36ded98716a05a0b399301b6d82651db3aacba6bc16029",
+        "yk-development-tools/mapgen/rng.py": "4b56383dd28a138c2ae0bd387a893b4129e108dddf369dd54d3927848f85cc4d",
+        "yk-development-tools/runner/__init__.py": "7f675ede62ac8590c279dd4f2f64f8aa526f8d41e60dcfd7dba930612db4fbe2",
+        "yk-development-tools/runner/__main__.py": "307299fda7b77d22c64cb51430ec75e5f59d78e9c948786afb3b2544fe45e4b7",
+        "yk-development-tools/runner/bots.py": "c09312d62eaa1a2a5af5576b24922a9fd209365e0f3e655894934585858aba43",
+        "yk-development-tools/runner/cli.py": "90b102ca9513f710deed37c68adbca6026f43b641a5c00758d2868ecd1a90b81",
+        "yk-development-tools/runner/match.py": "122d3fc0c31ade0b808795d15842949da8c32a26c79c779841e7364aa2f51578",
+        "yk-development-tools/runner/protocol.py": "5917df4bec20b963586b1ffeb7a45b9959f51e3437a227ee7e8d932b172a7d65",
+        "yk-development-tools/runner/replay.py": "fc2bf7405c405ac30da4d7c122b24e3c3275544bfbd1ec22779bbb217df6e8a6",
+        "yk-development-tools/runner/validation.py": "7c00c3eca69a8f115e51b3c47a570c1015795b41d16e9987b5679f84f4184345"
+      },
+      "source_sha256": {
+        "guard3": "61a4f25113d9bf2c387a59ddc770a3143de6311e3fd2e004827a66eb78edfbc9",
+        "v4": "1703701340ede10b652b0aa024e29c3fd411e2809ae34de1e3d0b39620d496df"
+      },
+      "opponents": [
+        "v3",
+        "teammate",
+        "j_balanced_portfolio",
+        "s3_selective_contact",
+        "raid1"
+      ],
+      "opponent_sha256": {
+        "v3": "52268569e17d7fc40fd46f0996b2da684768902b4af27ec059c4b068911c4473",
+        "teammate": "571397e3c84998b27f8ce0468bc49333663c69b0b84162ad8dfc27e7a47f2365",
+        "j_balanced_portfolio": "534f55f1d6641ed788ca637663456e43375297d8016ac9832c589b0a012c8422",
+        "s3_selective_contact": "db83d9aa0e8809aaffd6b36ffc47972996d832d987947187af600d3a8419d96c",
+        "raid1": "be00d499e7fa4bfff2d11fd6a2506ee9771b9c6fae75e41b7fcaeff6df828f44"
+      },
+      "created_utc": "2026-09-29T10:24:24.769719+00:00",
+      "finished_utc": "2026-09-29T10:30:25.834403+00:00"
+    }
+  },
+  "cpu_map_seeds": [
+    15000,
+    15001
+  ],
+  "compiler": "x86_64-linux-gnu-g++-12 (Debian 12.2.0-14+deb12u1) 12.2.0",
+  "compiler_path": "/tmp/yk-gcc12-e58glp_n/gcc12-wrapper",
+  "python": "3.14.7 (main, Aug 10 2026, 07:46:56) [GCC 16.1.1 20260728]",
+  "runtime_limits": {
+    "memory_address_space_mib": 384,
+    "turn_ms": 300,
+    "first_turn_ms": 3000,
+    "process_wall_seconds": 180,
+    "official_compiler": "GCC12.2/C++20",
+    "limitation": "Host environment is recorded; this does not certify official server isolation."
+  },
+  "sdk_tools_sha256": {
+    "submission.py": "e3e163f2de9877218bc0079e6bfad94b1a78102e9d253d84abf97bf2e19b1130",
+    "run_tests.py": "2b52ee38f5b148057535ebb382d9959f22117bdf1a0b84e8d994b6ebe9b8a692",
+    "output_usage.py": "7a1398acbdbe7e67e8a4b52587ed90d5f674a937ac3519ebc94551c00f9ab642",
+    "limits.json": "182499583a1da4f5add6c25fe900ad59488c230163b8064c6697014a9b9fec45"
+  },
+  "source_files": {
+    "generated.hpp": {
+      "sha256": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+      "frozen_path": "snapshot/candidates/guard3/generated.hpp"
+    },
+    "main.cpp": {
+      "sha256": "61a4f25113d9bf2c387a59ddc770a3143de6311e3fd2e004827a66eb78edfbc9",
+      "frozen_path": "snapshot/candidates/guard3/main.cpp"
+    },
+    "protocol.hpp": {
+      "sha256": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+      "frozen_path": "snapshot/candidates/guard3/protocol.hpp"
+    },
+    "submission.json": {
+      "sha256": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60",
+      "frozen_path": "snapshot/candidates/guard3/submission.json"
+    }
+  },
+  "zip": {
+    "sha256": "15fe3b7931e25fa6fbd6364536d39190fd6fe8e564405ed223bb28b33615f03f",
+    "bytes": 15847,
+    "members": {
+      "generated.hpp": {
+        "sha256": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+        "bytes": 1043
+      },
+      "main.cpp": {
+        "sha256": "61a4f25113d9bf2c387a59ddc770a3143de6311e3fd2e004827a66eb78edfbc9",
+        "bytes": 52377
+      },
+      "protocol.hpp": {
+        "sha256": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+        "bytes": 5010
+      },
+      "submission.json": {
+        "sha256": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60",
+        "bytes": 46
+      }
+    },
+    "deterministic_metadata": true
+  },
+  "errors": 0,
+  "forfeits": 0,
+  "cpu_matches": 4,
+  "sdk_smoke_matches": 1,
+  "maximum_candidate_response_ms": 107.5705939947511,
+  "temporary_directory_removed": true,
+  "finished_utc": "2026-09-29T10:32:12.091823+00:00"
+}

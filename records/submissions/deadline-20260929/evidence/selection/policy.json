@@ -1,0 +1,31 @@
+{
+  "created_utc": "2026-09-29T10:16:00.988962+00:00",
+  "stage": "selection",
+  "baseline": "v4",
+  "hypothesis": "Predeclared selection: development2 top two new candidates by primary Y rate plus escort-preserving guard3; choose one final candidate without tuning on selection maps",
+  "source_commit": "798f6883d4a86e5851993db8e399485cd6cf1cc0",
+  "source_sha256": {
+    "guard3": "61a4f25113d9bf2c387a59ddc770a3143de6311e3fd2e004827a66eb78edfbc9",
+    "v3": "52268569e17d7fc40fd46f0996b2da684768902b4af27ec059c4b068911c4473",
+    "raid1": "be00d499e7fa4bfff2d11fd6a2506ee9771b9c6fae75e41b7fcaeff6df828f44",
+    "teammate": "571397e3c84998b27f8ce0468bc49333663c69b0b84162ad8dfc27e7a47f2365",
+    "s3_selective_contact": "db83d9aa0e8809aaffd6b36ffc47972996d832d987947187af600d3a8419d96c",
+    "j_balanced_portfolio": "534f55f1d6641ed788ca637663456e43375297d8016ac9832c589b0a012c8422",
+    "v4": "1703701340ede10b652b0aa024e29c3fd411e2809ae34de1e3d0b39620d496df",
+    "guard2": "e73cf900936c62f616aea26c00e68ea53f9e94a2df7c307ca3f77f6d1b68efaa",
+    "endgame2": "fcff42b922e5fc170b77d5dfaa66246179af05c601904d980154cb70fe5a2e35"
+  },
+  "map_seeds": [
+    13000,
+    13001,
+    13002,
+    13003,
+    13004,
+    13005
+  ],
+  "policy_rng_seed": 20260927,
+  "scheduled_jobs": 240,
+  "workers": 6,
+  "resource_policy": "Official engine turn timeout; inherited 384MiB RLIMIT_AS after compilation",
+  "stop_policy": "Any error/forfeit blocks promotion; deadline decisions and candidate locking belong to the operator."
+}
