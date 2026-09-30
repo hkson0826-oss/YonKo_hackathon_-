@@ -1,0 +1,14 @@
+{
+  "checked_date_kst": "2026-09-30",
+  "status": "authentication_required",
+  "available_browser": "Codex in-app browser",
+  "observed_url": "https://yonsei-vs-korea-hackathon.kr/login",
+  "authenticated_chrome_connected": false,
+  "user_login_requested": true,
+  "new_upload_performed": false,
+  "selection_changed": false,
+  "last_confirmed_selected_version": "v8",
+  "last_confirmation_kst": "2026-09-30 01:30",
+  "current_selected_version_verified": false,
+  "note": "Current leaderboard, announcements, matches and selection cannot be verified from the unauthenticated page. A login page is open for user handoff; no credentials were requested in chat."
+}

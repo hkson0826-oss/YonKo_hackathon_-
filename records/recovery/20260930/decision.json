@@ -1,0 +1,92 @@
+{
+  "status": "HOLD_EXISTING_V8",
+  "approved": false,
+  "candidate": "guard4",
+  "baseline": "guard3",
+  "candidate_sha256": "c7f1ed99244087eb2e9f5b4a6c8a49bfadd1687898c2ca99a3db4292e490713d",
+  "baseline_sha256": "61a4f25113d9bf2c387a59ddc770a3143de6311e3fd2e004827a66eb78edfbc9",
+  "gates": {
+    "selection_primary_Y_improves": false,
+    "selection_errors_zero": true,
+    "selection_forfeits_zero": true
+  },
+  "reason": "Independent selection loses three of sixteen matched wins on each side. No final evaluation or release packaging is warranted. Keep submitted v8 and preserve failed candidate for research.",
+  "metrics": {
+    "recovery-development": {
+      "guard3": {
+        "Y": {
+          "games": 8,
+          "wins": 6,
+          "draws": 0,
+          "max_turn_ms": 131.58882800053107
+        },
+        "K": {
+          "games": 8,
+          "wins": 4,
+          "draws": 0,
+          "max_turn_ms": 137.30889100042987
+        }
+      },
+      "guard4": {
+        "Y": {
+          "games": 8,
+          "wins": 5,
+          "draws": 0,
+          "max_turn_ms": 134.85742699776893
+        },
+        "K": {
+          "games": 8,
+          "wins": 6,
+          "draws": 0,
+          "max_turn_ms": 131.93762200171477
+        }
+      }
+    },
+    "recovery-selection": {
+      "guard3": {
+        "Y": {
+          "games": 16,
+          "wins": 14,
+          "draws": 0,
+          "max_turn_ms": 136.2404339997738
+        },
+        "K": {
+          "games": 16,
+          "wins": 12,
+          "draws": 0,
+          "max_turn_ms": 133.75583900051424
+        }
+      },
+      "guard4": {
+        "Y": {
+          "games": 16,
+          "wins": 11,
+          "draws": 0,
+          "max_turn_ms": 134.41874999989523
+        },
+        "K": {
+          "games": 16,
+          "wins": 9,
+          "draws": 0,
+          "max_turn_ms": 133.34808700165013
+        }
+      }
+    }
+  },
+  "games": 96,
+  "distinct_maps": 6,
+  "errors": 0,
+  "forfeits": 0,
+  "not_run": [
+    "final evaluation (candidate rejected at selection)",
+    "GCC12 ZIP packaging (no release candidate)",
+    "site upload/selection (no improved candidate; current browser authentication unavailable)"
+  ],
+  "semantic_audit": {
+    "replays": 96,
+    "frames": 14709,
+    "invalid_or_clipped_commands": 0,
+    "development": "development-action-audit.json",
+    "selection": "selection-action-audit.json"
+  }
+}
