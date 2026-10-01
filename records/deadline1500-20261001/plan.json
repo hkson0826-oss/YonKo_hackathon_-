@@ -1,0 +1,46 @@
+{
+  "started_at": "2026-10-01T14:25:04.596314+09:00",
+  "user_request": "Fix quickly, choose strongest supported bot, and submit/select on the competition site by 2026-10-01 15:00 KST. Explicit upload/selection authorization supersedes previous user-managed-upload preference.",
+  "deadline_kst": "2026-10-01T15:00:00+09:00",
+  "experiment_cutoff_kst": "2026-10-01T14:43:00+09:00",
+  "submission_target_kst": "2026-10-01T14:45:00+09:00",
+  "fallback": "Original v8 guard3, existing server submission8 and byte-verified source ZIP",
+  "candidates": [
+    "v8",
+    "mission4",
+    "v9_lock",
+    "flagguard"
+  ],
+  "opponents": [
+    "s3_selective_contact",
+    "r3_opponent_league",
+    "j_balanced_portfolio",
+    "siphon"
+  ],
+  "selection_seeds": [
+    23500,
+    23501,
+    23502,
+    23503
+  ],
+  "confirmation_seeds": [
+    23600,
+    23601,
+    23602,
+    23603
+  ],
+  "selection_games": 128,
+  "conditional_confirmation_games": 64,
+  "runtime": "Each bot separate cgroup cpu.max=25000 100000, burst0, 384MiB, 300ms normal / 3000ms first wall, 6 concurrent matches; SDK runner outside bot scope. Server CPU/period equivalence unknown.",
+  "selection": "Require no runtime/forfeit/strict-command errors. Rank total points, Y points, worst-opponent points, mean score margin. Prefer v8 if tied in total points. Select one challenger only.",
+  "promotion": "Selected challenger must be >=v8 overall, Y and j_balanced in fresh confirmation, with improvement in overall or Y. Otherwise v8 fallback. Never select another challenger using the confirmation set. Prior Mission4 final-gate failure remains documented.",
+  "source_change": "Keep v8 core and add final visible-enemy-W flag escort check based on accepted W spawn, departures and arrivals. Replace only F moves lacking enough W against current enemy W.",
+  "candidate_files": {
+    "main.cpp": "66d8d6e012e77c4c7b4b9effd6233bb00504b480988b559ac214a696dfbf0dc2",
+    "protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60"
+  },
+  "packaging": "Only submission.json and permitted C++ sources/headers. Exact ZIP GCC12.2 build and SDK smoke before upload.",
+  "main_publication": "Previous main documentation push remains approval-blocked and is not required for the site submission; work stays on jisang."
+}
