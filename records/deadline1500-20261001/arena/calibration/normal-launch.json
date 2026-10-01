@@ -1,0 +1,48 @@
+{
+  "pid": 913004,
+  "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-calibration-normal-12aa13a95b.scope",
+  "unit": "yk-quarter-20261001-calibration-normal-12aa13a95b.scope",
+  "limits": {
+    "cpu.max": null,
+    "cpu.max.burst": null,
+    "cpu.stat": "usage_usec 28564\nuser_usec 26605\nsystem_usec 1958\nnice_usec 0\ncore_sched.force_idle_usec 0",
+    "memory.max": "402653184",
+    "memory.peak": "9064448",
+    "cgroup.procs": "913004",
+    "cpuset.cpus.effective": null
+  },
+  "ancestors": [
+    {
+      "path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-calibration-normal-12aa13a95b.scope",
+      "cpu.max": null
+    },
+    {
+      "path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice",
+      "cpu.max": "max 100000"
+    },
+    {
+      "path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service",
+      "cpu.max": "max 100000"
+    },
+    {
+      "path": "/sys/fs/cgroup/user.slice/user-1000.slice",
+      "cpu.max": "max 100000"
+    },
+    {
+      "path": "/sys/fs/cgroup/user.slice",
+      "cpu.max": "max 100000"
+    },
+    {
+      "path": "/sys/fs/cgroup",
+      "cpu.max": null
+    }
+  ],
+  "command": [
+    "/usr/bin/python",
+    "/tmp/yk-deadline1500-20261001/busy_probe.py"
+  ],
+  "rlimit_as": [
+    402653184,
+    402653184
+  ]
+}

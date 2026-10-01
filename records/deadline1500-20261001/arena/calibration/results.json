@@ -1,0 +1,231 @@
+[
+  {
+    "condition": "normal",
+    "argv": [
+      "systemd-run",
+      "--user",
+      "--scope",
+      "--quiet",
+      "--collect",
+      "--no-ask-password",
+      "--unit=yk-quarter-20261001-calibration-normal-12aa13a95b.scope",
+      "--property=MemoryMax=402653184",
+      "--",
+      "/usr/bin/python",
+      "/tmp/yk-deadline1500-20261001/launch_bot.py",
+      "--metadata",
+      "/tmp/yk-deadline1500-20261001/calibration/normal-launch.json",
+      "--unit",
+      "yk-quarter-20261001-calibration-normal-12aa13a95b.scope",
+      "--expected-cpu-max",
+      "unlimited",
+      "--",
+      "/usr/bin/python",
+      "/tmp/yk-deadline1500-20261001/busy_probe.py"
+    ],
+    "returncode": 0,
+    "stdout": "{\"cpu_seconds\": 0.25015030400000005, \"wall_seconds\": 0.25094710499979556, \"cpu.max\": null, \"cpu.stat\": \"usage_usec 295662\\nuser_usec 205018\\nsystem_usec 90644\\nnice_usec 0\\ncore_sched.force_idle_usec 0\"}\n",
+    "stderr": "",
+    "wrapper_wall_seconds": 0.31573013300658204,
+    "launch": {
+      "pid": 913004,
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-calibration-normal-12aa13a95b.scope",
+      "unit": "yk-quarter-20261001-calibration-normal-12aa13a95b.scope",
+      "limits": {
+        "cpu.max": null,
+        "cpu.max.burst": null,
+        "cpu.stat": "usage_usec 28564\nuser_usec 26605\nsystem_usec 1958\nnice_usec 0\ncore_sched.force_idle_usec 0",
+        "memory.max": "402653184",
+        "memory.peak": "9064448",
+        "cgroup.procs": "913004",
+        "cpuset.cpus.effective": null
+      },
+      "ancestors": [
+        {
+          "path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-calibration-normal-12aa13a95b.scope",
+          "cpu.max": null
+        },
+        {
+          "path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice",
+          "cpu.max": "max 100000"
+        },
+        {
+          "path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service",
+          "cpu.max": "max 100000"
+        },
+        {
+          "path": "/sys/fs/cgroup/user.slice/user-1000.slice",
+          "cpu.max": "max 100000"
+        },
+        {
+          "path": "/sys/fs/cgroup/user.slice",
+          "cpu.max": "max 100000"
+        },
+        {
+          "path": "/sys/fs/cgroup",
+          "cpu.max": null
+        }
+      ],
+      "command": [
+        "/usr/bin/python",
+        "/tmp/yk-deadline1500-20261001/busy_probe.py"
+      ],
+      "rlimit_as": [
+        402653184,
+        402653184
+      ]
+    },
+    "probe": {
+      "cpu_seconds": 0.25015030400000005,
+      "wall_seconds": 0.25094710499979556,
+      "cpu.max": null,
+      "cpu.stat": "usage_usec 295662\nuser_usec 205018\nsystem_usec 90644\nnice_usec 0\ncore_sched.force_idle_usec 0"
+    },
+    "cleanup": {
+      "unit": "yk-quarter-20261001-calibration-normal-12aa13a95b.scope",
+      "operations": [
+        {
+          "argv": [
+            "kill",
+            "--kill-whom=all",
+            "--signal=KILL",
+            "yk-quarter-20261001-calibration-normal-12aa13a95b.scope"
+          ],
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "Failed to kill unit yk-quarter-20261001-calibration-normal-12aa13a95b.scope: Unit yk-quarter-20261001-calibration-normal-12aa13a95b.scope not loaded.\n"
+        },
+        {
+          "argv": [
+            "stop",
+            "yk-quarter-20261001-calibration-normal-12aa13a95b.scope"
+          ],
+          "returncode": 5,
+          "stdout": "",
+          "stderr": "Failed to stop yk-quarter-20261001-calibration-normal-12aa13a95b.scope: Unit yk-quarter-20261001-calibration-normal-12aa13a95b.scope not loaded.\n"
+        }
+      ],
+      "load_state": "not-found",
+      "cgroup_path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-calibration-normal-12aa13a95b.scope",
+      "cgroup_removed": true,
+      "ok": true
+    },
+    "cgroup_removed": true
+  },
+  {
+    "condition": "quarter",
+    "argv": [
+      "systemd-run",
+      "--user",
+      "--scope",
+      "--quiet",
+      "--collect",
+      "--no-ask-password",
+      "--unit=yk-quarter-20261001-calibration-quarter-618f6e5858.scope",
+      "--property=MemoryMax=402653184",
+      "--property=CPUQuota=25%",
+      "--property=CPUQuotaPeriodSec=100ms",
+      "--",
+      "/usr/bin/python",
+      "/tmp/yk-deadline1500-20261001/launch_bot.py",
+      "--metadata",
+      "/tmp/yk-deadline1500-20261001/calibration/quarter-launch.json",
+      "--unit",
+      "yk-quarter-20261001-calibration-quarter-618f6e5858.scope",
+      "--expected-cpu-max",
+      "25000 100000",
+      "--",
+      "/usr/bin/python",
+      "/tmp/yk-deadline1500-20261001/busy_probe.py"
+    ],
+    "returncode": 0,
+    "stdout": "{\"cpu_seconds\": 0.250156057, \"wall_seconds\": 1.004986290994566, \"cpu.max\": \"25000 100000\", \"cpu.stat\": \"usage_usec 296705\\nuser_usec 196554\\nsystem_usec 100151\\nnice_usec 0\\ncore_sched.force_idle_usec 0\\nnr_periods 12\\nnr_throttled 12\\nthrottled_usec 904401\\nnr_bursts 0\\nburst_usec 0\"}\n",
+    "stderr": "",
+    "wrapper_wall_seconds": 1.2172368350002216,
+    "launch": {
+      "pid": 913020,
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-calibration-quarter-618f6e5858.scope",
+      "unit": "yk-quarter-20261001-calibration-quarter-618f6e5858.scope",
+      "limits": {
+        "cpu.max": "25000 100000",
+        "cpu.max.burst": "0",
+        "cpu.stat": "usage_usec 29698\nuser_usec 23766\nsystem_usec 5931\nnice_usec 0\ncore_sched.force_idle_usec 0\nnr_periods 1\nnr_throttled 1\nthrottled_usec 76299\nnr_bursts 0\nburst_usec 0",
+        "memory.max": "402653184",
+        "memory.peak": "9314304",
+        "cgroup.procs": "913020",
+        "cpuset.cpus.effective": null
+      },
+      "ancestors": [
+        {
+          "path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-calibration-quarter-618f6e5858.scope",
+          "cpu.max": "25000 100000"
+        },
+        {
+          "path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice",
+          "cpu.max": "max 100000"
+        },
+        {
+          "path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service",
+          "cpu.max": "max 100000"
+        },
+        {
+          "path": "/sys/fs/cgroup/user.slice/user-1000.slice",
+          "cpu.max": "max 100000"
+        },
+        {
+          "path": "/sys/fs/cgroup/user.slice",
+          "cpu.max": "max 100000"
+        },
+        {
+          "path": "/sys/fs/cgroup",
+          "cpu.max": null
+        }
+      ],
+      "command": [
+        "/usr/bin/python",
+        "/tmp/yk-deadline1500-20261001/busy_probe.py"
+      ],
+      "rlimit_as": [
+        402653184,
+        402653184
+      ]
+    },
+    "probe": {
+      "cpu_seconds": 0.250156057,
+      "wall_seconds": 1.004986290994566,
+      "cpu.max": "25000 100000",
+      "cpu.stat": "usage_usec 296705\nuser_usec 196554\nsystem_usec 100151\nnice_usec 0\ncore_sched.force_idle_usec 0\nnr_periods 12\nnr_throttled 12\nthrottled_usec 904401\nnr_bursts 0\nburst_usec 0",
+      "cpu_wall_ratio": 0.2489148949011411
+    },
+    "cleanup": {
+      "unit": "yk-quarter-20261001-calibration-quarter-618f6e5858.scope",
+      "operations": [
+        {
+          "argv": [
+            "kill",
+            "--kill-whom=all",
+            "--signal=KILL",
+            "yk-quarter-20261001-calibration-quarter-618f6e5858.scope"
+          ],
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "Failed to kill unit yk-quarter-20261001-calibration-quarter-618f6e5858.scope: Unit yk-quarter-20261001-calibration-quarter-618f6e5858.scope not loaded.\n"
+        },
+        {
+          "argv": [
+            "stop",
+            "yk-quarter-20261001-calibration-quarter-618f6e5858.scope"
+          ],
+          "returncode": 5,
+          "stdout": "",
+          "stderr": "Failed to stop yk-quarter-20261001-calibration-quarter-618f6e5858.scope: Unit yk-quarter-20261001-calibration-quarter-618f6e5858.scope not loaded.\n"
+        }
+      ],
+      "load_state": "not-found",
+      "cgroup_path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-calibration-quarter-618f6e5858.scope",
+      "cgroup_removed": true,
+      "ok": true
+    },
+    "cgroup_removed": true
+  }
+]

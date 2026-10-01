@@ -31,7 +31,7 @@
   ],
   "selection_games": 128,
   "conditional_confirmation_games": 64,
-  "runtime": "Each bot separate cgroup cpu.max=25000 100000, burst0, 384MiB, 300ms normal / 3000ms first wall, 6 concurrent matches; SDK runner outside bot scope. Server CPU/period equivalence unknown.",
+  "runtime": "Each bot separate cgroup cpu.max=25000 100000, burst0, 384MiB, 300ms normal / 3000ms first wall, 8 concurrent matches; SDK runner outside bot scope. Server CPU/period equivalence unknown.",
   "selection": "Require no runtime/forfeit/strict-command errors. Rank total points, Y points, worst-opponent points, mean score margin. Prefer v8 if tied in total points. Select one challenger only.",
   "promotion": "Selected challenger must be >=v8 overall, Y and j_balanced in fresh confirmation, with improvement in overall or Y. Otherwise v8 fallback. Never select another challenger using the confirmation set. Prior Mission4 final-gate failure remains documented.",
   "source_change": "Keep v8 core and add final visible-enemy-W flag escort check based on accepted W spawn, departures and arrivals. Replace only F moves lacking enough W against current enemy W.",

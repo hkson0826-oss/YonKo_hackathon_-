@@ -1,0 +1,43 @@
+{
+  "observed_unix": 1790832479.849691,
+  "affinity": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "loadavg": [
+    2.29833984375,
+    1.65087890625,
+    1.0419921875
+  ],
+  "meminfo": {
+    "MemTotal": "32464912 kB",
+    "MemAvailable": "18595764 kB"
+  },
+  "current_cgroup": "0::/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.chromium.Chromium-68986.scope\n",
+  "preflight": {
+    "source_binary_harness_hashes": true,
+    "python_ast": true,
+    "selection_balance": 128,
+    "confirmation_balance": 64,
+    "known_result_aggregation": true,
+    "games_started": 0
+  }
+}

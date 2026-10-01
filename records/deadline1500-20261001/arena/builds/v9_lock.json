@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/tmp/yk-gcc12-2bjbhm3o/gcc12-wrapper",
+    "-std=c++20",
+    "-O2",
+    "-DNDEBUG",
+    "-I",
+    "/tmp/yk-deadline1500-20261001/sources/v9_lock",
+    "/tmp/yk-deadline1500-20261001/sources/v9_lock/main.cpp",
+    "-o",
+    "/tmp/yk-deadline1500-20261001/bin/v9_lock"
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "",
+  "elapsed_seconds": 6.1863837242126465
+}

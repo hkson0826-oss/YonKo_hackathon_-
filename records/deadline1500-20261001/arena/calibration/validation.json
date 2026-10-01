@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "harness_sha256": {
+    "scope_runtime.py": "780cfcb6ca6065bddd335e2f906a348ef9efa3e86bfb2a785ef6699d1f8916cb",
+    "launch_bot.py": "85091217051aa8027b3544172a2fb2444ad557f7b586a43133276ec7bb07e7f5",
+    "busy_probe.py": "f5b195540e2a6afd7210cd26a0181dd5cfbbac034a3b64f4bb4a4bc85a6b1fbd",
+    "parallel_matches.py": "05bf95c1f127cb72c2ad51349d3b096d5e50c9eb5cc4c2af70ab37f676b9bd0c",
+    "prepare_plan.py": "677919700942ab158d3a038357e5bd225e976372eb3b4e9e0bf0a008ff0605ef"
+  },
+  "normal_probe": {
+    "cpu_seconds": 0.25015030400000005,
+    "wall_seconds": 0.25094710499979556,
+    "cpu.max": null,
+    "cpu.stat": "usage_usec 295662\nuser_usec 205018\nsystem_usec 90644\nnice_usec 0\ncore_sched.force_idle_usec 0"
+  },
+  "quarter_probe": {
+    "cpu_seconds": 0.250156057,
+    "wall_seconds": 1.004986290994566,
+    "cpu.max": "25000 100000",
+    "cpu.stat": "usage_usec 296705\nuser_usec 196554\nsystem_usec 100151\nnice_usec 0\ncore_sched.force_idle_usec 0\nnr_periods 12\nnr_throttled 12\nthrottled_usec 904401\nnr_bursts 0\nburst_usec 0",
+    "cpu_wall_ratio": 0.2489148949011411
+  }
+}

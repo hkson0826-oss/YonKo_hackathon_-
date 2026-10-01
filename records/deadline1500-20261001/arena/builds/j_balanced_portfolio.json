@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/tmp/yk-gcc12-2bjbhm3o/gcc12-wrapper",
+    "-std=c++20",
+    "-O2",
+    "-DNDEBUG",
+    "-I",
+    "/tmp/yk-deadline1500-20261001/sources/j_balanced_portfolio",
+    "/tmp/yk-deadline1500-20261001/sources/j_balanced_portfolio/main.cpp",
+    "-o",
+    "/tmp/yk-deadline1500-20261001/bin/j_balanced_portfolio"
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "",
+  "elapsed_seconds": 3.6160943508148193
+}
