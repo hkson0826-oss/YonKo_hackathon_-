@@ -1,0 +1,517 @@
+{
+  "reviewed_at": "2026-10-01T03:51:48.695056+00:00",
+  "source_manifest": {
+    "branch_lock": {
+      "commit": "0e352edc4a7c93d04a6a431922b9e3f637c2ee25",
+      "source_folder": "submissions/v9-lock",
+      "files": {
+        "generated.hpp": {
+          "sha256": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+          "bytes": 1043
+        },
+        "main.cpp": {
+          "sha256": "6dc8475dce636e4743a738cd74137144e44d445dc9dbe739c186143ca643b1fb",
+          "bytes": 90341
+        },
+        "protocol.hpp": {
+          "sha256": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+          "bytes": 5010
+        },
+        "submission.json": {
+          "sha256": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60",
+          "bytes": 46
+        }
+      }
+    },
+    "branch_v9_2": {
+      "commit": "0e352edc4a7c93d04a6a431922b9e3f637c2ee25",
+      "source_folder": "submissions/v9_2",
+      "files": {
+        "generated.hpp": {
+          "sha256": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+          "bytes": 1043
+        },
+        "main.cpp": {
+          "sha256": "9e3f1938c995329a8c3898b5bec47a1ae5b62badf11ec7d48627254c567d15bb",
+          "bytes": 48732
+        },
+        "protocol.hpp": {
+          "sha256": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+          "bytes": 5010
+        },
+        "submission.json": {
+          "sha256": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60",
+          "bytes": 46
+        },
+        "v9_action_report.hpp": {
+          "sha256": "4ac8bd5dd7e8412c7f8ae99b77382d65933d2f2526f1ee454a70d0ecdd3756e2",
+          "bytes": 6791
+        },
+        "v9_strategy.hpp": {
+          "sha256": "47d0b577121a94ccdd70c714d6af3ef2d4df63bde4fae742e6fea054f10cba19",
+          "bytes": 15890
+        },
+        "v9_travel.hpp": {
+          "sha256": "b2ac265e647d618a0676002d0500bcc147f99df38951e7b7ab1c6a631784ed3c",
+          "bytes": 1916
+        }
+      }
+    },
+    "main_v9_2": {
+      "commit": "a21e4809e6c1801e2d2a77f28b5975597fc8959f",
+      "source_folder": "submissions/v9_2",
+      "files": {
+        "generated.hpp": {
+          "sha256": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+          "bytes": 1043
+        },
+        "main.cpp": {
+          "sha256": "9e3f1938c995329a8c3898b5bec47a1ae5b62badf11ec7d48627254c567d15bb",
+          "bytes": 48732
+        },
+        "protocol.hpp": {
+          "sha256": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+          "bytes": 5010
+        },
+        "submission.json": {
+          "sha256": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60",
+          "bytes": 46
+        },
+        "v9_action_report.hpp": {
+          "sha256": "4ac8bd5dd7e8412c7f8ae99b77382d65933d2f2526f1ee454a70d0ecdd3756e2",
+          "bytes": 6791
+        },
+        "v9_strategy.hpp": {
+          "sha256": "ea8a660d5332da91f7b8386c602403f0ed064992c608f629ce2f38918365bdeb",
+          "bytes": 20452
+        },
+        "v9_travel.hpp": {
+          "sha256": "b2ac265e647d618a0676002d0500bcc147f99df38951e7b7ab1c6a631784ed3c",
+          "bytes": 1916
+        }
+      }
+    },
+    "submission-v9-lock.zip": {
+      "sha256": "c7ad306c6f5b5af5dca92f1485e1bbb61347b41e7840eec852e9de6345dfc4fe",
+      "bytes": 26976,
+      "entries": {
+        "submission.json": "e70a8cb3305e5c0f2e70aca677ceff61a24c5cadc6b5aa9c0e8bc7e4972db8ac",
+        "main.cpp": "6dc8475dce636e4743a738cd74137144e44d445dc9dbe739c186143ca643b1fb",
+        "protocol.hpp": "23576d43019287a5b50588a0b5d3be629cb1cc832117185cb3c58ee56663ae43",
+        "generated.hpp": "ff3fec96128c31b12858b0b631f70cdf6d7ec5f47bf764719bb5c41641ff8396"
+      }
+    },
+    "submission-v9_2.zip": {
+      "sha256": "fbea44a39a7b9c16aa461e2f54cc665625049871ea803ffa851af0d453afdea7",
+      "bytes": 23245,
+      "entries": {
+        "main.cpp": "b47f093fc2e2f5a4de42f07013dbe1a7baea9b906b8e75abeaf02c3ed54f4a10",
+        "v9_strategy.hpp": "47d0b577121a94ccdd70c714d6af3ef2d4df63bde4fae742e6fea054f10cba19",
+        "v9_travel.hpp": "b2ac265e647d618a0676002d0500bcc147f99df38951e7b7ab1c6a631784ed3c",
+        "v9_action_report.hpp": "4ac8bd5dd7e8412c7f8ae99b77382d65933d2f2526f1ee454a70d0ecdd3756e2",
+        "protocol.hpp": "23576d43019287a5b50588a0b5d3be629cb1cc832117185cb3c58ee56663ae43",
+        "generated.hpp": "ff3fec96128c31b12858b0b631f70cdf6d7ec5f47bf764719bb5c41641ff8396",
+        "submission.json": "e70a8cb3305e5c0f2e70aca677ceff61a24c5cadc6b5aa9c0e8bc7e4972db8ac"
+      }
+    }
+  },
+  "source_files_unchanged": true,
+  "git_write_operations": false,
+  "browser_used": false,
+  "write_scope": "/tmp/yk-v9-latest-review-20261001",
+  "distinct_candidates": [
+    "branch_lock",
+    "branch_v9_2",
+    "main_v9_2"
+  ],
+  "important_argv_warning": "Do not pass --attack-seed to v9-lock: unknown arguments force policy 0 and bypass new core.",
+  "branch_v9_2_equals_7d96f62a": true,
+  "main_v9_2_changed_file": "v9_strategy.hpp",
+  "zip_crlf_normalized_source_equivalence": {
+    "v9-lock": true,
+    "v9_2": true
+  },
+  "sdk_observations": {
+    "branch_v9_2": {
+      "count": 39,
+      "max_response_ms": 127.66389900934882,
+      "command_audit": "all passed"
+    },
+    "main_v9_2": {
+      "count": 39,
+      "max_response_ms": 127.00070100254379,
+      "command_audit": "all passed"
+    },
+    "branch_lock": {
+      "count": 39,
+      "max_response_ms": 76.17822299653199,
+      "command_audit": "all passed"
+    }
+  },
+  "counterexample_summary": {
+    "branch_v9_2": [
+      {
+        "case": "opening",
+        "flags_before": 0,
+        "flags_after": 2,
+        "result": null
+      },
+      {
+        "case": "terminal_new_flag",
+        "flags_before": 0,
+        "flags_after": 0,
+        "result": {
+          "winner": "K",
+          "reason": "score",
+          "score": {
+            "Y": 3,
+            "K": 4
+          },
+          "turns": 160
+        }
+      },
+      {
+        "case": "escort_path_140",
+        "flags_before": 1,
+        "flags_after": 0,
+        "result": null
+      },
+      {
+        "case": "escort_path_141",
+        "flags_before": 1,
+        "flags_after": 0,
+        "result": null
+      },
+      {
+        "case": "escort_path_159",
+        "flags_before": 1,
+        "flags_after": 0,
+        "result": null
+      },
+      {
+        "case": "escort_path_160",
+        "flags_before": 1,
+        "flags_after": 1,
+        "result": {
+          "winner": "K",
+          "reason": "score",
+          "score": {
+            "Y": 3,
+            "K": 6
+          },
+          "turns": 160
+        }
+      },
+      {
+        "case": "terminal_visible_army",
+        "flags_before": 1,
+        "flags_after": 0,
+        "result": {
+          "winner": "K",
+          "reason": "score",
+          "score": {
+            "Y": 3,
+            "K": 6
+          },
+          "turns": 160
+        }
+      },
+      {
+        "case": "terminal_existing_flag",
+        "flags_before": 1,
+        "flags_after": 1,
+        "result": {
+          "winner": "Y",
+          "reason": "score",
+          "score": {
+            "Y": 3,
+            "K": 2
+          },
+          "turns": 160
+        }
+      },
+      {
+        "case": "terminal_escort_3",
+        "flags_before": 1,
+        "flags_after": 1,
+        "result": {
+          "winner": "K",
+          "reason": "score",
+          "score": {
+            "Y": 3,
+            "K": 6
+          },
+          "turns": 160
+        }
+      },
+      {
+        "case": "terminal_escort_4",
+        "flags_before": 1,
+        "flags_after": 1,
+        "result": {
+          "winner": "Y",
+          "reason": "score",
+          "score": {
+            "Y": 7,
+            "K": 2
+          },
+          "turns": 160
+        }
+      },
+      {
+        "case": "official_T1_to_T29_masked",
+        "flags_before": 6,
+        "flags_after": 5,
+        "result": null
+      }
+    ],
+    "main_v9_2": [
+      {
+        "case": "opening",
+        "flags_before": 0,
+        "flags_after": 2,
+        "result": null
+      },
+      {
+        "case": "terminal_new_flag",
+        "flags_before": 0,
+        "flags_after": 0,
+        "result": {
+          "winner": "K",
+          "reason": "score",
+          "score": {
+            "Y": 3,
+            "K": 4
+          },
+          "turns": 160
+        }
+      },
+      {
+        "case": "escort_path_140",
+        "flags_before": 1,
+        "flags_after": 1,
+        "result": null
+      },
+      {
+        "case": "escort_path_141",
+        "flags_before": 1,
+        "flags_after": 1,
+        "result": null
+      },
+      {
+        "case": "escort_path_159",
+        "flags_before": 1,
+        "flags_after": 0,
+        "result": null
+      },
+      {
+        "case": "escort_path_160",
+        "flags_before": 1,
+        "flags_after": 1,
+        "result": {
+          "winner": "K",
+          "reason": "score",
+          "score": {
+            "Y": 3,
+            "K": 6
+          },
+          "turns": 160
+        }
+      },
+      {
+        "case": "terminal_visible_army",
+        "flags_before": 1,
+        "flags_after": 0,
+        "result": {
+          "winner": "K",
+          "reason": "score",
+          "score": {
+            "Y": 3,
+            "K": 6
+          },
+          "turns": 160
+        }
+      },
+      {
+        "case": "terminal_existing_flag",
+        "flags_before": 1,
+        "flags_after": 1,
+        "result": {
+          "winner": "Y",
+          "reason": "score",
+          "score": {
+            "Y": 3,
+            "K": 2
+          },
+          "turns": 160
+        }
+      },
+      {
+        "case": "terminal_escort_3",
+        "flags_before": 1,
+        "flags_after": 1,
+        "result": {
+          "winner": "K",
+          "reason": "score",
+          "score": {
+            "Y": 3,
+            "K": 6
+          },
+          "turns": 160
+        }
+      },
+      {
+        "case": "terminal_escort_4",
+        "flags_before": 1,
+        "flags_after": 1,
+        "result": {
+          "winner": "Y",
+          "reason": "score",
+          "score": {
+            "Y": 7,
+            "K": 2
+          },
+          "turns": 160
+        }
+      },
+      {
+        "case": "official_T1_to_T29_masked",
+        "flags_before": 6,
+        "flags_after": 5,
+        "result": null
+      }
+    ],
+    "branch_lock": [
+      {
+        "case": "opening",
+        "flags_before": 0,
+        "flags_after": 2,
+        "result": null
+      },
+      {
+        "case": "terminal_new_flag",
+        "flags_before": 0,
+        "flags_after": 1,
+        "result": {
+          "winner": "Y",
+          "reason": "score",
+          "score": {
+            "Y": 3,
+            "K": 2
+          },
+          "turns": 160
+        }
+      },
+      {
+        "case": "escort_path_140",
+        "flags_before": 1,
+        "flags_after": 0,
+        "result": null
+      },
+      {
+        "case": "escort_path_141",
+        "flags_before": 1,
+        "flags_after": 0,
+        "result": null
+      },
+      {
+        "case": "escort_path_159",
+        "flags_before": 1,
+        "flags_after": 0,
+        "result": null
+      },
+      {
+        "case": "escort_path_160",
+        "flags_before": 1,
+        "flags_after": 1,
+        "result": {
+          "winner": "K",
+          "reason": "score",
+          "score": {
+            "Y": 3,
+            "K": 6
+          },
+          "turns": 160
+        }
+      },
+      {
+        "case": "terminal_visible_army",
+        "flags_before": 1,
+        "flags_after": 0,
+        "result": {
+          "winner": "K",
+          "reason": "score",
+          "score": {
+            "Y": 3,
+            "K": 6
+          },
+          "turns": 160
+        }
+      },
+      {
+        "case": "terminal_existing_flag",
+        "flags_before": 1,
+        "flags_after": 1,
+        "result": {
+          "winner": "Y",
+          "reason": "score",
+          "score": {
+            "Y": 3,
+            "K": 2
+          },
+          "turns": 160
+        }
+      },
+      {
+        "case": "terminal_escort_3",
+        "flags_before": 1,
+        "flags_after": 1,
+        "result": {
+          "winner": "K",
+          "reason": "score",
+          "score": {
+            "Y": 3,
+            "K": 6
+          },
+          "turns": 160
+        }
+      },
+      {
+        "case": "terminal_escort_4",
+        "flags_before": 1,
+        "flags_after": 1,
+        "result": {
+          "winner": "Y",
+          "reason": "score",
+          "score": {
+            "Y": 7,
+            "K": 2
+          },
+          "turns": 160
+        }
+      },
+      {
+        "case": "official_T1_to_T29_masked",
+        "flags_before": 6,
+        "flags_after": 5,
+        "result": null
+      }
+    ]
+  },
+  "claim_sources": {
+    "2f0c232d": "Save v9_2 submission with garrison defense fallback\n\nInclude station-aware travel, decision reporting, offensive flag step safety, and garrison hold or retreat when full defense reservations cannot be met.\n\nBuild completed. Cycle 2 development Y results: 17/24 wins versus 15/24 previously. Fresh validation was stopped at user request; response measurements exceeded 200ms, so final acceptance remains pending. Preserve this checkpoint without binaries, replays, or submission ZIPs.\n\n",
+    "9ee30c71": "Add v9 (v9-lock) submission source and v9 / v9_2 submission ZIPs\n\nv9-lock: v8 + score-aware endgame (LOCK when leading, ALLIN when trailing),\nstation-aware travel times, all-or-nothing defence allocation, randomized\nweak-spot attacks, --trace=<file> decision report (local only).\nNot yet validated in matches after the latest change.\n\nv9_2 ZIP matches submissions/v9_2 already on main (7d96f62a).\n\n",
+    "0e352edc": "v9: uncap pre-endgame escorted-raid defence, add endgame mode hysteresis\n\n- deadline_guard: drop the need<=4 cap; an escorted HALL/ENG raid is answered whenever\n  enough W can arrive in time (still all-or-nothing, still at most 2 buildings per turn).\n- Endgame modes: ALLIN only when trailing by >=3, or losing with <=4 turns left;\n  once ALLIN, return to LOCK only with a lead >=3. New COUNTER mode for -2..0:\n  defensive reservations kept, all-in script added to the search as a counterattack.\n\nBased on v9 Y-side losses in 5 local leagues (blown leads flip-flopped LOCK/ALLIN;\npre-140 collapses lost HALL 1:3). Built and ZIP-inspected; not yet validated in matches.\n\n",
+    "a21e4809": "Merge v9_2 defense checkpoint while preserving remote updates\n\nRetain checkpoint 2f0c232d with incomplete validation and response-time concerns. Only submissions/v9_2/v9_strategy.hpp changes relative to remote main.\n\n"
+  },
+  "claims_assessment": "17/24 vs 15/24 is a teammate development Y report, without raw comparison evidence in this checkpoint; fresh validation and final acceptance explicitly pending. Latest lock changes explicitly unvalidated in matches.",
+  "full_match_strength_evaluated": false,
+  "server_zip_identity_confirmed": false,
+  "limitations": [
+    "Handcrafted valid protocol states plus official masked history; no new full matches.",
+    "v9-lock has runtime-seeded randomness with no seed CLI; one trial per input.",
+    "GCC16.2 local build, not GCC12 exact-ZIP runtime qualification."
+  ],
+  "raw_case_evidence": "sdk-cases.json",
+  "report": "review.md"
+}

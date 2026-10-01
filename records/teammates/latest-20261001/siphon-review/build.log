@@ -1,0 +1,10 @@
+In file included from submissions/siphon/yk_core.hpp:21,
+                 from submissions/siphon/yk_bot.hpp:8,
+                 from submissions/siphon/main.cpp:22:
+submissions/siphon/protocol.hpp: In function ‘std::pair<int, int> p::delta(const std::string&)’:
+submissions/siphon/protocol.hpp:30:5: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+   30 |     if(d=="U")return {0,-1};if(d=="D")return {0,1};if(d=="L")return {-1,0};if(d=="R")return {1,0};
+      |     ^~
+submissions/siphon/protocol.hpp:30:29: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+   30 |     if(d=="U")return {0,-1};if(d=="D")return {0,1};if(d=="L")return {-1,0};if(d=="R")return {1,0};
+      |                             ^~

@@ -1,0 +1,19 @@
+{
+  "games": 384,
+  "distinct_maps": 24,
+  "complete_runs": [
+    "pilot-siphon",
+    "pilot-v9-variants",
+    "direct-confirmation",
+    "common-opponents"
+  ],
+  "frames": 51915,
+  "errors": 0,
+  "forfeits": 0,
+  "semantic_issues": 0,
+  "source_commit": "2e26f82a6aae77536dfad59a089ff4d17fa57b9f",
+  "zip_checks": "../../teammates/latest-20261001/",
+  "scope": "Local team candidates and frozen strong opponents; no server upload or selection change.",
+  "per_bot_cpu_quota_applied": false,
+  "server_timing_limitation": "Official 2026-10-01 10:42 FAQ specifies per-bot 0.25 vCPU with wall-clock deadlines; these local games did not apply that quota."
+}

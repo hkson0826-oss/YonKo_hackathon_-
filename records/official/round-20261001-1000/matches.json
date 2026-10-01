@@ -1,0 +1,217 @@
+{
+  "checked_at": "2026-10-01T04:02:26.733107+00:00",
+  "source": "Authenticated Chrome /matches, explicit 10월 1일 10:00 리더보드 filter",
+  "round_label": "10월 1일 10:00 리더보드",
+  "games": 24,
+  "wins": 12,
+  "losses": 12,
+  "draws": 0,
+  "matches": [
+    {
+      "opponent": "박박이",
+      "outcome": "L",
+      "gameId": "rolling-game-fd86a6c092d1fc50f9a07fe53dc51a22e2445e934d45f58202192d30c675b2ad",
+      "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-fd86a6c092d1fc50f9a07fe53dc51a22e2445e934d45f58202192d30c675b2ad",
+      "submission_version": 9,
+      "team": "Y"
+    },
+    {
+      "opponent": "올림픽 정신",
+      "outcome": "L",
+      "gameId": "rolling-game-f7f24e2549d11837a6bf372e8694f3ae58e8a2c79fc89f8e6bed038d9c322df0",
+      "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-f7f24e2549d11837a6bf372e8694f3ae58e8a2c79fc89f8e6bed038d9c322df0",
+      "submission_version": 9,
+      "team": "Y"
+    },
+    {
+      "opponent": "Yaar",
+      "outcome": "L",
+      "gameId": "rolling-game-eff2465db42cc2c2eef6da120b6bb0979e1d92190941ff01c0bd931a6beba90d",
+      "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-eff2465db42cc2c2eef6da120b6bb0979e1d92190941ff01c0bd931a6beba90d",
+      "submission_version": 9,
+      "team": "Y"
+    },
+    {
+      "opponent": "공주",
+      "outcome": "W",
+      "gameId": "rolling-game-c76a06645ae50416ebba19cbf4ea2306626cdc6958f9ed2f57a5d7c0bb32ced4",
+      "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-c76a06645ae50416ebba19cbf4ea2306626cdc6958f9ed2f57a5d7c0bb32ced4",
+      "submission_version": 9,
+      "team": "Y"
+    },
+    {
+      "opponent": "연크크",
+      "outcome": "L",
+      "gameId": "rolling-game-c25aca8592a15499b4cbc9d5aa348e97edecbd6cdb2eb7b311141eec6f7e8623",
+      "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-c25aca8592a15499b4cbc9d5aa348e97edecbd6cdb2eb7b311141eec6f7e8623",
+      "submission_version": 9,
+      "team": "Y"
+    },
+    {
+      "opponent": "연세찜닭",
+      "outcome": "W",
+      "gameId": "rolling-game-b24dd2c52849c0482d1594b89fe2c9f2e8931d777896bbbcf51b2a3c6d626803",
+      "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-b24dd2c52849c0482d1594b89fe2c9f2e8931d777896bbbcf51b2a3c6d626803",
+      "submission_version": 9,
+      "team": "Y"
+    },
+    {
+      "opponent": "뉴비입니다",
+      "outcome": "W",
+      "gameId": "rolling-game-a81e82aaf23d296e8afa0ae5845b12fcd40245724f80991d1b2b0262744bffaf",
+      "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-a81e82aaf23d296e8afa0ae5845b12fcd40245724f80991d1b2b0262744bffaf",
+      "submission_version": 9,
+      "team": "Y"
+    },
+    {
+      "opponent": "거북이",
+      "outcome": "W",
+      "gameId": "rolling-game-a734188ba1b3507f0b14641599bc9eb212bfaa6bc37591908292b38747c4d8d9",
+      "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-a734188ba1b3507f0b14641599bc9eb212bfaa6bc37591908292b38747c4d8d9",
+      "submission_version": 9,
+      "team": "Y"
+    },
+    {
+      "opponent": "인공저능",
+      "outcome": "W",
+      "gameId": "rolling-game-a36443c39ce4bc9c7d6fae1497050130e0c3a69b28f9f1152920e412711d57c1",
+      "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-a36443c39ce4bc9c7d6fae1497050130e0c3a69b28f9f1152920e412711d57c1",
+      "submission_version": 9,
+      "team": "Y"
+    },
+    {
+      "opponent": "조선김",
+      "outcome": "W",
+      "gameId": "rolling-game-97cc965a70c970c8e29722df241d46ef65438f1a516efab0e0a17e762bf67efc",
+      "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-97cc965a70c970c8e29722df241d46ef65438f1a516efab0e0a17e762bf67efc",
+      "submission_version": 9,
+      "team": "Y"
+    },
+    {
+      "opponent": "개우진보러갈까",
+      "outcome": "W",
+      "gameId": "rolling-game-93362455ec99d14bc04b74da56d699403137e92e9645d291847cd5033b4308a8",
+      "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-93362455ec99d14bc04b74da56d699403137e92e9645d291847cd5033b4308a8",
+      "submission_version": 9,
+      "team": "Y"
+    },
+    {
+      "opponent": "태호랑이",
+      "outcome": "L",
+      "gameId": "rolling-game-7f305a8ab9990e5250d8dd209b4007d0d777738b47e92e011354729e1cdd4290",
+      "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-7f305a8ab9990e5250d8dd209b4007d0d777738b47e92e011354729e1cdd4290",
+      "submission_version": 9,
+      "team": "Y"
+    },
+    {
+      "opponent": "연세있게 코딩하조",
+      "outcome": "W",
+      "gameId": "rolling-game-7eeef93682801d3fb3f309c06b3932cd9d9b2007c6c88ac851dbe79e6e360557",
+      "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-7eeef93682801d3fb3f309c06b3932cd9d9b2007c6c88ac851dbe79e6e360557",
+      "submission_version": 9,
+      "team": "Y"
+    },
+    {
+      "opponent": "신촌도 우리땅",
+      "outcome": "W",
+      "gameId": "rolling-game-7ac6b9ec02f52581c6d9571e3a247679e3b8fcd9e97ac04374518b675ded109f",
+      "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-7ac6b9ec02f52581c6d9571e3a247679e3b8fcd9e97ac04374518b675ded109f",
+      "submission_version": 9,
+      "team": "Y"
+    },
+    {
+      "opponent": "200OK",
+      "outcome": "W",
+      "gameId": "rolling-game-67c141094f5c250a52833c754b615d9d9d5461e611f68a0c81efd57d9780e550",
+      "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-67c141094f5c250a52833c754b615d9d9d5461e611f68a0c81efd57d9780e550",
+      "submission_version": 9,
+      "team": "Y"
+    },
+    {
+      "opponent": "파전",
+      "outcome": "L",
+      "gameId": "rolling-game-599a77b643000c869c64882f5b7bb735a136b12394ca04f1f28919f556a4a5dd",
+      "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-599a77b643000c869c64882f5b7bb735a136b12394ca04f1f28919f556a4a5dd",
+      "submission_version": 9,
+      "team": "Y"
+    },
+    {
+      "opponent": "2325",
+      "outcome": "L",
+      "gameId": "rolling-game-55fe0abc6c904edd5ee4bac94796025122a6144a28f20a54b301baa09f2e2bc7",
+      "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-55fe0abc6c904edd5ee4bac94796025122a6144a28f20a54b301baa09f2e2bc7",
+      "submission_version": 9,
+      "team": "Y"
+    },
+    {
+      "opponent": "요미",
+      "outcome": "L",
+      "gameId": "rolling-game-4e0d236cbbab4db9f3de2c0f26044267024d5248fdaa1163bd1c3de9094346a5",
+      "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-4e0d236cbbab4db9f3de2c0f26044267024d5248fdaa1163bd1c3de9094346a5",
+      "submission_version": 9,
+      "team": "Y"
+    },
+    {
+      "opponent": "占쏙옙",
+      "outcome": "L",
+      "gameId": "rolling-game-4d11bbabf02419ab956db2f20df6709ea27c41c42049c13ca20a9ae2f128bd3d",
+      "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-4d11bbabf02419ab956db2f20df6709ea27c41c42049c13ca20a9ae2f128bd3d",
+      "submission_version": 9,
+      "team": "Y"
+    },
+    {
+      "opponent": "언더우드의목마",
+      "outcome": "W",
+      "gameId": "rolling-game-3fc3bdb4da80554b1115a5f4a3a47a28e80280e8424d1b28d4eabcf2f75cecad",
+      "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-3fc3bdb4da80554b1115a5f4a3a47a28e80280e8424d1b28d4eabcf2f75cecad",
+      "submission_version": 9,
+      "team": "Y"
+    },
+    {
+      "opponent": "학부기",
+      "outcome": "L",
+      "gameId": "rolling-game-3349286232eaf367b4100ae55f4cc6fc1a85b4aae2b2af59c2705465374cda60",
+      "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-3349286232eaf367b4100ae55f4cc6fc1a85b4aae2b2af59c2705465374cda60",
+      "submission_version": 9,
+      "team": "Y"
+    },
+    {
+      "opponent": "집가고싶다",
+      "outcome": "L",
+      "gameId": "rolling-game-3121389769080bb6d6fd232195165c5036e1025da736713fef3506d0aa5b107a",
+      "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-3121389769080bb6d6fd232195165c5036e1025da736713fef3506d0aa5b107a",
+      "submission_version": 9,
+      "team": "Y"
+    },
+    {
+      "opponent": "우트와 윤트",
+      "outcome": "W",
+      "gameId": "rolling-game-2ba97520b4d73261b666daeee9669c08b4c07112536eb18acc0abfe50e4a9b82",
+      "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-2ba97520b4d73261b666daeee9669c08b4c07112536eb18acc0abfe50e4a9b82",
+      "submission_version": 9,
+      "team": "Y"
+    },
+    {
+      "opponent": "뚜띠태하소불고기와멸치두명",
+      "outcome": "L",
+      "gameId": "rolling-game-1dc094cbffe48eaa739051fba709c0540d274c38d7ad86681e978aa3556dba18",
+      "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-1dc094cbffe48eaa739051fba709c0540d274c38d7ad86681e978aa3556dba18",
+      "submission_version": 9,
+      "team": "Y"
+    }
+  ],
+  "dashboard": {
+    "rank": 50,
+    "points": 12,
+    "games": 24,
+    "publication_label": "10월 1일 00:09 공개",
+    "note": "Dashboard publication label is inconsistent with the newer match round; preserve labels separately."
+  },
+  "currently_selected": {
+    "version": 10,
+    "filename": "v9_2.zip",
+    "uploaded_kst": "2026-10-01 08:00",
+    "status": "사용 가능"
+  },
+  "provenance_limit": "Latest evaluated round uses submission9; current selected submission10 is different. Neither server ZIP has been newly downloaded/hashed. Do not infer source identity from filename."
+}

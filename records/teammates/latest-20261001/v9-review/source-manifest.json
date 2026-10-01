@@ -1,0 +1,115 @@
+{
+  "branch_lock": {
+    "commit": "0e352edc4a7c93d04a6a431922b9e3f637c2ee25",
+    "source_folder": "submissions/v9-lock",
+    "files": {
+      "generated.hpp": {
+        "sha256": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+        "bytes": 1043
+      },
+      "main.cpp": {
+        "sha256": "6dc8475dce636e4743a738cd74137144e44d445dc9dbe739c186143ca643b1fb",
+        "bytes": 90341
+      },
+      "protocol.hpp": {
+        "sha256": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+        "bytes": 5010
+      },
+      "submission.json": {
+        "sha256": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60",
+        "bytes": 46
+      }
+    }
+  },
+  "branch_v9_2": {
+    "commit": "0e352edc4a7c93d04a6a431922b9e3f637c2ee25",
+    "source_folder": "submissions/v9_2",
+    "files": {
+      "generated.hpp": {
+        "sha256": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+        "bytes": 1043
+      },
+      "main.cpp": {
+        "sha256": "9e3f1938c995329a8c3898b5bec47a1ae5b62badf11ec7d48627254c567d15bb",
+        "bytes": 48732
+      },
+      "protocol.hpp": {
+        "sha256": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+        "bytes": 5010
+      },
+      "submission.json": {
+        "sha256": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60",
+        "bytes": 46
+      },
+      "v9_action_report.hpp": {
+        "sha256": "4ac8bd5dd7e8412c7f8ae99b77382d65933d2f2526f1ee454a70d0ecdd3756e2",
+        "bytes": 6791
+      },
+      "v9_strategy.hpp": {
+        "sha256": "47d0b577121a94ccdd70c714d6af3ef2d4df63bde4fae742e6fea054f10cba19",
+        "bytes": 15890
+      },
+      "v9_travel.hpp": {
+        "sha256": "b2ac265e647d618a0676002d0500bcc147f99df38951e7b7ab1c6a631784ed3c",
+        "bytes": 1916
+      }
+    }
+  },
+  "main_v9_2": {
+    "commit": "a21e4809e6c1801e2d2a77f28b5975597fc8959f",
+    "source_folder": "submissions/v9_2",
+    "files": {
+      "generated.hpp": {
+        "sha256": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+        "bytes": 1043
+      },
+      "main.cpp": {
+        "sha256": "9e3f1938c995329a8c3898b5bec47a1ae5b62badf11ec7d48627254c567d15bb",
+        "bytes": 48732
+      },
+      "protocol.hpp": {
+        "sha256": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+        "bytes": 5010
+      },
+      "submission.json": {
+        "sha256": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60",
+        "bytes": 46
+      },
+      "v9_action_report.hpp": {
+        "sha256": "4ac8bd5dd7e8412c7f8ae99b77382d65933d2f2526f1ee454a70d0ecdd3756e2",
+        "bytes": 6791
+      },
+      "v9_strategy.hpp": {
+        "sha256": "ea8a660d5332da91f7b8386c602403f0ed064992c608f629ce2f38918365bdeb",
+        "bytes": 20452
+      },
+      "v9_travel.hpp": {
+        "sha256": "b2ac265e647d618a0676002d0500bcc147f99df38951e7b7ab1c6a631784ed3c",
+        "bytes": 1916
+      }
+    }
+  },
+  "submission-v9-lock.zip": {
+    "sha256": "c7ad306c6f5b5af5dca92f1485e1bbb61347b41e7840eec852e9de6345dfc4fe",
+    "bytes": 26976,
+    "entries": {
+      "submission.json": "e70a8cb3305e5c0f2e70aca677ceff61a24c5cadc6b5aa9c0e8bc7e4972db8ac",
+      "main.cpp": "6dc8475dce636e4743a738cd74137144e44d445dc9dbe739c186143ca643b1fb",
+      "protocol.hpp": "23576d43019287a5b50588a0b5d3be629cb1cc832117185cb3c58ee56663ae43",
+      "generated.hpp": "ff3fec96128c31b12858b0b631f70cdf6d7ec5f47bf764719bb5c41641ff8396"
+    }
+  },
+  "submission-v9_2.zip": {
+    "sha256": "fbea44a39a7b9c16aa461e2f54cc665625049871ea803ffa851af0d453afdea7",
+    "bytes": 23245,
+    "entries": {
+      "main.cpp": "b47f093fc2e2f5a4de42f07013dbe1a7baea9b906b8e75abeaf02c3ed54f4a10",
+      "v9_strategy.hpp": "47d0b577121a94ccdd70c714d6af3ef2d4df63bde4fae742e6fea054f10cba19",
+      "v9_travel.hpp": "b2ac265e647d618a0676002d0500bcc147f99df38951e7b7ab1c6a631784ed3c",
+      "v9_action_report.hpp": "4ac8bd5dd7e8412c7f8ae99b77382d65933d2f2526f1ee454a70d0ecdd3756e2",
+      "protocol.hpp": "23576d43019287a5b50588a0b5d3be629cb1cc832117185cb3c58ee56663ae43",
+      "generated.hpp": "ff3fec96128c31b12858b0b631f70cdf6d7ec5f47bf764719bb5c41641ff8396",
+      "submission.json": "e70a8cb3305e5c0f2e70aca677ceff61a24c5cadc6b5aa9c0e8bc7e4972db8ac"
+    }
+  }
+}

@@ -1,0 +1,496 @@
+{
+  "review_date": "2026-10-01",
+  "scope": "Read-only teammate source/ZIP/document/history review plus bounded official-SDK contracts; current official matches and full leagues belong to root task.",
+  "source": {
+    "branch": "origin/siphon-submission",
+    "commit": "0f06e15861ec8eb9f0afaf7bc1296ced657ee0e7",
+    "files": [
+      {
+        "path": "submissions/siphon/generated.hpp",
+        "bytes": 1043,
+        "sha256": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa"
+      },
+      {
+        "path": "submissions/siphon/main.cpp",
+        "bytes": 26506,
+        "sha256": "0b41e26b50c13a50dc7f0ce2b339c42796b68060d73e98485005c6c720512c8e"
+      },
+      {
+        "path": "submissions/siphon/protocol.hpp",
+        "bytes": 5010,
+        "sha256": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8"
+      },
+      {
+        "path": "submissions/siphon/submission.json",
+        "bytes": 40,
+        "sha256": "0daf61b1cfd7cf6e4b2da6cb121b9b40d3cab4c2a539623adbb1abdfce563373"
+      },
+      {
+        "path": "submissions/siphon/yk_bot.hpp",
+        "bytes": 3134,
+        "sha256": "fded3e21b6df1b9d7621ad1919f8a97e44f15ae275b49072a768c2ba5a19b6b7"
+      },
+      {
+        "path": "submissions/siphon/yk_core.hpp",
+        "bytes": 21047,
+        "sha256": "01e43e952f41fdc97b50fa98b3822ca4b2f2c8a535b686a4f6f405cbced97d89"
+      },
+      {
+        "path": "submissions/siphon/yk_score.hpp",
+        "bytes": 10396,
+        "sha256": "b693332f8ee41c351b3f3e2abc7600b2ca4fc34d9f825b31642b27f6799f1ae4"
+      },
+      {
+        "path": "artifacts/submission-siphon.zip",
+        "bytes": 21755,
+        "sha256": "00e55968051d8d0d508ce0ec895173da9a87502bd1104d4e6f82e67ed0ab11fa"
+      }
+    ],
+    "zip_members": [
+      {
+        "name": "generated.hpp",
+        "bytes": 1043,
+        "matches_source": true
+      },
+      {
+        "name": "main.cpp",
+        "bytes": 26506,
+        "matches_source": true
+      },
+      {
+        "name": "protocol.hpp",
+        "bytes": 5010,
+        "matches_source": true
+      },
+      {
+        "name": "submission.json",
+        "bytes": 40,
+        "matches_source": true
+      },
+      {
+        "name": "yk_bot.hpp",
+        "bytes": 3134,
+        "matches_source": true
+      },
+      {
+        "name": "yk_core.hpp",
+        "bytes": 21047,
+        "matches_source": true
+      },
+      {
+        "name": "yk_score.hpp",
+        "bytes": 10396,
+        "matches_source": true
+      }
+    ]
+  },
+  "run": {
+    "compile": [
+      "g++",
+      "-std=c++20",
+      "-O2",
+      "main.cpp",
+      "-o",
+      "siphon"
+    ],
+    "cwd": "submissions/siphon",
+    "normal_args": [],
+    "optional_args": [
+      "--debug"
+    ],
+    "debug_sink": "stderr",
+    "unknown_args": "ignored",
+    "policy_randomness": "none in examined planner",
+    "wall_clock_search_budget": "none; Ctx.elapsed_ms exists but is unused",
+    "own_tele": false,
+    "scout_production": false
+  },
+  "author_claims": [
+    {
+      "claim": "Local leagues: 77-19 as Y (5 runs, 12 distinct maps).",
+      "source": "commit 0f06e15861ec8eb9f0afaf7bc1296ced657ee0e7",
+      "verification": "unverified; no matching result records, seeds, opponents, game IDs, K-side sample or runtime settings included in the eight-file change"
+    },
+    {
+      "claim": "ZIP identical to local leagues; ZIP inspection and GCC16 extracted compile passed, GCC12.2 unverified.",
+      "source": "commit 0f06e15861ec8eb9f0afaf7bc1296ced657ee0e7",
+      "verification": "Independent source/ZIP byte identity, SDK inspect_zip and GCC16 compile confirmed here; root subsequently verified GCC12.2 + SDK smoke from exact ZIP. Historical league ZIP identity remains an author claim."
+    },
+    {
+      "claim": "Cycle2 development Y 17/24 versus 15/24; fresh validation stopped and responses exceeded 200ms.",
+      "source": "commit 2f0c232d045eac5081f4b878c4492b7a91e724a6",
+      "verification": "v9_2 claim, not siphon; separate inherited checkpoint with acceptance pending"
+    }
+  ],
+  "validation": {
+    "zip_inspection": {
+      "ok": true,
+      "language": "cpp",
+      "issues": []
+    },
+    "archive_bytes": 21755,
+    "expanded_bytes": 67176,
+    "members": 7,
+    "zip_source_identity": "7/7 exact",
+    "compiler": "g++ (GCC) 16.2.1 20260810",
+    "gcc12_2": {
+      "status": "passed",
+      "performed_by": "root",
+      "evidence": "exact-zip-gcc12.json",
+      "scope": "Debian GCC 12.2 C++20/O2 compatibility plus one SDK protocol smoke; not official container equivalence",
+      "sdk_result": {
+        "winner": "Y",
+        "reason": "instant",
+        "score": {
+          "Y": 20,
+          "K": 0
+        },
+        "turns": 18,
+        "seed": 0
+      },
+      "limits": [
+        "Host assembler/linker and compiler runtime dependencies are used",
+        "Debian package revision, CPU, kernel, SDK runner, and isolation may differ from the official server",
+        "SDK smoke checks protocol at its 300ms/3000ms limits; it is not a 384MiB container or strength test"
+      ]
+    },
+    "compile_status": "pass; one -Wmisleading-indentation warning in shared protocol.hpp:30",
+    "tests": 12,
+    "raw_passed": 8,
+    "raw_failed": 4,
+    "skipped": 0,
+    "audited_candidate_turn_outputs": 241,
+    "observed_protocol_or_strict_command_failures": 0,
+    "maximum_observed_response_ms": 5.106828000862151,
+    "interpretation": "2 concrete one-turn winning-action omissions; 1 hospital deadline contract miss; 1 final-F-position assertion is not an outcome failure.",
+    "hall_intercept_turn": 15,
+    "late_hospital_capture_turn": 159,
+    "limits": [
+      "Development fixtures and forced historical observations, not fresh league performance.",
+      "Memory cap was applied; peak RSS was not measured.",
+      "External command audit verifies emitted output after legalize, not that internal intentions were never clipped.",
+      "Unknown current official server upload identity and latest official results are not inferred from local source.",
+      "Root subsequently verified GCC12.2 exact ZIP build + SDK smoke; official-container equivalence remains unverified."
+    ]
+  },
+  "comparisons": [
+    {
+      "name": "v8",
+      "path": "submissions/deadline-20260929-guard3/main.cpp",
+      "difference": "짧은 다중정책·상대모델 롤아웃과 지역 이동 탐색 대 경제 임무 가치/ETA 탐욕 배분. siphon은 실제 F 위치로 W 호위를 이동시키며 시간 소진 탐색은 하지 않는다."
+    },
+    {
+      "name": "Mission4",
+      "path": "submissions/mission-scheduler-v4-20261001/main.cpp",
+      "difference": "작은 beam/지속 임무·명시적 rendezvous·방어 예약·종반 신규 F 예외 대 한 턴 재계산 임무+셀 기반 목표 관성·강한 경제집단·인접 sentinel. 둘 다 관측 기반의 합법 명령생성이나 동일한 정책 계열은 아니다."
+    },
+    {
+      "name": "latest v9_2 in siphon branch",
+      "commit": "0f06e15861ec8eb9f0afaf7bc1296ced657ee0e7",
+      "path": "submissions/v9_2/v9_strategy.hpp",
+      "difference": "v8 기반 140턴 이후 LOCK/CHASE/UNCERTAIN·TELE 경로·공격 표본추출·주둔 유지/퇴각 fallback 대 독립 경제 배분과 점수 조합 열거. 7d96와 비교해 헤더만86추가2삭제되어 중간 F 안전/방어 미충족 주둔 보존이 추가됨."
+    }
+  ],
+  "findings": [
+    {
+      "id": "terminal-minimum-escort",
+      "status": "confirmed_behavioral_failure",
+      "severity": "high",
+      "summary": "마지막 턴 무방비 적 거점에 최소 호위 4명의 가상 생산 대기를 더해 합법적인 승리 중립화를 배제한다.",
+      "source": [
+        "submissions/siphon/main.cpp:127",
+        "submissions/siphon/main.cpp:330"
+      ],
+      "evidence": "terminal-witnesses.json",
+      "cases": [
+        {
+          "case": "existing_flag_free_neutralization",
+          "actual": {
+            "winner": "K",
+            "reason": "score",
+            "score": {
+              "Y": 3,
+              "K": 6
+            },
+            "turns": 160
+          },
+          "legal_one_turn_alternative": {
+            "winner": "Y",
+            "reason": "score",
+            "score": {
+              "Y": 3,
+              "K": 2
+            },
+            "turns": 160
+          },
+          "instrumented_output_matches": true
+        },
+        {
+          "case": "new_flag_free_neutralization",
+          "actual": {
+            "winner": "K",
+            "reason": "score",
+            "score": {
+              "Y": 3,
+              "K": 4
+            },
+            "turns": 160
+          },
+          "legal_one_turn_alternative": {
+            "winner": "Y",
+            "reason": "score",
+            "score": {
+              "Y": 3,
+              "K": 2
+            },
+            "turns": 160
+          },
+          "instrumented_output_matches": true
+        }
+      ],
+      "limits": "정지 상대의 손으로 만든 공식 SDK 상태에 대한 한 턴 증명이며 실제 대전 빈도·승률이 아니다."
+    },
+    {
+      "id": "hospital-rendezvous",
+      "status": "observed_contract_miss",
+      "severity": "medium",
+      "summary": "강제 과거 관측 후 가까운 W3/F를 가진 W1 병원을 6턴 내 점령하지 못했다. F 전원은 보존했다.",
+      "evidence": "contracts.json:rendezvous_case",
+      "source_replay": "records/benchmarks/mission-20261001/v1/runs/development-common/replays/81b32c6a7c4aa249159323da.json.gz",
+      "limits": "다른 거점과 경제 선택이 있으므로 합법성 위반이나 경기 패배로 해석하지 않는다. 자체 플레이로 도달한 상태가 아니다."
+    },
+    {
+      "id": "late-hospital-success",
+      "status": "confirmed_success_test_assertion_too_strict",
+      "severity": "info",
+      "summary": "T156 병원 F 생산, T159 4점 WATCH 점령, T160 21:12 승리. 기존 테스트는 마지막 F가 해당 칸을 떠났다는 불필요한 단언만 실패했다.",
+      "evidence": "contracts.json:late_flag_production_case",
+      "limits": "정지 상대의 5턴 증거이며 공격형 상대의 수비 성공은 아니다."
+    },
+    {
+      "id": "defense-and-caps",
+      "status": "source_based_risk",
+      "severity": "medium",
+      "summary": "방어는 가치/W 순서이며 완전 충족할 수 없으면 포기한다. 실패한 방어의 현 주둔군을 별도로 보존하지 않고 남은 W를 공격 임무에 배정할 수 있다. 적진 호위 필요 30·방어 40 상한, 전역 F4/5/8 상한이 강군·먼 F 상황을 과소대응할 수 있다.",
+      "source": [
+        "submissions/siphon/main.cpp:137",
+        "submissions/siphon/main.cpp:259",
+        "submissions/siphon/main.cpp:295",
+        "submissions/siphon/main.cpp:394",
+        "submissions/siphon/main.cpp:475"
+      ],
+      "limits": "이번 검토에서는 이 경로가 실제 경기 패배를 만들었다고 확인하지 않았다."
+    },
+    {
+      "id": "routing-and-information",
+      "status": "source_based_tradeoff",
+      "severity": "medium",
+      "summary": "적 TELE 위험은 반영하지만 본인 TELE/S/명시적 정보획득 목적은 사용하지 않는다. 최단거리 감소 인접칸 위주로 움직여 안전 우회·먼 호위 합류에서 정체할 수 있다.",
+      "source": [
+        "submissions/siphon/main.cpp:82",
+        "submissions/siphon/main.cpp:399",
+        "submissions/siphon/main.cpp:520",
+        "submissions/siphon/main.cpp:595"
+      ]
+    },
+    {
+      "id": "posterior-scope",
+      "status": "verified_model_limitation",
+      "severity": "info",
+      "summary": "최대 864 대칭 점수 조합을 열거한다. 그 P(win)은 현재 소유 유지·현재 병력 가치로 끝날 때의 조건부 점수 분포이며 상대의 미래 행동에 대한 승률 예측이 아니다.",
+      "source": [
+        "submissions/siphon/yk_score.hpp:64",
+        "submissions/siphon/yk_score.hpp:143",
+        "submissions/siphon/yk_score.hpp:194"
+      ]
+    }
+  ],
+  "expected_matchups_not_results": {
+    "favorable": [
+      "병원/ENG/HALL 방어가 약한 확장형",
+      "소수 F를 W 없이 반복 노출하는 상대",
+      "전방 병원을 확보해 지속적으로 W를 공급할 수 있는 맵"
+    ],
+    "unfavorable": [
+      "TELE·다방향 기동으로 모인 군대를 우회하는 상대",
+      "최소 호위 대기를 이용하는 지연/강한 거점 수비",
+      "여러 경제 거점에 동시 위협을 만들거나 종반 1턴 점수 교환을 강요하는 상대"
+    ]
+  },
+  "decision": "대전 후보 및 고정 상대에 보존; 성능 채택 판단은 별도 양 진영·공통 상대 평가가 완료될 때까지 보류. 소스 수정 또는 서버 업로드/선택 없음.",
+  "followup_metrics": [
+    "공통 맵 양 진영/상대별 승패 및 실제 점수 차",
+    "T20/T40 ENG,HALL,HOSP 소유/누적W생산",
+    "첫 경제 거점 손실·F손실·병원 전방생산 전환 턴",
+    "F 임무별 6/12턴 대기·왕복·미도달",
+    "T145–160 중립화/점령 기회와 최소호위 대기로 버린 행동",
+    "실제 emitted commands 전체 strict audit, GCC12.2 제출 ZIP 런타임"
+  ],
+  "completed_pilot_snapshot": {
+    "source": "completed-pilot-snapshot.json",
+    "map_seeds": [
+      23100,
+      23101,
+      23102,
+      23103
+    ],
+    "games": 48,
+    "audited_frames": 7176,
+    "strict_command_issues": 0,
+    "runs": {
+      "pilot-siphon": {
+        "input": "/tmp/yk-latest-teammates-arena-20261001/runs/pilot-siphon/results.jsonl",
+        "sha256": "b81d30346908795e134235f5d508bc4e87ea194bd0814303967859fd9c463c84",
+        "results": {
+          "siphon vs mission4": {
+            "games": 8,
+            "wins": 5,
+            "draws": 0,
+            "losses": 3,
+            "Y": {
+              "games": 4,
+              "wins": 4
+            },
+            "K": {
+              "games": 4,
+              "wins": 1
+            }
+          },
+          "siphon vs v9_lock": {
+            "games": 8,
+            "wins": 4,
+            "draws": 0,
+            "losses": 4,
+            "Y": {
+              "games": 4,
+              "wins": 2
+            },
+            "K": {
+              "games": 4,
+              "wins": 2
+            }
+          },
+          "siphon vs v8": {
+            "games": 8,
+            "wins": 4,
+            "draws": 0,
+            "losses": 4,
+            "Y": {
+              "games": 4,
+              "wins": 2
+            },
+            "K": {
+              "games": 4,
+              "wins": 2
+            }
+          },
+          "siphon vs v9_main": {
+            "games": 8,
+            "wins": 7,
+            "draws": 0,
+            "losses": 1,
+            "Y": {
+              "games": 4,
+              "wins": 3
+            },
+            "K": {
+              "games": 4,
+              "wins": 4
+            }
+          }
+        },
+        "audit_file": "/tmp/yk-latest-teammates-arena-20261001/pilot-siphon-action-audit.json",
+        "audit_sha256": "8a695d00a504919d22a36985fd5c94ff4fde800079721dda2739ac69d997b9cf",
+        "audit_summary": {
+          "replays": 32,
+          "frames": 4655,
+          "elapsed_seconds": 1.0448227760061854,
+          "results_sha256": "b81d30346908795e134235f5d508bc4e87ea194bd0814303967859fd9c463c84",
+          "auditor_sha256": "dd71de1e97f87755fc2b62025a747bdbf92b9307164d75dd6d7460e315b5ecd9",
+          "counts": {
+            "candidate:siphon": {
+              "turns": 4655,
+              "commands": 104620
+            },
+            "opponent:mission4": {
+              "turns": 1177,
+              "commands": 20302
+            },
+            "opponent:v8": {
+              "turns": 1101,
+              "commands": 34402
+            },
+            "opponent:v9_lock": {
+              "turns": 1158,
+              "commands": 36006
+            },
+            "opponent:v9_main": {
+              "turns": 1219,
+              "commands": 30842
+            }
+          },
+          "examples": []
+        }
+      },
+      "pilot-v9-variants": {
+        "input": "/tmp/yk-latest-teammates-arena-20261001/runs/pilot-v9-variants/results.jsonl",
+        "sha256": "faa940a41b0242d3af90f42e8007341d6f1bb800b08ba362f6f8353545c05f6e",
+        "results": {
+          "v9_lock vs v8": {
+            "games": 8,
+            "wins": 5,
+            "draws": 0,
+            "losses": 3,
+            "Y": {
+              "games": 4,
+              "wins": 3
+            },
+            "K": {
+              "games": 4,
+              "wins": 2
+            }
+          },
+          "v9_main vs v8": {
+            "games": 8,
+            "wins": 1,
+            "draws": 0,
+            "losses": 7,
+            "Y": {
+              "games": 4,
+              "wins": 0
+            },
+            "K": {
+              "games": 4,
+              "wins": 1
+            }
+          }
+        },
+        "audit_file": "/tmp/yk-latest-teammates-arena-20261001/pilot-v9-variants-action-audit.json",
+        "audit_sha256": "87917e97d8f781dc4714c6bb27ca7d3281fc92756a59f8fd08cc6550ab95ed0f",
+        "audit_summary": {
+          "replays": 16,
+          "frames": 2521,
+          "elapsed_seconds": 0.6339055650023511,
+          "results_sha256": "faa940a41b0242d3af90f42e8007341d6f1bb800b08ba362f6f8353545c05f6e",
+          "auditor_sha256": "dd71de1e97f87755fc2b62025a747bdbf92b9307164d75dd6d7460e315b5ecd9",
+          "counts": {
+            "candidate:v9_lock": {
+              "turns": 1280,
+              "commands": 51355
+            },
+            "candidate:v9_main": {
+              "turns": 1241,
+              "commands": 40144
+            },
+            "opponent:v8": {
+              "turns": 2521,
+              "commands": 91893
+            }
+          },
+          "examples": []
+        }
+      }
+    },
+    "scope": "Completed pilot only. Additional 12-map96 direct and 8-map240 common-opponent matches are in progress and are excluded."
+  }
+}

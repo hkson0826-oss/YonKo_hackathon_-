@@ -1,0 +1,6 @@
+existing_flag_free_neutralization {'winner': 'K', 'reason': 'score', 'score': {'Y': 3, 'K': 6}, 'turns': 160} => {'winner': 'Y', 'reason': 'score', 'score': {'Y': 3, 'K': 2}, 'turns': 160}
+PROBE building=2 remaining=1 need=4 available=0 closest=15 wait=1.2 direct_value=-1 waited_value=-1
+PROBE building=13 remaining=1 need=4 available=0 closest=1 wait=1.2 direct_value=356 waited_value=-1
+new_flag_free_neutralization {'winner': 'K', 'reason': 'score', 'score': {'Y': 3, 'K': 4}, 'turns': 160} => {'winner': 'Y', 'reason': 'score', 'score': {'Y': 3, 'K': 2}, 'turns': 160}
+PROBE building=1 remaining=1 need=4 available=1 closest=1 wait=0.9 direct_value=328 waited_value=-1
+PROBE building=2 remaining=1 need=4 available=1 closest=25 wait=0.9 direct_value=-1 waited_value=-1

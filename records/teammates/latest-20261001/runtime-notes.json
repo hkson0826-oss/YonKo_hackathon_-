@@ -1,0 +1,16 @@
+{
+  "master_plan_memory_label_clarification": "memory_per_match_mib=384 refers to inherited per-process RLIMIT_AS, not summed match RSS. No peak RSS measurement is claimed.",
+  "pilot_concurrency": "pilot-siphon 4 workers + pilot-v9-variants 2 workers = 6 total",
+  "main_concurrency": "direct-confirmation 2 workers + common-opponents 4 workers = 6 total",
+  "source_changes_after_freeze": false,
+  "server_mutation": false,
+  "cpu_quota_applied": false,
+  "new_official_cpu_notice": {
+    "published_kst": "2026-10-01T10:42:10+09:00",
+    "url": "https://yonsei-vs-korea-hackathon.kr/announcements",
+    "per_bot_vcpu": 0.25,
+    "normal_turn_wall_ms": 300,
+    "first_response_wall_ms": 3000,
+    "qualification": "These 384 games used normal local CPU allocation. Their timing checks do not reproduce the announced per-bot CPU quota; timed-search behavior and server applicability require separate evaluation."
+  }
+}

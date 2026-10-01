@@ -1,0 +1,28 @@
+{
+  "created_utc": "2026-10-01T03:49:50.726448+00:00",
+  "stage": "development",
+  "baseline": "v9_main",
+  "hypothesis": "Both latest v9 variants against frozen v8; preserve branch-specific runtime arguments",
+  "source_commit": "2e26f82a6aae77536dfad59a089ff4d17fa57b9f",
+  "source_sha256": {
+    "v9_main": "9e3f1938c995329a8c3898b5bec47a1ae5b62badf11ec7d48627254c567d15bb",
+    "v8": "61a4f25113d9bf2c387a59ddc770a3143de6311e3fd2e004827a66eb78edfbc9",
+    "v9_lock": "6dc8475dce636e4743a738cd74137144e44d445dc9dbe739c186143ca643b1fb"
+  },
+  "map_seeds": [
+    23100,
+    23101,
+    23102,
+    23103
+  ],
+  "policy_rng_seed": 20260927,
+  "candidate_runtime_args": {
+    "v9_main": [
+      "--attack-seed=20261001"
+    ]
+  },
+  "scheduled_jobs": 16,
+  "workers": 2,
+  "resource_policy": "Official engine turn timeout; inherited 384MiB RLIMIT_AS after compilation",
+  "stop_policy": "Any error/forfeit blocks promotion; deadline decisions and candidate locking belong to the operator."
+}

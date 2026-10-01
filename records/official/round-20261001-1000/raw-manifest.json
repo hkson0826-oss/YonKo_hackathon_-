@@ -1,0 +1,296 @@
+{
+  "source": "Authenticated Chrome replay-file button, 24 separate download events",
+  "files": [
+    {
+      "path": "raw/rolling-game-1dc094cbffe48eaa739051fba709c0540d274c38d7ad86681e978aa3556dba18.json",
+      "gameId": "rolling-game-1dc094cbffe48eaa739051fba709c0540d274c38d7ad86681e978aa3556dba18",
+      "opponent": "뚜띠태하소불고기와멸치두명",
+      "sha256": "90bd470062c809640a32b33936614b1bfec67d85fceefd586f1e47c5b9052a87",
+      "bytes": 586785,
+      "final_turn": 160,
+      "result": {
+        "reason": "instant",
+        "winner": "K"
+      }
+    },
+    {
+      "path": "raw/rolling-game-2ba97520b4d73261b666daeee9669c08b4c07112536eb18acc0abfe50e4a9b82.json",
+      "gameId": "rolling-game-2ba97520b4d73261b666daeee9669c08b4c07112536eb18acc0abfe50e4a9b82",
+      "opponent": "우트와 윤트",
+      "sha256": "ea2bdd5ea99bb75e9622c0e5f1eb8066c12bbad6809d793f0cb22b8796855461",
+      "bytes": 531450,
+      "final_turn": 160,
+      "result": {
+        "reason": "score",
+        "winner": "Y"
+      }
+    },
+    {
+      "path": "raw/rolling-game-3121389769080bb6d6fd232195165c5036e1025da736713fef3506d0aa5b107a.json",
+      "gameId": "rolling-game-3121389769080bb6d6fd232195165c5036e1025da736713fef3506d0aa5b107a",
+      "opponent": "집가고싶다",
+      "sha256": "58573b4a11658d2ff8b25eafd5c242d5143e126929afc063035b44b4ea3dc1e0",
+      "bytes": 493447,
+      "final_turn": 145,
+      "result": {
+        "reason": "instant",
+        "winner": "K"
+      }
+    },
+    {
+      "path": "raw/rolling-game-3349286232eaf367b4100ae55f4cc6fc1a85b4aae2b2af59c2705465374cda60.json",
+      "gameId": "rolling-game-3349286232eaf367b4100ae55f4cc6fc1a85b4aae2b2af59c2705465374cda60",
+      "opponent": "학부기",
+      "sha256": "cbcf55b8b591c3d0213502640ae8bb5d3d74c1efe87f7690ea5b81ecfe90a115",
+      "bytes": 345361,
+      "final_turn": 102,
+      "result": {
+        "reason": "instant",
+        "winner": "K"
+      }
+    },
+    {
+      "path": "raw/rolling-game-3fc3bdb4da80554b1115a5f4a3a47a28e80280e8424d1b28d4eabcf2f75cecad.json",
+      "gameId": "rolling-game-3fc3bdb4da80554b1115a5f4a3a47a28e80280e8424d1b28d4eabcf2f75cecad",
+      "opponent": "언더우드의목마",
+      "sha256": "3d7652685f7efcd99a3528a46c79c7dfe52d1a69bcabb15297fbb1dc40a96eb3",
+      "bytes": 585847,
+      "final_turn": 160,
+      "result": {
+        "reason": "score",
+        "winner": "Y"
+      }
+    },
+    {
+      "path": "raw/rolling-game-4d11bbabf02419ab956db2f20df6709ea27c41c42049c13ca20a9ae2f128bd3d.json",
+      "gameId": "rolling-game-4d11bbabf02419ab956db2f20df6709ea27c41c42049c13ca20a9ae2f128bd3d",
+      "opponent": "占쏙옙",
+      "sha256": "3f117f786e62bfc1bc99592c6b2bba8feee831b935c52ab3047e42ebe0eff95d",
+      "bytes": 684067,
+      "final_turn": 160,
+      "result": {
+        "reason": "score",
+        "winner": "K"
+      }
+    },
+    {
+      "path": "raw/rolling-game-4e0d236cbbab4db9f3de2c0f26044267024d5248fdaa1163bd1c3de9094346a5.json",
+      "gameId": "rolling-game-4e0d236cbbab4db9f3de2c0f26044267024d5248fdaa1163bd1c3de9094346a5",
+      "opponent": "요미",
+      "sha256": "17f72961dbf0430b66e830da8e72173ead48bb7d89ae6e9c267b5d9cb4f1484f",
+      "bytes": 414182,
+      "final_turn": 116,
+      "result": {
+        "reason": "instant",
+        "winner": "K"
+      }
+    },
+    {
+      "path": "raw/rolling-game-55fe0abc6c904edd5ee4bac94796025122a6144a28f20a54b301baa09f2e2bc7.json",
+      "gameId": "rolling-game-55fe0abc6c904edd5ee4bac94796025122a6144a28f20a54b301baa09f2e2bc7",
+      "opponent": "2325",
+      "sha256": "784f8761b6a77abad0d08079e32b1621d0feca7651c1f24214a0a80646e034a2",
+      "bytes": 596780,
+      "final_turn": 160,
+      "result": {
+        "reason": "score",
+        "winner": "K"
+      }
+    },
+    {
+      "path": "raw/rolling-game-599a77b643000c869c64882f5b7bb735a136b12394ca04f1f28919f556a4a5dd.json",
+      "gameId": "rolling-game-599a77b643000c869c64882f5b7bb735a136b12394ca04f1f28919f556a4a5dd",
+      "opponent": "파전",
+      "sha256": "388f64b537e40f8fde89aec9e1ed6a3e0450a48b9c00266cea4aa79a0e22866e",
+      "bytes": 526868,
+      "final_turn": 154,
+      "result": {
+        "reason": "instant",
+        "winner": "K"
+      }
+    },
+    {
+      "path": "raw/rolling-game-67c141094f5c250a52833c754b615d9d9d5461e611f68a0c81efd57d9780e550.json",
+      "gameId": "rolling-game-67c141094f5c250a52833c754b615d9d9d5461e611f68a0c81efd57d9780e550",
+      "opponent": "200OK",
+      "sha256": "7f6fb7a45405df2ba21cac14d25877ec76e74e4f02ec5183169dfb64a8e01243",
+      "bytes": 117986,
+      "final_turn": 39,
+      "result": {
+        "reason": "instant",
+        "winner": "Y"
+      }
+    },
+    {
+      "path": "raw/rolling-game-7ac6b9ec02f52581c6d9571e3a247679e3b8fcd9e97ac04374518b675ded109f.json",
+      "gameId": "rolling-game-7ac6b9ec02f52581c6d9571e3a247679e3b8fcd9e97ac04374518b675ded109f",
+      "opponent": "신촌도 우리땅",
+      "sha256": "13cfa28694a8f774792438e15c599444a392ac2853e6057fc0887d6243bb787d",
+      "bytes": 72917,
+      "final_turn": 24,
+      "result": {
+        "forfeit": true,
+        "reason": "forfeit",
+        "winner": "Y"
+      }
+    },
+    {
+      "path": "raw/rolling-game-7eeef93682801d3fb3f309c06b3932cd9d9b2007c6c88ac851dbe79e6e360557.json",
+      "gameId": "rolling-game-7eeef93682801d3fb3f309c06b3932cd9d9b2007c6c88ac851dbe79e6e360557",
+      "opponent": "연세있게 코딩하조",
+      "sha256": "f4b67a1dee3c1c89d5fe225cc1dfa8548f5f665a6f9f1b177c51b30f9bf95825",
+      "bytes": 469098,
+      "final_turn": 134,
+      "result": {
+        "reason": "instant",
+        "winner": "Y"
+      }
+    },
+    {
+      "path": "raw/rolling-game-7f305a8ab9990e5250d8dd209b4007d0d777738b47e92e011354729e1cdd4290.json",
+      "gameId": "rolling-game-7f305a8ab9990e5250d8dd209b4007d0d777738b47e92e011354729e1cdd4290",
+      "opponent": "태호랑이",
+      "sha256": "6544d6368505627f6000e89f15effb0f5ec85affce895617c8f0ce7034be7ff7",
+      "bytes": 543473,
+      "final_turn": 152,
+      "result": {
+        "reason": "instant",
+        "winner": "K"
+      }
+    },
+    {
+      "path": "raw/rolling-game-93362455ec99d14bc04b74da56d699403137e92e9645d291847cd5033b4308a8.json",
+      "gameId": "rolling-game-93362455ec99d14bc04b74da56d699403137e92e9645d291847cd5033b4308a8",
+      "opponent": "개우진보러갈까",
+      "sha256": "855097e956cb75942cad483c7693a57f87a00fabd705bcdc99a7a1c2ed13ceb9",
+      "bytes": 48249,
+      "final_turn": 17,
+      "result": {
+        "forfeit": true,
+        "reason": "forfeit",
+        "winner": "Y"
+      }
+    },
+    {
+      "path": "raw/rolling-game-97cc965a70c970c8e29722df241d46ef65438f1a516efab0e0a17e762bf67efc.json",
+      "gameId": "rolling-game-97cc965a70c970c8e29722df241d46ef65438f1a516efab0e0a17e762bf67efc",
+      "opponent": "조선김",
+      "sha256": "3d14015372e4268f90837d501137992e96b172ff30bee1e0db9e47b273ae825f",
+      "bytes": 613621,
+      "final_turn": 160,
+      "result": {
+        "reason": "score",
+        "winner": "Y"
+      }
+    },
+    {
+      "path": "raw/rolling-game-a36443c39ce4bc9c7d6fae1497050130e0c3a69b28f9f1152920e412711d57c1.json",
+      "gameId": "rolling-game-a36443c39ce4bc9c7d6fae1497050130e0c3a69b28f9f1152920e412711d57c1",
+      "opponent": "인공저능",
+      "sha256": "7ce915a696e13a1249cd1c2d49d0e8ca3a34b3a5fbe9351d33210aea04c58c75",
+      "bytes": 566356,
+      "final_turn": 160,
+      "result": {
+        "reason": "score",
+        "winner": "Y"
+      }
+    },
+    {
+      "path": "raw/rolling-game-a734188ba1b3507f0b14641599bc9eb212bfaa6bc37591908292b38747c4d8d9.json",
+      "gameId": "rolling-game-a734188ba1b3507f0b14641599bc9eb212bfaa6bc37591908292b38747c4d8d9",
+      "opponent": "거북이",
+      "sha256": "34bfe68fa6fd1027146dfbf29ec10b6e40a10e197cb907c85d5436da2daad51c",
+      "bytes": 416302,
+      "final_turn": 113,
+      "result": {
+        "reason": "instant",
+        "winner": "Y"
+      }
+    },
+    {
+      "path": "raw/rolling-game-a81e82aaf23d296e8afa0ae5845b12fcd40245724f80991d1b2b0262744bffaf.json",
+      "gameId": "rolling-game-a81e82aaf23d296e8afa0ae5845b12fcd40245724f80991d1b2b0262744bffaf",
+      "opponent": "뉴비입니다",
+      "sha256": "5bdaa319813f02d42458cf9aa5d4b430ca9860cd9e89ff8189d43215c552058f",
+      "bytes": 114549,
+      "final_turn": 33,
+      "result": {
+        "reason": "instant",
+        "winner": "Y"
+      }
+    },
+    {
+      "path": "raw/rolling-game-b24dd2c52849c0482d1594b89fe2c9f2e8931d777896bbbcf51b2a3c6d626803.json",
+      "gameId": "rolling-game-b24dd2c52849c0482d1594b89fe2c9f2e8931d777896bbbcf51b2a3c6d626803",
+      "opponent": "연세찜닭",
+      "sha256": "5e289c68adeae502d1da41aa5ff79ee776e2097e20816d78201f528e5fd5f0aa",
+      "bytes": 188072,
+      "final_turn": 55,
+      "result": {
+        "reason": "instant",
+        "winner": "Y"
+      }
+    },
+    {
+      "path": "raw/rolling-game-c25aca8592a15499b4cbc9d5aa348e97edecbd6cdb2eb7b311141eec6f7e8623.json",
+      "gameId": "rolling-game-c25aca8592a15499b4cbc9d5aa348e97edecbd6cdb2eb7b311141eec6f7e8623",
+      "opponent": "연크크",
+      "sha256": "edefbed7eb7961efa7d3b5ccf6e06cfd66a9b24c75f478e06fe9487263e49157",
+      "bytes": 483172,
+      "final_turn": 153,
+      "result": {
+        "reason": "instant",
+        "winner": "K"
+      }
+    },
+    {
+      "path": "raw/rolling-game-c76a06645ae50416ebba19cbf4ea2306626cdc6958f9ed2f57a5d7c0bb32ced4.json",
+      "gameId": "rolling-game-c76a06645ae50416ebba19cbf4ea2306626cdc6958f9ed2f57a5d7c0bb32ced4",
+      "opponent": "공주",
+      "sha256": "8458d7f196df532b63e9ece937413edbfd57942e1063754f6d36adf243f1ba21",
+      "bytes": 179052,
+      "final_turn": 51,
+      "result": {
+        "reason": "instant",
+        "winner": "Y"
+      }
+    },
+    {
+      "path": "raw/rolling-game-eff2465db42cc2c2eef6da120b6bb0979e1d92190941ff01c0bd931a6beba90d.json",
+      "gameId": "rolling-game-eff2465db42cc2c2eef6da120b6bb0979e1d92190941ff01c0bd931a6beba90d",
+      "opponent": "Yaar",
+      "sha256": "fe8ba30e0b240966b7d08a1302878bf632ff9142e6b5d34d97e644190e901f65",
+      "bytes": 569358,
+      "final_turn": 160,
+      "result": {
+        "reason": "score",
+        "winner": "K"
+      }
+    },
+    {
+      "path": "raw/rolling-game-f7f24e2549d11837a6bf372e8694f3ae58e8a2c79fc89f8e6bed038d9c322df0.json",
+      "gameId": "rolling-game-f7f24e2549d11837a6bf372e8694f3ae58e8a2c79fc89f8e6bed038d9c322df0",
+      "opponent": "올림픽 정신",
+      "sha256": "c9fd03f362de11dfe148aef4591967f7050c08ed7056a10a9daafc950a2f64c0",
+      "bytes": 369860,
+      "final_turn": 103,
+      "result": {
+        "reason": "instant",
+        "winner": "K"
+      }
+    },
+    {
+      "path": "raw/rolling-game-fd86a6c092d1fc50f9a07fe53dc51a22e2445e934d45f58202192d30c675b2ad.json",
+      "gameId": "rolling-game-fd86a6c092d1fc50f9a07fe53dc51a22e2445e934d45f58202192d30c675b2ad",
+      "opponent": "박박이",
+      "sha256": "f7bc164d13bca6f4b3cee8bd8503332a28e06069f449e937abd2726a1c6d5cc3",
+      "bytes": 130839,
+      "final_turn": 43,
+      "result": {
+        "reason": "instant",
+        "winner": "K"
+      }
+    }
+  ],
+  "raw_originals_unchanged": true
+}

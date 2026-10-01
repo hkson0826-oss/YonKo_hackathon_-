@@ -1,0 +1,11 @@
+{
+  "checked_at_kst": "2026-10-01T13:11:00+09:00",
+  "source": "Authenticated Chrome, official announcements page main text",
+  "url": "https://yonsei-vs-korea-hackathon.kr/announcements",
+  "announcement_count": 12,
+  "title": "[FAQ] 에이전트 CPU 사용 한도 및 실행 시간 관련",
+  "published_kst": "2026-10-01T10:42:10+09:00",
+  "text": "안녕하세요, 연고전 AI 해커톤 운영팀입니다.\n채점 환경에서는 각 참가자 봇에 개별적으로 0.25 vCPU의 CPU 사용 한도가 적용됩니다.\n턴 제한 시간(일반 턴 300ms, 첫 응답 3초)은 실제 경과 시간을 기준으로 측정됩니다. 본선에도 동일한 CPU 및 턴 시간 제한이 적용됩니다.\n감사합니다.",
+  "unknown": ["CPU model", "CPU quota period", "cgroup or scheduling implementation"],
+  "impact": "384 local paired games and GCC12 ZIP smoke tests completed before this notice was checked did not apply a per-bot quarter-vCPU quota. Their runtimes are local measurements, not server-equivalent timings."
+}

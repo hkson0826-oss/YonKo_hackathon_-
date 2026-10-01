@@ -1,0 +1,937 @@
+{
+  "status": "Only older local replays identified; await fresh official collection for current-version analysis",
+  "git_or_browser_access": false,
+  "source_edits": false,
+  "haemonye": {
+    "classification": "Historical round1 win, not new official round and not local-v4/mission4 performance",
+    "gameId": "rolling-game-99740c430713d5754ed6861ceef5f2baae7fa19465c4fbd34e98077ea5a3adfb",
+    "evaluationId": "01a0e029-5bd1-78dd-953b-cd45b3c12f51",
+    "site_identity": {
+      "recorded_at_utc": "2026-09-28T06:09:54.190574+00:00",
+      "observation_method": "Authenticated Chrome rendered UI; manually transcribed observed initial and final states only",
+      "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-99740c430713d5754ed6861ceef5f2baae7fa19465c4fbd34e98077ea5a3adfb",
+      "game_id": "rolling-game-99740c430713d5754ed6861ceef5f2baae7fa19465c4fbd34e98077ea5a3adfb",
+      "opponent": "하면해",
+      "our_side": "Y",
+      "site_submission": 3,
+      "our_local_version": "v2",
+      "match_time_display": "9월 27일 23:01",
+      "outcome": "win",
+      "points": 1.0,
+      "last_turn": 38,
+      "end_reason_display": "즉시 승리",
+      "observations": [
+        {
+          "turn": 0,
+          "public_score": {
+            "Y": 0,
+            "K": 0
+          },
+          "resources": {
+            "Y": 10,
+            "K": 10
+          },
+          "units": {
+            "Y": {
+              "F": 0,
+              "W": 0,
+              "S": 0
+            },
+            "K": {
+              "F": 0,
+              "W": 0,
+              "S": 0
+            }
+          }
+        },
+        {
+          "turn": 38,
+          "public_score": {
+            "Y": 43,
+            "K": 0
+          },
+          "resources": {
+            "Y": 14,
+            "K": 10
+          },
+          "resource_cap": 40,
+          "owned_building_counts": {
+            "Y": 16,
+            "K": 0
+          },
+          "units": {
+            "Y": {
+              "F": 7,
+              "W": 141,
+              "S": 0
+            },
+            "K": {
+              "F": 4,
+              "W": 41,
+              "S": 0
+            }
+          },
+          "unit_value": {
+            "Y": 458,
+            "K": 143
+          },
+          "occupation_turn_display": {
+            "Y": 1041,
+            "K": null
+          }
+        }
+      ],
+      "original_replay_file_acquired": false,
+      "limitations": [
+        "Not an exported replay JSON; not included in the 18-game census.",
+        "Final W counts are survivors, not total production.",
+        "Attempted full 39-state UI capture timed out; no complete turn series saved.",
+        "Displayed public scores are preserved as public scores, not inferred hidden scores."
+      ]
+    },
+    "sha256": "18241a411e9d9571d710c7fa58c2a1f3b818a2c29f0d788a208502061d18778d",
+    "same_hash_as_20260929_audit": true,
+    "zip_hash_verified_by_replay": false
+  },
+  "directory_inventory": [
+    {
+      "path": "V4_replay/V4_1replay.json",
+      "sha256": "d011af83e7da5237c13f9217f31ba49a38049200b3411c68fff4c6469f8ed724",
+      "bytes": 386281,
+      "gameId": "rolling-game-109f2e839e8bdb05922c807c8622bb6bd0553f65492fb5101562ab8c9e63242a",
+      "evaluationId": "01a0e285-d621-7b44-900b-03ddd469159d",
+      "seriesId": "rolling-392409f794bb578c08a356143191ab619edc510e18ed443d0a58a08d616f33b1",
+      "side": "Y",
+      "result": {
+        "reason": "instant",
+        "winner": "Y"
+      },
+      "turns": 107,
+      "observed_final_scores": {
+        "K": 0,
+        "Y": 32
+      },
+      "matches_round2_manifest_hash": true,
+      "matches_20260929_hash": false,
+      "site_identity": {
+        "path": "V4_replay/V4_1replay.json",
+        "game_id": "rolling-game-109f2e839e8bdb05922c807c8622bb6bd0553f65492fb5101562ab8c9e63242a",
+        "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-109f2e839e8bdb05922c807c8622bb6bd0553f65492fb5101562ab8c9e63242a",
+        "opponent": "뚜띠태하소불고기와멸치두명",
+        "opponent_reference_rank": 26,
+        "opponent_adjusted_percent": 58.7,
+        "site_submission": 4,
+        "side": "Y",
+        "outcome": "win"
+      },
+      "duplicates_latest_12_game_id": false
+    },
+    {
+      "path": "V4_replay/V4_2replay.json",
+      "sha256": "5dd107be161d4d85ba346bfc05b9a7da2b129a47b3bc4a52384ac1cb23c1ae24",
+      "bytes": 423388,
+      "gameId": "rolling-game-1a938b484fe952c60f68313ce8cb680d401dc712bb9b0ca9d385d6b71161cb55",
+      "evaluationId": "01a0e285-d621-7b44-900b-03ddd469159d",
+      "seriesId": "rolling-8377fccb3df7d82ac8735f0ae73a25ca778b1dcc78fd5d6bdd74b8c2a4d867f5",
+      "side": "Y",
+      "result": {
+        "reason": "instant",
+        "winner": "K"
+      },
+      "turns": 134,
+      "observed_final_scores": {
+        "K": null,
+        "Y": 0
+      },
+      "matches_round2_manifest_hash": true,
+      "matches_20260929_hash": false,
+      "site_identity": {
+        "path": "V4_replay/V4_2replay.json",
+        "game_id": "rolling-game-1a938b484fe952c60f68313ce8cb680d401dc712bb9b0ca9d385d6b71161cb55",
+        "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-1a938b484fe952c60f68313ce8cb680d401dc712bb9b0ca9d385d6b71161cb55",
+        "opponent": "붉은 산호초",
+        "opponent_reference_rank": 6,
+        "opponent_adjusted_percent": 86.7,
+        "site_submission": 4,
+        "side": "Y",
+        "outcome": "loss"
+      },
+      "duplicates_latest_12_game_id": false
+    },
+    {
+      "path": "V4_replay/replay (1).json",
+      "sha256": "a5b148ae8a95ffd684a511d65b8609a4da1557f9f7828db22d6a1a600eb7a5f4",
+      "bytes": 560022,
+      "gameId": "rolling-game-34bca1e9294c28464dba463fabb2a9f47d3617bd0eb021872ff16724eb7a5169",
+      "evaluationId": "01a0e285-d621-7b44-900b-03ddd469159d",
+      "seriesId": "rolling-76403d1f153b082a96dfcab0abafdd8dcaa4667f0d1406a2e33e46fb97ce31e9",
+      "side": "Y",
+      "result": {
+        "reason": "score",
+        "winner": "Y"
+      },
+      "turns": 160,
+      "observed_final_scores": {
+        "K": null,
+        "Y": 29
+      },
+      "matches_round2_manifest_hash": true,
+      "matches_20260929_hash": false,
+      "site_identity": {
+        "path": "V4_replay/replay (1).json",
+        "game_id": "rolling-game-34bca1e9294c28464dba463fabb2a9f47d3617bd0eb021872ff16724eb7a5169",
+        "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-34bca1e9294c28464dba463fabb2a9f47d3617bd0eb021872ff16724eb7a5169",
+        "opponent": "그래피",
+        "opponent_reference_rank": 22,
+        "opponent_adjusted_percent": 59.6,
+        "site_submission": 4,
+        "side": "Y",
+        "outcome": "win"
+      },
+      "duplicates_latest_12_game_id": false
+    },
+    {
+      "path": "V4_replay/replay (10).json",
+      "sha256": "f91cbf2ba3adf601fee3728c7b7a45543aa787b096fd490a80bd194f45cf9ae3",
+      "bytes": 84673,
+      "gameId": "rolling-game-d54af110884f1eff7197810d39f74f0ffcb31dd84cd3874da7a3dc3048632a4e",
+      "evaluationId": "01a0e285-d621-7b44-900b-03ddd469159d",
+      "seriesId": "rolling-0b6d9d687ab89651174a09b50d148391930cb993a2204bd8bdfbbb670c54156c",
+      "side": "Y",
+      "result": {
+        "reason": "instant",
+        "winner": "Y"
+      },
+      "turns": 26,
+      "observed_final_scores": {
+        "K": 0,
+        "Y": 40
+      },
+      "matches_round2_manifest_hash": true,
+      "matches_20260929_hash": false,
+      "site_identity": {
+        "path": "V4_replay/replay (10).json",
+        "game_id": "rolling-game-d54af110884f1eff7197810d39f74f0ffcb31dd84cd3874da7a3dc3048632a4e",
+        "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-d54af110884f1eff7197810d39f74f0ffcb31dd84cd3874da7a3dc3048632a4e",
+        "opponent": "hyper",
+        "opponent_reference_rank": 48,
+        "opponent_adjusted_percent": 20.6,
+        "site_submission": 4,
+        "side": "Y",
+        "outcome": "win"
+      },
+      "duplicates_latest_12_game_id": false
+    },
+    {
+      "path": "V4_replay/replay (2).json",
+      "sha256": "ec88839f7ad1bc6453573573712ba82e7b20f9ff600671a6ff98f175e288ddc2",
+      "bytes": 197348,
+      "gameId": "rolling-game-63440e085528d83bdd61a389b932c72c48eb67e155b1d57d3374ebe909833eaf",
+      "evaluationId": "01a0e285-d621-7b44-900b-03ddd469159d",
+      "seriesId": "rolling-b5e8e6fea0ea4dbda9e205d47d5b4ecfb60b256c9180894d6ec48809bbc0cc0e",
+      "side": "Y",
+      "result": {
+        "reason": "instant",
+        "winner": "K"
+      },
+      "turns": 67,
+      "observed_final_scores": {
+        "K": null,
+        "Y": 0
+      },
+      "matches_round2_manifest_hash": true,
+      "matches_20260929_hash": false,
+      "site_identity": {
+        "path": "V4_replay/replay (2).json",
+        "game_id": "rolling-game-63440e085528d83bdd61a389b932c72c48eb67e155b1d57d3374ebe909833eaf",
+        "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-63440e085528d83bdd61a389b932c72c48eb67e155b1d57d3374ebe909833eaf",
+        "opponent": "신촌을못가",
+        "opponent_reference_rank": 7,
+        "opponent_adjusted_percent": 81.4,
+        "site_submission": 4,
+        "side": "Y",
+        "outcome": "loss"
+      },
+      "duplicates_latest_12_game_id": false
+    },
+    {
+      "path": "V4_replay/replay (3).json",
+      "sha256": "9c8825500a1568ea45cb0ffe351c9297569a223c591292728c1c5d48363562a7",
+      "bytes": 573201,
+      "gameId": "rolling-game-6f32639acafca887f873728e555f1b24252c8f760a4be88f32d865d0727daff3",
+      "evaluationId": "01a0e285-d621-7b44-900b-03ddd469159d",
+      "seriesId": "rolling-2f81957fe92251f2cc939c951a3198b046b84e10d8b4d5b0f3921f6fe3014b2f",
+      "side": "Y",
+      "result": {
+        "reason": "score",
+        "winner": "Y"
+      },
+      "turns": 160,
+      "observed_final_scores": {
+        "K": null,
+        "Y": 21
+      },
+      "matches_round2_manifest_hash": true,
+      "matches_20260929_hash": false,
+      "site_identity": {
+        "path": "V4_replay/replay (3).json",
+        "game_id": "rolling-game-6f32639acafca887f873728e555f1b24252c8f760a4be88f32d865d0727daff3",
+        "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-6f32639acafca887f873728e555f1b24252c8f760a4be88f32d865d0727daff3",
+        "opponent": "요미",
+        "opponent_reference_rank": 20,
+        "opponent_adjusted_percent": 61.5,
+        "site_submission": 4,
+        "side": "Y",
+        "outcome": "win"
+      },
+      "duplicates_latest_12_game_id": false
+    },
+    {
+      "path": "V4_replay/replay (4).json",
+      "sha256": "8c5d422a4aa5ee45b712516fd3612e842444181f6e2373a3d77c78a7204e9e93",
+      "bytes": 100588,
+      "gameId": "rolling-game-7b34b928563d09ad1b5cc7adbf5037e2c5dc571aa6d687abf3401972f1562899",
+      "evaluationId": "01a0e285-d621-7b44-900b-03ddd469159d",
+      "seriesId": "rolling-d2583f98dd5f39a3be74b9955db47b6a380d8e0d5796b1248e4a336ec07ca2ae",
+      "side": "Y",
+      "result": {
+        "reason": "instant",
+        "winner": "Y"
+      },
+      "turns": 31,
+      "observed_final_scores": {
+        "K": 0,
+        "Y": 37
+      },
+      "matches_round2_manifest_hash": true,
+      "matches_20260929_hash": false,
+      "site_identity": {
+        "path": "V4_replay/replay (4).json",
+        "game_id": "rolling-game-7b34b928563d09ad1b5cc7adbf5037e2c5dc571aa6d687abf3401972f1562899",
+        "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-7b34b928563d09ad1b5cc7adbf5037e2c5dc571aa6d687abf3401972f1562899",
+        "opponent": "공주",
+        "opponent_reference_rank": 52,
+        "opponent_adjusted_percent": 18.4,
+        "site_submission": 4,
+        "side": "Y",
+        "outcome": "win"
+      },
+      "duplicates_latest_12_game_id": false
+    },
+    {
+      "path": "V4_replay/replay (5).json",
+      "sha256": "9ead6d80eaf065100e6b8b0ceb578cdbd7c45518fba594bb0dfa2da4894dbe6e",
+      "bytes": 335985,
+      "gameId": "rolling-game-ad84278667fd0929bb5a0b62d486dd6989d107b95060a86689b09677e48c8850",
+      "evaluationId": "01a0e285-d621-7b44-900b-03ddd469159d",
+      "seriesId": "rolling-bfec0d0b5f1e260489874283d536881f4c42946e2e7a910cff510ae3b1912649",
+      "side": "Y",
+      "result": {
+        "reason": "instant",
+        "winner": "Y"
+      },
+      "turns": 92,
+      "observed_final_scores": {
+        "K": 0,
+        "Y": 33
+      },
+      "matches_round2_manifest_hash": true,
+      "matches_20260929_hash": false,
+      "site_identity": {
+        "path": "V4_replay/replay (5).json",
+        "game_id": "rolling-game-ad84278667fd0929bb5a0b62d486dd6989d107b95060a86689b09677e48c8850",
+        "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-ad84278667fd0929bb5a0b62d486dd6989d107b95060a86689b09677e48c8850",
+        "opponent": "참새튀김기",
+        "opponent_reference_rank": 43,
+        "opponent_adjusted_percent": 26.4,
+        "site_submission": 4,
+        "side": "Y",
+        "outcome": "win"
+      },
+      "duplicates_latest_12_game_id": false
+    },
+    {
+      "path": "V4_replay/replay (6).json",
+      "sha256": "25a54389121d711db187f05112052ad208c20ebd1eb250b9ef261b096fb645ab",
+      "bytes": 316492,
+      "gameId": "rolling-game-b51fb30a9b60cbaa637281ccc70189592ccc3acd2a1cc54422eeb2a3647a2028",
+      "evaluationId": "01a0e285-d621-7b44-900b-03ddd469159d",
+      "seriesId": "rolling-4146902d3a6a41883d527ef59d3cd685f257c7ea0a34c31e4ec688a374b1e3d7",
+      "side": "Y",
+      "result": {
+        "reason": "instant",
+        "winner": "Y"
+      },
+      "turns": 92,
+      "observed_final_scores": {
+        "K": 0,
+        "Y": 37
+      },
+      "matches_round2_manifest_hash": true,
+      "matches_20260929_hash": false,
+      "site_identity": {
+        "path": "V4_replay/replay (6).json",
+        "game_id": "rolling-game-b51fb30a9b60cbaa637281ccc70189592ccc3acd2a1cc54422eeb2a3647a2028",
+        "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-b51fb30a9b60cbaa637281ccc70189592ccc3acd2a1cc54422eeb2a3647a2028",
+        "opponent": "신촌도 우리땅",
+        "opponent_reference_rank": 24,
+        "opponent_adjusted_percent": 59.1,
+        "site_submission": 4,
+        "side": "Y",
+        "outcome": "win"
+      },
+      "duplicates_latest_12_game_id": false
+    },
+    {
+      "path": "V4_replay/replay (7).json",
+      "sha256": "16a984811e7a3124c9834c13706235dc2e0a821c75c13bd2fe6baa8eb5566a2a",
+      "bytes": 617790,
+      "gameId": "rolling-game-bc613bbd0aa2e7ed3cb760c4420de07d584fbfe74435d9e64cfe603140e921df",
+      "evaluationId": "01a0e285-d621-7b44-900b-03ddd469159d",
+      "seriesId": "rolling-8540d7c3589ffddf06dbf33a41a0f90f2ca3f012283222721670a009e9d7e71f",
+      "side": "Y",
+      "result": {
+        "reason": "score",
+        "winner": "K"
+      },
+      "turns": 160,
+      "observed_final_scores": {
+        "K": null,
+        "Y": 15
+      },
+      "matches_round2_manifest_hash": true,
+      "matches_20260929_hash": false,
+      "site_identity": {
+        "path": "V4_replay/replay (7).json",
+        "game_id": "rolling-game-bc613bbd0aa2e7ed3cb760c4420de07d584fbfe74435d9e64cfe603140e921df",
+        "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-bc613bbd0aa2e7ed3cb760c4420de07d584fbfe74435d9e64cfe603140e921df",
+        "opponent": "tAIger",
+        "opponent_reference_rank": 10,
+        "opponent_adjusted_percent": 75.7,
+        "site_submission": 4,
+        "side": "Y",
+        "outcome": "loss"
+      },
+      "duplicates_latest_12_game_id": false
+    },
+    {
+      "path": "V4_replay/replay (8).json",
+      "sha256": "08477349ddad2b27104b58a4a09fe367e8b747e2c958549ee71150d4d5661863",
+      "bytes": 457435,
+      "gameId": "rolling-game-bffff5735e63efaae46f6cf1d63637b372b1a97295a0b11a270ef78a6fe046c8",
+      "evaluationId": "01a0e285-d621-7b44-900b-03ddd469159d",
+      "seriesId": "rolling-62f4262566f983198f6eab3c397c2f61f922d2bc6c45134a1b41bdc66af0c8dd",
+      "side": "Y",
+      "result": {
+        "reason": "instant",
+        "winner": "K"
+      },
+      "turns": 149,
+      "observed_final_scores": {
+        "K": null,
+        "Y": 0
+      },
+      "matches_round2_manifest_hash": true,
+      "matches_20260929_hash": false,
+      "site_identity": {
+        "path": "V4_replay/replay (8).json",
+        "game_id": "rolling-game-bffff5735e63efaae46f6cf1d63637b372b1a97295a0b11a270ef78a6fe046c8",
+        "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-bffff5735e63efaae46f6cf1d63637b372b1a97295a0b11a270ef78a6fe046c8",
+        "opponent": "뉴비들",
+        "opponent_reference_rank": 5,
+        "opponent_adjusted_percent": 87.2,
+        "site_submission": 4,
+        "side": "Y",
+        "outcome": "loss"
+      },
+      "duplicates_latest_12_game_id": false
+    },
+    {
+      "path": "V4_replay/replay (9).json",
+      "sha256": "5fec597eb1998acaed0795fd96d7f0e3570db294cfab0b34f5734becc449c48c",
+      "bytes": 554981,
+      "gameId": "rolling-game-c43810616007b08b82fa2ccc028a9bd58a815dd7af25480f26bcd6b298c02031",
+      "evaluationId": "01a0e285-d621-7b44-900b-03ddd469159d",
+      "seriesId": "rolling-3cf9396cac0ca383f0da26011979cb1697c5f892035960322047d30ff91860a9",
+      "side": "Y",
+      "result": {
+        "reason": "instant",
+        "winner": "Y"
+      },
+      "turns": 157,
+      "observed_final_scores": {
+        "K": 0,
+        "Y": 30
+      },
+      "matches_round2_manifest_hash": true,
+      "matches_20260929_hash": false,
+      "site_identity": {
+        "path": "V4_replay/replay (9).json",
+        "game_id": "rolling-game-c43810616007b08b82fa2ccc028a9bd58a815dd7af25480f26bcd6b298c02031",
+        "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-c43810616007b08b82fa2ccc028a9bd58a815dd7af25480f26bcd6b298c02031",
+        "opponent": "니땅내땅",
+        "opponent_reference_rank": 32,
+        "opponent_adjusted_percent": 49.7,
+        "site_submission": 4,
+        "side": "Y",
+        "outcome": "win"
+      },
+      "duplicates_latest_12_game_id": false
+    },
+    {
+      "path": "V4_replay/replay-haemonye.json",
+      "sha256": "18241a411e9d9571d710c7fa58c2a1f3b818a2c29f0d788a208502061d18778d",
+      "bytes": 120467,
+      "gameId": "rolling-game-99740c430713d5754ed6861ceef5f2baae7fa19465c4fbd34e98077ea5a3adfb",
+      "evaluationId": "01a0e029-5bd1-78dd-953b-cd45b3c12f51",
+      "seriesId": "rolling-395fb74feb6a35fe4f2beb507490925cc3f9f7009238abf7405614cc0410f68b",
+      "side": "Y",
+      "result": {
+        "reason": "instant",
+        "winner": "Y"
+      },
+      "turns": 38,
+      "observed_final_scores": {
+        "K": 0,
+        "Y": 43
+      },
+      "matches_round2_manifest_hash": false,
+      "matches_20260929_hash": true,
+      "site_identity": {
+        "opponent": "하면해",
+        "site_submission": 3,
+        "our_local_version": "v2",
+        "match_time_display": "9월 27일 23:01",
+        "recorded_at_utc": "2026-09-28T06:09:54.190574+00:00"
+      },
+      "duplicates_latest_12_game_id": false
+    },
+    {
+      "path": "V4_replay/replay.json",
+      "sha256": "70da24ce3da77267dce4728fbf4233980b1d1e3f2a069c6bae1e6c328a09da0a",
+      "bytes": 658521,
+      "gameId": "rolling-game-2b49c08f6a4dffa5a063bab17ed6c665a6c84abafe79a82c147811dbf32b1491",
+      "evaluationId": "01a0e285-d621-7b44-900b-03ddd469159d",
+      "seriesId": "rolling-50fa360404da4e41c16d3b447e0105024914f0d62b31d244e2d65a7f77ea8346",
+      "side": "Y",
+      "result": {
+        "reason": "score",
+        "winner": "Y"
+      },
+      "turns": 160,
+      "observed_final_scores": {
+        "K": null,
+        "Y": 29
+      },
+      "matches_round2_manifest_hash": true,
+      "matches_20260929_hash": false,
+      "site_identity": {
+        "path": "V4_replay/replay.json",
+        "game_id": "rolling-game-2b49c08f6a4dffa5a063bab17ed6c665a6c84abafe79a82c147811dbf32b1491",
+        "url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-2b49c08f6a4dffa5a063bab17ed6c665a6c84abafe79a82c147811dbf32b1491",
+        "opponent": "어잌후",
+        "opponent_reference_rank": 21,
+        "opponent_adjusted_percent": 59.8,
+        "site_submission": 4,
+        "side": "Y",
+        "outcome": "win"
+      },
+      "duplicates_latest_12_game_id": false
+    }
+  ],
+  "comparison": {
+    "local_V4_replay_files": 14,
+    "round2_manifest_exact_matches": 13,
+    "round2_publication_kst": "2026-09-28 10:00",
+    "round2_site_submission": 4,
+    "round2_local_version": 3,
+    "round2_outcomes": {
+      "wins": 9,
+      "losses": 4
+    },
+    "round1_additional_file": "replay-haemonye.json",
+    "latest_reference_games": 12,
+    "latest_reference_round": "10월 1일 00:30 리더보드",
+    "latest_reference_submission": 8,
+    "same_game_id_count": 0,
+    "same_game_id_list": [],
+    "conclusion": "Nonduplication does not imply recency. All14 files predate the reference v8 round, established by archived UI labels and exact historical hashes; no file mtime or UUID timestamp inference used."
+  },
+  "haemonye_historical_metrics": {
+    "historical_only": true,
+    "checkpoints": [
+      {
+        "turn": 0,
+        "units": {
+          "Y": {
+            "F": 0,
+            "W": 0,
+            "S": 0
+          },
+          "K": {
+            "F": 0,
+            "W": 0,
+            "S": 0
+          }
+        },
+        "public_scores": {
+          "K": 0,
+          "Y": 0
+        },
+        "economic_buildings": {
+          "Y": {
+            "ENG": 0,
+            "HALL": 0,
+            "HOSPITAL": 0
+          },
+          "K": {
+            "ENG": 0,
+            "HALL": 0,
+            "HOSPITAL": 0
+          }
+        },
+        "response_ms": null,
+        "stdout_bytes": null
+      },
+      {
+        "turn": 5,
+        "units": {
+          "Y": {
+            "F": 5,
+            "W": 9,
+            "S": 0
+          },
+          "K": {
+            "F": 4,
+            "W": 9,
+            "S": 0
+          }
+        },
+        "public_scores": {
+          "K": null,
+          "Y": 4
+        },
+        "economic_buildings": {
+          "Y": {
+            "ENG": 1,
+            "HALL": 0,
+            "HOSPITAL": 0
+          },
+          "K": {
+            "ENG": 0,
+            "HALL": 0,
+            "HOSPITAL": 0
+          }
+        },
+        "response_ms": 34,
+        "stdout_bytes": 308
+      },
+      {
+        "turn": 10,
+        "units": {
+          "Y": {
+            "F": 7,
+            "W": 37,
+            "S": 0
+          },
+          "K": {
+            "F": 4,
+            "W": 25,
+            "S": 0
+          }
+        },
+        "public_scores": {
+          "K": null,
+          "Y": 15
+        },
+        "economic_buildings": {
+          "Y": {
+            "ENG": 1,
+            "HALL": 1,
+            "HOSPITAL": 1
+          },
+          "K": {
+            "ENG": 0,
+            "HALL": 0,
+            "HOSPITAL": 0
+          }
+        },
+        "response_ms": 88,
+        "stdout_bytes": 400
+      },
+      {
+        "turn": 20,
+        "units": {
+          "Y": {
+            "F": 7,
+            "W": 82,
+            "S": 0
+          },
+          "K": {
+            "F": 4,
+            "W": 46,
+            "S": 0
+          }
+        },
+        "public_scores": {
+          "K": null,
+          "Y": 35
+        },
+        "economic_buildings": {
+          "Y": {
+            "ENG": 1,
+            "HALL": 1,
+            "HOSPITAL": 1
+          },
+          "K": {
+            "ENG": 0,
+            "HALL": 0,
+            "HOSPITAL": 0
+          }
+        },
+        "response_ms": 27,
+        "stdout_bytes": 495
+      },
+      {
+        "turn": 30,
+        "units": {
+          "Y": {
+            "F": 7,
+            "W": 99,
+            "S": 0
+          },
+          "K": {
+            "F": 4,
+            "W": 37,
+            "S": 0
+          }
+        },
+        "public_scores": {
+          "K": null,
+          "Y": 41
+        },
+        "economic_buildings": {
+          "Y": {
+            "ENG": 1,
+            "HALL": 2,
+            "HOSPITAL": 2
+          },
+          "K": {
+            "ENG": 0,
+            "HALL": 0,
+            "HOSPITAL": 0
+          }
+        },
+        "response_ms": 35,
+        "stdout_bytes": 917
+      },
+      {
+        "turn": 38,
+        "units": {
+          "Y": {
+            "F": 7,
+            "W": 141,
+            "S": 0
+          },
+          "K": {
+            "F": 4,
+            "W": 41,
+            "S": 0
+          }
+        },
+        "public_scores": {
+          "K": 0,
+          "Y": 43
+        },
+        "economic_buildings": {
+          "Y": {
+            "ENG": 2,
+            "HALL": 2,
+            "HOSPITAL": 2
+          },
+          "K": {
+            "ENG": 0,
+            "HALL": 0,
+            "HOSPITAL": 0
+          }
+        },
+        "response_ms": 17,
+        "stdout_bytes": 1460
+      }
+    ],
+    "economic_first_capture": {
+      "Y": {
+        "ENG": 4,
+        "HALL": 7,
+        "HOSPITAL": 10
+      },
+      "K": {
+        "ENG": null,
+        "HALL": null,
+        "HOSPITAL": null
+      }
+    },
+    "economic_losses_Y": [],
+    "command_status_counts": {
+      "ok": 38
+    },
+    "response_max_ms": 306,
+    "stdout_max_bytes": 1712,
+    "interpretation": "Historical win only, no latest-version failure claim. Command at index t uses observation t-1; frame t is after execution. Unknown public scores remain null."
+  },
+  "analyze_loss_collapse_review": {
+    "sha256": "af89925bb3f1cd3017e9d197c2aac938e7b465daf4c5bcaf5bc6c9a44f50c973",
+    "unchanged_since_20260929": true,
+    "issues": [
+      {
+        "location": "census",
+        "finding": "Counts compact unit rows (stacks), not number of units. Fifth field is count, not HP."
+      },
+      {
+        "location": "army_hp",
+        "finding": "Sums true unit counts but calls them HP; combines F/W/S without combat-power distinction."
+      },
+      {
+        "location": "scores s.get(ME) or 0 / s.get(OPP) or 0",
+        "finding": "Converts unknown public scores null to zero, invalidating score deficit metrics."
+      },
+      {
+        "location": "first_persistent",
+        "finding": "Five consecutive low unit ratios are descriptive heuristics, not proof of an unrecoverable state or first causal strategy failure."
+      },
+      {
+        "location": "ME=Y/HOME_X",
+        "finding": "Hardcodes side Y and home columns; current source files are Y but cannot generalize to K."
+      },
+      {
+        "location": "row t=i",
+        "finding": "Uses frame index rather than explicit turn; these files happen to be contiguous. Command frame t must be evaluated using frame t-1 observation."
+      }
+    ],
+    "action": "Left original untouched; no use of its collapse or score metrics in this review."
+  },
+  "sources": [
+    {
+      "path": "/home/dlwltkd/YonKo_hackathon_-/AGENTS.md",
+      "sha256": "c702f00d30a716479b5b3421bc97374760444281f56eb38d794b7d907b52e240"
+    },
+    {
+      "path": "/home/dlwltkd/YonKo_hackathon_-/records/official/round2/source-manifest.json",
+      "sha256": "e41e67a9a12540b7500091dafe6fd0e655f03b6de37feaa9dbfe1c071a162dce"
+    },
+    {
+      "path": "/home/dlwltkd/YonKo_hackathon_-/records/official/round2/site-observations.json",
+      "sha256": "7ea4d29f256024a2b33e43a5053d309fb30ebada100f72a143e29eb74cdb0bb2"
+    },
+    {
+      "path": "/home/dlwltkd/YonKo_hackathon_-/records/official/opponent-intel-20260928/haemyeonhae-ui-observations.json",
+      "sha256": "1f62509ff1066a934dc0282060520c302ab6cf7d6d6e1c5bc55c43a9b761de32"
+    },
+    {
+      "path": "/home/dlwltkd/YonKo_hackathon_-/records/strategy-audit-20260929/README.md",
+      "sha256": "374e5014feeda3d2621a971610d96b2626536a1f3f5e1b6e43cc7bf73dda2007"
+    },
+    {
+      "path": "/home/dlwltkd/YonKo_hackathon_-/records/strategy-audit-20260929/source-hashes.json",
+      "sha256": "d05961e96ecd8c18a18e1320a6b23e9725ae072cdf03aced9b902dba668ddb94"
+    },
+    {
+      "path": "/home/dlwltkd/YonKo_hackathon_-/records/official/latest-20261001/matches.json",
+      "sha256": "eda98b28e40830304befa8e9773f9fb437acc61a6076f19ec0a27312621f2018"
+    },
+    {
+      "path": "/home/dlwltkd/YonKo_hackathon_-/experiments/analyze_loss_collapse.py",
+      "sha256": "af89925bb3f1cd3017e9d197c2aac938e7b465daf4c5bcaf5bc6c9a44f50c973"
+    }
+  ],
+  "limits": [
+    "Submission/opponent identities are archived authenticated UI annotations, not fields in exported replay JSON.",
+    "Server ZIP bytes and opponent source/version unknown.",
+    "No new browser data acquired in this read-only subtask.",
+    "Git operations prohibited by task; historical source_commit evidence taken from recorded source manifest, not newly verified Git state.",
+    "No old success relabeled as evidence for current v9 or mission4."
+  ],
+  "downloads_review": {
+    "scope": [
+      "/home/dlwltkd/Downloads/replay*.json",
+      "/home/dlwltkd/Downloads/rolling-game*.json",
+      "equivalent Korean 다운로드 folder if it exists"
+    ],
+    "recursive": false,
+    "matching_files": 2,
+    "new_game_ids": [],
+    "files": [
+      {
+        "path": "/home/dlwltkd/Downloads/replay (1).json",
+        "bytes": 325954,
+        "filesystem_mtime_utc": "2026-09-30T17:34:19.761125+00:00",
+        "mtime_warning": "Filesystem timestamp is not match/evaluation time.",
+        "sha256": "630113f4d9a2632f9857ccf2d30942933229746e355cd09d68a4b19eac00254d",
+        "gameId": "rolling-game-f8600dcbb568c94c1bf2715e2bae9e00fd16abc8333520f22a5fd05a1c25362c",
+        "evaluationId": "01a0f219-a1b3-747d-96f3-09067028426b",
+        "seriesId": "rolling-199620a2b8922ab38a29cb3607f894cc53340ca6ad0b925891fdcac04ad3ef92",
+        "side": "Y",
+        "result": {
+          "reason": "instant",
+          "winner": "K"
+        },
+        "protocolVersion": "platform-protocol-88a77d888a15",
+        "rulesetVersion": "platform-rules-88a77d888a15",
+        "schemaVersion": 2,
+        "frames": 99,
+        "last_turn": 98,
+        "last_public_scores": {
+          "K": null,
+          "Y": 0
+        },
+        "classification": "Exact duplicate of reference v8 Coral loss, not a new round",
+        "archived_path": "/home/dlwltkd/YonKo_hackathon_-/records/official/latest-20261001/raw/rolling-game-f8600dcbb568c94c1bf2715e2bae9e00fd16abc8333520f22a5fd05a1c25362c.json",
+        "same_bytes_as_archive": true,
+        "opponent": "붉은 산호초",
+        "site_submission": 8,
+        "round_label": "10월 1일 00:30 리더보드"
+      },
+      {
+        "path": "/home/dlwltkd/Downloads/replay.json",
+        "bytes": 561082,
+        "filesystem_mtime_utc": "2026-09-27T13:07:00.752800+00:00",
+        "mtime_warning": "Filesystem timestamp is not match/evaluation time.",
+        "sha256": "e1a77ebc0dc871668ad7002674303b8b6066ff3436dca695bbef434a27335011",
+        "gameId": "rolling-game-805c50c9a490f1c11b69ad06d37d8a66ff8a012f4ede324c829038c68ea5fb4e",
+        "evaluationId": "01a0e029-5bd1-78dd-953b-cd45b3c12f51",
+        "seriesId": "rolling-e2101d3fcca22e0c57d7b8c62d9fba9dde6dd5e67634a5b3fe97b8b82564c05a",
+        "side": "Y",
+        "result": {
+          "reason": "score",
+          "winner": "K"
+        },
+        "protocolVersion": "platform-protocol-88a77d888a15",
+        "rulesetVersion": "platform-rules-88a77d888a15",
+        "schemaVersion": 2,
+        "frames": 161,
+        "last_turn": 160,
+        "last_public_scores": {
+          "K": null,
+          "Y": 11
+        },
+        "classification": "Old round1 Sinchon loss, not new round",
+        "matching_round1_manifest": [
+          {
+            "path": "artifacts/firstround_results/replay (3).json",
+            "sha256": "e1a77ebc0dc871668ad7002674303b8b6066ff3436dca695bbef434a27335011",
+            "bytes": 561082,
+            "game_id": "rolling-game-805c50c9a490f1c11b69ad06d37d8a66ff8a012f4ede324c829038c68ea5fb4e",
+            "side": "Y",
+            "ruleset_version": "platform-rules-88a77d888a15",
+            "protocol_version": "platform-protocol-88a77d888a15"
+          }
+        ],
+        "opponent": "신촌도 우리땅",
+        "site_submission": 3,
+        "local_version": "v2"
+      }
+    ],
+    "other_downloads_read": false,
+    "conclusion": "Two matching files only, both historical duplicates. No newly available official round identified."
+  }
+}

@@ -1,0 +1,71 @@
+[
+  {
+    "path": "/home/dlwltkd/Downloads/replay (1).json",
+    "bytes": 325954,
+    "filesystem_mtime_utc": "2026-09-30T17:34:19.761125+00:00",
+    "mtime_warning": "Filesystem timestamp is not match/evaluation time.",
+    "sha256": "630113f4d9a2632f9857ccf2d30942933229746e355cd09d68a4b19eac00254d",
+    "gameId": "rolling-game-f8600dcbb568c94c1bf2715e2bae9e00fd16abc8333520f22a5fd05a1c25362c",
+    "evaluationId": "01a0f219-a1b3-747d-96f3-09067028426b",
+    "seriesId": "rolling-199620a2b8922ab38a29cb3607f894cc53340ca6ad0b925891fdcac04ad3ef92",
+    "side": "Y",
+    "result": {
+      "reason": "instant",
+      "winner": "K"
+    },
+    "protocolVersion": "platform-protocol-88a77d888a15",
+    "rulesetVersion": "platform-rules-88a77d888a15",
+    "schemaVersion": 2,
+    "frames": 99,
+    "last_turn": 98,
+    "last_public_scores": {
+      "K": null,
+      "Y": 0
+    },
+    "classification": "Exact duplicate of reference v8 Coral loss, not a new round",
+    "archived_path": "/home/dlwltkd/YonKo_hackathon_-/records/official/latest-20261001/raw/rolling-game-f8600dcbb568c94c1bf2715e2bae9e00fd16abc8333520f22a5fd05a1c25362c.json",
+    "same_bytes_as_archive": true,
+    "opponent": "붉은 산호초",
+    "site_submission": 8,
+    "round_label": "10월 1일 00:30 리더보드"
+  },
+  {
+    "path": "/home/dlwltkd/Downloads/replay.json",
+    "bytes": 561082,
+    "filesystem_mtime_utc": "2026-09-27T13:07:00.752800+00:00",
+    "mtime_warning": "Filesystem timestamp is not match/evaluation time.",
+    "sha256": "e1a77ebc0dc871668ad7002674303b8b6066ff3436dca695bbef434a27335011",
+    "gameId": "rolling-game-805c50c9a490f1c11b69ad06d37d8a66ff8a012f4ede324c829038c68ea5fb4e",
+    "evaluationId": "01a0e029-5bd1-78dd-953b-cd45b3c12f51",
+    "seriesId": "rolling-e2101d3fcca22e0c57d7b8c62d9fba9dde6dd5e67634a5b3fe97b8b82564c05a",
+    "side": "Y",
+    "result": {
+      "reason": "score",
+      "winner": "K"
+    },
+    "protocolVersion": "platform-protocol-88a77d888a15",
+    "rulesetVersion": "platform-rules-88a77d888a15",
+    "schemaVersion": 2,
+    "frames": 161,
+    "last_turn": 160,
+    "last_public_scores": {
+      "K": null,
+      "Y": 11
+    },
+    "classification": "Old round1 Sinchon loss, not new round",
+    "matching_round1_manifest": [
+      {
+        "path": "artifacts/firstround_results/replay (3).json",
+        "sha256": "e1a77ebc0dc871668ad7002674303b8b6066ff3436dca695bbef434a27335011",
+        "bytes": 561082,
+        "game_id": "rolling-game-805c50c9a490f1c11b69ad06d37d8a66ff8a012f4ede324c829038c68ea5fb4e",
+        "side": "Y",
+        "ruleset_version": "platform-rules-88a77d888a15",
+        "protocol_version": "platform-protocol-88a77d888a15"
+      }
+    ],
+    "opponent": "신촌도 우리땅",
+    "site_submission": 3,
+    "local_version": "v2"
+  }
+]

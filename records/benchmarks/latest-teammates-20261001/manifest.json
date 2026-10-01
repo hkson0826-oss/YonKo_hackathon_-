@@ -1,0 +1,799 @@
+{
+  "status": "ready",
+  "created_utc": "2026-10-01T03:48:40.934121+00:00",
+  "root": "/tmp/yk-latest-teammates-arena-20261001",
+  "source_commit": "2e26f82a6aae77536dfad59a089ff4d17fa57b9f",
+  "input_sha256": {
+    "experiments/analyze_gain_cases.py": "35f3683c930665e7cdb5150d6b92a87a95d8bf7d9f140e2dc3cb540c264a13d5",
+    "experiments/analyze_guard_cases.py": "2a42a7ac8826f849cec7444e5ea008f45223d6f7f500707dec36efcee8fbd2f5",
+    "experiments/analyze_iterative.py": "6b04bfb8ac2d0738701283101407fc4946d01f4bc8775a9ddfa5462615f261ba",
+    "experiments/analyze_league.py": "968a9b461608d80469716e1d63b3d8b9fabb401af7dfaf15ceb747a3f1cc1924",
+    "experiments/analyze_official_round1.py": "398d3175ad159bcc4f6f66c52736769146a61dc7aab15c292c69465e141c8d91",
+    "experiments/analyze_official_round2.py": "eb2633fd56f77a8bdd7d64145ae3f6da34f798dcb7fbfbf702f111a4c1805a53",
+    "experiments/analyze_revision_effects.py": "cea2ee894b3f4a62a5f2f9b20c0d70e4b3bad8be15b8309de3e24225ee30d6a7",
+    "experiments/analyze_team_strategy_comparison.py": "090ee60c9a0c72f916bc0b6b9ab428991f19b25e9e327fedbea0e8c7c7c52418",
+    "experiments/analyze_v3_campaign.py": "e3130973fc568b9b4f69f423d35ad4d36249b50c652dccb44d1a9e8601371e30",
+    "experiments/analyze_v3_confirmation.py": "b5c2579016ba235579fb05966b110eb008aa7fab55ea42ed319df0f9bc48034e",
+    "experiments/analyze_v3_diversity.py": "bc021d9bc0bc1089110d1174df647f945128a97a1639255914242e4698bc3b88",
+    "experiments/analyze_v3_revisions.py": "7bc9f9570d026d813535a97f8fd1d08bd55360ad2561416c56e46ecb56aca903",
+    "experiments/audit_deadline_actions.py": "dd71de1e97f87755fc2b62025a747bdbf92b9307164d75dd6d7460e315b5ecd9",
+    "experiments/audit_f3_opening.py": "1eedb1e151180d03c3540735d0cd7de174a1ce03bb1d672059f24eb26c731266",
+    "experiments/audit_intact_base_development.py": "33f3645efb60f7b24d209e981d12ca2379347b42cf6829f7fe0eeac69e927896",
+    "experiments/audit_s3_confirmation_contact.py": "688a111049d77b119f7e864e0957d6298e4e71df02fa96842317dbf6871f91be",
+    "experiments/audit_s3_failures.py": "4932ed6c3c88dcd649972c6bc644e3240b6f6f9f954c54e87ba467576d047bd1",
+    "experiments/audit_v3_continuation.py": "83b5897d683a860040e21716bd593cd35716932bb1b4c2be29463bca09c443c8",
+    "experiments/audit_v3_decision.py": "252bfb0d02591fe378356d13c41a477ab470119ff88501ea8e9cac137155db26",
+    "experiments/audit_warrior_reserve_development.py": "04fc66c416db85b450dca3f2d2c2b44bd0bf9485df6150da6eb02b30d1bd1e92",
+    "experiments/audit_warrior_reserve_reclaim.py": "eca259bed2122f1df771d2d0be13584b3d6d548f580347dd30ed288b2da77f8f",
+    "experiments/build_opponent_census.py": "1ef9a664a8045af70cc90ef137dfc020897da2be4c18f525080a91950c5b219a",
+    "experiments/compare_cpu_executors.py": "097c4e7eaa46c99c9652160608e2d0de8e5b639683f943957ef45530af38bbf0",
+    "experiments/cpu_sweep.py": "bf0f0293499473b0295e2dac640e24362c332edc1edc8c01f5e09ef39f12172b",
+    "experiments/cross_family_audit.py": "32cffec00e79132ab6c7c92ad20e600e71d5ae019f14b3f206a8557a48165f2c",
+    "experiments/deadline_20260929.py": "93c24a353644fd8d231ca42294064c0d30a3a6fc092bee8518a782abec131c54",
+    "experiments/iterative_campaign.py": "7cd9e27e1d72a0a0727937a2b0e63209eae3dbd4ee39e19c09205cc955916b2d",
+    "experiments/league_campaign.py": "90539ddfabdf38e4410a2255448fdffa89f12704aaa6694a73307d3c25ea84ff",
+    "experiments/local_league/adaptive_search.py": "d661367d4b526426e4800512e64295eeaf08b14788c34f66032e43b3da70eb50",
+    "experiments/local_league/causal_repairs.py": "5d9bba808889350cc4e90043cc7f20af4a3e7a92430cf58839e76bf74c51526a",
+    "experiments/local_league/challengers.py": "839d24c3bec34d3d2b874763b597b618f89f59bcad783ca7d1cf2197651adad7",
+    "experiments/local_league/joint_allocator.py": "b21789afb6abbdd26f1c4fc0901e2002b35d0772f3022e047da78e025b901958",
+    "experiments/local_league/repairs.py": "44158dba1130a0da8201dba3ea00c427a50884a28b929a2b9634506e9f2a690e",
+    "experiments/local_league/search_families.py": "1964196de4793e36d9f0fed263a6490dfb6ba2955a6302dd99157b7370fc7634",
+    "experiments/local_league/v3_action_search.py": "000737f2e47c229184c39a325e194eeb1f0e24b472fd3703e6712d6b4e96e9fc",
+    "experiments/local_league/v3_repairs.py": "3f97ea6d0319c1bc4081f74011dbdee2ba84eaa15fb9e4d6ffa1713282711a92",
+    "experiments/local_league/v3_robust_search.py": "d4a54fa4a304a363383e7e2021b7f03151d6236be91ed300ee4c565c90415fbc",
+    "experiments/local_league.py": "0446721386cdbbfa9806527051d924efa6d96890aee9ad52bb3b154261226274",
+    "experiments/package_deadline_candidate.py": "ae80af2aba8664cf66708ef03e390a946ea2ac2f9f2ccbe324a1679e38a92a9f",
+    "experiments/package_deadline_gcc12.py": "083bf55830b1719961cccc33632832d30758d89a0c81913e627f2df287d97455",
+    "experiments/package_frozen_candidate.py": "5bd9526ad4d26bdc71348a1b5084f0745fbf5c1961b28264e8229457f472b196",
+    "experiments/package_gcc12_candidate.py": "6d4f2063f2c86b571e6544b733b23469a6a0bae18a06b8abd978d99ddea2fe23",
+    "experiments/package_mission_candidate.py": "6147af0a4597f69fa9231934a93c52f2b70d3b65b9db46b3b9a7c8fabb5b5c50",
+    "experiments/profile_bot_stages.py": "8d3ad547e7cada268d7baf15428c28d0d768af7926dc45e0fbd905b4faf2d8da",
+    "experiments/profile_throughput.py": "a018e8281002197834f8e809fc20e1a55ec8904bb6baf145600d1802ce67c212",
+    "experiments/run_remote_tmp.py": "9613c4ea2a2f91341a2c5ac71396221f319c42ba2658d55619e80fc8fef655ee",
+    "experiments/tune_presubmit.py": "50ba7ccfe4c6d75c7f32b1af9368aa13e963485811ed30cff0ebd61839bef8a0",
+    "experiments/tune_presubmit_round2.py": "dd3e3563178c7e4dd09407d6ef798e13fec3c10742112f08d686e536aaea3234",
+    "experiments/tune_presubmit_round3.py": "2161acd245824f0386b59460817ed16958cb772dba1c1d64c7796ace9a8ca992",
+    "experiments/v3_audit.py": "8ecd4cb2ded70d01fdad98e5c5ab3f692712a9ad6f10da0611c9dd02cfe8c318",
+    "experiments/v3_campaign.py": "626cacddde5e1c55c61dac7cc816e630d139538688032edba60cc0439f156aa7",
+    "experiments/v3_confirmation.py": "e069e532064446290c78b628cc829303bdfa64eb620277daae9059a5d99899ac",
+    "experiments/verify_gcc12_tmp.py": "40435a5a3468654db048534f6c9b261d14fee9e1173871ab1152f9799bcaac58",
+    "experiments/verify_iterative_artifacts.py": "eb1e5f331a04807b4fe9a5eecd9102984b0c9a369013146e5c279e3eab4efcd5",
+    "submissions/delineate-v1.zip": "571397e3c84998b27f8ce0468bc49333663c69b0b84162ad8dfc27e7a47f2365",
+    "submissions/first/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "submissions/first/main.cpp": "13a240536ea85885a1f61c8007665d132cc5c31a9c23ae00dec9872bf01fbcb5",
+    "submissions/first/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "submissions/first/submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60",
+    "submissions/iterative-v3/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "submissions/iterative-v3/main.cpp": "52268569e17d7fc40fd46f0996b2da684768902b4af27ec059c4b068911c4473",
+    "submissions/iterative-v3/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "submissions/iterative-v3/submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60",
+    "submissions/tuned/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "submissions/tuned/main.cpp": "53bb019625fabbbd3aa8a5b65af971912bb4cbdad8a9fde3009fadad5ba6d4c5",
+    "submissions/tuned/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "submissions/tuned/submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60",
+    "yk-development-tools/bots/dist/starter/python/_generated.py": "8cf113fe574425e1f761911e59fe43394aad147946b07ed4a837e1da6b25fcfc",
+    "yk-development-tools/bots/dist/starter/python/campus_bot.py": "2568119d19d9def58dd824b06eac332f018f23c0dee24ba1ccddf3169a151e7b",
+    "yk-development-tools/bots/dist/starter/python/example_lv1.py": "15183b1c05b8daa12212cb2d64fe54dbc81deba69a7e9999b3fac4b3d5ccbc1d",
+    "yk-development-tools/bots/dist/starter/python/example_lv2.py": "91c174b0259ea2759d3ff390bb80ff0d6494fbea59003cb5b0a607bf1370bd4f",
+    "yk-development-tools/bots/dist/starter/python/main.py": "fc0b4fc2eccb0e497c8435d85412332e3628053a905f51687d654b8e2d35b068",
+    "yk-development-tools/bots/dist/starter/python/mybot_template.py": "6d6ee8564548c9bf81562d60c270b69968813045c900c94ce95b5c261456d43b",
+    "yk-development-tools/bots/dist/starter/python/protocol.py": "67a5d27ced038de39d7cd3b069bf01786bf4cc9e6c1d39269d1f7e67b185c194",
+    "yk-development-tools/bots/dist/starter/python/search.py": "34cc73421e056d857549d28523ada709c6531152e4a0e08b8f8eddbad5073e45",
+    "yk-development-tools/bots/dist/starter/python/submission.json": "ff5431b97ab8dc3d045d053fe1e3148eca20bfe900ec66cd9e7f7f5e542f3de5",
+    "yk-development-tools/config/balance.json": "a46886d91862244b6daf4990dcdf2371302433e7120c21dc2a29ecf95696b35f",
+    "yk-development-tools/engine/__init__.py": "5b9c498fcef25d4900bfe993415964ef9b803c37309acda004e6b553130ace86",
+    "yk-development-tools/engine/commands.py": "db00820b9f77cc1b6e71eaa37bb4eb0b4c31cccda7f4b388269a13db04a76798",
+    "yk-development-tools/engine/config.py": "964f20b9f914bbc0bc81c84d7fbee3b2ecbed4b54814ab51cbd20d54ef6f20b9",
+    "yk-development-tools/engine/pipeline.py": "f0bd96c484c8628b6a070b188adcc1a077e9f90017cc15f11ce366d974490fa6",
+    "yk-development-tools/engine/state.py": "dd227e26bcb36a5c412bbf7db19f4418a59627e8ea7e55a90dac5184dcc0737f",
+    "yk-development-tools/mapgen/__init__.py": "4e3cf8f63c58f32835898da672ecaacf87b1ee105da4628fb917b2f6070fc5f0",
+    "yk-development-tools/mapgen/generator.py": "645b53e2b2ce0049608873b1d01a983661dbdbfe63e358fbb152cbeeea13947e",
+    "yk-development-tools/mapgen/render.py": "5486e5f68e8de843fd36ded98716a05a0b399301b6d82651db3aacba6bc16029",
+    "yk-development-tools/mapgen/rng.py": "4b56383dd28a138c2ae0bd387a893b4129e108dddf369dd54d3927848f85cc4d",
+    "yk-development-tools/runner/__init__.py": "7f675ede62ac8590c279dd4f2f64f8aa526f8d41e60dcfd7dba930612db4fbe2",
+    "yk-development-tools/runner/__main__.py": "307299fda7b77d22c64cb51430ec75e5f59d78e9c948786afb3b2544fe45e4b7",
+    "yk-development-tools/runner/bots.py": "c09312d62eaa1a2a5af5576b24922a9fd209365e0f3e655894934585858aba43",
+    "yk-development-tools/runner/cli.py": "90b102ca9513f710deed37c68adbca6026f43b641a5c00758d2868ecd1a90b81",
+    "yk-development-tools/runner/match.py": "122d3fc0c31ade0b808795d15842949da8c32a26c79c779841e7364aa2f51578",
+    "yk-development-tools/runner/protocol.py": "5917df4bec20b963586b1ffeb7a45b9959f51e3437a227ee7e8d932b172a7d65",
+    "yk-development-tools/runner/replay.py": "fc2bf7405c405ac30da4d7c122b24e3c3275544bfbd1ec22779bbb217df6e8a6",
+    "yk-development-tools/runner/validation.py": "7c00c3eca69a8f115e51b3c47a570c1015795b41d16e9987b5679f84f4184345"
+  },
+  "compiler": "g++ (GCC) 16.2.1 20260810",
+  "python": "3.14.7 (main, Aug 10 2026, 07:46:56) [GCC 16.1.1 20260728]",
+  "policy_rng_seed": 20260927,
+  "bots": {
+    "v2": {
+      "id": "v2",
+      "family": "baseline",
+      "parameters": {},
+      "hypothesis": "현재 제출 기준선",
+      "weakness": "공식 1차 경제·종반 패배",
+      "command": "/tmp/yk-latest-teammates-arena-20261001/bin/v2",
+      "source": "snapshot/candidates/v2/main.cpp",
+      "source_sha256": "53bb019625fabbbd3aa8a5b65af971912bb4cbdad8a9fde3009fadad5ba6d4c5",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-latest-teammates-arena-20261001/snapshot/candidates/v2",
+            "/tmp/yk-latest-teammates-arena-20261001/snapshot/candidates/v2/main.cpp",
+            "-o",
+            "/tmp/yk-latest-teammates-arena-20261001/bin/v2"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "0e3f9b2691428173012294354bc0cbee316f8f8af19779f1e5c2a0511c4d0615"
+    },
+    "v3": {
+      "id": "v3",
+      "family": "baseline",
+      "parameters": {},
+      "hypothesis": "Frozen current submission baseline",
+      "weakness": "Known losses remain; compare on fresh maps",
+      "command": "/tmp/yk-latest-teammates-arena-20261001/bin/v3",
+      "source": "snapshot/candidates/v3/main.cpp",
+      "source_sha256": "52268569e17d7fc40fd46f0996b2da684768902b4af27ec059c4b068911c4473",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-latest-teammates-arena-20261001/snapshot/candidates/v3",
+            "/tmp/yk-latest-teammates-arena-20261001/snapshot/candidates/v3/main.cpp",
+            "-o",
+            "/tmp/yk-latest-teammates-arena-20261001/bin/v3"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "264c2a6c0d20d11dc38026466e476febde3447ba6fabdd6412853fca716d633a"
+    },
+    "j_balanced_portfolio": {
+      "id": "j_balanced_portfolio",
+      "family": "joint_mission_allocation",
+      "parameters": {
+        "profile": 0,
+        "mode": "portfolio",
+        "replacement_style": 2,
+        "opponent_model": "unchanged_v2",
+        "own_only": true
+      },
+      "hypothesis": "한 턴 내 실제 도착 W와 F를 공동 배정하고 충족된 수비 임무에서 잉여 병력을 뺀다.",
+      "weakness": "적 인접 W를 모두 한 목표에 가정하는 보수성과 매 턴 탐욕 재배정이 장기 우회·진동을 만들 수 있다.",
+      "command": "/tmp/yk-latest-teammates-arena-20261001/bin/j_balanced_portfolio",
+      "source": "snapshot/candidates/j_balanced_portfolio/main.cpp",
+      "source_sha256": "534f55f1d6641ed788ca637663456e43375297d8016ac9832c589b0a012c8422",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-latest-teammates-arena-20261001/snapshot/candidates/j_balanced_portfolio",
+            "/tmp/yk-latest-teammates-arena-20261001/snapshot/candidates/j_balanced_portfolio/main.cpp",
+            "-o",
+            "/tmp/yk-latest-teammates-arena-20261001/bin/j_balanced_portfolio"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "f488feb31575cb06bb7063c021ef80797444038d4db78cff99da6fce2d1e3377"
+    },
+    "j_v2_reclaim_relay": {
+      "id": "j_v2_reclaim_relay",
+      "family": "joint_mission_revision2",
+      "parameters": {
+        "blocked_flag_relay": true,
+        "parent_candidate": "j_reclaim_portfolio",
+        "iteration": 2,
+        "own_only": true,
+        "opponent_model": "unchanged_v2",
+        "mode": "portfolio",
+        "replacement_style": 2
+      },
+      "hypothesis": "위험 때문에 진전하지 못한 F에는 최종 건물 대신 다음 진전 칸을 W 집결 임무로 만들어 유휴 F와 호위 단절을 줄인다.",
+      "weakness": "막힌 F가 가치 낮은 전선에 있으면 큰 W 집단을 끌어들여 다른 전선을 약하게 만들 수 있다.",
+      "command": "/tmp/yk-latest-teammates-arena-20261001/bin/j_v2_reclaim_relay",
+      "source": "snapshot/candidates/j_v2_reclaim_relay/main.cpp",
+      "source_sha256": "0882dc3284c33db9f4687c085e0c570d156a439365aa229fa6cca6f81e909045",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-latest-teammates-arena-20261001/snapshot/candidates/j_v2_reclaim_relay",
+            "/tmp/yk-latest-teammates-arena-20261001/snapshot/candidates/j_v2_reclaim_relay/main.cpp",
+            "-o",
+            "/tmp/yk-latest-teammates-arena-20261001/bin/j_v2_reclaim_relay"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "10de52a3d813f0fa78ccf1a0b68456e6e94c6bf1a6fa6e48fc4bad8e4412fcc4"
+    },
+    "a_v2_tactical_local": {
+      "id": "a_v2_tactical_local",
+      "family": "tactical_neighborhood_revision",
+      "parameters": {
+        "tactical": true
+      },
+      "hypothesis": "위협·점령 중인 F의 출발지를 우선하고 F/W별 이동·대기를 별도 후보로 공식 전이 평가한다.",
+      "weakness": "대기를 강제하지 않는다. 7001 turn34처럼 F 대기는 오히려 적의 즉시 점령을 도울 수 있다.",
+      "command": "/tmp/yk-latest-teammates-arena-20261001/bin/a_v2_tactical_local",
+      "source": "snapshot/candidates/a_v2_tactical_local/main.cpp",
+      "source_sha256": "9d9d6ecd763b84f88c0d5e48f65524798f998e9912f774c0dd22e27f3f78219a",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-latest-teammates-arena-20261001/snapshot/candidates/a_v2_tactical_local",
+            "/tmp/yk-latest-teammates-arena-20261001/snapshot/candidates/a_v2_tactical_local/main.cpp",
+            "-o",
+            "/tmp/yk-latest-teammates-arena-20261001/bin/a_v2_tactical_local"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "e4d4dc694dcee63421ea9d0f264d6039205ff19eabacc09ad0cfd94e013fd8f1"
+    },
+    "f3_v2_warrior_reserve": {
+      "id": "f3_v2_warrior_reserve",
+      "family": "v3_revised_repair",
+      "parameters": {
+        "mode": "warrior",
+        "revision": 2
+      },
+      "hypothesis": "적 F 진입이나 아군 F 사망이 가능한 보유 거점에서 필요한 W만 남기는 새 후보를 비교한다. F 이동·생산은 보존한다.",
+      "weakness": "인접 적의 최대 집중을 가정해 과도하게 묶일 수 있고, 원거리 호위나 다음 턴 재배치는 해결하지 못한다.",
+      "command": "/tmp/yk-latest-teammates-arena-20261001/bin/f3_v2_warrior_reserve",
+      "source": "snapshot/candidates/f3_v2_warrior_reserve/main.cpp",
+      "source_sha256": "20fa2eb5635cd9035c1f2c3f659943e7f98d03c4434bc84c5d5772c6a00e58cf",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-latest-teammates-arena-20261001/snapshot/candidates/f3_v2_warrior_reserve",
+            "/tmp/yk-latest-teammates-arena-20261001/snapshot/candidates/f3_v2_warrior_reserve/main.cpp",
+            "-o",
+            "/tmp/yk-latest-teammates-arena-20261001/bin/f3_v2_warrior_reserve"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "bcca77cbfb8b4a9e0618d93c0119169448e2c0a8ea40c9a2ff72a4c1252a546c"
+    },
+    "s3_selective_contact": {
+      "id": "s3_selective_contact",
+      "family": "state_conditioned_abstraction",
+      "parameters": {
+        "mode": 6,
+        "base_ms": 65,
+        "total_ms": 135
+      },
+      "hypothesis": "적 접촉·미점령 건물·종반 점령에 관련된 출발지에서만 F/W 독립 행동을 연다.",
+      "weakness": "접촉하지 않은 전략적 이동의 세밀한 개선은 제외된다. 선택 기준은 학습된 최적 기준이 아니다.",
+      "command": "/tmp/yk-latest-teammates-arena-20261001/bin/s3_selective_contact",
+      "source": "snapshot/candidates/s3_selective_contact/main.cpp",
+      "source_sha256": "db83d9aa0e8809aaffd6b36ffc47972996d832d987947187af600d3a8419d96c",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-latest-teammates-arena-20261001/snapshot/candidates/s3_selective_contact",
+            "/tmp/yk-latest-teammates-arena-20261001/snapshot/candidates/s3_selective_contact/main.cpp",
+            "-o",
+            "/tmp/yk-latest-teammates-arena-20261001/bin/s3_selective_contact"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "ea0d3fb02101ffc18e785d4376558a172e42ad096c57ff9d107709dbdb8625df"
+    },
+    "r3_opponent_league": {
+      "id": "r3_opponent_league",
+      "family": "diverse_opponent_actions",
+      "parameters": {
+        "mode": 1,
+        "deadline_ms": 135,
+        "base": "v3",
+        "opponent_scope": "internal_only"
+      },
+      "hypothesis": "F/W 혼합 및 깃발 사냥 응답을 추가한 6상대 평가로 행동 다양성을 높인다.",
+      "weakness": "깊이가 3에서 2로 줄고 고정 여섯 휴리스틱 밖으로 일반화가 보장되지 않는다.",
+      "command": "/tmp/yk-latest-teammates-arena-20261001/bin/r3_opponent_league",
+      "source": "snapshot/candidates/r3_opponent_league/main.cpp",
+      "source_sha256": "33020d61999456342ea39b3f99e53388914b0ccf98536e2b99ae5e60c31f66cf",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-latest-teammates-arena-20261001/snapshot/candidates/r3_opponent_league",
+            "/tmp/yk-latest-teammates-arena-20261001/snapshot/candidates/r3_opponent_league/main.cpp",
+            "-o",
+            "/tmp/yk-latest-teammates-arena-20261001/bin/r3_opponent_league"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "8b6c91eaaf58e287b9fafeacea93b68c250af5de9db2bd43675688673ed32b70"
+    },
+    "teammate": {
+      "id": "teammate",
+      "family": "reference",
+      "command": "/usr/bin/python3 /tmp/yk-latest-teammates-arena-20261001/snapshot/opponents/teammate/main.py",
+      "source_sha256": "571397e3c84998b27f8ce0468bc49333663c69b0b84162ad8dfc27e7a47f2365"
+    },
+    "v4": {
+      "id": "v4",
+      "family": "paired_opponent_improvement",
+      "parameters": {
+        "parent": "s3_screen_refine",
+        "revision_mode": 1,
+        "base_ms": 65,
+        "total_ms": 135,
+        "screen_deadline_ms": 100,
+        "minimum_paired_opponent_gain": 0
+      },
+      "hypothesis": "기본 행동과 같은 상대 script별 완결된 3턴 값을 비교해 어느 상대에서도 손해가 없는 확장 행동만 채택한다.",
+      "weakness": "고정 네 상대에 대한 비회귀 조건이 유익한 위험 감수도 차단한다. 실제 상대의 강함이나 전체 경기 승리를 보장하지 않는다.",
+      "command": "/tmp/yk-latest-teammates-arena-20261001/bin/s3_v2_screen_paired_guard",
+      "source": "snapshot/candidates/s3_v2_screen_paired_guard/main.cpp",
+      "source_sha256": "1703701340ede10b652b0aa024e29c3fd411e2809ae34de1e3d0b39620d496df",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-latest-teammates-arena-20261001/snapshot/candidates/s3_v2_screen_paired_guard",
+            "/tmp/yk-latest-teammates-arena-20261001/snapshot/candidates/s3_v2_screen_paired_guard/main.cpp",
+            "-o",
+            "/tmp/yk-latest-teammates-arena-20261001/bin/s3_v2_screen_paired_guard"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "binary_sha256": "313bbfd029140ca807a63cca619e12e4ecdd8d7ecf5644cea8c06e2965e88132",
+      "equivalent_original_id": "s3_v2_screen_paired_guard"
+    },
+    "siphon": {
+      "id": "siphon",
+      "family": "deadline_external",
+      "source_directory": "/tmp/yk-new-bot-20261001/submissions/team-siphon-20261001",
+      "source": "snapshot/candidates/siphon/main.cpp",
+      "source_sha256": "0b41e26b50c13a50dc7f0ce2b339c42796b68060d73e98485005c6c720512c8e",
+      "input_files_sha256": {
+        "main.cpp": "0b41e26b50c13a50dc7f0ce2b339c42796b68060d73e98485005c6c720512c8e",
+        "generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+        "protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+        "yk_bot.hpp": "fded3e21b6df1b9d7621ad1919f8a97e44f15ae275b49072a768c2ba5a19b6b7",
+        "yk_core.hpp": "01e43e952f41fdc97b50fa98b3822ca4b2f2c8a535b686a4f6f405cbced97d89",
+        "yk_score.hpp": "b693332f8ee41c351b3f3e2abc7600b2ca4fc34d9f825b31642b27f6799f1ae4",
+        "submission.json": "0daf61b1cfd7cf6e4b2da6cb121b9b40d3cab4c2a539623adbb1abdfce563373"
+      },
+      "command": "/tmp/yk-latest-teammates-arena-20261001/bin/siphon",
+      "binary_sha256": "23ad411dbb1a73eda0951d2490d41af6cf6144470bb3cb6fca428b509dee62b1",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-latest-teammates-arena-20261001/snapshot/candidates/siphon",
+            "/tmp/yk-latest-teammates-arena-20261001/snapshot/candidates/siphon/main.cpp",
+            "-o",
+            "/tmp/yk-latest-teammates-arena-20261001/bin/siphon"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "runtime_args": []
+    },
+    "v9_main": {
+      "id": "v9_main",
+      "family": "deadline_external",
+      "source_directory": "/tmp/yk-new-bot-20261001/submissions/team-v9_main-20261001",
+      "source": "snapshot/candidates/v9_main/main.cpp",
+      "source_sha256": "9e3f1938c995329a8c3898b5bec47a1ae5b62badf11ec7d48627254c567d15bb",
+      "input_files_sha256": {
+        "main.cpp": "9e3f1938c995329a8c3898b5bec47a1ae5b62badf11ec7d48627254c567d15bb",
+        "generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+        "protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+        "v9_action_report.hpp": "4ac8bd5dd7e8412c7f8ae99b77382d65933d2f2526f1ee454a70d0ecdd3756e2",
+        "v9_strategy.hpp": "ea8a660d5332da91f7b8386c602403f0ed064992c608f629ce2f38918365bdeb",
+        "v9_travel.hpp": "b2ac265e647d618a0676002d0500bcc147f99df38951e7b7ab1c6a631784ed3c",
+        "submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60"
+      },
+      "command": "/tmp/yk-latest-teammates-arena-20261001/bin/v9_main --attack-seed=20261001",
+      "binary_sha256": "bca015aece99639e36eb575f41c518fb87696d8b40dc66b1d41d022101d190a0",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-latest-teammates-arena-20261001/snapshot/candidates/v9_main",
+            "/tmp/yk-latest-teammates-arena-20261001/snapshot/candidates/v9_main/main.cpp",
+            "-o",
+            "/tmp/yk-latest-teammates-arena-20261001/bin/v9_main"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "runtime_args": [
+        "--attack-seed=20261001"
+      ]
+    },
+    "v9_lock": {
+      "id": "v9_lock",
+      "family": "deadline_external",
+      "source_directory": "/tmp/yk-new-bot-20261001/submissions/team-v9_lock-20261001",
+      "source": "snapshot/candidates/v9_lock/main.cpp",
+      "source_sha256": "6dc8475dce636e4743a738cd74137144e44d445dc9dbe739c186143ca643b1fb",
+      "input_files_sha256": {
+        "main.cpp": "6dc8475dce636e4743a738cd74137144e44d445dc9dbe739c186143ca643b1fb",
+        "generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+        "protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+        "submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60"
+      },
+      "command": "/tmp/yk-latest-teammates-arena-20261001/bin/v9_lock",
+      "binary_sha256": "0414db346c9075a0604c5b1d00cf3dc89cb7d5589976605c2f2d309e5a4adb88",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-latest-teammates-arena-20261001/snapshot/candidates/v9_lock",
+            "/tmp/yk-latest-teammates-arena-20261001/snapshot/candidates/v9_lock/main.cpp",
+            "-o",
+            "/tmp/yk-latest-teammates-arena-20261001/bin/v9_lock"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "runtime_args": []
+    },
+    "v8": {
+      "id": "v8",
+      "family": "deadline_external",
+      "source_directory": "/tmp/yk-new-bot-20261001/submissions/deadline-20260929-guard3",
+      "source": "snapshot/candidates/v8/main.cpp",
+      "source_sha256": "61a4f25113d9bf2c387a59ddc770a3143de6311e3fd2e004827a66eb78edfbc9",
+      "input_files_sha256": {
+        "main.cpp": "61a4f25113d9bf2c387a59ddc770a3143de6311e3fd2e004827a66eb78edfbc9",
+        "generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+        "protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+        "submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60"
+      },
+      "command": "/tmp/yk-latest-teammates-arena-20261001/bin/v8",
+      "binary_sha256": "3da94b00d19ad05f4f07d53df1238f195f2a70cfc7a7a2e9826c0e1fc3bc7fc1",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-latest-teammates-arena-20261001/snapshot/candidates/v8",
+            "/tmp/yk-latest-teammates-arena-20261001/snapshot/candidates/v8/main.cpp",
+            "-o",
+            "/tmp/yk-latest-teammates-arena-20261001/bin/v8"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "runtime_args": []
+    },
+    "mission4": {
+      "id": "mission4",
+      "family": "deadline_external",
+      "source_directory": "/tmp/yk-new-bot-20261001/submissions/mission-scheduler-v4-20261001",
+      "source": "snapshot/candidates/mission4/main.cpp",
+      "source_sha256": "b06263e5cffee351fa23e6279b2f6f5f1cda0a5c1106cfc3516c005aad97c9e7",
+      "input_files_sha256": {
+        "main.cpp": "b06263e5cffee351fa23e6279b2f6f5f1cda0a5c1106cfc3516c005aad97c9e7",
+        "generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+        "protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+        "submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60"
+      },
+      "command": "/tmp/yk-latest-teammates-arena-20261001/bin/mission4",
+      "binary_sha256": "642a9500a5acf7c1433ca61c34a3f2e38975c69292c9d008d4aa0999d457a5b9",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-latest-teammates-arena-20261001/snapshot/candidates/mission4",
+            "/tmp/yk-latest-teammates-arena-20261001/snapshot/candidates/mission4/main.cpp",
+            "-o",
+            "/tmp/yk-latest-teammates-arena-20261001/bin/mission4"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "runtime_args": []
+    }
+  },
+  "population_spec": {
+    "modules": [
+      "repairs",
+      "joint_allocator",
+      "adaptive_search",
+      "v3_repairs",
+      "v3_action_search",
+      "v3_robust_search"
+    ],
+    "module_sources": {
+      "v3_repairs": "submissions/iterative-v3/main.cpp",
+      "v3_action_search": "submissions/iterative-v3/main.cpp",
+      "v3_robust_search": "submissions/iterative-v3/main.cpp"
+    },
+    "module_revisions": {
+      "v3_repairs": 2,
+      "v3_action_search": 2,
+      "v3_robust_search": 2
+    },
+    "extra_baselines": [
+      {
+        "id": "v3",
+        "source": "submissions/iterative-v3/main.cpp"
+      }
+    ],
+    "include_parameters": false,
+    "deduplicate": true,
+    "revision": 2,
+    "include_ids": [
+      "v3",
+      "v2",
+      "a_v2_tactical_local",
+      "j_balanced_portfolio",
+      "j_v2_reclaim_relay",
+      "s3_selective_contact",
+      "r3_opponent_league",
+      "f3_v2_warrior_reserve",
+      "s3_v2_screen_paired_guard"
+    ],
+    "include_prefixes": []
+  },
+  "duplicate_source_aliases": {},
+  "frozen_sha256": {
+    "snapshot/candidates/a_v2_tactical_local/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/a_v2_tactical_local/main.cpp": "9d9d6ecd763b84f88c0d5e48f65524798f998e9912f774c0dd22e27f3f78219a",
+    "snapshot/candidates/a_v2_tactical_local/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/f3_v2_warrior_reserve/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/f3_v2_warrior_reserve/main.cpp": "20fa2eb5635cd9035c1f2c3f659943e7f98d03c4434bc84c5d5772c6a00e58cf",
+    "snapshot/candidates/f3_v2_warrior_reserve/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/j_balanced_portfolio/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/j_balanced_portfolio/main.cpp": "534f55f1d6641ed788ca637663456e43375297d8016ac9832c589b0a012c8422",
+    "snapshot/candidates/j_balanced_portfolio/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/j_v2_reclaim_relay/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/j_v2_reclaim_relay/main.cpp": "0882dc3284c33db9f4687c085e0c570d156a439365aa229fa6cca6f81e909045",
+    "snapshot/candidates/j_v2_reclaim_relay/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/mission4/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/mission4/main.cpp": "b06263e5cffee351fa23e6279b2f6f5f1cda0a5c1106cfc3516c005aad97c9e7",
+    "snapshot/candidates/mission4/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/mission4/submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60",
+    "snapshot/candidates/r3_opponent_league/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/r3_opponent_league/main.cpp": "33020d61999456342ea39b3f99e53388914b0ccf98536e2b99ae5e60c31f66cf",
+    "snapshot/candidates/r3_opponent_league/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/s3_selective_contact/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/s3_selective_contact/main.cpp": "db83d9aa0e8809aaffd6b36ffc47972996d832d987947187af600d3a8419d96c",
+    "snapshot/candidates/s3_selective_contact/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/s3_v2_screen_paired_guard/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/s3_v2_screen_paired_guard/main.cpp": "1703701340ede10b652b0aa024e29c3fd411e2809ae34de1e3d0b39620d496df",
+    "snapshot/candidates/s3_v2_screen_paired_guard/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/siphon/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/siphon/main.cpp": "0b41e26b50c13a50dc7f0ce2b339c42796b68060d73e98485005c6c720512c8e",
+    "snapshot/candidates/siphon/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/siphon/submission.json": "0daf61b1cfd7cf6e4b2da6cb121b9b40d3cab4c2a539623adbb1abdfce563373",
+    "snapshot/candidates/siphon/yk_bot.hpp": "fded3e21b6df1b9d7621ad1919f8a97e44f15ae275b49072a768c2ba5a19b6b7",
+    "snapshot/candidates/siphon/yk_core.hpp": "01e43e952f41fdc97b50fa98b3822ca4b2f2c8a535b686a4f6f405cbced97d89",
+    "snapshot/candidates/siphon/yk_score.hpp": "b693332f8ee41c351b3f3e2abc7600b2ca4fc34d9f825b31642b27f6799f1ae4",
+    "snapshot/candidates/v2/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/v2/main.cpp": "53bb019625fabbbd3aa8a5b65af971912bb4cbdad8a9fde3009fadad5ba6d4c5",
+    "snapshot/candidates/v2/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/v3/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/v3/main.cpp": "52268569e17d7fc40fd46f0996b2da684768902b4af27ec059c4b068911c4473",
+    "snapshot/candidates/v3/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/v8/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/v8/main.cpp": "61a4f25113d9bf2c387a59ddc770a3143de6311e3fd2e004827a66eb78edfbc9",
+    "snapshot/candidates/v8/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/v8/submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60",
+    "snapshot/candidates/v9_lock/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/v9_lock/main.cpp": "6dc8475dce636e4743a738cd74137144e44d445dc9dbe739c186143ca643b1fb",
+    "snapshot/candidates/v9_lock/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/v9_lock/submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60",
+    "snapshot/candidates/v9_main/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/v9_main/main.cpp": "9e3f1938c995329a8c3898b5bec47a1ae5b62badf11ec7d48627254c567d15bb",
+    "snapshot/candidates/v9_main/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/v9_main/submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60",
+    "snapshot/candidates/v9_main/v9_action_report.hpp": "4ac8bd5dd7e8412c7f8ae99b77382d65933d2f2526f1ee454a70d0ecdd3756e2",
+    "snapshot/candidates/v9_main/v9_strategy.hpp": "ea8a660d5332da91f7b8386c602403f0ed064992c608f629ce2f38918365bdeb",
+    "snapshot/candidates/v9_main/v9_travel.hpp": "b2ac265e647d618a0676002d0500bcc147f99df38951e7b7ab1c6a631784ed3c",
+    "snapshot/experiments/analyze_gain_cases.py": "35f3683c930665e7cdb5150d6b92a87a95d8bf7d9f140e2dc3cb540c264a13d5",
+    "snapshot/experiments/analyze_guard_cases.py": "2a42a7ac8826f849cec7444e5ea008f45223d6f7f500707dec36efcee8fbd2f5",
+    "snapshot/experiments/analyze_iterative.py": "6b04bfb8ac2d0738701283101407fc4946d01f4bc8775a9ddfa5462615f261ba",
+    "snapshot/experiments/analyze_league.py": "968a9b461608d80469716e1d63b3d8b9fabb401af7dfaf15ceb747a3f1cc1924",
+    "snapshot/experiments/analyze_official_round1.py": "398d3175ad159bcc4f6f66c52736769146a61dc7aab15c292c69465e141c8d91",
+    "snapshot/experiments/analyze_official_round2.py": "eb2633fd56f77a8bdd7d64145ae3f6da34f798dcb7fbfbf702f111a4c1805a53",
+    "snapshot/experiments/analyze_revision_effects.py": "cea2ee894b3f4a62a5f2f9b20c0d70e4b3bad8be15b8309de3e24225ee30d6a7",
+    "snapshot/experiments/analyze_team_strategy_comparison.py": "090ee60c9a0c72f916bc0b6b9ab428991f19b25e9e327fedbea0e8c7c7c52418",
+    "snapshot/experiments/analyze_v3_campaign.py": "e3130973fc568b9b4f69f423d35ad4d36249b50c652dccb44d1a9e8601371e30",
+    "snapshot/experiments/analyze_v3_confirmation.py": "b5c2579016ba235579fb05966b110eb008aa7fab55ea42ed319df0f9bc48034e",
+    "snapshot/experiments/analyze_v3_diversity.py": "bc021d9bc0bc1089110d1174df647f945128a97a1639255914242e4698bc3b88",
+    "snapshot/experiments/analyze_v3_revisions.py": "7bc9f9570d026d813535a97f8fd1d08bd55360ad2561416c56e46ecb56aca903",
+    "snapshot/experiments/audit_deadline_actions.py": "dd71de1e97f87755fc2b62025a747bdbf92b9307164d75dd6d7460e315b5ecd9",
+    "snapshot/experiments/audit_f3_opening.py": "1eedb1e151180d03c3540735d0cd7de174a1ce03bb1d672059f24eb26c731266",
+    "snapshot/experiments/audit_intact_base_development.py": "33f3645efb60f7b24d209e981d12ca2379347b42cf6829f7fe0eeac69e927896",
+    "snapshot/experiments/audit_s3_confirmation_contact.py": "688a111049d77b119f7e864e0957d6298e4e71df02fa96842317dbf6871f91be",
+    "snapshot/experiments/audit_s3_failures.py": "4932ed6c3c88dcd649972c6bc644e3240b6f6f9f954c54e87ba467576d047bd1",
+    "snapshot/experiments/audit_v3_continuation.py": "83b5897d683a860040e21716bd593cd35716932bb1b4c2be29463bca09c443c8",
+    "snapshot/experiments/audit_v3_decision.py": "252bfb0d02591fe378356d13c41a477ab470119ff88501ea8e9cac137155db26",
+    "snapshot/experiments/audit_warrior_reserve_development.py": "04fc66c416db85b450dca3f2d2c2b44bd0bf9485df6150da6eb02b30d1bd1e92",
+    "snapshot/experiments/audit_warrior_reserve_reclaim.py": "eca259bed2122f1df771d2d0be13584b3d6d548f580347dd30ed288b2da77f8f",
+    "snapshot/experiments/build_opponent_census.py": "1ef9a664a8045af70cc90ef137dfc020897da2be4c18f525080a91950c5b219a",
+    "snapshot/experiments/compare_cpu_executors.py": "097c4e7eaa46c99c9652160608e2d0de8e5b639683f943957ef45530af38bbf0",
+    "snapshot/experiments/cpu_sweep.py": "bf0f0293499473b0295e2dac640e24362c332edc1edc8c01f5e09ef39f12172b",
+    "snapshot/experiments/cross_family_audit.py": "32cffec00e79132ab6c7c92ad20e600e71d5ae019f14b3f206a8557a48165f2c",
+    "snapshot/experiments/deadline_20260929.py": "93c24a353644fd8d231ca42294064c0d30a3a6fc092bee8518a782abec131c54",
+    "snapshot/experiments/iterative_campaign.py": "7cd9e27e1d72a0a0727937a2b0e63209eae3dbd4ee39e19c09205cc955916b2d",
+    "snapshot/experiments/league_campaign.py": "90539ddfabdf38e4410a2255448fdffa89f12704aaa6694a73307d3c25ea84ff",
+    "snapshot/experiments/local_league/adaptive_search.py": "d661367d4b526426e4800512e64295eeaf08b14788c34f66032e43b3da70eb50",
+    "snapshot/experiments/local_league/causal_repairs.py": "5d9bba808889350cc4e90043cc7f20af4a3e7a92430cf58839e76bf74c51526a",
+    "snapshot/experiments/local_league/challengers.py": "839d24c3bec34d3d2b874763b597b618f89f59bcad783ca7d1cf2197651adad7",
+    "snapshot/experiments/local_league/joint_allocator.py": "b21789afb6abbdd26f1c4fc0901e2002b35d0772f3022e047da78e025b901958",
+    "snapshot/experiments/local_league/repairs.py": "44158dba1130a0da8201dba3ea00c427a50884a28b929a2b9634506e9f2a690e",
+    "snapshot/experiments/local_league/search_families.py": "1964196de4793e36d9f0fed263a6490dfb6ba2955a6302dd99157b7370fc7634",
+    "snapshot/experiments/local_league/v3_action_search.py": "000737f2e47c229184c39a325e194eeb1f0e24b472fd3703e6712d6b4e96e9fc",
+    "snapshot/experiments/local_league/v3_repairs.py": "3f97ea6d0319c1bc4081f74011dbdee2ba84eaa15fb9e4d6ffa1713282711a92",
+    "snapshot/experiments/local_league/v3_robust_search.py": "d4a54fa4a304a363383e7e2021b7f03151d6236be91ed300ee4c565c90415fbc",
+    "snapshot/experiments/local_league.py": "0446721386cdbbfa9806527051d924efa6d96890aee9ad52bb3b154261226274",
+    "snapshot/experiments/package_deadline_candidate.py": "ae80af2aba8664cf66708ef03e390a946ea2ac2f9f2ccbe324a1679e38a92a9f",
+    "snapshot/experiments/package_deadline_gcc12.py": "083bf55830b1719961cccc33632832d30758d89a0c81913e627f2df287d97455",
+    "snapshot/experiments/package_frozen_candidate.py": "5bd9526ad4d26bdc71348a1b5084f0745fbf5c1961b28264e8229457f472b196",
+    "snapshot/experiments/package_gcc12_candidate.py": "6d4f2063f2c86b571e6544b733b23469a6a0bae18a06b8abd978d99ddea2fe23",
+    "snapshot/experiments/package_mission_candidate.py": "6147af0a4597f69fa9231934a93c52f2b70d3b65b9db46b3b9a7c8fabb5b5c50",
+    "snapshot/experiments/profile_bot_stages.py": "8d3ad547e7cada268d7baf15428c28d0d768af7926dc45e0fbd905b4faf2d8da",
+    "snapshot/experiments/profile_throughput.py": "a018e8281002197834f8e809fc20e1a55ec8904bb6baf145600d1802ce67c212",
+    "snapshot/experiments/run_remote_tmp.py": "9613c4ea2a2f91341a2c5ac71396221f319c42ba2658d55619e80fc8fef655ee",
+    "snapshot/experiments/tune_presubmit.py": "50ba7ccfe4c6d75c7f32b1af9368aa13e963485811ed30cff0ebd61839bef8a0",
+    "snapshot/experiments/tune_presubmit_round2.py": "dd3e3563178c7e4dd09407d6ef798e13fec3c10742112f08d686e536aaea3234",
+    "snapshot/experiments/tune_presubmit_round3.py": "2161acd245824f0386b59460817ed16958cb772dba1c1d64c7796ace9a8ca992",
+    "snapshot/experiments/v3_audit.py": "8ecd4cb2ded70d01fdad98e5c5ab3f692712a9ad6f10da0611c9dd02cfe8c318",
+    "snapshot/experiments/v3_campaign.py": "626cacddde5e1c55c61dac7cc816e630d139538688032edba60cc0439f156aa7",
+    "snapshot/experiments/v3_confirmation.py": "e069e532064446290c78b628cc829303bdfa64eb620277daae9059a5d99899ac",
+    "snapshot/experiments/verify_gcc12_tmp.py": "40435a5a3468654db048534f6c9b261d14fee9e1173871ab1152f9799bcaac58",
+    "snapshot/experiments/verify_iterative_artifacts.py": "eb1e5f331a04807b4fe9a5eecd9102984b0c9a369013146e5c279e3eab4efcd5",
+    "snapshot/opponents/teammate/_generated.py": "8cf113fe574425e1f761911e59fe43394aad147946b07ed4a837e1da6b25fcfc",
+    "snapshot/opponents/teammate/campus_bot.py": "2568119d19d9def58dd824b06eac332f018f23c0dee24ba1ccddf3169a151e7b",
+    "snapshot/opponents/teammate/main.py": "a114cc5a286ea21cc09ba11a018c65bf38e068c7f79d7a8b5420a05ff936b666",
+    "snapshot/opponents/teammate/protocol.py": "67a5d27ced038de39d7cd3b069bf01786bf4cc9e6c1d39269d1f7e67b185c194",
+    "snapshot/opponents/teammate/submission.json": "ff5431b97ab8dc3d045d053fe1e3148eca20bfe900ec66cd9e7f7f5e542f3de5",
+    "snapshot/submissions/delineate-v1.zip": "571397e3c84998b27f8ce0468bc49333663c69b0b84162ad8dfc27e7a47f2365",
+    "snapshot/submissions/first/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/submissions/first/main.cpp": "13a240536ea85885a1f61c8007665d132cc5c31a9c23ae00dec9872bf01fbcb5",
+    "snapshot/submissions/first/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/submissions/first/submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60",
+    "snapshot/submissions/iterative-v3/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/submissions/iterative-v3/main.cpp": "52268569e17d7fc40fd46f0996b2da684768902b4af27ec059c4b068911c4473",
+    "snapshot/submissions/iterative-v3/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/submissions/iterative-v3/submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60",
+    "snapshot/submissions/tuned/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/submissions/tuned/main.cpp": "53bb019625fabbbd3aa8a5b65af971912bb4cbdad8a9fde3009fadad5ba6d4c5",
+    "snapshot/submissions/tuned/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/submissions/tuned/submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60",
+    "snapshot/yk-development-tools/bots/dist/starter/python/_generated.py": "8cf113fe574425e1f761911e59fe43394aad147946b07ed4a837e1da6b25fcfc",
+    "snapshot/yk-development-tools/bots/dist/starter/python/campus_bot.py": "2568119d19d9def58dd824b06eac332f018f23c0dee24ba1ccddf3169a151e7b",
+    "snapshot/yk-development-tools/bots/dist/starter/python/example_lv1.py": "15183b1c05b8daa12212cb2d64fe54dbc81deba69a7e9999b3fac4b3d5ccbc1d",
+    "snapshot/yk-development-tools/bots/dist/starter/python/example_lv2.py": "91c174b0259ea2759d3ff390bb80ff0d6494fbea59003cb5b0a607bf1370bd4f",
+    "snapshot/yk-development-tools/bots/dist/starter/python/main.py": "fc0b4fc2eccb0e497c8435d85412332e3628053a905f51687d654b8e2d35b068",
+    "snapshot/yk-development-tools/bots/dist/starter/python/mybot_template.py": "6d6ee8564548c9bf81562d60c270b69968813045c900c94ce95b5c261456d43b",
+    "snapshot/yk-development-tools/bots/dist/starter/python/protocol.py": "67a5d27ced038de39d7cd3b069bf01786bf4cc9e6c1d39269d1f7e67b185c194",
+    "snapshot/yk-development-tools/bots/dist/starter/python/search.py": "34cc73421e056d857549d28523ada709c6531152e4a0e08b8f8eddbad5073e45",
+    "snapshot/yk-development-tools/bots/dist/starter/python/submission.json": "ff5431b97ab8dc3d045d053fe1e3148eca20bfe900ec66cd9e7f7f5e542f3de5",
+    "snapshot/yk-development-tools/config/balance.json": "a46886d91862244b6daf4990dcdf2371302433e7120c21dc2a29ecf95696b35f",
+    "snapshot/yk-development-tools/engine/__init__.py": "5b9c498fcef25d4900bfe993415964ef9b803c37309acda004e6b553130ace86",
+    "snapshot/yk-development-tools/engine/commands.py": "db00820b9f77cc1b6e71eaa37bb4eb0b4c31cccda7f4b388269a13db04a76798",
+    "snapshot/yk-development-tools/engine/config.py": "964f20b9f914bbc0bc81c84d7fbee3b2ecbed4b54814ab51cbd20d54ef6f20b9",
+    "snapshot/yk-development-tools/engine/pipeline.py": "f0bd96c484c8628b6a070b188adcc1a077e9f90017cc15f11ce366d974490fa6",
+    "snapshot/yk-development-tools/engine/state.py": "dd227e26bcb36a5c412bbf7db19f4418a59627e8ea7e55a90dac5184dcc0737f",
+    "snapshot/yk-development-tools/mapgen/__init__.py": "4e3cf8f63c58f32835898da672ecaacf87b1ee105da4628fb917b2f6070fc5f0",
+    "snapshot/yk-development-tools/mapgen/generator.py": "645b53e2b2ce0049608873b1d01a983661dbdbfe63e358fbb152cbeeea13947e",
+    "snapshot/yk-development-tools/mapgen/render.py": "5486e5f68e8de843fd36ded98716a05a0b399301b6d82651db3aacba6bc16029",
+    "snapshot/yk-development-tools/mapgen/rng.py": "4b56383dd28a138c2ae0bd387a893b4129e108dddf369dd54d3927848f85cc4d",
+    "snapshot/yk-development-tools/runner/__init__.py": "7f675ede62ac8590c279dd4f2f64f8aa526f8d41e60dcfd7dba930612db4fbe2",
+    "snapshot/yk-development-tools/runner/__main__.py": "307299fda7b77d22c64cb51430ec75e5f59d78e9c948786afb3b2544fe45e4b7",
+    "snapshot/yk-development-tools/runner/bots.py": "c09312d62eaa1a2a5af5576b24922a9fd209365e0f3e655894934585858aba43",
+    "snapshot/yk-development-tools/runner/cli.py": "90b102ca9513f710deed37c68adbca6026f43b641a5c00758d2868ecd1a90b81",
+    "snapshot/yk-development-tools/runner/match.py": "122d3fc0c31ade0b808795d15842949da8c32a26c79c779841e7364aa2f51578",
+    "snapshot/yk-development-tools/runner/protocol.py": "5917df4bec20b963586b1ffeb7a45b9959f51e3437a227ee7e8d932b172a7d65",
+    "snapshot/yk-development-tools/runner/replay.py": "fc2bf7405c405ac30da4d7c122b24e3c3275544bfbd1ec22779bbb217df6e8a6",
+    "snapshot/yk-development-tools/runner/validation.py": "7c00c3eca69a8f115e51b3c47a570c1015795b41d16e9987b5679f84f4184345",
+    "bin/a_v2_tactical_local": "e4d4dc694dcee63421ea9d0f264d6039205ff19eabacc09ad0cfd94e013fd8f1",
+    "bin/f3_v2_warrior_reserve": "bcca77cbfb8b4a9e0618d93c0119169448e2c0a8ea40c9a2ff72a4c1252a546c",
+    "bin/j_balanced_portfolio": "f488feb31575cb06bb7063c021ef80797444038d4db78cff99da6fce2d1e3377",
+    "bin/j_v2_reclaim_relay": "10de52a3d813f0fa78ccf1a0b68456e6e94c6bf1a6fa6e48fc4bad8e4412fcc4",
+    "bin/mission4": "642a9500a5acf7c1433ca61c34a3f2e38975c69292c9d008d4aa0999d457a5b9",
+    "bin/r3_opponent_league": "8b6c91eaaf58e287b9fafeacea93b68c250af5de9db2bd43675688673ed32b70",
+    "bin/s3_selective_contact": "ea0d3fb02101ffc18e785d4376558a172e42ad096c57ff9d107709dbdb8625df",
+    "bin/s3_v2_screen_paired_guard": "313bbfd029140ca807a63cca619e12e4ecdd8d7ecf5644cea8c06e2965e88132",
+    "bin/siphon": "23ad411dbb1a73eda0951d2490d41af6cf6144470bb3cb6fca428b509dee62b1",
+    "bin/v2": "0e3f9b2691428173012294354bc0cbee316f8f8af19779f1e5c2a0511c4d0615",
+    "bin/v3": "264c2a6c0d20d11dc38026466e476febde3447ba6fabdd6412853fca716d633a",
+    "bin/v8": "3da94b00d19ad05f4f07d53df1238f195f2a70cfc7a7a2e9826c0e1fc3bc7fc1",
+    "bin/v9_lock": "0414db346c9075a0604c5b1d00cf3dc89cb7d5589976605c2f2d309e5a4adb88",
+    "bin/v9_main": "bca015aece99639e36eb575f41c518fb87696d8b40dc66b1d41d022101d190a0"
+  },
+  "finished_utc": "2026-10-01T03:49:39.137855+00:00"
+}

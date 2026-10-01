@@ -1,0 +1,793 @@
+{
+  "reviewed_at_utc": "2026-10-01T03:53:30.412702+00:00",
+  "verdict": "CONFIGURATION_AND_PROVENANCE_PASS",
+  "source_or_arena_mutations": false,
+  "source_commit": "2e26f82a6aae77536dfad59a089ff4d17fa57b9f",
+  "master_plan_sha256": "104e2770ef2ca12b6c604b08274c879ec0eb758ba857af82064a10cbaa5619b6",
+  "source_manifest_sha256": "f4bbda27ad5f8dbc16c9199cddf873944cff9de51f164d988c875f8295648784",
+  "arena_manifest_sha256": "71b335a5831c4eebd1f553924765e80d29475f035df7acc067db0e9ac6a6d03b",
+  "frozen_files_verified": 166,
+  "frozen_mismatches": [],
+  "sdk_files_verified": 27,
+  "sdk": [
+    {
+      "path": "snapshot/yk-development-tools/bots/dist/starter/python/_generated.py",
+      "sha256": "8cf113fe574425e1f761911e59fe43394aad147946b07ed4a837e1da6b25fcfc",
+      "matches_preparation_input": true
+    },
+    {
+      "path": "snapshot/yk-development-tools/bots/dist/starter/python/campus_bot.py",
+      "sha256": "2568119d19d9def58dd824b06eac332f018f23c0dee24ba1ccddf3169a151e7b",
+      "matches_preparation_input": true
+    },
+    {
+      "path": "snapshot/yk-development-tools/bots/dist/starter/python/example_lv1.py",
+      "sha256": "15183b1c05b8daa12212cb2d64fe54dbc81deba69a7e9999b3fac4b3d5ccbc1d",
+      "matches_preparation_input": true
+    },
+    {
+      "path": "snapshot/yk-development-tools/bots/dist/starter/python/example_lv2.py",
+      "sha256": "91c174b0259ea2759d3ff390bb80ff0d6494fbea59003cb5b0a607bf1370bd4f",
+      "matches_preparation_input": true
+    },
+    {
+      "path": "snapshot/yk-development-tools/bots/dist/starter/python/main.py",
+      "sha256": "fc0b4fc2eccb0e497c8435d85412332e3628053a905f51687d654b8e2d35b068",
+      "matches_preparation_input": true
+    },
+    {
+      "path": "snapshot/yk-development-tools/bots/dist/starter/python/mybot_template.py",
+      "sha256": "6d6ee8564548c9bf81562d60c270b69968813045c900c94ce95b5c261456d43b",
+      "matches_preparation_input": true
+    },
+    {
+      "path": "snapshot/yk-development-tools/bots/dist/starter/python/protocol.py",
+      "sha256": "67a5d27ced038de39d7cd3b069bf01786bf4cc9e6c1d39269d1f7e67b185c194",
+      "matches_preparation_input": true
+    },
+    {
+      "path": "snapshot/yk-development-tools/bots/dist/starter/python/search.py",
+      "sha256": "34cc73421e056d857549d28523ada709c6531152e4a0e08b8f8eddbad5073e45",
+      "matches_preparation_input": true
+    },
+    {
+      "path": "snapshot/yk-development-tools/bots/dist/starter/python/submission.json",
+      "sha256": "ff5431b97ab8dc3d045d053fe1e3148eca20bfe900ec66cd9e7f7f5e542f3de5",
+      "matches_preparation_input": true
+    },
+    {
+      "path": "snapshot/yk-development-tools/config/balance.json",
+      "sha256": "a46886d91862244b6daf4990dcdf2371302433e7120c21dc2a29ecf95696b35f",
+      "matches_preparation_input": true
+    },
+    {
+      "path": "snapshot/yk-development-tools/engine/__init__.py",
+      "sha256": "5b9c498fcef25d4900bfe993415964ef9b803c37309acda004e6b553130ace86",
+      "matches_preparation_input": true
+    },
+    {
+      "path": "snapshot/yk-development-tools/engine/commands.py",
+      "sha256": "db00820b9f77cc1b6e71eaa37bb4eb0b4c31cccda7f4b388269a13db04a76798",
+      "matches_preparation_input": true
+    },
+    {
+      "path": "snapshot/yk-development-tools/engine/config.py",
+      "sha256": "964f20b9f914bbc0bc81c84d7fbee3b2ecbed4b54814ab51cbd20d54ef6f20b9",
+      "matches_preparation_input": true
+    },
+    {
+      "path": "snapshot/yk-development-tools/engine/pipeline.py",
+      "sha256": "f0bd96c484c8628b6a070b188adcc1a077e9f90017cc15f11ce366d974490fa6",
+      "matches_preparation_input": true
+    },
+    {
+      "path": "snapshot/yk-development-tools/engine/state.py",
+      "sha256": "dd227e26bcb36a5c412bbf7db19f4418a59627e8ea7e55a90dac5184dcc0737f",
+      "matches_preparation_input": true
+    },
+    {
+      "path": "snapshot/yk-development-tools/mapgen/__init__.py",
+      "sha256": "4e3cf8f63c58f32835898da672ecaacf87b1ee105da4628fb917b2f6070fc5f0",
+      "matches_preparation_input": true
+    },
+    {
+      "path": "snapshot/yk-development-tools/mapgen/generator.py",
+      "sha256": "645b53e2b2ce0049608873b1d01a983661dbdbfe63e358fbb152cbeeea13947e",
+      "matches_preparation_input": true
+    },
+    {
+      "path": "snapshot/yk-development-tools/mapgen/render.py",
+      "sha256": "5486e5f68e8de843fd36ded98716a05a0b399301b6d82651db3aacba6bc16029",
+      "matches_preparation_input": true
+    },
+    {
+      "path": "snapshot/yk-development-tools/mapgen/rng.py",
+      "sha256": "4b56383dd28a138c2ae0bd387a893b4129e108dddf369dd54d3927848f85cc4d",
+      "matches_preparation_input": true
+    },
+    {
+      "path": "snapshot/yk-development-tools/runner/__init__.py",
+      "sha256": "7f675ede62ac8590c279dd4f2f64f8aa526f8d41e60dcfd7dba930612db4fbe2",
+      "matches_preparation_input": true
+    },
+    {
+      "path": "snapshot/yk-development-tools/runner/__main__.py",
+      "sha256": "307299fda7b77d22c64cb51430ec75e5f59d78e9c948786afb3b2544fe45e4b7",
+      "matches_preparation_input": true
+    },
+    {
+      "path": "snapshot/yk-development-tools/runner/bots.py",
+      "sha256": "c09312d62eaa1a2a5af5576b24922a9fd209365e0f3e655894934585858aba43",
+      "matches_preparation_input": true
+    },
+    {
+      "path": "snapshot/yk-development-tools/runner/cli.py",
+      "sha256": "90b102ca9513f710deed37c68adbca6026f43b641a5c00758d2868ecd1a90b81",
+      "matches_preparation_input": true
+    },
+    {
+      "path": "snapshot/yk-development-tools/runner/match.py",
+      "sha256": "122d3fc0c31ade0b808795d15842949da8c32a26c79c779841e7364aa2f51578",
+      "matches_preparation_input": true
+    },
+    {
+      "path": "snapshot/yk-development-tools/runner/protocol.py",
+      "sha256": "5917df4bec20b963586b1ffeb7a45b9959f51e3437a227ee7e8d932b172a7d65",
+      "matches_preparation_input": true
+    },
+    {
+      "path": "snapshot/yk-development-tools/runner/replay.py",
+      "sha256": "fc2bf7405c405ac30da4d7c122b24e3c3275544bfbd1ec22779bbb217df6e8a6",
+      "matches_preparation_input": true
+    },
+    {
+      "path": "snapshot/yk-development-tools/runner/validation.py",
+      "sha256": "7c00c3eca69a8f115e51b3c47a570c1015795b41d16e9987b5679f84f4184345",
+      "matches_preparation_input": true
+    }
+  ],
+  "bots": {
+    "siphon": {
+      "args_match": true,
+      "binary_hash_match": true,
+      "source_hash_match": true,
+      "source_files": {
+        "main.cpp": {
+          "sha256": "0b41e26b50c13a50dc7f0ce2b339c42796b68060d73e98485005c6c720512c8e",
+          "original_and_snapshot_match": true,
+          "branch_manifest_match": true
+        },
+        "generated.hpp": {
+          "sha256": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+          "original_and_snapshot_match": true,
+          "branch_manifest_match": true
+        },
+        "protocol.hpp": {
+          "sha256": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+          "original_and_snapshot_match": true,
+          "branch_manifest_match": true
+        },
+        "yk_bot.hpp": {
+          "sha256": "fded3e21b6df1b9d7621ad1919f8a97e44f15ae275b49072a768c2ba5a19b6b7",
+          "original_and_snapshot_match": true,
+          "branch_manifest_match": true
+        },
+        "yk_core.hpp": {
+          "sha256": "01e43e952f41fdc97b50fa98b3822ca4b2f2c8a535b686a4f6f405cbced97d89",
+          "original_and_snapshot_match": true,
+          "branch_manifest_match": true
+        },
+        "yk_score.hpp": {
+          "sha256": "b693332f8ee41c351b3f3e2abc7600b2ca4fc34d9f825b31642b27f6799f1ae4",
+          "original_and_snapshot_match": true,
+          "branch_manifest_match": true
+        },
+        "submission.json": {
+          "sha256": "0daf61b1cfd7cf6e4b2da6cb121b9b40d3cab4c2a539623adbb1abdfce563373",
+          "original_and_snapshot_match": true,
+          "branch_manifest_match": true
+        }
+      },
+      "build_success": true,
+      "command": "/tmp/yk-latest-teammates-arena-20261001/bin/siphon",
+      "source_sha256": "0b41e26b50c13a50dc7f0ce2b339c42796b68060d73e98485005c6c720512c8e",
+      "binary_sha256": "23ad411dbb1a73eda0951d2490d41af6cf6144470bb3cb6fca428b509dee62b1",
+      "source_provenance": {
+        "ref": "origin/siphon-submission",
+        "commit": "0f06e15861ec8eb9f0afaf7bc1296ced657ee0e7",
+        "original_path": "submissions/siphon",
+        "snapshot_path": "submissions/team-siphon-20261001",
+        "files": {
+          "generated.hpp": {
+            "bytes": 1043,
+            "sha256": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa"
+          },
+          "main.cpp": {
+            "bytes": 26506,
+            "sha256": "0b41e26b50c13a50dc7f0ce2b339c42796b68060d73e98485005c6c720512c8e"
+          },
+          "protocol.hpp": {
+            "bytes": 5010,
+            "sha256": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8"
+          },
+          "submission.json": {
+            "bytes": 40,
+            "sha256": "0daf61b1cfd7cf6e4b2da6cb121b9b40d3cab4c2a539623adbb1abdfce563373"
+          },
+          "yk_bot.hpp": {
+            "bytes": 3134,
+            "sha256": "fded3e21b6df1b9d7621ad1919f8a97e44f15ae275b49072a768c2ba5a19b6b7"
+          },
+          "yk_core.hpp": {
+            "bytes": 21047,
+            "sha256": "01e43e952f41fdc97b50fa98b3822ca4b2f2c8a535b686a4f6f405cbced97d89"
+          },
+          "yk_score.hpp": {
+            "bytes": 10396,
+            "sha256": "b693332f8ee41c351b3f3e2abc7600b2ca4fc34d9f825b31642b27f6799f1ae4"
+          }
+        },
+        "zip": {
+          "path": "artifacts/team-siphon-20261001.zip",
+          "original_path": "artifacts/submission-siphon.zip",
+          "bytes": 21755,
+          "sha256": "00e55968051d8d0d508ce0ec895173da9a87502bd1104d4e6f82e67ed0ab11fa"
+        }
+      }
+    },
+    "v9_main": {
+      "args_match": true,
+      "binary_hash_match": true,
+      "source_hash_match": true,
+      "source_files": {
+        "main.cpp": {
+          "sha256": "9e3f1938c995329a8c3898b5bec47a1ae5b62badf11ec7d48627254c567d15bb",
+          "original_and_snapshot_match": true,
+          "branch_manifest_match": true
+        },
+        "generated.hpp": {
+          "sha256": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+          "original_and_snapshot_match": true,
+          "branch_manifest_match": true
+        },
+        "protocol.hpp": {
+          "sha256": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+          "original_and_snapshot_match": true,
+          "branch_manifest_match": true
+        },
+        "v9_action_report.hpp": {
+          "sha256": "4ac8bd5dd7e8412c7f8ae99b77382d65933d2f2526f1ee454a70d0ecdd3756e2",
+          "original_and_snapshot_match": true,
+          "branch_manifest_match": true
+        },
+        "v9_strategy.hpp": {
+          "sha256": "ea8a660d5332da91f7b8386c602403f0ed064992c608f629ce2f38918365bdeb",
+          "original_and_snapshot_match": true,
+          "branch_manifest_match": true
+        },
+        "v9_travel.hpp": {
+          "sha256": "b2ac265e647d618a0676002d0500bcc147f99df38951e7b7ab1c6a631784ed3c",
+          "original_and_snapshot_match": true,
+          "branch_manifest_match": true
+        },
+        "submission.json": {
+          "sha256": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60",
+          "original_and_snapshot_match": true,
+          "branch_manifest_match": true
+        }
+      },
+      "build_success": true,
+      "command": "/tmp/yk-latest-teammates-arena-20261001/bin/v9_main --attack-seed=20261001",
+      "source_sha256": "9e3f1938c995329a8c3898b5bec47a1ae5b62badf11ec7d48627254c567d15bb",
+      "binary_sha256": "bca015aece99639e36eb575f41c518fb87696d8b40dc66b1d41d022101d190a0",
+      "source_provenance": {
+        "ref": "origin/main",
+        "commit": "a21e4809e6c1801e2d2a77f28b5975597fc8959f",
+        "original_path": "submissions/v9_2",
+        "snapshot_path": "submissions/team-v9_main-20261001",
+        "files": {
+          "generated.hpp": {
+            "bytes": 1043,
+            "sha256": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa"
+          },
+          "main.cpp": {
+            "bytes": 48732,
+            "sha256": "9e3f1938c995329a8c3898b5bec47a1ae5b62badf11ec7d48627254c567d15bb"
+          },
+          "protocol.hpp": {
+            "bytes": 5010,
+            "sha256": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8"
+          },
+          "submission.json": {
+            "bytes": 46,
+            "sha256": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60"
+          },
+          "v9_action_report.hpp": {
+            "bytes": 6791,
+            "sha256": "4ac8bd5dd7e8412c7f8ae99b77382d65933d2f2526f1ee454a70d0ecdd3756e2"
+          },
+          "v9_strategy.hpp": {
+            "bytes": 20452,
+            "sha256": "ea8a660d5332da91f7b8386c602403f0ed064992c608f629ce2f38918365bdeb"
+          },
+          "v9_travel.hpp": {
+            "bytes": 1916,
+            "sha256": "b2ac265e647d618a0676002d0500bcc147f99df38951e7b7ab1c6a631784ed3c"
+          }
+        }
+      }
+    },
+    "v9_lock": {
+      "args_match": true,
+      "binary_hash_match": true,
+      "source_hash_match": true,
+      "source_files": {
+        "main.cpp": {
+          "sha256": "6dc8475dce636e4743a738cd74137144e44d445dc9dbe739c186143ca643b1fb",
+          "original_and_snapshot_match": true,
+          "branch_manifest_match": true
+        },
+        "generated.hpp": {
+          "sha256": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+          "original_and_snapshot_match": true,
+          "branch_manifest_match": true
+        },
+        "protocol.hpp": {
+          "sha256": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+          "original_and_snapshot_match": true,
+          "branch_manifest_match": true
+        },
+        "submission.json": {
+          "sha256": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60",
+          "original_and_snapshot_match": true,
+          "branch_manifest_match": true
+        }
+      },
+      "build_success": true,
+      "command": "/tmp/yk-latest-teammates-arena-20261001/bin/v9_lock",
+      "source_sha256": "6dc8475dce636e4743a738cd74137144e44d445dc9dbe739c186143ca643b1fb",
+      "binary_sha256": "0414db346c9075a0604c5b1d00cf3dc89cb7d5589976605c2f2d309e5a4adb88",
+      "source_provenance": {
+        "ref": "origin/v9-submissions",
+        "commit": "0e352edc4a7c93d04a6a431922b9e3f637c2ee25",
+        "original_path": "submissions/v9-lock",
+        "snapshot_path": "submissions/team-v9_lock-20261001",
+        "files": {
+          "generated.hpp": {
+            "bytes": 1043,
+            "sha256": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa"
+          },
+          "main.cpp": {
+            "bytes": 90341,
+            "sha256": "6dc8475dce636e4743a738cd74137144e44d445dc9dbe739c186143ca643b1fb"
+          },
+          "protocol.hpp": {
+            "bytes": 5010,
+            "sha256": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8"
+          },
+          "submission.json": {
+            "bytes": 46,
+            "sha256": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60"
+          }
+        },
+        "zip": {
+          "path": "artifacts/team-v9_lock-20261001.zip",
+          "original_path": "artifacts/submission-v9-lock.zip",
+          "bytes": 26976,
+          "sha256": "c7ad306c6f5b5af5dca92f1485e1bbb61347b41e7840eec852e9de6345dfc4fe"
+        }
+      }
+    },
+    "v8": {
+      "args_match": true,
+      "binary_hash_match": true,
+      "source_hash_match": true,
+      "source_files": {
+        "main.cpp": {
+          "sha256": "61a4f25113d9bf2c387a59ddc770a3143de6311e3fd2e004827a66eb78edfbc9",
+          "original_and_snapshot_match": true,
+          "branch_manifest_match": false
+        },
+        "generated.hpp": {
+          "sha256": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+          "original_and_snapshot_match": true,
+          "branch_manifest_match": false
+        },
+        "protocol.hpp": {
+          "sha256": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+          "original_and_snapshot_match": true,
+          "branch_manifest_match": false
+        },
+        "submission.json": {
+          "sha256": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60",
+          "original_and_snapshot_match": true,
+          "branch_manifest_match": false
+        }
+      },
+      "build_success": true,
+      "command": "/tmp/yk-latest-teammates-arena-20261001/bin/v8",
+      "source_sha256": "61a4f25113d9bf2c387a59ddc770a3143de6311e3fd2e004827a66eb78edfbc9",
+      "binary_sha256": "3da94b00d19ad05f4f07d53df1238f195f2a70cfc7a7a2e9826c0e1fc3bc7fc1",
+      "source_provenance": {
+        "path": "submissions/deadline-20260929-guard3"
+      }
+    },
+    "mission4": {
+      "args_match": true,
+      "binary_hash_match": true,
+      "source_hash_match": true,
+      "source_files": {
+        "main.cpp": {
+          "sha256": "b06263e5cffee351fa23e6279b2f6f5f1cda0a5c1106cfc3516c005aad97c9e7",
+          "original_and_snapshot_match": true,
+          "branch_manifest_match": false
+        },
+        "generated.hpp": {
+          "sha256": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+          "original_and_snapshot_match": true,
+          "branch_manifest_match": false
+        },
+        "protocol.hpp": {
+          "sha256": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+          "original_and_snapshot_match": true,
+          "branch_manifest_match": false
+        },
+        "submission.json": {
+          "sha256": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60",
+          "original_and_snapshot_match": true,
+          "branch_manifest_match": false
+        }
+      },
+      "build_success": true,
+      "command": "/tmp/yk-latest-teammates-arena-20261001/bin/mission4",
+      "source_sha256": "b06263e5cffee351fa23e6279b2f6f5f1cda0a5c1106cfc3516c005aad97c9e7",
+      "binary_sha256": "642a9500a5acf7c1433ca61c34a3f2e38975c69292c9d008d4aa0999d457a5b9",
+      "source_provenance": {
+        "path": "submissions/mission-scheduler-v4-20261001"
+      }
+    }
+  },
+  "zip_provenance": {
+    "siphon": {
+      "path": "artifacts/team-siphon-20261001.zip",
+      "sha256": "00e55968051d8d0d508ce0ec895173da9a87502bd1104d4e6f82e67ed0ab11fa",
+      "matches_source_manifest": true
+    },
+    "v9_lock": {
+      "path": "artifacts/team-v9_lock-20261001.zip",
+      "sha256": "c7ad306c6f5b5af5dca92f1485e1bbb61347b41e7840eec852e9de6345dfc4fe",
+      "matches_source_manifest": true
+    }
+  },
+  "runs": {
+    "pilot-siphon": {
+      "status": "complete",
+      "observed_at_utc": "2026-10-01T03:53:30.087962+00:00",
+      "planned_games": 32,
+      "completed_records": 32,
+      "result_snapshot_sha256": "b81d30346908795e134235f5d508bc4e87ea194bd0814303967859fd9c463c84",
+      "partial_trailing_bytes_ignored": 0,
+      "schedule_and_both_sides_match": true,
+      "no_duplicate_jobs": true,
+      "plan_sha256": "43c9ccf904aa9a09f64ef1828a9fed1718987f6cdd77ee14c64574599821ee05",
+      "policy_sha256": "752362859ee12be0811bfb542efcd507bc8c11523a2692e8a58571596105662f",
+      "session": {
+        "status": "complete",
+        "started_utc": "2026-10-01T03:49:49.549178+00:00",
+        "workers": 4,
+        "resumed_jobs": 0,
+        "scheduled_jobs": 32,
+        "command": [
+          "/usr/bin/python3",
+          "experiments/deadline_20260929.py",
+          "run",
+          "--arena",
+          "/tmp/yk-latest-teammates-arena-20261001",
+          "--run-id",
+          "pilot-siphon",
+          "--baseline",
+          "siphon",
+          "--candidates",
+          "siphon",
+          "--opponents",
+          "v8,mission4,v9_main,v9_lock",
+          "--seed-start",
+          "23100",
+          "--maps",
+          "4",
+          "--workers",
+          "4",
+          "--stage",
+          "development",
+          "--hypothesis",
+          "Frozen siphon against existing and latest own-team bots, paired sides; no source edits"
+        ],
+        "plan_sha256": "43c9ccf904aa9a09f64ef1828a9fed1718987f6cdd77ee14c64574599821ee05",
+        "python": "3.14.7 (main, Aug 10 2026, 07:46:56) [GCC 16.1.1 20260728]",
+        "python_executable": "/usr/bin/python3",
+        "finished_utc": "2026-10-01T03:51:17.298789+00:00",
+        "wall_seconds": 87.74956329699489,
+        "finished_new_jobs": 32
+      },
+      "expected_missing_jobs": 0,
+      "errors": 0,
+      "forfeits": 0,
+      "replay_metadata_verified": 32,
+      "runtime": {
+        "siphon": {
+          "first_max_ms": 4.718806012533605,
+          "regular_max_ms": 2.8863469924544916,
+          "first_over_3000": 0,
+          "regular_over_300": 0
+        },
+        "mission4": {
+          "first_max_ms": 5.371610997826792,
+          "regular_max_ms": 3.654789994470775,
+          "first_over_3000": 0,
+          "regular_over_300": 0
+        },
+        "v9_lock": {
+          "first_max_ms": 13.504710994311608,
+          "regular_max_ms": 125.53970899898559,
+          "first_over_3000": 0,
+          "regular_over_300": 0
+        },
+        "v8": {
+          "first_max_ms": 13.337163007236086,
+          "regular_max_ms": 124.50598400027957,
+          "first_over_3000": 0,
+          "regular_over_300": 0
+        },
+        "v9_main": {
+          "first_max_ms": 13.661091987160034,
+          "regular_max_ms": 137.81456899596378,
+          "first_over_3000": 0,
+          "regular_over_300": 0
+        }
+      },
+      "observed_outcomes_not_selection": {
+        "siphon vs v8": {
+          "Y": {
+            "games": 4,
+            "wins": 2,
+            "draws": 0,
+            "losses": 2
+          },
+          "K": {
+            "games": 4,
+            "wins": 2,
+            "draws": 0,
+            "losses": 2
+          },
+          "both": {
+            "games": 8,
+            "wins": 4,
+            "draws": 0,
+            "losses": 4
+          }
+        },
+        "siphon vs mission4": {
+          "Y": {
+            "games": 4,
+            "wins": 4,
+            "draws": 0,
+            "losses": 0
+          },
+          "K": {
+            "games": 4,
+            "wins": 1,
+            "draws": 0,
+            "losses": 3
+          },
+          "both": {
+            "games": 8,
+            "wins": 5,
+            "draws": 0,
+            "losses": 3
+          }
+        },
+        "siphon vs v9_main": {
+          "Y": {
+            "games": 4,
+            "wins": 3,
+            "draws": 0,
+            "losses": 1
+          },
+          "K": {
+            "games": 4,
+            "wins": 4,
+            "draws": 0,
+            "losses": 0
+          },
+          "both": {
+            "games": 8,
+            "wins": 7,
+            "draws": 0,
+            "losses": 1
+          }
+        },
+        "siphon vs v9_lock": {
+          "Y": {
+            "games": 4,
+            "wins": 2,
+            "draws": 0,
+            "losses": 2
+          },
+          "K": {
+            "games": 4,
+            "wins": 2,
+            "draws": 0,
+            "losses": 2
+          },
+          "both": {
+            "games": 8,
+            "wins": 4,
+            "draws": 0,
+            "losses": 4
+          }
+        }
+      },
+      "memory_limit_record": {
+        "resource": "RLIMIT_AS",
+        "requested_soft_bytes": 402653184,
+        "effective_soft_bytes": 402653184,
+        "hard_bytes": -1,
+        "previous_soft_bytes": -1,
+        "inherited_by": "workers and bot processes",
+        "scope": "Per-process virtual address space; not total RSS or a replica of the submission container"
+      }
+    },
+    "pilot-v9-variants": {
+      "status": "complete",
+      "observed_at_utc": "2026-10-01T03:53:30.412555+00:00",
+      "planned_games": 16,
+      "completed_records": 16,
+      "result_snapshot_sha256": "faa940a41b0242d3af90f42e8007341d6f1bb800b08ba362f6f8353545c05f6e",
+      "partial_trailing_bytes_ignored": 0,
+      "schedule_and_both_sides_match": true,
+      "no_duplicate_jobs": true,
+      "plan_sha256": "0f0bfdaaec3c4d3d81197a400ffbacea9c7b38806b5f0d5a7adfeff09ec67bc9",
+      "policy_sha256": "6115e8b36e268523558ebded067f0a06b4f0aa3517f8853ec2aeb376af38c51f",
+      "session": {
+        "status": "complete",
+        "started_utc": "2026-10-01T03:49:50.732077+00:00",
+        "workers": 2,
+        "resumed_jobs": 0,
+        "scheduled_jobs": 16,
+        "command": [
+          "/usr/bin/python3",
+          "experiments/deadline_20260929.py",
+          "run",
+          "--arena",
+          "/tmp/yk-latest-teammates-arena-20261001",
+          "--run-id",
+          "pilot-v9-variants",
+          "--baseline",
+          "v9_main",
+          "--candidates",
+          "v9_main,v9_lock",
+          "--opponents",
+          "v8",
+          "--seed-start",
+          "23100",
+          "--maps",
+          "4",
+          "--workers",
+          "2",
+          "--stage",
+          "development",
+          "--hypothesis",
+          "Both latest v9 variants against frozen v8; preserve branch-specific runtime arguments"
+        ],
+        "plan_sha256": "0f0bfdaaec3c4d3d81197a400ffbacea9c7b38806b5f0d5a7adfeff09ec67bc9",
+        "python": "3.14.7 (main, Aug 10 2026, 07:46:56) [GCC 16.1.1 20260728]",
+        "python_executable": "/usr/bin/python3",
+        "finished_utc": "2026-10-01T03:52:04.295606+00:00",
+        "wall_seconds": 133.56347804699908,
+        "finished_new_jobs": 16
+      },
+      "expected_missing_jobs": 0,
+      "errors": 0,
+      "forfeits": 0,
+      "replay_metadata_verified": 16,
+      "runtime": {
+        "v9_lock": {
+          "first_max_ms": 13.143226999090984,
+          "regular_max_ms": 125.76761899981648,
+          "first_over_3000": 0,
+          "regular_over_300": 0
+        },
+        "v8": {
+          "first_max_ms": 11.906893996638246,
+          "regular_max_ms": 127.41947699396405,
+          "first_over_3000": 0,
+          "regular_over_300": 0
+        },
+        "v9_main": {
+          "first_max_ms": 12.850833998527378,
+          "regular_max_ms": 137.07303199043963,
+          "first_over_3000": 0,
+          "regular_over_300": 0
+        }
+      },
+      "observed_outcomes_not_selection": {
+        "v9_main vs v8": {
+          "Y": {
+            "games": 4,
+            "wins": 0,
+            "draws": 0,
+            "losses": 4
+          },
+          "K": {
+            "games": 4,
+            "wins": 1,
+            "draws": 0,
+            "losses": 3
+          },
+          "both": {
+            "games": 8,
+            "wins": 1,
+            "draws": 0,
+            "losses": 7
+          }
+        },
+        "v9_lock vs v8": {
+          "Y": {
+            "games": 4,
+            "wins": 3,
+            "draws": 0,
+            "losses": 1
+          },
+          "K": {
+            "games": 4,
+            "wins": 2,
+            "draws": 0,
+            "losses": 2
+          },
+          "both": {
+            "games": 8,
+            "wins": 5,
+            "draws": 0,
+            "losses": 3
+          }
+        }
+      },
+      "memory_limit_record": {
+        "resource": "RLIMIT_AS",
+        "requested_soft_bytes": 402653184,
+        "effective_soft_bytes": 402653184,
+        "hard_bytes": -1,
+        "previous_soft_bytes": -1,
+        "inherited_by": "workers and bot processes",
+        "scope": "Per-process virtual address space; not total RSS or a replica of the submission container"
+      }
+    }
+  },
+  "concurrent_worker_sum": 6,
+  "master_worker_limit": 6,
+  "findings": [
+    {
+      "severity": "limitation",
+      "finding": "Manifest policy_rng_seed=20260927 is the legacy base-policy seed, not a global seed for every bot. v9_main attack RNG explicitly uses20261001; v9_lock all-in RNG is initialized from steady_clock and is intentionally unseeded externally."
+    },
+    {
+      "severity": "documentation",
+      "finding": "Master plan memory_per_match_mib says384, while executable RLIMIT_AS is384MiB per process inherited by workers and bots, not a summed per-match RSS cap. Policy files and resource-limit records accurately name RLIMIT_AS scope."
+    },
+    {
+      "severity": "scope",
+      "finding": "This review checks configuration, provenance, schedule, replay metadata, and recorded timings. No action-semantic replay audit has been newly executed; await root audits before declaring all commands legal."
+    }
+  ],
+  "source_arg_evidence": {
+    "v9_main": "main.cpp1019–1021 parses --attack-seed and sets custom seed; initialization963–964 seeds attack RNG.",
+    "v9_lock": "main.cpp411 initializes v9_rng from steady_clock;1789–1797 only --trace special handling, unknown strings via atoi become forced_policy0.",
+    "execution_chain": "deadline_20260929.py64 constructs full manifest command; local_league.py345 supplies commands,258 constructs TimedBot; cpu_sweep.py initialize_worker imports frozen SDK; local_league.py326–330 verifies frozen inputs before pool."
+  },
+  "limitations": [
+    "No Git operations or server access; branch commits taken from frozen source provenance records.",
+    "Completed pilot is a protocol/runtime screen on4maps, not final performance evidence.",
+    "Immutable content was verified at review time; in-flight result rows are timestamped snapshots."
+  ],
+  "recorded_runtime_violations": []
+}

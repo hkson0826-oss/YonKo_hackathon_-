@@ -1,0 +1,132 @@
+{
+  "files": [
+    {
+      "path": "artifacts/submission-siphon.zip",
+      "bytes": 21755,
+      "sha256": "00e55968051d8d0d508ce0ec895173da9a87502bd1104d4e6f82e67ed0ab11fa"
+    },
+    {
+      "path": "branch-metadata.txt",
+      "bytes": 2123,
+      "sha256": "eea5c61a242bbf854cd6b18a7071127ea7284f1158b6a74a4139cb2678bad06b"
+    },
+    {
+      "path": "build.log",
+      "bytes": 790,
+      "sha256": "387f95793020dc5674bfef8ef5eb94f003c2476e154db93c7a27ef1ba020d013"
+    },
+    {
+      "path": "completed-pilot-snapshot.json",
+      "bytes": 3762,
+      "sha256": "0322cfaa333d421bf7ffb0588e70de01bc507e2a4c3a2e94d5462f06cdebd2b9"
+    },
+    {
+      "path": "contracts.json",
+      "bytes": 247061,
+      "sha256": "b6f5898ce1e1099a3757652fc33e057b1f0ea6f5e39db6ae965e8eff1896acd6"
+    },
+    {
+      "path": "contracts.log",
+      "bytes": 5357,
+      "sha256": "2c0c71e87cc598b9b6ef1d5ae2ee30c514fa651a4dddf0a10b2b66013180c03f"
+    },
+    {
+      "path": "exact-zip-gcc12.json",
+      "bytes": 19264,
+      "sha256": "e2a58e39f847a360c53a7271d200c4ba42d1af5845eca0c85f5c6d8175c95763"
+    },
+    {
+      "path": "probe-build.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "probe.cpp",
+      "bytes": 1113,
+      "sha256": "fcb56aa33ac5ce6b40607087041bc1dc9fe59401ad009740ce12068fb890162d"
+    },
+    {
+      "path": "reproduce_terminal_cases.py",
+      "bytes": 3374,
+      "sha256": "9e6a9e6f7be34c04fd9e31c60c5e89bfadbb21c0276341b1ba4b053b4ca76463"
+    },
+    {
+      "path": "review.json",
+      "bytes": 18008,
+      "sha256": "935e19892ea4a948ddd7cdef1ba93f1919890e09807e3e6e3ce998920f7ba34f"
+    },
+    {
+      "path": "review.md",
+      "bytes": 13587,
+      "sha256": "3eedcfbcf950dfe35f2ee0c12ed3f0474f1f9a24d96dc76ee6cf0a7176c08829"
+    },
+    {
+      "path": "source-manifest.json",
+      "bytes": 2115,
+      "sha256": "f3646028d9a4915e858cf0809b90099e6bdf2d73aad39e7ac1481c32f8b3eda5"
+    },
+    {
+      "path": "submissions/siphon/generated.hpp",
+      "bytes": 1043,
+      "sha256": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa"
+    },
+    {
+      "path": "submissions/siphon/main.cpp",
+      "bytes": 26506,
+      "sha256": "0b41e26b50c13a50dc7f0ce2b339c42796b68060d73e98485005c6c720512c8e"
+    },
+    {
+      "path": "submissions/siphon/protocol.hpp",
+      "bytes": 5010,
+      "sha256": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8"
+    },
+    {
+      "path": "submissions/siphon/submission.json",
+      "bytes": 40,
+      "sha256": "0daf61b1cfd7cf6e4b2da6cb121b9b40d3cab4c2a539623adbb1abdfce563373"
+    },
+    {
+      "path": "submissions/siphon/yk_bot.hpp",
+      "bytes": 3134,
+      "sha256": "fded3e21b6df1b9d7621ad1919f8a97e44f15ae275b49072a768c2ba5a19b6b7"
+    },
+    {
+      "path": "submissions/siphon/yk_core.hpp",
+      "bytes": 21047,
+      "sha256": "01e43e952f41fdc97b50fa98b3822ca4b2f2c8a535b686a4f6f405cbced97d89"
+    },
+    {
+      "path": "submissions/siphon/yk_score.hpp",
+      "bytes": 10396,
+      "sha256": "b693332f8ee41c351b3f3e2abc7600b2ca4fc34d9f825b31642b27f6799f1ae4"
+    },
+    {
+      "path": "terminal-witnesses.json",
+      "bytes": 20115,
+      "sha256": "c0a65a81853114ab11ce492df7232ca2e36e3151181bf92a6df4b87f2fd5e28b"
+    },
+    {
+      "path": "terminal-witnesses.log",
+      "bytes": 774,
+      "sha256": "e6cb1d62092c0ef3440ea7d2c310461e3811b0135289077225a6a93e04ae7150"
+    },
+    {
+      "path": "validation-provenance.json",
+      "bytes": 2236,
+      "sha256": "d29d9ef5cc760eee4615bc8f4801f1954c6a23275744b8c929209465c75a1883"
+    },
+    {
+      "path": "zip-inspection.json",
+      "bytes": 54,
+      "sha256": "99414079ed753bd3adde16eddb87fd509796e814344add62f1063312646c1d24"
+    }
+  ],
+  "file_count": 24,
+  "total_bytes": 428664,
+  "excluded_local_only": [
+    "probe",
+    "siphon",
+    "write_review.py"
+  ],
+  "scope": "Only these sources/ZIP/evidence files need archival; compiled executables and the intermediate report generator are excluded."
+}

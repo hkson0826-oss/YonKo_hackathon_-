@@ -1,0 +1,55 @@
+{
+  "repository_commit_at_review": "2e26f82a6aae77536dfad59a089ff4d17fa57b9f",
+  "source_commit": "0f06e15861ec8eb9f0afaf7bc1296ced657ee0e7",
+  "compiler": "g++ (GCC) 16.2.1 20260810",
+  "inputs": [
+    {
+      "path": "tests/test_mission_scheduler.py",
+      "sha256": "94fea35862d3285d35cbbea23d8ede8aff98adcb2591cd2598b99ccbb88e450d"
+    },
+    {
+      "path": "tests/mission_scheduler_cases.py",
+      "sha256": "870c00c6c99e6e1c96848edf034f2345ba304c83b98b51d267e861a7b63c64f9"
+    },
+    {
+      "path": "yk-development-tools/engine/pipeline.py",
+      "sha256": "f0bd96c484c8628b6a070b188adcc1a077e9f90017cc15f11ce366d974490fa6"
+    },
+    {
+      "path": "yk-development-tools/runner/protocol.py",
+      "sha256": "5917df4bec20b963586b1ffeb7a45b9959f51e3437a227ee7e8d932b172a7d65"
+    },
+    {
+      "path": "yk-development-tools/config/balance.json",
+      "sha256": "a46886d91862244b6daf4990dcdf2371302433e7120c21dc2a29ecf95696b35f"
+    },
+    {
+      "path": "yk-development-tools/bots/dist/starter/limits.json",
+      "sha256": "182499583a1da4f5add6c25fe900ad59488c230163b8064c6697014a9b9fec45"
+    },
+    {
+      "path": "yk-development-tools/bots/dist/starter/submission.py",
+      "sha256": "e3e163f2de9877218bc0079e6bfad94b1a78102e9d253d84abf97bf2e19b1130"
+    },
+    {
+      "path": "yk-development-tools/docs/rulebook.md",
+      "sha256": "3e35db3dc14524e1d396579a65368d669745c9643e64c8792d3cd73fc87991d7"
+    },
+    {
+      "path": "yk-development-tools/mapgen/generator.py",
+      "sha256": "645b53e2b2ce0049608873b1d01a983661dbdbfe63e358fbb152cbeeea13947e"
+    }
+  ],
+  "commands": [
+    "g++ -std=c++20 -O2 -Wall -Wextra -pedantic submissions/siphon/main.cpp -o siphon",
+    "MISSION_SCHEDULER_SOURCE=<review>/submissions/siphon/main.cpp MISSION_SCHEDULER_AUDIT=<review>/contracts.json python3 -B <repo>/tests/test_mission_scheduler.py",
+    "g++ -std=c++20 -O2 probe.cpp -o probe",
+    "python3 -B reproduce_terminal_cases.py"
+  ],
+  "limits": {
+    "first_turn_seconds": 3,
+    "normal_turn_seconds": 0.3,
+    "virtual_memory_bytes": 402653184
+  },
+  "bounded_scope": "12 existing development contracts, 241 emitted turn outputs; two separate one-turn witnesses. No full competitive match run by this review."
+}

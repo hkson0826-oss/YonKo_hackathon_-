@@ -1,0 +1,19 @@
+{
+  "candidates": [
+    "siphon"
+  ],
+  "opponents": [
+    "v8",
+    "mission4",
+    "v9_main",
+    "v9_lock"
+  ],
+  "map_seeds": [
+    23100,
+    23101,
+    23102,
+    23103
+  ],
+  "replays": "all",
+  "order_seed": 20260929
+}

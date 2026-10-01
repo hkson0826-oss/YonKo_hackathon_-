@@ -1,0 +1,35 @@
+{
+  "baseline": "v9_main",
+  "comparisons": {
+    "v9_lock": {
+      "Y": {
+        "paired_maps": 4,
+        "paired_games": 4,
+        "point_rate_difference": 0.75,
+        "map_cluster_bootstrap_95pct": [
+          0.25,
+          1.0
+        ],
+        "opponent_point_rate_difference": {
+          "v8": 0.75
+        }
+      },
+      "K": {
+        "paired_maps": 4,
+        "paired_games": 4,
+        "point_rate_difference": 0.25,
+        "map_cluster_bootstrap_95pct": [
+          0.0,
+          0.75
+        ],
+        "opponent_point_rate_difference": {
+          "v8": 0.25
+        }
+      }
+    }
+  },
+  "interpretation": "Small local fixed-opponent samples; no automatic promotion or leaderboard-score claim.",
+  "complete": true,
+  "errors": 0,
+  "forfeits": 0
+}

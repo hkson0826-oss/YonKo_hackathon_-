@@ -1,0 +1,43 @@
+commit 0f06e15861ec8eb9f0afaf7bc1296ced657ee0e7
+Author:     Hyungkwon Son <hkson0826@gmail.com>
+AuthorDate: Thu Oct 1 08:07:32 2026 +0900
+Commit:     Hyungkwon Son <hkson0826@gmail.com>
+CommitDate: Thu Oct 1 08:07:32 2026 +0900
+
+    Add siphon submission (standalone source and ZIP)
+    
+    submissions/siphon = bots/siphon/main.cpp + bots/common shared headers + submission.json,
+    staged with bots/build.py; the ZIP is identical to the one used in the local leagues.
+    ZIP inspection and compile of the extracted ZIP pass (GCC 16 local; server GCC 12.2 unverified).
+    Local leagues: 77-19 as Y (5 runs, 12 distinct maps).
+
+ artifacts/submission-siphon.zip    | Bin 0 -> 21755 bytes
+ submissions/siphon/generated.hpp   |  27 ++
+ submissions/siphon/main.cpp        | 626 +++++++++++++++++++++++++++++++++++++
+ submissions/siphon/protocol.hpp    |  67 ++++
+ submissions/siphon/submission.json |   1 +
+ submissions/siphon/yk_bot.hpp      |  86 +++++
+ submissions/siphon/yk_core.hpp     | 474 ++++++++++++++++++++++++++++
+ submissions/siphon/yk_score.hpp    | 222 +++++++++++++
+ 8 files changed, 1503 insertions(+)
+
+commit 2f0c232d045eac5081f4b878c4492b7a91e724a6
+Author:     Hyungkwon Son <hkson0826@gmail.com>
+AuthorDate: Thu Oct 1 08:04:37 2026 +0900
+Commit:     Hyungkwon Son <hkson0826@gmail.com>
+CommitDate: Thu Oct 1 08:04:37 2026 +0900
+
+    Save v9_2 submission with garrison defense fallback
+    
+    Include station-aware travel, decision reporting, offensive flag step safety, and garrison hold or retreat when full defense reservations cannot be met.
+    
+    Build completed. Cycle 2 development Y results: 17/24 wins versus 15/24 previously. Fresh validation was stopped at user request; response measurements exceeded 200ms, so final acceptance remains pending. Preserve this checkpoint without binaries, replays, or submission ZIPs.
+
+A	artifacts/submission-siphon.zip
+A	submissions/siphon/generated.hpp
+A	submissions/siphon/main.cpp
+A	submissions/siphon/protocol.hpp
+A	submissions/siphon/submission.json
+A	submissions/siphon/yk_bot.hpp
+A	submissions/siphon/yk_core.hpp
+A	submissions/siphon/yk_score.hpp
