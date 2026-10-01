@@ -1,0 +1,14 @@
+{
+  "checked_utc": "2026-10-01T04:29:33.137551+00:00",
+  "argv": [
+    "systemctl",
+    "--user",
+    "list-units",
+    "--all",
+    "--no-legend",
+    "yk-quarter-20261001-*"
+  ],
+  "stdout": "",
+  "stderr": "",
+  "no_remaining_experiment_scopes": true
+}

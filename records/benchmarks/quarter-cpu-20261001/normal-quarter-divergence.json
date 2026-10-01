@@ -1,0 +1,22 @@
+[
+  {
+    "candidate": "v9_main",
+    "side": "Y",
+    "first_joint_command_divergence_turn": 2
+  },
+  {
+    "candidate": "v9_main",
+    "side": "K",
+    "first_joint_command_divergence_turn": 2
+  },
+  {
+    "candidate": "v9_lock",
+    "side": "Y",
+    "first_joint_command_divergence_turn": 2
+  },
+  {
+    "candidate": "v9_lock",
+    "side": "K",
+    "first_joint_command_divergence_turn": 2
+  }
+]

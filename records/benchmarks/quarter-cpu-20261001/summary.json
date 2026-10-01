@@ -1,0 +1,519 @@
+{
+  "execution": {
+    "frozen_research_commit": "c70656a6dd8e167e847f035d26cb6deb5c493ed7",
+    "plan_sha256": "5c7b856cc588d8fd9b9647369c08d7c18d3b07a15cbf64644d2fe7a2c30bbda1",
+    "started_unix": 1790828642.3503737,
+    "harness_pid": 889263,
+    "harness_cgroup": "0::/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.chromium.Chromium-68986.scope\n",
+    "conditions": [
+      "quarter",
+      "normal"
+    ]
+  },
+  "games": [
+    {
+      "id": "quarter-siphon-Y-23400",
+      "condition": "quarter",
+      "candidate": "siphon",
+      "candidate_side": "Y",
+      "map_seed": 23400,
+      "Y": "siphon",
+      "K": "v8",
+      "started_unix": 1790828642.350511,
+      "status": "complete",
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 8,
+          "K": 17
+        },
+        "turns": 160,
+        "seed": 23400
+      },
+      "sdk_replay_audit": {
+        "verified_turns": 160,
+        "command_lines_all_parsed": true
+      },
+      "replay_sha256": "b5b7681121ae60f43cf2aa5d683593dbcdc8a19f91525f779730ea127bd20420",
+      "scope_verification": {
+        "ok": true,
+        "runner_cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.chromium.Chromium-68986.scope",
+        "bot_cgroups": [
+          "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-siphon-Y-23400-Y-0672e6bbbe.scope",
+          "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-siphon-Y-23400-K-3fd1eede82.scope"
+        ],
+        "errors": []
+      },
+      "elapsed_seconds": 20.72873674299626
+    },
+    {
+      "id": "quarter-siphon-K-23400",
+      "condition": "quarter",
+      "candidate": "siphon",
+      "candidate_side": "K",
+      "map_seed": 23400,
+      "Y": "v8",
+      "K": "siphon",
+      "started_unix": 1790828663.0803733,
+      "status": "complete",
+      "result": {
+        "winner": "Y",
+        "reason": "instant",
+        "score": {
+          "Y": 26,
+          "K": 0
+        },
+        "turns": 85,
+        "seed": 23400
+      },
+      "sdk_replay_audit": {
+        "verified_turns": 85,
+        "command_lines_all_parsed": true
+      },
+      "replay_sha256": "7b628268b4a4fbc6bf0f2a94128fdb67b1fc9cc59a065ff7033e13d5e9c8e35b",
+      "scope_verification": {
+        "ok": true,
+        "runner_cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.chromium.Chromium-68986.scope",
+        "bot_cgroups": [
+          "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-siphon-K-23400-Y-955edeb02f.scope",
+          "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-siphon-K-23400-K-a40310acfa.scope"
+        ],
+        "errors": []
+      },
+      "elapsed_seconds": 11.048245881000184
+    },
+    {
+      "id": "quarter-v8-Y-23400",
+      "condition": "quarter",
+      "candidate": "v8",
+      "candidate_side": "Y",
+      "map_seed": 23400,
+      "Y": "v8",
+      "K": "v8",
+      "started_unix": 1790828674.1293476,
+      "status": "complete",
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 8,
+          "K": 11
+        },
+        "turns": 160,
+        "seed": 23400
+      },
+      "sdk_replay_audit": {
+        "verified_turns": 160,
+        "command_lines_all_parsed": true
+      },
+      "replay_sha256": "566f15049ad77534f36d0ac291a89619a33667761bf03ddcc6c5d2e2b6b33c86",
+      "scope_verification": {
+        "ok": true,
+        "runner_cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.chromium.Chromium-68986.scope",
+        "bot_cgroups": [
+          "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-v8-Y-23400-Y-c746ee714f.scope",
+          "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-v8-Y-23400-K-5e7284189d.scope"
+        ],
+        "errors": []
+      },
+      "elapsed_seconds": 24.118697917991085
+    },
+    {
+      "id": "quarter-v8-K-23400",
+      "condition": "quarter",
+      "candidate": "v8",
+      "candidate_side": "K",
+      "map_seed": 23400,
+      "Y": "v8",
+      "K": "v8",
+      "started_unix": 1790828698.2493014,
+      "status": "complete",
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 11,
+          "K": 16
+        },
+        "turns": 160,
+        "seed": 23400
+      },
+      "sdk_replay_audit": {
+        "verified_turns": 160,
+        "command_lines_all_parsed": true
+      },
+      "replay_sha256": "226e4dd370d6332020cdf74399d5d750c5cad7ab8c0d6a37d266949e0214f3c2",
+      "scope_verification": {
+        "ok": true,
+        "runner_cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.chromium.Chromium-68986.scope",
+        "bot_cgroups": [
+          "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-v8-K-23400-Y-5599bbd4ce.scope",
+          "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-v8-K-23400-K-9f27d6c414.scope"
+        ],
+        "errors": []
+      },
+      "elapsed_seconds": 24.124182204992394
+    },
+    {
+      "id": "quarter-v9_main-Y-23400",
+      "condition": "quarter",
+      "candidate": "v9_main",
+      "candidate_side": "Y",
+      "map_seed": 23400,
+      "Y": "v9_main",
+      "K": "v8",
+      "started_unix": 1790828722.3747199,
+      "status": "complete",
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 5,
+          "K": 18
+        },
+        "turns": 160,
+        "seed": 23400
+      },
+      "sdk_replay_audit": {
+        "verified_turns": 160,
+        "command_lines_all_parsed": true
+      },
+      "replay_sha256": "aef811a3db5cb2e220afdb29950c8720c1d8c4ac8b9792fe476d6220b5516f11",
+      "scope_verification": {
+        "ok": true,
+        "runner_cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.chromium.Chromium-68986.scope",
+        "bot_cgroups": [
+          "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-v9_main-Y-23400-Y-1fc99ea0b0.scope",
+          "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-v9_main-Y-23400-K-4a3969ec81.scope"
+        ],
+        "errors": []
+      },
+      "elapsed_seconds": 23.654670892996364
+    },
+    {
+      "id": "quarter-v9_main-K-23400",
+      "condition": "quarter",
+      "candidate": "v9_main",
+      "candidate_side": "K",
+      "map_seed": 23400,
+      "Y": "v8",
+      "K": "v9_main",
+      "started_unix": 1790828746.0305622,
+      "status": "complete",
+      "result": {
+        "winner": "Y",
+        "reason": "instant",
+        "score": {
+          "Y": 27,
+          "K": 0
+        },
+        "turns": 146,
+        "seed": 23400
+      },
+      "sdk_replay_audit": {
+        "verified_turns": 146,
+        "command_lines_all_parsed": true
+      },
+      "replay_sha256": "aabed8067d1082e3d3bb8b3a90f4ab36768b5d4eac23ed6ea336c987789c6917",
+      "scope_verification": {
+        "ok": true,
+        "runner_cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.chromium.Chromium-68986.scope",
+        "bot_cgroups": [
+          "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-v9_main-K-23400-Y-f43774cc95.scope",
+          "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-v9_main-K-23400-K-76a0736708.scope"
+        ],
+        "errors": []
+      },
+      "elapsed_seconds": 21.956082310993224
+    },
+    {
+      "id": "quarter-v9_lock-Y-23400",
+      "condition": "quarter",
+      "candidate": "v9_lock",
+      "candidate_side": "Y",
+      "map_seed": 23400,
+      "Y": "v9_lock",
+      "K": "v8",
+      "started_unix": 1790828767.9877205,
+      "status": "complete",
+      "result": {
+        "winner": "K",
+        "reason": "occupation_turns",
+        "score": {
+          "Y": 13,
+          "K": 13
+        },
+        "turns": 160,
+        "seed": 23400
+      },
+      "sdk_replay_audit": {
+        "verified_turns": 160,
+        "command_lines_all_parsed": true
+      },
+      "replay_sha256": "ab6fb463559809e8d1d467225eb0d13e0545b2ec48cc841c6abc69695683926e",
+      "scope_verification": {
+        "ok": true,
+        "runner_cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.chromium.Chromium-68986.scope",
+        "bot_cgroups": [
+          "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-v9_lock-Y-23400-Y-9e7afd4045.scope",
+          "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-v9_lock-Y-23400-K-5a315b721e.scope"
+        ],
+        "errors": []
+      },
+      "elapsed_seconds": 24.010241082010907
+    },
+    {
+      "id": "quarter-v9_lock-K-23400",
+      "condition": "quarter",
+      "candidate": "v9_lock",
+      "candidate_side": "K",
+      "map_seed": 23400,
+      "Y": "v8",
+      "K": "v9_lock",
+      "started_unix": 1790828791.9992957,
+      "status": "complete",
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 18,
+          "K": 11
+        },
+        "turns": 160,
+        "seed": 23400
+      },
+      "sdk_replay_audit": {
+        "verified_turns": 160,
+        "command_lines_all_parsed": true
+      },
+      "replay_sha256": "992ab0be226c4373bf0dee5efc39fd733307d87ea2f750e2aeffb74b5ad8d857",
+      "scope_verification": {
+        "ok": true,
+        "runner_cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.chromium.Chromium-68986.scope",
+        "bot_cgroups": [
+          "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-v9_lock-K-23400-Y-c559edc3ef.scope",
+          "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-v9_lock-K-23400-K-32b60aa163.scope"
+        ],
+        "errors": []
+      },
+      "elapsed_seconds": 23.804995933998725
+    },
+    {
+      "id": "quarter-mission4-Y-23400",
+      "condition": "quarter",
+      "candidate": "mission4",
+      "candidate_side": "Y",
+      "map_seed": 23400,
+      "Y": "mission4",
+      "K": "v8",
+      "started_unix": 1790828815.8054278,
+      "status": "complete",
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 21,
+          "K": 6
+        },
+        "turns": 160,
+        "seed": 23400
+      },
+      "sdk_replay_audit": {
+        "verified_turns": 160,
+        "command_lines_all_parsed": true
+      },
+      "replay_sha256": "2b20cb3ada06a5cbe7c72d7bc9572817261a97eac2103c443f5753ac9ae36df3",
+      "scope_verification": {
+        "ok": true,
+        "runner_cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.chromium.Chromium-68986.scope",
+        "bot_cgroups": [
+          "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-mission4-Y-23400-Y-e24d1b5ced.scope",
+          "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-mission4-Y-23400-K-cdb5b16922.scope"
+        ],
+        "errors": []
+      },
+      "elapsed_seconds": 18.66716242900293
+    },
+    {
+      "id": "quarter-mission4-K-23400",
+      "condition": "quarter",
+      "candidate": "mission4",
+      "candidate_side": "K",
+      "map_seed": 23400,
+      "Y": "v8",
+      "K": "mission4",
+      "started_unix": 1790828834.4738047,
+      "status": "complete",
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 5,
+          "K": 24
+        },
+        "turns": 160,
+        "seed": 23400
+      },
+      "sdk_replay_audit": {
+        "verified_turns": 160,
+        "command_lines_all_parsed": true
+      },
+      "replay_sha256": "1bccb013f3e86340962ba897c94cd38a7ab264720be5446b9af842923aea3b11",
+      "scope_verification": {
+        "ok": true,
+        "runner_cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.chromium.Chromium-68986.scope",
+        "bot_cgroups": [
+          "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-mission4-K-23400-Y-5be8ba4020.scope",
+          "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-mission4-K-23400-K-97bc41dbca.scope"
+        ],
+        "errors": []
+      },
+      "elapsed_seconds": 20.049641369987512
+    },
+    {
+      "id": "normal-v9_main-Y-23400",
+      "condition": "normal",
+      "candidate": "v9_main",
+      "candidate_side": "Y",
+      "map_seed": 23400,
+      "Y": "v9_main",
+      "K": "v8",
+      "started_unix": 1790828854.5245912,
+      "status": "complete",
+      "result": {
+        "winner": "K",
+        "reason": "score",
+        "score": {
+          "Y": 11,
+          "K": 16
+        },
+        "turns": 160,
+        "seed": 23400
+      },
+      "sdk_replay_audit": {
+        "verified_turns": 160,
+        "command_lines_all_parsed": true
+      },
+      "replay_sha256": "396af8338a81132b81c37577824b5f4bf2670d181b5c6a8cae1865ee08c9c5ed",
+      "scope_verification": {
+        "ok": true,
+        "runner_cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.chromium.Chromium-68986.scope",
+        "bot_cgroups": [
+          "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-normal-v9_main-Y-23400-Y-a75b387bdc.scope",
+          "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-normal-v9_main-Y-23400-K-fd5e72cd9a.scope"
+        ],
+        "errors": []
+      },
+      "elapsed_seconds": 18.767641259997617
+    },
+    {
+      "id": "normal-v9_main-K-23400",
+      "condition": "normal",
+      "candidate": "v9_main",
+      "candidate_side": "K",
+      "map_seed": 23400,
+      "Y": "v8",
+      "K": "v9_main",
+      "started_unix": 1790828873.2933545,
+      "status": "complete",
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 14,
+          "K": 8
+        },
+        "turns": 160,
+        "seed": 23400
+      },
+      "sdk_replay_audit": {
+        "verified_turns": 160,
+        "command_lines_all_parsed": true
+      },
+      "replay_sha256": "8ec2e61740db2cb7b88cad7866c698354cf6002ba8f3788d1fb1a19d5fa8dd91",
+      "scope_verification": {
+        "ok": true,
+        "runner_cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.chromium.Chromium-68986.scope",
+        "bot_cgroups": [
+          "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-normal-v9_main-K-23400-Y-1384cc680e.scope",
+          "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-normal-v9_main-K-23400-K-67c3a74b4b.scope"
+        ],
+        "errors": []
+      },
+      "elapsed_seconds": 18.770022263997816
+    },
+    {
+      "id": "normal-v9_lock-Y-23400",
+      "condition": "normal",
+      "candidate": "v9_lock",
+      "candidate_side": "Y",
+      "map_seed": 23400,
+      "Y": "v9_lock",
+      "K": "v8",
+      "started_unix": 1790828892.0644696,
+      "status": "complete",
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 16,
+          "K": 13
+        },
+        "turns": 160,
+        "seed": 23400
+      },
+      "sdk_replay_audit": {
+        "verified_turns": 160,
+        "command_lines_all_parsed": true
+      },
+      "replay_sha256": "991d9f49418de12a17d7b381f52f5420b441f7ada5e11063d0451c5a4f9a7ce8",
+      "scope_verification": {
+        "ok": true,
+        "runner_cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.chromium.Chromium-68986.scope",
+        "bot_cgroups": [
+          "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-normal-v9_lock-Y-23400-Y-131a242345.scope",
+          "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-normal-v9_lock-Y-23400-K-b6d89cd637.scope"
+        ],
+        "errors": []
+      },
+      "elapsed_seconds": 11.89960330699978
+    },
+    {
+      "id": "normal-v9_lock-K-23400",
+      "condition": "normal",
+      "candidate": "v9_lock",
+      "candidate_side": "K",
+      "map_seed": 23400,
+      "Y": "v8",
+      "K": "v9_lock",
+      "started_unix": 1790828903.9652607,
+      "status": "complete",
+      "result": {
+        "winner": "Y",
+        "reason": "score",
+        "score": {
+          "Y": 18,
+          "K": 9
+        },
+        "turns": 160,
+        "seed": 23400
+      },
+      "sdk_replay_audit": {
+        "verified_turns": 160,
+        "command_lines_all_parsed": true
+      },
+      "replay_sha256": "22e3d2d15f312489e198c910ca301a167069c1be204962d22278d59db9852279",
+      "scope_verification": {
+        "ok": true,
+        "runner_cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.chromium.Chromium-68986.scope",
+        "bot_cgroups": [
+          "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-normal-v9_lock-K-23400-Y-03d00cf11b.scope",
+          "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-normal-v9_lock-K-23400-K-9fd370e3fb.scope"
+        ],
+        "errors": []
+      },
+      "elapsed_seconds": 12.54863923600351
+    }
+  ]
+}

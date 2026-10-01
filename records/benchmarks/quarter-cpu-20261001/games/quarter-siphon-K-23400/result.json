@@ -1,0 +1,1576 @@
+{
+  "id": "quarter-siphon-K-23400",
+  "condition": "quarter",
+  "candidate": "siphon",
+  "candidate_side": "K",
+  "map_seed": 23400,
+  "Y": "v8",
+  "K": "siphon",
+  "started_unix": 1790828663.0803733,
+  "status": "complete",
+  "result": {
+    "winner": "Y",
+    "reason": "instant",
+    "score": {
+      "Y": 26,
+      "K": 0
+    },
+    "turns": 85,
+    "seed": 23400
+  },
+  "sdk_replay_audit": {
+    "verified_turns": 85,
+    "command_lines_all_parsed": true
+  },
+  "replay_sha256": "7b628268b4a4fbc6bf0f2a94128fdb67b1fc9cc59a065ff7033e13d5e9c8e35b",
+  "scope_verification": {
+    "ok": true,
+    "runner_cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.chromium.Chromium-68986.scope",
+    "bot_cgroups": [
+      "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-siphon-K-23400-Y-955edeb02f.scope",
+      "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-siphon-K-23400-K-a40310acfa.scope"
+    ],
+    "errors": []
+  },
+  "bot_measurements": {
+    "Y": {
+      "name": "v8",
+      "responses": [
+        {
+          "turn": 1,
+          "status": "ok",
+          "response_ms": 126.66732199431863,
+          "collection_elapsed_ms": 126.71200498880353,
+          "lines": 4,
+          "bytes": 129
+        },
+        {
+          "turn": 2,
+          "status": "ok",
+          "response_ms": 96.94266799488105,
+          "collection_elapsed_ms": 97.17008000006899,
+          "lines": 6,
+          "bytes": 154
+        },
+        {
+          "turn": 3,
+          "status": "ok",
+          "response_ms": 103.09576800500508,
+          "collection_elapsed_ms": 103.14397000183817,
+          "lines": 10,
+          "bytes": 219
+        },
+        {
+          "turn": 4,
+          "status": "ok",
+          "response_ms": 103.93505000683945,
+          "collection_elapsed_ms": 104.15631900832523,
+          "lines": 14,
+          "bytes": 274
+        },
+        {
+          "turn": 5,
+          "status": "ok",
+          "response_ms": 99.50799000216648,
+          "collection_elapsed_ms": 99.5787610008847,
+          "lines": 16,
+          "bytes": 304
+        },
+        {
+          "turn": 6,
+          "status": "ok",
+          "response_ms": 99.90629299136344,
+          "collection_elapsed_ms": 100.00452300300822,
+          "lines": 20,
+          "bytes": 369
+        },
+        {
+          "turn": 7,
+          "status": "ok",
+          "response_ms": 94.7950379922986,
+          "collection_elapsed_ms": 94.9149119987851,
+          "lines": 21,
+          "bytes": 379
+        },
+        {
+          "turn": 8,
+          "status": "ok",
+          "response_ms": 101.19298999779858,
+          "collection_elapsed_ms": 101.25142500328366,
+          "lines": 27,
+          "bytes": 433
+        },
+        {
+          "turn": 9,
+          "status": "ok",
+          "response_ms": 99.74226600024849,
+          "collection_elapsed_ms": 99.82370599755086,
+          "lines": 28,
+          "bytes": 450
+        },
+        {
+          "turn": 10,
+          "status": "ok",
+          "response_ms": 99.19739699398633,
+          "collection_elapsed_ms": 99.25675499835052,
+          "lines": 31,
+          "bytes": 536
+        },
+        {
+          "turn": 11,
+          "status": "ok",
+          "response_ms": 103.80619800707791,
+          "collection_elapsed_ms": 103.93671000201721,
+          "lines": 33,
+          "bytes": 569
+        },
+        {
+          "turn": 12,
+          "status": "ok",
+          "response_ms": 96.60171800351236,
+          "collection_elapsed_ms": 96.66735099744983,
+          "lines": 39,
+          "bytes": 654
+        },
+        {
+          "turn": 13,
+          "status": "ok",
+          "response_ms": 179.40178800199647,
+          "collection_elapsed_ms": 179.5099580049282,
+          "lines": 38,
+          "bytes": 652
+        },
+        {
+          "turn": 14,
+          "status": "ok",
+          "response_ms": 107.80810000142083,
+          "collection_elapsed_ms": 107.90098700090311,
+          "lines": 42,
+          "bytes": 687
+        },
+        {
+          "turn": 15,
+          "status": "ok",
+          "response_ms": 111.52034699625801,
+          "collection_elapsed_ms": 111.61240500223357,
+          "lines": 46,
+          "bytes": 782
+        },
+        {
+          "turn": 16,
+          "status": "ok",
+          "response_ms": 101.9395409966819,
+          "collection_elapsed_ms": 102.02093899715692,
+          "lines": 40,
+          "bytes": 686
+        },
+        {
+          "turn": 17,
+          "status": "ok",
+          "response_ms": 175.67183199571446,
+          "collection_elapsed_ms": 175.81709499063436,
+          "lines": 39,
+          "bytes": 670
+        },
+        {
+          "turn": 18,
+          "status": "ok",
+          "response_ms": 106.11782399064396,
+          "collection_elapsed_ms": 106.19060198951047,
+          "lines": 41,
+          "bytes": 708
+        },
+        {
+          "turn": 19,
+          "status": "ok",
+          "response_ms": 111.78884199762251,
+          "collection_elapsed_ms": 111.88034698716365,
+          "lines": 40,
+          "bytes": 614
+        },
+        {
+          "turn": 20,
+          "status": "ok",
+          "response_ms": 179.1413089958951,
+          "collection_elapsed_ms": 179.26331699709408,
+          "lines": 40,
+          "bytes": 696
+        },
+        {
+          "turn": 21,
+          "status": "ok",
+          "response_ms": 109.7813319938723,
+          "collection_elapsed_ms": 109.88756199367344,
+          "lines": 39,
+          "bytes": 677
+        },
+        {
+          "turn": 22,
+          "status": "ok",
+          "response_ms": 112.75135100004263,
+          "collection_elapsed_ms": 112.82764199131634,
+          "lines": 30,
+          "bytes": 544
+        },
+        {
+          "turn": 23,
+          "status": "ok",
+          "response_ms": 174.10466200090013,
+          "collection_elapsed_ms": 174.24171599850524,
+          "lines": 35,
+          "bytes": 621
+        },
+        {
+          "turn": 24,
+          "status": "ok",
+          "response_ms": 110.10534099477809,
+          "collection_elapsed_ms": 110.16270499385428,
+          "lines": 38,
+          "bytes": 671
+        },
+        {
+          "turn": 25,
+          "status": "ok",
+          "response_ms": 112.0024850097252,
+          "collection_elapsed_ms": 112.07730599562638,
+          "lines": 29,
+          "bytes": 531
+        },
+        {
+          "turn": 26,
+          "status": "ok",
+          "response_ms": 175.10937500628643,
+          "collection_elapsed_ms": 175.15698399802204,
+          "lines": 33,
+          "bytes": 584
+        },
+        {
+          "turn": 27,
+          "status": "ok",
+          "response_ms": 107.19744800007902,
+          "collection_elapsed_ms": 107.26795399386901,
+          "lines": 37,
+          "bytes": 644
+        },
+        {
+          "turn": 28,
+          "status": "ok",
+          "response_ms": 110.82054299185984,
+          "collection_elapsed_ms": 110.87898298865184,
+          "lines": 41,
+          "bytes": 707
+        },
+        {
+          "turn": 29,
+          "status": "ok",
+          "response_ms": 179.85915899043903,
+          "collection_elapsed_ms": 180.12454299605452,
+          "lines": 38,
+          "bytes": 657
+        },
+        {
+          "turn": 30,
+          "status": "ok",
+          "response_ms": 108.0915499915136,
+          "collection_elapsed_ms": 108.23179400176741,
+          "lines": 37,
+          "bytes": 584
+        },
+        {
+          "turn": 31,
+          "status": "ok",
+          "response_ms": 112.33543200069107,
+          "collection_elapsed_ms": 112.40625799109694,
+          "lines": 39,
+          "bytes": 675
+        },
+        {
+          "turn": 32,
+          "status": "ok",
+          "response_ms": 177.11136399884708,
+          "collection_elapsed_ms": 177.1603649976896,
+          "lines": 40,
+          "bytes": 694
+        },
+        {
+          "turn": 33,
+          "status": "ok",
+          "response_ms": 106.40109400264919,
+          "collection_elapsed_ms": 106.46066900517326,
+          "lines": 43,
+          "bytes": 679
+        },
+        {
+          "turn": 34,
+          "status": "ok",
+          "response_ms": 106.75253500812687,
+          "collection_elapsed_ms": 106.82108699984383,
+          "lines": 40,
+          "bytes": 627
+        },
+        {
+          "turn": 35,
+          "status": "ok",
+          "response_ms": 184.5534900057828,
+          "collection_elapsed_ms": 184.60643000435084,
+          "lines": 31,
+          "bytes": 548
+        },
+        {
+          "turn": 36,
+          "status": "ok",
+          "response_ms": 106.34375900554005,
+          "collection_elapsed_ms": 106.39346000971273,
+          "lines": 37,
+          "bytes": 583
+        },
+        {
+          "turn": 37,
+          "status": "ok",
+          "response_ms": 112.19699701177888,
+          "collection_elapsed_ms": 112.26173400063999,
+          "lines": 27,
+          "bytes": 487
+        },
+        {
+          "turn": 38,
+          "status": "ok",
+          "response_ms": 101.34878801181912,
+          "collection_elapsed_ms": 101.41681801178493,
+          "lines": 32,
+          "bytes": 566
+        },
+        {
+          "turn": 39,
+          "status": "ok",
+          "response_ms": 95.6504740024684,
+          "collection_elapsed_ms": 95.69793500122614,
+          "lines": 27,
+          "bytes": 494
+        },
+        {
+          "turn": 40,
+          "status": "ok",
+          "response_ms": 99.36187700077426,
+          "collection_elapsed_ms": 99.42266299913172,
+          "lines": 38,
+          "bytes": 668
+        },
+        {
+          "turn": 41,
+          "status": "ok",
+          "response_ms": 180.98247500893194,
+          "collection_elapsed_ms": 181.03124400659,
+          "lines": 28,
+          "bytes": 512
+        },
+        {
+          "turn": 42,
+          "status": "ok",
+          "response_ms": 111.2544800125761,
+          "collection_elapsed_ms": 111.33712400624063,
+          "lines": 23,
+          "bytes": 428
+        },
+        {
+          "turn": 43,
+          "status": "ok",
+          "response_ms": 186.96695499238558,
+          "collection_elapsed_ms": 187.06035999639425,
+          "lines": 21,
+          "bytes": 398
+        },
+        {
+          "turn": 44,
+          "status": "ok",
+          "response_ms": 107.08997100300621,
+          "collection_elapsed_ms": 107.13385199778713,
+          "lines": 35,
+          "bytes": 611
+        },
+        {
+          "turn": 45,
+          "status": "ok",
+          "response_ms": 112.19589100801386,
+          "collection_elapsed_ms": 112.35318100079894,
+          "lines": 33,
+          "bytes": 577
+        },
+        {
+          "turn": 46,
+          "status": "ok",
+          "response_ms": 178.4062829974573,
+          "collection_elapsed_ms": 178.4849760006182,
+          "lines": 31,
+          "bytes": 546
+        },
+        {
+          "turn": 47,
+          "status": "ok",
+          "response_ms": 107.04934499517549,
+          "collection_elapsed_ms": 107.11989100673236,
+          "lines": 32,
+          "bytes": 562
+        },
+        {
+          "turn": 48,
+          "status": "ok",
+          "response_ms": 112.4424059962621,
+          "collection_elapsed_ms": 112.49653399863746,
+          "lines": 35,
+          "bytes": 606
+        },
+        {
+          "turn": 49,
+          "status": "ok",
+          "response_ms": 178.47728700144216,
+          "collection_elapsed_ms": 178.52334400231484,
+          "lines": 36,
+          "bytes": 618
+        },
+        {
+          "turn": 50,
+          "status": "ok",
+          "response_ms": 105.85623799124733,
+          "collection_elapsed_ms": 105.9238519956125,
+          "lines": 35,
+          "bytes": 605
+        },
+        {
+          "turn": 51,
+          "status": "ok",
+          "response_ms": 110.3622560040094,
+          "collection_elapsed_ms": 110.44246800884139,
+          "lines": 37,
+          "bytes": 638
+        },
+        {
+          "turn": 52,
+          "status": "ok",
+          "response_ms": 181.5056449995609,
+          "collection_elapsed_ms": 181.5587540040724,
+          "lines": 32,
+          "bytes": 567
+        },
+        {
+          "turn": 53,
+          "status": "ok",
+          "response_ms": 106.9662930094637,
+          "collection_elapsed_ms": 107.03717700380366,
+          "lines": 30,
+          "bytes": 533
+        },
+        {
+          "turn": 54,
+          "status": "ok",
+          "response_ms": 112.54845399525948,
+          "collection_elapsed_ms": 112.62558400630951,
+          "lines": 33,
+          "bytes": 584
+        },
+        {
+          "turn": 55,
+          "status": "ok",
+          "response_ms": 178.86767799791414,
+          "collection_elapsed_ms": 178.91298700124025,
+          "lines": 33,
+          "bytes": 580
+        },
+        {
+          "turn": 56,
+          "status": "ok",
+          "response_ms": 107.85806199419312,
+          "collection_elapsed_ms": 107.91906398662832,
+          "lines": 43,
+          "bytes": 729
+        },
+        {
+          "turn": 57,
+          "status": "ok",
+          "response_ms": 190.25093199161347,
+          "collection_elapsed_ms": 190.38615399040282,
+          "lines": 36,
+          "bytes": 541
+        },
+        {
+          "turn": 58,
+          "status": "ok",
+          "response_ms": 106.06554099649657,
+          "collection_elapsed_ms": 106.12524600583129,
+          "lines": 34,
+          "bytes": 515
+        },
+        {
+          "turn": 59,
+          "status": "ok",
+          "response_ms": 112.78365200269036,
+          "collection_elapsed_ms": 112.8463609929895,
+          "lines": 45,
+          "bytes": 761
+        },
+        {
+          "turn": 60,
+          "status": "ok",
+          "response_ms": 178.7806369975442,
+          "collection_elapsed_ms": 178.83248800353613,
+          "lines": 42,
+          "bytes": 713
+        },
+        {
+          "turn": 61,
+          "status": "ok",
+          "response_ms": 105.85639900818933,
+          "collection_elapsed_ms": 105.90448099537753,
+          "lines": 36,
+          "bytes": 636
+        },
+        {
+          "turn": 62,
+          "status": "ok",
+          "response_ms": 112.1526030037785,
+          "collection_elapsed_ms": 112.24171100184321,
+          "lines": 55,
+          "bytes": 916
+        },
+        {
+          "turn": 63,
+          "status": "ok",
+          "response_ms": 179.87942299805582,
+          "collection_elapsed_ms": 179.94273400108796,
+          "lines": 45,
+          "bytes": 762
+        },
+        {
+          "turn": 64,
+          "status": "ok",
+          "response_ms": 108.13987799338065,
+          "collection_elapsed_ms": 108.19494799943641,
+          "lines": 40,
+          "bytes": 692
+        },
+        {
+          "turn": 65,
+          "status": "ok",
+          "response_ms": 111.75754999567289,
+          "collection_elapsed_ms": 111.82342299434822,
+          "lines": 35,
+          "bytes": 551
+        },
+        {
+          "turn": 66,
+          "status": "ok",
+          "response_ms": 177.67585501133,
+          "collection_elapsed_ms": 177.7315700019244,
+          "lines": 30,
+          "bytes": 544
+        },
+        {
+          "turn": 67,
+          "status": "ok",
+          "response_ms": 105.76463500910904,
+          "collection_elapsed_ms": 105.81095700035803,
+          "lines": 30,
+          "bytes": 541
+        },
+        {
+          "turn": 68,
+          "status": "ok",
+          "response_ms": 113.02369700570125,
+          "collection_elapsed_ms": 113.09914400044363,
+          "lines": 36,
+          "bytes": 637
+        },
+        {
+          "turn": 69,
+          "status": "ok",
+          "response_ms": 179.19943400193006,
+          "collection_elapsed_ms": 179.24437200417742,
+          "lines": 31,
+          "bytes": 554
+        },
+        {
+          "turn": 70,
+          "status": "ok",
+          "response_ms": 106.33437099750154,
+          "collection_elapsed_ms": 106.38176200154703,
+          "lines": 38,
+          "bytes": 573
+        },
+        {
+          "turn": 71,
+          "status": "ok",
+          "response_ms": 110.59558899432886,
+          "collection_elapsed_ms": 110.65596899425145,
+          "lines": 33,
+          "bytes": 587
+        },
+        {
+          "turn": 72,
+          "status": "ok",
+          "response_ms": 181.2569670000812,
+          "collection_elapsed_ms": 181.35980899387505,
+          "lines": 31,
+          "bytes": 484
+        },
+        {
+          "turn": 73,
+          "status": "ok",
+          "response_ms": 105.75253699789755,
+          "collection_elapsed_ms": 105.79506499925628,
+          "lines": 26,
+          "bytes": 478
+        },
+        {
+          "turn": 74,
+          "status": "ok",
+          "response_ms": 111.32283699407708,
+          "collection_elapsed_ms": 111.39798900694586,
+          "lines": 39,
+          "bytes": 677
+        },
+        {
+          "turn": 75,
+          "status": "ok",
+          "response_ms": 181.1806999903638,
+          "collection_elapsed_ms": 181.25966200022958,
+          "lines": 32,
+          "bytes": 571
+        },
+        {
+          "turn": 76,
+          "status": "ok",
+          "response_ms": 105.32234000856988,
+          "collection_elapsed_ms": 105.37671300699003,
+          "lines": 39,
+          "bytes": 578
+        },
+        {
+          "turn": 77,
+          "status": "ok",
+          "response_ms": 110.5672669946216,
+          "collection_elapsed_ms": 110.6720609968761,
+          "lines": 39,
+          "bytes": 676
+        },
+        {
+          "turn": 78,
+          "status": "ok",
+          "response_ms": 107.2137409937568,
+          "collection_elapsed_ms": 107.36647598969284,
+          "lines": 36,
+          "bytes": 628
+        },
+        {
+          "turn": 79,
+          "status": "ok",
+          "response_ms": 174.33591200096998,
+          "collection_elapsed_ms": 174.38821999530774,
+          "lines": 27,
+          "bytes": 483
+        },
+        {
+          "turn": 80,
+          "status": "ok",
+          "response_ms": 105.59944000851829,
+          "collection_elapsed_ms": 105.65180900448468,
+          "lines": 41,
+          "bytes": 699
+        },
+        {
+          "turn": 81,
+          "status": "ok",
+          "response_ms": 111.44405900267884,
+          "collection_elapsed_ms": 111.50561600516085,
+          "lines": 34,
+          "bytes": 597
+        },
+        {
+          "turn": 82,
+          "status": "ok",
+          "response_ms": 180.79923099139705,
+          "collection_elapsed_ms": 180.89938499906566,
+          "lines": 43,
+          "bytes": 669
+        },
+        {
+          "turn": 83,
+          "status": "ok",
+          "response_ms": 111.30620099720545,
+          "collection_elapsed_ms": 111.38699999719393,
+          "lines": 62,
+          "bytes": 1017
+        },
+        {
+          "turn": 84,
+          "status": "ok",
+          "response_ms": 111.00977299793158,
+          "collection_elapsed_ms": 111.10753600951284,
+          "lines": 46,
+          "bytes": 788
+        },
+        {
+          "turn": 85,
+          "status": "ok",
+          "response_ms": 175.6538769986946,
+          "collection_elapsed_ms": 175.70988601073623,
+          "lines": 52,
+          "bytes": 884
+        }
+      ],
+      "scope": {
+        "pid": 889800,
+        "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-siphon-K-23400-Y-955edeb02f.scope",
+        "unit": "yk-quarter-20261001-quarter-siphon-K-23400-Y-955edeb02f.scope",
+        "limits": {
+          "cpu.max": "25000 100000",
+          "cpu.max.burst": "0",
+          "cpu.stat": "usage_usec 27616\nuser_usec 24749\nsystem_usec 2867\nnice_usec 0\ncore_sched.force_idle_usec 0\nnr_periods 1\nnr_throttled 1\nthrottled_usec 72619\nnr_bursts 0\nburst_usec 0",
+          "memory.max": "402653184",
+          "memory.peak": "8855552",
+          "cgroup.procs": "889800",
+          "cpuset.cpus.effective": null
+        },
+        "ancestors": [
+          {
+            "path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-siphon-K-23400-Y-955edeb02f.scope",
+            "cpu.max": "25000 100000"
+          },
+          {
+            "path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice",
+            "cpu.max": "max 100000"
+          },
+          {
+            "path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service",
+            "cpu.max": "max 100000"
+          },
+          {
+            "path": "/sys/fs/cgroup/user.slice/user-1000.slice",
+            "cpu.max": "max 100000"
+          },
+          {
+            "path": "/sys/fs/cgroup/user.slice",
+            "cpu.max": "max 100000"
+          },
+          {
+            "path": "/sys/fs/cgroup",
+            "cpu.max": null
+          }
+        ],
+        "command": [
+          "/tmp/yk-latest-teammates-arena-20261001/bin/v8"
+        ],
+        "rlimit_as": [
+          402653184,
+          402653184
+        ],
+        "final_metrics": {
+          "cpu.max": "25000 100000",
+          "cpu.stat": "usage_usec 2710455\nuser_usec 2706566\nsystem_usec 3888\nnice_usec 0\ncore_sched.force_idle_usec 0\nnr_periods 109\nnr_throttled 109\nthrottled_usec 8065040\nnr_bursts 0\nburst_usec 0",
+          "memory.current": "2195456",
+          "memory.peak": "8855552",
+          "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 0",
+          "cgroup.procs": "889800"
+        },
+        "cleanup": {
+          "unit": "yk-quarter-20261001-quarter-siphon-K-23400-Y-955edeb02f.scope",
+          "operations": [
+            {
+              "argv": [
+                "kill",
+                "--kill-whom=all",
+                "--signal=KILL",
+                "yk-quarter-20261001-quarter-siphon-K-23400-Y-955edeb02f.scope"
+              ],
+              "returncode": 0,
+              "stdout": "",
+              "stderr": ""
+            },
+            {
+              "argv": [
+                "stop",
+                "yk-quarter-20261001-quarter-siphon-K-23400-Y-955edeb02f.scope"
+              ],
+              "returncode": 5,
+              "stdout": "",
+              "stderr": "Failed to stop yk-quarter-20261001-quarter-siphon-K-23400-Y-955edeb02f.scope: Unit yk-quarter-20261001-quarter-siphon-K-23400-Y-955edeb02f.scope not loaded.\n"
+            }
+          ],
+          "load_state": "not-found",
+          "cgroup_path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-siphon-K-23400-Y-955edeb02f.scope",
+          "cgroup_removed": true,
+          "ok": true
+        }
+      }
+    },
+    "K": {
+      "name": "siphon",
+      "responses": [
+        {
+          "turn": 1,
+          "status": "ok",
+          "response_ms": 112.18135899980552,
+          "collection_elapsed_ms": 126.16185900697019,
+          "lines": 4,
+          "bytes": 133
+        },
+        {
+          "turn": 2,
+          "status": "ok",
+          "response_ms": 0.2981849975185469,
+          "collection_elapsed_ms": 97.06243299297057,
+          "lines": 7,
+          "bytes": 177
+        },
+        {
+          "turn": 3,
+          "status": "ok",
+          "response_ms": 0.5060539988335222,
+          "collection_elapsed_ms": 102.81319799833,
+          "lines": 9,
+          "bytes": 210
+        },
+        {
+          "turn": 4,
+          "status": "ok",
+          "response_ms": 0.37307399907149374,
+          "collection_elapsed_ms": 104.0425170067465,
+          "lines": 9,
+          "bytes": 215
+        },
+        {
+          "turn": 5,
+          "status": "ok",
+          "response_ms": 0.26566100132185966,
+          "collection_elapsed_ms": 99.37265201006085,
+          "lines": 10,
+          "bytes": 231
+        },
+        {
+          "turn": 6,
+          "status": "ok",
+          "response_ms": 0.29208599880803376,
+          "collection_elapsed_ms": 99.86231099173892,
+          "lines": 11,
+          "bytes": 247
+        },
+        {
+          "turn": 7,
+          "status": "ok",
+          "response_ms": 0.41539600351825356,
+          "collection_elapsed_ms": 94.50969600584358,
+          "lines": 12,
+          "bytes": 263
+        },
+        {
+          "turn": 8,
+          "status": "ok",
+          "response_ms": 0.5466599977808073,
+          "collection_elapsed_ms": 100.85906700987834,
+          "lines": 12,
+          "bytes": 262
+        },
+        {
+          "turn": 9,
+          "status": "ok",
+          "response_ms": 0.4354430129751563,
+          "collection_elapsed_ms": 99.57716100325342,
+          "lines": 13,
+          "bytes": 279
+        },
+        {
+          "turn": 10,
+          "status": "ok",
+          "response_ms": 0.27808299637399614,
+          "collection_elapsed_ms": 99.05990300467238,
+          "lines": 14,
+          "bytes": 295
+        },
+        {
+          "turn": 11,
+          "status": "ok",
+          "response_ms": 0.49762400158215314,
+          "collection_elapsed_ms": 103.55531099776272,
+          "lines": 16,
+          "bytes": 325
+        },
+        {
+          "turn": 12,
+          "status": "ok",
+          "response_ms": 0.4762339958688244,
+          "collection_elapsed_ms": 96.3414500001818,
+          "lines": 18,
+          "bytes": 358
+        },
+        {
+          "turn": 13,
+          "status": "ok",
+          "response_ms": 0.49380099517293274,
+          "collection_elapsed_ms": 179.27562199474778,
+          "lines": 20,
+          "bytes": 391
+        },
+        {
+          "turn": 14,
+          "status": "ok",
+          "response_ms": 0.28065200604032725,
+          "collection_elapsed_ms": 107.625894001103,
+          "lines": 20,
+          "bytes": 391
+        },
+        {
+          "turn": 15,
+          "status": "ok",
+          "response_ms": 0.4376539873192087,
+          "collection_elapsed_ms": 111.29550499026664,
+          "lines": 22,
+          "bytes": 419
+        },
+        {
+          "turn": 16,
+          "status": "ok",
+          "response_ms": 0.537258994881995,
+          "collection_elapsed_ms": 101.75539199553896,
+          "lines": 24,
+          "bytes": 449
+        },
+        {
+          "turn": 17,
+          "status": "ok",
+          "response_ms": 0.5837350036017597,
+          "collection_elapsed_ms": 175.48582999734208,
+          "lines": 29,
+          "bytes": 532
+        },
+        {
+          "turn": 18,
+          "status": "ok",
+          "response_ms": 0.4927340050926432,
+          "collection_elapsed_ms": 105.96742101188283,
+          "lines": 26,
+          "bytes": 485
+        },
+        {
+          "turn": 19,
+          "status": "ok",
+          "response_ms": 0.5315029993653297,
+          "collection_elapsed_ms": 111.62650800542906,
+          "lines": 26,
+          "bytes": 485
+        },
+        {
+          "turn": 20,
+          "status": "ok",
+          "response_ms": 0.4012909921584651,
+          "collection_elapsed_ms": 179.0580059896456,
+          "lines": 25,
+          "bytes": 469
+        },
+        {
+          "turn": 21,
+          "status": "ok",
+          "response_ms": 0.6080390012357384,
+          "collection_elapsed_ms": 109.69877000025008,
+          "lines": 26,
+          "bytes": 481
+        },
+        {
+          "turn": 22,
+          "status": "ok",
+          "response_ms": 0.8052290068008006,
+          "collection_elapsed_ms": 112.60623201087583,
+          "lines": 23,
+          "bytes": 434
+        },
+        {
+          "turn": 23,
+          "status": "ok",
+          "response_ms": 0.4680900019593537,
+          "collection_elapsed_ms": 173.92522899899632,
+          "lines": 22,
+          "bytes": 419
+        },
+        {
+          "turn": 24,
+          "status": "ok",
+          "response_ms": 0.4354289994807914,
+          "collection_elapsed_ms": 109.87566401308868,
+          "lines": 22,
+          "bytes": 417
+        },
+        {
+          "turn": 25,
+          "status": "ok",
+          "response_ms": 0.5013629997847602,
+          "collection_elapsed_ms": 111.78081500111148,
+          "lines": 25,
+          "bytes": 460
+        },
+        {
+          "turn": 26,
+          "status": "ok",
+          "response_ms": 0.691408000420779,
+          "collection_elapsed_ms": 174.83940000238363,
+          "lines": 24,
+          "bytes": 448
+        },
+        {
+          "turn": 27,
+          "status": "ok",
+          "response_ms": 0.44989699381403625,
+          "collection_elapsed_ms": 107.03097199439071,
+          "lines": 27,
+          "bytes": 491
+        },
+        {
+          "turn": 28,
+          "status": "ok",
+          "response_ms": 0.8354629972018301,
+          "collection_elapsed_ms": 110.60606900718994,
+          "lines": 26,
+          "bytes": 479
+        },
+        {
+          "turn": 29,
+          "status": "ok",
+          "response_ms": 0.5011350003769621,
+          "collection_elapsed_ms": 179.82671500067227,
+          "lines": 25,
+          "bytes": 464
+        },
+        {
+          "turn": 30,
+          "status": "ok",
+          "response_ms": 0.41538799996487796,
+          "collection_elapsed_ms": 107.75230299623217,
+          "lines": 24,
+          "bytes": 444
+        },
+        {
+          "turn": 31,
+          "status": "ok",
+          "response_ms": 0.5134319944772869,
+          "collection_elapsed_ms": 112.1162799972808,
+          "lines": 19,
+          "bytes": 372
+        },
+        {
+          "turn": 32,
+          "status": "ok",
+          "response_ms": 0.5441469984361902,
+          "collection_elapsed_ms": 176.89016499207355,
+          "lines": 18,
+          "bytes": 356
+        },
+        {
+          "turn": 33,
+          "status": "ok",
+          "response_ms": 0.331729999743402,
+          "collection_elapsed_ms": 106.29591200267896,
+          "lines": 14,
+          "bytes": 290
+        },
+        {
+          "turn": 34,
+          "status": "ok",
+          "response_ms": 0.6007140036672354,
+          "collection_elapsed_ms": 106.61463299766183,
+          "lines": 14,
+          "bytes": 292
+        },
+        {
+          "turn": 35,
+          "status": "ok",
+          "response_ms": 0.5156190018169582,
+          "collection_elapsed_ms": 184.35464300273452,
+          "lines": 15,
+          "bytes": 308
+        },
+        {
+          "turn": 36,
+          "status": "ok",
+          "response_ms": 0.3411070065340027,
+          "collection_elapsed_ms": 106.15219300962053,
+          "lines": 13,
+          "bytes": 277
+        },
+        {
+          "turn": 37,
+          "status": "ok",
+          "response_ms": 0.3852660011034459,
+          "collection_elapsed_ms": 112.04725000425242,
+          "lines": 13,
+          "bytes": 280
+        },
+        {
+          "turn": 38,
+          "status": "ok",
+          "response_ms": 0.4586139984894544,
+          "collection_elapsed_ms": 101.19282000232488,
+          "lines": 14,
+          "bytes": 294
+        },
+        {
+          "turn": 39,
+          "status": "ok",
+          "response_ms": 0.5636239948216826,
+          "collection_elapsed_ms": 95.51464299147483,
+          "lines": 17,
+          "bytes": 340
+        },
+        {
+          "turn": 40,
+          "status": "ok",
+          "response_ms": 0.5435810016933829,
+          "collection_elapsed_ms": 99.17164800572209,
+          "lines": 16,
+          "bytes": 325
+        },
+        {
+          "turn": 41,
+          "status": "ok",
+          "response_ms": 0.42420999670866877,
+          "collection_elapsed_ms": 180.77560600067955,
+          "lines": 16,
+          "bytes": 327
+        },
+        {
+          "turn": 42,
+          "status": "ok",
+          "response_ms": 0.46247700811363757,
+          "collection_elapsed_ms": 111.15739800152369,
+          "lines": 19,
+          "bytes": 374
+        },
+        {
+          "turn": 43,
+          "status": "ok",
+          "response_ms": 0.5742850044043735,
+          "collection_elapsed_ms": 186.77896600274835,
+          "lines": 18,
+          "bytes": 360
+        },
+        {
+          "turn": 44,
+          "status": "ok",
+          "response_ms": 0.5510570044862106,
+          "collection_elapsed_ms": 106.87139201036189,
+          "lines": 19,
+          "bytes": 377
+        },
+        {
+          "turn": 45,
+          "status": "ok",
+          "response_ms": 0.3829549968941137,
+          "collection_elapsed_ms": 112.20336900441907,
+          "lines": 22,
+          "bytes": 427
+        },
+        {
+          "turn": 46,
+          "status": "ok",
+          "response_ms": 0.5959510017419234,
+          "collection_elapsed_ms": 178.2508640026208,
+          "lines": 22,
+          "bytes": 426
+        },
+        {
+          "turn": 47,
+          "status": "ok",
+          "response_ms": 0.5158720014151186,
+          "collection_elapsed_ms": 106.89176199957728,
+          "lines": 20,
+          "bytes": 390
+        },
+        {
+          "turn": 48,
+          "status": "ok",
+          "response_ms": 0.5463429988594726,
+          "collection_elapsed_ms": 112.2584149998147,
+          "lines": 15,
+          "bytes": 308
+        },
+        {
+          "turn": 49,
+          "status": "ok",
+          "response_ms": 0.45075301022734493,
+          "collection_elapsed_ms": 178.26770200917963,
+          "lines": 14,
+          "bytes": 292
+        },
+        {
+          "turn": 50,
+          "status": "ok",
+          "response_ms": 0.46868300705682486,
+          "collection_elapsed_ms": 105.7654430042021,
+          "lines": 15,
+          "bytes": 311
+        },
+        {
+          "turn": 51,
+          "status": "ok",
+          "response_ms": 0.5664410127792507,
+          "collection_elapsed_ms": 110.21123500540853,
+          "lines": 20,
+          "bytes": 398
+        },
+        {
+          "turn": 52,
+          "status": "ok",
+          "response_ms": 0.49202400259673595,
+          "collection_elapsed_ms": 181.41279900737572,
+          "lines": 18,
+          "bytes": 365
+        },
+        {
+          "turn": 53,
+          "status": "ok",
+          "response_ms": 0.5309789994498715,
+          "collection_elapsed_ms": 106.76747799152508,
+          "lines": 17,
+          "bytes": 347
+        },
+        {
+          "turn": 54,
+          "status": "ok",
+          "response_ms": 0.4181380063528195,
+          "collection_elapsed_ms": 112.13467600464355,
+          "lines": 15,
+          "bytes": 316
+        },
+        {
+          "turn": 55,
+          "status": "ok",
+          "response_ms": 0.3247339918743819,
+          "collection_elapsed_ms": 178.58947499189526,
+          "lines": 17,
+          "bytes": 344
+        },
+        {
+          "turn": 56,
+          "status": "ok",
+          "response_ms": 0.48820000665728003,
+          "collection_elapsed_ms": 107.6870679971762,
+          "lines": 18,
+          "bytes": 361
+        },
+        {
+          "turn": 57,
+          "status": "ok",
+          "response_ms": 0.5570729990722612,
+          "collection_elapsed_ms": 190.1287459913874,
+          "lines": 19,
+          "bytes": 375
+        },
+        {
+          "turn": 58,
+          "status": "ok",
+          "response_ms": 0.36901800194755197,
+          "collection_elapsed_ms": 105.78634899866302,
+          "lines": 18,
+          "bytes": 360
+        },
+        {
+          "turn": 59,
+          "status": "ok",
+          "response_ms": 0.529450990143232,
+          "collection_elapsed_ms": 112.52492100175004,
+          "lines": 17,
+          "bytes": 342
+        },
+        {
+          "turn": 60,
+          "status": "ok",
+          "response_ms": 0.40081200131680816,
+          "collection_elapsed_ms": 178.63996200321708,
+          "lines": 19,
+          "bytes": 378
+        },
+        {
+          "turn": 61,
+          "status": "ok",
+          "response_ms": 0.4876530001638457,
+          "collection_elapsed_ms": 105.66103299788665,
+          "lines": 18,
+          "bytes": 361
+        },
+        {
+          "turn": 62,
+          "status": "ok",
+          "response_ms": 0.6641700019827113,
+          "collection_elapsed_ms": 112.0194840041222,
+          "lines": 15,
+          "bytes": 315
+        },
+        {
+          "turn": 63,
+          "status": "ok",
+          "response_ms": 0.460544993984513,
+          "collection_elapsed_ms": 179.66077900200617,
+          "lines": 16,
+          "bytes": 331
+        },
+        {
+          "turn": 64,
+          "status": "ok",
+          "response_ms": 0.33368899312336,
+          "collection_elapsed_ms": 107.91072899883147,
+          "lines": 15,
+          "bytes": 313
+        },
+        {
+          "turn": 65,
+          "status": "ok",
+          "response_ms": 0.5276970041450113,
+          "collection_elapsed_ms": 111.6028499964159,
+          "lines": 16,
+          "bytes": 325
+        },
+        {
+          "turn": 66,
+          "status": "ok",
+          "response_ms": 0.5103959992993623,
+          "collection_elapsed_ms": 177.39072199037764,
+          "lines": 14,
+          "bytes": 296
+        },
+        {
+          "turn": 67,
+          "status": "ok",
+          "response_ms": 0.4444369988050312,
+          "collection_elapsed_ms": 105.58368099736981,
+          "lines": 15,
+          "bytes": 311
+        },
+        {
+          "turn": 68,
+          "status": "ok",
+          "response_ms": 0.3937559959013015,
+          "collection_elapsed_ms": 112.8382359893294,
+          "lines": 12,
+          "bytes": 261
+        },
+        {
+          "turn": 69,
+          "status": "ok",
+          "response_ms": 0.45209300878923386,
+          "collection_elapsed_ms": 179.08166701090522,
+          "lines": 11,
+          "bytes": 242
+        },
+        {
+          "turn": 70,
+          "status": "ok",
+          "response_ms": 0.5717120075132698,
+          "collection_elapsed_ms": 106.15057800896466,
+          "lines": 15,
+          "bytes": 306
+        },
+        {
+          "turn": 71,
+          "status": "ok",
+          "response_ms": 0.4948339919792488,
+          "collection_elapsed_ms": 110.4194869985804,
+          "lines": 16,
+          "bytes": 327
+        },
+        {
+          "turn": 72,
+          "status": "ok",
+          "response_ms": 0.5364440003177151,
+          "collection_elapsed_ms": 181.11290100205224,
+          "lines": 14,
+          "bytes": 294
+        },
+        {
+          "turn": 73,
+          "status": "ok",
+          "response_ms": 0.32123399432748556,
+          "collection_elapsed_ms": 105.62522899999749,
+          "lines": 12,
+          "bytes": 260
+        },
+        {
+          "turn": 74,
+          "status": "ok",
+          "response_ms": 0.42930500057991594,
+          "collection_elapsed_ms": 111.09058499278035,
+          "lines": 12,
+          "bytes": 259
+        },
+        {
+          "turn": 75,
+          "status": "ok",
+          "response_ms": 0.31697699159849435,
+          "collection_elapsed_ms": 180.98163898685016,
+          "lines": 13,
+          "bytes": 275
+        },
+        {
+          "turn": 76,
+          "status": "ok",
+          "response_ms": 0.4620560066541657,
+          "collection_elapsed_ms": 105.1457260036841,
+          "lines": 16,
+          "bytes": 325
+        },
+        {
+          "turn": 77,
+          "status": "ok",
+          "response_ms": 0.5360850045690313,
+          "collection_elapsed_ms": 110.4415930021787,
+          "lines": 19,
+          "bytes": 371
+        },
+        {
+          "turn": 78,
+          "status": "ok",
+          "response_ms": 0.5167609924683347,
+          "collection_elapsed_ms": 106.97346099186689,
+          "lines": 13,
+          "bytes": 276
+        },
+        {
+          "turn": 79,
+          "status": "ok",
+          "response_ms": 0.4058719932800159,
+          "collection_elapsed_ms": 174.05269500159193,
+          "lines": 15,
+          "bytes": 308
+        },
+        {
+          "turn": 80,
+          "status": "ok",
+          "response_ms": 0.3177519974997267,
+          "collection_elapsed_ms": 105.51055200630799,
+          "lines": 12,
+          "bytes": 262
+        },
+        {
+          "turn": 81,
+          "status": "ok",
+          "response_ms": 0.5967469915049151,
+          "collection_elapsed_ms": 111.20766100066248,
+          "lines": 13,
+          "bytes": 275
+        },
+        {
+          "turn": 82,
+          "status": "ok",
+          "response_ms": 0.4042799992021173,
+          "collection_elapsed_ms": 180.67218799842522,
+          "lines": 15,
+          "bytes": 307
+        },
+        {
+          "turn": 83,
+          "status": "ok",
+          "response_ms": 0.45694998698309064,
+          "collection_elapsed_ms": 111.07485499815084,
+          "lines": 18,
+          "bytes": 356
+        },
+        {
+          "turn": 84,
+          "status": "ok",
+          "response_ms": 0.6658820057054982,
+          "collection_elapsed_ms": 110.82199700467754,
+          "lines": 17,
+          "bytes": 345
+        },
+        {
+          "turn": 85,
+          "status": "ok",
+          "response_ms": 0.5413600010797381,
+          "collection_elapsed_ms": 175.43085500074085,
+          "lines": 19,
+          "bytes": 377
+        }
+      ],
+      "scope": {
+        "pid": 889802,
+        "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-siphon-K-23400-K-a40310acfa.scope",
+        "unit": "yk-quarter-20261001-quarter-siphon-K-23400-K-a40310acfa.scope",
+        "limits": {
+          "cpu.max": "25000 100000",
+          "cpu.max.burst": "0",
+          "cpu.stat": "usage_usec 28031\nuser_usec 25100\nsystem_usec 2931\nnice_usec 0\ncore_sched.force_idle_usec 0\nnr_periods 1\nnr_throttled 1\nthrottled_usec 63289\nnr_bursts 0\nburst_usec 0",
+          "memory.max": "402653184",
+          "memory.peak": "9314304",
+          "cgroup.procs": "889802",
+          "cpuset.cpus.effective": null
+        },
+        "ancestors": [
+          {
+            "path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-siphon-K-23400-K-a40310acfa.scope",
+            "cpu.max": "25000 100000"
+          },
+          {
+            "path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice",
+            "cpu.max": "max 100000"
+          },
+          {
+            "path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service",
+            "cpu.max": "max 100000"
+          },
+          {
+            "path": "/sys/fs/cgroup/user.slice/user-1000.slice",
+            "cpu.max": "max 100000"
+          },
+          {
+            "path": "/sys/fs/cgroup/user.slice",
+            "cpu.max": "max 100000"
+          },
+          {
+            "path": "/sys/fs/cgroup",
+            "cpu.max": null
+          }
+        ],
+        "command": [
+          "/tmp/yk-latest-teammates-arena-20261001/bin/siphon"
+        ],
+        "rlimit_as": [
+          402653184,
+          402653184
+        ],
+        "final_metrics": {
+          "cpu.max": "25000 100000",
+          "cpu.stat": "usage_usec 43828\nuser_usec 40293\nsystem_usec 3535\nnice_usec 0\ncore_sched.force_idle_usec 0\nnr_periods 30\nnr_throttled 1\nthrottled_usec 63289\nnr_bursts 0\nburst_usec 0",
+          "memory.current": "528384",
+          "memory.peak": "9314304",
+          "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 0",
+          "cgroup.procs": "889802"
+        },
+        "cleanup": {
+          "unit": "yk-quarter-20261001-quarter-siphon-K-23400-K-a40310acfa.scope",
+          "operations": [
+            {
+              "argv": [
+                "kill",
+                "--kill-whom=all",
+                "--signal=KILL",
+                "yk-quarter-20261001-quarter-siphon-K-23400-K-a40310acfa.scope"
+              ],
+              "returncode": 0,
+              "stdout": "",
+              "stderr": ""
+            },
+            {
+              "argv": [
+                "stop",
+                "yk-quarter-20261001-quarter-siphon-K-23400-K-a40310acfa.scope"
+              ],
+              "returncode": 5,
+              "stdout": "",
+              "stderr": "Failed to stop yk-quarter-20261001-quarter-siphon-K-23400-K-a40310acfa.scope: Unit yk-quarter-20261001-quarter-siphon-K-23400-K-a40310acfa.scope not loaded.\n"
+            }
+          ],
+          "load_state": "not-found",
+          "cgroup_path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-siphon-K-23400-K-a40310acfa.scope",
+          "cgroup_removed": true,
+          "ok": true
+        }
+      }
+    }
+  },
+  "elapsed_seconds": 11.048245881000184
+}

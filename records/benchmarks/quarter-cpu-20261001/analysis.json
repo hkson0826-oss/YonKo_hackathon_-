@@ -1,0 +1,1895 @@
+{
+  "expected_games": 14,
+  "recorded_games": 14,
+  "unique_map_seeds": [
+    23400
+  ],
+  "completed": 14,
+  "errors": [],
+  "forfeits": [],
+  "scope_checks": [
+    {
+      "job": "quarter-siphon-Y-23400",
+      "side": "Y",
+      "bot": "siphon",
+      "scope": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-siphon-Y-23400-Y-0672e6bbbe.scope",
+      "initial_cpu_max": "25000 100000",
+      "final_cpu_max": "25000 100000",
+      "memory_max": "402653184",
+      "memory_peak": "9580544",
+      "cpu_stat": {
+        "usage_usec": 57848,
+        "user_usec": 48996,
+        "system_usec": 8851,
+        "nice_usec": 0,
+        "core_sched.force_idle_usec": 0,
+        "nr_periods": 48,
+        "nr_throttled": 1,
+        "throttled_usec": 49060,
+        "nr_bursts": 0,
+        "burst_usec": 0
+      },
+      "cleanup": {
+        "unit": "yk-quarter-20261001-quarter-siphon-Y-23400-Y-0672e6bbbe.scope",
+        "operations": [
+          {
+            "argv": [
+              "kill",
+              "--kill-whom=all",
+              "--signal=KILL",
+              "yk-quarter-20261001-quarter-siphon-Y-23400-Y-0672e6bbbe.scope"
+            ],
+            "returncode": 0,
+            "stdout": "",
+            "stderr": ""
+          },
+          {
+            "argv": [
+              "stop",
+              "yk-quarter-20261001-quarter-siphon-Y-23400-Y-0672e6bbbe.scope"
+            ],
+            "returncode": 5,
+            "stdout": "",
+            "stderr": "Failed to stop yk-quarter-20261001-quarter-siphon-Y-23400-Y-0672e6bbbe.scope: Unit yk-quarter-20261001-quarter-siphon-Y-23400-Y-0672e6bbbe.scope not loaded.\n"
+          }
+        ],
+        "load_state": "not-found",
+        "cgroup_path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-siphon-Y-23400-Y-0672e6bbbe.scope",
+        "cgroup_removed": true,
+        "ok": true
+      },
+      "independent_scopes_and_runner_outside": true
+    },
+    {
+      "job": "quarter-siphon-Y-23400",
+      "side": "K",
+      "bot": "v8",
+      "scope": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-siphon-Y-23400-K-3fd1eede82.scope",
+      "initial_cpu_max": "25000 100000",
+      "final_cpu_max": "25000 100000",
+      "memory_max": "402653184",
+      "memory_peak": "9326592",
+      "cpu_stat": {
+        "usage_usec": 5139103,
+        "user_usec": 5134153,
+        "system_usec": 4949,
+        "nice_usec": 0,
+        "core_sched.force_idle_usec": 0,
+        "nr_periods": 206,
+        "nr_throttled": 205,
+        "throttled_usec": 15091487,
+        "nr_bursts": 0,
+        "burst_usec": 0
+      },
+      "cleanup": {
+        "unit": "yk-quarter-20261001-quarter-siphon-Y-23400-K-3fd1eede82.scope",
+        "operations": [
+          {
+            "argv": [
+              "kill",
+              "--kill-whom=all",
+              "--signal=KILL",
+              "yk-quarter-20261001-quarter-siphon-Y-23400-K-3fd1eede82.scope"
+            ],
+            "returncode": 0,
+            "stdout": "",
+            "stderr": ""
+          },
+          {
+            "argv": [
+              "stop",
+              "yk-quarter-20261001-quarter-siphon-Y-23400-K-3fd1eede82.scope"
+            ],
+            "returncode": 5,
+            "stdout": "",
+            "stderr": "Failed to stop yk-quarter-20261001-quarter-siphon-Y-23400-K-3fd1eede82.scope: Unit yk-quarter-20261001-quarter-siphon-Y-23400-K-3fd1eede82.scope not loaded.\n"
+          }
+        ],
+        "load_state": "not-found",
+        "cgroup_path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-siphon-Y-23400-K-3fd1eede82.scope",
+        "cgroup_removed": true,
+        "ok": true
+      },
+      "independent_scopes_and_runner_outside": true
+    },
+    {
+      "job": "quarter-siphon-K-23400",
+      "side": "Y",
+      "bot": "v8",
+      "scope": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-siphon-K-23400-Y-955edeb02f.scope",
+      "initial_cpu_max": "25000 100000",
+      "final_cpu_max": "25000 100000",
+      "memory_max": "402653184",
+      "memory_peak": "8855552",
+      "cpu_stat": {
+        "usage_usec": 2710455,
+        "user_usec": 2706566,
+        "system_usec": 3888,
+        "nice_usec": 0,
+        "core_sched.force_idle_usec": 0,
+        "nr_periods": 109,
+        "nr_throttled": 109,
+        "throttled_usec": 8065040,
+        "nr_bursts": 0,
+        "burst_usec": 0
+      },
+      "cleanup": {
+        "unit": "yk-quarter-20261001-quarter-siphon-K-23400-Y-955edeb02f.scope",
+        "operations": [
+          {
+            "argv": [
+              "kill",
+              "--kill-whom=all",
+              "--signal=KILL",
+              "yk-quarter-20261001-quarter-siphon-K-23400-Y-955edeb02f.scope"
+            ],
+            "returncode": 0,
+            "stdout": "",
+            "stderr": ""
+          },
+          {
+            "argv": [
+              "stop",
+              "yk-quarter-20261001-quarter-siphon-K-23400-Y-955edeb02f.scope"
+            ],
+            "returncode": 5,
+            "stdout": "",
+            "stderr": "Failed to stop yk-quarter-20261001-quarter-siphon-K-23400-Y-955edeb02f.scope: Unit yk-quarter-20261001-quarter-siphon-K-23400-Y-955edeb02f.scope not loaded.\n"
+          }
+        ],
+        "load_state": "not-found",
+        "cgroup_path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-siphon-K-23400-Y-955edeb02f.scope",
+        "cgroup_removed": true,
+        "ok": true
+      },
+      "independent_scopes_and_runner_outside": true
+    },
+    {
+      "job": "quarter-siphon-K-23400",
+      "side": "K",
+      "bot": "siphon",
+      "scope": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-siphon-K-23400-K-a40310acfa.scope",
+      "initial_cpu_max": "25000 100000",
+      "final_cpu_max": "25000 100000",
+      "memory_max": "402653184",
+      "memory_peak": "9314304",
+      "cpu_stat": {
+        "usage_usec": 43828,
+        "user_usec": 40293,
+        "system_usec": 3535,
+        "nice_usec": 0,
+        "core_sched.force_idle_usec": 0,
+        "nr_periods": 30,
+        "nr_throttled": 1,
+        "throttled_usec": 63289,
+        "nr_bursts": 0,
+        "burst_usec": 0
+      },
+      "cleanup": {
+        "unit": "yk-quarter-20261001-quarter-siphon-K-23400-K-a40310acfa.scope",
+        "operations": [
+          {
+            "argv": [
+              "kill",
+              "--kill-whom=all",
+              "--signal=KILL",
+              "yk-quarter-20261001-quarter-siphon-K-23400-K-a40310acfa.scope"
+            ],
+            "returncode": 0,
+            "stdout": "",
+            "stderr": ""
+          },
+          {
+            "argv": [
+              "stop",
+              "yk-quarter-20261001-quarter-siphon-K-23400-K-a40310acfa.scope"
+            ],
+            "returncode": 5,
+            "stdout": "",
+            "stderr": "Failed to stop yk-quarter-20261001-quarter-siphon-K-23400-K-a40310acfa.scope: Unit yk-quarter-20261001-quarter-siphon-K-23400-K-a40310acfa.scope not loaded.\n"
+          }
+        ],
+        "load_state": "not-found",
+        "cgroup_path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-siphon-K-23400-K-a40310acfa.scope",
+        "cgroup_removed": true,
+        "ok": true
+      },
+      "independent_scopes_and_runner_outside": true
+    },
+    {
+      "job": "quarter-v8-Y-23400",
+      "side": "Y",
+      "bot": "v8",
+      "scope": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-v8-Y-23400-Y-c746ee714f.scope",
+      "initial_cpu_max": "25000 100000",
+      "final_cpu_max": "25000 100000",
+      "memory_max": "402653184",
+      "memory_peak": "9580544",
+      "cpu_stat": {
+        "usage_usec": 5961985,
+        "user_usec": 5909491,
+        "system_usec": 52494,
+        "nice_usec": 0,
+        "core_sched.force_idle_usec": 0,
+        "nr_periods": 239,
+        "nr_throttled": 239,
+        "throttled_usec": 14282569,
+        "nr_bursts": 0,
+        "burst_usec": 0
+      },
+      "cleanup": {
+        "unit": "yk-quarter-20261001-quarter-v8-Y-23400-Y-c746ee714f.scope",
+        "operations": [
+          {
+            "argv": [
+              "kill",
+              "--kill-whom=all",
+              "--signal=KILL",
+              "yk-quarter-20261001-quarter-v8-Y-23400-Y-c746ee714f.scope"
+            ],
+            "returncode": 0,
+            "stdout": "",
+            "stderr": ""
+          },
+          {
+            "argv": [
+              "stop",
+              "yk-quarter-20261001-quarter-v8-Y-23400-Y-c746ee714f.scope"
+            ],
+            "returncode": 5,
+            "stdout": "",
+            "stderr": "Failed to stop yk-quarter-20261001-quarter-v8-Y-23400-Y-c746ee714f.scope: Unit yk-quarter-20261001-quarter-v8-Y-23400-Y-c746ee714f.scope not loaded.\n"
+          }
+        ],
+        "load_state": "not-found",
+        "cgroup_path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-v8-Y-23400-Y-c746ee714f.scope",
+        "cgroup_removed": true,
+        "ok": true
+      },
+      "independent_scopes_and_runner_outside": true
+    },
+    {
+      "job": "quarter-v8-Y-23400",
+      "side": "K",
+      "bot": "v8",
+      "scope": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-v8-Y-23400-K-5e7284189d.scope",
+      "initial_cpu_max": "25000 100000",
+      "final_cpu_max": "25000 100000",
+      "memory_max": "402653184",
+      "memory_peak": "9842688",
+      "cpu_stat": {
+        "usage_usec": 5932156,
+        "user_usec": 5926265,
+        "system_usec": 5891,
+        "nice_usec": 0,
+        "core_sched.force_idle_usec": 0,
+        "nr_periods": 238,
+        "nr_throttled": 237,
+        "throttled_usec": 14432865,
+        "nr_bursts": 0,
+        "burst_usec": 0
+      },
+      "cleanup": {
+        "unit": "yk-quarter-20261001-quarter-v8-Y-23400-K-5e7284189d.scope",
+        "operations": [
+          {
+            "argv": [
+              "kill",
+              "--kill-whom=all",
+              "--signal=KILL",
+              "yk-quarter-20261001-quarter-v8-Y-23400-K-5e7284189d.scope"
+            ],
+            "returncode": 0,
+            "stdout": "",
+            "stderr": ""
+          },
+          {
+            "argv": [
+              "stop",
+              "yk-quarter-20261001-quarter-v8-Y-23400-K-5e7284189d.scope"
+            ],
+            "returncode": 5,
+            "stdout": "",
+            "stderr": "Failed to stop yk-quarter-20261001-quarter-v8-Y-23400-K-5e7284189d.scope: Unit yk-quarter-20261001-quarter-v8-Y-23400-K-5e7284189d.scope not loaded.\n"
+          }
+        ],
+        "load_state": "not-found",
+        "cgroup_path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-v8-Y-23400-K-5e7284189d.scope",
+        "cgroup_removed": true,
+        "ok": true
+      },
+      "independent_scopes_and_runner_outside": true
+    },
+    {
+      "job": "quarter-v8-K-23400",
+      "side": "Y",
+      "bot": "v8",
+      "scope": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-v8-K-23400-Y-5599bbd4ce.scope",
+      "initial_cpu_max": "25000 100000",
+      "final_cpu_max": "25000 100000",
+      "memory_max": "402653184",
+      "memory_peak": "9863168",
+      "cpu_stat": {
+        "usage_usec": 5937836,
+        "user_usec": 5932986,
+        "system_usec": 4850,
+        "nice_usec": 0,
+        "core_sched.force_idle_usec": 0,
+        "nr_periods": 238,
+        "nr_throttled": 238,
+        "throttled_usec": 15093603,
+        "nr_bursts": 0,
+        "burst_usec": 0
+      },
+      "cleanup": {
+        "unit": "yk-quarter-20261001-quarter-v8-K-23400-Y-5599bbd4ce.scope",
+        "operations": [
+          {
+            "argv": [
+              "kill",
+              "--kill-whom=all",
+              "--signal=KILL",
+              "yk-quarter-20261001-quarter-v8-K-23400-Y-5599bbd4ce.scope"
+            ],
+            "returncode": 0,
+            "stdout": "",
+            "stderr": ""
+          },
+          {
+            "argv": [
+              "stop",
+              "yk-quarter-20261001-quarter-v8-K-23400-Y-5599bbd4ce.scope"
+            ],
+            "returncode": 5,
+            "stdout": "",
+            "stderr": "Failed to stop yk-quarter-20261001-quarter-v8-K-23400-Y-5599bbd4ce.scope: Unit yk-quarter-20261001-quarter-v8-K-23400-Y-5599bbd4ce.scope not loaded.\n"
+          }
+        ],
+        "load_state": "not-found",
+        "cgroup_path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-v8-K-23400-Y-5599bbd4ce.scope",
+        "cgroup_removed": true,
+        "ok": true
+      },
+      "independent_scopes_and_runner_outside": true
+    },
+    {
+      "job": "quarter-v8-K-23400",
+      "side": "K",
+      "bot": "v8",
+      "scope": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-v8-K-23400-K-9f27d6c414.scope",
+      "initial_cpu_max": "25000 100000",
+      "final_cpu_max": "25000 100000",
+      "memory_max": "402653184",
+      "memory_peak": "9314304",
+      "cpu_stat": {
+        "usage_usec": 5961093,
+        "user_usec": 5949412,
+        "system_usec": 11681,
+        "nice_usec": 0,
+        "core_sched.force_idle_usec": 0,
+        "nr_periods": 239,
+        "nr_throttled": 239,
+        "throttled_usec": 13661952,
+        "nr_bursts": 0,
+        "burst_usec": 0
+      },
+      "cleanup": {
+        "unit": "yk-quarter-20261001-quarter-v8-K-23400-K-9f27d6c414.scope",
+        "operations": [
+          {
+            "argv": [
+              "kill",
+              "--kill-whom=all",
+              "--signal=KILL",
+              "yk-quarter-20261001-quarter-v8-K-23400-K-9f27d6c414.scope"
+            ],
+            "returncode": 0,
+            "stdout": "",
+            "stderr": ""
+          },
+          {
+            "argv": [
+              "stop",
+              "yk-quarter-20261001-quarter-v8-K-23400-K-9f27d6c414.scope"
+            ],
+            "returncode": 5,
+            "stdout": "",
+            "stderr": "Failed to stop yk-quarter-20261001-quarter-v8-K-23400-K-9f27d6c414.scope: Unit yk-quarter-20261001-quarter-v8-K-23400-K-9f27d6c414.scope not loaded.\n"
+          }
+        ],
+        "load_state": "not-found",
+        "cgroup_path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-v8-K-23400-K-9f27d6c414.scope",
+        "cgroup_removed": true,
+        "ok": true
+      },
+      "independent_scopes_and_runner_outside": true
+    },
+    {
+      "job": "quarter-v9_main-Y-23400",
+      "side": "Y",
+      "bot": "v9_main",
+      "scope": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-v9_main-Y-23400-Y-1fc99ea0b0.scope",
+      "initial_cpu_max": "25000 100000",
+      "final_cpu_max": "25000 100000",
+      "memory_max": "402653184",
+      "memory_peak": "9318400",
+      "cpu_stat": {
+        "usage_usec": 5199621,
+        "user_usec": 5189862,
+        "system_usec": 9758,
+        "nice_usec": 0,
+        "core_sched.force_idle_usec": 0,
+        "nr_periods": 226,
+        "nr_throttled": 208,
+        "throttled_usec": 12159328,
+        "nr_bursts": 0,
+        "burst_usec": 0
+      },
+      "cleanup": {
+        "unit": "yk-quarter-20261001-quarter-v9_main-Y-23400-Y-1fc99ea0b0.scope",
+        "operations": [
+          {
+            "argv": [
+              "kill",
+              "--kill-whom=all",
+              "--signal=KILL",
+              "yk-quarter-20261001-quarter-v9_main-Y-23400-Y-1fc99ea0b0.scope"
+            ],
+            "returncode": 0,
+            "stdout": "",
+            "stderr": ""
+          },
+          {
+            "argv": [
+              "stop",
+              "yk-quarter-20261001-quarter-v9_main-Y-23400-Y-1fc99ea0b0.scope"
+            ],
+            "returncode": 5,
+            "stdout": "",
+            "stderr": "Failed to stop yk-quarter-20261001-quarter-v9_main-Y-23400-Y-1fc99ea0b0.scope: Unit yk-quarter-20261001-quarter-v9_main-Y-23400-Y-1fc99ea0b0.scope not loaded.\n"
+          }
+        ],
+        "load_state": "not-found",
+        "cgroup_path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-v9_main-Y-23400-Y-1fc99ea0b0.scope",
+        "cgroup_removed": true,
+        "ok": true
+      },
+      "independent_scopes_and_runner_outside": true
+    },
+    {
+      "job": "quarter-v9_main-Y-23400",
+      "side": "K",
+      "bot": "v8",
+      "scope": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-v9_main-Y-23400-K-4a3969ec81.scope",
+      "initial_cpu_max": "25000 100000",
+      "final_cpu_max": "25000 100000",
+      "memory_max": "402653184",
+      "memory_peak": "9572352",
+      "cpu_stat": {
+        "usage_usec": 5840429,
+        "user_usec": 5827695,
+        "system_usec": 12734,
+        "nice_usec": 0,
+        "core_sched.force_idle_usec": 0,
+        "nr_periods": 235,
+        "nr_throttled": 230,
+        "throttled_usec": 15234687,
+        "nr_bursts": 0,
+        "burst_usec": 0
+      },
+      "cleanup": {
+        "unit": "yk-quarter-20261001-quarter-v9_main-Y-23400-K-4a3969ec81.scope",
+        "operations": [
+          {
+            "argv": [
+              "kill",
+              "--kill-whom=all",
+              "--signal=KILL",
+              "yk-quarter-20261001-quarter-v9_main-Y-23400-K-4a3969ec81.scope"
+            ],
+            "returncode": 0,
+            "stdout": "",
+            "stderr": ""
+          },
+          {
+            "argv": [
+              "stop",
+              "yk-quarter-20261001-quarter-v9_main-Y-23400-K-4a3969ec81.scope"
+            ],
+            "returncode": 5,
+            "stdout": "",
+            "stderr": "Failed to stop yk-quarter-20261001-quarter-v9_main-Y-23400-K-4a3969ec81.scope: Unit yk-quarter-20261001-quarter-v9_main-Y-23400-K-4a3969ec81.scope not loaded.\n"
+          }
+        ],
+        "load_state": "not-found",
+        "cgroup_path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-v9_main-Y-23400-K-4a3969ec81.scope",
+        "cgroup_removed": true,
+        "ok": true
+      },
+      "independent_scopes_and_runner_outside": true
+    },
+    {
+      "job": "quarter-v9_main-K-23400",
+      "side": "Y",
+      "bot": "v8",
+      "scope": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-v9_main-K-23400-Y-f43774cc95.scope",
+      "initial_cpu_max": "25000 100000",
+      "final_cpu_max": "25000 100000",
+      "memory_max": "402653184",
+      "memory_peak": "9293824",
+      "cpu_stat": {
+        "usage_usec": 5413971,
+        "user_usec": 5406290,
+        "system_usec": 7680,
+        "nice_usec": 0,
+        "core_sched.force_idle_usec": 0,
+        "nr_periods": 218,
+        "nr_throttled": 217,
+        "throttled_usec": 13064032,
+        "nr_bursts": 0,
+        "burst_usec": 0
+      },
+      "cleanup": {
+        "unit": "yk-quarter-20261001-quarter-v9_main-K-23400-Y-f43774cc95.scope",
+        "operations": [
+          {
+            "argv": [
+              "kill",
+              "--kill-whom=all",
+              "--signal=KILL",
+              "yk-quarter-20261001-quarter-v9_main-K-23400-Y-f43774cc95.scope"
+            ],
+            "returncode": 0,
+            "stdout": "",
+            "stderr": ""
+          },
+          {
+            "argv": [
+              "stop",
+              "yk-quarter-20261001-quarter-v9_main-K-23400-Y-f43774cc95.scope"
+            ],
+            "returncode": 5,
+            "stdout": "",
+            "stderr": "Failed to stop yk-quarter-20261001-quarter-v9_main-K-23400-Y-f43774cc95.scope: Unit yk-quarter-20261001-quarter-v9_main-K-23400-Y-f43774cc95.scope not loaded.\n"
+          }
+        ],
+        "load_state": "not-found",
+        "cgroup_path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-v9_main-K-23400-Y-f43774cc95.scope",
+        "cgroup_removed": true,
+        "ok": true
+      },
+      "independent_scopes_and_runner_outside": true
+    },
+    {
+      "job": "quarter-v9_main-K-23400",
+      "side": "K",
+      "bot": "v9_main",
+      "scope": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-v9_main-K-23400-K-76a0736708.scope",
+      "initial_cpu_max": "25000 100000",
+      "final_cpu_max": "25000 100000",
+      "memory_max": "402653184",
+      "memory_peak": "9048064",
+      "cpu_stat": {
+        "usage_usec": 5204594,
+        "user_usec": 5195151,
+        "system_usec": 9442,
+        "nice_usec": 0,
+        "core_sched.force_idle_usec": 0,
+        "nr_periods": 216,
+        "nr_throttled": 208,
+        "throttled_usec": 12807527,
+        "nr_bursts": 0,
+        "burst_usec": 0
+      },
+      "cleanup": {
+        "unit": "yk-quarter-20261001-quarter-v9_main-K-23400-K-76a0736708.scope",
+        "operations": [
+          {
+            "argv": [
+              "kill",
+              "--kill-whom=all",
+              "--signal=KILL",
+              "yk-quarter-20261001-quarter-v9_main-K-23400-K-76a0736708.scope"
+            ],
+            "returncode": 0,
+            "stdout": "",
+            "stderr": ""
+          },
+          {
+            "argv": [
+              "stop",
+              "yk-quarter-20261001-quarter-v9_main-K-23400-K-76a0736708.scope"
+            ],
+            "returncode": 5,
+            "stdout": "",
+            "stderr": "Failed to stop yk-quarter-20261001-quarter-v9_main-K-23400-K-76a0736708.scope: Unit yk-quarter-20261001-quarter-v9_main-K-23400-K-76a0736708.scope not loaded.\n"
+          }
+        ],
+        "load_state": "not-found",
+        "cgroup_path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-v9_main-K-23400-K-76a0736708.scope",
+        "cgroup_removed": true,
+        "ok": true
+      },
+      "independent_scopes_and_runner_outside": true
+    },
+    {
+      "job": "quarter-v9_lock-Y-23400",
+      "side": "Y",
+      "bot": "v9_lock",
+      "scope": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-v9_lock-Y-23400-Y-9e7afd4045.scope",
+      "initial_cpu_max": "25000 100000",
+      "final_cpu_max": "25000 100000",
+      "memory_max": "402653184",
+      "memory_peak": "9330688",
+      "cpu_stat": {
+        "usage_usec": 5936351,
+        "user_usec": 5932414,
+        "system_usec": 3937,
+        "nice_usec": 0,
+        "core_sched.force_idle_usec": 0,
+        "nr_periods": 238,
+        "nr_throttled": 238,
+        "throttled_usec": 14992053,
+        "nr_bursts": 0,
+        "burst_usec": 0
+      },
+      "cleanup": {
+        "unit": "yk-quarter-20261001-quarter-v9_lock-Y-23400-Y-9e7afd4045.scope",
+        "operations": [
+          {
+            "argv": [
+              "kill",
+              "--kill-whom=all",
+              "--signal=KILL",
+              "yk-quarter-20261001-quarter-v9_lock-Y-23400-Y-9e7afd4045.scope"
+            ],
+            "returncode": 0,
+            "stdout": "",
+            "stderr": ""
+          },
+          {
+            "argv": [
+              "stop",
+              "yk-quarter-20261001-quarter-v9_lock-Y-23400-Y-9e7afd4045.scope"
+            ],
+            "returncode": 5,
+            "stdout": "",
+            "stderr": "Failed to stop yk-quarter-20261001-quarter-v9_lock-Y-23400-Y-9e7afd4045.scope: Unit yk-quarter-20261001-quarter-v9_lock-Y-23400-Y-9e7afd4045.scope not loaded.\n"
+          }
+        ],
+        "load_state": "not-found",
+        "cgroup_path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-v9_lock-Y-23400-Y-9e7afd4045.scope",
+        "cgroup_removed": true,
+        "ok": true
+      },
+      "independent_scopes_and_runner_outside": true
+    },
+    {
+      "job": "quarter-v9_lock-Y-23400",
+      "side": "K",
+      "bot": "v8",
+      "scope": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-v9_lock-Y-23400-K-5a315b721e.scope",
+      "initial_cpu_max": "25000 100000",
+      "final_cpu_max": "25000 100000",
+      "memory_max": "402653184",
+      "memory_peak": "9576448",
+      "cpu_stat": {
+        "usage_usec": 5913013,
+        "user_usec": 5904219,
+        "system_usec": 8793,
+        "nice_usec": 0,
+        "core_sched.force_idle_usec": 0,
+        "nr_periods": 237,
+        "nr_throttled": 237,
+        "throttled_usec": 13714838,
+        "nr_bursts": 0,
+        "burst_usec": 0
+      },
+      "cleanup": {
+        "unit": "yk-quarter-20261001-quarter-v9_lock-Y-23400-K-5a315b721e.scope",
+        "operations": [
+          {
+            "argv": [
+              "kill",
+              "--kill-whom=all",
+              "--signal=KILL",
+              "yk-quarter-20261001-quarter-v9_lock-Y-23400-K-5a315b721e.scope"
+            ],
+            "returncode": 0,
+            "stdout": "",
+            "stderr": ""
+          },
+          {
+            "argv": [
+              "stop",
+              "yk-quarter-20261001-quarter-v9_lock-Y-23400-K-5a315b721e.scope"
+            ],
+            "returncode": 5,
+            "stdout": "",
+            "stderr": "Failed to stop yk-quarter-20261001-quarter-v9_lock-Y-23400-K-5a315b721e.scope: Unit yk-quarter-20261001-quarter-v9_lock-Y-23400-K-5a315b721e.scope not loaded.\n"
+          }
+        ],
+        "load_state": "not-found",
+        "cgroup_path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-v9_lock-Y-23400-K-5a315b721e.scope",
+        "cgroup_removed": true,
+        "ok": true
+      },
+      "independent_scopes_and_runner_outside": true
+    },
+    {
+      "job": "quarter-v9_lock-K-23400",
+      "side": "Y",
+      "bot": "v8",
+      "scope": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-v9_lock-K-23400-Y-c559edc3ef.scope",
+      "initial_cpu_max": "25000 100000",
+      "final_cpu_max": "25000 100000",
+      "memory_max": "402653184",
+      "memory_peak": "8794112",
+      "cpu_stat": {
+        "usage_usec": 5891825,
+        "user_usec": 5880155,
+        "system_usec": 11670,
+        "nice_usec": 0,
+        "core_sched.force_idle_usec": 0,
+        "nr_periods": 236,
+        "nr_throttled": 236,
+        "throttled_usec": 13522281,
+        "nr_bursts": 0,
+        "burst_usec": 0
+      },
+      "cleanup": {
+        "unit": "yk-quarter-20261001-quarter-v9_lock-K-23400-Y-c559edc3ef.scope",
+        "operations": [
+          {
+            "argv": [
+              "kill",
+              "--kill-whom=all",
+              "--signal=KILL",
+              "yk-quarter-20261001-quarter-v9_lock-K-23400-Y-c559edc3ef.scope"
+            ],
+            "returncode": 0,
+            "stdout": "",
+            "stderr": ""
+          },
+          {
+            "argv": [
+              "stop",
+              "yk-quarter-20261001-quarter-v9_lock-K-23400-Y-c559edc3ef.scope"
+            ],
+            "returncode": 5,
+            "stdout": "",
+            "stderr": "Failed to stop yk-quarter-20261001-quarter-v9_lock-K-23400-Y-c559edc3ef.scope: Unit yk-quarter-20261001-quarter-v9_lock-K-23400-Y-c559edc3ef.scope not loaded.\n"
+          }
+        ],
+        "load_state": "not-found",
+        "cgroup_path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-v9_lock-K-23400-Y-c559edc3ef.scope",
+        "cgroup_removed": true,
+        "ok": true
+      },
+      "independent_scopes_and_runner_outside": true
+    },
+    {
+      "job": "quarter-v9_lock-K-23400",
+      "side": "K",
+      "bot": "v9_lock",
+      "scope": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-v9_lock-K-23400-K-32b60aa163.scope",
+      "initial_cpu_max": "25000 100000",
+      "final_cpu_max": "25000 100000",
+      "memory_max": "402653184",
+      "memory_peak": "9576448",
+      "cpu_stat": {
+        "usage_usec": 5863159,
+        "user_usec": 5848994,
+        "system_usec": 14164,
+        "nice_usec": 0,
+        "core_sched.force_idle_usec": 0,
+        "nr_periods": 235,
+        "nr_throttled": 235,
+        "throttled_usec": 14994617,
+        "nr_bursts": 0,
+        "burst_usec": 0
+      },
+      "cleanup": {
+        "unit": "yk-quarter-20261001-quarter-v9_lock-K-23400-K-32b60aa163.scope",
+        "operations": [
+          {
+            "argv": [
+              "kill",
+              "--kill-whom=all",
+              "--signal=KILL",
+              "yk-quarter-20261001-quarter-v9_lock-K-23400-K-32b60aa163.scope"
+            ],
+            "returncode": 0,
+            "stdout": "",
+            "stderr": ""
+          },
+          {
+            "argv": [
+              "stop",
+              "yk-quarter-20261001-quarter-v9_lock-K-23400-K-32b60aa163.scope"
+            ],
+            "returncode": 5,
+            "stdout": "",
+            "stderr": "Failed to stop yk-quarter-20261001-quarter-v9_lock-K-23400-K-32b60aa163.scope: Unit yk-quarter-20261001-quarter-v9_lock-K-23400-K-32b60aa163.scope not loaded.\n"
+          }
+        ],
+        "load_state": "not-found",
+        "cgroup_path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-v9_lock-K-23400-K-32b60aa163.scope",
+        "cgroup_removed": true,
+        "ok": true
+      },
+      "independent_scopes_and_runner_outside": true
+    },
+    {
+      "job": "quarter-mission4-Y-23400",
+      "side": "Y",
+      "bot": "mission4",
+      "scope": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-mission4-Y-23400-Y-e24d1b5ced.scope",
+      "initial_cpu_max": "25000 100000",
+      "final_cpu_max": "25000 100000",
+      "memory_max": "402653184",
+      "memory_peak": "9052160",
+      "cpu_stat": {
+        "usage_usec": 133144,
+        "user_usec": 125424,
+        "system_usec": 7720,
+        "nice_usec": 0,
+        "core_sched.force_idle_usec": 0,
+        "nr_periods": 118,
+        "nr_throttled": 1,
+        "throttled_usec": 70437,
+        "nr_bursts": 0,
+        "burst_usec": 0
+      },
+      "cleanup": {
+        "unit": "yk-quarter-20261001-quarter-mission4-Y-23400-Y-e24d1b5ced.scope",
+        "operations": [
+          {
+            "argv": [
+              "kill",
+              "--kill-whom=all",
+              "--signal=KILL",
+              "yk-quarter-20261001-quarter-mission4-Y-23400-Y-e24d1b5ced.scope"
+            ],
+            "returncode": 0,
+            "stdout": "",
+            "stderr": ""
+          },
+          {
+            "argv": [
+              "stop",
+              "yk-quarter-20261001-quarter-mission4-Y-23400-Y-e24d1b5ced.scope"
+            ],
+            "returncode": 5,
+            "stdout": "",
+            "stderr": "Failed to stop yk-quarter-20261001-quarter-mission4-Y-23400-Y-e24d1b5ced.scope: Unit yk-quarter-20261001-quarter-mission4-Y-23400-Y-e24d1b5ced.scope not loaded.\n"
+          }
+        ],
+        "load_state": "not-found",
+        "cgroup_path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-mission4-Y-23400-Y-e24d1b5ced.scope",
+        "cgroup_removed": true,
+        "ok": true
+      },
+      "independent_scopes_and_runner_outside": true
+    },
+    {
+      "job": "quarter-mission4-Y-23400",
+      "side": "K",
+      "bot": "v8",
+      "scope": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-mission4-Y-23400-K-cdb5b16922.scope",
+      "initial_cpu_max": "25000 100000",
+      "final_cpu_max": "25000 100000",
+      "memory_max": "402653184",
+      "memory_peak": "9064448",
+      "cpu_stat": {
+        "usage_usec": 4625454,
+        "user_usec": 4617729,
+        "system_usec": 7725,
+        "nice_usec": 0,
+        "core_sched.force_idle_usec": 0,
+        "nr_periods": 185,
+        "nr_throttled": 184,
+        "throttled_usec": 13495013,
+        "nr_bursts": 0,
+        "burst_usec": 0
+      },
+      "cleanup": {
+        "unit": "yk-quarter-20261001-quarter-mission4-Y-23400-K-cdb5b16922.scope",
+        "operations": [
+          {
+            "argv": [
+              "kill",
+              "--kill-whom=all",
+              "--signal=KILL",
+              "yk-quarter-20261001-quarter-mission4-Y-23400-K-cdb5b16922.scope"
+            ],
+            "returncode": 0,
+            "stdout": "",
+            "stderr": ""
+          },
+          {
+            "argv": [
+              "stop",
+              "yk-quarter-20261001-quarter-mission4-Y-23400-K-cdb5b16922.scope"
+            ],
+            "returncode": 5,
+            "stdout": "",
+            "stderr": "Failed to stop yk-quarter-20261001-quarter-mission4-Y-23400-K-cdb5b16922.scope: Unit yk-quarter-20261001-quarter-mission4-Y-23400-K-cdb5b16922.scope not loaded.\n"
+          }
+        ],
+        "load_state": "not-found",
+        "cgroup_path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-mission4-Y-23400-K-cdb5b16922.scope",
+        "cgroup_removed": true,
+        "ok": true
+      },
+      "independent_scopes_and_runner_outside": true
+    },
+    {
+      "job": "quarter-mission4-K-23400",
+      "side": "Y",
+      "bot": "v8",
+      "scope": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-mission4-K-23400-Y-5be8ba4020.scope",
+      "initial_cpu_max": "25000 100000",
+      "final_cpu_max": "25000 100000",
+      "memory_max": "402653184",
+      "memory_peak": "9060352",
+      "cpu_stat": {
+        "usage_usec": 4961980,
+        "user_usec": 4956117,
+        "system_usec": 5862,
+        "nice_usec": 0,
+        "core_sched.force_idle_usec": 0,
+        "nr_periods": 199,
+        "nr_throttled": 199,
+        "throttled_usec": 14581359,
+        "nr_bursts": 0,
+        "burst_usec": 0
+      },
+      "cleanup": {
+        "unit": "yk-quarter-20261001-quarter-mission4-K-23400-Y-5be8ba4020.scope",
+        "operations": [
+          {
+            "argv": [
+              "kill",
+              "--kill-whom=all",
+              "--signal=KILL",
+              "yk-quarter-20261001-quarter-mission4-K-23400-Y-5be8ba4020.scope"
+            ],
+            "returncode": 0,
+            "stdout": "",
+            "stderr": ""
+          },
+          {
+            "argv": [
+              "stop",
+              "yk-quarter-20261001-quarter-mission4-K-23400-Y-5be8ba4020.scope"
+            ],
+            "returncode": 5,
+            "stdout": "",
+            "stderr": "Failed to stop yk-quarter-20261001-quarter-mission4-K-23400-Y-5be8ba4020.scope: Unit yk-quarter-20261001-quarter-mission4-K-23400-Y-5be8ba4020.scope not loaded.\n"
+          }
+        ],
+        "load_state": "not-found",
+        "cgroup_path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-mission4-K-23400-Y-5be8ba4020.scope",
+        "cgroup_removed": true,
+        "ok": true
+      },
+      "independent_scopes_and_runner_outside": true
+    },
+    {
+      "job": "quarter-mission4-K-23400",
+      "side": "K",
+      "bot": "mission4",
+      "scope": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-mission4-K-23400-K-97bc41dbca.scope",
+      "initial_cpu_max": "25000 100000",
+      "final_cpu_max": "25000 100000",
+      "memory_max": "402653184",
+      "memory_peak": "9355264",
+      "cpu_stat": {
+        "usage_usec": 167371,
+        "user_usec": 158632,
+        "system_usec": 8739,
+        "nice_usec": 0,
+        "core_sched.force_idle_usec": 0,
+        "nr_periods": 147,
+        "nr_throttled": 1,
+        "throttled_usec": 65559,
+        "nr_bursts": 0,
+        "burst_usec": 0
+      },
+      "cleanup": {
+        "unit": "yk-quarter-20261001-quarter-mission4-K-23400-K-97bc41dbca.scope",
+        "operations": [
+          {
+            "argv": [
+              "kill",
+              "--kill-whom=all",
+              "--signal=KILL",
+              "yk-quarter-20261001-quarter-mission4-K-23400-K-97bc41dbca.scope"
+            ],
+            "returncode": 0,
+            "stdout": "",
+            "stderr": ""
+          },
+          {
+            "argv": [
+              "stop",
+              "yk-quarter-20261001-quarter-mission4-K-23400-K-97bc41dbca.scope"
+            ],
+            "returncode": 5,
+            "stdout": "",
+            "stderr": "Failed to stop yk-quarter-20261001-quarter-mission4-K-23400-K-97bc41dbca.scope: Unit yk-quarter-20261001-quarter-mission4-K-23400-K-97bc41dbca.scope not loaded.\n"
+          }
+        ],
+        "load_state": "not-found",
+        "cgroup_path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-quarter-mission4-K-23400-K-97bc41dbca.scope",
+        "cgroup_removed": true,
+        "ok": true
+      },
+      "independent_scopes_and_runner_outside": true
+    },
+    {
+      "job": "normal-v9_main-Y-23400",
+      "side": "Y",
+      "bot": "v9_main",
+      "scope": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-normal-v9_main-Y-23400-Y-a75b387bdc.scope",
+      "initial_cpu_max": null,
+      "final_cpu_max": null,
+      "memory_max": "402653184",
+      "memory_peak": "9011200",
+      "cpu_stat": {
+        "usage_usec": 17131769,
+        "user_usec": 17125798,
+        "system_usec": 5971,
+        "nice_usec": 0,
+        "core_sched.force_idle_usec": 0
+      },
+      "cleanup": {
+        "unit": "yk-quarter-20261001-normal-v9_main-Y-23400-Y-a75b387bdc.scope",
+        "operations": [
+          {
+            "argv": [
+              "kill",
+              "--kill-whom=all",
+              "--signal=KILL",
+              "yk-quarter-20261001-normal-v9_main-Y-23400-Y-a75b387bdc.scope"
+            ],
+            "returncode": 0,
+            "stdout": "",
+            "stderr": ""
+          },
+          {
+            "argv": [
+              "stop",
+              "yk-quarter-20261001-normal-v9_main-Y-23400-Y-a75b387bdc.scope"
+            ],
+            "returncode": 5,
+            "stdout": "",
+            "stderr": "Failed to stop yk-quarter-20261001-normal-v9_main-Y-23400-Y-a75b387bdc.scope: Unit yk-quarter-20261001-normal-v9_main-Y-23400-Y-a75b387bdc.scope not loaded.\n"
+          }
+        ],
+        "load_state": "not-found",
+        "cgroup_path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-normal-v9_main-Y-23400-Y-a75b387bdc.scope",
+        "cgroup_removed": true,
+        "ok": true
+      },
+      "independent_scopes_and_runner_outside": true
+    },
+    {
+      "job": "normal-v9_main-Y-23400",
+      "side": "K",
+      "bot": "v8",
+      "scope": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-normal-v9_main-Y-23400-K-fd5e72cd9a.scope",
+      "initial_cpu_max": null,
+      "final_cpu_max": null,
+      "memory_max": "402653184",
+      "memory_peak": "8794112",
+      "cpu_stat": {
+        "usage_usec": 10130533,
+        "user_usec": 10124555,
+        "system_usec": 5977,
+        "nice_usec": 0,
+        "core_sched.force_idle_usec": 0
+      },
+      "cleanup": {
+        "unit": "yk-quarter-20261001-normal-v9_main-Y-23400-K-fd5e72cd9a.scope",
+        "operations": [
+          {
+            "argv": [
+              "kill",
+              "--kill-whom=all",
+              "--signal=KILL",
+              "yk-quarter-20261001-normal-v9_main-Y-23400-K-fd5e72cd9a.scope"
+            ],
+            "returncode": 0,
+            "stdout": "",
+            "stderr": ""
+          },
+          {
+            "argv": [
+              "stop",
+              "yk-quarter-20261001-normal-v9_main-Y-23400-K-fd5e72cd9a.scope"
+            ],
+            "returncode": 5,
+            "stdout": "",
+            "stderr": "Failed to stop yk-quarter-20261001-normal-v9_main-Y-23400-K-fd5e72cd9a.scope: Unit yk-quarter-20261001-normal-v9_main-Y-23400-K-fd5e72cd9a.scope not loaded.\n"
+          }
+        ],
+        "load_state": "not-found",
+        "cgroup_path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-normal-v9_main-Y-23400-K-fd5e72cd9a.scope",
+        "cgroup_removed": true,
+        "ok": true
+      },
+      "independent_scopes_and_runner_outside": true
+    },
+    {
+      "job": "normal-v9_main-K-23400",
+      "side": "Y",
+      "bot": "v8",
+      "scope": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-normal-v9_main-K-23400-Y-1384cc680e.scope",
+      "initial_cpu_max": null,
+      "final_cpu_max": null,
+      "memory_max": "402653184",
+      "memory_peak": "9850880",
+      "cpu_stat": {
+        "usage_usec": 10653748,
+        "user_usec": 10645836,
+        "system_usec": 7912,
+        "nice_usec": 0,
+        "core_sched.force_idle_usec": 0
+      },
+      "cleanup": {
+        "unit": "yk-quarter-20261001-normal-v9_main-K-23400-Y-1384cc680e.scope",
+        "operations": [
+          {
+            "argv": [
+              "kill",
+              "--kill-whom=all",
+              "--signal=KILL",
+              "yk-quarter-20261001-normal-v9_main-K-23400-Y-1384cc680e.scope"
+            ],
+            "returncode": 0,
+            "stdout": "",
+            "stderr": ""
+          },
+          {
+            "argv": [
+              "stop",
+              "yk-quarter-20261001-normal-v9_main-K-23400-Y-1384cc680e.scope"
+            ],
+            "returncode": 5,
+            "stdout": "",
+            "stderr": "Failed to stop yk-quarter-20261001-normal-v9_main-K-23400-Y-1384cc680e.scope: Unit yk-quarter-20261001-normal-v9_main-K-23400-Y-1384cc680e.scope not loaded.\n"
+          }
+        ],
+        "load_state": "not-found",
+        "cgroup_path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-normal-v9_main-K-23400-Y-1384cc680e.scope",
+        "cgroup_removed": true,
+        "ok": true
+      },
+      "independent_scopes_and_runner_outside": true
+    },
+    {
+      "job": "normal-v9_main-K-23400",
+      "side": "K",
+      "bot": "v9_main",
+      "scope": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-normal-v9_main-K-23400-K-67c3a74b4b.scope",
+      "initial_cpu_max": null,
+      "final_cpu_max": null,
+      "memory_max": "402653184",
+      "memory_peak": "9834496",
+      "cpu_stat": {
+        "usage_usec": 17128260,
+        "user_usec": 17121354,
+        "system_usec": 6906,
+        "nice_usec": 0,
+        "core_sched.force_idle_usec": 0
+      },
+      "cleanup": {
+        "unit": "yk-quarter-20261001-normal-v9_main-K-23400-K-67c3a74b4b.scope",
+        "operations": [
+          {
+            "argv": [
+              "kill",
+              "--kill-whom=all",
+              "--signal=KILL",
+              "yk-quarter-20261001-normal-v9_main-K-23400-K-67c3a74b4b.scope"
+            ],
+            "returncode": 0,
+            "stdout": "",
+            "stderr": ""
+          },
+          {
+            "argv": [
+              "stop",
+              "yk-quarter-20261001-normal-v9_main-K-23400-K-67c3a74b4b.scope"
+            ],
+            "returncode": 5,
+            "stdout": "",
+            "stderr": "Failed to stop yk-quarter-20261001-normal-v9_main-K-23400-K-67c3a74b4b.scope: Unit yk-quarter-20261001-normal-v9_main-K-23400-K-67c3a74b4b.scope not loaded.\n"
+          }
+        ],
+        "load_state": "not-found",
+        "cgroup_path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-normal-v9_main-K-23400-K-67c3a74b4b.scope",
+        "cgroup_removed": true,
+        "ok": true
+      },
+      "independent_scopes_and_runner_outside": true
+    },
+    {
+      "job": "normal-v9_lock-Y-23400",
+      "side": "Y",
+      "bot": "v9_lock",
+      "scope": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-normal-v9_lock-Y-23400-Y-131a242345.scope",
+      "initial_cpu_max": null,
+      "final_cpu_max": null,
+      "memory_max": "402653184",
+      "memory_peak": "9314304",
+      "cpu_stat": {
+        "usage_usec": 10733927,
+        "user_usec": 10725976,
+        "system_usec": 7951,
+        "nice_usec": 0,
+        "core_sched.force_idle_usec": 0
+      },
+      "cleanup": {
+        "unit": "yk-quarter-20261001-normal-v9_lock-Y-23400-Y-131a242345.scope",
+        "operations": [
+          {
+            "argv": [
+              "kill",
+              "--kill-whom=all",
+              "--signal=KILL",
+              "yk-quarter-20261001-normal-v9_lock-Y-23400-Y-131a242345.scope"
+            ],
+            "returncode": 0,
+            "stdout": "",
+            "stderr": ""
+          },
+          {
+            "argv": [
+              "stop",
+              "yk-quarter-20261001-normal-v9_lock-Y-23400-Y-131a242345.scope"
+            ],
+            "returncode": 5,
+            "stdout": "",
+            "stderr": "Failed to stop yk-quarter-20261001-normal-v9_lock-Y-23400-Y-131a242345.scope: Unit yk-quarter-20261001-normal-v9_lock-Y-23400-Y-131a242345.scope not loaded.\n"
+          }
+        ],
+        "load_state": "not-found",
+        "cgroup_path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-normal-v9_lock-Y-23400-Y-131a242345.scope",
+        "cgroup_removed": true,
+        "ok": true
+      },
+      "independent_scopes_and_runner_outside": true
+    },
+    {
+      "job": "normal-v9_lock-Y-23400",
+      "side": "K",
+      "bot": "v8",
+      "scope": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-normal-v9_lock-Y-23400-K-b6d89cd637.scope",
+      "initial_cpu_max": null,
+      "final_cpu_max": null,
+      "memory_max": "402653184",
+      "memory_peak": "9850880",
+      "cpu_stat": {
+        "usage_usec": 10611541,
+        "user_usec": 10603760,
+        "system_usec": 7780,
+        "nice_usec": 0,
+        "core_sched.force_idle_usec": 0
+      },
+      "cleanup": {
+        "unit": "yk-quarter-20261001-normal-v9_lock-Y-23400-K-b6d89cd637.scope",
+        "operations": [
+          {
+            "argv": [
+              "kill",
+              "--kill-whom=all",
+              "--signal=KILL",
+              "yk-quarter-20261001-normal-v9_lock-Y-23400-K-b6d89cd637.scope"
+            ],
+            "returncode": 0,
+            "stdout": "",
+            "stderr": ""
+          },
+          {
+            "argv": [
+              "stop",
+              "yk-quarter-20261001-normal-v9_lock-Y-23400-K-b6d89cd637.scope"
+            ],
+            "returncode": 5,
+            "stdout": "",
+            "stderr": "Failed to stop yk-quarter-20261001-normal-v9_lock-Y-23400-K-b6d89cd637.scope: Unit yk-quarter-20261001-normal-v9_lock-Y-23400-K-b6d89cd637.scope not loaded.\n"
+          }
+        ],
+        "load_state": "not-found",
+        "cgroup_path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-normal-v9_lock-Y-23400-K-b6d89cd637.scope",
+        "cgroup_removed": true,
+        "ok": true
+      },
+      "independent_scopes_and_runner_outside": true
+    },
+    {
+      "job": "normal-v9_lock-K-23400",
+      "side": "Y",
+      "bot": "v8",
+      "scope": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-normal-v9_lock-K-23400-Y-03d00cf11b.scope",
+      "initial_cpu_max": null,
+      "final_cpu_max": null,
+      "memory_max": "402653184",
+      "memory_peak": "9580544",
+      "cpu_stat": {
+        "usage_usec": 11475626,
+        "user_usec": 11467674,
+        "system_usec": 7952,
+        "nice_usec": 0,
+        "core_sched.force_idle_usec": 0
+      },
+      "cleanup": {
+        "unit": "yk-quarter-20261001-normal-v9_lock-K-23400-Y-03d00cf11b.scope",
+        "operations": [
+          {
+            "argv": [
+              "kill",
+              "--kill-whom=all",
+              "--signal=KILL",
+              "yk-quarter-20261001-normal-v9_lock-K-23400-Y-03d00cf11b.scope"
+            ],
+            "returncode": 0,
+            "stdout": "",
+            "stderr": ""
+          },
+          {
+            "argv": [
+              "stop",
+              "yk-quarter-20261001-normal-v9_lock-K-23400-Y-03d00cf11b.scope"
+            ],
+            "returncode": 5,
+            "stdout": "",
+            "stderr": "Failed to stop yk-quarter-20261001-normal-v9_lock-K-23400-Y-03d00cf11b.scope: Unit yk-quarter-20261001-normal-v9_lock-K-23400-Y-03d00cf11b.scope not loaded.\n"
+          }
+        ],
+        "load_state": "not-found",
+        "cgroup_path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-normal-v9_lock-K-23400-Y-03d00cf11b.scope",
+        "cgroup_removed": true,
+        "ok": true
+      },
+      "independent_scopes_and_runner_outside": true
+    },
+    {
+      "job": "normal-v9_lock-K-23400",
+      "side": "K",
+      "bot": "v9_lock",
+      "scope": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-normal-v9_lock-K-23400-K-9fd370e3fb.scope",
+      "initial_cpu_max": null,
+      "final_cpu_max": null,
+      "memory_max": "402653184",
+      "memory_peak": "9531392",
+      "cpu_stat": {
+        "usage_usec": 11132753,
+        "user_usec": 11128817,
+        "system_usec": 3935,
+        "nice_usec": 0,
+        "core_sched.force_idle_usec": 0
+      },
+      "cleanup": {
+        "unit": "yk-quarter-20261001-normal-v9_lock-K-23400-K-9fd370e3fb.scope",
+        "operations": [
+          {
+            "argv": [
+              "kill",
+              "--kill-whom=all",
+              "--signal=KILL",
+              "yk-quarter-20261001-normal-v9_lock-K-23400-K-9fd370e3fb.scope"
+            ],
+            "returncode": 0,
+            "stdout": "",
+            "stderr": ""
+          },
+          {
+            "argv": [
+              "stop",
+              "yk-quarter-20261001-normal-v9_lock-K-23400-K-9fd370e3fb.scope"
+            ],
+            "returncode": 5,
+            "stdout": "",
+            "stderr": "Failed to stop yk-quarter-20261001-normal-v9_lock-K-23400-K-9fd370e3fb.scope: Unit yk-quarter-20261001-normal-v9_lock-K-23400-K-9fd370e3fb.scope not loaded.\n"
+          }
+        ],
+        "load_state": "not-found",
+        "cgroup_path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-normal-v9_lock-K-23400-K-9fd370e3fb.scope",
+        "cgroup_removed": true,
+        "ok": true
+      },
+      "independent_scopes_and_runner_outside": true
+    }
+  ],
+  "candidate_results": {
+    "quarter/siphon": {
+      "games": 2,
+      "wins": 0,
+      "draws": 0,
+      "losses": 2,
+      "scores": [
+        {
+          "side": "Y",
+          "own": 8,
+          "other": 17,
+          "turns": 160,
+          "reason": "score"
+        },
+        {
+          "side": "K",
+          "own": 0,
+          "other": 26,
+          "turns": 85,
+          "reason": "instant"
+        }
+      ],
+      "forfeits": 0
+    },
+    "quarter/v8": {
+      "games": 2,
+      "wins": 1,
+      "draws": 0,
+      "losses": 1,
+      "scores": [
+        {
+          "side": "Y",
+          "own": 8,
+          "other": 11,
+          "turns": 160,
+          "reason": "score"
+        },
+        {
+          "side": "K",
+          "own": 16,
+          "other": 11,
+          "turns": 160,
+          "reason": "score"
+        }
+      ],
+      "forfeits": 0
+    },
+    "quarter/v9_main": {
+      "games": 2,
+      "wins": 0,
+      "draws": 0,
+      "losses": 2,
+      "scores": [
+        {
+          "side": "Y",
+          "own": 5,
+          "other": 18,
+          "turns": 160,
+          "reason": "score"
+        },
+        {
+          "side": "K",
+          "own": 0,
+          "other": 27,
+          "turns": 146,
+          "reason": "instant"
+        }
+      ],
+      "forfeits": 0
+    },
+    "quarter/v9_lock": {
+      "games": 2,
+      "wins": 0,
+      "draws": 0,
+      "losses": 2,
+      "scores": [
+        {
+          "side": "Y",
+          "own": 13,
+          "other": 13,
+          "turns": 160,
+          "reason": "occupation_turns"
+        },
+        {
+          "side": "K",
+          "own": 11,
+          "other": 18,
+          "turns": 160,
+          "reason": "score"
+        }
+      ],
+      "forfeits": 0
+    },
+    "quarter/mission4": {
+      "games": 2,
+      "wins": 2,
+      "draws": 0,
+      "losses": 0,
+      "scores": [
+        {
+          "side": "Y",
+          "own": 21,
+          "other": 6,
+          "turns": 160,
+          "reason": "score"
+        },
+        {
+          "side": "K",
+          "own": 24,
+          "other": 5,
+          "turns": 160,
+          "reason": "score"
+        }
+      ],
+      "forfeits": 0
+    },
+    "normal/v9_main": {
+      "games": 2,
+      "wins": 0,
+      "draws": 0,
+      "losses": 2,
+      "scores": [
+        {
+          "side": "Y",
+          "own": 11,
+          "other": 16,
+          "turns": 160,
+          "reason": "score"
+        },
+        {
+          "side": "K",
+          "own": 8,
+          "other": 14,
+          "turns": 160,
+          "reason": "score"
+        }
+      ],
+      "forfeits": 0
+    },
+    "normal/v9_lock": {
+      "games": 2,
+      "wins": 1,
+      "draws": 0,
+      "losses": 1,
+      "scores": [
+        {
+          "side": "Y",
+          "own": 16,
+          "other": 13,
+          "turns": 160,
+          "reason": "score"
+        },
+        {
+          "side": "K",
+          "own": 9,
+          "other": 18,
+          "turns": 160,
+          "reason": "score"
+        }
+      ],
+      "forfeits": 0
+    }
+  },
+  "runtime": {
+    "quarter/siphon": {
+      "appearances": 2,
+      "first_response_ms": {
+        "n": 2,
+        "mean": 109.33277249569073,
+        "p50": 106.48418599157594,
+        "p95": 112.18135899980552,
+        "p99": 112.18135899980552,
+        "max": 112.18135899980552
+      },
+      "regular_response_ms": {
+        "n": 243,
+        "mean": 0.5889383910358941,
+        "p50": 0.5837350036017597,
+        "p95": 0.8424709958489984,
+        "p99": 0.9436919935978949,
+        "max": 1.000190997729078
+      },
+      "response_failures": [],
+      "memory_peak_bytes": 9580544,
+      "cpu_usage_usec": 101676,
+      "throttled_usec": 112349,
+      "nr_throttled": 2
+    },
+    "quarter/v8": {
+      "appearances": 12,
+      "first_response_ms": {
+        "n": 12,
+        "mean": 99.15560816807556,
+        "p50": 84.40256099856924,
+        "p95": 137.8955450054491,
+        "p99": 137.8955450054491,
+        "max": 137.8955450054491
+      },
+      "regular_response_ms": {
+        "n": 1819,
+        "mean": 125.72446256611066,
+        "p50": 111.00078099116217,
+        "p95": 177.24581999937072,
+        "p99": 181.34631500288378,
+        "max": 190.69969099655282
+      },
+      "response_failures": [],
+      "memory_peak_bytes": 9863168,
+      "cpu_usage_usec": 64289300,
+      "throttled_usec": 164239726,
+      "nr_throttled": 2570
+    },
+    "quarter/v9_main": {
+      "appearances": 2,
+      "first_response_ms": {
+        "n": 2,
+        "mean": 125.10968150309054,
+        "p50": 69.94784199923743,
+        "p95": 180.27152100694366,
+        "p99": 180.27152100694366,
+        "max": 180.27152100694366
+      },
+      "regular_response_ms": {
+        "n": 304,
+        "mean": 116.275749943653,
+        "p50": 113.2367240061285,
+        "p95": 185.22489399765618,
+        "p99": 189.71642998803873,
+        "max": 190.86825598787982
+      },
+      "response_failures": [],
+      "memory_peak_bytes": 9318400,
+      "cpu_usage_usec": 10404215,
+      "throttled_usec": 24966855,
+      "nr_throttled": 416
+    },
+    "quarter/v9_lock": {
+      "appearances": 2,
+      "first_response_ms": {
+        "n": 2,
+        "mean": 106.65865550254239,
+        "p50": 74.72923799650744,
+        "p95": 138.58807300857734,
+        "p99": 138.58807300857734,
+        "max": 138.58807300857734
+      },
+      "regular_response_ms": {
+        "n": 318,
+        "mean": 131.51393437476386,
+        "p50": 113.8343549973797,
+        "p95": 160.87551400414668,
+        "p99": 161.0197749978397,
+        "max": 161.39590900274925
+      },
+      "response_failures": [],
+      "memory_peak_bytes": 9576448,
+      "cpu_usage_usec": 11799510,
+      "throttled_usec": 29986670,
+      "nr_throttled": 473
+    },
+    "quarter/mission4": {
+      "appearances": 2,
+      "first_response_ms": {
+        "n": 2,
+        "mean": 124.8696300026495,
+        "p50": 121.82898100581951,
+        "p95": 127.91027899947949,
+        "p99": 127.91027899947949,
+        "max": 127.91027899947949
+      },
+      "regular_response_ms": {
+        "n": 318,
+        "mean": 1.1355944655823913,
+        "p50": 1.0634719947120175,
+        "p95": 2.0355270098662004,
+        "p99": 2.592588003608398,
+        "max": 2.6953650085488334
+      },
+      "response_failures": [],
+      "memory_peak_bytes": 9355264,
+      "cpu_usage_usec": 300515,
+      "throttled_usec": 135996,
+      "nr_throttled": 2
+    },
+    "normal/v9_main": {
+      "appearances": 2,
+      "first_response_ms": {
+        "n": 2,
+        "mean": 60.718903499946464,
+        "p50": 56.26427099923603,
+        "p95": 65.1735360006569,
+        "p99": 65.1735360006569,
+        "max": 65.1735360006569
+      },
+      "regular_response_ms": {
+        "n": 318,
+        "mean": 108.25163480166218,
+        "p50": 127.54693599708844,
+        "p95": 133.24681400263216,
+        "p99": 134.25702598760836,
+        "max": 135.61094101169147
+      },
+      "response_failures": [],
+      "memory_peak_bytes": 9834496,
+      "cpu_usage_usec": 34260029,
+      "throttled_usec": 0,
+      "nr_throttled": 0
+    },
+    "normal/v8": {
+      "appearances": 4,
+      "first_response_ms": {
+        "n": 4,
+        "mean": 57.60300275142072,
+        "p50": 55.3329820104409,
+        "p95": 62.936726986663416,
+        "p99": 62.936726986663416,
+        "max": 62.936726986663416
+      },
+      "regular_response_ms": {
+        "n": 636,
+        "mean": 67.80892766026616,
+        "p50": 68.13475000672042,
+        "p95": 84.74988900707103,
+        "p99": 89.47292900120374,
+        "max": 100.53555699414574
+      },
+      "response_failures": [],
+      "memory_peak_bytes": 9850880,
+      "cpu_usage_usec": 42871448,
+      "throttled_usec": 0,
+      "nr_throttled": 0
+    },
+    "normal/v9_lock": {
+      "appearances": 2,
+      "first_response_ms": {
+        "n": 2,
+        "mean": 57.95010049769189,
+        "p50": 57.40479499218054,
+        "p95": 58.49540600320324,
+        "p99": 58.49540600320324,
+        "max": 58.49540600320324
+      },
+      "regular_response_ms": {
+        "n": 318,
+        "mean": 69.18325409463039,
+        "p50": 70.32828900264576,
+        "p95": 86.11608699720819,
+        "p99": 90.3803939872887,
+        "max": 99.72502100572456
+      },
+      "response_failures": [],
+      "memory_peak_bytes": 9531392,
+      "cpu_usage_usec": 21866680,
+      "throttled_usec": 0,
+      "nr_throttled": 0
+    }
+  },
+  "frozen_files_unchanged": true,
+  "changed_files": [],
+  "method_limits": [
+    "1 map; 10 quarter matches plus 4 normal matches, not broad strength evidence.",
+    "Server 0.25vCPU quota period, burst, hardware and competing load are unknown. Local period=100ms, burst=0.",
+    "Same-map normal comparisons also contain runtime-seeded RNG and time-budget search variation; no single-cause winner attribution.",
+    "Successful response latency stats exclude timeout responses; forfeits and failing collection elapsed times are separately retained.",
+    "First-turn latency includes local transient-scope and Python-launcher startup in addition to bot initialization.",
+    "Resource protocol may permit harmless clipping, but separate strict audit demands no clipping."
+  ],
+  "strict_action_audit_gate": {
+    "passed": true,
+    "issues": {},
+    "audited_replays": 14,
+    "audited_frames": 2151
+  },
+  "all_scope_cleanup_verified": true,
+  "all_planned_games_recorded": true,
+  "committed_freeze_files": {
+    "commit": "c70656a6dd8e167e847f035d26cb6deb5c493ed7",
+    "count": 17,
+    "all_unchanged": true,
+    "files": [
+      {
+        "path": "records/benchmarks/quarter-cpu-20261001/README.md",
+        "unchanged": true,
+        "sha256": "79a74ff327a8a3936640bbed4c0ae0e59443f4bd77eafbf1ab1f16172b634ccd"
+      },
+      {
+        "path": "records/benchmarks/quarter-cpu-20261001/busy_probe.py",
+        "unchanged": true,
+        "sha256": "f5b195540e2a6afd7210cd26a0181dd5cfbbac034a3b64f4bb4a4bc85a6b1fbd"
+      },
+      {
+        "path": "records/benchmarks/quarter-cpu-20261001/calibration/first-attempt-failure.json",
+        "unchanged": true,
+        "sha256": "5de7de35822da159e41da0953c71d3d415328bd829608f041cc4f5ba960cd128"
+      },
+      {
+        "path": "records/benchmarks/quarter-cpu-20261001/calibration/normal-attempt-1790828193779251136.json",
+        "unchanged": true,
+        "sha256": "31c3fa3158432712863f58b0c1a632919f1768223ccd363c2018d913c6aaa912"
+      },
+      {
+        "path": "records/benchmarks/quarter-cpu-20261001/calibration/normal-attempt-1790828372079169042.json",
+        "unchanged": true,
+        "sha256": "83e2e850ac80d20d950351d04c565e31d7baefb4c340cfc73636778e9ba758c4"
+      },
+      {
+        "path": "records/benchmarks/quarter-cpu-20261001/calibration/normal-attempt-1790828517718728510.json",
+        "unchanged": true,
+        "sha256": "098f8b3cb2189509ff2c79f5fc8b1aa91be0b4e3d81c3341871f9e69ec872801"
+      },
+      {
+        "path": "records/benchmarks/quarter-cpu-20261001/calibration/normal-launch.json",
+        "unchanged": true,
+        "sha256": "51fdf8a0fe22fdf5258f5259f0fae538ef3cfe8b859967a3aaf6256655cdbc08"
+      },
+      {
+        "path": "records/benchmarks/quarter-cpu-20261001/calibration/quarter-attempt-1790828194988916767.json",
+        "unchanged": true,
+        "sha256": "92f9fa3a6ebff336da6807e11f4c5b7929cf761aa0219dd03155f550c82a77b6"
+      },
+      {
+        "path": "records/benchmarks/quarter-cpu-20261001/calibration/quarter-attempt-1790828373246362311.json",
+        "unchanged": true,
+        "sha256": "1bac3bf092c5fe31b1718e57559f5cd254bf7bca2ac092d169e967fcb674ebe4"
+      },
+      {
+        "path": "records/benchmarks/quarter-cpu-20261001/calibration/quarter-attempt-1790828518948332373.json",
+        "unchanged": true,
+        "sha256": "f30346c6a7efd3ad0f59f60221345d8cf99960ec1c2d79b84097a68beb22ea72"
+      },
+      {
+        "path": "records/benchmarks/quarter-cpu-20261001/calibration/quarter-launch.json",
+        "unchanged": true,
+        "sha256": "12b757ff878dd73231bb10decfe8b5d11a77de7b3eac8567687cc090d69d0ed1"
+      },
+      {
+        "path": "records/benchmarks/quarter-cpu-20261001/calibration/results.json",
+        "unchanged": true,
+        "sha256": "3c8ae1ba000496335250a9a7730b82e062d9583d920d0bd98000480b9bfc8448"
+      },
+      {
+        "path": "records/benchmarks/quarter-cpu-20261001/calibration/validation.json",
+        "unchanged": true,
+        "sha256": "b7a1cbf5bd3e25a33a4131f7679b5fad563da35077ca5fb34a85c4452892f9a9"
+      },
+      {
+        "path": "records/benchmarks/quarter-cpu-20261001/environment.json",
+        "unchanged": true,
+        "sha256": "bdbc953e2b71837f179c8fc1a406b2fee220917f6063947187572cd74cfc3003"
+      },
+      {
+        "path": "records/benchmarks/quarter-cpu-20261001/launch_bot.py",
+        "unchanged": true,
+        "sha256": "85091217051aa8027b3544172a2fb2444ad557f7b586a43133276ec7bb07e7f5"
+      },
+      {
+        "path": "records/benchmarks/quarter-cpu-20261001/plan.json",
+        "unchanged": true,
+        "sha256": "5c7b856cc588d8fd9b9647369c08d7c18d3b07a15cbf64644d2fe7a2c30bbda1"
+      },
+      {
+        "path": "records/benchmarks/quarter-cpu-20261001/run_checks.py",
+        "unchanged": true,
+        "sha256": "780cfcb6ca6065bddd335e2f906a348ef9efa3e86bfb2a785ef6699d1f8916cb"
+      }
+    ]
+  }
+}

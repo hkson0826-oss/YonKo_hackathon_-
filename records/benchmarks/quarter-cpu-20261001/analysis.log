@@ -1,0 +1,191 @@
+{
+  "expected_games": 14,
+  "recorded_games": 14,
+  "unique_map_seeds": [
+    23400
+  ],
+  "completed": 14,
+  "errors": [],
+  "forfeits": [],
+  "candidate_results": {
+    "quarter/siphon": {
+      "games": 2,
+      "wins": 0,
+      "draws": 0,
+      "losses": 2,
+      "scores": [
+        {
+          "side": "Y",
+          "own": 8,
+          "other": 17,
+          "turns": 160,
+          "reason": "score"
+        },
+        {
+          "side": "K",
+          "own": 0,
+          "other": 26,
+          "turns": 85,
+          "reason": "instant"
+        }
+      ],
+      "forfeits": 0
+    },
+    "quarter/v8": {
+      "games": 2,
+      "wins": 1,
+      "draws": 0,
+      "losses": 1,
+      "scores": [
+        {
+          "side": "Y",
+          "own": 8,
+          "other": 11,
+          "turns": 160,
+          "reason": "score"
+        },
+        {
+          "side": "K",
+          "own": 16,
+          "other": 11,
+          "turns": 160,
+          "reason": "score"
+        }
+      ],
+      "forfeits": 0
+    },
+    "quarter/v9_main": {
+      "games": 2,
+      "wins": 0,
+      "draws": 0,
+      "losses": 2,
+      "scores": [
+        {
+          "side": "Y",
+          "own": 5,
+          "other": 18,
+          "turns": 160,
+          "reason": "score"
+        },
+        {
+          "side": "K",
+          "own": 0,
+          "other": 27,
+          "turns": 146,
+          "reason": "instant"
+        }
+      ],
+      "forfeits": 0
+    },
+    "quarter/v9_lock": {
+      "games": 2,
+      "wins": 0,
+      "draws": 0,
+      "losses": 2,
+      "scores": [
+        {
+          "side": "Y",
+          "own": 13,
+          "other": 13,
+          "turns": 160,
+          "reason": "occupation_turns"
+        },
+        {
+          "side": "K",
+          "own": 11,
+          "other": 18,
+          "turns": 160,
+          "reason": "score"
+        }
+      ],
+      "forfeits": 0
+    },
+    "quarter/mission4": {
+      "games": 2,
+      "wins": 2,
+      "draws": 0,
+      "losses": 0,
+      "scores": [
+        {
+          "side": "Y",
+          "own": 21,
+          "other": 6,
+          "turns": 160,
+          "reason": "score"
+        },
+        {
+          "side": "K",
+          "own": 24,
+          "other": 5,
+          "turns": 160,
+          "reason": "score"
+        }
+      ],
+      "forfeits": 0
+    },
+    "normal/v9_main": {
+      "games": 2,
+      "wins": 0,
+      "draws": 0,
+      "losses": 2,
+      "scores": [
+        {
+          "side": "Y",
+          "own": 11,
+          "other": 16,
+          "turns": 160,
+          "reason": "score"
+        },
+        {
+          "side": "K",
+          "own": 8,
+          "other": 14,
+          "turns": 160,
+          "reason": "score"
+        }
+      ],
+      "forfeits": 0
+    },
+    "normal/v9_lock": {
+      "games": 2,
+      "wins": 1,
+      "draws": 0,
+      "losses": 1,
+      "scores": [
+        {
+          "side": "Y",
+          "own": 16,
+          "other": 13,
+          "turns": 160,
+          "reason": "score"
+        },
+        {
+          "side": "K",
+          "own": 9,
+          "other": 18,
+          "turns": 160,
+          "reason": "score"
+        }
+      ],
+      "forfeits": 0
+    }
+  },
+  "frozen_files_unchanged": true,
+  "changed_files": [],
+  "strict_action_audit_gate": {
+    "passed": true,
+    "issues": {},
+    "audited_replays": 14,
+    "audited_frames": 2151
+  },
+  "all_scope_cleanup_verified": true,
+  "all_planned_games_recorded": true
+}
+normal/v8 {"appearances": 4, "first_response_ms": {"n": 4, "mean": 57.60300275142072, "p50": 55.3329820104409, "p95": 62.936726986663416, "p99": 62.936726986663416, "max": 62.936726986663416}, "regular_response_ms": {"n": 636, "mean": 67.80892766026616, "p50": 68.13475000672042, "p95": 84.74988900707103, "p99": 89.47292900120374, "max": 100.53555699414574}, "response_failures": [], "memory_peak_bytes": 9850880, "cpu_usage_usec": 42871448, "throttled_usec": 0, "nr_throttled": 0}
+normal/v9_lock {"appearances": 2, "first_response_ms": {"n": 2, "mean": 57.95010049769189, "p50": 57.40479499218054, "p95": 58.49540600320324, "p99": 58.49540600320324, "max": 58.49540600320324}, "regular_response_ms": {"n": 318, "mean": 69.18325409463039, "p50": 70.32828900264576, "p95": 86.11608699720819, "p99": 90.3803939872887, "max": 99.72502100572456}, "response_failures": [], "memory_peak_bytes": 9531392, "cpu_usage_usec": 21866680, "throttled_usec": 0, "nr_throttled": 0}
+normal/v9_main {"appearances": 2, "first_response_ms": {"n": 2, "mean": 60.718903499946464, "p50": 56.26427099923603, "p95": 65.1735360006569, "p99": 65.1735360006569, "max": 65.1735360006569}, "regular_response_ms": {"n": 318, "mean": 108.25163480166218, "p50": 127.54693599708844, "p95": 133.24681400263216, "p99": 134.25702598760836, "max": 135.61094101169147}, "response_failures": [], "memory_peak_bytes": 9834496, "cpu_usage_usec": 34260029, "throttled_usec": 0, "nr_throttled": 0}
+quarter/mission4 {"appearances": 2, "first_response_ms": {"n": 2, "mean": 124.8696300026495, "p50": 121.82898100581951, "p95": 127.91027899947949, "p99": 127.91027899947949, "max": 127.91027899947949}, "regular_response_ms": {"n": 318, "mean": 1.1355944655823913, "p50": 1.0634719947120175, "p95": 2.0355270098662004, "p99": 2.592588003608398, "max": 2.6953650085488334}, "response_failures": [], "memory_peak_bytes": 9355264, "cpu_usage_usec": 300515, "throttled_usec": 135996, "nr_throttled": 2}
+quarter/siphon {"appearances": 2, "first_response_ms": {"n": 2, "mean": 109.33277249569073, "p50": 106.48418599157594, "p95": 112.18135899980552, "p99": 112.18135899980552, "max": 112.18135899980552}, "regular_response_ms": {"n": 243, "mean": 0.5889383910358941, "p50": 0.5837350036017597, "p95": 0.8424709958489984, "p99": 0.9436919935978949, "max": 1.000190997729078}, "response_failures": [], "memory_peak_bytes": 9580544, "cpu_usage_usec": 101676, "throttled_usec": 112349, "nr_throttled": 2}
+quarter/v8 {"appearances": 12, "first_response_ms": {"n": 12, "mean": 99.15560816807556, "p50": 84.40256099856924, "p95": 137.8955450054491, "p99": 137.8955450054491, "max": 137.8955450054491}, "regular_response_ms": {"n": 1819, "mean": 125.72446256611066, "p50": 111.00078099116217, "p95": 177.24581999937072, "p99": 181.34631500288378, "max": 190.69969099655282}, "response_failures": [], "memory_peak_bytes": 9863168, "cpu_usage_usec": 64289300, "throttled_usec": 164239726, "nr_throttled": 2570}
+quarter/v9_lock {"appearances": 2, "first_response_ms": {"n": 2, "mean": 106.65865550254239, "p50": 74.72923799650744, "p95": 138.58807300857734, "p99": 138.58807300857734, "max": 138.58807300857734}, "regular_response_ms": {"n": 318, "mean": 131.51393437476386, "p50": 113.8343549973797, "p95": 160.87551400414668, "p99": 161.0197749978397, "max": 161.39590900274925}, "response_failures": [], "memory_peak_bytes": 9576448, "cpu_usage_usec": 11799510, "throttled_usec": 29986670, "nr_throttled": 473}
+quarter/v9_main {"appearances": 2, "first_response_ms": {"n": 2, "mean": 125.10968150309054, "p50": 69.94784199923743, "p95": 180.27152100694366, "p99": 180.27152100694366, "max": 180.27152100694366}, "regular_response_ms": {"n": 304, "mean": 116.275749943653, "p50": 113.2367240061285, "p95": 185.22489399765618, "p99": 189.71642998803873, "max": 190.86825598787982}, "response_failures": [], "memory_peak_bytes": 9318400, "cpu_usage_usec": 10404215, "throttled_usec": 24966855, "nr_throttled": 416}

@@ -1,0 +1,47 @@
+{
+  "pid": 894208,
+  "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-normal-v9_main-K-23400-Y-1384cc680e.scope",
+  "unit": "yk-quarter-20261001-normal-v9_main-K-23400-Y-1384cc680e.scope",
+  "limits": {
+    "cpu.max": null,
+    "cpu.max.burst": null,
+    "cpu.stat": "usage_usec 36238\nuser_usec 31342\nsystem_usec 4895\nnice_usec 0\ncore_sched.force_idle_usec 0",
+    "memory.max": "402653184",
+    "memory.peak": "9588736",
+    "cgroup.procs": "894208",
+    "cpuset.cpus.effective": null
+  },
+  "ancestors": [
+    {
+      "path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-normal-v9_main-K-23400-Y-1384cc680e.scope",
+      "cpu.max": null
+    },
+    {
+      "path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice",
+      "cpu.max": "max 100000"
+    },
+    {
+      "path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service",
+      "cpu.max": "max 100000"
+    },
+    {
+      "path": "/sys/fs/cgroup/user.slice/user-1000.slice",
+      "cpu.max": "max 100000"
+    },
+    {
+      "path": "/sys/fs/cgroup/user.slice",
+      "cpu.max": "max 100000"
+    },
+    {
+      "path": "/sys/fs/cgroup",
+      "cpu.max": null
+    }
+  ],
+  "command": [
+    "/tmp/yk-latest-teammates-arena-20261001/bin/v8"
+  ],
+  "rlimit_as": [
+    402653184,
+    402653184
+  ]
+}

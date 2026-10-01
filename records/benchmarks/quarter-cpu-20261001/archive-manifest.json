@@ -1,0 +1,358 @@
+{
+  "frozen_commit": "c70656a6dd8e167e847f035d26cb6deb5c493ed7",
+  "scope": "Frozen plan and all completed result evidence, plus post-run analysis/reporter helpers for reproduction. Helpers are not frozen match code.",
+  "files": {
+    "README.md": {
+      "sha256": "79a74ff327a8a3936640bbed4c0ae0e59443f4bd77eafbf1ab1f16172b634ccd",
+      "bytes": 5012
+    },
+    "analysis.json": {
+      "sha256": "59cc982554981840d7ad30ff9f7be89ccdaadda82a9cd72f58f5256f6eb754a6",
+      "bytes": 64124
+    },
+    "analysis.log": {
+      "sha256": "bc8dec7348851556d22ff8bbc32012f5695002753ba0443b097bac84c6f2e1ad",
+      "bytes": 7395
+    },
+    "analyze_results.py": {
+      "sha256": "118e49c70c9c8cd7b966053366dabe4a7bdccb570e5cb98f6ac6ab5a5d10a24c",
+      "bytes": 5261
+    },
+    "busy_probe.py": {
+      "sha256": "f5b195540e2a6afd7210cd26a0181dd5cfbbac034a3b64f4bb4a4bc85a6b1fbd",
+      "bytes": 744
+    },
+    "calibration/first-attempt-failure.json": {
+      "sha256": "5de7de35822da159e41da0953c71d3d415328bd829608f041cc4f5ba960cd128",
+      "bytes": 480
+    },
+    "calibration/normal-attempt-1790828193779251136.json": {
+      "sha256": "31c3fa3158432712863f58b0c1a632919f1768223ccd363c2018d913c6aaa912",
+      "bytes": 2426
+    },
+    "calibration/normal-attempt-1790828372079169042.json": {
+      "sha256": "83e2e850ac80d20d950351d04c565e31d7baefb4c340cfc73636778e9ba758c4",
+      "bytes": 2426
+    },
+    "calibration/normal-attempt-1790828517718728510.json": {
+      "sha256": "098f8b3cb2189509ff2c79f5fc8b1aa91be0b4e3d81c3341871f9e69ec872801",
+      "bytes": 2425
+    },
+    "calibration/normal-launch.json": {
+      "sha256": "51fdf8a0fe22fdf5258f5259f0fae538ef3cfe8b859967a3aaf6256655cdbc08",
+      "bytes": 1383
+    },
+    "calibration/quarter-attempt-1790828194988916767.json": {
+      "sha256": "92f9fa3a6ebff336da6807e11f4c5b7929cf761aa0219dd03155f550c82a77b6",
+      "bytes": 2704
+    },
+    "calibration/quarter-attempt-1790828373246362311.json": {
+      "sha256": "1bac3bf092c5fe31b1718e57559f5cd254bf7bca2ac092d169e967fcb674ebe4",
+      "bytes": 2701
+    },
+    "calibration/quarter-attempt-1790828518948332373.json": {
+      "sha256": "f30346c6a7efd3ad0f59f60221345d8cf99960ec1c2d79b84097a68beb22ea72",
+      "bytes": 2713
+    },
+    "calibration/quarter-launch.json": {
+      "sha256": "12b757ff878dd73231bb10decfe8b5d11a77de7b3eac8567687cc090d69d0ed1",
+      "bytes": 1483
+    },
+    "calibration/results.json": {
+      "sha256": "3c8ae1ba000496335250a9a7730b82e062d9583d920d0bd98000480b9bfc8448",
+      "bytes": 8443
+    },
+    "calibration/validation.json": {
+      "sha256": "b7a1cbf5bd3e25a33a4131f7679b5fad563da35077ca5fb34a85c4452892f9a9",
+      "bytes": 927
+    },
+    "create_report.py": {
+      "sha256": "3e6a52afffc6d837cc88f5af80e6e33d68f9f83004836b5dd45eff09ce3433b6",
+      "bytes": 6240
+    },
+    "environment-after.json": {
+      "sha256": "bb09e2d0626c0c40929defd6f03e187c745a8c5b53cfa5e1797371b15ffef6cd",
+      "bytes": 256
+    },
+    "environment.json": {
+      "sha256": "bdbc953e2b71837f179c8fc1a406b2fee220917f6063947187572cd74cfc3003",
+      "bytes": 1530
+    },
+    "execution.json": {
+      "sha256": "b54a88bf9e76fd9e644fdf5ded46b35fb5792c53b519a8d29ff16923fb93d0d2",
+      "bytes": 396
+    },
+    "games/normal-v9_lock-K-23400/normal-v9_lock-K-23400-K-launch.json": {
+      "sha256": "b5ebd05c0b6576cc53c75b08abbceecfe1f62a36a53a22819e3e471cab675129",
+      "bytes": 1387
+    },
+    "games/normal-v9_lock-K-23400/normal-v9_lock-K-23400-Y-launch.json": {
+      "sha256": "2f4d488c5c7dae53b02b2bd749bf9087d9a0683529cafe433773bdbc9251fd87",
+      "bytes": 1382
+    },
+    "games/normal-v9_lock-K-23400/replay.json.gz": {
+      "sha256": "22e3d2d15f312489e198c910ca301a167069c1be204962d22278d59db9852279",
+      "bytes": 114881
+    },
+    "games/normal-v9_lock-K-23400/result.json": {
+      "sha256": "89514bd325fa2e8e8ca0cbe08c2b75a1522cee5644272ec3a2d196564882217b",
+      "bytes": 75971
+    },
+    "games/normal-v9_lock-Y-23400/normal-v9_lock-Y-23400-K-launch.json": {
+      "sha256": "2cabb34b85dbf12bbf01a2b8cdb947a7625653ec6e829404c379ae624e356dbd",
+      "bytes": 1382
+    },
+    "games/normal-v9_lock-Y-23400/normal-v9_lock-Y-23400-Y-launch.json": {
+      "sha256": "91ef22e016110a3f1992f6e7697940f7c3709bd770a3067328ce3c84f8ae22eb",
+      "bytes": 1387
+    },
+    "games/normal-v9_lock-Y-23400/replay.json.gz": {
+      "sha256": "991d9f49418de12a17d7b381f52f5420b441f7ada5e11063d0451c5a4f9a7ce8",
+      "bytes": 117744
+    },
+    "games/normal-v9_lock-Y-23400/result.json": {
+      "sha256": "4a2ae1689f8b22707749a938606e5c0fa67656fef72eb7b8e1d9533ab4a45cad",
+      "bytes": 75944
+    },
+    "games/normal-v9_main-K-23400/normal-v9_main-K-23400-K-launch.json": {
+      "sha256": "2e4858d668bbcb90f183c1f3c0c16c6dce761ce80433bd9719506e748be03ed1",
+      "bytes": 1417
+    },
+    "games/normal-v9_main-K-23400/normal-v9_main-K-23400-Y-launch.json": {
+      "sha256": "3037f847aac44fa9a6beabf120155269d340fa2f558c454b3a16a415baca8209",
+      "bytes": 1382
+    },
+    "games/normal-v9_main-K-23400/replay.json.gz": {
+      "sha256": "8ec2e61740db2cb7b88cad7866c698354cf6002ba8f3788d1fb1a19d5fa8dd91",
+      "bytes": 111966
+    },
+    "games/normal-v9_main-K-23400/result.json": {
+      "sha256": "d484ebd16077523e83d595e27753d83df6a35d9c21904300b3edfbfcb846667f",
+      "bytes": 76232
+    },
+    "games/normal-v9_main-Y-23400/normal-v9_main-Y-23400-K-launch.json": {
+      "sha256": "74c8533759a4ce2dd88f3d5a6300d7f860407e10ab325fc4078b40a7ec0d96d9",
+      "bytes": 1382
+    },
+    "games/normal-v9_main-Y-23400/normal-v9_main-Y-23400-Y-launch.json": {
+      "sha256": "0b3e8cdac9eb3bed6db43202c60dc5715e0daef041babfcce78408abcf0128f4",
+      "bytes": 1417
+    },
+    "games/normal-v9_main-Y-23400/replay.json.gz": {
+      "sha256": "396af8338a81132b81c37577824b5f4bf2670d181b5c6a8cae1865ee08c9c5ed",
+      "bytes": 114943
+    },
+    "games/normal-v9_main-Y-23400/result.json": {
+      "sha256": "d8ad5ba8eb5b7a7784eeaa7081497d7418e3a90cfb5ad7b93899a44a6c4bb59f",
+      "bytes": 76367
+    },
+    "games/quarter-mission4-K-23400/quarter-mission4-K-23400-K-launch.json": {
+      "sha256": "05f272a591059753eff2f0d6c44f688331b5686e5d6f040067f60be278f313f4",
+      "bytes": 1492
+    },
+    "games/quarter-mission4-K-23400/quarter-mission4-K-23400-Y-launch.json": {
+      "sha256": "d7a5adfa904599c8b89a60fd1bd6318d77af9d9a7192927cddfc8011943eceb7",
+      "bytes": 1485
+    },
+    "games/quarter-mission4-K-23400/replay.json.gz": {
+      "sha256": "1bccb013f3e86340962ba897c94cd38a7ab264720be5446b9af842923aea3b11",
+      "bytes": 84637
+    },
+    "games/quarter-mission4-K-23400/result.json": {
+      "sha256": "bb9fc75c78b3da2b318b539cd67d664541fa58188aa7cb25851ff14eff5a43bd",
+      "bytes": 76845
+    },
+    "games/quarter-mission4-Y-23400/quarter-mission4-Y-23400-K-launch.json": {
+      "sha256": "624ea3354805d40b5328f713a65c65f8e59a9b4e1056a892b3c4c1144b72d37c",
+      "bytes": 1482
+    },
+    "games/quarter-mission4-Y-23400/quarter-mission4-Y-23400-Y-launch.json": {
+      "sha256": "27ab16f6fc4a7d23060b02bf77c0e5c1ca1ac179871f5246b07122ef5ab9fdd2",
+      "bytes": 1488
+    },
+    "games/quarter-mission4-Y-23400/replay.json.gz": {
+      "sha256": "2b20cb3ada06a5cbe7c72d7bc9572817261a97eac2103c443f5753ac9ae36df3",
+      "bytes": 80446
+    },
+    "games/quarter-mission4-Y-23400/result.json": {
+      "sha256": "00848262f3e84533523c9055eb13a9eec2e37cacc11df2dab3f995d884dfa474",
+      "bytes": 76823
+    },
+    "games/quarter-siphon-K-23400/quarter-siphon-K-23400-K-launch.json": {
+      "sha256": "9d01b717fee97be8f03080b47304862a6771c8568c586aaf5a737b62204590ab",
+      "bytes": 1484
+    },
+    "games/quarter-siphon-K-23400/quarter-siphon-K-23400-Y-launch.json": {
+      "sha256": "b4912196f5511c8188e9d72dc9d9141112b85af9d3b7d1648972456eb31b8ea5",
+      "bytes": 1480
+    },
+    "games/quarter-siphon-K-23400/replay.json.gz": {
+      "sha256": "7b628268b4a4fbc6bf0f2a94128fdb67b1fc9cc59a065ff7033e13d5e9c8e35b",
+      "bytes": 42621
+    },
+    "games/quarter-siphon-K-23400/result.json": {
+      "sha256": "8d35b5fef2f535ed696a45a20c25a9c549def0771d4886368d8519484b5e4077",
+      "bytes": 44563
+    },
+    "games/quarter-siphon-Y-23400/quarter-siphon-Y-23400-K-launch.json": {
+      "sha256": "2a28302012f4b6af7291650101a56e07314ff98d9655d9449d2f3ab489f176cb",
+      "bytes": 1476
+    },
+    "games/quarter-siphon-Y-23400/quarter-siphon-Y-23400-Y-launch.json": {
+      "sha256": "eb28a1c6ae40bd963049c4bb1dfc7d3b6a8986d071573a6a6500e0ee4a5ba95e",
+      "bytes": 1484
+    },
+    "games/quarter-siphon-Y-23400/replay.json.gz": {
+      "sha256": "b5b7681121ae60f43cf2aa5d683593dbcdc8a19f91525f779730ea127bd20420",
+      "bytes": 74271
+    },
+    "games/quarter-siphon-Y-23400/result.json": {
+      "sha256": "7622f14e9258be42e02a356a35ae4cffdac387962f170ab10a64ecb96df3ece8",
+      "bytes": 76893
+    },
+    "games/quarter-v8-K-23400/quarter-v8-K-23400-K-launch.json": {
+      "sha256": "b6b58ef6030bdd7dc9ebd45d45e88538547f96e8ed11e76719778e93790cea4c",
+      "bytes": 1468
+    },
+    "games/quarter-v8-K-23400/quarter-v8-K-23400-Y-launch.json": {
+      "sha256": "235d1b5c566961aad8d3cdf737f68e788e1b917ac24706efcd42404527c09e06",
+      "bytes": 1468
+    },
+    "games/quarter-v8-K-23400/replay.json.gz": {
+      "sha256": "226e4dd370d6332020cdf74399d5d750c5cad7ab8c0d6a37d266949e0214f3c2",
+      "bytes": 119291
+    },
+    "games/quarter-v8-K-23400/result.json": {
+      "sha256": "27a38f5c2eccd95d3756c74f7223b537cc9ab38897842e9d6721ab67158f5b9e",
+      "bytes": 76730
+    },
+    "games/quarter-v8-Y-23400/quarter-v8-Y-23400-K-launch.json": {
+      "sha256": "32a4389d095b916a0af61ae99f599b992e0ecb190d7a79b0508233c0c87a9251",
+      "bytes": 1468
+    },
+    "games/quarter-v8-Y-23400/quarter-v8-Y-23400-Y-launch.json": {
+      "sha256": "c5bac9c710632ef430726abd6afd33c6a4672d5b2a5e1f6aa490e2bd6a46c219",
+      "bytes": 1468
+    },
+    "games/quarter-v8-Y-23400/replay.json.gz": {
+      "sha256": "566f15049ad77534f36d0ac291a89619a33667761bf03ddcc6c5d2e2b6b33c86",
+      "bytes": 116656
+    },
+    "games/quarter-v8-Y-23400/result.json": {
+      "sha256": "2bf627e012832858c11c147134975005a2e5283a42ab438a3692c6a69ef59dc3",
+      "bytes": 76756
+    },
+    "games/quarter-v9_lock-K-23400/quarter-v9_lock-K-23400-K-launch.json": {
+      "sha256": "e67a6324c37033e4eeca16d6c39ca2217fcf801d8b7f4ce742b958a098db18cb",
+      "bytes": 1488
+    },
+    "games/quarter-v9_lock-K-23400/quarter-v9_lock-K-23400-Y-launch.json": {
+      "sha256": "6aa9a8322eb81564f5ab5ce94be88beb02aaeccf846b352314d5f9b0811d095b",
+      "bytes": 1482
+    },
+    "games/quarter-v9_lock-K-23400/replay.json.gz": {
+      "sha256": "992ab0be226c4373bf0dee5efc39fd733307d87ea2f750e2aeffb74b5ad8d857",
+      "bytes": 118608
+    },
+    "games/quarter-v9_lock-K-23400/result.json": {
+      "sha256": "95c71347729b96c4300b374777e9bedadff1aea66ca888e716d7c319f190da10",
+      "bytes": 76860
+    },
+    "games/quarter-v9_lock-Y-23400/quarter-v9_lock-Y-23400-K-launch.json": {
+      "sha256": "89dd8699fceb59d27e206c7252a95ddf3fd8f42ca561f31f9a029186eb2be755",
+      "bytes": 1483
+    },
+    "games/quarter-v9_lock-Y-23400/quarter-v9_lock-Y-23400-Y-launch.json": {
+      "sha256": "c316cdab631f7d3d9feb5c8efdebe6e30ab431083a63620b51dcb55f86cf72bc",
+      "bytes": 1488
+    },
+    "games/quarter-v9_lock-Y-23400/replay.json.gz": {
+      "sha256": "ab6fb463559809e8d1d467225eb0d13e0545b2ec48cc841c6abc69695683926e",
+      "bytes": 111612
+    },
+    "games/quarter-v9_lock-Y-23400/result.json": {
+      "sha256": "fbb90110e83eba832cee1f92d6e474b7404f8c427205d5b618c972e6642eea24",
+      "bytes": 76890
+    },
+    "games/quarter-v9_main-K-23400/quarter-v9_main-K-23400-K-launch.json": {
+      "sha256": "c32f9e561c67b86f1a6309abc4d325b9ed5251d443d05294d59db3914cd6afe7",
+      "bytes": 1518
+    },
+    "games/quarter-v9_main-K-23400/quarter-v9_main-K-23400-Y-launch.json": {
+      "sha256": "95109fc9c23ebbf89ef6fb5bccb1e099b6f9e156c77f5e5e4bb8451802d959a1",
+      "bytes": 1483
+    },
+    "games/quarter-v9_main-K-23400/replay.json.gz": {
+      "sha256": "aabed8067d1082e3d3bb8b3a90f4ab36768b5d4eac23ed6ea336c987789c6917",
+      "bytes": 99899
+    },
+    "games/quarter-v9_main-K-23400/result.json": {
+      "sha256": "0b232375e8b30b87285e083556553190421d1058827cad11718d9108a050b868",
+      "bytes": 70885
+    },
+    "games/quarter-v9_main-Y-23400/quarter-v9_main-Y-23400-K-launch.json": {
+      "sha256": "804b8e5b558f1b06d6cbb739555af3c2d4dc2ad3f1c8c5301551c7819da27f3e",
+      "bytes": 1483
+    },
+    "games/quarter-v9_main-Y-23400/quarter-v9_main-Y-23400-Y-launch.json": {
+      "sha256": "45f8ce5dc0b8b3dbec1b9b9d23cb6f11ad8f387de3df994430b06ee4d1c3cc1c",
+      "bytes": 1517
+    },
+    "games/quarter-v9_main-Y-23400/replay.json.gz": {
+      "sha256": "aef811a3db5cb2e220afdb29950c8720c1d8c4ac8b9792fe476d6220b5516f11",
+      "bytes": 110178
+    },
+    "games/quarter-v9_main-Y-23400/result.json": {
+      "sha256": "7350019f426b4f9988c692ee0b6922885f35dbaa6aec66847bc79850bc1a4c53",
+      "bytes": 76911
+    },
+    "launch_bot.py": {
+      "sha256": "85091217051aa8027b3544172a2fb2444ad557f7b586a43133276ec7bb07e7f5",
+      "bytes": 1876
+    },
+    "normal-quarter-divergence.json": {
+      "sha256": "b1f721580377dcd7a2018df6deb80ada4ed95c524252b0edb17753a9cc9cbacd",
+      "bytes": 399
+    },
+    "plan.json": {
+      "sha256": "5c7b856cc588d8fd9b9647369c08d7c18d3b07a15cbf64644d2fe7a2c30bbda1",
+      "bytes": 19097
+    },
+    "report.md": {
+      "sha256": "cb81b82084344923868b7afb688f35c4719e801e5dc3f185fc3739d598ae6622",
+      "bytes": 5300
+    },
+    "result-manifest.json": {
+      "sha256": "3bef52b686c1cbd99a5ef72ea8c21d2c9cdc2d80a74ee64ce1606b54829fd296",
+      "bytes": 11479
+    },
+    "results.jsonl": {
+      "sha256": "73abe78dc8af1221b7f241214c1a22d954207aab86da49938c819b98406d7721",
+      "bytes": 614784
+    },
+    "run_checks.py": {
+      "sha256": "780cfcb6ca6065bddd335e2f906a348ef9efa3e86bfb2a785ef6699d1f8916cb",
+      "bytes": 16239
+    },
+    "strict-action-audit-gate.json": {
+      "sha256": "66c072c94991843665f83f08e3fc7c9d229e4bb0af9a7f8e0cadee5b473f5c60",
+      "bytes": 88
+    },
+    "strict-action-audit.json": {
+      "sha256": "49913a437c9786c1f7c0975186cf15a72c8781e3c59ca728b79f2c5c9944a74e",
+      "bytes": 1059
+    },
+    "strict-action-audit.log": {
+      "sha256": "a55df675c94e22e1dc8e915fe0c1569a5eef63da4ba8b4af26162551e5fc4b32",
+      "bytes": 889
+    },
+    "strict-audit-input/results.jsonl": {
+      "sha256": "4118fff0c6cee943b127c5eb668597ff5956216e77eee127bc03c5d4bd6fc078",
+      "bytes": 2384
+    },
+    "summary.json": {
+      "sha256": "66122b4ec918f5d1c6e72e75f6aec09108a43b1fbb0481aac8372eba32d01168",
+      "bytes": 17885
+    }
+  }
+}

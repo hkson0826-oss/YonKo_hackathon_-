@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-10-01T13:25:38.196538+09:00",
+  "url": "https://yonsei-vs-korea-hackathon.kr/submissions",
+  "source": "Authenticated Chrome, submission10 detail dialog",
+  "version": 10,
+  "filename": "v9_2.zip",
+  "display_size": "24.1 KiB",
+  "uploaded_kst": "2026-10-01 08:00",
+  "state": "사용 가능",
+  "selected": true,
+  "processing_message": "Source validated and image assembled. Actual game protocol smoke is pending.",
+  "download_observation": "No source ZIP download control was present in the list or opened detail dialog. No hidden endpoint was used.",
+  "qualification": "Usable label is observed. The displayed processing message does not establish a completed protocol smoke test; server source SHA remains unknown."
+}
