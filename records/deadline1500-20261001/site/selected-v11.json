@@ -1,0 +1,18 @@
+{
+  "checked_at_kst": "2026-10-01T14:39:58.518168+09:00",
+  "url": "https://yonsei-vs-korea-hackathon.kr/submissions",
+  "server_submission_version": 11,
+  "filename": "deadline1500-20261001-v8.zip",
+  "zip_sha256": "07689054fa1723b90e96630d34d5e28e6864137672222aba56cf3c2af293d631",
+  "uploaded_time_display_kst": "2026-10-01 14:37",
+  "language": "C++20",
+  "status_display": "사용 가능",
+  "selection_banner": "다음 채점에는 v11을 사용합니다.",
+  "selection_display": "대회에 사용할 코드: v11",
+  "row_selection": "사용 중",
+  "previous_selection": 10,
+  "build_log": "Source validated and image assembled. Actual game protocol smoke is pending.",
+  "observation_method": "Authenticated Chrome UI using CUA; full page not archived to avoid account PII and temporary signed log URLs. Exact uploaded bytes locally hashed; server does not expose ZIP hash in this UI.",
+  "deadline_kst": "2026-10-01T15:00:00+09:00",
+  "practice_status": "not yet run"
+}

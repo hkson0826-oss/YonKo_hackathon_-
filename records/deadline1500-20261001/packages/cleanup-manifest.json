@@ -1,0 +1,10 @@
+{
+  "purpose": "Append-only cleanup supplement; original archive-files.json and manifest.json remain unchanged.",
+  "status": "completed",
+  "files_sha256": {
+    "evidence/cleanup-final.json": "ddbc666e728effb81d62a9c44f32aa66427b6e25ada11e5884f55f9f7c3e34bc",
+    "evidence/toolchain-final.json": "d455468a1227fd492ddea86e71da71a456ee28ec66ab1fd6758644383ff61ebd"
+  },
+  "previous_archive_index_sha256": "2044765f1ead256d207f15cb3807e28db485d1f11968155c421085abb934fa58",
+  "previous_package_manifest_sha256": "3e960b3737b19d4e3f9542101d66643775639e5e93902df90f0667fd90dc1600"
+}

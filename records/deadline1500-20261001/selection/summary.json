@@ -1,0 +1,273 @@
+{
+  "execution": {
+    "phase": "selection",
+    "selected": null,
+    "frozen_commit": "0b6c81128c2f18ee7dd1ada6a2ce4d6473ae964b",
+    "plan_sha256": "7814f7575e615b3c22514cf02c322097f37d18223cd80e4ecc64694421030b0d",
+    "started_unix": 1790832663.7579792,
+    "workers": 8,
+    "expected_games": 128,
+    "job_ids": [
+      "selection-v8-s3_selective_contact-Y-23500",
+      "selection-v8-s3_selective_contact-K-23500",
+      "selection-mission4-s3_selective_contact-Y-23500",
+      "selection-mission4-s3_selective_contact-K-23500",
+      "selection-v9_lock-s3_selective_contact-Y-23500",
+      "selection-v9_lock-s3_selective_contact-K-23500",
+      "selection-v8_flagguard-s3_selective_contact-Y-23500",
+      "selection-v8_flagguard-s3_selective_contact-K-23500",
+      "selection-v8-r3_opponent_league-Y-23500",
+      "selection-v8-r3_opponent_league-K-23500",
+      "selection-mission4-r3_opponent_league-Y-23500",
+      "selection-mission4-r3_opponent_league-K-23500",
+      "selection-v9_lock-r3_opponent_league-Y-23500",
+      "selection-v9_lock-r3_opponent_league-K-23500",
+      "selection-v8_flagguard-r3_opponent_league-Y-23500",
+      "selection-v8_flagguard-r3_opponent_league-K-23500",
+      "selection-v8-j_balanced_portfolio-Y-23500",
+      "selection-v8-j_balanced_portfolio-K-23500",
+      "selection-mission4-j_balanced_portfolio-Y-23500",
+      "selection-mission4-j_balanced_portfolio-K-23500",
+      "selection-v9_lock-j_balanced_portfolio-Y-23500",
+      "selection-v9_lock-j_balanced_portfolio-K-23500",
+      "selection-v8_flagguard-j_balanced_portfolio-Y-23500",
+      "selection-v8_flagguard-j_balanced_portfolio-K-23500",
+      "selection-v8-siphon-Y-23500",
+      "selection-v8-siphon-K-23500",
+      "selection-mission4-siphon-Y-23500",
+      "selection-mission4-siphon-K-23500",
+      "selection-v9_lock-siphon-Y-23500",
+      "selection-v9_lock-siphon-K-23500",
+      "selection-v8_flagguard-siphon-Y-23500",
+      "selection-v8_flagguard-siphon-K-23500",
+      "selection-v8-s3_selective_contact-Y-23501",
+      "selection-v8-s3_selective_contact-K-23501",
+      "selection-mission4-s3_selective_contact-Y-23501",
+      "selection-mission4-s3_selective_contact-K-23501",
+      "selection-v9_lock-s3_selective_contact-Y-23501",
+      "selection-v9_lock-s3_selective_contact-K-23501",
+      "selection-v8_flagguard-s3_selective_contact-Y-23501",
+      "selection-v8_flagguard-s3_selective_contact-K-23501",
+      "selection-v8-r3_opponent_league-Y-23501",
+      "selection-v8-r3_opponent_league-K-23501",
+      "selection-mission4-r3_opponent_league-Y-23501",
+      "selection-mission4-r3_opponent_league-K-23501",
+      "selection-v9_lock-r3_opponent_league-Y-23501",
+      "selection-v9_lock-r3_opponent_league-K-23501",
+      "selection-v8_flagguard-r3_opponent_league-Y-23501",
+      "selection-v8_flagguard-r3_opponent_league-K-23501",
+      "selection-v8-j_balanced_portfolio-Y-23501",
+      "selection-v8-j_balanced_portfolio-K-23501",
+      "selection-mission4-j_balanced_portfolio-Y-23501",
+      "selection-mission4-j_balanced_portfolio-K-23501",
+      "selection-v9_lock-j_balanced_portfolio-Y-23501",
+      "selection-v9_lock-j_balanced_portfolio-K-23501",
+      "selection-v8_flagguard-j_balanced_portfolio-Y-23501",
+      "selection-v8_flagguard-j_balanced_portfolio-K-23501",
+      "selection-v8-siphon-Y-23501",
+      "selection-v8-siphon-K-23501",
+      "selection-mission4-siphon-Y-23501",
+      "selection-mission4-siphon-K-23501",
+      "selection-v9_lock-siphon-Y-23501",
+      "selection-v9_lock-siphon-K-23501",
+      "selection-v8_flagguard-siphon-Y-23501",
+      "selection-v8_flagguard-siphon-K-23501",
+      "selection-v8-s3_selective_contact-Y-23502",
+      "selection-v8-s3_selective_contact-K-23502",
+      "selection-mission4-s3_selective_contact-Y-23502",
+      "selection-mission4-s3_selective_contact-K-23502",
+      "selection-v9_lock-s3_selective_contact-Y-23502",
+      "selection-v9_lock-s3_selective_contact-K-23502",
+      "selection-v8_flagguard-s3_selective_contact-Y-23502",
+      "selection-v8_flagguard-s3_selective_contact-K-23502",
+      "selection-v8-r3_opponent_league-Y-23502",
+      "selection-v8-r3_opponent_league-K-23502",
+      "selection-mission4-r3_opponent_league-Y-23502",
+      "selection-mission4-r3_opponent_league-K-23502",
+      "selection-v9_lock-r3_opponent_league-Y-23502",
+      "selection-v9_lock-r3_opponent_league-K-23502",
+      "selection-v8_flagguard-r3_opponent_league-Y-23502",
+      "selection-v8_flagguard-r3_opponent_league-K-23502",
+      "selection-v8-j_balanced_portfolio-Y-23502",
+      "selection-v8-j_balanced_portfolio-K-23502",
+      "selection-mission4-j_balanced_portfolio-Y-23502",
+      "selection-mission4-j_balanced_portfolio-K-23502",
+      "selection-v9_lock-j_balanced_portfolio-Y-23502",
+      "selection-v9_lock-j_balanced_portfolio-K-23502",
+      "selection-v8_flagguard-j_balanced_portfolio-Y-23502",
+      "selection-v8_flagguard-j_balanced_portfolio-K-23502",
+      "selection-v8-siphon-Y-23502",
+      "selection-v8-siphon-K-23502",
+      "selection-mission4-siphon-Y-23502",
+      "selection-mission4-siphon-K-23502",
+      "selection-v9_lock-siphon-Y-23502",
+      "selection-v9_lock-siphon-K-23502",
+      "selection-v8_flagguard-siphon-Y-23502",
+      "selection-v8_flagguard-siphon-K-23502",
+      "selection-v8-s3_selective_contact-Y-23503",
+      "selection-v8-s3_selective_contact-K-23503",
+      "selection-mission4-s3_selective_contact-Y-23503",
+      "selection-mission4-s3_selective_contact-K-23503",
+      "selection-v9_lock-s3_selective_contact-Y-23503",
+      "selection-v9_lock-s3_selective_contact-K-23503",
+      "selection-v8_flagguard-s3_selective_contact-Y-23503",
+      "selection-v8_flagguard-s3_selective_contact-K-23503",
+      "selection-v8-r3_opponent_league-Y-23503",
+      "selection-v8-r3_opponent_league-K-23503",
+      "selection-mission4-r3_opponent_league-Y-23503",
+      "selection-mission4-r3_opponent_league-K-23503",
+      "selection-v9_lock-r3_opponent_league-Y-23503",
+      "selection-v9_lock-r3_opponent_league-K-23503",
+      "selection-v8_flagguard-r3_opponent_league-Y-23503",
+      "selection-v8_flagguard-r3_opponent_league-K-23503",
+      "selection-v8-j_balanced_portfolio-Y-23503",
+      "selection-v8-j_balanced_portfolio-K-23503",
+      "selection-mission4-j_balanced_portfolio-Y-23503",
+      "selection-mission4-j_balanced_portfolio-K-23503",
+      "selection-v9_lock-j_balanced_portfolio-Y-23503",
+      "selection-v9_lock-j_balanced_portfolio-K-23503",
+      "selection-v8_flagguard-j_balanced_portfolio-Y-23503",
+      "selection-v8_flagguard-j_balanced_portfolio-K-23503",
+      "selection-v8-siphon-Y-23503",
+      "selection-v8-siphon-K-23503",
+      "selection-mission4-siphon-Y-23503",
+      "selection-mission4-siphon-K-23503",
+      "selection-v9_lock-siphon-Y-23503",
+      "selection-v9_lock-siphon-K-23503",
+      "selection-v8_flagguard-siphon-Y-23503",
+      "selection-v8_flagguard-siphon-K-23503"
+    ]
+  },
+  "finished_unix": 1790832995.959893,
+  "complete": true,
+  "stop": false,
+  "strict_gate": {
+    "passed": true,
+    "issues": {},
+    "audited_replays": 128,
+    "audited_frames": 18376
+  },
+  "completed_games": 128,
+  "expected_games": 128,
+  "results": {
+    "mission4": {
+      "n": 32,
+      "wins": 17,
+      "draws": 0,
+      "losses": 15,
+      "points": 17,
+      "Y_points": 9,
+      "score_difference": 83,
+      "opponents": {
+        "s3_selective_contact": {
+          "n": 8,
+          "points": 6
+        },
+        "r3_opponent_league": {
+          "n": 8,
+          "points": 5
+        },
+        "j_balanced_portfolio": {
+          "n": 8,
+          "points": 2
+        },
+        "siphon": {
+          "n": 8,
+          "points": 4
+        }
+      },
+      "errors": 0,
+      "forfeits": 0
+    },
+    "v8_flagguard": {
+      "n": 32,
+      "wins": 12,
+      "draws": 0,
+      "losses": 20,
+      "points": 12,
+      "Y_points": 6,
+      "score_difference": -248,
+      "opponents": {
+        "s3_selective_contact": {
+          "n": 8,
+          "points": 3
+        },
+        "r3_opponent_league": {
+          "n": 8,
+          "points": 2
+        },
+        "j_balanced_portfolio": {
+          "n": 8,
+          "points": 2
+        },
+        "siphon": {
+          "n": 8,
+          "points": 5
+        }
+      },
+      "errors": 0,
+      "forfeits": 0
+    },
+    "v8": {
+      "n": 32,
+      "wins": 17,
+      "draws": 0,
+      "losses": 15,
+      "points": 17,
+      "Y_points": 10,
+      "score_difference": 26,
+      "opponents": {
+        "s3_selective_contact": {
+          "n": 8,
+          "points": 5
+        },
+        "r3_opponent_league": {
+          "n": 8,
+          "points": 3
+        },
+        "j_balanced_portfolio": {
+          "n": 8,
+          "points": 4
+        },
+        "siphon": {
+          "n": 8,
+          "points": 5
+        }
+      },
+      "errors": 0,
+      "forfeits": 0
+    },
+    "v9_lock": {
+      "n": 32,
+      "wins": 13,
+      "draws": 0,
+      "losses": 19,
+      "points": 13,
+      "Y_points": 8,
+      "score_difference": -143,
+      "opponents": {
+        "s3_selective_contact": {
+          "n": 8,
+          "points": 4
+        },
+        "r3_opponent_league": {
+          "n": 8,
+          "points": 4
+        },
+        "j_balanced_portfolio": {
+          "n": 8,
+          "points": 1
+        },
+        "siphon": {
+          "n": 8,
+          "points": 4
+        }
+      },
+      "errors": 0,
+      "forfeits": 0
+    }
+  },
+  "unstarted": [],
+  "inputs_unchanged": true,
+  "all_scope_cleanups_verified": true
+}

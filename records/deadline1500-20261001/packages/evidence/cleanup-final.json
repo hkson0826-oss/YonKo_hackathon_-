@@ -1,0 +1,25 @@
+{
+  "checked_at_utc": "2026-10-01T05:39:46.794361+00:00",
+  "status": "completed",
+  "request": {
+    "requested_at_utc": "2026-10-01T05:39:03.736867+00:00",
+    "reason": "Root reports league128 complete, all256 bot scopes removed, no further compiler use; selected v8 ZIP uploaded as server submission11 at14:37KST pending validation.",
+    "service_status_before": "ready",
+    "temporary_directory": "/tmp/yk-gcc12-2bjbhm3o",
+    "wrapper": "/tmp/yk-gcc12-2bjbhm3o/gcc12-wrapper",
+    "mechanism": "Normal STOP sentinel consumed by service; no forced kill or broad process cleanup."
+  },
+  "service_exit_code": 0,
+  "termination": "normal_STOP_sentinel",
+  "temporary_directory": "/tmp/yk-gcc12-2bjbhm3o",
+  "temporary_directory_removed": true,
+  "compiler_wrapper_removed": true,
+  "processes_referencing_temporary_directory": [],
+  "compiled_preview_binaries_removed": true,
+  "four_source_only_submission_zips_preserved": true,
+  "previous_archive_files_sha256_all_unchanged": true,
+  "previous_archive_index_sha256": "2044765f1ead256d207f15cb3807e28db485d1f11968155c421085abb934fa58",
+  "previous_package_manifest_sha256": "3e960b3737b19d4e3f9542101d66643775639e5e93902df90f0667fd90dc1600",
+  "league_scope_cleanup": "Root/rules report all256 scopes absent; this cleanup independently checks only the toolchain service/directory.",
+  "server_status": "Root reported submission11 uploaded14:37KST, validation pending at stop request; cleanup does not assert server acceptance/selection."
+}

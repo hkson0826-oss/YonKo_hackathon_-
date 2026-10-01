@@ -1,0 +1,2601 @@
+{
+  "phase": "selection",
+  "gates": {
+    "complete": true,
+    "all_errors_zero": true,
+    "all_forfeits_zero": true,
+    "strict_passed": true,
+    "all_cleanup_verified": true,
+    "all_scopes_absent_now": true,
+    "cpu_and_memory_exact": true,
+    "runtime_statuses_ok": true
+  },
+  "all_gates_pass": true,
+  "ranked": [
+    "v8",
+    "mission4",
+    "v9_lock",
+    "v8_flagguard"
+  ],
+  "best_per_frozen_policy": "v8",
+  "results": {
+    "mission4": {
+      "n": 32,
+      "wins": 17,
+      "draws": 0,
+      "losses": 15,
+      "points": 17,
+      "Y_points": 9,
+      "score_difference": 83,
+      "opponents": {
+        "s3_selective_contact": {
+          "n": 8,
+          "points": 6
+        },
+        "r3_opponent_league": {
+          "n": 8,
+          "points": 5
+        },
+        "j_balanced_portfolio": {
+          "n": 8,
+          "points": 2
+        },
+        "siphon": {
+          "n": 8,
+          "points": 4
+        }
+      },
+      "errors": 0,
+      "forfeits": 0
+    },
+    "v8_flagguard": {
+      "n": 32,
+      "wins": 12,
+      "draws": 0,
+      "losses": 20,
+      "points": 12,
+      "Y_points": 6,
+      "score_difference": -248,
+      "opponents": {
+        "s3_selective_contact": {
+          "n": 8,
+          "points": 3
+        },
+        "r3_opponent_league": {
+          "n": 8,
+          "points": 2
+        },
+        "j_balanced_portfolio": {
+          "n": 8,
+          "points": 2
+        },
+        "siphon": {
+          "n": 8,
+          "points": 5
+        }
+      },
+      "errors": 0,
+      "forfeits": 0
+    },
+    "v8": {
+      "n": 32,
+      "wins": 17,
+      "draws": 0,
+      "losses": 15,
+      "points": 17,
+      "Y_points": 10,
+      "score_difference": 26,
+      "opponents": {
+        "s3_selective_contact": {
+          "n": 8,
+          "points": 5
+        },
+        "r3_opponent_league": {
+          "n": 8,
+          "points": 3
+        },
+        "j_balanced_portfolio": {
+          "n": 8,
+          "points": 4
+        },
+        "siphon": {
+          "n": 8,
+          "points": 5
+        }
+      },
+      "errors": 0,
+      "forfeits": 0
+    },
+    "v9_lock": {
+      "n": 32,
+      "wins": 13,
+      "draws": 0,
+      "losses": 19,
+      "points": 13,
+      "Y_points": 8,
+      "score_difference": -143,
+      "opponents": {
+        "s3_selective_contact": {
+          "n": 8,
+          "points": 4
+        },
+        "r3_opponent_league": {
+          "n": 8,
+          "points": 4
+        },
+        "j_balanced_portfolio": {
+          "n": 8,
+          "points": 1
+        },
+        "siphon": {
+          "n": 8,
+          "points": 4
+        }
+      },
+      "errors": 0,
+      "forfeits": 0
+    }
+  },
+  "completed_games": 128,
+  "elapsed_seconds": 332.20191383361816,
+  "game_seconds": {
+    "mean": 19.78982884375705,
+    "max": 31.346874000999378
+  },
+  "scope_count": 256,
+  "scope_checks": [
+    {
+      "job": "selection-mission4-s3_selective_contact-K-23500",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-s3_selective_contact-K-23500-Y-0b54e0accd.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-s3_selective_contact-K-23500",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-s3_selective_contact-K-23500-K-c5158fcc66.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-s3_selective_contact-Y-23500",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-s3_selective_contact-Y-23500-Y-1686350601.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-s3_selective_contact-Y-23500",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-s3_selective_contact-Y-23500-K-ca1f49c757.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-s3_selective_contact-K-23500",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-s3_selective_contact-K-23500-Y-cd5e7d52eb.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-s3_selective_contact-K-23500",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-s3_selective_contact-K-23500-K-91e23059ec.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-s3_selective_contact-Y-23500",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-s3_selective_contact-Y-23500-Y-4a26a2dbd8.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-s3_selective_contact-Y-23500",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-s3_selective_contact-Y-23500-K-4adddf1ee5.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-s3_selective_contact-Y-23500",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-s3_selective_contact-Y-23500-Y-de8cc04c7d.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-s3_selective_contact-Y-23500",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-s3_selective_contact-Y-23500-K-75de7eeb7c.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-s3_selective_contact-Y-23500",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-s3_selective_contact-Y-23500-Y-d12786ec6c.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-s3_selective_contact-Y-23500",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-s3_selective_contact-Y-23500-K-520465bcd7.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-s3_selective_contact-K-23500",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-s3_selective_contact-K-23500-Y-7b3d4c789f.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-s3_selective_contact-K-23500",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-s3_selective_contact-K-23500-K-2c2e011d30.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-s3_selective_contact-K-23500",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-s3_selective_contact-K-23500-Y-673a43266b.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-s3_selective_contact-K-23500",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-s3_selective_contact-K-23500-K-8bd71f677a.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-r3_opponent_league-Y-23500",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-r3_opponent_league-Y-23500-Y-c773e9d306.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-r3_opponent_league-Y-23500",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-r3_opponent_league-Y-23500-K-bda7ced373.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-r3_opponent_league-K-23500",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-r3_opponent_league-K-23500-Y-785350e9f6.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-r3_opponent_league-K-23500",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-r3_opponent_league-K-23500-K-7327fea682.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-r3_opponent_league-K-23500",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-r3_opponent_league-K-23500-Y-d352496048.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-r3_opponent_league-K-23500",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-r3_opponent_league-K-23500-K-1080e08400.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-r3_opponent_league-Y-23500",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-r3_opponent_league-Y-23500-Y-12fada710b.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-r3_opponent_league-Y-23500",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-r3_opponent_league-Y-23500-K-ee36c8db22.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-r3_opponent_league-Y-23500",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-r3_opponent_league-Y-23500-Y-ac345a0633.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-r3_opponent_league-Y-23500",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-r3_opponent_league-Y-23500-K-901e689771.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-r3_opponent_league-Y-23500",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-r3_opponent_league-Y-23500-Y-bf0a09f044.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-r3_opponent_league-Y-23500",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-r3_opponent_league-Y-23500-K-b8323f1045.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-r3_opponent_league-K-23500",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-r3_opponent_league-K-23500-Y-2c1b057a05.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-r3_opponent_league-K-23500",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-r3_opponent_league-K-23500-K-d6776fc283.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-r3_opponent_league-K-23500",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-r3_opponent_league-K-23500-Y-5c9f613b27.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-r3_opponent_league-K-23500",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-r3_opponent_league-K-23500-K-b3bb765022.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-j_balanced_portfolio-Y-23500",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-j_balanced_portfolio-Y-23500-Y-43f1397d14.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-j_balanced_portfolio-Y-23500",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-j_balanced_portfolio-Y-23500-K-509c85295b.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-j_balanced_portfolio-K-23500",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-j_balanced_portfolio-K-23500-Y-73c4ea12b2.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-j_balanced_portfolio-K-23500",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-j_balanced_portfolio-K-23500-K-76b71d518d.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-j_balanced_portfolio-K-23500",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-j_balanced_portfolio-K-23500-Y-ccfc4e9aff.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-j_balanced_portfolio-K-23500",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-j_balanced_portfolio-K-23500-K-be9ce475da.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-siphon-Y-23500",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-siphon-Y-23500-Y-d85f968de6.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-siphon-Y-23500",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-siphon-Y-23500-K-5467b52c44.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-siphon-K-23500",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-siphon-K-23500-Y-0324998693.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-siphon-K-23500",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-siphon-K-23500-K-5f62ed1a20.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-j_balanced_portfolio-Y-23500",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-j_balanced_portfolio-Y-23500-Y-f4c4c6f52f.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-j_balanced_portfolio-Y-23500",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-j_balanced_portfolio-Y-23500-K-76450d5613.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-j_balanced_portfolio-Y-23500",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-j_balanced_portfolio-Y-23500-Y-f46375d6b1.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-j_balanced_portfolio-Y-23500",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-j_balanced_portfolio-Y-23500-K-60a696231c.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-siphon-Y-23500",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-siphon-Y-23500-Y-b5666a8197.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-siphon-Y-23500",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-siphon-Y-23500-K-5434f69508.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-j_balanced_portfolio-K-23500",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-j_balanced_portfolio-K-23500-Y-be6810c4ef.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-j_balanced_portfolio-K-23500",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-j_balanced_portfolio-K-23500-K-ce63f9c388.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-j_balanced_portfolio-Y-23500",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-j_balanced_portfolio-Y-23500-Y-d321ce56cb.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-j_balanced_portfolio-Y-23500",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-j_balanced_portfolio-Y-23500-K-a7641fa3be.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-j_balanced_portfolio-K-23500",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-j_balanced_portfolio-K-23500-Y-07d61e702e.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-j_balanced_portfolio-K-23500",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-j_balanced_portfolio-K-23500-K-ac5b34ec3d.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-siphon-K-23500",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-siphon-K-23500-Y-7750dc5140.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-siphon-K-23500",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-siphon-K-23500-K-547077caee.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-siphon-K-23500",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-siphon-K-23500-Y-c73cec9ec5.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-siphon-K-23500",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-siphon-K-23500-K-f62c69af3a.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-siphon-Y-23500",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-siphon-Y-23500-Y-8e0785296d.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-siphon-Y-23500",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-siphon-Y-23500-K-aa950c4e33.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-siphon-Y-23500",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-siphon-Y-23500-Y-13ed859fef.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-siphon-Y-23500",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-siphon-Y-23500-K-49df75ecdb.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-siphon-K-23500",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-siphon-K-23500-Y-53be00b67e.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-siphon-K-23500",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-siphon-K-23500-K-7133fd164f.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-s3_selective_contact-Y-23501",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-s3_selective_contact-Y-23501-Y-c43266e730.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-s3_selective_contact-Y-23501",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-s3_selective_contact-Y-23501-K-55f0b2709b.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-s3_selective_contact-Y-23501",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-s3_selective_contact-Y-23501-Y-cff1a43d3e.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-s3_selective_contact-Y-23501",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-s3_selective_contact-Y-23501-K-516358d4e2.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-s3_selective_contact-K-23501",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-s3_selective_contact-K-23501-Y-ae04c23f77.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-s3_selective_contact-K-23501",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-s3_selective_contact-K-23501-K-837a255a5a.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-s3_selective_contact-K-23501",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-s3_selective_contact-K-23501-Y-cfb98d9b77.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-s3_selective_contact-K-23501",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-s3_selective_contact-K-23501-K-9f753a254b.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-s3_selective_contact-K-23501",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-s3_selective_contact-K-23501-Y-2667bf2bae.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-s3_selective_contact-K-23501",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-s3_selective_contact-K-23501-K-5f7bae689b.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-s3_selective_contact-Y-23501",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-s3_selective_contact-Y-23501-Y-74a14f77a1.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-s3_selective_contact-Y-23501",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-s3_selective_contact-Y-23501-K-071241164f.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-s3_selective_contact-Y-23501",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-s3_selective_contact-Y-23501-Y-e367da1d28.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-s3_selective_contact-Y-23501",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-s3_selective_contact-Y-23501-K-62a4f893d0.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-s3_selective_contact-K-23501",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-s3_selective_contact-K-23501-Y-b3f5f3ef3c.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-s3_selective_contact-K-23501",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-s3_selective_contact-K-23501-K-5ad8b5aba3.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-r3_opponent_league-Y-23501",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-r3_opponent_league-Y-23501-Y-5f4243e7ed.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-r3_opponent_league-Y-23501",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-r3_opponent_league-Y-23501-K-4e0d4e8683.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-r3_opponent_league-Y-23501",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-r3_opponent_league-Y-23501-Y-f0734698d0.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-r3_opponent_league-Y-23501",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-r3_opponent_league-Y-23501-K-d9562f8a75.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-r3_opponent_league-K-23501",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-r3_opponent_league-K-23501-Y-36fbb77a3d.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-r3_opponent_league-K-23501",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-r3_opponent_league-K-23501-K-fa5bf74f8f.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-r3_opponent_league-K-23501",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-r3_opponent_league-K-23501-Y-8717e58ec0.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-r3_opponent_league-K-23501",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-r3_opponent_league-K-23501-K-0647eca13c.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-j_balanced_portfolio-Y-23501",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-j_balanced_portfolio-Y-23501-Y-68bbf11fbf.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-j_balanced_portfolio-Y-23501",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-j_balanced_portfolio-Y-23501-K-e605e526c0.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-r3_opponent_league-Y-23501",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-r3_opponent_league-Y-23501-Y-ae20f50054.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-r3_opponent_league-Y-23501",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-r3_opponent_league-Y-23501-K-6bc55394a7.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-j_balanced_portfolio-K-23501",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-j_balanced_portfolio-K-23501-Y-dbf20ab390.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-j_balanced_portfolio-K-23501",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-j_balanced_portfolio-K-23501-K-2523817d5c.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-r3_opponent_league-K-23501",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-r3_opponent_league-K-23501-Y-5b3baebbaf.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-r3_opponent_league-K-23501",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-r3_opponent_league-K-23501-K-2ae14dac64.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-r3_opponent_league-Y-23501",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-r3_opponent_league-Y-23501-Y-86ebca85dd.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-r3_opponent_league-Y-23501",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-r3_opponent_league-Y-23501-K-87a7c32ada.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-j_balanced_portfolio-Y-23501",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-j_balanced_portfolio-Y-23501-Y-8477f9baa4.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-j_balanced_portfolio-Y-23501",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-j_balanced_portfolio-Y-23501-K-cf5b7730e6.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-r3_opponent_league-K-23501",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-r3_opponent_league-K-23501-Y-e8f77fd3db.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-r3_opponent_league-K-23501",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-r3_opponent_league-K-23501-K-a16da747c2.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-j_balanced_portfolio-K-23501",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-j_balanced_portfolio-K-23501-Y-77f29d7455.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-j_balanced_portfolio-K-23501",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-j_balanced_portfolio-K-23501-K-946ff91121.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-siphon-Y-23501",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-siphon-Y-23501-Y-fa2a59a7be.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-siphon-Y-23501",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-siphon-Y-23501-K-215b14afa7.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-siphon-K-23501",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-siphon-K-23501-Y-7019bb3fd1.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-siphon-K-23501",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-siphon-K-23501-K-b833e57117.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-j_balanced_portfolio-Y-23501",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-j_balanced_portfolio-Y-23501-Y-e872367dec.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-j_balanced_portfolio-Y-23501",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-j_balanced_portfolio-Y-23501-K-029a7ef2ad.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-j_balanced_portfolio-K-23501",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-j_balanced_portfolio-K-23501-Y-da3439e0dc.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-j_balanced_portfolio-K-23501",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-j_balanced_portfolio-K-23501-K-5718d888d7.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-j_balanced_portfolio-Y-23501",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-j_balanced_portfolio-Y-23501-Y-be80db1838.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-j_balanced_portfolio-Y-23501",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-j_balanced_portfolio-Y-23501-K-c76bb9db92.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-j_balanced_portfolio-K-23501",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-j_balanced_portfolio-K-23501-Y-099bb44a16.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-j_balanced_portfolio-K-23501",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-j_balanced_portfolio-K-23501-K-c57adf899f.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-siphon-Y-23501",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-siphon-Y-23501-Y-480fee4596.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-siphon-Y-23501",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-siphon-Y-23501-K-819b1ca791.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-siphon-Y-23501",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-siphon-Y-23501-Y-ea9eca45ea.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-siphon-Y-23501",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-siphon-Y-23501-K-d957403d01.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-siphon-K-23501",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-siphon-K-23501-Y-7933a07c5f.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-siphon-K-23501",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-siphon-K-23501-K-205a35504e.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-siphon-K-23501",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-siphon-K-23501-Y-21ecf180aa.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-siphon-K-23501",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-siphon-K-23501-K-1a88808a01.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-siphon-Y-23501",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-siphon-Y-23501-Y-9aff3d0e9a.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-siphon-Y-23501",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-siphon-Y-23501-K-f73cf30b2e.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-siphon-K-23501",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-siphon-K-23501-Y-29fb57316d.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-siphon-K-23501",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-siphon-K-23501-K-afa382dfa4.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-s3_selective_contact-Y-23502",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-s3_selective_contact-Y-23502-Y-58b01efeed.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-s3_selective_contact-Y-23502",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-s3_selective_contact-Y-23502-K-b56ab667de.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-s3_selective_contact-Y-23502",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-s3_selective_contact-Y-23502-Y-7024659ae2.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-s3_selective_contact-Y-23502",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-s3_selective_contact-Y-23502-K-cb81997258.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-s3_selective_contact-K-23502",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-s3_selective_contact-K-23502-Y-a8db556d0d.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-s3_selective_contact-K-23502",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-s3_selective_contact-K-23502-K-a128628254.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-s3_selective_contact-K-23502",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-s3_selective_contact-K-23502-Y-09e320ae0b.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-s3_selective_contact-K-23502",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-s3_selective_contact-K-23502-K-aa05a6fed2.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-s3_selective_contact-Y-23502",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-s3_selective_contact-Y-23502-Y-8bae3df13e.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-s3_selective_contact-Y-23502",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-s3_selective_contact-Y-23502-K-dd49b9273d.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-s3_selective_contact-K-23502",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-s3_selective_contact-K-23502-Y-e4832ab2fa.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-s3_selective_contact-K-23502",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-s3_selective_contact-K-23502-K-74be0022ee.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-s3_selective_contact-Y-23502",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-s3_selective_contact-Y-23502-Y-7acb385510.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-s3_selective_contact-Y-23502",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-s3_selective_contact-Y-23502-K-9107708320.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-s3_selective_contact-K-23502",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-s3_selective_contact-K-23502-Y-713f02343a.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-s3_selective_contact-K-23502",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-s3_selective_contact-K-23502-K-01fc91e981.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-r3_opponent_league-Y-23502",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-r3_opponent_league-Y-23502-Y-909fc29b9b.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-r3_opponent_league-Y-23502",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-r3_opponent_league-Y-23502-K-b88706ec26.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-r3_opponent_league-Y-23502",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-r3_opponent_league-Y-23502-Y-a9ad9a29d1.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-r3_opponent_league-Y-23502",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-r3_opponent_league-Y-23502-K-e9eef27e89.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-r3_opponent_league-K-23502",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-r3_opponent_league-K-23502-Y-998123b27f.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-r3_opponent_league-K-23502",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-r3_opponent_league-K-23502-K-68d25f72e0.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-r3_opponent_league-K-23502",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-r3_opponent_league-K-23502-Y-a69fe9fe56.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-r3_opponent_league-K-23502",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-r3_opponent_league-K-23502-K-8f5252e7c9.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-r3_opponent_league-Y-23502",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-r3_opponent_league-Y-23502-Y-64835c2bfa.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-r3_opponent_league-Y-23502",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-r3_opponent_league-Y-23502-K-805139424a.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-j_balanced_portfolio-K-23502",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-j_balanced_portfolio-K-23502-Y-8eba147a2d.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-j_balanced_portfolio-K-23502",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-j_balanced_portfolio-K-23502-K-1ca32bec60.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-j_balanced_portfolio-Y-23502",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-j_balanced_portfolio-Y-23502-Y-0b77480632.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-j_balanced_portfolio-Y-23502",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-j_balanced_portfolio-Y-23502-K-052c890f6e.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-r3_opponent_league-K-23502",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-r3_opponent_league-K-23502-Y-e1458c15f7.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-r3_opponent_league-K-23502",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-r3_opponent_league-K-23502-K-b346bbc3ad.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-r3_opponent_league-Y-23502",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-r3_opponent_league-Y-23502-Y-59068dc5c1.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-r3_opponent_league-Y-23502",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-r3_opponent_league-Y-23502-K-78b474b508.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-r3_opponent_league-K-23502",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-r3_opponent_league-K-23502-Y-339451bb5c.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-r3_opponent_league-K-23502",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-r3_opponent_league-K-23502-K-d3f0dc7edc.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-j_balanced_portfolio-Y-23502",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-j_balanced_portfolio-Y-23502-Y-dfc5a655b5.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-j_balanced_portfolio-Y-23502",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-j_balanced_portfolio-Y-23502-K-d5e661d346.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-j_balanced_portfolio-K-23502",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-j_balanced_portfolio-K-23502-Y-3e5a7cf55d.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-j_balanced_portfolio-K-23502",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-j_balanced_portfolio-K-23502-K-ce780e21a5.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-siphon-Y-23502",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-siphon-Y-23502-Y-ec96131044.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-siphon-Y-23502",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-siphon-Y-23502-K-eb5b64e618.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-siphon-K-23502",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-siphon-K-23502-Y-b545d6dc31.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-siphon-K-23502",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-siphon-K-23502-K-c9c64c4e36.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-siphon-Y-23502",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-siphon-Y-23502-Y-d1a3634410.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-siphon-Y-23502",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-siphon-Y-23502-K-a050a52265.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-siphon-K-23502",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-siphon-K-23502-Y-75d5aaf5ef.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-siphon-K-23502",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-siphon-K-23502-K-5251d66c4b.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-siphon-K-23502",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-siphon-K-23502-Y-84f48a8f7c.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-siphon-K-23502",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-siphon-K-23502-K-aff1be1d4d.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-siphon-Y-23502",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-siphon-Y-23502-Y-2f8962b968.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-siphon-Y-23502",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-siphon-Y-23502-K-35921e604d.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-j_balanced_portfolio-Y-23502",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-j_balanced_portfolio-Y-23502-Y-849ad3b249.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-j_balanced_portfolio-Y-23502",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-j_balanced_portfolio-Y-23502-K-958cb30ddd.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-siphon-Y-23502",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-siphon-Y-23502-Y-ab101e796d.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-siphon-Y-23502",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-siphon-Y-23502-K-39ba05fbf6.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-j_balanced_portfolio-Y-23502",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-j_balanced_portfolio-Y-23502-Y-53e126b1d6.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-j_balanced_portfolio-Y-23502",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-j_balanced_portfolio-Y-23502-K-2db8f2acb5.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-j_balanced_portfolio-K-23502",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-j_balanced_portfolio-K-23502-Y-ad4e6afb20.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-j_balanced_portfolio-K-23502",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-j_balanced_portfolio-K-23502-K-54f3352921.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-j_balanced_portfolio-K-23502",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-j_balanced_portfolio-K-23502-Y-1c86a22361.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-j_balanced_portfolio-K-23502",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-j_balanced_portfolio-K-23502-K-5124cebccb.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-siphon-K-23502",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-siphon-K-23502-Y-89e383648a.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-siphon-K-23502",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-siphon-K-23502-K-de76471177.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-s3_selective_contact-K-23503",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-s3_selective_contact-K-23503-Y-3166b5c14a.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-s3_selective_contact-K-23503",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-s3_selective_contact-K-23503-K-e5ca2492d5.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-s3_selective_contact-Y-23503",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-s3_selective_contact-Y-23503-Y-f90e3eb387.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-s3_selective_contact-Y-23503",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-s3_selective_contact-Y-23503-K-2e29a854e4.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-s3_selective_contact-K-23503",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-s3_selective_contact-K-23503-Y-b15a19b906.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-s3_selective_contact-K-23503",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-s3_selective_contact-K-23503-K-d0c52368a5.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-s3_selective_contact-Y-23503",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-s3_selective_contact-Y-23503-Y-f28c117bc7.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-s3_selective_contact-Y-23503",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-s3_selective_contact-Y-23503-K-1d58db50a0.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-r3_opponent_league-K-23503",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-r3_opponent_league-K-23503-Y-be4fc92ac5.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-r3_opponent_league-K-23503",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-r3_opponent_league-K-23503-K-f86503c4a2.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-s3_selective_contact-K-23503",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-s3_selective_contact-K-23503-Y-f2d44660bd.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-s3_selective_contact-K-23503",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-s3_selective_contact-K-23503-K-8762921c3f.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-s3_selective_contact-Y-23503",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-s3_selective_contact-Y-23503-Y-742a27fb26.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-s3_selective_contact-Y-23503",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-s3_selective_contact-Y-23503-K-9102e7522d.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-s3_selective_contact-Y-23503",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-s3_selective_contact-Y-23503-Y-87d1533f1b.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-s3_selective_contact-Y-23503",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-s3_selective_contact-Y-23503-K-398b23da6f.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-s3_selective_contact-K-23503",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-s3_selective_contact-K-23503-Y-c18808e87d.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-s3_selective_contact-K-23503",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-s3_selective_contact-K-23503-K-e0068faeb2.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-r3_opponent_league-Y-23503",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-r3_opponent_league-Y-23503-Y-20afefdf34.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-r3_opponent_league-Y-23503",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-r3_opponent_league-Y-23503-K-22a8f3549e.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-r3_opponent_league-K-23503",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-r3_opponent_league-K-23503-Y-6e5018a6b9.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-r3_opponent_league-K-23503",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-r3_opponent_league-K-23503-K-86f4180a5a.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-j_balanced_portfolio-Y-23503",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-j_balanced_portfolio-Y-23503-Y-3c1067fc07.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-j_balanced_portfolio-Y-23503",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-j_balanced_portfolio-Y-23503-K-f0b5cbc882.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-r3_opponent_league-Y-23503",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-r3_opponent_league-Y-23503-Y-b90e789360.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-r3_opponent_league-Y-23503",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-r3_opponent_league-Y-23503-K-89df39462c.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-r3_opponent_league-Y-23503",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-r3_opponent_league-Y-23503-Y-328660a973.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-r3_opponent_league-Y-23503",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-r3_opponent_league-Y-23503-K-3739da7730.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-j_balanced_portfolio-K-23503",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-j_balanced_portfolio-K-23503-Y-6bb2c323cf.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-j_balanced_portfolio-K-23503",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-j_balanced_portfolio-K-23503-K-aa6c36e8ac.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-j_balanced_portfolio-K-23503",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-j_balanced_portfolio-K-23503-Y-cc42d5777a.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-j_balanced_portfolio-K-23503",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-j_balanced_portfolio-K-23503-K-c62b9ddff4.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-j_balanced_portfolio-Y-23503",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-j_balanced_portfolio-Y-23503-Y-3c15283ec1.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-j_balanced_portfolio-Y-23503",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-j_balanced_portfolio-Y-23503-K-a2c3bed387.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-r3_opponent_league-K-23503",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-r3_opponent_league-K-23503-Y-d3321e8970.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-r3_opponent_league-K-23503",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-r3_opponent_league-K-23503-K-18940a4823.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-r3_opponent_league-Y-23503",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-r3_opponent_league-Y-23503-Y-e9ec84eaf2.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-r3_opponent_league-Y-23503",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-r3_opponent_league-Y-23503-K-7abc7da267.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-siphon-Y-23503",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-siphon-Y-23503-Y-f37159e55f.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-siphon-Y-23503",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-siphon-Y-23503-K-1c150fb3dc.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-siphon-K-23503",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-siphon-K-23503-Y-d3296c70ba.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-mission4-siphon-K-23503",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-mission4-siphon-K-23503-K-70529d9410.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-r3_opponent_league-K-23503",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-r3_opponent_league-K-23503-Y-52535af774.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-r3_opponent_league-K-23503",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-r3_opponent_league-K-23503-K-a24779b88e.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-j_balanced_portfolio-K-23503",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-j_balanced_portfolio-K-23503-Y-72b10bdfac.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-j_balanced_portfolio-K-23503",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-j_balanced_portfolio-K-23503-K-3fceaa9de5.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-j_balanced_portfolio-K-23503",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-j_balanced_portfolio-K-23503-Y-2d583c8e08.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-j_balanced_portfolio-K-23503",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-j_balanced_portfolio-K-23503-K-cd2d9746e3.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-j_balanced_portfolio-Y-23503",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-j_balanced_portfolio-Y-23503-Y-119c8743c6.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-j_balanced_portfolio-Y-23503",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-j_balanced_portfolio-Y-23503-K-4cf5a80764.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-j_balanced_portfolio-Y-23503",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-j_balanced_portfolio-Y-23503-Y-e90d3272f1.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-j_balanced_portfolio-Y-23503",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-j_balanced_portfolio-Y-23503-K-313ecf6f5f.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-siphon-Y-23503",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-siphon-Y-23503-Y-a46222fb8c.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-siphon-Y-23503",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-siphon-Y-23503-K-51820bf86e.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-siphon-K-23503",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-siphon-K-23503-Y-7f04ccda57.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8-siphon-K-23503",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8-siphon-K-23503-K-48fe2743dc.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-siphon-Y-23503",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-siphon-Y-23503-Y-819eaf45ed.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-siphon-Y-23503",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-siphon-Y-23503-K-dbe685d927.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-siphon-Y-23503",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-siphon-Y-23503-Y-e5f5c8a864.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-siphon-Y-23503",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-siphon-Y-23503-K-567057b87d.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-siphon-K-23503",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-siphon-K-23503-Y-7ef333a98f.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v9_lock-siphon-K-23503",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v9_lock-siphon-K-23503-K-370135456e.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-siphon-K-23503",
+      "side": "Y",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-siphon-K-23503-Y-d613bf7321.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    },
+    {
+      "job": "selection-v8_flagguard-siphon-K-23503",
+      "side": "K",
+      "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-selection-v8_flagguard-siphon-K-23503-K-2ed6707b5a.scope",
+      "still_exists": false,
+      "cpu.max": "25000 100000",
+      "memory.max": "402653184",
+      "cleanup_ok": true
+    }
+  ],
+  "runtime": {
+    "s3_selective_contact": {
+      "normal": {
+        "n": 4825,
+        "p50_ms": 198.45310699020047,
+        "p95_ms": 199.28008801070973,
+        "p99_ms": 199.67644700955134,
+        "max_ms": 273.5632690018974
+      },
+      "first": {
+        "n": 32,
+        "p50_ms": 113.13510200125165,
+        "p95_ms": 194.79449800564907,
+        "p99_ms": 198.17571400199085,
+        "max_ms": 198.17571400199085
+      },
+      "errors": [],
+      "max_memory_peak_bytes": 9805824
+    },
+    "mission4": {
+      "normal": {
+        "n": 4487,
+        "p50_ms": 1.7165839963126928,
+        "p95_ms": 3.0112640088191256,
+        "p99_ms": 46.112932002870366,
+        "max_ms": 73.12334999733139
+      },
+      "first": {
+        "n": 32,
+        "p50_ms": 119.43090900604147,
+        "p95_ms": 208.26274499995634,
+        "p99_ms": 220.45126999728382,
+        "max_ms": 220.45126999728382
+      },
+      "errors": [],
+      "max_memory_peak_bytes": 10088448
+    },
+    "v8_flagguard": {
+      "normal": {
+        "n": 4618,
+        "p50_ms": 113.22888899303507,
+        "p95_ms": 186.12046500493307,
+        "p99_ms": 189.19824999466073,
+        "max_ms": 192.52727000275627
+      },
+      "first": {
+        "n": 32,
+        "p50_ms": 109.26895999000408,
+        "p95_ms": 176.0878689965466,
+        "p99_ms": 222.95334799855482,
+        "max_ms": 222.95334799855482
+      },
+      "errors": [],
+      "max_memory_peak_bytes": 10354688
+    },
+    "v8": {
+      "normal": {
+        "n": 4550,
+        "p50_ms": 117.34070199599955,
+        "p95_ms": 187.8314289933769,
+        "p99_ms": 189.8382699873764,
+        "max_ms": 195.40025699825492
+      },
+      "first": {
+        "n": 32,
+        "p50_ms": 133.22456101013813,
+        "p95_ms": 224.12702698784415,
+        "p99_ms": 224.38350800075568,
+        "max_ms": 224.38350800075568
+      },
+      "errors": [],
+      "max_memory_peak_bytes": 10129408
+    },
+    "v9_lock": {
+      "normal": {
+        "n": 4593,
+        "p50_ms": 113.5688219947042,
+        "p95_ms": 186.69724500796292,
+        "p99_ms": 189.41395000729244,
+        "max_ms": 194.63205599458888
+      },
+      "first": {
+        "n": 32,
+        "p50_ms": 122.15379301051144,
+        "p95_ms": 226.88980400562286,
+        "p99_ms": 230.85889700450934,
+        "max_ms": 230.85889700450934
+      },
+      "errors": [],
+      "max_memory_peak_bytes": 10104832
+    },
+    "r3_opponent_league": {
+      "normal": {
+        "n": 4743,
+        "p50_ms": 114.86212199088186,
+        "p95_ms": 185.5762930063065,
+        "p99_ms": 198.31246399553493,
+        "max_ms": 200.09722000395413
+      },
+      "first": {
+        "n": 32,
+        "p50_ms": 111.55397399852518,
+        "p95_ms": 188.2613680063514,
+        "p99_ms": 206.7036249936791,
+        "max_ms": 206.7036249936791
+      },
+      "errors": [],
+      "max_memory_peak_bytes": 9895936
+    },
+    "j_balanced_portfolio": {
+      "normal": {
+        "n": 4556,
+        "p50_ms": 11.050230008549988,
+        "p95_ms": 82.87164400098845,
+        "p99_ms": 86.34383299795445,
+        "max_ms": 90.58439200452995
+      },
+      "first": {
+        "n": 32,
+        "p50_ms": 134.21037601074204,
+        "p95_ms": 200.4574830061756,
+        "p99_ms": 230.39498401340097,
+        "max_ms": 230.39498401340097
+      },
+      "errors": [],
+      "max_memory_peak_bytes": 10379264
+    },
+    "siphon": {
+      "normal": {
+        "n": 4124,
+        "p50_ms": 0.4799519956577569,
+        "p95_ms": 0.7230619958136231,
+        "p99_ms": 0.8404950058320537,
+        "max_ms": 71.21459901100025
+      },
+      "first": {
+        "n": 32,
+        "p50_ms": 101.26747700269334,
+        "p95_ms": 135.7624109950848,
+        "p99_ms": 137.114842000301,
+        "max_ms": 137.114842000301
+      },
+      "errors": [],
+      "max_memory_peak_bytes": 10575872
+    }
+  },
+  "plan_sha256": "7814f7575e615b3c22514cf02c322097f37d18223cd80e4ecc64694421030b0d",
+  "result_jsonl_sha256": "2a8c755b94403e39c984b80e5d7ca7f869a7da559e8879eb9dca0c1611836298",
+  "frozen_commit": "0b6c81128c2f18ee7dd1ada6a2ce4d6473ae964b"
+}
