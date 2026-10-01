@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "harness_sha256": {
+    "launch_bot.py": "85091217051aa8027b3544172a2fb2444ad557f7b586a43133276ec7bb07e7f5",
+    "busy_probe.py": "f5b195540e2a6afd7210cd26a0181dd5cfbbac034a3b64f4bb4a4bc85a6b1fbd",
+    "run_checks.py": "780cfcb6ca6065bddd335e2f906a348ef9efa3e86bfb2a785ef6699d1f8916cb"
+  },
+  "normal_probe": {
+    "cpu_seconds": 0.250138385,
+    "wall_seconds": 0.25105515398900025,
+    "cpu.max": null,
+    "cpu.stat": "usage_usec 294901\nuser_usec 204181\nsystem_usec 90719\nnice_usec 0\ncore_sched.force_idle_usec 0"
+  },
+  "quarter_probe": {
+    "cpu_seconds": 0.25011720000000004,
+    "wall_seconds": 1.0808629480015952,
+    "cpu.max": "25000 100000",
+    "cpu.stat": "usage_usec 295097\nuser_usec 192046\nsystem_usec 103051\nnice_usec 0\ncore_sched.force_idle_usec 0\nnr_periods 12\nnr_throttled 12\nthrottled_usec 899424\nnr_bursts 0\nburst_usec 0",
+    "cpu_wall_ratio": 0.2314051013243086
+  }
+}

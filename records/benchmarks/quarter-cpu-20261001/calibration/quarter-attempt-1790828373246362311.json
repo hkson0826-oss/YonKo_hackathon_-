@@ -1,0 +1,79 @@
+{
+  "condition": "quarter",
+  "argv": [
+    "systemd-run",
+    "--user",
+    "--scope",
+    "--quiet",
+    "--collect",
+    "--no-ask-password",
+    "--unit=yk-quarter-20261001-calibration-quarter-408e039b34.scope",
+    "--property=MemoryMax=402653184",
+    "--property=CPUQuota=25%",
+    "--property=CPUQuotaPeriodSec=100ms",
+    "--",
+    "/usr/bin/python",
+    "/tmp/yk-quarter-cpu-20261001/launch_bot.py",
+    "--metadata",
+    "/tmp/yk-quarter-cpu-20261001/calibration/quarter-launch.json",
+    "--unit",
+    "yk-quarter-20261001-calibration-quarter-408e039b34.scope",
+    "--expected-cpu-max",
+    "25000 100000",
+    "--",
+    "/usr/bin/python",
+    "/tmp/yk-quarter-cpu-20261001/busy_probe.py"
+  ],
+  "returncode": 0,
+  "stdout": "{\"cpu_seconds\": 0.250153336, \"wall_seconds\": 1.0038561909896089, \"cpu.max\": \"25000 100000\", \"cpu.stat\": \"usage_usec 301598\\nuser_usec 191035\\nsystem_usec 110563\\nnice_usec 0\\ncore_sched.force_idle_usec 0\\nnr_periods 12\\nnr_throttled 11\\nthrottled_usec 825025\\nnr_bursts 0\\nburst_usec 0\"}\n",
+  "stderr": "",
+  "wrapper_wall_seconds": 1.154842591000488,
+  "launch": {
+    "pid": 886782,
+    "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-calibration-quarter-408e039b34.scope",
+    "unit": "yk-quarter-20261001-calibration-quarter-408e039b34.scope",
+    "limits": {
+      "cpu.max": "25000 100000",
+      "cpu.max.burst": "0",
+      "cpu.stat": "usage_usec 34735\nuser_usec 28793\nsystem_usec 5941\nnice_usec 0\ncore_sched.force_idle_usec 0\nnr_periods 1\nnr_throttled 0\nthrottled_usec 0\nnr_bursts 0\nburst_usec 0",
+      "memory.max": "402653184",
+      "memory.peak": "8749056",
+      "cgroup.procs": "886782",
+      "cpuset.cpus.effective": null
+    },
+    "ancestors": [
+      {
+        "path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-calibration-quarter-408e039b34.scope",
+        "cpu.max": "25000 100000"
+      },
+      {
+        "path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice",
+        "cpu.max": "max 100000"
+      },
+      {
+        "path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service",
+        "cpu.max": "max 100000"
+      },
+      {
+        "path": "/sys/fs/cgroup/user.slice/user-1000.slice",
+        "cpu.max": "max 100000"
+      },
+      {
+        "path": "/sys/fs/cgroup/user.slice",
+        "cpu.max": "max 100000"
+      },
+      {
+        "path": "/sys/fs/cgroup",
+        "cpu.max": null
+      }
+    ],
+    "command": [
+      "/usr/bin/python",
+      "/tmp/yk-quarter-cpu-20261001/busy_probe.py"
+    ],
+    "rlimit_as": [
+      402653184,
+      402653184
+    ]
+  }
+}

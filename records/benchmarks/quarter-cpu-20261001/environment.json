@@ -1,0 +1,63 @@
+{
+  "captured_utc": "2026-10-01T04:20:18.482637+00:00",
+  "platform": "Linux-7.2.3-arch1-3-x86_64-with-glibc2.44",
+  "python": "3.14.7",
+  "runner_cgroup": "0::/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.chromium.Chromium-68986.scope\n",
+  "affinity_cpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "cpu_model": "13th Gen Intel(R) Core(TM) i9-13900H",
+  "commands": [
+    {
+      "argv": [
+        "findmnt",
+        "-t",
+        "cgroup,cgroup2"
+      ],
+      "returncode": 0,
+      "stdout": "TARGET         SOURCE  FSTYPE  OPTIONS\n/sys/fs/cgroup cgroup2 cgroup2 rw,nosuid,nodev,noexec,relatime,nsdelegate,memory_recursiveprot,memory_hugetlb_accounting\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "systemd-run",
+        "--version"
+      ],
+      "returncode": 0,
+      "stdout": "systemd 261 (261.2-1-arch)\n+PAM +AUDIT -SELINUX +APPARMOR -IMA +IPE +SMACK +SECCOMP +GCRYPT +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 +KMOD +LIBCRYPTSETUP +LIBCRYPTSETUP_PLUGINS +LIBFDISK +PCRE2 +PWQUALITY +P11KIT +QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD +BPF_FRAMEWORK +BTF +XKBCOMMON +UTMP +LIBARCHIVE\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "systemctl",
+        "--user",
+        "list-units",
+        "--all",
+        "--no-legend",
+        "yk-quarter-20261001-*"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ]
+}

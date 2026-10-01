@@ -1,0 +1,408 @@
+{
+  "status": "prepared_awaiting_root_commit_signal",
+  "arena": "/tmp/yk-latest-teammates-arena-20261001",
+  "map_seeds": [
+    23400
+  ],
+  "candidates": [
+    "siphon",
+    "v8",
+    "v9_main",
+    "v9_lock",
+    "mission4"
+  ],
+  "conditions": {
+    "quarter": {
+      "cpu_max": "25000 100000",
+      "CPUQuota": "25%",
+      "CPUQuotaPeriodSec": "100ms",
+      "memory_max_bytes": 402653184
+    },
+    "normal": {
+      "cpu_max": "unlimited: max period, or absent if CPU controller is inactive",
+      "memory_max_bytes": 402653184
+    }
+  },
+  "server_cpu_quota_period": "not published; 100ms is an explicit local sensitivity condition, not confirmed identical to server",
+  "official_notice": {
+    "url": "https://yonsei-vs-korea-hackathon.kr/announcements",
+    "published_local": "2026-10-01 10:42:10 Asia/Seoul",
+    "provided_by": "root browser review",
+    "bot_vcpu": 0.25,
+    "normal_turn_wall_ms": 300,
+    "first_turn_wall_ms": 3000
+  },
+  "scope": "One independent transient systemd user scope per bot. SDK/runner outside both quotas. No existing user unit or global setting changed. One game at a time.",
+  "first_turn_includes": "systemd scope creation, Python launcher, bot startup, INIT and first response",
+  "whole_match_wall_seconds": 180,
+  "normal_control": "Four required normal-CPU games: v9_main and v9_lock versus v8, both sides, same map. Total14 games. Other normal results exist on different seeds and cannot serve as same-map causal controls.",
+  "bots": {
+    "siphon": {
+      "id": "siphon",
+      "family": "deadline_external",
+      "source_directory": "/tmp/yk-new-bot-20261001/submissions/team-siphon-20261001",
+      "source": "snapshot/candidates/siphon/main.cpp",
+      "source_sha256": "0b41e26b50c13a50dc7f0ce2b339c42796b68060d73e98485005c6c720512c8e",
+      "input_files_sha256": {
+        "main.cpp": "0b41e26b50c13a50dc7f0ce2b339c42796b68060d73e98485005c6c720512c8e",
+        "generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+        "protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+        "yk_bot.hpp": "fded3e21b6df1b9d7621ad1919f8a97e44f15ae275b49072a768c2ba5a19b6b7",
+        "yk_core.hpp": "01e43e952f41fdc97b50fa98b3822ca4b2f2c8a535b686a4f6f405cbced97d89",
+        "yk_score.hpp": "b693332f8ee41c351b3f3e2abc7600b2ca4fc34d9f825b31642b27f6799f1ae4",
+        "submission.json": "0daf61b1cfd7cf6e4b2da6cb121b9b40d3cab4c2a539623adbb1abdfce563373"
+      },
+      "command": "/tmp/yk-latest-teammates-arena-20261001/bin/siphon",
+      "binary_sha256": "23ad411dbb1a73eda0951d2490d41af6cf6144470bb3cb6fca428b509dee62b1",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-latest-teammates-arena-20261001/snapshot/candidates/siphon",
+            "/tmp/yk-latest-teammates-arena-20261001/snapshot/candidates/siphon/main.cpp",
+            "-o",
+            "/tmp/yk-latest-teammates-arena-20261001/bin/siphon"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "runtime_args": []
+    },
+    "v8": {
+      "id": "v8",
+      "family": "deadline_external",
+      "source_directory": "/tmp/yk-new-bot-20261001/submissions/deadline-20260929-guard3",
+      "source": "snapshot/candidates/v8/main.cpp",
+      "source_sha256": "61a4f25113d9bf2c387a59ddc770a3143de6311e3fd2e004827a66eb78edfbc9",
+      "input_files_sha256": {
+        "main.cpp": "61a4f25113d9bf2c387a59ddc770a3143de6311e3fd2e004827a66eb78edfbc9",
+        "generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+        "protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+        "submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60"
+      },
+      "command": "/tmp/yk-latest-teammates-arena-20261001/bin/v8",
+      "binary_sha256": "3da94b00d19ad05f4f07d53df1238f195f2a70cfc7a7a2e9826c0e1fc3bc7fc1",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-latest-teammates-arena-20261001/snapshot/candidates/v8",
+            "/tmp/yk-latest-teammates-arena-20261001/snapshot/candidates/v8/main.cpp",
+            "-o",
+            "/tmp/yk-latest-teammates-arena-20261001/bin/v8"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "runtime_args": []
+    },
+    "v9_main": {
+      "id": "v9_main",
+      "family": "deadline_external",
+      "source_directory": "/tmp/yk-new-bot-20261001/submissions/team-v9_main-20261001",
+      "source": "snapshot/candidates/v9_main/main.cpp",
+      "source_sha256": "9e3f1938c995329a8c3898b5bec47a1ae5b62badf11ec7d48627254c567d15bb",
+      "input_files_sha256": {
+        "main.cpp": "9e3f1938c995329a8c3898b5bec47a1ae5b62badf11ec7d48627254c567d15bb",
+        "generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+        "protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+        "v9_action_report.hpp": "4ac8bd5dd7e8412c7f8ae99b77382d65933d2f2526f1ee454a70d0ecdd3756e2",
+        "v9_strategy.hpp": "ea8a660d5332da91f7b8386c602403f0ed064992c608f629ce2f38918365bdeb",
+        "v9_travel.hpp": "b2ac265e647d618a0676002d0500bcc147f99df38951e7b7ab1c6a631784ed3c",
+        "submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60"
+      },
+      "command": "/tmp/yk-latest-teammates-arena-20261001/bin/v9_main --attack-seed=20261001",
+      "binary_sha256": "bca015aece99639e36eb575f41c518fb87696d8b40dc66b1d41d022101d190a0",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-latest-teammates-arena-20261001/snapshot/candidates/v9_main",
+            "/tmp/yk-latest-teammates-arena-20261001/snapshot/candidates/v9_main/main.cpp",
+            "-o",
+            "/tmp/yk-latest-teammates-arena-20261001/bin/v9_main"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "runtime_args": [
+        "--attack-seed=20261001"
+      ]
+    },
+    "v9_lock": {
+      "id": "v9_lock",
+      "family": "deadline_external",
+      "source_directory": "/tmp/yk-new-bot-20261001/submissions/team-v9_lock-20261001",
+      "source": "snapshot/candidates/v9_lock/main.cpp",
+      "source_sha256": "6dc8475dce636e4743a738cd74137144e44d445dc9dbe739c186143ca643b1fb",
+      "input_files_sha256": {
+        "main.cpp": "6dc8475dce636e4743a738cd74137144e44d445dc9dbe739c186143ca643b1fb",
+        "generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+        "protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+        "submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60"
+      },
+      "command": "/tmp/yk-latest-teammates-arena-20261001/bin/v9_lock",
+      "binary_sha256": "0414db346c9075a0604c5b1d00cf3dc89cb7d5589976605c2f2d309e5a4adb88",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-latest-teammates-arena-20261001/snapshot/candidates/v9_lock",
+            "/tmp/yk-latest-teammates-arena-20261001/snapshot/candidates/v9_lock/main.cpp",
+            "-o",
+            "/tmp/yk-latest-teammates-arena-20261001/bin/v9_lock"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "runtime_args": []
+    },
+    "mission4": {
+      "id": "mission4",
+      "family": "deadline_external",
+      "source_directory": "/tmp/yk-new-bot-20261001/submissions/mission-scheduler-v4-20261001",
+      "source": "snapshot/candidates/mission4/main.cpp",
+      "source_sha256": "b06263e5cffee351fa23e6279b2f6f5f1cda0a5c1106cfc3516c005aad97c9e7",
+      "input_files_sha256": {
+        "main.cpp": "b06263e5cffee351fa23e6279b2f6f5f1cda0a5c1106cfc3516c005aad97c9e7",
+        "generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+        "protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+        "submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60"
+      },
+      "command": "/tmp/yk-latest-teammates-arena-20261001/bin/mission4",
+      "binary_sha256": "642a9500a5acf7c1433ca61c34a3f2e38975c69292c9d008d4aa0999d457a5b9",
+      "builds": [
+        {
+          "command": [
+            "/usr/bin/g++",
+            "-std=c++20",
+            "-O2",
+            "-DNDEBUG",
+            "-I",
+            "/tmp/yk-latest-teammates-arena-20261001/snapshot/candidates/mission4",
+            "/tmp/yk-latest-teammates-arena-20261001/snapshot/candidates/mission4/main.cpp",
+            "-o",
+            "/tmp/yk-latest-teammates-arena-20261001/bin/mission4"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "runtime_args": []
+    }
+  },
+  "source_sha256": {
+    "snapshot/candidates/mission4/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/mission4/main.cpp": "b06263e5cffee351fa23e6279b2f6f5f1cda0a5c1106cfc3516c005aad97c9e7",
+    "snapshot/candidates/mission4/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/mission4/submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60",
+    "snapshot/candidates/siphon/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/siphon/main.cpp": "0b41e26b50c13a50dc7f0ce2b339c42796b68060d73e98485005c6c720512c8e",
+    "snapshot/candidates/siphon/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/siphon/submission.json": "0daf61b1cfd7cf6e4b2da6cb121b9b40d3cab4c2a539623adbb1abdfce563373",
+    "snapshot/candidates/siphon/yk_bot.hpp": "fded3e21b6df1b9d7621ad1919f8a97e44f15ae275b49072a768c2ba5a19b6b7",
+    "snapshot/candidates/siphon/yk_core.hpp": "01e43e952f41fdc97b50fa98b3822ca4b2f2c8a535b686a4f6f405cbced97d89",
+    "snapshot/candidates/siphon/yk_score.hpp": "b693332f8ee41c351b3f3e2abc7600b2ca4fc34d9f825b31642b27f6799f1ae4",
+    "snapshot/candidates/v8/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/v8/main.cpp": "61a4f25113d9bf2c387a59ddc770a3143de6311e3fd2e004827a66eb78edfbc9",
+    "snapshot/candidates/v8/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/v8/submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60",
+    "snapshot/candidates/v9_lock/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/v9_lock/main.cpp": "6dc8475dce636e4743a738cd74137144e44d445dc9dbe739c186143ca643b1fb",
+    "snapshot/candidates/v9_lock/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/v9_lock/submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60",
+    "snapshot/candidates/v9_main/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "snapshot/candidates/v9_main/main.cpp": "9e3f1938c995329a8c3898b5bec47a1ae5b62badf11ec7d48627254c567d15bb",
+    "snapshot/candidates/v9_main/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "snapshot/candidates/v9_main/submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60",
+    "snapshot/candidates/v9_main/v9_action_report.hpp": "4ac8bd5dd7e8412c7f8ae99b77382d65933d2f2526f1ee454a70d0ecdd3756e2",
+    "snapshot/candidates/v9_main/v9_strategy.hpp": "ea8a660d5332da91f7b8386c602403f0ed064992c608f629ce2f38918365bdeb",
+    "snapshot/candidates/v9_main/v9_travel.hpp": "b2ac265e647d618a0676002d0500bcc147f99df38951e7b7ab1c6a631784ed3c",
+    "snapshot/yk-development-tools/bots/dist/starter/python/_generated.py": "8cf113fe574425e1f761911e59fe43394aad147946b07ed4a837e1da6b25fcfc",
+    "snapshot/yk-development-tools/bots/dist/starter/python/campus_bot.py": "2568119d19d9def58dd824b06eac332f018f23c0dee24ba1ccddf3169a151e7b",
+    "snapshot/yk-development-tools/bots/dist/starter/python/example_lv1.py": "15183b1c05b8daa12212cb2d64fe54dbc81deba69a7e9999b3fac4b3d5ccbc1d",
+    "snapshot/yk-development-tools/bots/dist/starter/python/example_lv2.py": "91c174b0259ea2759d3ff390bb80ff0d6494fbea59003cb5b0a607bf1370bd4f",
+    "snapshot/yk-development-tools/bots/dist/starter/python/main.py": "fc0b4fc2eccb0e497c8435d85412332e3628053a905f51687d654b8e2d35b068",
+    "snapshot/yk-development-tools/bots/dist/starter/python/mybot_template.py": "6d6ee8564548c9bf81562d60c270b69968813045c900c94ce95b5c261456d43b",
+    "snapshot/yk-development-tools/bots/dist/starter/python/protocol.py": "67a5d27ced038de39d7cd3b069bf01786bf4cc9e6c1d39269d1f7e67b185c194",
+    "snapshot/yk-development-tools/bots/dist/starter/python/search.py": "34cc73421e056d857549d28523ada709c6531152e4a0e08b8f8eddbad5073e45",
+    "snapshot/yk-development-tools/bots/dist/starter/python/submission.json": "ff5431b97ab8dc3d045d053fe1e3148eca20bfe900ec66cd9e7f7f5e542f3de5",
+    "snapshot/yk-development-tools/config/balance.json": "a46886d91862244b6daf4990dcdf2371302433e7120c21dc2a29ecf95696b35f",
+    "snapshot/yk-development-tools/engine/__init__.py": "5b9c498fcef25d4900bfe993415964ef9b803c37309acda004e6b553130ace86",
+    "snapshot/yk-development-tools/engine/commands.py": "db00820b9f77cc1b6e71eaa37bb4eb0b4c31cccda7f4b388269a13db04a76798",
+    "snapshot/yk-development-tools/engine/config.py": "964f20b9f914bbc0bc81c84d7fbee3b2ecbed4b54814ab51cbd20d54ef6f20b9",
+    "snapshot/yk-development-tools/engine/pipeline.py": "f0bd96c484c8628b6a070b188adcc1a077e9f90017cc15f11ce366d974490fa6",
+    "snapshot/yk-development-tools/engine/state.py": "dd227e26bcb36a5c412bbf7db19f4418a59627e8ea7e55a90dac5184dcc0737f",
+    "snapshot/yk-development-tools/mapgen/__init__.py": "4e3cf8f63c58f32835898da672ecaacf87b1ee105da4628fb917b2f6070fc5f0",
+    "snapshot/yk-development-tools/mapgen/generator.py": "645b53e2b2ce0049608873b1d01a983661dbdbfe63e358fbb152cbeeea13947e",
+    "snapshot/yk-development-tools/mapgen/render.py": "5486e5f68e8de843fd36ded98716a05a0b399301b6d82651db3aacba6bc16029",
+    "snapshot/yk-development-tools/mapgen/rng.py": "4b56383dd28a138c2ae0bd387a893b4129e108dddf369dd54d3927848f85cc4d",
+    "snapshot/yk-development-tools/runner/__init__.py": "7f675ede62ac8590c279dd4f2f64f8aa526f8d41e60dcfd7dba930612db4fbe2",
+    "snapshot/yk-development-tools/runner/__main__.py": "307299fda7b77d22c64cb51430ec75e5f59d78e9c948786afb3b2544fe45e4b7",
+    "snapshot/yk-development-tools/runner/bots.py": "c09312d62eaa1a2a5af5576b24922a9fd209365e0f3e655894934585858aba43",
+    "snapshot/yk-development-tools/runner/cli.py": "90b102ca9513f710deed37c68adbca6026f43b641a5c00758d2868ecd1a90b81",
+    "snapshot/yk-development-tools/runner/match.py": "122d3fc0c31ade0b808795d15842949da8c32a26c79c779841e7364aa2f51578",
+    "snapshot/yk-development-tools/runner/protocol.py": "5917df4bec20b963586b1ffeb7a45b9959f51e3437a227ee7e8d932b172a7d65",
+    "snapshot/yk-development-tools/runner/replay.py": "fc2bf7405c405ac30da4d7c122b24e3c3275544bfbd1ec22779bbb217df6e8a6",
+    "snapshot/yk-development-tools/runner/validation.py": "7c00c3eca69a8f115e51b3c47a570c1015795b41d16e9987b5679f84f4184345",
+    "snapshot/experiments/audit_deadline_actions.py": "dd71de1e97f87755fc2b62025a747bdbf92b9307164d75dd6d7460e315b5ecd9"
+  },
+  "harness_sha256": {
+    "launch_bot.py": "85091217051aa8027b3544172a2fb2444ad557f7b586a43133276ec7bb07e7f5",
+    "busy_probe.py": "f5b195540e2a6afd7210cd26a0181dd5cfbbac034a3b64f4bb4a4bc85a6b1fbd",
+    "run_checks.py": "780cfcb6ca6065bddd335e2f906a348ef9efa3e86bfb2a785ef6699d1f8916cb"
+  },
+  "jobs": [
+    {
+      "id": "quarter-siphon-Y-23400",
+      "condition": "quarter",
+      "candidate": "siphon",
+      "candidate_side": "Y",
+      "map_seed": 23400,
+      "Y": "siphon",
+      "K": "v8"
+    },
+    {
+      "id": "quarter-siphon-K-23400",
+      "condition": "quarter",
+      "candidate": "siphon",
+      "candidate_side": "K",
+      "map_seed": 23400,
+      "Y": "v8",
+      "K": "siphon"
+    },
+    {
+      "id": "quarter-v8-Y-23400",
+      "condition": "quarter",
+      "candidate": "v8",
+      "candidate_side": "Y",
+      "map_seed": 23400,
+      "Y": "v8",
+      "K": "v8"
+    },
+    {
+      "id": "quarter-v8-K-23400",
+      "condition": "quarter",
+      "candidate": "v8",
+      "candidate_side": "K",
+      "map_seed": 23400,
+      "Y": "v8",
+      "K": "v8"
+    },
+    {
+      "id": "quarter-v9_main-Y-23400",
+      "condition": "quarter",
+      "candidate": "v9_main",
+      "candidate_side": "Y",
+      "map_seed": 23400,
+      "Y": "v9_main",
+      "K": "v8"
+    },
+    {
+      "id": "quarter-v9_main-K-23400",
+      "condition": "quarter",
+      "candidate": "v9_main",
+      "candidate_side": "K",
+      "map_seed": 23400,
+      "Y": "v8",
+      "K": "v9_main"
+    },
+    {
+      "id": "quarter-v9_lock-Y-23400",
+      "condition": "quarter",
+      "candidate": "v9_lock",
+      "candidate_side": "Y",
+      "map_seed": 23400,
+      "Y": "v9_lock",
+      "K": "v8"
+    },
+    {
+      "id": "quarter-v9_lock-K-23400",
+      "condition": "quarter",
+      "candidate": "v9_lock",
+      "candidate_side": "K",
+      "map_seed": 23400,
+      "Y": "v8",
+      "K": "v9_lock"
+    },
+    {
+      "id": "quarter-mission4-Y-23400",
+      "condition": "quarter",
+      "candidate": "mission4",
+      "candidate_side": "Y",
+      "map_seed": 23400,
+      "Y": "mission4",
+      "K": "v8"
+    },
+    {
+      "id": "quarter-mission4-K-23400",
+      "condition": "quarter",
+      "candidate": "mission4",
+      "candidate_side": "K",
+      "map_seed": 23400,
+      "Y": "v8",
+      "K": "mission4"
+    },
+    {
+      "id": "normal-v9_main-Y-23400",
+      "condition": "normal",
+      "candidate": "v9_main",
+      "candidate_side": "Y",
+      "map_seed": 23400,
+      "Y": "v9_main",
+      "K": "v8"
+    },
+    {
+      "id": "normal-v9_main-K-23400",
+      "condition": "normal",
+      "candidate": "v9_main",
+      "candidate_side": "K",
+      "map_seed": 23400,
+      "Y": "v8",
+      "K": "v9_main"
+    },
+    {
+      "id": "normal-v9_lock-Y-23400",
+      "condition": "normal",
+      "candidate": "v9_lock",
+      "candidate_side": "Y",
+      "map_seed": 23400,
+      "Y": "v9_lock",
+      "K": "v8"
+    },
+    {
+      "id": "normal-v9_lock-K-23400",
+      "condition": "normal",
+      "candidate": "v9_lock",
+      "candidate_side": "K",
+      "map_seed": 23400,
+      "Y": "v8",
+      "K": "v9_lock"
+    }
+  ]
+}

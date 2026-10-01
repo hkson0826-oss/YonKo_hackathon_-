@@ -1,0 +1,77 @@
+{
+  "condition": "normal",
+  "argv": [
+    "systemd-run",
+    "--user",
+    "--scope",
+    "--quiet",
+    "--collect",
+    "--no-ask-password",
+    "--unit=yk-quarter-20261001-calibration-normal-8ed7a9a52d.scope",
+    "--property=MemoryMax=402653184",
+    "--",
+    "/usr/bin/python",
+    "/tmp/yk-quarter-cpu-20261001/launch_bot.py",
+    "--metadata",
+    "/tmp/yk-quarter-cpu-20261001/calibration/normal-launch.json",
+    "--unit",
+    "yk-quarter-20261001-calibration-normal-8ed7a9a52d.scope",
+    "--expected-cpu-max",
+    "unlimited",
+    "--",
+    "/usr/bin/python",
+    "/tmp/yk-quarter-cpu-20261001/busy_probe.py"
+  ],
+  "returncode": 0,
+  "stdout": "{\"cpu_seconds\": 0.250137388, \"wall_seconds\": 0.2511232620017836, \"cpu.max\": null, \"cpu.stat\": \"usage_usec 297180\\nuser_usec 196431\\nsystem_usec 100748\\nnice_usec 0\\ncore_sched.force_idle_usec 0\"}\n",
+  "stderr": "",
+  "wrapper_wall_seconds": 0.3242784070025664,
+  "launch": {
+    "pid": 886766,
+    "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-calibration-normal-8ed7a9a52d.scope",
+    "unit": "yk-quarter-20261001-calibration-normal-8ed7a9a52d.scope",
+    "limits": {
+      "cpu.max": null,
+      "cpu.max.burst": null,
+      "cpu.stat": "usage_usec 28531\nuser_usec 26570\nsystem_usec 1960\nnice_usec 0\ncore_sched.force_idle_usec 0",
+      "memory.max": "402653184",
+      "memory.peak": "9068544",
+      "cgroup.procs": "886766",
+      "cpuset.cpus.effective": null
+    },
+    "ancestors": [
+      {
+        "path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/yk-quarter-20261001-calibration-normal-8ed7a9a52d.scope",
+        "cpu.max": null
+      },
+      {
+        "path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice",
+        "cpu.max": "max 100000"
+      },
+      {
+        "path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service",
+        "cpu.max": "max 100000"
+      },
+      {
+        "path": "/sys/fs/cgroup/user.slice/user-1000.slice",
+        "cpu.max": "max 100000"
+      },
+      {
+        "path": "/sys/fs/cgroup/user.slice",
+        "cpu.max": "max 100000"
+      },
+      {
+        "path": "/sys/fs/cgroup",
+        "cpu.max": null
+      }
+    ],
+    "command": [
+      "/usr/bin/python",
+      "/tmp/yk-quarter-cpu-20261001/busy_probe.py"
+    ],
+    "rlimit_as": [
+      402653184,
+      402653184
+    ]
+  }
+}
