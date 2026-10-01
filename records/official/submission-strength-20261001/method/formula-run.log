@@ -1,0 +1,28 @@
+{
+  "old_adjusted_examples": [
+    {
+      "published_kst": "2026-09-27 22:00",
+      "wins": 4,
+      "draws": 0,
+      "losses": 1,
+      "games": 5,
+      "reproduced_raw_point_rate": 0.8,
+      "displayed_adjusted_percent": 61.0,
+      "raw_percent_minus_adjusted_percent": 19.0,
+      "exact_adjusted_formula_disclosed": false
+    },
+    {
+      "published_kst": "2026-09-28 10:00",
+      "wins": 9,
+      "draws": 0,
+      "losses": 4,
+      "games": 13,
+      "reproduced_raw_point_rate": 0.6923076923076923,
+      "displayed_adjusted_percent": 66.2,
+      "raw_percent_minus_adjusted_percent": 3.0307692307692236,
+      "exact_adjusted_formula_disclosed": false
+    }
+  ],
+  "retained_rows_reproduced": 23,
+  "total_teams": 87
+}

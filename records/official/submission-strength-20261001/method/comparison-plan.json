@@ -1,0 +1,56 @@
+{
+  "prepared_at_kst": "2026-10-01T18:14:46.093578+09:00",
+  "status": "prepared_before_new_official_data; no submission winner selected",
+  "official_metrics": {
+    "historical_adjusted_score": "exact formula undisclosed in examined records; not reproducible",
+    "point_rate": "(W + 0.5*D) / N",
+    "opponent_weighted_tiebreak": "sum(outcome_point * opponent_point_rate) / N; separate from historical adjusted score"
+  },
+  "comparison_order": [
+    "submission identity and match coverage validation",
+    "raw WDL/points/error rates and contemporaneous opponent strength description",
+    "same-opponent-version/actual-side/nearby-round common-support comparison",
+    "same-team version-unknown sensitivity kept separate",
+    "round-specific strength-stratum overlap standardization if full leaderboard exists",
+    "optional regularized match-graph model only with complete connected fixtures and explicit identifiability checks"
+  ],
+  "primary_display_fields": [
+    "match_count",
+    "distinct_opponents",
+    "W",
+    "D",
+    "L",
+    "point_rate",
+    "actual_side",
+    "own_errors",
+    "opponent_errors",
+    "round",
+    "version_link_confidence"
+  ],
+  "deduplication": "match_id",
+  "target": "current whole-pool format in registered input-side conditions; not obsolete opposite-school-only format",
+  "exclude_from_causal_claims": [
+    "current opponent version assigned retrospectively",
+    "our candidate and calendar period fully confounded",
+    "opponent version unknown",
+    "nonrandom Swiss scheduling",
+    "all-team percentile from selectively retained rows"
+  ],
+  "sensitivity": [
+    "official outcomes including forfeits",
+    "normal-completion-only outcomes, separately",
+    "leave-our-match-out opponent score where exactly reconstructible",
+    "same opponent team versus same verified opponent version",
+    "common-support coverage and excluded strata",
+    "recent and historical periods separated"
+  ],
+  "uncertainty": "cluster common-opponent comparisons; retain repeated maps in a block; report tiny effective samples directly; no winner inflation from many submissions",
+  "new_data_needed": [
+    "all own match IDs and submission IDs",
+    "full latest leaderboard and per-round if accessible",
+    "exact current column labels/help text/round inclusion",
+    "submission upload identity and ZIP/source hashes where obtainable",
+    "forfeit/error details and actual engine input side",
+    "opponent submission/version where accessible"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "scripts_reproduced": 5,
+  "method_all_24_artifact_hashes_unchanged": true,
+  "latest_detail_manifest_byte_identical": true,
+  "inputs_verified": 13,
+  "json_and_python_parse": "passed",
+  "doc_local_links": "passed",
+  "credential_pattern_scan": "no matches",
+  "validation": {
+    "games": 131,
+    "latest_teams": 87,
+    "wins": 70,
+    "losses": 61,
+    "draws": 0,
+    "compound_keys_unique": 131,
+    "termination_known": 68,
+    "termination_normal": 65,
+    "termination_forfeit": 3,
+    "termination_unknown": 63,
+    "latest_details_complete": 24,
+    "known_match_ids": 85,
+    "independent_prior_numeric_review": "passed key WDL/common8/LOO/previous-rank calculations",
+    "portable_relocation": true,
+    "portable_identical_outputs": 8,
+    "python_ast": "passed"
+  }
+}

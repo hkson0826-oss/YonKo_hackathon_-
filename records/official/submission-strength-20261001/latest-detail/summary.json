@@ -1,0 +1,56 @@
+{
+  "round_label": "10월 1일 17:00 리더보드",
+  "submission": 11,
+  "side": "Y",
+  "checked_at_utc": "2026-10-01T09:27:36Z",
+  "games": 24,
+  "wins": 12,
+  "losses": 12,
+  "draws": 0,
+  "normal_games": 23,
+  "normal_wins": 11,
+  "normal_losses": 12,
+  "normal_win_rate": 0.4782608695652174,
+  "all_game_win_rate": 0.5,
+  "bot_error_wins": 1,
+  "bot_error_losses": 0,
+  "end_reason_counts": {
+    "instant": {
+      "wins": 8,
+      "losses": 8
+    },
+    "score": {
+      "wins": 3,
+      "losses": 4
+    },
+    "bot_error": {
+      "wins": 1,
+      "losses": 0
+    }
+  },
+  "opponent_public_score_unknown": 16,
+  "own_public_score_unknown": 0,
+  "forfeit_opponents": [
+    "Re:verse"
+  ],
+  "observed_submission_values": [
+    11
+  ],
+  "observed_side_values": [
+    "Y"
+  ],
+  "unique_game_ids": 24,
+  "missing_details": 0,
+  "browser_canonical_fnv1a32": "e6cbb5f4",
+  "copy_checksum_match": true,
+  "source": "Authenticated Chrome /matches public-round filter, each official detail page, 끝으로 control, rendered DOM snapshot",
+  "limitations": [
+    "Scores are the final public scores displayed to our team. Missing opponent scores remain null; full final score differences cannot be calculated.",
+    "Bot-error termination is visible for Re:verse. The detail UI does not establish the specific error or timeout cause.",
+    "All 24 games were played as Y. This round cannot estimate K-side performance.",
+    "The public round is 17:00; per-match detail timestamps span 14:40–15:22. These are distinct UI fields.",
+    "Each detail explicitly says v11. The source-to-upload identity is maintained in separate submission/package records, not proved by this UI collection alone.",
+    "No replay JSON was preserved during this collection. A Re:verse replay-file click returned a download event without a documented file path; chrome://downloads/ was then blocked by Browser Use URL policy. No workaround was attempted.",
+    "Normal termination confirms the displayed result classification, not an independent per-command runtime or semantic audit."
+  ]
+}

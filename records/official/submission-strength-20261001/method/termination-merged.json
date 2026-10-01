@@ -1,0 +1,1720 @@
+[
+  {
+    "round_label": "10월 1일 17:00",
+    "submission": 11,
+    "opponent": "그래피",
+    "match_id": "rolling-game-f41471dffaad1788d664d7989374778f13d245e6b3b35689ccb962103491b2ac",
+    "result": "패배",
+    "termination_class": "normal",
+    "termination_reason": "score",
+    "termination_source": {
+      "kind": "rendered_official_ui",
+      "path": "../latest-detail/details.json",
+      "record_index": 23,
+      "sha256": "cb64f382a5bf627c9e21a71fcf480d8d22ce6595614c06664c2b1e979290fbce",
+      "official_url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-f41471dffaad1788d664d7989374778f13d245e6b3b35689ccb962103491b2ac"
+    }
+  },
+  {
+    "round_label": "10월 1일 17:00",
+    "submission": 11,
+    "opponent": "신촌깃발도적단",
+    "match_id": "rolling-game-efb05d4c81085a3165ba9b07a6d7879ec7fc17192da536b3df0f8d414a28e86b",
+    "result": "승리",
+    "termination_class": "normal",
+    "termination_reason": "instant",
+    "termination_source": {
+      "kind": "rendered_official_ui",
+      "path": "../latest-detail/details.json",
+      "record_index": 22,
+      "sha256": "cb64f382a5bf627c9e21a71fcf480d8d22ce6595614c06664c2b1e979290fbce",
+      "official_url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-efb05d4c81085a3165ba9b07a6d7879ec7fc17192da536b3df0f8d414a28e86b"
+    }
+  },
+  {
+    "round_label": "10월 1일 17:00",
+    "submission": 11,
+    "opponent": "2325",
+    "match_id": "rolling-game-ebd833e4d7a059f5e0f562c4e5fab65af20ff215ff762c04d617d285b49589ee",
+    "result": "패배",
+    "termination_class": "normal",
+    "termination_reason": "instant",
+    "termination_source": {
+      "kind": "rendered_official_ui",
+      "path": "../latest-detail/details.json",
+      "record_index": 21,
+      "sha256": "cb64f382a5bf627c9e21a71fcf480d8d22ce6595614c06664c2b1e979290fbce",
+      "official_url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-ebd833e4d7a059f5e0f562c4e5fab65af20ff215ff762c04d617d285b49589ee"
+    }
+  },
+  {
+    "round_label": "10월 1일 17:00",
+    "submission": 11,
+    "opponent": "Team 24",
+    "match_id": "rolling-game-d129ff20789a44bebe1fbf077436f3743bc9aaceb63c80959c4d425021e4dc50",
+    "result": "패배",
+    "termination_class": "normal",
+    "termination_reason": "instant",
+    "termination_source": {
+      "kind": "rendered_official_ui",
+      "path": "../latest-detail/details.json",
+      "record_index": 20,
+      "sha256": "cb64f382a5bf627c9e21a71fcf480d8d22ce6595614c06664c2b1e979290fbce",
+      "official_url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-d129ff20789a44bebe1fbf077436f3743bc9aaceb63c80959c4d425021e4dc50"
+    }
+  },
+  {
+    "round_label": "10월 1일 17:00",
+    "submission": 11,
+    "opponent": "장진하",
+    "match_id": "rolling-game-cc54a9aa0d2b21638305908bd40a69605f6b1c88415e7582b1c73d95173d0d7e",
+    "result": "승리",
+    "termination_class": "normal",
+    "termination_reason": "instant",
+    "termination_source": {
+      "kind": "rendered_official_ui",
+      "path": "../latest-detail/details.json",
+      "record_index": 19,
+      "sha256": "cb64f382a5bf627c9e21a71fcf480d8d22ce6595614c06664c2b1e979290fbce",
+      "official_url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-cc54a9aa0d2b21638305908bd40a69605f6b1c88415e7582b1c73d95173d0d7e"
+    }
+  },
+  {
+    "round_label": "10월 1일 17:00",
+    "submission": 11,
+    "opponent": "Yaar",
+    "match_id": "rolling-game-c27981455b72dad4eda42fa21271fba23b075f3acadfa769b866d827140ac508",
+    "result": "패배",
+    "termination_class": "normal",
+    "termination_reason": "score",
+    "termination_source": {
+      "kind": "rendered_official_ui",
+      "path": "../latest-detail/details.json",
+      "record_index": 18,
+      "sha256": "cb64f382a5bf627c9e21a71fcf480d8d22ce6595614c06664c2b1e979290fbce",
+      "official_url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-c27981455b72dad4eda42fa21271fba23b075f3acadfa769b866d827140ac508"
+    }
+  },
+  {
+    "round_label": "10월 1일 17:00",
+    "submission": 11,
+    "opponent": "욘욘펀치",
+    "match_id": "rolling-game-b50f92d8025754d50994cfc04e53efcbf8e3b02198cdb6d5e913f707c4410196",
+    "result": "승리",
+    "termination_class": "normal",
+    "termination_reason": "instant",
+    "termination_source": {
+      "kind": "rendered_official_ui",
+      "path": "../latest-detail/details.json",
+      "record_index": 17,
+      "sha256": "cb64f382a5bf627c9e21a71fcf480d8d22ce6595614c06664c2b1e979290fbce",
+      "official_url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-b50f92d8025754d50994cfc04e53efcbf8e3b02198cdb6d5e913f707c4410196"
+    }
+  },
+  {
+    "round_label": "10월 1일 17:00",
+    "submission": 11,
+    "opponent": "정진규컴퓨터시스템D504",
+    "match_id": "rolling-game-b1ca0d9292deea1b2d4c52808e9a135f6acf7875677bb10f72c632c1e0cb93f1",
+    "result": "패배",
+    "termination_class": "normal",
+    "termination_reason": "instant",
+    "termination_source": {
+      "kind": "rendered_official_ui",
+      "path": "../latest-detail/details.json",
+      "record_index": 16,
+      "sha256": "cb64f382a5bf627c9e21a71fcf480d8d22ce6595614c06664c2b1e979290fbce",
+      "official_url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-b1ca0d9292deea1b2d4c52808e9a135f6acf7875677bb10f72c632c1e0cb93f1"
+    }
+  },
+  {
+    "round_label": "10월 1일 17:00",
+    "submission": 11,
+    "opponent": "박박이",
+    "match_id": "rolling-game-ad2db5a7704793b227f520bc8f7302a9813bd1134020cf5515a6003825ec5c4b",
+    "result": "승리",
+    "termination_class": "normal",
+    "termination_reason": "instant",
+    "termination_source": {
+      "kind": "rendered_official_ui",
+      "path": "../latest-detail/details.json",
+      "record_index": 15,
+      "sha256": "cb64f382a5bf627c9e21a71fcf480d8d22ce6595614c06664c2b1e979290fbce",
+      "official_url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-ad2db5a7704793b227f520bc8f7302a9813bd1134020cf5515a6003825ec5c4b"
+    }
+  },
+  {
+    "round_label": "10월 1일 17:00",
+    "submission": 11,
+    "opponent": "AI고",
+    "match_id": "rolling-game-a6461dc38b72662e2041a2ca974e5a8f228ff7b995ae72fba4af2217566aec97",
+    "result": "승리",
+    "termination_class": "normal",
+    "termination_reason": "instant",
+    "termination_source": {
+      "kind": "rendered_official_ui",
+      "path": "../latest-detail/details.json",
+      "record_index": 14,
+      "sha256": "cb64f382a5bf627c9e21a71fcf480d8d22ce6595614c06664c2b1e979290fbce",
+      "official_url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-a6461dc38b72662e2041a2ca974e5a8f228ff7b995ae72fba4af2217566aec97"
+    }
+  },
+  {
+    "round_label": "10월 1일 17:00",
+    "submission": 11,
+    "opponent": "KUTUSA",
+    "match_id": "rolling-game-a3afb28687c07012c24fa8906c043dd87a6f79b7b2fe2d2e1f57a7d9f8b56973",
+    "result": "승리",
+    "termination_class": "normal",
+    "termination_reason": "instant",
+    "termination_source": {
+      "kind": "rendered_official_ui",
+      "path": "../latest-detail/details.json",
+      "record_index": 13,
+      "sha256": "cb64f382a5bf627c9e21a71fcf480d8d22ce6595614c06664c2b1e979290fbce",
+      "official_url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-a3afb28687c07012c24fa8906c043dd87a6f79b7b2fe2d2e1f57a7d9f8b56973"
+    }
+  },
+  {
+    "round_label": "10월 1일 17:00",
+    "submission": 11,
+    "opponent": "저희 집 GPU가 추위를 타요",
+    "match_id": "rolling-game-9d12f322aa86b37c86887ab62cc5a823370a620220ebf855fca10d4b4c2d5e6d",
+    "result": "승리",
+    "termination_class": "normal",
+    "termination_reason": "score",
+    "termination_source": {
+      "kind": "rendered_official_ui",
+      "path": "../latest-detail/details.json",
+      "record_index": 12,
+      "sha256": "cb64f382a5bf627c9e21a71fcf480d8d22ce6595614c06664c2b1e979290fbce",
+      "official_url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-9d12f322aa86b37c86887ab62cc5a823370a620220ebf855fca10d4b4c2d5e6d"
+    }
+  },
+  {
+    "round_label": "10월 1일 17:00",
+    "submission": 11,
+    "opponent": "크아앙",
+    "match_id": "rolling-game-93700cde6b4254ed375bec7bfbd6453ecc1235ec00bc485e60b55e3ad6850ba9",
+    "result": "패배",
+    "termination_class": "normal",
+    "termination_reason": "instant",
+    "termination_source": {
+      "kind": "rendered_official_ui",
+      "path": "../latest-detail/details.json",
+      "record_index": 11,
+      "sha256": "cb64f382a5bf627c9e21a71fcf480d8d22ce6595614c06664c2b1e979290fbce",
+      "official_url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-93700cde6b4254ed375bec7bfbd6453ecc1235ec00bc485e60b55e3ad6850ba9"
+    }
+  },
+  {
+    "round_label": "10월 1일 17:00",
+    "submission": 11,
+    "opponent": "Re:verse",
+    "match_id": "rolling-game-8f9940a70ad94ee8d3b7a4619112a211d69c13ed47b630c17bb82c0ff0bffafb",
+    "result": "승리",
+    "termination_class": "forfeit",
+    "termination_reason": "bot_error",
+    "termination_source": {
+      "kind": "rendered_official_ui",
+      "path": "../latest-detail/details.json",
+      "record_index": 10,
+      "sha256": "cb64f382a5bf627c9e21a71fcf480d8d22ce6595614c06664c2b1e979290fbce",
+      "official_url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-8f9940a70ad94ee8d3b7a4619112a211d69c13ed47b630c17bb82c0ff0bffafb"
+    }
+  },
+  {
+    "round_label": "10월 1일 17:00",
+    "submission": 11,
+    "opponent": "요미",
+    "match_id": "rolling-game-8e1e929bc70baf67040312a9d7c19a589d9d61f4097b7857db5f1cb9523c5421",
+    "result": "승리",
+    "termination_class": "normal",
+    "termination_reason": "score",
+    "termination_source": {
+      "kind": "rendered_official_ui",
+      "path": "../latest-detail/details.json",
+      "record_index": 9,
+      "sha256": "cb64f382a5bf627c9e21a71fcf480d8d22ce6595614c06664c2b1e979290fbce",
+      "official_url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-8e1e929bc70baf67040312a9d7c19a589d9d61f4097b7857db5f1cb9523c5421"
+    }
+  },
+  {
+    "round_label": "10월 1일 17:00",
+    "submission": 11,
+    "opponent": "렛츠고",
+    "match_id": "rolling-game-863ab0af9f1c1c066f3fc20aa56bf4a29d250b4ae27364d1d8535a233bb5a0e2",
+    "result": "패배",
+    "termination_class": "normal",
+    "termination_reason": "score",
+    "termination_source": {
+      "kind": "rendered_official_ui",
+      "path": "../latest-detail/details.json",
+      "record_index": 8,
+      "sha256": "cb64f382a5bf627c9e21a71fcf480d8d22ce6595614c06664c2b1e979290fbce",
+      "official_url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-863ab0af9f1c1c066f3fc20aa56bf4a29d250b4ae27364d1d8535a233bb5a0e2"
+    }
+  },
+  {
+    "round_label": "10월 1일 17:00",
+    "submission": 11,
+    "opponent": "저능박수",
+    "match_id": "rolling-game-79a350a85da45ceb7c9dfba3b8cfae59cdbc94a1f78fec795aadea820456f0ea",
+    "result": "패배",
+    "termination_class": "normal",
+    "termination_reason": "instant",
+    "termination_source": {
+      "kind": "rendered_official_ui",
+      "path": "../latest-detail/details.json",
+      "record_index": 7,
+      "sha256": "cb64f382a5bf627c9e21a71fcf480d8d22ce6595614c06664c2b1e979290fbce",
+      "official_url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-79a350a85da45ceb7c9dfba3b8cfae59cdbc94a1f78fec795aadea820456f0ea"
+    }
+  },
+  {
+    "round_label": "10월 1일 17:00",
+    "submission": 11,
+    "opponent": "연세찜닭",
+    "match_id": "rolling-game-6f45172094dac3b48a731d57411969e87a8812c74c9eb1ac8e3d83b80afe036f",
+    "result": "승리",
+    "termination_class": "normal",
+    "termination_reason": "instant",
+    "termination_source": {
+      "kind": "rendered_official_ui",
+      "path": "../latest-detail/details.json",
+      "record_index": 6,
+      "sha256": "cb64f382a5bf627c9e21a71fcf480d8d22ce6595614c06664c2b1e979290fbce",
+      "official_url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-6f45172094dac3b48a731d57411969e87a8812c74c9eb1ac8e3d83b80afe036f"
+    }
+  },
+  {
+    "round_label": "10월 1일 17:00",
+    "submission": 11,
+    "opponent": "인공저능",
+    "match_id": "rolling-game-6ab24b9971297b1293d43983415fba5e79f3ff447c9e4897f69fb36972cac063",
+    "result": "패배",
+    "termination_class": "normal",
+    "termination_reason": "instant",
+    "termination_source": {
+      "kind": "rendered_official_ui",
+      "path": "../latest-detail/details.json",
+      "record_index": 5,
+      "sha256": "cb64f382a5bf627c9e21a71fcf480d8d22ce6595614c06664c2b1e979290fbce",
+      "official_url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-6ab24b9971297b1293d43983415fba5e79f3ff447c9e4897f69fb36972cac063"
+    }
+  },
+  {
+    "round_label": "10월 1일 17:00",
+    "submission": 11,
+    "opponent": "집가고싶다",
+    "match_id": "rolling-game-5a0f941aed15f7c23678271f43cf421e6578cf66fe51d4cfd9ed016127388e63",
+    "result": "패배",
+    "termination_class": "normal",
+    "termination_reason": "instant",
+    "termination_source": {
+      "kind": "rendered_official_ui",
+      "path": "../latest-detail/details.json",
+      "record_index": 4,
+      "sha256": "cb64f382a5bf627c9e21a71fcf480d8d22ce6595614c06664c2b1e979290fbce",
+      "official_url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-5a0f941aed15f7c23678271f43cf421e6578cf66fe51d4cfd9ed016127388e63"
+    }
+  },
+  {
+    "round_label": "10월 1일 17:00",
+    "submission": 11,
+    "opponent": "조니 해커 블루",
+    "match_id": "rolling-game-37e44c31363fafc3fbb43f9c4b42400861d993f5a96525319ccfe7924c45ecb2",
+    "result": "승리",
+    "termination_class": "normal",
+    "termination_reason": "instant",
+    "termination_source": {
+      "kind": "rendered_official_ui",
+      "path": "../latest-detail/details.json",
+      "record_index": 3,
+      "sha256": "cb64f382a5bf627c9e21a71fcf480d8d22ce6595614c06664c2b1e979290fbce",
+      "official_url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-37e44c31363fafc3fbb43f9c4b42400861d993f5a96525319ccfe7924c45ecb2"
+    }
+  },
+  {
+    "round_label": "10월 1일 17:00",
+    "submission": 11,
+    "opponent": "hyper",
+    "match_id": "rolling-game-314ceeac761061b86923d0d2cc6a030a7d4923cc1400b6ed57be99ba3fb9e818",
+    "result": "패배",
+    "termination_class": "normal",
+    "termination_reason": "score",
+    "termination_source": {
+      "kind": "rendered_official_ui",
+      "path": "../latest-detail/details.json",
+      "record_index": 2,
+      "sha256": "cb64f382a5bf627c9e21a71fcf480d8d22ce6595614c06664c2b1e979290fbce",
+      "official_url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-314ceeac761061b86923d0d2cc6a030a7d4923cc1400b6ed57be99ba3fb9e818"
+    }
+  },
+  {
+    "round_label": "10월 1일 17:00",
+    "submission": 11,
+    "opponent": "인지시를위대하게",
+    "match_id": "rolling-game-1810d601d98eb8a7ed82128e463edbb04d84c7158c7f78aa24d83d8dac30ec6e",
+    "result": "패배",
+    "termination_class": "normal",
+    "termination_reason": "instant",
+    "termination_source": {
+      "kind": "rendered_official_ui",
+      "path": "../latest-detail/details.json",
+      "record_index": 1,
+      "sha256": "cb64f382a5bf627c9e21a71fcf480d8d22ce6595614c06664c2b1e979290fbce",
+      "official_url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-1810d601d98eb8a7ed82128e463edbb04d84c7158c7f78aa24d83d8dac30ec6e"
+    }
+  },
+  {
+    "round_label": "10월 1일 17:00",
+    "submission": 11,
+    "opponent": "올림픽 정신",
+    "match_id": "rolling-game-0c18c31726d1da3ca4ee62aaa54071ff0184b15c2a0ca634bbcf2a353d0a9298",
+    "result": "승리",
+    "termination_class": "normal",
+    "termination_reason": "score",
+    "termination_source": {
+      "kind": "rendered_official_ui",
+      "path": "../latest-detail/details.json",
+      "record_index": 0,
+      "sha256": "cb64f382a5bf627c9e21a71fcf480d8d22ce6595614c06664c2b1e979290fbce",
+      "official_url": "https://yonsei-vs-korea-hackathon.kr/matches/rolling-game-0c18c31726d1da3ca4ee62aaa54071ff0184b15c2a0ca634bbcf2a353d0a9298"
+    }
+  },
+  {
+    "round_label": "10월 1일 10:00",
+    "submission": 9,
+    "opponent": "박박이",
+    "match_id": "rolling-game-fd86a6c092d1fc50f9a07fe53dc51a22e2445e934d45f58202192d30c675b2ad",
+    "result": "패배",
+    "termination_class": "normal",
+    "termination_reason": "instant",
+    "termination_source": {
+      "path": "records/official/round-20261001-1000/raw/rolling-game-fd86a6c092d1fc50f9a07fe53dc51a22e2445e934d45f58202192d30c675b2ad.json",
+      "repository": "/tmp/yk-new-bot-20261001",
+      "sha256": "f7bc164d13bca6f4b3cee8bd8503332a28e06069f449e937abd2726a1c6d5cc3",
+      "json_pointer": "/result/reason",
+      "kind": "official_raw"
+    }
+  },
+  {
+    "round_label": "10월 1일 10:00",
+    "submission": 9,
+    "opponent": "올림픽 정신",
+    "match_id": "rolling-game-f7f24e2549d11837a6bf372e8694f3ae58e8a2c79fc89f8e6bed038d9c322df0",
+    "result": "패배",
+    "termination_class": "normal",
+    "termination_reason": "instant",
+    "termination_source": {
+      "path": "records/official/round-20261001-1000/raw/rolling-game-f7f24e2549d11837a6bf372e8694f3ae58e8a2c79fc89f8e6bed038d9c322df0.json",
+      "repository": "/tmp/yk-new-bot-20261001",
+      "sha256": "c9fd03f362de11dfe148aef4591967f7050c08ed7056a10a9daafc950a2f64c0",
+      "json_pointer": "/result/reason",
+      "kind": "official_raw"
+    }
+  },
+  {
+    "round_label": "10월 1일 10:00",
+    "submission": 9,
+    "opponent": "Yaar",
+    "match_id": "rolling-game-eff2465db42cc2c2eef6da120b6bb0979e1d92190941ff01c0bd931a6beba90d",
+    "result": "패배",
+    "termination_class": "normal",
+    "termination_reason": "score",
+    "termination_source": {
+      "path": "records/official/round-20261001-1000/raw/rolling-game-eff2465db42cc2c2eef6da120b6bb0979e1d92190941ff01c0bd931a6beba90d.json",
+      "repository": "/tmp/yk-new-bot-20261001",
+      "sha256": "fe8ba30e0b240966b7d08a1302878bf632ff9142e6b5d34d97e644190e901f65",
+      "json_pointer": "/result/reason",
+      "kind": "official_raw"
+    }
+  },
+  {
+    "round_label": "10월 1일 10:00",
+    "submission": 9,
+    "opponent": "공주",
+    "match_id": "rolling-game-c76a06645ae50416ebba19cbf4ea2306626cdc6958f9ed2f57a5d7c0bb32ced4",
+    "result": "승리",
+    "termination_class": "normal",
+    "termination_reason": "instant",
+    "termination_source": {
+      "path": "records/official/round-20261001-1000/raw/rolling-game-c76a06645ae50416ebba19cbf4ea2306626cdc6958f9ed2f57a5d7c0bb32ced4.json",
+      "repository": "/tmp/yk-new-bot-20261001",
+      "sha256": "8458d7f196df532b63e9ece937413edbfd57942e1063754f6d36adf243f1ba21",
+      "json_pointer": "/result/reason",
+      "kind": "official_raw"
+    }
+  },
+  {
+    "round_label": "10월 1일 10:00",
+    "submission": 9,
+    "opponent": "연크크",
+    "match_id": "rolling-game-c25aca8592a15499b4cbc9d5aa348e97edecbd6cdb2eb7b311141eec6f7e8623",
+    "result": "패배",
+    "termination_class": "normal",
+    "termination_reason": "instant",
+    "termination_source": {
+      "path": "records/official/round-20261001-1000/raw/rolling-game-c25aca8592a15499b4cbc9d5aa348e97edecbd6cdb2eb7b311141eec6f7e8623.json",
+      "repository": "/tmp/yk-new-bot-20261001",
+      "sha256": "edefbed7eb7961efa7d3b5ccf6e06cfd66a9b24c75f478e06fe9487263e49157",
+      "json_pointer": "/result/reason",
+      "kind": "official_raw"
+    }
+  },
+  {
+    "round_label": "10월 1일 10:00",
+    "submission": 9,
+    "opponent": "연세찜닭",
+    "match_id": "rolling-game-b24dd2c52849c0482d1594b89fe2c9f2e8931d777896bbbcf51b2a3c6d626803",
+    "result": "승리",
+    "termination_class": "normal",
+    "termination_reason": "instant",
+    "termination_source": {
+      "path": "records/official/round-20261001-1000/raw/rolling-game-b24dd2c52849c0482d1594b89fe2c9f2e8931d777896bbbcf51b2a3c6d626803.json",
+      "repository": "/tmp/yk-new-bot-20261001",
+      "sha256": "5e289c68adeae502d1da41aa5ff79ee776e2097e20816d78201f528e5fd5f0aa",
+      "json_pointer": "/result/reason",
+      "kind": "official_raw"
+    }
+  },
+  {
+    "round_label": "10월 1일 10:00",
+    "submission": 9,
+    "opponent": "뉴비입니다",
+    "match_id": "rolling-game-a81e82aaf23d296e8afa0ae5845b12fcd40245724f80991d1b2b0262744bffaf",
+    "result": "승리",
+    "termination_class": "normal",
+    "termination_reason": "instant",
+    "termination_source": {
+      "path": "records/official/round-20261001-1000/raw/rolling-game-a81e82aaf23d296e8afa0ae5845b12fcd40245724f80991d1b2b0262744bffaf.json",
+      "repository": "/tmp/yk-new-bot-20261001",
+      "sha256": "5bdaa319813f02d42458cf9aa5d4b430ca9860cd9e89ff8189d43215c552058f",
+      "json_pointer": "/result/reason",
+      "kind": "official_raw"
+    }
+  },
+  {
+    "round_label": "10월 1일 10:00",
+    "submission": 9,
+    "opponent": "거북이",
+    "match_id": "rolling-game-a734188ba1b3507f0b14641599bc9eb212bfaa6bc37591908292b38747c4d8d9",
+    "result": "승리",
+    "termination_class": "normal",
+    "termination_reason": "instant",
+    "termination_source": {
+      "path": "records/official/round-20261001-1000/raw/rolling-game-a734188ba1b3507f0b14641599bc9eb212bfaa6bc37591908292b38747c4d8d9.json",
+      "repository": "/tmp/yk-new-bot-20261001",
+      "sha256": "34bfe68fa6fd1027146dfbf29ec10b6e40a10e197cb907c85d5436da2daad51c",
+      "json_pointer": "/result/reason",
+      "kind": "official_raw"
+    }
+  },
+  {
+    "round_label": "10월 1일 10:00",
+    "submission": 9,
+    "opponent": "인공저능",
+    "match_id": "rolling-game-a36443c39ce4bc9c7d6fae1497050130e0c3a69b28f9f1152920e412711d57c1",
+    "result": "승리",
+    "termination_class": "normal",
+    "termination_reason": "score",
+    "termination_source": {
+      "path": "records/official/round-20261001-1000/raw/rolling-game-a36443c39ce4bc9c7d6fae1497050130e0c3a69b28f9f1152920e412711d57c1.json",
+      "repository": "/tmp/yk-new-bot-20261001",
+      "sha256": "7ce915a696e13a1249cd1c2d49d0e8ca3a34b3a5fbe9351d33210aea04c58c75",
+      "json_pointer": "/result/reason",
+      "kind": "official_raw"
+    }
+  },
+  {
+    "round_label": "10월 1일 10:00",
+    "submission": 9,
+    "opponent": "조선김",
+    "match_id": "rolling-game-97cc965a70c970c8e29722df241d46ef65438f1a516efab0e0a17e762bf67efc",
+    "result": "승리",
+    "termination_class": "normal",
+    "termination_reason": "score",
+    "termination_source": {
+      "path": "records/official/round-20261001-1000/raw/rolling-game-97cc965a70c970c8e29722df241d46ef65438f1a516efab0e0a17e762bf67efc.json",
+      "repository": "/tmp/yk-new-bot-20261001",
+      "sha256": "3d14015372e4268f90837d501137992e96b172ff30bee1e0db9e47b273ae825f",
+      "json_pointer": "/result/reason",
+      "kind": "official_raw"
+    }
+  },
+  {
+    "round_label": "10월 1일 10:00",
+    "submission": 9,
+    "opponent": "개우진보러갈까",
+    "match_id": "rolling-game-93362455ec99d14bc04b74da56d699403137e92e9645d291847cd5033b4308a8",
+    "result": "승리",
+    "termination_class": "forfeit",
+    "termination_reason": "forfeit",
+    "termination_source": {
+      "path": "records/official/round-20261001-1000/raw/rolling-game-93362455ec99d14bc04b74da56d699403137e92e9645d291847cd5033b4308a8.json",
+      "repository": "/tmp/yk-new-bot-20261001",
+      "sha256": "855097e956cb75942cad483c7693a57f87a00fabd705bcdc99a7a1c2ed13ceb9",
+      "json_pointer": "/result/reason",
+      "kind": "official_raw"
+    }
+  },
+  {
+    "round_label": "10월 1일 10:00",
+    "submission": 9,
+    "opponent": "태호랑이",
+    "match_id": "rolling-game-7f305a8ab9990e5250d8dd209b4007d0d777738b47e92e011354729e1cdd4290",
+    "result": "패배",
+    "termination_class": "normal",
+    "termination_reason": "instant",
+    "termination_source": {
+      "path": "records/official/round-20261001-1000/raw/rolling-game-7f305a8ab9990e5250d8dd209b4007d0d777738b47e92e011354729e1cdd4290.json",
+      "repository": "/tmp/yk-new-bot-20261001",
+      "sha256": "6544d6368505627f6000e89f15effb0f5ec85affce895617c8f0ce7034be7ff7",
+      "json_pointer": "/result/reason",
+      "kind": "official_raw"
+    }
+  },
+  {
+    "round_label": "10월 1일 10:00",
+    "submission": 9,
+    "opponent": "연세있게 코딩하조",
+    "match_id": "rolling-game-7eeef93682801d3fb3f309c06b3932cd9d9b2007c6c88ac851dbe79e6e360557",
+    "result": "승리",
+    "termination_class": "normal",
+    "termination_reason": "instant",
+    "termination_source": {
+      "path": "records/official/round-20261001-1000/raw/rolling-game-7eeef93682801d3fb3f309c06b3932cd9d9b2007c6c88ac851dbe79e6e360557.json",
+      "repository": "/tmp/yk-new-bot-20261001",
+      "sha256": "f4b67a1dee3c1c89d5fe225cc1dfa8548f5f665a6f9f1b177c51b30f9bf95825",
+      "json_pointer": "/result/reason",
+      "kind": "official_raw"
+    }
+  },
+  {
+    "round_label": "10월 1일 10:00",
+    "submission": 9,
+    "opponent": "신촌도 우리땅",
+    "match_id": "rolling-game-7ac6b9ec02f52581c6d9571e3a247679e3b8fcd9e97ac04374518b675ded109f",
+    "result": "승리",
+    "termination_class": "forfeit",
+    "termination_reason": "forfeit",
+    "termination_source": {
+      "path": "records/official/round-20261001-1000/raw/rolling-game-7ac6b9ec02f52581c6d9571e3a247679e3b8fcd9e97ac04374518b675ded109f.json",
+      "repository": "/tmp/yk-new-bot-20261001",
+      "sha256": "13cfa28694a8f774792438e15c599444a392ac2853e6057fc0887d6243bb787d",
+      "json_pointer": "/result/reason",
+      "kind": "official_raw"
+    }
+  },
+  {
+    "round_label": "10월 1일 10:00",
+    "submission": 9,
+    "opponent": "200OK",
+    "match_id": "rolling-game-67c141094f5c250a52833c754b615d9d9d5461e611f68a0c81efd57d9780e550",
+    "result": "승리",
+    "termination_class": "normal",
+    "termination_reason": "instant",
+    "termination_source": {
+      "path": "records/official/round-20261001-1000/raw/rolling-game-67c141094f5c250a52833c754b615d9d9d5461e611f68a0c81efd57d9780e550.json",
+      "repository": "/tmp/yk-new-bot-20261001",
+      "sha256": "7f6fb7a45405df2ba21cac14d25877ec76e74e4f02ec5183169dfb64a8e01243",
+      "json_pointer": "/result/reason",
+      "kind": "official_raw"
+    }
+  },
+  {
+    "round_label": "10월 1일 10:00",
+    "submission": 9,
+    "opponent": "파전",
+    "match_id": "rolling-game-599a77b643000c869c64882f5b7bb735a136b12394ca04f1f28919f556a4a5dd",
+    "result": "패배",
+    "termination_class": "normal",
+    "termination_reason": "instant",
+    "termination_source": {
+      "path": "records/official/round-20261001-1000/raw/rolling-game-599a77b643000c869c64882f5b7bb735a136b12394ca04f1f28919f556a4a5dd.json",
+      "repository": "/tmp/yk-new-bot-20261001",
+      "sha256": "388f64b537e40f8fde89aec9e1ed6a3e0450a48b9c00266cea4aa79a0e22866e",
+      "json_pointer": "/result/reason",
+      "kind": "official_raw"
+    }
+  },
+  {
+    "round_label": "10월 1일 10:00",
+    "submission": 9,
+    "opponent": "2325",
+    "match_id": "rolling-game-55fe0abc6c904edd5ee4bac94796025122a6144a28f20a54b301baa09f2e2bc7",
+    "result": "패배",
+    "termination_class": "normal",
+    "termination_reason": "score",
+    "termination_source": {
+      "path": "records/official/round-20261001-1000/raw/rolling-game-55fe0abc6c904edd5ee4bac94796025122a6144a28f20a54b301baa09f2e2bc7.json",
+      "repository": "/tmp/yk-new-bot-20261001",
+      "sha256": "784f8761b6a77abad0d08079e32b1621d0feca7651c1f24214a0a80646e034a2",
+      "json_pointer": "/result/reason",
+      "kind": "official_raw"
+    }
+  },
+  {
+    "round_label": "10월 1일 10:00",
+    "submission": 9,
+    "opponent": "요미",
+    "match_id": "rolling-game-4e0d236cbbab4db9f3de2c0f26044267024d5248fdaa1163bd1c3de9094346a5",
+    "result": "패배",
+    "termination_class": "normal",
+    "termination_reason": "instant",
+    "termination_source": {
+      "path": "records/official/round-20261001-1000/raw/rolling-game-4e0d236cbbab4db9f3de2c0f26044267024d5248fdaa1163bd1c3de9094346a5.json",
+      "repository": "/tmp/yk-new-bot-20261001",
+      "sha256": "17f72961dbf0430b66e830da8e72173ead48bb7d89ae6e9c267b5d9cb4f1484f",
+      "json_pointer": "/result/reason",
+      "kind": "official_raw"
+    }
+  },
+  {
+    "round_label": "10월 1일 10:00",
+    "submission": 9,
+    "opponent": "占쏙옙",
+    "match_id": "rolling-game-4d11bbabf02419ab956db2f20df6709ea27c41c42049c13ca20a9ae2f128bd3d",
+    "result": "패배",
+    "termination_class": "normal",
+    "termination_reason": "score",
+    "termination_source": {
+      "path": "records/official/round-20261001-1000/raw/rolling-game-4d11bbabf02419ab956db2f20df6709ea27c41c42049c13ca20a9ae2f128bd3d.json",
+      "repository": "/tmp/yk-new-bot-20261001",
+      "sha256": "3f117f786e62bfc1bc99592c6b2bba8feee831b935c52ab3047e42ebe0eff95d",
+      "json_pointer": "/result/reason",
+      "kind": "official_raw"
+    }
+  },
+  {
+    "round_label": "10월 1일 10:00",
+    "submission": 9,
+    "opponent": "언더우드의목마",
+    "match_id": "rolling-game-3fc3bdb4da80554b1115a5f4a3a47a28e80280e8424d1b28d4eabcf2f75cecad",
+    "result": "승리",
+    "termination_class": "normal",
+    "termination_reason": "score",
+    "termination_source": {
+      "path": "records/official/round-20261001-1000/raw/rolling-game-3fc3bdb4da80554b1115a5f4a3a47a28e80280e8424d1b28d4eabcf2f75cecad.json",
+      "repository": "/tmp/yk-new-bot-20261001",
+      "sha256": "3d7652685f7efcd99a3528a46c79c7dfe52d1a69bcabb15297fbb1dc40a96eb3",
+      "json_pointer": "/result/reason",
+      "kind": "official_raw"
+    }
+  },
+  {
+    "round_label": "10월 1일 10:00",
+    "submission": 9,
+    "opponent": "학부기",
+    "match_id": "rolling-game-3349286232eaf367b4100ae55f4cc6fc1a85b4aae2b2af59c2705465374cda60",
+    "result": "패배",
+    "termination_class": "normal",
+    "termination_reason": "instant",
+    "termination_source": {
+      "path": "records/official/round-20261001-1000/raw/rolling-game-3349286232eaf367b4100ae55f4cc6fc1a85b4aae2b2af59c2705465374cda60.json",
+      "repository": "/tmp/yk-new-bot-20261001",
+      "sha256": "cbcf55b8b591c3d0213502640ae8bb5d3d74c1efe87f7690ea5b81ecfe90a115",
+      "json_pointer": "/result/reason",
+      "kind": "official_raw"
+    }
+  },
+  {
+    "round_label": "10월 1일 10:00",
+    "submission": 9,
+    "opponent": "집가고싶다",
+    "match_id": "rolling-game-3121389769080bb6d6fd232195165c5036e1025da736713fef3506d0aa5b107a",
+    "result": "패배",
+    "termination_class": "normal",
+    "termination_reason": "instant",
+    "termination_source": {
+      "path": "records/official/round-20261001-1000/raw/rolling-game-3121389769080bb6d6fd232195165c5036e1025da736713fef3506d0aa5b107a.json",
+      "repository": "/tmp/yk-new-bot-20261001",
+      "sha256": "58573b4a11658d2ff8b25eafd5c242d5143e126929afc063035b44b4ea3dc1e0",
+      "json_pointer": "/result/reason",
+      "kind": "official_raw"
+    }
+  },
+  {
+    "round_label": "10월 1일 10:00",
+    "submission": 9,
+    "opponent": "우트와 윤트",
+    "match_id": "rolling-game-2ba97520b4d73261b666daeee9669c08b4c07112536eb18acc0abfe50e4a9b82",
+    "result": "승리",
+    "termination_class": "normal",
+    "termination_reason": "score",
+    "termination_source": {
+      "path": "records/official/round-20261001-1000/raw/rolling-game-2ba97520b4d73261b666daeee9669c08b4c07112536eb18acc0abfe50e4a9b82.json",
+      "repository": "/tmp/yk-new-bot-20261001",
+      "sha256": "ea2bdd5ea99bb75e9622c0e5f1eb8066c12bbad6809d793f0cb22b8796855461",
+      "json_pointer": "/result/reason",
+      "kind": "official_raw"
+    }
+  },
+  {
+    "round_label": "10월 1일 10:00",
+    "submission": 9,
+    "opponent": "뚜띠태하소불고기와멸치두명",
+    "match_id": "rolling-game-1dc094cbffe48eaa739051fba709c0540d274c38d7ad86681e978aa3556dba18",
+    "result": "패배",
+    "termination_class": "normal",
+    "termination_reason": "instant",
+    "termination_source": {
+      "path": "records/official/round-20261001-1000/raw/rolling-game-1dc094cbffe48eaa739051fba709c0540d274c38d7ad86681e978aa3556dba18.json",
+      "repository": "/tmp/yk-new-bot-20261001",
+      "sha256": "90bd470062c809640a32b33936614b1bfec67d85fceefd586f1e47c5b9052a87",
+      "json_pointer": "/result/reason",
+      "kind": "official_raw"
+    }
+  },
+  {
+    "round_label": "10월 1일 00:30",
+    "submission": 8,
+    "opponent": "고대26김준우사랑단",
+    "match_id": "rolling-game-fa3bfb5fb15e1a24559a7135a67ae8081ca687df9450eaf01f6c94ca29bc34be",
+    "result": "승리",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "10월 1일 00:30",
+    "submission": 8,
+    "opponent": "붉은 산호초",
+    "match_id": "rolling-game-f8600dcbb568c94c1bf2715e2bae9e00fd16abc8333520f22a5fd05a1c25362c",
+    "result": "패배",
+    "termination_class": "normal",
+    "termination_reason": "instant",
+    "termination_source": {
+      "path": "records/official/latest-20261001/raw/rolling-game-f8600dcbb568c94c1bf2715e2bae9e00fd16abc8333520f22a5fd05a1c25362c.json",
+      "repository": "/tmp/yk-new-bot-20261001",
+      "sha256": "630113f4d9a2632f9857ccf2d30942933229746e355cd09d68a4b19eac00254d",
+      "json_pointer": "/result/reason",
+      "kind": "official_raw"
+    }
+  },
+  {
+    "round_label": "10월 1일 00:30",
+    "submission": 8,
+    "opponent": "뚜띠태하소불고기와멸치두명",
+    "match_id": "rolling-game-ece792fd174391f3b326dab047448a8547f8257adcfd2842f607de8fbe33eee5",
+    "result": "승리",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "10월 1일 00:30",
+    "submission": 8,
+    "opponent": "연세찜닭",
+    "match_id": "rolling-game-e3f629ecfd532c76d8d52112844927d5dbdb10f7bb480ce4bb8989a3f812275b",
+    "result": "승리",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "10월 1일 00:30",
+    "submission": 8,
+    "opponent": "신촌도 우리땅",
+    "match_id": "rolling-game-da2cd8628e8a73907056ec6791d15093d36498bc6be6c6661caa0d0fc7fad041",
+    "result": "패배",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "10월 1일 00:30",
+    "submission": 8,
+    "opponent": "정진규컴퓨터시스템D504",
+    "match_id": "rolling-game-b68cd686cdd239b15422c469466fc367f3a45196a45214dcb17920c7bed11bc4",
+    "result": "승리",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "10월 1일 00:30",
+    "submission": 8,
+    "opponent": "니땅내땅",
+    "match_id": "rolling-game-ab518851823fd094d3efa67ab4a8d8b9cf97b8d23e0b520d3fded631a4e499b6",
+    "result": "승리",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "10월 1일 00:30",
+    "submission": 8,
+    "opponent": "저희 집 GPU가 추위를 타요",
+    "match_id": "rolling-game-8b8ad8f55cb3085f0834c475ad27afbe4eb6002d1df682b830449077f4552c4f",
+    "result": "패배",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "10월 1일 00:30",
+    "submission": 8,
+    "opponent": "신촌을못가",
+    "match_id": "rolling-game-78bee81572ee4bca067398c24c2cf92af2e07cccf6eed23580e5e9e1b8c7894c",
+    "result": "패배",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "10월 1일 00:30",
+    "submission": 8,
+    "opponent": "올림픽 정신",
+    "match_id": "rolling-game-50e7d1728d49c2148db752ce876687be4decc69356541dc2c23155eff9163687",
+    "result": "패배",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "10월 1일 00:30",
+    "submission": 8,
+    "opponent": "hyper",
+    "match_id": "rolling-game-338deb88dbe3cae97f1b21adb22a5ed13b9a8f985972fc586bd3a69ea16bf390",
+    "result": "승리",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "10월 1일 00:30",
+    "submission": 8,
+    "opponent": "조니 해커 블루",
+    "match_id": "rolling-game-10df106303acd2c6934fc025bd072eca2983adc72eb17e2bae362affbf9b02be",
+    "result": "승리",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 30일 10:00",
+    "submission": 8,
+    "opponent": "연세찜닭",
+    "match_id": null,
+    "result": "패배",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 30일 10:00",
+    "submission": 8,
+    "opponent": "태호랑이",
+    "match_id": null,
+    "result": "승리",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 30일 10:00",
+    "submission": 8,
+    "opponent": "占쏙옙",
+    "match_id": null,
+    "result": "승리",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 30일 10:00",
+    "submission": 8,
+    "opponent": "너구리",
+    "match_id": null,
+    "result": "패배",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 30일 10:00",
+    "submission": 8,
+    "opponent": "니땅내땅",
+    "match_id": null,
+    "result": "승리",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 30일 10:00",
+    "submission": 8,
+    "opponent": "건성건성",
+    "match_id": null,
+    "result": "승리",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 30일 10:00",
+    "submission": 8,
+    "opponent": "렛츠고",
+    "match_id": null,
+    "result": "패배",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 30일 10:00",
+    "submission": 8,
+    "opponent": "신촌도 우리땅",
+    "match_id": null,
+    "result": "패배",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 30일 10:00",
+    "submission": 8,
+    "opponent": "파전",
+    "match_id": null,
+    "result": "패배",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 30일 10:00",
+    "submission": 8,
+    "opponent": "뉴비들",
+    "match_id": null,
+    "result": "승리",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 30일 10:00",
+    "submission": 8,
+    "opponent": "박박이",
+    "match_id": null,
+    "result": "패배",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 30일 10:00",
+    "submission": 8,
+    "opponent": "1026",
+    "match_id": null,
+    "result": "승리",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 29일 22:00",
+    "submission": 7,
+    "opponent": "뚜띠태하소불고기와멸치두명",
+    "match_id": null,
+    "result": "승리",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 29일 22:00",
+    "submission": 7,
+    "opponent": "건성건성",
+    "match_id": null,
+    "result": "승리",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 29일 22:00",
+    "submission": 7,
+    "opponent": "연세대학교인공지능학과",
+    "match_id": null,
+    "result": "패배",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 29일 22:00",
+    "submission": 7,
+    "opponent": "연크크",
+    "match_id": null,
+    "result": "패배",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 29일 22:00",
+    "submission": 7,
+    "opponent": "오산기지정예병",
+    "match_id": null,
+    "result": "패배",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 29일 22:00",
+    "submission": 7,
+    "opponent": "야생지능",
+    "match_id": null,
+    "result": "패배",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 29일 22:00",
+    "submission": 7,
+    "opponent": "하면해",
+    "match_id": null,
+    "result": "승리",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 29일 22:00",
+    "submission": 7,
+    "opponent": "인지시를위대하게",
+    "match_id": null,
+    "result": "패배",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 29일 22:00",
+    "submission": 7,
+    "opponent": "파전",
+    "match_id": null,
+    "result": "패배",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 29일 22:00",
+    "submission": 7,
+    "opponent": "크아앙",
+    "match_id": null,
+    "result": "패배",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 29일 22:00",
+    "submission": 7,
+    "opponent": "올림픽 정신",
+    "match_id": null,
+    "result": "승리",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 29일 22:00",
+    "submission": 7,
+    "opponent": "요미",
+    "match_id": null,
+    "result": "승리",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 29일 10:00",
+    "submission": 7,
+    "opponent": "참새 사냥꾼",
+    "match_id": "rolling-game-df846673072f5ce6a57407eaf7db2cb282c9b0ec9813c5156d02d4b7ad3c451a",
+    "result": "패배",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 29일 10:00",
+    "submission": 7,
+    "opponent": "집가고싶다",
+    "match_id": null,
+    "result": "승리",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 29일 10:00",
+    "submission": 7,
+    "opponent": "태호랑이",
+    "match_id": null,
+    "result": "승리",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 29일 10:00",
+    "submission": 7,
+    "opponent": "Yaar",
+    "match_id": null,
+    "result": "승리",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 29일 10:00",
+    "submission": 7,
+    "opponent": "ㄱ-",
+    "match_id": "rolling-game-91e0f2a45ee9eb9c8030b3709161dd971786645287e432e7ce1730a0565d6c13",
+    "result": "패배",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 29일 10:00",
+    "submission": 7,
+    "opponent": "파스텔",
+    "match_id": null,
+    "result": "승리",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 29일 10:00",
+    "submission": 7,
+    "opponent": "올림픽 정신",
+    "match_id": null,
+    "result": "승리",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 29일 10:00",
+    "submission": 7,
+    "opponent": "초짜들",
+    "match_id": null,
+    "result": "승리",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 29일 10:00",
+    "submission": 7,
+    "opponent": "어잌후",
+    "match_id": "rolling-game-6b6d7b3922baefa6c675f4f078d79d8cd329396afdfc063928af0a3f4ffb0c21",
+    "result": "패배",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 29일 10:00",
+    "submission": 7,
+    "opponent": "렛츠고",
+    "match_id": "rolling-game-45d87f1ff685dbebc410d6b6f6cb0c93d6cedbf886906a0ca3a6f813414e64ee",
+    "result": "패배",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 29일 10:00",
+    "submission": 7,
+    "opponent": "우트와 윤트",
+    "match_id": "rolling-game-4174287629a8963043d57866ba1a1a4c5286907b9b3bf5fd0947cca809681fa7",
+    "result": "패배",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 29일 10:00",
+    "submission": 7,
+    "opponent": "뉴비들",
+    "match_id": "rolling-game-1db4b9df1bc49715653c777bc09f5863eb031382d0d3e7eca9b14760556a5e90",
+    "result": "패배",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 28일 22:00",
+    "submission": 5,
+    "opponent": "인공저능",
+    "match_id": null,
+    "result": "승리",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 28일 22:00",
+    "submission": 5,
+    "opponent": "Team 24",
+    "match_id": null,
+    "result": "패배",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 28일 22:00",
+    "submission": 5,
+    "opponent": "AIKU",
+    "match_id": null,
+    "result": "패배",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 28일 22:00",
+    "submission": 5,
+    "opponent": "태호랑이",
+    "match_id": null,
+    "result": "승리",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 28일 22:00",
+    "submission": 5,
+    "opponent": "마른하늘에 날벼樂",
+    "match_id": null,
+    "result": "승리",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 28일 22:00",
+    "submission": 5,
+    "opponent": "건성건성",
+    "match_id": null,
+    "result": "패배",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 28일 22:00",
+    "submission": 5,
+    "opponent": "공주",
+    "match_id": null,
+    "result": "승리",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 28일 22:00",
+    "submission": 5,
+    "opponent": "붉은 산호초",
+    "match_id": null,
+    "result": "패배",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 28일 22:00",
+    "submission": 5,
+    "opponent": "연세대학교인공지능학과",
+    "match_id": null,
+    "result": "패배",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 28일 22:00",
+    "submission": 5,
+    "opponent": "개우진보러갈까",
+    "match_id": null,
+    "result": "패배",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 28일 22:00",
+    "submission": 5,
+    "opponent": "저능박수",
+    "match_id": null,
+    "result": "승리",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 28일 22:00",
+    "submission": 5,
+    "opponent": "Yaar",
+    "match_id": null,
+    "result": "승리",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 28일 22:00",
+    "submission": 5,
+    "opponent": "모든상금은제세공과금공제후지급됩니다",
+    "match_id": null,
+    "result": "승리",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 28일 22:00",
+    "submission": 5,
+    "opponent": "저희 집 GPU가 추위를 타요",
+    "match_id": null,
+    "result": "승리",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 28일 22:00",
+    "submission": 5,
+    "opponent": "하면해",
+    "match_id": null,
+    "result": "패배",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 28일 22:00",
+    "submission": 5,
+    "opponent": "파전",
+    "match_id": null,
+    "result": "패배",
+    "termination_class": "unknown",
+    "termination_reason": null,
+    "termination_source": null
+  },
+  {
+    "round_label": "9월 28일 10:00",
+    "submission": 4,
+    "opponent": "hyper",
+    "match_id": "rolling-game-d54af110884f1eff7197810d39f74f0ffcb31dd84cd3874da7a3dc3048632a4e",
+    "result": "승리",
+    "termination_class": "normal",
+    "termination_reason": "instant",
+    "termination_source": {
+      "path": "V4_replay/replay (10).json",
+      "repository": "/tmp/yk-new-bot-20261001",
+      "sha256": "f91cbf2ba3adf601fee3728c7b7a45543aa787b096fd490a80bd194f45cf9ae3",
+      "json_pointer": "/result/reason",
+      "kind": "official_raw"
+    }
+  },
+  {
+    "round_label": "9월 28일 10:00",
+    "submission": 4,
+    "opponent": "니땅내땅",
+    "match_id": "rolling-game-c43810616007b08b82fa2ccc028a9bd58a815dd7af25480f26bcd6b298c02031",
+    "result": "승리",
+    "termination_class": "normal",
+    "termination_reason": "instant",
+    "termination_source": {
+      "path": "V4_replay/replay (9).json",
+      "repository": "/tmp/yk-new-bot-20261001",
+      "sha256": "5fec597eb1998acaed0795fd96d7f0e3570db294cfab0b34f5734becc449c48c",
+      "json_pointer": "/result/reason",
+      "kind": "official_raw"
+    }
+  },
+  {
+    "round_label": "9월 28일 10:00",
+    "submission": 4,
+    "opponent": "뉴비들",
+    "match_id": "rolling-game-bffff5735e63efaae46f6cf1d63637b372b1a97295a0b11a270ef78a6fe046c8",
+    "result": "패배",
+    "termination_class": "normal",
+    "termination_reason": "instant",
+    "termination_source": {
+      "path": "V4_replay/replay (8).json",
+      "repository": "/tmp/yk-new-bot-20261001",
+      "sha256": "08477349ddad2b27104b58a4a09fe367e8b747e2c958549ee71150d4d5661863",
+      "json_pointer": "/result/reason",
+      "kind": "official_raw"
+    }
+  },
+  {
+    "round_label": "9월 28일 10:00",
+    "submission": 4,
+    "opponent": "tAIger",
+    "match_id": "rolling-game-bc613bbd0aa2e7ed3cb760c4420de07d584fbfe74435d9e64cfe603140e921df",
+    "result": "패배",
+    "termination_class": "normal",
+    "termination_reason": "score",
+    "termination_source": {
+      "path": "V4_replay/replay (7).json",
+      "repository": "/tmp/yk-new-bot-20261001",
+      "sha256": "16a984811e7a3124c9834c13706235dc2e0a821c75c13bd2fe6baa8eb5566a2a",
+      "json_pointer": "/result/reason",
+      "kind": "official_raw"
+    }
+  },
+  {
+    "round_label": "9월 28일 10:00",
+    "submission": 4,
+    "opponent": "신촌도 우리땅",
+    "match_id": "rolling-game-b51fb30a9b60cbaa637281ccc70189592ccc3acd2a1cc54422eeb2a3647a2028",
+    "result": "승리",
+    "termination_class": "normal",
+    "termination_reason": "instant",
+    "termination_source": {
+      "path": "V4_replay/replay (6).json",
+      "repository": "/tmp/yk-new-bot-20261001",
+      "sha256": "25a54389121d711db187f05112052ad208c20ebd1eb250b9ef261b096fb645ab",
+      "json_pointer": "/result/reason",
+      "kind": "official_raw"
+    }
+  },
+  {
+    "round_label": "9월 28일 10:00",
+    "submission": 4,
+    "opponent": "참새튀김기",
+    "match_id": "rolling-game-ad84278667fd0929bb5a0b62d486dd6989d107b95060a86689b09677e48c8850",
+    "result": "승리",
+    "termination_class": "normal",
+    "termination_reason": "instant",
+    "termination_source": {
+      "path": "V4_replay/replay (5).json",
+      "repository": "/tmp/yk-new-bot-20261001",
+      "sha256": "9ead6d80eaf065100e6b8b0ceb578cdbd7c45518fba594bb0dfa2da4894dbe6e",
+      "json_pointer": "/result/reason",
+      "kind": "official_raw"
+    }
+  },
+  {
+    "round_label": "9월 28일 10:00",
+    "submission": 4,
+    "opponent": "공주",
+    "match_id": "rolling-game-7b34b928563d09ad1b5cc7adbf5037e2c5dc571aa6d687abf3401972f1562899",
+    "result": "승리",
+    "termination_class": "normal",
+    "termination_reason": "instant",
+    "termination_source": {
+      "path": "V4_replay/replay (4).json",
+      "repository": "/tmp/yk-new-bot-20261001",
+      "sha256": "8c5d422a4aa5ee45b712516fd3612e842444181f6e2373a3d77c78a7204e9e93",
+      "json_pointer": "/result/reason",
+      "kind": "official_raw"
+    }
+  },
+  {
+    "round_label": "9월 28일 10:00",
+    "submission": 4,
+    "opponent": "요미",
+    "match_id": "rolling-game-6f32639acafca887f873728e555f1b24252c8f760a4be88f32d865d0727daff3",
+    "result": "승리",
+    "termination_class": "normal",
+    "termination_reason": "score",
+    "termination_source": {
+      "path": "V4_replay/replay (3).json",
+      "repository": "/tmp/yk-new-bot-20261001",
+      "sha256": "9c8825500a1568ea45cb0ffe351c9297569a223c591292728c1c5d48363562a7",
+      "json_pointer": "/result/reason",
+      "kind": "official_raw"
+    }
+  },
+  {
+    "round_label": "9월 28일 10:00",
+    "submission": 4,
+    "opponent": "신촌을못가",
+    "match_id": "rolling-game-63440e085528d83bdd61a389b932c72c48eb67e155b1d57d3374ebe909833eaf",
+    "result": "패배",
+    "termination_class": "normal",
+    "termination_reason": "instant",
+    "termination_source": {
+      "path": "V4_replay/replay (2).json",
+      "repository": "/tmp/yk-new-bot-20261001",
+      "sha256": "ec88839f7ad1bc6453573573712ba82e7b20f9ff600671a6ff98f175e288ddc2",
+      "json_pointer": "/result/reason",
+      "kind": "official_raw"
+    }
+  },
+  {
+    "round_label": "9월 28일 10:00",
+    "submission": 4,
+    "opponent": "그래피",
+    "match_id": "rolling-game-34bca1e9294c28464dba463fabb2a9f47d3617bd0eb021872ff16724eb7a5169",
+    "result": "승리",
+    "termination_class": "normal",
+    "termination_reason": "score",
+    "termination_source": {
+      "path": "V4_replay/replay (1).json",
+      "repository": "/tmp/yk-new-bot-20261001",
+      "sha256": "a5b148ae8a95ffd684a511d65b8609a4da1557f9f7828db22d6a1a600eb7a5f4",
+      "json_pointer": "/result/reason",
+      "kind": "official_raw"
+    }
+  },
+  {
+    "round_label": "9월 28일 10:00",
+    "submission": 4,
+    "opponent": "어잌후",
+    "match_id": "rolling-game-2b49c08f6a4dffa5a063bab17ed6c665a6c84abafe79a82c147811dbf32b1491",
+    "result": "승리",
+    "termination_class": "normal",
+    "termination_reason": "score",
+    "termination_source": {
+      "path": "V4_replay/replay.json",
+      "repository": "/tmp/yk-new-bot-20261001",
+      "sha256": "70da24ce3da77267dce4728fbf4233980b1d1e3f2a069c6bae1e6c328a09da0a",
+      "json_pointer": "/result/reason",
+      "kind": "official_raw"
+    }
+  },
+  {
+    "round_label": "9월 28일 10:00",
+    "submission": 4,
+    "opponent": "붉은 산호초",
+    "match_id": "rolling-game-1a938b484fe952c60f68313ce8cb680d401dc712bb9b0ca9d385d6b71161cb55",
+    "result": "패배",
+    "termination_class": "normal",
+    "termination_reason": "instant",
+    "termination_source": {
+      "path": "V4_replay/V4_2replay.json",
+      "repository": "/tmp/yk-new-bot-20261001",
+      "sha256": "5dd107be161d4d85ba346bfc05b9a7da2b129a47b3bc4a52384ac1cb23c1ae24",
+      "json_pointer": "/result/reason",
+      "kind": "official_raw"
+    }
+  },
+  {
+    "round_label": "9월 28일 10:00",
+    "submission": 4,
+    "opponent": "뚜띠태하소불고기와멸치두명",
+    "match_id": "rolling-game-109f2e839e8bdb05922c807c8622bb6bd0553f65492fb5101562ab8c9e63242a",
+    "result": "승리",
+    "termination_class": "normal",
+    "termination_reason": "instant",
+    "termination_source": {
+      "path": "V4_replay/V4_1replay.json",
+      "repository": "/tmp/yk-new-bot-20261001",
+      "sha256": "d011af83e7da5237c13f9217f31ba49a38049200b3411c68fff4c6469f8ed724",
+      "json_pointer": "/result/reason",
+      "kind": "official_raw"
+    }
+  },
+  {
+    "round_label": "9월 27일 22:00",
+    "submission": 3,
+    "opponent": "양진장",
+    "match_id": "rolling-game-e6920b1cc1fb4db8bf3afc03de803bf1602b7771f0d8093ea637c9667bda1b49",
+    "result": "승리",
+    "termination_class": "normal",
+    "termination_reason": "instant",
+    "termination_source": {
+      "path": "artifacts/firstround_results/replay (4).json",
+      "repository": "/tmp/yk-new-bot-20261001",
+      "sha256": "bc4bc260ae659c5c2943393c851dc5fbf4a5de8246950bf548b8f569f4a454ff",
+      "json_pointer": "/result/reason",
+      "kind": "official_raw"
+    }
+  },
+  {
+    "round_label": "9월 27일 22:00",
+    "submission": 3,
+    "opponent": "저희 집 GPU가 추위를 타요",
+    "match_id": "rolling-game-e3fd566eee1999e1349fb77cdba677f9b15a96b8163a2f2ce657c861af1593fb",
+    "result": "승리",
+    "termination_class": "normal",
+    "termination_reason": "score",
+    "termination_source": {
+      "path": "artifacts/firstround_results/replay (1).json",
+      "repository": "/tmp/yk-new-bot-20261001",
+      "sha256": "82fb14ed2eca4e21316fc7720d0f60d0b5053cb4e6fa418889b064edd3d97881",
+      "json_pointer": "/result/reason",
+      "kind": "official_raw"
+    }
+  },
+  {
+    "round_label": "9월 27일 22:00",
+    "submission": 3,
+    "opponent": "공주",
+    "match_id": "rolling-game-cc2cdecafcf04121af34ef3e1ce4c341cc299e63cc3c4ce29ddf4a9de15ee066",
+    "result": "승리",
+    "termination_class": "normal",
+    "termination_reason": "instant",
+    "termination_source": {
+      "path": "artifacts/firstround_results/replay (5).json",
+      "repository": "/tmp/yk-new-bot-20261001",
+      "sha256": "52d8ce5c40a06f42b2cbdeace40882ab27f446d7ae0addb4f3828a8635277db2",
+      "json_pointer": "/result/reason",
+      "kind": "official_raw"
+    }
+  },
+  {
+    "round_label": "9월 27일 22:00",
+    "submission": 3,
+    "opponent": "하면해",
+    "match_id": "rolling-game-99740c430713d5754ed6861ceef5f2baae7fa19465c4fbd34e98077ea5a3adfb",
+    "result": "승리",
+    "termination_class": "normal",
+    "termination_reason": "instant",
+    "termination_source": {
+      "path": "records/official/opponent-intel-20260928/haemyeonhae-ui-observations.json",
+      "repository": "/tmp/yk-new-bot-20261001",
+      "sha256": "1f62509ff1066a934dc0282060520c302ab6cf7d6d6e1c5bc55c43a9b761de32",
+      "json_pointer": "/end_reason_display",
+      "kind": "authenticated_UI_explicit_terminal_reason"
+    }
+  },
+  {
+    "round_label": "9월 27일 22:00",
+    "submission": 3,
+    "opponent": "신촌도 우리땅",
+    "match_id": "rolling-game-805c50c9a490f1c11b69ad06d37d8a66ff8a012f4ede324c829038c68ea5fb4e",
+    "result": "패배",
+    "termination_class": "normal",
+    "termination_reason": "score",
+    "termination_source": {
+      "path": "artifacts/firstround_results/replay (3).json",
+      "repository": "/tmp/yk-new-bot-20261001",
+      "sha256": "e1a77ebc0dc871668ad7002674303b8b6066ff3436dca695bbef434a27335011",
+      "json_pointer": "/result/reason",
+      "kind": "official_raw"
+    }
+  },
+  {
+    "round_label": "9월 27일 22:00",
+    "submission": 3,
+    "opponent": "뚜띠태하소불고기와멸치두명",
+    "match_id": "rolling-game-3dd41599c2c6adcb057a6ed543d2fa6ae0961c00e745a0bb048604720110cbb1",
+    "result": "승리",
+    "termination_class": "normal",
+    "termination_reason": "instant",
+    "termination_source": {
+      "path": "artifacts/firstround_results/replay (2).json",
+      "repository": "/tmp/yk-new-bot-20261001",
+      "sha256": "6ea68e55f67ef3fa120b790d752632c3556c3f1de9ed842ec6e66c026d5f647d",
+      "json_pointer": "/result/reason",
+      "kind": "official_raw"
+    }
+  }
+]

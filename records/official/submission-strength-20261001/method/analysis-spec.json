@@ -1,0 +1,60 @@
+{
+  "prepared_before_calculation_kst": "2026-10-01T18:18:07.024296+09:00",
+  "input_sha256": {
+    "matches.json": "2eee380566ca7121f0318a44d7dfadb5b21a048ce467f3c0afb5ff81a42fe704",
+    "leaderboard-latest.json": "6c077ef823dbea2d69edd7fe026a7bb91b2c1c91446d860901e38c718313f376"
+  },
+  "bootstrap_replicates": 20000,
+  "base_seed": 20261001,
+  "rank_bands": [
+    "<=22",
+    "23..65",
+    ">=66"
+  ],
+  "top12": "<=12",
+  "point_rate_bands": "q<25th percentile, inclusive middle boundary ties, q>75th percentile",
+  "loo": "remove only known17:00 our-game contribution fromlatestround opponent record",
+  "candidate_selection": "no automatic overall winner; descriptive and common-support estimates",
+  "initial_attempt": {
+    "script_sha256": "32a961af245c4505a9f804acdb6ef63427473297386a96985ea6bc101c7c4cf0",
+    "status": "failed before outputs: NumPy int64 JSON serialization"
+  },
+  "script_sha256": "d572bbcb40f14fc88808bc4979241844dacd0c615671b345de2ab4936a34f213",
+  "updated_before_calculation_kst": "2026-10-01T18:18:50.398370+09:00",
+  "known_opponent_forfeits_from_root_raw_review": [
+    {
+      "submission": 9,
+      "opponent": "신촌도 우리땅"
+    },
+    {
+      "submission": 9,
+      "opponent": "개우진보러갈까"
+    },
+    {
+      "submission": 11,
+      "opponent": "Re:verse"
+    }
+  ],
+  "side_note": "UI side is recordedY; do not infer actual engine/map side from school/affiliation",
+  "finalized_at_kst": "2026-10-01T18:32:17.432210+09:00",
+  "final_script_sha256": {
+    "analyze_strength.py": "d572bbcb40f14fc88808bc4979241844dacd0c615671b345de2ab4936a34f213",
+    "check_relocation.py": "c2204a11adcf6249ee89c678a520434c69157fb5b3232f2b729605fba983ec1b",
+    "compute_latest_metrics.py": "447a2f08f7218f7bcdf07397a041c579031259c1ac1a0ac0ae64984fcc816bc3",
+    "inspect_packages.py": "c37f28421262efa7d74daaca31d84d720a16166be30cbd9e4d7d8bdec27b4ce6",
+    "rank_sensitivity.py": "1f57610f450d53084595ed4f77ce8ec9c4b79be91df20d26a66d6dbb29479af3",
+    "verify_existing_formula.py": "fafdd627831a562cc534acd22b5a22fb4a165cd7e86635298fbca78df666cd44",
+    "write_report.py": "9d3279c57e1ca34357e16f1803241ad1962e574e83be7492c40ba0d72dc46b8b"
+  },
+  "additional_inputs": {
+    "../data/previous-rank-inference.json": "ddf623fbd29c6fd8efb60525e67e99abfa3046e07039f5a0d13401a50e20dd86",
+    "../data/leaderboard-help.json": "e01e8d756897ef426e492c2d717cbefb6bdb1b72af51f83e506ed0c0c9d4ee67",
+    "../history/known-termination.json": "bf6a44ae391316b2bc250c849a7e816a84e512e8af3faee70cc4df5f2c95b08f",
+    "../latest-detail/details.json": "cb64f382a5bf627c9e21a71fcf480d8d22ce6595614c06664c2b1e979290fbce"
+  },
+  "final_status": "complete, all latest24 details merged, known65normal+3forfeit, unknown63",
+  "implementation_fixes_before_final_freeze": [
+    "NumPy scalar JSON types explicitly cast",
+    "Repository discovery uses ancestor iteration for shallow/tmp and final repository paths"
+  ]
+}

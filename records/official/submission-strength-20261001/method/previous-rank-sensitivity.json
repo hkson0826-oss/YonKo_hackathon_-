@@ -1,0 +1,612 @@
+{
+  "source_sha256": "ddf623fbd29c6fd8efb60525e67e99abfa3046e07039f5a0d13401a50e20dd86",
+  "basis": "Current17:00 table movement arrows; previous rank = current rank + places risen or - places fallen. Previous publication inferred as10:00 from chronological matches and our known rank50; prior WDL cannot be reconstructed.",
+  "submission4_contemporaneous_active56": {
+    "submission": 4,
+    "active_team_denominator": 56,
+    "registered_teams": 104,
+    "opponent_mean_rank": 24.307692307692307,
+    "opponent_median_rank": 22,
+    "opponent_mean_rank_fraction": 0.4340659340659341,
+    "opponent_median_rank_fraction": 0.39285714285714285,
+    "normalization": "display rank / number of ranked active teams; lower means stronger relative place in that publication, not cross-era absolute skill",
+    "rank_bands": {
+      "top25_rank_1_to14": {
+        "n": 4,
+        "wins": 0,
+        "losses": 4,
+        "point_rate": 0.0
+      },
+      "middle50_rank_15_to42": {
+        "n": 6,
+        "wins": 6,
+        "losses": 0,
+        "point_rate": 1.0
+      },
+      "bottom25_rank_43_to56": {
+        "n": 3,
+        "wins": 3,
+        "losses": 0,
+        "point_rate": 1.0
+      }
+    },
+    "own_official": {
+      "rank": 19,
+      "rank_fraction": 0.3392857142857143,
+      "adjusted_percent": 66.2,
+      "wins": 9,
+      "losses": 4
+    }
+  },
+  "submission9_at_inferred10am": {
+    "submission": 9,
+    "rank_source": "inferred_previous",
+    "all": {
+      "n": 24,
+      "wins": 12,
+      "losses": 12,
+      "point_rate": 0.5
+    },
+    "opponent_rank_mean": 52.958333333333336,
+    "opponent_rank_median": 51.0,
+    "opponent_rank_min": 13,
+    "opponent_rank_max": 87,
+    "rank_bands": {
+      "top25_rank": {
+        "n": 1,
+        "wins": 1,
+        "losses": 0,
+        "point_rate": 1.0
+      },
+      "middle50_rank": {
+        "n": 16,
+        "wins": 7,
+        "losses": 9,
+        "point_rate": 0.4375
+      },
+      "bottom25_rank": {
+        "n": 7,
+        "wins": 4,
+        "losses": 3,
+        "point_rate": 0.5714285714285714
+      },
+      "top12": {
+        "n": 0,
+        "wins": 0,
+        "losses": 0,
+        "point_rate": null
+      }
+    },
+    "rows": [
+      {
+        "opponent": "박박이",
+        "rank_used": 45,
+        "points": 0,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "올림픽 정신",
+        "rank_used": 31,
+        "points": 0,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "Yaar",
+        "rank_used": 24,
+        "points": 0,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "공주",
+        "rank_used": 87,
+        "points": 1,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "연크크",
+        "rank_used": 66,
+        "points": 0,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "연세찜닭",
+        "rank_used": 47,
+        "points": 1,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "뉴비입니다",
+        "rank_used": 13,
+        "points": 1,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "거북이",
+        "rank_used": 60,
+        "points": 1,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "인공저능",
+        "rank_used": 65,
+        "points": 1,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "조선김",
+        "rank_used": 54,
+        "points": 1,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "개우진보러갈까",
+        "rank_used": 46,
+        "points": 1,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "태호랑이",
+        "rank_used": 30,
+        "points": 0,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "연세있게 코딩하조",
+        "rank_used": 75,
+        "points": 1,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "신촌도 우리땅",
+        "rank_used": 53,
+        "points": 1,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "200OK",
+        "rank_used": 78,
+        "points": 1,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "파전",
+        "rank_used": 42,
+        "points": 0,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "2325",
+        "rank_used": 63,
+        "points": 0,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "요미",
+        "rank_used": 72,
+        "points": 0,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "占쏙옙",
+        "rank_used": 49,
+        "points": 0,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "언더우드의목마",
+        "rank_used": 74,
+        "points": 1,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "학부기",
+        "rank_used": 48,
+        "points": 0,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "집가고싶다",
+        "rank_used": 44,
+        "points": 0,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "우트와 윤트",
+        "rank_used": 34,
+        "points": 1,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "뚜띠태하소불고기와멸치두명",
+        "rank_used": 71,
+        "points": 0,
+        "round": "10월 1일 10:00"
+      }
+    ],
+    "opponent_mean_rank_fraction_of87": 0.6087164750957854,
+    "opponent_median_rank_fraction_of87": 0.5862068965517241
+  },
+  "submission11_at_observed5pm": {
+    "submission": 11,
+    "rank_source": "current",
+    "all": {
+      "n": 24,
+      "wins": 12,
+      "losses": 12,
+      "point_rate": 0.5
+    },
+    "opponent_rank_mean": 51.958333333333336,
+    "opponent_rank_median": 49.5,
+    "opponent_rank_min": 10,
+    "opponent_rank_max": 87,
+    "rank_bands": {
+      "top25_rank": {
+        "n": 2,
+        "wins": 0,
+        "losses": 2,
+        "point_rate": 0.0
+      },
+      "middle50_rank": {
+        "n": 14,
+        "wins": 5,
+        "losses": 9,
+        "point_rate": 0.35714285714285715
+      },
+      "bottom25_rank": {
+        "n": 8,
+        "wins": 7,
+        "losses": 1,
+        "point_rate": 0.875
+      },
+      "top12": {
+        "n": 1,
+        "wins": 0,
+        "losses": 1,
+        "point_rate": 0.0
+      }
+    },
+    "rows": [
+      {
+        "opponent": "그래피",
+        "rank_used": 17,
+        "points": 0,
+        "round": "10월 1일 17:00"
+      },
+      {
+        "opponent": "신촌깃발도적단",
+        "rank_used": 61,
+        "points": 1,
+        "round": "10월 1일 17:00"
+      },
+      {
+        "opponent": "2325",
+        "rank_used": 46,
+        "points": 0,
+        "round": "10월 1일 17:00"
+      },
+      {
+        "opponent": "Team 24",
+        "rank_used": 10,
+        "points": 0,
+        "round": "10월 1일 17:00"
+      },
+      {
+        "opponent": "장진하",
+        "rank_used": 45,
+        "points": 1,
+        "round": "10월 1일 17:00"
+      },
+      {
+        "opponent": "Yaar",
+        "rank_used": 66,
+        "points": 0,
+        "round": "10월 1일 17:00"
+      },
+      {
+        "opponent": "욘욘펀치",
+        "rank_used": 83,
+        "points": 1,
+        "round": "10월 1일 17:00"
+      },
+      {
+        "opponent": "정진규컴퓨터시스템D504",
+        "rank_used": 24,
+        "points": 0,
+        "round": "10월 1일 17:00"
+      },
+      {
+        "opponent": "박박이",
+        "rank_used": 49,
+        "points": 1,
+        "round": "10월 1일 17:00"
+      },
+      {
+        "opponent": "AI고",
+        "rank_used": 56,
+        "points": 1,
+        "round": "10월 1일 17:00"
+      },
+      {
+        "opponent": "KUTUSA",
+        "rank_used": 79,
+        "points": 1,
+        "round": "10월 1일 17:00"
+      },
+      {
+        "opponent": "저희 집 GPU가 추위를 타요",
+        "rank_used": 47,
+        "points": 1,
+        "round": "10월 1일 17:00"
+      },
+      {
+        "opponent": "크아앙",
+        "rank_used": 41,
+        "points": 0,
+        "round": "10월 1일 17:00"
+      },
+      {
+        "opponent": "Re:verse",
+        "rank_used": 84,
+        "points": 1,
+        "round": "10월 1일 17:00"
+      },
+      {
+        "opponent": "요미",
+        "rank_used": 72,
+        "points": 1,
+        "round": "10월 1일 17:00"
+      },
+      {
+        "opponent": "렛츠고",
+        "rank_used": 30,
+        "points": 0,
+        "round": "10월 1일 17:00"
+      },
+      {
+        "opponent": "저능박수",
+        "rank_used": 42,
+        "points": 0,
+        "round": "10월 1일 17:00"
+      },
+      {
+        "opponent": "연세찜닭",
+        "rank_used": 68,
+        "points": 1,
+        "round": "10월 1일 17:00"
+      },
+      {
+        "opponent": "인공저능",
+        "rank_used": 50,
+        "points": 0,
+        "round": "10월 1일 17:00"
+      },
+      {
+        "opponent": "집가고싶다",
+        "rank_used": 26,
+        "points": 0,
+        "round": "10월 1일 17:00"
+      },
+      {
+        "opponent": "조니 해커 블루",
+        "rank_used": 87,
+        "points": 1,
+        "round": "10월 1일 17:00"
+      },
+      {
+        "opponent": "hyper",
+        "rank_used": 53,
+        "points": 0,
+        "round": "10월 1일 17:00"
+      },
+      {
+        "opponent": "인지시를위대하게",
+        "rank_used": 44,
+        "points": 0,
+        "round": "10월 1일 17:00"
+      },
+      {
+        "opponent": "올림픽 정신",
+        "rank_used": 67,
+        "points": 1,
+        "round": "10월 1일 17:00"
+      }
+    ],
+    "opponent_mean_rank_fraction_of87": 0.5972222222222222,
+    "opponent_median_rank_fraction_of87": 0.5689655172413793
+  },
+  "submission9_using_observed5pm_retrospective": {
+    "submission": 9,
+    "rank_source": "current",
+    "all": {
+      "n": 24,
+      "wins": 12,
+      "losses": 12,
+      "point_rate": 0.5
+    },
+    "opponent_rank_mean": 56.458333333333336,
+    "opponent_rank_median": 58.5,
+    "opponent_rank_min": 18,
+    "opponent_rank_max": 86,
+    "rank_bands": {
+      "top25_rank": {
+        "n": 1,
+        "wins": 1,
+        "losses": 0,
+        "point_rate": 1.0
+      },
+      "middle50_rank": {
+        "n": 12,
+        "wins": 5,
+        "losses": 7,
+        "point_rate": 0.4166666666666667
+      },
+      "bottom25_rank": {
+        "n": 11,
+        "wins": 6,
+        "losses": 5,
+        "point_rate": 0.5454545454545454
+      },
+      "top12": {
+        "n": 0,
+        "wins": 0,
+        "losses": 0,
+        "point_rate": null
+      }
+    },
+    "rows": [
+      {
+        "opponent": "박박이",
+        "rank_used": 49,
+        "points": 0,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "올림픽 정신",
+        "rank_used": 67,
+        "points": 0,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "Yaar",
+        "rank_used": 66,
+        "points": 0,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "공주",
+        "rank_used": 86,
+        "points": 1,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "연크크",
+        "rank_used": 32,
+        "points": 0,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "연세찜닭",
+        "rank_used": 68,
+        "points": 1,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "뉴비입니다",
+        "rank_used": 18,
+        "points": 1,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "거북이",
+        "rank_used": 76,
+        "points": 1,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "인공저능",
+        "rank_used": 50,
+        "points": 1,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "조선김",
+        "rank_used": 34,
+        "points": 1,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "개우진보러갈까",
+        "rank_used": 31,
+        "points": 1,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "태호랑이",
+        "rank_used": 57,
+        "points": 0,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "연세있게 코딩하조",
+        "rank_used": 78,
+        "points": 1,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "신촌도 우리땅",
+        "rank_used": 43,
+        "points": 1,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "200OK",
+        "rank_used": 77,
+        "points": 1,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "파전",
+        "rank_used": 48,
+        "points": 0,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "2325",
+        "rank_used": 46,
+        "points": 0,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "요미",
+        "rank_used": 72,
+        "points": 0,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "占쏙옙",
+        "rank_used": 54,
+        "points": 0,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "언더우드의목마",
+        "rank_used": 60,
+        "points": 1,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "학부기",
+        "rank_used": 75,
+        "points": 0,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "집가고싶다",
+        "rank_used": 26,
+        "points": 0,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "우트와 윤트",
+        "rank_used": 73,
+        "points": 1,
+        "round": "10월 1일 10:00"
+      },
+      {
+        "opponent": "뚜띠태하소불고기와멸치두명",
+        "rank_used": 69,
+        "points": 0,
+        "round": "10월 1일 10:00"
+      }
+    ],
+    "opponent_mean_rank_fraction_of87": 0.6489463601532567,
+    "opponent_median_rank_fraction_of87": 0.6724137931034483
+  },
+  "caveats": [
+    "Previous rank is reconstructed from a movement arrow, not a preserved full10amtable.",
+    "Previous timestamp10am is inferred; previous WDL and opponent rates unavailable.",
+    "Ranks at different publications include opponent policy upgrades and different schedules.",
+    "Latest error-free or LOO rate does not recover historical error-free rates.",
+    "No previous-rank LOO is possible without prior opponents results and tiebreak values."
+  ]
+}

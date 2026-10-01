@@ -1,0 +1,83 @@
+{
+  "passed": true,
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "layout": "records/official/submission-strength-20261001/method",
+  "repo_root_flag_used": false,
+  "source_hashes": {
+    "analyze_strength.py": "d572bbcb40f14fc88808bc4979241844dacd0c615671b345de2ab4936a34f213",
+    "rank_sensitivity.py": "1f57610f450d53084595ed4f77ce8ec9c4b79be91df20d26a66d6dbb29479af3",
+    "verify_existing_formula.py": "fafdd627831a562cc534acd22b5a22fb4a165cd7e86635298fbca78df666cd44",
+    "compute_latest_metrics.py": "447a2f08f7218f7bcdf07397a041c579031259c1ac1a0ac0ae64984fcc816bc3",
+    "write_report.py": "9d3279c57e1ca34357e16f1803241ad1962e574e83be7492c40ba0d72dc46b8b"
+  },
+  "output_checks": {
+    "strength-analysis.json": {
+      "original": "5943814cbb4ab9a874b7e7d05d971166a978468bbe0dccb9b4f339d3e9fe380b",
+      "relocated": "5943814cbb4ab9a874b7e7d05d971166a978468bbe0dccb9b4f339d3e9fe380b",
+      "identical": true
+    },
+    "enriched-matches.json": {
+      "original": "7cac15652ffc6edd38d15e9ce1f482f239f6f0cf5024326225bd2bdf8af20aa4",
+      "relocated": "7cac15652ffc6edd38d15e9ce1f482f239f6f0cf5024326225bd2bdf8af20aa4",
+      "identical": true
+    },
+    "latest-opponents-loo.json": {
+      "original": "1d6b750b2f20f8ed211a5aaad13d1a101a2b73c875d145fb45b19405b31ac199",
+      "relocated": "1d6b750b2f20f8ed211a5aaad13d1a101a2b73c875d145fb45b19405b31ac199",
+      "identical": true
+    },
+    "termination-merged.json": {
+      "original": "2c37ff3cbe59fc161bfaa2467649678b626503ea91855394cfccb92335b2115f",
+      "relocated": "2c37ff3cbe59fc161bfaa2467649678b626503ea91855394cfccb92335b2115f",
+      "identical": true
+    },
+    "previous-rank-sensitivity.json": {
+      "original": "615984f7428af11e58fceb0f936cfc8dd34ac1d876cde895f5d0103ffed52572",
+      "relocated": "615984f7428af11e58fceb0f936cfc8dd34ac1d876cde895f5d0103ffed52572",
+      "identical": true
+    },
+    "formula-checks.json": {
+      "original": "daddc3eceaca10568b16750928ba5a9e6aeee0d380e1af10b7cd6ccd927827ea",
+      "relocated": "daddc3eceaca10568b16750928ba5a9e6aeee0d380e1af10b7cd6ccd927827ea",
+      "identical": true
+    },
+    "latest-official-metrics.json": {
+      "original": "6cac7ec75667688143d3488b12245604e9e0d05ed73abc8c41c2c0ee2dc934fe",
+      "relocated": "6cac7ec75667688143d3488b12245604e9e0d05ed73abc8c41c2c0ee2dc934fe",
+      "identical": true
+    },
+    "results.md": {
+      "original": "0bfa6cf2c616a9ca5db05bd31fea6ed64c055fb96d319ec0f78761bb027e8790",
+      "relocated": "0bfa6cf2c616a9ca5db05bd31fea6ed64c055fb96d319ec0f78761bb027e8790",
+      "identical": true
+    }
+  },
+  "execution": [
+    {
+      "script": "analyze_strength.py",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "script": "rank_sensitivity.py",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "script": "verify_existing_formula.py",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "script": "compute_latest_metrics.py",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "script": "write_report.py",
+      "returncode": 0,
+      "stderr": ""
+    }
+  ],
+  "temporary_fixture_removed": true
+}

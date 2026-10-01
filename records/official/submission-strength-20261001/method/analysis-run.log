@@ -1,0 +1,357 @@
+{
+  "submissions": {
+    "3": {
+      "n": 6,
+      "w": 5,
+      "l": 1,
+      "rate": 0.8333333333333334,
+      "opponent_mean_rank": 49.166666666666664,
+      "mean_opp_q": 0.42391304347826086,
+      "mean_opp_latest_loo_q": 0.427536231884058,
+      "coverage": 6,
+      "top12": {
+        "n": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "points": 0,
+        "point_rate": null,
+        "win_rate": null,
+        "win_rate_wilson95_descriptive": null,
+        "distinct_opponents": 0
+      }
+    },
+    "4": {
+      "n": 13,
+      "w": 9,
+      "l": 4,
+      "rate": 0.6923076923076923,
+      "opponent_mean_rank": 32.53846153846154,
+      "mean_opp_q": 0.5500278706800446,
+      "mean_opp_latest_loo_q": 0.548355629877369,
+      "coverage": 13,
+      "top12": {
+        "n": 4,
+        "wins": 2,
+        "draws": 0,
+        "losses": 2,
+        "points": 2,
+        "point_rate": 0.5,
+        "win_rate": 0.5,
+        "win_rate_wilson95_descriptive": [
+          0.15003898915214947,
+          0.8499610108478506
+        ],
+        "distinct_opponents": 4
+      }
+    },
+    "5": {
+      "n": 16,
+      "w": 8,
+      "l": 8,
+      "rate": 0.5,
+      "opponent_mean_rank": 37.125,
+      "mean_opp_q": 0.5339673913043478,
+      "mean_opp_latest_loo_q": 0.5300045289855072,
+      "coverage": 16,
+      "top12": {
+        "n": 5,
+        "wins": 1,
+        "draws": 0,
+        "losses": 4,
+        "points": 1,
+        "point_rate": 0.2,
+        "win_rate": 0.2,
+        "win_rate_wilson95_descriptive": [
+          0.03622410863243014,
+          0.6244653702374747
+        ],
+        "distinct_opponents": 5
+      }
+    },
+    "7": {
+      "n": 24,
+      "w": 11,
+      "l": 13,
+      "rate": 0.4583333333333333,
+      "opponent_mean_rank": 42.375,
+      "mean_opp_q": 0.5158514492753623,
+      "mean_opp_latest_loo_q": 0.5138888888888888,
+      "coverage": 24,
+      "top12": {
+        "n": 3,
+        "wins": 1,
+        "draws": 0,
+        "losses": 2,
+        "points": 1,
+        "point_rate": 0.3333333333333333,
+        "win_rate": 0.3333333333333333,
+        "win_rate_wilson95_descriptive": [
+          0.06149194472039621,
+          0.7923403991979522
+        ],
+        "distinct_opponents": 3
+      }
+    },
+    "8": {
+      "n": 24,
+      "w": 13,
+      "l": 11,
+      "rate": 0.5416666666666666,
+      "opponent_mean_rank": 42.75,
+      "mean_opp_q": 0.501887077294686,
+      "mean_opp_latest_loo_q": 0.5037055335968379,
+      "coverage": 24,
+      "top12": {
+        "n": 2,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "points": 0,
+        "point_rate": 0.0,
+        "win_rate": 0.0,
+        "win_rate_wilson95_descriptive": [
+          0,
+          0.6576197724933469
+        ],
+        "distinct_opponents": 2
+      }
+    },
+    "9": {
+      "n": 24,
+      "w": 12,
+      "l": 12,
+      "rate": 0.5,
+      "opponent_mean_rank": 56.458333333333336,
+      "mean_opp_q": 0.46391908212560384,
+      "mean_opp_latest_loo_q": 0.46369263285024154,
+      "coverage": 24,
+      "top12": {
+        "n": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "points": 0,
+        "point_rate": null,
+        "win_rate": null,
+        "win_rate_wilson95_descriptive": null,
+        "distinct_opponents": 0
+      }
+    },
+    "11": {
+      "n": 24,
+      "w": 12,
+      "l": 12,
+      "rate": 0.5,
+      "opponent_mean_rank": 51.958333333333336,
+      "mean_opp_q": 0.45003019323671495,
+      "mean_opp_latest_loo_q": 0.4479578392621871,
+      "coverage": 24,
+      "top12": {
+        "n": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "points": 0,
+        "point_rate": 0.0,
+        "win_rate": 0.0,
+        "win_rate_wilson95_descriptive": [
+          0,
+          0.7934506856227626
+        ],
+        "distinct_opponents": 1
+      }
+    }
+  },
+  "group8+11": {
+    "n": 48,
+    "wins": 25,
+    "draws": 0,
+    "losses": 23,
+    "points": 25,
+    "point_rate": 0.5208333333333334,
+    "win_rate": 0.5208333333333334,
+    "win_rate_wilson95_descriptive": [
+      0.3832923230334281,
+      0.6552868382304838
+    ],
+    "distinct_opponents": 37,
+    "reference": "latest",
+    "reference_coverage": 48,
+    "reference_missing": [],
+    "opponent_rank": {
+      "n": 48,
+      "mean": 47.354166666666664,
+      "median": 47.5,
+      "min": 6,
+      "max": 87
+    },
+    "opponent_point_rate": {
+      "n": 48,
+      "mean": 0.4759586352657005,
+      "median": 0.5
+    },
+    "opponents_with_any_current_round_errors": 1,
+    "match_specific_forfeits": "partial root-confirmed details; unknown matches are not asserted error-free",
+    "confirmed_opponent_forfeit_wins": 1,
+    "individual_forfeit_status_unknown": 23,
+    "confirmed_normal_only": {
+      "n": 24,
+      "wins": 11,
+      "draws": 0,
+      "losses": 13,
+      "points": 11,
+      "point_rate": 0.4583333333333333,
+      "win_rate": 0.4583333333333333,
+      "win_rate_wilson95_descriptive": [
+        0.2789133373121099,
+        0.6492513464108051
+      ],
+      "distinct_opponents": 24
+    },
+    "excluding_confirmed_opponent_forfeit_wins": {
+      "n": 47,
+      "wins": 24,
+      "draws": 0,
+      "losses": 23,
+      "points": 24,
+      "point_rate": 0.5106382978723404,
+      "win_rate": 0.5106382978723404,
+      "win_rate_wilson95_descriptive": [
+        0.3724245374822684,
+        0.6472444496631784
+      ],
+      "distinct_opponents": 36
+    },
+    "opponent_point_rate_latest_loo": {
+      "n": 48,
+      "mean": 0.4758316864295125,
+      "median": 0.5,
+      "actually_adjusted_rows": 33
+    },
+    "rank_buckets": {
+      "top25_rank": {
+        "n": 6,
+        "wins": 1,
+        "draws": 0,
+        "losses": 5,
+        "points": 1,
+        "point_rate": 0.16666666666666666,
+        "win_rate": 0.16666666666666666,
+        "win_rate_wilson95_descriptive": [
+          0.030053369748306635,
+          0.5635028221864702
+        ],
+        "distinct_opponents": 6
+      },
+      "middle50_rank": {
+        "n": 29,
+        "wins": 14,
+        "draws": 0,
+        "losses": 15,
+        "points": 14,
+        "point_rate": 0.4827586206896552,
+        "win_rate": 0.4827586206896552,
+        "win_rate_wilson95_descriptive": [
+          0.3138609015268349,
+          0.6556897811800528
+        ],
+        "distinct_opponents": 22
+      },
+      "bottom25_rank": {
+        "n": 13,
+        "wins": 10,
+        "draws": 0,
+        "losses": 3,
+        "points": 10,
+        "point_rate": 0.7692307692307693,
+        "win_rate": 0.7692307692307693,
+        "win_rate_wilson95_descriptive": [
+          0.49743624053272495,
+          0.9182047128150143
+        ],
+        "distinct_opponents": 9
+      }
+    },
+    "top12": {
+      "n": 3,
+      "wins": 0,
+      "draws": 0,
+      "losses": 3,
+      "points": 0,
+      "point_rate": 0.0,
+      "win_rate": 0.0,
+      "win_rate_wilson95_descriptive": [
+        5.551115123125783e-17,
+        0.5614970317550454
+      ],
+      "distinct_opponents": 3
+    },
+    "point_rate_buckets": {
+      "above_q75": {
+        "n": 4,
+        "wins": 1,
+        "draws": 0,
+        "losses": 3,
+        "points": 1,
+        "point_rate": 0.25,
+        "win_rate": 0.25,
+        "win_rate_wilson95_descriptive": [
+          0.04558726080970055,
+          0.6993581574175981
+        ],
+        "distinct_opponents": 4
+      },
+      "q25_to_q75_inclusive": {
+        "n": 39,
+        "wins": 19,
+        "draws": 0,
+        "losses": 20,
+        "points": 19,
+        "point_rate": 0.48717948717948717,
+        "win_rate": 0.48717948717948717,
+        "win_rate_wilson95_descriptive": [
+          0.33865175329862,
+          0.6380063711554202
+        ],
+        "distinct_opponents": 29
+      },
+      "below_q25": {
+        "n": 5,
+        "wins": 5,
+        "draws": 0,
+        "losses": 0,
+        "points": 5,
+        "point_rate": 1.0,
+        "win_rate": 1.0,
+        "win_rate_wilson95_descriptive": [
+          0.5655175352168251,
+          1
+        ],
+        "distinct_opponents": 4
+      }
+    },
+    "error_free_opponent_team_sensitivity": {
+      "n": 47,
+      "wins": 24,
+      "draws": 0,
+      "losses": 23,
+      "points": 24,
+      "point_rate": 0.5106382978723404,
+      "win_rate": 0.5106382978723404,
+      "win_rate_wilson95_descriptive": [
+        0.3724245374822684,
+        0.6472444496631784
+      ],
+      "distinct_opponents": 36
+    },
+    "unique_opponent_weighted": {
+      "n": 37,
+      "mean_rank": 46.21621621621622,
+      "mean_point_rate": 0.4811496278887583,
+      "mean_latest_loo_point_rate": 0.47980539828365915
+    }
+  },
+  "q25": 0.4583333333333333,
+  "q75": 0.5416666666666666
+}

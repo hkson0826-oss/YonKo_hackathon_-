@@ -1,0 +1,33 @@
+{
+  "python": "3.14.7 (main, Aug 10 2026, 07:46:56) [GCC 16.1.1 20260728]",
+  "executable": "/usr/bin/python",
+  "packages": {
+    "numpy": {
+      "module_found": false
+    },
+    "scipy": {
+      "module_found": false
+    },
+    "pandas": {
+      "module_found": false
+    },
+    "statsmodels": {
+      "module_found": false
+    },
+    "sklearn": {
+      "module_found": false
+    },
+    "pymc": {
+      "module_found": false
+    },
+    "arviz": {
+      "module_found": false
+    },
+    "matplotlib": {
+      "module_found": false
+    },
+    "networkx": {
+      "module_found": false
+    }
+  }
+}

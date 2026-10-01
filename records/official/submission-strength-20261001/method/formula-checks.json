@@ -1,0 +1,208 @@
+{
+  "status": "complete_existing_evidence_only_no_new_submission_ranking",
+  "old_adjusted_metric": [
+    {
+      "published_kst": "2026-09-27 22:00",
+      "wins": 4,
+      "draws": 0,
+      "losses": 1,
+      "games": 5,
+      "reproduced_raw_point_rate": 0.8,
+      "displayed_adjusted_percent": 61.0,
+      "raw_percent_minus_adjusted_percent": 19.0,
+      "exact_adjusted_formula_disclosed": false
+    },
+    {
+      "published_kst": "2026-09-28 10:00",
+      "wins": 9,
+      "draws": 0,
+      "losses": 4,
+      "games": 13,
+      "reproduced_raw_point_rate": 0.6923076923076923,
+      "displayed_adjusted_percent": 66.2,
+      "raw_percent_minus_adjusted_percent": 3.0307692307692236,
+      "exact_adjusted_formula_disclosed": false
+    }
+  ],
+  "latest_recorded_publication": "2026-10-01T00:09:00+09:00",
+  "latest_checked_at": "2026-10-01T02:51:00+09:00",
+  "latest_snapshot_total_teams": 87,
+  "latest_preserved_rows": 23,
+  "point_rate_checks": [
+    {
+      "team": "tAIger",
+      "games": 12,
+      "reproduced": 0.9166666666666666,
+      "recorded": 0.9166666666666666,
+      "match": true
+    },
+    {
+      "team": "야구사랑했단",
+      "games": 12,
+      "reproduced": 0.75,
+      "recorded": 0.75,
+      "match": true
+    },
+    {
+      "team": "붉은 산호초",
+      "games": 12,
+      "reproduced": 0.75,
+      "recorded": 0.75,
+      "match": true
+    },
+    {
+      "team": "파스텔",
+      "games": 12,
+      "reproduced": 0.75,
+      "recorded": 0.75,
+      "match": true
+    },
+    {
+      "team": "신촌을못가",
+      "games": 12,
+      "reproduced": 0.75,
+      "recorded": 0.75,
+      "match": true
+    },
+    {
+      "team": "치명ㄷ",
+      "games": 12,
+      "reproduced": 0.75,
+      "recorded": 0.75,
+      "match": true
+    },
+    {
+      "team": "AIKU",
+      "games": 12,
+      "reproduced": 0.6666666666666666,
+      "recorded": 0.6666666666666666,
+      "match": true
+    },
+    {
+      "team": "ACE",
+      "games": 12,
+      "reproduced": 0.6666666666666666,
+      "recorded": 0.6666666666666666,
+      "match": true
+    },
+    {
+      "team": "페이커",
+      "games": 12,
+      "reproduced": 0.6666666666666666,
+      "recorded": 0.6666666666666666,
+      "match": true
+    },
+    {
+      "team": "모든상금은제세공과금공제후지급됩니다",
+      "games": 12,
+      "reproduced": 0.6666666666666666,
+      "recorded": 0.6666666666666666,
+      "match": true
+    },
+    {
+      "team": "참새튀김기",
+      "games": 12,
+      "reproduced": 0.6666666666666666,
+      "recorded": 0.6666666666666666,
+      "match": true
+    },
+    {
+      "team": "교수명:Claude",
+      "games": 12,
+      "reproduced": 0.6666666666666666,
+      "recorded": 0.6666666666666666,
+      "match": true
+    },
+    {
+      "team": "강릉",
+      "games": 12,
+      "reproduced": 0.5833333333333334,
+      "recorded": 0.5833333333333334,
+      "match": true
+    },
+    {
+      "team": "신촌도 우리땅",
+      "games": 11,
+      "reproduced": 0.5454545454545454,
+      "recorded": 0.5454545454545454,
+      "match": true
+    },
+    {
+      "team": "올림픽 정신",
+      "games": 12,
+      "reproduced": 0.5,
+      "recorded": 0.5,
+      "match": true
+    },
+    {
+      "team": "니땅내땅",
+      "games": 12,
+      "reproduced": 0.5,
+      "recorded": 0.5,
+      "match": true
+    },
+    {
+      "team": "연세찜닭",
+      "games": 12,
+      "reproduced": 0.5,
+      "recorded": 0.5,
+      "match": true
+    },
+    {
+      "team": "저희 집 GPU가 추위를 타요",
+      "games": 12,
+      "reproduced": 0.4166666666666667,
+      "recorded": 0.4166666666666667,
+      "match": true
+    },
+    {
+      "team": "정진규컴퓨터시스템D504",
+      "games": 12,
+      "reproduced": 0.4166666666666667,
+      "recorded": 0.4166666666666667,
+      "match": true
+    },
+    {
+      "team": "뚜띠태하소불고기와멸치두명",
+      "games": 12,
+      "reproduced": 0.4166666666666667,
+      "recorded": 0.4166666666666667,
+      "match": true
+    },
+    {
+      "team": "hyper",
+      "games": 11,
+      "reproduced": 0.36363636363636365,
+      "recorded": 0.36363636363636365,
+      "match": true
+    },
+    {
+      "team": "고대26김준우사랑단",
+      "games": 12,
+      "reproduced": 0.3333333333333333,
+      "recorded": 0.3333333333333333,
+      "match": true
+    },
+    {
+      "team": "조니 해커 블루",
+      "games": 11,
+      "reproduced": 0.18181818181818182,
+      "recorded": 0.18181818181818182,
+      "match": true
+    }
+  ],
+  "conclusions": [
+    "All retained point rates reproduce from W/D/L.",
+    "No exact old adjusted-score implementation or reproduction is present in the examined official records.",
+    "The historical opponent-weighted tiebreak formula is not identified as the old adjusted-score formula.",
+    "Latest stored leaderboard is a partial retained snapshot; it cannot represent all teams."
+  ],
+  "source_sha256": {
+    "records/official/round1/site-observations.json": "f955752d30d3efb390181b39bf9f43309673a45b7ad9e74389ffd8d90c02edac",
+    "records/official/round2/site-observations.json": "7ea4d29f256024a2b33e43a5053d309fb30ebada100f72a143e29eb74cdb0bb2",
+    "records/official/opponent-intel-20260928/collection-followup.json": "a4e842a50413dff5db066d482b845b8364449d67543f77364293c8466606242c",
+    "records/official/latest-20261001/leaderboard.json": "d364aef818c815f23462672c66d8a77b91ca201a1f872d84325b9e986dc96962",
+    "records/research/new-bot-20261001/site-review.json": "968dbfdc972098ee43af0aa015d54455aad47416b8232455c7ae25215f64cbf2",
+    "docs/10-사이트운영과보정점수.md": "b0865b9f52094e4646171e85fce90e72254bfd2c72787f28750dbf3375352540"
+  }
+}

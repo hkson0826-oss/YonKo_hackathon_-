@@ -1,0 +1,89 @@
+{
+  "round": "10월 1일 17:00",
+  "submission": 11,
+  "point_rate": 0.5,
+  "win_rate": 0.5,
+  "opponent_weighted_tiebreak_numerator": 4.592391304347826,
+  "games": 24,
+  "opponent_weighted_tiebreak": 0.19134963768115942,
+  "winning_drawn_opponent_contributions": [
+    {
+      "opponent": "신촌깃발도적단",
+      "outcome_points": 1,
+      "opponent_point_rate": 0.4782608695652174,
+      "weighted_contribution": 0.4782608695652174
+    },
+    {
+      "opponent": "장진하",
+      "outcome_points": 1,
+      "opponent_point_rate": 0.5,
+      "weighted_contribution": 0.5
+    },
+    {
+      "opponent": "욘욘펀치",
+      "outcome_points": 1,
+      "opponent_point_rate": 0.21739130434782608,
+      "weighted_contribution": 0.21739130434782608
+    },
+    {
+      "opponent": "박박이",
+      "outcome_points": 1,
+      "opponent_point_rate": 0.5,
+      "weighted_contribution": 0.5
+    },
+    {
+      "opponent": "AI고",
+      "outcome_points": 1,
+      "opponent_point_rate": 0.5,
+      "weighted_contribution": 0.5
+    },
+    {
+      "opponent": "KUTUSA",
+      "outcome_points": 1,
+      "opponent_point_rate": 0.34782608695652173,
+      "weighted_contribution": 0.34782608695652173
+    },
+    {
+      "opponent": "저희 집 GPU가 추위를 타요",
+      "outcome_points": 1,
+      "opponent_point_rate": 0.5,
+      "weighted_contribution": 0.5
+    },
+    {
+      "opponent": "Re:verse",
+      "outcome_points": 1,
+      "opponent_point_rate": 0.13043478260869565,
+      "weighted_contribution": 0.13043478260869565
+    },
+    {
+      "opponent": "요미",
+      "outcome_points": 1,
+      "opponent_point_rate": 0.4583333333333333,
+      "weighted_contribution": 0.4583333333333333
+    },
+    {
+      "opponent": "연세찜닭",
+      "outcome_points": 1,
+      "opponent_point_rate": 0.4583333333333333,
+      "weighted_contribution": 0.4583333333333333
+    },
+    {
+      "opponent": "조니 해커 블루",
+      "outcome_points": 1,
+      "opponent_point_rate": 0.043478260869565216,
+      "weighted_contribution": 0.043478260869565216
+    },
+    {
+      "opponent": "올림픽 정신",
+      "outcome_points": 1,
+      "opponent_point_rate": 0.4583333333333333,
+      "weighted_contribution": 0.4583333333333333
+    }
+  ],
+  "scope": "Arithmetic from latest help and full own24/leaderboard87; no displayed third-tiebreak value or all-team fixtures to independently verify rank55. This is not the historical adjusted score.",
+  "source_sha256": {
+    "matches.json": "2eee380566ca7121f0318a44d7dfadb5b21a048ce467f3c0afb5ff81a42fe704",
+    "leaderboard-latest.json": "6c077ef823dbea2d69edd7fe026a7bb91b2c1c91446d860901e38c718313f376",
+    "leaderboard-help.json": "e01e8d756897ef426e492c2d717cbefb6bdb1b72af51f83e506ed0c0c9d4ee67"
+  }
+}
