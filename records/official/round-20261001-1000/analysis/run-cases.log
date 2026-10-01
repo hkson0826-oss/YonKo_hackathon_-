@@ -1,0 +1,53 @@
+{
+  "termination_classification": {
+    "before140_instant_losses": [
+      "학부기",
+      "요미",
+      "올림픽 정신",
+      "박박이"
+    ],
+    "late_instant_losses": [
+      "뚜띠태하소불고기와멸치두명",
+      "집가고싶다",
+      "파전",
+      "태호랑이",
+      "연크크"
+    ],
+    "final_score_losses": [
+      "占쏙옙",
+      "2325",
+      "Yaar"
+    ],
+    "scope": "Exhaustive termination categories. These are not exclusive causal mechanisms; late termination alone is not proof of a newly appearing late-game defect."
+  },
+  "outcome_strata": {
+    "loss": {
+      "games": 12,
+      "F_produced": 255,
+      "F_dead": 195,
+      "W_produced": 7302,
+      "enemy_W_produced_inferred": 8475,
+      "W_production_advantage_games": 1,
+      "positive_stationary_F_loss_probe_turns": 54
+    },
+    "ordinary_win": {
+      "games": 10,
+      "F_produced": 104,
+      "F_dead": 45,
+      "W_produced": 6051,
+      "enemy_W_produced_inferred": 4415,
+      "W_production_advantage_games": 9,
+      "positive_stationary_F_loss_probe_turns": 14
+    },
+    "forfeit_win": {
+      "games": 2,
+      "F_produced": 15,
+      "F_dead": 1,
+      "W_produced": 153,
+      "enemy_W_produced_inferred": 173,
+      "W_production_advantage_games": 0,
+      "positive_stationary_F_loss_probe_turns": 0
+    },
+    "scope": "Descriptive totals across unequal opponents, maps and game durations; not matched treatment effects or normalized unit-loss rates."
+  }
+}

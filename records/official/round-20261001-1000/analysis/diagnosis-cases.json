@@ -1,0 +1,7023 @@
+{
+  "matches": [
+    {
+      "gameId": "rolling-game-1dc094cbffe48eaa739051fba709c0540d274c38d7ad86681e978aa3556dba18",
+      "opponent": "뚜띠태하소불고기와멸치두명",
+      "result": "loss",
+      "reason": "instant",
+      "turn_count": 160,
+      "first_at_least10_observations_of_guaranteed_score_deficit": 23,
+      "last_observation_of_guaranteed_score_lead": 114,
+      "F_production_deaths": [
+        29,
+        25
+      ],
+      "early_stationary_counterexample": {
+        "turn": 40,
+        "actual_F_casualties": 1,
+        "F_casualties_enemy_no_spawn_no_move": 1,
+        "scope": "One-turn legal stationary opponent response from actual previous observation; no opponent-order recovery or whole-game result claim. Unknown building scores placeholder0 in SDK state do not enter spawn/move/combat counts."
+      },
+      "stationary_positive_turns": 6,
+      "had_pre120_ten_observation_deficit": true
+    },
+    {
+      "gameId": "rolling-game-2ba97520b4d73261b666daeee9669c08b4c07112536eb18acc0abfe50e4a9b82",
+      "opponent": "우트와 윤트",
+      "result": "win",
+      "reason": "score",
+      "turn_count": 160,
+      "first_at_least10_observations_of_guaranteed_score_deficit": null,
+      "last_observation_of_guaranteed_score_lead": 160,
+      "F_production_deaths": [
+        11,
+        5
+      ],
+      "early_stationary_counterexample": {
+        "turn": 34,
+        "actual_F_casualties": 1,
+        "F_casualties_enemy_no_spawn_no_move": 1,
+        "scope": "One-turn legal stationary opponent response from actual previous observation; no opponent-order recovery or whole-game result claim. Unknown building scores placeholder0 in SDK state do not enter spawn/move/combat counts."
+      },
+      "stationary_positive_turns": 1,
+      "had_pre120_ten_observation_deficit": false
+    },
+    {
+      "gameId": "rolling-game-3121389769080bb6d6fd232195165c5036e1025da736713fef3506d0aa5b107a",
+      "opponent": "집가고싶다",
+      "result": "loss",
+      "reason": "instant",
+      "turn_count": 145,
+      "first_at_least10_observations_of_guaranteed_score_deficit": 47,
+      "last_observation_of_guaranteed_score_lead": 45,
+      "F_production_deaths": [
+        13,
+        8
+      ],
+      "early_stationary_counterexample": {
+        "turn": 140,
+        "actual_F_casualties": 2,
+        "F_casualties_enemy_no_spawn_no_move": 1,
+        "scope": "One-turn legal stationary opponent response from actual previous observation; no opponent-order recovery or whole-game result claim. Unknown building scores placeholder0 in SDK state do not enter spawn/move/combat counts."
+      },
+      "stationary_positive_turns": 3,
+      "had_pre120_ten_observation_deficit": true
+    },
+    {
+      "gameId": "rolling-game-3349286232eaf367b4100ae55f4cc6fc1a85b4aae2b2af59c2705465374cda60",
+      "opponent": "학부기",
+      "result": "loss",
+      "reason": "instant",
+      "turn_count": 102,
+      "first_at_least10_observations_of_guaranteed_score_deficit": 60,
+      "last_observation_of_guaranteed_score_lead": 59,
+      "F_production_deaths": [
+        17,
+        10
+      ],
+      "early_stationary_counterexample": {
+        "turn": 54,
+        "actual_F_casualties": 2,
+        "F_casualties_enemy_no_spawn_no_move": 2,
+        "scope": "One-turn legal stationary opponent response from actual previous observation; no opponent-order recovery or whole-game result claim. Unknown building scores placeholder0 in SDK state do not enter spawn/move/combat counts."
+      },
+      "stationary_positive_turns": 1,
+      "had_pre120_ten_observation_deficit": false
+    },
+    {
+      "gameId": "rolling-game-3fc3bdb4da80554b1115a5f4a3a47a28e80280e8424d1b28d4eabcf2f75cecad",
+      "opponent": "언더우드의목마",
+      "result": "win",
+      "reason": "score",
+      "turn_count": 160,
+      "first_at_least10_observations_of_guaranteed_score_deficit": null,
+      "last_observation_of_guaranteed_score_lead": 160,
+      "F_production_deaths": [
+        11,
+        5
+      ],
+      "early_stationary_counterexample": {
+        "turn": 34,
+        "actual_F_casualties": 1,
+        "F_casualties_enemy_no_spawn_no_move": 1,
+        "scope": "One-turn legal stationary opponent response from actual previous observation; no opponent-order recovery or whole-game result claim. Unknown building scores placeholder0 in SDK state do not enter spawn/move/combat counts."
+      },
+      "stationary_positive_turns": 1,
+      "had_pre120_ten_observation_deficit": false
+    },
+    {
+      "gameId": "rolling-game-4d11bbabf02419ab956db2f20df6709ea27c41c42049c13ca20a9ae2f128bd3d",
+      "opponent": "占쏙옙",
+      "result": "loss",
+      "reason": "score",
+      "turn_count": 160,
+      "first_at_least10_observations_of_guaranteed_score_deficit": null,
+      "last_observation_of_guaranteed_score_lead": 153,
+      "F_production_deaths": [
+        13,
+        9
+      ],
+      "early_stationary_counterexample": {
+        "turn": 159,
+        "actual_F_casualties": 1,
+        "F_casualties_enemy_no_spawn_no_move": 1,
+        "scope": "One-turn legal stationary opponent response from actual previous observation; no opponent-order recovery or whole-game result claim. Unknown building scores placeholder0 in SDK state do not enter spawn/move/combat counts."
+      },
+      "stationary_positive_turns": 1,
+      "had_pre120_ten_observation_deficit": false
+    },
+    {
+      "gameId": "rolling-game-4e0d236cbbab4db9f3de2c0f26044267024d5248fdaa1163bd1c3de9094346a5",
+      "opponent": "요미",
+      "result": "loss",
+      "reason": "instant",
+      "turn_count": 116,
+      "first_at_least10_observations_of_guaranteed_score_deficit": 27,
+      "last_observation_of_guaranteed_score_lead": 26,
+      "F_production_deaths": [
+        19,
+        12
+      ],
+      "early_stationary_counterexample": null,
+      "stationary_positive_turns": 0,
+      "had_pre120_ten_observation_deficit": false
+    },
+    {
+      "gameId": "rolling-game-55fe0abc6c904edd5ee4bac94796025122a6144a28f20a54b301baa09f2e2bc7",
+      "opponent": "2325",
+      "result": "loss",
+      "reason": "score",
+      "turn_count": 160,
+      "first_at_least10_observations_of_guaranteed_score_deficit": 18,
+      "last_observation_of_guaranteed_score_lead": 93,
+      "F_production_deaths": [
+        28,
+        27
+      ],
+      "early_stationary_counterexample": {
+        "turn": 16,
+        "actual_F_casualties": 1,
+        "F_casualties_enemy_no_spawn_no_move": 1,
+        "scope": "One-turn legal stationary opponent response from actual previous observation; no opponent-order recovery or whole-game result claim. Unknown building scores placeholder0 in SDK state do not enter spawn/move/combat counts."
+      },
+      "stationary_positive_turns": 9,
+      "had_pre120_ten_observation_deficit": true
+    },
+    {
+      "gameId": "rolling-game-599a77b643000c869c64882f5b7bb735a136b12394ca04f1f28919f556a4a5dd",
+      "opponent": "파전",
+      "result": "loss",
+      "reason": "instant",
+      "turn_count": 154,
+      "first_at_least10_observations_of_guaranteed_score_deficit": 109,
+      "last_observation_of_guaranteed_score_lead": 131,
+      "F_production_deaths": [
+        31,
+        26
+      ],
+      "early_stationary_counterexample": {
+        "turn": 131,
+        "actual_F_casualties": 1,
+        "F_casualties_enemy_no_spawn_no_move": 1,
+        "scope": "One-turn legal stationary opponent response from actual previous observation; no opponent-order recovery or whole-game result claim. Unknown building scores placeholder0 in SDK state do not enter spawn/move/combat counts."
+      },
+      "stationary_positive_turns": 10,
+      "had_pre120_ten_observation_deficit": true
+    },
+    {
+      "gameId": "rolling-game-67c141094f5c250a52833c754b615d9d9d5461e611f68a0c81efd57d9780e550",
+      "opponent": "200OK",
+      "result": "win",
+      "reason": "instant",
+      "turn_count": 39,
+      "first_at_least10_observations_of_guaranteed_score_deficit": null,
+      "last_observation_of_guaranteed_score_lead": 39,
+      "F_production_deaths": [
+        7,
+        1
+      ],
+      "early_stationary_counterexample": null,
+      "stationary_positive_turns": 0,
+      "had_pre120_ten_observation_deficit": false
+    },
+    {
+      "gameId": "rolling-game-7ac6b9ec02f52581c6d9571e3a247679e3b8fcd9e97ac04374518b675ded109f",
+      "opponent": "신촌도 우리땅",
+      "result": "win",
+      "reason": "forfeit",
+      "turn_count": 24,
+      "first_at_least10_observations_of_guaranteed_score_deficit": null,
+      "last_observation_of_guaranteed_score_lead": 24,
+      "F_production_deaths": [
+        8,
+        1
+      ],
+      "early_stationary_counterexample": null,
+      "stationary_positive_turns": 0,
+      "had_pre120_ten_observation_deficit": false
+    },
+    {
+      "gameId": "rolling-game-7eeef93682801d3fb3f309c06b3932cd9d9b2007c6c88ac851dbe79e6e360557",
+      "opponent": "연세있게 코딩하조",
+      "result": "win",
+      "reason": "instant",
+      "turn_count": 134,
+      "first_at_least10_observations_of_guaranteed_score_deficit": null,
+      "last_observation_of_guaranteed_score_lead": 134,
+      "F_production_deaths": [
+        9,
+        5
+      ],
+      "early_stationary_counterexample": {
+        "turn": 99,
+        "actual_F_casualties": 1,
+        "F_casualties_enemy_no_spawn_no_move": 1,
+        "scope": "One-turn legal stationary opponent response from actual previous observation; no opponent-order recovery or whole-game result claim. Unknown building scores placeholder0 in SDK state do not enter spawn/move/combat counts."
+      },
+      "stationary_positive_turns": 1,
+      "had_pre120_ten_observation_deficit": false
+    },
+    {
+      "gameId": "rolling-game-7f305a8ab9990e5250d8dd209b4007d0d777738b47e92e011354729e1cdd4290",
+      "opponent": "태호랑이",
+      "result": "loss",
+      "reason": "instant",
+      "turn_count": 152,
+      "first_at_least10_observations_of_guaranteed_score_deficit": 41,
+      "last_observation_of_guaranteed_score_lead": 82,
+      "F_production_deaths": [
+        31,
+        27
+      ],
+      "early_stationary_counterexample": {
+        "turn": 87,
+        "actual_F_casualties": 1,
+        "F_casualties_enemy_no_spawn_no_move": 1,
+        "scope": "One-turn legal stationary opponent response from actual previous observation; no opponent-order recovery or whole-game result claim. Unknown building scores placeholder0 in SDK state do not enter spawn/move/combat counts."
+      },
+      "stationary_positive_turns": 10,
+      "had_pre120_ten_observation_deficit": true
+    },
+    {
+      "gameId": "rolling-game-93362455ec99d14bc04b74da56d699403137e92e9645d291847cd5033b4308a8",
+      "opponent": "개우진보러갈까",
+      "result": "win",
+      "reason": "forfeit",
+      "turn_count": 17,
+      "first_at_least10_observations_of_guaranteed_score_deficit": null,
+      "last_observation_of_guaranteed_score_lead": 17,
+      "F_production_deaths": [
+        7,
+        0
+      ],
+      "early_stationary_counterexample": null,
+      "stationary_positive_turns": 0,
+      "had_pre120_ten_observation_deficit": false
+    },
+    {
+      "gameId": "rolling-game-97cc965a70c970c8e29722df241d46ef65438f1a516efab0e0a17e762bf67efc",
+      "opponent": "조선김",
+      "result": "win",
+      "reason": "score",
+      "turn_count": 160,
+      "first_at_least10_observations_of_guaranteed_score_deficit": 13,
+      "last_observation_of_guaranteed_score_lead": 160,
+      "F_production_deaths": [
+        19,
+        16
+      ],
+      "early_stationary_counterexample": {
+        "turn": 54,
+        "actual_F_casualties": 1,
+        "F_casualties_enemy_no_spawn_no_move": 1,
+        "scope": "One-turn legal stationary opponent response from actual previous observation; no opponent-order recovery or whole-game result claim. Unknown building scores placeholder0 in SDK state do not enter spawn/move/combat counts."
+      },
+      "stationary_positive_turns": 5,
+      "had_pre120_ten_observation_deficit": true
+    },
+    {
+      "gameId": "rolling-game-a36443c39ce4bc9c7d6fae1497050130e0c3a69b28f9f1152920e412711d57c1",
+      "opponent": "인공저능",
+      "result": "win",
+      "reason": "score",
+      "turn_count": 160,
+      "first_at_least10_observations_of_guaranteed_score_deficit": 13,
+      "last_observation_of_guaranteed_score_lead": 160,
+      "F_production_deaths": [
+        19,
+        13
+      ],
+      "early_stationary_counterexample": {
+        "turn": 24,
+        "actual_F_casualties": 1,
+        "F_casualties_enemy_no_spawn_no_move": 1,
+        "scope": "One-turn legal stationary opponent response from actual previous observation; no opponent-order recovery or whole-game result claim. Unknown building scores placeholder0 in SDK state do not enter spawn/move/combat counts."
+      },
+      "stationary_positive_turns": 6,
+      "had_pre120_ten_observation_deficit": true
+    },
+    {
+      "gameId": "rolling-game-a734188ba1b3507f0b14641599bc9eb212bfaa6bc37591908292b38747c4d8d9",
+      "opponent": "거북이",
+      "result": "win",
+      "reason": "instant",
+      "turn_count": 113,
+      "first_at_least10_observations_of_guaranteed_score_deficit": null,
+      "last_observation_of_guaranteed_score_lead": 113,
+      "F_production_deaths": [
+        7,
+        0
+      ],
+      "early_stationary_counterexample": null,
+      "stationary_positive_turns": 0,
+      "had_pre120_ten_observation_deficit": false
+    },
+    {
+      "gameId": "rolling-game-a81e82aaf23d296e8afa0ae5845b12fcd40245724f80991d1b2b0262744bffaf",
+      "opponent": "뉴비입니다",
+      "result": "win",
+      "reason": "instant",
+      "turn_count": 33,
+      "first_at_least10_observations_of_guaranteed_score_deficit": null,
+      "last_observation_of_guaranteed_score_lead": 33,
+      "F_production_deaths": [
+        7,
+        0
+      ],
+      "early_stationary_counterexample": null,
+      "stationary_positive_turns": 0,
+      "had_pre120_ten_observation_deficit": false
+    },
+    {
+      "gameId": "rolling-game-b24dd2c52849c0482d1594b89fe2c9f2e8931d777896bbbcf51b2a3c6d626803",
+      "opponent": "연세찜닭",
+      "result": "win",
+      "reason": "instant",
+      "turn_count": 55,
+      "first_at_least10_observations_of_guaranteed_score_deficit": null,
+      "last_observation_of_guaranteed_score_lead": 55,
+      "F_production_deaths": [
+        7,
+        0
+      ],
+      "early_stationary_counterexample": null,
+      "stationary_positive_turns": 0,
+      "had_pre120_ten_observation_deficit": false
+    },
+    {
+      "gameId": "rolling-game-c25aca8592a15499b4cbc9d5aa348e97edecbd6cdb2eb7b311141eec6f7e8623",
+      "opponent": "연크크",
+      "result": "loss",
+      "reason": "instant",
+      "turn_count": 153,
+      "first_at_least10_observations_of_guaranteed_score_deficit": 42,
+      "last_observation_of_guaranteed_score_lead": 41,
+      "F_production_deaths": [
+        20,
+        16
+      ],
+      "early_stationary_counterexample": {
+        "turn": 35,
+        "actual_F_casualties": 1,
+        "F_casualties_enemy_no_spawn_no_move": 1,
+        "scope": "One-turn legal stationary opponent response from actual previous observation; no opponent-order recovery or whole-game result claim. Unknown building scores placeholder0 in SDK state do not enter spawn/move/combat counts."
+      },
+      "stationary_positive_turns": 5,
+      "had_pre120_ten_observation_deficit": true
+    },
+    {
+      "gameId": "rolling-game-c76a06645ae50416ebba19cbf4ea2306626cdc6958f9ed2f57a5d7c0bb32ced4",
+      "opponent": "공주",
+      "result": "win",
+      "reason": "instant",
+      "turn_count": 51,
+      "first_at_least10_observations_of_guaranteed_score_deficit": null,
+      "last_observation_of_guaranteed_score_lead": 51,
+      "F_production_deaths": [
+        7,
+        0
+      ],
+      "early_stationary_counterexample": null,
+      "stationary_positive_turns": 0,
+      "had_pre120_ten_observation_deficit": false
+    },
+    {
+      "gameId": "rolling-game-eff2465db42cc2c2eef6da120b6bb0979e1d92190941ff01c0bd931a6beba90d",
+      "opponent": "Yaar",
+      "result": "loss",
+      "reason": "score",
+      "turn_count": 160,
+      "first_at_least10_observations_of_guaranteed_score_deficit": 27,
+      "last_observation_of_guaranteed_score_lead": 117,
+      "F_production_deaths": [
+        31,
+        26
+      ],
+      "early_stationary_counterexample": {
+        "turn": 58,
+        "actual_F_casualties": 1,
+        "F_casualties_enemy_no_spawn_no_move": 2,
+        "scope": "One-turn legal stationary opponent response from actual previous observation; no opponent-order recovery or whole-game result claim. Unknown building scores placeholder0 in SDK state do not enter spawn/move/combat counts."
+      },
+      "stationary_positive_turns": 7,
+      "had_pre120_ten_observation_deficit": true
+    },
+    {
+      "gameId": "rolling-game-f7f24e2549d11837a6bf372e8694f3ae58e8a2c79fc89f8e6bed038d9c322df0",
+      "opponent": "올림픽 정신",
+      "result": "loss",
+      "reason": "instant",
+      "turn_count": 103,
+      "first_at_least10_observations_of_guaranteed_score_deficit": 27,
+      "last_observation_of_guaranteed_score_lead": 45,
+      "F_production_deaths": [
+        15,
+        8
+      ],
+      "early_stationary_counterexample": {
+        "turn": 55,
+        "actual_F_casualties": 1,
+        "F_casualties_enemy_no_spawn_no_move": 1,
+        "scope": "One-turn legal stationary opponent response from actual previous observation; no opponent-order recovery or whole-game result claim. Unknown building scores placeholder0 in SDK state do not enter spawn/move/combat counts."
+      },
+      "stationary_positive_turns": 2,
+      "had_pre120_ten_observation_deficit": false
+    },
+    {
+      "gameId": "rolling-game-fd86a6c092d1fc50f9a07fe53dc51a22e2445e934d45f58202192d30c675b2ad",
+      "opponent": "박박이",
+      "result": "loss",
+      "reason": "instant",
+      "turn_count": 43,
+      "first_at_least10_observations_of_guaranteed_score_deficit": 14,
+      "last_observation_of_guaranteed_score_lead": 11,
+      "F_production_deaths": [
+        8,
+        1
+      ],
+      "early_stationary_counterexample": null,
+      "stationary_positive_turns": 0,
+      "had_pre120_ten_observation_deficit": false
+    }
+  ],
+  "termination_classification": {
+    "before140_instant_losses": [
+      "학부기",
+      "요미",
+      "올림픽 정신",
+      "박박이"
+    ],
+    "late_instant_losses": [
+      "뚜띠태하소불고기와멸치두명",
+      "집가고싶다",
+      "파전",
+      "태호랑이",
+      "연크크"
+    ],
+    "final_score_losses": [
+      "占쏙옙",
+      "2325",
+      "Yaar"
+    ],
+    "scope": "Exhaustive termination categories. These are not exclusive causal mechanisms; late termination alone is not proof of a newly appearing late-game defect."
+  },
+  "outcome_strata": {
+    "loss": {
+      "games": 12,
+      "F_produced": 255,
+      "F_dead": 195,
+      "W_produced": 7302,
+      "enemy_W_produced_inferred": 8475,
+      "W_production_advantage_games": 1,
+      "positive_stationary_F_loss_probe_turns": 54
+    },
+    "ordinary_win": {
+      "games": 10,
+      "F_produced": 104,
+      "F_dead": 45,
+      "W_produced": 6051,
+      "enemy_W_produced_inferred": 4415,
+      "W_production_advantage_games": 9,
+      "positive_stationary_F_loss_probe_turns": 14
+    },
+    "forfeit_win": {
+      "games": 2,
+      "F_produced": 15,
+      "F_dead": 1,
+      "W_produced": 153,
+      "enemy_W_produced_inferred": 173,
+      "W_production_advantage_games": 0,
+      "positive_stationary_F_loss_probe_turns": 0
+    },
+    "scope": "Descriptive totals across unequal opponents, maps and game durations; not matched treatment effects or normalized unit-loss rates."
+  },
+  "opening_geometry": {
+    "evidence": {
+      "gameId": "rolling-game-fd86a6c092d1fc50f9a07fe53dc51a22e2445e934d45f58202192d30c675b2ad",
+      "source": "/tmp/yk-new-bot-20261001/records/official/round-20261001-1000/raw/rolling-game-fd86a6c092d1fc50f9a07fe53dc51a22e2445e934d45f58202192d30c675b2ad.json",
+      "source_relative_to_archive": "../raw/rolling-game-fd86a6c092d1fc50f9a07fe53dc51a22e2445e934d45f58202192d30c675b2ad.json",
+      "source_sha256": "f7bc164d13bca6f4b3cee8bd8503332a28e06069f449e937abd2726a1c6d5cc3",
+      "command_turn": 3,
+      "legal_input_observation_turn": 2,
+      "legal_input_observation": {
+        "buildings": [
+          {
+            "id": 0,
+            "owner": "N",
+            "stage": 0,
+            "type": "PLAZA",
+            "x": 7,
+            "y": 7
+          },
+          {
+            "id": 1,
+            "owner": "N",
+            "stage": 0,
+            "type": "HALL",
+            "x": 2,
+            "y": 12
+          },
+          {
+            "id": 2,
+            "owner": "N",
+            "stage": 0,
+            "type": "HALL",
+            "x": 12,
+            "y": 2
+          },
+          {
+            "id": 3,
+            "owner": "N",
+            "stage": 0,
+            "type": "LIBRARY",
+            "x": 4,
+            "y": 9
+          },
+          {
+            "id": 4,
+            "owner": "N",
+            "stage": 0,
+            "type": "LIBRARY",
+            "x": 10,
+            "y": 5
+          },
+          {
+            "id": 5,
+            "owner": "N",
+            "stage": 0,
+            "type": "ENG",
+            "x": 0,
+            "y": 0
+          },
+          {
+            "id": 6,
+            "owner": "N",
+            "stage": 0,
+            "type": "ENG",
+            "x": 14,
+            "y": 14
+          },
+          {
+            "id": 7,
+            "owner": "N",
+            "stage": 0,
+            "type": "HOSPITAL",
+            "x": 4,
+            "y": 11
+          },
+          {
+            "id": 8,
+            "owner": "N",
+            "stage": 0,
+            "type": "HOSPITAL",
+            "x": 10,
+            "y": 3
+          },
+          {
+            "id": 9,
+            "owner": "N",
+            "stage": 0,
+            "type": "STATION",
+            "x": 2,
+            "y": 0
+          },
+          {
+            "id": 10,
+            "owner": "N",
+            "stage": 0,
+            "type": "STATION",
+            "x": 12,
+            "y": 14
+          },
+          {
+            "id": 11,
+            "owner": "N",
+            "stage": 0,
+            "type": "STATION",
+            "x": 6,
+            "y": 10
+          },
+          {
+            "id": 12,
+            "owner": "N",
+            "stage": 0,
+            "type": "STATION",
+            "x": 8,
+            "y": 4
+          },
+          {
+            "id": 13,
+            "owner": "N",
+            "stage": 0,
+            "type": "WATCH",
+            "x": 8,
+            "y": 12
+          },
+          {
+            "id": 14,
+            "owner": "N",
+            "stage": 0,
+            "type": "WATCH",
+            "x": 6,
+            "y": 2
+          },
+          {
+            "id": 15,
+            "owner": "N",
+            "stage": 0,
+            "type": "DEPOT",
+            "x": 8,
+            "y": 6
+          },
+          {
+            "id": 16,
+            "owner": "N",
+            "stage": 0,
+            "type": "DEPOT",
+            "x": 6,
+            "y": 8
+          }
+        ],
+        "events": [],
+        "map": [
+          "B.B.....#.#....",
+          "...........#...",
+          "......B...#.B..",
+          ".....#....B....",
+          "....H..#B......",
+          "#.........B...#",
+          "#.......B..#...",
+          ".......B.......",
+          "...#..B.......#",
+          "#...B.........#",
+          "......B#..H....",
+          "....B....#.....",
+          "..B.#...B......",
+          "...#...........",
+          "....#.#.....B.B"
+        ],
+        "myResponseMs": 188,
+        "myStdoutBytes": 172,
+        "occTurns": {
+          "K": 0,
+          "Y": 0
+        },
+        "resources": {
+          "K": 10,
+          "Y": 12
+        },
+        "scores": {
+          "K": 0,
+          "Y": 0
+        },
+        "side": "Y",
+        "turn": 2,
+        "units": [
+          [
+            "Y",
+            "F",
+            4,
+            2,
+            1
+          ],
+          [
+            "Y",
+            "F",
+            4,
+            5,
+            1
+          ],
+          [
+            "Y",
+            "F",
+            4,
+            6,
+            1
+          ],
+          [
+            "Y",
+            "W",
+            4,
+            3,
+            1
+          ],
+          [
+            "K",
+            "F",
+            10,
+            9,
+            2
+          ],
+          [
+            "K",
+            "F",
+            10,
+            12,
+            2
+          ]
+        ]
+      },
+      "actual_own_commands": {
+        "lines": [
+          "SPAWN F 1",
+          "SPAWN W 1",
+          "SPAWN W 1",
+          "MOVE 4 2 F 1 R",
+          "MOVE 4 4 F 1 U",
+          "MOVE 4 5 F 1 D",
+          "MOVE 4 6 F 1 R",
+          "MOVE 4 3 W 1 U",
+          "MOVE 4 4 W 1 U",
+          "MOVE 4 4 W 1 D",
+          "PRIORITY 2 12 12 2 0 0 14 14 8 6 6 8 4 11 10 3 6 10 8 4 7 7 8 12 6 2 4 9 10 5 2 0 12 14"
+        ],
+        "status": "ok"
+      },
+      "actual_output_observation": {
+        "buildings": [
+          {
+            "id": 0,
+            "owner": "N",
+            "stage": 0,
+            "type": "PLAZA",
+            "x": 7,
+            "y": 7
+          },
+          {
+            "id": 1,
+            "owner": "N",
+            "stage": 0,
+            "type": "HALL",
+            "x": 2,
+            "y": 12
+          },
+          {
+            "id": 2,
+            "owner": "N",
+            "stage": 0,
+            "type": "HALL",
+            "x": 12,
+            "y": 2
+          },
+          {
+            "id": 3,
+            "owner": "N",
+            "stage": 0,
+            "type": "LIBRARY",
+            "x": 4,
+            "y": 9
+          },
+          {
+            "id": 4,
+            "owner": "N",
+            "stage": 0,
+            "type": "LIBRARY",
+            "x": 10,
+            "y": 5
+          },
+          {
+            "id": 5,
+            "owner": "N",
+            "stage": 0,
+            "type": "ENG",
+            "x": 0,
+            "y": 0
+          },
+          {
+            "id": 6,
+            "owner": "N",
+            "stage": 0,
+            "type": "ENG",
+            "x": 14,
+            "y": 14
+          },
+          {
+            "id": 7,
+            "owner": "N",
+            "stage": 0,
+            "type": "HOSPITAL",
+            "x": 4,
+            "y": 11
+          },
+          {
+            "id": 8,
+            "owner": "N",
+            "stage": 0,
+            "type": "HOSPITAL",
+            "x": 10,
+            "y": 3
+          },
+          {
+            "id": 9,
+            "owner": "N",
+            "stage": 0,
+            "type": "STATION",
+            "x": 2,
+            "y": 0
+          },
+          {
+            "id": 10,
+            "owner": "N",
+            "stage": 0,
+            "type": "STATION",
+            "x": 12,
+            "y": 14
+          },
+          {
+            "id": 11,
+            "owner": "N",
+            "stage": 0,
+            "type": "STATION",
+            "x": 6,
+            "y": 10
+          },
+          {
+            "id": 12,
+            "owner": "N",
+            "stage": 0,
+            "type": "STATION",
+            "x": 8,
+            "y": 4
+          },
+          {
+            "id": 13,
+            "owner": "N",
+            "stage": 0,
+            "type": "WATCH",
+            "x": 8,
+            "y": 12
+          },
+          {
+            "id": 14,
+            "owner": "N",
+            "stage": 0,
+            "type": "WATCH",
+            "x": 6,
+            "y": 2
+          },
+          {
+            "id": 15,
+            "owner": "N",
+            "stage": 0,
+            "type": "DEPOT",
+            "x": 8,
+            "y": 6
+          },
+          {
+            "id": 16,
+            "owner": "N",
+            "stage": 0,
+            "type": "DEPOT",
+            "x": 6,
+            "y": 8
+          }
+        ],
+        "events": [],
+        "map": [
+          "B.B.....#.#....",
+          "...........#...",
+          "......B...#.B..",
+          ".....#....B....",
+          "....H..#B......",
+          "#.........B...#",
+          "#.......B..#...",
+          ".......B.......",
+          "...#..B.......#",
+          "#...B.........#",
+          "......B#..H....",
+          "....B....#.....",
+          "..B.#...B......",
+          "...#...........",
+          "....#.#.....B.B"
+        ],
+        "myResponseMs": 207,
+        "myStdoutBytes": 227,
+        "occTurns": {
+          "K": 0,
+          "Y": 0
+        },
+        "resources": {
+          "K": 10,
+          "Y": 11
+        },
+        "scores": {
+          "K": 0,
+          "Y": 0
+        },
+        "side": "Y",
+        "turn": 3,
+        "units": [
+          [
+            "Y",
+            "F",
+            5,
+            2,
+            1
+          ],
+          [
+            "Y",
+            "F",
+            4,
+            3,
+            1
+          ],
+          [
+            "Y",
+            "F",
+            4,
+            6,
+            1
+          ],
+          [
+            "Y",
+            "F",
+            5,
+            6,
+            1
+          ],
+          [
+            "Y",
+            "W",
+            4,
+            2,
+            1
+          ],
+          [
+            "Y",
+            "W",
+            4,
+            3,
+            1
+          ],
+          [
+            "Y",
+            "W",
+            4,
+            5,
+            1
+          ],
+          [
+            "K",
+            "F",
+            10,
+            8,
+            1
+          ],
+          [
+            "K",
+            "F",
+            9,
+            9,
+            1
+          ],
+          [
+            "K",
+            "F",
+            10,
+            9,
+            1
+          ],
+          [
+            "K",
+            "F",
+            10,
+            11,
+            1
+          ],
+          [
+            "K",
+            "F",
+            9,
+            12,
+            1
+          ],
+          [
+            "K",
+            "F",
+            10,
+            13,
+            1
+          ]
+        ]
+      }
+    },
+    "hospital": [
+      4,
+      11
+    ],
+    "traversable_route_without_opponent_interference": [
+      [
+        4,
+        6,
+        "D",
+        [
+          4,
+          7
+        ]
+      ],
+      [
+        4,
+        7,
+        "D",
+        [
+          4,
+          8
+        ]
+      ],
+      [
+        4,
+        8,
+        "D",
+        [
+          4,
+          9
+        ]
+      ],
+      [
+        4,
+        9,
+        "D",
+        [
+          4,
+          10
+        ]
+      ],
+      [
+        4,
+        10,
+        "D",
+        [
+          4,
+          11
+        ]
+      ]
+    ],
+    "earliest_geometric_arrival_turn_from_T2": 7,
+    "actual_enemy_hospital_capture_turn": 9,
+    "actual_our_hospital_capture": null,
+    "scope": "Geometry from actual T2 public map and units only. Not an adversarial safety or alternate whole-game win proof."
+  },
+  "stationary_safety": {
+    "evidence": {
+      "gameId": "rolling-game-55fe0abc6c904edd5ee4bac94796025122a6144a28f20a54b301baa09f2e2bc7",
+      "source": "/tmp/yk-new-bot-20261001/records/official/round-20261001-1000/raw/rolling-game-55fe0abc6c904edd5ee4bac94796025122a6144a28f20a54b301baa09f2e2bc7.json",
+      "source_relative_to_archive": "../raw/rolling-game-55fe0abc6c904edd5ee4bac94796025122a6144a28f20a54b301baa09f2e2bc7.json",
+      "source_sha256": "784f8761b6a77abad0d08079e32b1621d0feca7651c1f24214a0a80646e034a2",
+      "command_turn": 16,
+      "legal_input_observation_turn": 15,
+      "legal_input_observation": {
+        "buildings": [
+          {
+            "id": 0,
+            "owner": "N",
+            "score": 3,
+            "stage": 0,
+            "type": "PLAZA",
+            "x": 7,
+            "y": 7
+          },
+          {
+            "id": 1,
+            "owner": "Y",
+            "score": 2,
+            "stage": 2,
+            "type": "HALL",
+            "x": 0,
+            "y": 12
+          },
+          {
+            "id": 2,
+            "owner": "K",
+            "stage": 2,
+            "type": "HALL",
+            "x": 14,
+            "y": 2
+          },
+          {
+            "id": 3,
+            "owner": "N",
+            "score": 2,
+            "stage": 0,
+            "type": "LIBRARY",
+            "x": 3,
+            "y": 0
+          },
+          {
+            "id": 4,
+            "owner": "N",
+            "stage": 0,
+            "type": "LIBRARY",
+            "x": 11,
+            "y": 14
+          },
+          {
+            "id": 5,
+            "owner": "Y",
+            "score": 2,
+            "stage": 2,
+            "type": "ENG",
+            "x": 0,
+            "y": 4
+          },
+          {
+            "id": 6,
+            "owner": "K",
+            "stage": 2,
+            "type": "ENG",
+            "x": 14,
+            "y": 10
+          },
+          {
+            "id": 7,
+            "owner": "Y",
+            "score": 1,
+            "stage": 2,
+            "type": "HOSPITAL",
+            "x": 1,
+            "y": 12
+          },
+          {
+            "id": 8,
+            "owner": "K",
+            "stage": 2,
+            "type": "HOSPITAL",
+            "x": 13,
+            "y": 2
+          },
+          {
+            "id": 9,
+            "owner": "Y",
+            "score": 1,
+            "stage": 2,
+            "type": "STATION",
+            "x": 3,
+            "y": 9
+          },
+          {
+            "id": 10,
+            "owner": "K",
+            "stage": 2,
+            "type": "STATION",
+            "x": 11,
+            "y": 5
+          },
+          {
+            "id": 11,
+            "owner": "K",
+            "score": 2,
+            "stage": 2,
+            "type": "STATION",
+            "x": 8,
+            "y": 8
+          },
+          {
+            "id": 12,
+            "owner": "Y",
+            "score": 2,
+            "stage": 2,
+            "type": "STATION",
+            "x": 6,
+            "y": 6
+          },
+          {
+            "id": 13,
+            "owner": "Y",
+            "score": 2,
+            "stage": 2,
+            "type": "WATCH",
+            "x": 5,
+            "y": 7
+          },
+          {
+            "id": 14,
+            "owner": "K",
+            "stage": 2,
+            "type": "WATCH",
+            "x": 9,
+            "y": 7
+          },
+          {
+            "id": 15,
+            "owner": "Y",
+            "score": 4,
+            "stage": 2,
+            "type": "DEPOT",
+            "x": 5,
+            "y": 11
+          },
+          {
+            "id": 16,
+            "owner": "K",
+            "score": 4,
+            "stage": 2,
+            "type": "DEPOT",
+            "x": 9,
+            "y": 3
+          }
+        ],
+        "events": [
+          {
+            "buildingId": 13,
+            "kind": "capture",
+            "team": "Y",
+            "x": 5,
+            "y": 7
+          }
+        ],
+        "map": [
+          "#..B......#....",
+          "...........#...",
+          "...#.........BB",
+          ".#..#....B.....",
+          "B.........#....",
+          "H..........B#..",
+          "......B#....#..",
+          ".....B.B.B.....",
+          "..#....#B......",
+          "..#B..........H",
+          "....#.........B",
+          ".....B....#..#.",
+          "BB.........#...",
+          "...#...........",
+          "....#......B..#"
+        ],
+        "myResponseMs": 179,
+        "myStdoutBytes": 589,
+        "occTurns": {
+          "K": null,
+          "Y": 97
+        },
+        "resources": {
+          "K": 12,
+          "Y": 11
+        },
+        "scores": {
+          "K": null,
+          "Y": 14
+        },
+        "side": "Y",
+        "turn": 15,
+        "units": [
+          [
+            "Y",
+            "F",
+            10,
+            1,
+            1
+          ],
+          [
+            "Y",
+            "F",
+            5,
+            7,
+            1
+          ],
+          [
+            "Y",
+            "F",
+            7,
+            7,
+            1
+          ],
+          [
+            "Y",
+            "F",
+            1,
+            8,
+            1
+          ],
+          [
+            "Y",
+            "F",
+            3,
+            9,
+            2
+          ],
+          [
+            "Y",
+            "F",
+            6,
+            9,
+            1
+          ],
+          [
+            "Y",
+            "W",
+            4,
+            2,
+            1
+          ],
+          [
+            "Y",
+            "W",
+            5,
+            3,
+            3
+          ],
+          [
+            "Y",
+            "W",
+            1,
+            4,
+            4
+          ],
+          [
+            "Y",
+            "W",
+            2,
+            4,
+            9
+          ],
+          [
+            "Y",
+            "W",
+            3,
+            4,
+            1
+          ],
+          [
+            "Y",
+            "W",
+            4,
+            4,
+            3
+          ],
+          [
+            "Y",
+            "W",
+            5,
+            4,
+            2
+          ],
+          [
+            "Y",
+            "W",
+            0,
+            6,
+            7
+          ],
+          [
+            "Y",
+            "W",
+            0,
+            7,
+            1
+          ],
+          [
+            "Y",
+            "W",
+            1,
+            7,
+            1
+          ],
+          [
+            "Y",
+            "W",
+            4,
+            7,
+            4
+          ],
+          [
+            "Y",
+            "W",
+            5,
+            7,
+            1
+          ],
+          [
+            "Y",
+            "W",
+            6,
+            7,
+            4
+          ],
+          [
+            "Y",
+            "W",
+            3,
+            9,
+            5
+          ],
+          [
+            "Y",
+            "W",
+            1,
+            10,
+            3
+          ],
+          [
+            "Y",
+            "W",
+            2,
+            10,
+            3
+          ],
+          [
+            "Y",
+            "W",
+            3,
+            10,
+            9
+          ],
+          [
+            "Y",
+            "W",
+            2,
+            11,
+            2
+          ],
+          [
+            "K",
+            "F",
+            9,
+            2,
+            1
+          ],
+          [
+            "K",
+            "F",
+            7,
+            7,
+            1
+          ],
+          [
+            "K",
+            "F",
+            8,
+            10,
+            1
+          ],
+          [
+            "K",
+            "F",
+            8,
+            11,
+            1
+          ],
+          [
+            "K",
+            "F",
+            10,
+            14,
+            1
+          ],
+          [
+            "K",
+            "W",
+            9,
+            1,
+            1
+          ],
+          [
+            "K",
+            "W",
+            9,
+            2,
+            1
+          ],
+          [
+            "K",
+            "W",
+            10,
+            2,
+            2
+          ],
+          [
+            "K",
+            "W",
+            12,
+            2,
+            1
+          ],
+          [
+            "K",
+            "W",
+            13,
+            2,
+            3
+          ],
+          [
+            "K",
+            "W",
+            10,
+            3,
+            1
+          ],
+          [
+            "K",
+            "W",
+            12,
+            3,
+            2
+          ],
+          [
+            "K",
+            "W",
+            13,
+            3,
+            12
+          ],
+          [
+            "K",
+            "W",
+            14,
+            3,
+            6
+          ],
+          [
+            "K",
+            "W",
+            8,
+            4,
+            1
+          ],
+          [
+            "K",
+            "W",
+            11,
+            4,
+            2
+          ],
+          [
+            "K",
+            "W",
+            12,
+            4,
+            1
+          ],
+          [
+            "K",
+            "W",
+            10,
+            5,
+            1
+          ],
+          [
+            "K",
+            "W",
+            11,
+            5,
+            1
+          ],
+          [
+            "K",
+            "W",
+            13,
+            6,
+            2
+          ],
+          [
+            "K",
+            "W",
+            8,
+            7,
+            2
+          ],
+          [
+            "K",
+            "W",
+            9,
+            7,
+            2
+          ],
+          [
+            "K",
+            "W",
+            11,
+            7,
+            1
+          ],
+          [
+            "K",
+            "W",
+            12,
+            7,
+            2
+          ],
+          [
+            "K",
+            "W",
+            13,
+            7,
+            3
+          ],
+          [
+            "K",
+            "W",
+            8,
+            8,
+            1
+          ],
+          [
+            "K",
+            "W",
+            9,
+            8,
+            1
+          ],
+          [
+            "K",
+            "W",
+            13,
+            8,
+            1
+          ],
+          [
+            "K",
+            "W",
+            12,
+            9,
+            1
+          ],
+          [
+            "K",
+            "W",
+            13,
+            9,
+            1
+          ],
+          [
+            "K",
+            "W",
+            10,
+            10,
+            3
+          ],
+          [
+            "K",
+            "W",
+            11,
+            10,
+            2
+          ],
+          [
+            "K",
+            "W",
+            5,
+            11,
+            1
+          ],
+          [
+            "K",
+            "W",
+            8,
+            11,
+            1
+          ],
+          [
+            "K",
+            "W",
+            13,
+            13,
+            1
+          ]
+        ]
+      },
+      "actual_own_commands": {
+        "lines": [
+          "SPAWN W 5",
+          "MOVE 2 4 W 3 D",
+          "MOVE 2 4 W 5 R",
+          "MOVE 2 4 W 1 U",
+          "MOVE 3 10 W 1 U",
+          "MOVE 3 10 W 2 D",
+          "MOVE 3 10 W 4 U",
+          "MOVE 3 10 W 2 U",
+          "MOVE 0 6 W 7 U",
+          "MOVE 0 5 W 5 U",
+          "TELE 3 9 W 5 6 6",
+          "MOVE 1 4 W 4 R",
+          "MOVE 4 7 W 1 R",
+          "MOVE 4 7 W 2 R",
+          "MOVE 4 7 W 1 R",
+          "MOVE 6 7 W 4 R",
+          "MOVE 5 3 W 3 R",
+          "MOVE 4 4 W 3 R",
+          "MOVE 2 10 W 3 R",
+          "MOVE 1 10 W 3 R",
+          "MOVE 2 11 W 2 U",
+          "MOVE 5 4 W 1 U",
+          "MOVE 5 4 W 1 U",
+          "MOVE 5 7 W 1 R",
+          "MOVE 1 7 W 1 R",
+          "MOVE 0 7 W 1 R",
+          "MOVE 3 4 W 1 R",
+          "MOVE 4 2 W 1 R",
+          "MOVE 10 1 F 1 D",
+          "MOVE 6 9 F 1 R",
+          "MOVE 3 9 F 1 U",
+          "MOVE 5 7 F 1 R",
+          "MOVE 3 9 F 1 D",
+          "MOVE 1 8 F 1 U",
+          "PRIORITY 14 2 0 12 0 4 13 2 9 3 5 11 8 8 14 10 9 7 11 14 3 0 7 7 6 6 1 12 11 5 5 7 3 9"
+        ],
+        "status": "ok"
+      },
+      "actual_output_observation": {
+        "buildings": [
+          {
+            "id": 0,
+            "owner": "Y",
+            "score": 3,
+            "stage": 2,
+            "type": "PLAZA",
+            "x": 7,
+            "y": 7
+          },
+          {
+            "id": 1,
+            "owner": "Y",
+            "score": 2,
+            "stage": 2,
+            "type": "HALL",
+            "x": 0,
+            "y": 12
+          },
+          {
+            "id": 2,
+            "owner": "K",
+            "stage": 2,
+            "type": "HALL",
+            "x": 14,
+            "y": 2
+          },
+          {
+            "id": 3,
+            "owner": "N",
+            "score": 2,
+            "stage": 0,
+            "type": "LIBRARY",
+            "x": 3,
+            "y": 0
+          },
+          {
+            "id": 4,
+            "owner": "K",
+            "stage": 2,
+            "type": "LIBRARY",
+            "x": 11,
+            "y": 14
+          },
+          {
+            "id": 5,
+            "owner": "Y",
+            "score": 2,
+            "stage": 2,
+            "type": "ENG",
+            "x": 0,
+            "y": 4
+          },
+          {
+            "id": 6,
+            "owner": "K",
+            "stage": 2,
+            "type": "ENG",
+            "x": 14,
+            "y": 10
+          },
+          {
+            "id": 7,
+            "owner": "Y",
+            "score": 1,
+            "stage": 2,
+            "type": "HOSPITAL",
+            "x": 1,
+            "y": 12
+          },
+          {
+            "id": 8,
+            "owner": "K",
+            "stage": 2,
+            "type": "HOSPITAL",
+            "x": 13,
+            "y": 2
+          },
+          {
+            "id": 9,
+            "owner": "Y",
+            "score": 1,
+            "stage": 2,
+            "type": "STATION",
+            "x": 3,
+            "y": 9
+          },
+          {
+            "id": 10,
+            "owner": "K",
+            "stage": 2,
+            "type": "STATION",
+            "x": 11,
+            "y": 5
+          },
+          {
+            "id": 11,
+            "owner": "K",
+            "score": 2,
+            "stage": 2,
+            "type": "STATION",
+            "x": 8,
+            "y": 8
+          },
+          {
+            "id": 12,
+            "owner": "Y",
+            "score": 2,
+            "stage": 2,
+            "type": "STATION",
+            "x": 6,
+            "y": 6
+          },
+          {
+            "id": 13,
+            "owner": "Y",
+            "score": 2,
+            "stage": 2,
+            "type": "WATCH",
+            "x": 5,
+            "y": 7
+          },
+          {
+            "id": 14,
+            "owner": "K",
+            "stage": 2,
+            "type": "WATCH",
+            "x": 9,
+            "y": 7
+          },
+          {
+            "id": 15,
+            "owner": "Y",
+            "score": 4,
+            "stage": 2,
+            "type": "DEPOT",
+            "x": 5,
+            "y": 11
+          },
+          {
+            "id": 16,
+            "owner": "K",
+            "score": 4,
+            "stage": 2,
+            "type": "DEPOT",
+            "x": 9,
+            "y": 3
+          }
+        ],
+        "events": [
+          {
+            "kind": "battle",
+            "x": 10,
+            "y": 2
+          },
+          {
+            "buildingId": 0,
+            "kind": "battle",
+            "x": 7,
+            "y": 7
+          },
+          {
+            "buildingId": 4,
+            "kind": "capture",
+            "team": "K",
+            "x": 11,
+            "y": 14
+          },
+          {
+            "buildingId": 0,
+            "kind": "capture",
+            "team": "Y",
+            "x": 7,
+            "y": 7
+          }
+        ],
+        "map": [
+          "#..B......#....",
+          "...........#...",
+          "...#.........BB",
+          ".#..#....B.....",
+          "B.........#....",
+          "H..........B#..",
+          "......B#....#..",
+          ".....B.B.B.....",
+          "..#....#B......",
+          "..#B..........H",
+          "....#.........B",
+          ".....B....#..#.",
+          "BB.........#...",
+          "...#...........",
+          "....#......B..#"
+        ],
+        "myResponseMs": 187,
+        "myStdoutBytes": 606,
+        "occTurns": {
+          "K": null,
+          "Y": 114
+        },
+        "resources": {
+          "K": 10,
+          "Y": 9
+        },
+        "scores": {
+          "K": null,
+          "Y": 17
+        },
+        "side": "Y",
+        "turn": 16,
+        "units": [
+          [
+            "Y",
+            "F",
+            1,
+            7,
+            1
+          ],
+          [
+            "Y",
+            "F",
+            6,
+            7,
+            1
+          ],
+          [
+            "Y",
+            "F",
+            7,
+            7,
+            1
+          ],
+          [
+            "Y",
+            "F",
+            3,
+            8,
+            1
+          ],
+          [
+            "Y",
+            "F",
+            7,
+            9,
+            1
+          ],
+          [
+            "Y",
+            "F",
+            3,
+            10,
+            1
+          ],
+          [
+            "Y",
+            "W",
+            5,
+            2,
+            1
+          ],
+          [
+            "Y",
+            "W",
+            2,
+            3,
+            1
+          ],
+          [
+            "Y",
+            "W",
+            5,
+            3,
+            2
+          ],
+          [
+            "Y",
+            "W",
+            6,
+            3,
+            3
+          ],
+          [
+            "Y",
+            "W",
+            0,
+            4,
+            5
+          ],
+          [
+            "Y",
+            "W",
+            2,
+            4,
+            4
+          ],
+          [
+            "Y",
+            "W",
+            3,
+            4,
+            5
+          ],
+          [
+            "Y",
+            "W",
+            4,
+            4,
+            1
+          ],
+          [
+            "Y",
+            "W",
+            5,
+            4,
+            3
+          ],
+          [
+            "Y",
+            "W",
+            0,
+            5,
+            7
+          ],
+          [
+            "Y",
+            "W",
+            2,
+            5,
+            3
+          ],
+          [
+            "Y",
+            "W",
+            6,
+            6,
+            5
+          ],
+          [
+            "Y",
+            "W",
+            1,
+            7,
+            1
+          ],
+          [
+            "Y",
+            "W",
+            2,
+            7,
+            1
+          ],
+          [
+            "Y",
+            "W",
+            5,
+            7,
+            4
+          ],
+          [
+            "Y",
+            "W",
+            6,
+            7,
+            1
+          ],
+          [
+            "Y",
+            "W",
+            7,
+            7,
+            2
+          ],
+          [
+            "Y",
+            "W",
+            3,
+            9,
+            7
+          ],
+          [
+            "Y",
+            "W",
+            2,
+            10,
+            5
+          ],
+          [
+            "Y",
+            "W",
+            3,
+            10,
+            3
+          ],
+          [
+            "Y",
+            "W",
+            3,
+            11,
+            2
+          ],
+          [
+            "K",
+            "F",
+            9,
+            1,
+            1
+          ],
+          [
+            "K",
+            "F",
+            8,
+            7,
+            1
+          ],
+          [
+            "K",
+            "F",
+            7,
+            11,
+            1
+          ],
+          [
+            "K",
+            "F",
+            8,
+            11,
+            1
+          ],
+          [
+            "K",
+            "F",
+            11,
+            14,
+            1
+          ],
+          [
+            "K",
+            "W",
+            10,
+            1,
+            1
+          ],
+          [
+            "K",
+            "W",
+            9,
+            2,
+            1
+          ],
+          [
+            "K",
+            "W",
+            10,
+            2,
+            1
+          ],
+          [
+            "K",
+            "W",
+            13,
+            2,
+            6
+          ],
+          [
+            "K",
+            "W",
+            14,
+            2,
+            2
+          ],
+          [
+            "K",
+            "W",
+            9,
+            3,
+            2
+          ],
+          [
+            "K",
+            "W",
+            11,
+            3,
+            2
+          ],
+          [
+            "K",
+            "W",
+            12,
+            3,
+            2
+          ],
+          [
+            "K",
+            "W",
+            13,
+            3,
+            6
+          ],
+          [
+            "K",
+            "W",
+            7,
+            4,
+            1
+          ],
+          [
+            "K",
+            "W",
+            11,
+            4,
+            1
+          ],
+          [
+            "K",
+            "W",
+            13,
+            4,
+            7
+          ],
+          [
+            "K",
+            "W",
+            14,
+            4,
+            5
+          ],
+          [
+            "K",
+            "W",
+            9,
+            5,
+            1
+          ],
+          [
+            "K",
+            "W",
+            10,
+            5,
+            1
+          ],
+          [
+            "K",
+            "W",
+            11,
+            5,
+            2
+          ],
+          [
+            "K",
+            "W",
+            9,
+            7,
+            2
+          ],
+          [
+            "K",
+            "W",
+            10,
+            7,
+            1
+          ],
+          [
+            "K",
+            "W",
+            11,
+            7,
+            2
+          ],
+          [
+            "K",
+            "W",
+            12,
+            7,
+            2
+          ],
+          [
+            "K",
+            "W",
+            13,
+            7,
+            2
+          ],
+          [
+            "K",
+            "W",
+            8,
+            8,
+            2
+          ],
+          [
+            "K",
+            "W",
+            13,
+            8,
+            1
+          ],
+          [
+            "K",
+            "W",
+            11,
+            9,
+            1
+          ],
+          [
+            "K",
+            "W",
+            12,
+            9,
+            1
+          ],
+          [
+            "K",
+            "W",
+            13,
+            9,
+            1
+          ],
+          [
+            "K",
+            "W",
+            9,
+            10,
+            3
+          ],
+          [
+            "K",
+            "W",
+            10,
+            10,
+            2
+          ],
+          [
+            "K",
+            "W",
+            5,
+            11,
+            1
+          ],
+          [
+            "K",
+            "W",
+            7,
+            11,
+            1
+          ],
+          [
+            "K",
+            "W",
+            13,
+            14,
+            1
+          ]
+        ]
+      }
+    },
+    "official_sdk_stationary_enemy_probe": {
+      "turn": 16,
+      "actual_F_casualties": 1,
+      "F_casualties_enemy_no_spawn_no_move": 1,
+      "scope": "One-turn legal stationary opponent response from actual previous observation; no opponent-order recovery or whole-game result claim. Unknown building scores placeholder0 in SDK state do not enter spawn/move/combat counts."
+    },
+    "actual_F_loss": [
+      {
+        "turn": 16,
+        "kind": "F",
+        "x": 10,
+        "y": 2,
+        "count": 1,
+        "before_building": null,
+        "before_local_units": [
+          [
+            "Y",
+            "F",
+            10,
+            1,
+            1
+          ],
+          [
+            "K",
+            "F",
+            9,
+            2,
+            1
+          ],
+          [
+            "K",
+            "W",
+            9,
+            1,
+            1
+          ],
+          [
+            "K",
+            "W",
+            9,
+            2,
+            1
+          ],
+          [
+            "K",
+            "W",
+            10,
+            2,
+            2
+          ],
+          [
+            "K",
+            "W",
+            12,
+            2,
+            1
+          ],
+          [
+            "K",
+            "W",
+            10,
+            3,
+            1
+          ]
+        ],
+        "after_local_units": [
+          [
+            "K",
+            "F",
+            9,
+            1,
+            1
+          ],
+          [
+            "K",
+            "W",
+            10,
+            1,
+            1
+          ],
+          [
+            "K",
+            "W",
+            9,
+            2,
+            1
+          ],
+          [
+            "K",
+            "W",
+            10,
+            2,
+            1
+          ],
+          [
+            "K",
+            "W",
+            9,
+            3,
+            2
+          ],
+          [
+            "K",
+            "W",
+            11,
+            3,
+            2
+          ]
+        ],
+        "actual_own_commands": [
+          "SPAWN W 5",
+          "MOVE 2 4 W 3 D",
+          "MOVE 2 4 W 5 R",
+          "MOVE 2 4 W 1 U",
+          "MOVE 3 10 W 1 U",
+          "MOVE 3 10 W 2 D",
+          "MOVE 3 10 W 4 U",
+          "MOVE 3 10 W 2 U",
+          "MOVE 0 6 W 7 U",
+          "MOVE 0 5 W 5 U",
+          "TELE 3 9 W 5 6 6",
+          "MOVE 1 4 W 4 R",
+          "MOVE 4 7 W 1 R",
+          "MOVE 4 7 W 2 R",
+          "MOVE 4 7 W 1 R",
+          "MOVE 6 7 W 4 R",
+          "MOVE 5 3 W 3 R",
+          "MOVE 4 4 W 3 R",
+          "MOVE 2 10 W 3 R",
+          "MOVE 1 10 W 3 R",
+          "MOVE 2 11 W 2 U",
+          "MOVE 5 4 W 1 U",
+          "MOVE 5 4 W 1 U",
+          "MOVE 5 7 W 1 R",
+          "MOVE 1 7 W 1 R",
+          "MOVE 0 7 W 1 R",
+          "MOVE 3 4 W 1 R",
+          "MOVE 4 2 W 1 R",
+          "MOVE 10 1 F 1 D",
+          "MOVE 6 9 F 1 R",
+          "MOVE 3 9 F 1 U",
+          "MOVE 5 7 F 1 R",
+          "MOVE 3 9 F 1 D",
+          "MOVE 1 8 F 1 U",
+          "PRIORITY 14 2 0 12 0 4 13 2 9 3 5 11 8 8 14 10 9 7 11 14 3 0 7 7 6 6 1 12 11 5 5 7 3 9"
+        ]
+      }
+    ]
+  },
+  "late_reversal": {
+    "gameId": "rolling-game-4d11bbabf02419ab956db2f20df6709ea27c41c42049c13ca20a9ae2f128bd3d",
+    "checkpoints": [
+      {
+        "turn": 120,
+        "phase": "AFTER_COMMANDS",
+        "transition_applied": true,
+        "public_scores": {
+          "K": 4,
+          "Y": 35
+        },
+        "legal_score_bounds": {
+          "Y": [
+            35,
+            35
+          ],
+          "K": [
+            4,
+            4
+          ],
+          "N": [
+            0,
+            0
+          ]
+        },
+        "known_building_scores": {
+          "3": 2,
+          "9": 1,
+          "16": 4,
+          "5": 2,
+          "0": 3,
+          "2": 1,
+          "8": 2,
+          "11": 4,
+          "13": 2,
+          "1": 1,
+          "14": 2,
+          "7": 2,
+          "12": 4,
+          "6": 2,
+          "15": 4,
+          "4": 2,
+          "10": 1
+        },
+        "units": {
+          "Y": {
+            "F": 7,
+            "W": 413,
+            "S": 0
+          },
+          "K": {
+            "F": 4,
+            "W": 102,
+            "S": 0
+          }
+        },
+        "resources": {
+          "K": 10,
+          "Y": 15
+        },
+        "building_counts": {
+          "Y": {
+            "HALL": 2,
+            "LIBRARY": 2,
+            "ENG": 2,
+            "HOSPITAL": 2,
+            "STATION": 3,
+            "WATCH": 2,
+            "DEPOT": 2
+          },
+          "K": {
+            "PLAZA": 1,
+            "STATION": 1
+          }
+        },
+        "events": [
+          {
+            "kind": "battle",
+            "x": 12,
+            "y": 10
+          },
+          {
+            "buildingId": 13,
+            "kind": "battle",
+            "x": 9,
+            "y": 10
+          },
+          {
+            "buildingId": 15,
+            "kind": "battle",
+            "x": 9,
+            "y": 4
+          }
+        ],
+        "response_ms": 199,
+        "stdout_bytes": 2137,
+        "ownership_changes": [],
+        "own_transition": {
+          "production": {
+            "F": 0,
+            "W": 6,
+            "S": 0
+          },
+          "production_resource_cost": 12,
+          "unit_costs": {
+            "F": 5,
+            "W": 2,
+            "S": 2
+          },
+          "casualties": {
+            "F": 0,
+            "W": 4,
+            "S": 0
+          },
+          "casualty_cells": [
+            {
+              "kind": "W",
+              "x": 9,
+              "y": 4,
+              "count": 2
+            },
+            {
+              "kind": "W",
+              "x": 9,
+              "y": 10,
+              "count": 1
+            },
+            {
+              "kind": "W",
+              "x": 12,
+              "y": 10,
+              "count": 1
+            }
+          ],
+          "enemy_w_production_inferred": 4,
+          "enemy_w_unit_cost": 3
+        },
+        "command_input_observation_turn": 119
+      },
+      {
+        "turn": 140,
+        "phase": "AFTER_COMMANDS",
+        "transition_applied": true,
+        "public_scores": {
+          "K": 15,
+          "Y": 22
+        },
+        "legal_score_bounds": {
+          "Y": [
+            22,
+            22
+          ],
+          "K": [
+            15,
+            15
+          ],
+          "N": [
+            2,
+            2
+          ]
+        },
+        "known_building_scores": {
+          "3": 2,
+          "9": 1,
+          "16": 4,
+          "5": 2,
+          "0": 3,
+          "2": 1,
+          "8": 2,
+          "11": 4,
+          "13": 2,
+          "1": 1,
+          "14": 2,
+          "7": 2,
+          "12": 4,
+          "6": 2,
+          "15": 4,
+          "4": 2,
+          "10": 1
+        },
+        "units": {
+          "Y": {
+            "F": 6,
+            "W": 500,
+            "S": 0
+          },
+          "K": {
+            "F": 4,
+            "W": 117,
+            "S": 0
+          }
+        },
+        "resources": {
+          "K": 10,
+          "Y": 14
+        },
+        "building_counts": {
+          "Y": {
+            "PLAZA": 1,
+            "HALL": 2,
+            "LIBRARY": 1,
+            "ENG": 2,
+            "HOSPITAL": 1,
+            "STATION": 2,
+            "WATCH": 2
+          },
+          "K": {
+            "LIBRARY": 1,
+            "STATION": 2,
+            "DEPOT": 2
+          }
+        },
+        "events": [
+          {
+            "buildingId": 8,
+            "kind": "battle",
+            "x": 12,
+            "y": 12
+          },
+          {
+            "kind": "battle",
+            "x": 9,
+            "y": 1
+          },
+          {
+            "buildingId": 8,
+            "kind": "neutral",
+            "team": "K",
+            "x": 12,
+            "y": 12
+          }
+        ],
+        "response_ms": 16,
+        "stdout_bytes": 511,
+        "ownership_changes": [
+          {
+            "turn": 140,
+            "id": 8,
+            "type": "HOSPITAL",
+            "x": 12,
+            "y": 12,
+            "from": "Y",
+            "to": "N",
+            "score_known_before": 2,
+            "before_local_units": [
+              [
+                "Y",
+                "F",
+                12,
+                12,
+                1
+              ],
+              [
+                "Y",
+                "W",
+                11,
+                11,
+                3
+              ],
+              [
+                "Y",
+                "W",
+                12,
+                12,
+                12
+              ],
+              [
+                "K",
+                "F",
+                12,
+                11,
+                1
+              ],
+              [
+                "K",
+                "W",
+                12,
+                10,
+                2
+              ],
+              [
+                "K",
+                "W",
+                12,
+                11,
+                15
+              ]
+            ],
+            "after_cell_units": [
+              [
+                "K",
+                "F",
+                12,
+                12,
+                1
+              ],
+              [
+                "K",
+                "W",
+                12,
+                12,
+                3
+              ]
+            ]
+          }
+        ],
+        "own_transition": {
+          "production": {
+            "F": 0,
+            "W": 7,
+            "S": 0
+          },
+          "production_resource_cost": 14,
+          "unit_costs": {
+            "F": 5,
+            "W": 2,
+            "S": 2
+          },
+          "casualties": {
+            "F": 1,
+            "W": 12,
+            "S": 0
+          },
+          "casualty_cells": [
+            {
+              "kind": "F",
+              "x": 9,
+              "y": 1,
+              "count": 1
+            },
+            {
+              "kind": "W",
+              "x": 12,
+              "y": 12,
+              "count": 12
+            }
+          ],
+          "enemy_w_production_inferred": 3,
+          "enemy_w_unit_cost": 3
+        },
+        "command_input_observation_turn": 139
+      },
+      {
+        "turn": 150,
+        "phase": "AFTER_COMMANDS",
+        "transition_applied": true,
+        "public_scores": {
+          "K": 16,
+          "Y": 19
+        },
+        "legal_score_bounds": {
+          "Y": [
+            19,
+            19
+          ],
+          "K": [
+            16,
+            16
+          ],
+          "N": [
+            4,
+            4
+          ]
+        },
+        "known_building_scores": {
+          "3": 2,
+          "9": 1,
+          "16": 4,
+          "5": 2,
+          "0": 3,
+          "2": 1,
+          "8": 2,
+          "11": 4,
+          "13": 2,
+          "1": 1,
+          "14": 2,
+          "7": 2,
+          "12": 4,
+          "6": 2,
+          "15": 4,
+          "4": 2,
+          "10": 1
+        },
+        "units": {
+          "Y": {
+            "F": 6,
+            "W": 511,
+            "S": 0
+          },
+          "K": {
+            "F": 4,
+            "W": 97,
+            "S": 0
+          }
+        },
+        "resources": {
+          "K": 10,
+          "Y": 14
+        },
+        "building_counts": {
+          "Y": {
+            "HALL": 2,
+            "LIBRARY": 1,
+            "ENG": 2,
+            "HOSPITAL": 1,
+            "STATION": 2,
+            "WATCH": 2
+          },
+          "K": {
+            "PLAZA": 1,
+            "LIBRARY": 1,
+            "HOSPITAL": 1,
+            "STATION": 2,
+            "DEPOT": 1
+          }
+        },
+        "events": [
+          {
+            "kind": "battle",
+            "x": 10,
+            "y": 12
+          },
+          {
+            "kind": "battle",
+            "x": 7,
+            "y": 4
+          }
+        ],
+        "response_ms": 19,
+        "stdout_bytes": 326,
+        "ownership_changes": [],
+        "own_transition": {
+          "production": {
+            "F": 1,
+            "W": 5,
+            "S": 0
+          },
+          "production_resource_cost": 15,
+          "unit_costs": {
+            "F": 5,
+            "W": 2,
+            "S": 2
+          },
+          "casualties": {
+            "F": 0,
+            "W": 2,
+            "S": 0
+          },
+          "casualty_cells": [
+            {
+              "kind": "W",
+              "x": 7,
+              "y": 4,
+              "count": 1
+            },
+            {
+              "kind": "W",
+              "x": 10,
+              "y": 12,
+              "count": 1
+            }
+          ],
+          "enemy_w_production_inferred": 4,
+          "enemy_w_unit_cost": 3
+        },
+        "command_input_observation_turn": 149
+      },
+      {
+        "turn": 153,
+        "phase": "AFTER_COMMANDS",
+        "transition_applied": true,
+        "public_scores": {
+          "K": 16,
+          "Y": 19
+        },
+        "legal_score_bounds": {
+          "Y": [
+            19,
+            19
+          ],
+          "K": [
+            16,
+            16
+          ],
+          "N": [
+            4,
+            4
+          ]
+        },
+        "known_building_scores": {
+          "3": 2,
+          "9": 1,
+          "16": 4,
+          "5": 2,
+          "0": 3,
+          "2": 1,
+          "8": 2,
+          "11": 4,
+          "13": 2,
+          "1": 1,
+          "14": 2,
+          "7": 2,
+          "12": 4,
+          "6": 2,
+          "15": 4,
+          "4": 2,
+          "10": 1
+        },
+        "units": {
+          "Y": {
+            "F": 6,
+            "W": 526,
+            "S": 0
+          },
+          "K": {
+            "F": 4,
+            "W": 101,
+            "S": 0
+          }
+        },
+        "resources": {
+          "K": 10,
+          "Y": 14
+        },
+        "building_counts": {
+          "Y": {
+            "HALL": 2,
+            "LIBRARY": 1,
+            "ENG": 2,
+            "HOSPITAL": 1,
+            "STATION": 2,
+            "WATCH": 2
+          },
+          "K": {
+            "PLAZA": 1,
+            "LIBRARY": 1,
+            "HOSPITAL": 1,
+            "STATION": 2,
+            "DEPOT": 1
+          }
+        },
+        "events": [
+          {
+            "kind": "battle",
+            "x": 10,
+            "y": 12
+          }
+        ],
+        "response_ms": 19,
+        "stdout_bytes": 167,
+        "ownership_changes": [],
+        "own_transition": {
+          "production": {
+            "F": 0,
+            "W": 7,
+            "S": 0
+          },
+          "production_resource_cost": 14,
+          "unit_costs": {
+            "F": 5,
+            "W": 2,
+            "S": 2
+          },
+          "casualties": {
+            "F": 0,
+            "W": 1,
+            "S": 0
+          },
+          "casualty_cells": [
+            {
+              "kind": "W",
+              "x": 10,
+              "y": 12,
+              "count": 1
+            }
+          ],
+          "enemy_w_production_inferred": 4,
+          "enemy_w_unit_cost": 3
+        },
+        "command_input_observation_turn": 152
+      },
+      {
+        "turn": 154,
+        "phase": "AFTER_COMMANDS",
+        "transition_applied": true,
+        "public_scores": {
+          "K": 20,
+          "Y": 19
+        },
+        "legal_score_bounds": {
+          "Y": [
+            19,
+            19
+          ],
+          "K": [
+            20,
+            20
+          ],
+          "N": [
+            0,
+            0
+          ]
+        },
+        "known_building_scores": {
+          "3": 2,
+          "9": 1,
+          "16": 4,
+          "5": 2,
+          "0": 3,
+          "2": 1,
+          "8": 2,
+          "11": 4,
+          "13": 2,
+          "1": 1,
+          "14": 2,
+          "7": 2,
+          "12": 4,
+          "6": 2,
+          "15": 4,
+          "4": 2,
+          "10": 1
+        },
+        "units": {
+          "Y": {
+            "F": 6,
+            "W": 530,
+            "S": 0
+          },
+          "K": {
+            "F": 4,
+            "W": 101,
+            "S": 0
+          }
+        },
+        "resources": {
+          "K": 10,
+          "Y": 14
+        },
+        "building_counts": {
+          "Y": {
+            "HALL": 2,
+            "LIBRARY": 1,
+            "ENG": 2,
+            "HOSPITAL": 1,
+            "STATION": 2,
+            "WATCH": 2
+          },
+          "K": {
+            "PLAZA": 1,
+            "LIBRARY": 1,
+            "HOSPITAL": 1,
+            "STATION": 2,
+            "DEPOT": 2
+          }
+        },
+        "events": [
+          {
+            "kind": "battle",
+            "x": 11,
+            "y": 11
+          },
+          {
+            "buildingId": 14,
+            "kind": "battle",
+            "x": 5,
+            "y": 4
+          },
+          {
+            "buildingId": 16,
+            "kind": "capture",
+            "team": "K",
+            "x": 5,
+            "y": 10
+          }
+        ],
+        "response_ms": 16,
+        "stdout_bytes": 188,
+        "ownership_changes": [
+          {
+            "turn": 154,
+            "id": 16,
+            "type": "DEPOT",
+            "x": 5,
+            "y": 10,
+            "from": "N",
+            "to": "K",
+            "score_known_before": 4,
+            "before_local_units": [
+              [
+                "Y",
+                "F",
+                4,
+                11,
+                1
+              ],
+              [
+                "K",
+                "F",
+                5,
+                9,
+                1
+              ],
+              [
+                "K",
+                "W",
+                5,
+                9,
+                26
+              ],
+              [
+                "K",
+                "W",
+                7,
+                10,
+                2
+              ]
+            ],
+            "after_cell_units": [
+              [
+                "K",
+                "F",
+                5,
+                10,
+                1
+              ],
+              [
+                "K",
+                "W",
+                5,
+                10,
+                26
+              ]
+            ]
+          }
+        ],
+        "own_transition": {
+          "production": {
+            "F": 0,
+            "W": 7,
+            "S": 0
+          },
+          "production_resource_cost": 14,
+          "unit_costs": {
+            "F": 5,
+            "W": 2,
+            "S": 2
+          },
+          "casualties": {
+            "F": 0,
+            "W": 3,
+            "S": 0
+          },
+          "casualty_cells": [
+            {
+              "kind": "W",
+              "x": 5,
+              "y": 4,
+              "count": 2
+            },
+            {
+              "kind": "W",
+              "x": 11,
+              "y": 11,
+              "count": 1
+            }
+          ],
+          "enemy_w_production_inferred": 3,
+          "enemy_w_unit_cost": 3
+        },
+        "command_input_observation_turn": 153
+      },
+      {
+        "turn": 155,
+        "phase": "AFTER_COMMANDS",
+        "transition_applied": true,
+        "public_scores": {
+          "K": 20,
+          "Y": 19
+        },
+        "legal_score_bounds": {
+          "Y": [
+            19,
+            19
+          ],
+          "K": [
+            20,
+            20
+          ],
+          "N": [
+            0,
+            0
+          ]
+        },
+        "known_building_scores": {
+          "3": 2,
+          "9": 1,
+          "16": 4,
+          "5": 2,
+          "0": 3,
+          "2": 1,
+          "8": 2,
+          "11": 4,
+          "13": 2,
+          "1": 1,
+          "14": 2,
+          "7": 2,
+          "12": 4,
+          "6": 2,
+          "15": 4,
+          "4": 2,
+          "10": 1
+        },
+        "units": {
+          "Y": {
+            "F": 6,
+            "W": 532,
+            "S": 0
+          },
+          "K": {
+            "F": 4,
+            "W": 99,
+            "S": 0
+          }
+        },
+        "resources": {
+          "K": 11,
+          "Y": 14
+        },
+        "building_counts": {
+          "Y": {
+            "HALL": 2,
+            "LIBRARY": 1,
+            "ENG": 2,
+            "HOSPITAL": 1,
+            "STATION": 2,
+            "WATCH": 2
+          },
+          "K": {
+            "PLAZA": 1,
+            "LIBRARY": 1,
+            "HOSPITAL": 1,
+            "STATION": 2,
+            "DEPOT": 2
+          }
+        },
+        "events": [
+          {
+            "buildingId": 13,
+            "kind": "battle",
+            "x": 9,
+            "y": 10
+          },
+          {
+            "kind": "battle",
+            "x": 7,
+            "y": 11
+          }
+        ],
+        "response_ms": 16,
+        "stdout_bytes": 440,
+        "ownership_changes": [],
+        "own_transition": {
+          "production": {
+            "F": 0,
+            "W": 7,
+            "S": 0
+          },
+          "production_resource_cost": 14,
+          "unit_costs": {
+            "F": 5,
+            "W": 2,
+            "S": 2
+          },
+          "casualties": {
+            "F": 0,
+            "W": 5,
+            "S": 0
+          },
+          "casualty_cells": [
+            {
+              "kind": "W",
+              "x": 7,
+              "y": 11,
+              "count": 3
+            },
+            {
+              "kind": "W",
+              "x": 9,
+              "y": 10,
+              "count": 2
+            }
+          ],
+          "enemy_w_production_inferred": 3,
+          "enemy_w_unit_cost": 3
+        },
+        "command_input_observation_turn": 154
+      },
+      {
+        "turn": 156,
+        "phase": "AFTER_COMMANDS",
+        "transition_applied": true,
+        "public_scores": {
+          "K": 20,
+          "Y": 19
+        },
+        "legal_score_bounds": {
+          "Y": [
+            19,
+            19
+          ],
+          "K": [
+            20,
+            20
+          ],
+          "N": [
+            0,
+            0
+          ]
+        },
+        "known_building_scores": {
+          "3": 2,
+          "9": 1,
+          "16": 4,
+          "5": 2,
+          "0": 3,
+          "2": 1,
+          "8": 2,
+          "11": 4,
+          "13": 2,
+          "1": 1,
+          "14": 2,
+          "7": 2,
+          "12": 4,
+          "6": 2,
+          "15": 4,
+          "4": 2,
+          "10": 1
+        },
+        "units": {
+          "Y": {
+            "F": 5,
+            "W": 536,
+            "S": 0
+          },
+          "K": {
+            "F": 4,
+            "W": 99,
+            "S": 0
+          }
+        },
+        "resources": {
+          "K": 12,
+          "Y": 14
+        },
+        "building_counts": {
+          "Y": {
+            "HALL": 2,
+            "LIBRARY": 1,
+            "ENG": 2,
+            "HOSPITAL": 1,
+            "STATION": 2,
+            "WATCH": 2
+          },
+          "K": {
+            "PLAZA": 1,
+            "LIBRARY": 1,
+            "HOSPITAL": 1,
+            "STATION": 2,
+            "DEPOT": 2
+          }
+        },
+        "events": [
+          {
+            "kind": "battle",
+            "x": 12,
+            "y": 11
+          },
+          {
+            "kind": "battle",
+            "x": 6,
+            "y": 4
+          }
+        ],
+        "response_ms": 20,
+        "stdout_bytes": 468,
+        "ownership_changes": [],
+        "own_transition": {
+          "production": {
+            "F": 0,
+            "W": 7,
+            "S": 0
+          },
+          "production_resource_cost": 14,
+          "unit_costs": {
+            "F": 5,
+            "W": 2,
+            "S": 2
+          },
+          "casualties": {
+            "F": 1,
+            "W": 3,
+            "S": 0
+          },
+          "casualty_cells": [
+            {
+              "kind": "F",
+              "x": 6,
+              "y": 4,
+              "count": 1
+            },
+            {
+              "kind": "W",
+              "x": 12,
+              "y": 11,
+              "count": 3
+            }
+          ],
+          "enemy_w_production_inferred": 3,
+          "enemy_w_unit_cost": 3
+        },
+        "command_input_observation_turn": 155
+      },
+      {
+        "turn": 157,
+        "phase": "AFTER_COMMANDS",
+        "transition_applied": true,
+        "public_scores": {
+          "K": 20,
+          "Y": 17
+        },
+        "legal_score_bounds": {
+          "Y": [
+            17,
+            17
+          ],
+          "K": [
+            20,
+            20
+          ],
+          "N": [
+            2,
+            2
+          ]
+        },
+        "known_building_scores": {
+          "3": 2,
+          "9": 1,
+          "16": 4,
+          "5": 2,
+          "0": 3,
+          "2": 1,
+          "8": 2,
+          "11": 4,
+          "13": 2,
+          "1": 1,
+          "14": 2,
+          "7": 2,
+          "12": 4,
+          "6": 2,
+          "15": 4,
+          "4": 2,
+          "10": 1
+        },
+        "units": {
+          "Y": {
+            "F": 5,
+            "W": 543,
+            "S": 0
+          },
+          "K": {
+            "F": 4,
+            "W": 103,
+            "S": 0
+          }
+        },
+        "resources": {
+          "K": 9,
+          "Y": 14
+        },
+        "building_counts": {
+          "Y": {
+            "HALL": 2,
+            "LIBRARY": 1,
+            "ENG": 1,
+            "HOSPITAL": 1,
+            "STATION": 2,
+            "WATCH": 2
+          },
+          "K": {
+            "PLAZA": 1,
+            "LIBRARY": 1,
+            "HOSPITAL": 1,
+            "STATION": 2,
+            "DEPOT": 2
+          }
+        },
+        "events": [
+          {
+            "buildingId": 5,
+            "kind": "neutral",
+            "team": "K",
+            "x": 1,
+            "y": 7
+          }
+        ],
+        "response_ms": 19,
+        "stdout_bytes": 429,
+        "ownership_changes": [
+          {
+            "turn": 157,
+            "id": 5,
+            "type": "ENG",
+            "x": 1,
+            "y": 7,
+            "from": "Y",
+            "to": "N",
+            "score_known_before": 2,
+            "before_local_units": [
+              [
+                "Y",
+                "W",
+                3,
+                7,
+                17
+              ],
+              [
+                "K",
+                "F",
+                1,
+                6,
+                1
+              ],
+              [
+                "K",
+                "W",
+                1,
+                6,
+                16
+              ]
+            ],
+            "after_cell_units": [
+              [
+                "K",
+                "F",
+                1,
+                7,
+                1
+              ],
+              [
+                "K",
+                "W",
+                1,
+                7,
+                16
+              ]
+            ]
+          }
+        ],
+        "own_transition": {
+          "production": {
+            "F": 0,
+            "W": 7,
+            "S": 0
+          },
+          "production_resource_cost": 14,
+          "unit_costs": {
+            "F": 5,
+            "W": 2,
+            "S": 2
+          },
+          "casualties": {
+            "F": 0,
+            "W": 0,
+            "S": 0
+          },
+          "casualty_cells": [],
+          "enemy_w_production_inferred": 4,
+          "enemy_w_unit_cost": 3
+        },
+        "command_input_observation_turn": 156
+      },
+      {
+        "turn": 158,
+        "phase": "AFTER_COMMANDS",
+        "transition_applied": true,
+        "public_scores": {
+          "K": 22,
+          "Y": 11
+        },
+        "legal_score_bounds": {
+          "Y": [
+            11,
+            11
+          ],
+          "K": [
+            22,
+            22
+          ],
+          "N": [
+            6,
+            6
+          ]
+        },
+        "known_building_scores": {
+          "3": 2,
+          "9": 1,
+          "16": 4,
+          "5": 2,
+          "0": 3,
+          "2": 1,
+          "8": 2,
+          "11": 4,
+          "13": 2,
+          "1": 1,
+          "14": 2,
+          "7": 2,
+          "12": 4,
+          "6": 2,
+          "15": 4,
+          "4": 2,
+          "10": 1
+        },
+        "units": {
+          "Y": {
+            "F": 5,
+            "W": 540,
+            "S": 0
+          },
+          "K": {
+            "F": 4,
+            "W": 96,
+            "S": 0
+          }
+        },
+        "resources": {
+          "K": 7,
+          "Y": 14
+        },
+        "building_counts": {
+          "Y": {
+            "HALL": 2,
+            "LIBRARY": 1,
+            "ENG": 1,
+            "STATION": 1,
+            "WATCH": 2
+          },
+          "K": {
+            "PLAZA": 1,
+            "LIBRARY": 1,
+            "ENG": 1,
+            "HOSPITAL": 1,
+            "STATION": 2,
+            "DEPOT": 2
+          }
+        },
+        "events": [
+          {
+            "buildingId": 8,
+            "kind": "battle",
+            "x": 12,
+            "y": 12
+          },
+          {
+            "kind": "battle",
+            "x": 7,
+            "y": 6
+          },
+          {
+            "kind": "battle",
+            "x": 6,
+            "y": 7
+          },
+          {
+            "buildingId": 7,
+            "kind": "battle",
+            "x": 2,
+            "y": 2
+          },
+          {
+            "buildingId": 5,
+            "kind": "capture",
+            "team": "K",
+            "x": 1,
+            "y": 7
+          },
+          {
+            "buildingId": 11,
+            "kind": "neutral",
+            "team": "K",
+            "x": 8,
+            "y": 12
+          },
+          {
+            "buildingId": 7,
+            "kind": "neutral",
+            "team": "K",
+            "x": 2,
+            "y": 2
+          }
+        ],
+        "response_ms": 21,
+        "stdout_bytes": 347,
+        "ownership_changes": [
+          {
+            "turn": 158,
+            "id": 5,
+            "type": "ENG",
+            "x": 1,
+            "y": 7,
+            "from": "N",
+            "to": "K",
+            "score_known_before": 2,
+            "before_local_units": [
+              [
+                "K",
+                "F",
+                1,
+                7,
+                1
+              ],
+              [
+                "K",
+                "W",
+                1,
+                7,
+                16
+              ]
+            ],
+            "after_cell_units": [
+              [
+                "K",
+                "F",
+                1,
+                7,
+                1
+              ],
+              [
+                "K",
+                "W",
+                1,
+                7,
+                16
+              ]
+            ]
+          },
+          {
+            "turn": 158,
+            "id": 7,
+            "type": "HOSPITAL",
+            "x": 2,
+            "y": 2,
+            "from": "Y",
+            "to": "N",
+            "score_known_before": 2,
+            "before_local_units": [
+              [
+                "Y",
+                "F",
+                4,
+                2,
+                1
+              ],
+              [
+                "Y",
+                "W",
+                3,
+                2,
+                7
+              ],
+              [
+                "Y",
+                "W",
+                4,
+                2,
+                24
+              ],
+              [
+                "K",
+                "F",
+                2,
+                1,
+                1
+              ],
+              [
+                "K",
+                "W",
+                2,
+                1,
+                14
+              ]
+            ],
+            "after_cell_units": [
+              [
+                "K",
+                "F",
+                2,
+                2,
+                1
+              ],
+              [
+                "K",
+                "W",
+                2,
+                2,
+                7
+              ]
+            ]
+          },
+          {
+            "turn": 158,
+            "id": 11,
+            "type": "STATION",
+            "x": 8,
+            "y": 12,
+            "from": "Y",
+            "to": "N",
+            "score_known_before": 4,
+            "before_local_units": [
+              [
+                "Y",
+                "W",
+                8,
+                10,
+                2
+              ],
+              [
+                "Y",
+                "W",
+                7,
+                11,
+                5
+              ],
+              [
+                "K",
+                "F",
+                9,
+                12,
+                1
+              ],
+              [
+                "K",
+                "W",
+                9,
+                12,
+                5
+              ]
+            ],
+            "after_cell_units": [
+              [
+                "K",
+                "F",
+                8,
+                12,
+                1
+              ],
+              [
+                "K",
+                "W",
+                8,
+                12,
+                5
+              ]
+            ]
+          }
+        ],
+        "own_transition": {
+          "production": {
+            "F": 0,
+            "W": 7,
+            "S": 0
+          },
+          "production_resource_cost": 14,
+          "unit_costs": {
+            "F": 5,
+            "W": 2,
+            "S": 2
+          },
+          "casualties": {
+            "F": 0,
+            "W": 10,
+            "S": 0
+          },
+          "casualty_cells": [
+            {
+              "kind": "W",
+              "x": 2,
+              "y": 2,
+              "count": 7
+            },
+            {
+              "kind": "W",
+              "x": 6,
+              "y": 7,
+              "count": 1
+            },
+            {
+              "kind": "W",
+              "x": 7,
+              "y": 6,
+              "count": 1
+            },
+            {
+              "kind": "W",
+              "x": 12,
+              "y": 12,
+              "count": 1
+            }
+          ],
+          "enemy_w_production_inferred": 3,
+          "enemy_w_unit_cost": 3
+        },
+        "command_input_observation_turn": 157
+      },
+      {
+        "turn": 159,
+        "phase": "AFTER_COMMANDS",
+        "transition_applied": true,
+        "public_scores": {
+          "K": 24,
+          "Y": 11
+        },
+        "legal_score_bounds": {
+          "Y": [
+            11,
+            11
+          ],
+          "K": [
+            24,
+            24
+          ],
+          "N": [
+            4,
+            4
+          ]
+        },
+        "known_building_scores": {
+          "3": 2,
+          "9": 1,
+          "16": 4,
+          "5": 2,
+          "0": 3,
+          "2": 1,
+          "8": 2,
+          "11": 4,
+          "13": 2,
+          "1": 1,
+          "14": 2,
+          "7": 2,
+          "12": 4,
+          "6": 2,
+          "15": 4,
+          "4": 2,
+          "10": 1
+        },
+        "units": {
+          "Y": {
+            "F": 4,
+            "W": 543,
+            "S": 0
+          },
+          "K": {
+            "F": 4,
+            "W": 95,
+            "S": 0
+          }
+        },
+        "resources": {
+          "K": 9,
+          "Y": 13
+        },
+        "building_counts": {
+          "Y": {
+            "HALL": 2,
+            "LIBRARY": 1,
+            "ENG": 1,
+            "STATION": 1,
+            "WATCH": 2
+          },
+          "K": {
+            "PLAZA": 1,
+            "LIBRARY": 1,
+            "ENG": 1,
+            "HOSPITAL": 2,
+            "STATION": 2,
+            "DEPOT": 2
+          }
+        },
+        "events": [
+          {
+            "buildingId": 8,
+            "kind": "battle",
+            "x": 12,
+            "y": 12
+          },
+          {
+            "buildingId": 0,
+            "kind": "battle",
+            "x": 7,
+            "y": 7
+          },
+          {
+            "kind": "battle",
+            "x": 5,
+            "y": 2
+          },
+          {
+            "buildingId": 11,
+            "kind": "capture",
+            "team": "K",
+            "x": 8,
+            "y": 12
+          },
+          {
+            "buildingId": 7,
+            "kind": "capture",
+            "team": "K",
+            "x": 2,
+            "y": 2
+          },
+          {
+            "buildingId": 12,
+            "kind": "neutral",
+            "team": "Y",
+            "x": 6,
+            "y": 2
+          }
+        ],
+        "response_ms": 13,
+        "stdout_bytes": 279,
+        "ownership_changes": [
+          {
+            "turn": 159,
+            "id": 7,
+            "type": "HOSPITAL",
+            "x": 2,
+            "y": 2,
+            "from": "N",
+            "to": "K",
+            "score_known_before": 2,
+            "before_local_units": [
+              [
+                "Y",
+                "W",
+                4,
+                2,
+                7
+              ],
+              [
+                "K",
+                "F",
+                2,
+                2,
+                1
+              ],
+              [
+                "K",
+                "W",
+                2,
+                2,
+                7
+              ]
+            ],
+            "after_cell_units": [
+              [
+                "K",
+                "F",
+                2,
+                2,
+                1
+              ],
+              [
+                "K",
+                "W",
+                2,
+                2,
+                7
+              ]
+            ]
+          },
+          {
+            "turn": 159,
+            "id": 11,
+            "type": "STATION",
+            "x": 8,
+            "y": 12,
+            "from": "N",
+            "to": "K",
+            "score_known_before": 4,
+            "before_local_units": [
+              [
+                "K",
+                "F",
+                8,
+                12,
+                1
+              ],
+              [
+                "K",
+                "W",
+                8,
+                10,
+                1
+              ],
+              [
+                "K",
+                "W",
+                9,
+                11,
+                1
+              ],
+              [
+                "K",
+                "W",
+                8,
+                12,
+                5
+              ],
+              [
+                "K",
+                "W",
+                10,
+                12,
+                1
+              ]
+            ],
+            "after_cell_units": [
+              [
+                "K",
+                "F",
+                8,
+                12,
+                1
+              ],
+              [
+                "K",
+                "W",
+                8,
+                12,
+                5
+              ]
+            ]
+          },
+          {
+            "turn": 159,
+            "id": 12,
+            "type": "STATION",
+            "x": 6,
+            "y": 2,
+            "from": "K",
+            "to": "N",
+            "score_known_before": 4,
+            "before_local_units": [
+              [
+                "Y",
+                "F",
+                5,
+                2,
+                1
+              ],
+              [
+                "Y",
+                "W",
+                4,
+                2,
+                7
+              ],
+              [
+                "Y",
+                "W",
+                5,
+                2,
+                24
+              ],
+              [
+                "Y",
+                "W",
+                6,
+                2,
+                185
+              ],
+              [
+                "K",
+                "W",
+                7,
+                1,
+                4
+              ],
+              [
+                "K",
+                "W",
+                8,
+                2,
+                2
+              ],
+              [
+                "K",
+                "W",
+                5,
+                3,
+                3
+              ]
+            ],
+            "after_cell_units": [
+              [
+                "Y",
+                "F",
+                6,
+                2,
+                1
+              ],
+              [
+                "Y",
+                "W",
+                6,
+                2,
+                209
+              ]
+            ]
+          }
+        ],
+        "own_transition": {
+          "production": {
+            "F": 0,
+            "W": 7,
+            "S": 0
+          },
+          "production_resource_cost": 14,
+          "unit_costs": {
+            "F": 5,
+            "W": 2,
+            "S": 2
+          },
+          "casualties": {
+            "F": 1,
+            "W": 4,
+            "S": 0
+          },
+          "casualty_cells": [
+            {
+              "kind": "W",
+              "x": 5,
+              "y": 2,
+              "count": 2
+            },
+            {
+              "kind": "W",
+              "x": 7,
+              "y": 7,
+              "count": 2
+            },
+            {
+              "kind": "F",
+              "x": 12,
+              "y": 12,
+              "count": 1
+            }
+          ],
+          "enemy_w_production_inferred": 3,
+          "enemy_w_unit_cost": 2
+        },
+        "command_input_observation_turn": 158
+      },
+      {
+        "turn": 160,
+        "phase": "AFTER_COMMANDS",
+        "transition_applied": true,
+        "public_scores": {
+          "K": 17,
+          "Y": 15
+        },
+        "legal_score_bounds": {
+          "Y": [
+            15,
+            15
+          ],
+          "K": [
+            17,
+            17
+          ],
+          "N": [
+            7,
+            7
+          ]
+        },
+        "known_building_scores": {
+          "3": 2,
+          "9": 1,
+          "16": 4,
+          "5": 2,
+          "0": 3,
+          "2": 1,
+          "8": 2,
+          "11": 4,
+          "13": 2,
+          "1": 1,
+          "14": 2,
+          "7": 2,
+          "12": 4,
+          "6": 2,
+          "15": 4,
+          "4": 2,
+          "10": 1
+        },
+        "units": {
+          "Y": {
+            "F": 4,
+            "W": 548,
+            "S": 0
+          },
+          "K": {
+            "F": 4,
+            "W": 94,
+            "S": 0
+          }
+        },
+        "resources": {
+          "K": 19,
+          "Y": 10
+        },
+        "building_counts": {
+          "Y": {
+            "HALL": 2,
+            "LIBRARY": 1,
+            "ENG": 1,
+            "STATION": 2,
+            "WATCH": 2
+          },
+          "K": {
+            "LIBRARY": 1,
+            "ENG": 1,
+            "HOSPITAL": 2,
+            "STATION": 2,
+            "DEPOT": 1
+          }
+        },
+        "events": [
+          {
+            "buildingId": 15,
+            "kind": "battle",
+            "x": 9,
+            "y": 4
+          },
+          {
+            "buildingId": 12,
+            "kind": "capture",
+            "team": "Y",
+            "x": 6,
+            "y": 2
+          },
+          {
+            "buildingId": 0,
+            "kind": "neutral",
+            "team": "Y",
+            "x": 7,
+            "y": 7
+          },
+          {
+            "buildingId": 16,
+            "kind": "neutral",
+            "team": "Y",
+            "x": 5,
+            "y": 10
+          }
+        ],
+        "response_ms": 15,
+        "stdout_bytes": 178,
+        "ownership_changes": [
+          {
+            "turn": 160,
+            "id": 0,
+            "type": "PLAZA",
+            "x": 7,
+            "y": 7,
+            "from": "K",
+            "to": "N",
+            "score_known_before": 3,
+            "before_local_units": [
+              [
+                "Y",
+                "F",
+                6,
+                7,
+                1
+              ],
+              [
+                "Y",
+                "W",
+                6,
+                7,
+                17
+              ],
+              [
+                "Y",
+                "W",
+                7,
+                7,
+                81
+              ],
+              [
+                "Y",
+                "W",
+                8,
+                7,
+                93
+              ],
+              [
+                "Y",
+                "W",
+                7,
+                8,
+                46
+              ],
+              [
+                "K",
+                "W",
+                7,
+                5,
+                4
+              ],
+              [
+                "K",
+                "W",
+                6,
+                6,
+                1
+              ],
+              [
+                "K",
+                "W",
+                7,
+                9,
+                1
+              ]
+            ],
+            "after_cell_units": [
+              [
+                "Y",
+                "F",
+                7,
+                7,
+                1
+              ],
+              [
+                "Y",
+                "W",
+                7,
+                7,
+                237
+              ]
+            ]
+          },
+          {
+            "turn": 160,
+            "id": 12,
+            "type": "STATION",
+            "x": 6,
+            "y": 2,
+            "from": "N",
+            "to": "Y",
+            "score_known_before": 4,
+            "before_local_units": [
+              [
+                "Y",
+                "F",
+                6,
+                2,
+                1
+              ],
+              [
+                "Y",
+                "W",
+                5,
+                2,
+                5
+              ],
+              [
+                "Y",
+                "W",
+                6,
+                2,
+                209
+              ],
+              [
+                "K",
+                "W",
+                7,
+                2,
+                6
+              ],
+              [
+                "K",
+                "W",
+                7,
+                3,
+                3
+              ]
+            ],
+            "after_cell_units": [
+              [
+                "Y",
+                "F",
+                6,
+                2,
+                1
+              ],
+              [
+                "Y",
+                "W",
+                6,
+                2,
+                214
+              ]
+            ]
+          },
+          {
+            "turn": 160,
+            "id": 16,
+            "type": "DEPOT",
+            "x": 5,
+            "y": 10,
+            "from": "K",
+            "to": "N",
+            "score_known_before": 4,
+            "before_local_units": [
+              [
+                "Y",
+                "F",
+                4,
+                10,
+                1
+              ],
+              [
+                "Y",
+                "F",
+                4,
+                11,
+                1
+              ],
+              [
+                "Y",
+                "W",
+                4,
+                10,
+                10
+              ],
+              [
+                "Y",
+                "W",
+                5,
+                10,
+                64
+              ],
+              [
+                "Y",
+                "W",
+                6,
+                10,
+                7
+              ],
+              [
+                "K",
+                "F",
+                4,
+                9,
+                1
+              ],
+              [
+                "K",
+                "W",
+                4,
+                9,
+                27
+              ],
+              [
+                "K",
+                "W",
+                7,
+                10,
+                1
+              ]
+            ],
+            "after_cell_units": [
+              [
+                "Y",
+                "F",
+                5,
+                10,
+                1
+              ],
+              [
+                "Y",
+                "W",
+                5,
+                10,
+                81
+              ]
+            ]
+          }
+        ],
+        "own_transition": {
+          "production": {
+            "F": 0,
+            "W": 6,
+            "S": 0
+          },
+          "production_resource_cost": 12,
+          "unit_costs": {
+            "F": 5,
+            "W": 2,
+            "S": 2
+          },
+          "casualties": {
+            "F": 0,
+            "W": 1,
+            "S": 0
+          },
+          "casualty_cells": [
+            {
+              "kind": "W",
+              "x": 9,
+              "y": 4,
+              "count": 1
+            }
+          ],
+          "enemy_w_production_inferred": 0,
+          "enemy_w_unit_cost": 2
+        },
+        "command_input_observation_turn": 159
+      }
+    ],
+    "redistribution_evidence": {
+      "gameId": "rolling-game-4d11bbabf02419ab956db2f20df6709ea27c41c42049c13ca20a9ae2f128bd3d",
+      "source": "/tmp/yk-new-bot-20261001/records/official/round-20261001-1000/raw/rolling-game-4d11bbabf02419ab956db2f20df6709ea27c41c42049c13ca20a9ae2f128bd3d.json",
+      "source_relative_to_archive": "../raw/rolling-game-4d11bbabf02419ab956db2f20df6709ea27c41c42049c13ca20a9ae2f128bd3d.json",
+      "source_sha256": "3f117f786e62bfc1bc99592c6b2bba8feee831b935c52ab3047e42ebe0eff95d",
+      "command_turn": 155,
+      "legal_input_observation_turn": 154,
+      "legal_input_observation": {
+        "buildings": [
+          {
+            "id": 0,
+            "owner": "K",
+            "score": 3,
+            "stage": 2,
+            "type": "PLAZA",
+            "x": 7,
+            "y": 7
+          },
+          {
+            "id": 1,
+            "owner": "Y",
+            "score": 1,
+            "stage": 2,
+            "type": "HALL",
+            "x": 3,
+            "y": 4
+          },
+          {
+            "id": 2,
+            "owner": "Y",
+            "score": 1,
+            "stage": 2,
+            "type": "HALL",
+            "x": 11,
+            "y": 10
+          },
+          {
+            "id": 3,
+            "owner": "Y",
+            "score": 2,
+            "stage": 2,
+            "type": "LIBRARY",
+            "x": 4,
+            "y": 12
+          },
+          {
+            "id": 4,
+            "owner": "K",
+            "score": 2,
+            "stage": 2,
+            "type": "LIBRARY",
+            "x": 10,
+            "y": 2
+          },
+          {
+            "id": 5,
+            "owner": "Y",
+            "score": 2,
+            "stage": 2,
+            "type": "ENG",
+            "x": 1,
+            "y": 7
+          },
+          {
+            "id": 6,
+            "owner": "Y",
+            "score": 2,
+            "stage": 2,
+            "type": "ENG",
+            "x": 13,
+            "y": 7
+          },
+          {
+            "id": 7,
+            "owner": "Y",
+            "score": 2,
+            "stage": 2,
+            "type": "HOSPITAL",
+            "x": 2,
+            "y": 2
+          },
+          {
+            "id": 8,
+            "owner": "K",
+            "score": 2,
+            "stage": 2,
+            "type": "HOSPITAL",
+            "x": 12,
+            "y": 12
+          },
+          {
+            "id": 9,
+            "owner": "Y",
+            "score": 1,
+            "stage": 2,
+            "type": "STATION",
+            "x": 2,
+            "y": 14
+          },
+          {
+            "id": 10,
+            "owner": "K",
+            "score": 1,
+            "stage": 2,
+            "type": "STATION",
+            "x": 12,
+            "y": 0
+          },
+          {
+            "id": 11,
+            "owner": "Y",
+            "score": 4,
+            "stage": 2,
+            "type": "STATION",
+            "x": 8,
+            "y": 12
+          },
+          {
+            "id": 12,
+            "owner": "K",
+            "score": 4,
+            "stage": 2,
+            "type": "STATION",
+            "x": 6,
+            "y": 2
+          },
+          {
+            "id": 13,
+            "owner": "Y",
+            "score": 2,
+            "stage": 2,
+            "type": "WATCH",
+            "x": 9,
+            "y": 10
+          },
+          {
+            "id": 14,
+            "owner": "Y",
+            "score": 2,
+            "stage": 2,
+            "type": "WATCH",
+            "x": 5,
+            "y": 4
+          },
+          {
+            "id": 15,
+            "owner": "K",
+            "score": 4,
+            "stage": 2,
+            "type": "DEPOT",
+            "x": 9,
+            "y": 4
+          },
+          {
+            "id": 16,
+            "owner": "K",
+            "score": 4,
+            "stage": 2,
+            "type": "DEPOT",
+            "x": 5,
+            "y": 10
+          }
+        ],
+        "events": [
+          {
+            "kind": "battle",
+            "x": 11,
+            "y": 11
+          },
+          {
+            "buildingId": 14,
+            "kind": "battle",
+            "x": 5,
+            "y": 4
+          },
+          {
+            "buildingId": 16,
+            "kind": "capture",
+            "team": "K",
+            "x": 5,
+            "y": 10
+          }
+        ],
+        "map": [
+          ".......#....B#.",
+          ".#....#........",
+          "..B...B..#B...H",
+          "......#.....#..",
+          "...B.B...B...#.",
+          "...#..........#",
+          "...............",
+          ".B.....B.....B.",
+          "...............",
+          "#..........#...",
+          ".#...B...B.B...",
+          "..#.....#......",
+          "H...B#..B...B..",
+          "........#....#.",
+          ".#B....#......."
+        ],
+        "myResponseMs": 16,
+        "myStdoutBytes": 188,
+        "occTurns": {
+          "K": null,
+          "Y": 3571
+        },
+        "resources": {
+          "K": 10,
+          "Y": 14
+        },
+        "scores": {
+          "K": 20,
+          "Y": 19
+        },
+        "side": "Y",
+        "turn": 154,
+        "units": [
+          [
+            "Y",
+            "F",
+            2,
+            3,
+            1
+          ],
+          [
+            "Y",
+            "F",
+            4,
+            4,
+            2
+          ],
+          [
+            "Y",
+            "F",
+            1,
+            8,
+            1
+          ],
+          [
+            "Y",
+            "F",
+            13,
+            9,
+            1
+          ],
+          [
+            "Y",
+            "F",
+            4,
+            11,
+            1
+          ],
+          [
+            "Y",
+            "W",
+            2,
+            2,
+            58
+          ],
+          [
+            "Y",
+            "W",
+            3,
+            4,
+            17
+          ],
+          [
+            "Y",
+            "W",
+            4,
+            4,
+            3
+          ],
+          [
+            "Y",
+            "W",
+            5,
+            4,
+            123
+          ],
+          [
+            "Y",
+            "W",
+            1,
+            7,
+            17
+          ],
+          [
+            "Y",
+            "W",
+            13,
+            7,
+            38
+          ],
+          [
+            "Y",
+            "W",
+            9,
+            10,
+            55
+          ],
+          [
+            "Y",
+            "W",
+            11,
+            10,
+            6
+          ],
+          [
+            "Y",
+            "W",
+            9,
+            11,
+            57
+          ],
+          [
+            "Y",
+            "W",
+            4,
+            12,
+            64
+          ],
+          [
+            "Y",
+            "W",
+            7,
+            12,
+            31
+          ],
+          [
+            "Y",
+            "W",
+            8,
+            12,
+            46
+          ],
+          [
+            "Y",
+            "W",
+            2,
+            13,
+            10
+          ],
+          [
+            "Y",
+            "W",
+            2,
+            14,
+            5
+          ],
+          [
+            "K",
+            "F",
+            2,
+            0,
+            1
+          ],
+          [
+            "K",
+            "F",
+            2,
+            6,
+            1
+          ],
+          [
+            "K",
+            "F",
+            5,
+            10,
+            1
+          ],
+          [
+            "K",
+            "F",
+            10,
+            11,
+            1
+          ],
+          [
+            "K",
+            "W",
+            2,
+            0,
+            14
+          ],
+          [
+            "K",
+            "W",
+            10,
+            1,
+            3
+          ],
+          [
+            "K",
+            "W",
+            11,
+            1,
+            4
+          ],
+          [
+            "K",
+            "W",
+            10,
+            2,
+            2
+          ],
+          [
+            "K",
+            "W",
+            13,
+            2,
+            4
+          ],
+          [
+            "K",
+            "W",
+            4,
+            3,
+            1
+          ],
+          [
+            "K",
+            "W",
+            7,
+            3,
+            3
+          ],
+          [
+            "K",
+            "W",
+            10,
+            4,
+            1
+          ],
+          [
+            "K",
+            "W",
+            10,
+            5,
+            5
+          ],
+          [
+            "K",
+            "W",
+            2,
+            6,
+            16
+          ],
+          [
+            "K",
+            "W",
+            10,
+            6,
+            3
+          ],
+          [
+            "K",
+            "W",
+            8,
+            7,
+            2
+          ],
+          [
+            "K",
+            "W",
+            9,
+            7,
+            1
+          ],
+          [
+            "K",
+            "W",
+            10,
+            7,
+            2
+          ],
+          [
+            "K",
+            "W",
+            7,
+            8,
+            1
+          ],
+          [
+            "K",
+            "W",
+            6,
+            9,
+            1
+          ],
+          [
+            "K",
+            "W",
+            5,
+            10,
+            26
+          ],
+          [
+            "K",
+            "W",
+            7,
+            10,
+            3
+          ],
+          [
+            "K",
+            "W",
+            8,
+            10,
+            2
+          ],
+          [
+            "K",
+            "W",
+            10,
+            11,
+            2
+          ],
+          [
+            "K",
+            "W",
+            11,
+            11,
+            2
+          ],
+          [
+            "K",
+            "W",
+            12,
+            12,
+            3
+          ]
+        ]
+      },
+      "actual_own_commands": {
+        "lines": [
+          "SPAWN W 7 2 2",
+          "MOVE 5 4 W 1 U",
+          "MOVE 2 3 F 1 U",
+          "MOVE 5 4 W 2 R",
+          "MOVE 4 4 F 1 R",
+          "MOVE 5 4 W 4 D",
+          "MOVE 4 4 F 1 D",
+          "MOVE 4 12 W 27 U",
+          "MOVE 1 8 F 1 D",
+          "MOVE 11 10 W 4 R",
+          "MOVE 13 9 F 1 D",
+          "MOVE 2 2 W 65 R",
+          "MOVE 3 4 W 17 U",
+          "MOVE 4 4 W 3 R",
+          "MOVE 5 4 W 116 U",
+          "MOVE 1 7 W 17 R",
+          "MOVE 13 7 W 38 L",
+          "MOVE 9 10 W 55 L",
+          "MOVE 11 10 W 2 L",
+          "MOVE 9 11 W 57 U",
+          "MOVE 4 12 W 37 U",
+          "MOVE 7 12 W 31 U",
+          "MOVE 8 12 W 46 L",
+          "MOVE 2 13 W 10 U",
+          "TELE 2 14 W 5 8 12",
+          "PRIORITY 6 2 9 4 7 7 5 10 12 12"
+        ],
+        "status": "ok"
+      },
+      "actual_output_observation": {
+        "buildings": [
+          {
+            "id": 0,
+            "owner": "K",
+            "score": 3,
+            "stage": 2,
+            "type": "PLAZA",
+            "x": 7,
+            "y": 7
+          },
+          {
+            "id": 1,
+            "owner": "Y",
+            "score": 1,
+            "stage": 2,
+            "type": "HALL",
+            "x": 3,
+            "y": 4
+          },
+          {
+            "id": 2,
+            "owner": "Y",
+            "score": 1,
+            "stage": 2,
+            "type": "HALL",
+            "x": 11,
+            "y": 10
+          },
+          {
+            "id": 3,
+            "owner": "Y",
+            "score": 2,
+            "stage": 2,
+            "type": "LIBRARY",
+            "x": 4,
+            "y": 12
+          },
+          {
+            "id": 4,
+            "owner": "K",
+            "score": 2,
+            "stage": 2,
+            "type": "LIBRARY",
+            "x": 10,
+            "y": 2
+          },
+          {
+            "id": 5,
+            "owner": "Y",
+            "score": 2,
+            "stage": 2,
+            "type": "ENG",
+            "x": 1,
+            "y": 7
+          },
+          {
+            "id": 6,
+            "owner": "Y",
+            "score": 2,
+            "stage": 2,
+            "type": "ENG",
+            "x": 13,
+            "y": 7
+          },
+          {
+            "id": 7,
+            "owner": "Y",
+            "score": 2,
+            "stage": 2,
+            "type": "HOSPITAL",
+            "x": 2,
+            "y": 2
+          },
+          {
+            "id": 8,
+            "owner": "K",
+            "score": 2,
+            "stage": 2,
+            "type": "HOSPITAL",
+            "x": 12,
+            "y": 12
+          },
+          {
+            "id": 9,
+            "owner": "Y",
+            "score": 1,
+            "stage": 2,
+            "type": "STATION",
+            "x": 2,
+            "y": 14
+          },
+          {
+            "id": 10,
+            "owner": "K",
+            "score": 1,
+            "stage": 2,
+            "type": "STATION",
+            "x": 12,
+            "y": 0
+          },
+          {
+            "id": 11,
+            "owner": "Y",
+            "score": 4,
+            "stage": 2,
+            "type": "STATION",
+            "x": 8,
+            "y": 12
+          },
+          {
+            "id": 12,
+            "owner": "K",
+            "score": 4,
+            "stage": 2,
+            "type": "STATION",
+            "x": 6,
+            "y": 2
+          },
+          {
+            "id": 13,
+            "owner": "Y",
+            "score": 2,
+            "stage": 2,
+            "type": "WATCH",
+            "x": 9,
+            "y": 10
+          },
+          {
+            "id": 14,
+            "owner": "Y",
+            "score": 2,
+            "stage": 2,
+            "type": "WATCH",
+            "x": 5,
+            "y": 4
+          },
+          {
+            "id": 15,
+            "owner": "K",
+            "score": 4,
+            "stage": 2,
+            "type": "DEPOT",
+            "x": 9,
+            "y": 4
+          },
+          {
+            "id": 16,
+            "owner": "K",
+            "score": 4,
+            "stage": 2,
+            "type": "DEPOT",
+            "x": 5,
+            "y": 10
+          }
+        ],
+        "events": [
+          {
+            "buildingId": 13,
+            "kind": "battle",
+            "x": 9,
+            "y": 10
+          },
+          {
+            "kind": "battle",
+            "x": 7,
+            "y": 11
+          }
+        ],
+        "map": [
+          ".......#....B#.",
+          ".#....#........",
+          "..B...B..#B...H",
+          "......#.....#..",
+          "...B.B...B...#.",
+          "...#..........#",
+          "...............",
+          ".B.....B.....B.",
+          "...............",
+          "#..........#...",
+          ".#...B...B.B...",
+          "..#.....#......",
+          "H...B#..B...B..",
+          "........#....#.",
+          ".#B....#......."
+        ],
+        "myResponseMs": 16,
+        "myStdoutBytes": 440,
+        "occTurns": {
+          "K": null,
+          "Y": 3590
+        },
+        "resources": {
+          "K": 11,
+          "Y": 14
+        },
+        "scores": {
+          "K": 20,
+          "Y": 19
+        },
+        "side": "Y",
+        "turn": 155,
+        "units": [
+          [
+            "Y",
+            "F",
+            2,
+            2,
+            1
+          ],
+          [
+            "Y",
+            "F",
+            5,
+            4,
+            1
+          ],
+          [
+            "Y",
+            "F",
+            4,
+            5,
+            1
+          ],
+          [
+            "Y",
+            "F",
+            1,
+            9,
+            1
+          ],
+          [
+            "Y",
+            "F",
+            13,
+            10,
+            1
+          ],
+          [
+            "Y",
+            "F",
+            4,
+            11,
+            1
+          ],
+          [
+            "Y",
+            "W",
+            3,
+            2,
+            65
+          ],
+          [
+            "Y",
+            "W",
+            3,
+            3,
+            17
+          ],
+          [
+            "Y",
+            "W",
+            5,
+            3,
+            117
+          ],
+          [
+            "Y",
+            "W",
+            5,
+            4,
+            3
+          ],
+          [
+            "Y",
+            "W",
+            6,
+            4,
+            2
+          ],
+          [
+            "Y",
+            "W",
+            5,
+            5,
+            4
+          ],
+          [
+            "Y",
+            "W",
+            2,
+            7,
+            17
+          ],
+          [
+            "Y",
+            "W",
+            12,
+            7,
+            38
+          ],
+          [
+            "Y",
+            "W",
+            8,
+            10,
+            55
+          ],
+          [
+            "Y",
+            "W",
+            9,
+            10,
+            55
+          ],
+          [
+            "Y",
+            "W",
+            10,
+            10,
+            2
+          ],
+          [
+            "Y",
+            "W",
+            12,
+            10,
+            4
+          ],
+          [
+            "Y",
+            "W",
+            4,
+            11,
+            64
+          ],
+          [
+            "Y",
+            "W",
+            7,
+            11,
+            28
+          ],
+          [
+            "Y",
+            "W",
+            2,
+            12,
+            10
+          ],
+          [
+            "Y",
+            "W",
+            7,
+            12,
+            46
+          ],
+          [
+            "Y",
+            "W",
+            8,
+            12,
+            5
+          ],
+          [
+            "K",
+            "F",
+            2,
+            0,
+            1
+          ],
+          [
+            "K",
+            "F",
+            2,
+            6,
+            1
+          ],
+          [
+            "K",
+            "F",
+            4,
+            10,
+            1
+          ],
+          [
+            "K",
+            "F",
+            10,
+            12,
+            1
+          ],
+          [
+            "K",
+            "W",
+            2,
+            0,
+            14
+          ],
+          [
+            "K",
+            "W",
+            10,
+            1,
+            4
+          ],
+          [
+            "K",
+            "W",
+            10,
+            2,
+            3
+          ],
+          [
+            "K",
+            "W",
+            12,
+            2,
+            4
+          ],
+          [
+            "K",
+            "W",
+            10,
+            3,
+            2
+          ],
+          [
+            "K",
+            "W",
+            4,
+            4,
+            1
+          ],
+          [
+            "K",
+            "W",
+            7,
+            4,
+            3
+          ],
+          [
+            "K",
+            "W",
+            10,
+            5,
+            1
+          ],
+          [
+            "K",
+            "W",
+            2,
+            6,
+            16
+          ],
+          [
+            "K",
+            "W",
+            10,
+            6,
+            5
+          ],
+          [
+            "K",
+            "W",
+            10,
+            7,
+            3
+          ],
+          [
+            "K",
+            "W",
+            8,
+            8,
+            2
+          ],
+          [
+            "K",
+            "W",
+            9,
+            8,
+            1
+          ],
+          [
+            "K",
+            "W",
+            10,
+            8,
+            2
+          ],
+          [
+            "K",
+            "W",
+            7,
+            9,
+            1
+          ],
+          [
+            "K",
+            "W",
+            4,
+            10,
+            26
+          ],
+          [
+            "K",
+            "W",
+            6,
+            10,
+            1
+          ],
+          [
+            "K",
+            "W",
+            10,
+            11,
+            2
+          ],
+          [
+            "K",
+            "W",
+            12,
+            11,
+            1
+          ],
+          [
+            "K",
+            "W",
+            10,
+            12,
+            2
+          ],
+          [
+            "K",
+            "W",
+            11,
+            12,
+            2
+          ],
+          [
+            "K",
+            "W",
+            12,
+            12,
+            3
+          ]
+        ]
+      }
+    },
+    "stationary_F_loss_evidence": {
+      "gameId": "rolling-game-4d11bbabf02419ab956db2f20df6709ea27c41c42049c13ca20a9ae2f128bd3d",
+      "source": "/tmp/yk-new-bot-20261001/records/official/round-20261001-1000/raw/rolling-game-4d11bbabf02419ab956db2f20df6709ea27c41c42049c13ca20a9ae2f128bd3d.json",
+      "source_relative_to_archive": "../raw/rolling-game-4d11bbabf02419ab956db2f20df6709ea27c41c42049c13ca20a9ae2f128bd3d.json",
+      "source_sha256": "3f117f786e62bfc1bc99592c6b2bba8feee831b935c52ab3047e42ebe0eff95d",
+      "command_turn": 159,
+      "legal_input_observation_turn": 158,
+      "legal_input_observation": {
+        "buildings": [
+          {
+            "id": 0,
+            "owner": "K",
+            "score": 3,
+            "stage": 2,
+            "type": "PLAZA",
+            "x": 7,
+            "y": 7
+          },
+          {
+            "id": 1,
+            "owner": "Y",
+            "score": 1,
+            "stage": 2,
+            "type": "HALL",
+            "x": 3,
+            "y": 4
+          },
+          {
+            "id": 2,
+            "owner": "Y",
+            "score": 1,
+            "stage": 2,
+            "type": "HALL",
+            "x": 11,
+            "y": 10
+          },
+          {
+            "id": 3,
+            "owner": "Y",
+            "score": 2,
+            "stage": 2,
+            "type": "LIBRARY",
+            "x": 4,
+            "y": 12
+          },
+          {
+            "id": 4,
+            "owner": "K",
+            "score": 2,
+            "stage": 2,
+            "type": "LIBRARY",
+            "x": 10,
+            "y": 2
+          },
+          {
+            "id": 5,
+            "owner": "K",
+            "score": 2,
+            "stage": 2,
+            "type": "ENG",
+            "x": 1,
+            "y": 7
+          },
+          {
+            "id": 6,
+            "owner": "Y",
+            "score": 2,
+            "stage": 2,
+            "type": "ENG",
+            "x": 13,
+            "y": 7
+          },
+          {
+            "id": 7,
+            "owner": "N",
+            "score": 2,
+            "stage": 1,
+            "type": "HOSPITAL",
+            "x": 2,
+            "y": 2
+          },
+          {
+            "id": 8,
+            "owner": "K",
+            "score": 2,
+            "stage": 2,
+            "type": "HOSPITAL",
+            "x": 12,
+            "y": 12
+          },
+          {
+            "id": 9,
+            "owner": "Y",
+            "score": 1,
+            "stage": 2,
+            "type": "STATION",
+            "x": 2,
+            "y": 14
+          },
+          {
+            "id": 10,
+            "owner": "K",
+            "score": 1,
+            "stage": 2,
+            "type": "STATION",
+            "x": 12,
+            "y": 0
+          },
+          {
+            "id": 11,
+            "owner": "N",
+            "score": 4,
+            "stage": 1,
+            "type": "STATION",
+            "x": 8,
+            "y": 12
+          },
+          {
+            "id": 12,
+            "owner": "K",
+            "score": 4,
+            "stage": 2,
+            "type": "STATION",
+            "x": 6,
+            "y": 2
+          },
+          {
+            "id": 13,
+            "owner": "Y",
+            "score": 2,
+            "stage": 2,
+            "type": "WATCH",
+            "x": 9,
+            "y": 10
+          },
+          {
+            "id": 14,
+            "owner": "Y",
+            "score": 2,
+            "stage": 2,
+            "type": "WATCH",
+            "x": 5,
+            "y": 4
+          },
+          {
+            "id": 15,
+            "owner": "K",
+            "score": 4,
+            "stage": 2,
+            "type": "DEPOT",
+            "x": 9,
+            "y": 4
+          },
+          {
+            "id": 16,
+            "owner": "K",
+            "score": 4,
+            "stage": 2,
+            "type": "DEPOT",
+            "x": 5,
+            "y": 10
+          }
+        ],
+        "events": [
+          {
+            "buildingId": 8,
+            "kind": "battle",
+            "x": 12,
+            "y": 12
+          },
+          {
+            "kind": "battle",
+            "x": 7,
+            "y": 6
+          },
+          {
+            "kind": "battle",
+            "x": 6,
+            "y": 7
+          },
+          {
+            "buildingId": 7,
+            "kind": "battle",
+            "x": 2,
+            "y": 2
+          },
+          {
+            "buildingId": 5,
+            "kind": "capture",
+            "team": "K",
+            "x": 1,
+            "y": 7
+          },
+          {
+            "buildingId": 11,
+            "kind": "neutral",
+            "team": "K",
+            "x": 8,
+            "y": 12
+          },
+          {
+            "buildingId": 7,
+            "kind": "neutral",
+            "team": "K",
+            "x": 2,
+            "y": 2
+          }
+        ],
+        "map": [
+          ".......#....B#.",
+          ".#....#........",
+          "..B...B..#B...H",
+          "......#.....#..",
+          "...B.B...B...#.",
+          "...#..........#",
+          "...............",
+          ".B.....B.....B.",
+          "...............",
+          "#..........#...",
+          ".#...B...B.B...",
+          "..#.....#......",
+          "H...B#..B...B..",
+          "........#....#.",
+          ".#B....#......."
+        ],
+        "myResponseMs": 21,
+        "myStdoutBytes": 347,
+        "occTurns": {
+          "K": null,
+          "Y": 3637
+        },
+        "resources": {
+          "K": 7,
+          "Y": 14
+        },
+        "scores": {
+          "K": 22,
+          "Y": 11
+        },
+        "side": "Y",
+        "turn": 158,
+        "units": [
+          [
+            "Y",
+            "F",
+            5,
+            2,
+            1
+          ],
+          [
+            "Y",
+            "F",
+            5,
+            7,
+            1
+          ],
+          [
+            "Y",
+            "F",
+            3,
+            10,
+            1
+          ],
+          [
+            "Y",
+            "F",
+            4,
+            11,
+            1
+          ],
+          [
+            "Y",
+            "F",
+            13,
+            12,
+            1
+          ],
+          [
+            "Y",
+            "W",
+            4,
+            2,
+            7
+          ],
+          [
+            "Y",
+            "W",
+            5,
+            2,
+            24
+          ],
+          [
+            "Y",
+            "W",
+            6,
+            2,
+            185
+          ],
+          [
+            "Y",
+            "W",
+            7,
+            4,
+            4
+          ],
+          [
+            "Y",
+            "W",
+            5,
+            7,
+            17
+          ],
+          [
+            "Y",
+            "W",
+            9,
+            7,
+            38
+          ],
+          [
+            "Y",
+            "W",
+            7,
+            8,
+            83
+          ],
+          [
+            "Y",
+            "W",
+            8,
+            8,
+            55
+          ],
+          [
+            "Y",
+            "W",
+            7,
+            9,
+            46
+          ],
+          [
+            "Y",
+            "W",
+            3,
+            10,
+            10
+          ],
+          [
+            "Y",
+            "W",
+            5,
+            10,
+            64
+          ],
+          [
+            "Y",
+            "W",
+            7,
+            10,
+            7
+          ],
+          [
+            "K",
+            "F",
+            2,
+            2,
+            1
+          ],
+          [
+            "K",
+            "F",
+            1,
+            7,
+            1
+          ],
+          [
+            "K",
+            "F",
+            4,
+            9,
+            1
+          ],
+          [
+            "K",
+            "F",
+            8,
+            12,
+            1
+          ],
+          [
+            "K",
+            "W",
+            7,
+            1,
+            4
+          ],
+          [
+            "K",
+            "W",
+            10,
+            1,
+            4
+          ],
+          [
+            "K",
+            "W",
+            2,
+            2,
+            7
+          ],
+          [
+            "K",
+            "W",
+            8,
+            2,
+            2
+          ],
+          [
+            "K",
+            "W",
+            13,
+            2,
+            4
+          ],
+          [
+            "K",
+            "W",
+            14,
+            2,
+            3
+          ],
+          [
+            "K",
+            "W",
+            5,
+            3,
+            3
+          ],
+          [
+            "K",
+            "W",
+            8,
+            3,
+            3
+          ],
+          [
+            "K",
+            "W",
+            9,
+            3,
+            1
+          ],
+          [
+            "K",
+            "W",
+            9,
+            4,
+            1
+          ],
+          [
+            "K",
+            "W",
+            4,
+            5,
+            1
+          ],
+          [
+            "K",
+            "W",
+            8,
+            5,
+            4
+          ],
+          [
+            "K",
+            "W",
+            7,
+            6,
+            1
+          ],
+          [
+            "K",
+            "W",
+            1,
+            7,
+            16
+          ],
+          [
+            "K",
+            "W",
+            7,
+            7,
+            2
+          ],
+          [
+            "K",
+            "W",
+            4,
+            9,
+            27
+          ],
+          [
+            "K",
+            "W",
+            8,
+            9,
+            1
+          ],
+          [
+            "K",
+            "W",
+            9,
+            9,
+            1
+          ],
+          [
+            "K",
+            "W",
+            8,
+            10,
+            1
+          ],
+          [
+            "K",
+            "W",
+            9,
+            11,
+            1
+          ],
+          [
+            "K",
+            "W",
+            10,
+            11,
+            1
+          ],
+          [
+            "K",
+            "W",
+            13,
+            11,
+            1
+          ],
+          [
+            "K",
+            "W",
+            8,
+            12,
+            5
+          ],
+          [
+            "K",
+            "W",
+            10,
+            12,
+            1
+          ],
+          [
+            "K",
+            "W",
+            12,
+            12,
+            1
+          ]
+        ]
+      },
+      "actual_own_commands": {
+        "lines": [
+          "SPAWN W 7",
+          "MOVE 5 2 F 1 R",
+          "MOVE 7 8 W 4 U",
+          "MOVE 5 7 F 1 R",
+          "MOVE 3 10 F 1 R",
+          "MOVE 13 12 F 1 L",
+          "MOVE 4 2 W 7 R",
+          "MOVE 5 2 W 24 R",
+          "MOVE 7 4 W 4 R",
+          "MOVE 5 7 W 17 R",
+          "MOVE 9 7 W 38 L",
+          "MOVE 7 8 W 79 U",
+          "MOVE 8 8 W 55 U",
+          "MOVE 7 9 W 46 U",
+          "MOVE 3 10 W 10 R",
+          "MOVE 7 10 W 7 L",
+          "PRIORITY 6 2 7 7 5 10 12 12"
+        ],
+        "status": "ok"
+      },
+      "actual_output_observation": {
+        "buildings": [
+          {
+            "id": 0,
+            "owner": "K",
+            "score": 3,
+            "stage": 2,
+            "type": "PLAZA",
+            "x": 7,
+            "y": 7
+          },
+          {
+            "id": 1,
+            "owner": "Y",
+            "score": 1,
+            "stage": 2,
+            "type": "HALL",
+            "x": 3,
+            "y": 4
+          },
+          {
+            "id": 2,
+            "owner": "Y",
+            "score": 1,
+            "stage": 2,
+            "type": "HALL",
+            "x": 11,
+            "y": 10
+          },
+          {
+            "id": 3,
+            "owner": "Y",
+            "score": 2,
+            "stage": 2,
+            "type": "LIBRARY",
+            "x": 4,
+            "y": 12
+          },
+          {
+            "id": 4,
+            "owner": "K",
+            "score": 2,
+            "stage": 2,
+            "type": "LIBRARY",
+            "x": 10,
+            "y": 2
+          },
+          {
+            "id": 5,
+            "owner": "K",
+            "score": 2,
+            "stage": 2,
+            "type": "ENG",
+            "x": 1,
+            "y": 7
+          },
+          {
+            "id": 6,
+            "owner": "Y",
+            "score": 2,
+            "stage": 2,
+            "type": "ENG",
+            "x": 13,
+            "y": 7
+          },
+          {
+            "id": 7,
+            "owner": "K",
+            "score": 2,
+            "stage": 2,
+            "type": "HOSPITAL",
+            "x": 2,
+            "y": 2
+          },
+          {
+            "id": 8,
+            "owner": "K",
+            "score": 2,
+            "stage": 2,
+            "type": "HOSPITAL",
+            "x": 12,
+            "y": 12
+          },
+          {
+            "id": 9,
+            "owner": "Y",
+            "score": 1,
+            "stage": 2,
+            "type": "STATION",
+            "x": 2,
+            "y": 14
+          },
+          {
+            "id": 10,
+            "owner": "K",
+            "score": 1,
+            "stage": 2,
+            "type": "STATION",
+            "x": 12,
+            "y": 0
+          },
+          {
+            "id": 11,
+            "owner": "K",
+            "score": 4,
+            "stage": 2,
+            "type": "STATION",
+            "x": 8,
+            "y": 12
+          },
+          {
+            "id": 12,
+            "owner": "N",
+            "score": 4,
+            "stage": 1,
+            "type": "STATION",
+            "x": 6,
+            "y": 2
+          },
+          {
+            "id": 13,
+            "owner": "Y",
+            "score": 2,
+            "stage": 2,
+            "type": "WATCH",
+            "x": 9,
+            "y": 10
+          },
+          {
+            "id": 14,
+            "owner": "Y",
+            "score": 2,
+            "stage": 2,
+            "type": "WATCH",
+            "x": 5,
+            "y": 4
+          },
+          {
+            "id": 15,
+            "owner": "K",
+            "score": 4,
+            "stage": 2,
+            "type": "DEPOT",
+            "x": 9,
+            "y": 4
+          },
+          {
+            "id": 16,
+            "owner": "K",
+            "score": 4,
+            "stage": 2,
+            "type": "DEPOT",
+            "x": 5,
+            "y": 10
+          }
+        ],
+        "events": [
+          {
+            "buildingId": 8,
+            "kind": "battle",
+            "x": 12,
+            "y": 12
+          },
+          {
+            "buildingId": 0,
+            "kind": "battle",
+            "x": 7,
+            "y": 7
+          },
+          {
+            "kind": "battle",
+            "x": 5,
+            "y": 2
+          },
+          {
+            "buildingId": 11,
+            "kind": "capture",
+            "team": "K",
+            "x": 8,
+            "y": 12
+          },
+          {
+            "buildingId": 7,
+            "kind": "capture",
+            "team": "K",
+            "x": 2,
+            "y": 2
+          },
+          {
+            "buildingId": 12,
+            "kind": "neutral",
+            "team": "Y",
+            "x": 6,
+            "y": 2
+          }
+        ],
+        "map": [
+          ".......#....B#.",
+          ".#....#........",
+          "..B...B..#B...H",
+          "......#.....#..",
+          "...B.B...B...#.",
+          "...#..........#",
+          "...............",
+          ".B.....B.....B.",
+          "...............",
+          "#..........#...",
+          ".#...B...B.B...",
+          "..#.....#......",
+          "H...B#..B...B..",
+          "........#....#.",
+          ".#B....#......."
+        ],
+        "myResponseMs": 13,
+        "myStdoutBytes": 279,
+        "occTurns": {
+          "K": null,
+          "Y": 3648
+        },
+        "resources": {
+          "K": 9,
+          "Y": 13
+        },
+        "scores": {
+          "K": 24,
+          "Y": 11
+        },
+        "side": "Y",
+        "turn": 159,
+        "units": [
+          [
+            "Y",
+            "F",
+            6,
+            2,
+            1
+          ],
+          [
+            "Y",
+            "F",
+            6,
+            7,
+            1
+          ],
+          [
+            "Y",
+            "F",
+            4,
+            10,
+            1
+          ],
+          [
+            "Y",
+            "F",
+            4,
+            11,
+            1
+          ],
+          [
+            "Y",
+            "W",
+            5,
+            2,
+            5
+          ],
+          [
+            "Y",
+            "W",
+            6,
+            2,
+            209
+          ],
+          [
+            "Y",
+            "W",
+            8,
+            4,
+            4
+          ],
+          [
+            "Y",
+            "W",
+            6,
+            7,
+            17
+          ],
+          [
+            "Y",
+            "W",
+            7,
+            7,
+            81
+          ],
+          [
+            "Y",
+            "W",
+            8,
+            7,
+            93
+          ],
+          [
+            "Y",
+            "W",
+            7,
+            8,
+            46
+          ],
+          [
+            "Y",
+            "W",
+            4,
+            10,
+            10
+          ],
+          [
+            "Y",
+            "W",
+            5,
+            10,
+            64
+          ],
+          [
+            "Y",
+            "W",
+            6,
+            10,
+            7
+          ],
+          [
+            "Y",
+            "W",
+            0,
+            12,
+            7
+          ],
+          [
+            "K",
+            "F",
+            2,
+            2,
+            1
+          ],
+          [
+            "K",
+            "F",
+            1,
+            7,
+            1
+          ],
+          [
+            "K",
+            "F",
+            4,
+            9,
+            1
+          ],
+          [
+            "K",
+            "F",
+            8,
+            12,
+            1
+          ],
+          [
+            "K",
+            "W",
+            9,
+            1,
+            2
+          ],
+          [
+            "K",
+            "W",
+            2,
+            2,
+            7
+          ],
+          [
+            "K",
+            "W",
+            7,
+            2,
+            6
+          ],
+          [
+            "K",
+            "W",
+            10,
+            2,
+            2
+          ],
+          [
+            "K",
+            "W",
+            12,
+            2,
+            4
+          ],
+          [
+            "K",
+            "W",
+            13,
+            2,
+            3
+          ],
+          [
+            "K",
+            "W",
+            7,
+            3,
+            3
+          ],
+          [
+            "K",
+            "W",
+            8,
+            3,
+            1
+          ],
+          [
+            "K",
+            "W",
+            5,
+            4,
+            1
+          ],
+          [
+            "K",
+            "W",
+            9,
+            4,
+            1
+          ],
+          [
+            "K",
+            "W",
+            7,
+            5,
+            4
+          ],
+          [
+            "K",
+            "W",
+            4,
+            6,
+            1
+          ],
+          [
+            "K",
+            "W",
+            6,
+            6,
+            1
+          ],
+          [
+            "K",
+            "W",
+            1,
+            7,
+            16
+          ],
+          [
+            "K",
+            "W",
+            4,
+            9,
+            27
+          ],
+          [
+            "K",
+            "W",
+            7,
+            9,
+            1
+          ],
+          [
+            "K",
+            "W",
+            8,
+            9,
+            1
+          ],
+          [
+            "K",
+            "W",
+            7,
+            10,
+            1
+          ],
+          [
+            "K",
+            "W",
+            9,
+            10,
+            1
+          ],
+          [
+            "K",
+            "W",
+            12,
+            11,
+            1
+          ],
+          [
+            "K",
+            "W",
+            8,
+            12,
+            5
+          ],
+          [
+            "K",
+            "W",
+            10,
+            12,
+            1
+          ],
+          [
+            "K",
+            "W",
+            11,
+            12,
+            1
+          ],
+          [
+            "K",
+            "W",
+            12,
+            12,
+            3
+          ],
+          [
+            "K",
+            "W",
+            13,
+            12,
+            1
+          ]
+        ]
+      }
+    },
+    "stationary_F_loss_probe": {
+      "turn": 159,
+      "actual_F_casualties": 1,
+      "F_casualties_enemy_no_spawn_no_move": 1,
+      "scope": "One-turn legal stationary opponent response from actual previous observation; no opponent-order recovery or whole-game result claim. Unknown building scores placeholder0 in SDK state do not enter spawn/move/combat counts."
+    },
+    "internal_mode": null,
+    "interpretation": "Observed troop redistribution after trailing, followed by loss of three formerly owned sites. Internal policy mode and alternate full-game outcome unverified."
+  },
+  "method": "All decisions evaluated using previous observation only; no future scores, opponent commands, or source-mode inference."
+}

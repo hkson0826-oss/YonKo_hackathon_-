@@ -1,0 +1,60 @@
+{
+  "created_at_utc": "2026-10-01T04:16:39.920699+00:00",
+  "expected_games": 24,
+  "downloaded_paths": 24,
+  "analyzed_games": 24,
+  "complete_round": true,
+  "outcomes": {
+    "loss": 12,
+    "win": 12
+  },
+  "forfeit_wins": 2,
+  "ordinary_wins": 10,
+  "errors": [],
+  "scope": "All downloaded current-round raw files; identity set and outcomes checked against authenticated match listing. Uses our previous observation and actual own commands. Enemy commands absent. No invented hidden scores.",
+  "own_spawn_move_transition_checks": 2712,
+  "limits": [
+    "Legal score bounds use current revealed values plus exact180degree score symmetry; unknown side scores remain null.",
+    "Observed economic loss/first F death is not automatically first causal strategy error.",
+    "Own spawn/move stages checked against SDK; no full official replay reproduction without opponent commands.",
+    "Stationary enemy probe is a one-turn legal response, not actual opponent reconstruction or proof of an alternate whole-game win.",
+    "Old rounds and local benchmark results are excluded.",
+    "Two terminal BEFORE_COMMANDS forfeit frames contain a successful own response but no applied actions; they are excluded from production, deaths and transition counts. Opponent forfeit cause is unavailable.",
+    "Server ZIP/source byte identity is unverified; internal policy mode cannot be inferred from observed move patterns alone."
+  ],
+  "raw_manifest_audit": {
+    "manifest_sha256": "caf8e61cd64dd05bfc20f0915d6554ecdb97839bca5642ab17bea4c1c63fbaa7",
+    "entries": 24,
+    "same_game_id_set": true,
+    "mismatches": []
+  },
+  "runtime_recorded": {
+    "own_response_count": 2714,
+    "own_status_counts": {
+      "ok": 2714
+    },
+    "first_turn_max_ms": 302,
+    "normal_turn_max_ms": 214,
+    "normal_over_300ms": 0,
+    "first_over_3000ms": 0,
+    "scope": "Official own-response telemetry, not enemy runtime, memory audit, or attribution of forfeit cause."
+  },
+  "termination_counts": {
+    "loss_instant_141_to_160": 5,
+    "win_score_141_to_160": 4,
+    "loss_instant_before_140": 4,
+    "loss_score_141_to_160": 3,
+    "win_instant_before_140": 6,
+    "win_forfeit": 2
+  },
+  "external_runtime_notice": {
+    "source": "https://yonsei-vs-korea-hackathon.kr/announcements",
+    "title": "[FAQ] 에이전트 CPU 사용 한도 및 실행 시간 관련",
+    "published_at": "2026-10-01 10:42:10 KST",
+    "provenance": "Root reported authenticated official-page read; this analyzer did not fetch page.",
+    "per_agent_vcpu": 0.25,
+    "normal_elapsed_ms": 300,
+    "first_elapsed_ms": 3000,
+    "scope": "This report uses actual official replay telemetry; do not equate separate unthrottled local arenas with this environment."
+  }
+}
