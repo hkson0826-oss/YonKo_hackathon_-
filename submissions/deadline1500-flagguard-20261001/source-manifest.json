@@ -1,0 +1,11 @@
+{
+  "base": "submissions/deadline-20260929-guard3",
+  "base_main_sha256": "61a4f25113d9bf2c387a59ddc770a3143de6311e3fd2e004827a66eb78edfbc9",
+  "frozen_at_kst": "2026-10-01T14:24:00+09:00",
+  "files": {
+    "main.cpp": "66d8d6e012e77c4c7b4b9effd6233bb00504b480988b559ac214a696dfbf0dc2",
+    "protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60"
+  }
+}

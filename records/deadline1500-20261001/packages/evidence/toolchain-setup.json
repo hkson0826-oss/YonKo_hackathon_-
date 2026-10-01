@@ -1,0 +1,142 @@
+{
+  "status": "ready",
+  "script_sha256": "37cab095d25ea2cefb99f797c2542782acd91c8825d02b5398289aba5af6c7df",
+  "temporary_directory": "/tmp/yk-gcc12-2bjbhm3o",
+  "debian_index": {
+    "url": "https://deb.debian.org/debian/dists/bookworm/main/binary-amd64/Packages.xz",
+    "sha256": "9e0b5aabb2465b3d2e7a7fe27f9913846277833f7a2826e7767acccff5b588c5",
+    "bytes": 8790396
+  },
+  "metadata_verification": "Official Debian HTTPS index; package SHA256 verified against it; OpenPGP signature not independently verified",
+  "packages": [
+    {
+      "name": "g++-12",
+      "version": "12.2.0-14+deb12u1",
+      "url": "https://deb.debian.org/debian/pool/main/g/gcc-12/g++-12_12.2.0-14+deb12u1_amd64.deb",
+      "sha256": "68b182badae4ace7d472f1393c559d3532a95a2d70817498b10bb481d2627251",
+      "bytes": 10694076
+    },
+    {
+      "name": "gcc-12",
+      "version": "12.2.0-14+deb12u1",
+      "url": "https://deb.debian.org/debian/pool/main/g/gcc-12/gcc-12_12.2.0-14+deb12u1_amd64.deb",
+      "sha256": "b46f33cc2ec245e435e043807038cecf4b201ef004800e9dfc1455240360e49d",
+      "bytes": 19268852
+    },
+    {
+      "name": "cpp-12",
+      "version": "12.2.0-14+deb12u1",
+      "url": "https://deb.debian.org/debian/pool/main/g/gcc-12/cpp-12_12.2.0-14+deb12u1_amd64.deb",
+      "sha256": "fedbb98e877adde83c983c6071537ea25ac52b277ac6e4637d85025949ca1454",
+      "bytes": 9767788
+    },
+    {
+      "name": "gcc-12-base",
+      "version": "12.2.0-14+deb12u1",
+      "url": "https://deb.debian.org/debian/pool/main/g/gcc-12/gcc-12-base_12.2.0-14+deb12u1_amd64.deb",
+      "sha256": "1896a2aacf4ad681ff5eacc24a5b0ca4d5d9c9b9c9e4b6de5197bc1e116ea619",
+      "bytes": 37596
+    },
+    {
+      "name": "libstdc++-12-dev",
+      "version": "12.2.0-14+deb12u1",
+      "url": "https://deb.debian.org/debian/pool/main/g/gcc-12/libstdc++-12-dev_12.2.0-14+deb12u1_amd64.deb",
+      "sha256": "d28def6c23630432b57cb38a4c2fd67a79d4e0484027386ca6e8d6005c3d7a73",
+      "bytes": 2047292
+    },
+    {
+      "name": "libgcc-12-dev",
+      "version": "12.2.0-14+deb12u1",
+      "url": "https://deb.debian.org/debian/pool/main/g/gcc-12/libgcc-12-dev_12.2.0-14+deb12u1_amd64.deb",
+      "sha256": "d720259380a84f2ffc6fe516eff5cbe9c8a005138e8d6a5748747ba4b3404a82",
+      "bytes": 2437204
+    },
+    {
+      "name": "libstdc++6",
+      "version": "12.2.0-14+deb12u1",
+      "url": "https://deb.debian.org/debian/pool/main/g/gcc-12/libstdc++6_12.2.0-14+deb12u1_amd64.deb",
+      "sha256": "5cd3171216d4ab0fc911cfe9c35509bf2dd8f47761c43b7f6a4296701551a24d",
+      "bytes": 612604
+    },
+    {
+      "name": "libgcc-s1",
+      "version": "12.2.0-14+deb12u1",
+      "url": "https://deb.debian.org/debian/pool/main/g/gcc-12/libgcc-s1_12.2.0-14+deb12u1_amd64.deb",
+      "sha256": "3016e62cb4b7cd8038822870601f5ed131befe942774d0f745622cc77d8a88f7",
+      "bytes": 49856
+    },
+    {
+      "name": "libc6",
+      "version": "2.36-9+deb12u14",
+      "url": "https://deb.debian.org/debian/pool/main/g/glibc/libc6_2.36-9+deb12u14_amd64.deb",
+      "sha256": "ba4f88f73dbc3ae9055f3c20f4523bfdbaf1ad13ff95e258924f77d20b4fbedf",
+      "bytes": 2759320
+    },
+    {
+      "name": "libc6-dev",
+      "version": "2.36-9+deb12u14",
+      "url": "https://deb.debian.org/debian/pool/main/g/glibc/libc6-dev_2.36-9+deb12u14_amd64.deb",
+      "sha256": "0218fc2befcd784c1b0c6292c0a137ce89fad054efaa579ad083bee0f2c01aae",
+      "bytes": 1903668
+    },
+    {
+      "name": "linux-libc-dev",
+      "version": "6.1.176-1",
+      "url": "https://deb.debian.org/debian/pool/main/l/linux/linux-libc-dev_6.1.176-1_amd64.deb",
+      "sha256": "8bb258735b9dffbb111da778ebdd024750878e435ffd9dfcadcb6762ede6b4cf",
+      "bytes": 2303828
+    }
+  ],
+  "direct_compiler_wrapper": {
+    "path": "/tmp/yk-gcc12-2bjbhm3o/gcc12-wrapper",
+    "sha256": "9b2398d9b4840711de187066233351e60ae48f2ee63727f92a3d97b935b5ed53",
+    "extra_link_options": [
+      "-Wl,--dynamic-linker,/tmp/yk-gcc12-2bjbhm3o/sysroot/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "-Wl,--disable-new-dtags,-rpath,/tmp/yk-gcc12-2bjbhm3o/sysroot/lib/x86_64-linux-gnu:/tmp/yk-gcc12-2bjbhm3o/sysroot/usr/lib/x86_64-linux-gnu"
+    ],
+    "lifetime": "Build and direct execution must finish inside gcc12_toolchain context"
+  },
+  "compiler": {
+    "argv": [
+      "/tmp/yk-gcc12-2bjbhm3o/sysroot/usr/bin/x86_64-linux-gnu-g++-12",
+      "--version"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.0013132430030964315,
+    "stdout": "x86_64-linux-gnu-g++-12 (Debian 12.2.0-14+deb12u1) 12.2.0\nCopyright (C) 2022 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+    "stderr": ""
+  },
+  "search_paths": {
+    "argv": [
+      "/tmp/yk-gcc12-2bjbhm3o/sysroot/usr/bin/x86_64-linux-gnu-g++-12",
+      "-B/tmp/yk-gcc12-2bjbhm3o/sysroot/usr/lib/gcc/x86_64-linux-gnu/12/",
+      "--sysroot=/tmp/yk-gcc12-2bjbhm3o/sysroot",
+      "-print-search-dirs"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.001095927000278607,
+    "stdout": "install: /tmp/yk-gcc12-2bjbhm3o/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/12/\nprograms: =/tmp/yk-gcc12-2bjbhm3o/sysroot/usr/lib/gcc/x86_64-linux-gnu/12/x86_64-linux-gnu/12/:/tmp/yk-gcc12-2bjbhm3o/sysroot/usr/lib/gcc/x86_64-linux-gnu/12/x86_64-linux-gnu/:/tmp/yk-gcc12-2bjbhm3o/sysroot/usr/lib/gcc/x86_64-linux-gnu/12/:/tmp/yk-gcc12-2bjbhm3o/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/12/:/tmp/yk-gcc12-2bjbhm3o/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/:/tmp/yk-gcc12-2bjbhm3o/sysroot/usr/bin/../lib/gcc/:/tmp/yk-gcc12-2bjbhm3o/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/12/:/tmp/yk-gcc12-2bjbhm3o/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/tmp/yk-gcc12-2bjbhm3o/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/bin/\nlibraries: =/tmp/yk-gcc12-2bjbhm3o/sysroot/usr/lib/gcc/x86_64-linux-gnu/12/x86_64-linux-gnu/12/:/tmp/yk-gcc12-2bjbhm3o/sysroot/usr/lib/gcc/x86_64-linux-gnu/12/x86_64-linux-gnu/:/tmp/yk-gcc12-2bjbhm3o/sysroot/usr/lib/gcc/x86_64-linux-gnu/12/:/tmp/yk-gcc12-2bjbhm3o/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/12/:/tmp/yk-gcc12-2bjbhm3o/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/:/tmp/yk-gcc12-2bjbhm3o/sysroot/usr/bin/../lib/gcc/:/tmp/yk-gcc12-2bjbhm3o/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/12/:/tmp/yk-gcc12-2bjbhm3o/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/tmp/yk-gcc12-2bjbhm3o/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/lib/../lib/:/tmp/yk-gcc12-2bjbhm3o/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/12/:/tmp/yk-gcc12-2bjbhm3o/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/tmp/yk-gcc12-2bjbhm3o/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/tmp/yk-gcc12-2bjbhm3o/sysroot/lib/x86_64-linux-gnu/12/:/tmp/yk-gcc12-2bjbhm3o/sysroot/lib/x86_64-linux-gnu/:/tmp/yk-gcc12-2bjbhm3o/sysroot/lib/../lib/:/tmp/yk-gcc12-2bjbhm3o/sysroot/usr/lib/x86_64-linux-gnu/12/:/tmp/yk-gcc12-2bjbhm3o/sysroot/usr/lib/x86_64-linux-gnu/:/tmp/yk-gcc12-2bjbhm3o/sysroot/usr/lib/../lib/:/tmp/yk-gcc12-2bjbhm3o/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/lib/:/tmp/yk-gcc12-2bjbhm3o/sysroot/usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../:/tmp/yk-gcc12-2bjbhm3o/sysroot/lib/:/tmp/yk-gcc12-2bjbhm3o/sysroot/usr/lib/\n",
+    "stderr": ""
+  },
+  "host_assembler": {
+    "argv": [
+      "as",
+      "--version"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.0014627060008933768,
+    "stdout": "GNU assembler (GNU Binutils) 2.47\nCopyright (C) 2026 Free Software Foundation, Inc.\nThis program is free software; you may redistribute it under the terms of\nthe GNU General Public License version 3 or later.\nThis program has absolutely no warranty.\nThis assembler was configured for a target of `x86_64-pc-linux-gnu'.\n",
+    "stderr": ""
+  },
+  "host_linker": {
+    "argv": [
+      "ld",
+      "--version"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.001528608991065994,
+    "stdout": "GNU ld (GNU Binutils) 2.47\nCopyright (C) 2026 Free Software Foundation, Inc.\nThis program is free software; you may redistribute it under the terms of\nthe GNU General Public License version 3 or (at your option) a later version.\nThis program has absolutely no warranty.\n",
+    "stderr": ""
+  },
+  "wrapper": "/tmp/yk-gcc12-2bjbhm3o/gcc12-wrapper"
+}

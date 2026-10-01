@@ -1,0 +1,7 @@
+{
+  "status": "failed",
+  "script_sha256": "37cab095d25ea2cefb99f797c2542782acd91c8825d02b5398289aba5af6c7df",
+  "temporary_directory": "/tmp/yk-gcc12-b7eld1nb",
+  "temporary_directory_removed": true,
+  "error": "URLError(gaierror(-3, 'Temporary failure in name resolution'))"
+}

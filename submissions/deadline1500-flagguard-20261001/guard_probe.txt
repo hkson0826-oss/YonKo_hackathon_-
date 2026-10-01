@@ -1,0 +1,22 @@
+#define main submission_main
+#include "main.cpp"
+#undef main
+int main() {
+ State s; int us, count; cin>>s.turn>>us>>s.res[0]>>s.res[1];
+ fill(board.at,board.at+N,-1);
+ for(int c=0;c<N;++c) cin>>board.pass[c];
+ for(int c=0;c<N;++c) if(board.pass[c]) for(auto [dx,dy]:{pair{0,-1},pair{0,1},pair{-1,0},pair{1,0}}) {
+  int x=c%15+dx,y=c/15+dy; if(x>=0&&x<15&&y>=0&&y<15&&board.pass[x+15*y]) board.adj[c].push_back(x+15*y);
+ }
+ for(int c=0;c<N;++c) {fill(board.dist[c],board.dist[c]+N,INF);queue<int>q;q.push(c);board.dist[c][c]=0;while(!q.empty()){int x=q.front();q.pop();for(int y:board.adj[x])if(board.dist[c][y]==INF){board.dist[c][y]=board.dist[c][x]+1;q.push(y);}}}
+ cin>>board.base[0]>>board.base[1]>>board.nb;
+ for(int b=0;b<board.nb;++b){cin>>board.pos[b]>>board.type[b]>>s.owner[b]>>s.stage[b];board.at[board.pos[b]]=b;}
+ cin>>count;while(count--){int t,k,c,n;cin>>t>>k>>c>>n;s.u[t][k][c]=n;}
+ Action a;cin>>count;while(count--){Production p;cin>>p.kind>>p.pos>>p.count;a.spawn.push_back(p);}
+ cin>>count;while(count--){Movement m;cin>>m.kind>>m.from>>m.to>>m.count>>m.tele;a.moves.push_back(m);}
+ cin>>count;while(count--){int b;cin>>b;a.priority.push_back(b);}
+ a=visible_flag_guard(s,us,a);
+ for(auto p:a.spawn) {cout<<"SPAWN "<<kinds[p.kind]<<" "<<p.count;if(p.pos!=board.base[us])cout<<" "<<p.pos%15<<" "<<p.pos/15;cout<<"\n";}
+ for(auto m:a.moves){if(m.tele)cout<<"TELE "<<m.from%15<<" "<<m.from/15<<" "<<kinds[m.kind]<<" "<<m.count<<" "<<m.to%15<<" "<<m.to/15;else{int d=m.to-m.from;cout<<"MOVE "<<m.from%15<<" "<<m.from/15<<" "<<kinds[m.kind]<<" "<<m.count<<" "<<(d==1?"R":d==-1?"L":d==15?"D":"U");}cout<<"\n";}
+ if(!a.priority.empty()){cout<<"PRIORITY";for(int b:a.priority)cout<<" "<<board.pos[b]%15<<" "<<board.pos[b]/15;cout<<"\n";}
+}

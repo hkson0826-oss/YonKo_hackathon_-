@@ -1,0 +1,54 @@
+--- v8/main.cpp
++++ flagguard/main.cpp
+@@ -1057,6 +1057,43 @@
+     return assemble();
+ }
+ 
++// Check escorts after every accepted production and W departure/arrival.
++Action visible_flag_guard(const State& s, int us, const Action& input) {
++    Action action = a_clean(s, us, input);
++    int support[N], pressure[N];
++    for (int c = 0; c < N; ++c) {
++        support[c] = s.u[us][W][c];
++        pressure[c] = s.u[1-us][W][c];
++        for (int from : board.adj[c]) pressure[c] += s.u[1-us][W][from];
++    }
++    for (const auto& p : action.spawn) if (p.kind == W) support[p.pos] += p.count;
++    for (const auto& m : action.moves) if (m.kind == W) {
++        support[m.from] -= m.count;
++        support[m.to] += m.count;
++    }
++    vector<Movement> moves;
++    for (auto m : action.moves) {
++        if (m.kind == F && s.u[1-us][W][m.to] > support[m.to]) {
++            int best = -1, best_risk = INF, best_distance = INF;
++            vector<int> choices = board.adj[m.from];
++            choices.push_back(m.from);
++            for (int c : choices) {
++                if (s.u[1-us][W][c] > support[c]) continue;
++                int risk = max(0, pressure[c] - support[c]);
++                int distance = board.dist[c][m.to];
++                if (best < 0 || risk < best_risk || (risk == best_risk && distance < best_distance)) {
++                    best = c; best_risk = risk; best_distance = distance;
++                }
++            }
++            if (best < 0 || best == m.from) continue;
++            m.to = best; m.tele = false;
++        }
++        moves.push_back(m);
++    }
++    action.moves = move(moves);
++    return action;
++}
++
+ Action s3_decide(const State& s,int us,AClock::time_point start,double limit=135.0) {
+     return deadline_guard(s,us,guard1_base_decide(s,us,start,limit));
+ }
+@@ -1086,6 +1123,7 @@
+         s.claimed[t][b] = depot_history[t][b]; s.occupation[t] += occupation_history[t][b]*s.score[b];
+     }
+     Action a=forced_policy>=0?policy(s,us,forced_policy):s3_decide(s,us,start);
++    a = visible_flag_guard(s, us, a);
+     vector<string> out;
+     for (auto x : a.spawn) {
+         if (x.pos==board.base[us]) out.push_back(p::spawn(string(1,kinds[x.kind]),x.count));

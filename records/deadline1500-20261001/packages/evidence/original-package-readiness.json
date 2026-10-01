@@ -1,0 +1,57 @@
+{
+  "created_at_utc": "2026-10-01T05:30:03.814176+00:00",
+  "status": "all_four_packages_ready_before_selection_complete",
+  "selection_plan_sha256": "7814f7575e615b3c22514cf02c322097f37d18223cd80e4ecc64694421030b0d",
+  "records": [
+    {
+      "candidate": "v8",
+      "zip": "/tmp/yk-deadline1500-package-review/v8-frozen-preview.zip",
+      "zip_sha256": "07689054fa1723b90e96630d34d5e28e6864137672222aba56cf3c2af293d631",
+      "status": "exact_zip_gcc12_sdk_pass",
+      "source_files_match_selection": true,
+      "binary_matches_selection": true,
+      "binary_sha256": "93437de7e0ef5fa555f5318c4f6ea4c4c3a3481eb48d888b82ee4b5f366ee245",
+      "dynamic_dependencies": "\tlinux-vdso.so.1 (0x00007f1ae4562000)\n\tlibstdc++.so.6 => /tmp/yk-gcc12-2bjbhm3o/sysroot/usr/lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007f1ae4200000)\n\tlibm.so.6 => /tmp/yk-gcc12-2bjbhm3o/sysroot/lib/x86_64-linux-gnu/libm.so.6 (0x00007f1ae441e000)\n\tlibgcc_s.so.1 => /tmp/yk-gcc12-2bjbhm3o/sysroot/lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007f1ae41e0000)\n\tlibc.so.6 => /tmp/yk-gcc12-2bjbhm3o/sysroot/lib/x86_64-linux-gnu/libc.so.6 (0x00007f1ae3ffe000)\n\t/tmp/yk-gcc12-2bjbhm3o/sysroot/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 (0x00007f1ae4564000)\n",
+      "sdk_issues": [],
+      "sdk_warnings": []
+    },
+    {
+      "candidate": "mission4",
+      "zip": "/tmp/yk-deadline1500-package-review/mission4-frozen-preview.zip",
+      "zip_sha256": "d83b6831fff05c34a24c7c42ff374d1a2b4b7f65d2fbdfc5f3d7b74e9e9989ff",
+      "status": "exact_zip_gcc12_sdk_pass",
+      "source_files_match_selection": true,
+      "binary_matches_selection": true,
+      "binary_sha256": "a5e1cb8d7a113d9c271df89f6a4b12697ec9cc00e8b1968b3a364e6181e82cc2",
+      "dynamic_dependencies": "\tlinux-vdso.so.1 (0x00007f888e349000)\n\tlibstdc++.so.6 => /tmp/yk-gcc12-2bjbhm3o/sysroot/usr/lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007f888e000000)\n\tlibgcc_s.so.1 => /tmp/yk-gcc12-2bjbhm3o/sysroot/lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007f888e2c5000)\n\tlibc.so.6 => /tmp/yk-gcc12-2bjbhm3o/sysroot/lib/x86_64-linux-gnu/libc.so.6 (0x00007f888de1e000)\n\tlibm.so.6 => /tmp/yk-gcc12-2bjbhm3o/sysroot/lib/x86_64-linux-gnu/libm.so.6 (0x00007f888dd3e000)\n\t/tmp/yk-gcc12-2bjbhm3o/sysroot/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 (0x00007f888e34b000)\n",
+      "sdk_issues": [],
+      "sdk_warnings": []
+    },
+    {
+      "candidate": "v9_lock",
+      "zip": "/tmp/yk-deadline1500-package-review/v9_lock-frozen-preview.zip",
+      "zip_sha256": "89baa2b9861e86121744e6245e45f08472da5ceaaf5e8053b70d3d0fe542bf80",
+      "status": "exact_zip_gcc12_sdk_pass",
+      "source_files_match_selection": true,
+      "binary_matches_selection": true,
+      "binary_sha256": "0daf55b77b6874f9934d497393e46e4d924cff8b43a267ae8f15cc24ed677ebf",
+      "dynamic_dependencies": "\tlinux-vdso.so.1 (0x00007fb393c77000)\n\tlibstdc++.so.6 => /tmp/yk-gcc12-2bjbhm3o/sysroot/usr/lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007fb393800000)\n\tlibm.so.6 => /tmp/yk-gcc12-2bjbhm3o/sysroot/lib/x86_64-linux-gnu/libm.so.6 (0x00007fb393b1c000)\n\tlibgcc_s.so.1 => /tmp/yk-gcc12-2bjbhm3o/sysroot/lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007fb393afc000)\n\tlibc.so.6 => /tmp/yk-gcc12-2bjbhm3o/sysroot/lib/x86_64-linux-gnu/libc.so.6 (0x00007fb39361e000)\n\t/tmp/yk-gcc12-2bjbhm3o/sysroot/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 (0x00007fb393c79000)\n",
+      "sdk_issues": [],
+      "sdk_warnings": []
+    },
+    {
+      "candidate": "v8_flagguard",
+      "zip": "/tmp/yk-deadline1500-package-review/flagguard-frozen-preview.zip",
+      "zip_sha256": "a2ddbeb96df0707aad7d7a81c7ef202d99995c4b493ac6d07fec00f3a09d7d21",
+      "status": "exact_zip_gcc12_sdk_pass",
+      "source_files_match_selection": true,
+      "binary_matches_selection": true,
+      "binary_sha256": "190e96f3db001005258341eee66c2ba80f52144a2c16adcf127b0cdc1eb97021",
+      "dynamic_dependencies": "\tlinux-vdso.so.1 (0x00007f44be057000)\n\tlibstdc++.so.6 => /tmp/yk-gcc12-2bjbhm3o/sysroot/usr/lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007f44bdc00000)\n\tlibm.so.6 => /tmp/yk-gcc12-2bjbhm3o/sysroot/lib/x86_64-linux-gnu/libm.so.6 (0x00007f44bdf12000)\n\tlibgcc_s.so.1 => /tmp/yk-gcc12-2bjbhm3o/sysroot/lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007f44bdef2000)\n\tlibc.so.6 => /tmp/yk-gcc12-2bjbhm3o/sysroot/lib/x86_64-linux-gnu/libc.so.6 (0x00007f44bda1e000)\n\t/tmp/yk-gcc12-2bjbhm3o/sysroot/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 (0x00007f44be059000)\n",
+      "sdk_issues": [],
+      "sdk_warnings": []
+    }
+  ],
+  "scope": "ActualZIP source hashes and rebuilt binary hashes match frozen GCC12 selection plan exactly. No candidate strength/adoption decision. Root selects after complete fresh selection/confirmation and uploads chosen identical ZIP bytes.",
+  "toolchain_cleanup": "Pending until league completion or14:48; service still owns temporary toolchain."
+}

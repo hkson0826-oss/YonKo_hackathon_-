@@ -1,0 +1,20 @@
+{
+  "files_sha256": {
+    "README.md": "95e4e72748ed25127489709c755edbbcb6f0eabb08042cca7ebf297913967499",
+    "evidence/flagguard-exact-zip-gcc12.json": "2e69ba9a85787d21bac482822c25029b0dad530d4b49e12cfd0e4d037d3b7377",
+    "evidence/keep_gcc12-original.py": "37cab095d25ea2cefb99f797c2542782acd91c8825d02b5398289aba5af6c7df",
+    "evidence/mission4-exact-zip-gcc12.json": "03a2520d0f2544e90a0e953f4931d42b637917b13164b498fb3ea94df1fdb5d3",
+    "evidence/original-package-readiness.json": "6cc8117bfc4957b8f4382ef03b0c1f1c844023ba8b925aa1823f78fdaf9bc8d0",
+    "evidence/toolchain-initial-dns-failure.json": "9c37e4810662af0e7bc02444037e4cfffb7770050d6f92aa8ef5923cd4528efe",
+    "evidence/toolchain-setup.json": "41a2e56be40f995d647495ccae7e9aea9830384066787a9fae8de520048a8089",
+    "evidence/v8-exact-zip-gcc12.json": "6c3db436f5e658343455541f673f00d0fc12fe27f51ce9883e8e8bcad57cedac",
+    "evidence/v9_lock-exact-zip-gcc12.json": "89dbaa9b7922bb55785df7d1617b6eb40c091c47e40265fa3f9ad2470853b5d6",
+    "manifest.json": "3e960b3737b19d4e3f9542101d66643775639e5e93902df90f0667fd90dc1600",
+    "reviews/flagguard-read-only-review.json": "dfe1fbebad768f2bffc2fd2524bf035a1dc30e955eeb55f3075b35751c768b9a",
+    "reviews/harness-read-only-review-v2.json": "6d28f72d743afddfdaa75e02e12e16b6c1d4de32ebf4a40c2ef5f752e2d053a6",
+    "reviews/harness-read-only-review.json": "cf9a88fcb07d0006c43223f27e863be37107b9b423db40805fdecd547ac3c6f5"
+  },
+  "zip_bytes_copied_without_repacking": true,
+  "no_source_edits": true,
+  "no_git_operations": true
+}

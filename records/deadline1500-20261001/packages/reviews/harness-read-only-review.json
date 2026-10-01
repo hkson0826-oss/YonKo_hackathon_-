@@ -1,0 +1,21 @@
+{
+  "at_utc": "2026-10-01T05:25:52.197958+00:00",
+  "scope": "Read-only startup inspection; no games/results inspected for selection",
+  "files_sha256": {
+    "parallel_matches.py": "f4c5fee867ff78226d249b0fdf9b8d318df334523cd0ea72d80328e204089093",
+    "scope_runtime.py": "780cfcb6ca6065bddd335e2f906a348ef9efa3e86bfb2a785ef6699d1f8916cb"
+  },
+  "correct_paths": [
+    "Each worker creates two independent ScopedBot instances and closes them in finally; an atexit fallback covers registered scopes.",
+    "Worker game deadline is min(180 seconds, hard-cutoff remainder); scheduler stops starting games40seconds before hard cutoff.",
+    "Incomplete/crashed rows are recorded as errors and cannot make summary.complete true.",
+    "Only completed rows enter points; complete phase still requires all128 or64 planned rows.",
+    "Draw handling and per-side score_difference use SDK result.score; first-turn3000ms comes from SDK balance.json."
+  ],
+  "reported_boundary_risks": [
+    "Parent KeyboardInterrupt wait(timeout30) has no TimeoutExpired recovery. Delayed cleanup can escape summary finalization.",
+    "Parent hard-cutoff loop has no second bounded kill/final-cleanup escalation if worker remains stuck while ignoring SIGTERM in cleanup.",
+    "Aggregate.forfeits includes opponent and candidate forfeits; use raw result.forfeit.team/cause for attribution."
+  ],
+  "implementation_edits": false
+}

@@ -1,0 +1,444 @@
+{
+  "created_at_utc": "2026-10-01T05:33:54.865896+00:00",
+  "scope": "Four prepared candidates, before adoption decision. Exact copied ZIP bytes, four source files and GCC12 binary hashes checked against the frozen selection plan. SDK smoke is not a strength or quota test.",
+  "selection_plan": "../arena/plan.json",
+  "selection_plan_sha256": "7814f7575e615b3c22514cf02c322097f37d18223cd80e4ecc64694421030b0d",
+  "compiler": "Debian GCC12.2.0-14+deb12u1, C++20, O2",
+  "toolchain_evidence": "evidence/toolchain-setup.json",
+  "records": [
+    {
+      "candidate": "v8",
+      "artifact": "artifacts/deadline1500-20261001-v8.zip",
+      "artifact_from_this_directory": "../../../artifacts/deadline1500-20261001-v8.zip",
+      "zip_sha256": "07689054fa1723b90e96630d34d5e28e6864137672222aba56cf3c2af293d631",
+      "zip_bytes": 15847,
+      "source_directory": "../arena/sources/v8",
+      "source_files_sha256": {
+        "generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+        "main.cpp": "61a4f25113d9bf2c387a59ddc770a3143de6311e3fd2e004827a66eb78edfbc9",
+        "protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+        "submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60"
+      },
+      "binary_sha256": "93437de7e0ef5fa555f5318c4f6ea4c4c3a3481eb48d888b82ee4b5f366ee245",
+      "binary_matches_frozen_selection": true,
+      "zip_inspection": {
+        "ok": true,
+        "language": "cpp",
+        "issues": []
+      },
+      "gcc12_build_returncode": 0,
+      "sdk_result": {
+        "ok": true,
+        "issues": [],
+        "result": {
+          "winner": "Y",
+          "reason": "instant",
+          "score": {
+            "Y": 18,
+            "K": 0
+          },
+          "turns": 10,
+          "seed": 23599
+        },
+        "output_usage": {
+          "stdout_bytes": 3366,
+          "stderr_bytes": 0,
+          "max_line_bytes": 87,
+          "turns": [
+            {
+              "turn": 1,
+              "bytes": 131,
+              "lines": 5
+            },
+            {
+              "turn": 2,
+              "bytes": 161,
+              "lines": 7
+            },
+            {
+              "turn": 3,
+              "bytes": 201,
+              "lines": 10
+            },
+            {
+              "turn": 4,
+              "bytes": 256,
+              "lines": 14
+            },
+            {
+              "turn": 5,
+              "bytes": 297,
+              "lines": 17
+            },
+            {
+              "turn": 6,
+              "bytes": 313,
+              "lines": 18
+            },
+            {
+              "turn": 7,
+              "bytes": 426,
+              "lines": 25
+            },
+            {
+              "turn": 8,
+              "bytes": 461,
+              "lines": 27
+            },
+            {
+              "turn": 9,
+              "bytes": 537,
+              "lines": 32
+            },
+            {
+              "turn": 10,
+              "bytes": 583,
+              "lines": 35
+            }
+          ],
+          "unfinished_turn": {
+            "turn": 11,
+            "bytes": 0,
+            "lines": 0
+          },
+          "warnings": []
+        },
+        "warnings": []
+      },
+      "sdk_evidence": "evidence/v8-exact-zip-gcc12.json",
+      "dependencies_resolved_within_debian_sysroot": true,
+      "dependency_resolution": "\tlinux-vdso.so.1 (0x00007f1ae4562000)\n\tlibstdc++.so.6 => /tmp/yk-gcc12-2bjbhm3o/sysroot/usr/lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007f1ae4200000)\n\tlibm.so.6 => /tmp/yk-gcc12-2bjbhm3o/sysroot/lib/x86_64-linux-gnu/libm.so.6 (0x00007f1ae441e000)\n\tlibgcc_s.so.1 => /tmp/yk-gcc12-2bjbhm3o/sysroot/lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007f1ae41e0000)\n\tlibc.so.6 => /tmp/yk-gcc12-2bjbhm3o/sysroot/lib/x86_64-linux-gnu/libc.so.6 (0x00007f1ae3ffe000)\n\t/tmp/yk-gcc12-2bjbhm3o/sysroot/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 (0x00007f1ae4564000)\n",
+      "required_command_line_arguments": []
+    },
+    {
+      "candidate": "mission4",
+      "artifact": "artifacts/deadline1500-20261001-mission4.zip",
+      "artifact_from_this_directory": "../../../artifacts/deadline1500-20261001-mission4.zip",
+      "zip_sha256": "d83b6831fff05c34a24c7c42ff374d1a2b4b7f65d2fbdfc5f3d7b74e9e9989ff",
+      "zip_bytes": 12471,
+      "source_directory": "../arena/sources/mission4",
+      "source_files_sha256": {
+        "generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+        "main.cpp": "b06263e5cffee351fa23e6279b2f6f5f1cda0a5c1106cfc3516c005aad97c9e7",
+        "protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+        "submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60"
+      },
+      "binary_sha256": "a5e1cb8d7a113d9c271df89f6a4b12697ec9cc00e8b1968b3a364e6181e82cc2",
+      "binary_matches_frozen_selection": true,
+      "zip_inspection": {
+        "ok": true,
+        "language": "cpp",
+        "issues": []
+      },
+      "gcc12_build_returncode": 0,
+      "sdk_result": {
+        "ok": true,
+        "issues": [],
+        "result": {
+          "winner": "Y",
+          "reason": "instant",
+          "score": {
+            "Y": 18,
+            "K": 0
+          },
+          "turns": 13,
+          "seed": 23599
+        },
+        "output_usage": {
+          "stdout_bytes": 2465,
+          "stderr_bytes": 0,
+          "max_line_bytes": 17,
+          "turns": [
+            {
+              "turn": 1,
+              "bytes": 44,
+              "lines": 4
+            },
+            {
+              "turn": 2,
+              "bytes": 84,
+              "lines": 7
+            },
+            {
+              "turn": 3,
+              "bytes": 127,
+              "lines": 10
+            },
+            {
+              "turn": 4,
+              "bytes": 144,
+              "lines": 11
+            },
+            {
+              "turn": 5,
+              "bytes": 174,
+              "lines": 13
+            },
+            {
+              "turn": 6,
+              "bytes": 181,
+              "lines": 13
+            },
+            {
+              "turn": 7,
+              "bytes": 179,
+              "lines": 13
+            },
+            {
+              "turn": 8,
+              "bytes": 192,
+              "lines": 14
+            },
+            {
+              "turn": 9,
+              "bytes": 236,
+              "lines": 17
+            },
+            {
+              "turn": 10,
+              "bytes": 243,
+              "lines": 17
+            },
+            {
+              "turn": 11,
+              "bytes": 246,
+              "lines": 17
+            },
+            {
+              "turn": 12,
+              "bytes": 299,
+              "lines": 21
+            },
+            {
+              "turn": 13,
+              "bytes": 316,
+              "lines": 22
+            }
+          ],
+          "unfinished_turn": {
+            "turn": 14,
+            "bytes": 0,
+            "lines": 0
+          },
+          "warnings": []
+        },
+        "warnings": []
+      },
+      "sdk_evidence": "evidence/mission4-exact-zip-gcc12.json",
+      "dependencies_resolved_within_debian_sysroot": true,
+      "dependency_resolution": "\tlinux-vdso.so.1 (0x00007f888e349000)\n\tlibstdc++.so.6 => /tmp/yk-gcc12-2bjbhm3o/sysroot/usr/lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007f888e000000)\n\tlibgcc_s.so.1 => /tmp/yk-gcc12-2bjbhm3o/sysroot/lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007f888e2c5000)\n\tlibc.so.6 => /tmp/yk-gcc12-2bjbhm3o/sysroot/lib/x86_64-linux-gnu/libc.so.6 (0x00007f888de1e000)\n\tlibm.so.6 => /tmp/yk-gcc12-2bjbhm3o/sysroot/lib/x86_64-linux-gnu/libm.so.6 (0x00007f888dd3e000)\n\t/tmp/yk-gcc12-2bjbhm3o/sysroot/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 (0x00007f888e34b000)\n",
+      "required_command_line_arguments": []
+    },
+    {
+      "candidate": "v9_lock",
+      "artifact": "artifacts/deadline1500-20261001-v9_lock.zip",
+      "artifact_from_this_directory": "../../../artifacts/deadline1500-20261001-v9_lock.zip",
+      "zip_sha256": "89baa2b9861e86121744e6245e45f08472da5ceaaf5e8053b70d3d0fe542bf80",
+      "zip_bytes": 26962,
+      "source_directory": "../arena/sources/v9_lock",
+      "source_files_sha256": {
+        "generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+        "main.cpp": "6dc8475dce636e4743a738cd74137144e44d445dc9dbe739c186143ca643b1fb",
+        "protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+        "submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60"
+      },
+      "binary_sha256": "0daf55b77b6874f9934d497393e46e4d924cff8b43a267ae8f15cc24ed677ebf",
+      "binary_matches_frozen_selection": true,
+      "zip_inspection": {
+        "ok": true,
+        "language": "cpp",
+        "issues": []
+      },
+      "gcc12_build_returncode": 0,
+      "sdk_result": {
+        "ok": true,
+        "issues": [],
+        "result": {
+          "winner": "Y",
+          "reason": "instant",
+          "score": {
+            "Y": 18,
+            "K": 0
+          },
+          "turns": 10,
+          "seed": 23599
+        },
+        "output_usage": {
+          "stdout_bytes": 3366,
+          "stderr_bytes": 0,
+          "max_line_bytes": 87,
+          "turns": [
+            {
+              "turn": 1,
+              "bytes": 131,
+              "lines": 5
+            },
+            {
+              "turn": 2,
+              "bytes": 161,
+              "lines": 7
+            },
+            {
+              "turn": 3,
+              "bytes": 201,
+              "lines": 10
+            },
+            {
+              "turn": 4,
+              "bytes": 256,
+              "lines": 14
+            },
+            {
+              "turn": 5,
+              "bytes": 297,
+              "lines": 17
+            },
+            {
+              "turn": 6,
+              "bytes": 313,
+              "lines": 18
+            },
+            {
+              "turn": 7,
+              "bytes": 426,
+              "lines": 25
+            },
+            {
+              "turn": 8,
+              "bytes": 461,
+              "lines": 27
+            },
+            {
+              "turn": 9,
+              "bytes": 537,
+              "lines": 32
+            },
+            {
+              "turn": 10,
+              "bytes": 583,
+              "lines": 35
+            }
+          ],
+          "unfinished_turn": {
+            "turn": 11,
+            "bytes": 0,
+            "lines": 0
+          },
+          "warnings": []
+        },
+        "warnings": []
+      },
+      "sdk_evidence": "evidence/v9_lock-exact-zip-gcc12.json",
+      "dependencies_resolved_within_debian_sysroot": true,
+      "dependency_resolution": "\tlinux-vdso.so.1 (0x00007fb393c77000)\n\tlibstdc++.so.6 => /tmp/yk-gcc12-2bjbhm3o/sysroot/usr/lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007fb393800000)\n\tlibm.so.6 => /tmp/yk-gcc12-2bjbhm3o/sysroot/lib/x86_64-linux-gnu/libm.so.6 (0x00007fb393b1c000)\n\tlibgcc_s.so.1 => /tmp/yk-gcc12-2bjbhm3o/sysroot/lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007fb393afc000)\n\tlibc.so.6 => /tmp/yk-gcc12-2bjbhm3o/sysroot/lib/x86_64-linux-gnu/libc.so.6 (0x00007fb39361e000)\n\t/tmp/yk-gcc12-2bjbhm3o/sysroot/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 (0x00007fb393c79000)\n",
+      "required_command_line_arguments": []
+    },
+    {
+      "candidate": "v8_flagguard",
+      "artifact": "artifacts/deadline1500-20261001-flagguard.zip",
+      "artifact_from_this_directory": "../../../artifacts/deadline1500-20261001-flagguard.zip",
+      "zip_sha256": "a2ddbeb96df0707aad7d7a81c7ef202d99995c4b493ac6d07fec00f3a09d7d21",
+      "zip_bytes": 16239,
+      "source_directory": "../arena/sources/v8_flagguard",
+      "source_files_sha256": {
+        "main.cpp": "66d8d6e012e77c4c7b4b9effd6233bb00504b480988b559ac214a696dfbf0dc2",
+        "protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+        "generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+        "submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60"
+      },
+      "binary_sha256": "190e96f3db001005258341eee66c2ba80f52144a2c16adcf127b0cdc1eb97021",
+      "binary_matches_frozen_selection": true,
+      "zip_inspection": {
+        "ok": true,
+        "language": "cpp",
+        "issues": []
+      },
+      "gcc12_build_returncode": 0,
+      "sdk_result": {
+        "ok": true,
+        "issues": [],
+        "result": {
+          "winner": "Y",
+          "reason": "instant",
+          "score": {
+            "Y": 18,
+            "K": 0
+          },
+          "turns": 10,
+          "seed": 23599
+        },
+        "output_usage": {
+          "stdout_bytes": 3366,
+          "stderr_bytes": 0,
+          "max_line_bytes": 87,
+          "turns": [
+            {
+              "turn": 1,
+              "bytes": 131,
+              "lines": 5
+            },
+            {
+              "turn": 2,
+              "bytes": 161,
+              "lines": 7
+            },
+            {
+              "turn": 3,
+              "bytes": 201,
+              "lines": 10
+            },
+            {
+              "turn": 4,
+              "bytes": 256,
+              "lines": 14
+            },
+            {
+              "turn": 5,
+              "bytes": 297,
+              "lines": 17
+            },
+            {
+              "turn": 6,
+              "bytes": 313,
+              "lines": 18
+            },
+            {
+              "turn": 7,
+              "bytes": 426,
+              "lines": 25
+            },
+            {
+              "turn": 8,
+              "bytes": 461,
+              "lines": 27
+            },
+            {
+              "turn": 9,
+              "bytes": 537,
+              "lines": 32
+            },
+            {
+              "turn": 10,
+              "bytes": 583,
+              "lines": 35
+            }
+          ],
+          "unfinished_turn": {
+            "turn": 11,
+            "bytes": 0,
+            "lines": 0
+          },
+          "warnings": []
+        },
+        "warnings": []
+      },
+      "sdk_evidence": "evidence/flagguard-exact-zip-gcc12.json",
+      "dependencies_resolved_within_debian_sysroot": true,
+      "dependency_resolution": "\tlinux-vdso.so.1 (0x00007f44be057000)\n\tlibstdc++.so.6 => /tmp/yk-gcc12-2bjbhm3o/sysroot/usr/lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007f44bdc00000)\n\tlibm.so.6 => /tmp/yk-gcc12-2bjbhm3o/sysroot/lib/x86_64-linux-gnu/libm.so.6 (0x00007f44bdf12000)\n\tlibgcc_s.so.1 => /tmp/yk-gcc12-2bjbhm3o/sysroot/lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007f44bdef2000)\n\tlibc.so.6 => /tmp/yk-gcc12-2bjbhm3o/sysroot/lib/x86_64-linux-gnu/libc.so.6 (0x00007f44bda1e000)\n\t/tmp/yk-gcc12-2bjbhm3o/sysroot/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 (0x00007f44be059000)\n",
+      "required_command_line_arguments": []
+    }
+  ],
+  "runtime_binary_note": "Binaries are not submitted or archived. Their ELF loader and RPATH embed the temporary sysroot path; equality is within this same toolchain context, not a claim of path-independent reproducible binaries.",
+  "cleanup_status_at_archive": "Temporary toolchain remains active for frozen league; scheduled until14:48KST. Final cleanup evidence is separate.",
+  "original_reports_note": "Raw evidence retains original /tmp command paths as provenance. Stable artifact/source/evidence links are provided above."
+}

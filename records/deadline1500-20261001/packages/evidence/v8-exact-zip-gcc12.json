@@ -1,0 +1,138 @@
+{
+  "status": "passed",
+  "zip": "/tmp/yk-deadline1500-package-review/v8-frozen-preview.zip",
+  "zip_sha256": "07689054fa1723b90e96630d34d5e28e6864137672222aba56cf3c2af293d631",
+  "scope": "Exact ZIP GCC12.2 C++20/O2 build and official SDK smoke; not strength or CPU-quota validation.",
+  "inspection": {
+    "ok": true,
+    "language": "cpp",
+    "issues": []
+  },
+  "source_sha256": {
+    "generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+    "main.cpp": "61a4f25113d9bf2c387a59ddc770a3143de6311e3fd2e004827a66eb78edfbc9",
+    "protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+    "submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60"
+  },
+  "build": {
+    "argv": [
+      "/tmp/yk-gcc12-2bjbhm3o/gcc12-wrapper",
+      "-std=c++20",
+      "-O2",
+      "-I",
+      "/tmp/yk-gcc12-2bjbhm3o/source-v8-preview",
+      "/tmp/yk-gcc12-2bjbhm3o/source-v8-preview/main.cpp",
+      "-o",
+      "/tmp/yk-gcc12-2bjbhm3o/bot-v8-preview"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 3.5713224119972438,
+    "stdout": "",
+    "stderr": ""
+  },
+  "binary_sha256": "93437de7e0ef5fa555f5318c4f6ea4c4c3a3481eb48d888b82ee4b5f366ee245",
+  "binary": "/tmp/yk-gcc12-2bjbhm3o/bot-v8-preview",
+  "elf": {
+    "argv": [
+      "readelf",
+      "-l",
+      "/tmp/yk-gcc12-2bjbhm3o/bot-v8-preview"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.004225191994919442,
+    "stdout": "\nElf file type is DYN (Position-Independent Executable file)\nEntry point 0x30e0\nThere are 14 program headers, starting at offset 64\n\nProgram Headers:\n  Type           Offset             VirtAddr           PhysAddr\n                 FileSiz            MemSiz              Flags  Align\n  PHDR           0x0000000000000040 0x0000000000000040 0x0000000000000040\n                 0x0000000000000310 0x0000000000000310  R      0x8\n  INTERP         0x0000000000000374 0x0000000000000374 0x0000000000000374\n                 0x0000000000000049 0x0000000000000049  R      0x1\n      [Requesting program interpreter: /tmp/yk-gcc12-2bjbhm3o/sysroot/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]\n  LOAD           0x0000000000000000 0x0000000000000000 0x0000000000000000\n                 0x0000000000001f88 0x0000000000001f88  R      0x1000\n  LOAD           0x0000000000002000 0x0000000000002000 0x0000000000002000\n                 0x000000000001d49d 0x000000000001d49d  R E    0x1000\n  LOAD           0x0000000000020000 0x0000000000020000 0x0000000000020000\n                 0x0000000000003ff0 0x0000000000003ff0  R      0x1000\n  LOAD           0x0000000000024b88 0x0000000000024b88 0x0000000000024b88\n                 0x00000000000007e8 0x0000000000036908  RW     0x1000\n  DYNAMIC        0x0000000000024d88 0x0000000000024d88 0x0000000000024d88\n                 0x0000000000000220 0x0000000000000220  RW     0x8\n  NOTE           0x0000000000000350 0x0000000000000350 0x0000000000000350\n                 0x0000000000000024 0x0000000000000024  R      0x4\n  NOTE           0x0000000000023fb0 0x0000000000023fb0 0x0000000000023fb0\n                 0x0000000000000020 0x0000000000000020  R      0x8\n  NOTE           0x0000000000023fd0 0x0000000000023fd0 0x0000000000023fd0\n                 0x0000000000000020 0x0000000000000020  R      0x4\n  GNU_PROPERTY   0x0000000000023fb0 0x0000000000023fb0 0x0000000000023fb0\n                 0x0000000000000020 0x0000000000000020  R      0x8\n  GNU_EH_FRAME   0x00000000000205c0 0x00000000000205c0 0x00000000000205c0\n                 0x0000000000000574 0x0000000000000574  R      0x4\n  GNU_STACK      0x0000000000000000 0x0000000000000000 0x0000000000000000\n                 0x0000000000000000 0x0000000000000000  RW     0x10\n  GNU_RELRO      0x0000000000024b88 0x0000000000024b88 0x0000000000024b88\n                 0x0000000000000478 0x0000000000000478  R      0x1\n\n Section to Segment mapping:\n  Segment Sections...\n   00     \n   01     .interp \n   02     .note.gnu.build-id .interp .gnu.hash .dynsym .dynstr .gnu.version .gnu.version_r .rela.dyn .rela.plt \n   03     .init .plt .plt.got .text .fini \n   04     .rodata .eh_frame_hdr .eh_frame .gcc_except_table .note.gnu.property .note.ABI-tag \n   05     .init_array .fini_array .data.rel.ro .dynamic .got .got.plt .data .bss \n   06     .dynamic \n   07     .note.gnu.build-id \n   08     .note.gnu.property \n   09     .note.ABI-tag \n   10     .note.gnu.property \n   11     .eh_frame_hdr \n   12     \n   13     .init_array .fini_array .data.rel.ro .dynamic .got \n",
+    "stderr": ""
+  },
+  "sdk": {
+    "argv": [
+      "/usr/bin/python3",
+      "/tmp/yk-new-bot-20261001/yk-development-tools/bots/dist/starter/run_tests.py",
+      "--bot",
+      "/tmp/yk-gcc12-2bjbhm3o/bot-v8-preview",
+      "--seed",
+      "23599"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.4401291950052837,
+    "stdout": "{\n  \"ok\": true,\n  \"issues\": [],\n  \"result\": {\n    \"winner\": \"Y\",\n    \"reason\": \"instant\",\n    \"score\": {\n      \"Y\": 18,\n      \"K\": 0\n    },\n    \"turns\": 10,\n    \"seed\": 23599\n  },\n  \"output_usage\": {\n    \"stdout_bytes\": 3366,\n    \"stderr_bytes\": 0,\n    \"max_line_bytes\": 87,\n    \"turns\": [\n      {\n        \"turn\": 1,\n        \"bytes\": 131,\n        \"lines\": 5\n      },\n      {\n        \"turn\": 2,\n        \"bytes\": 161,\n        \"lines\": 7\n      },\n      {\n        \"turn\": 3,\n        \"bytes\": 201,\n        \"lines\": 10\n      },\n      {\n        \"turn\": 4,\n        \"bytes\": 256,\n        \"lines\": 14\n      },\n      {\n        \"turn\": 5,\n        \"bytes\": 297,\n        \"lines\": 17\n      },\n      {\n        \"turn\": 6,\n        \"bytes\": 313,\n        \"lines\": 18\n      },\n      {\n        \"turn\": 7,\n        \"bytes\": 426,\n        \"lines\": 25\n      },\n      {\n        \"turn\": 8,\n        \"bytes\": 461,\n        \"lines\": 27\n      },\n      {\n        \"turn\": 9,\n        \"bytes\": 537,\n        \"lines\": 32\n      },\n      {\n        \"turn\": 10,\n        \"bytes\": 583,\n        \"lines\": 35\n      }\n    ],\n    \"unfinished_turn\": {\n      \"turn\": 11,\n      \"bytes\": 0,\n      \"lines\": 0\n    },\n    \"warnings\": []\n  },\n  \"warnings\": []\n}\n",
+    "stderr": ""
+  },
+  "sdk_result": {
+    "ok": true,
+    "issues": [],
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 18,
+        "K": 0
+      },
+      "turns": 10,
+      "seed": 23599
+    },
+    "output_usage": {
+      "stdout_bytes": 3366,
+      "stderr_bytes": 0,
+      "max_line_bytes": 87,
+      "turns": [
+        {
+          "turn": 1,
+          "bytes": 131,
+          "lines": 5
+        },
+        {
+          "turn": 2,
+          "bytes": 161,
+          "lines": 7
+        },
+        {
+          "turn": 3,
+          "bytes": 201,
+          "lines": 10
+        },
+        {
+          "turn": 4,
+          "bytes": 256,
+          "lines": 14
+        },
+        {
+          "turn": 5,
+          "bytes": 297,
+          "lines": 17
+        },
+        {
+          "turn": 6,
+          "bytes": 313,
+          "lines": 18
+        },
+        {
+          "turn": 7,
+          "bytes": 426,
+          "lines": 25
+        },
+        {
+          "turn": 8,
+          "bytes": 461,
+          "lines": 27
+        },
+        {
+          "turn": 9,
+          "bytes": 537,
+          "lines": 32
+        },
+        {
+          "turn": 10,
+          "bytes": 583,
+          "lines": 35
+        }
+      ],
+      "unfinished_turn": {
+        "turn": 11,
+        "bytes": 0,
+        "lines": 0
+      },
+      "warnings": []
+    },
+    "warnings": []
+  }
+}

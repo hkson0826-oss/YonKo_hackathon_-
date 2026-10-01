@@ -1,0 +1,26 @@
+{
+  "reviewed_at_utc": "2026-10-01T05:23:50.141685+00:00",
+  "source": "/tmp/yk-new-bot-20261001/submissions/deadline1500-flagguard-20261001/main.cpp",
+  "sha256": "66d8d6e012e77c4c7b4b9effd6233bb00504b480988b559ac214a696dfbf0dc2",
+  "status": "no_concrete_correctness_defect_found_in_bounded_read_only_review",
+  "checks": {
+    "scope": "v8 plus final visible_flag_guard; no broad strategy replacement",
+    "production_and_shared_budget": "a_clean resolves affordability and legal owned spawn sites before support ledger",
+    "warrior_support": "starts with current W, adds accepted W production, subtracts every W departure and adds every W arrival including TELE",
+    "simultaneous_order": "post-move cell W totals include all sources without incorrectly allowing moved-in units to move twice; a_clean uses original-plus-produced departure inventory",
+    "F_count_and_commands": "rewrites destination only or removes an F movement; no increased count or command count",
+    "TELE": "replacement becomes one adjacent normal move; a canceled TELE is not reassigned, so no new capacity use",
+    "combat_equality": "enemy W > support triggers; equality preserves original move as W ties eliminate enemy W before F elimination",
+    "unchanged_components": "cleaned spawn, W movements and priorities are preserved"
+  },
+  "limits": [
+    "Only current visible enemy W triggers; future enemy moves/spawn and TELE are not guaranteed safe.",
+    "Threat estimate from neighboring enemy W ranks safe fallback cells but is not a multi-cell shared-budget adversary model.",
+    "If no stationary-safe adjacent/stay cell exists, dropping the move may still lose the F; this is not an all-situations safety guarantee.",
+    "Already stationary F without a move is outside this guard.",
+    "A canceled F TELE can leave capacity unused; it does not create an extra TELE.",
+    "No claim of improved whole-game strength before fresh quota selection/confirmation."
+  ],
+  "tests": "Independent SDK and official one-turn cases owned by prior agent; this report is code inspection only.",
+  "source_modified": false
+}
