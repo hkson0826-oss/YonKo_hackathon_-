@@ -1,0 +1,16 @@
+{
+  "purpose": "Compare all submitted versions using latest official results and opponent-strength evidence; analytical selection, no automatic server selection mutation.",
+  "latest_official_publication_kst": "2026-10-01T17:00:00+09:00",
+  "collected_rows": 131,
+  "leaderboard_teams": 87,
+  "same_source_group": [
+    8,
+    11
+  ],
+  "primary_comparison": "Report actual per-submission WDL and sample size; common opponent teams and date/source uncertainty; strongest historical official performance distinguished from strongest current bot.",
+  "strength_reference": "Latest17:00 table for all131 games is retrospective; only latest24 games have contemporaneous complete table. September28 contemporaneous table available; other historical complete tables mostly absent. Previous ranks inferred separately from current movement arrows, no old WDL inferred.",
+  "termination": "Preserve official overall result; separately exclude confirmed opponent forfeits; no unknown match asserted error-free.",
+  "limits": "Swiss nonrandom schedule, opponents change sources, allourUIrowsY, no fullleague game network, no invented official adjusted score.",
+  "ui_mutation": "Only authenticated reads and normal official replay downloads; current v11 selection remains unchanged during analysis.",
+  "captured_at_kst": "2026-10-01T18:20:45.359073+09:00"
+}

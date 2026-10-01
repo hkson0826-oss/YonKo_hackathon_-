@@ -1,0 +1,5 @@
+{
+  "source": "https://yonsei-vs-korea-hackathon.kr/leaderboard",
+  "text": "정상 에이전트를 선택한 참가팀끼리 성적이 비슷한 상대를 우선 배정해 최대 12라운드를 진행합니다. 휴식은 팀별로 고르게 배정하며 경기 수와 승점에 포함하지 않습니다. 순위는 승점률, 승률, 이긴 상대의 승점률과 비긴 상대 승점률의 절반을 합해 경기 수로 나눈 값 순으로 비교합니다. 승리는 1점, 무승부는 0.5점입니다. 표의 학교 소속은 경기에서 배정받은 위치와 별개입니다.",
+  "display_note": "Current table87teams shows23 or24 games per team despite help stating maximum12 rounds; exact round/game schedule interpretation not established."
+}

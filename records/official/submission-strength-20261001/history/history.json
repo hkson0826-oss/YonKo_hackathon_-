@@ -1,0 +1,1044 @@
+{
+  "created_kst": "2026-10-01T18:13:47.983758+09:00",
+  "repository": "/tmp/yk-new-bot-20261001",
+  "scope": "Historical source/ZIP identity and current all131 official match UI rows merged. Server/local versions remain distinct; opponent strength modeling is separate.",
+  "submissions": [
+    {
+      "server_zip_sha256": null,
+      "server_zip_download_verified": false,
+      "server_submission": 1,
+      "filename": "submission-v1.zip",
+      "uploaded_kst": "2026-09-27 19:18",
+      "strategy": "로컬 v1: C++ 정책 포트폴리오·자체 전이 탐색",
+      "source_directory": "submissions/first",
+      "local_artifact": {
+        "path": "artifacts/submission-v1.zip",
+        "zip_sha256": "40f8ae50e68a1b3f6cc0bff79164cf88dbd95066a7741abd0b43dfba9e7872aa",
+        "zip_bytes": 8827,
+        "files_sha256": {
+          "generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+          "main.cpp": "13a240536ea85885a1f61c8007665d132cc5c31a9c23ae00dec9872bf01fbcb5",
+          "protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+          "submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60"
+        },
+        "entry_source_sha256": "13a240536ea85885a1f61c8007665d132cc5c31a9c23ae00dec9872bf01fbcb5"
+      },
+      "linkage_status": "UI_filename_timestamp_link_only",
+      "evidence": [
+        {
+          "path": "records/official/round1/site-observations.json",
+          "line": 42,
+          "sha256": "f955752d30d3efb390181b39bf9f43309673a45b7ad9e74389ffd8d90c02edac"
+        }
+      ],
+      "official_round_ids": [],
+      "official_round_ids_current": [],
+      "official_total_current": {
+        "games": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "scope": "all131 currently rendered official match rows"
+      }
+    },
+    {
+      "server_zip_sha256": null,
+      "server_zip_download_verified": false,
+      "server_submission": 2,
+      "filename": "delineate-v1.zip",
+      "uploaded_kst": "2026-09-27 19:30",
+      "strategy": "팀원 Python v1: 거리·가치 기반 F 목표/W 방어·호위 배정",
+      "source_directory": null,
+      "local_artifact": {
+        "path": "submissions/delineate-v1.zip",
+        "zip_sha256": "571397e3c84998b27f8ce0468bc49333663c69b0b84162ad8dfc27e7a47f2365",
+        "zip_bytes": 6737,
+        "files_sha256": {
+          "_generated.py": "8cf113fe574425e1f761911e59fe43394aad147946b07ed4a837e1da6b25fcfc",
+          "campus_bot.py": "2568119d19d9def58dd824b06eac332f018f23c0dee24ba1ccddf3169a151e7b",
+          "main.py": "a114cc5a286ea21cc09ba11a018c65bf38e068c7f79d7a8b5420a05ff936b666",
+          "protocol.py": "67a5d27ced038de39d7cd3b069bf01786bf4cc9e6c1d39269d1f7e67b185c194",
+          "submission.json": "ff5431b97ab8dc3d045d053fe1e3148eca20bfe900ec66cd9e7f7f5e542f3de5"
+        },
+        "entry_source_sha256": "a114cc5a286ea21cc09ba11a018c65bf38e068c7f79d7a8b5420a05ff936b666"
+      },
+      "linkage_status": "UI_filename_timestamp_link_only",
+      "evidence": [
+        {
+          "path": "records/official/round1/site-observations.json",
+          "line": 42,
+          "sha256": "f955752d30d3efb390181b39bf9f43309673a45b7ad9e74389ffd8d90c02edac"
+        }
+      ],
+      "official_round_ids": [],
+      "official_round_ids_current": [],
+      "official_total_current": {
+        "games": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "scope": "all131 currently rendered official match rows"
+      }
+    },
+    {
+      "server_zip_sha256": null,
+      "server_zip_download_verified": false,
+      "server_submission": 3,
+      "filename": "submission-v2.zip",
+      "uploaded_kst": "2026-09-27 19:48",
+      "strategy": "로컬 v2: 네 정책 × 상대 정책, 최대4턴 탐색; 팀원 할당 정책 포함",
+      "source_directory": "submissions/tuned",
+      "local_artifact": {
+        "path": "artifacts/submission-v2.zip",
+        "zip_sha256": "f90eca7cac0024ab4cc7c00d79595f71e4eb9bab92ec57e0527c7b977098b64a",
+        "zip_bytes": 10287,
+        "files_sha256": {
+          "generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+          "main.cpp": "53bb019625fabbbd3aa8a5b65af971912bb4cbdad8a9fde3009fadad5ba6d4c5",
+          "protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+          "submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60"
+        },
+        "entry_source_sha256": "53bb019625fabbbd3aa8a5b65af971912bb4cbdad8a9fde3009fadad5ba6d4c5"
+      },
+      "linkage_status": "UI_filename_timestamp_link_only",
+      "evidence": [
+        {
+          "path": "records/official/round1/site-observations.json",
+          "line": 42,
+          "sha256": "f955752d30d3efb390181b39bf9f43309673a45b7ad9e74389ffd8d90c02edac"
+        }
+      ],
+      "official_round_ids": [
+        "9월 27일 22:00"
+      ],
+      "official_round_ids_current": [
+        "9월 27일 22:00"
+      ],
+      "official_total_current": {
+        "games": 6,
+        "wins": 5,
+        "draws": 0,
+        "losses": 1,
+        "scope": "all131 currently rendered official match rows"
+      }
+    },
+    {
+      "server_zip_sha256": null,
+      "server_zip_download_verified": false,
+      "server_submission": 4,
+      "filename": "submission-v3.zip",
+      "uploaded_kst": "2026-09-28 01:40",
+      "strategy": "로컬 v3 a_v2_terminal_local: 중요한 출발지의 이동 대안과 종반 평가",
+      "source_directory": "submissions/iterative-v3",
+      "local_artifact": {
+        "path": "artifacts/submission-v3.zip",
+        "zip_sha256": "ce94e80a49d833be8b3c093a34319d8b9cdb5b7ec8d86b91a4b2831b18d799cb",
+        "zip_bytes": 12207,
+        "files_sha256": {
+          "generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+          "main.cpp": "52268569e17d7fc40fd46f0996b2da684768902b4af27ec059c4b068911c4473",
+          "protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+          "submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60"
+        },
+        "entry_source_sha256": "52268569e17d7fc40fd46f0996b2da684768902b4af27ec059c4b068911c4473"
+      },
+      "linkage_status": "UI_filename_timestamp_link_only",
+      "evidence": [
+        {
+          "path": "records/official/round2/site-observations.json",
+          "line": 664,
+          "sha256": "7ea4d29f256024a2b33e43a5053d309fb30ebada100f72a143e29eb74cdb0bb2"
+        }
+      ],
+      "official_round_ids": [
+        "9월 28일 10:00"
+      ],
+      "official_round_ids_current": [
+        "9월 28일 10:00"
+      ],
+      "official_total_current": {
+        "games": 13,
+        "wins": 9,
+        "draws": 0,
+        "losses": 4,
+        "scope": "all131 currently rendered official match rows"
+      }
+    },
+    {
+      "server_zip_sha256": null,
+      "server_zip_download_verified": false,
+      "server_submission": 5,
+      "filename": "v5b-adaptive.zip",
+      "uploaded_kst": "2026-09-28 19:41",
+      "strategy": null,
+      "source_directory": null,
+      "local_artifact": null,
+      "linkage_status": "server_filename_known_source_and_bytes_unknown",
+      "evidence": [
+        {
+          "path": "records/deadline/20260929/live-site.md",
+          "line": 14,
+          "sha256": "a70dcb521419b281f4056f69842bb388fad3390430af771dd054b1b619bef9e4"
+        }
+      ],
+      "official_round_ids": [
+        "9월 28일 22:00"
+      ],
+      "official_round_ids_current": [
+        "9월 28일 22:00"
+      ],
+      "official_total_current": {
+        "games": 16,
+        "wins": 8,
+        "draws": 0,
+        "losses": 8,
+        "scope": "all131 currently rendered official match rows"
+      }
+    },
+    {
+      "server_zip_sha256": null,
+      "server_zip_download_verified": false,
+      "server_submission": 6,
+      "filename": "submission-v6-guard.zip",
+      "uploaded_kst": "2026-09-29 06:51",
+      "strategy": null,
+      "source_directory": null,
+      "local_artifact": null,
+      "linkage_status": "server_filename_known_source_and_bytes_unknown",
+      "evidence": [
+        {
+          "path": "records/deadline/20260929/live-site.md",
+          "line": 14,
+          "sha256": "a70dcb521419b281f4056f69842bb388fad3390430af771dd054b1b619bef9e4"
+        }
+      ],
+      "official_round_ids": [],
+      "official_round_ids_current": [],
+      "official_total_current": {
+        "games": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "scope": "all131 currently rendered official match rows"
+      }
+    },
+    {
+      "server_zip_sha256": null,
+      "server_zip_download_verified": false,
+      "server_submission": 7,
+      "filename": "v7-endgame.zip",
+      "uploaded_kst": "2026-09-29 07:44",
+      "strategy": null,
+      "source_directory": null,
+      "local_artifact": null,
+      "linkage_status": "server_filename_known_source_and_bytes_unknown",
+      "evidence": [
+        {
+          "path": "records/deadline/20260929/live-site.md",
+          "line": 14,
+          "sha256": "a70dcb521419b281f4056f69842bb388fad3390430af771dd054b1b619bef9e4"
+        }
+      ],
+      "official_round_ids": [
+        "9월 29일 22:00",
+        "9월 29일 10:00"
+      ],
+      "official_round_ids_current": [
+        "9월 29일 22:00",
+        "9월 29일 10:00"
+      ],
+      "official_total_current": {
+        "games": 24,
+        "wins": 11,
+        "draws": 0,
+        "losses": 13,
+        "scope": "all131 currently rendered official match rows"
+      }
+    },
+    {
+      "server_zip_sha256": null,
+      "server_zip_download_verified": false,
+      "server_submission": 8,
+      "filename": "submission-20260929-guard3.zip",
+      "uploaded_kst": "2026-09-30 01:19",
+      "strategy": "guard3: 로컬v4 선별 탐색 + 본진 ENG/HALL F침입 방어; 기존 F 호위 보존",
+      "source_directory": "submissions/deadline-20260929-guard3",
+      "local_artifact": {
+        "path": "artifacts/submission-20260929-guard3.zip",
+        "zip_sha256": "15fe3b7931e25fa6fbd6364536d39190fd6fe8e564405ed223bb28b33615f03f",
+        "zip_bytes": 15847,
+        "files_sha256": {
+          "generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+          "main.cpp": "61a4f25113d9bf2c387a59ddc770a3143de6311e3fd2e004827a66eb78edfbc9",
+          "protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+          "submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60"
+        },
+        "entry_source_sha256": "61a4f25113d9bf2c387a59ddc770a3143de6311e3fd2e004827a66eb78edfbc9"
+      },
+      "linkage_status": "known_uploaded_local_artifact_with_UI_receipt",
+      "evidence": [
+        {
+          "path": "records/submissions/deadline-20260929/site-receipt.json",
+          "line": 1,
+          "sha256": "6201a7e873cf71505a0500ab613a45450aa48a09997ed46cc551262e3d91e27b"
+        }
+      ],
+      "official_round_ids": [
+        "10월 1일 00:30",
+        "9월 30일 10:00"
+      ],
+      "qualification": "업로드 요청에 쓴 로컬 ZIP 해시와 서버v8 영수증의 연결. 서버가 노출한 파일 해시 또는 다운로드 바이트를 독립 검증한 것은 아니다.",
+      "official_round_ids_current": [
+        "10월 1일 00:30",
+        "9월 30일 10:00"
+      ],
+      "official_total_current": {
+        "games": 24,
+        "wins": 13,
+        "draws": 0,
+        "losses": 11,
+        "scope": "all131 currently rendered official match rows"
+      }
+    },
+    {
+      "server_zip_sha256": null,
+      "server_zip_download_verified": false,
+      "server_submission": 9,
+      "filename": "v9_2.zip",
+      "uploaded_kst": "2026-10-01 03:25",
+      "strategy": null,
+      "source_directory": null,
+      "local_artifact": null,
+      "linkage_status": "server_filename_known_source_and_bytes_unknown",
+      "evidence": [
+        {
+          "path": "records/research/new-bot-20261001/site-review.json",
+          "line": 109,
+          "sha256": "968dbfdc972098ee43af0aa015d54455aad47416b8232455c7ae25215f64cbf2"
+        }
+      ],
+      "official_round_ids": [
+        "10월 1일 10:00"
+      ],
+      "possible_local_candidates_not_proven": [
+        {
+          "name": "main v9_2 early",
+          "commit": "7d96f62afc7c767a60da6e9f387291ff66c43ef8",
+          "files_sha256": {
+            "submissions/v9_2/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+            "submissions/v9_2/main.cpp": "9e3f1938c995329a8c3898b5bec47a1ae5b62badf11ec7d48627254c567d15bb",
+            "submissions/v9_2/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+            "submissions/v9_2/submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60",
+            "submissions/v9_2/v9_action_report.hpp": "4ac8bd5dd7e8412c7f8ae99b77382d65933d2f2526f1ee454a70d0ecdd3756e2",
+            "submissions/v9_2/v9_strategy.hpp": "47d0b577121a94ccdd70c714d6af3ef2d4df63bde4fae742e6fea054f10cba19",
+            "submissions/v9_2/v9_travel.hpp": "b2ac265e647d618a0676002d0500bcc147f99df38951e7b7ab1c6a631784ed3c"
+          }
+        },
+        {
+          "name": "main v9_2 later",
+          "commit": "a21e4809e6c1801e2d2a77f28b5975597fc8959f",
+          "files": {
+            "generated.hpp": {
+              "bytes": 1043,
+              "sha256": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa"
+            },
+            "main.cpp": {
+              "bytes": 48732,
+              "sha256": "9e3f1938c995329a8c3898b5bec47a1ae5b62badf11ec7d48627254c567d15bb"
+            },
+            "protocol.hpp": {
+              "bytes": 5010,
+              "sha256": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8"
+            },
+            "submission.json": {
+              "bytes": 46,
+              "sha256": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60"
+            },
+            "v9_action_report.hpp": {
+              "bytes": 6791,
+              "sha256": "4ac8bd5dd7e8412c7f8ae99b77382d65933d2f2526f1ee454a70d0ecdd3756e2"
+            },
+            "v9_strategy.hpp": {
+              "bytes": 20452,
+              "sha256": "ea8a660d5332da91f7b8386c602403f0ed064992c608f629ce2f38918365bdeb"
+            },
+            "v9_travel.hpp": {
+              "bytes": 1916,
+              "sha256": "b2ac265e647d618a0676002d0500bcc147f99df38951e7b7ab1c6a631784ed3c"
+            }
+          }
+        },
+        {
+          "name": "v9-lock",
+          "commit": "0e352edc4a7c93d04a6a431922b9e3f637c2ee25",
+          "source_main_sha256": "6dc8475dce636e4743a738cd74137144e44d445dc9dbe739c186143ca643b1fb"
+        }
+      ],
+      "qualification": "같은 v9_2.zip 이름은 내용 동일성의 증거가 아니다. early/later main은 main.cpp 해시가 같아도 v9_strategy.hpp가 다르다. 서버9와10을 서로 또는 로컬 main/lock과 합치지 않는다.",
+      "official_round_ids_current": [
+        "10월 1일 10:00"
+      ],
+      "official_total_current": {
+        "games": 24,
+        "wins": 12,
+        "draws": 0,
+        "losses": 12,
+        "scope": "all131 currently rendered official match rows"
+      }
+    },
+    {
+      "server_zip_sha256": null,
+      "server_zip_download_verified": false,
+      "server_submission": 10,
+      "filename": "v9_2.zip",
+      "uploaded_kst": "2026-10-01 08:00",
+      "strategy": null,
+      "source_directory": null,
+      "local_artifact": null,
+      "linkage_status": "server_filename_known_source_and_bytes_unknown",
+      "evidence": [
+        {
+          "path": "records/official/round-20261001-1000/submission10-detail.json",
+          "line": 1,
+          "sha256": "f6614828101efaeb3c525a5c0c2cdb202b5638c74e595bce14f0ef9cd18edf9e"
+        }
+      ],
+      "official_round_ids": [],
+      "possible_local_candidates_not_proven": [
+        {
+          "name": "main v9_2 early",
+          "commit": "7d96f62afc7c767a60da6e9f387291ff66c43ef8",
+          "files_sha256": {
+            "submissions/v9_2/generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+            "submissions/v9_2/main.cpp": "9e3f1938c995329a8c3898b5bec47a1ae5b62badf11ec7d48627254c567d15bb",
+            "submissions/v9_2/protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+            "submissions/v9_2/submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60",
+            "submissions/v9_2/v9_action_report.hpp": "4ac8bd5dd7e8412c7f8ae99b77382d65933d2f2526f1ee454a70d0ecdd3756e2",
+            "submissions/v9_2/v9_strategy.hpp": "47d0b577121a94ccdd70c714d6af3ef2d4df63bde4fae742e6fea054f10cba19",
+            "submissions/v9_2/v9_travel.hpp": "b2ac265e647d618a0676002d0500bcc147f99df38951e7b7ab1c6a631784ed3c"
+          }
+        },
+        {
+          "name": "main v9_2 later",
+          "commit": "a21e4809e6c1801e2d2a77f28b5975597fc8959f",
+          "files": {
+            "generated.hpp": {
+              "bytes": 1043,
+              "sha256": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa"
+            },
+            "main.cpp": {
+              "bytes": 48732,
+              "sha256": "9e3f1938c995329a8c3898b5bec47a1ae5b62badf11ec7d48627254c567d15bb"
+            },
+            "protocol.hpp": {
+              "bytes": 5010,
+              "sha256": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8"
+            },
+            "submission.json": {
+              "bytes": 46,
+              "sha256": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60"
+            },
+            "v9_action_report.hpp": {
+              "bytes": 6791,
+              "sha256": "4ac8bd5dd7e8412c7f8ae99b77382d65933d2f2526f1ee454a70d0ecdd3756e2"
+            },
+            "v9_strategy.hpp": {
+              "bytes": 20452,
+              "sha256": "ea8a660d5332da91f7b8386c602403f0ed064992c608f629ce2f38918365bdeb"
+            },
+            "v9_travel.hpp": {
+              "bytes": 1916,
+              "sha256": "b2ac265e647d618a0676002d0500bcc147f99df38951e7b7ab1c6a631784ed3c"
+            }
+          }
+        },
+        {
+          "name": "v9-lock",
+          "commit": "0e352edc4a7c93d04a6a431922b9e3f637c2ee25",
+          "source_main_sha256": "6dc8475dce636e4743a738cd74137144e44d445dc9dbe739c186143ca643b1fb"
+        }
+      ],
+      "qualification": "같은 v9_2.zip 이름은 내용 동일성의 증거가 아니다. early/later main은 main.cpp 해시가 같아도 v9_strategy.hpp가 다르다. 서버9와10을 서로 또는 로컬 main/lock과 합치지 않는다.",
+      "official_round_ids_current": [],
+      "official_total_current": {
+        "games": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "scope": "all131 currently rendered official match rows"
+      }
+    },
+    {
+      "server_zip_sha256": null,
+      "server_zip_download_verified": false,
+      "server_submission": 11,
+      "filename": "deadline1500-20261001-v8.zip",
+      "uploaded_kst": "2026-10-01 14:37",
+      "strategy": "guard3: 서버8 업로드에 사용한4소스파일과 동일; ZIP 재포장",
+      "source_directory": "submissions/deadline-20260929-guard3",
+      "local_artifact": {
+        "path": "artifacts/deadline1500-20261001-v8.zip",
+        "zip_sha256": "07689054fa1723b90e96630d34d5e28e6864137672222aba56cf3c2af293d631",
+        "zip_bytes": 15847,
+        "files_sha256": {
+          "generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+          "main.cpp": "61a4f25113d9bf2c387a59ddc770a3143de6311e3fd2e004827a66eb78edfbc9",
+          "protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+          "submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60"
+        },
+        "entry_source_sha256": "61a4f25113d9bf2c387a59ddc770a3143de6311e3fd2e004827a66eb78edfbc9"
+      },
+      "linkage_status": "known_uploaded_local_artifact_with_UI_receipt",
+      "evidence": [
+        {
+          "path": "records/deadline1500-20261001/site/selected-v11.json",
+          "line": 1,
+          "sha256": "beff09a942d186248b6bcf3b854238391fe87ec27867df42f16939e4d88c95bf"
+        }
+      ],
+      "official_round_ids": [
+        "10월 1일 17:00"
+      ],
+      "qualification": "업로드한 로컬 ZIP을 직접 해시하고 서버v11 영수증을 확인. 서버 hash는 UI 미공개. 서버8의 ZIP과 바이트는 다르지만 구성원4개가 전부 같다.",
+      "official_round_ids_current": [
+        "10월 1일 17:00"
+      ],
+      "official_total_current": {
+        "games": 24,
+        "wins": 12,
+        "draws": 0,
+        "losses": 12,
+        "scope": "all131 currently rendered official match rows"
+      }
+    }
+  ],
+  "official_rounds": [
+    {
+      "id": "10월 1일 17:00",
+      "round_label": "10월 1일 17:00",
+      "submission": 11,
+      "games": 24,
+      "wins": 12,
+      "draws": 0,
+      "losses": 12,
+      "raw_point_rate": 0.5,
+      "source": "../data/matches.json",
+      "source_sha256": "2eee380566ca7121f0318a44d7dfadb5b21a048ce467f3c0afb5ff81a42fe704",
+      "captured_at_kst": "2026-10-01T18:14:18.659278+09:00",
+      "linkage": "Explicit submission in authenticated all131 UI rows; no attribution from upload time",
+      "opponent_version_known": false
+    },
+    {
+      "id": "10월 1일 10:00",
+      "round_label": "10월 1일 10:00",
+      "submission": 9,
+      "games": 24,
+      "wins": 12,
+      "draws": 0,
+      "losses": 12,
+      "raw_point_rate": 0.5,
+      "source": "../data/matches.json",
+      "source_sha256": "2eee380566ca7121f0318a44d7dfadb5b21a048ce467f3c0afb5ff81a42fe704",
+      "captured_at_kst": "2026-10-01T18:14:18.659278+09:00",
+      "linkage": "Explicit submission in authenticated all131 UI rows; no attribution from upload time",
+      "opponent_version_known": false
+    },
+    {
+      "id": "10월 1일 00:30",
+      "round_label": "10월 1일 00:30",
+      "submission": 8,
+      "games": 12,
+      "wins": 7,
+      "draws": 0,
+      "losses": 5,
+      "raw_point_rate": 0.5833333333333334,
+      "source": "../data/matches.json",
+      "source_sha256": "2eee380566ca7121f0318a44d7dfadb5b21a048ce467f3c0afb5ff81a42fe704",
+      "captured_at_kst": "2026-10-01T18:14:18.659278+09:00",
+      "linkage": "Explicit submission in authenticated all131 UI rows; no attribution from upload time",
+      "opponent_version_known": false
+    },
+    {
+      "id": "9월 30일 10:00",
+      "round_label": "9월 30일 10:00",
+      "submission": 8,
+      "games": 12,
+      "wins": 6,
+      "draws": 0,
+      "losses": 6,
+      "raw_point_rate": 0.5,
+      "source": "../data/matches.json",
+      "source_sha256": "2eee380566ca7121f0318a44d7dfadb5b21a048ce467f3c0afb5ff81a42fe704",
+      "captured_at_kst": "2026-10-01T18:14:18.659278+09:00",
+      "linkage": "Explicit submission in authenticated all131 UI rows; no attribution from upload time",
+      "opponent_version_known": false
+    },
+    {
+      "id": "9월 29일 22:00",
+      "round_label": "9월 29일 22:00",
+      "submission": 7,
+      "games": 12,
+      "wins": 5,
+      "draws": 0,
+      "losses": 7,
+      "raw_point_rate": 0.4166666666666667,
+      "source": "../data/matches.json",
+      "source_sha256": "2eee380566ca7121f0318a44d7dfadb5b21a048ce467f3c0afb5ff81a42fe704",
+      "captured_at_kst": "2026-10-01T18:14:18.659278+09:00",
+      "linkage": "Explicit submission in authenticated all131 UI rows; no attribution from upload time",
+      "opponent_version_known": false
+    },
+    {
+      "id": "9월 29일 10:00",
+      "round_label": "9월 29일 10:00",
+      "submission": 7,
+      "games": 12,
+      "wins": 6,
+      "draws": 0,
+      "losses": 6,
+      "raw_point_rate": 0.5,
+      "source": "../data/matches.json",
+      "source_sha256": "2eee380566ca7121f0318a44d7dfadb5b21a048ce467f3c0afb5ff81a42fe704",
+      "captured_at_kst": "2026-10-01T18:14:18.659278+09:00",
+      "linkage": "Explicit submission in authenticated all131 UI rows; no attribution from upload time",
+      "opponent_version_known": false
+    },
+    {
+      "id": "9월 28일 22:00",
+      "round_label": "9월 28일 22:00",
+      "submission": 5,
+      "games": 16,
+      "wins": 8,
+      "draws": 0,
+      "losses": 8,
+      "raw_point_rate": 0.5,
+      "source": "../data/matches.json",
+      "source_sha256": "2eee380566ca7121f0318a44d7dfadb5b21a048ce467f3c0afb5ff81a42fe704",
+      "captured_at_kst": "2026-10-01T18:14:18.659278+09:00",
+      "linkage": "Explicit submission in authenticated all131 UI rows; no attribution from upload time",
+      "opponent_version_known": false
+    },
+    {
+      "id": "9월 28일 10:00",
+      "round_label": "9월 28일 10:00",
+      "submission": 4,
+      "games": 13,
+      "wins": 9,
+      "draws": 0,
+      "losses": 4,
+      "raw_point_rate": 0.6923076923076923,
+      "source": "../data/matches.json",
+      "source_sha256": "2eee380566ca7121f0318a44d7dfadb5b21a048ce467f3c0afb5ff81a42fe704",
+      "captured_at_kst": "2026-10-01T18:14:18.659278+09:00",
+      "linkage": "Explicit submission in authenticated all131 UI rows; no attribution from upload time",
+      "opponent_version_known": false
+    },
+    {
+      "id": "9월 27일 22:00",
+      "round_label": "9월 27일 22:00",
+      "submission": 3,
+      "games": 6,
+      "wins": 5,
+      "draws": 0,
+      "losses": 1,
+      "raw_point_rate": 0.8333333333333334,
+      "source": "../data/matches.json",
+      "source_sha256": "2eee380566ca7121f0318a44d7dfadb5b21a048ce467f3c0afb5ff81a42fe704",
+      "captured_at_kst": "2026-10-01T18:14:18.659278+09:00",
+      "linkage": "Explicit submission in authenticated all131 UI rows; no attribution from upload time",
+      "opponent_version_known": false
+    }
+  ],
+  "practice_excluded_from_official": [
+    {
+      "submission": 1,
+      "source": {
+        "path": "docs/04-벤치마크운영.md",
+        "line": 1,
+        "sha256": "7d15d9bdeb7be465f8389b61f0e94476a7ebb25414ce273a5515040f19e53a02"
+      },
+      "qualification": "초기 모의 전투 기록은 문서 참조; 공식대전 집계에서 제외"
+    },
+    {
+      "submission": 3,
+      "wins": 10,
+      "games": 10,
+      "difficulty": "high",
+      "started_kst": "2026-09-27 19:49",
+      "evidence": {
+        "path": "records/official/round1/site-observations.json",
+        "line": 59,
+        "sha256": "f955752d30d3efb390181b39bf9f43309673a45b7ad9e74389ffd8d90c02edac"
+      }
+    },
+    {
+      "submission": 7,
+      "wins": 10,
+      "games": 10,
+      "difficulty": "high",
+      "started_kst": "2026-09-29 07:56",
+      "evidence": {
+        "path": "records/deadline/20260929/live-site.md",
+        "line": 47,
+        "sha256": "a70dcb521419b281f4056f69842bb388fad3390430af771dd054b1b619bef9e4"
+      }
+    },
+    {
+      "submission": 8,
+      "wins": 20,
+      "games": 20,
+      "difficulty": "medium10+high10",
+      "started_kst": "2026-09-30 01:22/01:25",
+      "evidence": {
+        "path": "records/submissions/deadline-20260929/site-receipt.json",
+        "line": 20,
+        "sha256": "6201a7e873cf71505a0500ab613a45450aa48a09997ed46cc551262e3d91e27b"
+      }
+    },
+    {
+      "submission": 11,
+      "wins": 10,
+      "games": 10,
+      "difficulty": "high",
+      "started_kst": "2026-10-01 14:40",
+      "evidence": {
+        "path": "records/deadline1500-20261001/site/practice-high-v11.json",
+        "line": 1,
+        "sha256": "4824330f9f66deeafe600a2abb16e72e45b175341bf78517fe90875937a687be"
+      }
+    }
+  ],
+  "metric_inventory": [
+    {
+      "id": "round1-initial",
+      "source": {
+        "path": "records/official/round1/site-observations.json",
+        "line": 1,
+        "sha256": "f955752d30d3efb390181b39bf9f43309673a45b7ad9e74389ffd8d90c02edac"
+      },
+      "publication": "2026-09-27 22:00",
+      "kind": "adjusted_percent+rank for our team and5opponents",
+      "formula_known": false,
+      "complete_leaderboard": false
+    },
+    {
+      "id": "round2-full",
+      "source": {
+        "path": "records/official/opponent-intel-20260928/leaderboard-live-followup.json",
+        "line": 1,
+        "sha256": "0a42eb1ea254406d514a3a68a4c87d4117bd5031760c46c805416198f7dbda20"
+      },
+      "publication": "2026-09-28 10:00",
+      "kind": "adjusted_percent+rank+w/d/l",
+      "formula_known": false,
+      "retained_teams": 104,
+      "ranked": 56,
+      "zero_game": 48
+    },
+    {
+      "id": "v7-summary",
+      "source": {
+        "path": "records/deadline/20260929/live-site.md",
+        "line": 1,
+        "sha256": "a70dcb521419b281f4056f69842bb388fad3390430af771dd054b1b619bef9e4"
+      },
+      "publication": "2026-09-29 10:00",
+      "kind": "our rank35/raw6of12 only; no opponent strength table",
+      "complete_leaderboard": false
+    },
+    {
+      "id": "v8-reference",
+      "source": {
+        "path": "records/official/latest-20261001/leaderboard.json",
+        "line": 1,
+        "sha256": "d364aef818c815f23462672c66d8a77b91ca201a1f872d84325b9e986dc96962"
+      },
+      "publication": "2026-10-01T00:09:00+09:00",
+      "kind": "rank+raw point rate, not adjusted score",
+      "retained_teams": 23,
+      "visible_teams": 87,
+      "complete_leaderboard": false
+    },
+    {
+      "id": "v9-round",
+      "source": {
+        "path": "records/official/round-20261001-1000/matches.json",
+        "line": 1,
+        "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+      },
+      "publication": "2026-10-01 10:00 match label",
+      "kind": "our dashboardrank50/raw12of24 and24matchidentities; no contemporary opponent ranks",
+      "complete_leaderboard": false
+    },
+    {
+      "id": "current-1700-full",
+      "source": "../data/leaderboard-latest.json",
+      "publication": "2026-10-01T17:00:00+09:00",
+      "kind": "rank+w/d/l/errors/games; derived raw point rate",
+      "retained_teams": 87,
+      "complete_leaderboard": true
+    }
+  ],
+  "local_v4_not_server_submission4": {
+    "artifact": {
+      "path": "artifacts/submission-v4.zip",
+      "zip_sha256": "b3f7fee0154ff08a7f563e8b0036dd7b649d136e949e641ebe69a8c0ba7cd3da",
+      "zip_bytes": 14441,
+      "files_sha256": {
+        "generated.hpp": "bb33f9ec092102780c54165b13c53ca4d83691c43316ae8dcb38f47f8afecaaa",
+        "main.cpp": "1703701340ede10b652b0aa024e29c3fd411e2809ae34de1e3d0b39620d496df",
+        "protocol.hpp": "1bf0275744c41122daf060d3c52beb9339f263a345306e987721c6c92cc822f8",
+        "submission.json": "41910c5a11e5589b5c15397348253dcd1056c0029f3e5ad514de9d8ecbfefe60"
+      },
+      "entry_source_sha256": "1703701340ede10b652b0aa024e29c3fd411e2809ae34de1e3d0b39620d496df"
+    },
+    "strategy": "s3_v2_screen_paired_guard",
+    "server_upload_evidence": "9/29 UI explicitly says not in submission history; do not map by version number",
+    "evidence": {
+      "path": "docs/24-s3독립검증결과.md",
+      "line": 3,
+      "sha256": "52ba4189185f30a7670623498906429db764ca547b6bec4eff8d2dbfd4a315f9"
+    }
+  },
+  "gaps": [
+    "server5/6/7 source ZIP unavailable in retained archive",
+    "server9 and10 actual source equality unknown",
+    "No retained full 10/1 10:00 leaderboard; rank changes may support only explicitly inferred past ranks, not missing WDL or point rates",
+    "Historical adjusted score formula undocumented; late point rates are not adjusted scores",
+    "Opponent versions can differ for same team",
+    "Server8 and11 source files identical does not equate maps/opponents/runtime or expected outcomes",
+    "Latest131UI includes explicit round+submission+opponent but no game IDs;61 IDs were joined from retained history"
+  ],
+  "historical_round_snapshots": [
+    {
+      "id": "20260927-2200-initial-snapshot",
+      "submission": 3,
+      "publication_kst": "2026-09-27 22:00",
+      "observed_kst": "2026-09-27 22:59",
+      "wins": 4,
+      "draws": 0,
+      "losses": 1,
+      "games": 5,
+      "raw_point_rate": 0.8,
+      "rank": 12,
+      "adjusted_percent": 61.0,
+      "scope": "초기 스냅샷; 아래6경기개정판과 합산 금지",
+      "opponent_metrics": "5명 당시 rank/adjusted_percent 보존",
+      "evidence": [
+        {
+          "path": "records/official/round1/site-observations.json",
+          "line": 6,
+          "sha256": "f955752d30d3efb390181b39bf9f43309673a45b7ad9e74389ffd8d90c02edac"
+        }
+      ]
+    },
+    {
+      "id": "20260927-2200-revised",
+      "submission": 3,
+      "publication_kst": "2026-09-27 22:00 (후속 보정)",
+      "observed_kst": "2026-09-28 14시대",
+      "wins": 5,
+      "draws": 0,
+      "losses": 1,
+      "games": 6,
+      "raw_point_rate": 0.8333333333333334,
+      "rank": null,
+      "adjusted_percent": null,
+      "scope": "초기5경기+하면해전승1; raw하면해는후속확보기록존재. 이전7위는UI순위변동의역산일뿐직접최종row확인아님",
+      "evidence": [
+        {
+          "path": "docs/25-공식2차결과와구조개선.md",
+          "line": 26,
+          "sha256": "54f9ae3ea6b554cb61016752cdae7130b358882745b85132e0c9b93e57de2b55"
+        },
+        {
+          "path": "records/official/opponent-intel-20260928/haemyeonhae-ui-observations.json",
+          "line": 1,
+          "sha256": "1f62509ff1066a934dc0282060520c302ab6cf7d6d6e1c5bc55c43a9b761de32"
+        }
+      ]
+    },
+    {
+      "id": "20260928-1000",
+      "submission": 4,
+      "publication_kst": "2026-09-28 10:00",
+      "wins": 9,
+      "draws": 0,
+      "losses": 4,
+      "games": 13,
+      "raw_point_rate": 0.6923076923076923,
+      "rank": 19,
+      "adjusted_percent": 66.2,
+      "opponent_metrics": "동시점56개ranked행+48zero-game행; 전체13상대rank/adjusted_percent 연결",
+      "scope": "13raw/전체명단확인. 전체10위이내상대0W4L,나머지9W0L",
+      "evidence": [
+        {
+          "path": "records/official/round2/site-observations.json",
+          "line": 6,
+          "sha256": "7ea4d29f256024a2b33e43a5053d309fb30ebada100f72a143e29eb74cdb0bb2"
+        },
+        {
+          "path": "docs/25-공식2차결과와구조개선.md",
+          "line": 22,
+          "sha256": "54f9ae3ea6b554cb61016752cdae7130b358882745b85132e0c9b93e57de2b55"
+        }
+      ]
+    },
+    {
+      "id": "20260928-2200-unmapped",
+      "submission": null,
+      "publication_kst": "2026-09-28 22:00",
+      "wins": null,
+      "draws": null,
+      "losses": null,
+      "games": 16,
+      "raw_point_rate": null,
+      "rank": null,
+      "adjusted_percent": null,
+      "scope": "9/29 UI전체47경기의회차별개수기록에서16개존재만확인; #5이후라는시각만으로submission을단정하지않음",
+      "evidence": [
+        {
+          "path": "records/deadline/20260929/live-site.md",
+          "line": 18,
+          "sha256": "a70dcb521419b281f4056f69842bb388fad3390430af771dd054b1b619bef9e4"
+        }
+      ]
+    },
+    {
+      "id": "20260929-1000",
+      "submission": 7,
+      "publication_kst": "2026-09-29 10:00",
+      "wins": 6,
+      "draws": 0,
+      "losses": 6,
+      "games": 12,
+      "raw_point_rate": 0.5,
+      "rank": 35,
+      "adjusted_percent": null,
+      "opponent_metrics": "상대12명,패배6개gameId+UIcheckpoint; 동시점상대순위표 없음",
+      "scope": "raw전체미확보; 당시 인증UI 요약. #7 source/ZIP unknown",
+      "evidence": [
+        {
+          "path": "records/deadline/20260929/live-site.md",
+          "line": 16,
+          "sha256": "a70dcb521419b281f4056f69842bb388fad3390430af771dd054b1b619bef9e4"
+        }
+      ]
+    },
+    {
+      "id": "20261001-0030-label",
+      "submission": 8,
+      "publication_kst": "2026-10-01 00:09",
+      "match_round_label": "10/1 00:30 leaderboard",
+      "wins": 7,
+      "draws": 0,
+      "losses": 5,
+      "games": 12,
+      "raw_point_rate": 0.5833333333333334,
+      "rank": 33,
+      "adjusted_percent": null,
+      "opponent_metrics": "87행을읽었고JSON에는top12+우리+당시상대23행보존;순위와원승점률. 보정점수와혼용금지",
+      "raw_files_available_in_archive": 1,
+      "scope": "12명단확인,당시아카이브raw1개. 화면공개시각과회차라벨불일치보존",
+      "evidence": [
+        {
+          "path": "records/official/latest-20261001/leaderboard.json",
+          "line": 1,
+          "sha256": "d364aef818c815f23462672c66d8a77b91ca201a1f872d84325b9e986dc96962"
+        },
+        {
+          "path": "records/official/latest-20261001/matches.json",
+          "line": 1,
+          "sha256": "eda98b28e40830304befa8e9773f9fb437acc61a6076f19ec0a27312621f2018"
+        }
+      ]
+    },
+    {
+      "id": "20261001-1000",
+      "submission": 9,
+      "publication_kst": "2026-10-01 10:00 회차",
+      "wins": 12,
+      "draws": 0,
+      "losses": 12,
+      "games": 24,
+      "raw_point_rate": 0.5,
+      "rank": 50,
+      "adjusted_percent": null,
+      "forfeit_wins": 2,
+      "ordinary_wins": 10,
+      "nonforfeit_games": 22,
+      "nonforfeit_point_rate": 0.45454545454545453,
+      "scope": "24raw/전체명단확인;50위는동시조회dashboard,publication_label은과거00:09로부정합. 상대기권승2를별도표시하나공식승수는12유지",
+      "opponent_metrics": "보존된당시전체리더보드없음;00:09의옛순위를10시동시점순위로대입금지",
+      "evidence": [
+        {
+          "path": "records/official/round-20261001-1000/matches.json",
+          "line": 1,
+          "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+        },
+        {
+          "path": "records/official/round-20261001-1000/analysis/summary.json",
+          "line": 12,
+          "sha256": "65e831bac00a2ac2a89c83caefddd2632829d4771630e75bc77823e1b393164f"
+        }
+      ]
+    },
+    {
+      "id": "20261001-1700-pending-live-collection",
+      "submission": null,
+      "publication_kst": "2026-10-01 17:00 예정",
+      "wins": null,
+      "draws": null,
+      "losses": null,
+      "games": null,
+      "rank": null,
+      "adjusted_percent": null,
+      "scope": "이기존기록inventory에는17시회차없음;현재root가인증UI수집중. 14:39선택으로실제적용을추정하지않고경기별submission확인필요",
+      "evidence": [
+        {
+          "path": "docs/33-15시제출과제한CPU선택.md",
+          "line": 51,
+          "sha256": "47dd44abcb8ae9487da258247f2eaccb68394a9683ff49d97ce67a28b3ca13b6"
+        }
+      ],
+      "intended_selected_submission": 11
+    }
+  ],
+  "latest_capture": {
+    "captured_at_kst": "2026-10-01T18:14:18.659278+09:00",
+    "match_rows": 131,
+    "match_checksum": "1f05f1ea",
+    "leaderboard_rows": 87,
+    "leaderboard_checksum": "13db6514",
+    "latest_publication": "2026-10-01T17:00:00+09:00",
+    "read_only_new_live_input": true
+  },
+  "leaderboard_1000_search": {
+    "found": false,
+    "searched_repository": "/tmp/yk-new-bot-20261001",
+    "methods": [
+      "rg --files for leaderboard/site-observations/site-review",
+      "rg -l rank/our_rank/ranked_rows/adjusted_percent/adjusted_score_percent in records/official and records/research/new-bot-20261001 JSONs"
+    ],
+    "retained_tables": [
+      "round1/site-observations: old5 opponent rank/adjusted",
+      "round2/site-observations and opponent-intel leaderboards:9/28 10:00 104teams56ranked",
+      "latest-20261001/leaderboard.json:10/1 00:09 23retained rows",
+      "round-20261001-1000/matches.json:ourrank50only"
+    ],
+    "qualification": "No1000fullopponentWDLtable in preserved repository. Search result is archive absence, not proof website never displayed it."
+  },
+  "zip_source_identity_recheck": {
+    "server_submissions": [
+      8,
+      11
+    ],
+    "zip_hashes_different": true,
+    "member_names_equal": true,
+    "every_member_sha256_equal": true,
+    "member_count": 4,
+    "main_cpp_sha256": "61a4f25113d9bf2c387a59ddc770a3143de6311e3fd2e004827a66eb78edfbc9",
+    "server_download_hash_checked": false,
+    "identity_scope": "Directly inspected local ZIPs actually named in each authenticated upload receipt; no server ZIP hash exposed."
+  }
+}

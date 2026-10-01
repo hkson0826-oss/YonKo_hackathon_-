@@ -1,0 +1,3720 @@
+{
+  "matches": [
+    {
+      "round_label": "10월 1일 17:00",
+      "submission": 11,
+      "opponent": "그래피",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": null,
+      "latest_UI_row_1based": 1,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "10월 1일 17:00",
+      "submission": 11,
+      "opponent": "신촌깃발도적단",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": null,
+      "latest_UI_row_1based": 2,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "10월 1일 17:00",
+      "submission": 11,
+      "opponent": "2325",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": null,
+      "latest_UI_row_1based": 3,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "10월 1일 17:00",
+      "submission": 11,
+      "opponent": "Team 24",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": null,
+      "latest_UI_row_1based": 4,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "10월 1일 17:00",
+      "submission": 11,
+      "opponent": "장진하",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": null,
+      "latest_UI_row_1based": 5,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "10월 1일 17:00",
+      "submission": 11,
+      "opponent": "Yaar",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": null,
+      "latest_UI_row_1based": 6,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "10월 1일 17:00",
+      "submission": 11,
+      "opponent": "욘욘펀치",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": null,
+      "latest_UI_row_1based": 7,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "10월 1일 17:00",
+      "submission": 11,
+      "opponent": "정진규컴퓨터시스템D504",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": null,
+      "latest_UI_row_1based": 8,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "10월 1일 17:00",
+      "submission": 11,
+      "opponent": "박박이",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": null,
+      "latest_UI_row_1based": 9,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "10월 1일 17:00",
+      "submission": 11,
+      "opponent": "AI고",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": null,
+      "latest_UI_row_1based": 10,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "10월 1일 17:00",
+      "submission": 11,
+      "opponent": "KUTUSA",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": null,
+      "latest_UI_row_1based": 11,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "10월 1일 17:00",
+      "submission": 11,
+      "opponent": "저희 집 GPU가 추위를 타요",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": null,
+      "latest_UI_row_1based": 12,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "10월 1일 17:00",
+      "submission": 11,
+      "opponent": "크아앙",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": null,
+      "latest_UI_row_1based": 13,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "10월 1일 17:00",
+      "submission": 11,
+      "opponent": "Re:verse",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": null,
+      "latest_UI_row_1based": 14,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "10월 1일 17:00",
+      "submission": 11,
+      "opponent": "요미",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": null,
+      "latest_UI_row_1based": 15,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "10월 1일 17:00",
+      "submission": 11,
+      "opponent": "렛츠고",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": null,
+      "latest_UI_row_1based": 16,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "10월 1일 17:00",
+      "submission": 11,
+      "opponent": "저능박수",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": null,
+      "latest_UI_row_1based": 17,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "10월 1일 17:00",
+      "submission": 11,
+      "opponent": "연세찜닭",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": null,
+      "latest_UI_row_1based": 18,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "10월 1일 17:00",
+      "submission": 11,
+      "opponent": "인공저능",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": null,
+      "latest_UI_row_1based": 19,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "10월 1일 17:00",
+      "submission": 11,
+      "opponent": "집가고싶다",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": null,
+      "latest_UI_row_1based": 20,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "10월 1일 17:00",
+      "submission": 11,
+      "opponent": "조니 해커 블루",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": null,
+      "latest_UI_row_1based": 21,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "10월 1일 17:00",
+      "submission": 11,
+      "opponent": "hyper",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": null,
+      "latest_UI_row_1based": 22,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "10월 1일 17:00",
+      "submission": 11,
+      "opponent": "인지시를위대하게",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": null,
+      "latest_UI_row_1based": 23,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "10월 1일 17:00",
+      "submission": 11,
+      "opponent": "올림픽 정신",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": null,
+      "latest_UI_row_1based": 24,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "10월 1일 10:00",
+      "submission": 9,
+      "opponent": "박박이",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": "rolling-game-fd86a6c092d1fc50f9a07fe53dc51a22e2445e934d45f58202192d30c675b2ad",
+      "latest_UI_row_1based": 25,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20261001-1000",
+        "submission": 9,
+        "submission_link": "explicit UI all24",
+        "game_id": "rolling-game-fd86a6c092d1fc50f9a07fe53dc51a22e2445e934d45f58202192d30c675b2ad",
+        "opponent": "박박이",
+        "side": "Y",
+        "outcome": "loss",
+        "opponent_rank": null,
+        "opponent_point_rate": null,
+        "evidence": {
+          "path": "records/official/round-20261001-1000/matches.json",
+          "line": 13,
+          "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+        }
+      }
+    },
+    {
+      "round_label": "10월 1일 10:00",
+      "submission": 9,
+      "opponent": "올림픽 정신",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": "rolling-game-f7f24e2549d11837a6bf372e8694f3ae58e8a2c79fc89f8e6bed038d9c322df0",
+      "latest_UI_row_1based": 26,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20261001-1000",
+        "submission": 9,
+        "submission_link": "explicit UI all24",
+        "game_id": "rolling-game-f7f24e2549d11837a6bf372e8694f3ae58e8a2c79fc89f8e6bed038d9c322df0",
+        "opponent": "올림픽 정신",
+        "side": "Y",
+        "outcome": "loss",
+        "opponent_rank": null,
+        "opponent_point_rate": null,
+        "evidence": {
+          "path": "records/official/round-20261001-1000/matches.json",
+          "line": 21,
+          "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+        }
+      }
+    },
+    {
+      "round_label": "10월 1일 10:00",
+      "submission": 9,
+      "opponent": "Yaar",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": "rolling-game-eff2465db42cc2c2eef6da120b6bb0979e1d92190941ff01c0bd931a6beba90d",
+      "latest_UI_row_1based": 27,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20261001-1000",
+        "submission": 9,
+        "submission_link": "explicit UI all24",
+        "game_id": "rolling-game-eff2465db42cc2c2eef6da120b6bb0979e1d92190941ff01c0bd931a6beba90d",
+        "opponent": "Yaar",
+        "side": "Y",
+        "outcome": "loss",
+        "opponent_rank": null,
+        "opponent_point_rate": null,
+        "evidence": {
+          "path": "records/official/round-20261001-1000/matches.json",
+          "line": 29,
+          "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+        }
+      }
+    },
+    {
+      "round_label": "10월 1일 10:00",
+      "submission": 9,
+      "opponent": "공주",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": "rolling-game-c76a06645ae50416ebba19cbf4ea2306626cdc6958f9ed2f57a5d7c0bb32ced4",
+      "latest_UI_row_1based": 28,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20261001-1000",
+        "submission": 9,
+        "submission_link": "explicit UI all24",
+        "game_id": "rolling-game-c76a06645ae50416ebba19cbf4ea2306626cdc6958f9ed2f57a5d7c0bb32ced4",
+        "opponent": "공주",
+        "side": "Y",
+        "outcome": "win",
+        "opponent_rank": null,
+        "opponent_point_rate": null,
+        "evidence": {
+          "path": "records/official/round-20261001-1000/matches.json",
+          "line": 37,
+          "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+        }
+      }
+    },
+    {
+      "round_label": "10월 1일 10:00",
+      "submission": 9,
+      "opponent": "연크크",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": "rolling-game-c25aca8592a15499b4cbc9d5aa348e97edecbd6cdb2eb7b311141eec6f7e8623",
+      "latest_UI_row_1based": 29,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20261001-1000",
+        "submission": 9,
+        "submission_link": "explicit UI all24",
+        "game_id": "rolling-game-c25aca8592a15499b4cbc9d5aa348e97edecbd6cdb2eb7b311141eec6f7e8623",
+        "opponent": "연크크",
+        "side": "Y",
+        "outcome": "loss",
+        "opponent_rank": null,
+        "opponent_point_rate": null,
+        "evidence": {
+          "path": "records/official/round-20261001-1000/matches.json",
+          "line": 45,
+          "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+        }
+      }
+    },
+    {
+      "round_label": "10월 1일 10:00",
+      "submission": 9,
+      "opponent": "연세찜닭",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": "rolling-game-b24dd2c52849c0482d1594b89fe2c9f2e8931d777896bbbcf51b2a3c6d626803",
+      "latest_UI_row_1based": 30,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20261001-1000",
+        "submission": 9,
+        "submission_link": "explicit UI all24",
+        "game_id": "rolling-game-b24dd2c52849c0482d1594b89fe2c9f2e8931d777896bbbcf51b2a3c6d626803",
+        "opponent": "연세찜닭",
+        "side": "Y",
+        "outcome": "win",
+        "opponent_rank": null,
+        "opponent_point_rate": null,
+        "evidence": {
+          "path": "records/official/round-20261001-1000/matches.json",
+          "line": 53,
+          "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+        }
+      }
+    },
+    {
+      "round_label": "10월 1일 10:00",
+      "submission": 9,
+      "opponent": "뉴비입니다",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": "rolling-game-a81e82aaf23d296e8afa0ae5845b12fcd40245724f80991d1b2b0262744bffaf",
+      "latest_UI_row_1based": 31,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20261001-1000",
+        "submission": 9,
+        "submission_link": "explicit UI all24",
+        "game_id": "rolling-game-a81e82aaf23d296e8afa0ae5845b12fcd40245724f80991d1b2b0262744bffaf",
+        "opponent": "뉴비입니다",
+        "side": "Y",
+        "outcome": "win",
+        "opponent_rank": null,
+        "opponent_point_rate": null,
+        "evidence": {
+          "path": "records/official/round-20261001-1000/matches.json",
+          "line": 61,
+          "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+        }
+      }
+    },
+    {
+      "round_label": "10월 1일 10:00",
+      "submission": 9,
+      "opponent": "거북이",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": "rolling-game-a734188ba1b3507f0b14641599bc9eb212bfaa6bc37591908292b38747c4d8d9",
+      "latest_UI_row_1based": 32,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20261001-1000",
+        "submission": 9,
+        "submission_link": "explicit UI all24",
+        "game_id": "rolling-game-a734188ba1b3507f0b14641599bc9eb212bfaa6bc37591908292b38747c4d8d9",
+        "opponent": "거북이",
+        "side": "Y",
+        "outcome": "win",
+        "opponent_rank": null,
+        "opponent_point_rate": null,
+        "evidence": {
+          "path": "records/official/round-20261001-1000/matches.json",
+          "line": 69,
+          "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+        }
+      }
+    },
+    {
+      "round_label": "10월 1일 10:00",
+      "submission": 9,
+      "opponent": "인공저능",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": "rolling-game-a36443c39ce4bc9c7d6fae1497050130e0c3a69b28f9f1152920e412711d57c1",
+      "latest_UI_row_1based": 33,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20261001-1000",
+        "submission": 9,
+        "submission_link": "explicit UI all24",
+        "game_id": "rolling-game-a36443c39ce4bc9c7d6fae1497050130e0c3a69b28f9f1152920e412711d57c1",
+        "opponent": "인공저능",
+        "side": "Y",
+        "outcome": "win",
+        "opponent_rank": null,
+        "opponent_point_rate": null,
+        "evidence": {
+          "path": "records/official/round-20261001-1000/matches.json",
+          "line": 77,
+          "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+        }
+      }
+    },
+    {
+      "round_label": "10월 1일 10:00",
+      "submission": 9,
+      "opponent": "조선김",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": "rolling-game-97cc965a70c970c8e29722df241d46ef65438f1a516efab0e0a17e762bf67efc",
+      "latest_UI_row_1based": 34,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20261001-1000",
+        "submission": 9,
+        "submission_link": "explicit UI all24",
+        "game_id": "rolling-game-97cc965a70c970c8e29722df241d46ef65438f1a516efab0e0a17e762bf67efc",
+        "opponent": "조선김",
+        "side": "Y",
+        "outcome": "win",
+        "opponent_rank": null,
+        "opponent_point_rate": null,
+        "evidence": {
+          "path": "records/official/round-20261001-1000/matches.json",
+          "line": 85,
+          "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+        }
+      }
+    },
+    {
+      "round_label": "10월 1일 10:00",
+      "submission": 9,
+      "opponent": "개우진보러갈까",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": "rolling-game-93362455ec99d14bc04b74da56d699403137e92e9645d291847cd5033b4308a8",
+      "latest_UI_row_1based": 35,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20261001-1000",
+        "submission": 9,
+        "submission_link": "explicit UI all24",
+        "game_id": "rolling-game-93362455ec99d14bc04b74da56d699403137e92e9645d291847cd5033b4308a8",
+        "opponent": "개우진보러갈까",
+        "side": "Y",
+        "outcome": "win",
+        "opponent_rank": null,
+        "opponent_point_rate": null,
+        "evidence": {
+          "path": "records/official/round-20261001-1000/matches.json",
+          "line": 93,
+          "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+        }
+      }
+    },
+    {
+      "round_label": "10월 1일 10:00",
+      "submission": 9,
+      "opponent": "태호랑이",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": "rolling-game-7f305a8ab9990e5250d8dd209b4007d0d777738b47e92e011354729e1cdd4290",
+      "latest_UI_row_1based": 36,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20261001-1000",
+        "submission": 9,
+        "submission_link": "explicit UI all24",
+        "game_id": "rolling-game-7f305a8ab9990e5250d8dd209b4007d0d777738b47e92e011354729e1cdd4290",
+        "opponent": "태호랑이",
+        "side": "Y",
+        "outcome": "loss",
+        "opponent_rank": null,
+        "opponent_point_rate": null,
+        "evidence": {
+          "path": "records/official/round-20261001-1000/matches.json",
+          "line": 101,
+          "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+        }
+      }
+    },
+    {
+      "round_label": "10월 1일 10:00",
+      "submission": 9,
+      "opponent": "연세있게 코딩하조",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": "rolling-game-7eeef93682801d3fb3f309c06b3932cd9d9b2007c6c88ac851dbe79e6e360557",
+      "latest_UI_row_1based": 37,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20261001-1000",
+        "submission": 9,
+        "submission_link": "explicit UI all24",
+        "game_id": "rolling-game-7eeef93682801d3fb3f309c06b3932cd9d9b2007c6c88ac851dbe79e6e360557",
+        "opponent": "연세있게 코딩하조",
+        "side": "Y",
+        "outcome": "win",
+        "opponent_rank": null,
+        "opponent_point_rate": null,
+        "evidence": {
+          "path": "records/official/round-20261001-1000/matches.json",
+          "line": 109,
+          "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+        }
+      }
+    },
+    {
+      "round_label": "10월 1일 10:00",
+      "submission": 9,
+      "opponent": "신촌도 우리땅",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": "rolling-game-7ac6b9ec02f52581c6d9571e3a247679e3b8fcd9e97ac04374518b675ded109f",
+      "latest_UI_row_1based": 38,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20261001-1000",
+        "submission": 9,
+        "submission_link": "explicit UI all24",
+        "game_id": "rolling-game-7ac6b9ec02f52581c6d9571e3a247679e3b8fcd9e97ac04374518b675ded109f",
+        "opponent": "신촌도 우리땅",
+        "side": "Y",
+        "outcome": "win",
+        "opponent_rank": null,
+        "opponent_point_rate": null,
+        "evidence": {
+          "path": "records/official/round-20261001-1000/matches.json",
+          "line": 117,
+          "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+        }
+      }
+    },
+    {
+      "round_label": "10월 1일 10:00",
+      "submission": 9,
+      "opponent": "200OK",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": "rolling-game-67c141094f5c250a52833c754b615d9d9d5461e611f68a0c81efd57d9780e550",
+      "latest_UI_row_1based": 39,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20261001-1000",
+        "submission": 9,
+        "submission_link": "explicit UI all24",
+        "game_id": "rolling-game-67c141094f5c250a52833c754b615d9d9d5461e611f68a0c81efd57d9780e550",
+        "opponent": "200OK",
+        "side": "Y",
+        "outcome": "win",
+        "opponent_rank": null,
+        "opponent_point_rate": null,
+        "evidence": {
+          "path": "records/official/round-20261001-1000/matches.json",
+          "line": 125,
+          "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+        }
+      }
+    },
+    {
+      "round_label": "10월 1일 10:00",
+      "submission": 9,
+      "opponent": "파전",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": "rolling-game-599a77b643000c869c64882f5b7bb735a136b12394ca04f1f28919f556a4a5dd",
+      "latest_UI_row_1based": 40,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20261001-1000",
+        "submission": 9,
+        "submission_link": "explicit UI all24",
+        "game_id": "rolling-game-599a77b643000c869c64882f5b7bb735a136b12394ca04f1f28919f556a4a5dd",
+        "opponent": "파전",
+        "side": "Y",
+        "outcome": "loss",
+        "opponent_rank": null,
+        "opponent_point_rate": null,
+        "evidence": {
+          "path": "records/official/round-20261001-1000/matches.json",
+          "line": 133,
+          "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+        }
+      }
+    },
+    {
+      "round_label": "10월 1일 10:00",
+      "submission": 9,
+      "opponent": "2325",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": "rolling-game-55fe0abc6c904edd5ee4bac94796025122a6144a28f20a54b301baa09f2e2bc7",
+      "latest_UI_row_1based": 41,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20261001-1000",
+        "submission": 9,
+        "submission_link": "explicit UI all24",
+        "game_id": "rolling-game-55fe0abc6c904edd5ee4bac94796025122a6144a28f20a54b301baa09f2e2bc7",
+        "opponent": "2325",
+        "side": "Y",
+        "outcome": "loss",
+        "opponent_rank": null,
+        "opponent_point_rate": null,
+        "evidence": {
+          "path": "records/official/round-20261001-1000/matches.json",
+          "line": 141,
+          "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+        }
+      }
+    },
+    {
+      "round_label": "10월 1일 10:00",
+      "submission": 9,
+      "opponent": "요미",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": "rolling-game-4e0d236cbbab4db9f3de2c0f26044267024d5248fdaa1163bd1c3de9094346a5",
+      "latest_UI_row_1based": 42,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20261001-1000",
+        "submission": 9,
+        "submission_link": "explicit UI all24",
+        "game_id": "rolling-game-4e0d236cbbab4db9f3de2c0f26044267024d5248fdaa1163bd1c3de9094346a5",
+        "opponent": "요미",
+        "side": "Y",
+        "outcome": "loss",
+        "opponent_rank": null,
+        "opponent_point_rate": null,
+        "evidence": {
+          "path": "records/official/round-20261001-1000/matches.json",
+          "line": 149,
+          "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+        }
+      }
+    },
+    {
+      "round_label": "10월 1일 10:00",
+      "submission": 9,
+      "opponent": "占쏙옙",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": "rolling-game-4d11bbabf02419ab956db2f20df6709ea27c41c42049c13ca20a9ae2f128bd3d",
+      "latest_UI_row_1based": 43,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20261001-1000",
+        "submission": 9,
+        "submission_link": "explicit UI all24",
+        "game_id": "rolling-game-4d11bbabf02419ab956db2f20df6709ea27c41c42049c13ca20a9ae2f128bd3d",
+        "opponent": "占쏙옙",
+        "side": "Y",
+        "outcome": "loss",
+        "opponent_rank": null,
+        "opponent_point_rate": null,
+        "evidence": {
+          "path": "records/official/round-20261001-1000/matches.json",
+          "line": 157,
+          "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+        }
+      }
+    },
+    {
+      "round_label": "10월 1일 10:00",
+      "submission": 9,
+      "opponent": "언더우드의목마",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": "rolling-game-3fc3bdb4da80554b1115a5f4a3a47a28e80280e8424d1b28d4eabcf2f75cecad",
+      "latest_UI_row_1based": 44,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20261001-1000",
+        "submission": 9,
+        "submission_link": "explicit UI all24",
+        "game_id": "rolling-game-3fc3bdb4da80554b1115a5f4a3a47a28e80280e8424d1b28d4eabcf2f75cecad",
+        "opponent": "언더우드의목마",
+        "side": "Y",
+        "outcome": "win",
+        "opponent_rank": null,
+        "opponent_point_rate": null,
+        "evidence": {
+          "path": "records/official/round-20261001-1000/matches.json",
+          "line": 165,
+          "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+        }
+      }
+    },
+    {
+      "round_label": "10월 1일 10:00",
+      "submission": 9,
+      "opponent": "학부기",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": "rolling-game-3349286232eaf367b4100ae55f4cc6fc1a85b4aae2b2af59c2705465374cda60",
+      "latest_UI_row_1based": 45,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20261001-1000",
+        "submission": 9,
+        "submission_link": "explicit UI all24",
+        "game_id": "rolling-game-3349286232eaf367b4100ae55f4cc6fc1a85b4aae2b2af59c2705465374cda60",
+        "opponent": "학부기",
+        "side": "Y",
+        "outcome": "loss",
+        "opponent_rank": null,
+        "opponent_point_rate": null,
+        "evidence": {
+          "path": "records/official/round-20261001-1000/matches.json",
+          "line": 173,
+          "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+        }
+      }
+    },
+    {
+      "round_label": "10월 1일 10:00",
+      "submission": 9,
+      "opponent": "집가고싶다",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": "rolling-game-3121389769080bb6d6fd232195165c5036e1025da736713fef3506d0aa5b107a",
+      "latest_UI_row_1based": 46,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20261001-1000",
+        "submission": 9,
+        "submission_link": "explicit UI all24",
+        "game_id": "rolling-game-3121389769080bb6d6fd232195165c5036e1025da736713fef3506d0aa5b107a",
+        "opponent": "집가고싶다",
+        "side": "Y",
+        "outcome": "loss",
+        "opponent_rank": null,
+        "opponent_point_rate": null,
+        "evidence": {
+          "path": "records/official/round-20261001-1000/matches.json",
+          "line": 181,
+          "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+        }
+      }
+    },
+    {
+      "round_label": "10월 1일 10:00",
+      "submission": 9,
+      "opponent": "우트와 윤트",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": "rolling-game-2ba97520b4d73261b666daeee9669c08b4c07112536eb18acc0abfe50e4a9b82",
+      "latest_UI_row_1based": 47,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20261001-1000",
+        "submission": 9,
+        "submission_link": "explicit UI all24",
+        "game_id": "rolling-game-2ba97520b4d73261b666daeee9669c08b4c07112536eb18acc0abfe50e4a9b82",
+        "opponent": "우트와 윤트",
+        "side": "Y",
+        "outcome": "win",
+        "opponent_rank": null,
+        "opponent_point_rate": null,
+        "evidence": {
+          "path": "records/official/round-20261001-1000/matches.json",
+          "line": 189,
+          "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+        }
+      }
+    },
+    {
+      "round_label": "10월 1일 10:00",
+      "submission": 9,
+      "opponent": "뚜띠태하소불고기와멸치두명",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": "rolling-game-1dc094cbffe48eaa739051fba709c0540d274c38d7ad86681e978aa3556dba18",
+      "latest_UI_row_1based": 48,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20261001-1000",
+        "submission": 9,
+        "submission_link": "explicit UI all24",
+        "game_id": "rolling-game-1dc094cbffe48eaa739051fba709c0540d274c38d7ad86681e978aa3556dba18",
+        "opponent": "뚜띠태하소불고기와멸치두명",
+        "side": "Y",
+        "outcome": "loss",
+        "opponent_rank": null,
+        "opponent_point_rate": null,
+        "evidence": {
+          "path": "records/official/round-20261001-1000/matches.json",
+          "line": 197,
+          "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+        }
+      }
+    },
+    {
+      "round_label": "10월 1일 00:30",
+      "submission": 8,
+      "opponent": "고대26김준우사랑단",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": "rolling-game-fa3bfb5fb15e1a24559a7135a67ae8081ca687df9450eaf01f6c94ca29bc34be",
+      "latest_UI_row_1based": 49,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20261001-0030-label",
+        "submission": 8,
+        "submission_link": "explicit UI",
+        "game_id": "rolling-game-fa3bfb5fb15e1a24559a7135a67ae8081ca687df9450eaf01f6c94ca29bc34be",
+        "opponent": "고대26김준우사랑단",
+        "side": "Y",
+        "outcome": "win",
+        "opponent_rank": 78,
+        "opponent_point_rate": 0.3333333333333333,
+        "opponent_metric_at": "2026-10-01T00:09:00+09:00",
+        "name_join": "remove whitespace only",
+        "evidence": {
+          "path": "records/official/latest-20261001/matches.json",
+          "line": 4,
+          "sha256": "eda98b28e40830304befa8e9773f9fb437acc61a6076f19ec0a27312621f2018"
+        }
+      }
+    },
+    {
+      "round_label": "10월 1일 00:30",
+      "submission": 8,
+      "opponent": "붉은 산호초",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": "rolling-game-f8600dcbb568c94c1bf2715e2bae9e00fd16abc8333520f22a5fd05a1c25362c",
+      "latest_UI_row_1based": 50,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20261001-0030-label",
+        "submission": 8,
+        "submission_link": "explicit UI",
+        "game_id": "rolling-game-f8600dcbb568c94c1bf2715e2bae9e00fd16abc8333520f22a5fd05a1c25362c",
+        "opponent": "붉은 산호초",
+        "side": "Y",
+        "outcome": "loss",
+        "opponent_rank": 3,
+        "opponent_point_rate": 0.75,
+        "opponent_metric_at": "2026-10-01T00:09:00+09:00",
+        "name_join": "remove whitespace only",
+        "evidence": {
+          "path": "records/official/latest-20261001/matches.json",
+          "line": 13,
+          "sha256": "eda98b28e40830304befa8e9773f9fb437acc61a6076f19ec0a27312621f2018"
+        }
+      }
+    },
+    {
+      "round_label": "10월 1일 00:30",
+      "submission": 8,
+      "opponent": "뚜띠태하소불고기와멸치두명",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": "rolling-game-ece792fd174391f3b326dab047448a8547f8257adcfd2842f607de8fbe33eee5",
+      "latest_UI_row_1based": 51,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20261001-0030-label",
+        "submission": 8,
+        "submission_link": "explicit UI",
+        "game_id": "rolling-game-ece792fd174391f3b326dab047448a8547f8257adcfd2842f607de8fbe33eee5",
+        "opponent": "뚜띠태하소불고기와멸치두명",
+        "side": "Y",
+        "outcome": "win",
+        "opponent_rank": 61,
+        "opponent_point_rate": 0.4166666666666667,
+        "opponent_metric_at": "2026-10-01T00:09:00+09:00",
+        "name_join": "remove whitespace only",
+        "evidence": {
+          "path": "records/official/latest-20261001/matches.json",
+          "line": 22,
+          "sha256": "eda98b28e40830304befa8e9773f9fb437acc61a6076f19ec0a27312621f2018"
+        }
+      }
+    },
+    {
+      "round_label": "10월 1일 00:30",
+      "submission": 8,
+      "opponent": "연세찜닭",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": "rolling-game-e3f629ecfd532c76d8d52112844927d5dbdb10f7bb480ce4bb8989a3f812275b",
+      "latest_UI_row_1based": 52,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20261001-0030-label",
+        "submission": 8,
+        "submission_link": "explicit UI",
+        "game_id": "rolling-game-e3f629ecfd532c76d8d52112844927d5dbdb10f7bb480ce4bb8989a3f812275b",
+        "opponent": "연세찜닭",
+        "side": "Y",
+        "outcome": "win",
+        "opponent_rank": 52,
+        "opponent_point_rate": 0.5,
+        "opponent_metric_at": "2026-10-01T00:09:00+09:00",
+        "name_join": "remove whitespace only",
+        "evidence": {
+          "path": "records/official/latest-20261001/matches.json",
+          "line": 31,
+          "sha256": "eda98b28e40830304befa8e9773f9fb437acc61a6076f19ec0a27312621f2018"
+        }
+      }
+    },
+    {
+      "round_label": "10월 1일 00:30",
+      "submission": 8,
+      "opponent": "신촌도 우리땅",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": "rolling-game-da2cd8628e8a73907056ec6791d15093d36498bc6be6c6661caa0d0fc7fad041",
+      "latest_UI_row_1based": 53,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20261001-0030-label",
+        "submission": 8,
+        "submission_link": "explicit UI",
+        "game_id": "rolling-game-da2cd8628e8a73907056ec6791d15093d36498bc6be6c6661caa0d0fc7fad041",
+        "opponent": "신촌도 우리땅",
+        "side": "Y",
+        "outcome": "loss",
+        "opponent_rank": 34,
+        "opponent_point_rate": 0.5454545454545454,
+        "opponent_metric_at": "2026-10-01T00:09:00+09:00",
+        "name_join": "remove whitespace only",
+        "evidence": {
+          "path": "records/official/latest-20261001/matches.json",
+          "line": 40,
+          "sha256": "eda98b28e40830304befa8e9773f9fb437acc61a6076f19ec0a27312621f2018"
+        }
+      }
+    },
+    {
+      "round_label": "10월 1일 00:30",
+      "submission": 8,
+      "opponent": "정진규컴퓨터시스템D504",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": "rolling-game-b68cd686cdd239b15422c469466fc367f3a45196a45214dcb17920c7bed11bc4",
+      "latest_UI_row_1based": 54,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20261001-0030-label",
+        "submission": 8,
+        "submission_link": "explicit UI",
+        "game_id": "rolling-game-b68cd686cdd239b15422c469466fc367f3a45196a45214dcb17920c7bed11bc4",
+        "opponent": "정진규컴퓨터시스템D504",
+        "side": "Y",
+        "outcome": "win",
+        "opponent_rank": 57,
+        "opponent_point_rate": 0.4166666666666667,
+        "opponent_metric_at": "2026-10-01T00:09:00+09:00",
+        "name_join": "remove whitespace only",
+        "evidence": {
+          "path": "records/official/latest-20261001/matches.json",
+          "line": 49,
+          "sha256": "eda98b28e40830304befa8e9773f9fb437acc61a6076f19ec0a27312621f2018"
+        }
+      }
+    },
+    {
+      "round_label": "10월 1일 00:30",
+      "submission": 8,
+      "opponent": "니땅내땅",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": "rolling-game-ab518851823fd094d3efa67ab4a8d8b9cf97b8d23e0b520d3fded631a4e499b6",
+      "latest_UI_row_1based": 55,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20261001-0030-label",
+        "submission": 8,
+        "submission_link": "explicit UI",
+        "game_id": "rolling-game-ab518851823fd094d3efa67ab4a8d8b9cf97b8d23e0b520d3fded631a4e499b6",
+        "opponent": "니땅내땅",
+        "side": "Y",
+        "outcome": "win",
+        "opponent_rank": 44,
+        "opponent_point_rate": 0.5,
+        "opponent_metric_at": "2026-10-01T00:09:00+09:00",
+        "name_join": "remove whitespace only",
+        "evidence": {
+          "path": "records/official/latest-20261001/matches.json",
+          "line": 58,
+          "sha256": "eda98b28e40830304befa8e9773f9fb437acc61a6076f19ec0a27312621f2018"
+        }
+      }
+    },
+    {
+      "round_label": "10월 1일 00:30",
+      "submission": 8,
+      "opponent": "저희 집 GPU가 추위를 타요",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": "rolling-game-8b8ad8f55cb3085f0834c475ad27afbe4eb6002d1df682b830449077f4552c4f",
+      "latest_UI_row_1based": 56,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20261001-0030-label",
+        "submission": 8,
+        "submission_link": "explicit UI",
+        "game_id": "rolling-game-8b8ad8f55cb3085f0834c475ad27afbe4eb6002d1df682b830449077f4552c4f",
+        "opponent": "저희 집 GPU가 추위를 타요",
+        "side": "Y",
+        "outcome": "loss",
+        "opponent_rank": 56,
+        "opponent_point_rate": 0.4166666666666667,
+        "opponent_metric_at": "2026-10-01T00:09:00+09:00",
+        "name_join": "remove whitespace only",
+        "evidence": {
+          "path": "records/official/latest-20261001/matches.json",
+          "line": 67,
+          "sha256": "eda98b28e40830304befa8e9773f9fb437acc61a6076f19ec0a27312621f2018"
+        }
+      }
+    },
+    {
+      "round_label": "10월 1일 00:30",
+      "submission": 8,
+      "opponent": "신촌을못가",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": "rolling-game-78bee81572ee4bca067398c24c2cf92af2e07cccf6eed23580e5e9e1b8c7894c",
+      "latest_UI_row_1based": 57,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20261001-0030-label",
+        "submission": 8,
+        "submission_link": "explicit UI",
+        "game_id": "rolling-game-78bee81572ee4bca067398c24c2cf92af2e07cccf6eed23580e5e9e1b8c7894c",
+        "opponent": "신촌을못가",
+        "side": "Y",
+        "outcome": "loss",
+        "opponent_rank": 5,
+        "opponent_point_rate": 0.75,
+        "opponent_metric_at": "2026-10-01T00:09:00+09:00",
+        "name_join": "remove whitespace only",
+        "evidence": {
+          "path": "records/official/latest-20261001/matches.json",
+          "line": 76,
+          "sha256": "eda98b28e40830304befa8e9773f9fb437acc61a6076f19ec0a27312621f2018"
+        }
+      }
+    },
+    {
+      "round_label": "10월 1일 00:30",
+      "submission": 8,
+      "opponent": "올림픽 정신",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": "rolling-game-50e7d1728d49c2148db752ce876687be4decc69356541dc2c23155eff9163687",
+      "latest_UI_row_1based": 58,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20261001-0030-label",
+        "submission": 8,
+        "submission_link": "explicit UI",
+        "game_id": "rolling-game-50e7d1728d49c2148db752ce876687be4decc69356541dc2c23155eff9163687",
+        "opponent": "올림픽 정신",
+        "side": "Y",
+        "outcome": "loss",
+        "opponent_rank": 43,
+        "opponent_point_rate": 0.5,
+        "opponent_metric_at": "2026-10-01T00:09:00+09:00",
+        "name_join": "remove whitespace only",
+        "evidence": {
+          "path": "records/official/latest-20261001/matches.json",
+          "line": 85,
+          "sha256": "eda98b28e40830304befa8e9773f9fb437acc61a6076f19ec0a27312621f2018"
+        }
+      }
+    },
+    {
+      "round_label": "10월 1일 00:30",
+      "submission": 8,
+      "opponent": "hyper",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": "rolling-game-338deb88dbe3cae97f1b21adb22a5ed13b9a8f985972fc586bd3a69ea16bf390",
+      "latest_UI_row_1based": 59,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20261001-0030-label",
+        "submission": 8,
+        "submission_link": "explicit UI",
+        "game_id": "rolling-game-338deb88dbe3cae97f1b21adb22a5ed13b9a8f985972fc586bd3a69ea16bf390",
+        "opponent": "hyper",
+        "side": "Y",
+        "outcome": "win",
+        "opponent_rank": 73,
+        "opponent_point_rate": 0.36363636363636365,
+        "opponent_metric_at": "2026-10-01T00:09:00+09:00",
+        "name_join": "remove whitespace only",
+        "evidence": {
+          "path": "records/official/latest-20261001/matches.json",
+          "line": 94,
+          "sha256": "eda98b28e40830304befa8e9773f9fb437acc61a6076f19ec0a27312621f2018"
+        }
+      }
+    },
+    {
+      "round_label": "10월 1일 00:30",
+      "submission": 8,
+      "opponent": "조니 해커 블루",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": "rolling-game-10df106303acd2c6934fc025bd072eca2983adc72eb17e2bae362affbf9b02be",
+      "latest_UI_row_1based": 60,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20261001-0030-label",
+        "submission": 8,
+        "submission_link": "explicit UI",
+        "game_id": "rolling-game-10df106303acd2c6934fc025bd072eca2983adc72eb17e2bae362affbf9b02be",
+        "opponent": "조니 해커 블루",
+        "side": "Y",
+        "outcome": "win",
+        "opponent_rank": 84,
+        "opponent_point_rate": 0.18181818181818182,
+        "opponent_metric_at": "2026-10-01T00:09:00+09:00",
+        "name_join": "remove whitespace only",
+        "evidence": {
+          "path": "records/official/latest-20261001/matches.json",
+          "line": 103,
+          "sha256": "eda98b28e40830304befa8e9773f9fb437acc61a6076f19ec0a27312621f2018"
+        }
+      }
+    },
+    {
+      "round_label": "9월 30일 10:00",
+      "submission": 8,
+      "opponent": "연세찜닭",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": null,
+      "latest_UI_row_1based": 61,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "9월 30일 10:00",
+      "submission": 8,
+      "opponent": "태호랑이",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": null,
+      "latest_UI_row_1based": 62,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "9월 30일 10:00",
+      "submission": 8,
+      "opponent": "占쏙옙",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": null,
+      "latest_UI_row_1based": 63,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "9월 30일 10:00",
+      "submission": 8,
+      "opponent": "너구리",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": null,
+      "latest_UI_row_1based": 64,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "9월 30일 10:00",
+      "submission": 8,
+      "opponent": "니땅내땅",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": null,
+      "latest_UI_row_1based": 65,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "9월 30일 10:00",
+      "submission": 8,
+      "opponent": "건성건성",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": null,
+      "latest_UI_row_1based": 66,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "9월 30일 10:00",
+      "submission": 8,
+      "opponent": "렛츠고",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": null,
+      "latest_UI_row_1based": 67,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "9월 30일 10:00",
+      "submission": 8,
+      "opponent": "신촌도 우리땅",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": null,
+      "latest_UI_row_1based": 68,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "9월 30일 10:00",
+      "submission": 8,
+      "opponent": "파전",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": null,
+      "latest_UI_row_1based": 69,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "9월 30일 10:00",
+      "submission": 8,
+      "opponent": "뉴비들",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": null,
+      "latest_UI_row_1based": 70,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "9월 30일 10:00",
+      "submission": 8,
+      "opponent": "박박이",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": null,
+      "latest_UI_row_1based": 71,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "9월 30일 10:00",
+      "submission": 8,
+      "opponent": "1026",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": null,
+      "latest_UI_row_1based": 72,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "9월 29일 22:00",
+      "submission": 7,
+      "opponent": "뚜띠태하소불고기와멸치두명",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": null,
+      "latest_UI_row_1based": 73,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "9월 29일 22:00",
+      "submission": 7,
+      "opponent": "건성건성",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": null,
+      "latest_UI_row_1based": 74,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "9월 29일 22:00",
+      "submission": 7,
+      "opponent": "연세대학교인공지능학과",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": null,
+      "latest_UI_row_1based": 75,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "9월 29일 22:00",
+      "submission": 7,
+      "opponent": "연크크",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": null,
+      "latest_UI_row_1based": 76,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "9월 29일 22:00",
+      "submission": 7,
+      "opponent": "오산기지정예병",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": null,
+      "latest_UI_row_1based": 77,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "9월 29일 22:00",
+      "submission": 7,
+      "opponent": "야생지능",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": null,
+      "latest_UI_row_1based": 78,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "9월 29일 22:00",
+      "submission": 7,
+      "opponent": "하면해",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": null,
+      "latest_UI_row_1based": 79,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "9월 29일 22:00",
+      "submission": 7,
+      "opponent": "인지시를위대하게",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": null,
+      "latest_UI_row_1based": 80,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "9월 29일 22:00",
+      "submission": 7,
+      "opponent": "파전",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": null,
+      "latest_UI_row_1based": 81,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "9월 29일 22:00",
+      "submission": 7,
+      "opponent": "크아앙",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": null,
+      "latest_UI_row_1based": 82,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "9월 29일 22:00",
+      "submission": 7,
+      "opponent": "올림픽 정신",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": null,
+      "latest_UI_row_1based": 83,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "9월 29일 22:00",
+      "submission": 7,
+      "opponent": "요미",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": null,
+      "latest_UI_row_1based": 84,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "9월 29일 10:00",
+      "submission": 7,
+      "opponent": "참새 사냥꾼",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": "rolling-game-df846673072f5ce6a57407eaf7db2cb282c9b0ec9813c5156d02d4b7ad3c451a",
+      "latest_UI_row_1based": 85,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20260929-1000",
+        "submission": 7,
+        "submission_link": "round-level UI record",
+        "game_id": "rolling-game-df846673072f5ce6a57407eaf7db2cb282c9b0ec9813c5156d02d4b7ad3c451a",
+        "opponent": "참새 사냥꾼",
+        "side": "Y",
+        "outcome": "loss",
+        "opponent_rank": null,
+        "evidence": {
+          "path": "records/deadline/20260929/live-site.md",
+          "line": 16,
+          "sha256": "a70dcb521419b281f4056f69842bb388fad3390430af771dd054b1b619bef9e4"
+        }
+      }
+    },
+    {
+      "round_label": "9월 29일 10:00",
+      "submission": 7,
+      "opponent": "집가고싶다",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": null,
+      "latest_UI_row_1based": 86,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20260929-1000",
+        "submission": 7,
+        "submission_link": "round-level UI record",
+        "game_id": null,
+        "opponent": "집가고싶다",
+        "side": "Y",
+        "outcome": "win",
+        "opponent_rank": null,
+        "evidence": {
+          "path": "records/deadline/20260929/live-site.md",
+          "line": 16,
+          "sha256": "a70dcb521419b281f4056f69842bb388fad3390430af771dd054b1b619bef9e4"
+        }
+      }
+    },
+    {
+      "round_label": "9월 29일 10:00",
+      "submission": 7,
+      "opponent": "태호랑이",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": null,
+      "latest_UI_row_1based": 87,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20260929-1000",
+        "submission": 7,
+        "submission_link": "round-level UI record",
+        "game_id": null,
+        "opponent": "태호랑이",
+        "side": "Y",
+        "outcome": "win",
+        "opponent_rank": null,
+        "evidence": {
+          "path": "records/deadline/20260929/live-site.md",
+          "line": 16,
+          "sha256": "a70dcb521419b281f4056f69842bb388fad3390430af771dd054b1b619bef9e4"
+        }
+      }
+    },
+    {
+      "round_label": "9월 29일 10:00",
+      "submission": 7,
+      "opponent": "Yaar",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": null,
+      "latest_UI_row_1based": 88,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20260929-1000",
+        "submission": 7,
+        "submission_link": "round-level UI record",
+        "game_id": null,
+        "opponent": "Yaar",
+        "side": "Y",
+        "outcome": "win",
+        "opponent_rank": null,
+        "evidence": {
+          "path": "records/deadline/20260929/live-site.md",
+          "line": 16,
+          "sha256": "a70dcb521419b281f4056f69842bb388fad3390430af771dd054b1b619bef9e4"
+        }
+      }
+    },
+    {
+      "round_label": "9월 29일 10:00",
+      "submission": 7,
+      "opponent": "ㄱ-",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": "rolling-game-91e0f2a45ee9eb9c8030b3709161dd971786645287e432e7ce1730a0565d6c13",
+      "latest_UI_row_1based": 89,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20260929-1000",
+        "submission": 7,
+        "submission_link": "round-level UI record",
+        "game_id": "rolling-game-91e0f2a45ee9eb9c8030b3709161dd971786645287e432e7ce1730a0565d6c13",
+        "opponent": "ㄱ-",
+        "side": "Y",
+        "outcome": "loss",
+        "opponent_rank": null,
+        "evidence": {
+          "path": "records/deadline/20260929/live-site.md",
+          "line": 16,
+          "sha256": "a70dcb521419b281f4056f69842bb388fad3390430af771dd054b1b619bef9e4"
+        }
+      }
+    },
+    {
+      "round_label": "9월 29일 10:00",
+      "submission": 7,
+      "opponent": "파스텔",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": null,
+      "latest_UI_row_1based": 90,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20260929-1000",
+        "submission": 7,
+        "submission_link": "round-level UI record",
+        "game_id": null,
+        "opponent": "파스텔",
+        "side": "Y",
+        "outcome": "win",
+        "opponent_rank": null,
+        "evidence": {
+          "path": "records/deadline/20260929/live-site.md",
+          "line": 16,
+          "sha256": "a70dcb521419b281f4056f69842bb388fad3390430af771dd054b1b619bef9e4"
+        }
+      }
+    },
+    {
+      "round_label": "9월 29일 10:00",
+      "submission": 7,
+      "opponent": "올림픽 정신",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": null,
+      "latest_UI_row_1based": 91,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20260929-1000",
+        "submission": 7,
+        "submission_link": "round-level UI record",
+        "game_id": null,
+        "opponent": "올림픽 정신",
+        "side": "Y",
+        "outcome": "win",
+        "opponent_rank": null,
+        "evidence": {
+          "path": "records/deadline/20260929/live-site.md",
+          "line": 16,
+          "sha256": "a70dcb521419b281f4056f69842bb388fad3390430af771dd054b1b619bef9e4"
+        }
+      }
+    },
+    {
+      "round_label": "9월 29일 10:00",
+      "submission": 7,
+      "opponent": "초짜들",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": null,
+      "latest_UI_row_1based": 92,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20260929-1000",
+        "submission": 7,
+        "submission_link": "round-level UI record",
+        "game_id": null,
+        "opponent": "초짜들",
+        "side": "Y",
+        "outcome": "win",
+        "opponent_rank": null,
+        "evidence": {
+          "path": "records/deadline/20260929/live-site.md",
+          "line": 16,
+          "sha256": "a70dcb521419b281f4056f69842bb388fad3390430af771dd054b1b619bef9e4"
+        }
+      }
+    },
+    {
+      "round_label": "9월 29일 10:00",
+      "submission": 7,
+      "opponent": "어잌후",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": "rolling-game-6b6d7b3922baefa6c675f4f078d79d8cd329396afdfc063928af0a3f4ffb0c21",
+      "latest_UI_row_1based": 93,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20260929-1000",
+        "submission": 7,
+        "submission_link": "round-level UI record",
+        "game_id": "rolling-game-6b6d7b3922baefa6c675f4f078d79d8cd329396afdfc063928af0a3f4ffb0c21",
+        "opponent": "어잌후",
+        "side": "Y",
+        "outcome": "loss",
+        "opponent_rank": null,
+        "evidence": {
+          "path": "records/deadline/20260929/live-site.md",
+          "line": 16,
+          "sha256": "a70dcb521419b281f4056f69842bb388fad3390430af771dd054b1b619bef9e4"
+        }
+      }
+    },
+    {
+      "round_label": "9월 29일 10:00",
+      "submission": 7,
+      "opponent": "렛츠고",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": "rolling-game-45d87f1ff685dbebc410d6b6f6cb0c93d6cedbf886906a0ca3a6f813414e64ee",
+      "latest_UI_row_1based": 94,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20260929-1000",
+        "submission": 7,
+        "submission_link": "round-level UI record",
+        "game_id": "rolling-game-45d87f1ff685dbebc410d6b6f6cb0c93d6cedbf886906a0ca3a6f813414e64ee",
+        "opponent": "렛츠고",
+        "side": "Y",
+        "outcome": "loss",
+        "opponent_rank": null,
+        "evidence": {
+          "path": "records/deadline/20260929/live-site.md",
+          "line": 16,
+          "sha256": "a70dcb521419b281f4056f69842bb388fad3390430af771dd054b1b619bef9e4"
+        }
+      }
+    },
+    {
+      "round_label": "9월 29일 10:00",
+      "submission": 7,
+      "opponent": "우트와 윤트",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": "rolling-game-4174287629a8963043d57866ba1a1a4c5286907b9b3bf5fd0947cca809681fa7",
+      "latest_UI_row_1based": 95,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20260929-1000",
+        "submission": 7,
+        "submission_link": "round-level UI record",
+        "game_id": "rolling-game-4174287629a8963043d57866ba1a1a4c5286907b9b3bf5fd0947cca809681fa7",
+        "opponent": "우트와 윤트",
+        "side": "Y",
+        "outcome": "loss",
+        "opponent_rank": null,
+        "evidence": {
+          "path": "records/deadline/20260929/live-site.md",
+          "line": 16,
+          "sha256": "a70dcb521419b281f4056f69842bb388fad3390430af771dd054b1b619bef9e4"
+        }
+      }
+    },
+    {
+      "round_label": "9월 29일 10:00",
+      "submission": 7,
+      "opponent": "뉴비들",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": "rolling-game-1db4b9df1bc49715653c777bc09f5863eb031382d0d3e7eca9b14760556a5e90",
+      "latest_UI_row_1based": 96,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20260929-1000",
+        "submission": 7,
+        "submission_link": "round-level UI record",
+        "game_id": "rolling-game-1db4b9df1bc49715653c777bc09f5863eb031382d0d3e7eca9b14760556a5e90",
+        "opponent": "뉴비들",
+        "side": "Y",
+        "outcome": "loss",
+        "opponent_rank": null,
+        "evidence": {
+          "path": "records/deadline/20260929/live-site.md",
+          "line": 16,
+          "sha256": "a70dcb521419b281f4056f69842bb388fad3390430af771dd054b1b619bef9e4"
+        }
+      }
+    },
+    {
+      "round_label": "9월 28일 22:00",
+      "submission": 5,
+      "opponent": "인공저능",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": null,
+      "latest_UI_row_1based": 97,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "9월 28일 22:00",
+      "submission": 5,
+      "opponent": "Team 24",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": null,
+      "latest_UI_row_1based": 98,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "9월 28일 22:00",
+      "submission": 5,
+      "opponent": "AIKU",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": null,
+      "latest_UI_row_1based": 99,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "9월 28일 22:00",
+      "submission": 5,
+      "opponent": "태호랑이",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": null,
+      "latest_UI_row_1based": 100,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "9월 28일 22:00",
+      "submission": 5,
+      "opponent": "마른하늘에 날벼樂",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": null,
+      "latest_UI_row_1based": 101,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "9월 28일 22:00",
+      "submission": 5,
+      "opponent": "건성건성",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": null,
+      "latest_UI_row_1based": 102,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "9월 28일 22:00",
+      "submission": 5,
+      "opponent": "공주",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": null,
+      "latest_UI_row_1based": 103,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "9월 28일 22:00",
+      "submission": 5,
+      "opponent": "붉은 산호초",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": null,
+      "latest_UI_row_1based": 104,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "9월 28일 22:00",
+      "submission": 5,
+      "opponent": "연세대학교인공지능학과",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": null,
+      "latest_UI_row_1based": 105,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "9월 28일 22:00",
+      "submission": 5,
+      "opponent": "개우진보러갈까",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": null,
+      "latest_UI_row_1based": 106,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "9월 28일 22:00",
+      "submission": 5,
+      "opponent": "저능박수",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": null,
+      "latest_UI_row_1based": 107,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "9월 28일 22:00",
+      "submission": 5,
+      "opponent": "Yaar",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": null,
+      "latest_UI_row_1based": 108,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "9월 28일 22:00",
+      "submission": 5,
+      "opponent": "모든상금은제세공과금공제후지급됩니다",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": null,
+      "latest_UI_row_1based": 109,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "9월 28일 22:00",
+      "submission": 5,
+      "opponent": "저희 집 GPU가 추위를 타요",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": null,
+      "latest_UI_row_1based": 110,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "9월 28일 22:00",
+      "submission": 5,
+      "opponent": "하면해",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": null,
+      "latest_UI_row_1based": 111,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "9월 28일 22:00",
+      "submission": 5,
+      "opponent": "파전",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": null,
+      "latest_UI_row_1based": 112,
+      "latest_source": "../data/matches.json",
+      "historical_details": null
+    },
+    {
+      "round_label": "9월 28일 10:00",
+      "submission": 4,
+      "opponent": "hyper",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": "rolling-game-d54af110884f1eff7197810d39f74f0ffcb31dd84cd3874da7a3dc3048632a4e",
+      "latest_UI_row_1based": 113,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20260928-1000",
+        "submission": 4,
+        "submission_link": "explicit UI all13",
+        "game_id": "rolling-game-d54af110884f1eff7197810d39f74f0ffcb31dd84cd3874da7a3dc3048632a4e",
+        "opponent": "hyper",
+        "side": "Y",
+        "outcome": "win",
+        "opponent_rank": 48,
+        "opponent_adjusted_percent": 20.6,
+        "opponent_metric_at": "2026-09-28 10:00 publication",
+        "evidence": {
+          "path": "records/official/round2/site-observations.json",
+          "line": 734,
+          "sha256": "7ea4d29f256024a2b33e43a5053d309fb30ebada100f72a143e29eb74cdb0bb2"
+        }
+      }
+    },
+    {
+      "round_label": "9월 28일 10:00",
+      "submission": 4,
+      "opponent": "니땅내땅",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": "rolling-game-c43810616007b08b82fa2ccc028a9bd58a815dd7af25480f26bcd6b298c02031",
+      "latest_UI_row_1based": 114,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20260928-1000",
+        "submission": 4,
+        "submission_link": "explicit UI all13",
+        "game_id": "rolling-game-c43810616007b08b82fa2ccc028a9bd58a815dd7af25480f26bcd6b298c02031",
+        "opponent": "니땅내땅",
+        "side": "Y",
+        "outcome": "win",
+        "opponent_rank": 32,
+        "opponent_adjusted_percent": 49.7,
+        "opponent_metric_at": "2026-09-28 10:00 publication",
+        "evidence": {
+          "path": "records/official/round2/site-observations.json",
+          "line": 822,
+          "sha256": "7ea4d29f256024a2b33e43a5053d309fb30ebada100f72a143e29eb74cdb0bb2"
+        }
+      }
+    },
+    {
+      "round_label": "9월 28일 10:00",
+      "submission": 4,
+      "opponent": "뉴비들",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": "rolling-game-bffff5735e63efaae46f6cf1d63637b372b1a97295a0b11a270ef78a6fe046c8",
+      "latest_UI_row_1based": 115,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20260928-1000",
+        "submission": 4,
+        "submission_link": "explicit UI all13",
+        "game_id": "rolling-game-bffff5735e63efaae46f6cf1d63637b372b1a97295a0b11a270ef78a6fe046c8",
+        "opponent": "뉴비들",
+        "side": "Y",
+        "outcome": "loss",
+        "opponent_rank": 5,
+        "opponent_adjusted_percent": 87.2,
+        "opponent_metric_at": "2026-09-28 10:00 publication",
+        "evidence": {
+          "path": "records/official/round2/site-observations.json",
+          "line": 811,
+          "sha256": "7ea4d29f256024a2b33e43a5053d309fb30ebada100f72a143e29eb74cdb0bb2"
+        }
+      }
+    },
+    {
+      "round_label": "9월 28일 10:00",
+      "submission": 4,
+      "opponent": "tAIger",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": "rolling-game-bc613bbd0aa2e7ed3cb760c4420de07d584fbfe74435d9e64cfe603140e921df",
+      "latest_UI_row_1based": 116,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20260928-1000",
+        "submission": 4,
+        "submission_link": "explicit UI all13",
+        "game_id": "rolling-game-bc613bbd0aa2e7ed3cb760c4420de07d584fbfe74435d9e64cfe603140e921df",
+        "opponent": "tAIger",
+        "side": "Y",
+        "outcome": "loss",
+        "opponent_rank": 10,
+        "opponent_adjusted_percent": 75.7,
+        "opponent_metric_at": "2026-09-28 10:00 publication",
+        "evidence": {
+          "path": "records/official/round2/site-observations.json",
+          "line": 800,
+          "sha256": "7ea4d29f256024a2b33e43a5053d309fb30ebada100f72a143e29eb74cdb0bb2"
+        }
+      }
+    },
+    {
+      "round_label": "9월 28일 10:00",
+      "submission": 4,
+      "opponent": "신촌도 우리땅",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": "rolling-game-b51fb30a9b60cbaa637281ccc70189592ccc3acd2a1cc54422eeb2a3647a2028",
+      "latest_UI_row_1based": 117,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20260928-1000",
+        "submission": 4,
+        "submission_link": "explicit UI all13",
+        "game_id": "rolling-game-b51fb30a9b60cbaa637281ccc70189592ccc3acd2a1cc54422eeb2a3647a2028",
+        "opponent": "신촌도 우리땅",
+        "side": "Y",
+        "outcome": "win",
+        "opponent_rank": 24,
+        "opponent_adjusted_percent": 59.1,
+        "opponent_metric_at": "2026-09-28 10:00 publication",
+        "evidence": {
+          "path": "records/official/round2/site-observations.json",
+          "line": 789,
+          "sha256": "7ea4d29f256024a2b33e43a5053d309fb30ebada100f72a143e29eb74cdb0bb2"
+        }
+      }
+    },
+    {
+      "round_label": "9월 28일 10:00",
+      "submission": 4,
+      "opponent": "참새튀김기",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": "rolling-game-ad84278667fd0929bb5a0b62d486dd6989d107b95060a86689b09677e48c8850",
+      "latest_UI_row_1based": 118,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20260928-1000",
+        "submission": 4,
+        "submission_link": "explicit UI all13",
+        "game_id": "rolling-game-ad84278667fd0929bb5a0b62d486dd6989d107b95060a86689b09677e48c8850",
+        "opponent": "참새튀김기",
+        "side": "Y",
+        "outcome": "win",
+        "opponent_rank": 43,
+        "opponent_adjusted_percent": 26.4,
+        "opponent_metric_at": "2026-09-28 10:00 publication",
+        "evidence": {
+          "path": "records/official/round2/site-observations.json",
+          "line": 778,
+          "sha256": "7ea4d29f256024a2b33e43a5053d309fb30ebada100f72a143e29eb74cdb0bb2"
+        }
+      }
+    },
+    {
+      "round_label": "9월 28일 10:00",
+      "submission": 4,
+      "opponent": "공주",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": "rolling-game-7b34b928563d09ad1b5cc7adbf5037e2c5dc571aa6d687abf3401972f1562899",
+      "latest_UI_row_1based": 119,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20260928-1000",
+        "submission": 4,
+        "submission_link": "explicit UI all13",
+        "game_id": "rolling-game-7b34b928563d09ad1b5cc7adbf5037e2c5dc571aa6d687abf3401972f1562899",
+        "opponent": "공주",
+        "side": "Y",
+        "outcome": "win",
+        "opponent_rank": 52,
+        "opponent_adjusted_percent": 18.4,
+        "opponent_metric_at": "2026-09-28 10:00 publication",
+        "evidence": {
+          "path": "records/official/round2/site-observations.json",
+          "line": 767,
+          "sha256": "7ea4d29f256024a2b33e43a5053d309fb30ebada100f72a143e29eb74cdb0bb2"
+        }
+      }
+    },
+    {
+      "round_label": "9월 28일 10:00",
+      "submission": 4,
+      "opponent": "요미",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": "rolling-game-6f32639acafca887f873728e555f1b24252c8f760a4be88f32d865d0727daff3",
+      "latest_UI_row_1based": 120,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20260928-1000",
+        "submission": 4,
+        "submission_link": "explicit UI all13",
+        "game_id": "rolling-game-6f32639acafca887f873728e555f1b24252c8f760a4be88f32d865d0727daff3",
+        "opponent": "요미",
+        "side": "Y",
+        "outcome": "win",
+        "opponent_rank": 20,
+        "opponent_adjusted_percent": 61.5,
+        "opponent_metric_at": "2026-09-28 10:00 publication",
+        "evidence": {
+          "path": "records/official/round2/site-observations.json",
+          "line": 756,
+          "sha256": "7ea4d29f256024a2b33e43a5053d309fb30ebada100f72a143e29eb74cdb0bb2"
+        }
+      }
+    },
+    {
+      "round_label": "9월 28일 10:00",
+      "submission": 4,
+      "opponent": "신촌을못가",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": "rolling-game-63440e085528d83bdd61a389b932c72c48eb67e155b1d57d3374ebe909833eaf",
+      "latest_UI_row_1based": 121,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20260928-1000",
+        "submission": 4,
+        "submission_link": "explicit UI all13",
+        "game_id": "rolling-game-63440e085528d83bdd61a389b932c72c48eb67e155b1d57d3374ebe909833eaf",
+        "opponent": "신촌을못가",
+        "side": "Y",
+        "outcome": "loss",
+        "opponent_rank": 7,
+        "opponent_adjusted_percent": 81.4,
+        "opponent_metric_at": "2026-09-28 10:00 publication",
+        "evidence": {
+          "path": "records/official/round2/site-observations.json",
+          "line": 745,
+          "sha256": "7ea4d29f256024a2b33e43a5053d309fb30ebada100f72a143e29eb74cdb0bb2"
+        }
+      }
+    },
+    {
+      "round_label": "9월 28일 10:00",
+      "submission": 4,
+      "opponent": "그래피",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": "rolling-game-34bca1e9294c28464dba463fabb2a9f47d3617bd0eb021872ff16724eb7a5169",
+      "latest_UI_row_1based": 122,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20260928-1000",
+        "submission": 4,
+        "submission_link": "explicit UI all13",
+        "game_id": "rolling-game-34bca1e9294c28464dba463fabb2a9f47d3617bd0eb021872ff16724eb7a5169",
+        "opponent": "그래피",
+        "side": "Y",
+        "outcome": "win",
+        "opponent_rank": 22,
+        "opponent_adjusted_percent": 59.6,
+        "opponent_metric_at": "2026-09-28 10:00 publication",
+        "evidence": {
+          "path": "records/official/round2/site-observations.json",
+          "line": 723,
+          "sha256": "7ea4d29f256024a2b33e43a5053d309fb30ebada100f72a143e29eb74cdb0bb2"
+        }
+      }
+    },
+    {
+      "round_label": "9월 28일 10:00",
+      "submission": 4,
+      "opponent": "어잌후",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": "rolling-game-2b49c08f6a4dffa5a063bab17ed6c665a6c84abafe79a82c147811dbf32b1491",
+      "latest_UI_row_1based": 123,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20260928-1000",
+        "submission": 4,
+        "submission_link": "explicit UI all13",
+        "game_id": "rolling-game-2b49c08f6a4dffa5a063bab17ed6c665a6c84abafe79a82c147811dbf32b1491",
+        "opponent": "어잌후",
+        "side": "Y",
+        "outcome": "win",
+        "opponent_rank": 21,
+        "opponent_adjusted_percent": 59.8,
+        "opponent_metric_at": "2026-09-28 10:00 publication",
+        "evidence": {
+          "path": "records/official/round2/site-observations.json",
+          "line": 833,
+          "sha256": "7ea4d29f256024a2b33e43a5053d309fb30ebada100f72a143e29eb74cdb0bb2"
+        }
+      }
+    },
+    {
+      "round_label": "9월 28일 10:00",
+      "submission": 4,
+      "opponent": "붉은 산호초",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": "rolling-game-1a938b484fe952c60f68313ce8cb680d401dc712bb9b0ca9d385d6b71161cb55",
+      "latest_UI_row_1based": 124,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20260928-1000",
+        "submission": 4,
+        "submission_link": "explicit UI all13",
+        "game_id": "rolling-game-1a938b484fe952c60f68313ce8cb680d401dc712bb9b0ca9d385d6b71161cb55",
+        "opponent": "붉은 산호초",
+        "side": "Y",
+        "outcome": "loss",
+        "opponent_rank": 6,
+        "opponent_adjusted_percent": 86.7,
+        "opponent_metric_at": "2026-09-28 10:00 publication",
+        "evidence": {
+          "path": "records/official/round2/site-observations.json",
+          "line": 712,
+          "sha256": "7ea4d29f256024a2b33e43a5053d309fb30ebada100f72a143e29eb74cdb0bb2"
+        }
+      }
+    },
+    {
+      "round_label": "9월 28일 10:00",
+      "submission": 4,
+      "opponent": "뚜띠태하소불고기와멸치두명",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": "rolling-game-109f2e839e8bdb05922c807c8622bb6bd0553f65492fb5101562ab8c9e63242a",
+      "latest_UI_row_1based": 125,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20260928-1000",
+        "submission": 4,
+        "submission_link": "explicit UI all13",
+        "game_id": "rolling-game-109f2e839e8bdb05922c807c8622bb6bd0553f65492fb5101562ab8c9e63242a",
+        "opponent": "뚜띠태하소불고기와멸치두명",
+        "side": "Y",
+        "outcome": "win",
+        "opponent_rank": 26,
+        "opponent_adjusted_percent": 58.7,
+        "opponent_metric_at": "2026-09-28 10:00 publication",
+        "evidence": {
+          "path": "records/official/round2/site-observations.json",
+          "line": 701,
+          "sha256": "7ea4d29f256024a2b33e43a5053d309fb30ebada100f72a143e29eb74cdb0bb2"
+        }
+      }
+    },
+    {
+      "round_label": "9월 27일 22:00",
+      "submission": 3,
+      "opponent": "양진장",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": "rolling-game-e6920b1cc1fb4db8bf3afc03de803bf1602b7771f0d8093ea637c9667bda1b49",
+      "latest_UI_row_1based": 126,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20260927-2200-revised",
+        "submission": 3,
+        "submission_link": "한개상세v3직접확인+회차선택본연결;원본5개각각서버버전필드확인아님",
+        "game_id": "rolling-game-e6920b1cc1fb4db8bf3afc03de803bf1602b7771f0d8093ea637c9667bda1b49",
+        "opponent": "양진장",
+        "side": "Y",
+        "outcome": "win",
+        "opponent_rank": 23,
+        "opponent_adjusted_percent": 45.4,
+        "opponent_metric_at": "2026-09-27 22:59 initial snapshot",
+        "evidence": {
+          "path": "records/official/round1/site-observations.json",
+          "line": 185,
+          "sha256": "f955752d30d3efb390181b39bf9f43309673a45b7ad9e74389ffd8d90c02edac"
+        }
+      }
+    },
+    {
+      "round_label": "9월 27일 22:00",
+      "submission": 3,
+      "opponent": "저희 집 GPU가 추위를 타요",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": "rolling-game-e3fd566eee1999e1349fb77cdba677f9b15a96b8163a2f2ce657c861af1593fb",
+      "latest_UI_row_1based": 127,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20260927-2200-revised",
+        "submission": 3,
+        "submission_link": "한개상세v3직접확인+회차선택본연결;원본5개각각서버버전필드확인아님",
+        "game_id": "rolling-game-e3fd566eee1999e1349fb77cdba677f9b15a96b8163a2f2ce657c861af1593fb",
+        "opponent": "저희 집 GPU가 추위를 타요",
+        "side": "Y",
+        "outcome": "win",
+        "opponent_rank": 28,
+        "opponent_adjusted_percent": 41.1,
+        "opponent_metric_at": "2026-09-27 22:59 initial snapshot",
+        "evidence": {
+          "path": "records/official/round1/site-observations.json",
+          "line": 149,
+          "sha256": "f955752d30d3efb390181b39bf9f43309673a45b7ad9e74389ffd8d90c02edac"
+        }
+      }
+    },
+    {
+      "round_label": "9월 27일 22:00",
+      "submission": 3,
+      "opponent": "공주",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": "rolling-game-cc2cdecafcf04121af34ef3e1ce4c341cc299e63cc3c4ce29ddf4a9de15ee066",
+      "latest_UI_row_1based": 128,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20260927-2200-revised",
+        "submission": 3,
+        "submission_link": "한개상세v3직접확인+회차선택본연결;원본5개각각서버버전필드확인아님",
+        "game_id": "rolling-game-cc2cdecafcf04121af34ef3e1ce4c341cc299e63cc3c4ce29ddf4a9de15ee066",
+        "opponent": "공주",
+        "side": "Y",
+        "outcome": "win",
+        "opponent_rank": 38,
+        "opponent_adjusted_percent": 31.1,
+        "opponent_metric_at": "2026-09-27 22:59 initial snapshot",
+        "evidence": {
+          "path": "records/official/round1/site-observations.json",
+          "line": 197,
+          "sha256": "f955752d30d3efb390181b39bf9f43309673a45b7ad9e74389ffd8d90c02edac"
+        }
+      }
+    },
+    {
+      "round_label": "9월 27일 22:00",
+      "submission": 3,
+      "opponent": "하면해",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": "rolling-game-99740c430713d5754ed6861ceef5f2baae7fa19465c4fbd34e98077ea5a3adfb",
+      "latest_UI_row_1based": 129,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20260927-2200-revised",
+        "submission": 3,
+        "submission_link": "explicit UI",
+        "game_id": "rolling-game-99740c430713d5754ed6861ceef5f2baae7fa19465c4fbd34e98077ea5a3adfb",
+        "opponent": "하면해",
+        "side": "Y",
+        "outcome": "win",
+        "opponent_rank": null,
+        "opponent_adjusted_percent": null,
+        "evidence": {
+          "path": "records/official/opponent-intel-20260928/haemyeonhae-ui-observations.json",
+          "line": 1,
+          "sha256": "1f62509ff1066a934dc0282060520c302ab6cf7d6d6e1c5bc55c43a9b761de32"
+        }
+      }
+    },
+    {
+      "round_label": "9월 27일 22:00",
+      "submission": 3,
+      "opponent": "신촌도 우리땅",
+      "side": "Y",
+      "outcome": "loss",
+      "points": 0,
+      "game_id": "rolling-game-805c50c9a490f1c11b69ad06d37d8a66ff8a012f4ede324c829038c68ea5fb4e",
+      "latest_UI_row_1based": 130,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20260927-2200-revised",
+        "submission": 3,
+        "submission_link": "한개상세v3직접확인+회차선택본연결;원본5개각각서버버전필드확인아님",
+        "game_id": "rolling-game-805c50c9a490f1c11b69ad06d37d8a66ff8a012f4ede324c829038c68ea5fb4e",
+        "opponent": "신촌도 우리땅",
+        "side": "Y",
+        "outcome": "loss",
+        "opponent_rank": 8,
+        "opponent_adjusted_percent": 67.5,
+        "opponent_metric_at": "2026-09-27 22:59 initial snapshot",
+        "evidence": {
+          "path": "records/official/round1/site-observations.json",
+          "line": 173,
+          "sha256": "f955752d30d3efb390181b39bf9f43309673a45b7ad9e74389ffd8d90c02edac"
+        }
+      }
+    },
+    {
+      "round_label": "9월 27일 22:00",
+      "submission": 3,
+      "opponent": "뚜띠태하소불고기와멸치두명",
+      "side": "Y",
+      "outcome": "win",
+      "points": 1,
+      "game_id": "rolling-game-3dd41599c2c6adcb057a6ed543d2fa6ae0961c00e745a0bb048604720110cbb1",
+      "latest_UI_row_1based": 131,
+      "latest_source": "../data/matches.json",
+      "historical_details": {
+        "round_id": "20260927-2200-revised",
+        "submission": 3,
+        "submission_link": "한개상세v3직접확인+회차선택본연결;원본5개각각서버버전필드확인아님",
+        "game_id": "rolling-game-3dd41599c2c6adcb057a6ed543d2fa6ae0961c00e745a0bb048604720110cbb1",
+        "opponent": "뚜띠태하소불고기와멸치두명",
+        "side": "Y",
+        "outcome": "win",
+        "opponent_rank": 14,
+        "opponent_adjusted_percent": 57.0,
+        "opponent_metric_at": "2026-09-27 22:59 initial snapshot",
+        "evidence": {
+          "path": "records/official/round1/site-observations.json",
+          "line": 161,
+          "sha256": "f955752d30d3efb390181b39bf9f43309673a45b7ad9e74389ffd8d90c02edac"
+        }
+      }
+    }
+  ],
+  "pre_latest_retained_matches": [
+    {
+      "round_id": "20260927-2200-revised",
+      "submission": 3,
+      "submission_link": "한개상세v3직접확인+회차선택본연결;원본5개각각서버버전필드확인아님",
+      "game_id": "rolling-game-e3fd566eee1999e1349fb77cdba677f9b15a96b8163a2f2ce657c861af1593fb",
+      "opponent": "저희 집 GPU가 추위를 타요",
+      "side": "Y",
+      "outcome": "win",
+      "opponent_rank": 28,
+      "opponent_adjusted_percent": 41.1,
+      "opponent_metric_at": "2026-09-27 22:59 initial snapshot",
+      "evidence": {
+        "path": "records/official/round1/site-observations.json",
+        "line": 149,
+        "sha256": "f955752d30d3efb390181b39bf9f43309673a45b7ad9e74389ffd8d90c02edac"
+      }
+    },
+    {
+      "round_id": "20260927-2200-revised",
+      "submission": 3,
+      "submission_link": "한개상세v3직접확인+회차선택본연결;원본5개각각서버버전필드확인아님",
+      "game_id": "rolling-game-3dd41599c2c6adcb057a6ed543d2fa6ae0961c00e745a0bb048604720110cbb1",
+      "opponent": "뚜띠태하소불고기와멸치두명",
+      "side": "Y",
+      "outcome": "win",
+      "opponent_rank": 14,
+      "opponent_adjusted_percent": 57.0,
+      "opponent_metric_at": "2026-09-27 22:59 initial snapshot",
+      "evidence": {
+        "path": "records/official/round1/site-observations.json",
+        "line": 161,
+        "sha256": "f955752d30d3efb390181b39bf9f43309673a45b7ad9e74389ffd8d90c02edac"
+      }
+    },
+    {
+      "round_id": "20260927-2200-revised",
+      "submission": 3,
+      "submission_link": "한개상세v3직접확인+회차선택본연결;원본5개각각서버버전필드확인아님",
+      "game_id": "rolling-game-805c50c9a490f1c11b69ad06d37d8a66ff8a012f4ede324c829038c68ea5fb4e",
+      "opponent": "신촌도 우리땅",
+      "side": "Y",
+      "outcome": "loss",
+      "opponent_rank": 8,
+      "opponent_adjusted_percent": 67.5,
+      "opponent_metric_at": "2026-09-27 22:59 initial snapshot",
+      "evidence": {
+        "path": "records/official/round1/site-observations.json",
+        "line": 173,
+        "sha256": "f955752d30d3efb390181b39bf9f43309673a45b7ad9e74389ffd8d90c02edac"
+      }
+    },
+    {
+      "round_id": "20260927-2200-revised",
+      "submission": 3,
+      "submission_link": "한개상세v3직접확인+회차선택본연결;원본5개각각서버버전필드확인아님",
+      "game_id": "rolling-game-e6920b1cc1fb4db8bf3afc03de803bf1602b7771f0d8093ea637c9667bda1b49",
+      "opponent": "양진장",
+      "side": "Y",
+      "outcome": "win",
+      "opponent_rank": 23,
+      "opponent_adjusted_percent": 45.4,
+      "opponent_metric_at": "2026-09-27 22:59 initial snapshot",
+      "evidence": {
+        "path": "records/official/round1/site-observations.json",
+        "line": 185,
+        "sha256": "f955752d30d3efb390181b39bf9f43309673a45b7ad9e74389ffd8d90c02edac"
+      }
+    },
+    {
+      "round_id": "20260927-2200-revised",
+      "submission": 3,
+      "submission_link": "한개상세v3직접확인+회차선택본연결;원본5개각각서버버전필드확인아님",
+      "game_id": "rolling-game-cc2cdecafcf04121af34ef3e1ce4c341cc299e63cc3c4ce29ddf4a9de15ee066",
+      "opponent": "공주",
+      "side": "Y",
+      "outcome": "win",
+      "opponent_rank": 38,
+      "opponent_adjusted_percent": 31.1,
+      "opponent_metric_at": "2026-09-27 22:59 initial snapshot",
+      "evidence": {
+        "path": "records/official/round1/site-observations.json",
+        "line": 197,
+        "sha256": "f955752d30d3efb390181b39bf9f43309673a45b7ad9e74389ffd8d90c02edac"
+      }
+    },
+    {
+      "round_id": "20260927-2200-revised",
+      "submission": 3,
+      "submission_link": "explicit UI",
+      "game_id": "rolling-game-99740c430713d5754ed6861ceef5f2baae7fa19465c4fbd34e98077ea5a3adfb",
+      "opponent": "하면해",
+      "side": "Y",
+      "outcome": "win",
+      "opponent_rank": null,
+      "opponent_adjusted_percent": null,
+      "evidence": {
+        "path": "records/official/opponent-intel-20260928/haemyeonhae-ui-observations.json",
+        "line": 1,
+        "sha256": "1f62509ff1066a934dc0282060520c302ab6cf7d6d6e1c5bc55c43a9b761de32"
+      }
+    },
+    {
+      "round_id": "20260928-1000",
+      "submission": 4,
+      "submission_link": "explicit UI all13",
+      "game_id": "rolling-game-109f2e839e8bdb05922c807c8622bb6bd0553f65492fb5101562ab8c9e63242a",
+      "opponent": "뚜띠태하소불고기와멸치두명",
+      "side": "Y",
+      "outcome": "win",
+      "opponent_rank": 26,
+      "opponent_adjusted_percent": 58.7,
+      "opponent_metric_at": "2026-09-28 10:00 publication",
+      "evidence": {
+        "path": "records/official/round2/site-observations.json",
+        "line": 701,
+        "sha256": "7ea4d29f256024a2b33e43a5053d309fb30ebada100f72a143e29eb74cdb0bb2"
+      }
+    },
+    {
+      "round_id": "20260928-1000",
+      "submission": 4,
+      "submission_link": "explicit UI all13",
+      "game_id": "rolling-game-1a938b484fe952c60f68313ce8cb680d401dc712bb9b0ca9d385d6b71161cb55",
+      "opponent": "붉은 산호초",
+      "side": "Y",
+      "outcome": "loss",
+      "opponent_rank": 6,
+      "opponent_adjusted_percent": 86.7,
+      "opponent_metric_at": "2026-09-28 10:00 publication",
+      "evidence": {
+        "path": "records/official/round2/site-observations.json",
+        "line": 712,
+        "sha256": "7ea4d29f256024a2b33e43a5053d309fb30ebada100f72a143e29eb74cdb0bb2"
+      }
+    },
+    {
+      "round_id": "20260928-1000",
+      "submission": 4,
+      "submission_link": "explicit UI all13",
+      "game_id": "rolling-game-34bca1e9294c28464dba463fabb2a9f47d3617bd0eb021872ff16724eb7a5169",
+      "opponent": "그래피",
+      "side": "Y",
+      "outcome": "win",
+      "opponent_rank": 22,
+      "opponent_adjusted_percent": 59.6,
+      "opponent_metric_at": "2026-09-28 10:00 publication",
+      "evidence": {
+        "path": "records/official/round2/site-observations.json",
+        "line": 723,
+        "sha256": "7ea4d29f256024a2b33e43a5053d309fb30ebada100f72a143e29eb74cdb0bb2"
+      }
+    },
+    {
+      "round_id": "20260928-1000",
+      "submission": 4,
+      "submission_link": "explicit UI all13",
+      "game_id": "rolling-game-d54af110884f1eff7197810d39f74f0ffcb31dd84cd3874da7a3dc3048632a4e",
+      "opponent": "hyper",
+      "side": "Y",
+      "outcome": "win",
+      "opponent_rank": 48,
+      "opponent_adjusted_percent": 20.6,
+      "opponent_metric_at": "2026-09-28 10:00 publication",
+      "evidence": {
+        "path": "records/official/round2/site-observations.json",
+        "line": 734,
+        "sha256": "7ea4d29f256024a2b33e43a5053d309fb30ebada100f72a143e29eb74cdb0bb2"
+      }
+    },
+    {
+      "round_id": "20260928-1000",
+      "submission": 4,
+      "submission_link": "explicit UI all13",
+      "game_id": "rolling-game-63440e085528d83bdd61a389b932c72c48eb67e155b1d57d3374ebe909833eaf",
+      "opponent": "신촌을못가",
+      "side": "Y",
+      "outcome": "loss",
+      "opponent_rank": 7,
+      "opponent_adjusted_percent": 81.4,
+      "opponent_metric_at": "2026-09-28 10:00 publication",
+      "evidence": {
+        "path": "records/official/round2/site-observations.json",
+        "line": 745,
+        "sha256": "7ea4d29f256024a2b33e43a5053d309fb30ebada100f72a143e29eb74cdb0bb2"
+      }
+    },
+    {
+      "round_id": "20260928-1000",
+      "submission": 4,
+      "submission_link": "explicit UI all13",
+      "game_id": "rolling-game-6f32639acafca887f873728e555f1b24252c8f760a4be88f32d865d0727daff3",
+      "opponent": "요미",
+      "side": "Y",
+      "outcome": "win",
+      "opponent_rank": 20,
+      "opponent_adjusted_percent": 61.5,
+      "opponent_metric_at": "2026-09-28 10:00 publication",
+      "evidence": {
+        "path": "records/official/round2/site-observations.json",
+        "line": 756,
+        "sha256": "7ea4d29f256024a2b33e43a5053d309fb30ebada100f72a143e29eb74cdb0bb2"
+      }
+    },
+    {
+      "round_id": "20260928-1000",
+      "submission": 4,
+      "submission_link": "explicit UI all13",
+      "game_id": "rolling-game-7b34b928563d09ad1b5cc7adbf5037e2c5dc571aa6d687abf3401972f1562899",
+      "opponent": "공주",
+      "side": "Y",
+      "outcome": "win",
+      "opponent_rank": 52,
+      "opponent_adjusted_percent": 18.4,
+      "opponent_metric_at": "2026-09-28 10:00 publication",
+      "evidence": {
+        "path": "records/official/round2/site-observations.json",
+        "line": 767,
+        "sha256": "7ea4d29f256024a2b33e43a5053d309fb30ebada100f72a143e29eb74cdb0bb2"
+      }
+    },
+    {
+      "round_id": "20260928-1000",
+      "submission": 4,
+      "submission_link": "explicit UI all13",
+      "game_id": "rolling-game-ad84278667fd0929bb5a0b62d486dd6989d107b95060a86689b09677e48c8850",
+      "opponent": "참새튀김기",
+      "side": "Y",
+      "outcome": "win",
+      "opponent_rank": 43,
+      "opponent_adjusted_percent": 26.4,
+      "opponent_metric_at": "2026-09-28 10:00 publication",
+      "evidence": {
+        "path": "records/official/round2/site-observations.json",
+        "line": 778,
+        "sha256": "7ea4d29f256024a2b33e43a5053d309fb30ebada100f72a143e29eb74cdb0bb2"
+      }
+    },
+    {
+      "round_id": "20260928-1000",
+      "submission": 4,
+      "submission_link": "explicit UI all13",
+      "game_id": "rolling-game-b51fb30a9b60cbaa637281ccc70189592ccc3acd2a1cc54422eeb2a3647a2028",
+      "opponent": "신촌도 우리땅",
+      "side": "Y",
+      "outcome": "win",
+      "opponent_rank": 24,
+      "opponent_adjusted_percent": 59.1,
+      "opponent_metric_at": "2026-09-28 10:00 publication",
+      "evidence": {
+        "path": "records/official/round2/site-observations.json",
+        "line": 789,
+        "sha256": "7ea4d29f256024a2b33e43a5053d309fb30ebada100f72a143e29eb74cdb0bb2"
+      }
+    },
+    {
+      "round_id": "20260928-1000",
+      "submission": 4,
+      "submission_link": "explicit UI all13",
+      "game_id": "rolling-game-bc613bbd0aa2e7ed3cb760c4420de07d584fbfe74435d9e64cfe603140e921df",
+      "opponent": "tAIger",
+      "side": "Y",
+      "outcome": "loss",
+      "opponent_rank": 10,
+      "opponent_adjusted_percent": 75.7,
+      "opponent_metric_at": "2026-09-28 10:00 publication",
+      "evidence": {
+        "path": "records/official/round2/site-observations.json",
+        "line": 800,
+        "sha256": "7ea4d29f256024a2b33e43a5053d309fb30ebada100f72a143e29eb74cdb0bb2"
+      }
+    },
+    {
+      "round_id": "20260928-1000",
+      "submission": 4,
+      "submission_link": "explicit UI all13",
+      "game_id": "rolling-game-bffff5735e63efaae46f6cf1d63637b372b1a97295a0b11a270ef78a6fe046c8",
+      "opponent": "뉴비들",
+      "side": "Y",
+      "outcome": "loss",
+      "opponent_rank": 5,
+      "opponent_adjusted_percent": 87.2,
+      "opponent_metric_at": "2026-09-28 10:00 publication",
+      "evidence": {
+        "path": "records/official/round2/site-observations.json",
+        "line": 811,
+        "sha256": "7ea4d29f256024a2b33e43a5053d309fb30ebada100f72a143e29eb74cdb0bb2"
+      }
+    },
+    {
+      "round_id": "20260928-1000",
+      "submission": 4,
+      "submission_link": "explicit UI all13",
+      "game_id": "rolling-game-c43810616007b08b82fa2ccc028a9bd58a815dd7af25480f26bcd6b298c02031",
+      "opponent": "니땅내땅",
+      "side": "Y",
+      "outcome": "win",
+      "opponent_rank": 32,
+      "opponent_adjusted_percent": 49.7,
+      "opponent_metric_at": "2026-09-28 10:00 publication",
+      "evidence": {
+        "path": "records/official/round2/site-observations.json",
+        "line": 822,
+        "sha256": "7ea4d29f256024a2b33e43a5053d309fb30ebada100f72a143e29eb74cdb0bb2"
+      }
+    },
+    {
+      "round_id": "20260928-1000",
+      "submission": 4,
+      "submission_link": "explicit UI all13",
+      "game_id": "rolling-game-2b49c08f6a4dffa5a063bab17ed6c665a6c84abafe79a82c147811dbf32b1491",
+      "opponent": "어잌후",
+      "side": "Y",
+      "outcome": "win",
+      "opponent_rank": 21,
+      "opponent_adjusted_percent": 59.8,
+      "opponent_metric_at": "2026-09-28 10:00 publication",
+      "evidence": {
+        "path": "records/official/round2/site-observations.json",
+        "line": 833,
+        "sha256": "7ea4d29f256024a2b33e43a5053d309fb30ebada100f72a143e29eb74cdb0bb2"
+      }
+    },
+    {
+      "round_id": "20261001-0030-label",
+      "submission": 8,
+      "submission_link": "explicit UI",
+      "game_id": "rolling-game-fa3bfb5fb15e1a24559a7135a67ae8081ca687df9450eaf01f6c94ca29bc34be",
+      "opponent": "고대26김준우사랑단",
+      "side": "Y",
+      "outcome": "win",
+      "opponent_rank": 78,
+      "opponent_point_rate": 0.3333333333333333,
+      "opponent_metric_at": "2026-10-01T00:09:00+09:00",
+      "name_join": "remove whitespace only",
+      "evidence": {
+        "path": "records/official/latest-20261001/matches.json",
+        "line": 4,
+        "sha256": "eda98b28e40830304befa8e9773f9fb437acc61a6076f19ec0a27312621f2018"
+      }
+    },
+    {
+      "round_id": "20261001-0030-label",
+      "submission": 8,
+      "submission_link": "explicit UI",
+      "game_id": "rolling-game-f8600dcbb568c94c1bf2715e2bae9e00fd16abc8333520f22a5fd05a1c25362c",
+      "opponent": "붉은 산호초",
+      "side": "Y",
+      "outcome": "loss",
+      "opponent_rank": 3,
+      "opponent_point_rate": 0.75,
+      "opponent_metric_at": "2026-10-01T00:09:00+09:00",
+      "name_join": "remove whitespace only",
+      "evidence": {
+        "path": "records/official/latest-20261001/matches.json",
+        "line": 13,
+        "sha256": "eda98b28e40830304befa8e9773f9fb437acc61a6076f19ec0a27312621f2018"
+      }
+    },
+    {
+      "round_id": "20261001-0030-label",
+      "submission": 8,
+      "submission_link": "explicit UI",
+      "game_id": "rolling-game-ece792fd174391f3b326dab047448a8547f8257adcfd2842f607de8fbe33eee5",
+      "opponent": "뚜띠태하소불고기와멸치두명",
+      "side": "Y",
+      "outcome": "win",
+      "opponent_rank": 61,
+      "opponent_point_rate": 0.4166666666666667,
+      "opponent_metric_at": "2026-10-01T00:09:00+09:00",
+      "name_join": "remove whitespace only",
+      "evidence": {
+        "path": "records/official/latest-20261001/matches.json",
+        "line": 22,
+        "sha256": "eda98b28e40830304befa8e9773f9fb437acc61a6076f19ec0a27312621f2018"
+      }
+    },
+    {
+      "round_id": "20261001-0030-label",
+      "submission": 8,
+      "submission_link": "explicit UI",
+      "game_id": "rolling-game-e3f629ecfd532c76d8d52112844927d5dbdb10f7bb480ce4bb8989a3f812275b",
+      "opponent": "연세찜닭",
+      "side": "Y",
+      "outcome": "win",
+      "opponent_rank": 52,
+      "opponent_point_rate": 0.5,
+      "opponent_metric_at": "2026-10-01T00:09:00+09:00",
+      "name_join": "remove whitespace only",
+      "evidence": {
+        "path": "records/official/latest-20261001/matches.json",
+        "line": 31,
+        "sha256": "eda98b28e40830304befa8e9773f9fb437acc61a6076f19ec0a27312621f2018"
+      }
+    },
+    {
+      "round_id": "20261001-0030-label",
+      "submission": 8,
+      "submission_link": "explicit UI",
+      "game_id": "rolling-game-da2cd8628e8a73907056ec6791d15093d36498bc6be6c6661caa0d0fc7fad041",
+      "opponent": "신촌도 우리땅",
+      "side": "Y",
+      "outcome": "loss",
+      "opponent_rank": 34,
+      "opponent_point_rate": 0.5454545454545454,
+      "opponent_metric_at": "2026-10-01T00:09:00+09:00",
+      "name_join": "remove whitespace only",
+      "evidence": {
+        "path": "records/official/latest-20261001/matches.json",
+        "line": 40,
+        "sha256": "eda98b28e40830304befa8e9773f9fb437acc61a6076f19ec0a27312621f2018"
+      }
+    },
+    {
+      "round_id": "20261001-0030-label",
+      "submission": 8,
+      "submission_link": "explicit UI",
+      "game_id": "rolling-game-b68cd686cdd239b15422c469466fc367f3a45196a45214dcb17920c7bed11bc4",
+      "opponent": "정진규컴퓨터시스템D504",
+      "side": "Y",
+      "outcome": "win",
+      "opponent_rank": 57,
+      "opponent_point_rate": 0.4166666666666667,
+      "opponent_metric_at": "2026-10-01T00:09:00+09:00",
+      "name_join": "remove whitespace only",
+      "evidence": {
+        "path": "records/official/latest-20261001/matches.json",
+        "line": 49,
+        "sha256": "eda98b28e40830304befa8e9773f9fb437acc61a6076f19ec0a27312621f2018"
+      }
+    },
+    {
+      "round_id": "20261001-0030-label",
+      "submission": 8,
+      "submission_link": "explicit UI",
+      "game_id": "rolling-game-ab518851823fd094d3efa67ab4a8d8b9cf97b8d23e0b520d3fded631a4e499b6",
+      "opponent": "니땅내땅",
+      "side": "Y",
+      "outcome": "win",
+      "opponent_rank": 44,
+      "opponent_point_rate": 0.5,
+      "opponent_metric_at": "2026-10-01T00:09:00+09:00",
+      "name_join": "remove whitespace only",
+      "evidence": {
+        "path": "records/official/latest-20261001/matches.json",
+        "line": 58,
+        "sha256": "eda98b28e40830304befa8e9773f9fb437acc61a6076f19ec0a27312621f2018"
+      }
+    },
+    {
+      "round_id": "20261001-0030-label",
+      "submission": 8,
+      "submission_link": "explicit UI",
+      "game_id": "rolling-game-8b8ad8f55cb3085f0834c475ad27afbe4eb6002d1df682b830449077f4552c4f",
+      "opponent": "저희 집 GPU가 추위를 타요",
+      "side": "Y",
+      "outcome": "loss",
+      "opponent_rank": 56,
+      "opponent_point_rate": 0.4166666666666667,
+      "opponent_metric_at": "2026-10-01T00:09:00+09:00",
+      "name_join": "remove whitespace only",
+      "evidence": {
+        "path": "records/official/latest-20261001/matches.json",
+        "line": 67,
+        "sha256": "eda98b28e40830304befa8e9773f9fb437acc61a6076f19ec0a27312621f2018"
+      }
+    },
+    {
+      "round_id": "20261001-0030-label",
+      "submission": 8,
+      "submission_link": "explicit UI",
+      "game_id": "rolling-game-78bee81572ee4bca067398c24c2cf92af2e07cccf6eed23580e5e9e1b8c7894c",
+      "opponent": "신촌을못가",
+      "side": "Y",
+      "outcome": "loss",
+      "opponent_rank": 5,
+      "opponent_point_rate": 0.75,
+      "opponent_metric_at": "2026-10-01T00:09:00+09:00",
+      "name_join": "remove whitespace only",
+      "evidence": {
+        "path": "records/official/latest-20261001/matches.json",
+        "line": 76,
+        "sha256": "eda98b28e40830304befa8e9773f9fb437acc61a6076f19ec0a27312621f2018"
+      }
+    },
+    {
+      "round_id": "20261001-0030-label",
+      "submission": 8,
+      "submission_link": "explicit UI",
+      "game_id": "rolling-game-50e7d1728d49c2148db752ce876687be4decc69356541dc2c23155eff9163687",
+      "opponent": "올림픽 정신",
+      "side": "Y",
+      "outcome": "loss",
+      "opponent_rank": 43,
+      "opponent_point_rate": 0.5,
+      "opponent_metric_at": "2026-10-01T00:09:00+09:00",
+      "name_join": "remove whitespace only",
+      "evidence": {
+        "path": "records/official/latest-20261001/matches.json",
+        "line": 85,
+        "sha256": "eda98b28e40830304befa8e9773f9fb437acc61a6076f19ec0a27312621f2018"
+      }
+    },
+    {
+      "round_id": "20261001-0030-label",
+      "submission": 8,
+      "submission_link": "explicit UI",
+      "game_id": "rolling-game-338deb88dbe3cae97f1b21adb22a5ed13b9a8f985972fc586bd3a69ea16bf390",
+      "opponent": "hyper",
+      "side": "Y",
+      "outcome": "win",
+      "opponent_rank": 73,
+      "opponent_point_rate": 0.36363636363636365,
+      "opponent_metric_at": "2026-10-01T00:09:00+09:00",
+      "name_join": "remove whitespace only",
+      "evidence": {
+        "path": "records/official/latest-20261001/matches.json",
+        "line": 94,
+        "sha256": "eda98b28e40830304befa8e9773f9fb437acc61a6076f19ec0a27312621f2018"
+      }
+    },
+    {
+      "round_id": "20261001-0030-label",
+      "submission": 8,
+      "submission_link": "explicit UI",
+      "game_id": "rolling-game-10df106303acd2c6934fc025bd072eca2983adc72eb17e2bae362affbf9b02be",
+      "opponent": "조니 해커 블루",
+      "side": "Y",
+      "outcome": "win",
+      "opponent_rank": 84,
+      "opponent_point_rate": 0.18181818181818182,
+      "opponent_metric_at": "2026-10-01T00:09:00+09:00",
+      "name_join": "remove whitespace only",
+      "evidence": {
+        "path": "records/official/latest-20261001/matches.json",
+        "line": 103,
+        "sha256": "eda98b28e40830304befa8e9773f9fb437acc61a6076f19ec0a27312621f2018"
+      }
+    },
+    {
+      "round_id": "20261001-1000",
+      "submission": 9,
+      "submission_link": "explicit UI all24",
+      "game_id": "rolling-game-fd86a6c092d1fc50f9a07fe53dc51a22e2445e934d45f58202192d30c675b2ad",
+      "opponent": "박박이",
+      "side": "Y",
+      "outcome": "loss",
+      "opponent_rank": null,
+      "opponent_point_rate": null,
+      "evidence": {
+        "path": "records/official/round-20261001-1000/matches.json",
+        "line": 13,
+        "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+      }
+    },
+    {
+      "round_id": "20261001-1000",
+      "submission": 9,
+      "submission_link": "explicit UI all24",
+      "game_id": "rolling-game-f7f24e2549d11837a6bf372e8694f3ae58e8a2c79fc89f8e6bed038d9c322df0",
+      "opponent": "올림픽 정신",
+      "side": "Y",
+      "outcome": "loss",
+      "opponent_rank": null,
+      "opponent_point_rate": null,
+      "evidence": {
+        "path": "records/official/round-20261001-1000/matches.json",
+        "line": 21,
+        "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+      }
+    },
+    {
+      "round_id": "20261001-1000",
+      "submission": 9,
+      "submission_link": "explicit UI all24",
+      "game_id": "rolling-game-eff2465db42cc2c2eef6da120b6bb0979e1d92190941ff01c0bd931a6beba90d",
+      "opponent": "Yaar",
+      "side": "Y",
+      "outcome": "loss",
+      "opponent_rank": null,
+      "opponent_point_rate": null,
+      "evidence": {
+        "path": "records/official/round-20261001-1000/matches.json",
+        "line": 29,
+        "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+      }
+    },
+    {
+      "round_id": "20261001-1000",
+      "submission": 9,
+      "submission_link": "explicit UI all24",
+      "game_id": "rolling-game-c76a06645ae50416ebba19cbf4ea2306626cdc6958f9ed2f57a5d7c0bb32ced4",
+      "opponent": "공주",
+      "side": "Y",
+      "outcome": "win",
+      "opponent_rank": null,
+      "opponent_point_rate": null,
+      "evidence": {
+        "path": "records/official/round-20261001-1000/matches.json",
+        "line": 37,
+        "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+      }
+    },
+    {
+      "round_id": "20261001-1000",
+      "submission": 9,
+      "submission_link": "explicit UI all24",
+      "game_id": "rolling-game-c25aca8592a15499b4cbc9d5aa348e97edecbd6cdb2eb7b311141eec6f7e8623",
+      "opponent": "연크크",
+      "side": "Y",
+      "outcome": "loss",
+      "opponent_rank": null,
+      "opponent_point_rate": null,
+      "evidence": {
+        "path": "records/official/round-20261001-1000/matches.json",
+        "line": 45,
+        "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+      }
+    },
+    {
+      "round_id": "20261001-1000",
+      "submission": 9,
+      "submission_link": "explicit UI all24",
+      "game_id": "rolling-game-b24dd2c52849c0482d1594b89fe2c9f2e8931d777896bbbcf51b2a3c6d626803",
+      "opponent": "연세찜닭",
+      "side": "Y",
+      "outcome": "win",
+      "opponent_rank": null,
+      "opponent_point_rate": null,
+      "evidence": {
+        "path": "records/official/round-20261001-1000/matches.json",
+        "line": 53,
+        "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+      }
+    },
+    {
+      "round_id": "20261001-1000",
+      "submission": 9,
+      "submission_link": "explicit UI all24",
+      "game_id": "rolling-game-a81e82aaf23d296e8afa0ae5845b12fcd40245724f80991d1b2b0262744bffaf",
+      "opponent": "뉴비입니다",
+      "side": "Y",
+      "outcome": "win",
+      "opponent_rank": null,
+      "opponent_point_rate": null,
+      "evidence": {
+        "path": "records/official/round-20261001-1000/matches.json",
+        "line": 61,
+        "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+      }
+    },
+    {
+      "round_id": "20261001-1000",
+      "submission": 9,
+      "submission_link": "explicit UI all24",
+      "game_id": "rolling-game-a734188ba1b3507f0b14641599bc9eb212bfaa6bc37591908292b38747c4d8d9",
+      "opponent": "거북이",
+      "side": "Y",
+      "outcome": "win",
+      "opponent_rank": null,
+      "opponent_point_rate": null,
+      "evidence": {
+        "path": "records/official/round-20261001-1000/matches.json",
+        "line": 69,
+        "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+      }
+    },
+    {
+      "round_id": "20261001-1000",
+      "submission": 9,
+      "submission_link": "explicit UI all24",
+      "game_id": "rolling-game-a36443c39ce4bc9c7d6fae1497050130e0c3a69b28f9f1152920e412711d57c1",
+      "opponent": "인공저능",
+      "side": "Y",
+      "outcome": "win",
+      "opponent_rank": null,
+      "opponent_point_rate": null,
+      "evidence": {
+        "path": "records/official/round-20261001-1000/matches.json",
+        "line": 77,
+        "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+      }
+    },
+    {
+      "round_id": "20261001-1000",
+      "submission": 9,
+      "submission_link": "explicit UI all24",
+      "game_id": "rolling-game-97cc965a70c970c8e29722df241d46ef65438f1a516efab0e0a17e762bf67efc",
+      "opponent": "조선김",
+      "side": "Y",
+      "outcome": "win",
+      "opponent_rank": null,
+      "opponent_point_rate": null,
+      "evidence": {
+        "path": "records/official/round-20261001-1000/matches.json",
+        "line": 85,
+        "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+      }
+    },
+    {
+      "round_id": "20261001-1000",
+      "submission": 9,
+      "submission_link": "explicit UI all24",
+      "game_id": "rolling-game-93362455ec99d14bc04b74da56d699403137e92e9645d291847cd5033b4308a8",
+      "opponent": "개우진보러갈까",
+      "side": "Y",
+      "outcome": "win",
+      "opponent_rank": null,
+      "opponent_point_rate": null,
+      "evidence": {
+        "path": "records/official/round-20261001-1000/matches.json",
+        "line": 93,
+        "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+      }
+    },
+    {
+      "round_id": "20261001-1000",
+      "submission": 9,
+      "submission_link": "explicit UI all24",
+      "game_id": "rolling-game-7f305a8ab9990e5250d8dd209b4007d0d777738b47e92e011354729e1cdd4290",
+      "opponent": "태호랑이",
+      "side": "Y",
+      "outcome": "loss",
+      "opponent_rank": null,
+      "opponent_point_rate": null,
+      "evidence": {
+        "path": "records/official/round-20261001-1000/matches.json",
+        "line": 101,
+        "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+      }
+    },
+    {
+      "round_id": "20261001-1000",
+      "submission": 9,
+      "submission_link": "explicit UI all24",
+      "game_id": "rolling-game-7eeef93682801d3fb3f309c06b3932cd9d9b2007c6c88ac851dbe79e6e360557",
+      "opponent": "연세있게 코딩하조",
+      "side": "Y",
+      "outcome": "win",
+      "opponent_rank": null,
+      "opponent_point_rate": null,
+      "evidence": {
+        "path": "records/official/round-20261001-1000/matches.json",
+        "line": 109,
+        "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+      }
+    },
+    {
+      "round_id": "20261001-1000",
+      "submission": 9,
+      "submission_link": "explicit UI all24",
+      "game_id": "rolling-game-7ac6b9ec02f52581c6d9571e3a247679e3b8fcd9e97ac04374518b675ded109f",
+      "opponent": "신촌도 우리땅",
+      "side": "Y",
+      "outcome": "win",
+      "opponent_rank": null,
+      "opponent_point_rate": null,
+      "evidence": {
+        "path": "records/official/round-20261001-1000/matches.json",
+        "line": 117,
+        "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+      }
+    },
+    {
+      "round_id": "20261001-1000",
+      "submission": 9,
+      "submission_link": "explicit UI all24",
+      "game_id": "rolling-game-67c141094f5c250a52833c754b615d9d9d5461e611f68a0c81efd57d9780e550",
+      "opponent": "200OK",
+      "side": "Y",
+      "outcome": "win",
+      "opponent_rank": null,
+      "opponent_point_rate": null,
+      "evidence": {
+        "path": "records/official/round-20261001-1000/matches.json",
+        "line": 125,
+        "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+      }
+    },
+    {
+      "round_id": "20261001-1000",
+      "submission": 9,
+      "submission_link": "explicit UI all24",
+      "game_id": "rolling-game-599a77b643000c869c64882f5b7bb735a136b12394ca04f1f28919f556a4a5dd",
+      "opponent": "파전",
+      "side": "Y",
+      "outcome": "loss",
+      "opponent_rank": null,
+      "opponent_point_rate": null,
+      "evidence": {
+        "path": "records/official/round-20261001-1000/matches.json",
+        "line": 133,
+        "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+      }
+    },
+    {
+      "round_id": "20261001-1000",
+      "submission": 9,
+      "submission_link": "explicit UI all24",
+      "game_id": "rolling-game-55fe0abc6c904edd5ee4bac94796025122a6144a28f20a54b301baa09f2e2bc7",
+      "opponent": "2325",
+      "side": "Y",
+      "outcome": "loss",
+      "opponent_rank": null,
+      "opponent_point_rate": null,
+      "evidence": {
+        "path": "records/official/round-20261001-1000/matches.json",
+        "line": 141,
+        "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+      }
+    },
+    {
+      "round_id": "20261001-1000",
+      "submission": 9,
+      "submission_link": "explicit UI all24",
+      "game_id": "rolling-game-4e0d236cbbab4db9f3de2c0f26044267024d5248fdaa1163bd1c3de9094346a5",
+      "opponent": "요미",
+      "side": "Y",
+      "outcome": "loss",
+      "opponent_rank": null,
+      "opponent_point_rate": null,
+      "evidence": {
+        "path": "records/official/round-20261001-1000/matches.json",
+        "line": 149,
+        "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+      }
+    },
+    {
+      "round_id": "20261001-1000",
+      "submission": 9,
+      "submission_link": "explicit UI all24",
+      "game_id": "rolling-game-4d11bbabf02419ab956db2f20df6709ea27c41c42049c13ca20a9ae2f128bd3d",
+      "opponent": "占쏙옙",
+      "side": "Y",
+      "outcome": "loss",
+      "opponent_rank": null,
+      "opponent_point_rate": null,
+      "evidence": {
+        "path": "records/official/round-20261001-1000/matches.json",
+        "line": 157,
+        "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+      }
+    },
+    {
+      "round_id": "20261001-1000",
+      "submission": 9,
+      "submission_link": "explicit UI all24",
+      "game_id": "rolling-game-3fc3bdb4da80554b1115a5f4a3a47a28e80280e8424d1b28d4eabcf2f75cecad",
+      "opponent": "언더우드의목마",
+      "side": "Y",
+      "outcome": "win",
+      "opponent_rank": null,
+      "opponent_point_rate": null,
+      "evidence": {
+        "path": "records/official/round-20261001-1000/matches.json",
+        "line": 165,
+        "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+      }
+    },
+    {
+      "round_id": "20261001-1000",
+      "submission": 9,
+      "submission_link": "explicit UI all24",
+      "game_id": "rolling-game-3349286232eaf367b4100ae55f4cc6fc1a85b4aae2b2af59c2705465374cda60",
+      "opponent": "학부기",
+      "side": "Y",
+      "outcome": "loss",
+      "opponent_rank": null,
+      "opponent_point_rate": null,
+      "evidence": {
+        "path": "records/official/round-20261001-1000/matches.json",
+        "line": 173,
+        "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+      }
+    },
+    {
+      "round_id": "20261001-1000",
+      "submission": 9,
+      "submission_link": "explicit UI all24",
+      "game_id": "rolling-game-3121389769080bb6d6fd232195165c5036e1025da736713fef3506d0aa5b107a",
+      "opponent": "집가고싶다",
+      "side": "Y",
+      "outcome": "loss",
+      "opponent_rank": null,
+      "opponent_point_rate": null,
+      "evidence": {
+        "path": "records/official/round-20261001-1000/matches.json",
+        "line": 181,
+        "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+      }
+    },
+    {
+      "round_id": "20261001-1000",
+      "submission": 9,
+      "submission_link": "explicit UI all24",
+      "game_id": "rolling-game-2ba97520b4d73261b666daeee9669c08b4c07112536eb18acc0abfe50e4a9b82",
+      "opponent": "우트와 윤트",
+      "side": "Y",
+      "outcome": "win",
+      "opponent_rank": null,
+      "opponent_point_rate": null,
+      "evidence": {
+        "path": "records/official/round-20261001-1000/matches.json",
+        "line": 189,
+        "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+      }
+    },
+    {
+      "round_id": "20261001-1000",
+      "submission": 9,
+      "submission_link": "explicit UI all24",
+      "game_id": "rolling-game-1dc094cbffe48eaa739051fba709c0540d274c38d7ad86681e978aa3556dba18",
+      "opponent": "뚜띠태하소불고기와멸치두명",
+      "side": "Y",
+      "outcome": "loss",
+      "opponent_rank": null,
+      "opponent_point_rate": null,
+      "evidence": {
+        "path": "records/official/round-20261001-1000/matches.json",
+        "line": 197,
+        "sha256": "1bc8050bd4c03aba743358c4d179ec4ea1d7543cbeafee828e78788c7c03c833"
+      }
+    },
+    {
+      "round_id": "20260929-1000",
+      "submission": 7,
+      "submission_link": "round-level UI record",
+      "game_id": "rolling-game-df846673072f5ce6a57407eaf7db2cb282c9b0ec9813c5156d02d4b7ad3c451a",
+      "opponent": "참새 사냥꾼",
+      "side": "Y",
+      "outcome": "loss",
+      "opponent_rank": null,
+      "evidence": {
+        "path": "records/deadline/20260929/live-site.md",
+        "line": 16,
+        "sha256": "a70dcb521419b281f4056f69842bb388fad3390430af771dd054b1b619bef9e4"
+      }
+    },
+    {
+      "round_id": "20260929-1000",
+      "submission": 7,
+      "submission_link": "round-level UI record",
+      "game_id": "rolling-game-91e0f2a45ee9eb9c8030b3709161dd971786645287e432e7ce1730a0565d6c13",
+      "opponent": "ㄱ-",
+      "side": "Y",
+      "outcome": "loss",
+      "opponent_rank": null,
+      "evidence": {
+        "path": "records/deadline/20260929/live-site.md",
+        "line": 16,
+        "sha256": "a70dcb521419b281f4056f69842bb388fad3390430af771dd054b1b619bef9e4"
+      }
+    },
+    {
+      "round_id": "20260929-1000",
+      "submission": 7,
+      "submission_link": "round-level UI record",
+      "game_id": "rolling-game-6b6d7b3922baefa6c675f4f078d79d8cd329396afdfc063928af0a3f4ffb0c21",
+      "opponent": "어잌후",
+      "side": "Y",
+      "outcome": "loss",
+      "opponent_rank": null,
+      "evidence": {
+        "path": "records/deadline/20260929/live-site.md",
+        "line": 16,
+        "sha256": "a70dcb521419b281f4056f69842bb388fad3390430af771dd054b1b619bef9e4"
+      }
+    },
+    {
+      "round_id": "20260929-1000",
+      "submission": 7,
+      "submission_link": "round-level UI record",
+      "game_id": "rolling-game-45d87f1ff685dbebc410d6b6f6cb0c93d6cedbf886906a0ca3a6f813414e64ee",
+      "opponent": "렛츠고",
+      "side": "Y",
+      "outcome": "loss",
+      "opponent_rank": null,
+      "evidence": {
+        "path": "records/deadline/20260929/live-site.md",
+        "line": 16,
+        "sha256": "a70dcb521419b281f4056f69842bb388fad3390430af771dd054b1b619bef9e4"
+      }
+    },
+    {
+      "round_id": "20260929-1000",
+      "submission": 7,
+      "submission_link": "round-level UI record",
+      "game_id": "rolling-game-4174287629a8963043d57866ba1a1a4c5286907b9b3bf5fd0947cca809681fa7",
+      "opponent": "우트와 윤트",
+      "side": "Y",
+      "outcome": "loss",
+      "opponent_rank": null,
+      "evidence": {
+        "path": "records/deadline/20260929/live-site.md",
+        "line": 16,
+        "sha256": "a70dcb521419b281f4056f69842bb388fad3390430af771dd054b1b619bef9e4"
+      }
+    },
+    {
+      "round_id": "20260929-1000",
+      "submission": 7,
+      "submission_link": "round-level UI record",
+      "game_id": "rolling-game-1db4b9df1bc49715653c777bc09f5863eb031382d0d3e7eca9b14760556a5e90",
+      "opponent": "뉴비들",
+      "side": "Y",
+      "outcome": "loss",
+      "opponent_rank": null,
+      "evidence": {
+        "path": "records/deadline/20260929/live-site.md",
+        "line": 16,
+        "sha256": "a70dcb521419b281f4056f69842bb388fad3390430af771dd054b1b619bef9e4"
+      }
+    },
+    {
+      "round_id": "20260929-1000",
+      "submission": 7,
+      "submission_link": "round-level UI record",
+      "game_id": null,
+      "opponent": "집가고싶다",
+      "side": "Y",
+      "outcome": "win",
+      "opponent_rank": null,
+      "evidence": {
+        "path": "records/deadline/20260929/live-site.md",
+        "line": 16,
+        "sha256": "a70dcb521419b281f4056f69842bb388fad3390430af771dd054b1b619bef9e4"
+      }
+    },
+    {
+      "round_id": "20260929-1000",
+      "submission": 7,
+      "submission_link": "round-level UI record",
+      "game_id": null,
+      "opponent": "태호랑이",
+      "side": "Y",
+      "outcome": "win",
+      "opponent_rank": null,
+      "evidence": {
+        "path": "records/deadline/20260929/live-site.md",
+        "line": 16,
+        "sha256": "a70dcb521419b281f4056f69842bb388fad3390430af771dd054b1b619bef9e4"
+      }
+    },
+    {
+      "round_id": "20260929-1000",
+      "submission": 7,
+      "submission_link": "round-level UI record",
+      "game_id": null,
+      "opponent": "Yaar",
+      "side": "Y",
+      "outcome": "win",
+      "opponent_rank": null,
+      "evidence": {
+        "path": "records/deadline/20260929/live-site.md",
+        "line": 16,
+        "sha256": "a70dcb521419b281f4056f69842bb388fad3390430af771dd054b1b619bef9e4"
+      }
+    },
+    {
+      "round_id": "20260929-1000",
+      "submission": 7,
+      "submission_link": "round-level UI record",
+      "game_id": null,
+      "opponent": "파스텔",
+      "side": "Y",
+      "outcome": "win",
+      "opponent_rank": null,
+      "evidence": {
+        "path": "records/deadline/20260929/live-site.md",
+        "line": 16,
+        "sha256": "a70dcb521419b281f4056f69842bb388fad3390430af771dd054b1b619bef9e4"
+      }
+    },
+    {
+      "round_id": "20260929-1000",
+      "submission": 7,
+      "submission_link": "round-level UI record",
+      "game_id": null,
+      "opponent": "올림픽 정신",
+      "side": "Y",
+      "outcome": "win",
+      "opponent_rank": null,
+      "evidence": {
+        "path": "records/deadline/20260929/live-site.md",
+        "line": 16,
+        "sha256": "a70dcb521419b281f4056f69842bb388fad3390430af771dd054b1b619bef9e4"
+      }
+    },
+    {
+      "round_id": "20260929-1000",
+      "submission": 7,
+      "submission_link": "round-level UI record",
+      "game_id": null,
+      "opponent": "초짜들",
+      "side": "Y",
+      "outcome": "win",
+      "opponent_rank": null,
+      "evidence": {
+        "path": "records/deadline/20260929/live-site.md",
+        "line": 16,
+        "sha256": "a70dcb521419b281f4056f69842bb388fad3390430af771dd054b1b619bef9e4"
+      }
+    }
+  ],
+  "current_rows": 131,
+  "current_rounds": 9,
+  "known_ids": 61,
+  "historical_outcome_mismatches": [],
+  "note": "Explicit latest UI all131 rows; 61 game IDs joined using exact round/submission/opponent/side from prior archive. Unknown IDs remain null. Do not sum prior records again."
+}

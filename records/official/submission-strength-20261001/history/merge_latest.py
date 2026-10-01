@@ -1,0 +1,28 @@
+from pathlib import Path
+import json,hashlib,collections,datetime
+H=Path(__file__).resolve().parent;P=H.parent;d=json.loads((H/'history.json').read_text());old=json.loads((H/'historical-matches.json').read_text());live=json.loads((P/'data/matches.json').read_text());lb=json.loads((P/'data/leaderboard-latest.json').read_text())
+assert len(live['rows'])==131 and len(lb['rows'])==87
+labels={'20260927-2200-revised':'9월 27일 22:00','20260928-1000':'9월 28일 10:00','20260929-1000':'9월 29일 10:00','20261001-0030-label':'10월 1일 00:30','20261001-1000':'10월 1일 10:00'}
+prior=old.get('pre_latest_retained_matches',old['matches']);bykey={(labels[m['round_id']],m['submission'],m['opponent'],m['side']):m for m in prior}
+groups=collections.defaultdict(list);new=[];mismatches=[]
+for i,arr in enumerate(live['rows']):
+ row=dict(zip(live['columns'],arr));key=tuple(row[k] for k in ('round_label','submission','opponent','side'));past=bykey.get(key);outcome={'승리':'win','패배':'loss','무승부':'draw'}[row['result']]
+ if past and past['outcome']!=outcome:mismatches.append({'key':key,'past':past['outcome'],'new':outcome})
+ new.append({'round_label':row['round_label'],'submission':row['submission'],'opponent':row['opponent'],'side':row['side'],'outcome':outcome,'points':row['points'],'game_id':past.get('game_id') if past else None,'latest_UI_row_1based':i+1,'latest_source':'../data/matches.json','historical_details':past})
+ groups[row['round_label'],row['submission']].append(new[-1])
+assert not mismatches,mismatches
+assert len({(m['round_label'],m['submission'],m['opponent'],m['side']) for m in new})==131
+current=[]
+for (label,version),ms in groups.items():
+ c=collections.Counter(m['outcome'] for m in ms);current.append({'id':label,'round_label':label,'submission':version,'games':len(ms),'wins':c['win'],'draws':c['draw'],'losses':c['loss'],'raw_point_rate':sum(m['points'] for m in ms)/len(ms),'source':'../data/matches.json','source_sha256':hashlib.sha256((P/'data/matches.json').read_bytes()).hexdigest(),'captured_at_kst':live['captured_at_kst'],'linkage':'Explicit submission in authenticated all131 UI rows; no attribution from upload time','opponent_version_known':False})
+for s in d['submissions']:
+ own=[x for x in current if x['submission']==s['server_submission']];s['official_round_ids_current']=[x['id'] for x in own];s['official_total_current']={k:sum(x[k] for x in own) for k in ['games','wins','draws','losses']};s['official_total_current']['scope']='all131 currently rendered official match rows';s['official_round_ids']=s['official_round_ids_current']
+if 'historical_round_snapshots' not in d:d['historical_round_snapshots']=d['official_rounds']
+d['official_rounds']=current;d['latest_capture']=dict(captured_at_kst=live['captured_at_kst'],match_rows=131,match_checksum=live['checksum'],leaderboard_rows=87,leaderboard_checksum=lb['checksum'],latest_publication=lb['published_at_kst'],read_only_new_live_input=True)
+d['scope']='Historical source/ZIP identity and current all131 official match UI rows merged. Server/local versions remain distinct; opponent strength modeling is separate.'
+d['gaps']=['server5/6/7 source ZIP unavailable in retained archive','server9 and10 actual source equality unknown','No retained full 10/1 10:00 leaderboard; rank changes may support only explicitly inferred past ranks, not missing WDL or point rates','Historical adjusted score formula undocumented; late point rates are not adjusted scores','Opponent versions can differ for same team','Server8 and11 source files identical does not equate maps/opponents/runtime or expected outcomes','Latest131UI includes explicit round+submission+opponent but no game IDs;61 IDs were joined from retained history']
+d['leaderboard_1000_search']={'found':False,'searched_repository':'/tmp/yk-new-bot-20261001','methods':['rg --files for leaderboard/site-observations/site-review','rg -l rank/our_rank/ranked_rows/adjusted_percent/adjusted_score_percent in records/official and records/research/new-bot-20261001 JSONs'],'retained_tables':['round1/site-observations: old5 opponent rank/adjusted','round2/site-observations and opponent-intel leaderboards:9/28 10:00 104teams56ranked','latest-20261001/leaderboard.json:10/1 00:09 23retained rows','round-20261001-1000/matches.json:ourrank50only'],'qualification':'No1000fullopponentWDLtable in preserved repository. Search result is archive absence, not proof website never displayed it.'}
+d['metric_inventory'].append({'id':'current-1700-full','source':'../data/leaderboard-latest.json','publication':lb['published_at_kst'],'kind':'rank+w/d/l/errors/games; derived raw point rate','retained_teams':87,'complete_leaderboard':True})
+d['zip_source_identity_recheck']={'server_submissions':[8,11],'zip_hashes_different':True,'member_names_equal':True,'every_member_sha256_equal':True,'member_count':4,'main_cpp_sha256':d['submissions'][7]['local_artifact']['entry_source_sha256'],'server_download_hash_checked':False,'identity_scope':'Directly inspected local ZIPs actually named in each authenticated upload receipt; no server ZIP hash exposed.'}
+(H/'history.json').write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n');(H/'historical-matches.json').write_text(json.dumps({'matches':new,'pre_latest_retained_matches':prior,'current_rows':131,'current_rounds':9,'known_ids':sum(x['game_id'] is not None for x in new),'historical_outcome_mismatches':mismatches,'note':'Explicit latest UI all131 rows; 61 game IDs joined using exact round/submission/opponent/side from prior archive. Unknown IDs remain null. Do not sum prior records again.'},ensure_ascii=False,indent=2)+'\n')
+print(json.dumps(current,ensure_ascii=False));print('totals',[(s['server_submission'],s['official_total_current']) for s in d['submissions']])
