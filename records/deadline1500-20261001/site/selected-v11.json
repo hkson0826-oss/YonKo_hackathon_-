@@ -14,5 +14,7 @@
   "build_log": "Source validated and image assembled. Actual game protocol smoke is pending.",
   "observation_method": "Authenticated Chrome UI using CUA; full page not archived to avoid account PII and temporary signed log URLs. Exact uploaded bytes locally hashed; server does not expose ZIP hash in this UI.",
   "deadline_kst": "2026-10-01T15:00:00+09:00",
-  "practice_status": "not yet run"
+  "practice_status": "completed high bot Y10/10, normal execution",
+  "refresh_recheck_at_kst": "2026-10-01T14:44:20.326307+09:00",
+  "refresh_recheck": "Fresh page still shows v11 usable and selected"
 }

@@ -1,0 +1,26 @@
+{
+  "checked_at_kst": "2026-10-01T14:44:20.326307+09:00",
+  "url": "https://yonsei-vs-korea-hackathon.kr/practice",
+  "request_time_display_kst": "2026-10-01 14:40",
+  "server_submission": 11,
+  "team_side": "Y",
+  "opponent_display": "상 · 도전용",
+  "status": "완료",
+  "wins": 10,
+  "games": 10,
+  "runtime_display": "정상 실행",
+  "runtime_message": "테스트에서 실행 오류가 발견되지 않았습니다.",
+  "replay_urls": [
+    "https://yonsei-vs-korea-hackathon.kr/matches/01a0f5fa-b27e-7659-9f19-b800d1ee2c6c",
+    "https://yonsei-vs-korea-hackathon.kr/matches/01a0f5fa-b27e-7874-aee2-24b999597484",
+    "https://yonsei-vs-korea-hackathon.kr/matches/01a0f5fa-b27e-7dee-acf6-04cb30ca77b5",
+    "https://yonsei-vs-korea-hackathon.kr/matches/01a0f5fa-b27e-7860-b8ee-c35b83f453ba",
+    "https://yonsei-vs-korea-hackathon.kr/matches/01a0f5fa-b27e-76d6-a650-b8c12f94bc15",
+    "https://yonsei-vs-korea-hackathon.kr/matches/01a0f5fa-b27e-7b01-893b-fda584c1d1e9",
+    "https://yonsei-vs-korea-hackathon.kr/matches/01a0f5fa-b27e-763d-97bc-4cd5ce954416",
+    "https://yonsei-vs-korea-hackathon.kr/matches/01a0f5fa-b27e-736f-8751-c51ea9bb278d",
+    "https://yonsei-vs-korea-hackathon.kr/matches/01a0f5fa-b27e-789d-a057-2c6dd85784f7",
+    "https://yonsei-vs-korea-hackathon.kr/matches/01a0f5fa-b27e-7fed-ba3f-e928ae7801a1"
+  ],
+  "scope": "Authenticated UI result, 10 Y-side games versus official high practice bot. Does not establish competitive rank or superiority over all participants. Replay bodies were not downloaded in this submission turn."
+}
