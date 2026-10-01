@@ -1,0 +1,126 @@
+{
+  "date": "2026-10-01",
+  "request": "Review fresh teammate branches; test the claimed strong siphon against current local baselines; prioritize latest official games.",
+  "candidates": {
+    "siphon": "submissions/team-siphon-20261001",
+    "v9_main": "submissions/team-v9_main-20261001",
+    "v9_lock": "submissions/team-v9_lock-20261001",
+    "v8": "submissions/deadline-20260929-guard3",
+    "mission4": "submissions/mission-scheduler-v4-20261001"
+  },
+  "source_manifest": "source-manifest.json",
+  "runtime_args": {
+    "v9_main": [
+      "--attack-seed=20261001"
+    ],
+    "siphon": [],
+    "v9_lock": []
+  },
+  "rng_limits": [
+    "v9_lock has wall-clock-seeded RNG and no seed CLI; --attack-seed would silently select forced_policy=0 and must NOT be passed.",
+    "Timed-search baselines may vary even with fixed source and RNG.",
+    "All candidates remain unmodified throughout comparison."
+  ],
+  "stages": [
+    {
+      "run_id": "pilot-siphon",
+      "candidate": "siphon",
+      "opponents": [
+        "v8",
+        "mission4",
+        "v9_main",
+        "v9_lock"
+      ],
+      "maps": [
+        23100,
+        23101,
+        23102,
+        23103
+      ],
+      "games": 32
+    },
+    {
+      "run_id": "pilot-v9-variants",
+      "candidates": [
+        "v9_main",
+        "v9_lock"
+      ],
+      "opponents": [
+        "v8"
+      ],
+      "maps": [
+        23100,
+        23101,
+        23102,
+        23103
+      ],
+      "games": 16
+    },
+    {
+      "run_id": "direct-confirmation",
+      "candidate": "siphon",
+      "opponents": [
+        "v8",
+        "mission4",
+        "v9_main",
+        "v9_lock"
+      ],
+      "maps": [
+        23200,
+        23201,
+        23202,
+        23203,
+        23204,
+        23205,
+        23206,
+        23207,
+        23208,
+        23209,
+        23210,
+        23211
+      ],
+      "games": 96
+    },
+    {
+      "run_id": "common-opponents",
+      "candidates": [
+        "siphon",
+        "v9_main",
+        "v9_lock",
+        "v8",
+        "mission4"
+      ],
+      "opponents": [
+        "s3_selective_contact",
+        "r3_opponent_league",
+        "j_balanced_portfolio"
+      ],
+      "maps": [
+        23300,
+        23301,
+        23302,
+        23303,
+        23304,
+        23305,
+        23306,
+        23307
+      ],
+      "games": 240
+    }
+  ],
+  "limits": {
+    "workers": 6,
+    "memory_per_match_mib": 384,
+    "turn_ms": 300,
+    "first_turn_ms": 3000,
+    "max_expected_games": 384,
+    "distinct_maps": 24
+  },
+  "stop_policy": "Freeze source and plan before runs. Pilot checks protocol/runtime; any error or forfeit pauses expansion for diagnosis. Do not change team source to improve results. If all pilots are valid, run the fixed confirmation/common comparison and keep every replay. No automatic server upload/selection.",
+  "analysis": [
+    "Y/K and opponent W/D/L; raw score margins distinct from leaderboard points",
+    "Paired map results and map-cluster uncertainty; time/RNG variability noted",
+    "All actual commands audited for clipping/ignored orders; production, losses, economy, endgame traced for representative losses",
+    "Official games use authenticated current round when available; old haemonye/v4 replays must not be presented as recent. Login currently pending."
+  ]
+}
